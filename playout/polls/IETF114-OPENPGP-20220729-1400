@@ -1,0 +1,155 @@
+[
+  {
+    "start_time": "2022-07-29T14:15:02Z",
+    "end_time": "2022-07-29T14:16:40Z",
+    "text": "do we keep draft-06 random padding scheme?",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 8
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 1
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T14:19:22Z",
+    "end_time": "2022-07-29T14:20:23Z",
+    "text": "make the change in in MR !206 related to AEAD decryption failure",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 15
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 0
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T14:32:03Z",
+    "end_time": "2022-07-29T14:33:03Z",
+    "text": "keep GCM as an option as per draft-06?",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 15
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 0
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T14:38:19Z",
+    "end_time": "2022-07-29T14:39:06Z",
+    "text": "keep HKDF for binding modes as per draft-06 ?",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 17
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 0
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T14:47:39Z",
+    "end_time": "2022-07-29T14:48:31Z",
+    "text": "Certificate-wide parameters live in a direct key sig for v5. Keep that?",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 8
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 0
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T14:56:32Z",
+    "end_time": "2022-07-29T14:57:16Z",
+    "text": "Revocation key subpacket is disallowed for v5 keys. Keep that?",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 10
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 0
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T15:05:05Z",
+    "end_time": "2022-07-29T15:05:52Z",
+    "text": "I'm happy with the changes to IANA registration rules (but we should give guidance to the DE)",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 11
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 0
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T15:18:52Z",
+    "end_time": "2022-07-29T15:19:40Z",
+    "text": "should we remove the signature checksum from v5 sigs?",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 5
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 2
+      }
+    }
+  },
+  {
+    "start_time": "2022-07-29T15:21:49Z",
+    "end_time": "2022-07-29T15:22:50Z",
+    "text": "should we state that implementations MUST reject signatures (v4 or v5) with incorrect signature checksums?",
+    "results": {
+      "1": {
+        "text": "raise_hand",
+        "value": "raise",
+        "count": 9
+      },
+      "2": {
+        "text": "do_not_raise_hand",
+        "value": "do_not_raise",
+        "count": 1
+      }
+    }
+  }
+]
