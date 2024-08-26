@@ -1,0 +1,509 @@
+{
+  "title": "IETF106-MLS-20191122-1000",
+  "filename": "IETF106-MLS-20191122-1000",
+  "start": 0,
+  "end": 6673000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "9nbp5iunmDE",
+      "start": 0.0,
+      "end": 6673000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "jabber scribe here",
+      "ptime": 100000.0,
+      "dtime": 1280000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "please prepend things you?d like to have said from the mic with ?mic:?",
+      "ptime": 118000.0,
+      "dtime": 1298000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "***Winston Felix Handte just joined the room",
+      "ptime": 164000.0,
+      "dtime": 1344000.0
+    },
+    {
+      "text": "Richard Barnes presenting",
+      "ptime": 201000.0,
+      "dtime": 1381000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "(with horrific pink slides)",
+      "ptime": 212000.0,
+      "dtime": 1392000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "***Yumi Sakemi just joined the room",
+      "ptime": 295000.0,
+      "dtime": 1475000.0
+    },
+    {
+      "text": "apologies, the slides are hard enough to read that we?re taking a moment to change the color scheme",
+      "ptime": 313000.0,
+      "dtime": 1493000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 317000.0,
+      "dtime": 1497000.0
+    },
+    {
+      "text": "ok, back on track!",
+      "ptime": 476000.0,
+      "dtime": 1656000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 671000.0,
+      "dtime": 1851000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "***Shwetha Bhandari just joined the room",
+      "ptime": 749000.0,
+      "dtime": 1929000.0
+    },
+    {
+      "text": "Proposals can\u0027t build on each other. Order doesn\u0027t matter",
+      "ptime": 772000.0,
+      "dtime": 1952000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "(holler if you?d like that said from the mic)",
+      "ptime": 791000.0,
+      "dtime": 1971000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "mic: If Richard doesn\u0027t say it",
+      "ptime": 805000.0,
+      "dtime": 1985000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "please",
+      "ptime": 808000.0,
+      "dtime": 1988000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "***Shwetha Bhandari just left the room",
+      "ptime": 834000.0,
+      "dtime": 2014000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 834000.0,
+      "dtime": 2014000.0
+    },
+    {
+      "text": "raphael robert at the mic",
+      "ptime": 859000.0,
+      "dtime": 2039000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "(sounds like Raphael made that point, Brendan)",
+      "ptime": 881000.0,
+      "dtime": 2061000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "^ yes, thank you",
+      "ptime": 892000.0,
+      "dtime": 2072000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "raphael again",
+      "ptime": 988000.0,
+      "dtime": 2168000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "ekr",
+      "ptime": 1039000.0,
+      "dtime": 2219000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "calvin",
+      "ptime": 1069000.0,
+      "dtime": 2249000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "ryo",
+      "ptime": 1156000.0,
+      "dtime": 2336000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "This is starting to sound very blockchainy",
+      "ptime": 1244000.0,
+      "dtime": 2424000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "slide: uified init/welcome",
+      "ptime": 1248000.0,
+      "dtime": 2428000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "I had that thought as well... this sounds like a double spend problem.",
+      "ptime": 1274000.0,
+      "dtime": 2454000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "***Michael Toomim just joined the room",
+      "ptime": 1356000.0,
+      "dtime": 2536000.0
+    },
+    {
+      "text": "Well you wouldn\u0027t care about \"double-spend\" because adding someone to a group twice (or removing them twice) is equivalent to adding (similar removing) them once.",
+      "ptime": 1364000.0,
+      "dtime": 2544000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "But proposed transactions, that get grouped together and committed by a peer, in an arbitrary order, is very blockchain.",
+      "ptime": 1422000.0,
+      "dtime": 2602000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Yes, i guess i meant that the solution is the same, not that the problem is the same",
+      "ptime": 1483000.0,
+      "dtime": 2663000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "calvin",
+      "ptime": 1500000.0,
+      "dtime": 2680000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "ekr",
+      "ptime": 1531000.0,
+      "dtime": 2711000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "calvin",
+      "ptime": 1650000.0,
+      "dtime": 2830000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "ekr",
+      "ptime": 1799000.0,
+      "dtime": 2979000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "Because there\u0027s a lot of keys, then it\u0027ll be a big CIK",
+      "ptime": 1832000.0,
+      "dtime": 3012000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "mic:",
+      "ptime": 1834000.0,
+      "dtime": 3014000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "got it",
+      "ptime": 1844000.0,
+      "dtime": 3024000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "Imagine supporting ECC and RSA. Even if you use ECC, you\u0027d always have to send RSA and everybody would have to store it",
+      "ptime": 1897000.0,
+      "dtime": 3077000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "raphael",
+      "ptime": 2040000.0,
+      "dtime": 3220000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "calvin",
+      "ptime": 2065000.0,
+      "dtime": 3245000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "ekr",
+      "ptime": 2217000.0,
+      "dtime": 3397000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "changes since draft-08",
+      "ptime": 2297000.0,
+      "dtime": 3477000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "***Jie Dong just joined the room",
+      "ptime": 2376000.0,
+      "dtime": 3556000.0
+    },
+    {
+      "text": "***Jie Dong just left the room",
+      "ptime": 2474000.0,
+      "dtime": 3654000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2474000.0,
+      "dtime": 3654000.0
+    },
+    {
+      "text": "calvin",
+      "ptime": 2622000.0,
+      "dtime": 3802000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "raphael",
+      "ptime": 2797000.0,
+      "dtime": 3977000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "jonathan lennox",
+      "ptime": 2875000.0,
+      "dtime": 4055000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "jonathan hoyland",
+      "ptime": 2942000.0,
+      "dtime": 4122000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "raphael",
+      "ptime": 2959000.0,
+      "dtime": 4139000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "(jonathan h and raphael talking back and forth between two ferns^H^H^H mics)",
+      "ptime": 3006000.0,
+      "dtime": 4186000.0,
+      "author": "joehall"
+    },
+    {
+      "text": ":)",
+      "ptime": 3024000.0,
+      "dtime": 4204000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "raphael up speaking",
+      "ptime": 3127000.0,
+      "dtime": 4307000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "slides: https://datatracker.ietf.org/meeting/106/materials/slides-106-mls-mls-protocol-open-questions",
+      "ptime": 3136000.0,
+      "dtime": 4316000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "richard barnes",
+      "ptime": 4030000.0,
+      "dtime": 5210000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "richard barnes",
+      "ptime": 4400000.0,
+      "dtime": 5580000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "calvin",
+      "ptime": 4450000.0,
+      "dtime": 5630000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "barnes again",
+      "ptime": 4505000.0,
+      "dtime": 5685000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "***Michael Toomim just left the room",
+      "ptime": 4599000.0,
+      "dtime": 5779000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4599000.0,
+      "dtime": 5779000.0
+    },
+    {
+      "text": "richard barnes",
+      "ptime": 4871000.0,
+      "dtime": 6051000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "barnes",
+      "ptime": 5059000.0,
+      "dtime": 6239000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "barnes",
+      "ptime": 5224000.0,
+      "dtime": 6404000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "(not actually Berdouch on the stage but Barnes)",
+      "ptime": 5258000.0,
+      "dtime": 6438000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "jonathan hoyland",
+      "ptime": 5343000.0,
+      "dtime": 6523000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "jonathan lennox",
+      "ptime": 5672000.0,
+      "dtime": 6852000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "hoyland",
+      "ptime": 5721000.0,
+      "dtime": 6901000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "raphael",
+      "ptime": 5820000.0,
+      "dtime": 7000000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "IESG has a ?no YOLO? policy, I suspect",
+      "ptime": 5858000.0,
+      "dtime": 7038000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "::)",
+      "ptime": 5860000.0,
+      "dtime": 7040000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "hoyland",
+      "ptime": 6030000.0,
+      "dtime": 7210000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "raphael",
+      "ptime": 6253000.0,
+      "dtime": 7433000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "calvin",
+      "ptime": 6481000.0,
+      "dtime": 7661000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "thanks folks! see you at the interim",
+      "ptime": 6598000.0,
+      "dtime": 7778000.0,
+      "author": "joehall"
+    },
+    {
+      "text": "Thank you!!",
+      "ptime": 6619000.0,
+      "dtime": 7799000.0,
+      "author": "Brendan McMillion"
+    },
+    {
+      "text": "***Brendan McMillion just left the room",
+      "ptime": 6625000.0,
+      "dtime": 7805000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6626000.0,
+      "dtime": 7806000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 6664000.0,
+      "dtime": 7844000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6664000.0,
+      "dtime": 7844000.0
+    },
+    {
+      "text": "***Yumi Sakemi just left the room",
+      "ptime": 6672000.0,
+      "dtime": 7852000.0
+    },
+    {
+      "text": "***Winston Felix Handte just left the room",
+      "ptime": 6672000.0,
+      "dtime": 7852000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6673000.0,
+      "dtime": 7853000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6673000.0,
+      "dtime": 7853000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-MLS-20191122-1000"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+
+{
+	"title": "IETF118-BPF-20231106-0830",
+	"filename": "IETF118-BPF-20231106-0830",
+	"start": 0,
+	"end": 6526000,
+	"start_datetime": "2023-11-06T08:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "lsVbVJ8yU3w",
+    "start": 0,
+    "end": "6526000"
+  }
+],
+	"messages": [
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>Christoph: If you can type your comment in the chat one of us can relay it</p>",
+    "topic": "ietf-118",
+    "dtime": 1212000,
+    "ptime": 1212000
+  },
+  {
+    "author": "Christopher Inacio",
+    "text": "<p>@meetecho the speaker for remote participants is really hot and is distorting</p>",
+    "topic": "ietf-118",
+    "dtime": 1920000,
+    "ptime": 1920000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Christopher: monitoring but he stopped talking when we checked :)</p>",
+    "topic": "ietf-118",
+    "dtime": 2060000,
+    "ptime": 2060000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@Lorenzo Christoph will talk again next</p>",
+    "topic": "ietf-118",
+    "dtime": 2118000,
+    "ptime": 2118000
+  },
+  {
+    "author": "Christopher Inacio",
+    "text": "<p>@lorenzo he's talking and its a bit better, but still hot</p>",
+    "topic": "ietf-118",
+    "dtime": 2242000,
+    "ptime": 2242000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>In the room or in Meetecho? Sounds fine in Meetecho</p>",
+    "topic": "ietf-118",
+    "dtime": 2263000,
+    "ptime": 2263000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>In room</p>",
+    "topic": "ietf-118",
+    "dtime": 2271000,
+    "ptime": 2271000
+  },
+  {
+    "author": "Christopher Inacio",
+    "text": "<p>in the room<br>\nbut its fine at the in room mics</p>",
+    "topic": "ietf-118",
+    "dtime": 2278000,
+    "ptime": 2278000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, we'll go lower the injection volume in a sec</p>",
+    "topic": "ietf-118",
+    "dtime": 2368000,
+    "ptime": 2368000
+  },
+  {
+    "author": "Dan Kelley",
+    "text": "<p>yep, that is better</p>",
+    "topic": "ietf-118",
+    "dtime": 2497000,
+    "ptime": 2497000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Is it better now?</p>",
+    "topic": "ietf-118",
+    "dtime": 2542000,
+    "ptime": 2542000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Dan: ack!</p>",
+    "topic": "ietf-118",
+    "dtime": 2550000,
+    "ptime": 2550000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>some string name like \"ietfbpf=1\" or \"ibpf=v0.1\" would also be possible (to avoid 'cpu' naming), I would assume</p>",
+    "topic": "ietf-118",
+    "dtime": 2583000,
+    "ptime": 2583000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>at least I'm ok with having a cpuv3 equivalent, yes</p>",
+    "topic": "ietf-118",
+    "dtime": 2590000,
+    "ptime": 2590000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>yes on the atomics</p>",
+    "topic": "ietf-118",
+    "dtime": 2599000,
+    "ptime": 2599000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>throwing this in the chat here - I think the ability to call helper functions (and by which style) is a function of the program type</p>",
+    "topic": "ietf-118",
+    "dtime": 2653000,
+    "ptime": 2653000
+  },
+  {
+    "author": "David Vernet",
+    "text": "<p>Great presentation, thanks Dave</p>",
+    "topic": "ietf-118",
+    "dtime": 3578000,
+    "ptime": 3578000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>re \"the ability to call helper functions is a function of the program type\".  Sort of.  The ID used with it certainly is.  Whether or not you actually implement the instruction in the first place is not, in my view.</p>",
+    "topic": "ietf-118",
+    "dtime": 3682000,
+    "ptime": 3682000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"994\">@Christoph Hellwig</span> You mentioned you didn't like the excludes concept, so I'd invite you to propose another mechanism for handling future deprecation of instructions since I think the excludes concept is the simplest way I know of to deal with it.</p>",
+    "topic": "ietf-118",
+    "dtime": 4155000,
+    "ptime": 4155000
+  },
+  {
+    "author": "David Vernet",
+    "text": "<p>A recent discussion on this very topic as it relates to ARM: <a href=\"https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/arm-technical-view-on-relaxed-atomics\">https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/arm-technical-view-on-relaxed-atomics</a></p>",
+    "topic": "ietf-118",
+    "dtime": 4374000,
+    "ptime": 4374000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>no idea what's going on</p>",
+    "topic": "ietf-118",
+    "dtime": 5723000,
+    "ptime": 5723000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>let me grab a different headset</p>",
+    "topic": "ietf-118",
+    "dtime": 5727000,
+    "ptime": 5727000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>Christoph's audio is much better now than it was during my talk, thanks</p>",
+    "topic": "ietf-118",
+    "dtime": 5831000,
+    "ptime": 5831000
+  },
+  {
+    "author": "Dan Kelley",
+    "text": "<p>It seems that Christoph's got better and David's got worse</p>",
+    "topic": "ietf-118",
+    "dtime": 5902000,
+    "ptime": 5902000
+  },
+  {
+    "author": "David Vernet",
+    "text": "<p>:-(</p>",
+    "topic": "ietf-118",
+    "dtime": 6091000,
+    "ptime": 6091000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-BPF-20231106-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/bpf"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-BPF-20231106-0830"
+		}		
+	]
+}

@@ -1,0 +1,731 @@
+{
+  "title": "IETF106-DNSOP-20191119-1710",
+  "filename": "IETF106-DNSOP-20191119-1710",
+  "start": 0,
+  "end": 5295000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "dMg36eUhEvM",
+      "start": 0.0,
+      "end": 5295000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Ted Lemon just joined the room",
+      "ptime": 44000.0,
+      "dtime": 425000.0
+    },
+    {
+      "text": "***Peter Koch just joined the room",
+      "ptime": 67000.0,
+      "dtime": 448000.0
+    },
+    {
+      "text": "***Yoshiro YONEYA just joined the room",
+      "ptime": 110000.0,
+      "dtime": 491000.0
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 147000.0,
+      "dtime": 528000.0
+    },
+    {
+      "text": "***Vladim?r ?un?t just joined the room",
+      "ptime": 164000.0,
+      "dtime": 545000.0
+    },
+    {
+      "text": "***Wouter Wijngaards just joined the room",
+      "ptime": 166000.0,
+      "dtime": 547000.0
+    },
+    {
+      "text": "Tim, please back away from the microphone a bit.",
+      "ptime": 218000.0,
+      "dtime": 599000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "Ted, is it better now, or should I relay it in the room?",
+      "ptime": 288000.0,
+      "dtime": 669000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "It\u0027s kind of back and forth.  Right now he\u0027s not clipping, but he definitely doesn\u0027t need to be that close.",
+      "ptime": 315000.0,
+      "dtime": 696000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "I guess it doesn\u0027t need to be an interrupt?I was hoping Tim was in front of a jabber feed.",
+      "ptime": 342000.0,
+      "dtime": 723000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "Btw: Everyone, I\u0027m the jabber scribe for today ? if you want to have anything relayed at the mic, please prepend it with [mic]",
+      "ptime": 354000.0,
+      "dtime": 735000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "also remove the mirroring to MIDRA notification",
+      "ptime": 357000.0,
+      "dtime": 738000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "Thanks, Tim\u0027!",
+      "ptime": 364000.0,
+      "dtime": 745000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "Thank you, Tim!",
+      "ptime": 382000.0,
+      "dtime": 763000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Pleasure ;-)",
+      "ptime": 468000.0,
+      "dtime": 849000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "***Petr ?pa?ek just left the room",
+      "ptime": 475000.0,
+      "dtime": 856000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 476000.0,
+      "dtime": 857000.0
+    },
+    {
+      "text": "***Petr ?pa?ek just joined the room",
+      "ptime": 479000.0,
+      "dtime": 860000.0
+    },
+    {
+      "text": "***Hugh Dixon just joined the room",
+      "ptime": 550000.0,
+      "dtime": 931000.0
+    },
+    {
+      "text": "(And greetings, Ted, from 2.5 hours north of you! ?)",
+      "ptime": 558000.0,
+      "dtime": 939000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "What\u0027s the local time for you guys? Must be in the middle of the night, isn\u0027t it?",
+      "ptime": 588000.0,
+      "dtime": 969000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "Tim - This one isn\u0027t too bad... it\u0027s only 4:19am here in Vermont.",
+      "ptime": 619000.0,
+      "dtime": 1000000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Europe is fortunate.",
+      "ptime": 627000.0,
+      "dtime": 1008000.0,
+      "author": "Vladim?r ?un?t"
+    },
+    {
+      "text": "Probably will NOT join the Thursday session ;-)",
+      "ptime": 633000.0,
+      "dtime": 1014000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Still tough. Great that you\u0027re joining in anyway",
+      "ptime": 661000.0,
+      "dtime": 1042000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "***John Levine just joined the room",
+      "ptime": 1044000.0,
+      "dtime": 1425000.0
+    },
+    {
+      "text": "Is it possible for someone to dismiss the box on the Chromebook \"Mirroring to MIDRA Series\"? It\u0027s kind of annoying to see it down in the lower right.  I suspect this is on one of the presentation laptops up on the podium.",
+      "ptime": 1110000.0,
+      "dtime": 1491000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Done",
+      "ptime": 1146000.0,
+      "dtime": 1527000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "Thank you!",
+      "ptime": 1148000.0,
+      "dtime": 1529000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Sue: the perfect is the enemy of the good. Current zone digest has utility and should go forward, IMHO.",
+      "ptime": 1233000.0,
+      "dtime": 1614000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "I don\u0027t care whether this is experimental or proposed standard though. :-)",
+      "ptime": 1261000.0,
+      "dtime": 1642000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "@shane is that for the mic?",
+      "ptime": 1266000.0,
+      "dtime": 1647000.0,
+      "author": "Suzanne"
+    },
+    {
+      "text": "***Olli Vanhoja just joined the room",
+      "ptime": 1270000.0,
+      "dtime": 1651000.0
+    },
+    {
+      "text": "Not necessary, as long as you see it. ;-)",
+      "ptime": 1285000.0,
+      "dtime": 1666000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Experimental sounds good especially because big zones are an open question.",
+      "ptime": 1469000.0,
+      "dtime": 1850000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "I think big zones are known to be a problem with the current approach. However, I don\u0027t know why this would argue for experimental?",
+      "ptime": 1539000.0,
+      "dtime": 1920000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "***Thomas Peterson just left the room",
+      "ptime": 1580000.0,
+      "dtime": 1961000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1580000.0,
+      "dtime": 1961000.0
+    },
+    {
+      "text": "***Olli Vanhoja just left the room",
+      "ptime": 1645000.0,
+      "dtime": 2026000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1645000.0,
+      "dtime": 2026000.0
+    },
+    {
+      "text": "Well, we don\u0027t know what size is \"too big\" in practice, especially on busy slave servers.",
+      "ptime": 1664000.0,
+      "dtime": 2045000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "***Olli Vanhoja just joined the room",
+      "ptime": 1683000.0,
+      "dtime": 2064000.0
+    },
+    {
+      "text": "this seems like a poor use for a scarce bit.",
+      "ptime": 1897000.0,
+      "dtime": 2278000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "[mic] TC\u003d1 in case where EDE overflows seems excessive, so I would say: Drop EDE, do NOT set TC\u003d1. New EDNS bit seems to be out of scope and should be specified in a separate document later.",
+      "ptime": 2002000.0,
+      "dtime": 2383000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "mic: bits are expensive",
+      "ptime": 2090000.0,
+      "dtime": 2471000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "Consensus! :D",
+      "ptime": 2298000.0,
+      "dtime": 2679000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "EDNS: hop-by-hop (except when it\u0027s not) :|",
+      "ptime": 2419000.0,
+      "dtime": 2800000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Is this the #badattitude chat?  I may have missed the memo... :)",
+      "ptime": 2515000.0,
+      "dtime": 2896000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 2663000.0,
+      "dtime": 3044000.0
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 2993000.0,
+      "dtime": 3374000.0
+    },
+    {
+      "text": "Not including any structure in the source field invites ad-hoc \"standards\".",
+      "ptime": 3303000.0,
+      "dtime": 3684000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "That may be okay.",
+      "ptime": 3329000.0,
+      "dtime": 3710000.0,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Well, it is not intended for machine consumption so it should be okay.",
+      "ptime": 3338000.0,
+      "dtime": 3719000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "I mean - EDE values should not be used for algorithmic decisions, and identified in form of blob is good enough for display purposes.",
+      "ptime": 3416000.0,
+      "dtime": 3797000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "mic: stop working about chain length.  recursive servers already have limits for this",
+      "ptime": 3814000.0,
+      "dtime": 4195000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "mic",
+      "ptime": 3838000.0,
+      "dtime": 4219000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "mike: keep the 0",
+      "ptime": 3844000.0,
+      "dtime": 4225000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "***Peter Koch just left the room",
+      "ptime": 3845000.0,
+      "dtime": 4226000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3846000.0,
+      "dtime": 4227000.0
+    },
+    {
+      "text": "SVCB sounds very good otherwise but I\u0027m worried about how long we need to have a fallback for clients that don\u0027t support aliaising with HTTPSSVC. Can I ever be certain that nobody needs an A record at apex for compat?",
+      "ptime": 3889000.0,
+      "dtime": 4270000.0,
+      "author": "Olli Vanhoja"
+    },
+    {
+      "text": "Olli, mic?",
+      "ptime": 3920000.0,
+      "dtime": 4301000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "mic: should is fine.  it isn\u0027t must",
+      "ptime": 3921000.0,
+      "dtime": 4302000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "[mic] Expanding on chain limits: Any latency would be introduced by site owner who also has incentive NOT to do stupid things to his own site. Also it would be hard to implement special chain lenght limits for just two RR types. Please keep the usual DNS behavior.",
+      "ptime": 4058000.0,
+      "dtime": 4439000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "yes",
+      "ptime": 4061000.0,
+      "dtime": 4442000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "Tim, (Y)",
+      "ptime": 4074000.0,
+      "dtime": 4455000.0,
+      "author": "Olli Vanhoja"
+    },
+    {
+      "text": "***Alex Band just joined the room",
+      "ptime": 4075000.0,
+      "dtime": 4456000.0
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 4136000.0,
+      "dtime": 4517000.0
+    },
+    {
+      "text": "***Alister Winfield just left the room",
+      "ptime": 4141000.0,
+      "dtime": 4522000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4141000.0,
+      "dtime": 4522000.0
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 4408000.0,
+      "dtime": 4789000.0
+    },
+    {
+      "text": "mic: Have developers of clients expressed interest in implementing SVCB / HTTPSVC?",
+      "ptime": 4469000.0,
+      "dtime": 4850000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Peter Koch just joined the room",
+      "ptime": 4471000.0,
+      "dtime": 4852000.0
+    },
+    {
+      "text": "(i.e. do we have people out there who are excited to implement this?)",
+      "ptime": 4510000.0,
+      "dtime": 4891000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "(waiting in line)",
+      "ptime": 4529000.0,
+      "dtime": 4910000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "@Dan: I believe some browsers like or are ok with it",
+      "ptime": 4615000.0,
+      "dtime": 4996000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "mic: add a sunset date for not using record at apex",
+      "ptime": 4667000.0,
+      "dtime": 5048000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": ":-)",
+      "ptime": 4700000.0,
+      "dtime": 5081000.0,
+      "author": "Vladim?r ?un?t"
+    },
+    {
+      "text": "***Safa Almalki just joined the room",
+      "ptime": 4749000.0,
+      "dtime": 5130000.0
+    },
+    {
+      "text": "mic:  wire format needs to be stable for early allocation",
+      "ptime": 4750000.0,
+      "dtime": 5131000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "+1 to getting the allocation for HTTPSSVC (or whatever name is used) done soon",
+      "ptime": 4833000.0,
+      "dtime": 5214000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "We\u0027ll work with IANA to make sure early allocation isn\u0027t requested until it\u0027s cooked.",
+      "ptime": 4924000.0,
+      "dtime": 5305000.0,
+      "author": "Suzanne"
+    },
+    {
+      "text": "***Peter Janssen just joined the room",
+      "ptime": 5036000.0,
+      "dtime": 5417000.0
+    },
+    {
+      "text": "Good to hear that Apple and Google Chrome are very interested. That is a very good sign",
+      "ptime": 5070000.0,
+      "dtime": 5451000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Yoshiro YONEYA just joined the room",
+      "ptime": 5086000.0,
+      "dtime": 5467000.0
+    },
+    {
+      "text": "***Peter Janssen just left the room",
+      "ptime": 5111000.0,
+      "dtime": 5492000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5111000.0,
+      "dtime": 5492000.0
+    },
+    {
+      "text": "(I just want the \"CNAME at apex\" functionality...)",
+      "ptime": 5132000.0,
+      "dtime": 5513000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 5173000.0,
+      "dtime": 5554000.0
+    },
+    {
+      "text": "@Dan: I just want the ESNI stuff:-)",
+      "ptime": 5185000.0,
+      "dtime": 5566000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Excellent.  A slot for discussing/complaining about cookies.",
+      "ptime": 5213000.0,
+      "dtime": 5594000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "***Hugo Salgado just left the room",
+      "ptime": 5239000.0,
+      "dtime": 5620000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5239000.0,
+      "dtime": 5620000.0
+    },
+    {
+      "text": "thanks, T?im",
+      "ptime": 5254000.0,
+      "dtime": 5635000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Alex Band just left the room",
+      "ptime": 5256000.0,
+      "dtime": 5637000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5256000.0,
+      "dtime": 5637000.0
+    },
+    {
+      "text": "Thanks everyone. \"See\" you on Thursday (or not, depending on your timezone)",
+      "ptime": 5259000.0,
+      "dtime": 5640000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "Next hackathon, John. :)",
+      "ptime": 5261000.0,
+      "dtime": 5642000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "***John Mah just left the room",
+      "ptime": 5280000.0,
+      "dtime": 5661000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5281000.0,
+      "dtime": 5662000.0
+    },
+    {
+      "text": "@sftcd: :)",
+      "ptime": 5283000.0,
+      "dtime": 5664000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Giovane Moura just left the room",
+      "ptime": 5291000.0,
+      "dtime": 5672000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5291000.0,
+      "dtime": 5672000.0
+    },
+    {
+      "text": "***Mark Andrews just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Ted Lemon just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Peter Koch just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Petr ?pa?ek just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Danny Chan just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Moritz Mueller just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Shane Kerr just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Vladim?r ?un?t just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Wouter Wijngaards just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Safa Almalki just left the room",
+      "ptime": 5294000.0,
+      "dtime": 5675000.0
+    },
+    {
+      "text": "***Tommy Jensen just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5295000.0,
+      "dtime": 5676000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-DNSOP-20191119-1710"
+    }
+  ]
+}

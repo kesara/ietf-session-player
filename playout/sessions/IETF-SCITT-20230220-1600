@@ -1,0 +1,175 @@
+
+{
+	"title": "IETF-SCITT-20230220-1600",
+	"filename": "IETF-SCITT-20230220-1600",
+	"start": 0,
+	"end": 3751000,
+	"start_datetime": "2023-02-20T16:00:01Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "8gdpz-56UA4",
+    "start": 0,
+    "end": "3751000"
+  }
+],
+	"messages": [
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Good day folks, thanks for the US folks that took their morning for the 3-day holiday weekend</p>",
+    "topic": "jabber",
+    "dtime": 49000,
+    "ptime": 49000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Audio failed. Restarting</p>",
+    "topic": "jabber",
+    "dtime": 108000,
+    "ptime": 108000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Sry, l8t, hotel wifi</p>",
+    "topic": "jabber",
+    "dtime": 336000,
+    "ptime": 336000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>+1<br>\nIt's a great forcing function.</p>",
+    "topic": "jabber",
+    "dtime": 656000,
+    "ptime": 656000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>+1 Neal. That's exactly what SCITT does. Dick's use is valid but is an application ON TOP OF SCITT</p>",
+    "topic": "jabber",
+    "dtime": 1177000,
+    "ptime": 1177000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>+1<br>\nSCITT is a means to gate/store and serve content that leads to decisions based on content from verifiable identities. Different consumers may choose different entities they choose to trust, based on their target environment.</p>",
+    "topic": "jabber",
+    "dtime": 1236000,
+    "ptime": 1236000
+  },
+  {
+    "author": "Yogesh Deshpande",
+    "text": "<p>Some how my Mute button is not working</p>",
+    "topic": "jabber",
+    "dtime": 1250000,
+    "ptime": 1250000
+  },
+  {
+    "author": "Yogesh Deshpande",
+    "text": "<p>I am back again</p>",
+    "topic": "jabber",
+    "dtime": 1307000,
+    "ptime": 1307000
+  },
+  {
+    "author": "Yogesh Deshpande",
+    "text": "<p>and seem to work now!</p>",
+    "topic": "jabber",
+    "dtime": 1314000,
+    "ptime": 1314000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>\"Common facts, uncommon conclusions.\" - Trustworthiness depends on the risk that the consumer is exposed to and will be different from cater to caller. Our present task is to create the fundamental building blocks for exchanging/storing/retrieving those facts, attributed to known parties, with certain longevity and anti-forgery properties.</p>",
+    "topic": "jabber",
+    "dtime": 1331000,
+    "ptime": 1331000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>We must avoid trying to bite off more than that or we'll never make progress</p>",
+    "topic": "jabber",
+    "dtime": 1360000,
+    "ptime": 1360000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>+1 I beleive we're building secure, verifiable pipes of information. SBOMs, VEX, statements today. Some new type of documents will source tomorrow. Can you trust the content of the document, based don't the relationship of the identifier.</p>",
+    "topic": "jabber",
+    "dtime": 1419000,
+    "ptime": 1419000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>The \"basic relying party policy\" should be of the form \"I want a recent statement about X from A registered in SCITT ledger B. Others may issue statements about X, and other SCITT ledgers may or may not register them, which matters in more advanced scenarios but the basic policy should be good useful enough for many relying parties.</p>",
+    "topic": "jabber",
+    "dtime": 2276000,
+    "ptime": 2276000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>@Bob Martin, I like your suggestion and I hope you can write it up a bit more so I can study it.</p>",
+    "topic": "jabber",
+    "dtime": 2433000,
+    "ptime": 2433000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Yes, @Jon Geater, I agree with the simple model that can't necessarily make a final \"trustable\" conclusion.</p>",
+    "topic": "jabber",
+    "dtime": 2528000,
+    "ptime": 2528000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>That is, the conclusion can be based on the evidence in the registry, but it will take an evaluation layer to do it.</p>",
+    "topic": "jabber",
+    "dtime": 2565000,
+    "ptime": 2565000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Very nice, Jon: self-driving cars with AI have \"lots of moving parts\"</p>",
+    "topic": "jabber",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Dick, I believe the generic trust statement would be of the form \"Registry R recorded that A said that X is trustworthy\". The statement must mention both R and A, and simple relying parties should used statically-configured values for R and for A. \"X is trustworthy\" is too hard to decide on its own.</p>",
+    "topic": "jabber",
+    "dtime": 3338000,
+    "ptime": 3338000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>The issue of visibility of an internal registry and how it can eventually placed in public-facing registry is an important capability that I am not sure we have addressed sufficiently in the user case.</p>",
+    "topic": "jabber",
+    "dtime": 3416000,
+    "ptime": 3416000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>-- use case.</p>",
+    "topic": "jabber",
+    "dtime": 3435000,
+    "ptime": 3435000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20230220-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-07/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20230220-1600"
+		}
+	]
+}

@@ -1,0 +1,350 @@
+
+{
+	"title": "IETF118-IVY-20231110-0830",
+	"filename": "IETF118-IVY-20231110-0830",
+	"start": 0,
+	"end": 7680000,
+	"start_datetime": "2023-11-10T08:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "SN5Nwey1-8Q",
+    "start": 0,
+    "end": "7680000"
+  }
+],
+	"messages": [
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Yes, let's adopt this one</p>",
+    "topic": "ietf-118",
+    "dtime": 636000,
+    "ptime": 636000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Marisol has a point here.</p>",
+    "topic": "ietf-118",
+    "dtime": 835000,
+    "ptime": 835000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p>What it is not clear to me is whether entitlement/license (or whatever name) has an impact on the base model or could  be addressed by a model which augments the base inventory model</p>",
+    "topic": "ietf-118",
+    "dtime": 958000,
+    "ptime": 958000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>Related to my question on have a choice statement, doing a quick grep of draft-y3bp-ivy-network-inventory-yang-00, I couldn't find any YANG choice statement, only a single leaf that defines the class of the component.</p>",
+    "topic": "ietf-118",
+    "dtime": 2104000,
+    "ptime": 2104000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"74\">Robert Wilton</span> <a href=\"#narrow/stream/377-ivy/topic/ietf-118/near/101021\">said</a>:</p>\n<blockquote>\n<p>Related to my question on have a choice statement, doing a quick grep of draft-y3bp-ivy-network-inventory-yang-00, I couldn't find any YANG choice statement, only a single leaf that defines the class of the component.</p>\n</blockquote>\n<p>I think Chaode was thinking about the choice in the CCAMP draft but you are right that we have removed from the IVY individual draft</p>",
+    "topic": "ietf-118",
+    "dtime": 2169000,
+    "ptime": 2169000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p>I am also not sure we need a choice statement if we use a type leaf to identify the type of components</p>",
+    "topic": "ietf-118",
+    "dtime": 2196000,
+    "ptime": 2196000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p>but I agree that we need to provide some guidelines/placeholder for the component-specific augmentations</p>",
+    "topic": "ietf-118",
+    "dtime": 2228000,
+    "ptime": 2228000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>Looking at the software model you are using a when statement instead</p>",
+    "topic": "ietf-118",
+    "dtime": 2245000,
+    "ptime": 2245000
+  },
+  {
+    "author": "Marisol",
+    "text": "<p>ALMO, and DMALMO is able to augment the  base inventory model to include and link to functions/features. But it depends on what we consider as part of the base inventory model still.</p>",
+    "topic": "ietf-118",
+    "dtime": 2278000,
+    "ptime": 2278000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"74\">Robert Wilton</span> <a href=\"#narrow/stream/377-ivy/topic/ietf-118/near/101042\">said</a>:</p>\n<blockquote>\n<p>Looking at the software model you are using a when statement instead</p>\n</blockquote>\n<p>yes, that's was the idea when we decided to remove the choice</p>",
+    "topic": "ietf-118",
+    "dtime": 2282000,
+    "ptime": 2282000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>Okay, so I think that it would be helpful for the section describing how to extend this model to have text to indicate that this approach should be used.</p>",
+    "topic": "ietf-118",
+    "dtime": 2363000,
+    "ptime": 2363000
+  },
+  {
+    "author": "Marisol",
+    "text": "<p>we cover an example on the Appendix A for DMALMO  on how to do this extension</p>",
+    "topic": "ietf-118",
+    "dtime": 2611000,
+    "ptime": 2611000
+  },
+  {
+    "author": "Kireeti Kompella",
+    "text": "<p>To clarify, my suggestion was that the hw inventory in this WG should be limited to L2/L3 (not the topology)</p>",
+    "topic": "ietf-118",
+    "dtime": 2740000,
+    "ptime": 2740000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2576\">Kireeti Kompella</span> <a href=\"#narrow/stream/377-ivy/topic/ietf-118/near/101085\">said</a>:</p>\n<blockquote>\n<p>To clarify, my suggestion was that the hw inventory in this WG should be limited to L2/L3 (not the topology)</p>\n</blockquote>\n<p>I am a bit confused: what is the difference from an inventory perspective between an line card which performs L2/L3 functions and a line card with performs L0/L1 functions?</p>",
+    "topic": "ietf-118",
+    "dtime": 3007000,
+    "ptime": 3007000
+  },
+  {
+    "author": "Ron Bonica",
+    "text": "<p>I like the work allowance better than entitlement. The work entitlement has negative connotations in modern English</p>",
+    "topic": "ietf-118",
+    "dtime": 3348000,
+    "ptime": 3348000
+  },
+  {
+    "author": "Ron Bonica",
+    "text": "<p>s/work/word</p>",
+    "topic": "ietf-118",
+    "dtime": 3399000,
+    "ptime": 3399000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>ALMO is more an aggregator that is not augmenting the inventory base model and is more about the \"how\" side of things</p>",
+    "topic": "ietf-118",
+    "dtime": 3811000,
+    "ptime": 3811000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The work in this I-D is a very focused scope at a distinct layer than ALMO</p>",
+    "topic": "ietf-118",
+    "dtime": 3857000,
+    "ptime": 3857000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>There is a need to be consistent between the two layers and still think that both layers have distinct purposes</p>",
+    "topic": "ietf-118",
+    "dtime": 3895000,
+    "ptime": 3895000
+  },
+  {
+    "author": "Martin Stiemerling",
+    "text": "<p>Question (can't ask, bad Internet connection): power saving can have multiple levels of power saving. Is this represented in the model somehow?</p>",
+    "topic": "ietf-118",
+    "dtime": 4827000,
+    "ptime": 4827000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>functional dependency seems  not to be specific to the power use.</p>",
+    "topic": "ietf-118",
+    "dtime": 4833000,
+    "ptime": 4833000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1749\">@Marc Blanchet</span> Not yet.</p>",
+    "topic": "ietf-118",
+    "dtime": 4847000,
+    "ptime": 4847000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1914\">@Martin Stiemerling</span> Not yet</p>",
+    "topic": "ietf-118",
+    "dtime": 4861000,
+    "ptime": 4861000
+  },
+  {
+    "author": "Martin Stiemerling",
+    "text": "<p>But is it planned to be included?</p>",
+    "topic": "ietf-118",
+    "dtime": 4880000,
+    "ptime": 4880000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@Ron, it would good to include the classification in the power draft. See <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-netmod-rfc8407bis-03#name-yang-module-classification\">https://datatracker.ietf.org/doc/html/draft-ietf-netmod-rfc8407bis-03#name-yang-module-classification</a></p>",
+    "topic": "ietf-118",
+    "dtime": 5023000,
+    "ptime": 5023000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1914\">@Martin Stiemerling</span> Not currently. We would be happy to discuss.</p>",
+    "topic": "ietf-118",
+    "dtime": 5723000,
+    "ptime": 5723000
+  },
+  {
+    "author": "Martin Stiemerling",
+    "text": "<p>@Tony Li: I will get this to the mailing list! Thx.</p>",
+    "topic": "ietf-118",
+    "dtime": 5744000,
+    "ptime": 5744000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>I figured Rob might mention opsawg.  We've now had two sets of work that are power-related presented to opsawg.  There seems to be some interest there and might be a good place to at least start.</p>",
+    "topic": "ietf-118",
+    "dtime": 5798000,
+    "ptime": 5798000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>On this li-ivy draft, one comment I had was it might be nice to have a node that indicates if the power used is accurate or static.</p>",
+    "topic": "ietf-118",
+    "dtime": 5847000,
+    "ptime": 5847000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>\"how you use it\" is currently out of scope of the charter</p>",
+    "topic": "ietf-118",
+    "dtime": 5916000,
+    "ptime": 5916000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>For the power management, I think that OPSAWG is probably a better choice mainly because I think that it could potentially go faster.</p>",
+    "topic": "ietf-118",
+    "dtime": 5938000,
+    "ptime": 5938000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"413\">@Mohamed Boucadair</span>  Yes, that's intentional. We were trying to create something general. We're not picky about why components are interdependent, we just want it called out so that we can understand the requirements.  Why A depends on B is far less important than the fact that they ARE dependent.</p>",
+    "topic": "ietf-118",
+    "dtime": 5950000,
+    "ptime": 5950000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>My comment is that from a modelling standpoint you can consider moving out of \"power-specific\" data nodes so that this can be consumed by others</p>",
+    "topic": "ietf-118",
+    "dtime": 6004000,
+    "ptime": 6004000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>I also agreed with Kireeti that it may be better to focus modelling reporting the current power usage as a first step, and then focus on the optimization aspects.</p>",
+    "topic": "ietf-118",
+    "dtime": 6070000,
+    "ptime": 6070000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>As we've modeled it, the dependencies are directly under 'component', and so are not power-specific.</p>",
+    "topic": "ietf-118",
+    "dtime": 6074000,
+    "ptime": 6074000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>yes, but still one has to implement the power augmentation to make use of it</p>",
+    "topic": "ietf-118",
+    "dtime": 6124000,
+    "ptime": 6124000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>We could make it a separate augment if that's preferred.</p>",
+    "topic": "ietf-118",
+    "dtime": 6159000,
+    "ptime": 6159000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>We may also consider moving it to other \"ongoing\" pieces, including the base.</p>",
+    "topic": "ietf-118",
+    "dtime": 6208000,
+    "ptime": 6208000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Sure. We're flexible as to how it gets included.</p>",
+    "topic": "ietf-118",
+    "dtime": 6253000,
+    "ptime": 6253000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Unsurprisingly, Tony!</p>",
+    "topic": "ietf-118",
+    "dtime": 6278000,
+    "ptime": 6278000
+  },
+  {
+    "author": "Alex Huang Feng",
+    "text": "<p>Same comment, there is a YANG module missing in the dmalmo draft and struggling to see the full picture</p>",
+    "topic": "ietf-118",
+    "dtime": 6513000,
+    "ptime": 6513000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>For ALMO, we need to remind ourselves that we do have the following in the charter \"Work specifying the use of inventory content is outside the scope of<br>\nthe Working Group, but informative examples describing how the<br>\ninventory data may be used is within scope.\"</p>",
+    "topic": "ietf-118",
+    "dtime": 6539000,
+    "ptime": 6539000
+  },
+  {
+    "author": "Marisol",
+    "text": "<p>yes, I will add it next week. Bo mentioned to me this week as well, but it has been a problem when compiling and uploading in datatracker</p>",
+    "topic": "ietf-118",
+    "dtime": 6555000,
+    "ptime": 6555000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I think netmod is better for this work</p>",
+    "topic": "ietf-118",
+    "dtime": 6988000,
+    "ptime": 6988000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>I agree with Italo on what inventory elements are in scope.  The charter explicitly states:  inventory of network elements,<br>\nwith a primary focus on those that operate at layers 0-3, and includes<br>\nboth hardware and software inventory.</p>",
+    "topic": "ietf-118",
+    "dtime": 7604000,
+    "ptime": 7604000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-IVY-20231110-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/ivy"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-IVY-20231110-0830"
+		}		
+	]
+}

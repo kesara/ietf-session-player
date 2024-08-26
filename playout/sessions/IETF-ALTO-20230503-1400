@@ -1,0 +1,196 @@
+
+{
+	"title": "IETF-ALTO-20230503-1400",
+	"filename": "IETF-ALTO-20230503-1400",
+	"start": 0,
+	"end": 3775000,
+	"start_datetime": "2023-05-03T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "GT32rwV5bgE",
+    "start": 0,
+    "end": "3775000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ayoub MESSOUS",
+    "text": "<p>Hello everyone! <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 49000,
+    "ptime": 49000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>Luis hasn't joined us</p>",
+    "topic": "ietf-interim",
+    "dtime": 68000,
+    "ptime": 68000
+  },
+  {
+    "author": "Kai Gao",
+    "text": "<p>Is the meeting started? I don't hear Qin. Seems the mic is not on?</p>",
+    "topic": "ietf-interim",
+    "dtime": 269000,
+    "ptime": 269000
+  },
+  {
+    "author": "Kai Gao",
+    "text": "<p>I can hear you, Ayoub.</p>",
+    "topic": "ietf-interim",
+    "dtime": 301000,
+    "ptime": 301000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>I have audio problems, will rejoin</p>",
+    "topic": "ietf-interim",
+    "dtime": 384000,
+    "ptime": 384000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>I hear you</p>",
+    "topic": "ietf-interim",
+    "dtime": 442000,
+    "ptime": 442000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>I can hear you</p>",
+    "topic": "ietf-interim",
+    "dtime": 445000,
+    "ptime": 445000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>can you hear me</p>",
+    "topic": "ietf-interim",
+    "dtime": 448000,
+    "ptime": 448000
+  },
+  {
+    "author": "Jordi Ros-Giralt",
+    "text": "<p><a href=\"https://docs.google.com/spreadsheets/d/1P4GrhQz_t17jIWg-3b1ycldhBWEEgIAAUZe2vjeO_1U/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1P4GrhQz_t17jIWg-3b1ycldhBWEEgIAAUZe2vjeO_1U/edit?usp=sharing</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 679000,
+    "ptime": 679000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>Thank Kai and Jordi help take minutes</p>",
+    "topic": "ietf-interim",
+    "dtime": 959000,
+    "ptime": 959000
+  },
+  {
+    "author": "Y. Richard Yang",
+    "text": "<p>How about perfsonar as a data source? <a href=\"https://docs.google.com/presentation/d/1Mkq5D9ooYZILUlVesP10muoPrjYzBgtkL04nT0stG6o/edit#slide=id.g20eac61639c_0_60\">https://docs.google.com/presentation/d/1Mkq5D9ooYZILUlVesP10muoPrjYzBgtkL04nT0stG6o/edit#slide=id.g20eac61639c_0_60</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 1379000,
+    "ptime": 1379000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Not sure there is impact on BGP</p>",
+    "topic": "ietf-interim",
+    "dtime": 1724000,
+    "ptime": 1724000
+  },
+  {
+    "author": "Kai Gao",
+    "text": "<p>Seems to me that one potential extension to the ALTO protocol is the PID need to support integrated filters (e.g., \"ipv4:... and community:...\", or \"community:...\").</p>",
+    "topic": "ietf-interim",
+    "dtime": 2100000,
+    "ptime": 2100000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>I do not foresse impact on BGP, BGP is consumed as is. My doubt is regarding if the informationthat ALTO could retirve from BGP is enapug to work autonomously or if some further configuration could be required in ALTO for properly processing the BGP Communities stuff</p>",
+    "topic": "ietf-interim",
+    "dtime": 2124000,
+    "ptime": 2124000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Agree. Playing with same typical examples and see how the grafting can be made would be useful.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Shouldn't there be some filtering to control what is \"leaked\" from BGP-LS to ALTO maps?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2502000,
+    "ptime": 2502000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>@Med -&gt; ok for working on examples</p>",
+    "topic": "ietf-interim",
+    "dtime": 2668000,
+    "ptime": 2668000
+  },
+  {
+    "author": "Y. Richard Yang",
+    "text": "<p>For the multid-domain issue, I always wonder if there is an IETF effort for the upstream to notify the downstream about the next step selection?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2686000,
+    "ptime": 2686000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>@Med -&gt; regarding the leaking of information from BGP-LS, this is part of the processing I guess. So some filtering certaibly can be applied to the NLRIs of BGP-LS so that ALTO map processing can be alleviated</p>",
+    "topic": "ietf-interim",
+    "dtime": 2748000,
+    "ptime": 2748000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>Agree with Qin comment on TE</p>",
+    "topic": "ietf-interim",
+    "dtime": 3080000,
+    "ptime": 3080000
+  },
+  {
+    "author": "Y. Richard Yang",
+    "text": "<p>Great table, Jordi, Luis.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3460000,
+    "ptime": 3460000
+  },
+  {
+    "author": "Y. Richard Yang",
+    "text": "<p>Good idea, let CATS team know as well. Maybe more regular sync up among these two groups.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3642000,
+    "ptime": 3642000
+  },
+  {
+    "author": "Ayoub MESSOUS",
+    "text": "<p>Thank you all!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3741000,
+    "ptime": 3741000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-ALTO-20230503-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-alto-03/session/alto"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-ALTO-20230503-1400"
+		}
+	]
+}

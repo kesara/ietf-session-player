@@ -1,0 +1,546 @@
+
+{
+	"title": "IETF112-DMARC-20211109-1600",
+	"filename": "IETF112-DMARC-20211109-1600",
+	"start": 0,
+	"end": 3413000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "elYbOOfpNys",
+    "start": 0,
+    "end": "3413000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 113000,
+    "ptime": 113000,
+    "author": "John Levine",
+    "text": "Ale is here<br/>"
+  },
+  {
+    "dtime": 140000,
+    "ptime": 140000,
+    "author": "Tim Wicinski",
+    "text": "WE MUST GET TO ITEM #4<br/>"
+  },
+  {
+    "dtime": 151000,
+    "ptime": 151000,
+    "author": "sethblank@jabber.hot-chilli.net",
+    "text": "WE MUST AVOID ITEM #4 AT ALL COSTS<br/>"
+  },
+  {
+    "dtime": 396000,
+    "ptime": 396000,
+    "author": "John Levine",
+    "text": "Drat<br/>"
+  },
+  {
+    "dtime": 418000,
+    "ptime": 418000,
+    "author": "Tim Wicinski",
+    "text": "I am sad<br/>"
+  },
+  {
+    "dtime": 428000,
+    "ptime": 428000,
+    "author": "Trent Adams",
+    "text": "But I came for Topic 4!<br/>"
+  },
+  {
+    "dtime": 441000,
+    "ptime": 441000,
+    "author": "Tim Wicinski",
+    "text": "We are all here for Topic #4<br/>"
+  },
+  {
+    "dtime": 443000,
+    "ptime": 443000,
+    "author": "Tim Hollebeek",
+    "text": "IV. I like roman numerals<br/>"
+  },
+  {
+    "dtime": 463000,
+    "ptime": 463000,
+    "author": "Trent Adams",
+    "text": "Agreed!&nbsp;&nbsp;Especially VII! ;)<br/>"
+  },
+  {
+    "dtime": 597000,
+    "ptime": 597000,
+    "author": "Jim Fenton",
+    "text": "Anyone that wants to help with minutes, feel free to join me on HedgeDoc<br/>"
+  },
+  {
+    "dtime": 634000,
+    "ptime": 634000,
+    "author": "sethblank@jabber.hot-chilli.net",
+    "text": "thanks to the note takers<br/>"
+  },
+  {
+    "dtime": 760000,
+    "ptime": 760000,
+    "author": "Murray Kucherawy",
+    "text": "+1 to John, that's what I wanted to say at the mic<br/>"
+  },
+  {
+    "dtime": 762000,
+    "ptime": 762000,
+    "author": "Barry Leiba",
+    "text": "+1 to John<br/>"
+  },
+  {
+    "dtime": 773000,
+    "ptime": 773000,
+    "author": "Seth Blank",
+    "text": "+1 as well<br/>"
+  },
+  {
+    "dtime": 794000,
+    "ptime": 794000,
+    "author": "Tim Wicinski",
+    "text": "+1 to Mr Levine. <br/>"
+  },
+  {
+    "dtime": 839000,
+    "ptime": 839000,
+    "author": "Tim Wicinski",
+    "text": "I am not the DNS community, but do feel that tree walks are not considered horrible anymore<br/>"
+  },
+  {
+    "dtime": 872000,
+    "ptime": 872000,
+    "author": "Tim Hollebeek",
+    "text": "Yes, I'm in favor of anything that helps the public suffix list go away.&nbsp;&nbsp;Walks are more intuitive.<br/>"
+  },
+  {
+    "dtime": 887000,
+    "ptime": 887000,
+    "author": "John Levine",
+    "text": "The DNS crowd used to have religious objections to tree walk, but since the CAA record they seem to have lost faith<br/>"
+  },
+  {
+    "dtime": 964000,
+    "ptime": 964000,
+    "author": "Tim Wicinski",
+    "text": "I also think there have been enough operational improvements more standardized that assuages feelings<br/>"
+  },
+  {
+    "dtime": 1019000,
+    "ptime": 1019000,
+    "author": "John Levine",
+    "text": "dead horse metaphor<br/>"
+  },
+  {
+    "dtime": 1059000,
+    "ptime": 1059000,
+    "author": "Seth Blank",
+    "text": "Agreed on that as the rough consensus.<br/>"
+  },
+  {
+    "dtime": 1134000,
+    "ptime": 1134000,
+    "author": "Murray Kucherawy",
+    "text": "@John: Good point.<br/>"
+  },
+  {
+    "dtime": 1136000,
+    "ptime": 1136000,
+    "author": "Seth Blank",
+    "text": "Tim-- what was the bug with the original CAA implementation detail?<br/>"
+  },
+  {
+    "dtime": 1154000,
+    "ptime": 1154000,
+    "author": "Peter Koch",
+    "text": "load is only one issue with the tree walk (and maybe it isn't in practice), the implicit concept of inheritance, which isn't part of the DNS, is the protocol design issue; the PSL is a kludge, of course - so I'm waiting to the the \"next slide\" for the limitation of the walk ;-)<br/>"
+  },
+  {
+    "dtime": 1157000,
+    "ptime": 1157000,
+    "author": "Murray Kucherawy",
+    "text": "Also a good thing to record in some appendix to explain why a walk is fine now but wasn't before.<br/>"
+  },
+  {
+    "dtime": 1161000,
+    "ptime": 1161000,
+    "author": "Tim Hollebeek",
+    "text": "The original CAA tree walk tried to follow CNAMEs, instead of just going up the prefered tree<br/>"
+  },
+  {
+    "dtime": 1185000,
+    "ptime": 1185000,
+    "author": "Tim Hollebeek",
+    "text": "The results were ... hilarious and wrong.<br/>"
+  },
+  {
+    "dtime": 1194000,
+    "ptime": 1194000,
+    "author": "Seth Blank",
+    "text": "Ah, so you could get referential loops, weeee<br/>"
+  },
+  {
+    "dtime": 1199000,
+    "ptime": 1199000,
+    "author": "Tim Hollebeek",
+    "text": "yep<br/>"
+  },
+  {
+    "dtime": 1236000,
+    "ptime": 1236000,
+    "author": "Murray Kucherawy",
+    "text": "A very minor point: The layout of the bullets needs work; seems like 4-6 should be indented under 3.<br/>"
+  },
+  {
+    "dtime": 1321000,
+    "ptime": 1321000,
+    "author": "John Levine",
+    "text": "5 came from the deepest name in the existing PSL<br/>"
+  },
+  {
+    "dtime": 1347000,
+    "ptime": 1347000,
+    "author": "Seth Blank",
+    "text": "Data was shared to the list as to why 5 was chosen: the longest suffixes in the PSL have 4 parts, so 5 covers all existing suffixes<br/>"
+  },
+  {
+    "dtime": 1364000,
+    "ptime": 1364000,
+    "author": "Murray Kucherawy",
+    "text": "Seems legit.<br/>"
+  },
+  {
+    "dtime": 1455000,
+    "ptime": 1455000,
+    "author": "Jim Fenton",
+    "text": "Thanks for clarifying the choice<br/>"
+  },
+  {
+    "dtime": 1476000,
+    "ptime": 1476000,
+    "author": "John Levine",
+    "text": "paramater makes things not interoperate<br/>"
+  },
+  {
+    "dtime": 1507000,
+    "ptime": 1507000,
+    "author": "Jim Fenton",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 1707000,
+    "ptime": 1707000,
+    "author": "Seth Blank",
+    "text": "I think the max depth of the walk is a security consideration, and has some rough consensus on the list<br/>"
+  },
+  {
+    "dtime": 1725000,
+    "ptime": 1725000,
+    "author": "Alessandro Vesely",
+    "text": "if 5 comes from the PSL, we're still using the PSL.<br/>"
+  },
+  {
+    "dtime": 1752000,
+    "ptime": 1752000,
+    "author": "Autumn Tyr-Salvia",
+    "text": "It makes sense for there to be a minimum and a maximum for security and for people to understand what they can depend on definitely working, but I suppose there could be flexibility between min and max....<br/>"
+  },
+  {
+    "dtime": 1772000,
+    "ptime": 1772000,
+    "author": "Seth Blank",
+    "text": "The PSL is a registry of what people are using, so it's a proxy for what's needed in the real world. If 4 is the max used, that's a very good data point collected over the past decade.<br/>"
+  },
+  {
+    "dtime": 1780000,
+    "ptime": 1780000,
+    "author": "Ned Freed",
+    "text": "The argument that the PSL only has four levels seems persuasive to me.<br/>"
+  },
+  {
+    "dtime": 1850000,
+    "ptime": 1850000,
+    "author": "Ned Freed",
+    "text": "There has to be a minimum to insure interoperability, and best interop is achieved if it's also the maximum. There has to be a maximum for security reasons.<br/>"
+  },
+  {
+    "dtime": 1910000,
+    "ptime": 1910000,
+    "author": "Ned Freed",
+    "text": "To me this means that if we're going to switch to tree walk, we have to specify a single value, the only question is what that value should be.<br/>"
+  },
+  {
+    "dtime": 2086000,
+    "ptime": 2086000,
+    "author": "Murray Kucherawy",
+    "text": "+1 Seth<br/>"
+  },
+  {
+    "dtime": 2087000,
+    "ptime": 2087000,
+    "author": "John Levine",
+    "text": "unless we're planning to rerun DBOUND I hope not<br/>"
+  },
+  {
+    "dtime": 2131000,
+    "ptime": 2131000,
+    "author": "John Levine",
+    "text": "I run a K12.NY.US, it's useful but it's only 3 deep<br/>"
+  },
+  {
+    "dtime": 2142000,
+    "ptime": 2142000,
+    "author": "Peter Koch",
+    "text": "RFC 1480 is long since obsolete, isn't it - but how up away would one expect a DMARC entry to appear?<br/>"
+  },
+  {
+    "dtime": 2255000,
+    "ptime": 2255000,
+    "author": "John Levine",
+    "text": "@peter I am the registry for a bunch of &lt;place&gt;.NY.US domains. The existing ones aren't going away<br/>"
+  },
+  {
+    "dtime": 2258000,
+    "ptime": 2258000,
+    "author": "John Levine",
+    "text": "but they're only 3 deep<br/>"
+  },
+  {
+    "dtime": 2289000,
+    "ptime": 2289000,
+    "author": "Ned Freed",
+    "text": "Another way to look at it: Any security-conscious implementation is going to impose a maximum, no matter what the standard says.<br/>"
+  },
+  {
+    "dtime": 2319000,
+    "ptime": 2319000,
+    "author": "Jim Fenton",
+    "text": "But the fact that there are currently 3 level domains makes me wonder if we should tie the spec to a 4-level limit in the PSL.<br/>"
+  },
+  {
+    "dtime": 2367000,
+    "ptime": 2367000,
+    "author": "Peter Koch",
+    "text": "@john nobody expects ... but then, in this particular example, NY.US and US would not be proper query targets anyway<br/>"
+  },
+  {
+    "dtime": 2372000,
+    "ptime": 2372000,
+    "author": "Jim Fenton",
+    "text": "s/there are/these are/<br/>"
+  },
+  {
+    "dtime": 2452000,
+    "ptime": 2452000,
+    "author": "Ned Freed",
+    "text": "I understand the concerns here. But the constraints are what they are.<br/>"
+  },
+  {
+    "dtime": 2481000,
+    "ptime": 2481000,
+    "author": "Autumn Tyr-Salvia",
+    "text": "I worked with a few organizations that were using subdomain1.subdomain2.orgdomain.tld for sending, and a couple others that wanted to be able to do subdomain1.subdomain2.subdomain3.orgdomain.tld. Haven't heard of anyone wanting to send email beyond that at all.<br/>"
+  },
+  {
+    "dtime": 2522000,
+    "ptime": 2522000,
+    "author": "John Levine",
+    "text": "you can still send from those domains, you just can't have an org domain below level 4<br/>"
+  },
+  {
+    "dtime": 2535000,
+    "ptime": 2535000,
+    "author": "Murray Kucherawy",
+    "text": "I need to drop off.&nbsp;&nbsp;Please let me know if I have any AD homework.<br/>"
+  },
+  {
+    "dtime": 2573000,
+    "ptime": 2573000,
+    "author": "Ned Freed",
+    "text": "To reemphasize John's point, I've seen plenty of domains with many levels, but none that belong on the RHS of the @ in a From: field.<br/>"
+  },
+  {
+    "dtime": 2598000,
+    "ptime": 2598000,
+    "author": "Barry Leiba",
+    "text": "And I think what Ned just said is the key point.<br/>"
+  },
+  {
+    "dtime": 2888000,
+    "ptime": 2888000,
+    "author": "Alessandro Vesely",
+    "text": "<a href=\"https://datatracker.ietf.org/doc/html/draft-vesely-dmarc-mlm-transform\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-vesely-dmarc-mlm-transform</a><br/>"
+  },
+  {
+    "dtime": 2991000,
+    "ptime": 2991000,
+    "author": "Ned Freed",
+    "text": "Sorry, can't seem to get the mic working.<br/>"
+  },
+  {
+    "dtime": 3007000,
+    "ptime": 3007000,
+    "author": "Barry Leiba",
+    "text": "OK, type here if you like, and I'll channel.<br/>"
+  },
+  {
+    "dtime": 3032000,
+    "ptime": 3032000,
+    "author": "Ned Freed",
+    "text": "OK, let someone else go while I'm typing something.<br/>"
+  },
+  {
+    "dtime": 3116000,
+    "ptime": 3116000,
+    "author": "Seth Blank",
+    "text": "+1 to John-- seen a lot of drafts like this that haven't been able to make any headway<br/>"
+  },
+  {
+    "dtime": 3156000,
+    "ptime": 3156000,
+    "author": "John Levine",
+    "text": "\"Sometimes it works\" doesn't seem like a strong path to interoperability<br/>"
+  },
+  {
+    "dtime": 3185000,
+    "ptime": 3185000,
+    "author": "Pete Resnick",
+    "text": "Yeah, at most an Informational \"mitigations\" document.<br/>"
+  },
+  {
+    "dtime": 3226000,
+    "ptime": 3226000,
+    "author": "Ned Freed",
+    "text": "Sorry, had to restart things and couldn't hear the discussion. Anyway, in case it hasn't already been said, while I wish it were otherwise, I don't think this covers enough of the mutations to provide sufficient benefit given the costs.<br/>"
+  },
+  {
+    "dtime": 3284000,
+    "ptime": 3284000,
+    "author": "Ned Freed",
+    "text": "I *really* wish this weren't true.<br/>"
+  },
+  {
+    "dtime": 3293000,
+    "ptime": 3293000,
+    "author": "Pete Resnick",
+    "text": "+1 to both points.<br/>"
+  },
+  {
+    "dtime": 3305000,
+    "ptime": 3305000,
+    "author": "Bron Gondwana",
+    "text": "we now need to have an indirect discussion about it on the mailing list<br/>"
+  },
+  {
+    "dtime": 3319000,
+    "ptime": 3319000,
+    "author": "Pete Resnick",
+    "text": ":white_frowning_face:<br/>"
+  },
+  {
+    "dtime": 3324000,
+    "ptime": 3324000,
+    "author": "Seth Blank",
+    "text": "This is me singing, for anyone wondering.<br/>"
+  },
+  {
+    "dtime": 3330000,
+    "ptime": 3330000,
+    "author": "Trent Adams",
+    "text": "Woot!!&nbsp;&nbsp;Dancing time!<br/>"
+  },
+  {
+    "dtime": 3331000,
+    "ptime": 3331000,
+    "author": "Autumn Tyr-Salvia",
+    "text": "This seems pretty cool, but as others have said, perhaps not comprehensive enough to make it worth the work to try to overcome resistance.<br/>"
+  },
+  {
+    "dtime": 3334000,
+    "ptime": 3334000,
+    "author": "Bron Gondwana",
+    "text": "beautiful alto voice<br/>"
+  },
+  {
+    "dtime": 3336000,
+    "ptime": 3336000,
+    "author": "Todd Herr",
+    "text": "excellent falsetto, seth<br/>"
+  },
+  {
+    "dtime": 3340000,
+    "ptime": 3340000,
+    "author": "Jim Fenton",
+    "text": "yup<br/>"
+  },
+  {
+    "dtime": 3341000,
+    "ptime": 3341000,
+    "author": "Pete Resnick",
+    "text": "Oh heavens, let there be no dancing.<br/>"
+  },
+  {
+    "dtime": 3352000,
+    "ptime": 3352000,
+    "author": "Alessandro Vesely",
+    "text": "was that point 4?<br/>"
+  },
+  {
+    "dtime": 3359000,
+    "ptime": 3359000,
+    "author": "Pete Resnick",
+    "text": "Indeed it was.<br/>"
+  },
+  {
+    "dtime": 3365000,
+    "ptime": 3365000,
+    "author": "Bron Gondwana",
+    "text": "@Seth you should have heard my soprano descant to Ding Dong Merrily On High at choir tonight<br/>"
+  },
+  {
+    "dtime": 3379000,
+    "ptime": 3379000,
+    "author": "Bron Gondwana",
+    "text": "it was... well, it was mostly at pitch.&nbsp;&nbsp;I'll give it that<br/>"
+  },
+  {
+    "dtime": 3396000,
+    "ptime": 3396000,
+    "author": "Seth Blank",
+    "text": "thank you all!<br/>"
+  },
+  {
+    "dtime": 3404000,
+    "ptime": 3404000,
+    "author": "Tim Wicinski",
+    "text": "thanks boss<br/>"
+  },
+  {
+    "dtime": 3406000,
+    "ptime": 3406000,
+    "author": "Bron Gondwana",
+    "text": "thanks all!<br/>"
+  },
+  {
+    "dtime": 3408000,
+    "ptime": 3408000,
+    "author": "Autumn Tyr-Salvia",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 3409000,
+    "ptime": 3409000,
+    "author": "Ned Freed",
+    "text": "thanks everyone<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-DMARC-20211109-1600"
+		}
+	]
+}

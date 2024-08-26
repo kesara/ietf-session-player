@@ -1,0 +1,532 @@
+
+{
+	"title": "IETF116-OAUTH-20230328-0030",
+	"filename": "IETF116-OAUTH-20230328-0030",
+	"start": 0,
+	"end": 7430000,
+	"start_datetime": "2023-03-28T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "fi8RTPpAs2w",
+    "start": 0,
+    "end": "7430000"
+  }
+],
+	"messages": [
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I see a number of remote participants. Thanks for joining!</p>",
+    "topic": "ietf-116",
+    "dtime": 99000,
+    "ptime": 99000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>I'm happy for the more friendly US East coast time slot. Much better than the 2:30am JOSE meeting I joined this morning :)</p>",
+    "topic": "ietf-116",
+    "dtime": 173000,
+    "ptime": 173000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>As mentioned on the mailing list, we will schedule interim meetings</p>",
+    "topic": "ietf-116",
+    "dtime": 328000,
+    "ptime": 328000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Thanks for joining us in person Hannes</p>",
+    "topic": "ietf-116",
+    "dtime": 362000,
+    "ptime": 362000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>\"in person\" via Meetecho</p>",
+    "topic": "ietf-116",
+    "dtime": 503000,
+    "ptime": 503000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>missed opportunity with the t-shirts, could have been S_-J_T</p>",
+    "topic": "ietf-116",
+    "dtime": 953000,
+    "ptime": 953000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 1005000,
+    "ptime": 1005000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Thats not really holder binding, as you don't know how the holder was authenticated or if they were authenticated</p>",
+    "topic": "ietf-116",
+    "dtime": 1028000,
+    "ptime": 1028000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I am also wondering whether the term \"holder binding\" is the right term here.</p>",
+    "topic": "ietf-116",
+    "dtime": 1355000,
+    "ptime": 1355000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>How do you determine if JSON-LD is used ?</p>",
+    "topic": "ietf-116",
+    "dtime": 1372000,
+    "ptime": 1372000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>How do you handle the JSON-LD nested structures do they all have to be hashed the same or can they be different disclosure?</p>",
+    "topic": "ietf-116",
+    "dtime": 1572000,
+    "ptime": 1572000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>David, did you want to join the queue?</p>",
+    "topic": "ietf-116",
+    "dtime": 1581000,
+    "ptime": 1581000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>something like application/sd+jwt would confuse an implementation which wanted to process it as application/jwt - I don't think a +jwt suffix is appropriate</p>",
+    "topic": "ietf-116",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>compared to image/svg+xml, where it is entirely possible to interpret as application/xml</p>",
+    "topic": "ietf-116",
+    "dtime": 1617000,
+    "ptime": 1617000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I think we should talk to the experts on media types. There can easily be a lot of confusion for developers.</p>",
+    "topic": "ietf-116",
+    "dtime": 1691000,
+    "ptime": 1691000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Tony, on the JSON-LD issue: I would think that they hashed to the same disclosure. Do you have an example to look at?</p>",
+    "topic": "ietf-116",
+    "dtime": 1843000,
+    "ptime": 1843000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>In both approaches there is the possibility for the array being malformed. Approach one could have multiple _sd entries. Approach 2 could have entries without a sd: prefix.</p>",
+    "topic": "ietf-116",
+    "dtime": 2052000,
+    "ptime": 2052000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Agree, George. But a parser would be able to recognize the issue</p>",
+    "topic": "ietf-116",
+    "dtime": 2237000,
+    "ptime": 2237000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>Agree… I made the comment because one of the comments was an argument for approach one because in approach two an element in the array might not have the prefix. Also, it’s more than a JSON parser and is really a SD-JWT syntax validator.</p>",
+    "topic": "ietf-116",
+    "dtime": 2420000,
+    "ptime": 2420000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>Maybe for a service worker describe that \"storage used by the service worker should not be available to the main browser context of the application. Once suitable storage option is placing your service worker in different origin and using IndexDB.\".</p>",
+    "topic": "ietf-116",
+    "dtime": 3007000,
+    "ptime": 3007000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>with the problem described as \"main browsing context MUST NOT be able to access storage of the service worker\" for a BCP should be okay</p>",
+    "topic": "ietf-116",
+    "dtime": 3065000,
+    "ptime": 3065000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>agree</p>",
+    "topic": "ietf-116",
+    "dtime": 3087000,
+    "ptime": 3087000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>That might be better with the FedCM work. I would recommend exploring the work going on in the FedID Community Group in the W3C.</p>",
+    "topic": "ietf-116",
+    "dtime": 3091000,
+    "ptime": 3091000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>WebCrypto already has non-exportable keys, and I'im pretty sure you could use those for DPoP</p>",
+    "topic": "ietf-116",
+    "dtime": 3111000,
+    "ptime": 3111000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>which i think is about as good as you're going to do here, practically speaking</p>",
+    "topic": "ietf-116",
+    "dtime": 3121000,
+    "ptime": 3121000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>cryptographic holder binding is what the specification focuses on right now - so it is not holder authentication, but whether the same cryptographic keys are controlled by the holder during the presentation as during the issuance.</p>",
+    "topic": "ietf-116",
+    "dtime": 3151000,
+    "ptime": 3151000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>The WebCrypto API has come to my mind as well. I wonder whether this shouldn't be the way forward</p>",
+    "topic": "ietf-116",
+    "dtime": 3158000,
+    "ptime": 3158000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Should look at PRF option on webauthn for the secure storage  and crypto functions</p>",
+    "topic": "ietf-116",
+    "dtime": 3195000,
+    "ptime": 3195000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>if you're going to have something that is (a) non-stealable by XSS and (b) still presentable, then basically the only solution is cryptographic holder binding + non-exportable keys</p>",
+    "topic": "ietf-116",
+    "dtime": 3202000,
+    "ptime": 3202000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><code>cty</code> JOSE Header can be used to signal the body is JSON-LD, but I agree there are more nuances do we mandate <code>cty</code>? what if we don't, <code>cty</code> is missing and <code>@context</code> is blinded? etc..</p>",
+    "topic": "ietf-116",
+    "dtime": 3229000,
+    "ptime": 3229000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nadalin - Do you have a cite for that?  would be interested to learn more about what you mean there</p>",
+    "topic": "ietf-116",
+    "dtime": 3234000,
+    "ptime": 3234000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>for service workers, you need to avoid problem of shared 'memory' between the two environments (main browser and serviceworker); mostly means \"if you are using an API available to both and from the same origin...you are going to have a Bad Day(tm)\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3344000,
+    "ptime": 3344000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>my first reaction was that both  <code>+sd+jwt</code> and <code>-sd+jwt</code> would be misleading, the first one does not seem to have stable processing steps yet, and the second one is exactly what we want to avoid by introducing +sd-jwt, signalling to the developers that it is not <code>+jwt</code>...</p>",
+    "topic": "ietf-116",
+    "dtime": 3352000,
+    "ptime": 3352000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>@Kristina: Looked up the draft again regarding the holder binding. Noticed that you clearly defined it in the draft. Makes sense now for me</p>",
+    "topic": "ietf-116",
+    "dtime": 3388000,
+    "ptime": 3388000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>agreed that we need to talk to media type experts, <span class=\"user-mention\" data-user-id=\"2126\">@Hannes Tschofenig</span>, please let us know if there is anyone you have in mind :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3416000,
+    "ptime": 3416000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>@Kristina: There is a separate mailing list where the media type experts are. I would post a mail to that list -- <a href=\"mailto:media-types@iana.org\">media-types@iana.org</a> (<a href=\"https://www.ietf.org/mailman/listinfo/media-types\">https://www.ietf.org/mailman/listinfo/media-types</a>)</p>",
+    "topic": "ietf-116",
+    "dtime": 3546000,
+    "ptime": 3546000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>In a consumer world, we don’t really want to ask for a password… though I suppose with passkey maybe it’s fine to reauthenticate the user :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3740000,
+    "ptime": 3740000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> <a href=\"https://chromestatus.com/feature/5138422207348736\">https://chromestatus.com/feature/5138422207348736</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3811000,
+    "ptime": 3811000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>this is the FedCM CCG API documentation mentioned.. <a href=\"https://fedidcg.github.io/FedCM/#idp-api\">https://fedidcg.github.io/FedCM/#idp-api</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3856000,
+    "ptime": 3856000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I agree with Vittorio that additional context is needed to explain the \"SHOULD NOT\"</p>",
+    "topic": "ietf-116",
+    "dtime": 4205000,
+    "ptime": 4205000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Why is a DID specifically  defined option ? There should not be a need</p>",
+    "topic": "ietf-116",
+    "dtime": 5189000,
+    "ptime": 5189000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Adding a kind of client ID scheme sounds simple but in the end it is a kind of a nightmare with all the different identifier types</p>",
+    "topic": "ietf-116",
+    "dtime": 5296000,
+    "ptime": 5296000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I worry about the interoperability</p>",
+    "topic": "ietf-116",
+    "dtime": 5361000,
+    "ptime": 5361000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>is this just DPoP without the D?</p>",
+    "topic": "ietf-116",
+    "dtime": 5794000,
+    "ptime": 5794000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>oh i see</p>",
+    "topic": "ietf-116",
+    "dtime": 5916000,
+    "ptime": 5916000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>:thumbsup: yeah let's finish it</p>",
+    "topic": "ietf-116",
+    "dtime": 5926000,
+    "ptime": 5926000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>seems like PoP is the wave of the future</p>",
+    "topic": "ietf-116",
+    "dtime": 5933000,
+    "ptime": 5933000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>there are certain ecosystems that use DIDs, and it is too early to rule them out as useless.</p>",
+    "topic": "ietf-116",
+    "dtime": 5977000,
+    "ptime": 5977000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><code>client_id_scheme</code> is supposed to help with the interoperability ;)</p>",
+    "topic": "ietf-116",
+    "dtime": 6002000,
+    "ptime": 6002000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>one thing i didn't have time to mention was that the client_id_scheme is meant to co-exist with existing AS-managed/assigned client_ids. if there is no client_id_scheme, usual rfc6749 mechanism applies</p>",
+    "topic": "ietf-116",
+    "dtime": 6084000,
+    "ptime": 6084000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>(and indicating the client id scheme to the AS could make sense for closed ecosystems as it adds explicitness)</p>",
+    "topic": "ietf-116",
+    "dtime": 6396000,
+    "ptime": 6396000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I would recommend Nat to update the document and then we have the document to look at it</p>",
+    "topic": "ietf-116",
+    "dtime": 6416000,
+    "ptime": 6416000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>I am a little confused if there is no specific place from which this PoP draft needs to be referenced..</p>",
+    "topic": "ietf-116",
+    "dtime": 6446000,
+    "ptime": 6446000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>it should first probably be considered which aspects of this draft are not covered by DPoP security BCP, etc.</p>",
+    "topic": "ietf-116",
+    "dtime": 6481000,
+    "ptime": 6481000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>specifically where i would see it being referenced is as we evolve forward the PoP mechanism we have.  Like if we replace DPoP signatures with HTTP Signing, it would be good to have language to say \"here's the part of the architecture we're swapping out, and why that's ok\"</p>",
+    "topic": "ietf-116",
+    "dtime": 6562000,
+    "ptime": 6562000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Seems that the spiffe id document is overlap with DID</p>",
+    "topic": "ietf-116",
+    "dtime": 6813000,
+    "ptime": 6813000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>is there an example of a JWT SVID?</p>",
+    "topic": "ietf-116",
+    "dtime": 6818000,
+    "ptime": 6818000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nadalin - DID is so gigantic that it overlaps with everything :)</p>",
+    "topic": "ietf-116",
+    "dtime": 6835000,
+    "ptime": 6835000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>just like in Java everything inherits from Object...</p>",
+    "topic": "ietf-116",
+    "dtime": 6850000,
+    "ptime": 6850000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>SVID JWT <a href=\"https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md\">https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6854000,
+    "ptime": 6854000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>I think DIDs just embodies that need of a not-AS-managed-identifier.</p>",
+    "topic": "ietf-116",
+    "dtime": 6865000,
+    "ptime": 6865000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Where is the registry of DID schemes again?</p>",
+    "topic": "ietf-116",
+    "dtime": 7009000,
+    "ptime": 7009000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2126\">Hannes Tschofenig</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-116/near/66454\">said</a>:</p>\n<blockquote>\n<p>Where is the registry of DID schemes again?</p>\n</blockquote>\n<p>You mean methods?</p>",
+    "topic": "ietf-116",
+    "dtime": 7071000,
+    "ptime": 7071000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>yup</p>",
+    "topic": "ietf-116",
+    "dtime": 7108000,
+    "ptime": 7108000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><a href=\"https://github.com/w3c/did-spec-registries\">https://github.com/w3c/did-spec-registries</a></p>",
+    "topic": "ietf-116",
+    "dtime": 7125000,
+    "ptime": 7125000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>at last count, there were &gt;200 methods</p>",
+    "topic": "ietf-116",
+    "dtime": 7138000,
+    "ptime": 7138000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Not sure where this SPIFfE thing is going ...</p>",
+    "topic": "ietf-116",
+    "dtime": 7140000,
+    "ptime": 7140000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Vittorio's point sounds pretty right to me.  Handle the SPIFFE-relevant stuff in SPIFFE, handle any OAuth-generic stuff in OAuth</p>",
+    "topic": "ietf-116",
+    "dtime": 7317000,
+    "ptime": 7317000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>With this topic we are still at an early exploration phase. We will have to figure out how the dots connect</p>",
+    "topic": "ietf-116",
+    "dtime": 7368000,
+    "ptime": 7368000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>I was talking about the context why DIDs emerged which might actually explain why there are &gt;200 - maybe it's the process of consolidation around the best mechanism for not-AS-managed-identifiers.</p>",
+    "topic": "ietf-116",
+    "dtime": 7376000,
+    "ptime": 7376000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Kristina - I would gladly buy you a beer over which to discuss this were I there in person :)</p>",
+    "topic": "ietf-116",
+    "dtime": 7408000,
+    "ptime": 7408000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-OAUTH-20230328-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-OAUTH-20230328-0030"
+		}		
+	]
+}

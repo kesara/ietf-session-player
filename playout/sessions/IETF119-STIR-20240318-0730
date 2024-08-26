@@ -1,0 +1,280 @@
+
+{
+	"title": "IETF119-STIR-20240318-0730",
+	"filename": "IETF119-STIR-20240318-0730",
+	"start": 0,
+	"end": 3663000,
+	"start_datetime": "2024-03-18T07:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "2cxoZSfdMic",
+    "start": 0,
+    "end": "3663000"
+  }
+],
+	"messages": [
+  {
+    "author": "Sean Turner",
+    "text": "<p>Hi! If you need something spoken at the mic please preface it with \"mic:\"</p>",
+    "topic": "ietf-119",
+    "dtime": 128000,
+    "ptime": 128000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>Hi! If you need something spoken at the mic please preface it with \"mic:\"</p>",
+    "topic": "ietf-119",
+    "dtime": 445000,
+    "ptime": 445000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I doubt that overloading x5u will work any better in terms of interop with the installed base, and might be slightly worse</p>",
+    "topic": "ietf-119",
+    "dtime": 1090000,
+    "ptime": 1090000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>i suggest not overloading, and not offering multiple options</p>",
+    "topic": "ietf-119",
+    "dtime": 1317000,
+    "ptime": 1317000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>if thats possible</p>",
+    "topic": "ietf-119",
+    "dtime": 1322000,
+    "ptime": 1322000
+  },
+  {
+    "author": "Ben Campbell",
+    "text": "<p>Orie, is that for the \"mic:\"?</p>",
+    "topic": "ietf-119",
+    "dtime": 1541000,
+    "ptime": 1541000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/rfc7515#section-4.1.6\">https://datatracker.ietf.org/doc/html/rfc7515#section-4.1.6</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1651000,
+    "ptime": 1651000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>he's sitting right to me ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 1661000,
+    "ptime": 1661000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>I was referring to x5u: <a href=\"https://datatracker.ietf.org/doc/html/rfc7515#section-4.1.5\">https://datatracker.ietf.org/doc/html/rfc7515#section-4.1.5</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1701000,
+    "ptime": 1701000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Sorry, I keep forgettingto take myself off queue</p>",
+    "topic": "ietf-119",
+    "dtime": 1749000,
+    "ptime": 1749000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>The example x5u URL in <a href=\"https://datatracker.ietf.org/doc/html/draft-peterson-stir-certificates-shortlived-05\">https://datatracker.ietf.org/doc/html/draft-peterson-stir-certificates-shortlived-05</a> should not should not end in \".cer\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1796000,
+    "ptime": 1796000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>Sorry, I copied the wrong URL, I meant OSCP document: <a href=\"https://www.ietf.org/archive/id/draft-ietf-stir-certificates-ocsp-07.html\">https://www.ietf.org/archive/id/draft-ietf-stir-certificates-ocsp-07.html</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1842000,
+    "ptime": 1842000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>@Alec this bit from s5.1:</p>\n<p>{ \"typ\":\"passport\",<br>\n  \"alg\":\"ES256\",<br>\n  \"x5u\":\"<a href=\"https://www.example.com/cert.cer\">https://www.example.com/cert.cer</a>\" }</p>",
+    "topic": "ietf-119",
+    "dtime": 2019000,
+    "ptime": 2019000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>@Sean yes</p>",
+    "topic": "ietf-119",
+    "dtime": 2042000,
+    "ptime": 2042000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>got it!</p>",
+    "topic": "ietf-119",
+    "dtime": 2117000,
+    "ptime": 2117000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>The trusted root list tells you which root certificates to trust. CT provides a log of every end entity certificate issued. Parties can monitor this log to know if a CA issued a certificate with their information that they didn't request. The point of CT is to detect rouge CA behavior.</p>",
+    "topic": "ietf-119",
+    "dtime": 2248000,
+    "ptime": 2248000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>@Alec yep. One does not negate the need for the other.</p>",
+    "topic": "ietf-119",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>I think CT is needed for SPC (service provider) certificates.</p>",
+    "topic": "ietf-119",
+    "dtime": 2391000,
+    "ptime": 2391000
+  },
+  {
+    "author": "Simon Castle",
+    "text": "<p>Ah, I understand now - thanks. (Sort of undermines the 'trusted' part of 'trusted CA list' but understand the fact that may be needed regardless)</p>",
+    "topic": "ietf-119",
+    "dtime": 2414000,
+    "ptime": 2414000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>Yes, the point is to trust CAs less :)</p>",
+    "topic": "ietf-119",
+    "dtime": 2443000,
+    "ptime": 2443000
+  },
+  {
+    "author": "Victor Pascual",
+    "text": "<p>is this the document that was just mentioned? <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-keytrans-architecture-00\">https://datatracker.ietf.org/doc/html/draft-ietf-keytrans-architecture-00</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2462000,
+    "ptime": 2462000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>KT monitoring deployment mode: <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-keytrans-architecture-01#name-contact-monitoring\">https://datatracker.ietf.org/doc/html/draft-ietf-keytrans-architecture-01#name-contact-monitoring</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2463000,
+    "ptime": 2463000
+  },
+  {
+    "author": "Russ Housley",
+    "text": "<p>I just sent email to the stir mail llist about the format of x5u.</p>",
+    "topic": "ietf-119",
+    "dtime": 2477000,
+    "ptime": 2477000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>Thanks Russ. You multitask well ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 2498000,
+    "ptime": 2498000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>SCITT helped COSE lift the proof system RFC9162, its currently being specified for COSE in <a href=\"https://datatracker.ietf.org/doc/draft-ietf-cose-merkle-tree-proofs/\">https://datatracker.ietf.org/doc/draft-ietf-cose-merkle-tree-proofs/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2681000,
+    "ptime": 2681000
+  },
+  {
+    "author": "Simon Castle",
+    "text": "<p>Chris mentioned he had a question that wanted resolving, whether we needed any mechanisms listed other than &lt;something&gt;.  Anyone able to fill in what that &lt;something&gt; was for the notes? I missed it.</p>",
+    "topic": "ietf-119",
+    "dtime": 2691000,
+    "ptime": 2691000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>in case you want just the \"SCT\" bit without the rest of 9162 that folks didn't implement.</p>",
+    "topic": "ietf-119",
+    "dtime": 2708000,
+    "ptime": 2708000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>For those who are interested, some stuff on the logic of CT and similar systems <a href=\"https://educatedguesswork.org/posts/transparency-part-1/\">https://educatedguesswork.org/posts/transparency-part-1/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2898000,
+    "ptime": 2898000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><a href=\"https://educatedguesswork.org/posts/transparency-part-2/\">https://educatedguesswork.org/posts/transparency-part-2/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2925000,
+    "ptime": 2925000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>The verification service must required the SCT to be in the cert. This prevents rouge CAs from just not logging the misused certs</p>",
+    "topic": "ietf-119",
+    "dtime": 2941000,
+    "ptime": 2941000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>This use case is the same as SCITT use case for signed software binaries.</p>",
+    "topic": "ietf-119",
+    "dtime": 3046000,
+    "ptime": 3046000
+  },
+  {
+    "author": "Alec Fenichel",
+    "text": "<p>Yes, new step that is mandatory</p>",
+    "topic": "ietf-119",
+    "dtime": 3103000,
+    "ptime": 3103000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>See the architecture here: <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-scitt-architecture-06#name-transparent-statements\">https://datatracker.ietf.org/doc/html/draft-ietf-scitt-architecture-06#name-transparent-statements</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3111000,
+    "ptime": 3111000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>+1 EKR</p>",
+    "topic": "ietf-119",
+    "dtime": 3158000,
+    "ptime": 3158000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>as far as I can tell, the KT use case matches up with what is STIR is trying to achieve by looking at CT, but the monitor is either the device owner, or enterprises that provision numbers to devices.</p>",
+    "topic": "ietf-119",
+    "dtime": 3412000,
+    "ptime": 3412000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-STIR-20240318-0730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/stir"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-STIR-20240318-0730"
+		}		
+	]
+}

@@ -1,0 +1,749 @@
+
+{
+	"title": "IETF120-OAUTH-20240726-2000",
+	"filename": "IETF120-OAUTH-20240726-2000",
+	"start": 0,
+	"end": 7289000,
+	"start_datetime": "2024-07-26T20:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "6DJ88BGUDWI",
+    "start": 0,
+    "end": "7289000"
+  }
+],
+	"messages": [
+  {
+    "author": "Dean Saxe",
+    "text": "<p>the high altitude smoke makes the sun really red</p>",
+    "topic": "ietf-120",
+    "dtime": 88000,
+    "ptime": 88000
+  },
+  {
+    "author": "Emelia Smith",
+    "text": "<p>hi hi everyone</p>",
+    "topic": "ietf-120",
+    "dtime": 129000,
+    "ptime": 129000
+  },
+  {
+    "author": "Bryan Newbold",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 281000,
+    "ptime": 281000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>saturday for tobias, friday night 10pm for paul</p>",
+    "topic": "ietf-120",
+    "dtime": 293000,
+    "ptime": 293000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>If I understand right (I'm not sure) - using 1 key would mean that the client assertion proof could not be software based while the DPoP is hardware based and vice versa. Am I correct?</p>",
+    "topic": "ietf-120",
+    "dtime": 1583000,
+    "ptime": 1583000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>attestation -&gt; assertion</p>",
+    "topic": "ietf-120",
+    "dtime": 1742000,
+    "ptime": 1742000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>+1 orie</p>",
+    "topic": "ietf-120",
+    "dtime": 1762000,
+    "ptime": 1762000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>assertion is better</p>",
+    "topic": "ietf-120",
+    "dtime": 1768000,
+    "ptime": 1768000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>I find many are confused as soon as you say attestation and associate it with an audited process (there are many, not just the SBOM attestation form).</p>",
+    "topic": "ietf-120",
+    "dtime": 1808000,
+    "ptime": 1808000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>i think attestation is totally fine here</p>",
+    "topic": "ietf-120",
+    "dtime": 2010000,
+    "ptime": 2010000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>it may be fine here, I got in late.</p>",
+    "topic": "ietf-120",
+    "dtime": 2023000,
+    "ptime": 2023000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>we have already been using terms wallet attestation/key attestation and it will confuse that ecosystem a lot to rename it now</p>",
+    "topic": "ietf-120",
+    "dtime": 2034000,
+    "ptime": 2034000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>I don't think anyone means to block you from using the term or to have one definition of attestation, but more that the term is terribly confusing for many that tie it to an auditor process.</p>",
+    "topic": "ietf-120",
+    "dtime": 2040000,
+    "ptime": 2040000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>having said that, i get a possible confusion within ietf ecosystem, so it should be clarified, but i do not think renaming the draft is the best way to do so</p>",
+    "topic": "ietf-120",
+    "dtime": 2061000,
+    "ptime": 2061000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>playing with the intro text for example.</p>",
+    "topic": "ietf-120",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>attestation is fine, in my opinion. it has been used to mean a bunch of things over the years</p>",
+    "topic": "ietf-120",
+    "dtime": 2149000,
+    "ptime": 2149000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>for context, the draft that we changed the name of was status attestation -&gt; status assertion, and we did that to avoid confusion.</p>",
+    "topic": "ietf-120",
+    "dtime": 2170000,
+    "ptime": 2170000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>what kathleen described, I would have termed an \"assessment\" report.</p>",
+    "topic": "ietf-120",
+    "dtime": 2189000,
+    "ptime": 2189000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>I agree with Justin and Kristina, there are many uses of this term already, I don't see a need to change it.</p>",
+    "topic": "ietf-120",
+    "dtime": 2190000,
+    "ptime": 2190000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>but I also found this issue, and kind of get the point: <a href=\"https://github.com/oauth-wg/draft-ietf-oauth-attestation-based-client-auth/issues/71\">https://github.com/oauth-wg/draft-ietf-oauth-attestation-based-client-auth/issues/71</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2195000,
+    "ptime": 2195000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>status is neither attestation nor assertion though, so both those names are bad</p>",
+    "topic": "ietf-120",
+    "dtime": 2226000,
+    "ptime": 2226000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>it is probably key bound JWT which is an attestation? used for client authentication?</p>",
+    "topic": "ietf-120",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Dima Postnikov",
+    "text": "<p>Oxford dictionary: evidence or proof of something.</p>",
+    "topic": "ietf-120",
+    "dtime": 2300000,
+    "ptime": 2300000
+  },
+  {
+    "author": "Dima Postnikov",
+    "text": "<p>Generic enough…</p>",
+    "topic": "ietf-120",
+    "dtime": 2310000,
+    "ptime": 2310000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>When it's called \"status_list\" it feels odd to me to see 0 being active \"not revoked\" and 1 being revoked.</p>",
+    "topic": "ietf-120",
+    "dtime": 2331000,
+    "ptime": 2331000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>SLAM!</p>",
+    "topic": "ietf-120",
+    "dtime": 2368000,
+    "ptime": 2368000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(Status List Aggregation Mechanism)</p>",
+    "topic": "ietf-120",
+    "dtime": 2377000,
+    "ptime": 2377000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Just SLAM those status lists together!</p>",
+    "topic": "ietf-120",
+    "dtime": 2387000,
+    "ptime": 2387000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>^ i like it!</p>",
+    "topic": "ietf-120",
+    "dtime": 2404000,
+    "ptime": 2404000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>i would be careful with cbor based status mechanisms. i don't know if sd-cwt folks will be interested in using this status list management mechanism but we got ISO mdocs ppl to get onboard with this</p>",
+    "topic": "ietf-120",
+    "dtime": 2615000,
+    "ptime": 2615000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>so would like to proceed in a way that does not slow down cbor part of it</p>",
+    "topic": "ietf-120",
+    "dtime": 2636000,
+    "ptime": 2636000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>How does this relate to the nearly identical effort now in CR at the W3C?</p>",
+    "topic": "ietf-120",
+    "dtime": 2697000,
+    "ptime": 2697000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>this should be worked with SSF / SET / CAEP</p>",
+    "topic": "ietf-120",
+    "dtime": 2712000,
+    "ptime": 2712000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p><a href=\"https://www.w3.org/TR/vc-bitstring-status-list/\">https://www.w3.org/TR/vc-bitstring-status-list/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>Add this the the minute please</p>",
+    "topic": "ietf-120",
+    "dtime": 2770000,
+    "ptime": 2770000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>There are quite a few important differences @Brent, namely the most important is that the status list it self is secured using JWT and CWT without a dependency on the W3C data model</p>",
+    "topic": "ietf-120",
+    "dtime": 2786000,
+    "ptime": 2786000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>There are also several features such as status list aggregation, caching via ttl support which is different to W3C vc bistring status list</p>",
+    "topic": "ietf-120",
+    "dtime": 2828000,
+    "ptime": 2828000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>Also the W3C draft is about providing status information to W3C based VCs where as this draft allows providing status information to any CWT or JWT token whether they be a VC or not</p>",
+    "topic": "ietf-120",
+    "dtime": 2868000,
+    "ptime": 2868000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>The status list itself is the nearly identical piece that ideally would be entirely identical. The securing and delivery as a VC or a JWT is obviously going to be different.</p>",
+    "topic": "ietf-120",
+    "dtime": 2904000,
+    "ptime": 2904000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>I've seen no reason given why the core status list is being defined slightly differently in two places.</p>",
+    "topic": "ietf-120",
+    "dtime": 2950000,
+    "ptime": 2950000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>I understand they look similar but even at that level there are important differences around how bits are allocated and how they then given rise to different possible status's of a credential / token</p>",
+    "topic": "ietf-120",
+    "dtime": 2988000,
+    "ptime": 2988000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>Yes, there are differences. My point is that maybe at that level there shouldn't be</p>",
+    "topic": "ietf-120",
+    "dtime": 3034000,
+    "ptime": 3034000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>why SSF / SET / CAEP?</p>",
+    "topic": "ietf-120",
+    "dtime": 3037000,
+    "ptime": 3037000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>And if there is a need for those to be differences, then that need should be clearly communicated and explained.</p>",
+    "topic": "ietf-120",
+    "dtime": 3281000,
+    "ptime": 3281000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>SET was always intended for sharing as async security event feeds and avoids/reduces continuous polling (as in is this thng still good). I was wondering why this was not considered.</p>",
+    "topic": "ietf-120",
+    "dtime": 3302000,
+    "ptime": 3302000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>@kristina Cause establishing a list of revoked tokens is surely the result of a signal being shared from a RP finding a flow being infriging</p>",
+    "topic": "ietf-120",
+    "dtime": 3319000,
+    "ptime": 3319000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>For me status list is an object exposed to pull request while it will be pushed through an SSF mesh (pub/sub)</p>",
+    "topic": "ietf-120",
+    "dtime": 3412000,
+    "ptime": 3412000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>status list is for not registered consumer while SSF is for registred consummers... Worth the merging of ideas</p>",
+    "topic": "ietf-120",
+    "dtime": 3467000,
+    "ptime": 3467000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>a status list item is a subset of SET</p>",
+    "topic": "ietf-120",
+    "dtime": 3532000,
+    "ptime": 3532000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>W3C TAG : <a href=\"https://www.w3.org/2001/tag/doc/web-without-3p-cookies/\">https://www.w3.org/2001/tag/doc/web-without-3p-cookies/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3552000,
+    "ptime": 3552000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>editors of that doc are not browser ppl tho</p>",
+    "topic": "ietf-120",
+    "dtime": 3582000,
+    "ptime": 3582000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>@tim, is what aaron proposing, pretty much what DCP WG has done for diginal credential api and doing it for oauth for fedcm api?</p>",
+    "topic": "ietf-120",
+    "dtime": 3658000,
+    "ptime": 3658000
+  },
+  {
+    "author": "Emelia Smith",
+    "text": "<p>One negative here is that the authorization prompt doesn't disclose to the user what scopes are being requested</p>",
+    "topic": "ietf-120",
+    "dtime": 3939000,
+    "ptime": 3939000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>pretty sure this can be sort out but still a good call out</p>",
+    "topic": "ietf-120",
+    "dtime": 3980000,
+    "ptime": 3980000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>yeah, this version of it is for identity flows rather than authorization, but there's a \"button mode\" proposal that can work better with custom scope requests</p>",
+    "topic": "ietf-120",
+    "dtime": 3991000,
+    "ptime": 3991000
+  },
+  {
+    "author": "Emelia Smith",
+    "text": "<p>I think I'd also like to see non-javascript APIs, e.g, `&lt;button type=\"fedcm\" ...&gt;</p>",
+    "topic": "ietf-120",
+    "dtime": 4031000,
+    "ptime": 4031000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>agreed</p>",
+    "topic": "ietf-120",
+    "dtime": 4045000,
+    "ptime": 4045000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>If key has been rotated is there really a problem? Refresh/reauth must happen as if the Access Token was expired right?</p>",
+    "topic": "ietf-120",
+    "dtime": 4070000,
+    "ptime": 4070000
+  },
+  {
+    "author": "Emelia Smith",
+    "text": "<p>e.g, that could have an RP callback URL or something, where the token is returned to that instead of to the javascript context</p>",
+    "topic": "ietf-120",
+    "dtime": 4089000,
+    "ptime": 4089000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>are they attesting or asserting? ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 4151000,
+    "ptime": 4151000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>sorta like aTLS on well known key sets</p>",
+    "topic": "ietf-120",
+    "dtime": 4253000,
+    "ptime": 4253000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>it is very similar to regularly registering issuer keys in a transparency log</p>",
+    "topic": "ietf-120",
+    "dtime": 4283000,
+    "ptime": 4283000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>as roy mentioned, but more in the style of OAuth</p>",
+    "topic": "ietf-120",
+    "dtime": 4296000,
+    "ptime": 4296000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>and less in the style of CT / KT</p>",
+    "topic": "ietf-120",
+    "dtime": 4305000,
+    "ptime": 4305000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>What is the technology that Roy refered to in the last comment?</p>",
+    "topic": "ietf-120",
+    "dtime": 4308000,
+    "ptime": 4308000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>also... extremely cute name.</p>",
+    "topic": "ietf-120",
+    "dtime": 4318000,
+    "ptime": 4318000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Atul, Roy is talking about transparency services</p>",
+    "topic": "ietf-120",
+    "dtime": 4334000,
+    "ptime": 4334000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>citt</p>",
+    "topic": "ietf-120",
+    "dtime": 4335000,
+    "ptime": 4335000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>SCITT</p>",
+    "topic": "ietf-120",
+    "dtime": 4344000,
+    "ptime": 4344000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>thanks</p>",
+    "topic": "ietf-120",
+    "dtime": 4344000,
+    "ptime": 4344000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>Roy mentionned CITT</p>",
+    "topic": "ietf-120",
+    "dtime": 4345000,
+    "ptime": 4345000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>SCITT is basically a generalization of CT (certificate transparency), but building on COSE</p>",
+    "topic": "ietf-120",
+    "dtime": 4380000,
+    "ptime": 4380000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>Jean-Francois - it was SCITT <a href=\"https://datatracker.ietf.org/group/scitt\">https://datatracker.ietf.org/group/scitt</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4397000,
+    "ptime": 4397000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>thanks</p>",
+    "topic": "ietf-120",
+    "dtime": 4431000,
+    "ptime": 4431000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>+1 on what Filip said</p>",
+    "topic": "ietf-120",
+    "dtime": 4815000,
+    "ptime": 4815000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>The 2 authors have a pretty strong history of getting opensource adoption based on work they were directly involved in, so I suspect (don't know) that they have development support. ACME and OpenPubKey are examples respectively.</p>",
+    "topic": "ietf-120",
+    "dtime": 4907000,
+    "ptime": 4907000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>It's to say the speaker survived :)</p>",
+    "topic": "ietf-120",
+    "dtime": 5182000,
+    "ptime": 5182000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Clapping is apparently what happens when people can't hum anymore. :)</p>",
+    "topic": "ietf-120",
+    "dtime": 5193000,
+    "ptime": 5193000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>the speaker cam is not panning to the speaker BTW</p>",
+    "topic": "ietf-120",
+    "dtime": 5233000,
+    "ptime": 5233000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>I'm judging, David ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 5237000,
+    "ptime": 5237000
+  },
+  {
+    "author": "Emelia Smith",
+    "text": "<p>I thought the whole clapping for things started due to education from like the 90s onwards, where teachers made you clap after presentations</p>",
+    "topic": "ietf-120",
+    "dtime": 5242000,
+    "ptime": 5242000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>it just did.</p>",
+    "topic": "ietf-120",
+    "dtime": 5248000,
+    "ptime": 5248000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>I started it... sorry</p>",
+    "topic": "ietf-120",
+    "dtime": 5267000,
+    "ptime": 5267000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>Hi, that was me and Sarah Cecchetti - that draft is dead unless some Amazonian wants to pick it up</p>",
+    "topic": "ietf-120",
+    "dtime": 5311000,
+    "ptime": 5311000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>s/Amazonian/Cedar fan/</p>",
+    "topic": "ietf-120",
+    "dtime": 5401000,
+    "ptime": 5401000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>Have been page? &lt;insert Travolta confused GIF&gt;</p>",
+    "topic": "ietf-120",
+    "dtime": 5487000,
+    "ptime": 5487000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>yes, Jeff, I'm paging you</p>",
+    "topic": "ietf-120",
+    "dtime": 5498000,
+    "ptime": 5498000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>the page was in french. Le Page.</p>",
+    "topic": "ietf-120",
+    "dtime": 5512000,
+    "ptime": 5512000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>:)</p>",
+    "topic": "ietf-120",
+    "dtime": 5561000,
+    "ptime": 5561000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>the use of the \"type\" field... and \"attestation\" are great candidates for some sorta of game... unless they are already in cards against identity @justin.</p>",
+    "topic": "ietf-120",
+    "dtime": 5855000,
+    "ptime": 5855000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I wonder if we can use this for SD-CWT too?</p>",
+    "topic": "ietf-120",
+    "dtime": 5900000,
+    "ptime": 5900000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>on the policy side?</p>",
+    "topic": "ietf-120",
+    "dtime": 5910000,
+    "ptime": 5910000
+  },
+  {
+    "author": "Dima Postnikov",
+    "text": "<p>Creating common RAR  templates for different use cases make sense , but it has to fit with oauth a bit better .  Client doesn’t need to care about authzen and authz architectures. There is no authzen request…</p>",
+    "topic": "ietf-120",
+    "dtime": 6350000,
+    "ptime": 6350000
+  },
+  {
+    "author": "Heather Flanagan",
+    "text": "<p>“All of the good, none of the bad” that just means it’s different bad.</p>",
+    "topic": "ietf-120",
+    "dtime": 6674000,
+    "ptime": 6674000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>\"But this time it's different\"</p>",
+    "topic": "ietf-120",
+    "dtime": 6750000,
+    "ptime": 6750000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>:)</p>",
+    "topic": "ietf-120",
+    "dtime": 6774000,
+    "ptime": 6774000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>It's lightweight until it's not ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 6787000,
+    "ptime": 6787000
+  },
+  {
+    "author": "Heather Flanagan",
+    "text": "<p>It’s so perfect, you’ll just want to send it straight to the RFC Editor!</p>",
+    "topic": "ietf-120",
+    "dtime": 6921000,
+    "ptime": 6921000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>policy languages might be better when they are not turing complete</p>",
+    "topic": "ietf-120",
+    "dtime": 7018000,
+    "ptime": 7018000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>You can also publish first in the ISE stream and then work on an IETF version if you need one published with your version 2 before a Wg makes version 3</p>",
+    "topic": "ietf-120",
+    "dtime": 7022000,
+    "ptime": 7022000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Or a WG can do an informational documentation of existing tech then work on next rev</p>",
+    "topic": "ietf-120",
+    "dtime": 7056000,
+    "ptime": 7056000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>same energy though</p>",
+    "topic": "ietf-120",
+    "dtime": 7063000,
+    "ptime": 7063000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-OAUTH-20240726-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-OAUTH-20240726-2000"
+		}		
+	]
+}

@@ -1,0 +1,182 @@
+
+{
+	"title": "IETF117-RATS-20230726-1630",
+	"filename": "IETF117-RATS-20230726-1630",
+	"start": 0,
+	"end": 6495000,
+	"start_datetime": "2023-07-26T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "ic-M00fCxks",
+    "start": 0,
+    "end": "6495000"
+  }
+],
+	"messages": [
+  {
+    "author": "Guy Fedorkow",
+    "text": "<p>hi Nancy, sorry I couldn't be there!</p>",
+    "topic": "ietf-117",
+    "dtime": 44000,
+    "ptime": 44000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Good morning!</p>",
+    "topic": "ietf-117",
+    "dtime": 132000,
+    "ptime": 132000
+  },
+  {
+    "author": "Nancy Cam-Winget",
+    "text": "<p>Hi Guy, welcome!</p>",
+    "topic": "ietf-117",
+    "dtime": 255000,
+    "ptime": 255000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>We pushed the ta-store doc to another WG and we just reference it.  Sounds good to me for this one too.</p>",
+    "topic": "ietf-117",
+    "dtime": 2385000,
+    "ptime": 2385000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I just want to point out that Carl is not online for this meeting :(</p>",
+    "topic": "ietf-117",
+    "dtime": 2547000,
+    "ptime": 2547000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>I am listening, but am zulip and audio stream this time. sorry about that.</p>",
+    "topic": "ietf-117",
+    "dtime": 2731000,
+    "ptime": 2731000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Is this the point to talk about device profiles?</p>",
+    "topic": "ietf-117",
+    "dtime": 3415000,
+    "ptime": 3415000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>So that a verifier knows that a HW vendor cannot make claims about Apps</p>",
+    "topic": "ietf-117",
+    "dtime": 3449000,
+    "ptime": 3449000
+  },
+  {
+    "author": "Nancy Cam-Winget",
+    "text": "<p>I can see the device profile being a use case from the claim sets that this draft is about</p>",
+    "topic": "ietf-117",
+    "dtime": 3620000,
+    "ptime": 3620000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>trust anchor constraints are relevant to this topic as well</p>",
+    "topic": "ietf-117",
+    "dtime": 3691000,
+    "ptime": 3691000
+  },
+  {
+    "author": "Guy Fedorkow",
+    "text": "<p>Laurence is right -- Identity and Attestation keys are quite distinct in some of our worlds</p>",
+    "topic": "ietf-117",
+    "dtime": 3711000,
+    "ptime": 3711000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>The profile file carries the information needed for the logic inside the Verifier to help the Verifier decide (if something is wrong).</p>",
+    "topic": "ietf-117",
+    "dtime": 3717000,
+    "ptime": 3717000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Else, the Verifiefr will need to have a whole table/logic needed to separate the 4 layers (and sub components)</p>",
+    "topic": "ietf-117",
+    "dtime": 3753000,
+    "ptime": 3753000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>When talking about \"Identity\", could we be more precise on the usage. eg. qualify it.</p>",
+    "topic": "ietf-117",
+    "dtime": 3860000,
+    "ptime": 3860000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>e.g. Endorser identity; Endroser signer identity; etc. etc.</p>",
+    "topic": "ietf-117",
+    "dtime": 3888000,
+    "ptime": 3888000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>tls-attestation:<br>\nI have the same question as Ned: is the attestation engine providing a key for signing (authenticating) the TLS handshake?<br>\n--&gt; It seems from the next slide that the answer is yes.</p>",
+    "topic": "ietf-117",
+    "dtime": 4742000,
+    "ptime": 4742000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>How do you put evidence into a CMW into a cert? Isn't evidence dynamic, and isn't certs very much non-dynamic?</p>",
+    "topic": "ietf-117",
+    "dtime": 4900000,
+    "ptime": 4900000
+  },
+  {
+    "author": "Nancy Cam-Winget",
+    "text": "<p>@Mike are you remote?  You can get in the queue to ask your question directly....if you can't let us know and we can relay your question</p>",
+    "topic": "ietf-117",
+    "dtime": 4989000,
+    "ptime": 4989000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"416\">@Nancy Cam-Winget</span> sure</p>",
+    "topic": "ietf-117",
+    "dtime": 5006000,
+    "ptime": 5006000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>I think this only makes sense for the ephemeral keys of the exchange.   The identity key in the x509 cert would be attested when the cert was issued.</p>",
+    "topic": "ietf-117",
+    "dtime": 5312000,
+    "ptime": 5312000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"435\">Michael StJohns</span> <a href=\"#narrow/stream/45-rats/topic/ietf-117/near/82816\">said</a>:</p>\n<blockquote>\n<p>I think this only makes sense for the ephemeral keys of the exchange.   The identity key in the x509 cert would be attested when the cert was issued.</p>\n</blockquote>\n<p>My understanding is that, for example, a network gateway would only allow devices to complete a TLS connection if the devices has an acceptable (platform?) attestation.<br>\nI think that makes the attestation (potentially) orthogonal to the identity.</p>",
+    "topic": "ietf-117",
+    "dtime": 5533000,
+    "ptime": 5533000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-RATS-20230726-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/rats"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-RATS-20230726-1630"
+		}		
+	]
+}

@@ -1,0 +1,970 @@
+{
+  "title": "IETF102-QUIC-20180718-0930",
+  "filename": "IETF102-QUIC-20180718-0930",
+  "start": 0,
+  "end": 9114000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "SoiCqSK4pJ0",
+      "start": 0.0,
+      "end": 9114000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Lucas Pardue just joined the room",
+      "ptime": 89000.0,
+      "dtime": 1029000.0
+    },
+    {
+      "text": "Is there a jabber scribe? If not I can help",
+      "ptime": 170000.0,
+      "dtime": 1110000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***Dmitri Tikhonov just joined the room",
+      "ptime": 219000.0,
+      "dtime": 1159000.0
+    },
+    {
+      "text": "Please say \"mic: \" if you would like anything relayed at the microphone",
+      "ptime": 223000.0,
+      "dtime": 1163000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 265000.0,
+      "dtime": 1205000.0
+    },
+    {
+      "text": "***Dmitri Tikhonov just left the room",
+      "ptime": 267000.0,
+      "dtime": 1207000.0
+    },
+    {
+      "text": "***Dmitri Tikhonov just joined the room",
+      "ptime": 268000.0,
+      "dtime": 1208000.0
+    },
+    {
+      "text": "***Juan P. Cerezo just joined the room",
+      "ptime": 276000.0,
+      "dtime": 1216000.0
+    },
+    {
+      "text": "***Nick Banks just joined the room",
+      "ptime": 389000.0,
+      "dtime": 1329000.0
+    },
+    {
+      "text": "***Ranjana Mukhia just joined the room",
+      "ptime": 389000.0,
+      "dtime": 1329000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 418000.0,
+      "dtime": 1358000.0
+    },
+    {
+      "text": "***mgreen just joined the room",
+      "ptime": 422000.0,
+      "dtime": 1362000.0
+    },
+    {
+      "text": "***Ranjana Mukhia just left the room",
+      "ptime": 430000.0,
+      "dtime": 1370000.0
+    },
+    {
+      "text": "***Ranjana Mukhia just joined the room",
+      "ptime": 433000.0,
+      "dtime": 1373000.0
+    },
+    {
+      "text": "***Nick Banks just left the room",
+      "ptime": 480000.0,
+      "dtime": 1420000.0
+    },
+    {
+      "text": "who?s at the mic?",
+      "ptime": 502000.0,
+      "dtime": 1442000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "(sorry)",
+      "ptime": 504000.0,
+      "dtime": 1444000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "***Nick Banks just joined the room",
+      "ptime": 533000.0,
+      "dtime": 1473000.0
+    },
+    {
+      "text": "That\u0027s right",
+      "ptime": 543000.0,
+      "dtime": 1483000.0,
+      "author": "sjero"
+    },
+    {
+      "text": "ekr now",
+      "ptime": 557000.0,
+      "dtime": 1497000.0,
+      "author": "sjero"
+    },
+    {
+      "text": "ty",
+      "ptime": 573000.0,
+      "dtime": 1513000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "***Luca Niccolini just joined the room",
+      "ptime": 674000.0,
+      "dtime": 1614000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 682000.0,
+      "dtime": 1622000.0
+    },
+    {
+      "text": "***Felix Weinrank just joined the room",
+      "ptime": 892000.0,
+      "dtime": 1832000.0
+    },
+    {
+      "text": "***Sanjeet Singh just joined the room",
+      "ptime": 932000.0,
+      "dtime": 1872000.0
+    },
+    {
+      "text": "***Ranjana Mukhia just left the room",
+      "ptime": 1034000.0,
+      "dtime": 1974000.0
+    },
+    {
+      "text": "***Ben Niven-Jenkins just joined the room",
+      "ptime": 1050000.0,
+      "dtime": 1990000.0
+    },
+    {
+      "text": "***Michael Bishop just joined the room",
+      "ptime": 1051000.0,
+      "dtime": 1991000.0
+    },
+    {
+      "text": "***Ranjana Mukhia just joined the room",
+      "ptime": 1113000.0,
+      "dtime": 2053000.0
+    },
+    {
+      "text": "Can remote folks hear OK?",
+      "ptime": 1173000.0,
+      "dtime": 2113000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "Yep",
+      "ptime": 1178000.0,
+      "dtime": 2118000.0,
+      "author": "Nick Banks"
+    },
+    {
+      "text": "yep",
+      "ptime": 1184000.0,
+      "dtime": 2124000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "***John Leslie just joined the room",
+      "ptime": 1265000.0,
+      "dtime": 2205000.0
+    },
+    {
+      "text": "meetecho, I\u0027m seeing a lot of blocking for a few seconds on each slide change. I\u0027m remote (in Dallas). Does it look OK to you? If it does, it would be fine on the recordings, I guess?",
+      "ptime": 1384000.0,
+      "dtime": 2324000.0,
+      "author": "Spencer Dawkins"
+    },
+    {
+      "text": "I\u0027m locally connected, and seeing the slides transition cleanly.",
+      "ptime": 1411000.0,
+      "dtime": 2351000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "Brian\u0027s presentation starting",
+      "ptime": 1418000.0,
+      "dtime": 2358000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Spencer Dawkins: it looks fine here, so no worries, recordings will be fine",
+      "ptime": 1419000.0,
+      "dtime": 2359000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Thanks!",
+      "ptime": 1466000.0,
+      "dtime": 2406000.0,
+      "author": "Spencer Dawkins"
+    },
+    {
+      "text": "Jana Iyengar at mic",
+      "ptime": 1888000.0,
+      "dtime": 2828000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Mirja K?hlewind at mic",
+      "ptime": 1949000.0,
+      "dtime": 2889000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Jana again",
+      "ptime": 1969000.0,
+      "dtime": 2909000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Gorry Fairhurst at mic",
+      "ptime": 2021000.0,
+      "dtime": 2961000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Tommy Pauly at mic",
+      "ptime": 2059000.0,
+      "dtime": 2999000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***Piers O\u0027Hanlon just left the room",
+      "ptime": 2144000.0,
+      "dtime": 3084000.0
+    },
+    {
+      "text": "Ted Hardie at mic",
+      "ptime": 2153000.0,
+      "dtime": 3093000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Mirja at mic",
+      "ptime": 2234000.0,
+      "dtime": 3174000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "EKR at mic",
+      "ptime": 2343000.0,
+      "dtime": 3283000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "agreed, let\u0027s get closure on some of these",
+      "ptime": 2383000.0,
+      "dtime": 3323000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "Colin Perkins at mic",
+      "ptime": 2523000.0,
+      "dtime": 3463000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***Stanislav Slusny just left the room",
+      "ptime": 2552000.0,
+      "dtime": 3492000.0
+    },
+    {
+      "text": "***Stanislav Slusny just joined the room",
+      "ptime": 2554000.0,
+      "dtime": 3494000.0
+    },
+    {
+      "text": "***Piers O\u0027Hanlon just joined the room",
+      "ptime": 2617000.0,
+      "dtime": 3557000.0
+    },
+    {
+      "text": "***Robert Chodorek just joined the room",
+      "ptime": 2766000.0,
+      "dtime": 3706000.0
+    },
+    {
+      "text": "who was that? (FB?)",
+      "ptime": 2916000.0,
+      "dtime": 3856000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "I disagree with Ekr.",
+      "ptime": 3181000.0,
+      "dtime": 4121000.0,
+      "author": "Nick Banks"
+    },
+    {
+      "text": "Subodh Iyengar at mic",
+      "ptime": 3186000.0,
+      "dtime": 4126000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Encryption may be offloaded to hardware, so having the QUIC code get any AEAD tag back from that would be very difficult.",
+      "ptime": 3230000.0,
+      "dtime": 4170000.0,
+      "author": "Nick Banks"
+    },
+    {
+      "text": "CID is trivial to deal with.",
+      "ptime": 3242000.0,
+      "dtime": 4182000.0,
+      "author": "Nick Banks"
+    },
+    {
+      "text": "@nick, can you get in the queue?",
+      "ptime": 3248000.0,
+      "dtime": 4188000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "I have to figure out how.",
+      "ptime": 3274000.0,
+      "dtime": 4214000.0,
+      "author": "Nick Banks"
+    },
+    {
+      "text": "Ian Swett at mic",
+      "ptime": 3289000.0,
+      "dtime": 4229000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "@nick there is a \"virtual queue\" button in top right",
+      "ptime": 3305000.0,
+      "dtime": 4245000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "I missed EKR?s approach as he was many EKRs talking speed, can someone summarize it for the notes?",
+      "ptime": 3312000.0,
+      "dtime": 4252000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "Tommy",
+      "ptime": 3340000.0,
+      "dtime": 4280000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "Short version:  We already have a quasi-random value in the auth tag of the Initial.  Echo that.",
+      "ptime": 3344000.0,
+      "dtime": 4284000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "ty",
+      "ptime": 3349000.0,
+      "dtime": 4289000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "***Sanjeet Singh just left the room",
+      "ptime": 3369000.0,
+      "dtime": 4309000.0
+    },
+    {
+      "text": "Response was the same thing Nick said:  With hardware offload (among other cases), it\u0027s challenging for a sender to actually *know* the auth tag of packets it sent previously.",
+      "ptime": 3393000.0,
+      "dtime": 4333000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "given that the universe is still intact, he did not exceed 1.0 ekr",
+      "ptime": 3405000.0,
+      "dtime": 4345000.0,
+      "author": "blassey"
+    },
+    {
+      "text": "***Robert Chodorek just left the room",
+      "ptime": 3422000.0,
+      "dtime": 4362000.0
+    },
+    {
+      "text": "1.0 is normal ekr speed; he possesses a verbal warp drive.",
+      "ptime": 3436000.0,
+      "dtime": 4376000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "***mgreen just joined the room",
+      "ptime": 3451000.0,
+      "dtime": 4391000.0
+    },
+    {
+      "text": "***mgreen just joined the room",
+      "ptime": 3461000.0,
+      "dtime": 4401000.0
+    },
+    {
+      "text": "***Piers O\u0027Hanlon just left the room",
+      "ptime": 3490000.0,
+      "dtime": 4430000.0
+    },
+    {
+      "text": "***Moises Mucelo just joined the room",
+      "ptime": 3567000.0,
+      "dtime": 4507000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 3600000.0,
+      "dtime": 4540000.0
+    },
+    {
+      "text": "Igor Lubashev at mic",
+      "ptime": 3864000.0,
+      "dtime": 4804000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***Rui Paulo just joined the room",
+      "ptime": 3919000.0,
+      "dtime": 4859000.0
+    },
+    {
+      "text": "***Felix Weinrank just left the room",
+      "ptime": 3930000.0,
+      "dtime": 4870000.0
+    },
+    {
+      "text": "***Rui Paulo just left the room",
+      "ptime": 3985000.0,
+      "dtime": 4925000.0
+    },
+    {
+      "text": "***Rui Paulo just joined the room",
+      "ptime": 3986000.0,
+      "dtime": 4926000.0
+    },
+    {
+      "text": "***Praveen Balasubramanian just joined the room",
+      "ptime": 4008000.0,
+      "dtime": 4948000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 4147000.0,
+      "dtime": 5087000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 4159000.0,
+      "dtime": 5099000.0
+    },
+    {
+      "text": "***Wu-chi Feng just joined the room",
+      "ptime": 4160000.0,
+      "dtime": 5100000.0
+    },
+    {
+      "text": "***Spencer Dawkins just left the room",
+      "ptime": 4320000.0,
+      "dtime": 5260000.0
+    },
+    {
+      "text": "***Giuseppe Fioccola just left the room",
+      "ptime": 4360000.0,
+      "dtime": 5300000.0
+    },
+    {
+      "text": "***gianluca capitani just joined the room",
+      "ptime": 4389000.0,
+      "dtime": 5329000.0
+    },
+    {
+      "text": "***spencerdawkins just joined the room",
+      "ptime": 4553000.0,
+      "dtime": 5493000.0
+    },
+    {
+      "text": "***Luca Niccolini just left the room",
+      "ptime": 4615000.0,
+      "dtime": 5555000.0
+    },
+    {
+      "text": "***Spencer Dawkins just joined the room",
+      "ptime": 4639000.0,
+      "dtime": 5579000.0
+    },
+    {
+      "text": "***gianluca capitani just left the room",
+      "ptime": 4677000.0,
+      "dtime": 5617000.0
+    },
+    {
+      "text": "Receive AND decrypt :)",
+      "ptime": 4853000.0,
+      "dtime": 5793000.0,
+      "author": "Rui Paulo"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4870000.0,
+      "dtime": 5810000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4870000.0,
+      "dtime": 5810000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4870000.0,
+      "dtime": 5810000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4875000.0,
+      "dtime": 5815000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 5137000.0,
+      "dtime": 6077000.0
+    },
+    {
+      "text": "David, amen",
+      "ptime": 5151000.0,
+      "dtime": 6091000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "***Sebastiaan Deckers just joined the room",
+      "ptime": 5484000.0,
+      "dtime": 6424000.0
+    },
+    {
+      "text": "***Olivier Bonaventure just joined the room",
+      "ptime": 5489000.0,
+      "dtime": 6429000.0
+    },
+    {
+      "text": "telnet over QUIC?",
+      "ptime": 5494000.0,
+      "dtime": 6434000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "Randomization makes it very hard for debuggability. Let\u0027s keep things predictable",
+      "ptime": 5504000.0,
+      "dtime": 6444000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "Tim Shepherd at mic",
+      "ptime": 5539000.0,
+      "dtime": 6479000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "ACKs are a normal example, too.  If an ACK arrives and you\u0027ve lost state, your SR is likely to be larger than the ACK.",
+      "ptime": 5564000.0,
+      "dtime": 6504000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "Praveen, do you want that relayed?",
+      "ptime": 5583000.0,
+      "dtime": 6523000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "yes mine and Mike\u0027s point please",
+      "ptime": 5609000.0,
+      "dtime": 6549000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 5650000.0,
+      "dtime": 6590000.0
+    },
+    {
+      "text": "Yes, I am.",
+      "ptime": 5662000.0,
+      "dtime": 6602000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "Aren\u0027t we already rate controlling SRs?",
+      "ptime": 5676000.0,
+      "dtime": 6616000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "Not required in the spec.",
+      "ptime": 5689000.0,
+      "dtime": 6629000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "+1",
+      "ptime": 5759000.0,
+      "dtime": 6699000.0,
+      "author": "sjero"
+    },
+    {
+      "text": "(I\u0027m mostly on MeetEcho because I\u0027m sitting too close to the screen to see the slides comfortably.)",
+      "ptime": 5784000.0,
+      "dtime": 6724000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "***mgreen just joined the room",
+      "ptime": 5839000.0,
+      "dtime": 6779000.0
+    },
+    {
+      "text": "***Ranjana Mukhia just left the room",
+      "ptime": 5925000.0,
+      "dtime": 6865000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 5976000.0,
+      "dtime": 6916000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 6096000.0,
+      "dtime": 7036000.0
+    },
+    {
+      "text": "Manasi Deval at mic",
+      "ptime": 6099000.0,
+      "dtime": 7039000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***Luca Niccolini just joined the room",
+      "ptime": 6120000.0,
+      "dtime": 7060000.0
+    },
+    {
+      "text": "Patrick McManus",
+      "ptime": 6143000.0,
+      "dtime": 7083000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "***mgreen just joined the room",
+      "ptime": 6235000.0,
+      "dtime": 7175000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 6279000.0,
+      "dtime": 7219000.0
+    },
+    {
+      "text": "***Moises Mucelo just left the room",
+      "ptime": 6353000.0,
+      "dtime": 7293000.0
+    },
+    {
+      "text": "EKR@mic",
+      "ptime": 6403000.0,
+      "dtime": 7343000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 6524000.0,
+      "dtime": 7464000.0
+    },
+    {
+      "text": "***Ranjana Mukhia just joined the room",
+      "ptime": 6779000.0,
+      "dtime": 7719000.0
+    },
+    {
+      "text": "***Rolf E. Sonneveld just left the room",
+      "ptime": 6946000.0,
+      "dtime": 7886000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 6969000.0,
+      "dtime": 7909000.0
+    },
+    {
+      "text": "***Francis Teague just left the room",
+      "ptime": 7211000.0,
+      "dtime": 8151000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 7239000.0,
+      "dtime": 8179000.0
+    },
+    {
+      "text": "***Nils Ohlmeier just joined the room",
+      "ptime": 7409000.0,
+      "dtime": 8349000.0
+    },
+    {
+      "text": "/me is interested in CIDs",
+      "ptime": 7448000.0,
+      "dtime": 8388000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "***Stanislav Slusny just left the room",
+      "ptime": 7601000.0,
+      "dtime": 8541000.0
+    },
+    {
+      "text": "I opened one too sorry",
+      "ptime": 7834000.0,
+      "dtime": 8774000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "***Karim Virjee just joined the room",
+      "ptime": 7973000.0,
+      "dtime": 8913000.0
+    },
+    {
+      "text": "Great!  I\u0027ll take a look.",
+      "ptime": 8144000.0,
+      "dtime": 9084000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "Is there any reason for QUIC to diverge from TCP on these sorts of problems?",
+      "ptime": 8202000.0,
+      "dtime": 9142000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "Really depends on what you mean by \"TCP\"",
+      "ptime": 8222000.0,
+      "dtime": 9162000.0,
+      "author": "Rui Paulo"
+    },
+    {
+      "text": "Ian\u0027s data",
+      "ptime": 8233000.0,
+      "dtime": 9173000.0,
+      "author": "blassey"
+    },
+    {
+      "text": "bleeding-edge TCP being discussed in tcpm",
+      "ptime": 8238000.0,
+      "dtime": 9178000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "***Karim Virjee just left the room",
+      "ptime": 8246000.0,
+      "dtime": 9186000.0
+    },
+    {
+      "text": "***Karim Virjee just joined the room",
+      "ptime": 8264000.0,
+      "dtime": 9204000.0
+    },
+    {
+      "text": "Ian\u0027s data is informing the tcpm discussion, no?",
+      "ptime": 8296000.0,
+      "dtime": 9236000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "probably should, but unclear to me",
+      "ptime": 8334000.0,
+      "dtime": 9274000.0,
+      "author": "blassey"
+    },
+    {
+      "text": "I think Gorry\u0027s point is that having the same discussion in tcpm and quicwg is silly.",
+      "ptime": 8421000.0,
+      "dtime": 9361000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "maybe we need a new WG for common congestion control and loss recovery issues",
+      "ptime": 8449000.0,
+      "dtime": 9389000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "iccrg, but for standards",
+      "ptime": 8455000.0,
+      "dtime": 9395000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "another way to look at it would, if tcpm comes to a different conclusion, that would constitute the \"new data\" needed to reopen the discussion on this",
+      "ptime": 8489000.0,
+      "dtime": 9429000.0,
+      "author": "blassey"
+    },
+    {
+      "text": "i think the current stance is we use TCP algorithms and document all deviations with justification in the recovery draft",
+      "ptime": 8607000.0,
+      "dtime": 9547000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "***Ranjana Mukhia just left the room",
+      "ptime": 8807000.0,
+      "dtime": 9747000.0
+    },
+    {
+      "text": "***Karim Virjee just left the room",
+      "ptime": 8831000.0,
+      "dtime": 9771000.0
+    },
+    {
+      "text": "***Nils Ohlmeier just left the room",
+      "ptime": 8837000.0,
+      "dtime": 9777000.0
+    },
+    {
+      "text": "***Wu-chi Feng just left the room",
+      "ptime": 8871000.0,
+      "dtime": 9811000.0
+    },
+    {
+      "text": "quic is at v40+, why not start with QUIC v100",
+      "ptime": 9012000.0,
+      "dtime": 9952000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "Re: QUIC name and GQUIC/iQUIC - I\u0027ve seen slides during this meeting that said \"QUIC and GUIC\", so picking something seems helpful!",
+      "ptime": 9022000.0,
+      "dtime": 9962000.0,
+      "author": "Spencer Dawkins"
+    },
+    {
+      "text": "end of meeting, thanks everyone",
+      "ptime": 9029000.0,
+      "dtime": 9969000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "***Lars Eggert just left the room",
+      "ptime": 9077000.0,
+      "dtime": 1.0017E7
+    },
+    {
+      "text": "***Luca Niccolini just left the room",
+      "ptime": 9097000.0,
+      "dtime": 1.0037E7
+    },
+    {
+      "text": "***Michael Bishop just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Sebastiaan Deckers just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Nick Banks just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Ben Niven-Jenkins just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Martin Duke just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Olivier Bonaventure just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Juan P. Cerezo just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Richard Bradbury just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Lucas Pardue just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Spencer Dawkins just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***PENG QIAN just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Rui Paulo just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***John Leslie just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Praveen Balasubramanian just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    },
+    {
+      "text": "***Julian Reschke just left the room",
+      "ptime": 9114000.0,
+      "dtime": 1.0054E7
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF102-QUIC-20180718-0930"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+
+{
+	"title": "IETF116-OPSEC-20230330-0600",
+	"filename": "IETF116-OPSEC-20230330-0600",
+	"start": 0,
+	"end": 3877000,
+	"start_datetime": "2023-03-30T06:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "mVraj-3MeGw",
+    "start": 0,
+    "end": "3877000"
+  }
+],
+	"messages": [
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>slightly loud online</p>",
+    "topic": "ietf-116",
+    "dtime": 19000,
+    "ptime": 19000
+  },
+  {
+    "author": "Kirsty Paine",
+    "text": "<p>Join me on minute taking: <a href=\"https://notes.ietf.org/notes-ietf-116-opsec\">https://notes.ietf.org/notes-ietf-116-opsec</a></p>",
+    "topic": "ietf-116",
+    "dtime": 516000,
+    "ptime": 516000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>@Anthony: Yup, but some people like being loud - e.g Randy and Jen. :-P</p>",
+    "topic": "ietf-116",
+    "dtime": 527000,
+    "ptime": 527000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Oh, and me, but I do it by just being fabulous, instead of having to rely on a font choice...</p>",
+    "topic": "ietf-116",
+    "dtime": 563000,
+    "ptime": 563000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>It has been working for me so far, so..;))</p>",
+    "topic": "ietf-116",
+    "dtime": 565000,
+    "ptime": 565000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Yup. People who cannot be as fabulous and modest as me (AKA, everyone) have to rely on other solutions... :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 634000,
+    "ptime": 634000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>Fortunately there is Comic Sans to rescue</p>",
+    "topic": "ietf-116",
+    "dtime": 674000,
+    "ptime": 674000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i thought tunnelbroker shutdown?</p>",
+    "topic": "ietf-116",
+    "dtime": 798000,
+    "ptime": 798000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>it seems not</p>",
+    "topic": "ietf-116",
+    "dtime": 832000,
+    "ptime": 832000
+  },
+  {
+    "author": "松本 拓也",
+    "text": "<p>Is there a firewall that work with dynamic block-list for IPv6?</p>",
+    "topic": "ietf-116",
+    "dtime": 1944000,
+    "ptime": 1944000
+  },
+  {
+    "author": "Mingxing Liu",
+    "text": "<p>emmm, source address validation can support a dynamic block-list for source IPv6 or IPv4 address</p>",
+    "topic": "ietf-116",
+    "dtime": 2073000,
+    "ptime": 2073000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>define \"dynamic\"</p>\n<p>i deploy netgate pfsense based FW's and it can support \"dynamically\" downloading lists for firewall rules which could be ipv6 addresses</p>",
+    "topic": "ietf-116",
+    "dtime": 2077000,
+    "ptime": 2077000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 to Chris Wood's comment: we should absolutely be discouraging use of network addresses for these purposes</p>",
+    "topic": "ietf-116",
+    "dtime": 2147000,
+    "ptime": 2147000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>blocking IoT by IP address assumes that each device won't try to just use a different IP address</p>",
+    "topic": "ietf-116",
+    "dtime": 2194000,
+    "ptime": 2194000
+  },
+  {
+    "author": "松本 拓也",
+    "text": "<p>Thx for the info, I mean dynamic in Slide14 which update the ACL lifetime periodically. I'll check.</p>",
+    "topic": "ietf-116",
+    "dtime": 2254000,
+    "ptime": 2254000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>well done!</p>",
+    "topic": "ietf-116",
+    "dtime": 2504000,
+    "ptime": 2504000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>Meetecho need a cam move please :)</p>",
+    "topic": "ietf-116",
+    "dtime": 2517000,
+    "ptime": 2517000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>slide 6 of <span class=\"user-mention\" data-user-id=\"329\">@Andrew Campling</span> 's slides appears to suggest that use of SNI for filtering is mandatory in schools, but that is not the case.</p>",
+    "topic": "ietf-116",
+    "dtime": 3100000,
+    "ptime": 3100000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i've not been in the UK for quite some time but i vaguely recall that internet was largely provided by local authority and filtering done at the local authority level</p>\n<p>and last i recall it was fundamentally SSL proxy/transparent proxy based</p>",
+    "topic": "ietf-116",
+    "dtime": 3151000,
+    "ptime": 3151000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>even where filtering regimes are mandatory for schools, i'm unaware of any such regime that mandates the use of SNI</p>",
+    "topic": "ietf-116",
+    "dtime": 3156000,
+    "ptime": 3156000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span>  they don't mandate SNI, they mandate that web content filtering takes place</p>",
+    "topic": "ietf-116",
+    "dtime": 3186000,
+    "ptime": 3186000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>they don't mandate the technology</p>",
+    "topic": "ietf-116",
+    "dtime": 3195000,
+    "ptime": 3195000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>right, i'm objecting to the slide which seems to claim otherwise</p>",
+    "topic": "ietf-116",
+    "dtime": 3204000,
+    "ptime": 3204000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i posit that <a href=\"https://www.rfc-editor.org/rfc/rfc8914.html\">https://www.rfc-editor.org/rfc/rfc8914.html</a> with DNS based filtering is a more than adequate substitute for SNI based inspection in most cases</p>",
+    "topic": "ietf-116",
+    "dtime": 3264000,
+    "ptime": 3264000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>also - SNI, does not handle the simple matter of URL filtering, only domains</p>",
+    "topic": "ietf-116",
+    "dtime": 3443000,
+    "ptime": 3443000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so if there is nothing that is reliable, and your legal mandate for filtering demands reliable filtering, you are immediately in violation?</p>",
+    "topic": "ietf-116",
+    "dtime": 3518000,
+    "ptime": 3518000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>the reality is that pretty much the only reliable means is deploying an agent on hosts and does MITM SSL proxy ultimately - i'm over-simplifying</p>",
+    "topic": "ietf-116",
+    "dtime": 3606000,
+    "ptime": 3606000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>[no hats] I think the question here: shall the message be \"ECH is scary because it doesn't allow you to use a  signal which is already unreliable anyway\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3606000,
+    "ptime": 3606000
+  },
+  {
+    "author": "Dan Sexton",
+    "text": "<p>SNI can be useful in triaging traffic to decide, in managed environments, which traffic to decrypt (for URL filtering).</p>",
+    "topic": "ietf-116",
+    "dtime": 3660000,
+    "ptime": 3660000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>there is no use case that can only be done via SNI<br>\nits just that filtering vendors have made business decisions and assumptions of using SNI and are now crying because their  software breaks</p>",
+    "topic": "ietf-116",
+    "dtime": 3790000,
+    "ptime": 3790000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-OPSEC-20230330-0600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/opsec"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-OPSEC-20230330-0600"
+		}		
+	]
+}

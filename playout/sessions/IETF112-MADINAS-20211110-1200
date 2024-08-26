@@ -1,0 +1,1474 @@
+{
+  "title": "IETF112-MADINAS-20211110-1200",
+  "filename": "IETF112-MADINAS-20211110-1200",
+  "start": 0,
+  "end": 6484000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "FlEdKzGG49M",
+      "start": 0,
+      "end": "6484000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 100000,
+      "ptime": 100000,
+      "author": "Carlos Bernardos",
+      "text": "hi everyone<br/>"
+    },
+    {
+      "dtime": 243000,
+      "ptime": 243000,
+      "author": "Robert Wilton",
+      "text": "I can help with minutes<br/>"
+    },
+    {
+      "dtime": 275000,
+      "ptime": 275000,
+      "author": "Alexandre Petrescu",
+      "text": "Minutes <a href=\"https://codimd.ietf.org/notes-ietf-112-madinas\" rel=\"nofollow\">https://codimd.ietf.org/notes-ietf-112-madinas</a><br/>"
+    },
+    {
+      "dtime": 310000,
+      "ptime": 310000,
+      "author": "Carlos Bernardos",
+      "text": "Thanks a lot Robert!<br/>"
+    },
+    {
+      "dtime": 582000,
+      "ptime": 582000,
+      "author": "Alexandre Petrescu",
+      "text": "I suspect RCM and privacy are mainlyin a 802.11 wireless group not&nbsp;&nbsp;802 overall (LAN) (?)&nbsp;&nbsp;In LANs there are no privacy issues because the cables lead to the sources anyways.<br/>"
+    },
+    {
+      "dtime": 641000,
+      "ptime": 641000,
+      "author": "Éric Vyncke",
+      "text": "But someone on a trunk or close to a server/peer can still snoop<br/>"
+    },
+    {
+      "dtime": 678000,
+      "ptime": 678000,
+      "author": "Alexandre Petrescu",
+      "text": "But snooping on a trunk would be a in-organisation issue, within a limited domain.<br/>"
+    },
+    {
+      "dtime": 715000,
+      "ptime": 715000,
+      "author": "Éric Vyncke",
+      "text": "Of course but this is still a problem<br/>"
+    },
+    {
+      "dtime": 766000,
+      "ptime": 766000,
+      "author": "Alexandre Petrescu",
+      "text": "Well yes, some of my colleagues did snoop the Ethernet at offices to see other colleagues' traffic.<br/>"
+    },
+    {
+      "dtime": 881000,
+      "ptime": 881000,
+      "author": "Alexandre Petrescu",
+      "text": "Iwonder whether 802.1X and 802.1AR are used on Wired.<br/>"
+    },
+    {
+      "dtime": 984000,
+      "ptime": 984000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: \"Iwonder whether 802.1X and 802.1AR are used on Wired.\" - wired 802.1x is widely used in enterprise environments.<br/>"
+    },
+    {
+      "dtime": 1037000,
+      "ptime": 1037000,
+      "author": "Alexandre Petrescu",
+      "text": "ah, error on me.<br/>"
+    },
+    {
+      "dtime": 1078000,
+      "ptime": 1078000,
+      "author": "Dan Harkins",
+      "text": "it's not a snooping problem. It's an identification problem. On a wired network there is only 1 port on which a wire is stuck into and that port can be identified. In 802.11 there are a multitude of devices connecting to a single SSID.<br/>"
+    },
+    {
+      "dtime": 1194000,
+      "ptime": 1194000,
+      "author": "Dan Harkins",
+      "text": "lawful intercept is not an issue. The operator can satisfy any request from law enforcement with \"we got nothing\". That legal obligation has been satisfied.<br/>"
+    },
+    {
+      "dtime": 1200000,
+      "ptime": 1200000,
+      "author": "Mohamed Boucadair",
+      "text": "This is more data retention, than lawful intercept<br/>"
+    },
+    {
+      "dtime": 1226000,
+      "ptime": 1226000,
+      "author": "Dan Harkins",
+      "text": "I cannot be compelled to provide an identifier to aid law enforcement. Sorry.<br/>"
+    },
+    {
+      "dtime": 1230000,
+      "ptime": 1230000,
+      "author": "Amelia Andersdotter",
+      "text": "Also does it really happen? I mean, has there been a case where a public wifi provider has been asked to provide data records for a particular mac address?<br/>"
+    },
+    {
+      "dtime": 1241000,
+      "ptime": 1241000,
+      "author": "Éric Vyncke",
+      "text": "Actually privacy<br/>"
+    },
+    {
+      "dtime": 1248000,
+      "ptime": 1248000,
+      "author": "Éric Vyncke",
+      "text": "Amelia, perhaps in Universities ?<br/>"
+    },
+    {
+      "dtime": 1251000,
+      "ptime": 1251000,
+      "author": "Steven Hartley",
+      "text": "Tim, does the WBA have any recomendations yet? Doesn't sound like it.<br/>"
+    },
+    {
+      "dtime": 1272000,
+      "ptime": 1272000,
+      "author": "Rich Salz",
+      "text": "@Dan: are you really sure about that?<br/>"
+    },
+    {
+      "dtime": 1277000,
+      "ptime": 1277000,
+      "author": "Carlos Bernardos",
+      "text": "In universities I know this used to be the case in the time of P2P and illegal content sharing<br/>"
+    },
+    {
+      "dtime": 1315000,
+      "ptime": 1315000,
+      "author": "Amelia Andersdotter",
+      "text": "i was aware of ip address being used like that<br/>"
+    },
+    {
+      "dtime": 1330000,
+      "ptime": 1330000,
+      "author": "Dan Harkins",
+      "text": "@rich, well yes. There may be some countries in the world where I am compelled to identify myself but here, no. And I resent standards being developed to aid those countries at my expense.<br/>"
+    },
+    {
+      "dtime": 1338000,
+      "ptime": 1338000,
+      "author": "Amelia Andersdotter",
+      "text": "the entire data retention story started because of dynamic ip addresses<br/>"
+    },
+    {
+      "dtime": 1379000,
+      "ptime": 1379000,
+      "author": "Dan Harkins",
+      "text": "I just don't think there's a legal intercept problem. The service provider gives law enforcement everything it has, which is nothing. Legal obligation satisfied. End of story.<br/>"
+    },
+    {
+      "dtime": 1384000,
+      "ptime": 1384000,
+      "author": "Mohamed Boucadair",
+      "text": "There is a need to associate the IP address with a \"user\". that's the basic requirement from legal purposes.<br/>"
+    },
+    {
+      "dtime": 1413000,
+      "ptime": 1413000,
+      "author": "Rich Salz",
+      "text": "I share your feelings, @Dan, but maybe not as strong. I was just wondering about your assertion on compel.<br/>"
+    },
+    {
+      "dtime": 1419000,
+      "ptime": 1419000,
+      "author": "Bob Hinden",
+      "text": "The tussle here is device identification needs a stable identifier with a loss of privacy, if you want privacy you can’t have a stable identifier and loose device identification.&nbsp;&nbsp; <br/>"
+    },
+    {
+      "dtime": 1434000,
+      "ptime": 1434000,
+      "author": "Dan Harkins",
+      "text": "(message to @dan... calm down)<br/>"
+    },
+    {
+      "dtime": 1454000,
+      "ptime": 1454000,
+      "author": "Mohamed Boucadair",
+      "text": "@Amelia: Whether that IP address is static or dynamic does not matter much<br/>"
+    },
+    {
+      "dtime": 1457000,
+      "ptime": 1457000,
+      "author": "Rich Salz",
+      "text": "(I'm thinking of StingRays and other fake cellphone towers being legal)<br/>"
+    },
+    {
+      "dtime": 1477000,
+      "ptime": 1477000,
+      "author": "Alexandre Petrescu",
+      "text": "In systems people identification are hidden they quickly become systems outof law - see crypto currency.<br/>"
+    },
+    {
+      "dtime": 1497000,
+      "ptime": 1497000,
+      "author": "Rich Salz",
+      "text": "or cash.<br/>"
+    },
+    {
+      "dtime": 1498000,
+      "ptime": 1498000,
+      "author": "Amelia Andersdotter",
+      "text": "i don't understand how LEA would get the MAC address anyway<br/>"
+    },
+    {
+      "dtime": 1511000,
+      "ptime": 1511000,
+      "author": "Mohamed Boucadair",
+      "text": "Me either<br/>"
+    },
+    {
+      "dtime": 1516000,
+      "ptime": 1516000,
+      "author": "Dan Harkins",
+      "text": "@rich, well yes, but I'm being tricked in that case. I'm not being legally required to provide useful information to law enforcement, I'm being tricked into doing it.<br/>"
+    },
+    {
+      "dtime": 1533000,
+      "ptime": 1533000,
+      "author": "Mathieu Cunche",
+      "text": "@Bob: MAC address are exposed as part of the header, other identifiers could be hidden/encrypted/obfuscated<br/>"
+    },
+    {
+      "dtime": 1544000,
+      "ptime": 1544000,
+      "author": "Amelia Andersdotter",
+      "text": "other than if the network operator pre-shared with LEA the devices in their network and the IP addresses they broadcasted at a particular time to the wider internet<br/>"
+    },
+    {
+      "dtime": 1594000,
+      "ptime": 1594000,
+      "author": "Rich Salz",
+      "text": "You the user is being tricked. Unclear if you the carrier can't be made to comply.&nbsp;&nbsp;But I share your privacy interests here, so namaste.<br/>"
+    },
+    {
+      "dtime": 1596000,
+      "ptime": 1596000,
+      "author": "Mohamed Boucadair",
+      "text": "generally, there is done per request basis (e.g., when an abuse is detected)<br/>"
+    },
+    {
+      "dtime": 1600000,
+      "ptime": 1600000,
+      "author": "Amelia Andersdotter",
+      "text": "MAC spoofing is also simple enough that there would have been litigation on this<br/>"
+    },
+    {
+      "dtime": 1618000,
+      "ptime": 1618000,
+      "author": "Dan Harkins",
+      "text": "namaste :-)<br/>"
+    },
+    {
+      "dtime": 1637000,
+      "ptime": 1637000,
+      "author": "Éric Vyncke",
+      "text": "Anyway, the issue is not so much about LEA but more about privacy 'against' any party<br/>"
+    },
+    {
+      "dtime": 1655000,
+      "ptime": 1655000,
+      "author": "Alexandre Petrescu",
+      "text": "'LEA'?&nbsp;&nbsp;'namaste'?<br/>"
+    },
+    {
+      "dtime": 1666000,
+      "ptime": 1666000,
+      "author": "Éric Vyncke",
+      "text": "Law Enforcement Agency<br/>"
+    },
+    {
+      "dtime": 1673000,
+      "ptime": 1673000,
+      "author": "Amelia Andersdotter",
+      "text": "@alexandre law enforcement agency. indian gratitude greeting.<br/>"
+    },
+    {
+      "dtime": 1674000,
+      "ptime": 1674000,
+      "author": "Antoine Fressancourt",
+      "text": "@Dan, in some countries, like eg France, you are considered an operator if you provide access to someone else. You are supposed to be able to give ID of someone using your network if told to do so by a judge, and law forces you to keep access logs for some time. Failure to comply leads to fines or jail.<br/>"
+    },
+    {
+      "dtime": 1678000,
+      "ptime": 1678000,
+      "author": "Éric Vyncke",
+      "text": "Namaste is Hindi for welcome<br/>"
+    },
+    {
+      "dtime": 1682000,
+      "ptime": 1682000,
+      "author": "John Preuß Mattsson",
+      "text": "@Rich stingrays would be illegal for most people. Not sure that the legality of stingray used by police have been tested in public courts. StingRays does not work in 5G, but your phone will likely happily connect to a fake 2G base station.<br/>"
+    },
+    {
+      "dtime": 1721000,
+      "ptime": 1721000,
+      "author": "Dan Harkins",
+      "text": "@antoine, and that log would contain random MACs. So the operator has satisfied the request.<br/>"
+    },
+    {
+      "dtime": 1729000,
+      "ptime": 1729000,
+      "author": "Antoine Fressancourt",
+      "text": "Nope<br/>"
+    },
+    {
+      "dtime": 1738000,
+      "ptime": 1738000,
+      "author": "Amelia Andersdotter",
+      "text": "@Éric I do think it matters if its LEA or not. LEA backs up requests with the violence monopoly applicable on the territory where the requestee is based. It's different if I ask your ISP or if the police asks your ISP.<br/>"
+    },
+    {
+      "dtime": 1787000,
+      "ptime": 1787000,
+      "author": "Antoine Fressancourt",
+      "text": "@Dan people tried, and had problems<br/>"
+    },
+    {
+      "dtime": 1794000,
+      "ptime": 1794000,
+      "author": "Amelia Andersdotter",
+      "text": "Because of the gravity of that circumstance, claiming that something may be required to fulfill a legal obligation in that sense is a pretty big claim.<br/>"
+    },
+    {
+      "dtime": 1827000,
+      "ptime": 1827000,
+      "author": "Rich Salz",
+      "text": "++<br/>"
+    },
+    {
+      "dtime": 1840000,
+      "ptime": 1840000,
+      "author": "Mohamed Boucadair",
+      "text": "+1 to what Amelia said.<br/>"
+    },
+    {
+      "dtime": 1862000,
+      "ptime": 1862000,
+      "author": "Antoine Fressancourt",
+      "text": "(Bear with me, dealing with such requests is very stressing)<br/>"
+    },
+    {
+      "dtime": 1880000,
+      "ptime": 1880000,
+      "author": "Éric Vyncke",
+      "text": "@Amelia: LEA matters indeed but the RCM is mostly generated to preserve privacy<br/>"
+    },
+    {
+      "dtime": 1897000,
+      "ptime": 1897000,
+      "author": "Dan Harkins",
+      "text": "a policeman's job is only easy in a police state.<br/>"
+    },
+    {
+      "dtime": 1899000,
+      "ptime": 1899000,
+      "author": "Alexandre Petrescu",
+      "text": "I whatAmelia said I dont parce'violence monopoly' - is it 'violent monopoly' or is it 'violence that monopoly [...]'?<br/>"
+    },
+    {
+      "dtime": 1924000,
+      "ptime": 1924000,
+      "author": "Dan Harkins",
+      "text": "@alexandre, it's a monopoly on violence. The state has that.<br/>"
+    },
+    {
+      "dtime": 1948000,
+      "ptime": 1948000,
+      "author": "Alexandre Petrescu",
+      "text": "I would not call it 'monopoly' but 'publicly elected right to'.<br/>"
+    },
+    {
+      "dtime": 2006000,
+      "ptime": 2006000,
+      "author": "Amelia Andersdotter",
+      "text": "@Éric Of course. But my point ehre was that Tim Well says that LEA may request MAC addresses to identify users in the network. I wanted to bring into question whether this hypothetical situation actually occurs in practice (i.e. is it something that anyone, including at WBA, need to care about?). In my experience, which grantedly is somewhat limited, LEA has never went for MAC addresses.<br/>"
+    },
+    {
+      "dtime": 2016000,
+      "ptime": 2016000,
+      "author": "Antoine Fressancourt",
+      "text": "@Dan I tend to think your way, but I live in a country where I have to respect laws, even if I don't agree with them<br/>"
+    },
+    {
+      "dtime": 2029000,
+      "ptime": 2029000,
+      "author": "Rich Salz",
+      "text": "The common term is what Dan/Amelia said.&nbsp;&nbsp;It *is* a monopoly because people using violence are known as criminals.<br/>"
+    },
+    {
+      "dtime": 2035000,
+      "ptime": 2035000,
+      "author": "Amelia Andersdotter",
+      "text": "So that seems to me a problem we (MADINAS, WBA, etc) do not need to solve.<br/>"
+    },
+    {
+      "dtime": 2149000,
+      "ptime": 2149000,
+      "author": "Amelia Andersdotter",
+      "text": "@Alexandre What Rich said. It's the exclusive right of a designated group to use violence without (necessarily) risking punishment. Normally the terms of this exclusive right (\"monopoly\") include tests on proportionality, necessity, etc.<br/>"
+    },
+    {
+      "dtime": 2155000,
+      "ptime": 2155000,
+      "author": "Alexandre Petrescu",
+      "text": "LEA looks for MAC addresses?&nbsp;&nbsp;Where I live LEA goes for all data that can exist to analyze the tiniest detail that could provide correlation and solve cases.&nbsp;&nbsp;That includes MAC addresses, but among many others.&nbsp;&nbsp;It is also true that public discussion talks aboutmainly the 'IP' addresses of people.&nbsp;&nbsp;Other times people also talk about having 'borned' ('borné, fr.) which means to have registered with L2 messages on a particular base station in a particular region.&nbsp;&nbsp;But that is still very little information that is talked about.<br/>"
+    },
+    {
+      "dtime": 2164000,
+      "ptime": 2164000,
+      "author": "Dan Harkins",
+      "text": "the uniqueness guarantee on MAC addresses is lessened by reducing the \"random portion\" from 2^46 to 2^44.<br/>"
+    },
+    {
+      "dtime": 2177000,
+      "ptime": 2177000,
+      "author": "Carlos Bernardos",
+      "text": "BTW, RFC 8947 and 8948 are relevant for what Glenn is presenting<br/>"
+    },
+    {
+      "dtime": 2312000,
+      "ptime": 2312000,
+      "author": "Jen Linkova",
+      "text": "I've been told that there have been cases when LEAs asked for MACs..<br/>"
+    },
+    {
+      "dtime": 2335000,
+      "ptime": 2335000,
+      "author": "Alexandre Petrescu",
+      "text": "Exclusive right is a monopoly?&nbsp;&nbsp;But Coca Cola has exclusivity and that is not monopoly.&nbsp;&nbsp;To me, associating the word 'monopoly' to government is akin to making revendications already.&nbsp;&nbsp;In Europe, 'monopolies' are to be breaken apart where possible, but that is not gov't monopoly butindustry monopoly.&nbsp;&nbsp;It is confusing to talk monopoly and expect the listener to not mix Commercial interest and State interest: they _are_ different.<br/>"
+    },
+    {
+      "dtime": 2346000,
+      "ptime": 2346000,
+      "author": "Éric Vyncke",
+      "text": "@Carlos do you know the authors of RFC 8947 ;-) (joke)<br/>"
+    },
+    {
+      "dtime": 2365000,
+      "ptime": 2365000,
+      "author": "Carlos Bernardos",
+      "text": "@Éric I might ;)<br/>"
+    },
+    {
+      "dtime": 2366000,
+      "ptime": 2366000,
+      "author": "Éric Vyncke",
+      "text": "@Jen I would imagine with some FTTH with flat LAN<br/>"
+    },
+    {
+      "dtime": 2374000,
+      "ptime": 2374000,
+      "author": "Rich Salz",
+      "text": "Sorry, Alexandre, you're wrong in terms of the English language.<br/>"
+    },
+    {
+      "dtime": 2391000,
+      "ptime": 2391000,
+      "author": "Alexandre Petrescu",
+      "text": "Certainly I am - I dont doubt that :-)<br/>"
+    },
+    {
+      "dtime": 2411000,
+      "ptime": 2411000,
+      "author": "Amelia Andersdotter",
+      "text": "@Alexandre Try selling something under the brand Coca-Cola. The exclusive right they have is to sell their products under their brand.<br/>"
+    },
+    {
+      "dtime": 2412000,
+      "ptime": 2412000,
+      "author": "Rich Salz",
+      "text": "\"The state has a monopoly on violence\" is a term of art in the English-speaking political milieu. :)<br/>"
+    },
+    {
+      "dtime": 2415000,
+      "ptime": 2415000,
+      "author": "Dan Harkins",
+      "text": "@aleandre, I'm not saying the government is a \"monopoly\", I'm saying it's claim to exclusive use of force is.<br/>"
+    },
+    {
+      "dtime": 2450000,
+      "ptime": 2450000,
+      "author": "Alexandre Petrescu",
+      "text": "Dan - state is not claiming to use force - it is given that power by the people.<br/>"
+    },
+    {
+      "dtime": 2507000,
+      "ptime": 2507000,
+      "author": "Amelia Andersdotter",
+      "text": "@Alexandre the expression is the same in French: <a href=\"https://fr.wikipedia.org/wiki/Monopole_de_la_violence\" rel=\"nofollow\">https://fr.wikipedia.org/wiki/Monopole_de_la_violence</a><br/>"
+    },
+    {
+      "dtime": 2520000,
+      "ptime": 2520000,
+      "author": "Dan Harkins",
+      "text": "of course it is. When the authorities show up saying \"show me these records\" and can compel the operator to comply it is most definitely claiming an exclusive use of force. I can't show up at the operator and demand records!<br/>"
+    },
+    {
+      "dtime": 2552000,
+      "ptime": 2552000,
+      "author": "John Preuß Mattsson",
+      "text": "In Sweden the government has monopoly on selling alcohol. State monopoly is a commonly used term in economics<a href=\"https://en.wikipedia.org/wiki/State_monopoly\" rel=\"nofollow\">https://en.wikipedia.org/wiki/State_monopoly</a><br/>"
+    },
+    {
+      "dtime": 2567000,
+      "ptime": 2567000,
+      "author": "Alexandre Petrescu",
+      "text": "thanks for the URL! relevant.<br/>"
+    },
+    {
+      "dtime": 2692000,
+      "ptime": 2692000,
+      "author": "John Preuß Mattsson",
+      "text": "<a href=\"https://de.wikipedia.org/wiki/Staatsmonopol\" rel=\"nofollow\">https://de.wikipedia.org/wiki/Staatsmonopol</a><br/>"
+    },
+    {
+      "dtime": 2696000,
+      "ptime": 2696000,
+      "author": "Bob Moskowitz",
+      "text": "And we have to do that with Unmanned Aircraft Remote ID.<br/>"
+    },
+    {
+      "dtime": 2721000,
+      "ptime": 2721000,
+      "author": "Dan Harkins",
+      "text": "@michael, you're looking for a CID which IEEE will gladly sell you. That will give you an OUI under which you can assign MAC addresses. You will be required to run a SLAP policy on your network though.<br/>"
+    },
+    {
+      "dtime": 2728000,
+      "ptime": 2728000,
+      "author": "Bob Moskowitz",
+      "text": "See the Privacy section of draft-ietf-drip-rid.&nbsp;&nbsp;Or rather the lack of privacy....<br/>"
+    },
+    {
+      "dtime": 2735000,
+      "ptime": 2735000,
+      "author": "Alexandre Petrescu",
+      "text": "Overall, could it be said that a form of 'monopoly' is something that the work here tries to overcome?<br/>"
+    },
+    {
+      "dtime": 2760000,
+      "ptime": 2760000,
+      "author": "Andrew Campling",
+      "text": "@Dan the \"show me the records\" enforcement unlikely to be violence (except possibly in very extreme circumstances).&nbsp;&nbsp;In any case, the allocation of certain powers by a LEA in a democracy shouldn't be an issue for the IETF.&nbsp;&nbsp;<br/>"
+    },
+    {
+      "dtime": 2795000,
+      "ptime": 2795000,
+      "author": "Andrew Campling",
+      "text": "*is unlikely <br/>"
+    },
+    {
+      "dtime": 2819000,
+      "ptime": 2819000,
+      "author": "Éric Vyncke",
+      "text": "Big thanks indeed Glenn &amp; Tim<br/>"
+    },
+    {
+      "dtime": 2904000,
+      "ptime": 2904000,
+      "author": "Mathieu Cunche",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 2992000,
+      "ptime": 2992000,
+      "author": "Alexandre Petrescu",
+      "text": "802.11aq use RCM 'outof association' - does it mean OCB 'Outside the Context of a BSSID'- there is an RFC for IPv6-over-OCB and it does not talk RCM...<br/>"
+    },
+    {
+      "dtime": 3090000,
+      "ptime": 3090000,
+      "author": "Amelia Andersdotter",
+      "text": "I did a privacy review for ipv6-over-ocb and i recall some discussion on generating ipv6 addresses w/o relying on underlying mac or so. but that mechanism already exists for a long time.<br/>"
+    },
+    {
+      "dtime": 3091000,
+      "ptime": 3091000,
+      "author": "Dan Harkins",
+      "text": "@alexandre, it means during scanning or any pre-association interactions with an AP<br/>"
+    },
+    {
+      "dtime": 3115000,
+      "ptime": 3115000,
+      "author": "Bob Moskowitz",
+      "text": "@dan, what about NAN?<br/>"
+    },
+    {
+      "dtime": 3132000,
+      "ptime": 3132000,
+      "author": "Dan Harkins",
+      "text": "a BSSID can exist pre-association, but the client has not established state on the AP bound to a MAC address.<br/>"
+    },
+    {
+      "dtime": 3139000,
+      "ptime": 3139000,
+      "author": "Amelia Andersdotter",
+      "text": "although most complicated bits of ipv6-over-ocb from privacy perspective were just cut from the draft<br/>"
+    },
+    {
+      "dtime": 3154000,
+      "ptime": 3154000,
+      "author": "Dan Harkins",
+      "text": "@bob, NAN is a WFA thing. I'm not sure.<br/>"
+    },
+    {
+      "dtime": 3185000,
+      "ptime": 3185000,
+      "author": "mcr",
+      "text": "It's because all the logs (and pcaps) are indexed by IP/Mac address.<br/>"
+    },
+    {
+      "dtime": 3195000,
+      "ptime": 3195000,
+      "author": "Bob Moskowitz",
+      "text": "And NAN is in the ASTM Remote ID standard and being used in EU, but use of BEACONs is gaining preference.&nbsp;&nbsp;Less overhead.<br/>"
+    },
+    {
+      "dtime": 3202000,
+      "ptime": 3202000,
+      "author": "Jen Linkova",
+      "text": "Amelia: EUI-64-based addresses are kind of not recommended anymore, so most IPv6 addresses shoudn't have anything to do with MACs<br/>"
+    },
+    {
+      "dtime": 3374000,
+      "ptime": 3374000,
+      "author": "Steven Hartley",
+      "text": "ya EUI-64 is not ideal, secure simple is definately prefered (all though it helped me find a bug yesterday when someone configured it incorrectly on a node)<br/>"
+    },
+    {
+      "dtime": 3417000,
+      "ptime": 3417000,
+      "author": "Alexandre Petrescu",
+      "text": "\"@alexandre, it means during scanning or any pre-association interactions with an AP\", \"a BSSID can exist pre-association, but the client has not established state on the AP bound to a MAC address.\" - Yes.&nbsp;&nbsp;I thought these phrases mean OCB - Outside the Context of a BSS ID.&nbsp;&nbsp;I thought that OCB is a right term.&nbsp;&nbsp;However, OCB could not work with random MAC addresses (RCM), because in OCB&nbsp;&nbsp;mode on still uses MAC addresses in the src and dst addresses of messages, despite not having a BSSID.&nbsp;&nbsp;In that sense I wonder how 802.11aq works with changing MAC addresses.&nbsp;&nbsp;Does it involve continuously exchanging IPv6 NS/NA messages to discover each other's MAC address?&nbsp;&nbsp;Can I read 802.11aq?<br/>"
+    },
+    {
+      "dtime": 3499000,
+      "ptime": 3499000,
+      "author": "Dan Harkins",
+      "text": "the BSSID is the AP side of the conversation. APs don't randomize MACs. So there is still communication in the context of a BSSID that uses a random MAC (on the client).<br/>"
+    },
+    {
+      "dtime": 3543000,
+      "ptime": 3543000,
+      "author": "Alexandre Petrescu",
+      "text": "APs not randomizing its MAC address is not a privacy issue?<br/>"
+    },
+    {
+      "dtime": 3565000,
+      "ptime": 3565000,
+      "author": "Dan Harkins",
+      "text": "on whom?<br/>"
+    },
+    {
+      "dtime": 3588000,
+      "ptime": 3588000,
+      "author": "Mathieu Cunche",
+      "text": "Maybe when the AP is spawned by a smartphone.<br/>"
+    },
+    {
+      "dtime": 3605000,
+      "ptime": 3605000,
+      "author": "mcr",
+      "text": "Bob is asking the same question I asked in the previous presentation :-)<br/>"
+    },
+    {
+      "dtime": 3616000,
+      "ptime": 3616000,
+      "author": "Steven Hartley",
+      "text": "In most SW solutions (i.e. Android), RCM is used for both AP and STA.<br/>"
+    },
+    {
+      "dtime": 3616000,
+      "ptime": 3616000,
+      "author": "Alexandre Petrescu",
+      "text": "Privacy is a problem that can be solved bilaterally: I reveal my identity if my counterpart does too.&nbsp;&nbsp;In that sense, if I had my id then it is strange that the AP does not.<br/>"
+    },
+    {
+      "dtime": 3638000,
+      "ptime": 3638000,
+      "author": "Alexandre Petrescu",
+      "text": "(if I hide my id)<br/>"
+    },
+    {
+      "dtime": 3639000,
+      "ptime": 3639000,
+      "author": "Dan Harkins",
+      "text": "but if it wants to simultaneously serve multiple clients then it must have a persistant MAC. It can be from the \"local\" address space-- i.e. random-- but it must be persistent.<br/>"
+    },
+    {
+      "dtime": 3662000,
+      "ptime": 3662000,
+      "author": "Éric Vyncke",
+      "text": "@Dan ++<br/>"
+    },
+    {
+      "dtime": 3675000,
+      "ptime": 3675000,
+      "author": "Dan Harkins",
+      "text": "and MAC address persistence has been identified as a privacy issue _on clients_. Not on APs.<br/>"
+    },
+    {
+      "dtime": 3680000,
+      "ptime": 3680000,
+      "author": "Amelia Andersdotter",
+      "text": "The soft/mobile AP use-cases concern cases where a smartphone is turned into an AP for instance.<br/>"
+    },
+    {
+      "dtime": 3689000,
+      "ptime": 3689000,
+      "author": "Mohamed Boucadair",
+      "text": "draft-ietf-drip-rid-13#section-8<br/>"
+    },
+    {
+      "dtime": 3689000,
+      "ptime": 3689000,
+      "author": "Amelia Andersdotter",
+      "text": "Then it's a personal device that is used as an AP<br/>"
+    },
+    {
+      "dtime": 3721000,
+      "ptime": 3721000,
+      "author": "Amelia Andersdotter",
+      "text": "@Dan not entirely true. the \"soft AP\" use-case is being raised.<br/>"
+    },
+    {
+      "dtime": 3778000,
+      "ptime": 3778000,
+      "author": "Dan Harkins",
+      "text": "a \"soft AP\" still has to have a persistent MAC address to serve clients. All of 802.11 would break if APs were to change MAC addresses while clients were associated.<br/>"
+    },
+    {
+      "dtime": 3808000,
+      "ptime": 3808000,
+      "author": "mcr",
+      "text": "_queue closed_ nice.<br/>"
+    },
+    {
+      "dtime": 3851000,
+      "ptime": 3851000,
+      "author": "Bob Moskowitz",
+      "text": "@Med, thanks for posting the ID information.<br/>"
+    },
+    {
+      "dtime": 3869000,
+      "ptime": 3869000,
+      "author": "mcr",
+      "text": "@Dan, Soft-AP is how MATTER onboards, and many many device specific ways.&nbsp;&nbsp;I really don't know if it should RCM or not.<br/>"
+    },
+    {
+      "dtime": 3874000,
+      "ptime": 3874000,
+      "author": "Éric Vyncke",
+      "text": "@mcr a new feature indeed<br/>"
+    },
+    {
+      "dtime": 3881000,
+      "ptime": 3881000,
+      "author": "Alexandre Petrescu",
+      "text": "In DRIP \"draft-ietf-drip-rid-13#section-8\" I am not sure what is DET - an AP or not.&nbsp;&nbsp;But I think it makes sense to think that the drone carries an AP and the human controller a Host. Or reversely.&nbsp;&nbsp;But that AP on drone might be the case that its MAC address might have an issue.<br/>"
+    },
+    {
+      "dtime": 3957000,
+      "ptime": 3957000,
+      "author": "Bob Moskowitz",
+      "text": "For most UA, they operate as an AP for the GCS to associate for Command and Control.&nbsp;&nbsp;But this association is done before Operation (flight) starts.<br/>"
+    },
+    {
+      "dtime": 3992000,
+      "ptime": 3992000,
+      "author": "Dan Harkins",
+      "text": "@mcr, the issue isn't whether the MAC address is \"random\" (i.e. from the local address space) it's whether it's persistent and it has to be in order to maintain a conversation. The 802.11 state machine assumes fixed MAC addresses and if one side changes it's MAC address then the state is lost.<br/>"
+    },
+    {
+      "dtime": 4024000,
+      "ptime": 4024000,
+      "author": "mcr",
+      "text": "@Dan, it matters if you'd like to put the MAC address in the IDevID :-)<br/>"
+    },
+    {
+      "dtime": 4029000,
+      "ptime": 4029000,
+      "author": "Amelia Andersdotter",
+      "text": "@dan there was this proposal in tgbi where you have internal and external mac addresses. the privacy issue for the soft AP is where a permanent mac is transferred in the clear over-the-air.<br/>"
+    },
+    {
+      "dtime": 4054000,
+      "ptime": 4054000,
+      "author": "Alexandre Petrescu",
+      "text": "DHCP?<br/>"
+    },
+    {
+      "dtime": 4057000,
+      "ptime": 4057000,
+      "author": "Bob Moskowitz",
+      "text": "DET is well defined in the draft.&nbsp;&nbsp;It is the IETF's UA Remote ID.&nbsp;&nbsp;In standard RID messaging it is only in the Basic ID Message.&nbsp;&nbsp;The Location/Vector message does not contain it, so the MAC address is needed to make the link between Who and Where.<br/>"
+    },
+    {
+      "dtime": 4075000,
+      "ptime": 4075000,
+      "author": "mcr",
+      "text": "It matters if you need to identify which of hundreds of APs announcements you are hearing is the one that you want.&nbsp;&nbsp;If the device RCMs across power cycles, then even if you make a list and go through them, your list might be endless.<br/>"
+    },
+    {
+      "dtime": 4102000,
+      "ptime": 4102000,
+      "author": "Dan Harkins",
+      "text": "@mcr, you might've missed my earlier comment but I think you want to buy a CID from IEEE, allocate addresses from the local address space under that OUI, and use a SLAP quadrant on the LAN you run.<br/>"
+    },
+    {
+      "dtime": 4140000,
+      "ptime": 4140000,
+      "author": "Dan Harkins",
+      "text": "then you can have 2^24 (I think) addresses to stick into 2^24 certificates.<br/>"
+    },
+    {
+      "dtime": 4147000,
+      "ptime": 4147000,
+      "author": "mcr",
+      "text": "@Dan, that totally fails for new devices on which you might run DPP on.<br/>"
+    },
+    {
+      "dtime": 4164000,
+      "ptime": 4164000,
+      "author": "Alexandre Petrescu",
+      "text": "\"DHCP?\" - in relationship with the shown slide, I meant to ask whether 802.1x works with IPv6, or is it only working in an IPv4 setting.<br/>"
+    },
+    {
+      "dtime": 4172000,
+      "ptime": 4172000,
+      "author": "mcr",
+      "text": "@dan, that might work for some big enterprise, but I'm talking about having hundreds of devices from hundreds of manufacturers.<br/>"
+    },
+    {
+      "dtime": 4180000,
+      "ptime": 4180000,
+      "author": "Dan Harkins",
+      "text": "DPP doesn't require an IDevID!<br/>"
+    },
+    {
+      "dtime": 4188000,
+      "ptime": 4188000,
+      "author": "Bob Moskowitz",
+      "text": "Then you have all those unmanned aircraft sending BEACONs!&nbsp;&nbsp;You would then need to upgrade your system to recognize those BEACONS with the Vendor IE and the specific Vendor OID to filter those potentially hundreds of BEACONs!<br/>"
+    },
+    {
+      "dtime": 4227000,
+      "ptime": 4227000,
+      "author": "Alexandre Petrescu",
+      "text": "Sometimes one might want drones to make more noise than they do, so theydont get attacked by animals such as craven(?)<br/>"
+    },
+    {
+      "dtime": 4239000,
+      "ptime": 4239000,
+      "author": "mcr",
+      "text": "DPP connects a mac address to public key, \"certified\" in the QR code, right?<br/>"
+    },
+    {
+      "dtime": 4240000,
+      "ptime": 4240000,
+      "author": "Dan Harkins",
+      "text": "there can be hundreds of CIDs issued (I'm sure IEEE would love to sell those!) and each one of them will have 2^24 MACs to stick into their certificates.<br/>"
+    },
+    {
+      "dtime": 4264000,
+      "ptime": 4264000,
+      "author": "Dan Harkins",
+      "text": "@mcr, no MAC used. DPP doesn't care about MAC addresses.<br/>"
+    },
+    {
+      "dtime": 4278000,
+      "ptime": 4278000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: 802.1x has really nothing to do with IP version.<br/>"
+    },
+    {
+      "dtime": 4300000,
+      "ptime": 4300000,
+      "author": "Alexandre Petrescu",
+      "text": "(craven, crow,flying bird attacking drones because they are not afraid of them)<br/>"
+    },
+    {
+      "dtime": 4321000,
+      "ptime": 4321000,
+      "author": "Bob Moskowitz",
+      "text": "Schipol has trained falcons to bring down UAs!<br/>"
+    },
+    {
+      "dtime": 4373000,
+      "ptime": 4373000,
+      "author": "Bob Hinden",
+      "text": "An issue (current slide) is that a host can't really know how trustworthy the network it is connected to is on.&nbsp;&nbsp;&nbsp;&nbsp;<br/>"
+    },
+    {
+      "dtime": 4381000,
+      "ptime": 4381000,
+      "author": "Bob Moskowitz",
+      "text": "Or are they hawks and not actually falcons....<br/>"
+    },
+    {
+      "dtime": 4389000,
+      "ptime": 4389000,
+      "author": "Alexandre Petrescu",
+      "text": "\"Alexandre: 802.1x has really nothing to do with IP version.\" - yes, but is 802.1x used in an IPv6-only network?<br/>"
+    },
+    {
+      "dtime": 4420000,
+      "ptime": 4420000,
+      "author": "Jen Linkova",
+      "text": "AlexandreL there is absolutely no reason why not. I happen to run such a network ;)<br/>"
+    },
+    {
+      "dtime": 4438000,
+      "ptime": 4438000,
+      "author": "Bob Moskowitz",
+      "text": "1x was never IP version specific.<br/>"
+    },
+    {
+      "dtime": 4492000,
+      "ptime": 4492000,
+      "author": "Éric Vyncke",
+      "text": ".1x is not even specific for IP ;-)<br/>"
+    },
+    {
+      "dtime": 4505000,
+      "ptime": 4505000,
+      "author": "Jen Linkova",
+      "text": "802.1x is a way to authenticate a device connected to the network. The supplicant on that device uses EAPOL (so it's ethernet frames) for authentication, IP is not involved. After authentication is completed - the device can use whatever IP versions it supppts<br/>"
+    },
+    {
+      "dtime": 4565000,
+      "ptime": 4565000,
+      "author": "Alexandre Petrescu",
+      "text": "1x IP version independent: but only DHCP can enforce that access via MAC addresses.&nbsp;&nbsp;The question is how to realize enforcement of 1x by using IPv6 SLAAC.&nbsp;&nbsp; If one couldnt (which I am probably wrong to suppose to) then should the RCM problem still be tackled.<br/>"
+    },
+    {
+      "dtime": 4567000,
+      "ptime": 4567000,
+      "author": "Bob Moskowitz",
+      "text": "@Eric.&nbsp;&nbsp;one could always use an EAP method that assigns the IP.<br/>"
+    },
+    {
+      "dtime": 4597000,
+      "ptime": 4597000,
+      "author": "Éric Vyncke",
+      "text": "@Bob: really? Just curious to leanr<br/>"
+    },
+    {
+      "dtime": 4664000,
+      "ptime": 4664000,
+      "author": "Rich Salz",
+      "text": "left the queue.&nbsp;&nbsp;agree with mcr.<br/>"
+    },
+    {
+      "dtime": 4691000,
+      "ptime": 4691000,
+      "author": "Andrew Campling",
+      "text": "+1 to enterprise being a full trust environment <br/>"
+    },
+    {
+      "dtime": 4693000,
+      "ptime": 4693000,
+      "author": "Bob Moskowitz",
+      "text": "1x is a transport for EAP.&nbsp;&nbsp;ANY EAP method.&nbsp;&nbsp;Only some are commonly deployed but it is up to the client and AP EAP server (or proxy) to choose.&nbsp;&nbsp;There are EAP methods that include the IP address assignment step.&nbsp;&nbsp;Just not really used.<br/>"
+    },
+    {
+      "dtime": 4713000,
+      "ptime": 4713000,
+      "author": "Alexandre Petrescu",
+      "text": "\"After authentication is completed - the device can use whatever IP versions it supppts\" - if the authentication is failing would the Host be prevented from sending NAs?<br/>"
+    },
+    {
+      "dtime": 4725000,
+      "ptime": 4725000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: I'm not sure I follow. What do you mean by \"realize enforcement of 1x by using IPv6 SLAAC\". Again, 802.1x assumes that the host receives some EAPOL frames from the switch and responds to them (w/o using IP). After authentication is completed - host can have static IPs, DHCP assigned IPs, SLAAC IPs etc - it doesn't matter. 802.1x doesn't care about IPs<br/>"
+    },
+    {
+      "dtime": 4729000,
+      "ptime": 4729000,
+      "author": "Rich Salz",
+      "text": "Many people live in townhouses and apartments.<br/>"
+    },
+    {
+      "dtime": 4790000,
+      "ptime": 4790000,
+      "author": "Alexandre Petrescu",
+      "text": "Jen, an 802.1x unsucessfull authentication on Ethernet would prevent the Host to even form an IPv4 address,but would it prevent the Host from sending NAs on the link?<br/>"
+    },
+    {
+      "dtime": 4800000,
+      "ptime": 4800000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: if 802.1x fails the host can not send anything (ex. 802.1x authentication frames). (well, switches do allow you to place a device to a dedicated quarantine VLAN but it's a different story.<br/>"
+    },
+    {
+      "dtime": 4850000,
+      "ptime": 4850000,
+      "author": "Alexandre Petrescu",
+      "text": "Jen, I suspect I might be wrong again.&nbsp;&nbsp;I suspect it is not clear for me.<br/>"
+    },
+    {
+      "dtime": 4859000,
+      "ptime": 4859000,
+      "author": "Bob Moskowitz",
+      "text": "If 1x fails, the AP should then DISASSOCIATE with the STA.&nbsp;&nbsp;The STA would then need to restart the whole association.<br/>"
+    },
+    {
+      "dtime": 4889000,
+      "ptime": 4889000,
+      "author": "Bob Moskowitz",
+      "text": "At least that is the way we designed back in the day.<br/>"
+    },
+    {
+      "dtime": 4932000,
+      "ptime": 4932000,
+      "author": "David Oliver",
+      "text": "Perhaps better to view all environments as \"partial trust\" or \"no trust\".&nbsp;&nbsp;While an enterprise MIGHT BE theoretically trustworthy, internally they would want to deal with it as \"untrustworthy\" I think<br/>"
+    },
+    {
+      "dtime": 4960000,
+      "ptime": 4960000,
+      "author": "Bob Moskowitz",
+      "text": "Glenn can chime in.&nbsp;&nbsp;He was one of the real 802.1 people that guided developing the 1x state machine.<br/>"
+    },
+    {
+      "dtime": 4980000,
+      "ptime": 4980000,
+      "author": "mcr",
+      "text": "But, @Bob, the point wasn't that they are all the same.&nbsp;&nbsp;The point was if there are any places where there would be full trust, it would be some subset of enterprises.<br/>"
+    },
+    {
+      "dtime": 4988000,
+      "ptime": 4988000,
+      "author": "Jen Linkova",
+      "text": "+1 to what Bob is saying. Actually different segments in the same enterprise can have different \"trust\" levels<br/>"
+    },
+    {
+      "dtime": 5009000,
+      "ptime": 5009000,
+      "author": "Éric Vyncke",
+      "text": "@Jen @Bob indeed and on purpose<br/>"
+    },
+    {
+      "dtime": 5012000,
+      "ptime": 5012000,
+      "author": "Alexandre Petrescu",
+      "text": "I think, with my limited experience, which is veryoriented on IPv6, that I have not seen a wifi 1x deployment with IPv6 only.&nbsp;&nbsp;Maybe I need to try that sometimes in the future.<br/>"
+    },
+    {
+      "dtime": 5020000,
+      "ptime": 5020000,
+      "author": "David Oliver",
+      "text": "What enterprise network engineer would want to say \"I set up my network as full trust\"?<br/>"
+    },
+    {
+      "dtime": 5061000,
+      "ptime": 5061000,
+      "author": "Massimiliano Pala",
+      "text": "Small consideration about nomenclature - what you call full trust environment seems to me to be the low-trust one instead where you NEED to know publicly identities of devices without establishing a trust relationship with it. Maybe the name is misleading? A No-Privacy environment could be a better name?<br/>"
+    },
+    {
+      "dtime": 5106000,
+      "ptime": 5106000,
+      "author": "Mohamed Boucadair",
+      "text": "Agree with Mathieu given that the broadcast environnement is not controlled.&nbsp;&nbsp;I tend to reason more on env where the trust vs. usabilty balance/tension is more on the usability side.<br/>"
+    },
+    {
+      "dtime": 5140000,
+      "ptime": 5140000,
+      "author": "Mathieu Cunche",
+      "text": "Another argument against the existence of \"Full trust\" is cross-device tracking : your own device may try to leverage all kind of identifiers (including MAC addr) to identify links<br/>"
+    },
+    {
+      "dtime": 5153000,
+      "ptime": 5153000,
+      "author": "Jen Linkova",
+      "text": "&gt;I think, with my limited experience, which is veryoriented on IPv6, that I have not seen a wifi 1x deployment with IPv6 only.<br/>I guess it's because there are not so many enterprise IPv6-only networks yet. It's not because of 802.1x. But if you need an example to prove they exist - I have one for you ;)<br/>"
+    },
+    {
+      "dtime": 5178000,
+      "ptime": 5178000,
+      "author": "Mathieu Cunche",
+      "text": "Cross-device tracking: <a href=\"https://en.wikipedia.org/wiki/Cross-device_tracking\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Cross-device_tracking</a><br/>"
+    },
+    {
+      "dtime": 5188000,
+      "ptime": 5188000,
+      "author": "mcr",
+      "text": "@Alexandre, at the IETF meetings, we have \"IETF-v6Only\" network regularly, and you've been to those meetings.<br/>"
+    },
+    {
+      "dtime": 5191000,
+      "ptime": 5191000,
+      "author": "Alexandre Petrescu",
+      "text": "Jen, you got an example of 1x wifi deployment thas no IPv4 on it but has IPv6 on it?<br/>"
+    },
+    {
+      "dtime": 5206000,
+      "ptime": 5206000,
+      "author": "mcr",
+      "text": "also IETF-NAT64.<br/>"
+    },
+    {
+      "dtime": 5223000,
+      "ptime": 5223000,
+      "author": "Alexandre Petrescu",
+      "text": "if it's nat64 then it's not IPv6 only<br/>"
+    },
+    {
+      "dtime": 5238000,
+      "ptime": 5238000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: Yes, I do. I'm still failing to understand why you think might not be possible<br/>"
+    },
+    {
+      "dtime": 5252000,
+      "ptime": 5252000,
+      "author": "Jen Linkova",
+      "text": "&gt;if it's nat64 then it's not IPv6 only<br/>"
+    },
+    {
+      "dtime": 5254000,
+      "ptime": 5254000,
+      "author": "Jen Linkova",
+      "text": "no<br/>"
+    },
+    {
+      "dtime": 5267000,
+      "ptime": 5267000,
+      "author": "Jen Linkova",
+      "text": "I'd disagree. Devices do not have IPv4. So it's v6-only.<br/>"
+    },
+    {
+      "dtime": 5293000,
+      "ptime": 5293000,
+      "author": "Alexandre Petrescu",
+      "text": "\"@Alexandre, at the IETF meetings, we have \"IETF-v6Only\" network regularly, and you've been to those meetings.\" - the reason I could not connect to these v6only networks was because of WiFi driver on windows.&nbsp;&nbsp;The AP of Cisco _only_ accepted Macs to it.&nbsp;&nbsp;Yes, it was an IPv6-only but it was Mac-only too.<br/>"
+    },
+    {
+      "dtime": 5308000,
+      "ptime": 5308000,
+      "author": "Alexandre Petrescu",
+      "text": "(Mac==Macintosh)<br/>"
+    },
+    {
+      "dtime": 5338000,
+      "ptime": 5338000,
+      "author": "Bob Moskowitz",
+      "text": "And Linux<br/>"
+    },
+    {
+      "dtime": 5341000,
+      "ptime": 5341000,
+      "author": "Jen Linkova",
+      "text": "I'd call it 'Windows-Free\" rather then...Because Linux, Android and iPhones can connect<br/>"
+    },
+    {
+      "dtime": 5368000,
+      "ptime": 5368000,
+      "author": "Alexandre Petrescu",
+      "text": "\" Devices do not have IPv4. So it's v6-only.\" - we drive away, but let me then enhance my acronym: IPv6-only-and-end-to-end.<br/>"
+    },
+    {
+      "dtime": 5425000,
+      "ptime": 5425000,
+      "author": "Alexandre Petrescu",
+      "text": "\"I'd call it 'Windows-Free\" rather then...Because Linux, Android and iPhones can connect\" - fair enough.&nbsp;&nbsp;ButWindows is the onlyone among those who could actually turn off IPv4.&nbsp;&nbsp;All the others cant.<br/>"
+    },
+    {
+      "dtime": 5432000,
+      "ptime": 5432000,
+      "author": "Rich Salz",
+      "text": "I do not understand why you are insisting it's not possible.&nbsp;&nbsp;Jen said her home network does it, and the fact that you could not connect to IETF-v6only doesn't mean that it does not exist.<br/>"
+    },
+    {
+      "dtime": 5439000,
+      "ptime": 5439000,
+      "author": "Bob Moskowitz",
+      "text": "The whole IPv6-only \"experiment\" at the IETF was to learn how the IPv6 server deployment was progressing based on friendly user experiences.<br/>"
+    },
+    {
+      "dtime": 5453000,
+      "ptime": 5453000,
+      "author": "Joey Salazar",
+      "text": "had a network hiccup, did Jerome talk about the requirements section?<br/>"
+    },
+    {
+      "dtime": 5456000,
+      "ptime": 5456000,
+      "author": "Jen Linkova",
+      "text": "I said my *corporate* network has it ;)<br/>"
+    },
+    {
+      "dtime": 5466000,
+      "ptime": 5466000,
+      "author": "Rich Salz",
+      "text": ":)<br/>"
+    },
+    {
+      "dtime": 5478000,
+      "ptime": 5478000,
+      "author": "Joey Salazar",
+      "text": "particularly referring to req 8:<br/>REQ8&nbsp;&nbsp;Identify a secure mechanism for the device to notify the<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; network prior to updating update the MAC address.<br/>"
+    },
+    {
+      "dtime": 5551000,
+      "ptime": 5551000,
+      "author": "Alexandre Petrescu",
+      "text": "\"I do not understand why you are insisting it's not possible. \" - I am not.&nbsp;&nbsp;I have a feeling, a supposition.&nbsp;&nbsp;That feeling is about reliance on IPv4 when we try to design a RCM-related solution.&nbsp;&nbsp;The only way to find out is to set upa testbed that exposes the RCM problem and eliminate IPv4 from it and see whether that RCM-related problem is still there.&nbsp;&nbsp;If not, then we're fine.<br/>"
+    },
+    {
+      "dtime": 5568000,
+      "ptime": 5568000,
+      "author": "Carlos Bernardos",
+      "text": "I've just noted a typo on the cover of the slides. It should say \"draft-zuniga-madinas-mac-address-randomization\". Sorry about that<br/>"
+    },
+    {
+      "dtime": 5632000,
+      "ptime": 5632000,
+      "author": "Rich Salz",
+      "text": "I am positive that some of the devices connecting to IETF-IPv6only did RCM.&nbsp;&nbsp;IETF people tend to do that kind of thing.<br/>"
+    },
+    {
+      "dtime": 5653000,
+      "ptime": 5653000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: I might be missing smth, but I haven't noticed any IPv4 dependencies - or maybe I got distracted and missed the slide?? As I've said - 802.1x is IP-agnostic. The host is either authenticated and can send Ipv4, Ipv6, IPv10 - whatever. Or it's not and then nothing is allowed.<br/>"
+    },
+    {
+      "dtime": 5676000,
+      "ptime": 5676000,
+      "author": "Alexandre Petrescu",
+      "text": "\"IETF-IPv6only did RCM. \" - it's good to know, but was IPv4 turned off?<br/>"
+    },
+    {
+      "dtime": 5676000,
+      "ptime": 5676000,
+      "author": "Jen Linkova",
+      "text": "Rich: I guess my phone shall be doing this<br/>"
+    },
+    {
+      "dtime": 5698000,
+      "ptime": 5698000,
+      "author": "Rich Salz",
+      "text": "Alexandre: it's in the NAME.&nbsp;&nbsp;IPv6only.&nbsp;&nbsp;Sheesh.<br/>"
+    },
+    {
+      "dtime": 5700000,
+      "ptime": 5700000,
+      "author": "Steven Hartley",
+      "text": "Should we note just update to Android-12 since it is available? They have randomization for AP now by default since 11 I believe.<br/>"
+    },
+    {
+      "dtime": 5740000,
+      "ptime": 5740000,
+      "author": "Steven Hartley",
+      "text": "RCM is now a CDD requirement (Android compliance requirement)<br/>"
+    },
+    {
+      "dtime": 5748000,
+      "ptime": 5748000,
+      "author": "Alexandre Petrescu",
+      "text": "\"Alexandre: it's in the NAME. IPv6only. Sheesh.\" - Sheesh?&nbsp;&nbsp;I can call&nbsp;&nbsp;myself Rich and I wont be Rich for that matter.&nbsp;&nbsp;If the AP was a linux then IPv4 was not turned off.&nbsp;&nbsp;Turning off IPv4 means to extract the IPv4 stack out of it.<br/>"
+    },
+    {
+      "dtime": 5807000,
+      "ptime": 5807000,
+      "author": "Rich Salz",
+      "text": "So now you do not trust that the IETF NOCC folks did what they were claiming.&nbsp;&nbsp;Got it.<br/>"
+    },
+    {
+      "dtime": 5826000,
+      "ptime": 5826000,
+      "author": "Alexandre Petrescu",
+      "text": "\"So now you do not trust that the IETF NOCC folks did what they were claiming. Got it.\" - I trust NOCC people.<br/>"
+    },
+    {
+      "dtime": 5865000,
+      "ptime": 5865000,
+      "author": "Rich Salz",
+      "text": "So you trust the NOCC people. But you don't think ietf-v6only was, in fact, only IPv6 ?<br/>"
+    },
+    {
+      "dtime": 5875000,
+      "ptime": 5875000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: there was no DHCP, no end-to-end IPv4 connectivity, hosts do not send IPv4 traffic ex. for unanswered DHCP discovers. So I'm not sure what kind of IPv4 dependencies you think there were.<br/>"
+    },
+    {
+      "dtime": 5908000,
+      "ptime": 5908000,
+      "author": "Alexandre Petrescu",
+      "text": "\"So you trust the NOCC people. But you don't think ietf-v6only was, in fact, only IPv6 ?\" - yes.&nbsp;&nbsp;Being IPv6 only means to extract IPv4 stack out of it.&nbsp;&nbsp;Windows can do that.&nbsp;&nbsp;NAT64 is nont IPv6-only, it is IPv6 with some IPv4.&nbsp;&nbsp;It's in the name.<br/>"
+    },
+    {
+      "dtime": 5944000,
+      "ptime": 5944000,
+      "author": "Dave Thaler",
+      "text": "Comment on draft-zuniga-madinas-mac-address-randomization: the rows in that table are not well defined in the draft.&nbsp;&nbsp;Please add text explaining each row (you may be able to figure it out from text in the doc, but better to be explicit)<br/>"
+    },
+    {
+      "dtime": 5968000,
+      "ptime": 5968000,
+      "author": "Jen Linkova",
+      "text": "Alexandre: Ok, it's past midnight, I need coffee - but you've lost me here. what does NAT64 have to do with RCM and 802.1x?<br/>"
+    },
+    {
+      "dtime": 5978000,
+      "ptime": 5978000,
+      "author": "Bob Moskowitz",
+      "text": "Perhaps these tables should now be moved to the github?<br/>"
+    },
+    {
+      "dtime": 6011000,
+      "ptime": 6011000,
+      "author": "Rich Salz",
+      "text": "We stopped tawlking about NAT64.&nbsp;&nbsp;We're talking about ietf-v6only.<br/>"
+    },
+    {
+      "dtime": 6034000,
+      "ptime": 6034000,
+      "author": "Rich Salz",
+      "text": "You admit to not having any experience with it. But you don't believe that the IETF NOCC did what it claimed to be doing.<br/>"
+    },
+    {
+      "dtime": 6034000,
+      "ptime": 6034000,
+      "author": "Alexandre Petrescu",
+      "text": "\" So I'm not sure what kind of IPv4 dependencies you think there were.\" - we diverge and I would not like to be the one to carry the fault.&nbsp;&nbsp;Thefocus is on RCM-related problem.&nbsp;&nbsp;The IPv4 dependencies you ask could also be the DHCP discovers you mention, or simply many other aspects like 127.0.0.1.&nbsp;&nbsp;Not sure how these could impact RCM-related problem, and only in practice could I find.<br/>"
+    },
+    {
+      "dtime": 6057000,
+      "ptime": 6057000,
+      "author": "Jen Linkova",
+      "text": "OK, I'm lost and confused and sleepy and probably not making any sense, so I'll shut up ;)<br/>"
+    },
+    {
+      "dtime": 6066000,
+      "ptime": 6066000,
+      "author": "Rich Salz",
+      "text": "It's not you, @Jen.<br/>"
+    },
+    {
+      "dtime": 6068000,
+      "ptime": 6068000,
+      "author": "BEHCET SARIKAYA",
+      "text": "Github idea is great!<br/>"
+    },
+    {
+      "dtime": 6071000,
+      "ptime": 6071000,
+      "author": "Rich Salz",
+      "text": "I mean not just you.<br/>"
+    },
+    {
+      "dtime": 6082000,
+      "ptime": 6082000,
+      "author": "Alexandre Petrescu",
+      "text": "Sorry, Jen, Rich.&nbsp;&nbsp;You are right.<br/>"
+    },
+    {
+      "dtime": 6172000,
+      "ptime": 6172000,
+      "author": "Rich Salz",
+      "text": "It's very rare that someone admits being wrong at the IETF.&nbsp;&nbsp;Thank you for that.<br/>"
+    },
+    {
+      "dtime": 6286000,
+      "ptime": 6286000,
+      "author": "Carlos Bernardos",
+      "text": "Very good feedback @mcr @dave @bob<br/>"
+    },
+    {
+      "dtime": 6425000,
+      "ptime": 6425000,
+      "author": "David Oliver",
+      "text": "Thanks to all here for both the presentations and comments.&nbsp;&nbsp;This activity complements similar efforts going on in IP address privacy etc.<br/>"
+    },
+    {
+      "dtime": 6431000,
+      "ptime": 6431000,
+      "author": "Alexandre Petrescu",
+      "text": "thanks, bye<br/>"
+    },
+    {
+      "dtime": 6438000,
+      "ptime": 6438000,
+      "author": "Dave Thaler",
+      "text": "The reason I wouldn't object to a historical snapshot in the doc, with a pointer to the latest, is that we do that for new IANA registry contents for example<br/>"
+    },
+    {
+      "dtime": 6439000,
+      "ptime": 6439000,
+      "author": "Mathieu Cunche",
+      "text": "Bye<br/>"
+    },
+    {
+      "dtime": 6442000,
+      "ptime": 6442000,
+      "author": "Éric Vyncke",
+      "text": "Thank you all<br/>"
+    },
+    {
+      "dtime": 6442000,
+      "ptime": 6442000,
+      "author": "Bob Hinden",
+      "text": "bye<br/>"
+    },
+    {
+      "dtime": 6451000,
+      "ptime": 6451000,
+      "author": "Massimiliano Pala",
+      "text": "Thank you! Great presentations and lots of work ahead!<br/>"
+    },
+    {
+      "dtime": 6463000,
+      "ptime": 6463000,
+      "author": "Bob Moskowitz",
+      "text": "bye<br/>"
+    },
+    {
+      "dtime": 6478000,
+      "ptime": 6478000,
+      "author": "Éric Vyncke",
+      "text": "Github could give the impression of being alive while it is not though (my only concern)<br/>"
+    },
+    {
+      "dtime": 6561000,
+      "ptime": 6561000,
+      "author": "Dave Thaler",
+      "text": "So I'd be fine with any of:<br/>a) snapshot in document saying it may be out of date<br/>b) snapshot in doc with pointer to latest<br/>c) no snapshot in doc, just a pointer to latest<br/>"
+    },
+    {
+      "dtime": 6580000,
+      "ptime": 6580000,
+      "author": "Dave Thaler",
+      "text": "we have examples of all three of those in other contexts<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-MADINAS-20211110-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/madinas"
+    }
+  ]
+}

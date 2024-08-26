@@ -1,0 +1,133 @@
+
+{
+	"title": "IETF115-SCIM-20221107-1300",
+	"filename": "IETF115-SCIM-20221107-1300",
+	"start": 0,
+	"end": 4970000,
+	"start_datetime": "2022-11-07T13:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "XnnYKEVz5Yg",
+    "start": 0,
+    "end": "4970000"
+  }
+],
+	"messages": [
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Yes</p>",
+    "topic": "jabber",
+    "dtime": 272000,
+    "ptime": 272000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>good morning Danny - I hope you have some coffee =)</p>",
+    "topic": "jabber",
+    "dtime": 320000,
+    "ptime": 320000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Fizzy caffeinated beverage</p>",
+    "topic": "jabber",
+    "dtime": 382000,
+    "ptime": 382000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Fine by us :)</p>",
+    "topic": "jabber",
+    "dtime": 480000,
+    "ptime": 480000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>You mention it is not a NetConf/RestConf for the device... I agree, but wouldn't this be an Infrastructure configuration and, as such, solvable with NetConf/RestConf for the Infrastructure/AccessNetwork/Controller rather than the device?</p>",
+    "topic": "jabber",
+    "dtime": 971000,
+    "ptime": 971000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Thank you!</p>",
+    "topic": "jabber",
+    "dtime": 1130000,
+    "ptime": 1130000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>I also hear the echo a bit</p>",
+    "topic": "jabber",
+    "dtime": 1692000,
+    "ptime": 1692000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>the speakers are getting caught by the microphone a bit</p>",
+    "topic": "jabber",
+    "dtime": 1704000,
+    "ptime": 1704000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We notified the AV</p>",
+    "topic": "jabber",
+    "dtime": 1757000,
+    "ptime": 1757000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>I have only seen SCIM service provider implementations that treat externalId as a universal string that is returned the same regardless of which client - also it can be used by other clients as well, i.e.: migrating from one provisioning service/IDP to another</p>",
+    "topic": "jabber",
+    "dtime": 1859000,
+    "ptime": 1859000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1277\">@Danny Zollner</span>   It is more expensive for a server to implement a delta token mechanism.  It may be worth having multiple options for identifying the changeset depending on volatility of the data and its scale.</p>",
+    "topic": "jabber",
+    "dtime": 3960000,
+    "ptime": 3960000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>that was my thought as well, Darrel.  Client and server need to maintain state.  Can we use a larger-grained time stamp instead?  <br>\nwe don't need millisecond specificity (usually)</p>",
+    "topic": "jabber",
+    "dtime": 4083000,
+    "ptime": 4083000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Thanks everyone :)</p>",
+    "topic": "jabber",
+    "dtime": 4832000,
+    "ptime": 4832000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Thanks Everyone!</p>",
+    "topic": "jabber",
+    "dtime": 4895000,
+    "ptime": 4895000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-SCIM-20221107-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/scim"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-SCIM-20221107-1300"
+		}		
+	]
+}

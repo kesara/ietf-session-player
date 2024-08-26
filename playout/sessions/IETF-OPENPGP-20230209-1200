@@ -1,0 +1,448 @@
+
+{
+	"title": "IETF-OPENPGP-20230209-1200",
+	"filename": "IETF-OPENPGP-20230209-1200",
+	"start": 0,
+	"end": 6424000,
+	"start_datetime": "2023-02-09T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "VDdPi0zxuU4",
+    "start": 0,
+    "end": "6424000"
+  }
+],
+	"messages": [
+  {
+    "author": "Carsten Bormann",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2023-openpgp-01-openpgp?edit\">https://notes.ietf.org/notes-ietf-interim-2023-openpgp-01-openpgp?edit</a></p>",
+    "topic": "jabber",
+    "dtime": 118000,
+    "ptime": 118000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>JFYI I'll only listen with half an ear...</p>",
+    "topic": "jabber",
+    "dtime": 187000,
+    "ptime": 187000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>this is where you join the mic line to opine</p>",
+    "topic": "jabber",
+    "dtime": 613000,
+    "ptime": 613000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>@Jonathan McDowell: out of curiosity, which implementation is that?</p>",
+    "topic": "jabber",
+    "dtime": 700000,
+    "ptime": 700000
+  },
+  {
+    "author": "Vincent Breitmoser",
+    "text": "<p>most important questions asked about OpenPGP for the decade, right here</p>",
+    "topic": "jabber",
+    "dtime": 711000,
+    "ptime": 711000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>(I'm in favor of moving everything to v6, as I mentioned on the mailing list)</p>",
+    "topic": "jabber",
+    "dtime": 751000,
+    "ptime": 751000
+  },
+  {
+    "author": "Jonathan McDowell",
+    "text": "<p>@Daniel: onak, a keyserver. (<a href=\"https://github.com/u1f35c/onak\">https://github.com/u1f35c/onak</a>). It's very basic support to ensure it can store + retrieve such keys.</p>",
+    "topic": "jabber",
+    "dtime": 779000,
+    "ptime": 779000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>I see, thanks!</p>",
+    "topic": "jabber",
+    "dtime": 795000,
+    "ptime": 795000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>ok who's taking the great notes?</p>",
+    "topic": "jabber",
+    "dtime": 1501000,
+    "ptime": 1501000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Neal, I think :)</p>",
+    "topic": "jabber",
+    "dtime": 1558000,
+    "ptime": 1558000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>doing a great job anyway, so thanks!</p>",
+    "topic": "jabber",
+    "dtime": 1579000,
+    "ptime": 1579000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>That was correct.</p>",
+    "topic": "jabber",
+    "dtime": 1839000,
+    "ptime": 1839000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>Yes, sure.</p>",
+    "topic": "jabber",
+    "dtime": 1856000,
+    "ptime": 1856000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>I'm in favor of this change, I think it's a pretty small change in the scheme of things, and everyone still has to implement v6 anyway</p>",
+    "topic": "jabber",
+    "dtime": 1863000,
+    "ptime": 1863000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>deprecated == n/a surely?</p>",
+    "topic": "jabber",
+    "dtime": 1892000,
+    "ptime": 1892000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>don't think it matters much</p>",
+    "topic": "jabber",
+    "dtime": 2025000,
+    "ptime": 2025000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>that's not a strong opinion, if anyone else objects I'm fine with that :-)</p>",
+    "topic": "jabber",
+    "dtime": 2026000,
+    "ptime": 2026000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Personally I don't have a strong opinion. If we want to make deprecated algos N/A, I can volunteer to update the PR to change that since Aron is currently on vacation</p>",
+    "topic": "jabber",
+    "dtime": 2031000,
+    "ptime": 2031000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>No worries :)</p>",
+    "topic": "jabber",
+    "dtime": 2091000,
+    "ptime": 2091000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>so s/v5/v6/ is how we read this slide</p>",
+    "topic": "jabber",
+    "dtime": 2135000,
+    "ptime": 2135000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>The button is disabled for me</p>",
+    "topic": "jabber",
+    "dtime": 2178000,
+    "ptime": 2178000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>One sec</p>",
+    "topic": "jabber",
+    "dtime": 2181000,
+    "ptime": 2181000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>I didn't hear you, dkg, I think you were muted</p>",
+    "topic": "jabber",
+    "dtime": 3771000,
+    "ptime": 3771000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>@Neal: yeah that's a fair point also</p>",
+    "topic": "jabber",
+    "dtime": 3795000,
+    "ptime": 3795000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>so, if there is a context parameter, then it would restrict what application can open/process the data?</p>",
+    "topic": "jabber",
+    "dtime": 3803000,
+    "ptime": 3803000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>not having it, means that the user has to know which application should process the data?</p>",
+    "topic": "jabber",
+    "dtime": 3847000,
+    "ptime": 3847000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>You would need some metadata / out-of-band information about what the context is, to be able to process it, at least</p>",
+    "topic": "jabber",
+    "dtime": 3856000,
+    "ptime": 3856000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>so, if it's a foo.tar.gz.pgp, then probably I can guess how to exact the data.  But, foo.pgp, would need some internal marker, a MIME type essentially.</p>",
+    "topic": "jabber",
+    "dtime": 3950000,
+    "ptime": 3950000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>if we didn't accept it now, are we saying that we just need to do more work first?</p>",
+    "topic": "jabber",
+    "dtime": 4006000,
+    "ptime": 4006000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>It was me who proposed a third way</p>",
+    "topic": "jabber",
+    "dtime": 4021000,
+    "ptime": 4021000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>tl;dr: an application that <em>really</em> wants to put a context parameter into a sig can do it by abusing notation subpackets</p>",
+    "topic": "jabber",
+    "dtime": 4062000,
+    "ptime": 4062000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@cabo, reuse RFC9277 :-)</p>",
+    "topic": "jabber",
+    "dtime": 4163000,
+    "ptime": 4163000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>we should keep an eye on time (though this is maybe the most pressing thing remaining for today)</p>",
+    "topic": "jabber",
+    "dtime": 4224000,
+    "ptime": 4224000
+  },
+  {
+    "author": "Jonathan McDowell",
+    "text": "<p>I'm not clear if the intent is to keep the data secret unless you know the context, or just prevent an application from decrypting/verifying something that was encrypted/signed in a different context.</p>",
+    "topic": "jabber",
+    "dtime": 4292000,
+    "ptime": 4292000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Yeah, that could also work</p>",
+    "topic": "jabber",
+    "dtime": 4330000,
+    "ptime": 4330000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>The goal is the latter, especially in the context of an attack</p>",
+    "topic": "jabber",
+    "dtime": 4361000,
+    "ptime": 4361000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Indeed</p>",
+    "topic": "jabber",
+    "dtime": 4376000,
+    "ptime": 4376000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>For signatures that's true, but for encryption it's not possible to do today</p>",
+    "topic": "jabber",
+    "dtime": 4514000,
+    "ptime": 4514000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Since this in a new version, can't we just say that the previous versions have an implicit email context?</p>",
+    "topic": "jabber",
+    "dtime": 4627000,
+    "ptime": 4627000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>Maybe we can introduce a context, but insist that it is the empty context for v6.</p>",
+    "topic": "jabber",
+    "dtime": 4680000,
+    "ptime": 4680000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>the default context is the empty string unless the application says otherwise.</p>",
+    "topic": "jabber",
+    "dtime": 4682000,
+    "ptime": 4682000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>yeah, but people are coping already without context for those other things.... move to poll.</p>",
+    "topic": "jabber",
+    "dtime": 4699000,
+    "ptime": 4699000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Well, we're not really coping, we had concrete attacks because of this at Proton :')</p>",
+    "topic": "jabber",
+    "dtime": 4792000,
+    "ptime": 4792000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Or, concrete vulnerabilities, I should say</p>",
+    "topic": "jabber",
+    "dtime": 4808000,
+    "ptime": 4808000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@Daniel, we'd have to continue \"coping\" for older versions anyway, and older senders, right?</p>",
+    "topic": "jabber",
+    "dtime": 4896000,
+    "ptime": 4896000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Well, I'm mostly thinking about domain separation between different applications, and greenfield applications can mandate using the new version</p>",
+    "topic": "jabber",
+    "dtime": 4948000,
+    "ptime": 4948000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>Sorry about the problems :/</p>",
+    "topic": "jabber",
+    "dtime": 5197000,
+    "ptime": 5197000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>no probs</p>",
+    "topic": "jabber",
+    "dtime": 5203000,
+    "ptime": 5203000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I notice they all have \"OpenPGP\" in the title. I think we should change that :-)</p>",
+    "topic": "jabber",
+    "dtime": 5383000,
+    "ptime": 5383000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>keep it generic</p>",
+    "topic": "jabber",
+    "dtime": 5387000,
+    "ptime": 5387000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I like second last.</p>",
+    "topic": "jabber",
+    "dtime": 5404000,
+    "ptime": 5404000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>publish early and publish often!</p>",
+    "topic": "jabber",
+    "dtime": 5451000,
+    "ptime": 5451000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>is here anything we could rip out?</p>",
+    "topic": "jabber",
+    "dtime": 5474000,
+    "ptime": 5474000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>wrt rip out: would love it but too late (in WG process) IMO</p>",
+    "topic": "jabber",
+    "dtime": 5542000,
+    "ptime": 5542000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>We could rip out EAX, maybe?</p>",
+    "topic": "jabber",
+    "dtime": 5556000,
+    "ptime": 5556000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>We think the document is sufficient, but I mean, is everything in the document necessary.</p>",
+    "topic": "jabber",
+    "dtime": 5586000,
+    "ptime": 5586000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>I won't be physically present but I'll join remotely</p>",
+    "topic": "jabber",
+    "dtime": 5647000,
+    "ptime": 5647000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Alrighty</p>",
+    "topic": "jabber",
+    "dtime": 6001000,
+    "ptime": 6001000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Thanks all!</p>",
+    "topic": "jabber",
+    "dtime": 6382000,
+    "ptime": 6382000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-OPENPGP-20230209-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-openpgp-01/session/openpgp"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-OPENPGP-20230209-1200"
+		}
+	]
+}

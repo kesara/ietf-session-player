@@ -1,0 +1,287 @@
+
+{
+	"title": "IETF-PANRG-20220601-1500",
+	"filename": "IETF-PANRG-20220601-1500",
+	"start": 0,
+	"end": 5847000,
+	"start_datetime": "2022-06-01T14:59:36Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Rm09gUokriM",
+    "start": 0,
+    "end": "5847000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 398000,
+    "ptime": 398000,
+    "author": "Jelte Jansen",
+    "text": "we'll get there :)<br/>"
+  },
+  {
+    "dtime": 440000,
+    "ptime": 440000,
+    "author": "Brian Trammell",
+    "text": "this is why i gave myself five minutes for the agenda and intro :D<br/>"
+  },
+  {
+    "dtime": 1673000,
+    "ptime": 1673000,
+    "author": "Erik Kline",
+    "text": "was there, say, a SCION interop/developer table at the 113 hackathon?<br/>"
+  },
+  {
+    "dtime": 1701000,
+    "ptime": 1701000,
+    "author": "Nicola Rustignoli",
+    "text": "Not that I'm aware of<br/>"
+  },
+  {
+    "dtime": 1727000,
+    "ptime": 1727000,
+    "author": "Erik Kline",
+    "text": ":thumbsup:<br/>"
+  },
+  {
+    "dtime": 1744000,
+    "ptime": 1744000,
+    "author": "Mirja Kühlewind",
+    "text": "no it's the weekend again<br/>"
+  },
+  {
+    "dtime": 1750000,
+    "ptime": 1750000,
+    "author": "Mirja Kühlewind",
+    "text": "was in Viienna<br/>"
+  },
+  {
+    "dtime": 1890000,
+    "ptime": 1890000,
+    "author": "Erik Kline",
+    "text": "Is it easy for developers/tinkerers to play with it natively?&nbsp;&nbsp;(I went looking for, say, and EtherType on the IANA page...)<br/>"
+  },
+  {
+    "dtime": 2029000,
+    "ptime": 2029000,
+    "author": "Ralph Giles",
+    "text": "In a similar vein, what's the status of direct kernel driver support? The only code I found seemed to be oriented toward tunnelling.<br/>"
+  },
+  {
+    "dtime": 2357000,
+    "ptime": 2357000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) I'm follow-up to Mirja, so I'll wait until next steps.<br/>"
+  },
+  {
+    "dtime": 2381000,
+    "ptime": 2381000,
+    "author": "Brian Trammell",
+    "text": "ek, ralph, should I ask those at the mic?<br/>"
+  },
+  {
+    "dtime": 2393000,
+    "ptime": 2393000,
+    "author": "Ralph Giles",
+    "text": "Yes, please.<br/>"
+  },
+  {
+    "dtime": 2402000,
+    "ptime": 2402000,
+    "author": "Brian Trammell",
+    "text": "will do, in order. :)<br/>"
+  },
+  {
+    "dtime": 2425000,
+    "ptime": 2425000,
+    "author": "Ralph Giles",
+    "text": ":pray:<br/>"
+  },
+  {
+    "dtime": 2487000,
+    "ptime": 2487000,
+    "author": "Erik Kline",
+    "text": "brian: if it's context appropriate, thanks.&nbsp;&nbsp;I'm fairly far behind on SCION knowledge, so don't want to distract this discussion with my current ignorance<br/>"
+  },
+  {
+    "dtime": 2762000,
+    "ptime": 2762000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) Brian is ALWAYS in queue before me, and that's a good thing.<br/>"
+  },
+  {
+    "dtime": 2786000,
+    "ptime": 2786000,
+    "author": "Brian Trammell",
+    "text": "it is indeed context appropriate :)<br/>"
+  },
+  {
+    "dtime": 2848000,
+    "ptime": 2848000,
+    "author": "Ralph Giles",
+    "text": "Ok, thanks!<br/>"
+  },
+  {
+    "dtime": 3211000,
+    "ptime": 3211000,
+    "author": "Warren Kumari",
+    "text": "Ooooh! Did Spencer just say that \"research (IRSG) does the hard parts, and engineering (IETF) just does the protocol parts\"?&nbsp;&nbsp;:-P<br/>"
+  },
+  {
+    "dtime": 3394000,
+    "ptime": 3394000,
+    "author": "Warren Kumari",
+    "text": "Yes, but they are just here to snark, they don't *do* anything.<br/>"
+  },
+  {
+    "dtime": 3580000,
+    "ptime": 3580000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) Lord Warren -- absolutely not (intentionally). For HIP, it was \"what do we know how to do now, and what do we need to invent?\"<br/>"
+  },
+  {
+    "dtime": 3586000,
+    "ptime": 3586000,
+    "author": "Mirja Kühlewind",
+    "text": "try to figure out if/how existing parts can be re-used or which parts are missing rather than pre-assuming. that and reasoning why other protocols can not be used<br/>"
+  },
+  {
+    "dtime": 3618000,
+    "ptime": 3618000,
+    "author": "Mirja Kühlewind",
+    "text": "yes, to Brian!<br/>"
+  },
+  {
+    "dtime": 3652000,
+    "ptime": 3652000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) Gap analysis is absolutely key to good IETF experiences with new protocol proposals.<br/>"
+  },
+  {
+    "dtime": 3696000,
+    "ptime": 3696000,
+    "author": "Mirja Kühlewind",
+    "text": "Again, I know re-using anything existing will not be optimal and for sure less good for some extend but it might still be easier to get work going<br/>"
+  },
+  {
+    "dtime": 3729000,
+    "ptime": 3729000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) +several to Mirja<br/>"
+  },
+  {
+    "dtime": 3856000,
+    "ptime": 3856000,
+    "author": "Mirja Kühlewind",
+    "text": "And regarding panrg: I think documenting deployments (e.g. with gateways) and experience/challenges with that is more interesting than just documenting the scion architecture<br/>"
+  },
+  {
+    "dtime": 3911000,
+    "ptime": 3911000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) +1 Mirja. It would sure be interesting.<br/>"
+  },
+  {
+    "dtime": 3932000,
+    "ptime": 3932000,
+    "author": "Erik Kline",
+    "text": "I'm curious about the difference between \"path awareness\" and \"path awareness dependence\" (and which category might better describe SCION)<br/>"
+  },
+  {
+    "dtime": 3963000,
+    "ptime": 3963000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) So \"gap analysis\" could be the next draft to PANRG, right?<br/>"
+  },
+  {
+    "dtime": 4075000,
+    "ptime": 4075000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) Also +1 Brian on negative results/roads not taken<br/>"
+  },
+  {
+    "dtime": 4280000,
+    "ptime": 4280000,
+    "author": "Jelte Jansen",
+    "text": "muted again brian<br/>"
+  },
+  {
+    "dtime": 4307000,
+    "ptime": 4307000,
+    "author": "Mirja Kühlewind",
+    "text": "I don't like the term gap analysis because it often just ends up in a lengthly way to say \"why we want to use our own new protocol\". But if you honestly can identify existing components that you can adopt, potentially extend and re-use that would make starting new work much easier.<br/>"
+  },
+  {
+    "dtime": 4358000,
+    "ptime": 4358000,
+    "author": "Mirja Kühlewind",
+    "text": "so it's not about the gaps, it's about the part to re-use and how to extend them<br/>"
+  },
+  {
+    "dtime": 4846000,
+    "ptime": 4846000,
+    "author": "zulipbot",
+    "text": "(Spencer Dawkins) (Not just the Scion bunch working on it)<br/>"
+  },
+  {
+    "dtime": 5597000,
+    "ptime": 5597000,
+    "author": "Mirja Kühlewind",
+    "text": "march is asia<br/>"
+  },
+  {
+    "dtime": 5606000,
+    "ptime": 5606000,
+    "author": "Mirja Kühlewind",
+    "text": "sf is july<br/>"
+  },
+  {
+    "dtime": 5623000,
+    "ptime": 5623000,
+    "author": "Nicola Rustignoli",
+    "text": "Thank you all for the great inputs!<br/>"
+  },
+  {
+    "dtime": 5632000,
+    "ptime": 5632000,
+    "author": "Mirja Kühlewind",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 5795000,
+    "ptime": 5795000,
+    "author": "Jelte Jansen",
+    "text": "and thank you for presenting this!<br/>"
+  },
+  {
+    "dtime": 5810000,
+    "ptime": 5810000,
+    "author": "Colin Perkins",
+    "text": "Thanks everyone – this was a really interesting discussion<br/>"
+  },
+  {
+    "dtime": 5817000,
+    "ptime": 5817000,
+    "author": "Suresh Krishnan",
+    "text": "Thanks all!<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-PANRG-20220601-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-panrg-01/session/panrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-PANRG-20220601-1500"
+		}
+	]
+}

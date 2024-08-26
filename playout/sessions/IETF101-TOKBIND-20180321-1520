@@ -1,0 +1,267 @@
+{
+  "title": "IETF101-TOKBIND-20180321-1520",
+  "filename": "IETF101-TOKBIND-20180321-1520",
+  "start": 0,
+  "end": 3677000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "XTp_VIj0JmM",
+      "start": 0.0,
+      "end": 3677000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 54000.0,
+      "dtime": 381000.0
+    },
+    {
+      "text": "Brian Campbell is presenting on TTRP - TLS Terminating Reverse Proxies",
+      "ptime": 365000.0,
+      "dtime": 692000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "slides link?  (not uploaded to meeting materials as yet?)",
+      "ptime": 381000.0,
+      "dtime": 708000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "vinod at mic",
+      "ptime": 820000.0,
+      "dtime": 1147000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "mic: chris newman",
+      "ptime": 899000.0,
+      "dtime": 1226000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "chris is apparently referring to: TTRP - TLS Terminating Reverse Proxies",
+      "ptime": 1005000.0,
+      "dtime": 1332000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "sorry, referring to: https://www.haproxy.org/download/1.8/doc/proxy-protocol.txt",
+      "ptime": 1025000.0,
+      "dtime": 1352000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "by Willy Tarreau",
+      "ptime": 1040000.0,
+      "dtime": 1367000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "\"The PROXY protocol\", specifically v2",
+      "ptime": 1064000.0,
+      "dtime": 1391000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "mic:kyle",
+      "ptime": 1078000.0,
+      "dtime": 1405000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "mic: Andrei",
+      "ptime": 1184000.0,
+      "dtime": 1511000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "mic: kyle",
+      "ptime": 1240000.0,
+      "dtime": 1567000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "current draft is: https://tools.ietf.org/html/draft-ietf-tokbind-ttrp-03",
+      "ptime": 1434000.0,
+      "dtime": 1761000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "mic: tonyn: any impls",
+      "ptime": 1441000.0,
+      "dtime": 1768000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "Leif: apache has impl\u0027d?  there\u0027s another impl also.",
+      "ptime": 1463000.0,
+      "dtime": 1790000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "no known interop issues",
+      "ptime": 1471000.0,
+      "dtime": 1798000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "mic: justin: if we dont spec this, then there will be a defacto one by eg Apache thus good to write down a proper way to do this, so yeah lets finish this",
+      "ptime": 1509000.0,
+      "dtime": 1836000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "mic: dennis: we need this.",
+      "ptime": 1526000.0,
+      "dtime": 1853000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "now speaking is Nick H. on ORTT and 1RTT quick update",
+      "ptime": 1819000.0,
+      "dtime": 2146000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "tonyn @ mic",
+      "ptime": 1830000.0,
+      "dtime": 2157000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "kyle @ mic:  straightfwd to impl, happy to review",
+      "ptime": 1844000.0,
+      "dtime": 2171000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "above is wrt 1-RTT",
+      "ptime": 1890000.0,
+      "dtime": 2217000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "Nick: now 0-RTT TLS 1.3 ? draft is expired, wait for more impl (zero impls now?) and deploy experience?",
+      "ptime": 1965000.0,
+      "dtime": 2292000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "JohnB asked question",
+      "ptime": 2047000.0,
+      "dtime": 2374000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "Andrei @ mic",
+      "ptime": 2060000.0,
+      "dtime": 2387000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "chairs asking for review of 1-RTT draft and then do WGLC",
+      "ptime": 2093000.0,
+      "dtime": 2420000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "now speaking Vinod wrt WHATWG Fetch spec tokbind pull request",
+      "ptime": 2122000.0,
+      "dtime": 2449000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "now speaking Giri Mandyam wrt attested tls token binding",
+      "ptime": 2549000.0,
+      "dtime": 2876000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "Where can I find the slides for the presentations?",
+      "ptime": 2687000.0,
+      "dtime": 3014000.0,
+      "author": "Bjorn Hjelm"
+    },
+    {
+      "text": "chairs have not yet uploaded slides to the meeting materials page :(",
+      "ptime": 3018000.0,
+      "dtime": 3345000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "Only the chairs slides have been posted: chairs deck \u003chttps://datatracker.ietf.org/meeting/101/materials/slides-101-tokbind-chairs-deck-00\u003e",
+      "ptime": 3062000.0,
+      "dtime": 3389000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "spec Giri is referring to is: draft-mandyam-tokbind-attest",
+      "ptime": 3175000.0,
+      "dtime": 3502000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "current version -03",
+      "ptime": 3187000.0,
+      "dtime": 3514000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "andrei @ mic:",
+      "ptime": 3204000.0,
+      "dtime": 3531000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "https://datatracker.ietf.org/doc/draft-mandyam-tokbind-attest/",
+      "ptime": 3234000.0,
+      "dtime": 3561000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "***Renzo Navas just left the room",
+      "ptime": 3234000.0,
+      "dtime": 3561000.0
+    },
+    {
+      "text": "thx resnick",
+      "ptime": 3248000.0,
+      "dtime": 3575000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "Might as well try to be useful. :-)",
+      "ptime": 3262000.0,
+      "dtime": 3589000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Thanks.",
+      "ptime": 3272000.0,
+      "dtime": 3599000.0,
+      "author": "Bjorn Hjelm"
+    },
+    {
+      "text": "***Jason Polis just left the room",
+      "ptime": 3639000.0,
+      "dtime": 3966000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 3665000.0,
+      "dtime": 3992000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-TOKBIND-20180321-1520"
+    }
+  ]
+}

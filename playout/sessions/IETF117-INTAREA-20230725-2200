@@ -1,0 +1,273 @@
+
+{
+	"title": "IETF117-INTAREA-20230725-2200",
+	"filename": "IETF117-INTAREA-20230725-2200",
+	"start": 0,
+	"end": 5567000,
+	"start_datetime": "2023-07-25T22:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "1zpvRTpUqhs",
+    "start": 0,
+    "end": "5567000"
+  }
+],
+	"messages": [
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>&lt;topic create&gt;</p>",
+    "topic": "ietf-117",
+    "dtime": 166000,
+    "ptime": 166000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>No slides are shared, is it normal ?</p>",
+    "topic": "ietf-117",
+    "dtime": 674000,
+    "ptime": 674000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>no slide indeed for now</p>",
+    "topic": "ietf-117",
+    "dtime": 691000,
+    "ptime": 691000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>ok</p>",
+    "topic": "ietf-117",
+    "dtime": 695000,
+    "ptime": 695000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>remote audio is quiet - can we turn it up or ask waldemar to speak up?</p>",
+    "topic": "ietf-117",
+    "dtime": 780000,
+    "ptime": 780000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Better now?</p>",
+    "topic": "ietf-117",
+    "dtime": 804000,
+    "ptime": 804000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Too close now</p>",
+    "topic": "ietf-117",
+    "dtime": 829000,
+    "ptime": 829000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>Too close</p>",
+    "topic": "ietf-117",
+    "dtime": 844000,
+    "ptime": 844000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>The sound is saturated</p>",
+    "topic": "ietf-117",
+    "dtime": 848000,
+    "ptime": 848000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>Not too loud... just garbled... ;-)</p>",
+    "topic": "ietf-117",
+    "dtime": 879000,
+    "ptime": 879000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>it will have to do better now</p>",
+    "topic": "ietf-117",
+    "dtime": 890000,
+    "ptime": 890000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>it is ok now</p>",
+    "topic": "ietf-117",
+    "dtime": 894000,
+    "ptime": 894000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>good, thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 904000,
+    "ptime": 904000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>No sure how this will speed up IPv6 adoption</p>",
+    "topic": "ietf-117",
+    "dtime": 1049000,
+    "ptime": 1049000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>+1</p>",
+    "topic": "ietf-117",
+    "dtime": 1105000,
+    "ptime": 1105000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>You can always ask the Q</p>",
+    "topic": "ietf-117",
+    "dtime": 1127000,
+    "ptime": 1127000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i am strongly against any protocol or standard that proposes to attempt to extend the lifespan of IPv4 with more NAT type workarounds</p>",
+    "topic": "ietf-117",
+    "dtime": 1239000,
+    "ptime": 1239000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Up to now looks like IPv10</p>",
+    "topic": "ietf-117",
+    "dtime": 1371000,
+    "ptime": 1371000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>Agree with Anthony S. on that</p>",
+    "topic": "ietf-117",
+    "dtime": 1462000,
+    "ptime": 1462000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>So, what my head wraps around this does not sound tooooo useless (besides its use in Anthony's point).</p>\n<p>But even in a v6 only environment, it would be a way to indicate paths for a) unrouted or b) firewalled addresses;</p>\n<p>It somewhat makes sense esp. if paired with rdns.</p>\n<p>So, for example, you have a /48 for an endsite, and want to redirect inbound connectivity through a LB (possibly different per, e.g., /64)</p>",
+    "topic": "ietf-117",
+    "dtime": 1629000,
+    "ptime": 1629000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>a bit like srv-for-stun.  <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 1654000,
+    "ptime": 1654000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>not sure though if that is the intention of the draft</p>",
+    "topic": "ietf-117",
+    "dtime": 1666000,
+    "ptime": 1666000
+  },
+  {
+    "author": "Tom Herbert",
+    "text": "<p>Embedding parts of the address in UDP tunnels seems to be layering issue and not scalable. This information really needs to be at network later, hence extension headers</p>",
+    "topic": "ietf-117",
+    "dtime": 1731000,
+    "ptime": 1731000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I get the fact that it is useful for users locked behind a proxy, my concern is that most proxies are not as collaborative as in Masque use case</p>",
+    "topic": "ietf-117",
+    "dtime": 2431000,
+    "ptime": 2431000
+  },
+  {
+    "author": "Josh Cohen",
+    "text": "<p>Which list is that?</p>",
+    "topic": "ietf-117",
+    "dtime": 2722000,
+    "ptime": 2722000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I wonder what is the compared complexity of introducing a new ether type Vs. filtering SRv6 EH on outbound ports</p>",
+    "topic": "ietf-117",
+    "dtime": 3193000,
+    "ptime": 3193000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>New ethertype would break interoperability with IPv6</p>",
+    "topic": "ietf-117",
+    "dtime": 3210000,
+    "ptime": 3210000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>That answers my question :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 3247000,
+    "ptime": 3247000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>That's the point.</p>",
+    "topic": "ietf-117",
+    "dtime": 3248000,
+    "ptime": 3248000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Perhaps RFC 3514 would be more interoperable?</p>",
+    "topic": "ietf-117",
+    "dtime": 3327000,
+    "ptime": 3327000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Mybe better to return SRH as a requirement for SRv6, not to break interoperability with Ipv6</p>",
+    "topic": "ietf-117",
+    "dtime": 3410000,
+    "ptime": 3410000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>Still not sold on why filtering on the prefix that SRv6 SIDs are allocated from, which is a single Prefix match (not a longest prefix match) is difficult to verify in deployments vs enabling/disabling an ethertype on an interface.</p>",
+    "topic": "ietf-117",
+    "dtime": 3597000,
+    "ptime": 3597000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>If we follow this thread, what would prevent an operator from using a set of ethertypes to signal a given filtering policy in its domain ?</p>",
+    "topic": "ietf-117",
+    "dtime": 4140000,
+    "ptime": 4140000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Naive question (not for mic): why is that more convenient than setting the I bit and obtaining the info over DHCPv6 INFORM?</p>",
+    "topic": "ietf-117",
+    "dtime": 4964000,
+    "ptime": 4964000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-INTAREA-20230725-2200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/intarea"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-INTAREA-20230725-2200"
+		}		
+	]
+}

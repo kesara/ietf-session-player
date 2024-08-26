@@ -1,0 +1,119 @@
+
+{
+	"title": "IETF117-JMAP-20230726-0000",
+	"filename": "IETF117-JMAP-20230726-0000",
+	"start": 0,
+	"end": 3622000,
+	"start_datetime": "2023-07-26T00:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "0xuVBW4Cu_0",
+    "start": 0,
+    "end": "3622000"
+  }
+],
+	"messages": [
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>Hi all, Hi Bron!</p>",
+    "topic": "ietf-117",
+    "dtime": 269000,
+    "ptime": 269000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@joris  One suggestion regarding this <a href=\"https://www.ietf.org/archive/id/draft-baum-jmap-rest-00.html#section-1.3.1\">https://www.ietf.org/archive/id/draft-baum-jmap-rest-00.html#section-1.3.1</a>  Have you considered using UriTemplates RFC6570 for defining that URL ?</p>",
+    "topic": "ietf-117",
+    "dtime": 1931000,
+    "ptime": 1931000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>No. Thanks for the suggestion. I will take a look at it. The JMAP REST spec is still very drafty.</p>",
+    "topic": "ietf-117",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>Looks like a good fit on first glance :)</p>",
+    "topic": "ietf-117",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>The advantage of using UriTemplates is there are plenty of libraries that will reliably construct URLs and deal with all the necessary syntax and escaping.</p>",
+    "topic": "ietf-117",
+    "dtime": 2257000,
+    "ptime": 2257000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 2343000,
+    "ptime": 2343000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p><a href=\"https://github.com/uri-templates/uritemplate-spec/wiki/Implementations\">https://github.com/uri-templates/uritemplate-spec/wiki/Implementations</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2354000,
+    "ptime": 2354000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>The PST file format is part of the Microsoft Open Specification Promise. <a href=\"https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-pst/141923d5-15ab-4ef1-a524-6dce75aae546\">https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-pst/141923d5-15ab-4ef1-a524-6dce75aae546</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2590000,
+    "ptime": 2590000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>@Bron I think you would then need to create a new contact (with new UID) if a contact is updated.</p>",
+    "topic": "ietf-117",
+    "dtime": 3084000,
+    "ptime": 3084000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>@Joris no I don't think so - you just replace the old one.  the UUID is for the top level index file so they don't overwrite each other (otherwise you'd need to include the full index in every diff) - but the contact you can just overwrite</p>",
+    "topic": "ietf-117",
+    "dtime": 3136000,
+    "ptime": 3136000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>ok</p>",
+    "topic": "ietf-117",
+    "dtime": 3155000,
+    "ptime": 3155000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>see you!</p>",
+    "topic": "ietf-117",
+    "dtime": 3593000,
+    "ptime": 3593000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-JMAP-20230726-0000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/jmap"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-JMAP-20230726-0000"
+		}		
+	]
+}

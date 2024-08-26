@@ -1,0 +1,617 @@
+
+{
+	"title": "IETF114-OPENPGP-20220729-1400",
+	"filename": "IETF114-OPENPGP-20220729-1400",
+	"start": 0,
+	"end": 7245000,
+	"start_datetime": "2022-07-29T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "HJF5V3Glu9c",
+    "start": 0,
+    "end": "7245000"
+  }
+],
+	"messages": [
+  {
+    "author": "Quynh Dang",
+    "text": "<p>Hi chairs, the volume is very low at my end. Quynh.</p>",
+    "dtime": 427000,
+    "ptime": 427000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>please join the queue if you'd like to speak to an issue whether remote or local (but we're not a huge crowd so we can probably manage even if you don't)</p>",
+    "dtime": 427000,
+    "ptime": 427000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>yes</p>",
+    "dtime": 450000,
+    "ptime": 450000
+  },
+  {
+    "author": "Quynh Dang",
+    "text": "<p>yes. thank you.</p>",
+    "dtime": 456000,
+    "ptime": 456000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>I'm keen on random</p>",
+    "dtime": 694000,
+    "ptime": 694000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>About the procedure, the design team members have often expressed their opinions in the tracker, and I feel like repeating them here doesn't add anything new.  What should we do?</p>",
+    "dtime": 793000,
+    "ptime": 793000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>ok</p>",
+    "dtime": 829000,
+    "ptime": 829000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>If removing the rationale helps, I'm fine with that</p>",
+    "dtime": 903000,
+    "ptime": 903000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>:thumbsup:</p>",
+    "dtime": 1016000,
+    "ptime": 1016000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>It must be exciting to \"push the red button\"</p>",
+    "dtime": 1245000,
+    "ptime": 1245000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: Quynh, can you enable your own audio?</p>",
+    "dtime": 1354000,
+    "ptime": 1354000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@quynh go ahead or do you have audio issues?</p>",
+    "dtime": 1355000,
+    "ptime": 1355000
+  },
+  {
+    "author": "Quynh Dang",
+    "text": "<p>I can go now.</p>",
+    "dtime": 1379000,
+    "ptime": 1379000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I expect/hope that Quynh is speaking to the FIPS requirements regarding encryption modes</p>",
+    "dtime": 1468000,
+    "ptime": 1468000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>Quynh: your mic is still hot</p>",
+    "dtime": 1838000,
+    "ptime": 1838000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>nvm</p>",
+    "dtime": 1849000,
+    "ptime": 1849000
+  },
+  {
+    "author": "Quynh Dang",
+    "text": "<p>thank you Justus.</p>",
+    "dtime": 1885000,
+    "ptime": 1885000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Yeah, stuff happens. If you do it in the RFC, can write security considerations</p>",
+    "dtime": 1897000,
+    "ptime": 1897000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>The desire on GCM is pretty clear</p>",
+    "dtime": 1985000,
+    "ptime": 1985000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Thanks Justus!  I am now more strongly in favor of keeping things in a direct key signature :)</p>",
+    "dtime": 2854000,
+    "ptime": 2854000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>the designated revoker's key can also be distributed in the revocation signature</p>",
+    "dtime": 3457000,
+    "ptime": 3457000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>so that it doesn't have to be carried around in the cert</p>",
+    "dtime": 3468000,
+    "ptime": 3468000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>so you only pay the price if the revocation actually happens</p>",
+    "dtime": 3478000,
+    "ptime": 3478000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>nevertheless, that scheme has to be specified</p>",
+    "dtime": 3492000,
+    "ptime": 3492000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>I don't see what advantages designated revokers have over escrow</p>",
+    "dtime": 3616000,
+    "ptime": 3616000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>I think there are two advantages, first it fits corporate workflows well (think someone leaving a company)</p>",
+    "dtime": 3744000,
+    "ptime": 3744000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>I believe the COSE reference Ben is explaining is <a href=\"https://datatracker.ietf.org/doc/draft-ietf-cose-rfc8152bis-algs/\">https://datatracker.ietf.org/doc/draft-ietf-cose-rfc8152bis-algs/</a></p>",
+    "dtime": 3770000,
+    "ptime": 3770000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>second, you can be more precise in the time and reason for the revocation</p>",
+    "dtime": 3787000,
+    "ptime": 3787000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>(if you escrow, you can escrow a bunch of time X reason revocation certificates, but that will always be imprecise)</p>",
+    "dtime": 3823000,
+    "ptime": 3823000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>thanks roman (and ben)</p>",
+    "dtime": 3847000,
+    "ptime": 3847000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>On guidance to IANA designated experts, I like <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-cose-rfc8152bis-algs-12#section-10.4\">https://datatracker.ietf.org/doc/html/draft-ietf-cose-rfc8152bis-algs-12#section-10.4</a> , quoting in part:</p>\n<blockquote>\n<p>part, defined as expert review.  This section gives some general<br>\n   guidelines for what the experts should be looking for, but they are<br>\n   being designated as experts for a reason, so they should be given<br>\n   substantial latitude.</p>\n</blockquote>\n<blockquote>\n<p>Expert reviewers should take into consideration the following points:<br>\n   *  Point squatting should be discouraged. [...]</p>\n</blockquote>",
+    "dtime": 3885000,
+    "ptime": 3885000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>The QUIC \"counterexample\" I mentioned that gives much less leeway to the expert can be found at <a href=\"https://www.rfc-editor.org/rfc/rfc9000.html#name-permanent-registrations\">https://www.rfc-editor.org/rfc/rfc9000.html#name-permanent-registrations</a> :</p>\n<blockquote>\n<p>Permanent registrations in QUIC registries use the Specification Required policy (Section 4.6 of [RFC8126]), unless otherwise specified. The designated expert or experts verify that a specification exists and is readily accessible. Experts are encouraged to be biased towards approving registrations unless they are abusive, frivolous, or actively harmful (not merely aesthetically displeasing or architecturally dubious). The creation of a registry MAY specify additional constraints on permanent registrations.</p>\n</blockquote>",
+    "dtime": 3999000,
+    "ptime": 3999000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>An example of an open registry: <a href=\"https://github.com/w3c/did-spec-registries\">https://github.com/w3c/did-spec-registries</a></p>",
+    "dtime": 4033000,
+    "ptime": 4033000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I will note that the guidance to the maintainers could still be improved</p>",
+    "dtime": 4054000,
+    "ptime": 4054000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>I think the only confusion that came up while implementing was about the unit of the memory size parameter</p>",
+    "dtime": 4118000,
+    "ptime": 4118000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>And we improved upon that iirc</p>",
+    "dtime": 4144000,
+    "ptime": 4144000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Competition mentioned about Argon2 = <a href=\"https://www.password-hashing.net/\">https://www.password-hashing.net/</a></p>",
+    "dtime": 4233000,
+    "ptime": 4233000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>improvement: <a href=\"https://gitlab.com/openpgp-wg/rfc4880bis/-/commit/88d11499f26a441aa9ca4f454a270be68278e5fa\">https://gitlab.com/openpgp-wg/rfc4880bis/-/commit/88d11499f26a441aa9ca4f454a270be68278e5fa</a></p>",
+    "dtime": 4273000,
+    "ptime": 4273000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Which then got adopted by CFRG.  Now <a href=\"https://datatracker.ietf.org/doc/html/rfc9106\">https://datatracker.ietf.org/doc/html/rfc9106</a></p>",
+    "dtime": 4288000,
+    "ptime": 4288000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>What do you use for the hash prefix if you're using an EdDSA signature?</p>",
+    "dtime": 4468000,
+    "ptime": 4468000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>The hash prefix should be taken from the digest, not the signature</p>",
+    "dtime": 4512000,
+    "ptime": 4512000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>But EdDSA doesn't have a digest step before signing</p>",
+    "dtime": 4533000,
+    "ptime": 4533000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@ben: iirc the hash from which the prefix comes is over packets and is what's fed into eddsa (but I may be remembering wong)</p>",
+    "dtime": 4656000,
+    "ptime": 4656000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>@sftcd ah, that would make some amount of sense</p>",
+    "dtime": 4688000,
+    "ptime": 4688000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>ben: we hash the message, then feed the digest to EdDSA</p>",
+    "dtime": 4697000,
+    "ptime": 4697000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>(I'm not going to try to find the relevant part of the spec during the meeting, so had to ask)</p>",
+    "dtime": 4704000,
+    "ptime": 4704000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>My notes on this issue might need some checking, as most of the discussion is on such level that I do not understand it...</p>",
+    "dtime": 4790000,
+    "ptime": 4790000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>we feed the digest to EdDSA <em>as the message</em></p>",
+    "dtime": 4791000,
+    "ptime": 4791000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>As I've written on the list I personally don't think that this particular type of broken key is worth keeping the checksum for, as there might be many other ways a key might be broken that are non-recoverable also</p>",
+    "dtime": 4800000,
+    "ptime": 4800000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>I don't think the motivation for this check was error recovery, I think it was just the ability to throw away bad stuff with the minimum amount of effort :-)</p>",
+    "dtime": 4882000,
+    "ptime": 4882000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>yes it is about error recovery</p>",
+    "dtime": 4893000,
+    "ptime": 4893000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>if you don't reorder the packets, you may miss revocations</p>",
+    "dtime": 4907000,
+    "ptime": 4907000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Yeah, I meant to Justus's specific point about keeping the checksum for being able to reorder mal-ordered keys</p>",
+    "dtime": 4948000,
+    "ptime": 4948000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>(But I also don't think that that was the original motivation for adding the checksum indeed)</p>",
+    "dtime": 4997000,
+    "ptime": 4997000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>you can do that reordering with the asymmetric operations, but cert canonicalization is already maybe the most expensive operation that we do</p>",
+    "dtime": 4997000,
+    "ptime": 4997000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Has someone spoken to GitHub and asked them to fix it?</p>",
+    "dtime": 5325000,
+    "ptime": 5325000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>re \"breakage for the sake of breakage\", the whole point of a cryptographic security protocol is to provide breakage, but only when there's an actual attack.  Providing breakage at other times just causes people to be annoyed about the breakage, and we do that inadvertently often enough that we don't have much error budget remaining.</p>",
+    "dtime": 5352000,
+    "ptime": 5352000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Esp. if I understood @Ben correctly that they could fix it retroactively without having to re-sign stuff.</p>",
+    "dtime": 5381000,
+    "ptime": 5381000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>They could fix the openpgp signature without re-signing.  I don't know what signature we're talking about and whether it integrates with git in a way that would be covered by the git hash chain.</p>",
+    "dtime": 5475000,
+    "ptime": 5475000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>They might be able to fix their self-sig in principle, but I'm not aware that any such tooling exists. Most clients don't allow you to do fine bit-correction to that level of precision.</p>",
+    "dtime": 5529000,
+    "ptime": 5529000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I guess we should probably actually confirm my intuition that you can fix it without re-signing, before we get too far down this path...</p>",
+    "dtime": 5595000,
+    "ptime": 5595000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>Someone with sufficient knowledge of the standard would probably have to fix it in a hex editor. And then you have the question of whether clients would even recognise that the packet was updated, and if so which is the correct one.</p>",
+    "dtime": 5640000,
+    "ptime": 5640000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@Ben Kaduk, I just checked, and adding or modifying a signature changes the commit hash.</p>",
+    "dtime": 5809000,
+    "ptime": 5809000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>Jonathan: thanks for checking</p>",
+    "dtime": 5858000,
+    "ptime": 5858000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Yes, thanks for checking!</p>",
+    "dtime": 5905000,
+    "ptime": 5905000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>There are two issues being discussed here that I can see - one is signatures over data made by the github key. The other (the one I'm interested in) is self-signatures ON the github key making it unimportable in some contexts. The second is possibly fixable in retrospect, the first definitely is not.</p>",
+    "dtime": 5949000,
+    "ptime": 5949000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>(deleted)</p>",
+    "dtime": 5978000,
+    "ptime": 5978000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>Please move the camera</p>",
+    "dtime": 6012000,
+    "ptime": 6012000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>we cannot see Daniel</p>",
+    "dtime": 6022000,
+    "ptime": 6022000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: meetecho: can you pan the camera to reach daniel?</p>",
+    "dtime": 6037000,
+    "ptime": 6037000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: thank you!</p>",
+    "dtime": 6049000,
+    "ptime": 6049000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I'm waiting for the rest of the talk to be \"Kerberos, but for OpenPGP\" :)</p>",
+    "dtime": 6105000,
+    "ptime": 6105000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<blockquote>\n<p>symmetrically sign stuff, using an HMAC or a CMAC</p>\n</blockquote>\n<p>Or a KMAC!</p>",
+    "dtime": 6170000,
+    "ptime": 6170000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>(obligatory plug :)</p>",
+    "dtime": 6194000,
+    "ptime": 6194000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: Andrew: why would it not be possible to fix the self-sigs on the github certificate?  if the MPIs of the public key are malformed, <em>that</em> would be awkward (because the fingerprint would change), but the self-sig could be bit-fiddled like any other sig, right?</p>",
+    "dtime": 6235000,
+    "ptime": 6235000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: if anyone has a contact at github, i'd be happy to try reaching out to them as a WG chair</p>",
+    "dtime": 6289000,
+    "ptime": 6289000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>@dkg: they could be bit-fiddled, yes. But what happens if a client tries to merge the bit-fiddled version with the non-fiddled one? I'm not saying it wouldn't work - I'm saying I have no clue whether it would work and it might only work in some clients.</p>",
+    "dtime": 6315000,
+    "ptime": 6315000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>Jonathan commented before: @Ben Kaduk, I just checked, and adding or modifying a signature changes the commit hash.</p>",
+    "dtime": 6332000,
+    "ptime": 6332000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>So this might be the simple reason why you don't want to fiddle with old signatures</p>",
+    "dtime": 6370000,
+    "ptime": 6370000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I guess it would be fixable with a git rebase, but a lot of git trees are a bit fragile.</p>",
+    "dtime": 6431000,
+    "ptime": 6431000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I guess HPKE is maybe a \"better fit\" for the existing openpgp classifications than stock AEAD would be ... but it's also not quite the same.</p>",
+    "dtime": 6437000,
+    "ptime": 6437000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: Looks like JanZerebecki reported it here: <a href=\"https://github.com/community/community/discussions/27607\">https://github.com/community/community/discussions/27607</a></p>",
+    "dtime": 6446000,
+    "ptime": 6446000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>*not quite the same as what Daniel wants</p>",
+    "dtime": 6447000,
+    "ptime": 6447000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>(Or at least, I keep breaking them <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>)</p>",
+    "dtime": 6449000,
+    "ptime": 6449000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>Andrew: In Sequoia, if you merge to certs one with the bad signature, one with the good one, we will discard the bad one and everything will be fine</p>",
+    "dtime": 6454000,
+    "ptime": 6454000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>Changing commit IDs can be very problematic with many package distribution system</p>",
+    "dtime": 6559000,
+    "ptime": 6559000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>@justus: yes, and I think go-crypto will do the same - it will throw away the bad sig straight away so there's no confusion when the fixed one arrives. But what about those clients that don't recognise the bad selfsig as bad?</p>",
+    "dtime": 6570000,
+    "ptime": 6570000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>then you have two very similar signatures and consider both valid</p>",
+    "dtime": 6616000,
+    "ptime": 6616000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>luckily, both say the same thing, so i don't think this would cause confusion</p>",
+    "dtime": 6629000,
+    "ptime": 6629000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>They may import the new selfsig as a duplicate sig, which would be great. Or they may dedup the two sigs for being the \"same\".</p>",
+    "dtime": 6660000,
+    "ptime": 6660000
+  },
+  {
+    "author": "Andrew Gallagher",
+    "text": "<p>I have no idea if any actual client would do this, I'm just throwing out the possibility that we can't rule it out.</p>",
+    "dtime": 6691000,
+    "ptime": 6691000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p><span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span></p>",
+    "dtime": 7192000,
+    "ptime": 7192000
+  },
+  {
+    "author": "Quynh Dang",
+    "text": "<p>thank you all</p>",
+    "dtime": 7193000,
+    "ptime": 7193000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>thank you all :)</p>",
+    "dtime": 7193000,
+    "ptime": 7193000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@Aron Wussler, is your scheme PCS secure?</p>",
+    "dtime": 7194000,
+    "ptime": 7194000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>gniibe: Thank you all.</p>",
+    "dtime": 7233000,
+    "ptime": 7233000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@Meetecho: Adjourned</p>",
+    "dtime": 7234000,
+    "ptime": 7234000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-OPENPGP-20220729-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/openpgp"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-OPENPGP-20220729-1400"
+		}		
+	]
+}

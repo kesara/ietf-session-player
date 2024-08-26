@@ -1,0 +1,525 @@
+
+{
+	"title": "IETF119-SML-20240322-0300",
+	"filename": "IETF119-SML-20240322-0300",
+	"start": 0,
+	"end": 5490000,
+	"start_datetime": "2024-03-22T02:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "VOl0PiZ3acI",
+    "start": 0,
+    "end": "5490000"
+  }
+],
+	"messages": [
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i am appreciating that they put sml back to back with mls</p>",
+    "topic": "ietf-119",
+    "dtime": 49000,
+    "ptime": 49000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>meetecho, can you focus the speaker on camera?</p>",
+    "topic": "ietf-119",
+    "dtime": 220000,
+    "ptime": 220000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Shall I take for granted the usual complaining that this WG landed on Friday?</p>",
+    "topic": "ietf-119",
+    "dtime": 232000,
+    "ptime": 232000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>thank you!</p>",
+    "topic": "ietf-119",
+    "dtime": 233000,
+    "ptime": 233000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Murray Yes...</p>",
+    "topic": "ietf-119",
+    "dtime": 251000,
+    "ptime": 251000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>seems like the replacement mechanism in vcard format should be itself an embedded vcard</p>",
+    "topic": "ietf-119",
+    "dtime": 617000,
+    "ptime": 617000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Seems like jcal for the overall and jcard for the \"alternative person(s)\"</p>",
+    "topic": "ietf-119",
+    "dtime": 696000,
+    "ptime": 696000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(or vcal/ical and vcard)</p>",
+    "topic": "ietf-119",
+    "dtime": 723000,
+    "ptime": 723000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Wondering if this should have more specifics on what messages get a vacation response or whether that's in some other spec</p>",
+    "topic": "ietf-119",
+    "dtime": 785000,
+    "ptime": 785000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Jim There are some notes about this sort of thing in Sieve vacation, but in general, I agree</p>",
+    "topic": "ietf-119",
+    "dtime": 829000,
+    "ptime": 829000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"99\">@Jim Fenton</span> Agree with <span class=\"user-mention\" data-user-id=\"370\">@Alexey Melnikov</span> : that seems like something for the sieve implementation, though I've always been a bit unclear of how the layers interact here.</p>",
+    "topic": "ietf-119",
+    "dtime": 880000,
+    "ptime": 880000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>This all reminds me of the old \"vacation\" program on UNIX.   I'm wondering if there's anything we could learn from how it worked (e.g., problems it solved over time), but it was more concerned with mechanism rather than format.</p>",
+    "topic": "ietf-119",
+    "dtime": 907000,
+    "ptime": 907000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Jim: That seems like it might be out of scope for SML itself, but worth describing somewhere.</p>",
+    "topic": "ietf-119",
+    "dtime": 942000,
+    "ptime": 942000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Are mail clients implementing this?</p>",
+    "topic": "ietf-119",
+    "dtime": 970000,
+    "ptime": 970000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>My favorite example is the number of vacation responses I used to et when sending to the IAPP (privacy professionals) mailing list. I got all sorts of out of office info for people I didn't even know.</p>",
+    "topic": "ietf-119",
+    "dtime": 978000,
+    "ptime": 978000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Suggestions to replace this with that seem to be the kind of thing we avoided in DKIM and the like because we had no idea what clients would actually be willing to do.</p>",
+    "topic": "ietf-119",
+    "dtime": 1019000,
+    "ptime": 1019000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>I think we should suggest that mailing lists should discard structured vacation notices</p>",
+    "topic": "ietf-119",
+    "dtime": 1020000,
+    "ptime": 1020000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>for mailing lists that encourage reply-to-list, yes</p>",
+    "topic": "ietf-119",
+    "dtime": 1052000,
+    "ptime": 1052000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>...although LAMPS seems to be more brave about that than we used to be. :)</p>",
+    "topic": "ietf-119",
+    "dtime": 1065000,
+    "ptime": 1065000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>lack of bravery led to pretty ugly stagnation in common MUAs.  i'm glad efforts like this group are trying to advance the larger e-mail ecosystem.</p>",
+    "topic": "ietf-119",
+    "dtime": 1193000,
+    "ptime": 1193000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>If the MUA owners are willing to participate here, I think that's a great development.</p>",
+    "topic": "ietf-119",
+    "dtime": 1252000,
+    "ptime": 1252000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>they won't participate if there's no interesting work being done, that's for sure</p>",
+    "topic": "ietf-119",
+    "dtime": 1275000,
+    "ptime": 1275000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I think there's been interesting (as we think of it) work before; we just felt like we didn't know enough to say \"MUAs should do X with this result\", because (a) we didn't know if they would, and (b) we admitted we didn't know if that was the right thing.  So we just didn't do it.  Maybe the problem back then was that we didn't even try.</p>",
+    "topic": "ietf-119",
+    "dtime": 1439000,
+    "ptime": 1439000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>It's definitely a good thing if that connection is being made these days.</p>",
+    "topic": "ietf-119",
+    "dtime": 1475000,
+    "ptime": 1475000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>dropping my slot in the queue to say +1 to adopt.</p>",
+    "topic": "ietf-119",
+    "dtime": 1523000,
+    "ptime": 1523000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Is it weird that this document doesn't list draft-ietf-sml-structured-email as a dependency?</p>",
+    "topic": "ietf-119",
+    "dtime": 1643000,
+    "ptime": 1643000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm sure it will grow such a dependency once it's adopted :P</p>",
+    "topic": "ietf-119",
+    "dtime": 1676000,
+    "ptime": 1676000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I would <em>really</em> prefer the semantics of \"This is a confirmation code\" instead of semantics of \"This is something to put on the clipboard\"!</p>",
+    "topic": "ietf-119",
+    "dtime": 1920000,
+    "ptime": 1920000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>potentialAction feels so polite.</p>",
+    "topic": "ietf-119",
+    "dtime": 1956000,
+    "ptime": 1956000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 mcr, but we don't need to negotiate tha there</p>",
+    "topic": "ietf-119",
+    "dtime": 1990000,
+    "ptime": 1990000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>that here*</p>",
+    "topic": "ietf-119",
+    "dtime": 1994000,
+    "ptime": 1994000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>all of the use cases so far seem like they have potentially serious security and privacy concerns for the consumer, depending on what is permitted in the structured data.  i think each such spec needs to seriously think about how to constrain the substance to be safer.</p>",
+    "topic": "ietf-119",
+    "dtime": 2218000,
+    "ptime": 2218000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Daniel Gillmor: Ack</p>",
+    "topic": "ietf-119",
+    "dtime": 2261000,
+    "ptime": 2261000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>xkcd 927</p>",
+    "topic": "ietf-119",
+    "dtime": 2353000,
+    "ptime": 2353000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(re reaction feature)</p>",
+    "topic": "ietf-119",
+    "dtime": 2410000,
+    "ptime": 2410000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Pete Resnick: Noted and I gave this feedback to Hans-Joerg. But if there were no existing RFC, maybe there would be a stronger use case here</p>",
+    "topic": "ietf-119",
+    "dtime": 2452000,
+    "ptime": 2452000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>wow it took a full week for me to see a 927 reference at this IETF.  we're slacking.</p>",
+    "topic": "ietf-119",
+    "dtime": 2460000,
+    "ptime": 2460000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 Pete</p>",
+    "topic": "ietf-119",
+    "dtime": 2686000,
+    "ptime": 2686000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>trust and security do not belong in a separate draft!  these are not things to tack on at the end.</p>",
+    "topic": "ietf-119",
+    "dtime": 2719000,
+    "ptime": 2719000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>+1 dkg</p>",
+    "topic": "ietf-119",
+    "dtime": 2742000,
+    "ptime": 2742000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>@Pete: \"ConfirmationCode\" semantics would also lend themselves to a <em>much</em> tighter set of constraints on what could be copy/pasted.  i think that would be a good thing.</p>",
+    "topic": "ietf-119",
+    "dtime": 2951000,
+    "ptime": 2951000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>@dkg: Exactly what I had in mind</p>",
+    "topic": "ietf-119",
+    "dtime": 3032000,
+    "ptime": 3032000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>There's a grand tradition in email about mistakenly exposing the semantics of the underlying implementation through the protocol (e.g., IMAP's exposure of storage models back in the day) instead of only exposing the semantics that are required by the model. Some of these have security implications; some of them overconstrain the protocol; some of them make a mess in other ways.</p>",
+    "topic": "ietf-119",
+    "dtime": 3229000,
+    "ptime": 3229000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>having been exposed to imapd behaviour, finding google decided to invent \"folders\" instead was a bit enraging but I do get your point</p>",
+    "topic": "ietf-119",
+    "dtime": 3323000,
+    "ptime": 3323000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>in some ways you argue google was right: abstract folders better than concrete filestore</p>",
+    "topic": "ietf-119",
+    "dtime": 3341000,
+    "ptime": 3341000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<blockquote>\n<p>trust and security do not belong in a separate draft</p>\n</blockquote>\n<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 3382000,
+    "ptime": 3382000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Yes, I understand the motivation for the reference hint. I am unimpressed with this motivation.</p>",
+    "topic": "ietf-119",
+    "dtime": 4063000,
+    "ptime": 4063000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm still not getting it, sorry, but i don't want to block the rest of the presentation.</p>",
+    "topic": "ietf-119",
+    "dtime": 4104000,
+    "ptime": 4104000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I don't know if it's worth saying at the mic, but forwarding is going to be case by case.</p>",
+    "topic": "ietf-119",
+    "dtime": 4243000,
+    "ptime": 4243000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>There should be a specific discussion of forwarding for each use case.</p>",
+    "topic": "ietf-119",
+    "dtime": 4345000,
+    "ptime": 4345000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>Is this something that can be solved on the smtp server side or only the client?</p>",
+    "topic": "ietf-119",
+    "dtime": 4521000,
+    "ptime": 4521000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>where do 2fa and password reset mails fit in this model? too risky to automate/structure?</p>",
+    "topic": "ietf-119",
+    "dtime": 4529000,
+    "ptime": 4529000
+  },
+  {
+    "author": "Martin Dürst",
+    "text": "<p>Thunderbird includes attachments when forwarding, and I prefer this. It's usually what I want, and it's much easier to remove an attachment if I don't want that forwarded than to reattach an attachment.</p>",
+    "topic": "ietf-119",
+    "dtime": 4543000,
+    "ptime": 4543000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>You can define an IMAP flag and atomically change it</p>",
+    "topic": "ietf-119",
+    "dtime": 4549000,
+    "ptime": 4549000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I can't help wondering the myriad ways UI vendors will differ on how to handle things</p>",
+    "topic": "ietf-119",
+    "dtime": 4552000,
+    "ptime": 4552000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I wouldn't mind if other people were making sure I am capturing them correctly. <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span> <a href=\"https://notes.ietf.org/notes-ietf-119-sml?both\">https://notes.ietf.org/notes-ietf-119-sml?both</a></p>",
+    "topic": "ietf-119",
+    "dtime": 4557000,
+    "ptime": 4557000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>@Tara: i hope we don't build things that depend on the SMTP server.  i still want this to work for e2ee mail</p>",
+    "topic": "ietf-119",
+    "dtime": 4568000,
+    "ptime": 4568000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>@dkg I was thinking that too, but from a harm reduction/mitigation perspective for non e2ee emails</p>",
+    "topic": "ietf-119",
+    "dtime": 4656000,
+    "ptime": 4656000
+  },
+  {
+    "author": "Martin Dürst",
+    "text": "<p>Meetecho is amazing. But \"Open notepad\" gets stuck showing a square with the text \"Open notepad\". Not sure what I'm doing wrong.</p>",
+    "topic": "ietf-119",
+    "dtime": 4800000,
+    "ptime": 4800000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Do SMLs not have any kind of unique ID that can deal with the supersedes issue?</p>",
+    "topic": "ietf-119",
+    "dtime": 4862000,
+    "ptime": 4862000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Martin: click that text again!</p>",
+    "topic": "ietf-119",
+    "dtime": 4864000,
+    "ptime": 4864000
+  },
+  {
+    "author": "Martin Dürst",
+    "text": "<p>An additional click on \"Open notepad\" solved the problem. My bad, I interpreted that as \"sofware working on opening notepad\" rather than \"click here to open notepad\".</p>",
+    "topic": "ietf-119",
+    "dtime": 4876000,
+    "ptime": 4876000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>@Martin: or just open <a href=\"https://notes.ietf.org/notes-ietf-119-sml?both\">https://notes.ietf.org/notes-ietf-119-sml?both</a> in a new tab</p>",
+    "topic": "ietf-119",
+    "dtime": 4882000,
+    "ptime": 4882000
+  },
+  {
+    "author": "Martin Dürst",
+    "text": "<p>Thanks, Daniel!</p>",
+    "topic": "ietf-119",
+    "dtime": 4887000,
+    "ptime": 4887000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Pete: I think Supersedes references Message-ID of another message being replaced</p>",
+    "topic": "ietf-119",
+    "dtime": 4924000,
+    "ptime": 4924000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"370\">@Alexey Melnikov</span> Right. Which is why if it is just a single SML object that is superseding another, the header seems not right.</p>",
+    "topic": "ietf-119",
+    "dtime": 4989000,
+    "ptime": 4989000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2429\">@Martin Dürst</span> did you click on the \"Open notepad\" square when the tab shows? Is that where it gets stuck for you? Just tested and it seems ok here</p>",
+    "topic": "ietf-119",
+    "dtime": 5028000,
+    "ptime": 5028000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@DKG: Supersedes and IMAP flags were mentioned in the BOF, I think. But your comment about scope is well taken</p>",
+    "topic": "ietf-119",
+    "dtime": 5115000,
+    "ptime": 5115000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Sieve extension is not currently in charter's scope. But if it is needed, we can figure out where to do it</p>",
+    "topic": "ietf-119",
+    "dtime": 5195000,
+    "ptime": 5195000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>I understand security, is there any context on why \"trust\"</p>",
+    "topic": "ietf-119",
+    "dtime": 5430000,
+    "ptime": 5430000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-SML-20240322-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/sml"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-SML-20240322-0300"
+		}		
+	]
+}

@@ -1,0 +1,112 @@
+
+{
+	"title": "IETF118-SCITT-20231106-0830",
+	"filename": "IETF118-SCITT-20231106-0830",
+	"start": 0,
+	"end": 7386000,
+	"start_datetime": "2023-11-06T08:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "zEGob4oqca4",
+    "start": 0,
+    "end": "7386000"
+  }
+],
+	"messages": [
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Welcome, everyone</p>",
+    "topic": "ietf-118",
+    "dtime": 188000,
+    "ptime": 188000
+  },
+  {
+    "author": "Yogesh Deshpande",
+    "text": "<p>Welcome everyone</p>",
+    "topic": "ietf-118",
+    "dtime": 936000,
+    "ptime": 936000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>And maybe worth saying that small positive and small negative numbers are encoded in fewer bytes than larger ones.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2677000,
+    "ptime": 2677000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>so, it's better to allocate numbers 1-24, then -1 to -24, then 25...</p>",
+    "topic": "ietf-interim",
+    "dtime": 2741000,
+    "ptime": 2741000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p><a href=\"https://asciinema.org/a/619517\">https://asciinema.org/a/619517</a></p>",
+    "topic": "ietf-118",
+    "dtime": 5478000,
+    "ptime": 5478000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>^^^ link to pdxjonny's demo of federation</p>",
+    "topic": "ietf-118",
+    "dtime": 5493000,
+    "ptime": 5493000
+  },
+  {
+    "author": "Murugiah Souppaya",
+    "text": "<p>Max, you may want to look at CBOM and include that use case SCITT. <a href=\"https://github.com/IBM/CBOM\">https://github.com/IBM/CBOM</a></p>",
+    "topic": "ietf-118",
+    "dtime": 6622000,
+    "ptime": 6622000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>On the note, in the majority of emerging BOM/SBOM formats, there are two emerging enhancements from cryptographic Bill-of-Materials (as it pertains to the use case question/comment by Max and others). The above CBOM work seems to be merging with CycloneDX. SCITT should support all these as different payloads flexibly, so it should be fine either way.</p>\n<p><a href=\"https://github.com/CycloneDX/specification/pull/313\">https://github.com/CycloneDX/specification/pull/313</a></p>",
+    "topic": "ietf-118",
+    "dtime": 7017000,
+    "ptime": 7017000
+  },
+  {
+    "author": "Murugiah Souppaya",
+    "text": "<p>+1</p>",
+    "topic": "ietf-118",
+    "dtime": 7074000,
+    "ptime": 7074000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>Apologies to everyone in the queue after the lock but we can't run over :-(</p>",
+    "topic": "ietf-118",
+    "dtime": 7323000,
+    "ptime": 7323000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>Please do share to the list</p>",
+    "topic": "ietf-118",
+    "dtime": 7330000,
+    "ptime": 7330000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-SCITT-20231106-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-SCITT-20231106-0830"
+		}		
+	]
+}

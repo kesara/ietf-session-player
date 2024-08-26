@@ -1,0 +1,161 @@
+
+{
+	"title": "IETF116-OPENPGP-20230329-0630",
+	"filename": "IETF116-OPENPGP-20230329-0630",
+	"start": 0,
+	"end": 5336000,
+	"start_datetime": "2023-03-29T06:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "g3tVc0V5Y2Y",
+    "start": 0,
+    "end": "5336000"
+  }
+],
+	"messages": [
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>yeah we'll give 'em 2 mins so :32 start</p>",
+    "topic": "jabber",
+    "dtime": 93000,
+    "ptime": 93000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(was released in -08, not -07)</p>",
+    "topic": "ietf-116",
+    "dtime": 1186000,
+    "ptime": 1186000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>AKA symmetric algorithm ID 7, 8, or 9</p>",
+    "topic": "ietf-116",
+    "dtime": 1554000,
+    "ptime": 1554000
+  },
+  {
+    "author": "Stavros Kousidis",
+    "text": "<p>Did you account for the following sentence in section 6.1 RFC7748 for the use of X25519 (and X448): \"Alice and Bob can then use a key-derivation function that includes K, K_A, and K_B to derive a symmetric key.\"</p>",
+    "topic": "ietf-116",
+    "dtime": 1607000,
+    "ptime": 1607000
+  },
+  {
+    "author": "Stavros Kousidis",
+    "text": "<p>Where K_A and K_B are the exchanged points/u-coordinates.</p>",
+    "topic": "ietf-116",
+    "dtime": 1650000,
+    "ptime": 1650000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>And you are already using AES for AES-KW</p>",
+    "topic": "ietf-116",
+    "dtime": 1776000,
+    "ptime": 1776000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Sounds good to me :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3456000,
+    "ptime": 3456000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>sounds good to me as well</p>",
+    "topic": "ietf-116",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the \"P\" stands for \"PGP\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3793000,
+    "ptime": 3793000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>We do have WIP implementations, I'll indeed send pointers, thanks!</p>",
+    "topic": "ietf-116",
+    "dtime": 3943000,
+    "ptime": 3943000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>please join the queue if you have comments/opinions on this ilst</p>",
+    "topic": "ietf-116",
+    "dtime": 4231000,
+    "ptime": 4231000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>WKD == \"web key directory\"</p>",
+    "topic": "ietf-116",
+    "dtime": 4840000,
+    "ptime": 4840000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>sounds like it's worth identifying OpenPGP as a consumer of keytrans outputs</p>",
+    "topic": "ietf-116",
+    "dtime": 5032000,
+    "ptime": 5032000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>Exactly dkg</p>",
+    "topic": "ietf-116",
+    "dtime": 5055000,
+    "ptime": 5055000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>what's the timeline for that?</p>",
+    "topic": "ietf-116",
+    "dtime": 5121000,
+    "ptime": 5121000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-116",
+    "dtime": 5322000,
+    "ptime": 5322000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>thanks!</p>",
+    "topic": "ietf-116",
+    "dtime": 5333000,
+    "ptime": 5333000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>bye</p>",
+    "topic": "ietf-116",
+    "dtime": 5334000,
+    "ptime": 5334000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-OPENPGP-20230329-0630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/openpgp"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-OPENPGP-20230329-0630"
+		}		
+	]
+}

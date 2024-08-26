@@ -1,0 +1,113 @@
+
+{
+	"title": "IETF-JSONPATH-20220817-0800",
+	"filename": "IETF-JSONPATH-20220817-0800",
+	"start": 0,
+	"end": 6531000,
+	"start_datetime": "2022-08-17T07:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "D24J-bnWFZ4",
+    "start": 0,
+    "end": "6531000"
+  }
+],
+	"messages": [
+  {
+    "author": "Greg Dennis",
+    "text": "<p>by \"inequality\" do we mean \"not equal\" or are we including comparisons?</p>",
+    "dtime": 818000,
+    "ptime": 818000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>@.date &gt; [2022, 8, 27]</p>",
+    "dtime": 938000,
+    "ptime": 938000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>a != b ::= !(a == b)</p>",
+    "dtime": 1029000,
+    "ptime": 1029000
+  },
+  {
+    "author": "Stefan Gössner",
+    "text": "<p>@.date &gt; [27,8,2022]</p>",
+    "dtime": 1061000,
+    "ptime": 1061000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Stefan: Don't do that</p>",
+    "dtime": 1070000,
+    "ptime": 1070000
+  },
+  {
+    "author": "Stefan Gössner",
+    "text": "<p>[1,2] &lt; [2,1]</p>",
+    "dtime": 1229000,
+    "ptime": 1229000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>JS: [1, 2, 3] &lt; [4, 5, 6]<br>\ntrue</p>",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>\"lexicographic ordering\"</p>",
+    "dtime": 1252000,
+    "ptime": 1252000
+  },
+  {
+    "author": "Glyn Normington",
+    "text": "<p>Duplicate keys: <a href=\"https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/pull/241\">https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/pull/241</a></p>",
+    "dtime": 1386000,
+    "ptime": 1386000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>#203</p>",
+    "dtime": 4676000,
+    "ptime": 4676000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p><a href=\"https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/issues/203\">https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/issues/203</a></p>",
+    "dtime": 4686000,
+    "ptime": 4686000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p><a href=\"https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/issues/232\">https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/issues/232</a></p>",
+    "dtime": 5783000,
+    "ptime": 5783000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2022-jsonpath-05-jsonpath\">https://notes.ietf.org/notes-ietf-interim-2022-jsonpath-05-jsonpath</a></p>",
+    "dtime": 6493000,
+    "ptime": 6493000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-JSONPATH-20220817-0800"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-jsonpath-05/session/jsonpath"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-JSONPATH-20220817-0800"
+		}
+	]
+}

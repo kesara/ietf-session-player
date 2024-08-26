@@ -1,0 +1,286 @@
+{
+  "title": "IETF112-BIER-20211111-1430",
+  "filename": "IETF112-BIER-20211111-1430",
+  "start": 0,
+  "end": 5201000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "NZG1QttIcVw",
+      "start": 0,
+      "end": "5201000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 124000,
+      "ptime": 124000,
+      "author": "Tony Przygienda",
+      "text": "back<br/>"
+    },
+    {
+      "dtime": 139000,
+      "ptime": 139000,
+      "author": "Tony Przygienda",
+      "text": "nah, loosing my voice with ietf &amp; company meetings morning to night<br/>"
+    },
+    {
+      "dtime": 1967000,
+      "ptime": 1967000,
+      "author": "Dhruv Dhody",
+      "text": "There are actually lot of BIER bases PCEP extensions right now in PCE WG. So some guidance from BIER on the overall requirements and procedures on the use of PCE and PCEP for BIER would be very helpful.<br/>"
+    },
+    {
+      "dtime": 2007000,
+      "ptime": 2007000,
+      "author": "Tony Przygienda",
+      "text": "hmm, ok, yeah, we need to be in sync here ...<br/>"
+    },
+    {
+      "dtime": 2062000,
+      "ptime": 2062000,
+      "author": "Tony Przygienda",
+      "text": "just thinking out loud I'm not even against to have this work in PCE since it's mostly PCE procedures/protocol &amp; BIER here just provides an architecture (as in overlay, underlay, BIER layer) which is spelled out in the RFC and should be kept pls ;-)<br/>"
+    },
+    {
+      "dtime": 2089000,
+      "ptime": 2089000,
+      "author": "Tony Przygienda",
+      "text": "maybe showing this preso in PCE is the right thing, maybe starting to work together with PCE on req document towards PCE. I'm open to suggestions, Dhruv<br/>"
+    },
+    {
+      "dtime": 2155000,
+      "ptime": 2155000,
+      "author": "Tony Przygienda",
+      "text": "I think the current document looks good (but my PCE skills are minimal to be frank) except that it's too IP multicast specific for my taste looking from BIER side. maybe the doc should get a PCE WG review? authors, I encourage to fwd to PCE WG and ask for comments as well.<br/>"
+    },
+    {
+      "dtime": 2159000,
+      "ptime": 2159000,
+      "author": "Dhruv Dhody",
+      "text": "They are presenting in PCE WG tomorrow and targeting it to PCE WG. I did a count there are six documents related BIER on the PCE WG data tracker<br/>"
+    },
+    {
+      "dtime": 2191000,
+      "ptime": 2191000,
+      "author": "Greg Shepherd",
+      "text": "Thanks<br/>"
+    },
+    {
+      "dtime": 2192000,
+      "ptime": 2192000,
+      "author": "Tony Przygienda",
+      "text": "aaah, that's news, thanks for heads-up. I try to make it to PCE tommorow (but my agenda is exploding frankly already) and will look @ the docs coming towards you.<br/>"
+    },
+    {
+      "dtime": 2306000,
+      "ptime": 2306000,
+      "author": "Dhruv Dhody",
+      "text": "Regarding the current document I agree there are things which are generic and not directly related to BIER, I wish they are kept generic in PCEP so that they could be used for non-BIER P2MP case as well.<br/>"
+    },
+    {
+      "dtime": 2348000,
+      "ptime": 2348000,
+      "author": "Greg Shepherd",
+      "text": "Tony was asking about non-IPMcast BIER use-cases as well.<br/>"
+    },
+    {
+      "dtime": 2350000,
+      "ptime": 2350000,
+      "author": "Tony Przygienda",
+      "text": "agree to that as well. So input from your side, don't make it BIER specific &amp; from our side, don't make it IP multicast overlay only specific ;-)<br/>"
+    },
+    {
+      "dtime": 2371000,
+      "ptime": 2371000,
+      "author": "Greg Shepherd",
+      "text": ":call_me_hand:<br/>"
+    },
+    {
+      "dtime": 2371000,
+      "ptime": 2371000,
+      "author": "Dhruv Dhody",
+      "text": ":)<br/>"
+    },
+    {
+      "dtime": 2403000,
+      "ptime": 2403000,
+      "author": "Alvaro Retana",
+      "text": "We should keep the interaction between pce/bier tighter (i.e. more formal than this chat).&nbsp;&nbsp; I would prefer it if bier defined (or at least approved) the architecture before BIER-specifc extensions are specified.<br/>"
+    },
+    {
+      "dtime": 2422000,
+      "ptime": 2422000,
+      "author": "Alvaro Retana",
+      "text": "Maybe we need a joint meeting to avoid discussing things several times...<br/>"
+    },
+    {
+      "dtime": 2435000,
+      "ptime": 2435000,
+      "author": "Tony Przygienda",
+      "text": "I like that, small interim PCE folks + BIER folks<br/>"
+    },
+    {
+      "dtime": 2448000,
+      "ptime": 2448000,
+      "author": "Greg Shepherd",
+      "text": "agree<br/>"
+    },
+    {
+      "dtime": 2461000,
+      "ptime": 2461000,
+      "author": "Dhruv Dhody",
+      "text": "Good suggestion! Let me loop in Julien and lets chat after IETF!<br/>"
+    },
+    {
+      "dtime": 2470000,
+      "ptime": 2470000,
+      "author": "Greg Shepherd",
+      "text": "Thx!<br/>"
+    },
+    {
+      "dtime": 2616000,
+      "ptime": 2616000,
+      "author": "Dhruv Dhody",
+      "text": "Sorry about the audio, I connected to this via iPad and was listening in to IABopen in parallel<br/>"
+    },
+    {
+      "dtime": 3210000,
+      "ptime": 3210000,
+      "author": "Huaimo Chen",
+      "text": "Can we extend the meeting for others to present their drafts?<br/>"
+    },
+    {
+      "dtime": 3254000,
+      "ptime": 3254000,
+      "author": "Xuesong Geng",
+      "text": "@zheng, continue the discussion of network slice for BIER, if the goal of these 2 documents is similar with different method, one with 1 sub-domain and one with different sub-domain, I think it means there will be potential conflict here<br/>"
+    },
+    {
+      "dtime": 3303000,
+      "ptime": 3303000,
+      "author": "Aijun Wang",
+      "text": "we are also expecting to extend the meeting for the additional drafts<br/>"
+    },
+    {
+      "dtime": 3333000,
+      "ptime": 3333000,
+      "author": "Zheng Zhang",
+      "text": "No, one FA is take effect on a SD, but the SA is take effect in a SD, in my understanding there is no confliction.<br/>"
+    },
+    {
+      "dtime": 3387000,
+      "ptime": 3387000,
+      "author": "Zheng Zhang",
+      "text": "in a SD there may be several SA<br/>"
+    },
+    {
+      "dtime": 3400000,
+      "ptime": 3400000,
+      "author": "Xuesong Geng",
+      "text": "Whether there is conflict depends on the&nbsp;&nbsp;problem, no the solution method<br/>"
+    },
+    {
+      "dtime": 3401000,
+      "ptime": 3401000,
+      "author": "Zheng Zhang",
+      "text": "several SAs<br/>"
+    },
+    {
+      "dtime": 3408000,
+      "ptime": 3408000,
+      "author": "Huaimo Chen",
+      "text": "Others have spent lots of their time in preparing the presentations.<br/>"
+    },
+    {
+      "dtime": 3463000,
+      "ptime": 3463000,
+      "author": "Alvaro Retana",
+      "text": "@Huaimo:&nbsp;&nbsp;As was mentioned by Greg at the start, he will follow up on all the outstanding drafts to make sure the state is clear for everyone and to prepare for an interim.<br/>"
+    },
+    {
+      "dtime": 3495000,
+      "ptime": 3495000,
+      "author": "Alvaro Retana",
+      "text": "Having said that, I'm not exactly sure when the meetecho session will automatically end.&nbsp;&nbsp;[I have a conflict.]<br/>"
+    },
+    {
+      "dtime": 3514000,
+      "ptime": 3514000,
+      "author": "Meetecho",
+      "text": "We don't automatically close sessions, we wait for it to end<br/>"
+    },
+    {
+      "dtime": 3570000,
+      "ptime": 3570000,
+      "author": "Tony Przygienda",
+      "text": "I can add max. 20 minutes, then a conflict<br/>"
+    },
+    {
+      "dtime": 3594000,
+      "ptime": 3594000,
+      "author": "Huaimo Chen",
+      "text": "Thanks lots.<br/>"
+    },
+    {
+      "dtime": 3619000,
+      "ptime": 3619000,
+      "author": "Tony Przygienda",
+      "text": "depends on Greg<br/>"
+    },
+    {
+      "dtime": 3661000,
+      "ptime": 3661000,
+      "author": "Greg Shepherd",
+      "text": "Let's see if we can go another 20mins<br/>"
+    },
+    {
+      "dtime": 4854000,
+      "ptime": 4854000,
+      "author": "Tony Przygienda",
+      "text": "I htought this egress stuff has still unaddressed issues Jeffrey brought up that can replicate the packet under normal ops<br/>"
+    },
+    {
+      "dtime": 5013000,
+      "ptime": 5013000,
+      "author": "Tony Przygienda",
+      "text": "ok, I have to leave due to other commitments. AFAIS we shuold close the meeting, all that can be taken to draft/list.<br/>"
+    },
+    {
+      "dtime": 5028000,
+      "ptime": 5028000,
+      "author": "Tony Przygienda",
+      "text": "my comment to the RH draft after reading it as WG participant:<br/>"
+    },
+    {
+      "dtime": 5054000,
+      "ptime": 5054000,
+      "author": "Tony Przygienda",
+      "text": "I think it's a very expensive way to keep overlay (ip multicast) synchronized with BIER layer basically via forwarding path<br/>"
+    },
+    {
+      "dtime": 5103000,
+      "ptime": 5103000,
+      "author": "Tony Przygienda",
+      "text": "it will open lots of vectors of attack such as unicast destination address on the packet, invalid v6 addresses, conflict with normal v6 forwarding because3 why is a IP multicast address fwd'ed via BIER and not normal IP etc. etc.<br/>"
+    },
+    {
+      "dtime": 5169000,
+      "ptime": 5169000,
+      "author": "Aijun Wang",
+      "text": "Hi, Tony, thanks for your comments, we will reply you on the mail list<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-BIER-20211111-1430"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/bier"
+    }
+  ]
+}

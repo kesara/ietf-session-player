@@ -1,0 +1,378 @@
+
+{
+	"title": "IETF115-ICCRG-20221108-1300",
+	"filename": "IETF115-ICCRG-20221108-1300",
+	"start": 0,
+	"end": 5592000,
+	"start_datetime": "2022-11-08T12:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "MUzkZYIwWuc",
+    "start": 0,
+    "end": "5592000"
+  }
+],
+	"messages": [
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Hear hear</p>",
+    "topic": "jabber",
+    "dtime": 473000,
+    "ptime": 473000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Processing transactions faster saves energy per transaction. Fine. But does it lead to more transactions?</p>",
+    "topic": "jabber",
+    "dtime": 1154000,
+    "ptime": 1154000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>maybe energy efficiency deserves its on research group</p>",
+    "topic": "jabber",
+    "dtime": 1471000,
+    "ptime": 1471000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Venkat is right, this is a very real problem. We can see issues like that even with Hystart</p>",
+    "topic": "jabber",
+    "dtime": 2120000,
+    "ptime": 2120000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Lots of studies of that effect for LEDBAT, e.g., <a href=\"https://arxiv.org/ftp/arxiv/papers/1006/1006.3018.pdf\">https://arxiv.org/ftp/arxiv/papers/1006/1006.3018.pdf</a></p>",
+    "topic": "jabber",
+    "dtime": 2227000,
+    "ptime": 2227000
+  },
+  {
+    "author": "Ayush Mishra",
+    "text": "<p>Q: Do you differentiate between self-inflicted delay variation vs. delay variation caused by a competing flow? Would a delay convergent CCA starve even while competing with a non-delay convergent CCA?</p>",
+    "topic": "jabber",
+    "dtime": 2467000,
+    "ptime": 2467000
+  },
+  {
+    "author": "Ayush Mishra",
+    "text": "<p>Thanks Jana!</p>",
+    "topic": "jabber",
+    "dtime": 2657000,
+    "ptime": 2657000
+  },
+  {
+    "author": "Ayush Mishra",
+    "text": "<p>Got it, thanks Venkat!</p>",
+    "topic": "jabber",
+    "dtime": 2673000,
+    "ptime": 2673000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>BBR has this regular probing for higher bandwidth. I was wondering whether there should be some equivalent \"downward probing\" in which for a given epoch the sender just slows down. Would that be a way to deliberately oscillate the delay?</p>",
+    "topic": "jabber",
+    "dtime": 3055000,
+    "ptime": 3055000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p><span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span></p>",
+    "topic": "jabber",
+    "dtime": 3139000,
+    "ptime": 3139000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>yes.</p>",
+    "topic": "jabber",
+    "dtime": 3255000,
+    "ptime": 3255000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>@Christian - That could work. The key is that the probe should indicate the level of congestion to the other flows observing the delay. BBR and LEDBAT do this, but only with the intention of discovering the min RTT. This is insufficient to solve this problem</p>",
+    "topic": "jabber",
+    "dtime": 3419000,
+    "ptime": 3419000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>My other question is whether the correction shall require cooperation of other flows, or whether it can be done individually</p>",
+    "topic": "jabber",
+    "dtime": 3486000,
+    "ptime": 3486000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>Wouldn't ECN be helpful here to detect congestion building up due to other flows?</p>",
+    "topic": "jabber",
+    "dtime": 3612000,
+    "ptime": 3612000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>I don't know yet. I think it will be easier to answer this question once we actually have a CCA that works when everybody is using the same algorithm. Then we can see whether we can create a standard analogous to \"TCP friendliness\" where we can allow individual flows to customize their CCA</p>",
+    "topic": "jabber",
+    "dtime": 3640000,
+    "ptime": 3640000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>For ECN, the condition is probably to do something like multiplicative decrease, so there is asymptotic convergence to the desired state</p>",
+    "topic": "jabber",
+    "dtime": 3737000,
+    "ptime": 3737000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>@Vidhi - Yes. With ECN I believe we can get close to ideal performance if done correctly. I don't know if RED/CoDel are the answer. Potential answers include accel-brake control (ABC) and its classical precursors RCP/XCP. The challenge of course is with universal deployment</p>",
+    "topic": "jabber",
+    "dtime": 3801000,
+    "ptime": 3801000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>Well, we have been making a lot of progress with L4S in the IETF as well as preparing for the deployment. It uses ECN in a similar way as DCTCP ( I am oversimplifying) on WAN</p>",
+    "topic": "jabber",
+    "dtime": 3886000,
+    "ptime": 3886000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>@Vidhi -- yes, ECN is good. But Venkat is right to point out that it is not universally deployed. Also, some bottlenecks and some source of delay jitter happen below IP routing, and wont be signalled by ECN.</p>",
+    "topic": "jabber",
+    "dtime": 3993000,
+    "ptime": 3993000
+  },
+  {
+    "author": "Ayush Mishra",
+    "text": "<p>For starvation between BBR flows with different RTTs, starvation always happens in one direction (the smaller RTT flow always suffers). That makes me wonder if the starvation between diff RTT BBR flows is simply because they are bound by different cwnds (larger BDP estimate for the larger flow) rather than the fact that they are delay convergent.</p>",
+    "topic": "jabber",
+    "dtime": 4069000,
+    "ptime": 4069000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>Yes, that is self inflicted delay issue</p>",
+    "topic": "jabber",
+    "dtime": 4102000,
+    "ptime": 4102000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>+1 to Bob's comment.  Also, applications use networks in somewhat unpredictable ways.</p>",
+    "topic": "jabber",
+    "dtime": 4158000,
+    "ptime": 4158000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1871\">@Ayush Mishra</span> Yes, especially in BBRv1 it is the case that it's the CWnd Cap that is larger for larger RTT flows. For BBRv2 there are more subtle dependencies...</p>",
+    "topic": "jabber",
+    "dtime": 4187000,
+    "ptime": 4187000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>@Vidhi - I would love to see ECN more widely deployed. If you are working toward that, that would be very helpful. I'm happy to discuss offline which methods of setting ECN will help</p>",
+    "topic": "jabber",
+    "dtime": 4194000,
+    "ptime": 4194000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>@Ayush - You are right. cwnd cap =&gt; delay convergence =&gt; starvation. So both statements are correct :)</p>",
+    "topic": "jabber",
+    "dtime": 4230000,
+    "ptime": 4230000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Not sure about Bob's comment. Lenore points out the need to \"model the assumptions\", and it is better to make these model explicit.</p>",
+    "topic": "jabber",
+    "dtime": 4250000,
+    "ptime": 4250000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>Since the queue is closed, I was going to say that there might be value in proving that congestion controllers do the thing we expect them to do in even simplified circumstances.  Even if they can't model anything close to reality.</p>",
+    "topic": "jabber",
+    "dtime": 4279000,
+    "ptime": 4279000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>Good is better than perfect.</p>",
+    "topic": "jabber",
+    "dtime": 4284000,
+    "ptime": 4284000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>Sorry, I meant good is better than nothing.</p>",
+    "topic": "jabber",
+    "dtime": 4351000,
+    "ptime": 4351000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>@Lenore, @Ken - I have been working on formal verification of CC (SIGCOMM 21). We came across some of the challenges you mentioned and solved some of them. Would love to chat more offline</p>",
+    "topic": "jabber",
+    "dtime": 4412000,
+    "ptime": 4412000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>@Venkat, happy to discuss offline. (I am not onsite but available on slack etc)This talk from Ingemar touches on adoption of L4S in 5G</p>",
+    "topic": "jabber",
+    "dtime": 4459000,
+    "ptime": 4459000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>@Vidhi - you can reach me at <a href=\"mailto:venkatar@mit.edu\">venkatar@mit.edu</a></p>",
+    "topic": "jabber",
+    "dtime": 4542000,
+    "ptime": 4542000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>I wonder how it decides what packets go into \"latency sensitive traffic\"?</p>",
+    "topic": "jabber",
+    "dtime": 4569000,
+    "ptime": 4569000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>That is an implementation detail but L4S spec says use ECT1 as a classifier</p>",
+    "topic": "jabber",
+    "dtime": 4625000,
+    "ptime": 4625000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>Which implementation of BBRv1 and LEDBAT++ are these?  Linux?</p>",
+    "topic": "jabber",
+    "dtime": 5007000,
+    "ptime": 5007000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>AFAIK, Linux doesn't have LEDBAT++ (and rLEDBAT)</p>",
+    "topic": "jabber",
+    "dtime": 5047000,
+    "ptime": 5047000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>This is the same sort of issue we discussed in IETF XX back in 2011(?)  in Vancouver when we had the workshop on realtime data congestion control, and then created the RMCAT working group.</p>",
+    "topic": "jabber",
+    "dtime": 5062000,
+    "ptime": 5062000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>(With regards to (plain) LEDBAT and realtime flows)</p>",
+    "topic": "jabber",
+    "dtime": 5087000,
+    "ptime": 5087000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>A lot of this was driven by the 100ms(? IIRC) target delay for the original LEDBAT.   This modification looks interesting</p>",
+    "topic": "jabber",
+    "dtime": 5178000,
+    "ptime": 5178000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>IIRC the original LEDBAT had fairness issues between LEDBAT streams as well.  Not sure if they had a similar cause</p>",
+    "topic": "jabber",
+    "dtime": 5326000,
+    "ptime": 5326000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>Note: I'm not an expert on LEDBAT; this is all based on my memories from around the time of that IETF meeting</p>",
+    "topic": "jabber",
+    "dtime": 5352000,
+    "ptime": 5352000
+  },
+  {
+    "author": "Venkat Arun",
+    "text": "<p>@Randell - I believe that the original LEDBAT was not designed for inter-LEDBAT fairness</p>",
+    "topic": "jabber",
+    "dtime": 5398000,
+    "ptime": 5398000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I hate the idea of fixed delays, like \"100ms\" or \"10 seconds\". Also, synchronization is generally a failure.</p>",
+    "topic": "jabber",
+    "dtime": 5410000,
+    "ptime": 5410000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Something random would be much simpler.</p>",
+    "topic": "jabber",
+    "dtime": 5433000,
+    "ptime": 5433000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>I don't see how you can synchronize successfully with N streams on a link</p>",
+    "topic": "jabber",
+    "dtime": 5441000,
+    "ptime": 5441000
+  },
+  {
+    "author": "Simone Ferlin",
+    "text": "<p>Yes, we can @Gorry :)</p>",
+    "topic": "jabber",
+    "dtime": 5477000,
+    "ptime": 5477000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>How you will. If multiple processes have the same period, then it takes very little signal to have them come in synch.</p>",
+    "topic": "jabber",
+    "dtime": 5481000,
+    "ptime": 5481000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>Scan early, scan often</p>",
+    "topic": "jabber",
+    "dtime": 5550000,
+    "ptime": 5550000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>It will take several periods, bt not many.</p>",
+    "topic": "jabber",
+    "dtime": 5565000,
+    "ptime": 5565000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-ICCRG-20221108-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/iccrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-ICCRG-20221108-1300"
+		}		
+	]
+}

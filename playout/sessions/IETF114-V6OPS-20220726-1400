@@ -1,0 +1,305 @@
+
+{
+	"title": "IETF114-V6OPS-20220726-1400",
+	"filename": "IETF114-V6OPS-20220726-1400",
+	"start": 0,
+	"end": 7399000,
+	"start_datetime": "2022-07-26T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "iUwcoNpioIA",
+    "start": 0,
+    "end": "7399000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jordi Palet Martinez",
+    "text": "<p>audio is too low</p>",
+    "dtime": 38000,
+    "ptime": 38000
+  },
+  {
+    "author": "Daniel Havey",
+    "text": "<p>Can the speakers please speak closer to the mike?</p>",
+    "dtime": 168000,
+    "ptime": 168000
+  },
+  {
+    "author": "Ron Bonica",
+    "text": "<p>same here</p>",
+    "dtime": 169000,
+    "ptime": 169000
+  },
+  {
+    "author": "Daniel Havey",
+    "text": "<p>Thank you.</p>",
+    "dtime": 210000,
+    "ptime": 210000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>Isn't the point of Happy Eyeballs to make underlying failures \"transparent\" anyway?</p>",
+    "dtime": 769000,
+    "ptime": 769000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>It is not good that ULA is effectively disabled by default in the DualStack environment.</p>",
+    "dtime": 818000,
+    "ptime": 818000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>I'm mostly saying that when I care about the underlying protocol, I explicitly specify it.</p>",
+    "dtime": 863000,
+    "ptime": 863000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>-- Not arguing whether IPv4 should be preferred over IPv6, though.</p>",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>If this ULA deprioritization is anti-NAT policy then it would just delay IPv6 in the Enterprise.</p>",
+    "dtime": 1088000,
+    "ptime": 1088000
+  },
+  {
+    "author": "Daniel Havey",
+    "text": "<p>Please get closer to the mike. I can't hear you through the mask.</p>",
+    "dtime": 1148000,
+    "ptime": 1148000
+  },
+  {
+    "author": "Jordi Palet Martinez",
+    "text": "<p>agree with Eric, we must tell enterprises that ULA is bad, not to repeat mistakes</p>",
+    "dtime": 1275000,
+    "ptime": 1275000
+  },
+  {
+    "author": "Daniel Havey",
+    "text": "<p>There! Good mike technique. Thank you.</p>",
+    "dtime": 1302000,
+    "ptime": 1302000
+  },
+  {
+    "author": "C. Heard",
+    "text": "<p>Curiously, this remote participant can see the slides</p>",
+    "dtime": 1582000,
+    "ptime": 1582000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>What are we waiting for?</p>",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "Daniel Havey",
+    "text": "<p>IDK.</p>",
+    "dtime": 1607000,
+    "ptime": 1607000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@meetecho we have problem to share a PDF (it opens then disappears)</p>",
+    "dtime": 1609000,
+    "ptime": 1609000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Checking</p>",
+    "dtime": 1644000,
+    "ptime": 1644000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@meetecho solved by sharing the screen</p>",
+    "dtime": 1645000,
+    "ptime": 1645000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>this was for the James slide deck</p>",
+    "dtime": 1657000,
+    "ptime": 1657000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@Fernando good catch for UDP vs TCP ;-)</p>",
+    "dtime": 2356000,
+    "ptime": 2356000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>My pleasure! ;-)</p>",
+    "dtime": 2456000,
+    "ptime": 2456000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>Audio is low</p>",
+    "dtime": 2640000,
+    "ptime": 2640000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>the number of pools has become 4, but I had no chance to participate in the last one.</p>",
+    "dtime": 2685000,
+    "ptime": 2685000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Apologies all - XiPeng's meetecho is not updating correctly, and so his view has been very weird.</p>",
+    "dtime": 2786000,
+    "ptime": 2786000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>hey there, joining late - @Jordi &amp; @Edward, you don't \"tell\" enterprise that ULA is bad, you go to NANOG (or/and equivalent) and make a presentation on \"why ULA is bad\" then it get broadcasted - lots of people watch the youtube or attend and ask question. My 2 cents</p>",
+    "dtime": 3359000,
+    "ptime": 3359000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>(Re ULAs) Or you make the thing as good as possible, and let folks use ULAs where/if they find them useful.</p>",
+    "dtime": 4034000,
+    "ptime": 4034000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>ULAs are not good or bad. THey have certain properties, which might or might not be useful. SO they should be evaluated in that light. Weǘe tried to at least scratch the surface here: <a href=\"https://datatracker.ietf.org/doc/draft-gont-v6ops-ipv6-addressing-considerations/\">https://datatracker.ietf.org/doc/draft-gont-v6ops-ipv6-addressing-considerations/</a></p>",
+    "dtime": 4124000,
+    "ptime": 4124000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>I haven't read this draft @Fernando, doing a quick review, seem a good doc so far</p>",
+    "dtime": 4353000,
+    "ptime": 4353000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>I thought the SRv6 requirement was rather confusion, on page 6 of the ppt, it says requirement AND ... nice to have ..</p>",
+    "dtime": 4613000,
+    "ptime": 4613000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>*confusing</p>",
+    "dtime": 4630000,
+    "ptime": 4630000
+  },
+  {
+    "author": "Zhenbin Li",
+    "text": "<p>@Ron This is to use the SRv6 BE mode to traverse the IPv6 network instead of using SRv6 TE.</p>",
+    "dtime": 4643000,
+    "ptime": 4643000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>Xipeng, the audio is very low, please keep close to the mike</p>",
+    "dtime": 4731000,
+    "ptime": 4731000
+  },
+  {
+    "author": "Zhenbin Li",
+    "text": "<p>@Ron For some operators' network to provide Internet serive, the network is IP-only and there is no MPLS provisioning.</p>",
+    "dtime": 4748000,
+    "ptime": 4748000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Just a clarification, E.Marie worked for Cisco (where she did a great job as she is explaining) but does not represent Cisco here (as indicated by the text at the bottom of her slides).</p>",
+    "dtime": 5125000,
+    "ptime": 5125000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>(the above with my Cisco employee hat only and for clarification)</p>",
+    "dtime": 5167000,
+    "ptime": 5167000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>we can not hear you</p>",
+    "dtime": 5493000,
+    "ptime": 5493000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>the audio on-site is super low</p>",
+    "dtime": 5510000,
+    "ptime": 5510000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>I mean the volume</p>",
+    "dtime": 5572000,
+    "ptime": 5572000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@XiPeng any chance to click on the 'hide' in the bottom box ?</p>",
+    "dtime": 5845000,
+    "ptime": 5845000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>thanks</p>",
+    "dtime": 5894000,
+    "ptime": 5894000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>we can not hear you @robin</p>",
+    "dtime": 6889000,
+    "ptime": 6889000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>We only have &lt;6 minutes left, so I locked the queue</p>",
+    "dtime": 6893000,
+    "ptime": 6893000
+  },
+  {
+    "author": "Pascal Thubert",
+    "text": "<p>to meetcho: the volume from the mikes in the room is consistently way lower than external speakers. This makes it hard to adjust for the remote listeners...</p>",
+    "dtime": 6990000,
+    "ptime": 6990000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>yes, please help on it</p>",
+    "dtime": 7014000,
+    "ptime": 7014000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>:<span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span>:</p>",
+    "dtime": 7336000,
+    "ptime": 7336000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-V6OPS-20220726-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/v6ops"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-V6OPS-20220726-1400"
+		}		
+	]
+}

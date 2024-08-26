@@ -1,0 +1,186 @@
+{
+  "title": "IETF104-EXTRA-20190326-0900",
+  "filename": "IETF104-EXTRA-20190326-0900",
+  "start": 0,
+  "end": 3231000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "5CjWsS5p0tM",
+      "start": 0.0,
+      "end": 3231000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Michael Slusarz just left the room",
+      "ptime": 30000.0,
+      "dtime": 1190000.0
+    },
+    {
+      "text": "***Michael Slusarz just joined the room",
+      "ptime": 55000.0,
+      "dtime": 1215000.0
+    },
+    {
+      "text": "***Teemu Huovila just joined the room",
+      "ptime": 59000.0,
+      "dtime": 1219000.0
+    },
+    {
+      "text": "***Teemu Huovila just left the room",
+      "ptime": 68000.0,
+      "dtime": 1228000.0
+    },
+    {
+      "text": "***Ken Murchison just joined the room",
+      "ptime": 84000.0,
+      "dtime": 1244000.0
+    },
+    {
+      "text": "***Stephan Bosch just joined the room",
+      "ptime": 127000.0,
+      "dtime": 1287000.0
+    },
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 128000.0,
+      "dtime": 1288000.0
+    },
+    {
+      "text": "[Mic] message/global?",
+      "ptime": 570000.0,
+      "dtime": 1730000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "[mic] main problem with multiple parts (or multiple messages) is handling UNKNOWNCTE resp-code, since you don\u0027t know what exactly it applies to",
+      "ptime": 604000.0,
+      "dtime": 1764000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "[Mic] Leaf node only is fine with me as a starting point.",
+      "ptime": 756000.0,
+      "dtime": 1916000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "[Mic] Problem with calling for specific TLS behavior is that\u0027s typically up to the TLS implementation you\u0027re using.",
+      "ptime": 1164000.0,
+      "dtime": 2324000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "[mic] I\u0027m maybe more worried about the part of the UTF8 normalization than case sensitivity",
+      "ptime": 1214000.0,
+      "dtime": 2374000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "will throw these up when these two stop throwing discussion backwards and forwards",
+      "ptime": 1237000.0,
+      "dtime": 2397000.0,
+      "author": "brong"
+    },
+    {
+      "text": "[mic] I think some clients have used the reference string, and then it works differently in different servers, which confuses.",
+      "ptime": 1779000.0,
+      "dtime": 2939000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "[mic] The comment was about LSUB \"\" %",
+      "ptime": 1905000.0,
+      "dtime": 3065000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "[mic] but you were saying LIST-EXTENDED is coming anyway? so then LSUB would be removed?",
+      "ptime": 1917000.0,
+      "dtime": 3077000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "***Alessandro Amirante just joined the room",
+      "ptime": 2632000.0,
+      "dtime": 3792000.0
+    },
+    {
+      "text": "ah, ABNF has Namespace-Response-Extension, which isn\u0027t quite same as Namespace_Response_Extensions",
+      "ptime": 2692000.0,
+      "dtime": 3852000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "[mic] I don\u0027t really care",
+      "ptime": 2756000.0,
+      "dtime": 3916000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "just different servers work differently",
+      "ptime": 2763000.0,
+      "dtime": 3923000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "***Alessandro Amirante just left the room",
+      "ptime": 2778000.0,
+      "dtime": 3938000.0
+    },
+    {
+      "text": "you\u0027re welcome! :)",
+      "ptime": 2853000.0,
+      "dtime": 4013000.0,
+      "author": "Timo Sirainen"
+    },
+    {
+      "text": "hanks remote ppls",
+      "ptime": 3199000.0,
+      "dtime": 4359000.0,
+      "author": "brong"
+    },
+    {
+      "text": "thanks even",
+      "ptime": 3203000.0,
+      "dtime": 4363000.0,
+      "author": "brong"
+    },
+    {
+      "text": "***Michael Slusarz just left the room",
+      "ptime": 3206000.0,
+      "dtime": 4366000.0
+    },
+    {
+      "text": "resetting for UTA now",
+      "ptime": 3210000.0,
+      "dtime": 4370000.0,
+      "author": "brong"
+    },
+    {
+      "text": "***Ken Murchison just left the room",
+      "ptime": 3212000.0,
+      "dtime": 4372000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 3230000.0,
+      "dtime": 4390000.0
+    },
+    {
+      "text": "***Timo Sirainen just left the room",
+      "ptime": 3230000.0,
+      "dtime": 4390000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-EXTRA-20190326-0900"
+    }
+  ]
+}

@@ -1,0 +1,728 @@
+
+{
+	"title": "IETF118-SECDISPATCH-20231106-1430",
+	"filename": "IETF118-SECDISPATCH-20231106-1430",
+	"start": 0,
+	"end": 4831000,
+	"start_datetime": "2023-11-06T14:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "pSlLL9S0OKc",
+    "start": 0,
+    "end": "4831000"
+  }
+],
+	"messages": [
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@dkg i can take notes, at least on outcomes</p>",
+    "topic": "ietf-118",
+    "dtime": 189000,
+    "ptime": 189000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>oh, sounds like it's handled</p>",
+    "topic": "ietf-118",
+    "dtime": 272000,
+    "ptime": 272000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> feel free to help <span class=\"user-mention\" data-user-id=\"652\">@Leif Johansson</span> if y'all want to take turns</p>",
+    "topic": "ietf-118",
+    "dtime": 536000,
+    "ptime": 536000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this is literally the PSTN</p>",
+    "topic": "ietf-118",
+    "dtime": 562000,
+    "ptime": 562000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>circuit switching ftw!</p>",
+    "topic": "ietf-118",
+    "dtime": 569000,
+    "ptime": 569000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>Dear god yes - my mind swithed to email and for a sec I wondered if we were back in uucp land again with path validation</p>",
+    "topic": "ietf-118",
+    "dtime": 603000,
+    "ptime": 603000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>This reminds me about DeTor (<a href=\"https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/li\">https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/li</a>)</p>",
+    "topic": "ietf-118",
+    "dtime": 924000,
+    "ptime": 924000
+  },
+  {
+    "author": "Hafiz Farooq",
+    "text": "<p>I believe path validations will generate more false-positives than actual detection of spoofed attackers, due to routing issues</p>\n<p>.</p>",
+    "topic": "ietf-118",
+    "dtime": 999000,
+    "ptime": 999000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3365\">@Hafiz Farooq</span> agreed, there's a question about what should happen when you detect a path that wasn't what you the receiving party  would be.</p>",
+    "topic": "ietf-118",
+    "dtime": 1174000,
+    "ptime": 1174000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>Did he just say mpls is not a security threat?</p>",
+    "topic": "ietf-118",
+    "dtime": 1342000,
+    "ptime": 1342000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Doesn't point 7's use case require proof of non-transit, which I thought this didn't provide?</p>",
+    "topic": "ietf-118",
+    "dtime": 1400000,
+    "ptime": 1400000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I don't think this proposal provides a security benefit.  If you trust all the routers and their links, you don't need this.  If you don't trust them, it's not sufficient.</p>",
+    "topic": "ietf-118",
+    "dtime": 1464000,
+    "ptime": 1464000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>Don’t think this passes the cost/benefit hurdle even if it could be done in something bigger than a test bed</p>",
+    "topic": "ietf-118",
+    "dtime": 1516000,
+    "ptime": 1516000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>If it has any value, it would be as an operational mechanism to detect accidental misconfigurations among mutually trusting parties.</p>",
+    "topic": "ietf-118",
+    "dtime": 1555000,
+    "ptime": 1555000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"123\">@Meetecho Robot</span> there is echo from <span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> (remote) in secdispatch now</p>",
+    "topic": "ietf-118",
+    "dtime": 1611000,
+    "ptime": 1611000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>speaker mics echoing back the remote contributors</p>",
+    "topic": "ietf-118",
+    "dtime": 1770000,
+    "ptime": 1770000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>There's a lot of reverb for remote participants</p>",
+    "topic": "ietf-118",
+    "dtime": 1772000,
+    "ptime": 1772000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>From the front row, left, I'm hearing a lot of echo generally.  I wonder if someone is running the audio through their laptop</p>",
+    "topic": "ietf-118",
+    "dtime": 1784000,
+    "ptime": 1784000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>(I'm hearing echos of everything going through the microphones, including in-person speakers)</p>",
+    "topic": "ietf-118",
+    "dtime": 1811000,
+    "ptime": 1811000
+  },
+  {
+    "author": "Hafiz Farooq",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2424\">Benjamin Schwartz</span> <a href=\"#narrow/stream/185-secdispatch/topic/ietf-118/near/94909\">said</a>:</p>\n<blockquote>\n<p>If it has any value, it would be as an operational mechanism to detect accidental misconfigurations among mutually trusting parties.</p>\n</blockquote>\n<p>Agreed</p>",
+    "topic": "ietf-118",
+    "dtime": 1821000,
+    "ptime": 1821000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the proof-of-SFC case doesn't require the trust assumptions</p>",
+    "topic": "ietf-118",
+    "dtime": 2009000,
+    "ptime": 2009000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>SFC?</p>",
+    "topic": "ietf-118",
+    "dtime": 2029000,
+    "ptime": 2029000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>service function chaining</p>",
+    "topic": "ietf-118",
+    "dtime": 2055000,
+    "ptime": 2055000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>I do think it needs to detect unauthorized routers in the path</p>",
+    "topic": "ietf-118",
+    "dtime": 2061000,
+    "ptime": 2061000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Deb I'm pretty sure that's physically impossible</p>",
+    "topic": "ietf-118",
+    "dtime": 2076000,
+    "ptime": 2076000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>if the spec document is only being written, not sure it's ready to be dispatched by this group, so I'd suggest a NOOP; I also wonder if there are abuse-cases that might be worth analysis if one assumed this became widely deployed</p>",
+    "topic": "ietf-118",
+    "dtime": 2083000,
+    "ptime": 2083000
+  },
+  {
+    "author": "Daniam Henriques",
+    "text": "<p>The old SFC proof of transit draft may provide some additional context for some, <a href=\"https://datatracker.ietf.org/doc/draft-ietf-sfc-proof-of-transit\">https://datatracker.ietf.org/doc/draft-ietf-sfc-proof-of-transit</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2130000,
+    "ptime": 2130000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I would also remove the cryptography</p>",
+    "topic": "ietf-118",
+    "dtime": 2181000,
+    "ptime": 2181000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Basically I don't think you're going to do much better than traceroute, but maybe there's a traceroute variant with a bit more metadata about the nodes on the path.</p>",
+    "topic": "ietf-118",
+    "dtime": 2234000,
+    "ptime": 2234000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>1-2ms processing per packet in the proto sounds .. crazy. cryptography on data plane in general happens only in very special domains;</p>",
+    "topic": "ietf-118",
+    "dtime": 2238000,
+    "ptime": 2238000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>big +1 to DKG -- need more alignment on goals &amp; deliverables</p>",
+    "topic": "ietf-118",
+    "dtime": 2256000,
+    "ptime": 2256000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>without clear description of domain where this actually works I don't really see the justification for the work (at least in IETF)</p>",
+    "topic": "ietf-118",
+    "dtime": 2260000,
+    "ptime": 2260000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>yeah the idea of routing folks wanting complex crypto when they think improving on tcp-md5 isn't doable seem optimistic</p>",
+    "topic": "ietf-118",
+    "dtime": 2309000,
+    "ptime": 2309000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Aren't computers wonderful?</p>",
+    "topic": "ietf-118",
+    "dtime": 2367000,
+    "ptime": 2367000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>@Jonathan: *awful</p>",
+    "topic": "ietf-118",
+    "dtime": 2384000,
+    "ptime": 2384000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>new meetecho buttons doesn't help....</p>",
+    "topic": "ietf-118",
+    "dtime": 2385000,
+    "ptime": 2385000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Deb: what's wrong?</p>",
+    "topic": "ietf-118",
+    "dtime": 2425000,
+    "ptime": 2425000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>nothing.... but I think they are stuggling w/ briefing slides not in meetecho?</p>",
+    "topic": "ietf-118",
+    "dtime": 2451000,
+    "ptime": 2451000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>they are sharing screens... vice sharing the slide deck.</p>",
+    "topic": "ietf-118",
+    "dtime": 2466000,
+    "ptime": 2466000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>they must have skipped your video.  LOL</p>",
+    "topic": "ietf-118",
+    "dtime": 2478000,
+    "ptime": 2478000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>there used be some latency between upload to datatracker and availability in meetecho, maybe that's it</p>",
+    "topic": "ietf-118",
+    "dtime": 2479000,
+    "ptime": 2479000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Deb: :D</p>",
+    "topic": "ietf-118",
+    "dtime": 2497000,
+    "ptime": 2497000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>I think they have fixed it.</p>",
+    "topic": "ietf-118",
+    "dtime": 2500000,
+    "ptime": 2500000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We just refreshed though and we still see the same 4 slides that are on the datatracker?</p>",
+    "topic": "ietf-118",
+    "dtime": 2513000,
+    "ptime": 2513000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>IDK?</p>",
+    "topic": "ietf-118",
+    "dtime": 2536000,
+    "ptime": 2536000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>4 slide decks?</p>",
+    "topic": "ietf-118",
+    "dtime": 2544000,
+    "ptime": 2544000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>none vs green vs red, clear enough!</p>",
+    "topic": "ietf-118",
+    "dtime": 2561000,
+    "ptime": 2561000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Yes, slide decks, sorry!</p>",
+    "topic": "ietf-118",
+    "dtime": 2568000,
+    "ptime": 2568000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Yet another eye chart slide</p>",
+    "topic": "ietf-118",
+    "dtime": 2576000,
+    "ptime": 2576000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>so this is whatAssertionSigned from SAML :-)</p>",
+    "topic": "ietf-118",
+    "dtime": 2576000,
+    "ptime": 2576000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>I'm not chair here...</p>",
+    "topic": "ietf-118",
+    "dtime": 2579000,
+    "ptime": 2579000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Firefox Nightly has the good pattern, at least</p>",
+    "topic": "ietf-118",
+    "dtime": 2701000,
+    "ptime": 2701000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Wasn't green just for EV certs?</p>",
+    "topic": "ietf-118",
+    "dtime": 2732000,
+    "ptime": 2732000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>Yes once upon a time</p>",
+    "topic": "ietf-118",
+    "dtime": 2749000,
+    "ptime": 2749000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>That was like golden</p>",
+    "topic": "ietf-118",
+    "dtime": 2752000,
+    "ptime": 2752000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>analogy with the web might break down though given those indicator changes happened as we transitions to almost-all encrypted HTTP,</p>",
+    "topic": "ietf-118",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><em>cries in OCSP MUST-STAPLE</em></p>",
+    "topic": "ietf-118",
+    "dtime": 2762000,
+    "ptime": 2762000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Great work, dkg. This makes a lot of sense as a goal even if it takes a while to get there. I’m in support of this work and if an existing WG could take it up, that might be the fastest path to implementation and user interface improvements.</p>",
+    "topic": "ietf-118",
+    "dtime": 2838000,
+    "ptime": 2838000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I sign outbound email (pointlessly, but I'm not gonna stop:-) from the MUA that has a private key, but not all MUAs I use have the private key, so I'd not turn that on</p>",
+    "topic": "ietf-118",
+    "dtime": 2922000,
+    "ptime": 2922000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Managing things like mailbox+suffix@example.com will be interesting questions to tackle.</p>",
+    "topic": "ietf-118",
+    "dtime": 2967000,
+    "ptime": 2967000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>suggestion: close LAMPS:-)</p>",
+    "topic": "ietf-118",
+    "dtime": 2986000,
+    "ptime": 2986000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>solution: MIMI</p>",
+    "topic": "ietf-118",
+    "dtime": 3082000,
+    "ptime": 3082000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>we should try to fix X509, but not....</p>",
+    "topic": "ietf-118",
+    "dtime": 3083000,
+    "ptime": 3083000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>I think this will take time but is worth the effort. I’m coming from a perspective of working with cyber under resourced organizations who are actively being hit with ransomware and phishing is one of the key entry points.</p>",
+    "topic": "ietf-118",
+    "dtime": 3146000,
+    "ptime": 3146000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/185-secdispatch/topic/ietf-118/near/95027\">said</a>:</p>\n<blockquote>\n<p>Managing things like mailbox+suffix@example.com will be interesting questions to tackle.</p>\n</blockquote>\n<p>This makes me think about the falsehoods programmers believe about email addresses post. <a href=\"https://www.netmeister.org/blog/email.html\">https://www.netmeister.org/blog/email.html</a></p>",
+    "topic": "ietf-118",
+    "dtime": 3166000,
+    "ptime": 3166000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I don't understand why this isn't LAMPS</p>",
+    "topic": "ietf-118",
+    "dtime": 3198000,
+    "ptime": 3198000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Why did this even come here?</p>",
+    "topic": "ietf-118",
+    "dtime": 3208000,
+    "ptime": 3208000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p>Put it in LAMPS and start calling it AMPS if necessary.</p>",
+    "topic": "ietf-118",
+    "dtime": 3218000,
+    "ptime": 3218000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>If I send a signal that all my emails are signed, it makes it harder to configure an email account on a new device.</p>",
+    "topic": "ietf-118",
+    "dtime": 3224000,
+    "ptime": 3224000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/185-secdispatch/topic/ietf-118/near/95040\">said</a>:</p>\n<blockquote>\n<p>Put it in LAMPS and start calling it AMPS if necessary.</p>\n</blockquote>\n<p>Calling it AMPS will inevitably lead to a working group called VOLTS, and then one called WATTS.</p>",
+    "topic": "ietf-118",
+    "dtime": 3294000,
+    "ptime": 3294000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I wonder if sizeof(lamps_queue) is a reason why this ended up here?</p>",
+    "topic": "ietf-118",
+    "dtime": 3345000,
+    "ptime": 3345000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the encryption signal would presumably go the other direction -- \"only send me encrypted mail\"</p>",
+    "topic": "ietf-118",
+    "dtime": 3367000,
+    "ptime": 3367000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>I disagree with Yaron as BEC attacks would be reduced with this approach</p>",
+    "topic": "ietf-118",
+    "dtime": 3376000,
+    "ptime": 3376000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>It’s very common now to get messages purportedly from a colleague that are phishing attacks</p>",
+    "topic": "ietf-118",
+    "dtime": 3424000,
+    "ptime": 3424000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>or get banks to submit only signed email</p>",
+    "topic": "ietf-118",
+    "dtime": 3447000,
+    "ptime": 3447000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>this almost sounds like we need a DMARC type policy for reporting of failures..... this is evolving more into a BOF for the area in general</p>",
+    "topic": "ietf-118",
+    "dtime": 3544000,
+    "ptime": 3544000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>@Anthony but if you have a bidirectional channel, then you are very close to being able to encrypt...</p>",
+    "topic": "ietf-118",
+    "dtime": 3585000,
+    "ptime": 3585000
+  },
+  {
+    "author": "Gabriel Andrews",
+    "text": "<p>\"Expect a signature from me\"... won't prevent bad guy impersonating me from also signing their phish mail?  Yes/no?   (for same reason DMARC doesn't necessarily help w homoglyph domains)</p>",
+    "topic": "ietf-118",
+    "dtime": 3612000,
+    "ptime": 3612000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Broken signatures can arguably be fixed by just duplicating the entire message in an opaque attachment along with the signature.</p>",
+    "topic": "ietf-118",
+    "dtime": 3633000,
+    "ptime": 3633000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@Ben that certainly used to be an option in some user agents.</p>",
+    "topic": "ietf-118",
+    "dtime": 3739000,
+    "ptime": 3739000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>We used to use it to keep our messages from being changed.</p>",
+    "topic": "ietf-118",
+    "dtime": 3761000,
+    "ptime": 3761000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>RFC 9244...</p>",
+    "topic": "ietf-118",
+    "dtime": 4209000,
+    "ptime": 4209000
+  },
+  {
+    "author": "Adnan Rashid",
+    "text": "<p>Anyonw know that how to access the full transcription of this session?</p>",
+    "topic": "ietf-118",
+    "dtime": 4304000,
+    "ptime": 4304000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/185-secdispatch/topic/ietf-118/near/95040\">said</a>:</p>\n<blockquote>\n<p>Put it in LAMPS and start calling it AMPS if necessary.</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"100\">@Russ Housley</span> was joking that LAMPS should be promoted from WG to AREA :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4321000,
+    "ptime": 4321000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>SAV-D controller sounds like a nice place for a censor</p>",
+    "topic": "ietf-118",
+    "dtime": 4332000,
+    "ptime": 4332000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>is \"detection of DDos\" a problem?  it seems like if a traffic flow is below detection threshold, then it's not a DDoS</p>",
+    "topic": "ietf-118",
+    "dtime": 4356000,
+    "ptime": 4356000
+  },
+  {
+    "author": "Adnan Rashid",
+    "text": "<p>Anybody know that how to access the full transcription of this session?</p>",
+    "topic": "ietf-118",
+    "dtime": 4514000,
+    "ptime": 4514000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>(Also see RFC 7258)</p>",
+    "topic": "ietf-118",
+    "dtime": 4520000,
+    "ptime": 4520000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>in other words, I'm a \"no\" on this</p>",
+    "topic": "ietf-118",
+    "dtime": 4571000,
+    "ptime": 4571000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>+1 to rlb</p>",
+    "topic": "ietf-118",
+    "dtime": 4580000,
+    "ptime": 4580000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(in terms of DISPATCH outcome)</p>",
+    "topic": "ietf-118",
+    "dtime": 4581000,
+    "ptime": 4581000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/185-secdispatch/topic/ietf-118/near/95090\">said</a>:</p>\n<blockquote>\n<p>is \"detection of DDos\" a problem?  it seems like if a traffic flow is below detection threshold, then it's not a DDoS</p>\n</blockquote>\n<p>So sometimes you have a delicate backend service that dies below your DoS detection threshold. Especially if it was written by me <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4588000,
+    "ptime": 4588000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> we lost you</p>",
+    "topic": "ietf-118",
+    "dtime": 4642000,
+    "ptime": 4642000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>(Although I accept the correct solution is for me to be a better engineer, that's unlikely to happen.)</p>",
+    "topic": "ietf-118",
+    "dtime": 4647000,
+    "ptime": 4647000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>was he DDoS'ed and did not detect it?</p>",
+    "topic": "ietf-118",
+    "dtime": 4654000,
+    "ptime": 4654000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>sometimes a \"no\" is a better answer than \"let's talk more\"</p>",
+    "topic": "ietf-118",
+    "dtime": 4739000,
+    "ptime": 4739000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>WIMSE is my favorite acronym of the meeting</p>",
+    "topic": "ietf-118",
+    "dtime": 4773000,
+    "ptime": 4773000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Stephen see also DISCUSS</p>",
+    "topic": "ietf-118",
+    "dtime": 4783000,
+    "ptime": 4783000
+  },
+  {
+    "author": "John Gray",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span>  I'll read your signed documents draft and give you comments.   To me LAMPS makes the most sense for the draft.  I agree with <span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span>  that LAMPS isn't really limited anymore.</p>",
+    "topic": "ietf-118",
+    "dtime": 4818000,
+    "ptime": 4818000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-SECDISPATCH-20231106-1430"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/secdispatch"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-SECDISPATCH-20231106-1430"
+		}		
+	]
+}

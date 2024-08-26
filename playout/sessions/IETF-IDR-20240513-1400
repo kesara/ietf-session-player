@@ -1,0 +1,168 @@
+
+{
+	"title": "IETF-IDR-20240513-1400",
+	"filename": "IETF-IDR-20240513-1400",
+	"start": 0,
+	"end": 5409000,
+	"start_datetime": "2024-05-13T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "0k1P0cZliPs",
+    "start": 0,
+    "end": "5409000"
+  }
+],
+	"messages": [
+  {
+    "author": "Susan Hares",
+    "text": "<p>Hopefully it will help.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6000,
+    "ptime": 6000
+  },
+  {
+    "author": "Nat Kao",
+    "text": "<p>Got it. Thanks for the reply, too.</p>",
+    "topic": "ietf-interim",
+    "dtime": 14000,
+    "ptime": 14000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@shuping - Good evening.. thank you for joining us late.</p>",
+    "topic": "ietf-interim",
+    "dtime": 38000,
+    "ptime": 38000
+  },
+  {
+    "author": "Shuping Peng",
+    "text": "<p>Good morning ,Sue. :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 87000,
+    "ptime": 87000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>mornin'</p>",
+    "topic": "ietf-interim",
+    "dtime": 278000,
+    "ptime": 278000
+  },
+  {
+    "author": "Nan Geng",
+    "text": "<p>If some elimination actions fail, the sample action can continually be conducted for security analysis.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1640000,
+    "ptime": 1640000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>i am not sure the AC Failure actions are exclusive</p>",
+    "topic": "ietf-interim",
+    "dtime": 1846000,
+    "ptime": 1846000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>Stop+Rollback</p>",
+    "topic": "ietf-interim",
+    "dtime": 1871000,
+    "ptime": 1871000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>nah</p>",
+    "topic": "ietf-interim",
+    "dtime": 1893000,
+    "ptime": 1893000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The ordering discussion gets more interesting when you start crossing high-level feature boundaries.  For example, SFC actions + vlan actions + redirect + dscp</p>",
+    "topic": "ietf-interim",
+    "dtime": 2139000,
+    "ptime": 2139000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The goto example is interesting, but is quite a jump from what fs does today.  Did we want to talk about goto now, or is that part of a later presentation?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2724000,
+    "ptime": 2724000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The issues with goto and accumulation are that you \"have all of the rules\". bgp fs routes are routes - and may incrementally converge.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2812000,
+    "ptime": 2812000
+  },
+  {
+    "author": "Nan Geng",
+    "text": "<p>The \"go to\" here may mean to \"evaluate the next FS\", instead of a real go-to.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3193000,
+    "ptime": 3193000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>RFC 8955, 7.3 - \"terminal action\".  \"then continue\", basically.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3256000,
+    "ptime": 3256000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>it seems \"goto\" allows you to skip some filters, which is different from the current \"AND\" operation  between all the filters</p>",
+    "topic": "ietf-interim",
+    "dtime": 3366000,
+    "ptime": 3366000
+  },
+  {
+    "author": "Nan Geng",
+    "text": "<p>For the question: \"Should we do FSv2 de fault ordering of actions by action-id<br>\nnumber for Extended Communities? \" IMO, by default, the sample action (traffic action) should be in front of the TRB 0x06 action.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4886000,
+    "ptime": 4886000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Thank you for that feedback...</p>",
+    "topic": "ietf-interim",
+    "dtime": 4949000,
+    "ptime": 4949000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>We could renumber the action -ids in FSv2 to make that happen...</p>",
+    "topic": "ietf-interim",
+    "dtime": 4975000,
+    "ptime": 4975000
+  },
+  {
+    "author": "Nat Kao",
+    "text": "<p>The proposed GOTO action only goes to later rules to avoid some possible loops. (i.e. skips rules in between)</p>",
+    "topic": "ietf-interim",
+    "dtime": 5321000,
+    "ptime": 5321000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-IDR-20240513-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-idr-07/session/idr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-IDR-20240513-1400"
+		}
+	]
+}

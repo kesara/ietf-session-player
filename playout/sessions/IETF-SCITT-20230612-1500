@@ -1,0 +1,224 @@
+
+{
+	"title": "IETF-SCITT-20230612-1500",
+	"filename": "IETF-SCITT-20230612-1500",
+	"start": 0,
+	"end": 3737000,
+	"start_datetime": "2023-06-12T15:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "vrc-Hi4If4U",
+    "start": 0,
+    "end": "3737000"
+  }
+],
+	"messages": [
+  {
+    "author": "Orie Steele",
+    "text": "<p>sry I am late</p>",
+    "topic": "ietf-interim",
+    "dtime": 614000,
+    "ptime": 614000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I've been looking at registration policies related to domain verification recently</p>",
+    "topic": "ietf-interim",
+    "dtime": 782000,
+    "ptime": 782000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p><a href=\"https://mailarchive.ietf.org/arch/msg/dance/XALzTQEO-3JnJDbhzyAVlPkXdvU/\">https://mailarchive.ietf.org/arch/msg/dance/XALzTQEO-3JnJDbhzyAVlPkXdvU/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 784000,
+    "ptime": 784000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Yep Jon, thats correct, there were discussion about policy dependencies, and portability</p>",
+    "topic": "ietf-interim",
+    "dtime": 864000,
+    "ptime": 864000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I'm que'ed to summarize some of what was discussed</p>",
+    "topic": "ietf-interim",
+    "dtime": 918000,
+    "ptime": 918000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>basically anytime you process a signed thing, you have to have a reason to trust the key.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1093000,
+    "ptime": 1093000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>could be you have an allow list, could be a CA thing.... could be \"trusted domains\" with \"key discovery\", etc..</p>",
+    "topic": "ietf-interim",
+    "dtime": 1124000,
+    "ptime": 1124000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>if you have an <code>iss</code> field... you kinda need to discuss what its expected values are</p>",
+    "topic": "ietf-interim",
+    "dtime": 1200000,
+    "ptime": 1200000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>+1 Yogesh, the question is, if there are minimal requirements regarding understanding references to transparent statements.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1513000,
+    "ptime": 1513000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>or not.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1515000,
+    "ptime": 1515000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Sure it is prudent to think of this now esp. with regard to SW use case, but perhaps only to ensure that they can be accommodated by the scitt mahine.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1941000,
+    "ptime": 1941000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Please review notes, to assure we're capturing the thoughts, accurately</p>",
+    "topic": "ietf-interim",
+    "dtime": 2028000,
+    "ptime": 2028000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>saudio issues</p>",
+    "topic": "ietf-interim",
+    "dtime": 2112000,
+    "ptime": 2112000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>KISS @neil - +1</p>",
+    "topic": "ietf-interim",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>We need to hear out the concerns and needs of the WG but my leaning is to shed as much complexity as possible for our initial publication</p>",
+    "topic": "ietf-interim",
+    "dtime": 2294000,
+    "ptime": 2294000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>its is because issuers are compromised, that you consider making transparent the registration policy that was applied when a signed statement is made transparent</p>",
+    "topic": "ietf-interim",
+    "dtime": 2329000,
+    "ptime": 2329000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>sounds like you are talking about witnessed identifiers?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2608000,
+    "ptime": 2608000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>full circle... to my domain comment at the start : )</p>",
+    "topic": "ietf-interim",
+    "dtime": 2850000,
+    "ptime": 2850000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>great comments regarding domain verification, but that seems to be a \"service specific\" policy</p>",
+    "topic": "ietf-interim",
+    "dtime": 2923000,
+    "ptime": 2923000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>there could be lots of other policies related to assurance levels for the issuers.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2954000,
+    "ptime": 2954000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>consider a transparency service policy for processing passkey authenticators... some services might only accept certain platform authenticators</p>",
+    "topic": "ietf-interim",
+    "dtime": 3121000,
+    "ptime": 3121000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Maybe good to defer the policy issue by having a policy verifier -- akin to what RATS did to avoid the issue, yet provide the mechanism</p>",
+    "topic": "ietf-interim",
+    "dtime": 3132000,
+    "ptime": 3132000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Such a verification would occur as it is submitted.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3245000,
+    "ptime": 3245000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>TIme Check</p>",
+    "topic": "ietf-interim",
+    "dtime": 3318000,
+    "ptime": 3318000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>payload structures are out of scope : /</p>",
+    "topic": "ietf-interim",
+    "dtime": 3377000,
+    "ptime": 3377000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>content types are the solution to that.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3392000,
+    "ptime": 3392000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>I'm hearing overwhelming opinion leaning to the simple case</p>",
+    "topic": "ietf-interim",
+    "dtime": 3407000,
+    "ptime": 3407000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20230612-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-17/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20230612-1500"
+		}
+	]
+}

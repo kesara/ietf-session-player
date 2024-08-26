@@ -1,0 +1,147 @@
+
+{
+	"title": "IETF118-DINRG-20231106-0830",
+	"filename": "IETF118-DINRG-20231106-0830",
+	"start": 0,
+	"end": 7338000,
+	"start_datetime": "2023-11-06T08:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "NMdDolXCP6s",
+    "start": 0,
+    "end": "7338000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christian Huitema",
+    "text": "<p>where is the chat room for dinrg? If I click on the agenda, I get the chat room for the last meeting in July!</p>",
+    "topic": "ietf-118",
+    "dtime": 3050000,
+    "ptime": 3050000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>Ouch, sorry about that. Yes, this is the chat room.</p>",
+    "topic": "ietf-118",
+    "dtime": 3084000,
+    "ptime": 3084000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I see it now!</p>",
+    "topic": "ietf-118",
+    "dtime": 3125000,
+    "ptime": 3125000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>I closed the queue after Christian.</p>",
+    "topic": "ietf-118",
+    "dtime": 3242000,
+    "ptime": 3242000
+  },
+  {
+    "author": "Lixia Zhang",
+    "text": "<p>@Christian: yes it is natural to have DHT nodes in the cloud.It is just that this fact is againt the claim of \"decentralization\" of not being controlled by cloud providers.</p>",
+    "topic": "ietf-118",
+    "dtime": 3707000,
+    "ptime": 3707000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I am not sure that we <em>need</em> to have the DHT nodes in the cloud. Some DHT work with long duration connection between nodes in their routing tables, and that could use NAT traversal. But you probably need a smattering of cloud services to seed the NAT traversal.</p>",
+    "topic": "ietf-118",
+    "dtime": 4007000,
+    "ptime": 4007000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I meant cloud nodes, not services. It's 1:40am here...</p>",
+    "topic": "ietf-118",
+    "dtime": 4210000,
+    "ptime": 4210000
+  },
+  {
+    "author": "Lixia Zhang",
+    "text": "<p>The problem of NOT using cloud nodes: see bullet #4 on take away slides: Non-cloud hosts come and go, causing issues with reliability</p>",
+    "topic": "ietf-118",
+    "dtime": 4382000,
+    "ptime": 4382000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Do we have stats on this \"instability\"? Respective share of nodes going to sleep, losing connectivity, rebooting, doing software updates, etc? If I was doing that, I would put the DHT on a dedicated Ras.Pi, and have the other local nodes access that...</p>",
+    "topic": "ietf-118",
+    "dtime": 4610000,
+    "ptime": 4610000
+  },
+  {
+    "author": "David Guzman",
+    "text": "<p>It really depends on the use case which is run over the DHT, for the case of IPFS it seems that it goes to hours [Trautwein 2022] (Design and evaluation of ipfs: A storage layer for the decentralizedweb)</p>",
+    "topic": "ietf-118",
+    "dtime": 5199000,
+    "ptime": 5199000
+  },
+  {
+    "author": "David Guzman",
+    "text": "<p>(Fig. 8)</p>",
+    "topic": "ietf-118",
+    "dtime": 5217000,
+    "ptime": 5217000
+  },
+  {
+    "author": "Tianyuan Yu",
+    "text": "<p>A quick question for the presenter: Without cloud providing identities, how the local-first software authenticate individual users (which I think is needed for end-to-end encryption)?</p>",
+    "topic": "ietf-118",
+    "dtime": 5483000,
+    "ptime": 5483000
+  },
+  {
+    "author": "Michał Król",
+    "text": "<p>@Christian Huitema: there are quite a lot of stats here: <a href=\"https://probelab.io/ipfsdht/\">https://probelab.io/ipfsdht/</a></p>\n<p>Hosting a DHT on a Pi would indeed work but I'm not sure how many regular users will be able (and willing) to do so.</p>",
+    "topic": "ietf-118",
+    "dtime": 5617000,
+    "ptime": 5617000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>This is the kind of problems that get fixed once enough people focus on them. Maybe consider categories of nodes, put structure in the DHT, etc. Not that I know what to do, but it seems doable.</p>",
+    "topic": "ietf-118",
+    "dtime": 6177000,
+    "ptime": 6177000
+  },
+  {
+    "author": "Lixia Zhang",
+    "text": "<p>Follow Michal comment about able or willing: in particular if one looks into some of use cases of IPFS, e.g. see 2 cases captures at <a href=\"https://en.wikipedia.org/wiki/InterPlanetary_File_System\">https://en.wikipedia.org/wiki/InterPlanetary_File_System</a></p>",
+    "topic": "ietf-118",
+    "dtime": 6194000,
+    "ptime": 6194000
+  },
+  {
+    "author": "Lixia Zhang",
+    "text": "<p>@Geoff Huston: I agree with tech disruptions can disturb (incumbents, but disagree (how dare am I:)  that tech advances are represent only by Moore's law.</p>",
+    "topic": "ietf-118",
+    "dtime": 7271000,
+    "ptime": 7271000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-DINRG-20231106-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/dinrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-DINRG-20231106-0830"
+		}		
+	]
+}

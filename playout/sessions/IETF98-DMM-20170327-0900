@@ -1,0 +1,2661 @@
+{
+  "title": "IETF98-DMM-20170327-0900",
+  "filename": "IETF98-DMM-20170327-0900.json",
+  "start": 0,
+  "end": 8241000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2,
+      "src": "rktwNbDRKXE",
+      "start": 0,
+      "end": 8241000
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Dirk v. Hugo just joined the room",
+      "ptime": 384000,
+      "dtime": 989000
+    },
+    {
+      "text": "***Meetecho just joined the room",
+      "ptime": 387000,
+      "dtime": 992000
+    },
+    {
+      "text": "***Dirk v. Hugo just left the room",
+      "ptime": 521000,
+      "dtime": 1126000
+    },
+    {
+      "text": "***Robert Butler just joined the room",
+      "ptime": 805000,
+      "dtime": 1410000
+    },
+    {
+      "text": "I will jabber scribe",
+      "ptime": 806000,
+      "dtime": 1411000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***vojislav vucetic just joined the room",
+      "ptime": 807000,
+      "dtime": 1412000
+    },
+    {
+      "text": "Marco Liebsch is presenting",
+      "ptime": 817000,
+      "dtime": 1422000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide 1. Add Domain-reference to Topology model",
+      "ptime": 836000,
+      "dtime": 1441000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"1. Add Domain-reference to Topology model\"",
+      "ptime": 858000,
+      "dtime": 1463000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Domain-reference points a set of data-plane resources (aka network-slice)\"",
+      "ptime": 896000,
+      "dtime": 1501000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Dirk von Hugo just joined the room",
+      "ptime": 920000,
+      "dtime": 1525000
+    },
+    {
+      "text": "slide title \"2. Add some text to node-reference\"",
+      "ptime": 932000,
+      "dtime": 1537000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Node reference points both ael or virtual DPN\"",
+      "ptime": 1000000,
+      "dtime": 1605000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"3. Miscellaneous\"",
+      "ptime": 1033000,
+      "dtime": 1638000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Dirk von Hugo just left the room",
+      "ptime": 1103000,
+      "dtime": 1708000
+    },
+    {
+      "text": "slide title \"1. Change Port to Vport\"",
+      "ptime": 1142000,
+      "dtime": 1747000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"2. Next-hop and tunnel attribute\"",
+      "ptime": 1208000,
+      "dtime": 1813000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Temp Test just joined the room",
+      "ptime": 1225000,
+      "dtime": 1830000
+    },
+    {
+      "text": "Suresh Krishnan approaching (Area Director AD)",
+      "ptime": 1266000,
+      "dtime": 1871000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AD: difficult ti visualize, is is it like segment routing domain? only i fmake part of domain?",
+      "ptime": 1289000,
+      "dtime": 1894000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "ML: you could see as... end of tunnel",
+      "ptime": 1297000,
+      "dtime": 1902000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: SFC domain is this, segment routing domain; always thought they are outside domain - do you think they are part of domain?",
+      "ptime": 1319000,
+      "dtime": 1924000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Satoru Matsushima talking",
+      "ptime": 1330000,
+      "dtime": 1935000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SM: next hop indicates that service path ID as next hop, outside of mobility domain",
+      "ptime": 1345000,
+      "dtime": 1950000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Temp Test just left the room",
+      "ptime": 1351000,
+      "dtime": 1956000
+    },
+    {
+      "text": "***Robert Butler just left the room",
+      "ptime": 1356000,
+      "dtime": 1961000
+    },
+    {
+      "text": "SM: connected to outside of network, some sort of SFC stuff... then the mobile network must be capable to point to that ID in the path, that's how I  see.",
+      "ptime": 1371000,
+      "dtime": 1976000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SM: SFT and SRP as integrat just as next-hop, and then the child will be the body to indicate...",
+      "ptime": 1390000,
+      "dtime": 1995000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK (AD)- if you enter the domain, ... what happens if there is some packets that do not match what the domain has done.",
+      "ptime": 1418000,
+      "dtime": 2023000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: if 2 ways to do the same thing, then maybe conflict, maybe more text needed to explain how you see this working.",
+      "ptime": 1438000,
+      "dtime": 2043000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "ML: yes, maybe more text needed.",
+      "ptime": 1448000,
+      "dtime": 2053000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Robert Butler just joined the room",
+      "ptime": 1487000,
+      "dtime": 2092000
+    },
+    {
+      "text": "slide title \"3. Agent's featuers and capabilities discovery\"",
+      "ptime": 1488000,
+      "dtime": 2093000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slite title \"4. monitor event reference\"",
+      "ptime": 1510000,
+      "dtime": 2115000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Rick Alfvin just joined the room",
+      "ptime": 1539000,
+      "dtime": 2144000
+    },
+    {
+      "text": "slide title \"FpcAgent has been an ODL Project\"",
+      "ptime": 1585000,
+      "dtime": 2190000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Next\"",
+      "ptime": 1609000,
+      "dtime": 2214000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Rick Alfvin just left the room",
+      "ptime": 1647000,
+      "dtime": 2252000
+    },
+    {
+      "text": "Sri Gundavelli (Chair)",
+      "ptime": 1674000,
+      "dtime": 2279000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: what are the other issues: willyou solve in next month?",
+      "ptime": 1686000,
+      "dtime": 2291000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "ML: the other issues we discussed yesterday, see how far to go, conclude them through virtual meetings after this IETF.  Or open items like hopcount which are contradicting, depends on the original feedback",
+      "ptime": 1719000,
+      "dtime": 2324000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: questions?",
+      "ptime": 1724000,
+      "dtime": 2329000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: thanks for all contributions, amazing work.",
+      "ptime": 1742000,
+      "dtime": 2347000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Anthony to present Distributed Mobility Anchroring",
+      "ptime": 1764000,
+      "dtime": 2369000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Anthony H Chan",
+      "ptime": 1769000,
+      "dtime": 2374000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Enahanced Mobility anchroring wt\"",
+      "ptime": 1779000,
+      "dtime": 2384000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"changes in 03 from 02\"",
+      "ptime": 1786000,
+      "dtime": 2391000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Describe Distributed Mobility Ancroring",
+      "ptime": 1841000,
+      "dtime": 2446000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "\"alide title \"Network Mobility\"",
+      "ptime": 1900000,
+      "dtime": 2505000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Robert Butler just left the room",
+      "ptime": 1917000,
+      "dtime": 2522000
+    },
+    {
+      "text": "SG: any questions?",
+      "ptime": 1928000,
+      "dtime": 2533000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: good reviews we need.",
+      "ptime": 1935000,
+      "dtime": 2540000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: editorial is one thing.",
+      "ptime": 1939000,
+      "dtime": 2544000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: thecnical the document should be sound.",
+      "ptime": 1946000,
+      "dtime": 2551000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: volunteers to review document and feedback?",
+      "ptime": 1956000,
+      "dtime": 2561000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: Marco, X, Carlos...",
+      "ptime": 1964000,
+      "dtime": 2569000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: theyll do some focus reviews, if you can update it, take forward.",
+      "ptime": 1974000,
+      "dtime": 2579000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: in next months (not next meeting)(",
+      "ptime": 1982000,
+      "dtime": 2587000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Danny Moses is going to present Ondemand Mobility Management extensions, or something akin to it.",
+      "ptime": 2017000,
+      "dtime": 2622000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Seil is talking",
+      "ptime": 2034000,
+      "dtime": 2639000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Seil: upload the material to the server please.",
+      "ptime": 2041000,
+      "dtime": 2646000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: we'll upload right after meeting.",
+      "ptime": 2048000,
+      "dtime": 2653000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Slide title \"Socket...",
+      "ptime": 2073000,
+      "dtime": 2678000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "\"slide tit;e \"Updates since IETF-9&\"",
+      "ptime": 2082000,
+      "dtime": 2687000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "97",
+      "ptime": 2084000,
+      "dtime": 2689000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"locking vs Non-Blocking Function\"",
+      "ptime": 2204000,
+      "dtime": 2809000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Blocking",
+      "ptime": 2208000,
+      "dtime": 2813000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Lorenzo Collitti approaching",
+      "ptime": 2385000,
+      "dtime": 2990000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: not ok if the setsockopt it blocks",
+      "ptime": 2394000,
+      "dtime": 2999000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: setsockopt goes in the kernel; something that blocks willnot get upstreamed (implemented)",
+      "ptime": 2410000,
+      "dtime": 3015000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: if you want to be implemented in any clean way in linux, then no setsockpt",
+      "ptime": 2426000,
+      "dtime": 3031000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: just set the flag",
+      "ptime": 2431000,
+      "dtime": 3036000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: could not use setsocktopt to do IP address provisioning",
+      "ptime": 2445000,
+      "dtime": 3050000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: something more control-plane oriented, some library",
+      "ptime": 2453000,
+      "dtime": 3058000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: more specific please",
+      "ptime": 2462000,
+      "dtime": 3067000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "CM: suggestion more specific",
+      "ptime": 2467000,
+      "dtime": 3072000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: point is that setsockotp is not designed to do this",
+      "ptime": 2478000,
+      "dtime": 3083000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "KS: not just beat on forever wait forever to happen",
+      "ptime": 2488000,
+      "dtime": 3093000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: maybe a watchdog",
+      "ptime": 2492000,
+      "dtime": 3097000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: a solution that prevents setsockopt to wait forever",
+      "ptime": 2505000,
+      "dtime": 3110000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: different demantics it has",
+      "ptime": 2511000,
+      "dtime": 3116000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: define a new function?",
+      "ptime": 2515000,
+      "dtime": 3120000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: but linux you cant define a function that returns?",
+      "ptime": 2525000,
+      "dtime": 3130000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: receive, waith for something to happen, need ...",
+      "ptime": 2535000,
+      "dtime": 3140000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK not SG",
+      "ptime": 2545000,
+      "dtime": 3150000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: you can not wait for it",
+      "ptime": 2559000,
+      "dtime": 3164000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: you dont know whats gonna heppn",
+      "ptime": 2568000,
+      "dtime": 3173000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: there are other socket functions that dont return immediately",
+      "ptime": 2581000,
+      "dtime": 3186000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: like when you start TCP session wait for ACK",
+      "ptime": 2590000,
+      "dtime": 3195000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: poll on something socjet descriptor",
+      "ptime": 2599000,
+      "dtime": 3204000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: how do that with setsockopt?",
+      "ptime": 2607000,
+      "dtime": 3212000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: no need of loop, there are tasks or similar, dormant",
+      "ptime": 2618000,
+      "dtime": 3223000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: cant do peoples programming models, some do threading",
+      "ptime": 2628000,
+      "dtime": 3233000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: reason is that suggest how to do that",
+      "ptime": 2635000,
+      "dtime": 3240000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM, SK: ...",
+      "ptime": 2650000,
+      "dtime": 3255000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Erik Kline: could do entirel nonblocking",
+      "ptime": 2659000,
+      "dtime": 3264000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: alternative: define a non blocking call, return saying operation started",
+      "ptime": 2672000,
+      "dtime": 3277000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: at some point, a callback function called by kernel",
+      "ptime": 2681000,
+      "dtime": 3286000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: need to write make sense",
+      "ptime": 2688000,
+      "dtime": 3293000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: maybe use netlink?",
+      "ptime": 2692000,
+      "dtime": 3297000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: OS-specific, routing socket for BSD",
+      "ptime": 2699000,
+      "dtime": 3304000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: setsockopt is not the right funciton",
+      "ptime": 2706000,
+      "dtime": 3311000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: need maybe split it into two: still want setsockcopt, but needs something get a source a ddress, needs to fail, all that stuff is simmediate",
+      "ptime": 2738000,
+      "dtime": 3343000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: need a separata funciton, like getaddrinfo",
+      "ptime": 2747000,
+      "dtime": 3352000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: there is anotherthing that is called \"provisioning\" - provision me this type of prefix",
+      "ptime": 2763000,
+      "dtime": 3368000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: have a ...",
+      "ptime": 2768000,
+      "dtime": 3373000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: think of it more like getaddrinfo (rather than setsockopt)",
+      "ptime": 2785000,
+      "dtime": 3390000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: arguably getaddr info was not specified to...",
+      "ptime": 2802000,
+      "dtime": 3407000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: i fI understand...",
+      "ptime": 2805000,
+      "dtime": 3410000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: call setsockopt, and either return a result, or with some status saying \"process started\"",
+      "ptime": 2827000,
+      "dtime": 3432000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: not what I said.",
+      "ptime": 2830000,
+      "dtime": 3435000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: what I said is number 1 and, split it into two.",
+      "ptime": 2844000,
+      "dtime": 3449000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: it's called a \"session ...\"",
+      "ptime": 2852000,
+      "dtime": 3457000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***Dirk von Hugo just joined the room",
+      "ptime": 2853000,
+      "dtime": 3458000
+    },
+    {
+      "text": "EK: before I call setsockopt, and before I call connect(), I need to call a function like getaddrinfo to start the provisioning process.",
+      "ptime": 2894000,
+      "dtime": 3499000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: why cant setsockopt start the provisioning...",
+      "ptime": 2905000,
+      "dtime": 3510000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: in linux it's going to be done in userspace.",
+      "ptime": 2914000,
+      "dtime": 3519000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: something in kernel now...",
+      "ptime": 2922000,
+      "dtime": 3527000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: going down in kernel to have it triggered is probably not the best design anymore",
+      "ptime": 2947000,
+      "dtime": 3552000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: I will talk to you later, or discuss on list",
+      "ptime": 2958000,
+      "dtime": 3563000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "David Dolson is DD",
+      "ptime": 2963000,
+      "dtime": 3568000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DD: proposal is disconnected from what people think is reasonable to do",
+      "ptime": 2975000,
+      "dtime": 3580000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DD: need implementation, that would",
+      "ptime": 2990000,
+      "dtime": 3595000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DD: my hunch this would be used to express preference, but not to start provisioning",
+      "ptime": 3009000,
+      "dtime": 3614000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DD: this is similar with dhclient.",
+      "ptime": 3016000,
+      "dtime": 3621000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DD: to kick off any socket stuff...",
+      "ptime": 3025000,
+      "dtime": 3630000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DD: to get the addres seems to be a different flow",
+      "ptime": 3033000,
+      "dtime": 3638000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: agreed",
+      "ptime": 3038000,
+      "dtime": 3643000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: setsockopt ...",
+      "ptime": 3058000,
+      "dtime": 3663000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: unless provisioning a request immediately",
+      "ptime": 3067000,
+      "dtime": 3672000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: set some flag",
+      "ptime": 3074000,
+      "dtime": 3679000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: but if I want a non persistent address, the address exists already",
+      "ptime": 3087000,
+      "dtime": 3692000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: that's a disconnect",
+      "ptime": 3091000,
+      "dtime": 3696000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: if want to re-use, no need to do any",
+      "ptime": 3110000,
+      "dtime": 3715000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: if you want a T-shirt - analogy",
+      "ptime": 3115000,
+      "dtime": 3720000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: this is not related to setsockotp, this is not how setsockopt is used",
+      "ptime": 3151000,
+      "dtime": 3756000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: you say dont use setsocokpt:?",
+      "ptime": 3162000,
+      "dtime": 3767000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: no, I say different,...",
+      "ptime": 3168000,
+      "dtime": 3773000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: take it to list",
+      "ptime": 3178000,
+      "dtime": 3783000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: document?  List of options, and get feedback of WG",
+      "ptime": 3188000,
+      "dtime": 3793000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: setsockokpt is not synch, does not do anything, just sets a pref for future",
+      "ptime": 3206000,
+      "dtime": 3811000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: you get an answer when you try to do smth, like with connect()",
+      "ptime": 3218000,
+      "dtime": 3823000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: kernel doesnt know what you want until you tell it what you want",
+      "ptime": 3233000,
+      "dtime": 3838000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: untilk you say \"do this\" it does not knowwhat to do",
+      "ptime": 3247000,
+      "dtime": 3852000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: you want a preference, that may need to be \"mandatory\".",
+      "ptime": 3260000,
+      "dtime": 3865000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "CM: I will take it to the list",
+      "ptime": 3267000,
+      "dtime": 3872000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Dapeng Liu is talking (co-chair)_",
+      "ptime": 3276000,
+      "dtime": 3881000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: when you do something, when you want to do the connection, based on preference, then you may need to get a fail.",
+      "ptime": 3296000,
+      "dtime": 3901000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: dont block until the prefix was provided",
+      "ptime": 3304000,
+      "dtime": 3909000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: not do anything untul its needed",
+      "ptime": 3312000,
+      "dtime": 3917000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: if you make a kernel that requires a src address, and cant work, it will tell it to you with a errno",
+      "ptime": 3334000,
+      "dtime": 3939000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: UDP may you use?",
+      "ptime": 3341000,
+      "dtime": 3946000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: need a separate call (nto setsockopt), the equivalent of getaddrinfo - get prefix preference, that starts the provisioning call.",
+      "ptime": 3376000,
+      "dtime": 3981000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: not if.",
+      "ptime": 3379000,
+      "dtime": 3984000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: wrong, its the same problem",
+      "ptime": 3384000,
+      "dtime": 3989000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK kernel snad sync",
+      "ptime": 3396000,
+      "dtime": 4001000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: it's all like getaddrinfo - you need to make the DNS call before getaddrinfo",
+      "ptime": 3410000,
+      "dtime": 4015000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: would it be a good idea to explorea of to explore adding oiption to getaddrinfo?",
+      "ptime": 3427000,
+      "dtime": 4032000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: it was an example of kind of API you need",
+      "ptime": 3435000,
+      "dtime": 4040000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: you need a different call",
+      "ptime": 3440000,
+      "dtime": 4045000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK\" you need one blokcing variant",
+      "ptime": 3449000,
+      "dtime": 4054000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: different angle",
+      "ptime": 3466000,
+      "dtime": 4071000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: change socket API implementation?  change connecT()?",
+      "ptime": 3475000,
+      "dtime": 4080000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: different example",
+      "ptime": 3484000,
+      "dtime": 4089000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: sock option - sett the receive buffer size - nothing is going to be used until you call recv()",
+      "ptime": 3501000,
+      "dtime": 4106000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: same here, until you run that call (that you have to write) then ...",
+      "ptime": 3517000,
+      "dtime": 4122000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: need to spin on it",
+      "ptime": 3525000,
+      "dtime": 4130000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: you can have anothe r function which polls, that waits before you do connect.",
+      "ptime": 3547000,
+      "dtime": 4152000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: please propose all options on the list, so that WG comments",
+      "ptime": 3566000,
+      "dtime": 4171000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: if I can think of several options then I will, right now people think there are is just one option",
+      "ptime": 3584000,
+      "dtime": 4189000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: good discussion today.",
+      "ptime": 3591000,
+      "dtime": 4196000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: anothe r good suggestion - try to implem emtn the proposal -thne you can know from the user perspoective",
+      "ptime": 3611000,
+      "dtime": 4216000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: I added a section witho code example",
+      "ptime": 3621000,
+      "dtime": 4226000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: difficult to implement because need to support from network",
+      "ptime": 3632000,
+      "dtime": 4237000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: but standrad needs to be implement, otherwise not useful",
+      "ptime": 3642000,
+      "dtime": 4247000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: maybe some feedback from community",
+      "ptime": 3650000,
+      "dtime": 4255000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: some more specific feedback",
+      "ptime": 3655000,
+      "dtime": 4260000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: advice how to use the API may not be enough",
+      "ptime": 3664000,
+      "dtime": 4269000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: need feedback from guys who implement the API",
+      "ptime": 3674000,
+      "dtime": 4279000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: you may make a mock implementation in a library (rather than having support from network)",
+      "ptime": 3705000,
+      "dtime": 4310000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: DHCP implementation proposal you may need to do",
+      "ptime": 3716000,
+      "dtime": 4321000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "(that was DL, not SG)",
+      "ptime": 3722000,
+      "dtime": 4327000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Support Future Pn-Demand Types\"",
+      "ptime": 3733000,
+      "dtime": 4338000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "On-Demand",
+      "ptime": 3739000,
+      "dtime": 4344000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "(mock implementation is \"mock-up\" implementation)",
+      "ptime": 3780000,
+      "dtime": 4385000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: we'll work on fixing the blocking - nonblocking issue, and then we'll...",
+      "ptime": 3864000,
+      "dtime": 4469000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Chairs:\"ok",
+      "ptime": 3866000,
+      "dtime": 4471000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Changes from 04 to 05\"",
+      "ptime": 3893000,
+      "dtime": 4498000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "RFC7934",
+      "ptime": 3991000,
+      "dtime": 4596000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: fine",
+      "ptime": 3998000,
+      "dtime": 4603000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: concern how this uses DHCP?",
+      "ptime": 4004000,
+      "dtime": 4609000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: encapsulated in DHCP?",
+      "ptime": 4009000,
+      "dtime": 4614000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: server behaves differently?  no address abailable?",
+      "ptime": 4018000,
+      "dtime": 4623000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: server behave change req",
+      "ptime": 4025000,
+      "dtime": 4630000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: not think to go to DH before WG adoption here",
+      "ptime": 4034000,
+      "dtime": 4639000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: take it on the DHC mailing list",
+      "ptime": 4042000,
+      "dtime": 4647000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: really concern",
+      "ptime": 4048000,
+      "dtime": 4653000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: not thinking to avoid DHC",
+      "ptime": 4053000,
+      "dtime": 4658000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "(DHC is DHC WG)",
+      "ptime": 4058000,
+      "dtime": 4663000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: Danny please do a presentation to a the DHC WG",
+      "ptime": 4067000,
+      "dtime": 4672000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: next time, I prefer, with an adopted draft",
+      "ptime": 4076000,
+      "dtime": 4681000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: do you , waht is this doc justify the use of IP addresses?",
+      "ptime": 4088000,
+      "dtime": 4693000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: this is how, something that does nto follow that BCP",
+      "ptime": 4097000,
+      "dtime": 4702000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: DHCP supports reqeusting an IP addres, if that is removed from DHCPv6 I noporlbme",
+      "ptime": 4112000,
+      "dtime": 4717000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: looks awkawrd to not ask DHCP",
+      "ptime": 4127000,
+      "dtime": 4732000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: if you look at all mobility work: UE gets a prefix, it's written there",
+      "ptime": 4142000,
+      "dtime": 4747000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: clarification",
+      "ptime": 4231000,
+      "dtime": 4836000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: the app requests an address inside the Host",
+      "ptime": 4242000,
+      "dtime": 4847000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: then you want to add such attribute to all DHCP parameters (DNS address is stable)",
+      "ptime": 4338000,
+      "dtime": 4943000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK comments",
+      "ptime": 4401000,
+      "dtime": 5006000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: request WG adoption?",
+      "ptime": 4753000,
+      "dtime": 5358000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: could be discussed",
+      "ptime": 4757000,
+      "dtime": 5362000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: we need feedback from DHC WG before we even have it adopted?",
+      "ptime": 4773000,
+      "dtime": 5378000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: no added value of being a WG draft.",
+      "ptime": 4788000,
+      "dtime": 5393000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: it's Chairs call",
+      "ptime": 4814000,
+      "dtime": 5419000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: it's a quick one, sanity check",
+      "ptime": 4819000,
+      "dtime": 5424000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "ICMPv6 RA and RS extensions for mobility",
+      "ptime": 4841000,
+      "dtime": 5446000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "this is the next presentation",
+      "ptime": 4848000,
+      "dtime": 5453000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "It is from Wu-chi Fench",
+      "ptime": 4858000,
+      "dtime": 5463000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Wu-chi Feng",
+      "ptime": 4865000,
+      "dtime": 5470000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"on demand mobility through RS/RA\"",
+      "ptime": 4880000,
+      "dtime": 5485000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Motivation\"",
+      "ptime": 4888000,
+      "dtime": 5493000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Related Work\"",
+      "ptime": 4965000,
+      "dtime": 5570000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Is there interest here?\"",
+      "ptime": 4980000,
+      "dtime": 5585000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: not knowing, there is no draft",
+      "ptime": 5019000,
+      "dtime": 5624000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: in general it's a bad idea, I habe a lot of scars",
+      "ptime": 5031000,
+      "dtime": 5636000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: we aim much lower",
+      "ptime": 5036000,
+      "dtime": 5641000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: information dissemination labe.;:l?",
+      "ptime": 5043000,
+      "dtime": 5648000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: consensus in any group is hard to",
+      "ptime": 5051000,
+      "dtime": 5656000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: cant say until we have a draft",
+      "ptime": 5056000,
+      "dtime": 5661000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: RS is optional",
+      "ptime": 5062000,
+      "dtime": 5667000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: what if no RS, what is RA telling?",
+      "ptime": 5075000,
+      "dtime": 5680000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: nodes that dont ask for smth, what?",
+      "ptime": 5081000,
+      "dtime": 5686000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: we tried in 6man, in mip6, mext, in mif?",
+      "ptime": 5091000,
+      "dtime": 5696000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: before we do , look at al work that was done, and see why it failed.",
+      "ptime": 5105000,
+      "dtime": 5710000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: there was lot of opposition",
+      "ptime": 5111000,
+      "dtime": 5716000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: how can we fix mistakes?",
+      "ptime": 5117000,
+      "dtime": 5722000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: exactly why we are here",
+      "ptime": 5126000,
+      "dtime": 5731000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: before we go there, with all the people with these battle scars",
+      "ptime": 5141000,
+      "dtime": 5746000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: bad idea, unless there is more info",
+      "ptime": 5148000,
+      "dtime": 5753000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: we see RS/RA in 3GPP nonstandard ways",
+      "ptime": 5159000,
+      "dtime": 5764000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: explain that",
+      "ptime": 5164000,
+      "dtime": 5769000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: it's a \"TS 23.smth\" part of this, RA/RS, wait a minute",
+      "ptime": 5178000,
+      "dtime": 5783000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: now we try...",
+      "ptime": 5183000,
+      "dtime": 5788000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: we have a liaison, we get a message across",
+      "ptime": 5195000,
+      "dtime": 5800000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: other people here go to 3GPP",
+      "ptime": 5203000,
+      "dtime": 5808000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: I send a mesaage to the group, if they are interested, I can report back.",
+      "ptime": 5215000,
+      "dtime": 5820000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "(that was WF)",
+      "ptime": 5221000,
+      "dtime": 5826000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: this is wat we awnat to see: if there is interest, then we do, if issues, at least we know before.",
+      "ptime": 5259000,
+      "dtime": 5864000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: it can be made to wkrok",
+      "ptime": 5269000,
+      "dtime": 5874000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: slide historically RS/RA not kind of I want feature, this is new feature...",
+      "ptime": 5289000,
+      "dtime": 5894000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: violates the ondemand nature.",
+      "ptime": 5296000,
+      "dtime": 5901000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: session prefix, no lionger \"on demand\".",
+      "ptime": 5310000,
+      "dtime": 5915000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: maybe it's a subscriber feature, maybe my SIM card tells so, the persisntent one in the RA.  Not reuse PIO, find a new one.",
+      "ptime": 5332000,
+      "dtime": 5937000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: option fields down in the RA",
+      "ptime": 5338000,
+      "dtime": 5943000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: lot of other options",
+      "ptime": 5342000,
+      "dtime": 5947000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: address options, not in the header",
+      "ptime": 5350000,
+      "dtime": 5955000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: 3GPP acts like... we cant prevent them",
+      "ptime": 5367000,
+      "dtime": 5972000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: 1st thing, 3PGPP should not squat on our points",
+      "ptime": 5387000,
+      "dtime": 5992000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: can not just take the good points, they need to go to IANA action",
+      "ptime": 5399000,
+      "dtime": 6004000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: they can pick a number of thin air",
+      "ptime": 5409000,
+      "dtime": 6014000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: 3GPP friendly they are",
+      "ptime": 5415000,
+      "dtime": 6020000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: 3GPP cant pick option code and use it",
+      "ptime": 5431000,
+      "dtime": 6036000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "WF: I will send a message out to the mailing list, if you want to pitch in, we can figure out",
+      "ptime": 5447000,
+      "dtime": 6052000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: thants to do that!",
+      "ptime": 5453000,
+      "dtime": 6058000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: helpful to describe what we are doing now.  It's not violating we do, but we found a way to message IETF stuff in a way that is not in violation.",
+      "ptime": 5481000,
+      "dtime": 6086000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DM: example: they dont use RS, but use RA, have own protocol to request stuff, and then use RA to receive the info back",
+      "ptime": 5499000,
+      "dtime": 6104000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "RM: why use RA?  RA is not provisioning only one ...",
+      "ptime": 5532000,
+      "dtime": 6137000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: I dont oppose this at all",
+      "ptime": 5544000,
+      "dtime": 6149000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: we need to mind, people work on prefix coloring, it's different",
+      "ptime": 5560000,
+      "dtime": 6165000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: RA prefix color did not go anywhere",
+      "ptime": 5574000,
+      "dtime": 6179000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: Req Response?  RS/RA is different semantics",
+      "ptime": 5587000,
+      "dtime": 6192000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: better with setsokopt",
+      "ptime": 5602000,
+      "dtime": 6207000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: on demand allocation of IP addresses",
+      "ptime": 5612000,
+      "dtime": 6217000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: RS/RA intended for stuff doesnt change, and todens start with client",
+      "ptime": 5629000,
+      "dtime": 6234000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: prefixes that are always there...",
+      "ptime": 5637000,
+      "dtime": 6242000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: matter on how the semantics; if it's req/resp driven then RS/RA is not the right way.",
+      "ptime": 5659000,
+      "dtime": 6264000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LC: some platforms that dont do DHCPv6 at all, so RS/RA is ok.",
+      "ptime": 5673000,
+      "dtime": 6278000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: rfc7066 - how v6 is used on 3gpp hosts, deviation from that.",
+      "ptime": 5688000,
+      "dtime": 6293000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: years old, take a lok.",
+      "ptime": 5695000,
+      "dtime": 6300000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "look.",
+      "ptime": 5699000,
+      "dtime": 6304000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Seil Jeon is going to present Sttateless mobility funcitons",
+      "ptime": 5717000,
+      "dtime": 6322000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Motivation\"",
+      "ptime": 5774000,
+      "dtime": 6379000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Mobility state management\"",
+      "ptime": 5868000,
+      "dtime": 6473000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Discussion\"",
+      "ptime": 5952000,
+      "dtime": 6557000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: CPTP?",
+      "ptime": 6111000,
+      "dtime": 6716000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SJ: this goes further: cp function and also dp function",
+      "ptime": 6126000,
+      "dtime": 6731000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SJ: separation of CP from DP",
+      "ptime": 6137000,
+      "dtime": 6742000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SJ: give more flexibility",
+      "ptime": 6150000,
+      "dtime": 6755000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Praveen Muley (Nokia)",
+      "ptime": 6163000,
+      "dtime": 6768000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PM: 70% of ... can run.  Benefit is in the scaled up scenario",
+      "ptime": 6177000,
+      "dtime": 6782000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PM: another use case: upgrade precision: faster and seamless upgrade",
+      "ptime": 6192000,
+      "dtime": 6797000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: vram?",
+      "ptime": 6199000,
+      "dtime": 6804000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PM: move the state out of gateway, upgrades, easier scaling, upload 3rd party software",
+      "ptime": 6216000,
+      "dtime": 6821000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "ML: we know of the value: next steps; problem statement?  in this WG?  or implmepelnteation specific?",
+      "ptime": 6255000,
+      "dtime": 6860000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SJ: some point can be standized, right procedure is to investigate use-cases.",
+      "ptime": 6275000,
+      "dtime": 6880000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SJ: in this WG or other",
+      "ptime": 6287000,
+      "dtime": 6892000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Prakash Suthar --",
+      "ptime": 6299000,
+      "dtime": 6904000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: I like this, I want to cliollaboartate on this.",
+      "ptime": 6308000,
+      "dtime": 6913000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: the cost is very high",
+      "ptime": 6313000,
+      "dtime": 6918000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: dataplane stateless,",
+      "ptime": 6321000,
+      "dtime": 6926000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: not very complext o implement,",
+      "ptime": 6327000,
+      "dtime": 6932000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: physical and virtual appliances",
+      "ptime": 6334000,
+      "dtime": 6939000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: most mobile gways move into virtual",
+      "ptime": 6342000,
+      "dtime": 6947000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: if you can do a stateless dataplane.",
+      "ptime": 6349000,
+      "dtime": 6954000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: make a big archi, we'd like to collaboarate.",
+      "ptime": 6361000,
+      "dtime": 6966000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Satoru: EUID?  do you have a specific data-plane tech to make...?",
+      "ptime": 6376000,
+      "dtime": 6981000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SJ: some ggeneric.  But here is IETF, no needd... maybe here is PMIP",
+      "ptime": 6394000,
+      "dtime": 6999000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SM: maybe you want to adopt a specific DP tech (like GTP, or GRE, or statefull operation requiring).",
+      "ptime": 6415000,
+      "dtime": 7020000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SM: I will ask my colleagues who work on GTP stuff, to be able to handle GTP as a next hop.",
+      "ptime": 6435000,
+      "dtime": 7040000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SM: this is whya I want to go on.",
+      "ptime": 6451000,
+      "dtime": 7056000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: even if control plane, lots more cycles to make it efficient",
+      "ptime": 6466000,
+      "dtime": 7071000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: a far more complex problem.",
+      "ptime": 6474000,
+      "dtime": 7079000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: control plane to make stateless...",
+      "ptime": 6486000,
+      "dtime": 7091000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "PS: BGP restart if cp dies and dp goes opn.",
+      "ptime": 6496000,
+      "dtime": 7101000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Virtual CPE deployment considerations, is next, presenter is",
+      "ptime": 6529000,
+      "dtime": 7134000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Presenter isByju Pularikkal",
+      "ptime": 6546000,
+      "dtime": 7151000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "***vojislav vucetic just left the room",
+      "ptime": 6547000,
+      "dtime": 7152000
+    },
+    {
+      "text": "Byju Pularikkal",
+      "ptime": 6553000,
+      "dtime": 7158000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Virtual CPE Deployment Considerations\"",
+      "ptime": 6568000,
+      "dtime": 7173000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Draft Objectives and Scope\"",
+      "ptime": 6588000,
+      "dtime": 7193000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Architecture Models\"",
+      "ptime": 6636000,
+      "dtime": 7241000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Slide Title \"Architecture Model-01\"",
+      "ptime": 6646000,
+      "dtime": 7251000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Architecture Model-02\"",
+      "ptime": 6675000,
+      "dtime": 7280000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "sldie title \"Architecture Model -03\"",
+      "ptime": 6734000,
+      "dtime": 7339000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"FPC Capabilities required\"",
+      "ptime": 6758000,
+      "dtime": 7363000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Conclusions and Next steps\"",
+      "ptime": 6803000,
+      "dtime": 7408000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: any feedback you got from editors?",
+      "ptime": 6841000,
+      "dtime": 7446000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "BP: I can work with editors, amendment to existing draft, or a standalone doc",
+      "ptime": 6855000,
+      "dtime": 7460000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Leon from China Mobile",
+      "ptime": 6864000,
+      "dtime": 7469000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "L: my colleague is on author list",
+      "ptime": 6873000,
+      "dtime": 7478000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "L: how is this lrelated to DMM charter?",
+      "ptime": 6885000,
+      "dtime": 7490000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "L: how about the first model?",
+      "ptime": 6893000,
+      "dtime": 7498000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide \"Architecture Model -01\"",
+      "ptime": 6899000,
+      "dtime": 7504000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "BP: (Leon is Liang Jeng)",
+      "ptime": 6920000,
+      "dtime": 7525000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "BP: this is the right model (the -03) who is aligned with dMM",
+      "ptime": 6940000,
+      "dtime": 7545000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "LJ: changed affiliation (China Mobile) a certain person",
+      "ptime": 6953000,
+      "dtime": 7558000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: AD hat, I dont think the group is chartered to do this, no milestones",
+      "ptime": 6965000,
+      "dtime": 7570000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: conversation the group must have with me",
+      "ptime": 6973000,
+      "dtime": 7578000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: not in scope",
+      "ptime": 6978000,
+      "dtime": 7583000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: you can work on int, take out stuff not in scope here.",
+      "ptime": 6989000,
+      "dtime": 7594000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "BP: ok",
+      "ptime": 6996000,
+      "dtime": 7601000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: mobility ability negotiation",
+      "ptime": 7010000,
+      "dtime": 7615000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Presenter is H Anthony Chan",
+      "ptime": 7025000,
+      "dtime": 7630000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "title",
+      "ptime": 7032000,
+      "dtime": 7637000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Presenter not in meeting name is Z. Chan",
+      "ptime": 7042000,
+      "dtime": 7647000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "The presenter delegated is H Anthony Chan",
+      "ptime": 7050000,
+      "dtime": 7655000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"IP mobility management related\"",
+      "ptime": 7061000,
+      "dtime": 7666000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Two categories\"",
+      "ptime": 7087000,
+      "dtime": 7692000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Problems\"",
+      "ptime": 7139000,
+      "dtime": 7744000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"More...\"",
+      "ptime": 7172000,
+      "dtime": 7777000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Example scenarios\"",
+      "ptime": 7196000,
+      "dtime": 7801000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"MAN-Mobility Abaility Negotiation\"",
+      "ptime": 7230000,
+      "dtime": 7835000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"MAN-Mobility Abaility Neogitation\"",
+      "ptime": 7274000,
+      "dtime": 7879000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Other issues\"",
+      "ptime": 7306000,
+      "dtime": 7911000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Carlos Bernardos",
+      "ptime": 7314000,
+      "dtime": 7919000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "CB: we did similar, a paer we compare mobility options, how they could be combined, authors look at that",
+      "ptime": 7329000,
+      "dtime": 7934000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AC: not an author I am",
+      "ptime": 7335000,
+      "dtime": 7940000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL; send paper to the list",
+      "ptime": 7341000,
+      "dtime": 7946000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "CB: I will send the papers",
+      "ptime": 7346000,
+      "dtime": 7951000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "CB: the paper is not currently referred by the draft",
+      "ptime": 7357000,
+      "dtime": 7962000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: few years back : MN-AR interface was there few years back",
+      "ptime": 7370000,
+      "dtime": 7975000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: that was intendt doe rh MN to negotiate",
+      "ptime": 7380000,
+      "dtime": 7985000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: define a new interface?",
+      "ptime": 7385000,
+      "dtime": 7990000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AC: not a new interface, just new messages",
+      "ptime": 7395000,
+      "dtime": 8000000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: Julien wrote a draft MN-AR iface, a ref iface",
+      "ptime": 7407000,
+      "dtime": 8012000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: it was a WG item, did not move forward",
+      "ptime": 7416000,
+      "dtime": 8021000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: take a look at that word",
+      "ptime": 7423000,
+      "dtime": 8028000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AC: look at the differen toptions?",
+      "ptime": 7428000,
+      "dtime": 8033000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: let the WG give feedback",
+      "ptime": 7435000,
+      "dtime": 8040000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AC: we should continue",
+      "ptime": 7441000,
+      "dtime": 8046000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: if intereste then yues",
+      "ptime": 7446000,
+      "dtime": 8051000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: MN-AR iface was a WG item in netlmm WG years ago",
+      "ptime": 7460000,
+      "dtime": 8065000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: there was work beofre",
+      "ptime": 7466000,
+      "dtime": 8071000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: the year may be 2008",
+      "ptime": 7487000,
+      "dtime": 8092000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: use work that was done before, lots more iusses remaining",
+      "ptime": 7505000,
+      "dtime": 8110000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AC: maybe they have read that already",
+      "ptime": 7515000,
+      "dtime": 8120000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AC: I will ... I will propose new discussion.",
+      "ptime": 7527000,
+      "dtime": 8132000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "AC: anyone interested to kjoin the work you are wleocme",
+      "ptime": 7542000,
+      "dtime": 8147000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "Presentation from Fred Templin, was not in the agenda, but.",
+      "ptime": 7553000,
+      "dtime": 8158000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT is going to present, SG is looking for the slides",
+      "ptime": 7575000,
+      "dtime": 8180000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"A simple BGP -based mobile routing system for the Aeronatutical Telecommunications Network\"",
+      "ptime": 7595000,
+      "dtime": 8200000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Backround\"",
+      "ptime": 7603000,
+      "dtime": 8208000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SATCOM, LDACS, VHF...",
+      "ptime": 7636000,
+      "dtime": 8241000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: does that mean gogo give me IPv6?",
+      "ptime": 7655000,
+      "dtime": 8260000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FTP: carries this or not ?  It's in the passenger domain",
+      "ptime": 7665000,
+      "dtime": 8270000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "(FTP is FT)",
+      "ptime": 7668000,
+      "dtime": 8273000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide title \"Mobility Subgroup Solution Discussion\"",
+      "ptime": 7680000,
+      "dtime": 8285000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "slide status \"Draft Status\"",
+      "ptime": 7744000,
+      "dtime": 8349000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "DL: the group is also doing stds?",
+      "ptime": 7765000,
+      "dtime": 8370000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: std is called ICAO9896",
+      "ptime": 7772000,
+      "dtime": 8377000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: very IETF centric, but their own specs",
+      "ptime": 7780000,
+      "dtime": 8385000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SG: questions?",
+      "ptime": 7786000,
+      "dtime": 8391000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: how are the prefixes allocated?",
+      "ptime": 7794000,
+      "dtime": 8399000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: prefix per plane?",
+      "ptime": 7798000,
+      "dtime": 8403000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: a plane gets /56",
+      "ptime": 7803000,
+      "dtime": 8408000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT:",
+      "ptime": 7812000,
+      "dtime": 8417000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: every new datalink needs to ... keeps own prefix?",
+      "ptime": 7821000,
+      "dtime": 8426000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: register/deregister",
+      "ptime": 7826000,
+      "dtime": 8431000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: lowerlevel signalling",
+      "ptime": 7831000,
+      "dtime": 8436000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: provisioning happens somewhere else?  at the operator?",
+      "ptime": 7842000,
+      "dtime": 8447000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: at factory?",
+      "ptime": 7846000,
+      "dtime": 8451000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: ICAO gets a service mobility prefix like a /32",
+      "ptime": 7855000,
+      "dtime": 8460000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FTP: builds a /56 based on the plane serial nunmber?",
+      "ptime": 7866000,
+      "dtime": 8471000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: all planes come out of same same /32?",
+      "ptime": 7874000,
+      "dtime": 8479000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: ANA its own prefix?",
+      "ptime": 7880000,
+      "dtime": 8485000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: air traffic control domain, and the airline operations domain",
+      "ptime": 7890000,
+      "dtime": 8495000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: different airlines, united, alaskan, get... not same...",
+      "ptime": 7902000,
+      "dtime": 8507000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: if I want to attack all planes everywhere, this slash 32...",
+      "ptime": 7912000,
+      "dtime": 8517000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: gateway announced on the Internet or no?",
+      "ptime": 7920000,
+      "dtime": 8525000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: ever got a /32 from RIR?",
+      "ptime": 7926000,
+      "dtime": 8531000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: not got that prefix yet.",
+      "ptime": 7932000,
+      "dtime": 8537000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: even shorter /30",
+      "ptime": 7938000,
+      "dtime": 8543000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: which RIR?",
+      "ptime": 7942000,
+      "dtime": 8547000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: same topic comes up every time/",
+      "ptime": 7950000,
+      "dtime": 8555000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: disconnected?",
+      "ptime": 7957000,
+      "dtime": 8562000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: possibliy",
+      "ptime": 7960000,
+      "dtime": 8565000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: gateway it to ?",
+      "ptime": 7966000,
+      "dtime": 8571000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: safety reliability, avoid DoS from Internet",
+      "ptime": 7975000,
+      "dtime": 8580000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: not read the draft, but.",
+      "ptime": 7983000,
+      "dtime": 8588000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: concern about",
+      "ptime": 7985000,
+      "dtime": 8590000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: about large impact on fht e global routing table... gets advertised multiple times, not going to fly.",
+      "ptime": 8009000,
+      "dtime": 8614000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: no pun intended",
+      "ptime": 8014000,
+      "dtime": 8619000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: absolutely not that Connexion by Boeing.",
+      "ptime": 8022000,
+      "dtime": 8627000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: pairs the mnps , model this in network emulators, I modelled.",
+      "ptime": 8036000,
+      "dtime": 8641000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: not milliojn planes...",
+      "ptime": 8043000,
+      "dtime": 8648000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: virtual machines",
+      "ptime": 8049000,
+      "dtime": 8654000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: NEMO-like?",
+      "ptime": 8053000,
+      "dtime": 8658000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: inter -AS mobility, intra AS mobility  with NEMO or AERO",
+      "ptime": 8068000,
+      "dtime": 8673000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: ok",
+      "ptime": 8075000,
+      "dtime": 8680000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: run this by IDR WG (if there is inter-domain stuff)",
+      "ptime": 8088000,
+      "dtime": 8693000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: put it into routing WGs?",
+      "ptime": 8098000,
+      "dtime": 8703000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: IDR WG",
+      "ptime": 8104000,
+      "dtime": 8709000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: talk to Alia, Alvaro",
+      "ptime": 8109000,
+      "dtime": 8714000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK:",
+      "ptime": 8115000,
+      "dtime": 8720000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SK: send me an email",
+      "ptime": 8121000,
+      "dtime": 8726000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: auth in BGP stuff, inteneded to have auth?  secure pki kind?",
+      "ptime": 8140000,
+      "dtime": 8745000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: between the BGP routers an IPsec",
+      "ptime": 8147000,
+      "dtime": 8752000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: does plane need tio participate in BGP",
+      "ptime": 8162000,
+      "dtime": 8767000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: no",
+      "ptime": 8165000,
+      "dtime": 8770000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "FT: the plane does not do any BGP updates",
+      "ptime": 8177000,
+      "dtime": 8782000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "EK: so the ground does.",
+      "ptime": 8186000,
+      "dtime": 8791000,
+      "author": "Alex Petrescu"
+    },
+    {
+      "text": "SH: that's it",
+      "ptime": 8197000,
+      "dtime": 8802000,
+      "author": "Alex Petrescu"
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

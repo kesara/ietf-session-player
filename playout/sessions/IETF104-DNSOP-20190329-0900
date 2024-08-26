@@ -1,0 +1,620 @@
+{
+  "title": "IETF104-DNSOP-20190329-0900",
+  "filename": "IETF104-DNSOP-20190329-0900",
+  "start": 0,
+  "end": 5603000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "l2ixYuwuaqY",
+      "start": 0.0,
+      "end": 5603000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Hello all. I\u0027ll be here to scribe",
+      "ptime": 62000.0,
+      "dtime": 932000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 62000.0,
+      "dtime": 932000.0
+    },
+    {
+      "text": "***Oleg Muravskiy just joined the room",
+      "ptime": 73000.0,
+      "dtime": 943000.0
+    },
+    {
+      "text": "If you have something to relay to the mic, please preface it with \"MIC:\"",
+      "ptime": 82000.0,
+      "dtime": 952000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Morning all",
+      "ptime": 97000.0,
+      "dtime": 967000.0,
+      "author": "Jaap Akkerhuis"
+    },
+    {
+      "text": "Good morning, we\u0027ll be starting the session in a couple of minutes",
+      "ptime": 100000.0,
+      "dtime": 970000.0,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "***Roger Murray just joined the room",
+      "ptime": 138000.0,
+      "dtime": 1008000.0
+    },
+    {
+      "text": "First slides are from the chairs: https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessb-dnsop-chairs-slides-ii-00",
+      "ptime": 162000.0,
+      "dtime": 1032000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Richard Franks just joined the room",
+      "ptime": 225000.0,
+      "dtime": 1095000.0
+    },
+    {
+      "text": "***Tony Finch just joined the room",
+      "ptime": 292000.0,
+      "dtime": 1162000.0
+    },
+    {
+      "text": "***Tony Finch just left the room",
+      "ptime": 303000.0,
+      "dtime": 1173000.0
+    },
+    {
+      "text": "***Tony Finch just joined the room",
+      "ptime": 323000.0,
+      "dtime": 1193000.0
+    },
+    {
+      "text": "***Tony Finch just left the room",
+      "ptime": 334000.0,
+      "dtime": 1204000.0
+    },
+    {
+      "text": "***Maarten Wullink just joined the room",
+      "ptime": 449000.0,
+      "dtime": 1319000.0
+    },
+    {
+      "text": "***Tony Finch just joined the room",
+      "ptime": 463000.0,
+      "dtime": 1333000.0
+    },
+    {
+      "text": "Giovana Moura presenting https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-dnsop-authoritative-recommendations-01",
+      "ptime": 564000.0,
+      "dtime": 1434000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Draft: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/",
+      "ptime": 619000.0,
+      "dtime": 1489000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Marco Davids just joined the room",
+      "ptime": 767000.0,
+      "dtime": 1637000.0
+    },
+    {
+      "text": "***Marco Davids just left the room",
+      "ptime": 834000.0,
+      "dtime": 1704000.0
+    },
+    {
+      "text": "***Antoin Verschuren just joined the room",
+      "ptime": 966000.0,
+      "dtime": 1836000.0
+    },
+    {
+      "text": "George Michaelson at mic",
+      "ptime": 1080000.0,
+      "dtime": 1950000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Vladim?r ?un?t just joined the room",
+      "ptime": 1155000.0,
+      "dtime": 2025000.0
+    },
+    {
+      "text": "Lars Liman at mic",
+      "ptime": 1244000.0,
+      "dtime": 2114000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Agree with Liman about observations",
+      "ptime": 1384000.0,
+      "dtime": 2254000.0,
+      "author": "Jaap Akkerhuis"
+    },
+    {
+      "text": "St?phane Bortzmeyer at mic",
+      "ptime": 1410000.0,
+      "dtime": 2280000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Peter van Dijk at mic",
+      "ptime": 1538000.0,
+      "dtime": 2408000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Joe Abley at mic",
+      "ptime": 1584000.0,
+      "dtime": 2454000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Willem Toorop presenting",
+      "ptime": 1917000.0,
+      "dtime": 2787000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Slides: https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessb-interoperable-dns-server-cookies-00",
+      "ptime": 1934000.0,
+      "dtime": 2804000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Anabel Sanchez Spitman just left the room",
+      "ptime": 1939000.0,
+      "dtime": 2809000.0
+    },
+    {
+      "text": "Draft: https://www.ietf.org/archive/id/draft-sury-toorop-dns-cookies-algorithms-00.txt",
+      "ptime": 1941000.0,
+      "dtime": 2811000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 2242000.0,
+      "dtime": 3112000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Ondrej Sury at mic",
+      "ptime": 2293000.0,
+      "dtime": 3163000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Pieter Lexis at mic",
+      "ptime": 2363000.0,
+      "dtime": 3233000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Warren Kumari at mic",
+      "ptime": 2435000.0,
+      "dtime": 3305000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Suzanne Woolf diving into Special Use Names Registry - https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessb-guidelines-for-use-of-the-special-use-names-registry-00",
+      "ptime": 2442000.0,
+      "dtime": 3312000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Pieter Lexis just joined the room",
+      "ptime": 2484000.0,
+      "dtime": 3354000.0
+    },
+    {
+      "text": "[Note - I have to step away for a moment. If anything comes up for the mic, I\u0027d ask for anyone else to relay.]",
+      "ptime": 2488000.0,
+      "dtime": 3358000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Shure",
+      "ptime": 2508000.0,
+      "dtime": 3378000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "-h",
+      "ptime": 2561000.0,
+      "dtime": 3431000.0,
+      "author": "Tim Wattenberg"
+    },
+    {
+      "text": "***Oleg Muravskiy just left the room",
+      "ptime": 2574000.0,
+      "dtime": 3444000.0
+    },
+    {
+      "text": "***Oleg Muravskiy just joined the room",
+      "ptime": 2670000.0,
+      "dtime": 3540000.0
+    },
+    {
+      "text": "[Back]",
+      "ptime": 2841000.0,
+      "dtime": 3711000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Warren Kumari at mic",
+      "ptime": 3045000.0,
+      "dtime": 3915000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Vladim?r ?un?t just left the room",
+      "ptime": 3066000.0,
+      "dtime": 3936000.0
+    },
+    {
+      "text": "***Vladim?r ?un?t just joined the room",
+      "ptime": 3072000.0,
+      "dtime": 3942000.0
+    },
+    {
+      "text": "Jim Reid at mic",
+      "ptime": 3092000.0,
+      "dtime": 3962000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Paul Wouters at mic",
+      "ptime": 3215000.0,
+      "dtime": 4085000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Christian Grothoff (I think) at mic",
+      "ptime": 3304000.0,
+      "dtime": 4174000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Wes Hardaker at mic",
+      "ptime": 3329000.0,
+      "dtime": 4199000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Peter Koch at mic",
+      "ptime": 3355000.0,
+      "dtime": 4225000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "St?phane Bortzmeyer at mic",
+      "ptime": 3460000.0,
+      "dtime": 4330000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Christian Grothoff?s comment about GNS not using a TLD was very interesting, and you mentioned user experience studies.  But what are the privacy consequences to the users of the collision requests getting into the root servers?",
+      "ptime": 3468000.0,
+      "dtime": 4338000.0,
+      "author": "Amankin"
+    },
+    {
+      "text": "Amankin: do you want that related or is that side conversation for this chat room?",
+      "ptime": 3507000.0,
+      "dtime": 4377000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Warren Kumari at mic with a short remark",
+      "ptime": 3662000.0,
+      "dtime": 4532000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "@york it?s a side conversation, no need to relay",
+      "ptime": 3671000.0,
+      "dtime": 4541000.0,
+      "author": "Amankin"
+    },
+    {
+      "text": "Stephen Farrell and Alex Brotman presenting https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessb-related-domains-by-dns-rdbd-00",
+      "ptime": 3715000.0,
+      "dtime": 4585000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Brian Dickson at mic",
+      "ptime": 3946000.0,
+      "dtime": 4816000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Alex Mayrhofer at mic",
+      "ptime": 3992000.0,
+      "dtime": 4862000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Jim Reid at mic",
+      "ptime": 4095000.0,
+      "dtime": 4965000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Joe Abley at mic",
+      "ptime": 4158000.0,
+      "dtime": 5028000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "I was about to get up when the queue got closed, so I\u0027ll comment here... 1) this discusses a relationship between two domains but doesn\u0027t seem to address how it scales when you have relationships between 3 or 10 or 50.  2) the drafts specifies the link is unidirectional, and I see nothing to prevent myself announcing that my own domain is related to, say, paypal",
+      "ptime": 4292000.0,
+      "dtime": 5162000.0,
+      "author": "each"
+    },
+    {
+      "text": "Matthew Pounsett at mic",
+      "ptime": 4300000.0,
+      "dtime": 5170000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "I wonder: can this be unilaterally abused: What if I associate add \"liman.se. RDBD rolls-royce.co.uk.\", just to ride on their good reputation, even though there is no relation at all?",
+      "ptime": 4328000.0,
+      "dtime": 5198000.0,
+      "author": "liman"
+    },
+    {
+      "text": "@each - I\u0027m in the queue at the end? and your point #2 was one I was planning to make",
+      "ptime": 4341000.0,
+      "dtime": 5211000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "thanks dan",
+      "ptime": 4358000.0,
+      "dtime": 5228000.0,
+      "author": "each"
+    },
+    {
+      "text": "Jonathan Reed at mic",
+      "ptime": 4363000.0,
+      "dtime": 5233000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "we\u0027re always talking about wanting input from operators, not the usual IETF participants. that is what this is. So, maybe the uh, proposal isn\u0027t great, but could we do something with the requirement?",
+      "ptime": 4364000.0,
+      "dtime": 5234000.0,
+      "author": "Vicky"
+    },
+    {
+      "text": "My understadning is that you\u0027d need record the other way (from their zone) to benefit from their \"reputation\".",
+      "ptime": 4422000.0,
+      "dtime": 5292000.0,
+      "author": "Vladim?r ?un?t"
+    },
+    {
+      "text": "Murray Kucherawy at mic",
+      "ptime": 4473000.0,
+      "dtime": 5343000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Sam Weiler at mic",
+      "ptime": 4488000.0,
+      "dtime": 5358000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Warren Kumari at mic",
+      "ptime": 4509000.0,
+      "dtime": 5379000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Dan York at mic",
+      "ptime": 4555000.0,
+      "dtime": 5425000.0,
+      "author": "Yoshiro Yoneya"
+    },
+    {
+      "text": "@vicky that\u0027s what dbound was, I think people are reluctant to repeat the experience without some reason to believe the outcome wil be different.",
+      "ptime": 4603000.0,
+      "dtime": 5473000.0,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "Matthias Mekking at mic presenting https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessb-aname-how-to-move-forward-02",
+      "ptime": 4792000.0,
+      "dtime": 5662000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Oops? Matthijs Mekking ? my apologies",
+      "ptime": 4829000.0,
+      "dtime": 5699000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Willem Toorop at mic",
+      "ptime": 4976000.0,
+      "dtime": 5846000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Brian Dickson at mic",
+      "ptime": 4984000.0,
+      "dtime": 5854000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Draft: https://tools.ietf.org/html/draft-ietf-dnsop-aname-02",
+      "ptime": 5048000.0,
+      "dtime": 5918000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Maarten Wullink just left the room",
+      "ptime": 5158000.0,
+      "dtime": 6028000.0
+    },
+    {
+      "text": "Shane Kerr at mic",
+      "ptime": 5266000.0,
+      "dtime": 6136000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Matthew Pounsett at mic",
+      "ptime": 5274000.0,
+      "dtime": 6144000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Petr ?pa?ek at mic",
+      "ptime": 5305000.0,
+      "dtime": 6175000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Listening to comments? how many of these vendors will implement this draft?",
+      "ptime": 5364000.0,
+      "dtime": 6234000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Olli (?) at mic",
+      "ptime": 5389000.0,
+      "dtime": 6259000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Juan-Pedro Cerezo Martin just joined the room",
+      "ptime": 5407000.0,
+      "dtime": 6277000.0
+    },
+    {
+      "text": "Brian Dickson back at mic",
+      "ptime": 5408000.0,
+      "dtime": 6278000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "i would like more descriptions on the list from vendors on how they do ANAME",
+      "ptime": 5422000.0,
+      "dtime": 6292000.0,
+      "author": "Tony Finch"
+    },
+    {
+      "text": "Yes, it would benefit from more closer participation from them.",
+      "ptime": 5473000.0,
+      "dtime": 6343000.0,
+      "author": "Vladim?r ?un?t"
+    },
+    {
+      "text": "+1 that there is a big difference between the vertical integration case (where this may work) and the cross-provider case.",
+      "ptime": 5524000.0,
+      "dtime": 6394000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "***Oleg Muravskiy just left the room",
+      "ptime": 5537000.0,
+      "dtime": 6407000.0
+    },
+    {
+      "text": "the cross-provider use case is what requires a standard implementation",
+      "ptime": 5560000.0,
+      "dtime": 6430000.0,
+      "author": "Vicky"
+    },
+    {
+      "text": "Perhaps just declaring that they actually do want (or not) interoperability on this point :-)",
+      "ptime": 5585000.0,
+      "dtime": 6455000.0,
+      "author": "Vladim?r ?un?t"
+    },
+    {
+      "text": "***Thomas Peterson just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Juan-Pedro Cerezo Martin just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Ond?ej Caletka just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Antoin Verschuren just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Roland van Rijswijk-Deij just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Vladim?r ?un?t just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Tony Finch just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Wouter Wijngaards just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Jan Henzi just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Jaap Akkerhuis just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Roger Murray just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Richard Franks just left the room",
+      "ptime": 5603000.0,
+      "dtime": 6473000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-DNSOP-20190329-0900"
+    }
+  ]
+}

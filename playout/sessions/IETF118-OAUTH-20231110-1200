@@ -1,0 +1,140 @@
+
+{
+	"title": "IETF118-OAUTH-20231110-1200",
+	"filename": "IETF118-OAUTH-20231110-1200",
+	"start": 0,
+	"end": 7317000,
+	"start_datetime": "2023-11-10T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "MGMgMtERhiU",
+    "start": 0,
+    "end": "7317000"
+  }
+],
+	"messages": [
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>Day 3 here we go!</p>",
+    "topic": "ietf-118",
+    "dtime": 157000,
+    "ptime": 157000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Token buckets: <a href=\"https://www.ietf.org/archive/id/draft-richer-wimse-token-container-00.html\">https://www.ietf.org/archive/id/draft-richer-wimse-token-container-00.html</a></p>",
+    "topic": "ietf-118",
+    "dtime": 862000,
+    "ptime": 862000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>FYI we are 13 minutes behind schedule now</p>",
+    "topic": "ietf-118",
+    "dtime": 2042000,
+    "ptime": 2042000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>:)</p>",
+    "topic": "ietf-118",
+    "dtime": 2134000,
+    "ptime": 2134000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>congrats Pieter, we made up 5 minutes on the schedule</p>",
+    "topic": "ietf-118",
+    "dtime": 3042000,
+    "ptime": 3042000
+  },
+  {
+    "author": "John Andersen",
+    "text": "<p>In this model, couldn't the AS be within the client? Since we already trust it due to it's attestation result?</p>",
+    "topic": "ietf-118",
+    "dtime": 3421000,
+    "ptime": 3421000
+  },
+  {
+    "author": "John Andersen",
+    "text": "<p>Not always, just as an option. Or does that break some guarantees I'm not seeing</p>",
+    "topic": "ietf-118",
+    "dtime": 3491000,
+    "ptime": 3491000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>attestation shouldn't be authentication</p>",
+    "topic": "ietf-118",
+    "dtime": 3874000,
+    "ptime": 3874000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>we should allow attestation on endpoints that also authenticate the client</p>",
+    "topic": "ietf-118",
+    "dtime": 3894000,
+    "ptime": 3894000
+  },
+  {
+    "author": "Jacob Ideskog",
+    "text": "<p>I strongly agree :)</p>",
+    "topic": "ietf-118",
+    "dtime": 3902000,
+    "ptime": 3902000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>that is what I keep saying</p>",
+    "topic": "ietf-118",
+    "dtime": 3958000,
+    "ptime": 3958000
+  },
+  {
+    "author": "Jacob Ideskog",
+    "text": "<p>in mobile scenarious attestation is a provenance proof and sometimes more. but that doesn't note equate client authentication. Proving that the app is the right app,  serves the same function as the redirect URI does in the code flow (to some extent)</p>",
+    "topic": "ietf-118",
+    "dtime": 4034000,
+    "ptime": 4034000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>Section 9.8 explicitly calls out that it is NOT RECOMMENDED to leverage this draft for SPAs</p>",
+    "topic": "ietf-118",
+    "dtime": 5210000,
+    "ptime": 5210000
+  },
+  {
+    "author": "Jacob Ideskog",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"690\">@Kristina Yasuda</span> the one authenticator to use for third-party apps is for sure passkeys.<br>\n<span class=\"user-mention\" data-user-id=\"980\">@John Bradley</span> another \"challenge\" is that the AS needs to whitelist the applications in the well-known for the web-credentials, smaller issue, but more than just registering the app</p>",
+    "topic": "ietf-118",
+    "dtime": 5919000,
+    "ptime": 5919000
+  },
+  {
+    "author": "Jacob Ideskog",
+    "text": "<p>forgive me for my ignorance, but doesn't the OIDC Backchannel Logout specification talk about how the OP tells the RPs to logout, I don't remember it having a mechanism for a client to request a logout at the OP?</p>",
+    "topic": "ietf-118",
+    "dtime": 7264000,
+    "ptime": 7264000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-OAUTH-20231110-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-OAUTH-20231110-1200"
+		}		
+	]
+}

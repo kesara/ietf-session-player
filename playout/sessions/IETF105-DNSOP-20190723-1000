@@ -1,0 +1,774 @@
+{
+  "title": "IETF105-DNSOP-20190723-1000",
+  "filename": "IETF105-DNSOP-20190723-1000",
+  "start": 0,
+  "end": 7039000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "csopL0wjNw4",
+      "start": 0.0,
+      "end": 7039000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "hiya",
+      "ptime": 7000.0,
+      "dtime": 608000.0,
+      "author": "Jelte Jansen"
+    },
+    {
+      "text": "***Moritz Mueller just joined the room",
+      "ptime": 9000.0,
+      "dtime": 610000.0
+    },
+    {
+      "text": "hi :)",
+      "ptime": 48000.0,
+      "dtime": 649000.0,
+      "author": "Moritz Mueller"
+    },
+    {
+      "text": "***Jan Komissar just joined the room",
+      "ptime": 73000.0,
+      "dtime": 674000.0
+    },
+    {
+      "text": "***Steve DeJong just joined the room",
+      "ptime": 106000.0,
+      "dtime": 707000.0
+    },
+    {
+      "text": "***Kevin Borgolte just left the room",
+      "ptime": 110000.0,
+      "dtime": 711000.0
+    },
+    {
+      "text": "***Tommy Jensen just joined the room",
+      "ptime": 113000.0,
+      "dtime": 714000.0
+    },
+    {
+      "text": "Hi there?. I offered to jabber scribe.  But then I found out I need to present elsewhere at 10:30 :-(   Thanks to Brian Haberman for volunteering to help",
+      "ptime": 193000.0,
+      "dtime": 794000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "I\u0027ll be jabber scribing while Dan is out of the room.",
+      "ptime": 202000.0,
+      "dtime": 803000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Kevin Borgolte just joined the room",
+      "ptime": 231000.0,
+      "dtime": 832000.0
+    },
+    {
+      "text": "ANAME discussion.",
+      "ptime": 250000.0,
+      "dtime": 851000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Massimiliano Stucchi just joined the room",
+      "ptime": 344000.0,
+      "dtime": 945000.0
+    },
+    {
+      "text": "***Normen Kowalewski just joined the room",
+      "ptime": 394000.0,
+      "dtime": 995000.0
+    },
+    {
+      "text": "***David Schinazi just joined the room",
+      "ptime": 399000.0,
+      "dtime": 1000000.0
+    },
+    {
+      "text": "***Adam Ahmat Doungous just joined the room",
+      "ptime": 430000.0,
+      "dtime": 1031000.0
+    },
+    {
+      "text": "Thanks Brian",
+      "ptime": 431000.0,
+      "dtime": 1032000.0,
+      "author": "Normen Kowalewski"
+    },
+    {
+      "text": "***Joseph Yee just joined the room",
+      "ptime": 462000.0,
+      "dtime": 1063000.0
+    },
+    {
+      "text": "***Andrew Campling just joined the room",
+      "ptime": 511000.0,
+      "dtime": 1112000.0
+    },
+    {
+      "text": "***Jody Kolker just joined the room",
+      "ptime": 548000.0,
+      "dtime": 1149000.0
+    },
+    {
+      "text": "***Steve Wills just joined the room",
+      "ptime": 722000.0,
+      "dtime": 1323000.0
+    },
+    {
+      "text": "***Juan P. Cerezo just joined the room",
+      "ptime": 773000.0,
+      "dtime": 1374000.0
+    },
+    {
+      "text": "***Anabel Sanchez just joined the room",
+      "ptime": 927000.0,
+      "dtime": 1528000.0
+    },
+    {
+      "text": "***Jyrki Soini just joined the room",
+      "ptime": 1145000.0,
+      "dtime": 1746000.0
+    },
+    {
+      "text": "Evan at the mic.",
+      "ptime": 1147000.0,
+      "dtime": 1748000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Tim at the mic.",
+      "ptime": 1201000.0,
+      "dtime": 1802000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Joe Crowe just joined the room",
+      "ptime": 1246000.0,
+      "dtime": 1847000.0
+    },
+    {
+      "text": "Brian D. at the mic.",
+      "ptime": 1322000.0,
+      "dtime": 1923000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "My general comment (NOT for mic relay) - PLEASE just get us a workable \"CNAME at APEX\" solution for website publishers who want to use CDNs, etc.",
+      "ptime": 1601000.0,
+      "dtime": 2202000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Katharine Daly just joined the room",
+      "ptime": 1609000.0,
+      "dtime": 2210000.0
+    },
+    {
+      "text": "***Massimiliano Stucchi just left the room",
+      "ptime": 1702000.0,
+      "dtime": 2303000.0
+    },
+    {
+      "text": "Just to be clear, the \"general comment\" is the pony that everyone has wanted forever.  It\u0027s not clear that ponies are coming, but if they do they may well not have all the legs you might like.",
+      "ptime": 1778000.0,
+      "dtime": 2379000.0,
+      "author": "Andrew Sullivan"
+    },
+    {
+      "text": "(also not for mic, ObISOCDisclaimer)",
+      "ptime": 1798000.0,
+      "dtime": 2399000.0,
+      "author": "Andrew Sullivan"
+    },
+    {
+      "text": "***Martin Hoffmann just joined the room",
+      "ptime": 1916000.0,
+      "dtime": 2517000.0
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 1946000.0,
+      "dtime": 2547000.0
+    },
+    {
+      "text": "***Takahiro Nemoto just joined the room",
+      "ptime": 2045000.0,
+      "dtime": 2646000.0
+    },
+    {
+      "text": "***Paul Adair just joined the room",
+      "ptime": 2127000.0,
+      "dtime": 2728000.0
+    },
+    {
+      "text": "***Alex Brotman just joined the room",
+      "ptime": 2196000.0,
+      "dtime": 2797000.0
+    },
+    {
+      "text": "***Tomek Mrugalski just joined the room",
+      "ptime": 2198000.0,
+      "dtime": 2799000.0
+    },
+    {
+      "text": "***Joe Crowe just left the room",
+      "ptime": 2244000.0,
+      "dtime": 2845000.0
+    },
+    {
+      "text": "***Joe Crowe just joined the room",
+      "ptime": 2245000.0,
+      "dtime": 2846000.0
+    },
+    {
+      "text": "***Rolf Sonneveld just joined the room",
+      "ptime": 2296000.0,
+      "dtime": 2897000.0
+    },
+    {
+      "text": "how do you spell that? cameledge?",
+      "ptime": 2311000.0,
+      "dtime": 2912000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "What, now you\u0027re putting the camels out on a ledge?",
+      "ptime": 2349000.0,
+      "dtime": 2950000.0,
+      "author": "Suzanne"
+    },
+    {
+      "text": "They were always balancing on two feet/",
+      "ptime": 2379000.0,
+      "dtime": 2980000.0,
+      "author": "Andrew Sullivan"
+    },
+    {
+      "text": "?",
+      "ptime": 2382000.0,
+      "dtime": 2983000.0,
+      "author": "Andrew Sullivan"
+    },
+    {
+      "text": "Warren at the mic",
+      "ptime": 2509000.0,
+      "dtime": 3110000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Andrew Campling just left the room",
+      "ptime": 2542000.0,
+      "dtime": 3143000.0
+    },
+    {
+      "text": "***Andrew Campling just joined the room",
+      "ptime": 2544000.0,
+      "dtime": 3145000.0
+    },
+    {
+      "text": "Olafur at the mic.",
+      "ptime": 2619000.0,
+      "dtime": 3220000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Evan at the mic.",
+      "ptime": 2728000.0,
+      "dtime": 3329000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Pieter Lexis just joined the room",
+      "ptime": 2729000.0,
+      "dtime": 3330000.0
+    },
+    {
+      "text": "Lorenzo at the mic.",
+      "ptime": 2856000.0,
+      "dtime": 3457000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Stephen at the mic.",
+      "ptime": 2985000.0,
+      "dtime": 3586000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "HTPSSVC: Can we please get rid of the quotation marks in the data part? Anything with quotes and spaces in is a b-tch to copy and paste and treat manually. (And yes, you need to when you debug.) Or are they \"mandated\" by RFC 7838 (alt http serv) to make it easy to convert to/from that format?",
+      "ptime": 3028000.0,
+      "dtime": 3629000.0,
+      "author": "Lars-Johan Liman"
+    },
+    {
+      "text": "@Lars do you want that comment vocalized to the room?",
+      "ptime": 3076000.0,
+      "dtime": 3677000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "No. Not that imporant, and the mic line is closed ? ;-)",
+      "ptime": 3127000.0,
+      "dtime": 3728000.0,
+      "author": "Lars-Johan Liman"
+    },
+    {
+      "text": "if this were the only way to publish ESNIKeys then that\u0027d make ESNI hard for non-HTTPs applications, which\u0027d be bad, so I\u0027m not sure you can do away with the other RRTYPE",
+      "ptime": 3175000.0,
+      "dtime": 3776000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "So rather TLSSVC instead of HTTPSSVC ?",
+      "ptime": 3346000.0,
+      "dtime": 3947000.0,
+      "author": "Normen Kowalewski"
+    },
+    {
+      "text": "SRVbis :-)",
+      "ptime": 3386000.0,
+      "dtime": 3987000.0,
+      "author": "Vladim?r ?un?t"
+    },
+    {
+      "text": "to just generalize as much that non-browesrs are covered?",
+      "ptime": 3403000.0,
+      "dtime": 4004000.0,
+      "author": "Normen Kowalewski"
+    },
+    {
+      "text": "ALTSVC is another option.  (as ALTSVC is not browser/web/https specific.)",
+      "ptime": 3438000.0,
+      "dtime": 4039000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "Jeff? at the mic.",
+      "ptime": 3446000.0,
+      "dtime": 4047000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Hodges",
+      "ptime": 3453000.0,
+      "dtime": 4054000.0,
+      "author": "Andrew Sullivan"
+    },
+    {
+      "text": "Stephane at the mic.",
+      "ptime": 3608000.0,
+      "dtime": 4209000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "John at the mic.",
+      "ptime": 3690000.0,
+      "dtime": 4291000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Peter Koch just joined the room",
+      "ptime": 3780000.0,
+      "dtime": 4381000.0
+    },
+    {
+      "text": "Murray at the mic.",
+      "ptime": 3857000.0,
+      "dtime": 4458000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***John Border just joined the room",
+      "ptime": 3889000.0,
+      "dtime": 4490000.0
+    },
+    {
+      "text": "Ben at the mic.",
+      "ptime": 4156000.0,
+      "dtime": 4757000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Stephane at the mic.",
+      "ptime": 4292000.0,
+      "dtime": 4893000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Moritz Mueller just left the room",
+      "ptime": 4366000.0,
+      "dtime": 4967000.0
+    },
+    {
+      "text": "***Moritz Mueller just joined the room",
+      "ptime": 4368000.0,
+      "dtime": 4969000.0
+    },
+    {
+      "text": "Jim at the mic.",
+      "ptime": 4404000.0,
+      "dtime": 5005000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Wes at the mic.",
+      "ptime": 4415000.0,
+      "dtime": 5016000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Anabel Sanchez just left the room",
+      "ptime": 4454000.0,
+      "dtime": 5055000.0
+    },
+    {
+      "text": "***Anabel Sanchez just joined the room",
+      "ptime": 4456000.0,
+      "dtime": 5057000.0
+    },
+    {
+      "text": "***Steve DeJong just left the room",
+      "ptime": 4482000.0,
+      "dtime": 5083000.0
+    },
+    {
+      "text": "Ben at the mic.",
+      "ptime": 4557000.0,
+      "dtime": 5158000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Adam Ahmat Doungous just left the room",
+      "ptime": 4565000.0,
+      "dtime": 5166000.0
+    },
+    {
+      "text": "***Adam Ahmat Doungous just joined the room",
+      "ptime": 4677000.0,
+      "dtime": 5278000.0
+    },
+    {
+      "text": "***Katharine Daly just left the room",
+      "ptime": 4698000.0,
+      "dtime": 5299000.0
+    },
+    {
+      "text": "***Adam Ahmat Doungous just left the room",
+      "ptime": 4743000.0,
+      "dtime": 5344000.0
+    },
+    {
+      "text": "***Rolf Sonneveld just left the room",
+      "ptime": 4751000.0,
+      "dtime": 5352000.0
+    },
+    {
+      "text": "***Adam Ahmat Doungous just joined the room",
+      "ptime": 5055000.0,
+      "dtime": 5656000.0
+    },
+    {
+      "text": "***Martin Schanzenbach just joined the room",
+      "ptime": 5379000.0,
+      "dtime": 5980000.0
+    },
+    {
+      "text": "***Steve DeJong just joined the room",
+      "ptime": 5482000.0,
+      "dtime": 6083000.0
+    },
+    {
+      "text": "camels like fragmentation I heard",
+      "ptime": 5531000.0,
+      "dtime": 6132000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Lars at the mic.",
+      "ptime": 5537000.0,
+      "dtime": 6138000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Mark at the mic? sorry for the lag.",
+      "ptime": 5780000.0,
+      "dtime": 6381000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Geoff at the mic.",
+      "ptime": 5989000.0,
+      "dtime": 6590000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Warren at the mic.",
+      "ptime": 6022000.0,
+      "dtime": 6623000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Olafur at the mic.",
+      "ptime": 6044000.0,
+      "dtime": 6645000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Stephen at the mic.",
+      "ptime": 6415000.0,
+      "dtime": 7016000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Terry at the mic.",
+      "ptime": 6436000.0,
+      "dtime": 7037000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Warren at the mic.",
+      "ptime": 6461000.0,
+      "dtime": 7062000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Evan at the mic.",
+      "ptime": 6508000.0,
+      "dtime": 7109000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Wes at the mic.",
+      "ptime": 6618000.0,
+      "dtime": 7219000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Jim at the mic.",
+      "ptime": 6718000.0,
+      "dtime": 7319000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "Q: Could this be done with Ztalog Zones instead?",
+      "ptime": 6721000.0,
+      "dtime": 7322000.0,
+      "author": "Pieter Lexis"
+    },
+    {
+      "text": "Q: Could this be done with Catalog Zones instead?",
+      "ptime": 6727000.0,
+      "dtime": 7328000.0,
+      "author": "Pieter Lexis"
+    },
+    {
+      "text": "@Pieter - Is that a question for the mic?",
+      "ptime": 6765000.0,
+      "dtime": 7366000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "it is",
+      "ptime": 6769000.0,
+      "dtime": 7370000.0,
+      "author": "Pieter Lexis"
+    },
+    {
+      "text": "sounds like the summary feeling of the WG is: May the fleas of a thousand camels infest your armpits",
+      "ptime": 6783000.0,
+      "dtime": 7384000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "(affiliation is PowerDNS)",
+      "ptime": 6788000.0,
+      "dtime": 7389000.0,
+      "author": "Pieter Lexis"
+    },
+    {
+      "text": "***Jan Komissar just left the room",
+      "ptime": 6919000.0,
+      "dtime": 7520000.0
+    },
+    {
+      "text": "@paulwouters: that\u0027s a little harsh, no? ;-)",
+      "ptime": 6929000.0,
+      "dtime": 7530000.0,
+      "author": "Lars-Johan Liman"
+    },
+    {
+      "text": "***Matthijs Mekking just left the room",
+      "ptime": 6985000.0,
+      "dtime": 7586000.0
+    },
+    {
+      "text": "***Peter Koch just left the room",
+      "ptime": 6992000.0,
+      "dtime": 7593000.0
+    },
+    {
+      "text": "Thnaks for typing !",
+      "ptime": 7037000.0,
+      "dtime": 7638000.0,
+      "author": "Normen Kowalewski"
+    },
+    {
+      "text": "***Wouter Wijngaards just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Iain Sharp just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Jyrki Soini just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Anabel Sanchez just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Steve DeJong just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Adam Ahmat Doungous just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Alex Brotman just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Normen Kowalewski just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Yoshiro YONEYA just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Martin Schanzenbach just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Tomek Mrugalski just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Vladim?r ?un?t just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Joseph Yee just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Andrew Campling just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Juan P. Cerezo just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Sara Dickinson just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***David Schinazi just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Jelte Jansen just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Moritz Mueller just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Jody Kolker just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Pieter Lexis just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Joe Crowe just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Steve Wills just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Martin Hoffmann just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Tommy Jensen just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Takahiro Nemoto just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    },
+    {
+      "text": "***Richard Franks just left the room",
+      "ptime": 7039000.0,
+      "dtime": 7640000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF105-DNSOP-20190723-1000"
+    }
+  ]
+}

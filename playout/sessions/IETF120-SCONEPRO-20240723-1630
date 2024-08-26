@@ -1,0 +1,2485 @@
+
+{
+	"title": "IETF120-SCONEPRO-20240723-1630",
+	"filename": "IETF120-SCONEPRO-20240723-1630",
+	"start": 0,
+	"end": 7290000,
+	"start_datetime": "2024-07-23T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "1qi3HqrSZ-8",
+    "start": 0,
+    "end": "7290000"
+  }
+],
+	"messages": [
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Do we have a URL to the proposed charter?</p>",
+    "topic": "ietf-120",
+    "dtime": 204000,
+    "ptime": 204000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>Meeting materials have this: <a href=\"https://datatracker.ietf.org/meeting/120/materials/slides-120-sconepro-draft-charter-v1-july-20\">https://datatracker.ietf.org/meeting/120/materials/slides-120-sconepro-draft-charter-v1-july-20</a></p>",
+    "topic": "ietf-120",
+    "dtime": 227000,
+    "ptime": 227000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>re \"not just mobile\" - do we know what other network types may do this?</p>",
+    "topic": "ietf-120",
+    "dtime": 447000,
+    "ptime": 447000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Satellite networks as well</p>",
+    "topic": "ietf-120",
+    "dtime": 462000,
+    "ptime": 462000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>thx!</p>",
+    "topic": "ietf-120",
+    "dtime": 470000,
+    "ptime": 470000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>I know people have pointed out some  cable and DSL as well</p>",
+    "topic": "ietf-120",
+    "dtime": 510000,
+    "ptime": 510000
+  },
+  {
+    "author": "Will Law",
+    "text": "<p>The main problem with shapers and ABR algos is that the shaper's are applied abruptly. If the shaper implemented the new throughput level over a 5 minute ramp down, I'd reasonably expect most ABR algos to handle it just fine.</p>",
+    "topic": "ietf-120",
+    "dtime": 647000,
+    "ptime": 647000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Short form video is a big challenge</p>",
+    "topic": "ietf-120",
+    "dtime": 666000,
+    "ptime": 666000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>Alan, is that just because with short form there's very little time to learn and user experience is sensitive to even a little buffering?</p>",
+    "topic": "ietf-120",
+    "dtime": 737000,
+    "ptime": 737000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It's largely about the rate at which video changes and at which people skip to another video.</p>",
+    "topic": "ietf-120",
+    "dtime": 786000,
+    "ptime": 786000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>The main problem is that the shaper/policer are applied at the network element which has no way of measuring the effects of its action on the Quality of Experience of the underlying video flow.</p>",
+    "topic": "ietf-120",
+    "dtime": 788000,
+    "ptime": 788000
+  },
+  {
+    "author": "Jon Varsanik",
+    "text": "<p>Netflix published a paper on joint congestion control providing benefit in wired connections  (although the bottleneck there was the local router...)</p>",
+    "topic": "ietf-120",
+    "dtime": 798000,
+    "ptime": 798000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>there's some control theory principle don't know that applies here</p>",
+    "topic": "ietf-120",
+    "dtime": 832000,
+    "ptime": 832000
+  },
+  {
+    "author": "Zaheduzzaman Sarker",
+    "text": "<p>Jon, can you share the publication?</p>",
+    "topic": "ietf-120",
+    "dtime": 844000,
+    "ptime": 844000
+  },
+  {
+    "author": "Jon Varsanik",
+    "text": "<p><a href=\"https://sammy.brucespang.com/sammy.pdf\">https://sammy.brucespang.com/sammy.pdf</a></p>",
+    "topic": "ietf-120",
+    "dtime": 861000,
+    "ptime": 861000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>basically we want to steer the outer loop, but apply the signal to the inner</p>",
+    "topic": "ietf-120",
+    "dtime": 865000,
+    "ptime": 865000
+  },
+  {
+    "author": "Zaheduzzaman Sarker",
+    "text": "<p>thanks</p>",
+    "topic": "ietf-120",
+    "dtime": 869000,
+    "ptime": 869000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Short form video delivery has many new challenges (relative to long form video). Like prefetching of video segments that the user has not watched yet but is expected to watch. Also since the video itself is short ~10 seconds... that limits the amount of buffer that can be built.</p>",
+    "topic": "ietf-120",
+    "dtime": 974000,
+    "ptime": 974000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Looking at SNI ineffective after ECH...</p>",
+    "topic": "ietf-120",
+    "dtime": 987000,
+    "ptime": 987000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>hopefully so</p>",
+    "topic": "ietf-120",
+    "dtime": 999000,
+    "ptime": 999000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>why does video vs the size and duration of the connection matter? seems like network can say \"this bandwidth is available\"</p>",
+    "topic": "ietf-120",
+    "dtime": 999000,
+    "ptime": 999000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yeah, SNI isn't  going to help much.</p>",
+    "topic": "ietf-120",
+    "dtime": 1006000,
+    "ptime": 1006000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Though a lot of operators will be able to look at IP address and use that.</p>",
+    "topic": "ietf-120",
+    "dtime": 1023000,
+    "ptime": 1023000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Is there going to be a field for \"Video streaming unavailable\" - e.g. for use on airlines with their free messaging plans?</p>",
+    "topic": "ietf-120",
+    "dtime": 1049000,
+    "ptime": 1049000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It's very common for the video to be terminated at a box that is placed in the network exclusively for video delivery.</p>",
+    "topic": "ietf-120",
+    "dtime": 1069000,
+    "ptime": 1069000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I'm not clear from the charter and the requirements doc, but does this presume that SCONEPRO would only be used in the last-hop network, or the two end networks, or all the way along the path?</p>",
+    "topic": "ietf-120",
+    "dtime": 1085000,
+    "ptime": 1085000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>IMO one challenge is that the available bandwidth is changing on a microsecond to microsecond basis - hard to do a static shaper in areas of highly variable utilization.</p>",
+    "topic": "ietf-120",
+    "dtime": 1090000,
+    "ptime": 1090000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Jason: I believe that is the domain of a congestion controller</p>",
+    "topic": "ietf-120",
+    "dtime": 1117000,
+    "ptime": 1117000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124351\">said</a>:</p>\n<blockquote>\n<p>Though a lot of operators will be able to look at IP address and use that.</p>\n</blockquote>\n<p>Although it's my understanding that CDN operators tend to not like that, and anycast isn't usually an option for these deeply-embedded boxes</p>",
+    "topic": "ietf-120",
+    "dtime": 1119000,
+    "ptime": 1119000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Alex: Yes, IP isn't always a good choice.</p>",
+    "topic": "ietf-120",
+    "dtime": 1151000,
+    "ptime": 1151000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>The operator will attempt to do a classification of video traffic. Deployment of privacy improving mechanism will make this classification more error prone. Which in itself can have effects on other flows.</p>",
+    "topic": "ietf-120",
+    "dtime": 1161000,
+    "ptime": 1161000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Well, using IP is almost always a bad choice.</p>",
+    "topic": "ietf-120",
+    "dtime": 1166000,
+    "ptime": 1166000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p>Jason, the shaper gives an upper bound, the actual bottleneck capacity can vary above or below that. Congestion control still applies.</p>",
+    "topic": "ietf-120",
+    "dtime": 1194000,
+    "ptime": 1194000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Well, for lack of a better option, I would prefer \"use IP\" over \"do SNI and hope that never breaks\" (gQUIC and IETF QUIC never broke T-Mobile, nope)</p>",
+    "topic": "ietf-120",
+    "dtime": 1208000,
+    "ptime": 1208000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>IP changes all the time...</p>",
+    "topic": "ietf-120",
+    "dtime": 1235000,
+    "ptime": 1235000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>Still it is fairly common that for example large providers like YouTube provide operators with IP ranges they use for their servers towards this operator.</p>",
+    "topic": "ietf-120",
+    "dtime": 1249000,
+    "ptime": 1249000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<blockquote>\n<p>I'm not clear from the charter and the requirements doc, but does this presume that SCONEPRO would only be used in the last-hop network, or the two end networks, or all the way along the path?</p>\n</blockquote>\n<p>For the very narrow problem statement described in the charter, the network element that usually did shaping/policing will be the one doing SCONEPRO signaling. Not sure if I answered your question exactly.</p>",
+    "topic": "ietf-120",
+    "dtime": 1264000,
+    "ptime": 1264000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Usually for the deeply-embedded boxes it's the network operator providing the IP space to the CDN, even.</p>",
+    "topic": "ietf-120",
+    "dtime": 1278000,
+    "ptime": 1278000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@marcus, makes sense. I guess only concern is when the actual available is below the upper bound. Sure, fallback is normal CC and ABR algos - so situation we are in today. But will that case be most of the time or a small fraction of the time?</p>",
+    "topic": "ietf-120",
+    "dtime": 1294000,
+    "ptime": 1294000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>One thing that might come from this is that an operator could flag all flows, without doing classification.  They might then be able to change where they apply policing.</p>",
+    "topic": "ietf-120",
+    "dtime": 1305000,
+    "ptime": 1305000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>And this becomes problematic if you assume content will <em>only</em> ever be served off of that box, and if you go out-of-network for the cache hierarchy suddenly you get different behavior.</p>",
+    "topic": "ietf-120",
+    "dtime": 1309000,
+    "ptime": 1309000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>From the size and timing of the packets you can tell often which video service it is  for major streaming services. It's usually pretty clear what is video and what is not. There are multiple products on the market that do that.</p>",
+    "topic": "ietf-120",
+    "dtime": 1332000,
+    "ptime": 1332000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2941\">Abhishek Tiwari</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124374\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>I'm not clear from the charter and the requirements doc, but does this presume that SCONEPRO would only be used in the last-hop network, or the two end networks, or all the way along the path?</p>\n</blockquote>\n<p>For the very narrow problem statement described in the charter, the network element that usually did shaping/policing will be the one doing SCONEPRO signaling. Not sure if I answered your question exactly.</p>\n</blockquote>\n<p>I guess that's not  crystal clear in the charter to me.</p>",
+    "topic": "ietf-120",
+    "dtime": 1388000,
+    "ptime": 1388000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>queue is locked.  We have 5 minutes.  Be brief.</p>",
+    "topic": "ietf-120",
+    "dtime": 1536000,
+    "ptime": 1536000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Would an operator that adopts this widely be basically explicitly revealing its different throughput limits on different network deployments or subscriber plans?</p>",
+    "topic": "ietf-120",
+    "dtime": 1648000,
+    "ptime": 1648000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Alissa: that is essentially the privacy challenge</p>",
+    "topic": "ietf-120",
+    "dtime": 1671000,
+    "ptime": 1671000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>I’m probably missing something but the hard link to ABR in the charter text seems unnecessary even if it is the most likely use case</p>",
+    "topic": "ietf-120",
+    "dtime": 1677000,
+    "ptime": 1677000
+  },
+  {
+    "author": "Will Law",
+    "text": "<p>\"ABR over QUIC\", is that referring to ABR over HTTP3?</p>",
+    "topic": "ietf-120",
+    "dtime": 1683000,
+    "ptime": 1683000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I guess it's an interesting question whether MoQ is ABR</p>",
+    "topic": "ietf-120",
+    "dtime": 1703000,
+    "ptime": 1703000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Will, I'd expect it would include both HTTP/3 and MoQ.</p>",
+    "topic": "ietf-120",
+    "dtime": 1710000,
+    "ptime": 1710000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Or ABR over MoQ</p>",
+    "topic": "ietf-120",
+    "dtime": 1714000,
+    "ptime": 1714000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The idea that there might be information about what you can afford to pay for being available to additional parties is perhaps uncomfortable.</p>",
+    "topic": "ietf-120",
+    "dtime": 1719000,
+    "ptime": 1719000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>But you can today also observe the rate that the traffic gets throttled to</p>",
+    "topic": "ietf-120",
+    "dtime": 1765000,
+    "ptime": 1765000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Watson: you nailed the brief :)</p>",
+    "topic": "ietf-120",
+    "dtime": 1770000,
+    "ptime": 1770000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>This is about signaling maximum achievable throughput over a time longer than an RTT (i.e., not CC)</p>",
+    "topic": "ietf-120",
+    "dtime": 1797000,
+    "ptime": 1797000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Good Q, Watson</p>",
+    "topic": "ietf-120",
+    "dtime": 1810000,
+    "ptime": 1810000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>mic: folks who are asking q's, please verify we are capturing you aaccurately in the notes</p>",
+    "topic": "ietf-120",
+    "dtime": 1849000,
+    "ptime": 1849000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the fact that <em>some</em> streams within a QUIC flow might be ABR, but others are not, also adds an extra wrinkle (since streams within a QUIC flow are supposed to be indistinguishable to the network operator)</p>",
+    "topic": "ietf-120",
+    "dtime": 1858000,
+    "ptime": 1858000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Well, it seems like there are 3 separate confidentiality challenges: (1) business confidentiality for the operator -- which operators are incentivized to explicitly declare their throughput limits and make it easy for others to pick on them for it? (2) user privacy interest in info about what subscriber plan they can afford, (3) user privacy interest in declaring they are using ABR</p>",
+    "topic": "ietf-120",
+    "dtime": 1900000,
+    "ptime": 1900000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Including complicated cases like watching an ABR video through your MASQUE proxy.</p>",
+    "topic": "ietf-120",
+    "dtime": 1911000,
+    "ptime": 1911000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>dkg: yeah, that is why rate limiting in the network is often a poor choice; perhaps an advantage of this in that the rate limit can be applied at the application layer</p>",
+    "topic": "ietf-120",
+    "dtime": 1920000,
+    "ptime": 1920000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>likewise, if the QUIC client and server negotiate a rotation of the connection ID, do we expect the mechanism to span the two streams?</p>",
+    "topic": "ietf-120",
+    "dtime": 1921000,
+    "ptime": 1921000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124447\">said</a>:</p>\n<blockquote>\n<p>the fact that <em>some</em> streams within a QUIC flow might be ABR, but others are not, also adds an extra wrinkle (since streams within a QUIC flow are supposed to be indistinguishable to the network operator)</p>\n</blockquote>\n<p>Is this actually a problem? Since ultimately this signaling scheme is advisory, and ultimately an HTB-style shaper can still be deployed to prevent the overall flow from exceeding limits?</p>",
+    "topic": "ietf-120",
+    "dtime": 1937000,
+    "ptime": 1937000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Martin: but then what are the semantics of the signal?</p>",
+    "topic": "ietf-120",
+    "dtime": 1940000,
+    "ptime": 1940000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so far we're saying the semantics are about \"this flow\"</p>",
+    "topic": "ietf-120",
+    "dtime": 1951000,
+    "ptime": 1951000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>if we're saying \"you have this much bits over these timescales, govern yourself accordingly\" a lot of this goes away</p>",
+    "topic": "ietf-120",
+    "dtime": 1952000,
+    "ptime": 1952000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>but the network operator doesn't know which flows are which, in the ideal case</p>",
+    "topic": "ietf-120",
+    "dtime": 1968000,
+    "ptime": 1968000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Alissa: seems like a fair analysis, but (3) might not need to be in scope - an operator does not need to know that for certain and we do not need to support signaling of that</p>",
+    "topic": "ietf-120",
+    "dtime": 1983000,
+    "ptime": 1983000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>It is unlikely an operator will not be able to distinguish such flows given CDN topologies.</p>",
+    "topic": "ietf-120",
+    "dtime": 1995000,
+    "ptime": 1995000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>dkg: Watson's last note covers that, I think</p>",
+    "topic": "ietf-120",
+    "dtime": 2012000,
+    "ptime": 2012000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>agreed, but then why associate this with a flow at all?</p>",
+    "topic": "ietf-120",
+    "dtime": 2028000,
+    "ptime": 2028000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>why not add it to DHCP, etc?</p>",
+    "topic": "ietf-120",
+    "dtime": 2033000,
+    "ptime": 2033000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>IETF does lots of stuff with tech policy implications - we just prefer to ignore that in many cases. ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 2051000,
+    "ptime": 2051000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Daniel, because DHCP is not necessarily coming from the entity that's limiting you.</p>",
+    "topic": "ietf-120",
+    "dtime": 2063000,
+    "ptime": 2063000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Does DHCP requires OS modification?</p>",
+    "topic": "ietf-120",
+    "dtime": 2081000,
+    "ptime": 2081000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Mike: so, when i get the signal, how do i know the scope to apply it to?</p>",
+    "topic": "ietf-120",
+    "dtime": 2084000,
+    "ptime": 2084000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>it could also be very dynamic with load</p>",
+    "topic": "ietf-120",
+    "dtime": 2103000,
+    "ptime": 2103000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>And pls do go back on the NN history and read the P2Pi Workshop the IETF held way back when - <a href=\"https://www.rfc-editor.org/rfc/rfc5594.html\">https://www.rfc-editor.org/rfc/rfc5594.html</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2105000,
+    "ptime": 2105000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Because it really on flow level that you want to provide this information and it also is the mist directly way without adding delays to signal this information</p>",
+    "topic": "ietf-120",
+    "dtime": 2119000,
+    "ptime": 2119000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Jason is right, except for the part about all of us preferring to ignore it -- some of us think we need to tackle it head on</p>",
+    "topic": "ietf-120",
+    "dtime": 2121000,
+    "ptime": 2121000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I'm sure there are details in the draft, but my knee-jerk would be the 4-tuple, and if your 4-tuple changes, you might wish to re-query.</p>",
+    "topic": "ietf-120",
+    "dtime": 2148000,
+    "ptime": 2148000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>That arose after the Sandvine P2P issue caused by Comcast in the US (my dayjob) which is arguably the seminal incident in NN in the US.</p>",
+    "topic": "ietf-120",
+    "dtime": 2165000,
+    "ptime": 2165000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Mike: just the 4-tuple, not the 5-tuple?</p>",
+    "topic": "ietf-120",
+    "dtime": 2173000,
+    "ptime": 2173000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p>Mike, that's my initial take on this too. Tie it to the 4-tuple.</p>",
+    "topic": "ietf-120",
+    "dtime": 2188000,
+    "ptime": 2188000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@daniel -- big +1</p>",
+    "topic": "ietf-120",
+    "dtime": 2192000,
+    "ptime": 2192000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>i like the use of the term convergence</p>",
+    "topic": "ietf-120",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Yes the client can re-query anytime, so it’s more on the client to decide what to do</p>",
+    "topic": "ietf-120",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>or are we holding UDP constant?</p>",
+    "topic": "ietf-120",
+    "dtime": 2199000,
+    "ptime": 2199000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>DKG: If we're assuming QUIC then one of the points of the tuple is fixed...</p>",
+    "topic": "ietf-120",
+    "dtime": 2200000,
+    "ptime": 2200000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Charter specific to QUIC</p>",
+    "topic": "ietf-120",
+    "dtime": 2201000,
+    "ptime": 2201000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>If it's a QUIC-specific signal, then UDP is constant.</p>",
+    "topic": "ietf-120",
+    "dtime": 2206000,
+    "ptime": 2206000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so it has nothing to do with the QUIC connection ID?</p>",
+    "topic": "ietf-120",
+    "dtime": 2221000,
+    "ptime": 2221000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>It's not the 4 tuple. If I go from a place where I'm served by multiple beamforming towers to a place where massive oversubscription has happened the IP doesn't change immediately I think but the bwth to shape does</p>",
+    "topic": "ietf-120",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Daniel, I think that's something the WG would need to hash out.</p>",
+    "topic": "ietf-120",
+    "dtime": 2265000,
+    "ptime": 2265000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Watson: but traditional CC would handle that, I wouldn't think today's shapers would?  This doesn't mean you can stop doing standard CC.</p>",
+    "topic": "ietf-120",
+    "dtime": 2300000,
+    "ptime": 2300000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I don't understand why the charter should be specific to QUIC, ABR is going to work over H1 and H2 too?</p>",
+    "topic": "ietf-120",
+    "dtime": 2308000,
+    "ptime": 2308000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>CC does, but I'm not sure what the shaper is supposed to be doing</p>",
+    "topic": "ietf-120",
+    "dtime": 2332000,
+    "ptime": 2332000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Alex: I think because injecting things into TLS-encrypted TCP that can be seen by applications would be seriously non-trivial?</p>",
+    "topic": "ietf-120",
+    "dtime": 2345000,
+    "ptime": 2345000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span aria-label=\"wait one second\" class=\"emoji emoji-261d\" role=\"img\" title=\"wait one second\">:wait_one_second:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 2363000,
+    "ptime": 2363000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>basically why do networks need shapers: only reason i can think of is CC is too corse, but that's got to be with some bottleneck</p>",
+    "topic": "ietf-120",
+    "dtime": 2363000,
+    "ptime": 2363000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Because we believe we can develop a solution that is Quic specific</p>",
+    "topic": "ietf-120",
+    "dtime": 2368000,
+    "ptime": 2368000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>+1 to Glenn’s point about making ABR an example not the specific use case</p>",
+    "topic": "ietf-120",
+    "dtime": 2377000,
+    "ptime": 2377000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>i just don't know enough about this</p>",
+    "topic": "ietf-120",
+    "dtime": 2382000,
+    "ptime": 2382000
+  },
+  {
+    "author": "Daniel Fay",
+    "text": "<p>+1 Glenn</p>",
+    "topic": "ietf-120",
+    "dtime": 2390000,
+    "ptime": 2390000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>I have no problem to limit the solution to a an arbitrary subset of application scenarios such as \"only QUIC\" if this helps to limit the overall scope of getting it running. After all, i think this ultimately starts out as experiments, and if the WG feels it can easily be expanded, then this can easily be done through later rechartering.</p>",
+    "topic": "ietf-120",
+    "dtime": 2430000,
+    "ptime": 2430000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124511\">said</a>:</p>\n<blockquote>\n<p>Alex: I think because injecting things into TLS-encrypted TCP that can be seen by applications would be seriously non-trivial?</p>\n</blockquote>\n<p>This is because of the on-path requirement?</p>",
+    "topic": "ietf-120",
+    "dtime": 2437000,
+    "ptime": 2437000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Watson: these are rate-limits by policy, not rate-limits by network topology.</p>",
+    "topic": "ietf-120",
+    "dtime": 2453000,
+    "ptime": 2453000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>Jon: and everyone would be happier not to ask about what the policy is?</p>",
+    "topic": "ietf-120",
+    "dtime": 2519000,
+    "ptime": 2519000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>sorry, why</p>",
+    "topic": "ietf-120",
+    "dtime": 2536000,
+    "ptime": 2536000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>to ask who?</p>",
+    "topic": "ietf-120",
+    "dtime": 2567000,
+    "ptime": 2567000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>well, the networks</p>",
+    "topic": "ietf-120",
+    "dtime": 2604000,
+    "ptime": 2604000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Surely this ought to work irrespective of whether the rate limit is due to policy  or network topology?</p>",
+    "topic": "ietf-120",
+    "dtime": 2620000,
+    "ptime": 2620000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>again, who is that?</p>",
+    "topic": "ietf-120",
+    "dtime": 2622000,
+    "ptime": 2622000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>part of me thinks \"you need to treat this traffic differently, maybe we need to figure out a better mechanism to avoid the problems\"</p>",
+    "topic": "ietf-120",
+    "dtime": 2627000,
+    "ptime": 2627000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>#2 says client initiates \"something\" and the network replies on that same something.</p>",
+    "topic": "ietf-120",
+    "dtime": 2639000,
+    "ptime": 2639000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>noodling: if I'm a client and I get a signal of a bandwidth limit via QUIC, am I not allowed to assume that might apply to a TCP flow?</p>",
+    "topic": "ietf-120",
+    "dtime": 2642000,
+    "ptime": 2642000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Your'e allowed to, since it's advisory, but it's less clear if that information is relevant to a TCP flow</p>",
+    "topic": "ietf-120",
+    "dtime": 2719000,
+    "ptime": 2719000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>agree</p>",
+    "topic": "ietf-120",
+    "dtime": 2734000,
+    "ptime": 2734000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I'm uncomfortable about this being limited to QUIC only, despite being a QUIC enthusiast.</p>",
+    "topic": "ietf-120",
+    "dtime": 2751000,
+    "ptime": 2751000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>exactly for these sorts of questions</p>",
+    "topic": "ietf-120",
+    "dtime": 2758000,
+    "ptime": 2758000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>If the WG is \"going to have to work it out\", then it doesn't belong in the charter.</p>",
+    "topic": "ietf-120",
+    "dtime": 2776000,
+    "ptime": 2776000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Connection is precise, but QUIC has a goal that the network can't definitively map flows to connections.</p>",
+    "topic": "ietf-120",
+    "dtime": 2837000,
+    "ptime": 2837000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>I don't get it ... Just because we think a solution would equally apply to TCP does not mean we would ultimately not spend more time initially to work this out more generically.</p>",
+    "topic": "ietf-120",
+    "dtime": 2871000,
+    "ptime": 2871000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Making this QUIC-specific seems unnecessary</p>",
+    "topic": "ietf-120",
+    "dtime": 2948000,
+    "ptime": 2948000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>limiting it to QUIC and then deliberately trying to break one of QUIC's design goals (of flow indistinguishability) seems deeply weird</p>",
+    "topic": "ietf-120",
+    "dtime": 2960000,
+    "ptime": 2960000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>What is the purpose of this part of the agenda? Just to let us read the charter?</p>",
+    "topic": "ietf-120",
+    "dtime": 3008000,
+    "ptime": 3008000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>You don’t have to identify a Quic flow as the client request or re-requests this information. But limiting to Quic enables a different solution space.</p>",
+    "topic": "ietf-120",
+    "dtime": 3020000,
+    "ptime": 3020000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Pete, to make sure everyone agrees what the proposed charter currently says, before we argue about changing it. ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 3052000,
+    "ptime": 3052000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>I wonder if a mobile operator would change what rate they communicate when the user device transitions from 5G to home WiFi? (especially since 70-90% of \"mobile\" network bits are over WiFi.</p>",
+    "topic": "ietf-120",
+    "dtime": 3170000,
+    "ptime": 3170000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p>Without identifying a flow, how can the network device how many flows there are? Without knowing that number, how can the network device provide a per-flow upper limit? If it’s not a per-flow limit, how can it be useful to a flow?</p>",
+    "topic": "ietf-120",
+    "dtime": 3225000,
+    "ptime": 3225000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>In your home WiFi the mobile operator is not on path anymore</p>",
+    "topic": "ietf-120",
+    "dtime": 3251000,
+    "ptime": 3251000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>unless your home WiFi uses a backhaul via a cellular modem</p>",
+    "topic": "ietf-120",
+    "dtime": 3275000,
+    "ptime": 3275000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>is there a \"TCP-style security\" directorate at the IETF?</p>",
+    "topic": "ietf-120",
+    "dtime": 3344000,
+    "ptime": 3344000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>If you move to a different network a different rate guidance can make sense as it friends on the network properties</p>",
+    "topic": "ietf-120",
+    "dtime": 3359000,
+    "ptime": 3359000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> That goes to my earlier confusion: How far along the path is this going to be used?</p>",
+    "topic": "ietf-120",
+    "dtime": 3362000,
+    "ptime": 3362000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i share your confusion, Pete</p>",
+    "topic": "ietf-120",
+    "dtime": 3374000,
+    "ptime": 3374000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>to my mind it would be at the box that used to be a shaper</p>",
+    "topic": "ietf-120",
+    "dtime": 3379000,
+    "ptime": 3379000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Michael: i assume that the goal is to really help avoid the self-unfriendlyness of multiple competing ABR connections - as soon as the number of connections on the congestion point changes, we may need to change signaling anyhow. But yes, the charter is solely unhelpful here</p>",
+    "topic": "ietf-120",
+    "dtime": 3392000,
+    "ptime": 3392000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124588\">said</a>:</p>\n<blockquote>\n<p>I wonder if a mobile operator would change what rate they communicate when the user device transitions from 5G to home WiFi? (especially since 70-90% of \"mobile\" network bits are over WiFi.</p>\n</blockquote>",
+    "topic": "ietf-120",
+    "dtime": 3497000,
+    "ptime": 3497000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p>Toerless: I also assume that this is the goal. But pulling this off without identifying connections or flows seems impossible to me.</p>",
+    "topic": "ietf-120",
+    "dtime": 3509000,
+    "ptime": 3509000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>I'm quite concerned about the security / privacy aspects. I doubt the signal is going to be as simple as a low-entropy enum. This means that particular video services will have identifying signals. </p>\n<p>We probably do not want to leak that to anything other than the client (ideally). The cafe's wifi network don't need to know I'm browsing a particular video streaming service.</p>",
+    "topic": "ietf-120",
+    "dtime": 3513000,
+    "ptime": 3513000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>would advertising the shape unconditionally be enough?</p>",
+    "topic": "ietf-120",
+    "dtime": 3545000,
+    "ptime": 3545000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>watson: who advertises, the network or the client?</p>",
+    "topic": "ietf-120",
+    "dtime": 3569000,
+    "ptime": 3569000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>MIchael: solution in router counts quic connections, divides outgoing interface by that number, signals result to connection receivers. This then seeds the still proprietary/secretive ABR bursy algos in the receivers (aka: that part i still hate - should be better standardized too).</p>",
+    "topic": "ietf-120",
+    "dtime": 3591000,
+    "ptime": 3591000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>I understood that the network advertises on a per-flow basis. Netflix may have paid for special shaping properties compared to other providers.</p>",
+    "topic": "ietf-120",
+    "dtime": 3619000,
+    "ptime": 3619000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2103\">Dennis Jackson</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124618\">said</a>:</p>\n<blockquote>\n<p>I understood that the network advertises on a per-flow basis. Netflix may have paid for special shaping properties compared to other providers.</p>\n</blockquote>\n<p>This is revealed by the destination IP address anyway.</p>",
+    "topic": "ietf-120",
+    "dtime": 3671000,
+    "ptime": 3671000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124588\">said</a>:</p>\n<blockquote>\n<p>I wonder if a mobile operator would change what rate they communicate when the user device transitions from 5G to home WiFi? (especially since 70-90% of \"mobile\" network bits are over WiFi.</p>\n</blockquote>\n<p>Does the mobile operator own the home WiFi? If so, yes. If not, SCONEPRO is per-path information, and if you change paths that also change providers, the mobile operator wouldn't know what's possible, would they?</p>",
+    "topic": "ietf-120",
+    "dtime": 3672000,
+    "ptime": 3672000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Dennis: sure, we can make it arbitrarily more complex. FOr example, i want my 4K in the living room, and not get stripped down to 1080p because of my kids tablets. Which are on netflix. and i am on HBO... or the like...</p>",
+    "topic": "ietf-120",
+    "dtime": 3673000,
+    "ptime": 3673000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p>Toerless: right. But then the router identifies flows. I have no problem with that, but  I thought it was said that this isn’t necessary or planned.</p>",
+    "topic": "ietf-120",
+    "dtime": 3720000,
+    "ptime": 3720000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<blockquote>\n<p>Does the mobile operator own the home WiFi? If so, yes. If not, SCONEPRO is per-path information, and if you change paths that also change providers, the mobile operator wouldn't know what's possible, would they?</p>\n</blockquote>\n<p>Yes, in most cases the MNO SSID is added via carrier settings for example, so the device will auto-switch over to the carrier SSID when it is nearby.</p>",
+    "topic": "ietf-120",
+    "dtime": 3748000,
+    "ptime": 3748000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p>flows or connections, sorry if i mix up terminology</p>",
+    "topic": "ietf-120",
+    "dtime": 3786000,
+    "ptime": 3786000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Shaping today doesn’t depend on the current number of flows. You rather shape to a pre-configured rate in places where it’s most likely helpful to leave more capacity to all other kind of flows of all other users.</p>",
+    "topic": "ietf-120",
+    "dtime": 3805000,
+    "ptime": 3805000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Is it expected that the network-imposed limits can change dynamically over an unchanging flow?</p>",
+    "topic": "ietf-120",
+    "dtime": 3807000,
+    "ptime": 3807000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Michael: my clarification about the charter solution slide was explicitly whether ther was the assumption of per-flow awareness/operation. And the solution slide even describes per-flow operation.</p>",
+    "topic": "ietf-120",
+    "dtime": 3807000,
+    "ptime": 3807000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>flow = QUIC connection</p>",
+    "topic": "ietf-120",
+    "dtime": 3815000,
+    "ptime": 3815000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<blockquote>\n<p>In your home WiFi the mobile operator is not on path anymore</p>\n</blockquote>\n<p>That is not always the case (especially for many MVNOs and MNOs).</p>",
+    "topic": "ietf-120",
+    "dtime": 3830000,
+    "ptime": 3830000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Toerless, the point of argument is that a QUIC connection comprises multiple flows.</p>",
+    "topic": "ietf-120",
+    "dtime": 3844000,
+    "ptime": 3844000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124630\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>Does the mobile operator own the home WiFi? If so, yes. If not, SCONEPRO is per-path information, and if you change paths that also change providers, the mobile operator wouldn't know what's possible, would they?</p>\n</blockquote>\n<p>Yes, in most cases the MNO SSID is added via carrier settings for example, so the device will auto-switch over to the carrier SSID when it is nearby.</p>\n</blockquote>\n<p>So, in theory the MNO would know what a reasonable estimate would be for the new path, and would provide the network properties for the new path.</p>",
+    "topic": "ietf-120",
+    "dtime": 3845000,
+    "ptime": 3845000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>+1 Tom: i want all my control loops to know the goal</p>",
+    "topic": "ietf-120",
+    "dtime": 3880000,
+    "ptime": 3880000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Mike: yes, sorry, that's just me having just used the term flow for 20 years before QUIC. I shall only say \"QUIC connection\" in SCONEPRO now ;-))</p>",
+    "topic": "ietf-120",
+    "dtime": 3880000,
+    "ptime": 3880000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@spencer - I think so, yes. Just trying to make sure we cover those user cases.</p>",
+    "topic": "ietf-120",
+    "dtime": 3885000,
+    "ptime": 3885000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Toerless, on the contrary, I think there's a good discussion here about which of those we want. The network isn't supposed to be able to identify which flows belong to the same connection.</p>",
+    "topic": "ietf-120",
+    "dtime": 3942000,
+    "ptime": 3942000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>One challnge will be how to deal with arbitrary non-scone flows on the congestion point. I guess that could be operator policy and appropriate scheduling configs/policies.</p>",
+    "topic": "ietf-120",
+    "dtime": 3955000,
+    "ptime": 3955000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>I don't understand why I was told to sit down for reiterating a request for clarification on the charter?</p>",
+    "topic": "ietf-120",
+    "dtime": 3963000,
+    "ptime": 3963000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>because it's a topic for the discussion on the charter thing coming up. There's definitely some overlap</p>",
+    "topic": "ietf-120",
+    "dtime": 3990000,
+    "ptime": 3990000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Respect ur elders, and ur congestion controllers. <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 4006000,
+    "ptime": 4006000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I've found the split in the agenda challenging to navigate.</p>",
+    "topic": "ietf-120",
+    "dtime": 4007000,
+    "ptime": 4007000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Mike: Ok, i shall from now on say \"unit of SCONEPRO policy\", and i'll let it up to QUIC experts to figure out if thats even undesirable to do with QUIC ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 4021000,
+    "ptime": 4021000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Definitely feels like some topics were going into discussion but continued, and others were asked to return later.</p>",
+    "topic": "ietf-120",
+    "dtime": 4034000,
+    "ptime": 4034000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>The delineation between clarifications and discussions isn't very obvious</p>",
+    "topic": "ietf-120",
+    "dtime": 4057000,
+    "ptime": 4057000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>the skill is to make a speech appear to be a clarifying question:-)</p>",
+    "topic": "ietf-120",
+    "dtime": 4085000,
+    "ptime": 4085000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>IETF BOF jeopardy</p>",
+    "topic": "ietf-120",
+    "dtime": 4111000,
+    "ptime": 4111000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Make we can just move on to the next agenda item?</p>",
+    "topic": "ietf-120",
+    "dtime": 4132000,
+    "ptime": 4132000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Good Q on the bandwidth up &amp; down being different - glad it is going to be addressed in the charter.</p>",
+    "topic": "ietf-120",
+    "dtime": 4145000,
+    "ptime": 4145000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>+1 Mo</p>",
+    "topic": "ietf-120",
+    "dtime": 4145000,
+    "ptime": 4145000
+  },
+  {
+    "author": "Mark McFadden",
+    "text": "<p>@Mirja +1</p>",
+    "topic": "ietf-120",
+    "dtime": 4177000,
+    "ptime": 4177000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>We know what a protocol is when we see it ...</p>",
+    "topic": "ietf-120",
+    "dtime": 4225000,
+    "ptime": 4225000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Would <span class=\"user-mention\" data-user-id=\"106\">@Toerless Eckert</span> prefer \"technical specification\" to \"protocol\"?</p>",
+    "topic": "ietf-120",
+    "dtime": 4245000,
+    "ptime": 4245000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Protocol is the mechanism and an encoding</p>",
+    "topic": "ietf-120",
+    "dtime": 4256000,
+    "ptime": 4256000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>I think Gory explained it best</p>",
+    "topic": "ietf-120",
+    "dtime": 4274000,
+    "ptime": 4274000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>aka: i could imagine SCONEPRO to be just something like ECN at a longer timescale.</p>",
+    "topic": "ietf-120",
+    "dtime": 4316000,
+    "ptime": 4316000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I think both \"flow\" and \"connection\" technically mean something in QUIC that isn't what this protocol is trying to target.</p>",
+    "topic": "ietf-120",
+    "dtime": 4410000,
+    "ptime": 4410000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>so now is the later for all the discussion bits?</p>",
+    "topic": "ietf-120",
+    "dtime": 4457000,
+    "ptime": 4457000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>I believe so</p>",
+    "topic": "ietf-120",
+    "dtime": 4466000,
+    "ptime": 4466000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>there was no good signaling for this agenda item transition.</p>",
+    "topic": "ietf-120",
+    "dtime": 4511000,
+    "ptime": 4511000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Should there have been a WWE style bell?</p>",
+    "topic": "ietf-120",
+    "dtime": 4528000,
+    "ptime": 4528000
+  },
+  {
+    "author": "Alan Jowett",
+    "text": "<p>Isn't this reporting on the network path rather than a specific flow?</p>",
+    "topic": "ietf-120",
+    "dtime": 4554000,
+    "ptime": 4554000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>great question Alan: might be worth joining line for</p>",
+    "topic": "ietf-120",
+    "dtime": 4611000,
+    "ptime": 4611000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Application does not know which network path it goes</p>",
+    "topic": "ietf-120",
+    "dtime": 4690000,
+    "ptime": 4690000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@Alan I think that’s right, and if so it’s not obvious why it’s focusing specifically on ABR + QUIC</p>",
+    "topic": "ietf-120",
+    "dtime": 4703000,
+    "ptime": 4703000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I think DKG is pointed out the right issues. The charter should not imply anything about breaking the privacy of QUIC.</p>",
+    "topic": "ietf-120",
+    "dtime": 4707000,
+    "ptime": 4707000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>are we still in the clarifying bit?</p>",
+    "topic": "ietf-120",
+    "dtime": 4748000,
+    "ptime": 4748000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>I think we want a stronger indistinguishibility property. We would like the network to send a signal. We don't want the network to know whether the client even understood the signal.</p>",
+    "topic": "ietf-120",
+    "dtime": 4749000,
+    "ptime": 4749000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"231\">@Mark Nottingham</span> Nope</p>",
+    "topic": "ietf-120",
+    "dtime": 4764000,
+    "ptime": 4764000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>ah thx</p>",
+    "topic": "ietf-120",
+    "dtime": 4770000,
+    "ptime": 4770000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Dennis: I think a mechanism that included the ability for the client to say \"I will consume this signal\" would be okay.  (This is something which presumably the network could tell  anywaybased on whether the traffic on the path tries to exceed the signaled rate.)</p>",
+    "topic": "ietf-120",
+    "dtime": 4840000,
+    "ptime": 4840000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>ABR is the use case but I don’t think this will be specific for the solution. At the end a client requests a rate for some ongoing traffic at that point of time and that’s it. The part limiting the scope is that this traffic is assumed to use Quic because that part gives us choices for the solution.</p>",
+    "topic": "ietf-120",
+    "dtime": 4845000,
+    "ptime": 4845000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Jonathan: I'm not sure why that is necessary or desirable</p>",
+    "topic": "ietf-120",
+    "dtime": 4882000,
+    "ptime": 4882000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>The most privacy preserving mechanism would seem to be a single 1-shot message from network to client.</p>",
+    "topic": "ietf-120",
+    "dtime": 4928000,
+    "ptime": 4928000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Dennis: I'm not sure whether it is either, but that seems like it should be a WG choice not a charter choice.</p>",
+    "topic": "ietf-120",
+    "dtime": 4938000,
+    "ptime": 4938000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Isn't there  a risk that the same 4 tuple might be used for other-than-video traffic, which is a different scope, no?  If you have something like generic front end (GFE) that serves both media and say, other kinds of application?</p>",
+    "topic": "ietf-120",
+    "dtime": 4964000,
+    "ptime": 4964000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so now we're encouraging implementations to deliberately disaggregate their ABR data from non-ABR data so that the network can distinguish them?</p>",
+    "topic": "ietf-120",
+    "dtime": 4979000,
+    "ptime": 4979000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>if a 1-shot thing as Dennis mentioned can work, then it'd be the right answer I reckon. If that cannot work, then that should be explained at charter time</p>",
+    "topic": "ietf-120",
+    "dtime": 4984000,
+    "ptime": 4984000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>it's a bag of bits, and the client can break that bag up how it wants</p>",
+    "topic": "ietf-120",
+    "dtime": 4993000,
+    "ptime": 4993000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Jonathan: I am only mentioning it because it might mitigate DKG's concerns at this stage.</p>",
+    "topic": "ietf-120",
+    "dtime": 4998000,
+    "ptime": 4998000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Daniel, Ted: both of those are true today with the existing solution here, shaping/policing. If an application doens't want non-video targeted, they have to put it on separate tuples with separate SNIs</p>",
+    "topic": "ietf-120",
+    "dtime": 5019000,
+    "ptime": 5019000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>A 1-shot thing wouldn't allow the network to change its policy dynamically. I don't know whether that's something that's desired or not.</p>",
+    "topic": "ietf-120",
+    "dtime": 5031000,
+    "ptime": 5031000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>When I say 1-shot, I mean its just a message from network to client. The network can re-trigger that message whenever it likes to update things</p>",
+    "topic": "ietf-120",
+    "dtime": 5064000,
+    "ptime": 5064000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>ok then let the n/w take 2 shots</p>",
+    "topic": "ietf-120",
+    "dtime": 5065000,
+    "ptime": 5065000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Nobody in the home can start or stop new videos, or else SCONEPRO would get confused/wrong</p>",
+    "topic": "ietf-120",
+    "dtime": 5070000,
+    "ptime": 5070000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>I think <span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> is pointing out good points.  We may need to give up on some things to retain the QUIC privacy properties (eg, any multi-path behavior must be handled by the client, not by the network).<br>\nTo some degree, we may also need clients sometimes asking for this information even if they aren't doing video so as to add chaff (ie, as otherwise networks will know that a four-tuple is connected with video).</p>\n<p>Four-tuple makes sense as the on-flow networks already have visibility to this.</p>",
+    "topic": "ietf-120",
+    "dtime": 5100000,
+    "ptime": 5100000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>I think the key issue is whether the client signals \"Tell me something\" or \"I understood something\" or nothing at all. I would advocate for nothing at all, unless its impossible.</p>",
+    "topic": "ietf-120",
+    "dtime": 5101000,
+    "ptime": 5101000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>+1 to dennis</p>",
+    "topic": "ietf-120",
+    "dtime": 5121000,
+    "ptime": 5121000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>i can really only make out useful new information from something like the congestion point bandwidth reserved for sconepro traffic divided by the number of flows.</p>",
+    "topic": "ietf-120",
+    "dtime": 5124000,
+    "ptime": 5124000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Matt doesn't that go to the point I was making on the list--distinguish the paths to get the data down to something that can be shared more generically?</p>",
+    "topic": "ietf-120",
+    "dtime": 5128000,
+    "ptime": 5128000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Is a possible side effect or risk of the protocol is that an access network might be tempted to slow investment in additional capacity since they can rely on this to ensure good video QoE?</p>",
+    "topic": "ietf-120",
+    "dtime": 5130000,
+    "ptime": 5130000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>dennis -- which network gets to send that 1-shot message?</p>",
+    "topic": "ietf-120",
+    "dtime": 5130000,
+    "ptime": 5130000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>dkg: all of them. The client does what it likes with that info.</p>",
+    "topic": "ietf-120",
+    "dtime": 5144000,
+    "ptime": 5144000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I don't think Q is permitted to write that draft, within this charter</p>",
+    "topic": "ietf-120",
+    "dtime": 5156000,
+    "ptime": 5156000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>dkg: We can enforce that they are on-path networks by binding to an element from the QUIC con.</p>",
+    "topic": "ietf-120",
+    "dtime": 5162000,
+    "ptime": 5162000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>The charter requires binding to the flow, not the path.</p>",
+    "topic": "ietf-120",
+    "dtime": 5170000,
+    "ptime": 5170000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Matt (I was also seeing of citing the GFE in particular woke up any specific folks in the room)</p>",
+    "topic": "ietf-120",
+    "dtime": 5174000,
+    "ptime": 5174000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Ben: all drafts are permissible, whether the WG takes them is a different question.</p>",
+    "topic": "ietf-120",
+    "dtime": 5195000,
+    "ptime": 5195000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>s/of citing/if citing/</p>",
+    "topic": "ietf-120",
+    "dtime": 5198000,
+    "ptime": 5198000
+  },
+  {
+    "author": "Zaheduzzaman Sarker",
+    "text": "<p>@Jason, can you ellaborate why you thought about the side effect?</p>",
+    "topic": "ietf-120",
+    "dtime": 5206000,
+    "ptime": 5206000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Dennis: it would be stronger to prove \"I can modify the traffic on the path\" rather than \"I can see the traffic on the path\", but I don't know if that's desireable otherwise.</p>",
+    "topic": "ietf-120",
+    "dtime": 5226000,
+    "ptime": 5226000
+  },
+  {
+    "author": "Dan Wing",
+    "text": "<p>the \"one shot\" (which is actually \"NNN shots\") is described at <a href=\"https://datatracker.ietf.org/doc/draft-brw-sconepro-rate-policy-discovery\">https://datatracker.ietf.org/doc/draft-brw-sconepro-rate-policy-discovery</a></p>",
+    "topic": "ietf-120",
+    "dtime": 5254000,
+    "ptime": 5254000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>i imagined leaving space in a quic packet to write in this data</p>",
+    "topic": "ietf-120",
+    "dtime": 5255000,
+    "ptime": 5255000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@ZaheduzzamanSarker because some operators will look for any reason to slow capacity spending</p>",
+    "topic": "ietf-120",
+    "dtime": 5299000,
+    "ptime": 5299000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>The way the charter is currently worded suggests to me that it is trying to solve the problem that hiding traffic characteristics from the network operator can have an adverse impact on performance, including of the traffic being obscured.  Is that the case?</p>",
+    "topic": "ietf-120",
+    "dtime": 5352000,
+    "ptime": 5352000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>I missed joining the queue. Have protocols like IPPM been reviewed for feasibility to solve this problem? IPPM is used by network operators to assess the network and it's properties (congestion control, availability, etc.) separate from any connection. It can follow the path without using the traffic of the client.</p>",
+    "topic": "ietf-120",
+    "dtime": 5354000,
+    "ptime": 5354000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Dan: Interesting. I haven't read it - but I would like to encrypt that 1-shot based on the QUIC flow - so it isn't visible to intermediaries</p>",
+    "topic": "ietf-120",
+    "dtime": 5363000,
+    "ptime": 5363000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124768\">said</a>:</p>\n<blockquote>\n<p>Is a possible side effect or risk of the protocol is that an access network might be tempted to slow investment in additional capacity since they can rely on this to ensure good video QoE?</p>\n</blockquote>\n<p>I think that this is only about making ABR work a bit better. If an access network operator can get what it needs for ABR traffic now, maybe it doesn't need additional capacity yet, and if it tries to use SCONEPRO to limit bandwidth for ABR traffic to below video quality being \"good enough\", that would not be a smart thing to do. </p>\n<p>Does that make sense?</p>",
+    "topic": "ietf-120",
+    "dtime": 5389000,
+    "ptime": 5389000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>dennis - wanting to encrypt that may imply bad properties though</p>",
+    "topic": "ietf-120",
+    "dtime": 5392000,
+    "ptime": 5392000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>as in key mgmt needed involving client and random n/w element</p>",
+    "topic": "ietf-120",
+    "dtime": 5419000,
+    "ptime": 5419000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I like what <span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> just said. Put <em>that</em> bit in the charter.</p>",
+    "topic": "ietf-120",
+    "dtime": 5453000,
+    "ptime": 5453000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Stephen: Dumb idea: HPKE public key in the client hello. Networks encrypt to that. Not saying its at all good or workable. But avoids most of the key management challenges I think</p>",
+    "topic": "ietf-120",
+    "dtime": 5474000,
+    "ptime": 5474000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>(as a QUIC extension)</p>",
+    "topic": "ietf-120",
+    "dtime": 5488000,
+    "ptime": 5488000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Otherwise yeah, hard to do in a way that protects things from the intermediary networks</p>",
+    "topic": "ietf-120",
+    "dtime": 5516000,
+    "ptime": 5516000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Mike's formulation is at least significantly more coherent than the current text</p>",
+    "topic": "ietf-120",
+    "dtime": 5540000,
+    "ptime": 5540000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>(and even the HPKE thing is actively spoofable, just not passively revealable)</p>",
+    "topic": "ietf-120",
+    "dtime": 5547000,
+    "ptime": 5547000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I guess one could get unauthenticated confd from n/w element to client if they sent a new static(ish) DH share to the n/w - would the complexity be worth it?</p>",
+    "topic": "ietf-120",
+    "dtime": 5567000,
+    "ptime": 5567000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Good point from @mo on operator practicea</p>",
+    "topic": "ietf-120",
+    "dtime": 5567000,
+    "ptime": 5567000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Regarding Lars's point, I would be comfortable with \"IP address pair that carries QUIC\" instead of 4-tuple, if that's what people want</p>",
+    "topic": "ietf-120",
+    "dtime": 5570000,
+    "ptime": 5570000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>This is really not about the 4 tuple.  If you think that a provider of content can't use two different v6 addresses for different pieces of the video in order to get past this, I would like to understand what stops that.  The same thing that caused people to split HTTP into multiple TCP connections could easily happen hear <em>if this is adversarial</em>.</p>",
+    "topic": "ietf-120",
+    "dtime": 5587000,
+    "ptime": 5587000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2103\">Dennis Jackson</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124813\">said</a>:</p>\n<blockquote>\n<p>(and even the HPKE thing is actively spoofable, just not passively revealable)</p>\n</blockquote>\n<p>The local network can also just recapitulate it if they want to know, so the encryption really isn't accomplishing much.</p>",
+    "topic": "ietf-120",
+    "dtime": 5590000,
+    "ptime": 5590000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Stephen: Yeah. Agree I don't know the answer.</p>",
+    "topic": "ietf-120",
+    "dtime": 5591000,
+    "ptime": 5591000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Martin: how does that work across a NAT?</p>",
+    "topic": "ietf-120",
+    "dtime": 5593000,
+    "ptime": 5593000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>a static(ish) DH share would also be a bit fingerprinty</p>",
+    "topic": "ietf-120",
+    "dtime": 5595000,
+    "ptime": 5595000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Jason, neither you nor mo speak for all operators on what they would or would not be willing to do though, which is important to note</p>",
+    "topic": "ietf-120",
+    "dtime": 5599000,
+    "ptime": 5599000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>To some degree, how isn't this even something that could be done with ICMP(v6)?  (This seems harder than PMTUD and we've struggled to solve that usefully.)</p>\n<p>This discussion is starting to make me worry about tractability, especially once we have the conflicting trade-offs of preserving privacy and handling the various cases (eg, multiple endpoints vs a single endpoint making multiple connections, etc).</p>",
+    "topic": "ietf-120",
+    "dtime": 5646000,
+    "ptime": 5646000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124819\">said</a>:</p>\n<blockquote>\n<p>This is really not about the 4 tuple.  If you think that a provider of content can't use two different v6 addresses for different pieces of the video in order to get past this, I would like to understand what stops that.  The same thing that caused people to split HTTP into multiple TCP connections could easily happen hear <em>if this is adversarial</em>.</p>\n</blockquote>\n<p>It's not.  It's a technical mechanism to support an honor system among parties with social relationships.</p>",
+    "topic": "ietf-120",
+    "dtime": 5656000,
+    "ptime": 5656000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I don't think we need that level of security. This is information the path elements will provide to anyone who asks. QUIC and ICMP have plenty of things that \"authenticate\" by echoing back a nonce from the triggering packet.</p>",
+    "topic": "ietf-120",
+    "dtime": 5681000,
+    "ptime": 5681000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>+1 to Stephen</p>",
+    "topic": "ietf-120",
+    "dtime": 5681000,
+    "ptime": 5681000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>That limits the utility of this pretty severely, no?  And it absoutely  means the shapers never go away.</p>",
+    "topic": "ietf-120",
+    "dtime": 5709000,
+    "ptime": 5709000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Erik: the most complex reason IMHO would be like in ECN that you may have two or more consecutive contention points along the path and each one would need to be able to lower the SCONEPRO answer to the client</p>",
+    "topic": "ietf-120",
+    "dtime": 5718000,
+    "ptime": 5718000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124830\">said</a>:</p>\n<blockquote>\n<p>To some degree, how isn't this even something that could be done with ICMP(v6)?  (This seems harder than PMTUD and we've struggled to solve that usefully.)</p>\n<p>This discussion is starting to make me worry about tractability, especially once we have the conflicting trade-offs of preserving privacy and handling the various cases (eg, multiple endpoints vs a single endpoint making multiple connections, etc).</p>\n</blockquote>\n<p>Yes, but it's in UDP for the same reason as DPLPMTUD.</p>",
+    "topic": "ietf-120",
+    "dtime": 5727000,
+    "ptime": 5727000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"147\">Mike Bishop</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124833\">said</a>:</p>\n<blockquote>\n<p>I don't think we need that level of security. This is information the path elements will provide to anyone who asks. QUIC and ICMP have plenty of things that \"authenticate\" by echoing back a nonce from the triggering packet.</p>\n</blockquote>\n<p>If we're going with that design why not remove the QUIC restriction, have something in the clear (be it TCP extension, AD data in TLS or QUIC) and have an ICMP-style response with that nonce and the information about target bitrates be encoded?</p>",
+    "topic": "ietf-120",
+    "dtime": 5752000,
+    "ptime": 5752000
+  },
+  {
+    "author": "Dan Wing",
+    "text": "<blockquote>\n<p>And it absoutely means the shapers never go away.</p>\n</blockquote>\n<p>The client could indicate \"I attest this flow conforms to the signaled limits\", which is exactly what occurs today with the Ericsson+Facebook mechanism using MASQUE, where using MASQUE is the signal of conformity.</p>",
+    "topic": "ietf-120",
+    "dtime": 5788000,
+    "ptime": 5788000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>This is not about available bandwidth, they are shaping flows.  It's not the same thing.</p>",
+    "topic": "ietf-120",
+    "dtime": 5796000,
+    "ptime": 5796000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Alex: i also don't see why the mechanism needs to be QUIC specific, but i think the WG may save overall work by limiting the overal solution validation first to QUIC use-cases</p>",
+    "topic": "ietf-120",
+    "dtime": 5808000,
+    "ptime": 5808000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Alex: I think at 119 someone commented that ICMP would engineering-wise be the best connection if there were ways to consistently get it up to the applications on all OS's, but unfortunately that's not generally possible.</p>",
+    "topic": "ietf-120",
+    "dtime": 5854000,
+    "ptime": 5854000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>*Best solution</p>",
+    "topic": "ietf-120",
+    "dtime": 5868000,
+    "ptime": 5868000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<blockquote>\n<p>Jason, neither you nor mo speak for all operators on what they would or would not be willing to do though, which is important to note</p>\n</blockquote>\n<p>Agree. But Ouch.</p>",
+    "topic": "ietf-120",
+    "dtime": 5882000,
+    "ptime": 5882000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Re: Mo's comment, someone from YouTube at 119 indicated that operators <em>do</em> shape more gently on flows that have agreed to abide by the network limit.</p>",
+    "topic": "ietf-120",
+    "dtime": 5912000,
+    "ptime": 5912000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>if we really get into an onpath signaling, i would hate if we would only do a \"signal into UDP header\". If the WG wants to do this as a short-term workaround fine, but correctly, such on-path signaling should go into an IPv6 extension header</p>",
+    "topic": "ietf-120",
+    "dtime": 5940000,
+    "ptime": 5940000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>IIRC, the same limit is applied, but it's applied over larger timescales, allowing them to make large fetches and then idle the radio.</p>",
+    "topic": "ietf-120",
+    "dtime": 5945000,
+    "ptime": 5945000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Is there a reason we wouldn't then do something that parallels DPLPMTUD?  (Which would fit in with the UDP four-tuple)<br>\nCan we really do any better?</p>",
+    "topic": "ietf-120",
+    "dtime": 5992000,
+    "ptime": 5992000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>+1  Marten</p>",
+    "topic": "ietf-120",
+    "dtime": 6008000,
+    "ptime": 6008000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>why does shaping improve video QoE versus letting it congest and get ABR going? Or am I misunderstanding why people run shapers</p>",
+    "topic": "ietf-120",
+    "dtime": 6020000,
+    "ptime": 6020000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Ted: can you paste your suggestion here or in the notes</p>",
+    "topic": "ietf-120",
+    "dtime": 6049000,
+    "ptime": 6049000
+  },
+  {
+    "author": "Alan Jowett",
+    "text": "<p>+1 Ted Hardie</p>",
+    "topic": "ietf-120",
+    "dtime": 6057000,
+    "ptime": 6057000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Watson, because ABR keeps probing whether it can go higher and failing. The better QoE is to stop at the ceiling.</p>",
+    "topic": "ietf-120",
+    "dtime": 6067000,
+    "ptime": 6067000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Ted: depending on the exact definition of 'path' -- some might read that to mean the end-to-end path for the specific tuple.</p>",
+    "topic": "ietf-120",
+    "dtime": 6086000,
+    "ptime": 6086000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 for Ted Hardie's clarity, as usual</p>",
+    "topic": "ietf-120",
+    "dtime": 6089000,
+    "ptime": 6089000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>EricN: i think the frequency with which  SCONEPRO changes might be much higher than PMTUD.</p>",
+    "topic": "ietf-120",
+    "dtime": 6107000,
+    "ptime": 6107000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1 ted</p>",
+    "topic": "ietf-120",
+    "dtime": 6115000,
+    "ptime": 6115000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>and ABR commits to a big chunk early. Gotcha</p>",
+    "topic": "ietf-120",
+    "dtime": 6115000,
+    "ptime": 6115000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>\"Path\" is not so clearly defined, just as \"flow\" is not very well defined</p>",
+    "topic": "ietf-120",
+    "dtime": 6137000,
+    "ptime": 6137000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Basically, the finer grain the process, the higher the risk of abuse.</p>",
+    "topic": "ietf-120",
+    "dtime": 6170000,
+    "ptime": 6170000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>So I don't know that saying \"path\" really leads to more clarity in this conversation.</p>",
+    "topic": "ietf-120",
+    "dtime": 6170000,
+    "ptime": 6170000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>What I heard from Ted: \"elements on the network path make statements about the flow of packets on that path to endpoints so that applications at those endpoints can apply actions that alter their usage of that path\"</p>",
+    "topic": "ietf-120",
+    "dtime": 6175000,
+    "ptime": 6175000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2983\">Watson Ladd</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124865\">said</a>:</p>\n<blockquote>\n<p>why does shaping improve video QoE versus letting it congest and get ABR going? Or am I misunderstanding why people run shapers</p>\n</blockquote>\n<p>I believe because it uses less RAM at the network device.</p>",
+    "topic": "ietf-120",
+    "dtime": 6185000,
+    "ptime": 6185000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>signalling to servers sounds like a nice DoS eccellerator  (\"hey server, you now have 1tb\")</p>",
+    "topic": "ietf-120",
+    "dtime": 6198000,
+    "ptime": 6198000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124852\">said</a>:</p>\n<blockquote>\n<p>Alex: I think at 119 someone commented that ICMP would engineering-wise be the best connection if there were ways to consistently get it up to the applications on all OS's, but unfortunately that's not generally possible.</p>\n</blockquote>\n<p>It doesn't have to be ICMP itself. I'm not yet convinced the response has to be in the same flow. I suppose there are challenges with opening listening ports on clients :/</p>",
+    "topic": "ietf-120",
+    "dtime": 6200000,
+    "ptime": 6200000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>+1 to Ted … but I think the difficulty is that there will be multiple applications trying to access the same path simultaneously</p>",
+    "topic": "ietf-120",
+    "dtime": 6209000,
+    "ptime": 6209000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Matt agreed.</p>",
+    "topic": "ietf-120",
+    "dtime": 6215000,
+    "ptime": 6215000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Stephen: This should never override what congestion control tells you, only cap it.</p>",
+    "topic": "ietf-120",
+    "dtime": 6234000,
+    "ptime": 6234000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Ted's statement implies that the process does not apply to port numbers, let alone connection IDs.</p>",
+    "topic": "ietf-120",
+    "dtime": 6249000,
+    "ptime": 6249000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Christian: that should be made explicit.</p>",
+    "topic": "ietf-120",
+    "dtime": 6273000,
+    "ptime": 6273000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Assigning per-endpoint is challenging due to NAT -- what should a NAT box do if it sees that signal?  what if a client doesn't know they're behind a NAT?</p>",
+    "topic": "ietf-120",
+    "dtime": 6274000,
+    "ptime": 6274000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Martin That's pretty close to what I said; I did say \"user's use of the path\", because Matt and others have made it clear that they expect the path characteristics to be determined based on the user's data plan.</p>",
+    "topic": "ietf-120",
+    "dtime": 6285000,
+    "ptime": 6285000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>There's enough ECMP keyed off of 4-tuple that you might need to have this tied to a 4-tuple anyways depending on where on the network path a constraint exists.</p>",
+    "topic": "ietf-120",
+    "dtime": 6290000,
+    "ptime": 6290000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Also, clients can have multiple IP addresses</p>",
+    "topic": "ietf-120",
+    "dtime": 6296000,
+    "ptime": 6296000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>@Andrew, but isn't that what CC has to deal with. Having more information about a max is still good, although I think we  ought not to believe an app has exclusive use to this maximum capacity (throughput)?</p>",
+    "topic": "ietf-120",
+    "dtime": 6299000,
+    "ptime": 6299000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(E.g. IPv6 privacy extensions)</p>",
+    "topic": "ietf-120",
+    "dtime": 6306000,
+    "ptime": 6306000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>The bursts of different ABR connections are not  synchronized. They may compete or interleave, leading to widely varying  results in ABRs bandwidth calculation. Doing WFQ on the router reduces the maximum swings and makes resulting average bandwidths used more stable.</p>",
+    "topic": "ietf-120",
+    "dtime": 6315000,
+    "ptime": 6315000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>The big question is whether 'the path' includes the remote IP address. I suspect some people think it's critical, and others think it should not be included.</p>",
+    "topic": "ietf-120",
+    "dtime": 6348000,
+    "ptime": 6348000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>+1 to Mo</p>",
+    "topic": "ietf-120",
+    "dtime": 6368000,
+    "ptime": 6368000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Mo: please not \"physical device ID\" -- the network path is not supposed to know the endpoint's physical device ID.</p>",
+    "topic": "ietf-120",
+    "dtime": 6378000,
+    "ptime": 6378000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>We speciifcally do not want to have any notion of physical device identification. This is supposed to be information emergent form the network that the endpoint is not aware of why it is emergent</p>",
+    "topic": "ietf-120",
+    "dtime": 6420000,
+    "ptime": 6420000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>But i agree with you that explicitly stating the scope of what shaper will be applied is a valuable insight</p>",
+    "topic": "ietf-120",
+    "dtime": 6420000,
+    "ptime": 6420000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Four different TV sets in a home are typically one IP-address after home-router NAT in the ISP.</p>",
+    "topic": "ietf-120",
+    "dtime": 6446000,
+    "ptime": 6446000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>for @Matt Joras</p>",
+    "topic": "ietf-120",
+    "dtime": 6462000,
+    "ptime": 6462000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Toerless: and then the ISP itself might also use a layer of CGNAT</p>",
+    "topic": "ietf-120",
+    "dtime": 6472000,
+    "ptime": 6472000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>If the network wants to send different things to different UDP tuples, that is up to it to manage</p>",
+    "topic": "ietf-120",
+    "dtime": 6472000,
+    "ptime": 6472000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Unless IPv6 where there's no NAT in the home (and this is a fairly large fraction of video worldwide now).  But I don't think we can make assumptions either way.</p>",
+    "topic": "ietf-120",
+    "dtime": 6510000,
+    "ptime": 6510000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Toerless, sure, but then the network has to manage that complexity, just like it does today with existing shapers.</p>",
+    "topic": "ietf-120",
+    "dtime": 6561000,
+    "ptime": 6561000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>A stupid shaper gives XMbps to each flow, encouraging the client to open a ton of flows. If it doesn't want that, it has to figure that out itself</p>",
+    "topic": "ietf-120",
+    "dtime": 6588000,
+    "ptime": 6588000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>In many of the largest countries/networks video traffic is now majority IPv6, so we can't assume NAT is there or not there --- it's probably 50/50 on-average, but some networks are 0% IPv6 and others are 90%+ IPv6 for their video traffic.</p>",
+    "topic": "ietf-120",
+    "dtime": 6615000,
+    "ptime": 6615000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There is a tension between peak rate and sustained rate. The characteristic of video is using a relatively low data rate for a very long time. It is legitimate for networks to limit the long duration flows because they would otherwise exclude a number of short duration flows. The key is, can we express something like that without explicitly reasoning about \"video\".</p>",
+    "topic": "ietf-120",
+    "dtime": 6622000,
+    "ptime": 6622000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>I think the solution wuld be more self-defending if it would not allow for a single end-user device to start allocating arbitrary many SCONEPRO connections.  But that is the extend to which SCONEPRO might want/meed to guess at units of service. It likely seems to be one QUIC connection.</p>",
+    "topic": "ietf-120",
+    "dtime": 6655000,
+    "ptime": 6655000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"339\">Christian Huitema</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124931\">said</a>:</p>\n<blockquote>\n<p>There is a tension between peak rate and sustained rate. The characteristic of video is using a relatively low data rate for a very long time. It is legitimate for networks to limit the long duration flows because they would otherwise exclude a number of short duration flows. The key is, can we express something like that without explicitly reasoning about \"video\".</p>\n</blockquote>\n<p>My point is that watching 1GB of ABR video is very  different from downloading a 1GB file, because the video will expand or contract to use all available bandwidth for a fixed duration.</p>",
+    "topic": "ietf-120",
+    "dtime": 6685000,
+    "ptime": 6685000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>but if the congestion controllers are fair, that's fine (modulo the bad behavior of drop signalling): bandwith is not a saveable resource</p>",
+    "topic": "ietf-120",
+    "dtime": 6735000,
+    "ptime": 6735000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Perhaps you should define video in terms of duration, and not \"file size\", otherwise you get a \"1gb is different from 1gb\" problem.</p>",
+    "topic": "ietf-120",
+    "dtime": 6746000,
+    "ptime": 6746000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Video benefits from an upper limit because that’s more stable than the congestion control rate</p>",
+    "topic": "ietf-120",
+    "dtime": 6799000,
+    "ptime": 6799000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>There's an inherent problem/question: is it acceptable for the network to know that there's one or more ABR associated with the 4-tuple?  If that single bit of information is unacceptable to expose then this may be practically intractable?  (eg, even if the network always provides it then the network can probe by seeing the clients response).  We may need to accept that aspect of privacy loss.</p>",
+    "topic": "ietf-120",
+    "dtime": 6825000,
+    "ptime": 6825000
+  },
+  {
+    "author": "Dan Wing",
+    "text": "<p>What is 'receiving packets they don't understand'??</p>",
+    "topic": "ietf-120",
+    "dtime": 6834000,
+    "ptime": 6834000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>i really wonder if SCONEPRO could be less intrusve than per-flow WQF, especially because we now know how to do stateless WFQ, and other SDOs are even putting such QoS onto their roadmap. And if such scalable WFQ is a way forward, has anyone proven that it would behave worse than SCONEPRO ?</p>",
+    "topic": "ietf-120",
+    "dtime": 6840000,
+    "ptime": 6840000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>It doesn't have to be unsolicited; if you take an alto like approach so that is solicited, but not connected to the flow itself.</p>",
+    "topic": "ietf-120",
+    "dtime": 6898000,
+    "ptime": 6898000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I'd also like to make sure that mechanism isn't something that could break other network traffic - i.e. I don't want something on-path modifying packets in a way that would break traffic that is mis-identified as QUIC.</p>",
+    "topic": "ietf-120",
+    "dtime": 6919000,
+    "ptime": 6919000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>(If the answer here turns out to be an ICMP message, I will be startled beyond measure)</p>",
+    "topic": "ietf-120",
+    "dtime": 6927000,
+    "ptime": 6927000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"55\">@Stephen Farrell</span> : Are you OK with the idea that a client (not necessarily flow- or 4-tuple- based) requests the unsolicited notifications and then starts getting them?</p>",
+    "topic": "ietf-120",
+    "dtime": 6945000,
+    "ptime": 6945000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>i.e. what Mo is now saying.</p>",
+    "topic": "ietf-120",
+    "dtime": 6966000,
+    "ptime": 6966000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Mo's point makes sense.</p>",
+    "topic": "ietf-120",
+    "dtime": 6979000,
+    "ptime": 6979000
+  },
+  {
+    "author": "Dan Wing",
+    "text": "<p>yes, Mo's point makes sense.  So, \"solicited\".</p>",
+    "topic": "ietf-120",
+    "dtime": 6994000,
+    "ptime": 6994000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p>+1 to Mo</p>",
+    "topic": "ietf-120",
+    "dtime": 7000000,
+    "ptime": 7000000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Like in ECN, a bit to indicate desire to get the info.</p>",
+    "topic": "ietf-120",
+    "dtime": 7020000,
+    "ptime": 7020000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@pete - given the kind of reasons behind why shaping may be done ISTM any client identifier of any kind is problematic</p>",
+    "topic": "ietf-120",
+    "dtime": 7024000,
+    "ptime": 7024000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124954\">said</a>:</p>\n<blockquote>\n<p>(If the answer here turns out to be an ICMP message, I will be startled beyond measure)</p>\n</blockquote>\n<p>As would I. Moving from information in QUIC payloads to information in ICMP would be a spectacular fail for security reviewers.</p>",
+    "topic": "ietf-120",
+    "dtime": 7025000,
+    "ptime": 7025000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>If the network's goal is to improve user experience or enforce a contracted rate, it can do so without the remote IP address affecting the information conveyed.</p>",
+    "topic": "ietf-120",
+    "dtime": 7032000,
+    "ptime": 7032000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>It's somewhere between \"solicited\" and \"general\", in that the client does nothing to seek the specific information--which is better for the privacy all around.</p>",
+    "topic": "ietf-120",
+    "dtime": 7044000,
+    "ptime": 7044000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"106\">Toerless Eckert</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124949\">said</a>:</p>\n<blockquote>\n<p>i really wonder if SCONEPRO could be less intrusve than per-flow WQF, especially because we now know how to do stateless WFQ, and other SDOs are even putting such QoS onto their roadmap. And if such scalable WFQ is a way forward, has anyone proven that it would behave worse than SCONEPRO ?</p>\n</blockquote>\n<p>It's not really about WFQ.  It's about zero-rating rate-limited ABR video.</p>",
+    "topic": "ietf-120",
+    "dtime": 7057000,
+    "ptime": 7057000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Now the question is whether we want to go down the road of hacing that into UDP headers. We did propose this hmm.. a decade ago for other metadata for RTP headers and failed on encryption issues</p>",
+    "topic": "ietf-120",
+    "dtime": 7059000,
+    "ptime": 7059000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Or at least, I would like to see that disproven before we assume that access to the remote IP address is necessary.</p>",
+    "topic": "ietf-120",
+    "dtime": 7074000,
+    "ptime": 7074000
+  },
+  {
+    "author": "Yaroslav Rosomakho",
+    "text": "<p>It could also be multiple signals from multiple hops.<br>\nOr should hops be able to intercept signals from each other and tune them down if what they want to hint is \"worse\"?</p>",
+    "topic": "ietf-120",
+    "dtime": 7077000,
+    "ptime": 7077000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"117\">Spencer Dawkins</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124964\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124954\">said</a>:</p>\n<blockquote>\n<p>(If the answer here turns out to be an ICMP message, I will be startled beyond measure)</p>\n</blockquote>\n<p>As would I. Moving from information in QUIC payloads to information in ICMP would be a spectacular fail for security reviewers.</p>\n</blockquote>\n<p>Why would it be a failure for security? If an on-path network element is sending this information it's already in the clear and unauthenticated, QUIC data or not.</p>",
+    "topic": "ietf-120",
+    "dtime": 7080000,
+    "ptime": 7080000
+  },
+  {
+    "author": "Dan Wing",
+    "text": "<blockquote>\n<p>It could also be multiple signals from multiple hops.<br>\nOr should hops be able to intercept signals from each other and tune them down if what they want to hint is \"worse\"?</p>\n</blockquote>\n<p>+1.  Discovery.</p>",
+    "topic": "ietf-120",
+    "dtime": 7098000,
+    "ptime": 7098000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Even if the network is uncongested, I don't want to burn my whole monthly data cap in 2 hours just because I have a 300 Mbps link to my ISP.</p>",
+    "topic": "ietf-120",
+    "dtime": 7105000,
+    "ptime": 7105000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I have all sorts of grand plans if ICMP comes back. Long live ICMP!</p>",
+    "topic": "ietf-120",
+    "dtime": 7135000,
+    "ptime": 7135000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Pete you're bringing back source quench, aren't you Pete?</p>",
+    "topic": "ietf-120",
+    "dtime": 7154000,
+    "ptime": 7154000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Ben: so if current performance sucks becausde of specific undesirable policies of SPs, thats fine, we want to eliminate this. But my bigger question about the problem statement is that we should well motivate that existing mechanisms are insufficient. And WFQ without zero-rating would be very likely an improvement over doing nothing.</p>",
+    "topic": "ietf-120",
+    "dtime": 7156000,
+    "ptime": 7156000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@Pete two I-D about ICMP in intarea tomorrow ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 7160000,
+    "ptime": 7160000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span aria-label=\"smirk\" class=\"emoji emoji-1f60f\" role=\"img\" title=\"smirk\">:smirk:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 7208000,
+    "ptime": 7208000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"106\">Toerless Eckert</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124976\">said</a>:</p>\n<blockquote>\n<p>Ben: so if current performance sucks becausde of specific undesirable policies of SPs, thats fine, we want to eliminate this. But my bigger question about the problem statement is that we should well motivate that existing mechanisms are insufficient. And WFQ without zero-rating would be very likely an improvement over doing nothing.</p>\n</blockquote>\n<p>We build for the internet we have, and that internet has data caps on essentially all end-user subscriptions.</p>",
+    "topic": "ietf-120",
+    "dtime": 7216000,
+    "ptime": 7216000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>\"The problem\" is not well defined. There's a huge difference between \"improve user experience\" and \"improve rate limiting\"</p>",
+    "topic": "ietf-120",
+    "dtime": 7235000,
+    "ptime": 7235000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2424\">Benjamin Schwartz</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-120/near/124973\">said</a>:</p>\n<blockquote>\n<p>Even if the network is uncongested, I don't want to burn my whole monthly data cap in 2 hours just because I have a 300 Mbps link to my ISP.</p>\n</blockquote>\n<p>I remember someone starting a software update when they weren't connected to WiFi, and blew their monthly data cap in about six minutes ...</p>",
+    "topic": "ietf-120",
+    "dtime": 7247000,
+    "ptime": 7247000
+  },
+  {
+    "author": "Markus Amend",
+    "text": "<p>I find it difficult to understand the focus. Is it mainly about determining the subscriber rate of the access network (at least that's what I read from Marcus‘ presentation)? If so, other SDOs like 3GPP, BBF or GSMA seem more appropriate.</p>",
+    "topic": "ietf-120",
+    "dtime": 7253000,
+    "ptime": 7253000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Ben: the current charter won't help you stay within your max monthly capacity to burn. There are typically OTT app parameters to limit quality though. How do you think sconepro could help ?</p>",
+    "topic": "ietf-120",
+    "dtime": 7254000,
+    "ptime": 7254000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Thanks everyone</p>",
+    "topic": "ietf-120",
+    "dtime": 7260000,
+    "ptime": 7260000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-SCONEPRO-20240723-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/sconepro"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-SCONEPRO-20240723-1630"
+		}		
+	]
+}

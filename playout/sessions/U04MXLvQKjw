@@ -1,0 +1,576 @@
+
+{
+	"title": "IETF112-MAPRG-20211109-1430",
+	"filename": "IETF112-MAPRG-20211109-1430",
+	"start": 0,
+	"end": 3708000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "U04MXLvQKjw",
+    "start": 0,
+    "end": "3708000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 14000,
+    "ptime": 14000,
+    "author": "Jonathan Hoyland",
+    "text": "Hopefully we'll be back in person soon<br/>"
+  },
+  {
+    "dtime": 36000,
+    "ptime": 36000,
+    "author": "Jen Linkova",
+    "text": "Theresa: hmm...very smart idea ;)<br/>"
+  },
+  {
+    "dtime": 49000,
+    "ptime": 49000,
+    "author": "Jonathan Hoyland",
+    "text": "I miss having a legitimate excuse for being jet-lagged.<br/>"
+  },
+  {
+    "dtime": 58000,
+    "ptime": 58000,
+    "author": "Jen Linkova",
+    "text": "I can't decide if I need another coffee or a glass of wine....<br/>"
+  },
+  {
+    "dtime": 138000,
+    "ptime": 138000,
+    "author": "Andrew Campling",
+    "text": "Presumably you're not on PT? <br/>"
+  },
+  {
+    "dtime": 219000,
+    "ptime": 219000,
+    "author": "Jen Linkova",
+    "text": "Me? no, I live in the future, it's 1:30am here..<br/>"
+  },
+  {
+    "dtime": 225000,
+    "ptime": 225000,
+    "author": "Gorry Fairhurst",
+    "text": "@Jen. \"Need\" or SHOULD have... I think the requirements-level for adding wine are important to consider. There's also Fruit Tea as an option for hydration.<br/>"
+  },
+  {
+    "dtime": 287000,
+    "ptime": 287000,
+    "author": "Jen Linkova",
+    "text": "@Gorry: like 'grape juice which has been sitting in a dark place for a while'? that kind of 'tea'?<br/>"
+  },
+  {
+    "dtime": 347000,
+    "ptime": 347000,
+    "author": "Gorry Fairhurst",
+    "text": "@Jen ... Just work the details of this out for youself... we're about to start the tech work....<br/>"
+  },
+  {
+    "dtime": 556000,
+    "ptime": 556000,
+    "author": "Dave Plonka",
+    "text": "Feel free to put yourself in the queue during the talk to ask a question or offer a comment /after/ the speaker is done.<br/>"
+  },
+  {
+    "dtime": 711000,
+    "ptime": 711000,
+    "author": "dkg",
+    "text": "this is a CNAME loop, in particular?&nbsp;&nbsp;or some other loop?<br/>"
+  },
+  {
+    "dtime": 726000,
+    "ptime": 726000,
+    "author": "dkg",
+    "text": "ah, an NS loop<br/>"
+  },
+  {
+    "dtime": 1300000,
+    "ptime": 1300000,
+    "author": "Jonathan Hoyland",
+    "text": "<a href=\"https://www.microsoft.com/en-us/research/uploads/prod/2020/07/sigcomm2020-final157.pdf\" rel=\"nofollow\">https://www.microsoft.com/en-us/research/uploads/prod/2020/07/sigcomm2020-final157.pdf</a><br/>"
+  },
+  {
+    "dtime": 1317000,
+    "ptime": 1317000,
+    "author": "dkg",
+    "text": "i'm trying<br/>"
+  },
+  {
+    "dtime": 1428000,
+    "ptime": 1428000,
+    "author": "dkg",
+    "text": "yep, thanks<br/>"
+  },
+  {
+    "dtime": 1465000,
+    "ptime": 1465000,
+    "author": "Giovane Moura",
+    "text": "@dkg: we tried CNAME cycles too, but resolvers are pretty good in detecting them<br/>"
+  },
+  {
+    "dtime": 1519000,
+    "ptime": 1519000,
+    "author": "Giovane Moura",
+    "text": "( RFC1034 or 1035 is very specific about CNAME loops and what to do , but not about NSes)<br/>"
+  },
+  {
+    "dtime": 1565000,
+    "ptime": 1565000,
+    "author": "Giovane Moura",
+    "text": "@Jonathan Hoyland: thanks for sharing the paper, lemme have a look into it<br/>"
+  },
+  {
+    "dtime": 1566000,
+    "ptime": 1566000,
+    "author": "dkg",
+    "text": "@Giovane: have you thought about risks of cycles in any of the newer proposed RRs?&nbsp;&nbsp;i'm thinking in particular of SVCB or whatever they're calling the ECH metadata record these days<br/>"
+  },
+  {
+    "dtime": 1597000,
+    "ptime": 1597000,
+    "author": "dkg",
+    "text": "(i'm not claiming there is a cycle risk there; i haven't done the analysis myself)<br/>"
+  },
+  {
+    "dtime": 1601000,
+    "ptime": 1601000,
+    "author": "Giovane Moura",
+    "text": "@dkg: that's an interesting question, and I have&nbsp;&nbsp;not looked into these new types of RRs<br/>"
+  },
+  {
+    "dtime": 1648000,
+    "ptime": 1648000,
+    "author": "Benjamin Schwartz",
+    "text": "There is definitely cycle risk there.&nbsp;&nbsp;It's discussed in the draft, but especially in ADoT there are some cases that still need to be considered.<br/>"
+  },
+  {
+    "dtime": 1729000,
+    "ptime": 1729000,
+    "author": "dkg",
+    "text": "Giovane -- it would be great if you could weigh in on that and propose text (or even better, explicit mitigations) in the drafts where those RRs are being discussed, if you don't think the current text is sufficient<br/>"
+  },
+  {
+    "dtime": 1795000,
+    "ptime": 1795000,
+    "author": "Martin Duke",
+    "text": "what are the numbers on this slide?<br/>"
+  },
+  {
+    "dtime": 1795000,
+    "ptime": 1795000,
+    "author": "Erik Nygren",
+    "text": "See <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-svcb-https-08\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-svcb-https-08</a><br/>"
+  },
+  {
+    "dtime": 1825000,
+    "ptime": 1825000,
+    "author": "Yoshiro Yoneya",
+    "text": "10slides<br/>"
+  },
+  {
+    "dtime": 1827000,
+    "ptime": 1827000,
+    "author": "dkg",
+    "text": "Nicholas: can you explain the data here?&nbsp;&nbsp;are these latencies?<br/>"
+  },
+  {
+    "dtime": 1842000,
+    "ptime": 1842000,
+    "author": "Erik Nygren",
+    "text": "Giovane: if what;s there isn't sufficient, open an issue with recommendations at <a href=\"https://github.com/MikeBishop/dns-alt-svc/issues\" rel=\"nofollow\">https://github.com/MikeBishop/dns-alt-svc/issues</a><br/>"
+  },
+  {
+    "dtime": 1845000,
+    "ptime": 1845000,
+    "author": "Giovane Moura",
+    "text": "@dkg: will look into it, thanks for the tip<br/>"
+  },
+  {
+    "dtime": 1888000,
+    "ptime": 1888000,
+    "author": "Jake Holland",
+    "text": "these numbers would make sense as completion times, that's my working model until hearing the answer.<br/>"
+  },
+  {
+    "dtime": 1904000,
+    "ptime": 1904000,
+    "author": "Gorry Fairhurst",
+    "text": "@dkg : It looks like time to download an object - seems 30 MB?<br/>"
+  },
+  {
+    "dtime": 1907000,
+    "ptime": 1907000,
+    "author": "dkg",
+    "text": "Jake: completion times in milliseconds?<br/>"
+  },
+  {
+    "dtime": 1911000,
+    "ptime": 1911000,
+    "author": "dkg",
+    "text": "seconds?<br/>"
+  },
+  {
+    "dtime": 1912000,
+    "ptime": 1912000,
+    "author": "dkg",
+    "text": "weeks?<br/>"
+  },
+  {
+    "dtime": 1913000,
+    "ptime": 1913000,
+    "author": "Dave Plonka",
+    "text": "@dkg I can ask on your behalf<br/>"
+  },
+  {
+    "dtime": 1927000,
+    "ptime": 1927000,
+    "author": "Jake Holland",
+    "text": "could be any, yes.<br/>"
+  },
+  {
+    "dtime": 1939000,
+    "ptime": 1939000,
+    "author": "Jake Holland",
+    "text": "but my first guess would be seconds.<br/>"
+  },
+  {
+    "dtime": 1940000,
+    "ptime": 1940000,
+    "author": "Eric Kinnear",
+    "text": "Once upon a time we had some measurements that indicated that TCP-in-TCP was actually helpful, up to a point, in some cases where you had very long hops, etc. Although that was without BBR(vAnything), with the expectation that using latency as a signal should address most of the issues we saw.<br/>"
+  },
+  {
+    "dtime": 2028000,
+    "ptime": 2028000,
+    "author": "dkg",
+    "text": "it was on slide 8<br/>"
+  },
+  {
+    "dtime": 2100000,
+    "ptime": 2100000,
+    "author": "dkg",
+    "text": "the differences don't seem that large to me: best is 29.4, worst is 39.8 -- so a 33% increase in latency?<br/>"
+  },
+  {
+    "dtime": 2249000,
+    "ptime": 2249000,
+    "author": "Nicolas Kuhn",
+    "text": "@erickinnear : we have indeed confirmed that in some cases, TCP-in-TCP helps a lot. However, in these cases, BBRvANY did much better<br/>"
+  },
+  {
+    "dtime": 2305000,
+    "ptime": 2305000,
+    "author": "Nicolas Kuhn",
+    "text": "@dkg : the difference is not much indeed. we should have tested with more variable file sizes.<br/>"
+  },
+  {
+    "dtime": 2340000,
+    "ptime": 2340000,
+    "author": "Anna Brunstrom",
+    "text": "Our measurements on CC in CC also show that BBR in the tunnel is helpful, see iccrg presentation at ietf 110<br/>"
+  },
+  {
+    "dtime": 2346000,
+    "ptime": 2346000,
+    "author": "Eric Kinnear",
+    "text": "Nicolas: Thanks, that would make sense, anything latency-sensitive should be able to see \"through\" the extra layer and propagate congestion signals, so should see far fewer issues in theory<br/>"
+  },
+  {
+    "dtime": 2426000,
+    "ptime": 2426000,
+    "author": "dkg",
+    "text": "11 out of how many?<br/>"
+  },
+  {
+    "dtime": 2442000,
+    "ptime": 2442000,
+    "author": "Anna Brunstrom",
+    "text": "Our measurements looked at multipath, but the interactions over the primary path is similar<br/>"
+  },
+  {
+    "dtime": 2451000,
+    "ptime": 2451000,
+    "author": "Erik Nygren",
+    "text": "@dkg: 40?<br/>"
+  },
+  {
+    "dtime": 2453000,
+    "ptime": 2453000,
+    "author": "Tommy Jensen",
+    "text": "@dkg previous slide said 40 devices were studied<br/>"
+  },
+  {
+    "dtime": 2459000,
+    "ptime": 2459000,
+    "author": "dkg",
+    "text": "thx, i missed that<br/>"
+  },
+  {
+    "dtime": 2486000,
+    "ptime": 2486000,
+    "author": "Tommy Jensen",
+    "text": "nw, maprg slides move way faster than the typical IETF deck I'm used to<br/>"
+  },
+  {
+    "dtime": 2528000,
+    "ptime": 2528000,
+    "author": "dkg",
+    "text": "did a previous slide describe policies for applying software updates that require manual intervention?&nbsp;&nbsp;did the humans in the trial have administrative control over the devices to install such updates?<br/>"
+  },
+  {
+    "dtime": 2558000,
+    "ptime": 2558000,
+    "author": "Tommy Jensen",
+    "text": "I didn't see anything about that.<br/>"
+  },
+  {
+    "dtime": 2585000,
+    "ptime": 2585000,
+    "author": "dkg",
+    "text": "i'm very glad that someone is doing this kind of research!<br/>"
+  },
+  {
+    "dtime": 2585000,
+    "ptime": 2585000,
+    "author": "Andrew Campling",
+    "text": "The slides are at <a href=\"https://datatracker.ietf.org/meeting/112/materials/slides-112-maprg-iotls-understanding-tls-usage-in-consumer-iot-devices-01\" rel=\"nofollow\">https://datatracker.ietf.org/meeting/112/materials/slides-112-maprg-iotls-understanding-tls-usage-in-consumer-iot-devices-01</a><br/>"
+  },
+  {
+    "dtime": 2599000,
+    "ptime": 2599000,
+    "author": "Dave Plonka",
+    "text": "@dkg I will ask and/or refer Talha back to questions here<br/>"
+  },
+  {
+    "dtime": 2611000,
+    "ptime": 2611000,
+    "author": "Mirja Kühlewind",
+    "text": "full paper is here: <a href=\"https://dl.acm.org/doi/pdf/10.1145/3487552.3487830\" rel=\"nofollow\">https://dl.acm.org/doi/pdf/10.1145/3487552.3487830</a><br/>"
+  },
+  {
+    "dtime": 2616000,
+    "ptime": 2616000,
+    "author": "dkg",
+    "text": "thx<br/>"
+  },
+  {
+    "dtime": 2811000,
+    "ptime": 2811000,
+    "author": "Erik Nygren",
+    "text": "I'm probably just as worried about the lack of introduction of new root stores as that limits the lifetime of devices.<br/>"
+  },
+  {
+    "dtime": 2915000,
+    "ptime": 2915000,
+    "author": "dkg",
+    "text": "Erik: the manufacturers are probably fine with that, though.&nbsp;&nbsp;repeat customers!<br/>"
+  },
+  {
+    "dtime": 2953000,
+    "ptime": 2953000,
+    "author": "Erik Nygren",
+    "text": "I'm also curious about how good the IPv6 support is in these devices...<br/>"
+  },
+  {
+    "dtime": 2966000,
+    "ptime": 2966000,
+    "author": "dkg",
+    "text": "the paper describes the update discipline in §4.1, for other folks who asked that question.<br/>"
+  },
+  {
+    "dtime": 2973000,
+    "ptime": 2973000,
+    "author": "Mirja Kühlewind",
+    "text": "Full list of IMC papers is here (also free to access on ACM): <a href=\"https://conferences.sigcomm.org/imc/2021/accepted/\" rel=\"nofollow\">https://conferences.sigcomm.org/imc/2021/accepted/</a><br/>"
+  },
+  {
+    "dtime": 3005000,
+    "ptime": 3005000,
+    "author": "Mirja Kühlewind",
+    "text": "I recommend to have a look; quite some really good and highly relevant work for IETF<br/>"
+  },
+  {
+    "dtime": 3049000,
+    "ptime": 3049000,
+    "author": "Erik Nygren",
+    "text": "For the IoT TLS paper, it might also be interesting to look in the future at both time synchronization vulnerabilities and RNG/entropy issues, as both are often especially challenges for embedded devices.<br/>"
+  },
+  {
+    "dtime": 3091000,
+    "ptime": 3091000,
+    "author": "Martin Duke",
+    "text": "what about meetecho? :relaxed:<br/>"
+  },
+  {
+    "dtime": 3103000,
+    "ptime": 3103000,
+    "author": "Mirja Kühlewind",
+    "text": "Also this is the SIGCOMM paper on \"Insights from operating an IP exchange provider\" that Dave mentioned at the beginning. Not really in-scope for maprg but still a very interesting read: <a href=\"https://dl.acm.org/doi/10.1145/3452296.3472930\" rel=\"nofollow\">https://dl.acm.org/doi/10.1145/3452296.3472930</a><br/>"
+  },
+  {
+    "dtime": 3124000,
+    "ptime": 3124000,
+    "author": "Jonathan Hoyland",
+    "text": "I'm seeing a bit rate of 230 kbps :P<br/>"
+  },
+  {
+    "dtime": 3145000,
+    "ptime": 3145000,
+    "author": "Al Morton",
+    "text": "just for video?<br/>"
+  },
+  {
+    "dtime": 3190000,
+    "ptime": 3190000,
+    "author": "Jonathan Hoyland",
+    "text": "Yup<br/>"
+  },
+  {
+    "dtime": 3192000,
+    "ptime": 3192000,
+    "author": "Andrew Campling",
+    "text": "Audio in seems to run just under 20kbps<br/>"
+  },
+  {
+    "dtime": 3225000,
+    "ptime": 3225000,
+    "author": "Al Morton",
+    "text": "audio in adds 27kbps, but your point is well taken...&nbsp;&nbsp;Meetecho demands less than the others...<br/>"
+  },
+  {
+    "dtime": 3389000,
+    "ptime": 3389000,
+    "author": "Zaheduzzaman Sarker",
+    "text": "this is giving me flashback of RMCAT test case discussions...<br/>"
+  },
+  {
+    "dtime": 3390000,
+    "ptime": 3390000,
+    "author": "Ali Begen",
+    "text": "On slide 17, were you capturing a similar video? Codecs are adaptive, so talking head vs. body makes a difference (apologies if I missed in case this was mentioned)<br/>"
+  },
+  {
+    "dtime": 3395000,
+    "ptime": 3395000,
+    "author": "Jonathan Hoyland",
+    "text": "Is 30 seconds long enough for congestion control / fairness to reach a steady state?<br/>"
+  },
+  {
+    "dtime": 3419000,
+    "ptime": 3419000,
+    "author": "Gorry Fairhurst",
+    "text": "This doesn't look that significant difference in sharing and anyway not long to adapt, or did I miss something?<br/>"
+  },
+  {
+    "dtime": 3430000,
+    "ptime": 3430000,
+    "author": "Dave Plonka",
+    "text": "We will have a minute or two for questions. if one of you would like to ask pls go in queue.<br/>"
+  },
+  {
+    "dtime": 3463000,
+    "ptime": 3463000,
+    "author": "Mike Bishop",
+    "text": "That would suggest that Teams sends data directly to peers, while the others are intermediated by the server?<br/>"
+  },
+  {
+    "dtime": 3485000,
+    "ptime": 3485000,
+    "author": "Jake Holland",
+    "text": "for 1-3mbps on &lt;200ms 30s should be plenty of time to reach congestion avoidance for tcp algorithms<br/>"
+  },
+  {
+    "dtime": 3492000,
+    "ptime": 3492000,
+    "author": "Gorry Fairhurst",
+    "text": "This artifact of Teams was also seen by me, it's high rate when you see multiple participants in gallery mode.<br/>"
+  },
+  {
+    "dtime": 3506000,
+    "ptime": 3506000,
+    "author": "Jonathan Hoyland",
+    "text": "Thanks Jake<br/>"
+  },
+  {
+    "dtime": 3511000,
+    "ptime": 3511000,
+    "author": "Dave Plonka",
+    "text": "ok, enough in the queue. lets cut here.<br/>"
+  },
+  {
+    "dtime": 3513000,
+    "ptime": 3513000,
+    "author": "Muhammad Paracha",
+    "text": "(relates to IoTLS talk)<br/>@Tommy, indeed theres a discrepancy in numbers, sorry for the confusion. So we observed passive TLS data for 40 devices, but could only do active experimentation on 32 (the rest did not generate TLS traffic when powered on). And then for root stores analysis, we also had to skip devices that were vulnerable to MITM (if no certification validation is performed, the technique does not work, nor does it matter).&nbsp;&nbsp;<br/>@dkg, 11 out of 32 (did not want to add that number to confuse further). <br/>@dkg The short summary of the update policy for these devices is that automatic updates were never stopped, and manual updates were applied sporadically.<br/>"
+  },
+  {
+    "dtime": 3545000,
+    "ptime": 3545000,
+    "author": "dkg",
+    "text": "Muhammad: thanks for the work, and for sharing it here!<br/>"
+  },
+  {
+    "dtime": 3546000,
+    "ptime": 3546000,
+    "author": "Jake Holland",
+    "text": "but it does depend how you measure.&nbsp;&nbsp;if you sum over the whole time you might get a different fairness estimate than if you check where it landed by the end<br/>"
+  },
+  {
+    "dtime": 3610000,
+    "ptime": 3610000,
+    "author": "Jake Holland",
+    "text": "but as a rough guess I'd bet lets say $50 at 2-1 against that they'd get within 25% of the same answer in those scenarios, if anyone can be bothered to check :)<br/>"
+  },
+  {
+    "dtime": 3626000,
+    "ptime": 3626000,
+    "author": "dkg",
+    "text": "i'd wonder whether Teams would depend on running Windows, too<br/>"
+  },
+  {
+    "dtime": 3630000,
+    "ptime": 3630000,
+    "author": "Mirja Kühlewind",
+    "text": "full paper here: <a href=\"https://dl.acm.org/doi/pdf/10.1145/3487552.3487842\" rel=\"nofollow\">https://dl.acm.org/doi/pdf/10.1145/3487552.3487842</a><br/>"
+  },
+  {
+    "dtime": 3673000,
+    "ptime": 3673000,
+    "author": "Lucas Pardue",
+    "text": "what is the teams app based on?<br/>"
+  },
+  {
+    "dtime": 3685000,
+    "ptime": 3685000,
+    "author": "Mirja Kühlewind",
+    "text": "and there is a second paper on this kind of study \"Can you see me now?: a measurement study of Zoom, Webex, and Meet\": <a href=\"https://dl.acm.org/doi/pdf/10.1145/3487552.3487842\" rel=\"nofollow\">https://dl.acm.org/doi/pdf/10.1145/3487552.3487842</a><br/>"
+  },
+  {
+    "dtime": 3709000,
+    "ptime": 3709000,
+    "author": "Andrew Campling",
+    "text": "Thank you<br/>"
+  },
+  {
+    "dtime": 3714000,
+    "ptime": 3714000,
+    "author": "Hannes Tschofenig",
+    "text": "Thanks<br/>"
+  },
+  {
+    "dtime": 3743000,
+    "ptime": 3743000,
+    "author": "Dave Plonka",
+    "text": "have a good week folks. :)<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-MAPRG-20211109-1430"
+		}
+	]
+}

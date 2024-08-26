@@ -1,0 +1,315 @@
+
+{
+	"title": "IETF-SCITT-20230814-1500",
+	"filename": "IETF-SCITT-20230814-1500",
+	"start": 0,
+	"end": 3637000,
+	"start_datetime": "2023-08-14T15:00:54Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "fQU7tjNd80k",
+    "start": 0,
+    "end": "3637000"
+  }
+],
+	"messages": [
+  {
+    "author": "Andrew Reiter",
+    "text": "<p>Hello; yes, I am new to joining the WG meeting. I have been following the work from afar, but figure I should sit in on some of these to familiarize myself more with those who have been doing the real work/heavy lifting.</p>",
+    "topic": "ietf-interim",
+    "dtime": 132000,
+    "ptime": 132000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Welcome, Andrew!</p>",
+    "topic": "ietf-interim",
+    "dtime": 333000,
+    "ptime": 333000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>My agenda item is data packaging for scitt.</p>",
+    "topic": "ietf-interim",
+    "dtime": 401000,
+    "ptime": 401000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Hi, Andrew. Welcome to the SCITT group.</p>",
+    "topic": "ietf-interim",
+    "dtime": 402000,
+    "ptime": 402000
+  },
+  {
+    "author": "Andrew Reiter",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-interim",
+    "dtime": 569000,
+    "ptime": 569000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I had previously reviewed various packaging trends here:<br>\n<a href=\"https://docs.google.com/document/d/1xfU_s1Eu51z_WGg5VYBsQtjsKcrV6_TvFXj2WxBcj90/edit?usp=sharing\">https://docs.google.com/document/d/1xfU_s1Eu51z_WGg5VYBsQtjsKcrV6_TvFXj2WxBcj90/edit?usp=sharing</a> -- packaging data for SCITT.<br>\nAnd the idea is to consider that we would leave the scitt machine very minimal and push everything, including identity into a higher level.</p>",
+    "topic": "ietf-interim",
+    "dtime": 622000,
+    "ptime": 622000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Vote no on yaml unless there is good reason to use it. Stay with json</p>",
+    "topic": "ietf-interim",
+    "dtime": 669000,
+    "ptime": 669000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Orie, can you give some concrete examples of hassles dealing with CBOR/COSE binary representations in an API? And how you do it via YAML/JSON?</p>",
+    "topic": "ietf-interim",
+    "dtime": 897000,
+    "ptime": 897000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Buffers, Uint8Array, various data views, etc..</p>",
+    "topic": "ietf-interim",
+    "dtime": 972000,
+    "ptime": 972000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>binary will have different native support in each langauge... CBOR is a given, but understanding application/cbor or application/cose is in my experience not as comfortable as we might like'</p>",
+    "topic": "ietf-interim",
+    "dtime": 1016000,
+    "ptime": 1016000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Keeping the apis in JSON will very much promote adoption. No one uses CBOR for apis. CBOR COSE, etc. should be at lower level only.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1313000,
+    "ptime": 1313000
+  },
+  {
+    "author": "Cassie Crossley",
+    "text": "<p>There was a comment about size not mattering, please keep in mind IoT and OT devices.  Thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 1338000,
+    "ptime": 1338000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>yes, not mattering as much as it used to. The API interfaces are not that onerous and trust me, even iot device developers have to debug things and having human readable as much as possible is helpful.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1474000,
+    "ptime": 1474000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>-o json</p>",
+    "topic": "ietf-interim",
+    "dtime": 1580000,
+    "ptime": 1580000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>How would we expect to get interoperability without having a standard, required, performant API?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1741000,
+    "ptime": 1741000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Basically, the user of SCITT machine, they should not have to know much about CBOR or COSE.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1742000,
+    "ptime": 1742000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>if you have JSON, you will have 2 primary API media types... you don't need 2.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1806000,
+    "ptime": 1806000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>you for sure need CBOR... if you add another media type to the API, why?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1830000,
+    "ptime": 1830000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Consider the response structure of Feeds, do you want that in JSON? or CBOR?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1910000,
+    "ptime": 1910000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>or both?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1916000,
+    "ptime": 1916000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Not both!</p>",
+    "topic": "ietf-interim",
+    "dtime": 2074000,
+    "ptime": 2074000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I need to get on this based 45 encoding : )</p>",
+    "topic": "ietf-interim",
+    "dtime": 2096000,
+    "ptime": 2096000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Agree -- not both</p>",
+    "topic": "ietf-interim",
+    "dtime": 2104000,
+    "ptime": 2104000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>q+ to suggest maybe mandatory to support CBOR and optional YAML / debug friendly</p>",
+    "topic": "ietf-interim",
+    "dtime": 2151000,
+    "ptime": 2151000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Won't developers need their own tooling to handle CBOR anyway, for debug etc? Why add an option to the API itself?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2204000,
+    "ptime": 2204000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>yes, they will be forced to handle CBOR... anything else we add, should only be there to help them debug</p>",
+    "topic": "ietf-interim",
+    "dtime": 2229000,
+    "ptime": 2229000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Henk, can you link to the EU standard you mentioned?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2313000,
+    "ptime": 2313000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>adoption and ease of debugging is a good point<br>\nHow easy could you use postman to test the API?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2321000,
+    "ptime": 2321000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>its hard to test raw binary in postman</p>",
+    "topic": "ietf-interim",
+    "dtime": 2506000,
+    "ptime": 2506000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>but its possible</p>",
+    "topic": "ietf-interim",
+    "dtime": 2514000,
+    "ptime": 2514000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p><a href=\"https://github.com/scitt-community/scitt-api-emulator\">https://github.com/scitt-community/scitt-api-emulator</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2594000,
+    "ptime": 2594000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>EU QRCODE used<br>\nJSON/CBOR/COSE/Zlib/Base45</p>",
+    "topic": "ietf-interim",
+    "dtime": 2625000,
+    "ptime": 2625000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>integration point for QR Codes is URLs... not raw binary, imo</p>",
+    "topic": "ietf-interim",
+    "dtime": 2663000,
+    "ptime": 2663000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>including data uris</p>",
+    "topic": "ietf-interim",
+    "dtime": 2670000,
+    "ptime": 2670000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p><a href=\"https://github.com/ehn-dcc-development/eu-dcc-hcert-spec/blob/main/README.md\">https://github.com/ehn-dcc-development/eu-dcc-hcert-spec/blob/main/README.md</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2673000,
+    "ptime": 2673000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I pull my potential agenda item.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2735000,
+    "ptime": 2735000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I have to cut the conversation in 5mins to talk about the agenda for next week</p>",
+    "topic": "ietf-interim",
+    "dtime": 3012000,
+    "ptime": 3012000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Base45 is a qr requirement</p>",
+    "topic": "ietf-interim",
+    "dtime": 3087000,
+    "ptime": 3087000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I'm going to try to have something concrete to talk about next week on json descriptor but will want to wait to see how is is forming up before reserving time.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3355000,
+    "ptime": 3355000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>except for feeds... causing us challenges on that front.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3473000,
+    "ptime": 3473000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20230814-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-28/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20230814-1500"
+		}
+	]
+}

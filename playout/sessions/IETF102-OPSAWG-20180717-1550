@@ -1,0 +1,661 @@
+{
+  "title": "IETF102-OPSAWG-20180717-1550",
+  "filename": "IETF102-OPSAWG-20180717-1550",
+  "start": 0,
+  "end": 9648000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "gHLt6qCELvA",
+      "start": 0.0,
+      "end": 9648000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Lana Wu just joined the room",
+      "ptime": 327000.0,
+      "dtime": 687000.0
+    },
+    {
+      "text": "Chairs presenting WG status",
+      "ptime": 419000.0,
+      "dtime": 779000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "If anyone wants something relayed to the mic, please preface with \"MIC\"",
+      "ptime": 436000.0,
+      "dtime": 796000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "TACACS",
+      "ptime": 548000.0,
+      "dtime": 908000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "OPSAWG Agenda",
+      "ptime": 777000.0,
+      "dtime": 1137000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "Haoyu Song presenting Network Telemetry Framework",
+      "ptime": 835000.0,
+      "dtime": 1195000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "\"What\u0027s new\"",
+      "ptime": 868000.0,
+      "dtime": 1228000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "***Huaru Yang just joined the room",
+      "ptime": 1080000.0,
+      "dtime": 1440000.0
+    },
+    {
+      "text": "\"challenges of today\u0027s networks\"",
+      "ptime": 1131000.0,
+      "dtime": 1491000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "slide 3",
+      "ptime": 1136000.0,
+      "dtime": 1496000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "I will just call out slide numbers from here on, assuming they are present",
+      "ptime": 1152000.0,
+      "dtime": 1512000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "4",
+      "ptime": 1243000.0,
+      "dtime": 1603000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 1345000.0,
+      "dtime": 1705000.0
+    },
+    {
+      "text": "5",
+      "ptime": 1355000.0,
+      "dtime": 1715000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "6",
+      "ptime": 1463000.0,
+      "dtime": 1823000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "***Stephanie Huguenin just joined the room",
+      "ptime": 1464000.0,
+      "dtime": 1824000.0
+    },
+    {
+      "text": "7",
+      "ptime": 1648000.0,
+      "dtime": 2008000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "8",
+      "ptime": 1784000.0,
+      "dtime": 2144000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "9",
+      "ptime": 1849000.0,
+      "dtime": 2209000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "10",
+      "ptime": 1961000.0,
+      "dtime": 2321000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "Ruediger Volk @ mic",
+      "ptime": 2169000.0,
+      "dtime": 2529000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "NMP being presented by Robin Li",
+      "ptime": 2475000.0,
+      "dtime": 2835000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "2",
+      "ptime": 2522000.0,
+      "dtime": 2882000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "motivation \u0026 intro",
+      "ptime": 2583000.0,
+      "dtime": 2943000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "use cases",
+      "ptime": 2656000.0,
+      "dtime": 3016000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "bmp or nmp?",
+      "ptime": 2953000.0,
+      "dtime": 3313000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "nmp for isis",
+      "ptime": 3030000.0,
+      "dtime": 3390000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "second slide with packet layout eye-charts",
+      "ptime": 3088000.0,
+      "dtime": 3448000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "summary of mailing list comments",
+      "ptime": 3122000.0,
+      "dtime": 3482000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "whynot grpc/yang",
+      "ptime": 3241000.0,
+      "dtime": 3601000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "why not bgp-ls",
+      "ptime": 3469000.0,
+      "dtime": 3829000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "conclusions",
+      "ptime": 3517000.0,
+      "dtime": 3877000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "next steps",
+      "ptime": 3607000.0,
+      "dtime": 3967000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "q/a",
+      "ptime": 3620000.0,
+      "dtime": 3980000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "no time for q/a",
+      "ptime": 3625000.0,
+      "dtime": 3985000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "CASM being presented by Chongfeng Xie",
+      "ptime": 3646000.0,
+      "dtime": 4006000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "2",
+      "ptime": 3705000.0,
+      "dtime": 4065000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "4",
+      "ptime": 3873000.0,
+      "dtime": 4233000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "5",
+      "ptime": 3911000.0,
+      "dtime": 4271000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "6",
+      "ptime": 3930000.0,
+      "dtime": 4290000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "7",
+      "ptime": 3942000.0,
+      "dtime": 4302000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "9",
+      "ptime": 3974000.0,
+      "dtime": 4334000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "10",
+      "ptime": 4009000.0,
+      "dtime": 4369000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "show of hands for how many read it ? \"quite a few\"",
+      "ptime": 4018000.0,
+      "dtime": 4378000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "not so many hands for adoption",
+      "ptime": 4035000.0,
+      "dtime": 4395000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "chris morrow @ mic",
+      "ptime": 4042000.0,
+      "dtime": 4402000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ignas @mic",
+      "ptime": 4203000.0,
+      "dtime": 4563000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "yang model for sd-wan",
+      "ptime": 4482000.0,
+      "dtime": 4842000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "chongfeng xie",
+      "ptime": 4496000.0,
+      "dtime": 4856000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "3",
+      "ptime": 4616000.0,
+      "dtime": 4976000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "4",
+      "ptime": 4627000.0,
+      "dtime": 4987000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "5",
+      "ptime": 4695000.0,
+      "dtime": 5055000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "segment network (we seem to have lost slide numbers)",
+      "ptime": 4771000.0,
+      "dtime": 5131000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "your humble scribe stepping out for a minute, will pick up on return",
+      "ptime": 4788000.0,
+      "dtime": 5148000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "back",
+      "ptime": 5047000.0,
+      "dtime": 5407000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "q/a",
+      "ptime": 5049000.0,
+      "dtime": 5409000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "robin @ mic",
+      "ptime": 5052000.0,
+      "dtime": 5412000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ignas @ mic",
+      "ptime": 5083000.0,
+      "dtime": 5443000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "opsawg ends/ops-area begins",
+      "ptime": 5210000.0,
+      "dtime": 5570000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "chair slides",
+      "ptime": 5284000.0,
+      "dtime": 5644000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "welcome!",
+      "ptime": 5327000.0,
+      "dtime": 5687000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "agenda",
+      "ptime": 5329000.0,
+      "dtime": 5689000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ross presenting some lessons from history",
+      "ptime": 5417000.0,
+      "dtime": 5777000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "lessons from history",
+      "ptime": 5473000.0,
+      "dtime": 5833000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "arpanet collapse",
+      "ptime": 5535000.0,
+      "dtime": 5895000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "more arpanet",
+      "ptime": 5686000.0,
+      "dtime": 6046000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ospf flooding issue",
+      "ptime": 5759000.0,
+      "dtime": 6119000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "more ospf",
+      "ptime": 5786000.0,
+      "dtime": 6146000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "still more",
+      "ptime": 5808000.0,
+      "dtime": 6168000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "flooding issue w/ ip over atm",
+      "ptime": 5862000.0,
+      "dtime": 6222000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "lost hellos",
+      "ptime": 5889000.0,
+      "dtime": 6249000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "more lost hellos",
+      "ptime": 6068000.0,
+      "dtime": 6428000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "atm switches",
+      "ptime": 6098000.0,
+      "dtime": 6458000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ddos attacks",
+      "ptime": 6207000.0,
+      "dtime": 6567000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "slammer",
+      "ptime": 6223000.0,
+      "dtime": 6583000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "***Lana Wu just left the room",
+      "ptime": 6312000.0,
+      "dtime": 6672000.0
+    },
+    {
+      "text": "solution",
+      "ptime": 6355000.0,
+      "dtime": 6715000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "invalid update issue",
+      "ptime": 6358000.0,
+      "dtime": 6718000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "more",
+      "ptime": 6435000.0,
+      "dtime": 6795000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "DV count to infinity",
+      "ptime": 6522000.0,
+      "dtime": 6882000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "delay based routing",
+      "ptime": 6643000.0,
+      "dtime": 7003000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "after this slide I won\u0027t be announcing slide changes for a while because I\u0027ll be up at the mic talking",
+      "ptime": 6769000.0,
+      "dtime": 7129000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "***Peter van Dijk just joined the room",
+      "ptime": 7038000.0,
+      "dtime": 7398000.0
+    },
+    {
+      "text": "ok I\u0027m done talking",
+      "ptime": 7654000.0,
+      "dtime": 8014000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ross: \"other examples\"",
+      "ptime": 7661000.0,
+      "dtime": 8021000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "what to do?",
+      "ptime": 7788000.0,
+      "dtime": 8148000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "warren @ mic",
+      "ptime": 7936000.0,
+      "dtime": 8296000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "robin @ mic",
+      "ptime": 7988000.0,
+      "dtime": 8348000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "giovane @ mic",
+      "ptime": 8165000.0,
+      "dtime": 8525000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "adrian @ mic",
+      "ptime": 8198000.0,
+      "dtime": 8558000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ruediger @ mic",
+      "ptime": 8282000.0,
+      "dtime": 8642000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "coordination of ntwk mgt evolution - ignas",
+      "ptime": 8622000.0,
+      "dtime": 8982000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "1/ state of yang",
+      "ptime": 8635000.0,
+      "dtime": 8995000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "2/ 20/80",
+      "ptime": 8840000.0,
+      "dtime": 9200000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "3/ deployment feedback",
+      "ptime": 9020000.0,
+      "dtime": 9380000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "4/ open discussion",
+      "ptime": 9136000.0,
+      "dtime": 9496000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "rob shakir @ mic",
+      "ptime": 9166000.0,
+      "dtime": 9526000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "ruediger @ mic",
+      "ptime": 9373000.0,
+      "dtime": 9733000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "rob @ mic",
+      "ptime": 9442000.0,
+      "dtime": 9802000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "balazs @ mic",
+      "ptime": 9485000.0,
+      "dtime": 9845000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "rob @",
+      "ptime": 9502000.0,
+      "dtime": 9862000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "meeting ends",
+      "ptime": 9598000.0,
+      "dtime": 9958000.0,
+      "author": "John Scudder (scribe)"
+    },
+    {
+      "text": "***Thomas Graf just left the room",
+      "ptime": 9647000.0,
+      "dtime": 1.0007E7
+    },
+    {
+      "text": "***Mark Ellison just left the room",
+      "ptime": 9647000.0,
+      "dtime": 1.0007E7
+    },
+    {
+      "text": "***Huaru Yang just left the room",
+      "ptime": 9647000.0,
+      "dtime": 1.0007E7
+    },
+    {
+      "text": "***Stephanie Huguenin just left the room",
+      "ptime": 9647000.0,
+      "dtime": 1.0007E7
+    },
+    {
+      "text": "***Peter van Dijk just left the room",
+      "ptime": 9647000.0,
+      "dtime": 1.0007E7
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 9647000.0,
+      "dtime": 1.0007E7
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF102-OPSAWG-20180717-1550"
+    }
+  ]
+}

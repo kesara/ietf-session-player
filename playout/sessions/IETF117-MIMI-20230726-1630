@@ -1,0 +1,1267 @@
+
+{
+	"title": "IETF117-MIMI-20230726-1630",
+	"filename": "IETF117-MIMI-20230726-1630",
+	"start": 0,
+	"end": 7498000,
+	"start_datetime": "2023-07-26T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "5bSDz6fc7hg",
+    "start": 0,
+    "end": "7498000"
+  }
+],
+	"messages": [
+  {
+    "author": "Nick Doty",
+    "text": "<p>do remote participants have a way of getting cute mimi stickers?</p>",
+    "topic": "ietf-117",
+    "dtime": 321000,
+    "ptime": 321000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>I'd love to mail them out but I'm not sure if IETF provides stamps</p>",
+    "topic": "ietf-117",
+    "dtime": 397000,
+    "ptime": 397000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82357\">said</a>:</p>\n<blockquote>\n<p>do remote participants have a way of getting cute mimi stickers?</p>\n</blockquote>\n<p>I got you</p>",
+    "topic": "ietf-117",
+    "dtime": 529000,
+    "ptime": 529000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Can I get a sticker?</p>",
+    "topic": "ietf-117",
+    "dtime": 636000,
+    "ptime": 636000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>You can get them from the chairs' table after the session ends.</p>",
+    "topic": "ietf-117",
+    "dtime": 657000,
+    "ptime": 657000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 668000,
+    "ptime": 668000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>will there be more in Prague <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 685000,
+    "ptime": 685000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>I actually forgot to bring my half of the sticker stack down to the meeting -- I'll put them out in the registration area later.</p>",
+    "topic": "ietf-117",
+    "dtime": 736000,
+    "ptime": 736000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>. o O ( does zulip not support stickers? )<br>\n. o O ( and moreover, does MIMI content support extensible events so one can put stickers over MIMI? :P )</p>",
+    "topic": "ietf-117",
+    "dtime": 767000,
+    "ptime": 767000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@Thom we have to start the BJORK WG in Prague so we can have a Sweedish Chef</p>",
+    "topic": "ietf-117",
+    "dtime": 789000,
+    "ptime": 789000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I support TLS encoding because nobody can specify a canonicalization for it.</p>",
+    "topic": "ietf-117",
+    "dtime": 832000,
+    "ptime": 832000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>can we make it visible to other clients that a telephony server is mimicking the clients with server-operated credentials?</p>",
+    "topic": "ietf-117",
+    "dtime": 1337000,
+    "ptime": 1337000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> i don't see how you enforce that technically</p>",
+    "topic": "ietf-117",
+    "dtime": 1355000,
+    "ptime": 1355000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>in the way that STIR-SHAKEN gets implemented, it is visible, bc when the SP is the endpoint, only the SP ID is authenticated</p>",
+    "topic": "ietf-117",
+    "dtime": 1395000,
+    "ptime": 1395000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>but not sure we want to import that model here</p>",
+    "topic": "ietf-117",
+    "dtime": 1404000,
+    "ptime": 1404000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82423\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> i don't see how you enforce that technically</p>\n</blockquote>\n<p>Depending on the architecture, you can split authentication and delivery service. Then at least they would have to collaborate.</p>",
+    "topic": "ietf-117",
+    "dtime": 1443000,
+    "ptime": 1443000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Like to +1 EKR point that thinking about SPAM mitigation is really key to choice of design here</p>",
+    "topic": "ietf-117",
+    "dtime": 1679000,
+    "ptime": 1679000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"71\">@Cullen Jennings</span> do you think spam mitigation is in tension with the privacy objective that Giles raised?</p>",
+    "topic": "ietf-117",
+    "dtime": 1804000,
+    "ptime": 1804000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@rlb so the server would authenticate sending a message to the hub, and then only the group clients themselves would realize that the sender wasn't in the group and drop the message?</p>",
+    "topic": "ietf-117",
+    "dtime": 1877000,
+    "ptime": 1877000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Raphael is going to discuss a more privacy preserving design in a few slides. Then we can discuss these questions a bit more concretely.</p>",
+    "topic": "ietf-117",
+    "dtime": 2005000,
+    "ptime": 2005000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> it seems like a scheme where the servers only authenticate membership (not individual identities) is compatible with any anti-spam scheme that doesn't look inside of groups.  but maybe the set of such schemes is small.</p>",
+    "topic": "ietf-117",
+    "dtime": 2414000,
+    "ptime": 2414000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>The reduced metadata variant does authenticate individual group members, except that it uses per-group pseudonyms. So it can do rate-limiting on a per-group, per-member level. For a per-user or per-client level, we believe Privacy Pass is a good solution.</p>",
+    "topic": "ietf-117",
+    "dtime": 2511000,
+    "ptime": 2511000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>you don't even need to do spam abatement at a per-member level for the server, as long as there is some client in the group who is capable of rolling the group keys while excluding a spamming member.</p>",
+    "topic": "ietf-117",
+    "dtime": 2566000,
+    "ptime": 2566000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>You can find our PoC implementation here. It's pretty rough, though: <a href=\"https://github.com/phnx-im/infra\">https://github.com/phnx-im/infra</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2618000,
+    "ptime": 2618000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>is there even much of an incentive for spam messages that no client will decrypt or display? DDoS is possible, but it doesn't really seem like spam</p>",
+    "topic": "ietf-117",
+    "dtime": 2710000,
+    "ptime": 2710000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Since it's the more complex target, we have focused our effort on implementing the reduced metadata variant. The full metadata one is yet to come.</p>",
+    "topic": "ietf-117",
+    "dtime": 2729000,
+    "ptime": 2729000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Just noticed the milestones for this WG could use an update.</p>",
+    "topic": "ietf-117",
+    "dtime": 2801000,
+    "ptime": 2801000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Good point <span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span>. We should probably define the threat model and security goals more clearly before we embark on this discussion.</p>",
+    "topic": "ietf-117",
+    "dtime": 2819000,
+    "ptime": 2819000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>good point Murray</p>",
+    "topic": "ietf-117",
+    "dtime": 2951000,
+    "ptime": 2951000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>This is the relevant charter text:</p>",
+    "topic": "ietf-117",
+    "dtime": 2978000,
+    "ptime": 2978000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Recognizing the need for a standardized security protocol to support group key establishment, authentication, and confidentiality services for messaging, the IETF has specified the Messaging Layer Security (MLS) protocol [I-D.ietf-mls-protocol] and architecture [I-D.ietf-mls-architecture]. MLS is agnostic to the identity system used within any given messaging service; it provides confidentiality of sessions once the participants in a conversation have been identified. To achieve interoperable messaging, the MIMI working group will specify how one or more identity building block technologies (for example, X.509 certificates or Verifiable Credentials) can be used to establish end-to-end cryptographic identity across messaging services, assuming the use of MLS for key establishment.</p>\n<p>Interoperable messaging in federated environments requires consensus on a common delivery service and a transport protocol between federated domains. Specifically, the MLS protocol requires ordering of handshake messages within groups to ensure clients can synchronize despite asynchronous message delivery. This working group will specify a flexible solution for transport and delivery that takes into account typical requirements and best practices from the industry.</p>",
+    "topic": "ietf-117",
+    "dtime": 2980000,
+    "ptime": 2980000
+  },
+  {
+    "author": "Dan Sexton",
+    "text": "<p>Companies like WhatsApp use metadata to \"prevent illegal activity\", will metadata reduction not impact on messaging providers ability to do that?</p>",
+    "topic": "ietf-117",
+    "dtime": 3018000,
+    "ptime": 3018000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I think Richard's point is not considering the update mechanisms needed to achieve interoperability through that transition.</p>",
+    "topic": "ietf-117",
+    "dtime": 3061000,
+    "ptime": 3061000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1591\">@Dan Sexton</span>  That's one of the reasons why we propose the full-metadata variant first with the reduced metadata one being essentially an optional mode of operation<br>\n.</p>",
+    "topic": "ietf-117",
+    "dtime": 3103000,
+    "ptime": 3103000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>That transition worked in part because Google brought QUIC to the IETF in part to manage that change--since it wanted to have a single crypto stack across QUIC nd its fallback protocol.</p>",
+    "topic": "ietf-117",
+    "dtime": 3116000,
+    "ptime": 3116000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>If there is no similar driver here, then shifting from one to another will have backwards compatibility issues and it will be difficult to align the incentives to get that done.</p>",
+    "topic": "ietf-117",
+    "dtime": 3158000,
+    "ptime": 3158000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i think we probably need a design team</p>",
+    "topic": "ietf-117",
+    "dtime": 3458000,
+    "ptime": 3458000
+  },
+  {
+    "author": "Mohammad Al Abbadi",
+    "text": "<p>Is the path part of the set of destinations</p>",
+    "topic": "ietf-117",
+    "dtime": 3617000,
+    "ptime": 3617000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>hard to have gateways with E2E encryption, JDR</p>",
+    "topic": "ietf-117",
+    "dtime": 3618000,
+    "ptime": 3618000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i think merging MIMI-DS &amp; LM completely is really tricky as there is a fundamental philosophical gap between \"MLS-underpins everything\" versus \"layer MLS on top, and support a migration path\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3640000,
+    "ptime": 3640000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2069\">Konrad Kohbrok</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82593\">said</a>:</p>\n<blockquote>\n<p>Good point <span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span>. We should probably define the threat model and security goals more clearly before we embark on this discussion.</p>\n</blockquote>\n<p>Seems like the main spam issue is in the initiation of groups, but also namely groups of 2 or 1-1 messages.</p>",
+    "topic": "ietf-117",
+    "dtime": 3723000,
+    "ptime": 3723000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2275\">@Matthew Hodgson</span> i think the architectural decision is whether the E2E crypto goes at the very top of the stack (as in current LM) or as far down as possible (as in MIMI-DS).  what i think merits investigation is whether we can re-slice LM to move the crypto layer down (MLS or not totally aside)</p>",
+    "topic": "ietf-117",
+    "dtime": 3768000,
+    "ptime": 3768000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Interop is needed but it is not clear that linearized matrix achieves that with any more assurance than the DS proposal. Both have been implemented. Matrix has been used in more deployments but that is not the same as interop. So, since neither is a guarantee on that, the discussion should really focused on the technical properties.</p>",
+    "topic": "ietf-117",
+    "dtime": 3792000,
+    "ptime": 3792000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82690\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> i think the architectural decision is whether the E2E crypto goes at the very top of the stack (as in current LM) or as far down as possible (as in MIMI-DS).  what i think merits investigation is whether we can re-slice LM to move the crypto layer down (MLS or not totally aside)</p>\n</blockquote>\n<p>that's precisely what we've gone and done</p>",
+    "topic": "ietf-117",
+    "dtime": 3866000,
+    "ptime": 3866000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>at least a sketch</p>",
+    "topic": "ietf-117",
+    "dtime": 3872000,
+    "ptime": 3872000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2275\">@Matthew Hodgson</span> i look forward to your Internet-draft :)</p>",
+    "topic": "ietf-117",
+    "dtime": 3895000,
+    "ptime": 3895000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1271\">Britta Hale</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82692\">said</a>:</p>\n<blockquote>\n<p>Interop is needed but it is not clear that linearized matrix achieves that with any more assurance than the DS proposal. Both have been implemented. Matrix has been used in more deployments but that is not the same as interop. So, since neither is a guarantee on that, the discussion should really focused on the technical properties.</p>\n</blockquote>\n<p>implemented by the author versus third party is a bit different, I think. Linearized Matrix has 3 implementations (1 truly independent) whereas MIMI DS only has 1.</p>",
+    "topic": "ietf-117",
+    "dtime": 3931000,
+    "ptime": 3931000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82705\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> i look forward to your Internet-draft :)</p>\n</blockquote>\n<p>yup, wish we'd got further than a one-pager sketch; bit frazzled out from the LM&lt;-&gt;Android Messages hackathon at the weekend.</p>",
+    "topic": "ietf-117",
+    "dtime": 3969000,
+    "ptime": 3969000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I dont think this is about a battle on who has more implementations. My main point is that - when you are building a gateway protocol, the ability to incrementally deploy so that you dont need to rip out the internals in order to participate in the gateway - this is a feature of protocol designs, not a bug.</p>",
+    "topic": "ietf-117",
+    "dtime": 4041000,
+    "ptime": 4041000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"547\">@Jonathan Rosenberg</span> unforatunately, anything that is E2E-secure is not purely a gateway</p>",
+    "topic": "ietf-117",
+    "dtime": 4199000,
+    "ptime": 4199000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Unless you're gatewaying someone's existing E2E protocol.</p>",
+    "topic": "ietf-117",
+    "dtime": 4228000,
+    "ptime": 4228000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>No, even then it's not E2E</p>",
+    "topic": "ietf-117",
+    "dtime": 4258000,
+    "ptime": 4258000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Then it's decrypted at the gateway</p>",
+    "topic": "ietf-117",
+    "dtime": 4268000,
+    "ptime": 4268000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i really hope nobody is proposing breaking E2EE at gateways - we sure aren't :)</p>",
+    "topic": "ietf-117",
+    "dtime": 4337000,
+    "ptime": 4337000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>No, I mean everyone has to do the iMessage E2E protocol or whatever.  So it's a gateway for the hub and new E2E implementation for the others.  I don't think this is a good outcome - it's partially still proprietary APIs.</p>",
+    "topic": "ietf-117",
+    "dtime": 4353000,
+    "ptime": 4353000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Right, but that works when you have consistent E2E protocols</p>",
+    "topic": "ietf-117",
+    "dtime": 4356000,
+    "ptime": 4356000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Ah.</p>",
+    "topic": "ietf-117",
+    "dtime": 4364000,
+    "ptime": 4364000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Hopefully what I just said at the microphone clarifies the point I am trying to make above</p>",
+    "topic": "ietf-117",
+    "dtime": 4641000,
+    "ptime": 4641000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>When we say \"gatekeeper\" do we mean iMessage, and maybe Google?</p>",
+    "topic": "ietf-117",
+    "dtime": 4647000,
+    "ptime": 4647000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1271\">Britta Hale</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82692\">said</a>:</p>\n<blockquote>\n<p>Interop is needed but it is not clear that linearized matrix achieves that with any more assurance than the DS proposal. Both have been implemented. Matrix has been used in more deployments but that is not the same as interop. So, since neither is a guarantee on that, the discussion should really focused on the technical properties.</p>\n</blockquote>\n<p>The key difference technically of LM is that group management and policy control can start off without being anchored by MLS... and then shift to it being anchored in MLS as the providers adopt MLS.</p>",
+    "topic": "ietf-117",
+    "dtime": 4653000,
+    "ptime": 4653000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>They self identify based on user numbers in March</p>",
+    "topic": "ietf-117",
+    "dtime": 4661000,
+    "ptime": 4661000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"452\">Christopher Patton</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82754\">said</a>:</p>\n<blockquote>\n<p>When we say \"gatekeeper\" do we mean iMessage, and maybe Google?</p>\n</blockquote>\n<p>We mean \"large messaigng providers\" at this point, effectively. The DMA hasn't really formalized gatekeepers yet</p>",
+    "topic": "ietf-117",
+    "dtime": 4680000,
+    "ptime": 4680000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>christopher: yes; gatekeeper is the legal jargon used to describe a big messaging provider who will be regulatorily obligated to interoperate in Mar 2024.</p>",
+    "topic": "ietf-117",
+    "dtime": 4683000,
+    "ptime": 4683000
+  },
+  {
+    "author": "Mohammad Al Abbadi",
+    "text": "<p>Gatekeeper as defined by the EU،DMA act</p>",
+    "topic": "ietf-117",
+    "dtime": 4690000,
+    "ptime": 4690000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>this sort of thing: <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_23_3674\">https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_23_3674</a></p>",
+    "topic": "ietf-117",
+    "dtime": 4706000,
+    "ptime": 4706000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Recalling probably one of the biggest gatekeepers is e2ee voice/audio (eg gaming), not messaging.</p>",
+    "topic": "ietf-117",
+    "dtime": 4744000,
+    "ptime": 4744000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>^ thanks, all</p>",
+    "topic": "ietf-117",
+    "dtime": 4766000,
+    "ptime": 4766000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>and the choice of the gatekeepers is:</p>\n<ul>\n<li>make people speak their proprietary APIs to interoperate (the easy path, obviously)</li>\n<li>speak a simple thing like Linearized Matrix which has an on-ramp to MLS (which is what we've built out with Google and Android Messages)</li>\n<li>do a massive leap to full-blown a MLS maximalist approach like MIMI-DS, when they don't even speak MLS at all today.</li>\n</ul>",
+    "topic": "ietf-117",
+    "dtime": 4846000,
+    "ptime": 4846000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i haven't found <em>any</em> who would consider the 3rd option.</p>",
+    "topic": "ietf-117",
+    "dtime": 4870000,
+    "ptime": 4870000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm finding it very hard to understand what you think (2) consists of</p>",
+    "topic": "ietf-117",
+    "dtime": 4903000,
+    "ptime": 4903000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Like, what cryptographic protocol would be in use in that case</p>",
+    "topic": "ietf-117",
+    "dtime": 4917000,
+    "ptime": 4917000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>for option 2, the WG spec would obviously be MLS for group membership &amp; crypt</p>",
+    "topic": "ietf-117",
+    "dtime": 4951000,
+    "ptime": 4951000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Matthew I am not sure it is a leap, but since you have raised the issue: have any committed to taking the onramp, once provided?   If they won't do it now, in other words, what will cause them to do it in the future?</p>",
+    "topic": "ietf-117",
+    "dtime": 4960000,
+    "ptime": 4960000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>nobody has hard-committed, but obviously there's some interest in the LM approach that we've demoed - both from Google, Cloudflare and smaller players</p>",
+    "topic": "ietf-117",
+    "dtime": 5002000,
+    "ptime": 5002000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>You know, we haven't had a good hum lately...</p>",
+    "topic": "ietf-117",
+    "dtime": 5024000,
+    "ptime": 5024000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82784\">said</a>:</p>\n<blockquote>\n<p>for option 2, the WG spec would obviously be MLS for group membership &amp; crypt</p>\n</blockquote>\n<p><em>but</em> it wouldn't be a hard dependency.</p>",
+    "topic": "ietf-117",
+    "dtime": 5032000,
+    "ptime": 5032000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>im in favor of giving the LM team a few weeks to see where they can get to.</p>",
+    "topic": "ietf-117",
+    "dtime": 5056000,
+    "ptime": 5056000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82790\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82784\">said</a>:</p>\n<blockquote>\n<p>for option 2, the WG spec would obviously be MLS for group membership &amp; crypt</p>\n</blockquote>\n<p><em>but</em> it wouldn't be a hard dependency.</p>\n</blockquote>\n<p>I don't understand what that means. How would you actually deploy the alternative</p>",
+    "topic": "ietf-117",
+    "dtime": 5057000,
+    "ptime": 5057000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"547\">Jonathan Rosenberg</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82791\">said</a>:</p>\n<blockquote>\n<p>im in favor of giving the LM team a few weeks to see where they can get to.</p>\n</blockquote>\n<p>I am fine to do a mimi-ds call, but I don't see it getting consensus</p>",
+    "topic": "ietf-117",
+    "dtime": 5078000,
+    "ptime": 5078000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>It seems to me that without any additional effort by MIMI that option 2 would still be possible. It’s ultimately a market decision. But without MIMI there is no option 3</p>",
+    "topic": "ietf-117",
+    "dtime": 5088000,
+    "ptime": 5088000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Short-term anyone who wants to interop with a particular gatekeeper would have to implement that gatekeeper's E2E?</p>",
+    "topic": "ietf-117",
+    "dtime": 5098000,
+    "ptime": 5098000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Also, if the gatekeepers invest into a transition to MLS anyway, is it really that much more heavy lifting to just use MLS to do all the other things as well?</p>",
+    "topic": "ietf-117",
+    "dtime": 5123000,
+    "ptime": 5123000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@j<br>\n<span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82798\">said</a>:</p>\n<blockquote>\n<p>Short-term anyone who wants to interop with a particular gatekeeper would have to implement that gatekeeper's E2E?</p>\n</blockquote>\n<p>But this just means that mixed gatekeeper groups don't work</p>",
+    "topic": "ietf-117",
+    "dtime": 5137000,
+    "ptime": 5137000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Yeah, you'd have to have clients be multi-headed in their crypto implementations.</p>",
+    "topic": "ietf-117",
+    "dtime": 5173000,
+    "ptime": 5173000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82755\">said</a>:</p>\n<div class=\"codehilite\"><pre><span></span><code>The key difference technically of LM is that group management and policy control can start off without being anchored by MLS... and then shift to it being anchored in MLS as the providers adopt MLS.\n````\nWe are already tied to MLS. That is the charter. So the only difference there is the assumption that gatekeepers would phase over to the LM transport before phasing over to MLS. But then the DS draft can already run over LM potentially, so even assuming the &#39;phased&#39; case, which may be niche, there does not seem to be much reason to wait.\n</code></pre></div>",
+    "topic": "ietf-117",
+    "dtime": 5221000,
+    "ptime": 5221000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>So it seems very unlikely you get inter-gatekeeper groups, rather than 3rd parties who can talk to multiple gatekeepers.</p>",
+    "topic": "ietf-117",
+    "dtime": 5228000,
+    "ptime": 5228000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>are the mimi-ds authors indicating that they aren't interested in working on a design team?</p>",
+    "topic": "ietf-117",
+    "dtime": 5239000,
+    "ptime": 5239000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>+1 Ted</p>",
+    "topic": "ietf-117",
+    "dtime": 5294000,
+    "ptime": 5294000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i agree with ted and rohan and mallory that it's worth actually trying to adopt a draft.  it can be changed if we discover that we need to change it.</p>",
+    "topic": "ietf-117",
+    "dtime": 5321000,
+    "ptime": 5321000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i don't understand what people are calling \"maximalist\"</p>",
+    "topic": "ietf-117",
+    "dtime": 5334000,
+    "ptime": 5334000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Hard</p>",
+    "topic": "ietf-117",
+    "dtime": 5359000,
+    "ptime": 5359000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> i think it means \"tightly bound to MLS\"</p>",
+    "topic": "ietf-117",
+    "dtime": 5359000,
+    "ptime": 5359000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82792\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82790\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82784\">said</a>:</p>\n<blockquote>\n<p>for option 2, the WG spec would obviously be MLS for group membership &amp; crypt</p>\n</blockquote>\n<p><em>but</em> it wouldn't be a hard dependency.</p>\n</blockquote>\n<p>I don't understand what that means. How would you actually deploy the alternative</p>\n</blockquote>\n<p>like we've done already with Google. Google have said they're going to MLS for Android Messages, but right now they talk DR. So you start DR for them, then go to MLS once they've rolled it out. And converge on MIMI-DS... but without a hard dependency on MLS.</p>",
+    "topic": "ietf-117",
+    "dtime": 5382000,
+    "ptime": 5382000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>that is, has maximal concrete requirements of each participating party</p>",
+    "topic": "ietf-117",
+    "dtime": 5386000,
+    "ptime": 5386000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>I viewed \"maximalist\" as more or less meaning interoperable with E2E encryption</p>",
+    "topic": "ietf-117",
+    "dtime": 5411000,
+    "ptime": 5411000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>If we're tied to MLS, then I don't understand the argument with a swappable crypto layer.</p>",
+    "topic": "ietf-117",
+    "dtime": 5497000,
+    "ptime": 5497000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>What Matthew argues for is not desirable property, long term.  It is transition approach that can never be removed from the architecture, with all the risks that implies.</p>",
+    "topic": "ietf-117",
+    "dtime": 5501000,
+    "ptime": 5501000
+  },
+  {
+    "author": "Mohammad Al Abbadi",
+    "text": "<p>In favor of adopting the draft for all the good reasons that have been brought up.</p>",
+    "topic": "ietf-117",
+    "dtime": 5560000,
+    "ptime": 5560000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Nothing in the IETF experience indicates that short-term approaches disappear in the short term or long term.  \"Nothing is so permanent as a temporary patch.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 5561000,
+    "ptime": 5561000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>MLS is a complex protocol with very strong security guarantees. Having a too modular 'boil the ocean' type of transport can introduce hard-to-spot security issues not to mention privacy issues. It seems to be a more careful approach to keep them (MLS/DS) tied closely.</p>",
+    "topic": "ietf-117",
+    "dtime": 5577000,
+    "ptime": 5577000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>and each point of flexibility is another place that a protocol can break or fail</p>",
+    "topic": "ietf-117",
+    "dtime": 5595000,
+    "ptime": 5595000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Daniel Gillmor agreed.</p>",
+    "topic": "ietf-117",
+    "dtime": 5614000,
+    "ptime": 5614000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>this is a call for adoption of a call for adoption</p>",
+    "topic": "ietf-117",
+    "dtime": 5638000,
+    "ptime": 5638000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>I strongly agree with <span class=\"user-mention\" data-user-id=\"1271\">@Britta Hale</span>. Another layer just adds more complexity to an already complex protocol.</p>",
+    "topic": "ietf-117",
+    "dtime": 5656000,
+    "ptime": 5656000
+  },
+  {
+    "author": "Patrick Tarpey",
+    "text": "<p>poll has finished...</p>",
+    "topic": "ietf-117",
+    "dtime": 5705000,
+    "ptime": 5705000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i am a hum maximalist</p>",
+    "topic": "ietf-117",
+    "dtime": 5742000,
+    "ptime": 5742000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>That doesn’t work well for remote participants</p>",
+    "topic": "ietf-117",
+    "dtime": 5765000,
+    "ptime": 5765000
+  },
+  {
+    "author": "Monika Ermert",
+    "text": "<p>Has humming been deprecated ;-)</p>",
+    "topic": "ietf-117",
+    "dtime": 5766000,
+    "ptime": 5766000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>humming is not remote-friendly</p>",
+    "topic": "ietf-117",
+    "dtime": 5777000,
+    "ptime": 5777000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 <span class=\"user-mention\" data-user-id=\"71\">@Cullen Jennings</span></p>",
+    "topic": "ietf-117",
+    "dtime": 5908000,
+    "ptime": 5908000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>is there a potential for collaborative rather than competitive work here?</p>",
+    "topic": "ietf-117",
+    "dtime": 5916000,
+    "ptime": 5916000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i was going to say \"even if we adopted, we can still have a design team, just focused on how to evolve the adopted thing as opposed to making a thing to adopt\"</p>",
+    "topic": "ietf-117",
+    "dtime": 5916000,
+    "ptime": 5916000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I think a statement like \"another call will be issued by the end of September, if not before\" would be useful now.</p>",
+    "topic": "ietf-117",
+    "dtime": 5962000,
+    "ptime": 5962000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>The author teams need some deadline.</p>",
+    "topic": "ietf-117",
+    "dtime": 5975000,
+    "ptime": 5975000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>agreed, there is nothing wrong with a hard deadline</p>",
+    "topic": "ietf-117",
+    "dtime": 5984000,
+    "ptime": 5984000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82858\">said</a>:</p>\n<blockquote>\n<p>is there a potential for collaborative rather than competitive work here?</p>\n</blockquote>\n<p>I would hope that there can be a design that keeps both approaches possible.</p>",
+    "topic": "ietf-117",
+    "dtime": 6010000,
+    "ptime": 6010000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>With the MIMI DS draft, the server has full visibility to all of the metadata and policy decisions and can mirror everything on a higher layer if it wants to.</p>",
+    "topic": "ietf-117",
+    "dtime": 6058000,
+    "ptime": 6058000
+  },
+  {
+    "author": "Mohammad Al Abbadi",
+    "text": "<p>The impression I have is that mimi-ds is the migration path and lm is a complicated detour or holding pattern for operators who don't want to commit to MLS yet, is that fair?</p>",
+    "topic": "ietf-117",
+    "dtime": 6063000,
+    "ptime": 6063000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>MLS is in the charter, so I doubt that the WG will adopt anything that will allow gatekeepers to avoid committing to MLS.</p>",
+    "topic": "ietf-117",
+    "dtime": 6194000,
+    "ptime": 6194000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i thought the pitch was more something based on LM+MIMI-DS as a long-term target, with something more pure LM as an intermediate step</p>",
+    "topic": "ietf-117",
+    "dtime": 6216000,
+    "ptime": 6216000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Whether there is a design team draft or not, if we come back with more than one draft in future discussions it would be useful for concrete security/privacy tradeoffs to be presented. Much of this discussion today has been around time constraints and unknown potential for interop, with not a lot of clarity about differences between the drafts on what is visible on the wire or on the servers/hubs. (Each has discussed this to some extent, and the DS draft to a greater extent, but a direct tradeoff comparison is missing.) That is very pertinent information for any decision point in the WG as we are focused on supporting E2EE and secure messaging.</p>",
+    "topic": "ietf-117",
+    "dtime": 6407000,
+    "ptime": 6407000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i think we've done a bad job on the LM side of trying explain that all we're doing is proposing syncing the MLS group management into the transport layer, so that parties who don't speak MLS yet can route/policy-control/transport messages around.</p>",
+    "topic": "ietf-117",
+    "dtime": 6455000,
+    "ptime": 6455000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>which means that (for instance) the policy decisions then get made based on the transport layer (obviously preferring the MLS-owned properties too, where they exist) - which is a major shift from the current MIMI-DS draft.</p>",
+    "topic": "ietf-117",
+    "dtime": 6547000,
+    "ptime": 6547000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>But if the data is synced between the MLS layer and the transport layer, where is the difference? The MIMI DS draft anchors it in MLS, but doesn't hide it from the server.</p>",
+    "topic": "ietf-117",
+    "dtime": 6598000,
+    "ptime": 6598000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>however, i am confident that <strong>if</strong> we can get to agreement that it's desirable to provide a migration path, rather than optimising purely for the long-term idealist architecture from the outset, then we can get aligned with LM providing the transport, MIMI-DS being a MLS DS, and everyone wins.</p>",
+    "topic": "ietf-117",
+    "dtime": 6602000,
+    "ptime": 6602000
+  },
+  {
+    "author": "Mohammad Al Abbadi",
+    "text": "<p>But they still won't be anywhere closer to speaking MLS after, so it's sounding to me less of a migration and more of an opt out</p>",
+    "topic": "ietf-117",
+    "dtime": 6624000,
+    "ptime": 6624000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Can we agree that using DR is not an option?</p>",
+    "topic": "ietf-117",
+    "dtime": 6649000,
+    "ptime": 6649000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>DR?</p>",
+    "topic": "ietf-117",
+    "dtime": 6678000,
+    "ptime": 6678000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Double Ratchet</p>",
+    "topic": "ietf-117",
+    "dtime": 6684000,
+    "ptime": 6684000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Sorry. Double Ratchet.</p>",
+    "topic": "ietf-117",
+    "dtime": 6688000,
+    "ptime": 6688000
+  },
+  {
+    "author": "Frode Kileng",
+    "text": "<p>In parts of the world, people have multiple SIMs, exchange SIMS, and buy new and drop SIMs. I.e. phone numbers may not be a good choice for persistent identities</p>",
+    "topic": "ietf-117",
+    "dtime": 6688000,
+    "ptime": 6688000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Disaster Recovery</p>",
+    "topic": "ietf-117",
+    "dtime": 6689000,
+    "ptime": 6689000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Dominican Republic</p>",
+    "topic": "ietf-117",
+    "dtime": 6692000,
+    "ptime": 6692000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Ah, yes, that seems like to does not solve the problem</p>",
+    "topic": "ietf-117",
+    "dtime": 6697000,
+    "ptime": 6697000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>yay for explicitly including having multiple clients on multiple providers</p>",
+    "topic": "ietf-117",
+    "dtime": 6701000,
+    "ptime": 6701000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2015\">Mohammad Al Abbadi</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82922\">said</a>:</p>\n<blockquote>\n<p>But they still won't be anywhere closer to speaking MLS after, so it's sounding to me less of a migration and more of an opt out</p>\n</blockquote>\n<p>no, because if they don't speak MLS they won't be able to speak to each other in the wider MIMI interoperable network :)</p>",
+    "topic": "ietf-117",
+    "dtime": 6705000,
+    "ptime": 6705000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2069\">Konrad Kohbrok</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82920\">said</a>:</p>\n<blockquote>\n<p>But if the data is synced between the MLS layer and the transport layer, where is the difference? The MIMI DS draft anchors it in MLS, but doesn't hide it from the server.</p>\n</blockquote>\n<p>the difference is that MIMI-DS assumes that everyone is already speaking MLS. but they are not.</p>",
+    "topic": "ietf-117",
+    "dtime": 6730000,
+    "ptime": 6730000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>By everyone, do you mean clients or servers?</p>",
+    "topic": "ietf-117",
+    "dtime": 6755000,
+    "ptime": 6755000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>instead, they get up and running with a non-MIMI-WG approach with whatever crypto they have today - e.g. using the LM ID</p>",
+    "topic": "ietf-117",
+    "dtime": 6755000,
+    "ptime": 6755000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Matthew. you say things like \"long-term idealist architecture from the outset\" when there are implementations.  That's starting to sound like counter-marketing rather than an analysis, and I'd prefer it if you'd stick to characterizing your own system rather than others.</p>",
+    "topic": "ietf-117",
+    "dtime": 6771000,
+    "ptime": 6771000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2069\">Konrad Kohbrok</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82940\">said</a>:</p>\n<blockquote>\n<p>By everyone, do you mean clients or servers?</p>\n</blockquote>\n<p>both.</p>",
+    "topic": "ietf-117",
+    "dtime": 6773000,
+    "ptime": 6773000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>But clients will have to speak MLS anyway.</p>",
+    "topic": "ietf-117",
+    "dtime": 6788000,
+    "ptime": 6788000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i'm not trying to market :( i'm trying to explain the reality of what would need to be implemented to be adopted before the DMA window closes.</p>",
+    "topic": "ietf-117",
+    "dtime": 6795000,
+    "ptime": 6795000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>konrad: we're talking cross purposes because you're thinking of hypothetical future MIMI adherents, whereas i'm talking about the actual parties who exist today.</p>",
+    "topic": "ietf-117",
+    "dtime": 6823000,
+    "ptime": 6823000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Users should manage public keys of their contacts end-to-end</p>",
+    "topic": "ietf-117",
+    "dtime": 6839000,
+    "ptime": 6839000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>So the MIMI protocol would have to support the double ratchet protocol?</p>",
+    "topic": "ietf-117",
+    "dtime": 6841000,
+    "ptime": 6841000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Unless public key management is end-to-end, the protocol is not end-to-end</p>",
+    "topic": "ietf-117",
+    "dtime": 6863000,
+    "ptime": 6863000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>And the iMessage protocol for that matter.</p>",
+    "topic": "ietf-117",
+    "dtime": 6875000,
+    "ptime": 6875000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2275\">@Matthew Hodgson</span> it seems like in your \"everyone speaks their own crypto\" vision, a client that talks to multiple providers has to implement multiple cryptos.  that seems ... sub-optimal</p>",
+    "topic": "ietf-117",
+    "dtime": 6876000,
+    "ptime": 6876000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>konrad: absolutely not. but the layering should not have a hard-dependency on MLS to be able to exchange messages.</p>",
+    "topic": "ietf-117",
+    "dtime": 6877000,
+    "ptime": 6877000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think it's one thing to say \"It would be good to be able to deploy in test environments without MLS\" and \"One should actually deploy without MLS\"</p>",
+    "topic": "ietf-117",
+    "dtime": 6887000,
+    "ptime": 6887000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> totally suboptimal, but realistic as a temporary measure while everyone rolls out MLS.</p>",
+    "topic": "ietf-117",
+    "dtime": 6906000,
+    "ptime": 6906000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Subpoenas against ny service to provide FBI keys are the way to break messaging protocols</p>",
+    "topic": "ietf-117",
+    "dtime": 6910000,
+    "ptime": 6910000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm provisionally onboard with (1) but not so much with (2)</p>",
+    "topic": "ietf-117",
+    "dtime": 6935000,
+    "ptime": 6935000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2275\">@Matthew Hodgson</span> so if you're going to have to implement multiple cryptos anyway, what does it matter whether the signaling goes inside or outside the crypto?</p>",
+    "topic": "ietf-117",
+    "dtime": 6949000,
+    "ptime": 6949000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(and if you're going to be implementing new signaling anyway)</p>",
+    "topic": "ietf-117",
+    "dtime": 6967000,
+    "ptime": 6967000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Matthew. Many IETF systems have lasted decades (e.g. SMTP).  Building something for the first six months of deployment when it will stick around forever has turned out to be a bad idea many times (Hello, \"Host\" header).   Speaking personally, I think it is more compelling to offer a single transition than a set of stages.  I rather suspect that if I called up the relevant teams at Google or Meta and said \"how many transitions do you want here\" the answer would be \"ideally, zero\".  Offering them two, rather than one, does not sound like a win, especially given the complexity of any of the transitions in maintaining the appropriate security and privacy characteristics.</p>",
+    "topic": "ietf-117",
+    "dtime": 6989000,
+    "ptime": 6989000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82973\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> so if you're going to have to implement multiple cryptos anyway, what does it matter whether the signaling goes inside or outside the crypto?</p>\n</blockquote>\n<p>because you can reuse the same signalling if you sync the MLS-specific group management with a common signalling layer.</p>",
+    "topic": "ietf-117",
+    "dtime": 7015000,
+    "ptime": 7015000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>rather than starting from scratch</p>",
+    "topic": "ietf-117",
+    "dtime": 7018000,
+    "ptime": 7018000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Richard. What, you don't miss Adium?</p>",
+    "topic": "ietf-117",
+    "dtime": 7031000,
+    "ptime": 7031000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@Ted, nobody should miss Adium. It never bloody worked</p>",
+    "topic": "ietf-117",
+    "dtime": 7057000,
+    "ptime": 7057000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>ted: i'm proposing 1 transition, in two layered phases. first, converge on a common transport layer. second, converge on a common encryption layer.</p>",
+    "topic": "ietf-117",
+    "dtime": 7071000,
+    "ptime": 7071000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>impersonation does seem like a large risk, especially if there can be multiple providers for the same phone number and the opportunity to overwrite the preferred delivery provider</p>",
+    "topic": "ietf-117",
+    "dtime": 7094000,
+    "ptime": 7094000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Matthew. I'm afraid I don't think that view matches how the operational reality would unfold.</p>",
+    "topic": "ietf-117",
+    "dtime": 7112000,
+    "ptime": 7112000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>A more complete explanation of PIR can be found at <a href=\"https://educatedguesswork.org/posts/pir/\">https://educatedguesswork.org/posts/pir/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 7145000,
+    "ptime": 7145000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Yeah, I'm very unclear on how you stop a provider from claiming that someone is their customer.</p>",
+    "topic": "ietf-117",
+    "dtime": 7203000,
+    "ptime": 7203000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> I think you don't</p>",
+    "topic": "ietf-117",
+    "dtime": 7214000,
+    "ptime": 7214000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-117/near/82989\">said</a>:</p>\n<blockquote>\n<p>ted: i'm proposing 1 transition, in two layered phases. first, converge on a common transport layer. second, converge on a common encryption layer.</p>\n</blockquote>\n<p>by telling the big guys that they have to do one enormous jump into the unknown, i am (very) confident they are going to balk. MIMI will end up being a very cool decentralised Signal alternative (and whatever happens here, on the Matrix side we look forward to contributing to it!). But it sure won't help with Google&lt;-&gt;Apple or WhatsApp&lt;-&gt;Skype or whatever.</p>",
+    "topic": "ietf-117",
+    "dtime": 7216000,
+    "ptime": 7216000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>/me stops heckling the PIR/discovery pitch; very happy to talk this thru after though.</p>",
+    "topic": "ietf-117",
+    "dtime": 7248000,
+    "ptime": 7248000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Then can't any provider MitM any conversation, by claiming the parties' phone numbers as their customers, and then forwarding to the real endpoints?</p>",
+    "topic": "ietf-117",
+    "dtime": 7272000,
+    "ptime": 7272000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> that's a generic problem here unless you have some kind of global authentication system</p>",
+    "topic": "ietf-117",
+    "dtime": 7300000,
+    "ptime": 7300000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Like, KT, etc.</p>",
+    "topic": "ietf-117",
+    "dtime": 7313000,
+    "ptime": 7313000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Seems like a pretty fatal one to me, though.  People will be claiming celebreties' and dissidents' phone numbers immediately.</p>",
+    "topic": "ietf-117",
+    "dtime": 7351000,
+    "ptime": 7351000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I agree that it's a generic, hard problem. but do we have any suggested directions or mitigations?</p>",
+    "topic": "ietf-117",
+    "dtime": 7373000,
+    "ptime": 7373000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Don't do SII at all, and you have to advertise SSI?</p>",
+    "topic": "ietf-117",
+    "dtime": 7458000,
+    "ptime": 7458000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>It's awful but I don't see anything else.</p>",
+    "topic": "ietf-117",
+    "dtime": 7470000,
+    "ptime": 7470000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-MIMI-20230726-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-MIMI-20230726-1630"
+		}		
+	]
+}

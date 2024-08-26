@@ -1,0 +1,518 @@
+
+{
+	"title": "IETF-IDR-20230424-1400",
+	"filename": "IETF-IDR-20230424-1400",
+	"start": 0,
+	"end": 6199000,
+	"start_datetime": "2023-04-24T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "90iq1lK2NQs",
+    "start": 0,
+    "end": "6199000"
+  }
+],
+	"messages": [
+  {
+    "author": "Randy Bush",
+    "text": "<p>hang shi's mic is on but i hear notheing</p>",
+    "topic": "ietf-interim",
+    "dtime": 187000,
+    "ptime": 187000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2023-idr-02-idr\">https://notes.ietf.org/notes-ietf-interim-2023-idr-02-idr#</a> - for those who can help with minutes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 404000,
+    "ptime": 404000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>“There are more things in heaven and earth than are dreamt of in your philosophy.” (Re “hard to imagine”)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1456000,
+    "ptime": 1456000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p>+1 to that</p>",
+    "topic": "ietf-interim",
+    "dtime": 1470000,
+    "ptime": 1470000
+  },
+  {
+    "author": "Ignas Bagdonas",
+    "text": "<p>Not only that application (=BGP) is misbehaving, for proper and efficient application (=BGP) behaviour a feedback into transport is needed. There are such feedback mechanisms and they are happily in use, it does not seem to be practical to try to define a uniform interface to the transport - for practical reasons, but defining a codepoint for indication of transport problems appears to be a right thing to do.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1500000,
+    "ptime": 1500000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>FWIW, Randy, I am not the one arguing that TCP is the thing having the main issues.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1535000,
+    "ptime": 1535000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>To be pedantic, the spec doesn’t require reception of keepalives, but of messages.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1752000,
+    "ptime": 1752000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>+1</p>",
+    "topic": "ietf-interim",
+    "dtime": 1913000,
+    "ptime": 1913000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>Can someone state what problems TCP proposal does not detect ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2505000,
+    "ptime": 2505000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>the remote bgp peer doesn't drain its socket for a long period of time.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2572000,
+    "ptime": 2572000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>The observation is that to solve the issue at BGP level both sides queues needs to be filled ... at TCP only one side, That is important and very significant difference</p>",
+    "topic": "ietf-interim",
+    "dtime": 2585000,
+    "ptime": 2585000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>@Jeff - TCP UT solution solves that</p>",
+    "topic": "ietf-interim",
+    "dtime": 2624000,
+    "ptime": 2624000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>If you presented with that echo, Job, my hat is off.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2629000,
+    "ptime": 2629000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p>Thanks :-) it was psycho</p>",
+    "topic": "ietf-interim",
+    "dtime": 2678000,
+    "ptime": 2678000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>no it doesn't, robert.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2730000,
+    "ptime": 2730000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>the ack segments are not lost.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>sure  remote queue needs to fill up in both solutions</p>",
+    "topic": "ietf-interim",
+    "dtime": 2774000,
+    "ptime": 2774000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>no, it can be unidirectional zero windowing.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2790000,
+    "ptime": 2790000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>when it fills it will be zero window</p>",
+    "topic": "ietf-interim",
+    "dtime": 2795000,
+    "ptime": 2795000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>so TCP will kick in on the sender ... UT is triggered by zero window too</p>",
+    "topic": "ietf-interim",
+    "dtime": 2823000,
+    "ptime": 2823000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>beyond the timer</p>",
+    "topic": "ietf-interim",
+    "dtime": 2828000,
+    "ptime": 2828000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>We'll take this to the list. Again.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2848000,
+    "ptime": 2848000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>ok</p>",
+    "topic": "ietf-interim",
+    "dtime": 2864000,
+    "ptime": 2864000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I was just going to respond to Job’s observation early on, that he would have expected that a system whose rx buffer is full and advertises 0 window, would time its peer out due to holdtime expired. My comment is that in the past I’ve advocated for the opposite perspective — that if the local system has told the remote one “do not send anything” it’s not reasonable to then complain that the other system has not sent anything. It may be that this perspective is why some implementations work as they do. $0.02.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2890000,
+    "ptime": 2890000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@alvaro - you've given your own example for need for capability.  if you don't know that the other side can accept your local-pref, or you don't agree that the other side should send it and override your own, you need to signal agreement.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3184000,
+    "ptime": 3184000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p>@John - you also brought up the opposite-opposite perspective; that for robustness’ sake it might make sense to close the connection if you observe the remote side isn’t doing it :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3205000,
+    "ptime": 3205000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@alvaro/authors, fwiw, a capability vector may be easiest way to exchange what levels of behavior you're willing to support.  consider <a href=\"https://datatracker.ietf.org/doc/draft-haas-flowspec-capability-bits/\">https://datatracker.ietf.org/doc/draft-haas-flowspec-capability-bits/</a> for an example of such a vector.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3247000,
+    "ptime": 3247000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>+1 to Job, at least to the extremely long case.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3269000,
+    "ptime": 3269000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I agree. “I come to bury Caesar, not to praise him”, I was just offering some color as to why it might be implemented that way.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3289000,
+    "ptime": 3289000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>There is no universe in which going mute for tens of minutes is ok.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3319000,
+    "ptime": 3319000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>it's not mute, it's \"I don't hear you, and you're not allowed to shout any longer\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3340000,
+    "ptime": 3340000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Yes, I misspoke.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3364000,
+    "ptime": 3364000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The angry spouse that shuts off their hearing aids.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3364000,
+    "ptime": 3364000
+  },
+  {
+    "author": "Claudio Jeker",
+    "text": "<p>I think extending RFC 9234 roles for this would make sense.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3453000,
+    "ptime": 3453000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@claudio, please consider making this comment at mic.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3485000,
+    "ptime": 3485000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>it is on the slide</p>",
+    "topic": "ietf-interim",
+    "dtime": 3509000,
+    "ptime": 3509000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>although I think you'll find great reluctance to change that as it overloads the use case.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3510000,
+    "ptime": 3510000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thanks, Robert.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3517000,
+    "ptime": 3517000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Is the IANA BGP attribute registry going to need a table to indicate what contexts different attributes are usable in? (Much like OSPF has in some of their registries.)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3605000,
+    "ptime": 3605000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>That's one option, John.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3624000,
+    "ptime": 3624000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>it’s a way to help people not to forget to consider it.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3630000,
+    "ptime": 3630000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>@john - do you mean including all current attributes ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3647000,
+    "ptime": 3647000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Yes I think so.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3672000,
+    "ptime": 3672000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>having used and survived both flavors of confederation, i am undercaffeinated so can not merge these two architectures in my head.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3677000,
+    "ptime": 3677000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>so it would be sort of OAD-ELIGIBLE flag ? As each OAD may have it's own policy I presume</p>",
+    "topic": "ietf-interim",
+    "dtime": 3715000,
+    "ptime": 3715000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>IDRP ISO 10747</p>",
+    "topic": "ietf-interim",
+    "dtime": 3723000,
+    "ptime": 3723000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>@robert sounds right.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3784000,
+    "ptime": 3784000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>That's why I suggest mutual capabilities, Randy.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3816000,
+    "ptime": 3816000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>It's significant surgery to BGP ...</p>",
+    "topic": "ietf-interim",
+    "dtime": 3839000,
+    "ptime": 3839000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>i understood @jeff.  i did not want to be proscriptive.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3860000,
+    "ptime": 3860000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>@alvaro - I am sorry if you said this and I missed - but how about just new atribute to contain stack of attributes which you want to leak  ? IMO it has number of advantages - filtering being the obvious one</p>",
+    "topic": "ietf-interim",
+    "dtime": 3913000,
+    "ptime": 3913000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>of course within receiving domain you could unpack it</p>",
+    "topic": "ietf-interim",
+    "dtime": 3982000,
+    "ptime": 3982000
+  },
+  {
+    "author": "Shyam Sethuram",
+    "text": "<p>Can there be multiple OADs (somewhat ironical) i.e. different ADs that an AS is part of ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4014000,
+    "ptime": 4014000
+  },
+  {
+    "author": "Jim Uttaro",
+    "text": "<p>The intention is a set of AS Domains are all under a single OAD providing various service overlay..</p>",
+    "topic": "ietf-interim",
+    "dtime": 4120000,
+    "ptime": 4120000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>The functionality is defined per-session, so it could be possible for a specific speaker to have different policies towards/from its EBGP-OAD peers.  That may be akin to \"different ADs\".    To tie in with what Jim said: the various services may not extend to all EBGP-OAD peers...</p>\n<p>We'll add some text about that in the draft.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4229000,
+    "ptime": 4229000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"422\">@Jeffrey Haas</span> ACK</p>",
+    "topic": "ietf-interim",
+    "dtime": 4267000,
+    "ptime": 4267000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"174\">@John Scudder</span>  Good idea -- maybe this draft can update the registry.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4299000,
+    "ptime": 4299000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I'll send additional comments on the redirect-group to the mailing list.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4302000,
+    "ptime": 4302000
+  },
+  {
+    "author": "Zhen Tan",
+    "text": "<p>OK， thank you Jeff</p>",
+    "topic": "ietf-interim",
+    "dtime": 4334000,
+    "ptime": 4334000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The main question we'll have is FSv2 is still under-specified as to how we'll package redirect actions.  Keep the existing mechanisms, or move exclusively to something new?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4369000,
+    "ptime": 4369000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"759\">@Robert Raszuk</span>  Yes, OAD-ELIGIBLE sounds like what we mean: any \"leaked\" attributed are not sent by default -- which ones will depend on the services, etc.  They would be OPTIONAL.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4425000,
+    "ptime": 4425000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"759\">@Robert Raszuk</span> An \"attribute stack\" was considered before.  We need to tag this proposal as replacing that one.  In my opinion, if the receiver is going to unpack the contents, why pack them in the first place. ;-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4572000,
+    "ptime": 4572000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>For the reasons of fine control</p>",
+    "topic": "ietf-interim",
+    "dtime": 4596000,
+    "ptime": 4596000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>@Sue yes it has been presented in the same slides deck</p>",
+    "topic": "ietf-interim",
+    "dtime": 4896000,
+    "ptime": 4896000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@xinxin yi - is your presentation done and contained in last one?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4896000,
+    "ptime": 4896000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@ran chen the proposal is straight forward. thanks.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5177000,
+    "ptime": 5177000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Is everyone still seeing Tan Zhen's slides on slide 2?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5392000,
+    "ptime": 5392000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-dong-idr-node-target-ext-comm/\">https://datatracker.ietf.org/doc/draft-dong-idr-node-target-ext-comm/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 5453000,
+    "ptime": 5453000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p>Thanks all!</p>",
+    "topic": "ietf-interim",
+    "dtime": 6188000,
+    "ptime": 6188000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-IDR-20230424-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-idr-02/session/idr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-IDR-20230424-1400"
+		}
+	]
+}

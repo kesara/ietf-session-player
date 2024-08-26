@@ -1,0 +1,658 @@
+
+{
+	"title": "IETF118-HTTPBIS-20231110-1200",
+	"filename": "IETF118-HTTPBIS-20231110-1200",
+	"start": 0,
+	"end": 7361000,
+	"start_datetime": "2023-11-10T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "UVj2_6R8S4w",
+    "start": 0,
+    "end": "7361000"
+  }
+],
+	"messages": [
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Hi everyone!</p>",
+    "topic": "ietf-118",
+    "dtime": 56000,
+    "ptime": 56000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>The iana registry has quite a few patch-specific media types.  Is there any of those which look close to this?</p>",
+    "topic": "ietf-118",
+    "dtime": 733000,
+    "ptime": 733000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p><a href=\"https://www.iana.org/assignments/media-types/media-types.xhtml\">https://www.iana.org/assignments/media-types/media-types.xhtml</a></p>",
+    "topic": "ietf-118",
+    "dtime": 742000,
+    "ptime": 742000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Have the authors reached out to the media types list and asked?  They'd have to approve a new one, and there may be some guidance there on when it is needed or not.</p>",
+    "topic": "ietf-118",
+    "dtime": 909000,
+    "ptime": 909000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>\"empty PATCH request\"? please no.</p>",
+    "topic": "ietf-118",
+    "dtime": 1178000,
+    "ptime": 1178000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>What's the logic for not using a partial PUT for the resumption pass? When we're not <em>describing</em> the change, just appending, that seems pretty much on point.</p>",
+    "topic": "ietf-118",
+    "dtime": 1192000,
+    "ptime": 1192000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>If the initial PUT hasn't really \"completed\" yet, the resource arguably doesn't exist yet to PATCH.</p>",
+    "topic": "ietf-118",
+    "dtime": 1240000,
+    "ptime": 1240000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Proxy could do \"Expect: 100-continue\" to the backend to ensure the upload will be accepted, maybe?</p>",
+    "topic": "ietf-118",
+    "dtime": 1508000,
+    "ptime": 1508000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>How does the upload offset calculation interact with transfer encoding/compression?  I'm reporting how many bytes came through the network, is that right?</p>",
+    "topic": "ietf-118",
+    "dtime": 1785000,
+    "ptime": 1785000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101551\">said</a>:</p>\n<blockquote>\n<p>Have the authors reached out to the media types list and asked?  They'd have to approve a new one, and there may be some guidance there on when it is needed or not.</p>\n</blockquote>\n<p>I have looked at the media types list and all patch format that I found where specific for JSON, XML etc. However, I will ask on their list for more guidance, thank you.</p>",
+    "topic": "ietf-118",
+    "dtime": 2287000,
+    "ptime": 2287000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Marius: IMHO advice from <em>this</em> WG will be as good as it gets</p>",
+    "topic": "ietf-118",
+    "dtime": 2329000,
+    "ptime": 2329000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"147\">Mike Bishop</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101560\">said</a>:</p>\n<blockquote>\n<p>What's the logic for not using a partial PUT for the resumption pass? When we're not <em>describing</em> the change, just appending, that seems pretty much on point.</p>\n</blockquote>\n<p>Partial PUT is also an option, yes. I am a bit hesitant because the spec mentions issues with backwards compatibility of partial PUT. This might not be a concern in our case though.</p>",
+    "topic": "ietf-118",
+    "dtime": 2595000,
+    "ptime": 2595000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101594\">said</a>:</p>\n<blockquote>\n<p>How does the upload offset calculation interact with transfer encoding/compression?  I'm reporting how many bytes came through the network, is that right?</p>\n</blockquote>\n<p>From a server's perspective, the offset is calculated after Transport-Encoding is applied to decode the request body, however before Content-Encoding is used for decoding.</p>",
+    "topic": "ietf-118",
+    "dtime": 2687000,
+    "ptime": 2687000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Thanks for the clarification on that, Marius.</p>",
+    "topic": "ietf-118",
+    "dtime": 2706000,
+    "ptime": 2706000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101594\">said</a>:</p>\n<blockquote>\n<p>How does the upload offset calculation interact with transfer encoding/compression?  I'm reporting how many bytes came through the network, is that right?</p>\n</blockquote>\n<p>to my mind HTTP uploads are acting on representations. Content-encoding is tied to representations but transfer-encoding is not. Also, transfer-encoding is not a thin in HTTP/2 or HTTP/3.  In other words, the server is receiving bytes of the representation (however it gets that).</p>\n<p>However, we probably would benefit from some text to discuss how HTTP/1.1 transfer-encoding might be a footgun if the server counted those bytes naiively. I created an issue so we don't forget <a href=\"https://github.com/httpwg/http-extensions/issues/2679\">https://github.com/httpwg/http-extensions/issues/2679</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2722000,
+    "ptime": 2722000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>Thanks for the feedback, Ted and Lucas. We should clarify this in the draft.</p>",
+    "topic": "ietf-118",
+    "dtime": 2785000,
+    "ptime": 2785000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Now remembering that my thought at 117 is we should explore issuing guidance to move away from HTTP/1.1.</p>",
+    "topic": "ietf-118",
+    "dtime": 2824000,
+    "ptime": 2824000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"185\">Marius Kleidl</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101626\">said</a>:</p>\n<blockquote>\n<p>Partial PUT is also an option, yes. I am a bit hesitant because the spec mentions issues with backwards compatibility of partial PUT. This might not be a concern in our case though.</p>\n</blockquote>\n<p>I think if this draft mandates the use of partial PUT, one could safely take explicit indications of support for resumable upload as agreement to accept partial PUT.</p>",
+    "topic": "ietf-118",
+    "dtime": 2864000,
+    "ptime": 2864000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>Good point. Thank you, Mike. We will consider this as an alternative to using PATCH.</p>",
+    "topic": "ietf-118",
+    "dtime": 3100000,
+    "ptime": 3100000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span>, I think what you missed was Kazuho saying this draft MUST be adopted because of the flaw in CONNECT-UDP.</p>",
+    "topic": "ietf-118",
+    "dtime": 3176000,
+    "ptime": 3176000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Hmmmmmm.</p>",
+    "topic": "ietf-118",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Note that the PRI method was registered by 7540 for that reason -- if a server interpreted the preamble as HTTP, the method would never be valid.</p>",
+    "topic": "ietf-118",
+    "dtime": 3311000,
+    "ptime": 3311000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>PTTH</p>",
+    "topic": "ietf-118",
+    "dtime": 3342000,
+    "ptime": 3342000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>lol</p>",
+    "topic": "ietf-118",
+    "dtime": 3348000,
+    "ptime": 3348000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> My comment was +1 to adopt, and as a mitigation, the only thing we need to say is don't send optimistically in H1, because we aren't interested in optimizing it any more.</p>",
+    "topic": "ietf-118",
+    "dtime": 3402000,
+    "ptime": 3402000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Intermediaries are clients too!</p>",
+    "topic": "ietf-118",
+    "dtime": 3509000,
+    "ptime": 3509000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Ben, you keep talking about the state of the art, but what you propose was largely built in 2000; see <a href=\"https://www.slideserve.com/noah/bellwether-surrogate-services-for-popular-content-powerpoint-ppt-presentation\">https://www.slideserve.com/noah/bellwether-surrogate-services-for-popular-content-powerpoint-ppt-presentation</a> . \"surrogate\" was an old name for a class of reverse proxy.</p>",
+    "topic": "ietf-118",
+    "dtime": 3850000,
+    "ptime": 3850000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>There are also a bunch of approaches to solve these sorts of problems in different layers (DDNS, NAT traversal, etc.). I wouldn't think this is interesting to do unless Cloudflare, Apple, and others who are already doing this express a need and desire to do something standard.</p>",
+    "topic": "ietf-118",
+    "dtime": 3997000,
+    "ptime": 3997000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>is kazuho suggesting HTTP over WebTransport? :D</p>",
+    "topic": "ietf-118",
+    "dtime": 4203000,
+    "ptime": 4203000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"28\">Lucas Pardue</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101727\">said</a>:</p>\n<blockquote>\n<p>is kazuho suggesting HTTP over WebTransport? :D</p>\n</blockquote>\n<p>Ben mentioned the state of the art implementations are HTTP over websockets, so why not?</p>",
+    "topic": "ietf-118",
+    "dtime": 4350000,
+    "ptime": 4350000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p><a href=\"https://github.com/cloudflare/cloudflared\">https://github.com/cloudflare/cloudflared</a></p>",
+    "topic": "ietf-118",
+    "dtime": 4565000,
+    "ptime": 4565000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>so much enthusiasm today</p>",
+    "topic": "ietf-118",
+    "dtime": 4721000,
+    "ptime": 4721000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Lots of enthusiasm enthusiasts.</p>",
+    "topic": "ietf-118",
+    "dtime": 4738000,
+    "ptime": 4738000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I'm summarily unenthusiastic today.</p>",
+    "topic": "ietf-118",
+    "dtime": 4750000,
+    "ptime": 4750000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>More than I'd expect on an IETF Friday</p>",
+    "topic": "ietf-118",
+    "dtime": 4756000,
+    "ptime": 4756000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I'm a flying home soon enthusiast</p>",
+    "topic": "ietf-118",
+    "dtime": 4764000,
+    "ptime": 4764000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>this is getting out of hand <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4786000,
+    "ptime": 4786000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>David, you're not an enthusiast enthusiast?</p>",
+    "topic": "ietf-118",
+    "dtime": 4810000,
+    "ptime": 4810000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Too late to put the genie back in the bottle David.  You started a movement.  Own it.</p>",
+    "topic": "ietf-118",
+    "dtime": 4819000,
+    "ptime": 4819000
+  },
+  {
+    "author": "Philipp Tiesel",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1495\">Alan Frindell</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101731\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"28\">Lucas Pardue</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101727\">said</a>:</p>\n<blockquote>\n<p>is kazuho suggesting HTTP over WebTransport? :D</p>\n</blockquote>\n<p>Ben mentioned the state of the art implementations are HTTP over websockets, so why not?</p>\n</blockquote>\n<p>Because you end up with a clunky form of multiplexing on to. Yay, worked fine for the last 10 years, but teams are currently looking for something more lightweight.</p>",
+    "topic": "ietf-118",
+    "dtime": 4943000,
+    "ptime": 4943000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>There have been similar attempts in the past.  For example, this looks somewhat similar to <a href=\"https://datatracker.ietf.org/doc/draft-xie-bidirectional-messaging/\">https://datatracker.ietf.org/doc/draft-xie-bidirectional-messaging/</a>, co-authored by <span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> .  Also note <a href=\"https://datatracker.ietf.org/doc/html/draft-lentczner-rhttp-00\">https://datatracker.ietf.org/doc/html/draft-lentczner-rhttp-00</a>, which uses Upgrade to flip an H1 connection to the opposite direction.</p>",
+    "topic": "ietf-118",
+    "dtime": 4960000,
+    "ptime": 4960000
+  },
+  {
+    "author": "Philipp Tiesel",
+    "text": "<p>I am not confident the the current idea is the right solution, but I guess we should do something for the reverse http usecase. <br>\nMASQ listen HTTP could also be an option.</p>",
+    "topic": "ietf-118",
+    "dtime": 5068000,
+    "ptime": 5068000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>or CONNECT-IP if the origin is on a different box than \"translator\"</p>",
+    "topic": "ietf-118",
+    "dtime": 5107000,
+    "ptime": 5107000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Yeah, I'm intrigued by the possibility of CONNECT-{TCP,UDP} where you get a port in 127.x.x.x space and the server knows where to find the origin you advertised.</p>",
+    "topic": "ietf-118",
+    "dtime": 5119000,
+    "ptime": 5119000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>There was not a hand-raising exercise for the previous doc. Was that because adoption was not yet requested?</p>",
+    "topic": "ietf-118",
+    "dtime": 5157000,
+    "ptime": 5157000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yeah the last one is still early in development</p>",
+    "topic": "ietf-118",
+    "dtime": 5174000,
+    "ptime": 5174000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>MASQUE listen UDP+conversion to forwarding mode?</p>",
+    "topic": "ietf-118",
+    "dtime": 5177000,
+    "ptime": 5177000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>It certainly avoids the concern that an attacker can see the other side of the connection!</p>",
+    "topic": "ietf-118",
+    "dtime": 5205000,
+    "ptime": 5205000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>The Reverse HTTP draft actually does propose using MASQUE in some scenarios ... perhaps not in the way some here are imagining though.</p>",
+    "topic": "ietf-118",
+    "dtime": 5223000,
+    "ptime": 5223000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Re if masque is appropriate for rhttp, I kind of believe that it depends on what you need ... people prefer using L2, L3, L4, L7 solutions for different reasons, even masque has connect-ethernet, connect-ip, connect-tcp/udp, ordinary HTTP being L7.<br>\nThat'd be the case for rhttp as well. Some may prefer VPN-like solution, some might prefer application level.</p>",
+    "topic": "ietf-118",
+    "dtime": 5288000,
+    "ptime": 5288000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Personally, my interest would be having an optimized solution, so turning an <code>connect-rhttp</code> upgrade on H1 makes the most sense.</p>",
+    "topic": "ietf-118",
+    "dtime": 5349000,
+    "ptime": 5349000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>(because you'd get a raw TLS socket on which you can send HTTP on the opposite direction)</p>",
+    "topic": "ietf-118",
+    "dtime": 5374000,
+    "ptime": 5374000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"147\">Mike Bishop</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101772\">said</a>:</p>\n<blockquote>\n<p>There have been similar attempts in the past.  For example, this looks somewhat similar to <a href=\"https://datatracker.ietf.org/doc/draft-xie-bidirectional-messaging/\">https://datatracker.ietf.org/doc/draft-xie-bidirectional-messaging/</a>, co-authored by <span class=\"user-mention silent\" data-user-id=\"1495\">Alan Frindell</span> .  Also note <a href=\"https://datatracker.ietf.org/doc/html/draft-lentczner-rhttp-00\">https://datatracker.ietf.org/doc/html/draft-lentczner-rhttp-00</a>, which uses Upgrade to flip an H1 connection to the opposite direction.</p>\n</blockquote>\n<p>Yeah, we brought that right when WebTransport was taking off, and decided to hitch our wagon there instead of pursuing the bidirectional thing.  It was also slightly different since sending a request from the server-&gt;client required the equivalent of a webtransport connect stream in order to route it through a proxy.</p>",
+    "topic": "ietf-118",
+    "dtime": 5525000,
+    "ptime": 5525000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> , you're missing that this version entirely drops the prompted form of EA, so there is actual protocol work that can be omitted.</p>",
+    "topic": "ietf-118",
+    "dtime": 5570000,
+    "ptime": 5570000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>OK, so I missed the DNS check thing, can I rejoin the queue on that topic?</p>",
+    "topic": "ietf-118",
+    "dtime": 5625000,
+    "ptime": 5625000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>sorry but I strongly disagree that adding client certs now is cheaper. I don't want client implementations to be put off from implementing a spec  because they have to opt in to two things when they only want to benefit from one. And making one document allow opting into different features slows down the standards process</p>",
+    "topic": "ietf-118",
+    "dtime": 5693000,
+    "ptime": 5693000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Jonathan can you take to chat?</p>",
+    "topic": "ietf-118",
+    "dtime": 5717000,
+    "ptime": 5717000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>We did some research on ORIGIN Frames and found that including the DNS check pretty much removed all performance improvements</p>",
+    "topic": "ietf-118",
+    "dtime": 5755000,
+    "ptime": 5755000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"28\">@Lucas Pardue</span> If a client doesn't want to use secondary client certs, does that actually add complexity for them?  I would think that including secondary client certs would increase _server_ implementation complexity.</p>",
+    "topic": "ietf-118",
+    "dtime": 5795000,
+    "ptime": 5795000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>The DNS checks also made it very difficult to deploy at Cloudflare, because we have lots of different IPs operating from the same metals.</p>",
+    "topic": "ietf-118",
+    "dtime": 5809000,
+    "ptime": 5809000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>We had to go from a flexible IP model to a rigid \"you must use this IP\" model to run the experiment.</p>",
+    "topic": "ietf-118",
+    "dtime": 5837000,
+    "ptime": 5837000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>IPs should only be used to route traffic, and not to provide identity.</p>",
+    "topic": "ietf-118",
+    "dtime": 5946000,
+    "ptime": 5946000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Ben to clarify: my point is if we had RFC NNNN, that defined a single extension for client and server certs, the HTTP library will have to do the work for both sides. If we split it into two extensions in one doc, we might as well just split the docs IMO</p>",
+    "topic": "ietf-118",
+    "dtime": 5975000,
+    "ptime": 5975000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>That is my concern: if there are no performance improvements when we do the DNS check, and if secondary server certs without the DNS check introduces a while range of new attack surfaces, it seems like we are stuck with either:  1) adding a bunch of complexity for little benefit; or 2) having to walk back on the DNS check and then have a bunch of new and concerning attack surfaces.</p>",
+    "topic": "ietf-118",
+    "dtime": 6048000,
+    "ptime": 6048000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>there are some client-only and server-only libs/stacks of course</p>",
+    "topic": "ietf-118",
+    "dtime": 6048000,
+    "ptime": 6048000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> Easy, we make an HTTPS record flag like \"dns-match-opt-out\" <span aria-label=\"innocent\" class=\"emoji emoji-1f607\" role=\"img\" title=\"innocent\">:innocent:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 6088000,
+    "ptime": 6088000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"672\">@Erik Nygren</span> That presupposes that the only possible benefits are performance ones. Coalescing provides improved privacy benefits too.</p>",
+    "topic": "ietf-118",
+    "dtime": 6113000,
+    "ptime": 6113000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>But secondly, I'm not sure where this extra attack surface is. If an attacker can get a cert issued and can bypass CT,  then honestly you're toast.</p>",
+    "topic": "ietf-118",
+    "dtime": 6204000,
+    "ptime": 6204000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2424\">Benjamin Schwartz</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101840\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> Easy, we make an HTTPS record flag like \"dns-match-opt-out\" <span aria-label=\"innocent\" class=\"emoji emoji-1f607\" role=\"img\" title=\"innocent\">:innocent:</span></p>\n</blockquote>\n<p>That might be reasonable.  It's not as much the IPs that matter as much as having a second factor that makes it harder for someone who compromises a certificate (through misissuance or loss) to use it for attacking users.</p>",
+    "topic": "ietf-118",
+    "dtime": 6278000,
+    "ptime": 6278000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>(This would delete the second factor...)</p>",
+    "topic": "ietf-118",
+    "dtime": 6414000,
+    "ptime": 6414000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2424\">Benjamin Schwartz</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/101840\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> Easy, we make an HTTPS record flag like \"dns-match-opt-out\" <span aria-label=\"innocent\" class=\"emoji emoji-1f607\" role=\"img\" title=\"innocent\">:innocent:</span></p>\n</blockquote>\n<p>If an attacker can control the IP then they can also set <code>dns-match-opt-out</code>, no?</p>",
+    "topic": "ietf-118",
+    "dtime": 6434000,
+    "ptime": 6434000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Exactly, any attacker who can set this flag can also modify the DNS, so it's \"secure\".  BUT, setting it reduces your security, because anyone who steals your key can capture your users via Secondary Certificates, without DNS or transport interference.</p>",
+    "topic": "ietf-118",
+    "dtime": 6555000,
+    "ptime": 6555000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I love WebDAV!</p>",
+    "topic": "ietf-118",
+    "dtime": 6825000,
+    "ptime": 6825000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/rfc4918\">https://datatracker.ietf.org/doc/html/rfc4918</a></p>",
+    "topic": "ietf-118",
+    "dtime": 6867000,
+    "ptime": 6867000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>there's versioning as well</p>",
+    "topic": "ietf-118",
+    "dtime": 6901000,
+    "ptime": 6901000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>The primary attack of concern is that attacker gets a certificate for origin A.  They operate server B (eg, a phishing site, a subresource they get included in advertiseements, etc) and get lots of users to connect to it.  They then send the secondary cert for A and get the user to issue a request to <a href=\"https://A\">https://A</a>     (eg, as a 30x redirect or a subresource from something on B) and then do attacks against resources on origin A.  While this class of attack is entirely possible today on-path (eg, if the attacker controls DNS or controls the users local network, etc) then it is already game-over today, Secondary Certs without a second factor control via DNS opens up this class of attacks to be remote and from anyone on the Internet.</p>",
+    "topic": "ietf-118",
+    "dtime": 6945000,
+    "ptime": 6945000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Also, making key theft attacks easier to execute increases the incentive to steal keys, so we don't really know how common this kind of attack might become.</p>",
+    "topic": "ietf-118",
+    "dtime": 7020000,
+    "ptime": 7020000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I don't have a problem with adding more security to connections in general, but relying on IP for identity is just wrong.</p>",
+    "topic": "ietf-118",
+    "dtime": 7060000,
+    "ptime": 7060000
+  },
+  {
+    "author": "Kévin Dunglas",
+    "text": "<p>Mercure: <a href=\"https://mercure.rocks/spec\">https://mercure.rocks/spec</a></p>",
+    "topic": "ietf-118",
+    "dtime": 7066000,
+    "ptime": 7066000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>The SvcParam for a \"dns-match-opt-out\" at least allows origins to claim that they don't care about this class of attack.  (ie, it is \"enable-remote-impersonation-with-cert\" which might be a reasonable trade-off for some uses)</p>",
+    "topic": "ietf-118",
+    "dtime": 7086000,
+    "ptime": 7086000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I think having a better story around standardizing pub/sub interactions over HTTP is a good thing.  We've done a lot of pub/sub work over in moq, and I've given some thought about what the gap is there -- why HTTP can't suffice natively.</p>",
+    "topic": "ietf-118",
+    "dtime": 7107000,
+    "ptime": 7107000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Agreed. And the argument might be that HTTP deals with resources, having resource-level notification system inside HTTP might make things simpler.</p>",
+    "topic": "ietf-118",
+    "dtime": 7161000,
+    "ptime": 7161000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"672\">@Erik Nygren</span> Maybe a better option is a list of SANs that can be coalesced?</p>",
+    "topic": "ietf-118",
+    "dtime": 7205000,
+    "ptime": 7205000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Or a range of IPs that you can coalesce to.</p>",
+    "topic": "ietf-118",
+    "dtime": 7236000,
+    "ptime": 7236000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Sharing the same CNAME target or same SVCB TargetName (which the latest draft seems to be allowing) might also be reasonable.  If the ORIGIN frame comes along with the secondary cert then \"same IP\" may not be necessary.  (I'm also not a fan of relying on IP for identity)</p>",
+    "topic": "ietf-118",
+    "dtime": 7237000,
+    "ptime": 7237000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>ORIGIN Frame says use IP in the h2c case, or optionally always.</p>",
+    "topic": "ietf-118",
+    "dtime": 7277000,
+    "ptime": 7277000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Another problem with all of this is that you still need to wait for the DNS query before you can use the Secondary Certificate</p>",
+    "topic": "ietf-118",
+    "dtime": 7313000,
+    "ptime": 7313000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Not if the DNS query is on the first domain, as opposed to checking the IP of the second domain</p>",
+    "topic": "ietf-118",
+    "dtime": 7342000,
+    "ptime": 7342000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Yes, a SvcParam that lists which \"you can coalesce onto any of this list of SANs with a secondary cert from them as the primary\" would also address this and could be a better solution that just an opt-out.</p>",
+    "topic": "ietf-118",
+    "dtime": 7344000,
+    "ptime": 7344000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-HTTPBIS-20231110-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/httpbis"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-HTTPBIS-20231110-1200"
+		}		
+	]
+}

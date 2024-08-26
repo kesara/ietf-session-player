@@ -1,0 +1,252 @@
+
+{
+	"title": "IETF116-TCPM-20230327-0630",
+	"filename": "IETF116-TCPM-20230327-0630",
+	"start": 0,
+	"end": 5590000,
+	"start_datetime": "2023-03-27T06:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "FXcaKNy-1QA",
+    "start": 0,
+    "end": "5590000"
+  }
+],
+	"messages": [
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>yupp</p>",
+    "topic": "ietf-116",
+    "dtime": 29000,
+    "ptime": 29000
+  },
+  {
+    "author": "Michael Tüxen",
+    "text": "<p>If you want me to state something at the mic, please use <em>MIC</em> in your statement.</p>",
+    "topic": "ietf-116",
+    "dtime": 412000,
+    "ptime": 412000
+  },
+  {
+    "author": "Ingemar Johansson",
+    "text": "<p>Is it only me having problems with no audio?</p>",
+    "topic": "ietf-116",
+    "dtime": 490000,
+    "ptime": 490000
+  },
+  {
+    "author": "Michael Tüxen",
+    "text": "<p>I do have audio.</p>",
+    "topic": "ietf-116",
+    "dtime": 502000,
+    "ptime": 502000
+  },
+  {
+    "author": "Ingemar Johansson",
+    "text": "<p>:-(</p>",
+    "topic": "ietf-116",
+    "dtime": 509000,
+    "ptime": 509000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>I have remote audio working</p>",
+    "topic": "ietf-116",
+    "dtime": 516000,
+    "ptime": 516000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>my audio's OK</p>",
+    "topic": "ietf-116",
+    "dtime": 519000,
+    "ptime": 519000
+  },
+  {
+    "author": "Ingemar Johansson",
+    "text": "<p>Fixed...</p>",
+    "topic": "ietf-116",
+    "dtime": 716000,
+    "ptime": 716000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>it's probably sufficient to say \"additional combinations of these bitfields may be allocated by IANA subject to Standards Action\"</p>",
+    "topic": "ietf-116",
+    "dtime": 1420000,
+    "ptime": 1420000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>I don’t think we need to create a registry. So I would say no need to meant IANA</p>",
+    "topic": "ietf-116",
+    "dtime": 1518000,
+    "ptime": 1518000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>We've had the discussion around ACK-on-ACK (which really may only happen with ACK++ as mentioned). I don't buy the idea of it causing data segment retransmissions.</p>",
+    "topic": "ietf-116",
+    "dtime": 1534000,
+    "ptime": 1534000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>mention I mean</p>",
+    "topic": "ietf-116",
+    "dtime": 1540000,
+    "ptime": 1540000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>Since any new data packet will get an ACK (with the most recent ACE counter), breaking any \"chain\" of \"continous retranmissions\"...</p>",
+    "topic": "ietf-116",
+    "dtime": 1569000,
+    "ptime": 1569000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>(Received indications of a vendor interested in getting AccECN deployed in production \"soon\", based off the fbsd stack... Maybe in conjunction with iOS/MacOS support)</p>",
+    "topic": "ietf-116",
+    "dtime": 1680000,
+    "ptime": 1680000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>mirja/bob: if the TCP flags aren't already somehow in an IANA registry, then agree -- no need to involve IANA. haven't checked though. if the flags are already mentioned in an IANA registry then there's probably a (admiteddly, potentially pedantic) need to inform them via this draft</p>",
+    "topic": "ietf-116",
+    "dtime": 1733000,
+    "ptime": 1733000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>I don't think there is though (checking via RFC 7125)</p>",
+    "topic": "ietf-116",
+    "dtime": 1772000,
+    "ptime": 1772000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>so yeah, agree with Mirja, no need to invoke IANA on ACE.</p>",
+    "topic": "ietf-116",
+    "dtime": 1791000,
+    "ptime": 1791000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>I don't much like the idea of a PS saying something and marking it as EXP, that makes for kind of awkard updates if EXP finally progresses with changes to PS.</p>",
+    "topic": "ietf-116",
+    "dtime": 2254000,
+    "ptime": 2254000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>In a different context, we settled on a PS document that said \"thou SHOULD NOT [do the experimental thing] unless you know what you're doing\"</p>",
+    "topic": "ietf-116",
+    "dtime": 2350000,
+    "ptime": 2350000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>If only someone proposed fixing the RFC3465 problem...</p>",
+    "topic": "ietf-116",
+    "dtime": 2778000,
+    "ptime": 2778000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>Re: TARR, altho ABC is EXP, RFC5681 adopts the algorithm as \"RECOMMEND\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3147000,
+    "ptime": 3147000
+  },
+  {
+    "author": "Ingemar Johansson",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "ietf-116",
+    "dtime": 3541000,
+    "ptime": 3541000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Assuming there's TLS authentication, I think the hijacking problem is manageable.</p>",
+    "topic": "ietf-116",
+    "dtime": 4206000,
+    "ptime": 4206000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>IIUC the TLS handshake only occurs to the unicast address</p>",
+    "topic": "ietf-116",
+    "dtime": 4239000,
+    "ptime": 4239000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>UTO (which I mentioned a while ago) being advisory of course, which makes it OK to not include in the SYN</p>",
+    "topic": "ietf-116",
+    "dtime": 4864000,
+    "ptime": 4864000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>...quic transport parameters for tcp...</p>",
+    "topic": "ietf-116",
+    "dtime": 5426000,
+    "ptime": 5426000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>It would be interesting to have a draft that has 3 - 4 of these new option ideas and then bake them off</p>",
+    "topic": "ietf-116",
+    "dtime": 5481000,
+    "ptime": 5481000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 5535000,
+    "ptime": 5535000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 5545000,
+    "ptime": 5545000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>I like the catalog idea from Andrew too - that would be the most compressed variant!</p>",
+    "topic": "ietf-116",
+    "dtime": 5567000,
+    "ptime": 5567000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>IIRC XMPP does the same thing</p>",
+    "topic": "ietf-116",
+    "dtime": 5587000,
+    "ptime": 5587000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-TCPM-20230327-0630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/tcpm"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-TCPM-20230327-0630"
+		}		
+	]
+}

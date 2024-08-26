@@ -1,0 +1,692 @@
+{
+  "title": "IETF104-DNSOP-20190326-1350",
+  "filename": "IETF104-DNSOP-20190326-1350",
+  "start": 0,
+  "end": 6111000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "A3uX-6gkt-g",
+      "start": 0.0,
+      "end": 6111000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Richard Franks just joined the room",
+      "ptime": 3000.0,
+      "dtime": 754000.0
+    },
+    {
+      "text": "***Jaap Akkerhuis just joined the room",
+      "ptime": 55000.0,
+      "dtime": 806000.0
+    },
+    {
+      "text": "***Janick Alexander L?di just joined the room",
+      "ptime": 114000.0,
+      "dtime": 865000.0
+    },
+    {
+      "text": "***Roger Murray just joined the room",
+      "ptime": 136000.0,
+      "dtime": 887000.0
+    },
+    {
+      "text": "Agenda at IETF 104: https://datatracker.ietf.org/meeting/104/materials/agenda-104-dnsop-04",
+      "ptime": 145000.0,
+      "dtime": 896000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Meeting materials: https://datatracker.ietf.org/meeting/materials/#dnsop",
+      "ptime": 157000.0,
+      "dtime": 908000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Routinator 3000 just left the room",
+      "ptime": 261000.0,
+      "dtime": 1012000.0
+    },
+    {
+      "text": "***Richard Franks just left the room",
+      "ptime": 262000.0,
+      "dtime": 1013000.0
+    },
+    {
+      "text": "***Routinator 3000 just joined the room",
+      "ptime": 307000.0,
+      "dtime": 1058000.0
+    },
+    {
+      "text": "***Hugo Salgado just joined the room",
+      "ptime": 370000.0,
+      "dtime": 1121000.0
+    },
+    {
+      "text": "***Hugo Salgado_6723 just joined the room",
+      "ptime": 375000.0,
+      "dtime": 1126000.0
+    },
+    {
+      "text": "***Martin Casanova just joined the room",
+      "ptime": 376000.0,
+      "dtime": 1127000.0
+    },
+    {
+      "text": "***Roland van Rijswijk-Deij just joined the room",
+      "ptime": 382000.0,
+      "dtime": 1133000.0
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 388000.0,
+      "dtime": 1139000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "We\u0027re in the chair\u0027s slides: https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessa-dnsop-chairs-slides-04",
+      "ptime": 427000.0,
+      "dtime": 1178000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Wes Hardaker at mic",
+      "ptime": 449000.0,
+      "dtime": 1200000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Routinator 3000 just left the room",
+      "ptime": 467000.0,
+      "dtime": 1218000.0
+    },
+    {
+      "text": "***Richard Franks just joined the room",
+      "ptime": 475000.0,
+      "dtime": 1226000.0
+    },
+    {
+      "text": "Do we have people who are remote",
+      "ptime": 485000.0,
+      "dtime": 1236000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "?",
+      "ptime": 487000.0,
+      "dtime": 1238000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "I\u0027m remote. Good audio and video.",
+      "ptime": 577000.0,
+      "dtime": 1328000.0,
+      "author": "Hugo Salgado_6723"
+    },
+    {
+      "text": "Thanks!",
+      "ptime": 620000.0,
+      "dtime": 1371000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Matthias Mekking at mic",
+      "ptime": 676000.0,
+      "dtime": 1427000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Juan-Pedro Cerezo Martin just joined the room",
+      "ptime": 780000.0,
+      "dtime": 1531000.0
+    },
+    {
+      "text": "Stuart Cheshire presenting https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessa-dns-service-discovery-document-updates-00",
+      "ptime": 882000.0,
+      "dtime": 1633000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Guillermo Cicileo just joined the room",
+      "ptime": 982000.0,
+      "dtime": 1733000.0
+    },
+    {
+      "text": "***Janick Alexander L?di just left the room",
+      "ptime": 1047000.0,
+      "dtime": 1798000.0
+    },
+    {
+      "text": "***Chris Box just joined the room",
+      "ptime": 1067000.0,
+      "dtime": 1818000.0
+    },
+    {
+      "text": "IF YOU ARE REMOTE AND WANT SOMETHING RELAYED TO THE MICROPHONE, please put \"MIC:\" at the beginning of you message.",
+      "ptime": 1081000.0,
+      "dtime": 1832000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Ted Lemon at mic",
+      "ptime": 1351000.0,
+      "dtime": 2102000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***PATRICK McManus just joined the room",
+      "ptime": 1418000.0,
+      "dtime": 2169000.0
+    },
+    {
+      "text": "***PATRICK McManus just left the room",
+      "ptime": 1507000.0,
+      "dtime": 2258000.0
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 1525000.0,
+      "dtime": 2276000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Slides being presented: https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessa-multi-provider-dnssec-01",
+      "ptime": 1714000.0,
+      "dtime": 2465000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Pahlavi Aras and Shumon Huque are sharing the presenting",
+      "ptime": 1781000.0,
+      "dtime": 2532000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Hansj?rg Wenger just joined the room",
+      "ptime": 1792000.0,
+      "dtime": 2543000.0
+    },
+    {
+      "text": "(Pallavi)",
+      "ptime": 1838000.0,
+      "dtime": 2589000.0,
+      "author": "Peter van Dijk"
+    },
+    {
+      "text": "***Hansj?rg Wenger just left the room",
+      "ptime": 1912000.0,
+      "dtime": 2663000.0
+    },
+    {
+      "text": "Peter - thank you for the correction.",
+      "ptime": 1916000.0,
+      "dtime": 2667000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Pallavi Aras",
+      "ptime": 1925000.0,
+      "dtime": 2676000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Chris Box just left the room",
+      "ptime": 2047000.0,
+      "dtime": 2798000.0
+    },
+    {
+      "text": "Jan Vcelak now speaking on stage",
+      "ptime": 2121000.0,
+      "dtime": 2872000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Jan Komissar just joined the room",
+      "ptime": 2162000.0,
+      "dtime": 2913000.0
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 2333000.0,
+      "dtime": 3084000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Willem Torop at mic relaying a question from a colleague at NLNet Labs",
+      "ptime": 2418000.0,
+      "dtime": 3169000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Jonathan Reed at mic",
+      "ptime": 2441000.0,
+      "dtime": 3192000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Tim W(?) at the back mic",
+      "ptime": 2548000.0,
+      "dtime": 3299000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "(does someone know his name?)",
+      "ptime": 2569000.0,
+      "dtime": 3320000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Jan Henzi just joined the room",
+      "ptime": 2580000.0,
+      "dtime": 3331000.0
+    },
+    {
+      "text": "Now, Tim Wicinski at the front mic",
+      "ptime": 2588000.0,
+      "dtime": 3339000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "I think that was Christian Grothoff but i\u0027m not certain",
+      "ptime": 2588000.0,
+      "dtime": 3339000.0,
+      "author": "Peter van Dijk"
+    },
+    {
+      "text": "Tim Wicinski, who is DNSOP co-chair but not on stage because he\u0027s trying to rest his banged-up knee.",
+      "ptime": 2593000.0,
+      "dtime": 3344000.0,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "@Peter - Thanks!  I thought I heard \"Tim\"? but that sounds right.",
+      "ptime": 2613000.0,
+      "dtime": 3364000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Mike St John at mic",
+      "ptime": 2624000.0,
+      "dtime": 3375000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Hansj?rg Wenger just joined the room",
+      "ptime": 2732000.0,
+      "dtime": 3483000.0
+    },
+    {
+      "text": "***Hansj?rg Wenger just left the room",
+      "ptime": 2784000.0,
+      "dtime": 3535000.0
+    },
+    {
+      "text": "***Hansj?rg Wenger just joined the room",
+      "ptime": 2785000.0,
+      "dtime": 3536000.0
+    },
+    {
+      "text": "***Hansj?rg Wenger just left the room",
+      "ptime": 2790000.0,
+      "dtime": 3541000.0
+    },
+    {
+      "text": "Petr Spacek at mic",
+      "ptime": 2821000.0,
+      "dtime": 3572000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "To be truly correct - Petr ?pa?ek",
+      "ptime": 2848000.0,
+      "dtime": 3599000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Paul Hoffman presenting on 7706bis. Slides: https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessa-draft-ietf-dnsop-7706bis-00",
+      "ptime": 2895000.0,
+      "dtime": 3646000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Wes Hardaker at mic",
+      "ptime": 3067000.0,
+      "dtime": 3818000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***TARIQ SARAJ just joined the room",
+      "ptime": 3079000.0,
+      "dtime": 3830000.0
+    },
+    {
+      "text": "***Sandra Murphy just joined the room",
+      "ptime": 3152000.0,
+      "dtime": 3903000.0
+    },
+    {
+      "text": "***Sandra Murphy just left the room",
+      "ptime": 3171000.0,
+      "dtime": 3922000.0
+    },
+    {
+      "text": "***Sandra Murphy just joined the room",
+      "ptime": 3171000.0,
+      "dtime": 3922000.0
+    },
+    {
+      "text": "Andreas Schulze at mic",
+      "ptime": 3252000.0,
+      "dtime": 4003000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Matthew Pounsett at mic",
+      "ptime": 3278000.0,
+      "dtime": 4029000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Matt Tooley just left the room",
+      "ptime": 3372000.0,
+      "dtime": 4123000.0
+    },
+    {
+      "text": "Duane Wessels presenting about supporting DNS over TCP - https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-dnsop-tcp-requirement-00",
+      "ptime": 3504000.0,
+      "dtime": 4255000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "ACCF_DNS(9)",
+      "ptime": 3794000.0,
+      "dtime": 4545000.0,
+      "author": "fneves"
+    },
+    {
+      "text": "***Balamuhunthan Balarajah just joined the room",
+      "ptime": 3840000.0,
+      "dtime": 4591000.0
+    },
+    {
+      "text": "Sara Dickinson at mic",
+      "ptime": 3917000.0,
+      "dtime": 4668000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Wes Hardaker at mic",
+      "ptime": 3992000.0,
+      "dtime": 4743000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Petr ?pa?ek at mic",
+      "ptime": 4025000.0,
+      "dtime": 4776000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Sara Dickinson at mic",
+      "ptime": 4141000.0,
+      "dtime": 4892000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Jason Livingood presenting on two drafts. Slides: https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-draft-livingood-dnsop-dont-switch-resolvers-00",
+      "ptime": 4235000.0,
+      "dtime": 4986000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Joseph Chiu-Kit Yee just joined the room",
+      "ptime": 4276000.0,
+      "dtime": 5027000.0
+    },
+    {
+      "text": "George Michaelson at mic",
+      "ptime": 4429000.0,
+      "dtime": 5180000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Tim Wicinski at mic",
+      "ptime": 4466000.0,
+      "dtime": 5217000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Jim Reid at mic",
+      "ptime": 4497000.0,
+      "dtime": 5248000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Duane Wessels just joined the room",
+      "ptime": 4508000.0,
+      "dtime": 5259000.0
+    },
+    {
+      "text": "Matthias Mekking at mic",
+      "ptime": 4514000.0,
+      "dtime": 5265000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Ralf Weber at mic",
+      "ptime": 4556000.0,
+      "dtime": 5307000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Warren Kumari at mic",
+      "ptime": 4584000.0,
+      "dtime": 5335000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Stephane Bortzmeyer at mic",
+      "ptime": 4613000.0,
+      "dtime": 5364000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Tim Wicinski at mic",
+      "ptime": 4650000.0,
+      "dtime": 5401000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Balamuhunthan Balarajah just left the room",
+      "ptime": 4660000.0,
+      "dtime": 5411000.0
+    },
+    {
+      "text": "***Balamuhunthan Balarajah just joined the room",
+      "ptime": 4663000.0,
+      "dtime": 5414000.0
+    },
+    {
+      "text": "Matthew Pounsett at mic",
+      "ptime": 4671000.0,
+      "dtime": 5422000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Peter Koch at mic",
+      "ptime": 4696000.0,
+      "dtime": 5447000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 4756000.0,
+      "dtime": 5507000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Joe Abley at mic",
+      "ptime": 4809000.0,
+      "dtime": 5560000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Petr ?pa?ek at mic",
+      "ptime": 4822000.0,
+      "dtime": 5573000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Dan York at mic",
+      "ptime": 4856000.0,
+      "dtime": 5607000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Matthias Mekking at mic",
+      "ptime": 5085000.0,
+      "dtime": 5836000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Jelte Jansen just left the room",
+      "ptime": 5148000.0,
+      "dtime": 5899000.0
+    },
+    {
+      "text": "Ladislav Lhotka and Petr ?pa?ek presenting about Yang types for DNS CLASSes - https://datatracker.ietf.org/meeting/104/materials/slides-104-dnsop-sessa-yang-types-for-dns-classes-and-resource-record-types-00",
+      "ptime": 5183000.0,
+      "dtime": 5934000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Duane Wessels just left the room",
+      "ptime": 5263000.0,
+      "dtime": 6014000.0
+    },
+    {
+      "text": "***Sandra Murphy just left the room",
+      "ptime": 5493000.0,
+      "dtime": 6244000.0
+    },
+    {
+      "text": "Andrew Sullivan at mic",
+      "ptime": 5641000.0,
+      "dtime": 6392000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "***Michael Resch just joined the room",
+      "ptime": 5643000.0,
+      "dtime": 6394000.0
+    },
+    {
+      "text": "***Yuki Goto just joined the room",
+      "ptime": 5794000.0,
+      "dtime": 6545000.0
+    },
+    {
+      "text": "***Yuki Goto just left the room",
+      "ptime": 5863000.0,
+      "dtime": 6614000.0
+    },
+    {
+      "text": "Wes Hardaker at the mic",
+      "ptime": 5871000.0,
+      "dtime": 6622000.0,
+      "author": "york@jabber.isoc.org"
+    },
+    {
+      "text": "Or we could end early!",
+      "ptime": 6029000.0,
+      "dtime": 6780000.0,
+      "author": "andrew"
+    },
+    {
+      "text": "***Jan Komissar just left the room",
+      "ptime": 6069000.0,
+      "dtime": 6820000.0
+    },
+    {
+      "text": "***Richard Franks just left the room",
+      "ptime": 6073000.0,
+      "dtime": 6824000.0
+    },
+    {
+      "text": "***Martin Casanova just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Wouter Wijngaards just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Wilhelm Wimmreuter just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Guillermo Cicileo just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Juan-Pedro Cerezo Martin just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Hugo Salgado_6723 just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Kevin Borgolte just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Tim April just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Balamuhunthan Balarajah just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Joseph Chiu-Kit Yee just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Hugo Salgado just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***TARIQ SARAJ just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    },
+    {
+      "text": "***Jan Henzi just left the room",
+      "ptime": 6110000.0,
+      "dtime": 6861000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-DNSOP-20190326-1350"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+
+{
+	"title": "IETF120-AVTCORE-20240722-2000",
+	"filename": "IETF120-AVTCORE-20240722-2000",
+	"start": 0,
+	"end": 5888000,
+	"start_datetime": "2024-07-22T20:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "15-kdY0v6Yo",
+    "start": 0,
+    "end": "5888000"
+  }
+],
+	"messages": [
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Jonathan, can you check if your mic is on? It seems to be very low in the remote audio, especially compared to Magnus</p>",
+    "topic": "ietf-interim",
+    "dtime": 654000,
+    "ptime": 654000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>is qlog useful only for x-over-quic, or is the functionality of qlog a reasonable match for other mappings of rtp?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2318000,
+    "ptime": 2318000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>So far qlog has only been used for x-over-quic as far as I know, but there's nothing intrinsically blocking it from being useful for all protocols.</p>",
+    "topic": "ietf-120",
+    "dtime": 2399000,
+    "ptime": 2399000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>QLOG is really a protocol agnostic structural event logging format. One can simply define modules for part or whole protocols.</p>",
+    "topic": "ietf-120",
+    "dtime": 2605000,
+    "ptime": 2605000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-ietf-quic-qlog-main-schema/\">https://datatracker.ietf.org/doc/draft-ietf-quic-qlog-main-schema/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2624000,
+    "ptime": 2624000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>hm. video/apv is in the standards tree. What's the standards organization sponsoring this format?</p>",
+    "topic": "ietf-120",
+    "dtime": 5334000,
+    "ptime": 5334000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-AVTCORE-20240722-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/avtcore"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-AVTCORE-20240722-2000"
+		}		
+	]
+}

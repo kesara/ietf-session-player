@@ -1,0 +1,203 @@
+
+{
+	"title": "IETF120-PQUIP-20240723-2230",
+	"filename": "IETF120-PQUIP-20240723-2230",
+	"start": 0,
+	"end": 5465000,
+	"start_datetime": "2024-07-23T22:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "aFW6SrMDeEk",
+    "start": 0,
+    "end": "5465000"
+  }
+],
+	"messages": [
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 527000,
+    "ptime": 527000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 562000,
+    "ptime": 562000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>👋🏻</p>",
+    "topic": "ietf-120",
+    "dtime": 581000,
+    "ptime": 581000
+  },
+  {
+    "author": "Kris Kwiatkowski",
+    "text": "<p><span aria-label=\"spock\" class=\"emoji emoji-1f596\" role=\"img\" title=\"spock\">:spock:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 602000,
+    "ptime": 602000
+  },
+  {
+    "author": "Pascal Schäfer",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I have previously opposed WGLC for the PQ/T Terminology draft -- while I love the content; I think the definitions are still evolving. One of the main ongoing evolutions is the Hale-Connolly spectrums work, which I see has now been forked out. I haven't reviewed the recent diffs fully, but it seems much more stable than 6 months ago, so my objections to proceeding to RFC are much less.</p>",
+    "topic": "ietf-120",
+    "dtime": 1180000,
+    "ptime": 1180000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>There has been some discussion on revision of hybrid/composite terminology for more clarity. I think that those are still open items. It is definitely getting closer.</p>",
+    "topic": "ietf-120",
+    "dtime": 1371000,
+    "ptime": 1371000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I think the point is that the PQUIP charter forbids actually defining new cryptography. This work is getting a bit close to that, and is starting to feel like it belongs in CFRG.</p>\n<blockquote>\n<p>\"This WG will not update existing protocols, specify new protocols, define new cryptographic mechanisms, or assess whether a given cryptographic mechanism is quantum-resistant.\"</p>\n</blockquote>",
+    "topic": "ietf-120",
+    "dtime": 1664000,
+    "ptime": 1664000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<p>+1 Mike</p>",
+    "topic": "ietf-120",
+    "dtime": 1676000,
+    "ptime": 1676000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<p>this also kindof makes me nervous....</p>",
+    "topic": "ietf-120",
+    "dtime": 1685000,
+    "ptime": 1685000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<p>I seem to recall folks saying \"oh, if we just provide good tooling around X complicated thing people won't make mistakes\"...<br>\nThen SAML happened</p>\n<p>This obviously is not that, but I think this might better be done elsewhere</p>",
+    "topic": "ietf-120",
+    "dtime": 1792000,
+    "ptime": 1792000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>As an engineer, Fuzed Hybrid is appealing to me. As a cryptographer, I would like to understand how much we have to dig into the guts of eacah of the algorithms we're fuzing</p>",
+    "topic": "ietf-120",
+    "dtime": 1842000,
+    "ptime": 1842000
+  },
+  {
+    "author": "Jessica Krynitsky",
+    "text": "<p>I think the point of this slide was that this part doesn't belong in the draft and should belong in CFRG, to me this one feels more like defining and categorizing different hybrid modes that are being developed elsewhere</p>",
+    "topic": "ietf-120",
+    "dtime": 1918000,
+    "ptime": 1918000
+  },
+  {
+    "author": "Peter Campbell",
+    "text": "<p>If you change the API, is that still a black box algorithm?</p>",
+    "topic": "ietf-120",
+    "dtime": 2012000,
+    "ptime": 2012000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>@Christopher Patton: usually it only requires adding extra information into the hash. So the bonus is that these are not new algorithms (they arguably require less change than e.g. xwing does), and you get stronger security than any other hybrid option (if a system is using hybrid).</p>",
+    "topic": "ietf-120",
+    "dtime": 2408000,
+    "ptime": 2408000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>that's wonderful news :)</p>",
+    "topic": "ietf-120",
+    "dtime": 2457000,
+    "ptime": 2457000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1271\">Britta Hale</span> <a href=\"#narrow/stream/360-pquip/topic/ietf-120/near/125682\">said</a>:</p>\n<blockquote>\n<p>@Christopher Patton: usually it only requires adding extra information into the hash. So the bonus is that these are not new algorithms (they arguably require less change than e.g. xwing does), and you get stronger security than any other hybrid option (if a system is using hybrid).</p>\n</blockquote>\n<p>I admit to being like a year out of date on reading your papers, but I thought you had to, like, unpack the Fiat-Shamir and add an extra step to cross-over the intermediate values before hashing? (over-simplified)</p>",
+    "topic": "ietf-120",
+    "dtime": 2683000,
+    "ptime": 2683000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Since CFRG \"owns\" security but PQUIP \"owns\" the use case more broadly, we are putting discussion to this WG first. If people say they would like to see such a draft, we would start the process properly in CFRG for security review.</p>",
+    "topic": "ietf-120",
+    "dtime": 2734000,
+    "ptime": 2734000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/360-pquip/topic/ietf-120/near/125697\">said</a>:</p>\n<blockquote>\n<p>I admit to being like a year out of date on reading your papers, but I thought you had to, like, unpack the Fiat-Shamir and add an extra step to cross-over the intermediate values before hashing? (over-simplified)</p>\n</blockquote>\n<p>Sounds like something that would break batch validation/parallel validation of the component parts, so perhaps also not free from a performance perspective either?   I assume it would also potentially block choosing the order to validate in whatever minimizes latency or energy to fail (for junk inputs that will fail)?</p>",
+    "topic": "ietf-120",
+    "dtime": 2919000,
+    "ptime": 2919000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>@Mike Ounsworth: it depends on the construction components and security goals. If the goal is SNS+SV, then the possibilities are more restricted. If just SNS, you have a lot more flexibility to blackbox things. Most solution approaches that use masking only do so for SV. It also depends on the algorithm combination - anything using RSA for instance (not that you would want that) can blackbox basically everything.</p>",
+    "topic": "ietf-120",
+    "dtime": 2922000,
+    "ptime": 2922000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>(On the point of storing seeds: And key generation is cheap)</p>",
+    "topic": "ietf-120",
+    "dtime": 3301000,
+    "ptime": 3301000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p><a href=\"https://en.wikipedia.org/wiki/United_States_Secretary_of_Commerce\">https://en.wikipedia.org/wiki/United_States_Secretary_of_Commerce</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3774000,
+    "ptime": 3774000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>\"Sean Turner, OID-beating enthusiast\"</p>",
+    "topic": "ietf-120",
+    "dtime": 4239000,
+    "ptime": 4239000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>said decision tree: <a href=\"https://raw.githubusercontent.com/avaira77/pq-ietf-usecase/main/decision-tree/pqcrypto-decision-tree.svg\">https://raw.githubusercontent.com/avaira77/pq-ietf-usecase/main/decision-tree/pqcrypto-decision-tree.svg</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4613000,
+    "ptime": 4613000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-PQUIP-20240723-2230"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/pquip"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-PQUIP-20240723-2230"
+		}		
+	]
+}

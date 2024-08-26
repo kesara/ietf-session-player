@@ -1,0 +1,161 @@
+
+{
+	"title": "IETF-T2TRG-20230524-1300",
+	"filename": "IETF-T2TRG-20230524-1300",
+	"start": 0,
+	"end": 4108000,
+	"start_datetime": "2023-05-24T12:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "V7TUaxeilkQ",
+    "start": 0,
+    "end": "4108000"
+  }
+],
+	"messages": [
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Is there use of multicast in CoAP?</p>",
+    "topic": "ietf-interim",
+    "dtime": 746000,
+    "ptime": 746000
+  },
+  {
+    "author": "Ari Keränen",
+    "text": "<p>Hannes: yes, have seen for example with light control</p>",
+    "topic": "ietf-interim",
+    "dtime": 1200000,
+    "ptime": 1200000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>There is some use of multicast in light control, but also for discovery</p>",
+    "topic": "ietf-interim",
+    "dtime": 1311000,
+    "ptime": 1311000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Thanks.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1441000,
+    "ptime": 1441000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Regarding protocols: Is OCF still alive?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1459000,
+    "ptime": 1459000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>And has someone seen SZTP being used for IoT? To me it felt it was replaced by BRSKI</p>",
+    "topic": "ietf-interim",
+    "dtime": 1550000,
+    "ptime": 1550000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>That's a good remark, Casten. The \"bootstrapping, enrollment, onboarding, etc.\" terminology often has different meanings in different protocols</p>",
+    "topic": "ietf-interim",
+    "dtime": 1783000,
+    "ptime": 1783000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>A question about the players: The OMA LwM2M protocol focuses on a narrow communication path between the LwM2M Client and the LwM2M Server / LwM2M Bootstrap-Server (if we ignore the Gateway functionality). Would you focus just on those parts or on the wider ecosystem?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2301000,
+    "ptime": 2301000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I think these protocols are interesting independent of their current deployment status.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2329000,
+    "ptime": 2329000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Fair enough. I am just curious what the state-of-the-art is</p>",
+    "topic": "ietf-interim",
+    "dtime": 2409000,
+    "ptime": 2409000
+  },
+  {
+    "author": "Mohit Sethi",
+    "text": "<p>It might make sense to drop some protocols from the draft if they are not alive anymore -- who would know about OCF? Is it still being developed? Is it deployed?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2512000,
+    "ptime": 2512000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>OCF: I guess Dave Thaler since he was once active in OCF</p>",
+    "topic": "ietf-interim",
+    "dtime": 2616000,
+    "ptime": 2616000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>My stance is that the OCF approach is interesting enough that we should aim to cover it</p>",
+    "topic": "ietf-interim",
+    "dtime": 2665000,
+    "ptime": 2665000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>With PUFs the key is implicitly there due to the charactistics of the manufacuring process</p>",
+    "topic": "ietf-interim",
+    "dtime": 2734000,
+    "ptime": 2734000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I think OCF thinks it is still alive, but maybe outsiders disagree :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3121000,
+    "ptime": 3121000
+  },
+  {
+    "author": "Mohit Sethi",
+    "text": "<p>If people are working on OCF and developing the specs, keeping it in the draft makes sense.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3183000,
+    "ptime": 3183000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>BT works about 70% of the time for me.  In the car-sharing co-op, it's a disaster since the stupid car system is always full of stale connections.  Meanwhile, at the airport lounge, endless sets of headsets willing to pair with 0000.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3906000,
+    "ptime": 3906000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 4083000,
+    "ptime": 4083000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-T2TRG-20230524-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-t2trg-01/session/t2trg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-T2TRG-20230524-1300"
+		}
+	]
+}

@@ -1,0 +1,354 @@
+{
+  "title": "IETF103-6TISCH-20181108-1610",
+  "filename": "IETF103-6TISCH-20181108-1610",
+  "start": 0,
+  "end": 7129000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "FGDQnrHkZBQ",
+      "start": 0.0,
+      "end": 7129000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "hi everybody!!!!",
+      "ptime": 38000.0,
+      "dtime": 628000.0,
+      "author": "Xavier Vilajosana"
+    },
+    {
+      "text": "hi there",
+      "ptime": 57000.0,
+      "dtime": 647000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "Hello",
+      "ptime": 75000.0,
+      "dtime": 665000.0,
+      "author": "Tengfei Chang"
+    },
+    {
+      "text": "***Paventhan Arumugam just joined the room",
+      "ptime": 109000.0,
+      "dtime": 699000.0
+    },
+    {
+      "text": "Tengfei!! (Y)",
+      "ptime": 124000.0,
+      "dtime": 714000.0,
+      "author": "Xavier Vilajosana"
+    },
+    {
+      "text": "***Christian Hopfner just left the room",
+      "ptime": 159000.0,
+      "dtime": 749000.0
+    },
+    {
+      "text": "***Christian Hopfner just joined the room",
+      "ptime": 164000.0,
+      "dtime": 754000.0
+    },
+    {
+      "text": "***Malisa Vucinic just joined the room",
+      "ptime": 282000.0,
+      "dtime": 872000.0
+    },
+    {
+      "text": "Hi all, I will be your jabber scribe. If you\u0027d like something brought up at the mic, please start your comment with MIC.",
+      "ptime": 339000.0,
+      "dtime": 929000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "hello!",
+      "ptime": 354000.0,
+      "dtime": 944000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "mic OK for remote participants?",
+      "ptime": 363000.0,
+      "dtime": 953000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "yes sound is good",
+      "ptime": 380000.0,
+      "dtime": 970000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "yes, thanks",
+      "ptime": 428000.0,
+      "dtime": 1018000.0,
+      "author": "Paventhan Arumugam"
+    },
+    {
+      "text": "perfect, thanks",
+      "ptime": 440000.0,
+      "dtime": 1030000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "***Tomas Lagos Jenschke just joined the room",
+      "ptime": 1408000.0,
+      "dtime": 1998000.0
+    },
+    {
+      "text": "***Hao Wang just left the room",
+      "ptime": 1868000.0,
+      "dtime": 2458000.0
+    },
+    {
+      "text": "can we use a timeout?",
+      "ptime": 1931000.0,
+      "dtime": 2521000.0,
+      "author": "Xavier Vilajosana"
+    },
+    {
+      "text": "in case of a statefull proxy, that would make sense",
+      "ptime": 2199000.0,
+      "dtime": 2789000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "in case of a stateless proxy, not really",
+      "ptime": 2212000.0,
+      "dtime": 2802000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "***Simon Duquennoy just left the room",
+      "ptime": 3018000.0,
+      "dtime": 3608000.0
+    },
+    {
+      "text": "***Simon Duquennoy just joined the room",
+      "ptime": 3022000.0,
+      "dtime": 3612000.0
+    },
+    {
+      "text": "we are running a bit late, but we have a 15min buffer at the end, so no worries",
+      "ptime": 3618000.0,
+      "dtime": 4208000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "@Malisa",
+      "ptime": 3622000.0,
+      "dtime": 4212000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "thanks!",
+      "ptime": 3669000.0,
+      "dtime": 4259000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "***Tomas Lagos Jenschke just left the room",
+      "ptime": 3983000.0,
+      "dtime": 4573000.0
+    },
+    {
+      "text": "@Malisa, I mean a timeout for the autonomus cell in the schedule. If the node succeeds through the join process the autonomous cell timeout is cancelled and the cell kept. Otherwise the cell is removed. This is similar to say that there is a limited time to perform the join process.",
+      "ptime": 4106000.0,
+      "dtime": 4696000.0,
+      "author": "Xavier Vilajosana"
+    },
+    {
+      "text": "yes but a stateless JP does not know whether a given pledge joined or not",
+      "ptime": 4287000.0,
+      "dtime": 4877000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "it could infere, but it would be a layer violation",
+      "ptime": 4302000.0,
+      "dtime": 4892000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "we need to discuss this further, after join, the pledge might have a new address (short address) so the hash of this address is no longer the same as of the EUI-64",
+      "ptime": 4366000.0,
+      "dtime": 4956000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "@MIC what about installing TX cells only to RPl neighbors?",
+      "ptime": 4437000.0,
+      "dtime": 5027000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "RPL",
+      "ptime": 4448000.0,
+      "dtime": 5038000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "yes not for all neighbors, only parents and children",
+      "ptime": 4619000.0,
+      "dtime": 5209000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "one issue is, in non-storing mode, nodes do not know their children",
+      "ptime": 4635000.0,
+      "dtime": 5225000.0,
+      "author": "Simon Duquennoy"
+    },
+    {
+      "text": "@Christian, thanks for clarifying: parents + slides",
+      "ptime": 4672000.0,
+      "dtime": 5262000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "***Malisa Vucinic just left the room",
+      "ptime": 4688000.0,
+      "dtime": 5278000.0
+    },
+    {
+      "text": "@Simon can\u0027t we derive them from the DAO?",
+      "ptime": 4711000.0,
+      "dtime": 5301000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "or is that only forawarded to the Dagroot",
+      "ptime": 4751000.0,
+      "dtime": 5341000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "@Christian, the DAO is only forwarded to DAGroot in my case",
+      "ptime": 4828000.0,
+      "dtime": 5418000.0,
+      "author": "Tengfei Chang"
+    },
+    {
+      "text": "ok",
+      "ptime": 4839000.0,
+      "dtime": 5429000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "@Simon, I will enforce that the last 15min be dedicated to your presentation.",
+      "ptime": 4916000.0,
+      "dtime": 5506000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "sounds technically feasible but the DAO has the root as destination address. So, it\u0027s acting on packets you\u0027re relaying. Does IPv6 even allow that? Does even RPL guarantee that the DAO is relayed by the new parent? Might even go on the old path I would say",
+      "ptime": 4938000.0,
+      "dtime": 5528000.0,
+      "author": "Simon Duquennoy"
+    },
+    {
+      "text": "I think we are confortable on time",
+      "ptime": 4943000.0,
+      "dtime": 5533000.0,
+      "author": "Thomas Watteyne"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 5267000.0,
+      "dtime": 5857000.0
+    },
+    {
+      "text": "@Thomas I missed your earlier message. Thanks!",
+      "ptime": 5528000.0,
+      "dtime": 6118000.0,
+      "author": "Simon Duquennoy"
+    },
+    {
+      "text": "***Andreas Urke just joined the room",
+      "ptime": 5876000.0,
+      "dtime": 6466000.0
+    },
+    {
+      "text": "***Malisa Vucinic just joined the room",
+      "ptime": 6498000.0,
+      "dtime": 7088000.0
+    },
+    {
+      "text": "***Richard Franks just left the room",
+      "ptime": 6559000.0,
+      "dtime": 7149000.0
+    },
+    {
+      "text": "***Xavier Vilajosana just left the room",
+      "ptime": 6728000.0,
+      "dtime": 7318000.0
+    },
+    {
+      "text": "Thanks everyone!",
+      "ptime": 7066000.0,
+      "dtime": 7656000.0,
+      "author": "Malisa Vucinic"
+    },
+    {
+      "text": "***Tengfei Chang just left the room",
+      "ptime": 7073000.0,
+      "dtime": 7663000.0
+    },
+    {
+      "text": "Thank you - goodbye",
+      "ptime": 7085000.0,
+      "dtime": 7675000.0,
+      "author": "Christian Hopfner"
+    },
+    {
+      "text": "***Thomas Watteyne just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***Simon Duquennoy just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***Jonathan Mu?oz just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***Malisa Vucinic just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***Christian Hopfner just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***Andreas Urke just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***Paventhan Arumugam just left the room",
+      "ptime": 7128000.0,
+      "dtime": 7718000.0
+    },
+    {
+      "text": "***Yasuyuki Tanaka just left the room",
+      "ptime": 7129000.0,
+      "dtime": 7719000.0
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

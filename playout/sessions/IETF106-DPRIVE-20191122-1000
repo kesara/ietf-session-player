@@ -1,0 +1,979 @@
+{
+  "title": "IETF106-DPRIVE-20191122-1000",
+  "filename": "IETF106-DPRIVE-20191122-1000",
+  "start": 0,
+  "end": 6863000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "mUT0IZyrO9U",
+      "start": 0.0,
+      "end": 6863000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Yoshiro YONEYA just joined the room",
+      "ptime": 19000.0,
+      "dtime": 1197000.0
+    },
+    {
+      "text": "***Alister Winfield just joined the room",
+      "ptime": 52000.0,
+      "dtime": 1230000.0
+    },
+    {
+      "text": "Starting the meeting with me under the bus...",
+      "ptime": 83000.0,
+      "dtime": 1261000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": ":-)",
+      "ptime": 106000.0,
+      "dtime": 1284000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "If you need something reflected to the room, please put mic: in front.",
+      "ptime": 113000.0,
+      "dtime": 1291000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "how\u0027s that bus look from underneath Brian?",
+      "ptime": 121000.0,
+      "dtime": 1299000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "We\u0027re on the  chair slides, slide 7",
+      "ptime": 121000.0,
+      "dtime": 1299000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "@sftcd: a bit dirty. ;)",
+      "ptime": 143000.0,
+      "dtime": 1321000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Tommy Jensen just joined the room",
+      "ptime": 198000.0,
+      "dtime": 1376000.0
+    },
+    {
+      "text": "In other words, we won\u0027t publish it as an RFC.",
+      "ptime": 216000.0,
+      "dtime": 1394000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "***Safa Almalki just joined the room",
+      "ptime": 358000.0,
+      "dtime": 1536000.0
+    },
+    {
+      "text": "***Vojislav Vucetic just joined the room",
+      "ptime": 432000.0,
+      "dtime": 1610000.0
+    },
+    {
+      "text": "***Vojislav Vucetic just left the room",
+      "ptime": 498000.0,
+      "dtime": 1676000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 499000.0,
+      "dtime": 1677000.0
+    },
+    {
+      "text": "wanting dnssec is fine, requiring it is harder though",
+      "ptime": 621000.0,
+      "dtime": 1799000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Sandra Murphy just joined the room",
+      "ptime": 1078000.0,
+      "dtime": 2256000.0
+    },
+    {
+      "text": "Aren\u0027t all cafes kind of sketchy from an IT security perspective.  I\u0027m trying to imagine one I would trust, and kind of failing.",
+      "ptime": 1191000.0,
+      "dtime": 2369000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "This is an interesting approach.",
+      "ptime": 1252000.0,
+      "dtime": 2430000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Reminder:  If you want something reflected to the room, please add \"mic\" to the front of your comment.",
+      "ptime": 1350000.0,
+      "dtime": 2528000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Github repo: https://github.com/tfpauly/draft-pauly-adaptive-dns-privacy",
+      "ptime": 1396000.0,
+      "dtime": 2574000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Tim with questions from the front mic.",
+      "ptime": 1412000.0,
+      "dtime": 2590000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "mic: I\u0027m against adoption in its current form. Basically this is combination of custom-made Tor network limited to DNS + auto-configuration magic on top. At the same time latest research in privacy field has shown that hiding only DNS traffic does not actually help much because just *set of server IP addresses*                                                         reveals client is connecting to is sufficient to reveal what web site client is accessing. For this reason this humongous complexity is *not* justified. I will post exact reference to the research article.",
+      "ptime": 1440000.0,
+      "dtime": 2618000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 1444000.0,
+      "dtime": 2622000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Article: \"What Can You Learn from an IP?\". Authors: Simran Patil and Nikita Borisov, University of Illinois at Urbana-Champaign. Link ANRW presentation and article: https://irtf.org/anrw/2019/program.html",
+      "ptime": 1472000.0,
+      "dtime": 2650000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 1483000.0,
+      "dtime": 2661000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 1483000.0,
+      "dtime": 2661000.0
+    },
+    {
+      "text": "Stephen at the mic",
+      "ptime": 1715000.0,
+      "dtime": 2893000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Lorenzo at the mic",
+      "ptime": 1808000.0,
+      "dtime": 2986000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Petr ?pa?ek just left the room",
+      "ptime": 1858000.0,
+      "dtime": 3036000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1859000.0,
+      "dtime": 3037000.0
+    },
+    {
+      "text": "***Petr ?pa?ek just joined the room",
+      "ptime": 1874000.0,
+      "dtime": 3052000.0
+    },
+    {
+      "text": "Ben at the mic",
+      "ptime": 1936000.0,
+      "dtime": 3114000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "(Could hear the name, sorry)",
+      "ptime": 2000000.0,
+      "dtime": 3178000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ralf Weber at the mic",
+      "ptime": 2019000.0,
+      "dtime": 3197000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "Vittorio Bertola at mc",
+      "ptime": 2049000.0,
+      "dtime": 3227000.0,
+      "author": "John Levine"
+    },
+    {
+      "text": "Moving to Oblivious DoH presentation, Chris Wood presenting.",
+      "ptime": 2208000.0,
+      "dtime": 3386000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Alister Winfield just left the room",
+      "ptime": 2755000.0,
+      "dtime": 3933000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2755000.0,
+      "dtime": 3933000.0
+    },
+    {
+      "text": "***Alister Winfield just joined the room",
+      "ptime": 2762000.0,
+      "dtime": 3940000.0
+    },
+    {
+      "text": "the cost of this vs. Tor is probably worth a thought, gotta be getting close",
+      "ptime": 2780000.0,
+      "dtime": 3958000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Paul at the mic",
+      "ptime": 2941000.0,
+      "dtime": 4119000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ralf at the mic",
+      "ptime": 2997000.0,
+      "dtime": 4175000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "mic: Limiting ourselves to DNS is not going to help privacy for reasons stated in previous discussion, let\u0027s try Oblivious HTTP/transport.",
+      "ptime": 3044000.0,
+      "dtime": 4222000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "Tiru was after Ralf and before Petr",
+      "ptime": 3142000.0,
+      "dtime": 4320000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Stephen at the mic now.",
+      "ptime": 3146000.0,
+      "dtime": 4324000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***David Millman just left the room",
+      "ptime": 3184000.0,
+      "dtime": 4362000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3184000.0,
+      "dtime": 4362000.0
+    },
+    {
+      "text": "Mike Bishop at the mic",
+      "ptime": 3207000.0,
+      "dtime": 4385000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Lorenzo at the mic",
+      "ptime": 3261000.0,
+      "dtime": 4439000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "(Wait, still Mike)",
+      "ptime": 3274000.0,
+      "dtime": 4452000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Now Lorenzo",
+      "ptime": 3287000.0,
+      "dtime": 4465000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 3324000.0,
+      "dtime": 4502000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "1st two pressies today seem to me like excellent things with which to experiment but unlikely to be ready for standards track now (unless being standards-track is what\u0027s needed to get people to do the experiments)",
+      "ptime": 3324000.0,
+      "dtime": 4502000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Tiru  is up next with DNS server privacy policy with assertion token",
+      "ptime": 3386000.0,
+      "dtime": 4564000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Dan York just left the room",
+      "ptime": 3389000.0,
+      "dtime": 4567000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3389000.0,
+      "dtime": 4567000.0
+    },
+    {
+      "text": "@sftcd: I would hope we wouldn\u0027t need standards-track in order to experiment.",
+      "ptime": 3425000.0,
+      "dtime": 4603000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "@brian, me too, but people are weird sometimes;-)",
+      "ptime": 3534000.0,
+      "dtime": 4712000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "I don\u0027t understand the incentives around auditor attestations.",
+      "ptime": 3583000.0,
+      "dtime": 4761000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "auditor gets paid therefore auditor issues attestation?",
+      "ptime": 3649000.0,
+      "dtime": 4827000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Alex at the mic",
+      "ptime": 3730000.0,
+      "dtime": 4908000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "looks like the webby folks might not like this;-)",
+      "ptime": 3738000.0,
+      "dtime": 4916000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Mnot at the mic",
+      "ptime": 3752000.0,
+      "dtime": 4930000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "(Mark Nottingham)",
+      "ptime": 3761000.0,
+      "dtime": 4939000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ben at the mic",
+      "ptime": 3805000.0,
+      "dtime": 4983000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Jo?o luis Silva damas just joined the room",
+      "ptime": 3930000.0,
+      "dtime": 5108000.0
+    },
+    {
+      "text": "On legal meanings being different from what you might expect, a fun example: http://vickilanemysteries.blogspot.com/2015/03/is-your-lawyer-daffy-down-dilly.html",
+      "ptime": 3996000.0,
+      "dtime": 5174000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Vittorio at the mic",
+      "ptime": 4002000.0,
+      "dtime": 5180000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ekr at the mic",
+      "ptime": 4070000.0,
+      "dtime": 5248000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "(Eric Rescorla)",
+      "ptime": 4074000.0,
+      "dtime": 5252000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Alissa at the mic",
+      "ptime": 4246000.0,
+      "dtime": 5424000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "fwiw, I think draft-reddy-dprive-dprive-privacy-policy seems unlikely to be useful",
+      "ptime": 4255000.0,
+      "dtime": 5433000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Moving to Alex and Jason",
+      "ptime": 4335000.0,
+      "dtime": 5513000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "And the phase2 requirements",
+      "ptime": 4343000.0,
+      "dtime": 5521000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "is the repo for the doucment",
+      "ptime": 4408000.0,
+      "dtime": 5586000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "https://github.com/alex-nicat/ietf-dprive-phase2-requirements",
+      "ptime": 4411000.0,
+      "dtime": 5589000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "is the repo for the document",
+      "ptime": 4416000.0,
+      "dtime": 5594000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Discussion: is anything missing from the Threat Model \u0026 Problem Statement",
+      "ptime": 4562000.0,
+      "dtime": 5740000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 4578000.0,
+      "dtime": 5756000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "mic: Maybe we should explicitly state that attacker who has access to *all* traffic is out of scope - again, in that case traffic analysis will give out almost all the data even without decrypting DNS traffic.",
+      "ptime": 4620000.0,
+      "dtime": 5798000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "Ben at the mic",
+      "ptime": 4668000.0,
+      "dtime": 5846000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***?ric Vyncke just joined the room",
+      "ptime": 4691000.0,
+      "dtime": 5869000.0
+    },
+    {
+      "text": "Discussion: Is DoT always required?  Or is it possible in some use to have other mechanisms (e.g. QNAME minimization)?",
+      "ptime": 4735000.0,
+      "dtime": 5913000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ben at the mic",
+      "ptime": 4745000.0,
+      "dtime": 5923000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "first glance: seems ok to not use DoT to the root servers, or are there issues there too?",
+      "ptime": 4798000.0,
+      "dtime": 5976000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "qname minimization to the root instead of DoT seems reasonable.",
+      "ptime": 4848000.0,
+      "dtime": 6026000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 4850000.0,
+      "dtime": 6028000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "i could see that the root servers might like that written down somewhere, not sure that needs to be done by dprive though",
+      "ptime": 4899000.0,
+      "dtime": 6077000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Wes at the mic",
+      "ptime": 4958000.0,
+      "dtime": 6136000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ralf at the mic",
+      "ptime": 5026000.0,
+      "dtime": 6204000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 5046000.0,
+      "dtime": 6224000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Tim from the front mic",
+      "ptime": 5115000.0,
+      "dtime": 6293000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Discussion:  Should this depend only on the DNS, or also on CAs?",
+      "ptime": 5134000.0,
+      "dtime": 6312000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 5141000.0,
+      "dtime": 6319000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ben at the mic",
+      "ptime": 5156000.0,
+      "dtime": 6334000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Phillip Hallam-Baker just joined the room",
+      "ptime": 5221000.0,
+      "dtime": 6399000.0
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 5245000.0,
+      "dtime": 6423000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Petr ?pa?ek just left the room",
+      "ptime": 5284000.0,
+      "dtime": 6462000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5284000.0,
+      "dtime": 6462000.0
+    },
+    {
+      "text": "Going back to the question of machine readable policy. When I was in the practices group at VeriSign, we worked on exactly that",
+      "ptime": 5302000.0,
+      "dtime": 6480000.0,
+      "author": "Phillip Hallam-Baker"
+    },
+    {
+      "text": "Machine readable policy is VERY common. Most international trade has used things like INCOTERMS NET30, etc.",
+      "ptime": 5337000.0,
+      "dtime": 6515000.0,
+      "author": "Phillip Hallam-Baker"
+    },
+    {
+      "text": "Christian at the mic",
+      "ptime": 5344000.0,
+      "dtime": 6522000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "And the decision of Chrome and Firefox to drop security signal seems to have rather more to do with their own commercial interest than the actual technology",
+      "ptime": 5386000.0,
+      "dtime": 6564000.0,
+      "author": "Phillip Hallam-Baker"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 5429000.0,
+      "dtime": 6607000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Petr ?pa?ek just joined the room",
+      "ptime": 5430000.0,
+      "dtime": 6608000.0
+    },
+    {
+      "text": "Each time the discussion comes up, they refer back to the same set of sad studies with 18 participants in three groups of six",
+      "ptime": 5432000.0,
+      "dtime": 6610000.0,
+      "author": "Phillip Hallam-Baker"
+    },
+    {
+      "text": "dkg at the mic",
+      "ptime": 5512000.0,
+      "dtime": 6690000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "(Daniel Khan Gillmor)",
+      "ptime": 5520000.0,
+      "dtime": 6698000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "And the one they quote most often actually fond that users don\u0027t interpret the security signal correctly without training. Which is not the claim that is made.",
+      "ptime": 5546000.0,
+      "dtime": 6724000.0,
+      "author": "Phillip Hallam-Baker"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 5654000.0,
+      "dtime": 6832000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Alex steps away from the front to head out. (Safe travels!)",
+      "ptime": 5738000.0,
+      "dtime": 6916000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 5742000.0,
+      "dtime": 6920000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Now discussing downgrade prevention and preferences",
+      "ptime": 5766000.0,
+      "dtime": 6944000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 5804000.0,
+      "dtime": 6982000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Vojislav Vucetic just joined the room",
+      "ptime": 5926000.0,
+      "dtime": 7104000.0
+    },
+    {
+      "text": "ben at the mic",
+      "ptime": 5939000.0,
+      "dtime": 7117000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Ralf at the mic",
+      "ptime": 6023000.0,
+      "dtime": 7201000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "dkg at the mic",
+      "ptime": 6074000.0,
+      "dtime": 7252000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Wes at the mic",
+      "ptime": 6124000.0,
+      "dtime": 7302000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 6196000.0,
+      "dtime": 7374000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Patrick McManus at the mic",
+      "ptime": 6239000.0,
+      "dtime": 7417000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Now discussing discovery",
+      "ptime": 6282000.0,
+      "dtime": 7460000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 6307000.0,
+      "dtime": 7485000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Wes at the mic",
+      "ptime": 6336000.0,
+      "dtime": 7514000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 6352000.0,
+      "dtime": 7530000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Next steps: make the changes and revise the draft",
+      "ptime": 6379000.0,
+      "dtime": 7557000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Tim from the front: adopt after the update",
+      "ptime": 6414000.0,
+      "dtime": 7592000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 6439000.0,
+      "dtime": 7617000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Stephen at the mic",
+      "ptime": 6489000.0,
+      "dtime": 7667000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 6571000.0,
+      "dtime": 7749000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Jo?o luis Silva damas just left the room",
+      "ptime": 6589000.0,
+      "dtime": 7767000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6594000.0,
+      "dtime": 7772000.0
+    },
+    {
+      "text": "Patrick at the mic",
+      "ptime": 6610000.0,
+      "dtime": 7788000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 6623000.0,
+      "dtime": 7801000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 6635000.0,
+      "dtime": 7813000.0
+    },
+    {
+      "text": "Paul Hoffman at the mic",
+      "ptime": 6653000.0,
+      "dtime": 7831000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "We can get cross-area review without requesting publication as an RFC.",
+      "ptime": 6669000.0,
+      "dtime": 7847000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 6715000.0,
+      "dtime": 7893000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian at the mic",
+      "ptime": 6741000.0,
+      "dtime": 7919000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "@ted.h Thank you for excellent scribing work and patience with my long comments. It\u0027s 4 AM here so I\u0027m not able to formulate concise answers :-)",
+      "ptime": 6786000.0,
+      "dtime": 7964000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "@Petr Happy to do it; thanks for your contributions.",
+      "ptime": 6803000.0,
+      "dtime": 7981000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Tim speaking from the front.",
+      "ptime": 6813000.0,
+      "dtime": 7991000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Safe travels everyone!",
+      "ptime": 6834000.0,
+      "dtime": 8012000.0,
+      "author": "Petr ?pa?ek"
+    },
+    {
+      "text": "Safe travels, all!",
+      "ptime": 6841000.0,
+      "dtime": 8019000.0,
+      "author": "Brian Haberman"
+    },
+    {
+      "text": "We are done; see you on the list",
+      "ptime": 6843000.0,
+      "dtime": 8021000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Petr ?pa?ek just left the room",
+      "ptime": 6852000.0,
+      "dtime": 8030000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6853000.0,
+      "dtime": 8031000.0
+    },
+    {
+      "text": "***Mark Andrews just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***Phillip Hallam-Baker just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***Alister Winfield just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***Vojislav Vucetic just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***Danny Chan just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***Brian Haberman just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***?ric Vyncke just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***Sandra Murphy just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***Tommy Jensen just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 6862000.0,
+      "dtime": 8040000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6863000.0,
+      "dtime": 8041000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-DPRIVE-20191122-1000"
+    }
+  ]
+}

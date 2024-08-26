@@ -1,0 +1,161 @@
+
+{
+	"title": "IETF113-BIER-20220323-1330",
+	"filename": "IETF113-BIER-20220323-1330",
+	"start": 0,
+	"end": 5063000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "bL0QKQbu11U",
+    "start": 0,
+    "end": "5063000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 30000,
+    "ptime": 30000,
+    "author": "Nils Warnke",
+    "text": "Hi everyone :)<br/>"
+  },
+  {
+    "dtime": 66000,
+    "ptime": 66000,
+    "author": "Jeff Tantsura",
+    "text": "Hey<br/>"
+  },
+  {
+    "dtime": 223000,
+    "ptime": 223000,
+    "author": "Zheng Zhang",
+    "text": "Hi<br/>"
+  },
+  {
+    "dtime": 799000,
+    "ptime": 799000,
+    "author": "Tony Przygienda",
+    "text": "Huaimo, just type answer into the chat<br/>"
+  },
+  {
+    "dtime": 839000,
+    "ptime": 839000,
+    "author": "Tony Przygienda",
+    "text": "As Sandy wrote we would like the ISSUE raised on the mailing list (per github link) addressed before officially accepting<br/>"
+  },
+  {
+    "dtime": 910000,
+    "ptime": 910000,
+    "author": "Huaimo Chen",
+    "text": "The issues raised by Greg was addressed by Michael on the list.<br/>"
+  },
+  {
+    "dtime": 969000,
+    "ptime": 969000,
+    "author": "Huaimo Chen",
+    "text": "The relation between BIER-FRR and unicast FRR (or IP FRR) has been in the draft.<br/>"
+  },
+  {
+    "dtime": 998000,
+    "ptime": 998000,
+    "author": "Zheng Zhang",
+    "text": "To Huaimo, seems like the \"extension\" word usage raised by Greg has not been solved<br/>"
+  },
+  {
+    "dtime": 1033000,
+    "ptime": 1033000,
+    "author": "Tony Przygienda",
+    "text": "ok, I'll follow up. thanks. if it has been addressed we will roll forward or see that the thread is picked up until the issue is resolved<br/>"
+  },
+  {
+    "dtime": 1217000,
+    "ptime": 1217000,
+    "author": "Huaimo Chen",
+    "text": "We will remove/change \"extensions\" from/in the draft (BTW, the draft indicates that it is local in the beginning. <br/>\"The BIER-FRR extensions are applied locally ...\". )<br/>"
+  },
+  {
+    "dtime": 1342000,
+    "ptime": 1342000,
+    "author": "Zheng Zhang",
+    "text": "In order not to cause confusion, it will be good to remove the word.<br/>"
+  },
+  {
+    "dtime": 1385000,
+    "ptime": 1385000,
+    "author": "Tony Przygienda",
+    "text": "okey, do pls update and pick up thread with Greg until it's resolved<br/>"
+  },
+  {
+    "dtime": 3029000,
+    "ptime": 3029000,
+    "author": "Tony Przygienda",
+    "text": "this does sound suspiciously close to reliable multicast ;-)<br/>"
+  },
+  {
+    "dtime": 4119000,
+    "ptime": 4119000,
+    "author": "Aijun Wang",
+    "text": "let's answer the question on the chat<br/>"
+  },
+  {
+    "dtime": 4190000,
+    "ptime": 4190000,
+    "author": "Aijun Wang",
+    "text": "The reason that we make this proposal is that current BIER encapsulation can't meet the emerged requirement for the multicast traffic, as illustrated in the slide<br/>"
+  },
+  {
+    "dtime": 4335000,
+    "ptime": 4335000,
+    "author": "Tianran Zhou",
+    "text": "@Aijun I think this is a very interesting topic. I would suggest you to present in the coming MSRv6 BOF.<br/>"
+  },
+  {
+    "dtime": 4520000,
+    "ptime": 4520000,
+    "author": "Aijun Wang",
+    "text": "OK, Thanks！I agree with the aim of MSR6. We should utilize in large extent the existing and coming characteristic of IPv6 related technologies.<br/>"
+  },
+  {
+    "dtime": 4526000,
+    "ptime": 4526000,
+    "author": "Tony Przygienda",
+    "text": "@aijun: the consensus process has been run and we have picked a solution meeting requirements, having properties the WG consensus wanted to meet/considered relevant. IETF is not prohibiting anyone from building whatever they want to their requirement based on IETF standards but for it to become IETF standard it has to pass the consensus and standardization process IETF imposes.<br/>"
+  },
+  {
+    "dtime": 4877000,
+    "ptime": 4877000,
+    "author": "Aijun Wang",
+    "text": "@tony, there are new emerged solutions and requirements, the solution should be also updated<br/>"
+  },
+  {
+    "dtime": 4899000,
+    "ptime": 4899000,
+    "author": "Tony Przygienda",
+    "text": "again, you have to build consensus<br/>"
+  },
+  {
+    "dtime": 4931000,
+    "ptime": 4931000,
+    "author": "Aijun Wang",
+    "text": "OK, will do offline or online<br/>"
+  },
+  {
+    "dtime": 5003000,
+    "ptime": 5003000,
+    "author": "Tony Przygienda",
+    "text": "IETF is not a rubber-stamping \"I want it my way\" thing. Again, it does not prohibit you from doing whatever you want with the stuff it publishes but if you want an IETF standard you have t ofollow the process and the process is based on consensus here for better or for worse. People have lots of diffrent requirements, lots of angles that you consider irrelevant may be important to other people and sometimes the solution is not the _best_ but the one _workable_. And yes, not e'one ends up happy every time. I cannot explain it any better ...<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-BIER-20220323-1330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/bier"
+		}
+	]
+}

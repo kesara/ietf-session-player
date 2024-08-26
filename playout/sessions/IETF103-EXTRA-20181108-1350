@@ -1,0 +1,245 @@
+{
+  "title": "IETF103-EXTRA-20181108-1350",
+  "filename": "IETF103-EXTRA-20181108-1350",
+  "start": 0,
+  "end": 3960000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "yp8XvKid604",
+      "start": 0.0,
+      "end": 3960000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Fine thanks.",
+      "ptime": 73000.0,
+      "dtime": 440000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "***Stephan Bosch just joined the room",
+      "ptime": 81000.0,
+      "dtime": 448000.0
+    },
+    {
+      "text": "***Sean Leonard just joined the room",
+      "ptime": 138000.0,
+      "dtime": 505000.0
+    },
+    {
+      "text": "Can y\u0027all hear Bron OK?",
+      "ptime": 143000.0,
+      "dtime": 510000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "Audio is OK, not great.",
+      "ptime": 263000.0,
+      "dtime": 630000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Ned Freed: we\u0027re looking into the audio",
+      "ptime": 356000.0,
+      "dtime": 723000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Anyway, when no one speaks the gain control makes background noises louder",
+      "ptime": 373000.0,
+      "dtime": 740000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "So when they\u0027ll start it should improve",
+      "ptime": 387000.0,
+      "dtime": 754000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "I wish we hadn\u0027t opened this particular door, but now that it\u0027s open it\u0027s open.",
+      "ptime": 483000.0,
+      "dtime": 850000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "waddyagonnado",
+      "ptime": 507000.0,
+      "dtime": 874000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": ":s",
+      "ptime": 528000.0,
+      "dtime": 895000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "yeah still need to fix imaptest",
+      "ptime": 1024000.0,
+      "dtime": 1391000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "Barry from the floor said - kill all the other char sets",
+      "ptime": 1053000.0,
+      "dtime": 1420000.0,
+      "author": "Kurt Andersen"
+    },
+    {
+      "text": "***Aftab Siddiqui just joined the room",
+      "ptime": 1260000.0,
+      "dtime": 1627000.0
+    },
+    {
+      "text": "***Aftab Siddiqui just left the room",
+      "ptime": 1319000.0,
+      "dtime": 1686000.0
+    },
+    {
+      "text": "I think that\u0027s really up to client implementers. If clients depend on it then servers need to keep supporting it.",
+      "ptime": 1360000.0,
+      "dtime": 1727000.0,
+      "author": "Chris Newman"
+    },
+    {
+      "text": "there are at least 6 implementations",
+      "ptime": 1545000.0,
+      "dtime": 1912000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "all the big ones support IMAP anyway",
+      "ptime": 1559000.0,
+      "dtime": 1926000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "Our server has not implemented MOVE, I\u0027d prefer to leave it out but I may be in the rough.",
+      "ptime": 1577000.0,
+      "dtime": 1944000.0,
+      "author": "Chris Newman"
+    },
+    {
+      "text": "oh apart from oracle",
+      "ptime": 1579000.0,
+      "dtime": 1946000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "We implement searchres, it\u0027s relatively easy to implement.",
+      "ptime": 1644000.0,
+      "dtime": 2011000.0,
+      "author": "Chris Newman"
+    },
+    {
+      "text": "https://www.imapwiki.org/Specs",
+      "ptime": 1653000.0,
+      "dtime": 2020000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "michael is not here",
+      "ptime": 2121000.0,
+      "dtime": 2488000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "imap++ of course",
+      "ptime": 2274000.0,
+      "dtime": 2641000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "I wish I had time to implement the query stuff in it, but I just don\u0027t right now.",
+      "ptime": 2300000.0,
+      "dtime": 2667000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "We\u0027ve encountered 63-bit requirement for STATUS SIZE and for quota usage, but not for individual messages.",
+      "ptime": 2400000.0,
+      "dtime": 2767000.0,
+      "author": "Chris Newman"
+    },
+    {
+      "text": "We\u0027ve been having this discussion since mailext...",
+      "ptime": 2578000.0,
+      "dtime": 2945000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Recharter seems like less work.",
+      "ptime": 2782000.0,
+      "dtime": 3149000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "probably recharter...",
+      "ptime": 2866000.0,
+      "dtime": 3233000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Keep the charter tight and tolerate no scope creep.",
+      "ptime": 2897000.0,
+      "dtime": 3264000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "I had a bunch of offlist discussion with the client id people. It was not productive.",
+      "ptime": 3236000.0,
+      "dtime": 3603000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Maybe they were talking past me and I didn\u0027t catch it, but I was definitely talking past them...",
+      "ptime": 3269000.0,
+      "dtime": 3636000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Not a wierd time for me!",
+      "ptime": 3902000.0,
+      "dtime": 4269000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": ":)",
+      "ptime": 3936000.0,
+      "dtime": 4303000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 3959000.0,
+      "dtime": 4326000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 3959000.0,
+      "dtime": 4326000.0
+    },
+    {
+      "text": "***Stephan Bosch just left the room",
+      "ptime": 3959000.0,
+      "dtime": 4326000.0
+    },
+    {
+      "text": "***Chris Newman just left the room",
+      "ptime": 3959000.0,
+      "dtime": 4326000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF103-EXTRA-20181108-1350"
+    }
+  ]
+}

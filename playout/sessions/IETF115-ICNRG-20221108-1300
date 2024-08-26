@@ -1,0 +1,56 @@
+
+{
+	"title": "IETF115-ICNRG-20221108-1300",
+	"filename": "IETF115-ICNRG-20221108-1300",
+	"start": 0,
+	"end": 5732000,
+	"start_datetime": "2022-11-08T13:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "yX0-2PQHmqI",
+    "start": 0,
+    "end": "5732000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>Hello! <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "jabber",
+    "dtime": 2386000,
+    "ptime": 2386000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>Hello Ryo!</p>",
+    "topic": "jabber",
+    "dtime": 2454000,
+    "ptime": 2454000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>Why do you have to delete the data (which is essentially impossible in a large distributed system). This has nothing to do with whether you use manifests to point to the data or not!<br>\nThe only data that needs to be physically made unavailable is the encryption keys for the data, and for that you need an auditable multi-party agreement protocol, since you don't want to have to trust a single party to find and eliminate all key instances.</p>",
+    "topic": "jabber",
+    "dtime": 2582000,
+    "ptime": 2582000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-ICNRG-20221108-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/icnrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-ICNRG-20221108-1300"
+		}		
+	]
+}

@@ -1,0 +1,750 @@
+{
+  "title": "IETF99-QUIC-20170721-0930",
+  "filename": "IETF99-QUIC-20170721-0930",
+  "start": 0,
+  "end": 7255000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "0cUXX1BjeRM",
+      "start": 0.0,
+      "end": 7255000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 1000.0,
+      "dtime": 941000.0
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 60000.0,
+      "dtime": 1000000.0
+    },
+    {
+      "text": "***Raffaele D\u0027Albenzio just joined the room",
+      "ptime": 94000.0,
+      "dtime": 1034000.0
+    },
+    {
+      "text": "***Johannes Morgenroth just joined the room",
+      "ptime": 113000.0,
+      "dtime": 1053000.0
+    },
+    {
+      "text": "***Michael Bishop just left the room",
+      "ptime": 120000.0,
+      "dtime": 1060000.0
+    },
+    {
+      "text": "***Michael Bishop just joined the room",
+      "ptime": 123000.0,
+      "dtime": 1063000.0
+    },
+    {
+      "text": "***Gabor Bajko just joined the room",
+      "ptime": 124000.0,
+      "dtime": 1064000.0
+    },
+    {
+      "text": "***Martin Duke just joined the room",
+      "ptime": 148000.0,
+      "dtime": 1088000.0
+    },
+    {
+      "text": "***Johannes Morgenroth just left the room",
+      "ptime": 177000.0,
+      "dtime": 1117000.0
+    },
+    {
+      "text": "***Johannes Morgenroth just joined the room",
+      "ptime": 183000.0,
+      "dtime": 1123000.0
+    },
+    {
+      "text": "***Xiaojian Ding just joined the room",
+      "ptime": 186000.0,
+      "dtime": 1126000.0
+    },
+    {
+      "text": "***Ingemar Johansson just joined the room",
+      "ptime": 197000.0,
+      "dtime": 1137000.0
+    },
+    {
+      "text": "***Johannes Morgenroth just left the room",
+      "ptime": 272000.0,
+      "dtime": 1212000.0
+    },
+    {
+      "text": "***Martin Duke just left the room",
+      "ptime": 278000.0,
+      "dtime": 1218000.0
+    },
+    {
+      "text": "***Martin Duke just joined the room",
+      "ptime": 281000.0,
+      "dtime": 1221000.0
+    },
+    {
+      "text": "***Jing Zuo just joined the room",
+      "ptime": 347000.0,
+      "dtime": 1287000.0
+    },
+    {
+      "text": "***Johannes Morgenroth just joined the room",
+      "ptime": 357000.0,
+      "dtime": 1297000.0
+    },
+    {
+      "text": "After some technical hiccups, I am here to talk 2nd draft",
+      "ptime": 361000.0,
+      "dtime": 1301000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "***Alan Frindell just left the room",
+      "ptime": 413000.0,
+      "dtime": 1353000.0
+    },
+    {
+      "text": "***Alan Frindell just joined the room",
+      "ptime": 419000.0,
+      "dtime": 1359000.0
+    },
+    {
+      "text": "***Spencer Dawkins just joined the room",
+      "ptime": 420000.0,
+      "dtime": 1360000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 440000.0,
+      "dtime": 1380000.0
+    },
+    {
+      "text": "***Alan Frindell just left the room",
+      "ptime": 441000.0,
+      "dtime": 1381000.0
+    },
+    {
+      "text": "***Ralf L?bben just left the room",
+      "ptime": 444000.0,
+      "dtime": 1384000.0
+    },
+    {
+      "text": "***Ralf L?bben just joined the room",
+      "ptime": 445000.0,
+      "dtime": 1385000.0
+    },
+    {
+      "text": "***Alan Frindell just joined the room",
+      "ptime": 449000.0,
+      "dtime": 1389000.0
+    },
+    {
+      "text": "***yuki goto just left the room",
+      "ptime": 453000.0,
+      "dtime": 1393000.0
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 455000.0,
+      "dtime": 1395000.0
+    },
+    {
+      "text": "***Alan Frindell just left the room",
+      "ptime": 512000.0,
+      "dtime": 1452000.0
+    },
+    {
+      "text": "***Alan Frindell just joined the room",
+      "ptime": 515000.0,
+      "dtime": 1455000.0
+    },
+    {
+      "text": "***Nick Sullivan just joined the room",
+      "ptime": 555000.0,
+      "dtime": 1495000.0
+    },
+    {
+      "text": "***pablo alvarez just joined the room",
+      "ptime": 598000.0,
+      "dtime": 1538000.0
+    },
+    {
+      "text": "We can just use some kind of packet pacing if we want to avoid flow control, e.g. have a sleep(1ms) before sending any packet",
+      "ptime": 607000.0,
+      "dtime": 1547000.0,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "We can just use some kind of packet pacing if we want to avoid flow control, e.g. have a sleep(1ms) before sending any packet",
+      "ptime": 607000.0,
+      "dtime": 1547000.0,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "***dkg just joined the room",
+      "ptime": 705000.0,
+      "dtime": 1645000.0
+    },
+    {
+      "text": "+1 for HTTP/0.9",
+      "ptime": 844000.0,
+      "dtime": 1784000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "***Jonathan Dong just joined the room",
+      "ptime": 882000.0,
+      "dtime": 1822000.0
+    },
+    {
+      "text": "so HTTP/0.9, GET only, multiplexed. Do we need to write it up in more detail than that?",
+      "ptime": 889000.0,
+      "dtime": 1829000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "(or am I free to go? ;) )",
+      "ptime": 898000.0,
+      "dtime": 1838000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "i think martin can just stick that into a bullet on the wiki page",
+      "ptime": 924000.0,
+      "dtime": 1864000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "so you\u0027re off the hook",
+      "ptime": 929000.0,
+      "dtime": 1869000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "yep that\u0027s my read of it too but I wanted someone else to make that call. :)",
+      "ptime": 941000.0,
+      "dtime": 1881000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "HTTP/0.9 only has GET by definition.  HTTP/1.0 introduced the idea of extensible methods.",
+      "ptime": 970000.0,
+      "dtime": 1910000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "***Raffaele D\u0027Albenzio just left the room",
+      "ptime": 972000.0,
+      "dtime": 1912000.0
+    },
+    {
+      "text": "although i was just kidding at the mic, the more i think about this the more it really does look like FTP :/",
+      "ptime": 980000.0,
+      "dtime": 1920000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "***Vignesh Pamu just joined the room",
+      "ptime": 1015000.0,
+      "dtime": 1955000.0
+    },
+    {
+      "text": "I think we have a solid sketch of what we\u0027re doing. I am maybe a little too far behind on my implementation to add the necessary detail beyond the sketch I\u0027m about to finish.",
+      "ptime": 1016000.0,
+      "dtime": 1956000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "dkg: so the (tiny) issue I\u0027d have is that we\u0027d need to define how to hack FTP to use stream versus port reference?",
+      "ptime": 1057000.0,
+      "dtime": 1997000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "Brian Trammell: yeah, it\u0027s true",
+      "ptime": 1068000.0,
+      "dtime": 2008000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "dkg: i mean, you\u0027re not wrong, but this is twelve seconds faster to specify. :)",
+      "ptime": 1083000.0,
+      "dtime": 2023000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "Brian Trammell: and FTP has inter-stream dependencies, which isn\u0027t as simple as HTTP GET-only",
+      "ptime": 1083000.0,
+      "dtime": 2023000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "https://www.w3.org/Protocols/HTTP/AsImplemented.html",
+      "ptime": 1111000.0,
+      "dtime": 2051000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "dkg: so if we did end up with composable unidirectional streams, a protocol with arbitrary stream dependency would be a good way to exercise that.",
+      "ptime": 1191000.0,
+      "dtime": 2131000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "that\u0027s a slightly different protocol than FTP though. I suggest calling it Filetransfer, Useless, over QUIC.",
+      "ptime": 1215000.0,
+      "dtime": 2155000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "ha ha",
+      "ptime": 1235000.0,
+      "dtime": 2175000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "Filetransfer, Unidirectional, over QUIC",
+      "ptime": 1264000.0,
+      "dtime": 2204000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "even better",
+      "ptime": 1273000.0,
+      "dtime": 2213000.0,
+      "author": "Brian Trammell"
+    },
+    {
+      "text": "and the handshake can only use the BADA55 or 4Q curves :P",
+      "ptime": 1293000.0,
+      "dtime": 2233000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "***Vignesh Pamu just left the room",
+      "ptime": 1368000.0,
+      "dtime": 2308000.0
+    },
+    {
+      "text": "***Jonathan Dong just left the room",
+      "ptime": 1378000.0,
+      "dtime": 2318000.0
+    },
+    {
+      "text": "slides are now all in the repo and datatracker - sory for being late",
+      "ptime": 1404000.0,
+      "dtime": 2344000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "thanks",
+      "ptime": 1408000.0,
+      "dtime": 2348000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Raffaele D\u0027Albenzio just joined the room",
+      "ptime": 1494000.0,
+      "dtime": 2434000.0
+    },
+    {
+      "text": "***Johannes Morgenroth just left the room",
+      "ptime": 1889000.0,
+      "dtime": 2829000.0
+    },
+    {
+      "text": "***Johannes Morgenroth just joined the room",
+      "ptime": 1911000.0,
+      "dtime": 2851000.0
+    },
+    {
+      "text": "The packet type and any fields specific to the packet type are version-specific.",
+      "ptime": 2038000.0,
+      "dtime": 2978000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "The packet type and any fields specific to the packet type are version-specific.",
+      "ptime": 2038000.0,
+      "dtime": 2978000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "***Dennis Kort just left the room",
+      "ptime": 2378000.0,
+      "dtime": 3318000.0
+    },
+    {
+      "text": "***dkg just joined the room",
+      "ptime": 2596000.0,
+      "dtime": 3536000.0
+    },
+    {
+      "text": "***Francesca Palombini just joined the room",
+      "ptime": 2786000.0,
+      "dtime": 3726000.0
+    },
+    {
+      "text": "***Francesca Palombini just left the room",
+      "ptime": 2810000.0,
+      "dtime": 3750000.0
+    },
+    {
+      "text": "***Francesca Palombini just joined the room",
+      "ptime": 2816000.0,
+      "dtime": 3756000.0
+    },
+    {
+      "text": "***Francesca Palombini just left the room",
+      "ptime": 2882000.0,
+      "dtime": 3822000.0
+    },
+    {
+      "text": "***Francesca Palombini just joined the room",
+      "ptime": 2882000.0,
+      "dtime": 3822000.0
+    },
+    {
+      "text": "***Francesca Palombini just left the room",
+      "ptime": 2904000.0,
+      "dtime": 3844000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 2912000.0,
+      "dtime": 3852000.0
+    },
+    {
+      "text": "***Vignesh Pamu just joined the room",
+      "ptime": 2950000.0,
+      "dtime": 3890000.0
+    },
+    {
+      "text": "***Francesca Palombini just joined the room",
+      "ptime": 2953000.0,
+      "dtime": 3893000.0
+    },
+    {
+      "text": "***Francesca Palombini just left the room",
+      "ptime": 3103000.0,
+      "dtime": 4043000.0
+    },
+    {
+      "text": "***Francesca Palombini just joined the room",
+      "ptime": 3221000.0,
+      "dtime": 4161000.0
+    },
+    {
+      "text": "***Brian Pawlowski just joined the room",
+      "ptime": 3385000.0,
+      "dtime": 4325000.0
+    },
+    {
+      "text": "***Taiji Kimura just joined the room",
+      "ptime": 3476000.0,
+      "dtime": 4416000.0
+    },
+    {
+      "text": "***Raffaele D\u0027Albenzio just left the room",
+      "ptime": 3639000.0,
+      "dtime": 4579000.0
+    },
+    {
+      "text": "***Raffaele D\u0027Albenzio just joined the room",
+      "ptime": 3640000.0,
+      "dtime": 4580000.0
+    },
+    {
+      "text": "chatroulette over quic!",
+      "ptime": 3709000.0,
+      "dtime": 4649000.0,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "***Francesca Palombini just left the room",
+      "ptime": 3793000.0,
+      "dtime": 4733000.0
+    },
+    {
+      "text": "mnot: Lars Eggert: can we get some sort of question on timing for 2nd implementation?",
+      "ptime": 4013000.0,
+      "dtime": 4953000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Stuart Cheshire just joined the room",
+      "ptime": 4023000.0,
+      "dtime": 4963000.0
+    },
+    {
+      "text": "for this or in general?",
+      "ptime": 4046000.0,
+      "dtime": 4986000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "***Aaron Zauner just joined the room",
+      "ptime": 4391000.0,
+      "dtime": 5331000.0
+    },
+    {
+      "text": "have we discussed the option of \"upgrading\" a stream from unidir to bidir, e.g., by opening the same stream ID in reverse? it makes the transport more complex, but would give the apps flexibility",
+      "ptime": 4407000.0,
+      "dtime": 5347000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "When I discussed this with our devs, it was the transport dev who wanted bidirectionality at the transport, but the HTTP dev who said \"that should be fine.\"",
+      "ptime": 4435000.0,
+      "dtime": 5375000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "@Lars: How would that work with the MAX_STREAM_ID mechanism?",
+      "ptime": 4447000.0,
+      "dtime": 5387000.0,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "@marten dunno (half baked)",
+      "ptime": 4467000.0,
+      "dtime": 5407000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "but those mechanisms can change, too, if needed",
+      "ptime": 4493000.0,
+      "dtime": 5433000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "@Lars: And, wouldn\u0027t this just be Ian proposal (the one with the closed bit) in reverse (with an open bit)?",
+      "ptime": 4516000.0,
+      "dtime": 5456000.0,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "***Simone Ferlin just joined the room",
+      "ptime": 4543000.0,
+      "dtime": 5483000.0
+    },
+    {
+      "text": "i don\u0027t think you need a bit if you require identical IDs",
+      "ptime": 4545000.0,
+      "dtime": 5485000.0,
+      "author": "Lars Eggert"
+    },
+    {
+      "text": "Modeling bidirectional as paired unidirectional:  This is actually implicit in the DISINTEREST PR.",
+      "ptime": 4602000.0,
+      "dtime": 5542000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "sorry, i was in other \"room\" any comment on multipath with QUIC aready? :)",
+      "ptime": 4604000.0,
+      "dtime": 5544000.0,
+      "author": "Simone Ferlin"
+    },
+    {
+      "text": "***Aaron Zauner just left the room",
+      "ptime": 4614000.0,
+      "dtime": 5554000.0
+    },
+    {
+      "text": "not yet",
+      "ptime": 4625000.0,
+      "dtime": 5565000.0,
+      "author": "Alan Frindell"
+    },
+    {
+      "text": "***Xiaojian Ding just left the room",
+      "ptime": 4629000.0,
+      "dtime": 5569000.0
+    },
+    {
+      "text": "Simone Ferlin:  not got there yet",
+      "ptime": 4632000.0,
+      "dtime": 5572000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "Michael Bishop: I agree",
+      "ptime": 4640000.0,
+      "dtime": 5580000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Thanks!",
+      "ptime": 4671000.0,
+      "dtime": 5611000.0,
+      "author": "Simone Ferlin"
+    },
+    {
+      "text": "***Juan Cerezo just joined the room",
+      "ptime": 4709000.0,
+      "dtime": 5649000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4832000.0,
+      "dtime": 5772000.0
+    },
+    {
+      "text": "***pablo alvarez just left the room",
+      "ptime": 4979000.0,
+      "dtime": 5919000.0
+    },
+    {
+      "text": "what window?",
+      "ptime": 5118000.0,
+      "dtime": 6058000.0,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "what window?",
+      "ptime": 5118000.0,
+      "dtime": 6058000.0,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "Overton Window",
+      "ptime": 5124000.0,
+      "dtime": 6064000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "@lars how many people have read #672",
+      "ptime": 5300000.0,
+      "dtime": 6240000.0,
+      "author": "lucaspardue"
+    },
+    {
+      "text": "You can separate those because the proposals can be refined.",
+      "ptime": 5353000.0,
+      "dtime": 6293000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "Hum for unidirectional.",
+      "ptime": 5391000.0,
+      "dtime": 6331000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "Hum for bidirectional",
+      "ptime": 5404000.0,
+      "dtime": 6344000.0,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "hum for basing on bidi",
+      "ptime": 5407000.0,
+      "dtime": 6347000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 5739000.0,
+      "dtime": 6679000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 5739000.0,
+      "dtime": 6679000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 5739000.0,
+      "dtime": 6679000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 5739000.0,
+      "dtime": 6679000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 5739000.0,
+      "dtime": 6679000.0
+    },
+    {
+      "text": "***Taiji Kimura just left the room",
+      "ptime": 5784000.0,
+      "dtime": 6724000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 5809000.0,
+      "dtime": 6749000.0
+    },
+    {
+      "text": "***Spencer Dawkins just left the room",
+      "ptime": 6574000.0,
+      "dtime": 7514000.0
+    },
+    {
+      "text": "Pretty sure that Windows doesn\u0027t expose this currently.",
+      "ptime": 6752000.0,
+      "dtime": 7692000.0,
+      "author": "Michael Bishop"
+    },
+    {
+      "text": "solution: transport parameter negotiation",
+      "ptime": 6808000.0,
+      "dtime": 7748000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***John Leslie just joined the room",
+      "ptime": 6903000.0,
+      "dtime": 7843000.0
+    },
+    {
+      "text": "***Paul Cosgrove just joined the room",
+      "ptime": 6954000.0,
+      "dtime": 7894000.0
+    },
+    {
+      "text": "***Simone Ferlin just left the room",
+      "ptime": 6989000.0,
+      "dtime": 7929000.0
+    },
+    {
+      "text": "hum",
+      "ptime": 7061000.0,
+      "dtime": 8001000.0,
+      "author": "Ingemar Johansson"
+    },
+    {
+      "text": "hum",
+      "ptime": 7061000.0,
+      "dtime": 8001000.0,
+      "author": "Ingemar Johansson"
+    },
+    {
+      "text": "***Michael Bishop just left the room",
+      "ptime": 7210000.0,
+      "dtime": 8150000.0
+    },
+    {
+      "text": "***Alan Frindell just left the room",
+      "ptime": 7242000.0,
+      "dtime": 8182000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-QUIC-20170721-0930"
+    }
+  ]
+}

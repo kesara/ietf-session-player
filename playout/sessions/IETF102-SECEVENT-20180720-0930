@@ -1,0 +1,509 @@
+{
+  "title": "IETF102-SECEVENT-20180720-0930",
+  "filename": "IETF102-SECEVENT-20180720-0930",
+  "start": 0,
+  "end": 6082000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "5A4rCjHXG9A",
+      "start": 0.0,
+      "end": 6082000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 91000.0,
+      "dtime": 1042000.0
+    },
+    {
+      "text": "***William Denniss just joined the room",
+      "ptime": 112000.0,
+      "dtime": 1063000.0
+    },
+    {
+      "text": "***Phil Hunt just joined the room",
+      "ptime": 279000.0,
+      "dtime": 1230000.0
+    },
+    {
+      "text": "***John Bradley just joined the room",
+      "ptime": 331000.0,
+      "dtime": 1282000.0
+    },
+    {
+      "text": "The speaker\u0027s microphone doesn\u0027t seem to be working",
+      "ptime": 559000.0,
+      "dtime": 1510000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "is it on?",
+      "ptime": 572000.0,
+      "dtime": 1523000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "Thanks!",
+      "ptime": 580000.0,
+      "dtime": 1531000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "***Stephanie Huguenin just joined the room",
+      "ptime": 1057000.0,
+      "dtime": 2008000.0
+    },
+    {
+      "text": "MIC: Correct the JTI is being used for filtering",
+      "ptime": 1116000.0,
+      "dtime": 2067000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: JTI was being used to acknowledge the SETs received since SETs are identified by JTI.",
+      "ptime": 1148000.0,
+      "dtime": 2099000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Yes I am happy",
+      "ptime": 1162000.0,
+      "dtime": 2113000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: Disagree.",
+      "ptime": 1274000.0,
+      "dtime": 2225000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: This fundamentally changes the protocol",
+      "ptime": 1316000.0,
+      "dtime": 2267000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "It is not double JTI",
+      "ptime": 1369000.0,
+      "dtime": 2320000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC:  This item was in flux and needs to be resolved",
+      "ptime": 1410000.0,
+      "dtime": 2361000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "This may not work",
+      "ptime": 1497000.0,
+      "dtime": 2448000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "I will do by text..  this was broken in oauth",
+      "ptime": 1546000.0,
+      "dtime": 2497000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: These two parameters are flags for different things.",
+      "ptime": 1571000.0,
+      "dtime": 2522000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: return immediately is used for http long polling",
+      "ptime": 1586000.0,
+      "dtime": 2537000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Phil Hunt: you may want to try our self test for next time, to see why audio doesn\u0027t work: https://self-test.conf.meetecho.com/",
+      "ptime": 1591000.0,
+      "dtime": 2542000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "MIC: Agreed this text was still in flux",
+      "ptime": 1597000.0,
+      "dtime": 2548000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC:  THis is clear.  THis is about a transmitter that has not yet received an ack for an event identified by a JTI",
+      "ptime": 1678000.0,
+      "dtime": 2629000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Annabelle is correct",
+      "ptime": 1717000.0,
+      "dtime": 2668000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC:  It is a multi-step process. The following POST acks the received events and may await the next group of SETs",
+      "ptime": 1769000.0,
+      "dtime": 2720000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "No audio coming",
+      "ptime": 1943000.0,
+      "dtime": 2894000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "***William Denniss just left the room",
+      "ptime": 1964000.0,
+      "dtime": 2915000.0
+    },
+    {
+      "text": "***William Denniss just joined the room",
+      "ptime": 1965000.0,
+      "dtime": 2916000.0
+    },
+    {
+      "text": "Will re-load my meetecho",
+      "ptime": 1968000.0,
+      "dtime": 2919000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "I just lost audio as well.",
+      "ptime": 1981000.0,
+      "dtime": 2932000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "Looking into this",
+      "ptime": 1987000.0,
+      "dtime": 2938000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "(looks like the Streamer died)",
+      "ptime": 1993000.0,
+      "dtime": 2944000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "not for the last few minutes",
+      "ptime": 2014000.0,
+      "dtime": 2965000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "audio was great, then it cut completely I don\u0027t think it\u0027s the mic",
+      "ptime": 2027000.0,
+      "dtime": 2978000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "***Phil Hunt just left the room",
+      "ptime": 2029000.0,
+      "dtime": 2980000.0
+    },
+    {
+      "text": "Phil Hunt: it\u0027s not you, audio stream has died",
+      "ptime": 2032000.0,
+      "dtime": 2983000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Phil Hunt just joined the room",
+      "ptime": 2039000.0,
+      "dtime": 2990000.0
+    },
+    {
+      "text": "Thank you kaduk",
+      "ptime": 2067000.0,
+      "dtime": 3018000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "Sure, we\u0027re working on this as I type",
+      "ptime": 2071000.0,
+      "dtime": 3022000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "yes",
+      "ptime": 2090000.0,
+      "dtime": 3041000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": ":-)  Still dead after I reloaded.  Must be at the transmitter side",
+      "ptime": 2092000.0,
+      "dtime": 3043000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Have video",
+      "ptime": 2097000.0,
+      "dtime": 3048000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Phil Hunt: yes, as I said the streamer died",
+      "ptime": 2138000.0,
+      "dtime": 3089000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "Should be back any second now though",
+      "ptime": 2148000.0,
+      "dtime": 3099000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "it\u0027s back",
+      "ptime": 2156000.0,
+      "dtime": 3107000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "Got it thanks!",
+      "ptime": 2157000.0,
+      "dtime": 3108000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "(y)",
+      "ptime": 2168000.0,
+      "dtime": 3119000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "Thank you meetecho for the fix, and Kaduk for the transcribing!",
+      "ptime": 2172000.0,
+      "dtime": 3123000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "Ben - i am concerned now that the specs are split that they won\u0027t stay in sync.  There is a push to move push ahead without waiting. This is why I resigned as editor and strongly objected to the consensus.  FYI",
+      "ptime": 2216000.0,
+      "dtime": 3167000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: Anything that requires registry (e.g. errors) is a problem to duplicate",
+      "ptime": 2441000.0,
+      "dtime": 3392000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: PS. From annabelles presetation, the use of http status is to follow normal htpp. Use of error codes is due to message processing like is the JWT valid.",
+      "ptime": 2509000.0,
+      "dtime": 3460000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "correct",
+      "ptime": 2572000.0,
+      "dtime": 3523000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "thanks!",
+      "ptime": 2576000.0,
+      "dtime": 3527000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: Or since only a couple of implementations exist consider a new proposal (SSTP) which is similar to both and unifies the method",
+      "ptime": 2700000.0,
+      "dtime": 3651000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: Only  one has implemented a push transmitter",
+      "ptime": 2724000.0,
+      "dtime": 3675000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: I disagree with annabelle. The whole point of forming SECEVENTs was to develop a universal delivery method",
+      "ptime": 2821000.0,
+      "dtime": 3772000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: That feels like NIMBYism on requirements.",
+      "ptime": 3047000.0,
+      "dtime": 3998000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Dick makes a good point about OAuth, a lot of people get scared even though they may just need the implicit flow which is a single HTTP request/response.",
+      "ptime": 3058000.0,
+      "dtime": 4009000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "MIC: The group could simply solicit new proposals. It does not have to take sstp",
+      "ptime": 3118000.0,
+      "dtime": 4069000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "single",
+      "ptime": 3134000.0,
+      "dtime": 4085000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "hahah... \"sub\" claim",
+      "ptime": 3772000.0,
+      "dtime": 4723000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "It is defined in the JWT spec",
+      "ptime": 3783000.0,
+      "dtime": 4734000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Problem for SET was \"sub\" was often bound to an \"iss\", but in SET, the \"iss\" may not be the issuer of the \"sub\"  :-)",
+      "ptime": 3827000.0,
+      "dtime": 4778000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "I see",
+      "ptime": 3855000.0,
+      "dtime": 4806000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "An \"OpenID\" Provider",
+      "ptime": 3997000.0,
+      "dtime": 4948000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 4007000.0,
+      "dtime": 4958000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 4080000.0,
+      "dtime": 5031000.0
+    },
+    {
+      "text": "MIC: It can be space constrained as SETs are JWTs and may need to be passed in constricted places",
+      "ptime": 4099000.0,
+      "dtime": 5050000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: I am also hearing that some SET scenarios are being used for attestation. Using URIs really expands the size and costs of retention.",
+      "ptime": 4184000.0,
+      "dtime": 5135000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "***Stephanie Huguenin just left the room",
+      "ptime": 4647000.0,
+      "dtime": 5598000.0
+    },
+    {
+      "text": "Not a problem.  Sorry meetecho isn\u0027t liking my microphone.",
+      "ptime": 4673000.0,
+      "dtime": 5624000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "Agreed",
+      "ptime": 4894000.0,
+      "dtime": 5845000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "MIC: Regarding OAUth token revoke, I found this very confusing when I read it.",
+      "ptime": 4986000.0,
+      "dtime": 5937000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 4988000.0,
+      "dtime": 5939000.0
+    },
+    {
+      "text": "MIC: Also, I would prefer the OAuth WG define token revoke event.",
+      "ptime": 5038000.0,
+      "dtime": 5989000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 5170000.0,
+      "dtime": 6121000.0
+    },
+    {
+      "text": "***William Denniss just left the room",
+      "ptime": 5188000.0,
+      "dtime": 6139000.0
+    },
+    {
+      "text": "MIC: I have several times",
+      "ptime": 5287000.0,
+      "dtime": 6238000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "(ben...no need to say my last comment...we can move on)",
+      "ptime": 5509000.0,
+      "dtime": 6460000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "***John Bradley just left the room",
+      "ptime": 5668000.0,
+      "dtime": 6619000.0
+    },
+    {
+      "text": "Thanks for being my relay ben!",
+      "ptime": 5897000.0,
+      "dtime": 6848000.0,
+      "author": "Phil Hunt"
+    },
+    {
+      "text": "***Phil Hunt just left the room",
+      "ptime": 5912000.0,
+      "dtime": 6863000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 5943000.0,
+      "dtime": 6894000.0
+    },
+    {
+      "text": "***William Denniss just joined the room",
+      "ptime": 5950000.0,
+      "dtime": 6901000.0
+    },
+    {
+      "text": "Bye all, thanks Ben for transcribing when the audio was cut :)",
+      "ptime": 6050000.0,
+      "dtime": 7001000.0,
+      "author": "William Denniss"
+    },
+    {
+      "text": "***William Denniss just left the room",
+      "ptime": 6081000.0,
+      "dtime": 7032000.0
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

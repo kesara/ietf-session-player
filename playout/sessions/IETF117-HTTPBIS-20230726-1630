@@ -1,0 +1,812 @@
+
+{
+	"title": "IETF117-HTTPBIS-20230726-1630",
+	"filename": "IETF117-HTTPBIS-20230726-1630",
+	"start": 0,
+	"end": 7136000,
+	"start_datetime": "2023-07-26T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "k8Boy09UU5o",
+    "start": 0,
+    "end": "7136000"
+  }
+],
+	"messages": [
+  {
+    "author": "Evert Pot",
+    "text": "<p>hi!</p>",
+    "topic": "ietf-117",
+    "dtime": 154000,
+    "ptime": 154000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>ha, we can resume!</p>",
+    "topic": "ietf-117",
+    "dtime": 245000,
+    "ptime": 245000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>Here is the mentioned repository of resumable upload implementations: <a href=\"https://github.com/tus/draft-example\">https://github.com/tus/draft-example</a></p>",
+    "topic": "ietf-117",
+    "dtime": 341000,
+    "ptime": 341000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span>🏻</p>",
+    "topic": "ietf-117",
+    "dtime": 483000,
+    "ptime": 483000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>mic: in any case, we'll need a media type for use with the PATCH method</p>",
+    "topic": "ietf-117",
+    "dtime": 726000,
+    "ptime": 726000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>Good point, thank you Julian</p>",
+    "topic": "ietf-117",
+    "dtime": 774000,
+    "ptime": 774000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>we depend on drafts in other WGs all the time</p>",
+    "topic": "ietf-117",
+    "dtime": 803000,
+    "ptime": 803000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Do we have a jabber scribe for this session? (Julian had a \"mic:\" above)</p>",
+    "topic": "ietf-117",
+    "dtime": 845000,
+    "ptime": 845000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>with all respect to Austin, I never take the assessment of a draft author about the status of their own draft</p>",
+    "topic": "ietf-117",
+    "dtime": 847000,
+    "ptime": 847000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>I may be wrong but I think the use of Content-Range in requests may be contentious</p>",
+    "topic": "ietf-117",
+    "dtime": 860000,
+    "ptime": 860000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>sounds cool as it would enable better progress reporting</p>",
+    "topic": "ietf-117",
+    "dtime": 1235000,
+    "ptime": 1235000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I think the challenges with interim responses mostly boil down to not being able to use them. Clients with that problem won't benefit, but adding status shouldn't hurt anything and might help other clients.</p>",
+    "topic": "ietf-117",
+    "dtime": 1398000,
+    "ptime": 1398000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>I'd also be wary of including 1xx from a bugs/risks perspective, such as introducing HTTP Request Smuggling vulnerabilities.  Are there existing and widely deployed similar 1xx uses?</p>",
+    "topic": "ietf-117",
+    "dtime": 1453000,
+    "ptime": 1453000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>MASQUE all the things!</p>",
+    "topic": "ietf-117",
+    "dtime": 1462000,
+    "ptime": 1462000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Chairs, note the timer is still set for the previous speaker.</p>",
+    "topic": "ietf-117",
+    "dtime": 1463000,
+    "ptime": 1463000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I don't think that you can stop 1xx for this <span class=\"user-mention\" data-user-id=\"672\">@Erik Nygren</span></p>",
+    "topic": "ietf-117",
+    "dtime": 1482000,
+    "ptime": 1482000
+  },
+  {
+    "author": "Austin Wright",
+    "text": "<p>That is a good point Martin and I ought to have emphasized the same point—I should rather say I'm expressing my hope that byterange patch I-D is one of the _relatively_ simpler proposals in front of the WG at the moment</p>",
+    "topic": "ietf-117",
+    "dtime": 1485000,
+    "ptime": 1485000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>I realize now I'm a bit confused about overlapping upload parts and the partial responses only show that I am confused.</p>",
+    "topic": "ietf-117",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>@Watson Ladd: To maybe help your confusion: In the draft we do not allow overlapping parts for easier handling</p>",
+    "topic": "ietf-117",
+    "dtime": 1655000,
+    "ptime": 1655000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>If you're in HTTP/1.1 and the client started sending assuming the upgrade, the connection state is garbage. The only sane thing the client can do is close the connection.</p>",
+    "topic": "ietf-117",
+    "dtime": 1889000,
+    "ptime": 1889000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Does anybody still care enough about HTTP/1.1 that it's not reasonable enough to just say you need to use HTTP2 if you want to send optimistic data?</p>",
+    "topic": "ietf-117",
+    "dtime": 1955000,
+    "ptime": 1955000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I was about to make the same suggestion</p>",
+    "topic": "ietf-117",
+    "dtime": 1966000,
+    "ptime": 1966000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>are we ready to deprecate HTTP/1.1</p>",
+    "topic": "ietf-117",
+    "dtime": 2068000,
+    "ptime": 2068000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>I do not care about sending optimistic data in H1</p>",
+    "topic": "ietf-117",
+    "dtime": 2120000,
+    "ptime": 2120000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>I do not care about this kind of proxying in h1 =)</p>",
+    "topic": "ietf-117",
+    "dtime": 2132000,
+    "ptime": 2132000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>But what's the benefit of intermediate ack? Just make it easier to free up storage earlier, and then smaller recovery on failure while having enough to ship big chunks for flow? I think I need to deconfuse my self</p>",
+    "topic": "ietf-117",
+    "dtime": 2136000,
+    "ptime": 2136000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>given that we have HTTP/3 now surely its time to begin the journey of deprecating HTTP/1.1? or at least formally freeze any extension/feature work </p>\n<p>much the same as TLS WG is planning to do with TLS 1.2</p>",
+    "topic": "ietf-117",
+    "dtime": 2226000,
+    "ptime": 2226000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>disagree on \"freeze\", but agree on \"does not have to work with 1.1\"</p>",
+    "topic": "ietf-117",
+    "dtime": 2353000,
+    "ptime": 2353000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>I doubt implementors are ready to completely deprecate 1.1 now, but I'd certainly be in support of saying 1.1 no longer gets the new advanced/optimized stuff like optimistic data in upgraded proxy connections.  Anybody who wants stuff like that is probably already using 2/3.</p>",
+    "topic": "ietf-117",
+    "dtime": 2357000,
+    "ptime": 2357000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>Deprecating HTTP/1.1 would be a sad day for the web</p>",
+    "topic": "ietf-117",
+    "dtime": 2411000,
+    "ptime": 2411000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>The nature of HTTP/1.1 makes it really ripe for these kinds of problems.  It's a security footgun.  There's no fix.  We should be opinionated about this.</p>",
+    "topic": "ietf-117",
+    "dtime": 2420000,
+    "ptime": 2420000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Walking back a bunch of the \"performance\" allowances for HTTP/1.1 and replacing them with \"close the connection\" might be sensible.</p>",
+    "topic": "ietf-117",
+    "dtime": 2471000,
+    "ptime": 2471000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I don't think that we can ignore HTTP/1.1 for this in the way that Alex suggests.</p>",
+    "topic": "ietf-117",
+    "dtime": 2486000,
+    "ptime": 2486000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Yes -- don't allow optimistic sending in H1. However, that may not close the risk to the server specifically.</p>",
+    "topic": "ietf-117",
+    "dtime": 2537000,
+    "ptime": 2537000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>We also need to watch out for implementations that do H2-&gt;H1 translation internally as there may still be request smuggling issues there if they don't understand this but clients are using H2.</p>",
+    "topic": "ietf-117",
+    "dtime": 2572000,
+    "ptime": 2572000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> I meant \"don't allow optimistic sending\" when I said \"don't do performance features\". Sorry if I was unclear at the mic, I was trying to be brief.</p>",
+    "topic": "ietf-117",
+    "dtime": 2574000,
+    "ptime": 2574000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>If people could check the notes that would be super helpful. I couldn't keep up with the essays / monologues <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 2591000,
+    "ptime": 2591000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yes, we can prevent optimistic sending but allow the rest</p>",
+    "topic": "ietf-117",
+    "dtime": 2593000,
+    "ptime": 2593000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> OK, good.  That's sensible.</p>",
+    "topic": "ietf-117",
+    "dtime": 2595000,
+    "ptime": 2595000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-117-httpbis\">https://notes.ietf.org/notes-ietf-117-httpbis</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2603000,
+    "ptime": 2603000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>FWIW: are resumable uploads a \"performance feature\"?</p>",
+    "topic": "ietf-117",
+    "dtime": 2606000,
+    "ptime": 2606000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>However... The problem with Upgrade exists.</p>",
+    "topic": "ietf-117",
+    "dtime": 2609000,
+    "ptime": 2609000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>An UPDATE to RFC 9298 to clarify that optimistic sending is forbidden in HTTP/1.1 seems very short and sufficient.</p>",
+    "topic": "ietf-117",
+    "dtime": 2623000,
+    "ptime": 2623000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yes we still need to react to upgrade correctly. But prohibit body data before we get the response.</p>",
+    "topic": "ietf-117",
+    "dtime": 2632000,
+    "ptime": 2632000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"354\">@Julian Reschke</span> I think that I should have scoped \"performance features\" to connect and upgrade and related.  Not universally.</p>",
+    "topic": "ietf-117",
+    "dtime": 2647000,
+    "ptime": 2647000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> I think that we probably need to deal with Upgrade more generally also.</p>",
+    "topic": "ietf-117",
+    "dtime": 2672000,
+    "ptime": 2672000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"231\">@Mark Nottingham</span> <span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> is the queue closed still?</p>",
+    "topic": "ietf-117",
+    "dtime": 2710000,
+    "ptime": 2710000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 2722000,
+    "ptime": 2722000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>I'm on beta meet echo and it doesn't let me close or unclose the queue</p>",
+    "topic": "ietf-117",
+    "dtime": 2743000,
+    "ptime": 2743000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>\"HTTP Upgrade Requires Patience\"</p>",
+    "topic": "ietf-117",
+    "dtime": 2763000,
+    "ptime": 2763000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"HTTP upgrade requires synchronization\" - pronounced hearse</p>",
+    "topic": "ietf-117",
+    "dtime": 2813000,
+    "ptime": 2813000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>\"Optimism Not Allowed With HTTP Upgrade\"</p>",
+    "topic": "ietf-117",
+    "dtime": 2814000,
+    "ptime": 2814000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>HyperText Transport Pessimistic protocol</p>",
+    "topic": "ietf-117",
+    "dtime": 2843000,
+    "ptime": 2843000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>FIELDs</p>",
+    "topic": "ietf-117",
+    "dtime": 2966000,
+    "ptime": 2966000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>BEES!</p>",
+    "topic": "ietf-117",
+    "dtime": 3034000,
+    "ptime": 3034000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F8Jww0ZIXMZoXu%2Fgiphy.gif&amp;f=1&amp;nofb=1&amp;ipt=001b8d875fde1a5843ceb4b6bfbac0512a68ff42dd1a9ead4fdae4dd07a188ed&amp;ipo=images\">https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F8Jww0ZIXMZoXu%2Fgiphy.gif&amp;f=1&amp;nofb=1&amp;ipt=001b8d875fde1a5843ceb4b6bfbac0512a68ff42dd1a9ead4fdae4dd07a188ed&amp;ipo=images</a></p>",
+    "topic": "ietf-117",
+    "dtime": 3067000,
+    "ptime": 3067000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>yes, it can</p>",
+    "topic": "ietf-117",
+    "dtime": 3220000,
+    "ptime": 3220000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p><a href=\"https://greenbytes.de/tech/webdav/rfc9110.html#rule.token.separators\">https://greenbytes.de/tech/webdav/rfc9110.html#rule.token.separators</a></p>",
+    "topic": "ietf-117",
+    "dtime": 3230000,
+    "ptime": 3230000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>I personally really don't care how we jam the non-human-readable string into a header.</p>",
+    "topic": "ietf-117",
+    "dtime": 3293000,
+    "ptime": 3293000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>\"this is just syntax\" (famous last words)</p>",
+    "topic": "ietf-117",
+    "dtime": 3313000,
+    "ptime": 3313000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>SIGn-and-MAc FTW</p>",
+    "topic": "ietf-117",
+    "dtime": 3528000,
+    "ptime": 3528000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>We can use raw public keys, I believe</p>",
+    "topic": "ietf-117",
+    "dtime": 3554000,
+    "ptime": 3554000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Jonathan is having a conversation with someone who is not getting picked up by the mic</p>",
+    "topic": "ietf-117",
+    "dtime": 3628000,
+    "ptime": 3628000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Nick sullivan off-mic suggested something about there being an early-data-specific version of EA</p>",
+    "topic": "ietf-117",
+    "dtime": 3655000,
+    "ptime": 3655000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>No token binding please</p>",
+    "topic": "ietf-117",
+    "dtime": 3673000,
+    "ptime": 3673000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>You might also be able to conjure up a thing where you define an exporter to use as the \"server context\" that the EA needs, for this unprompted auth case</p>",
+    "topic": "ietf-117",
+    "dtime": 3757000,
+    "ptime": 3757000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>One tiny wrinkle:</p>\n<blockquote>\n<p>Only the X.509 certificate type defined in [RFC8446] is supported. Alternative certificate formats such as Raw Public Keys as described in [RFC7250] are not supported in this version of the specification and their use in this context has not yet been analyzed.</p>\n</blockquote>",
+    "topic": "ietf-117",
+    "dtime": 3770000,
+    "ptime": 3770000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yes that is true</p>",
+    "topic": "ietf-117",
+    "dtime": 3814000,
+    "ptime": 3814000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>It'd be good to open that up and allow RPK</p>",
+    "topic": "ietf-117",
+    "dtime": 3826000,
+    "ptime": 3826000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Seems like we could work with that.</p>",
+    "topic": "ietf-117",
+    "dtime": 3826000,
+    "ptime": 3826000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Indeed</p>",
+    "topic": "ietf-117",
+    "dtime": 3839000,
+    "ptime": 3839000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that I know how to fix this if we go with EAs.  Certificate compression.</p>",
+    "topic": "ietf-117",
+    "dtime": 3949000,
+    "ptime": 3949000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Having the client and server agree on the content of the keys is probably a good idea.  TLS has solutions for this.</p>",
+    "topic": "ietf-117",
+    "dtime": 4019000,
+    "ptime": 4019000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Relying on a database of key id-&gt; key to be always correct and accurate worries me.<br>\nThat database disallowing key rotation seems pretty problematic</p>",
+    "topic": "ietf-117",
+    "dtime": 4072000,
+    "ptime": 4072000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>(Also, in the JOSE/COSE/etc. world key IDs are explicitly not unique and can map to multiple different keys.)</p>",
+    "topic": "ietf-117",
+    "dtime": 4132000,
+    "ptime": 4132000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82712\">said</a>:</p>\n<blockquote>\n<p>Having the client and server agree on the content of the keys is probably a good idea.  TLS has solutions for this.</p>\n</blockquote>\n<p>So I did try a version where you just sent the hash of the key as the key_id. That fixes a lot of issues, but presupposes you can agree the hash function.</p>",
+    "topic": "ietf-117",
+    "dtime": 4293000,
+    "ptime": 4293000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82717\">said</a>:</p>\n<blockquote>\n<p>Relying on a database of key id-&gt; key to be always correct and accurate worries me.<br>\nThat database disallowing key rotation seems pretty problematic</p>\n</blockquote>\n<p>Yeah, using key_id only required \"database is written in the sky in flaming letters\"</p>",
+    "topic": "ietf-117",
+    "dtime": 4345000,
+    "ptime": 4345000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82720\">said</a>:</p>\n<blockquote>\n<p>(Also, in the JOSE/COSE/etc. world key IDs are explicitly not unique and can map to multiple different keys.)</p>\n</blockquote>\n<p>Ok, that's gonna break _all_ my proofs. This is terrifying.</p>",
+    "topic": "ietf-117",
+    "dtime": 4367000,
+    "ptime": 4367000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82738\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82720\">said</a>:</p>\n<blockquote>\n<p>(Also, in the JOSE/COSE/etc. world key IDs are explicitly not unique and can map to multiple different keys.)</p>\n</blockquote>\n<p>Ok, that's gonna break _all_ my proofs. This is terrifying.</p>\n</blockquote>\n<p>I mean, everybody wants their key to use the key ID '0', which has a super-short encoding</p>",
+    "topic": "ietf-117",
+    "dtime": 4402000,
+    "ptime": 4402000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>People are going to run a library that encodes everything in a string, so lowercasing the result is only trivial if the entire string needs to be lower cased.</p>",
+    "topic": "ietf-117",
+    "dtime": 4536000,
+    "ptime": 4536000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p><em>everything in a string that needs to be encoded</em></p>",
+    "topic": "ietf-117",
+    "dtime": 4557000,
+    "ptime": 4557000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>nope - that library would need to be SF specific</p>",
+    "topic": "ietf-117",
+    "dtime": 4580000,
+    "ptime": 4580000
+  },
+  {
+    "author": "Austin Wright",
+    "text": "<p>3986 suggests normalizing pct-encoded as uppercase</p>",
+    "topic": "ietf-117",
+    "dtime": 4695000,
+    "ptime": 4695000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>re: switching unprompted auth to exported authenticators, I've filed an issue if anyone wants to follow along <a href=\"https://github.com/httpwg/http-extensions/issues/2604\">https://github.com/httpwg/http-extensions/issues/2604</a></p>",
+    "topic": "ietf-117",
+    "dtime": 4695000,
+    "ptime": 4695000
+  },
+  {
+    "author": "Marco Munizaga",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> You mentioned some reference you had around the security issues when signing a timestamp as a nonce. Could you please provide me a link? I'd like to read it. Thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 4760000,
+    "ptime": 4760000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>have to be compatible with SF types <strong>currently defined</strong>, even</p>",
+    "topic": "ietf-117",
+    "dtime": 4761000,
+    "ptime": 4761000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"499\">@Benjamin Kaduk</span> yeah, it's the SF types version _as captured in the definition of the field in question_</p>",
+    "topic": "ietf-117",
+    "dtime": 5382000,
+    "ptime": 5382000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>Why do intermediaries need to decide and reencode things they don't know about vs pass them on?</p>",
+    "topic": "ietf-117",
+    "dtime": 5438000,
+    "ptime": 5438000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Should we perhaps park retrofit until we've got a concrete use case to design towards, such as the binary encoding? That would help with these details.</p>",
+    "topic": "ietf-117",
+    "dtime": 5460000,
+    "ptime": 5460000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82741\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82738\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82720\">said</a>:</p>\n<blockquote>\n<p>(Also, in the JOSE/COSE/etc. world key IDs are explicitly not unique and can map to multiple different keys.)</p>\n</blockquote>\n<p>Ok, that's gonna break _all_ my proofs. This is terrifying.</p>\n</blockquote>\n<p>I mean, everybody wants their key to use the key ID '0', which has a super-short encoding</p>\n</blockquote>\n<p>As long as each server only associates key_id 0 with a single key_id that's fine. The issue is the server accepting key_1 and key_2 when given key_id1</p>",
+    "topic": "ietf-117",
+    "dtime": 5577000,
+    "ptime": 5577000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2987\">Marco Munizaga</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82767\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> You mentioned some reference you had around the security issues when signing a timestamp as a nonce. Could you please provide me a link? I'd like to read it. Thanks</p>\n</blockquote>\n<p>The trivial attack works, where a malicious server forwards the header to an honest header.</p>",
+    "topic": "ietf-117",
+    "dtime": 5617000,
+    "ptime": 5617000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> For the notes, were your comments at the mic line in reference to QUERY or Alt-Svc? (\"We want implementations\" could be either)</p>",
+    "topic": "ietf-117",
+    "dtime": 5754000,
+    "ptime": 5754000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>How does this interact with connection coalescing?</p>",
+    "topic": "ietf-117",
+    "dtime": 6030000,
+    "ptime": 6030000
+  },
+  {
+    "author": "Marco Munizaga",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82841\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2987\">Marco Munizaga</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82767\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> You mentioned some reference you had around the security issues when signing a timestamp as a nonce. Could you please provide me a link? I'd like to read it. Thanks</p>\n</blockquote>\n<p>The trivial attack works, where a malicious server forwards the header to an honest header.</p>\n</blockquote>\n<p>Right, that makes sense. I was thinking about a case where a client signs timestamp+SNI used for the TLS session. I think that avoids the mitm attack. There's still a replay attack window here. But I'm curious if there's another vulnerability here. For the record, I agree it would be better to use the keying material exporter as the nonce.</p>",
+    "topic": "ietf-117",
+    "dtime": 6048000,
+    "ptime": 6048000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2987\">Marco Munizaga</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82874\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82841\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2987\">Marco Munizaga</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-117/near/82767\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> You mentioned some reference you had around the security issues when signing a timestamp as a nonce. Could you please provide me a link? I'd like to read it. Thanks</p>\n</blockquote>\n<p>The trivial attack works, where a malicious server forwards the header to an honest header.</p>\n</blockquote>\n<p>Right, that makes sense. I was thinking about a case where a client signs timestamp+SNI used for the TLS session. I think that avoids the mitm attack. There's still a replay attack window here. But I'm curious if there's another vulnerability here. For the record, I agree it would be better to use the keying material exporter as the nonce.</p>\n</blockquote>\n<p>So there's the forward proxy case, which depending on your threat model is an attack or a feature. The problem is that model checking tools will throw up the first vuln they find, which doesn't mean other ones exist. So you can't just say \"we don't care about that attack\" without also saying \"we don't need a security proof\". (Modulo rewriting your security properties to carefully carve out that case.)</p>",
+    "topic": "ietf-117",
+    "dtime": 6210000,
+    "ptime": 6210000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>I think the numbers for DNS and SETTINGS are the opposite?</p>",
+    "topic": "ietf-117",
+    "dtime": 6252000,
+    "ptime": 6252000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Thinking about websockets reminds me of  something rather off-topic for here, but maybe I can mention my data and get follow-ups in unicast: chrome seems to exhibit curious behavior with respect to sending cookies over websocket connections.  In particular, if I disable all cookies by default, and then add exceptions to be able to send cookies to specific servers, I think I have to put an exception in with no scheme (so, just \"[<em>.]site.com\" rather than \"httpsL//[</em>.]site.com\") -- neither the \"https\" scheme nor \"wss\" would enable sending cookies on the websocket connection.<br>\nIf you want to test for yourself, slack is a pretty straightforward thing to test with -- it won't auto-update with new messages (and will warn you it's out of date) if the websocket connection fails.</p>",
+    "topic": "ietf-117",
+    "dtime": 6302000,
+    "ptime": 6302000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>What's the name of the chap who just took the mike?</p>",
+    "topic": "ietf-117",
+    "dtime": 6382000,
+    "ptime": 6382000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>That was MT</p>",
+    "topic": "ietf-117",
+    "dtime": 6396000,
+    "ptime": 6396000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>aka Martin Thomson</p>",
+    "topic": "ietf-117",
+    "dtime": 6425000,
+    "ptime": 6425000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>ty</p>",
+    "topic": "ietf-117",
+    "dtime": 6435000,
+    "ptime": 6435000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I must be missing some background, but why the empty Barbie box?</p>",
+    "topic": "ietf-117",
+    "dtime": 6665000,
+    "ptime": 6665000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>SETTINGS had the highest score (if you calculate correctly), I do not see why the conclusion of the presentation recommended DNS.</p>",
+    "topic": "ietf-117",
+    "dtime": 6771000,
+    "ptime": 6771000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>At least for H2, another option might be a flag on the ORIGIN frame.  (alas the H3 ORIGIN frame doesn't allow flags)</p>",
+    "topic": "ietf-117",
+    "dtime": 6773000,
+    "ptime": 6773000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>I'm concerned if we have been given correct information to discuss.</p>",
+    "topic": "ietf-117",
+    "dtime": 6796000,
+    "ptime": 6796000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>But extensible per-Origin settings mechanism for H2/H3 might be an option?</p>",
+    "topic": "ietf-117",
+    "dtime": 6836000,
+    "ptime": 6836000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>++ on Ben's idea</p>",
+    "topic": "ietf-117",
+    "dtime": 6870000,
+    "ptime": 6870000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1164\">@Kazuho Oku</span>  SETTINGS must be per-connection, but with coalescing you can get bad data</p>",
+    "topic": "ietf-117",
+    "dtime": 6904000,
+    "ptime": 6904000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>The coalescing problem only exists if you believe this version-dependent baseline is a valid state in the first place. :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 7009000,
+    "ptime": 7009000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>+1 to it being bad to not have them all work</p>",
+    "topic": "ietf-117",
+    "dtime": 7062000,
+    "ptime": 7062000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>I do think defining h2.1 and h3.1 ALPNs is probably the best way out of this transitory mistake, but this is Controversial. :-) I am also happy with \"WebSockets is not worth the energy\".</p>",
+    "topic": "ietf-117",
+    "dtime": 7107000,
+    "ptime": 7107000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-HTTPBIS-20230726-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/httpbis"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-HTTPBIS-20230726-1630"
+		}		
+	]
+}

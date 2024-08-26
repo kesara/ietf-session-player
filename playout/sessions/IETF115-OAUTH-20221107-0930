@@ -1,0 +1,154 @@
+
+{
+	"title": "IETF115-OAUTH-20221107-0930",
+	"filename": "IETF115-OAUTH-20221107-0930",
+	"start": 0,
+	"end": 7561000,
+	"start_datetime": "2022-11-07T09:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "3_GdcNyEF44",
+    "start": 0,
+    "end": "7561000"
+  }
+],
+	"messages": [
+  {
+    "author": "George Fletcher",
+    "text": "<p>My vote is for making it optional but verifying it if it is sent.</p>",
+    "topic": "jabber",
+    "dtime": 1335000,
+    "ptime": 1335000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>+1 to what Aaron said</p>",
+    "topic": "jabber",
+    "dtime": 1409000,
+    "ptime": 1409000
+  },
+  {
+    "author": "Kai Lehmann",
+    "text": "<p>Does it matter how the encoder works? Both sides see the same string in the end</p>",
+    "topic": "jabber",
+    "dtime": 4856000,
+    "ptime": 4856000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>The edge cases are nasty - Unicode normalizations for instance differ by version and by locale (e.g. do you get a \"TW\" flag)</p>",
+    "topic": "jabber",
+    "dtime": 4881000,
+    "ptime": 4881000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>well thats grapheme representation; the locale specific normalizations are very limited</p>",
+    "topic": "jabber",
+    "dtime": 4922000,
+    "ptime": 4922000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Clearly we just need a hash function over the space of Unicode codepoints</p>",
+    "topic": "jabber",
+    "dtime": 5265000,
+    "ptime": 5265000
+  },
+  {
+    "author": "Kai Lehmann",
+    "text": "<p>How about sending it not as JSON encoded string, but as base64 encoded JWT bodies?</p>",
+    "topic": "jabber",
+    "dtime": 5499000,
+    "ptime": 5499000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>A test suite of sd-jwts that libraries must be able to handle seems like a good idea especially since the validation and verification can be done offline</p>",
+    "topic": "jabber",
+    "dtime": 5785000,
+    "ptime": 5785000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Since JCS was mentioned, <a href=\"https://datatracker.ietf.org/doc/html/rfc8785\">https://datatracker.ietf.org/doc/html/rfc8785</a></p>",
+    "topic": "jabber",
+    "dtime": 5930000,
+    "ptime": 5930000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>FWIW I don't know if JCS would be appropriate (even ignoring the larger concerns) because it requires a JCS-compatible parser to prevent the text issue mentioned. There's no guarantee that an existing JWT implementation will happen to have a JSON library that meets JCS's additional requirements</p>",
+    "topic": "jabber",
+    "dtime": 6549000,
+    "ptime": 6549000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Agreed, I see the proposal to restrict the set of supported claims as being somewhat similar... Basically  what the issuer commits to is what the verifier needs to get... How that happens, with hardening or canonicalization needs to be agreed to... And any agreement that tunnels JSON through strings or restricts JSON to make is safer to process will need to be agreed to.</p>",
+    "topic": "jabber",
+    "dtime": 6984000,
+    "ptime": 6984000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>In UMA [https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html] Section 3.2.1 UMA defines a WWW-Authenticate parameter for the as_uri</p>",
+    "topic": "jabber",
+    "dtime": 7235000,
+    "ptime": 7235000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>+1 o John's comment on security concerns</p>",
+    "topic": "jabber",
+    "dtime": 7402000,
+    "ptime": 7402000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Another concern is that it may be a very attractive social engineering attack vector</p>",
+    "topic": "jabber",
+    "dtime": 7448000,
+    "ptime": 7448000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Attackers can abuse this to change context and mislead users</p>",
+    "topic": "jabber",
+    "dtime": 7468000,
+    "ptime": 7468000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>the other missing piece added since then is the resource request parameter on the token endpoint. This means that the AS can judge whether the request should be allowed, with asterisks.</p>",
+    "topic": "jabber",
+    "dtime": 7484000,
+    "ptime": 7484000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>Didn't we do PoP for cookies with token-binding? =P</p>",
+    "topic": "jabber",
+    "dtime": 7484000,
+    "ptime": 7484000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-OAUTH-20221107-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-OAUTH-20221107-0930"
+		}		
+	]
+}

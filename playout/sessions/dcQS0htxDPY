@@ -1,0 +1,834 @@
+
+{
+	"title": "IETF112-AVTCORE-20211112-1200",
+	"filename": "IETF112-AVTCORE-20211112-1200",
+	"start": 0,
+	"end": 7641000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "dcQS0htxDPY",
+    "start": 0,
+    "end": "7641000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 1158000,
+    "ptime": 1158000,
+    "author": "Joerg Ott",
+    "text": "This is probably a more general conversation.<br/>"
+  },
+  {
+    "dtime": 1170000,
+    "ptime": 1170000,
+    "author": "Joerg Ott",
+    "text": "(re W3C liaison statement)<br/>"
+  },
+  {
+    "dtime": 1181000,
+    "ptime": 1181000,
+    "author": "Joerg Ott",
+    "text": "and one that may not have quick answers<br/>"
+  },
+  {
+    "dtime": 1328000,
+    "ptime": 1328000,
+    "author": "Joerg Ott",
+    "text": "@Harald: we can certainly add a few words. It's not mandatory, but it could be dome<br/>"
+  },
+  {
+    "dtime": 1337000,
+    "ptime": 1337000,
+    "author": "Colin Perkins",
+    "text": "+1 to Harald: I also don't understand that design choice<br/>"
+  },
+  {
+    "dtime": 1385000,
+    "ptime": 1385000,
+    "author": "Joerg Ott",
+    "text": "We do RTP muxing on a single UDP pot<br/>"
+  },
+  {
+    "dtime": 1386000,
+    "ptime": 1386000,
+    "author": "Sergio Garcia Murillo",
+    "text": "+1 not sure what \"rtp session\" means in this context either<br/>"
+  },
+  {
+    "dtime": 1393000,
+    "ptime": 1393000,
+    "author": "Joerg Ott",
+    "text": "why should we now be worse off?<br/>"
+  },
+  {
+    "dtime": 1439000,
+    "ptime": 1439000,
+    "author": "Joerg Ott",
+    "text": "Which I believe we use consistently; if not then this is a mistake<br/>"
+  },
+  {
+    "dtime": 1450000,
+    "ptime": 1450000,
+    "author": "Joerg Ott",
+    "text": "(@Colin)<br/>"
+  },
+  {
+    "dtime": 1455000,
+    "ptime": 1455000,
+    "author": "Stephan Wenger",
+    "text": "\"sessions\" again.&nbsp;&nbsp;Didn't we have that before? :-)<br/>"
+  },
+  {
+    "dtime": 1532000,
+    "ptime": 1532000,
+    "author": "Spencer Dawkins",
+    "text": "That's definitely a clarification that needs to happen - making sure we're clear on what a bundle looks like when it's mapped into QUIC datagrams, for example.<br/>"
+  },
+  {
+    "dtime": 1535000,
+    "ptime": 1535000,
+    "author": "Colin Perkins",
+    "text": "@Jörg realise you know the definition, just confused how it's being used here and why this is the right split.<br/>"
+  },
+  {
+    "dtime": 1582000,
+    "ptime": 1582000,
+    "author": "Suhas Nandakumar",
+    "text": "BUNDLE in RTP uses mid RTP header extension, not sure if that's waht was meant<br/>"
+  },
+  {
+    "dtime": 1601000,
+    "ptime": 1601000,
+    "author": "Joerg Ott",
+    "text": "@Colin Let me revisit the tet to make sure this is actually correct<br/>"
+  },
+  {
+    "dtime": 1611000,
+    "ptime": 1611000,
+    "author": "Justin Uberti",
+    "text": "overhead of QUIC packetization is definitely something we'll want to look closely at here and try to minimize vis-a-vis RTP.<br/>"
+  },
+  {
+    "dtime": 1655000,
+    "ptime": 1655000,
+    "author": "Justin Uberti",
+    "text": "that said, it might be possible to save bytes with a different packetization of MIDs.<br/>"
+  },
+  {
+    "dtime": 1688000,
+    "ptime": 1688000,
+    "author": "Sergio Garcia Murillo",
+    "text": "so the idea is to send mids in the flowids instead of in the header extensions?<br/>"
+  },
+  {
+    "dtime": 1714000,
+    "ptime": 1714000,
+    "author": "Joerg Ott",
+    "text": "yes; then your demuxing isn't limited to RTP packets<br/>"
+  },
+  {
+    "dtime": 1747000,
+    "ptime": 1747000,
+    "author": "Justin Uberti",
+    "text": "possibly? we'd need to look at the savings there to see if this makes sense<br/>"
+  },
+  {
+    "dtime": 1748000,
+    "ptime": 1748000,
+    "author": "Joerg Ott",
+    "text": "QUIC DATAGRAMS could also be used for non-RTP protocols after all<br/>"
+  },
+  {
+    "dtime": 1753000,
+    "ptime": 1753000,
+    "author": "Suhas Nandakumar",
+    "text": "it also depends on what is the flowId/Mid is used to map to ?<br/>"
+  },
+  {
+    "dtime": 1762000,
+    "ptime": 1762000,
+    "author": "Sergio Garcia Murillo",
+    "text": "but on an rtp session you can only send rtp packets.. :)<br/>"
+  },
+  {
+    "dtime": 1775000,
+    "ptime": 1775000,
+    "author": "Spencer Dawkins",
+    "text": "Joerg - people using RTP with other data is something that keeps coming up on the MOQ mailing list.<br/>"
+  },
+  {
+    "dtime": 1814000,
+    "ptime": 1814000,
+    "author": "Spencer Dawkins",
+    "text": "And you can also send streams and datagrams on the same QUIC connection, no?<br/>"
+  },
+  {
+    "dtime": 1822000,
+    "ptime": 1822000,
+    "author": "Joerg Ott",
+    "text": "sure<br/>"
+  },
+  {
+    "dtime": 1831000,
+    "ptime": 1831000,
+    "author": "Justin Uberti",
+    "text": "receive timestamps in QUIC: <a href=\"https://datatracker.ietf.org/doc/draft-smith-quic-receive-ts/\" rel=\"nofollow\">https://datatracker.ietf.org/doc/draft-smith-quic-receive-ts/</a><br/>"
+  },
+  {
+    "dtime": 1838000,
+    "ptime": 1838000,
+    "author": "Colin Perkins",
+    "text": "@sergio an RTP session, by definition is only sending RTP packets. We often mux other types of traffic on the same ports though<br/>"
+  },
+  {
+    "dtime": 1839000,
+    "ptime": 1839000,
+    "author": "Sergio Garcia Murillo",
+    "text": "yes, but that would be to differentiate rtp data from other no-rtp data<br/>"
+  },
+  {
+    "dtime": 1846000,
+    "ptime": 1846000,
+    "author": "Joerg Ott",
+    "text": "Yep, we are aware of the rx ts<br/>"
+  },
+  {
+    "dtime": 1874000,
+    "ptime": 1874000,
+    "author": "Joerg Ott",
+    "text": "a previous draft didn't quite exactly do what rtcp did, though, if my memory serves me wel<br/>"
+  },
+  {
+    "dtime": 1876000,
+    "ptime": 1876000,
+    "author": "Sergio Garcia Murillo",
+    "text": "but you don't need the flow id for demultiplexing rtp sessions on bundling (except if we reuse the flow id as mid to potentially save a couple of bites)<br/>"
+  },
+  {
+    "dtime": 1901000,
+    "ptime": 1901000,
+    "author": "Colin Perkins",
+    "text": "bundle is all one RTP session, no?<br/>"
+  },
+  {
+    "dtime": 1911000,
+    "ptime": 1911000,
+    "author": "Jonathan Lennox",
+    "text": "Yes<br/>"
+  },
+  {
+    "dtime": 1931000,
+    "ptime": 1931000,
+    "author": "Sergio Garcia Murillo",
+    "text": "yes. my bad, wrong wording<br/>"
+  },
+  {
+    "dtime": 1953000,
+    "ptime": 1953000,
+    "author": "Justin Uberti",
+    "text": "yep, this is the core problem here<br/>"
+  },
+  {
+    "dtime": 2019000,
+    "ptime": 2019000,
+    "author": "Justin Uberti",
+    "text": "strange that lower delay results in a worse rampup behavior<br/>"
+  },
+  {
+    "dtime": 2034000,
+    "ptime": 2034000,
+    "author": "Spencer Dawkins",
+    "text": "@Justin - agree. Making sure we all have the same understanding of a bundle, was a real issue in CLUE, I think.<br/>"
+  },
+  {
+    "dtime": 2046000,
+    "ptime": 2046000,
+    "author": "Joerg Ott",
+    "text": "@Justin &amp; Spencer: one terminology issue may be that we reused the BUNDLE syntax for signaling<br/>"
+  },
+  {
+    "dtime": 2077000,
+    "ptime": 2077000,
+    "author": "Suhas Nandakumar",
+    "text": "<a href=\"https://datatracker.ietf.org/doc/html/rfc7656#section-2.2.2\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/rfc7656#section-2.2.2</a> might come handy ?<br/>"
+  },
+  {
+    "dtime": 2082000,
+    "ptime": 2082000,
+    "author": "Spencer Dawkins",
+    "text": "Joerg - thanks for the background.<br/>"
+  },
+  {
+    "dtime": 2084000,
+    "ptime": 2084000,
+    "author": "Joerg Ott",
+    "text": "Didn't want to reinvent new SDP for that; but the actual demuxing doesn't happen at the RTP layer. Agree that this may be confusing<br/>"
+  },
+  {
+    "dtime": 2105000,
+    "ptime": 2105000,
+    "author": "Joerg Ott",
+    "text": "(hey, this is just -01 :-)<br/>"
+  },
+  {
+    "dtime": 2166000,
+    "ptime": 2166000,
+    "author": "Justin Uberti",
+    "text": "it would be nice to not have all the same data as RTP here - the receive-ts doc might be just what we need though<br/>"
+  },
+  {
+    "dtime": 2209000,
+    "ptime": 2209000,
+    "author": "Joerg Ott",
+    "text": "This is what I hope for. We experimented with a number of different interpolation schemes and what is presented worked best so far<br/>"
+  },
+  {
+    "dtime": 2239000,
+    "ptime": 2239000,
+    "author": "Justin Uberti",
+    "text": "I meant to say, \"it would be nice to have the same data as RTP here\"<br/>"
+  },
+  {
+    "dtime": 2239000,
+    "ptime": 2239000,
+    "author": "Spencer Dawkins",
+    "text": "@Justin, I think that's one of the design choices - how much QUIC can provide the same/better feedback as RTCP.<br/>"
+  },
+  {
+    "dtime": 2274000,
+    "ptime": 2274000,
+    "author": "Joerg Ott",
+    "text": "Yes, trying not replicate RTCP feedback and giving off QUI. So, if QUIC can deliver rx ts then great<br/>"
+  },
+  {
+    "dtime": 2394000,
+    "ptime": 2394000,
+    "author": "Spencer Dawkins",
+    "text": "I was talking about feedback mechanisms in <a href=\"https://www.ietf.org/archive/id/draft-dawkins-sdp-rtp-quic-questions-01.html#name-feedback-mechanisms\" rel=\"nofollow\">https://www.ietf.org/archive/id/draft-dawkins-sdp-rtp-quic-questions-01.html#name-feedback-mechanisms</a><br/>"
+  },
+  {
+    "dtime": 2446000,
+    "ptime": 2446000,
+    "author": "Joerg Ott",
+    "text": "we are measuring overhead but the detailed analysis is still outstanding<br/>"
+  },
+  {
+    "dtime": 2460000,
+    "ptime": 2460000,
+    "author": "Joerg Ott",
+    "text": "(@Justin)<br/>"
+  },
+  {
+    "dtime": 2471000,
+    "ptime": 2471000,
+    "author": "Justin Uberti",
+    "text": ":thumbsup:<br/>"
+  },
+  {
+    "dtime": 2490000,
+    "ptime": 2490000,
+    "author": "Sergio Garcia Murillo",
+    "text": "i will type my quesitons<br/>"
+  },
+  {
+    "dtime": 2494000,
+    "ptime": 2494000,
+    "author": "Colin Perkins",
+    "text": "seems clear that a lot of RTCP and the RTP headers is redundant over QUIC<br/>"
+  },
+  {
+    "dtime": 2496000,
+    "ptime": 2496000,
+    "author": "Sergio Garcia Murillo",
+    "text": "as audio seems not to be working<br/>"
+  },
+  {
+    "dtime": 2522000,
+    "ptime": 2522000,
+    "author": "Sergio Garcia Murillo",
+    "text": "first, awesome work, is there any way to replicate the results and contribute?<br/>"
+  },
+  {
+    "dtime": 2626000,
+    "ptime": 2626000,
+    "author": "Joerg Ott",
+    "text": "@Colin: we can do mostly without RRs and also SRs; but this depends of course on the detailed configuration<br/>"
+  },
+  {
+    "dtime": 2647000,
+    "ptime": 2647000,
+    "author": "Joerg Ott",
+    "text": "of the experiment; in the process of assessing their respective overheads<br/>"
+  },
+  {
+    "dtime": 2677000,
+    "ptime": 2677000,
+    "author": "Joerg Ott",
+    "text": "RTP headers: well, media timestamps won't be redundant, seq# surely are unless you need them for media specific repair<br/>"
+  },
+  {
+    "dtime": 2701000,
+    "ptime": 2701000,
+    "author": "Colin Perkins",
+    "text": "But also SDES and BYE are not needed, given the parallel QUIC signalling.<br/>"
+  },
+  {
+    "dtime": 2718000,
+    "ptime": 2718000,
+    "author": "Joerg Ott",
+    "text": "@Sergio: this is exploratory work towards understanding possible interplays between RTP and QUIC, so there is a long way to go stil<br/>"
+  },
+  {
+    "dtime": 2740000,
+    "ptime": 2740000,
+    "author": "Jonathan Lennox",
+    "text": "Well insofar as you have more than one stream you can't use QUIC sequence numbers for stream sequencing?<br/>"
+  },
+  {
+    "dtime": 2741000,
+    "ptime": 2741000,
+    "author": "Justin Uberti",
+    "text": "it's not clear to me that seqnums are necessarily redundant since you may want separate global seqnum for CC and individual CC for each SSRC<br/>"
+  },
+  {
+    "dtime": 2751000,
+    "ptime": 2751000,
+    "author": "Sergio Garcia Murillo",
+    "text": "@joerg for sure, i think the work you have done is great!<br/>"
+  },
+  {
+    "dtime": 2753000,
+    "ptime": 2753000,
+    "author": "Justin Uberti",
+    "text": "(individual seqnum)<br/>"
+  },
+  {
+    "dtime": 2786000,
+    "ptime": 2786000,
+    "author": "Colin Perkins",
+    "text": "SSRC and seqnu can be redundant, and PT, etc., depending on how the mapping onto QUIC is done.<br/>"
+  },
+  {
+    "dtime": 2814000,
+    "ptime": 2814000,
+    "author": "Joerg Ott",
+    "text": "please join for moving this forward; there are many things to sort out. Open source to come<br/>"
+  },
+  {
+    "dtime": 2842000,
+    "ptime": 2842000,
+    "author": "Justin Uberti",
+    "text": "happy to help here<br/>"
+  },
+  {
+    "dtime": 2849000,
+    "ptime": 2849000,
+    "author": "Colin Perkins",
+    "text": "+!<br/>"
+  },
+  {
+    "dtime": 2849000,
+    "ptime": 2849000,
+    "author": "Jan-Ivar Bruaroey",
+    "text": "Thanks Bernard<br/>"
+  },
+  {
+    "dtime": 2853000,
+    "ptime": 2853000,
+    "author": "Colin Perkins",
+    "text": "+1, even<br/>"
+  },
+  {
+    "dtime": 2857000,
+    "ptime": 2857000,
+    "author": "Sergio Garcia Murillo",
+    "text": "always happy to work on bwe/cc :)<br/>"
+  },
+  {
+    "dtime": 2871000,
+    "ptime": 2871000,
+    "author": "Joerg Ott",
+    "text": "Re redundancy: there is probably a short term and a mid term design approach here; the mid-term is more the future of media over a revised/extended QuIC (as Christian pointed out in MOQ)<br/>"
+  },
+  {
+    "dtime": 2888000,
+    "ptime": 2888000,
+    "author": "Colin Perkins",
+    "text": "@Jörg definitely<br/>"
+  },
+  {
+    "dtime": 2919000,
+    "ptime": 2919000,
+    "author": "Joerg Ott",
+    "text": "We are trying out the short-term thing first to understand where we are and how far that carries<br/>"
+  },
+  {
+    "dtime": 2932000,
+    "ptime": 2932000,
+    "author": "Justin Uberti",
+    "text": "the short term is just stuffing RTP packets into datagrams, ideally in the long term we would feel like we can get close to parity regarding overhead and packet rate<br/>"
+  },
+  {
+    "dtime": 2935000,
+    "ptime": 2935000,
+    "author": "Joerg Ott",
+    "text": "Hope this can evolve into the mid-term (conceptually)<br/>"
+  },
+  {
+    "dtime": 2960000,
+    "ptime": 2960000,
+    "author": "Joerg Ott",
+    "text": "@Justin: then we try to be a bit better than very short term<br/>"
+  },
+  {
+    "dtime": 3023000,
+    "ptime": 3023000,
+    "author": "Joerg Ott",
+    "text": "@Colin: +1<br/>"
+  },
+  {
+    "dtime": 3268000,
+    "ptime": 3268000,
+    "author": "Spencer Dawkins",
+    "text": "+1 to short term/medium term<br/>"
+  },
+  {
+    "dtime": 3394000,
+    "ptime": 3394000,
+    "author": "Spencer Dawkins",
+    "text": "My extreme apologies -I was trying to get out of the queue because the chairs were moving on<br/>"
+  },
+  {
+    "dtime": 3403000,
+    "ptime": 3403000,
+    "author": "Jonathan Lennox",
+    "text": "Ok, no worries.<br/>"
+  },
+  {
+    "dtime": 3529000,
+    "ptime": 3529000,
+    "author": "Spencer Dawkins",
+    "text": "@Jonathan and @bernard - my impression is that what we're talking about here is fundamentally different from much of the MOQ discussion, especially for the short-term topic. Would it make sense for you to suggest that the short term RTP over QUIC discussion move onto the AVT list?<br/>"
+  },
+  {
+    "dtime": 3597000,
+    "ptime": 3597000,
+    "author": "Roni Even",
+    "text": "I think the chairs can ask for early security and transport reviews<br/>"
+  },
+  {
+    "dtime": 3612000,
+    "ptime": 3612000,
+    "author": "Roni Even",
+    "text": "If important<br/>"
+  },
+  {
+    "dtime": 3635000,
+    "ptime": 3635000,
+    "author": "Jonathan Lennox",
+    "text": "Spencer: That sounds good to me.<br/>"
+  },
+  {
+    "dtime": 3651000,
+    "ptime": 3651000,
+    "author": "Jonathan Lennox",
+    "text": "I'll mention it in AOB at the end of the session.<br/>"
+  },
+  {
+    "dtime": 3752000,
+    "ptime": 3752000,
+    "author": "Spencer Dawkins",
+    "text": "@Jonathan, thank you.<br/>"
+  },
+  {
+    "dtime": 3857000,
+    "ptime": 3857000,
+    "author": "Justin Uberti",
+    "text": "@spencer, I see what you suggest as the best path to get actual traction on this effort. It would also be good to see if anyone feels that this sort of QRTP-ish approach doesn't solve their problems, as that might suggest alternative directions.<br/>"
+  },
+  {
+    "dtime": 3897000,
+    "ptime": 3897000,
+    "author": "Spencer Dawkins",
+    "text": "@Justin, that seems exactly right to me.<br/>"
+  },
+  {
+    "dtime": 3905000,
+    "ptime": 3905000,
+    "author": "Ali Begen",
+    "text": "roq vs. moq Spencer. I'd also prefer keeping roq discussions in avt.<br/>"
+  },
+  {
+    "dtime": 3932000,
+    "ptime": 3932000,
+    "author": "Roni Even",
+    "text": "In the past the video conferencing industry were using interop events for testing offer answer<br/>"
+  },
+  {
+    "dtime": 4025000,
+    "ptime": 4025000,
+    "author": "Roni Even",
+    "text": "There will always be interposed problems . Hopefully they will find where to discuss. Major points were about receiver or sender parameters<br/>"
+  },
+  {
+    "dtime": 4258000,
+    "ptime": 4258000,
+    "author": "Roni Even",
+    "text": "I think the VVC section 7.2.2 is good enough<br/>"
+  },
+  {
+    "dtime": 4436000,
+    "ptime": 4436000,
+    "author": "Magnus Westerlund",
+    "text": "I thought the whole Security review comments had died down after RFC 7202 was published, and that it is mostly to reference that document to tell SecDir reviewers that their comments are not relevant for this document. <br/>"
+  },
+  {
+    "dtime": 4784000,
+    "ptime": 4784000,
+    "author": "Roni Even",
+    "text": "Agree with Magnus<br/>"
+  },
+  {
+    "dtime": 5091000,
+    "ptime": 5091000,
+    "author": "James Gruessing",
+    "text": "It sounds like they want an RFC to refer on RFPs and procurement documents.<br/>"
+  },
+  {
+    "dtime": 5509000,
+    "ptime": 5509000,
+    "author": "Spencer Dawkins",
+    "text": "I think that's \"opaque\", more than \"clear\" ...<br/>"
+  },
+  {
+    "dtime": 5559000,
+    "ptime": 5559000,
+    "author": "Ted Hardie",
+    "text": "I just requested the listed document via email (from my gmail account).&nbsp;&nbsp;If that works, then I don't see the same issue being present.<br/>"
+  },
+  {
+    "dtime": 5678000,
+    "ptime": 5678000,
+    "author": "Magnus Westerlund",
+    "text": "+1 to Colin's point. This has been done, and should continue to be done. <br/>"
+  },
+  {
+    "dtime": 5694000,
+    "ptime": 5694000,
+    "author": "Roni Even",
+    "text": "+1 to Colin<br/>"
+  },
+  {
+    "dtime": 5819000,
+    "ptime": 5819000,
+    "author": "Roni Even",
+    "text": "To add to Colin, during wglc there should be some input from people in the scip approving<br/>"
+  },
+  {
+    "dtime": 6331000,
+    "ptime": 6331000,
+    "author": "Murray Kucherawy",
+    "text": "On the previous document, if access to the referenced document can be secured, I agree that this should seek PS.<br/>"
+  },
+  {
+    "dtime": 6799000,
+    "ptime": 6799000,
+    "author": "Colin Perkins",
+    "text": "The negotiation of the PT does, I think, tell you something about whether the payload is encrypted.<br/>"
+  },
+  {
+    "dtime": 6820000,
+    "ptime": 6820000,
+    "author": "Magnus Westerlund",
+    "text": "The payload type needs to represent what is actually the payload format on RTP payload level.<br/>"
+  },
+  {
+    "dtime": 6835000,
+    "ptime": 6835000,
+    "author": "Colin Perkins",
+    "text": "The payload format definitions specify non-encrypted content<br/>"
+  },
+  {
+    "dtime": 6847000,
+    "ptime": 6847000,
+    "author": "Justin Uberti",
+    "text": "sure, but there is precedent for this sort of thing with \"red\", etc<br/>"
+  },
+  {
+    "dtime": 6882000,
+    "ptime": 6882000,
+    "author": "Colin Perkins",
+    "text": "sure, but that's a wrapper payload format<br/>"
+  },
+  {
+    "dtime": 6915000,
+    "ptime": 6915000,
+    "author": "Justin Uberti",
+    "text": "one could argue this is a wrapper of sorts as well<br/>"
+  },
+  {
+    "dtime": 6919000,
+    "ptime": 6919000,
+    "author": "Jonathan Lennox",
+    "text": "Well, is SRTP a wrapper?<br/>"
+  },
+  {
+    "dtime": 6932000,
+    "ptime": 6932000,
+    "author": "Colin Perkins",
+    "text": "@justin: yes<br/>"
+  },
+  {
+    "dtime": 6942000,
+    "ptime": 6942000,
+    "author": "Jonathan Lennox",
+    "text": "This seems like the same kind of thing as SRTP, which we treated as a profile.<br/>"
+  },
+  {
+    "dtime": 6975000,
+    "ptime": 6975000,
+    "author": "Magnus Westerlund",
+    "text": "SRTP is not a wrapper payload format as it affects not only the RTP payload, but also other things<br/>"
+  },
+  {
+    "dtime": 7004000,
+    "ptime": 7004000,
+    "author": "Magnus Westerlund",
+    "text": "Like RTCP, and replay protection that affects if RTP packets should be counted at all<br/>"
+  },
+  {
+    "dtime": 7013000,
+    "ptime": 7013000,
+    "author": "Justin Uberti",
+    "text": "it basically tells you to take these X additional steps<br/>"
+  },
+  {
+    "dtime": 7030000,
+    "ptime": 7030000,
+    "author": "Justin Uberti",
+    "text": "which is not that dissimilar from what is being discussed here<br/>"
+  },
+  {
+    "dtime": 7081000,
+    "ptime": 7081000,
+    "author": "Magnus Westerlund",
+    "text": "Justin, but it doesn't stay in one place in the process, it shows up in several places. a wrapper payload format I think need to exist one specific place in the send and receive chain.<br/>"
+  },
+  {
+    "dtime": 7153000,
+    "ptime": 7153000,
+    "author": "Stephan Wenger",
+    "text": "+1 to Mo&amp;Colin<br/>"
+  },
+  {
+    "dtime": 7226000,
+    "ptime": 7226000,
+    "author": "Justin Uberti",
+    "text": "the key difference here is just whether there is a specific wrapper PT that carries the wrapped PT?<br/>"
+  },
+  {
+    "dtime": 7234000,
+    "ptime": 7234000,
+    "author": "Magnus Westerlund",
+    "text": "I think encapsualting the original RTP paylaod format is the easiest, and thus have the PT indicate either SFRAME or SFRAME with Internal format X.<br/>"
+  },
+  {
+    "dtime": 7269000,
+    "ptime": 7269000,
+    "author": "Colin Perkins",
+    "text": "There's a wrapper payload format that's signalled, and assigned a PT.<br/>"
+  },
+  {
+    "dtime": 7288000,
+    "ptime": 7288000,
+    "author": "Jonathan Lennox",
+    "text": "The model would be like the model for rtx, where you say that PT 111 is VP8-over-SFrame.<br/>"
+  },
+  {
+    "dtime": 7311000,
+    "ptime": 7311000,
+    "author": "Spencer Dawkins",
+    "text": "ISTM that this discussion is relevant to RTP being encapsulated in QUIC, which is going to be encrypted.<br/>"
+  },
+  {
+    "dtime": 7322000,
+    "ptime": 7322000,
+    "author": "Colin Perkins",
+    "text": "PT 111 is sframe, with the wrapped content being VP8<br/>"
+  },
+  {
+    "dtime": 7373000,
+    "ptime": 7373000,
+    "author": "Magnus Westerlund",
+    "text": "Spencer, it doesn't matter that QUIC is encrypted, SFRAME is object security for the media and needs to support multiple hopes, and it doesn't matter if the transport encryption is QUIC or SRTP..<br/>"
+  },
+  {
+    "dtime": 7374000,
+    "ptime": 7374000,
+    "author": "Jonathan Lennox",
+    "text": "There are signaling issues to handle to handle PT exhaustion issues, and also the ability to say \"I'm willing to receive sframe-wrapped VP8, but not straight VP8\".&nbsp;&nbsp;But those should be tractable.<br/>"
+  },
+  {
+    "dtime": 7378000,
+    "ptime": 7378000,
+    "author": "Justin Uberti",
+    "text": "the problem is that we want to apply SFRAME packetization rather than VP8 packetization<br/>"
+  },
+  {
+    "dtime": 7433000,
+    "ptime": 7433000,
+    "author": "Justin Uberti",
+    "text": "(ie so that we can encrypt before packetization)<br/>"
+  },
+  {
+    "dtime": 7439000,
+    "ptime": 7439000,
+    "author": "Spencer Dawkins",
+    "text": "@Magnus, thank you. That's helpful. I was planning to reuse profiles in my SDP draft for this.<br/>"
+  },
+  {
+    "dtime": 7544000,
+    "ptime": 7544000,
+    "author": "Justin Uberti",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 7548000,
+    "ptime": 7548000,
+    "author": "Colin Perkins",
+    "text": "sure<br/>"
+  },
+  {
+    "dtime": 7554000,
+    "ptime": 7554000,
+    "author": "Suhas Nandakumar",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 7602000,
+    "ptime": 7602000,
+    "author": "Spencer Dawkins",
+    "text": "Thank you!<br/>"
+  },
+  {
+    "dtime": 7606000,
+    "ptime": 7606000,
+    "author": "Tim Bruylants",
+    "text": "thanks all<br/>"
+  },
+  {
+    "dtime": 7614000,
+    "ptime": 7614000,
+    "author": "Roni Even",
+    "text": "Thx<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-AVTCORE-20211112-1200"
+		}
+	]
+}

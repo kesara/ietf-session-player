@@ -1,0 +1,1358 @@
+
+{
+	"title": "IETF115-CAN-20221107-1530",
+	"filename": "IETF115-CAN-20221107-1530",
+	"start": 0,
+	"end": 7318000,
+	"start_datetime": "2022-11-07T15:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "rK4jk7AUWfw",
+    "start": 0,
+    "end": "7318000"
+  }
+],
+	"messages": [
+  {
+    "author": "Tobia Castaldi",
+    "text": "<p>test</p>",
+    "topic": "jabber",
+    "dtime": 892000,
+    "ptime": 892000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"135\">Tobia Castaldi</span> <a href=\"#narrow/stream/353-can/topic/jabber/near/49032\">said</a>:</p>\n<blockquote>\n<p>test</p>\n</blockquote>\n<p>recieved</p>",
+    "topic": "jabber",
+    "dtime": 998000,
+    "ptime": 998000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Is it fair to say that this is only about routing for anycast destinations?</p>",
+    "topic": "jabber",
+    "dtime": 1020000,
+    "ptime": 1020000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>It is about traffic with any cast destinations.  IT should be about edge initiated tunnels, not routing of anycast packets in the network.</p>",
+    "topic": "jabber",
+    "dtime": 1103000,
+    "ptime": 1103000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>OK. So all about anycast destinations only ... right? Want to make sure not missing anything else ...</p>",
+    "topic": "jabber",
+    "dtime": 1184000,
+    "ptime": 1184000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>To make it reasonable and efficient, many details may be considered here</p>",
+    "topic": "jabber",
+    "dtime": 1219000,
+    "ptime": 1219000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>When we get to the charter, we need to seal with the existence of two problems, one about edge selection a d one about injecting information into routing.  The former makes sense.  The later us a bad idea that I believe the previous bof rejected.</p>",
+    "topic": "jabber",
+    "dtime": 1625000,
+    "ptime": 1625000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>It seems to me that some solutions may make a decision and convert from anycast to unicast.</p>",
+    "topic": "jabber",
+    "dtime": 1710000,
+    "ptime": 1710000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Tony best path decision?</p>",
+    "topic": "jabber",
+    "dtime": 1809000,
+    "ptime": 1809000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Exactly. Use anycase to get to the decision point and then convert.</p>",
+    "topic": "jabber",
+    "dtime": 1839000,
+    "ptime": 1839000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> I expect it is encapsulate rather than convert, but yes. The edge selects the oath and then we get unicast routing.</p>",
+    "topic": "jabber",
+    "dtime": 1869000,
+    "ptime": 1869000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>(Speaking with no hats) So I’m confused - they said - 38 issues at last bof - all answered - none closed - they need to be dealt with in a wg. Yet - it was those 38 issues that seemed to stymie the creation of a wg in the first place - so what changed?</p>",
+    "topic": "jabber",
+    "dtime": 1879000,
+    "ptime": 1879000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>From a use case POV: is it correct that the use case is a host consuming an application service that happens to be deployed at its closest edge, and the network decides to route that service request to a different service instance at a different edge site based on network and application performance?</p>",
+    "topic": "jabber",
+    "dtime": 1891000,
+    "ptime": 1891000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"165\">@Joel Halpern</span> That's just conversion with more overhead.</p>",
+    "topic": "jabber",
+    "dtime": 1927000,
+    "ptime": 1927000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Tony ... thanks. That is what I was thinking but wanted to see if I was not missing the basic. I didn't get that clarity from the use cases and so will wait for the Gap</p>",
+    "topic": "jabber",
+    "dtime": 1928000,
+    "ptime": 1928000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>A subset of proponents want the whole network looking at and deciding about the anycast destination address.</p>",
+    "topic": "jabber",
+    "dtime": 2098000,
+    "ptime": 2098000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> and <span class=\"user-mention\" data-user-id=\"393\">@Ketan Talaulikar</span> is the anycast idea required? if I push my cloud service model to the edge, am I using an anycast address?</p>",
+    "topic": "jabber",
+    "dtime": 2104000,
+    "ptime": 2104000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Why can this not be done using sr label stack to steer to correct point with conversation to controller from the applications that are aware of this and want to use it?</p>",
+    "topic": "jabber",
+    "dtime": 2121000,
+    "ptime": 2121000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Though - that’s just one way to do it of course - if you accept tunneling there are many ways to do this</p>",
+    "topic": "jabber",
+    "dtime": 2153000,
+    "ptime": 2153000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Darren no but that is not done by routing layer. Here we seem to want to solve that problem in the routing layer.</p>",
+    "topic": "jabber",
+    "dtime": 2179000,
+    "ptime": 2179000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"792\">@Darren Dukes</span> AFAICT, no. A unicast service address would suffice. It's simply being used as a service selector.</p>",
+    "topic": "jabber",
+    "dtime": 2190000,
+    "ptime": 2190000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i was about to suggest similar - load balancers can perform pretty high end logic to make routing decisions and could easily presumably fire off API calls to some controller to influence the network level</p>",
+    "topic": "jabber",
+    "dtime": 2194000,
+    "ptime": 2194000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>According to my recollection, <span class=\"user-mention\" data-user-id=\"165\">@Joel Halpern</span> is right that an outcome of the previous BOF was that this is restricted to edge selection, and that injection into the underlay is out of scope.</p>",
+    "topic": "jabber",
+    "dtime": 2194000,
+    "ptime": 2194000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"485\">@Andrew Alston</span>  I'm not sure... Im interested to see what the Gap analysis says if I'm understanding the use cases (that's a big if  ;)</p>",
+    "topic": "jabber",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@Andrew +1</p>",
+    "topic": "jabber",
+    "dtime": 2223000,
+    "ptime": 2223000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>@Tony Li  In my understanding, the convert can also happen in the peer, instead of on the ingress router. The main point is that the decision is made on the ingress router</p>",
+    "topic": "jabber",
+    "dtime": 2278000,
+    "ptime": 2278000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>dynamic tunneling to push to specific end points from an application layer using sr mpls label stacks is something we have done internally for various reasons - and it works. And any application that would need to do this type of stuff would have to be talking to something to give it network info any way</p>",
+    "topic": "jabber",
+    "dtime": 2291000,
+    "ptime": 2291000
+  },
+  {
+    "author": "Peng Liu",
+    "text": "<p>CAN won't injection into the underlay, it is about the ingress or edge</p>",
+    "topic": "jabber",
+    "dtime": 2330000,
+    "ptime": 2330000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Please refresh my memory. From our previous discussions, it looked like load balancing was the likely result. I thought we redirected them to the load balancing working group.</p>",
+    "topic": "jabber",
+    "dtime": 2388000,
+    "ptime": 2388000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>so if this is just path selection at ingress PE then it is only about anycast ... having many paths and picking the \"best\" path amongst them based on \"foo\" metric and then finally steering the packets to that egress PE via some TE mechanism.</p>",
+    "topic": "jabber",
+    "dtime": 2403000,
+    "ptime": 2403000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Peng - so - either something is telling the network about the applications/nodes - or - the nodes are getting that information themselves and then telling the network how to steer to the end points - surely the end result is the same thing - but one can be done with existing tech</p>",
+    "topic": "jabber",
+    "dtime": 2416000,
+    "ptime": 2416000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Am I missing something</p>",
+    "topic": "jabber",
+    "dtime": 2423000,
+    "ptime": 2423000
+  },
+  {
+    "author": "Jim Uttaro",
+    "text": "<p>Ketan +1</p>",
+    "topic": "jabber",
+    "dtime": 2427000,
+    "ptime": 2427000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"393\">@Ketan Talaulikar</span> I don’t think it’s about picking on the “foo” metric. They haven’t used the term “multi-objective optimization” but AFAICT that’s exactly what’s being contemplated.</p>",
+    "topic": "jabber",
+    "dtime": 2468000,
+    "ptime": 2468000
+  },
+  {
+    "author": "Yuexia Fu",
+    "text": "<p>Common to solutions such as DNS, ALTO, or Layer 4 &amp; Layer 7 load balancers is the exposure and usage of network conditions for decision making. None of the existing solutions integrate the computing resource conditions with the network conditions for deciding the optimal paths.</p>",
+    "topic": "jabber",
+    "dtime": 2490000,
+    "ptime": 2490000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@John I attempted to mind read there :-)</p>",
+    "topic": "jabber",
+    "dtime": 2496000,
+    "ptime": 2496000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>it would be instance selection, not path selection, after selecting a instance, the path can be seleccted by the existing solutions I guess.</p>",
+    "topic": "jabber",
+    "dtime": 2514000,
+    "ptime": 2514000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>I don't see how multiple metrics changes the architecture.</p>",
+    "topic": "jabber",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>But the key point is, using the computing-related metric to impart the routing decisions.</p>",
+    "topic": "jabber",
+    "dtime": 2550000,
+    "ptime": 2550000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Cheng how is instance defined? Is it about picking an IP destination?</p>",
+    "topic": "jabber",
+    "dtime": 2559000,
+    "ptime": 2559000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> depends on your assumptions, I was specifically responding to Ketan’s characterization.</p>",
+    "topic": "jabber",
+    "dtime": 2581000,
+    "ptime": 2581000
+  },
+  {
+    "author": "Jim Uttaro",
+    "text": "<p>How often does the computing-related metric get updated to ensure the intended outcome?</p>",
+    "topic": "jabber",
+    "dtime": 2593000,
+    "ptime": 2593000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>Load balancers are not a single point of failure, AFAIK.  There are HA patterns for them...</p>",
+    "topic": "jabber",
+    "dtime": 2605000,
+    "ptime": 2605000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>If this is instance selection why isn't this an application overlay?</p>",
+    "topic": "jabber",
+    "dtime": 2619000,
+    "ptime": 2619000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Stewart that would have been my next Q too ...</p>",
+    "topic": "jabber",
+    "dtime": 2641000,
+    "ptime": 2641000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@Jim, IMO, it depends on a service which it belongs.</p>",
+    "topic": "jabber",
+    "dtime": 2643000,
+    "ptime": 2643000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>@stewart To me this is 100% application overlay</p>",
+    "topic": "jabber",
+    "dtime": 2649000,
+    "ptime": 2649000
+  },
+  {
+    "author": "Jim Uttaro",
+    "text": "<p>Agreed</p>",
+    "topic": "jabber",
+    "dtime": 2652000,
+    "ptime": 2652000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>if it is a unicast, that is an IP address, if it is a anycast, it may be a path, or another unicast address of a specific instance. But anyway, this is open for discussion in the next stage, not today's meeting. In this BOF, we only discuss the use case and gap analysis, no solution  will be discussed.</p>",
+    "topic": "jabber",
+    "dtime": 2655000,
+    "ptime": 2655000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"792\">Darren Dukes</span> <a href=\"#narrow/stream/353-can/topic/jabber/near/49280\">said</a>:</p>\n<blockquote>\n<p>Load balancers are not a single point of failure, AFAIK.  There are HA patterns for them...</p>\n</blockquote>\n<p>+1 to this - Anycast + LB + Backend routing logic</p>",
+    "topic": "jabber",
+    "dtime": 2657000,
+    "ptime": 2657000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"516\">@Peng Liu</span> will the charter proposal be clarified to make that clear?</p>",
+    "topic": "jabber",
+    "dtime": 2682000,
+    "ptime": 2682000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>It depends on the need of the service about the frequency</p>",
+    "topic": "jabber",
+    "dtime": 2682000,
+    "ptime": 2682000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>the question is about having a client be able to ask for the right available resource ... how this resource is then reached (any cast, SR labels, LB) is secondary ... and can vary</p>",
+    "topic": "jabber",
+    "dtime": 2693000,
+    "ptime": 2693000
+  },
+  {
+    "author": "Yuexia Fu",
+    "text": "<p>multiple metrics will change the routing decisions,  both considering the computing metric and routing metric</p>",
+    "topic": "jabber",
+    "dtime": 2708000,
+    "ptime": 2708000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>So my big problem with this - telling the network about compute resource etc - means that the network itself has to be under control of the party doing this - an sp ain’t gonna let customers send stuff like this into the network - and if you do this via the alternative - where the node gets the info - and then tells the network how to steer it - that is far more palatable from my view as an sp (and safer)</p>",
+    "topic": "jabber",
+    "dtime": 2711000,
+    "ptime": 2711000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>It does not need anything fancy like anycast except perhaps to the instance section server, but after that it can simple unicast</p>",
+    "topic": "jabber",
+    "dtime": 2720000,
+    "ptime": 2720000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>so having the developer deploy its application at the right compute location is a case for proper cloud resource scheduling</p>",
+    "topic": "jabber",
+    "dtime": 2737000,
+    "ptime": 2737000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>instance selection server = LB ? ;-)</p>",
+    "topic": "jabber",
+    "dtime": 2744000,
+    "ptime": 2744000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Don't tell the entire network, just the LB box.</p>",
+    "topic": "jabber",
+    "dtime": 2746000,
+    "ptime": 2746000
+  },
+  {
+    "author": "Gyan Mishra",
+    "text": "<p>@ketan I believe the goal is how to provide the compute awareness to the network so the network is more compute aware to make a better decision in the route selection process .  So a more intelligent metric would injected into the network so the network becomes more intelligent for optimal routing decisions.</p>",
+    "topic": "jabber",
+    "dtime": 2789000,
+    "ptime": 2789000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>tony that dictates lbs but I get the impression that ain’t what is wanted - if it is - you don’t need to do this at a network layer and it ain’t routing</p>",
+    "topic": "jabber",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Jim Uttaro",
+    "text": "<p>@Gyan What is that all encompassing metric? I thought it was specific to a given application i.e availability, jitter, latency etc...</p>",
+    "topic": "jabber",
+    "dtime": 2839000,
+    "ptime": 2839000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>It almost sounds like some folks would like to see a distributed LB present in the transit network. Don't think this is good idea.</p>",
+    "topic": "jabber",
+    "dtime": 2841000,
+    "ptime": 2841000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>It is about do the LB in the network node which is near to the users</p>",
+    "topic": "jabber",
+    "dtime": 2856000,
+    "ptime": 2856000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>the question is around HOW can the client ask \"someone\" for a service that is available with the right compute/processing capacity ... then he can worry about how to get there</p>",
+    "topic": "jabber",
+    "dtime": 2870000,
+    "ptime": 2870000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>so either - you tell the network - which is a problem in my view - or the nodes apply things to steer when they get the info themselves (in which case we have tech to do this) - or you use lbs in which case this ain’t really routing per say</p>",
+    "topic": "jabber",
+    "dtime": 2886000,
+    "ptime": 2886000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>well, it is hard to explain to much in the short time. I will recommend the pople to read the draft before asking, or read the issues in the github. The questions are quite similar. So hope not to repeat the discussion in the previous BOF :(</p>",
+    "topic": "jabber",
+    "dtime": 2891000,
+    "ptime": 2891000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>We seem to have a lot of assumed solutions without thinking about the real requirements and architecture.</p>",
+    "topic": "jabber",
+    "dtime": 2896000,
+    "ptime": 2896000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Dan is that for routing layer to answer?</p>",
+    "topic": "jabber",
+    "dtime": 2905000,
+    "ptime": 2905000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>The compute availability needs to be a private matter else there are security and commercial issues</p>",
+    "topic": "jabber",
+    "dtime": 2908000,
+    "ptime": 2908000
+  },
+  {
+    "author": "Peng Liu",
+    "text": "<p>Not underlay, of course, CAN won't impact every router, if the charter is not clear about that, we can refine it.</p>",
+    "topic": "jabber",
+    "dtime": 2997000,
+    "ptime": 2997000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"799\">@Tom Hill</span> We run OSPF on handsets! :-)</p>",
+    "topic": "jabber",
+    "dtime": 3025000,
+    "ptime": 3025000
+  },
+  {
+    "author": "Gyan Mishra",
+    "text": "<p>@Jim - the all encompassing metric would be more compute aware - based on compute load resources details as well as compute requirements of delay, jitter, availability - so a compound intelligent metric for routing optimization</p>",
+    "topic": "jabber",
+    "dtime": 3032000,
+    "ptime": 3032000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>@ketan I am biassed against. There are existing mechanisms to do such a thing</p>",
+    "topic": "jabber",
+    "dtime": 3045000,
+    "ptime": 3045000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span>  are you sure you didn't mean RIP?</p>",
+    "topic": "jabber",
+    "dtime": 3052000,
+    "ptime": 3052000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Ospf? Please - use isis and add another afi</p>",
+    "topic": "jabber",
+    "dtime": 3063000,
+    "ptime": 3063000
+  },
+  {
+    "author": "Peng Liu",
+    "text": "<p>How to response to the specific message...I mean @..</p>",
+    "topic": "jabber",
+    "dtime": 3107000,
+    "ptime": 3107000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>look at BBF ATSSS and or any cloud directory service ... no DNS, no LB, but proper traffic steering</p>",
+    "topic": "jabber",
+    "dtime": 3121000,
+    "ptime": 3121000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>It is on the ingress node, not on all the transit network. @Robert Raszuk<br>\nIt almost sounds like some folks would like to see a distributed LB present in the transit network. Don't think this is good idea.</p>",
+    "topic": "jabber",
+    "dtime": 3129000,
+    "ptime": 3129000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"516\">@Peng Liu</span>  type @ then start typing the users name it will give the option to complete - you must be using Zulip not meetecho though</p>",
+    "topic": "jabber",
+    "dtime": 3145000,
+    "ptime": 3145000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>just to be clear -- my name being on this slide DOES NOT mean i support this work!</p>",
+    "topic": "jabber",
+    "dtime": 3152000,
+    "ptime": 3152000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i assume that applies to a bunch of other folks as well</p>",
+    "topic": "jabber",
+    "dtime": 3164000,
+    "ptime": 3164000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Indeed</p>",
+    "topic": "jabber",
+    "dtime": 3177000,
+    "ptime": 3177000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Dan +1 for traffic steering</p>",
+    "topic": "jabber",
+    "dtime": 3190000,
+    "ptime": 3190000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> agreed.</p>",
+    "topic": "jabber",
+    "dtime": 3213000,
+    "ptime": 3213000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>@Zongpeng Du define ingresss node. Is this my CE ? My home gw ? my provider's PE ?</p>",
+    "topic": "jabber",
+    "dtime": 3224000,
+    "ptime": 3224000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>I would suggest someone who is on that slide - make that clear at the microphone for those not reading this because it’s misleading</p>",
+    "topic": "jabber",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>my provider's PE</p>",
+    "topic": "jabber",
+    "dtime": 3267000,
+    "ptime": 3267000
+  },
+  {
+    "author": "Peng Liu",
+    "text": "<p>it use '/Comments' not all support, we divide them, there is the blank</p>",
+    "topic": "jabber",
+    "dtime": 3293000,
+    "ptime": 3293000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1088\">@Zhaohui Zhang</span>  can you relay <span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span>  comment to the room</p>",
+    "topic": "jabber",
+    "dtime": 3313000,
+    "ptime": 3313000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>The list on that slide seems to have gotten truncated for the 2nd set of people?</p>",
+    "topic": "jabber",
+    "dtime": 3359000,
+    "ptime": 3359000
+  },
+  {
+    "author": "Peng Liu",
+    "text": "<p>We list the name of all the people give the comments in the pre BoF in IETF113, not means all to support. Anyway, we thanks for that.  2nd set are the people who gave comments.</p>",
+    "topic": "jabber",
+    "dtime": 3402000,
+    "ptime": 3402000
+  },
+  {
+    "author": "Peng Liu",
+    "text": "<p>there is a blank</p>",
+    "topic": "jabber",
+    "dtime": 3424000,
+    "ptime": 3424000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Subheaders would be a good clarification</p>",
+    "topic": "jabber",
+    "dtime": 3447000,
+    "ptime": 3447000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>I’m really struggling to wrap my head around this - because if an application makes a decision and then stacks information to dictate the routing - that should give same performance. If they use LBs it’s another way - if they require the network to have info to make decisions - that almost entirely eliminates any ability as an SP to productive this because I don’t see an SP wanting to know about their clients compute resources</p>",
+    "topic": "jabber",
+    "dtime": 3732000,
+    "ptime": 3732000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"739\">@Dirk Trossen</span>  when is the side meeting ? .... forget it I found the info</p>",
+    "topic": "jabber",
+    "dtime": 3753000,
+    "ptime": 3753000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>There are potential legal and privacy implications to consider here - especially if content providers wish to chase down copyright abuse etc - could leave Service Providers open to major littigation risks</p>",
+    "topic": "jabber",
+    "dtime": 3821000,
+    "ptime": 3821000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>I do not understand, why legal risk?</p>",
+    "topic": "jabber",
+    "dtime": 3934000,
+    "ptime": 3934000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@Andrew, some similarities with RSVP, isn't it?</p>",
+    "topic": "jabber",
+    "dtime": 3939000,
+    "ptime": 3939000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>NOTE: this BOF only discuss the use case and gap analysis, so the solution related text is removed as suggestions from people have interested in the work and responsible ADs.</p>",
+    "topic": "jabber",
+    "dtime": 4039000,
+    "ptime": 4039000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"800\">@Boris Khasanov</span> in some ways yes - but there are a bunch of safer / better ways to do this imho - some of which we implemented in house that rely on the application getting the information and then dictating how it labels it’s traffic going into the network so it can be steered - that doesn’t mess with the underlay network - and in my view is way way safer</p>",
+    "topic": "jabber",
+    "dtime": 4077000,
+    "ptime": 4077000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"361\">Hang Shi</span> <a href=\"#narrow/stream/353-can/topic/jabber/near/49406\">said</a>:</p>\n<blockquote>\n<p>I do not understand, why legal risk?</p>\n</blockquote>\n<p>Content provider A provides streaming Service B</p>\n<p>Customer C illegaly gets Streaming Service B via some Dodgy content provider D</p>\n<p>Content Provider D provides CAN based meta data to network to optimise performance</p>\n<p>Content provider A sues Service Provider to block or stop or provide information on the illegal operations</p>\n<p>Service Provider doesn't have usefull ability to filter/block the illegal traffic - they only care about getting packets from A end to B end</p>",
+    "topic": "jabber",
+    "dtime": 4112000,
+    "ptime": 4112000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>It is about the ingress to know about the server status, not the client.</p>",
+    "topic": "jabber",
+    "dtime": 4120000,
+    "ptime": 4120000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>In my understanding, the ingress routers in CAN need to obtain some information, and then make a routing policy or update an existing policy accordingly. The routing mechanism underlayer should be the same as before.</p>",
+    "topic": "jabber",
+    "dtime": 4157000,
+    "ptime": 4157000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>heh - and if the ingress router is a service provider would - the SP doesn’t want to know about it’s clients server status in that matter</p>",
+    "topic": "jabber",
+    "dtime": 4219000,
+    "ptime": 4219000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>Does this scale?</p>",
+    "topic": "jabber",
+    "dtime": 4338000,
+    "ptime": 4338000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1805\">@Stewart Bryant</span> If done right, it doesn't need to.</p>",
+    "topic": "jabber",
+    "dtime": 4361000,
+    "ptime": 4361000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Stewart actually probably far better - a controller can talk to the nodes and exchange info - versus - a controller feeding the network with constant and highly variable/volatile info with is having to change things all the time?</p>",
+    "topic": "jabber",
+    "dtime": 4408000,
+    "ptime": 4408000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I don’t really get why people object the group from investigating network layer mechanisms to do CAN. If you think that upper layers solve the issue, that’s perfect. If you don’t want to support CAN in your network that’s fine, but why people willing to explore the problem space be prevented to do so ?</p>",
+    "topic": "jabber",
+    "dtime": 4476000,
+    "ptime": 4476000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Two words: layer violation</p>",
+    "topic": "jabber",
+    "dtime": 4504000,
+    "ptime": 4504000
+  },
+  {
+    "author": "Martin Vigoureux",
+    "text": "<p>Have we agreed that this problem needs to be solved by routing based solutions?</p>",
+    "topic": "jabber",
+    "dtime": 4528000,
+    "ptime": 4528000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>No, we have not.</p>",
+    "topic": "jabber",
+    "dtime": 4541000,
+    "ptime": 4541000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Does a compute resources create a policy that simply color a route (like a community) so you know how to evaluate it for a prefix?</p>",
+    "topic": "jabber",
+    "dtime": 4559000,
+    "ptime": 4559000
+  },
+  {
+    "author": "Martin Vigoureux",
+    "text": "<p>So why are we discussing a routing centric charter?</p>",
+    "topic": "jabber",
+    "dtime": 4586000,
+    "ptime": 4586000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>I agree with Tony - the proponents have not demonstrated that this is a routing problem and that this is the best use of IETF resources</p>",
+    "topic": "jabber",
+    "dtime": 4593000,
+    "ptime": 4593000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>If there is enough motivations, cross layer design can also be considered.</p>",
+    "topic": "jabber",
+    "dtime": 4595000,
+    "ptime": 4595000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>My point exactly.</p>",
+    "topic": "jabber",
+    "dtime": 4596000,
+    "ptime": 4596000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Martin +1</p>",
+    "topic": "jabber",
+    "dtime": 4610000,
+    "ptime": 4610000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>In fact, we haven't shown that this is anything other than an extension to LB protocols.  So why not toss this into the LB WG?</p>",
+    "topic": "jabber",
+    "dtime": 4640000,
+    "ptime": 4640000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>It would sure be a first</p>",
+    "topic": "jabber",
+    "dtime": 4702000,
+    "ptime": 4702000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>(Speaking about layer violation from Tony)</p>",
+    "topic": "jabber",
+    "dtime": 4747000,
+    "ptime": 4747000
+  },
+  {
+    "author": "Tommaso Pecorella",
+    "text": "<p>A suggestion for the charter. The acronym for Fault, Configuration , … should be FCAPS (in the slides the “S” is missing)</p>",
+    "topic": "jabber",
+    "dtime": 4796000,
+    "ptime": 4796000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>That does not mean layer violation should be encouraged…. Surely.</p>",
+    "topic": "jabber",
+    "dtime": 4807000,
+    "ptime": 4807000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>@antoine I am all for looking and investigating different data for route/path calculation as an evolution. But to me for the current problem statement, it is mostly around client request towards the proper resource ... I might need a beer to be convinced otherwise ;-)</p>",
+    "topic": "jabber",
+    "dtime": 4864000,
+    "ptime": 4864000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"345\">@Daniel Bernier</span>  only 1 beer?</p>",
+    "topic": "jabber",
+    "dtime": 4916000,
+    "ptime": 4916000
+  },
+  {
+    "author": "Martin Vigoureux",
+    "text": "<p>From the slides shown today I'm under the impression that the gap analysis rules out existing solutions rather than identifies what's missing.</p>",
+    "topic": "jabber",
+    "dtime": 4930000,
+    "ptime": 4930000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>how about a brewery?</p>",
+    "topic": "jabber",
+    "dtime": 4933000,
+    "ptime": 4933000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>Traditional LB does not happen on the ingress nodes, CAN focuses on a more efficient LB solution.</p>",
+    "topic": "jabber",
+    "dtime": 4956000,
+    "ptime": 4956000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"762\">@Martin Vigoureux</span> When in fact, the answer is probably just extending an existing solution.</p>",
+    "topic": "jabber",
+    "dtime": 4970000,
+    "ptime": 4970000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"460\">@Zongpeng Du</span> That's wholly irrelevant. The location of the LB decision is entirely flexible.</p>",
+    "topic": "jabber",
+    "dtime": 5005000,
+    "ptime": 5005000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"745\">@Susan Hares</span> you raised a good angle ... in my mind the effort ( and I have stated this before ) is how to make client/developers aware of capabilities in a manner they can be steered in the proper path.</p>",
+    "topic": "jabber",
+    "dtime": 5035000,
+    "ptime": 5035000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"762\">@Martin Vigoureux</span> the gap analysis may eliminate one or two potential existing solutions - but I really don’t believe that it eliminates all of the ways</p>",
+    "topic": "jabber",
+    "dtime": 5079000,
+    "ptime": 5079000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>and make them aware / queried in a manner that is not orthogonal to their developer experience</p>",
+    "topic": "jabber",
+    "dtime": 5115000,
+    "ptime": 5115000
+  },
+  {
+    "author": "Martin Vigoureux",
+    "text": "<p>Ok. But then should we look into extending these?</p>",
+    "topic": "jabber",
+    "dtime": 5136000,
+    "ptime": 5136000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>I think the ingress nodes nowadays can not obtain the service information and do LB accordingly.</p>",
+    "topic": "jabber",
+    "dtime": 5160000,
+    "ptime": 5160000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>multiple solutions can coexist, meaning we can provide different solutions from different layers or angles. welcome people to discuss the gap analysis in dyncast or can mail list.</p>",
+    "topic": "jabber",
+    "dtime": 5161000,
+    "ptime": 5161000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>again, if we do not read the draft, and discuss in the mailing list, it is nearly impossible to understand each other in short time.</p>",
+    "topic": "jabber",
+    "dtime": 5193000,
+    "ptime": 5193000
+  },
+  {
+    "author": "Jari Arkko",
+    "text": "<p>FWIW I agree with Tony Li's point about scope. It is unclear to me why routing layer is the right place for a solution in this case; I do agree that having more factors brought in for making a load balancing decision is very useful. But we need to look at where doing this is most beneficial.</p>",
+    "topic": "jabber",
+    "dtime": 5304000,
+    "ptime": 5304000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@tony-Li - how many LB in this scenario? I cannot tell.</p>",
+    "topic": "jabber",
+    "dtime": 5349000,
+    "ptime": 5349000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>If there is more than one LB won't they fight each other?</p>",
+    "topic": "jabber",
+    "dtime": 5390000,
+    "ptime": 5390000
+  },
+  {
+    "author": "Tommaso Pecorella",
+    "text": "<p>I can’t wait to install a malicious LB</p>",
+    "topic": "jabber",
+    "dtime": 5435000,
+    "ptime": 5435000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>After reading the problem statement there are a three example services - AR/VR, digital twin, vehicles.<br>\nthe gap analysis does talk about these use cases but I'm not seeing how the existing solutions are used in the use cases and are currently failing.<br>\nThe charter proposal didn't crystalize this for me either.</p>",
+    "topic": "jabber",
+    "dtime": 5453000,
+    "ptime": 5453000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>it is good to see that you agree that having more factors brought in for making decisions. How to do it is the solution we should discuss further. Regarding LB, please read the LB related gap analysis.</p>",
+    "topic": "jabber",
+    "dtime": 5465000,
+    "ptime": 5465000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>One aspect application or upper layer solution often fail to achieve is dynamicity. Besides, I have a bias against tunnels and re-encapsulation. All in all, it is about choosing a path to a destination, this is the seminal definition of routing.</p>",
+    "topic": "jabber",
+    "dtime": 5468000,
+    "ptime": 5468000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"792\">Darren Dukes</span> <a href=\"#narrow/stream/353-can/topic/jabber/near/49567\">said</a>:</p>\n<blockquote>\n<p>After reading the problem statement there are a three example services - AR/VR, digital twin, vehicles.<br>\nthe gap analysis does talk about these use cases but I'm not seeing how the existing solutions are used in the use cases and are currently failing.<br>\nThe charter proposal didn't crystalize this for me either.</p>\n</blockquote>\n<p>I'm entering this here since the queue is closed and I expect there may be better discussion on the list after the BOF for this work.  It would be interesting to see what I'm missing or if the current drafts could be improved.</p>",
+    "topic": "jabber",
+    "dtime": 5508000,
+    "ptime": 5508000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Antoine choosing a path to a destination is within routing. Is choosing the destination IP itself also within routing?</p>",
+    "topic": "jabber",
+    "dtime": 5527000,
+    "ptime": 5527000
+  },
+  {
+    "author": "Tommaso Pecorella",
+    "text": "<p>Seriously, security will be a nightmare (but I love to call them opportunities)</p>",
+    "topic": "jabber",
+    "dtime": 5541000,
+    "ptime": 5541000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>When notifying the service info, some security method can be used if needed.</p>",
+    "topic": "jabber",
+    "dtime": 5578000,
+    "ptime": 5578000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"792\">Darren Dukes</span> <a href=\"#narrow/stream/353-can/topic/jabber/near/49567\">said</a>:</p>\n<blockquote>\n<p>After reading the problem statement there are a three example services - AR/VR, digital twin, vehicles.<br>\nthe gap analysis does talk about these use cases but I'm not seeing how the existing solutions are used in the use cases and are currently failing.<br>\nThe charter proposal didn't crystalize this for me either.</p>\n</blockquote>\n<p>Fair point and it will need to be shown more, but there's a reference to work being discussed at the mentioned side meeting on Wednesday where we compared on vs off path solutions and it shows the impact of using either.</p>",
+    "topic": "jabber",
+    "dtime": 5602000,
+    "ptime": 5602000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"745\">@Susan Hares</span> It would seem to me that this call for a distributed LB front end: each ingress node needs to make a LB decision and then distribute that. If the handset is handed off to another ingress, the requirements request that the previous LB decision be retained.  Yes, this is new technology. Yes, it is distributed.  The OSPF LSDB is not the right place to carry that data. The IGP is not a dump truck.</p>",
+    "topic": "jabber",
+    "dtime": 5607000,
+    "ptime": 5607000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"393\">Ketan Talaulikar</span> <a href=\"#narrow/stream/353-can/topic/jabber/near/49575\">said</a>:</p>\n<blockquote>\n<p>@Antoine choosing a path to a destination is within routing. Is choosing the destination IP itself also within routing?</p>\n</blockquote>\n<p>In other load balancing systems an encapsulation would be used but that's going into solutions... Was there mention of changing a destination address Ketan?</p>",
+    "topic": "jabber",
+    "dtime": 5610000,
+    "ptime": 5610000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>It depends on your definition of a destination. A moving / abstract target is still a destination in my view, and this view is backed by numerous future Internet research</p>",
+    "topic": "jabber",
+    "dtime": 5624000,
+    "ptime": 5624000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>choosing a path or imparting a routing decision should be a RTG area problem, I do not understand why this is not clear :(</p>",
+    "topic": "jabber",
+    "dtime": 5629000,
+    "ptime": 5629000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@ Antoine my definition of destination is the IP dst address in the IP packet sent from the end system.</p>",
+    "topic": "jabber",
+    "dtime": 5679000,
+    "ptime": 5679000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"417\">@Cheng Li</span> You are not making a routing decision. You are making a server selection.</p>",
+    "topic": "jabber",
+    "dtime": 5725000,
+    "ptime": 5725000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Ketan the « locator » IP address or the « identifier » IP address :-) ?</p>",
+    "topic": "jabber",
+    "dtime": 5750000,
+    "ptime": 5750000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@Jari - do you agree with Tony Li that this is setting up communication between LBs?</p>",
+    "topic": "jabber",
+    "dtime": 5755000,
+    "ptime": 5755000
+  },
+  {
+    "author": "Jaehoon Paul Jeong",
+    "text": "<p>Comments from Jaehoon Paul Jeong</p>\n<ol>\n<li>\n<p>CAN BoF needs to consider energy consumption in edge cloud servers as computing resources because energy is an important aspect in the viewpoint of operators.</p>\n</li>\n<li>\n<p>As another use case, CAN can consider the safe flying service for Urban Air Mobility (UAM) as flying cars because many car vendors such as Hyundai are working for commercializing UAM around 2018.</p>\n</li>\n<li>\n<p>For proactive edge server assignments for moving hosts like UEs, the mobility information of UEs and the profile of their applications can be used to estimate the trajectory for resource assignment and migration of services along with the required resource demands and delay requirements.</p>\n</li>\n</ol>",
+    "topic": "jabber",
+    "dtime": 5756000,
+    "ptime": 5756000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>If it is the former, is mobile IP belonging to routing ?</p>",
+    "topic": "jabber",
+    "dtime": 5803000,
+    "ptime": 5803000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"739\">@Dirk Trossen</span> Thanks, I look forward to Wednesdays clarifications.</p>",
+    "topic": "jabber",
+    "dtime": 5811000,
+    "ptime": 5811000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Antoine It is the 32-bit/128-bit in the destination of the IP packet. That is the \"server selection\" unless we are talking anycast and all servers have the same IP.</p>",
+    "topic": "jabber",
+    "dtime": 5893000,
+    "ptime": 5893000
+  },
+  {
+    "author": "Jari Arkko",
+    "text": "<p>+1 to what Cullen just said. Lets share information and make decisions, but avoid putting too many complex things in the routing layer.</p>",
+    "topic": "jabber",
+    "dtime": 5968000,
+    "ptime": 5968000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>the servers offering the same service can have the same IP</p>",
+    "topic": "jabber",
+    "dtime": 6002000,
+    "ptime": 6002000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"460\">@Zongpeng Du</span> my point exactly</p>",
+    "topic": "jabber",
+    "dtime": 6043000,
+    "ptime": 6043000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>Surely only if the services are stateless?</p>",
+    "topic": "jabber",
+    "dtime": 6071000,
+    "ptime": 6071000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>That seems like it's assuming one particular solution property and then convoluting the architecture to make it work.</p>",
+    "topic": "jabber",
+    "dtime": 6109000,
+    "ptime": 6109000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>if the routing layer can benefit on the efficiency, why not consider it?</p>",
+    "topic": "jabber",
+    "dtime": 6186000,
+    "ptime": 6186000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>What are the abstract requirements? What are the inherent functions that are required? How should they be arranged?</p>",
+    "topic": "jabber",
+    "dtime": 6200000,
+    "ptime": 6200000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>The routing layer will not benefit from the efficiency.</p>",
+    "topic": "jabber",
+    "dtime": 6216000,
+    "ptime": 6216000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@Tony - This distributed LB is not a good solution for IGPs for network layer connectivity.  If you are running a LB distribution SPF in APP or TSV layer, in loosely coupled system with IGP - this has better scaling properties.  The type of algorithms that work depend on scale of LBs.  Hence my question.</p>",
+    "topic": "jabber",
+    "dtime": 6235000,
+    "ptime": 6235000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Yes, you can piggy back this problem on top of the routing protocols. That doesn't make it good architecture. That makes about as much sense as playing battleship with BGP.</p>",
+    "topic": "jabber",
+    "dtime": 6261000,
+    "ptime": 6261000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"745\">@Susan Hares</span>  AFAICT, an SPF is not required. :-)</p>",
+    "topic": "jabber",
+    "dtime": 6334000,
+    "ptime": 6334000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@Tony Li: On SPF, it is not required.  Best tools depend on topology + size of LB topology + type of changes.</p>",
+    "topic": "jabber",
+    "dtime": 6546000,
+    "ptime": 6546000
+  },
+  {
+    "author": "Adnan Rashid",
+    "text": "<p>Question 1, I am not clear</p>",
+    "topic": "jabber",
+    "dtime": 6564000,
+    "ptime": 6564000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>BGP can be used to convey the service info, some work has be done. And it is straightforward when the target/decision point is a router.</p>",
+    "topic": "jabber",
+    "dtime": 6595000,
+    "ptime": 6595000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@Zongpeng - stating you put in BGP does not answer Tony LI's or my point.</p>",
+    "topic": "jabber",
+    "dtime": 6664000,
+    "ptime": 6664000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"460\">@Zongpeng Du</span> I think BGP is one of the solutions used in kubernetes clusters to route to a proper instance</p>",
+    "topic": "jabber",
+    "dtime": 6687000,
+    "ptime": 6687000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>One example of the gap analysis that make me question its applicability to the use cases are statements like this :</p>\n<div class=\"codehilite\"><pre><span></span><code>The second way is to deploy an individual load balancer in\n   each site, with its scope of application only to service instances in\n   the site.  It is still relatively easy to deploy.  But, its main\n   deficiency lies in no more inter-site load balancing that could\n   prevent the achievement of better traffic steering across sites.\n</code></pre></div>\n<p>Is this true? If I forward all traffic to a set of services through an on-site load balancer is it impossible for that load balancer to balance to different sites?  I'll send this to the list too, maybe we can improve this topic in the gap analysis.<br>\nMaybe a WG to investigate the problem space would be a good start?</p>",
+    "topic": "jabber",
+    "dtime": 6788000,
+    "ptime": 6788000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>That's assuming conventional load balancing. That's an inappropriate assumption.</p>",
+    "topic": "jabber",
+    "dtime": 6820000,
+    "ptime": 6820000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>We hire ADs to make area decisions....</p>",
+    "topic": "jabber",
+    "dtime": 6956000,
+    "ptime": 6956000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@Antoine - Just because an app puts it in BGP, it does not mean it is a good idea.</p>",
+    "topic": "jabber",
+    "dtime": 6977000,
+    "ptime": 6977000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Should we serve web pages over BGP?  We could...</p>",
+    "topic": "jabber",
+    "dtime": 7009000,
+    "ptime": 7009000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"745\">@Susan Hares</span> Believe me, I don’t think it is a good idea, and when I first heard about it I thought it would fail, but, hey, it is in production on large clusters now.</p>",
+    "topic": "jabber",
+    "dtime": 7115000,
+    "ptime": 7115000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>@antoine k8s uses various ways to do things a better way of looking at the mechanics is service meshes at the app layer</p>",
+    "topic": "jabber",
+    "dtime": 7117000,
+    "ptime": 7117000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1746\">@Antoine Fressancourt</span> Did they have to extend BGP to do it?</p>",
+    "topic": "jabber",
+    "dtime": 7144000,
+    "ptime": 7144000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>I 200% agree with Dino, if it becomes to complex, app devs will just tunnel in AMQP (non-IETF) or QUIC, etc</p>",
+    "topic": "jabber",
+    "dtime": 7171000,
+    "ptime": 7171000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I think BGP is liberal enough to convey proprietary messages and take according routing decisions</p>",
+    "topic": "jabber",
+    "dtime": 7201000,
+    "ptime": 7201000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>That sounds almost like saying IPv6 have enough bits to address individual frames in a video.</p>",
+    "topic": "jabber",
+    "dtime": 7248000,
+    "ptime": 7248000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>If you wanna solve this using non-standard proprietary hacks, please go right ahead.</p>",
+    "topic": "jabber",
+    "dtime": 7260000,
+    "ptime": 7260000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-CAN-20221107-1530"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/can"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-CAN-20221107-1530"
+		}		
+	]
+}

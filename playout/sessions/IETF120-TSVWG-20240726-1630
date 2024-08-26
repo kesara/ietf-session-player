@@ -1,0 +1,140 @@
+
+{
+	"title": "IETF120-TSVWG-20240726-1630",
+	"filename": "IETF120-TSVWG-20240726-1630",
+	"start": 0,
+	"end": 7236000,
+	"start_datetime": "2024-07-26T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "61rL04phZCU",
+    "start": 0,
+    "end": "7236000"
+  }
+],
+	"messages": [
+  {
+    "author": "Martin Duke",
+    "text": "<p>What's the delay?</p>",
+    "topic": "ietf-120",
+    "dtime": 345000,
+    "ptime": 345000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>In the EE network (UK) the 4G network supplies at least 2Mbps everywhere.</p>",
+    "topic": "ietf-120",
+    "dtime": 2276000,
+    "ptime": 2276000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>(everywhere we have coverage)</p>",
+    "topic": "ietf-120",
+    "dtime": 2326000,
+    "ptime": 2326000
+  },
+  {
+    "author": "Zaheduzzaman Sarker",
+    "text": "<p>and to those who has EE subscription or roaming deal ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 2371000,
+    "ptime": 2371000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>We should offer a prize for the first person to find a deployed classic ECN bottleneck.</p>",
+    "topic": "ietf-120",
+    "dtime": 3056000,
+    "ptime": 3056000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>Being familliar with  replay protetion in IpSec i know that it has limitation such as window size needs to be big enough to wrap around in high speed cdases and also the ipsec now has a proposal to make anti replay window based on sub sequences to support multi path .</p>",
+    "topic": "ietf-120",
+    "dtime": 4363000,
+    "ptime": 4363000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>Not saying prposal 1 is better but just saying proposal 2if implemented may needs enhacments .</p>",
+    "topic": "ietf-120",
+    "dtime": 4411000,
+    "ptime": 4411000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>The issue is that for sub-sequences you need to have a clear definition of different path so that you can either derive per path keys, or include the path-ID in the authentication tag. This path ID is not present in SCTP. Which only tracks destination address of the peer, not source - destination pairs.</p>",
+    "topic": "ietf-120",
+    "dtime": 5803000,
+    "ptime": 5803000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I don't see how IPFIX is relevant here.</p>",
+    "topic": "ietf-120",
+    "dtime": 6349000,
+    "ptime": 6349000
+  },
+  {
+    "author": "altanai",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"413\">@Mohamed Boucadair</span>  IPFIX classifies the ip flows and hence can meet the mentioned usecases such as pritoritization of interactive media and even policy implementation that was mentioned in \"Operational Considerations\". Hence the question if IPFIX doesnt already solve the problem presented.</p>",
+    "topic": "ietf-120",
+    "dtime": 6711000,
+    "ptime": 6711000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>For the IAB ref, please check <a href=\"https://datatracker.ietf.org/doc/rfc9419/referencedby/\">https://datatracker.ietf.org/doc/rfc9419/referencedby/</a>.</p>",
+    "topic": "ietf-120",
+    "dtime": 6750000,
+    "ptime": 6750000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>We are only discussing requirements, and not hints on what is out there.</p>",
+    "topic": "ietf-120",
+    "dtime": 6775000,
+    "ptime": 6775000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>Discussion to solution elements DSCP, IPFIX, URSP (not sure how) ..is out of scope for this discussion.</p>",
+    "topic": "ietf-120",
+    "dtime": 6853000,
+    "ptime": 6853000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>Agree with Mohammed on IPFix. No relation to signaling and meta-data elements we are discussing in this draft.</p>",
+    "topic": "ietf-120",
+    "dtime": 6997000,
+    "ptime": 6997000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p>Would be great to see an analysis of whether these requirements can be fulfilled with existing mechanisms and also an analysis of the magnitude of benefit we can expect for the listed use cases (independent of the specific solution of carrying meta-data etc).</p>",
+    "topic": "ietf-120",
+    "dtime": 7143000,
+    "ptime": 7143000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-TSVWG-20240726-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/tsvwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-TSVWG-20240726-1630"
+		}		
+	]
+}

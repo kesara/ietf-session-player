@@ -1,0 +1,1239 @@
+
+{
+	"title": "IETF116-MASQUE-20230329-0030",
+	"filename": "IETF116-MASQUE-20230329-0030",
+	"start": 0,
+	"end": 7263000,
+	"start_datetime": "2023-03-29T00:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "LN2xOqCCHkM",
+    "start": 0,
+    "end": "7263000"
+  }
+],
+	"messages": [
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Does this require using Connection IDs in a situation where they would normally be zero-length?</p>",
+    "topic": "jabber",
+    "dtime": 373000,
+    "ptime": 373000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Where would  a connection id be 0-length?</p>",
+    "topic": "jabber",
+    "dtime": 408000,
+    "ptime": 408000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I'm a bit fuzzy on QUIC, but my recollection was that Server or Client Connection ID can be 0-length if it's not needed (e.g. if the other endpoint doesn't use mobility).</p>",
+    "topic": "jabber",
+    "dtime": 463000,
+    "ptime": 463000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Situation where it's not needed are very, very rare. A QUIC connection is defined by the connection ID and not the 5-tuple in almost all cases.</p>",
+    "topic": "jabber",
+    "dtime": 491000,
+    "ptime": 491000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>But which connection ID?  Do you really need both all the time?</p>",
+    "topic": "jabber",
+    "dtime": 518000,
+    "ptime": 518000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Aren't non-migrating client conn IDs often zero-length?</p>",
+    "topic": "ietf-116",
+    "dtime": 545000,
+    "ptime": 545000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>RFC9000 says \"A zero-length connection ID can be used when a connection ID is not needed to route to the correct endpoint. However, multiplexing connections on the same local IP address and port while using zero-length connection IDs will cause failures in the presence of peer connection migration, NAT rebinding, and client port reuse\"</p>",
+    "topic": "jabber",
+    "dtime": 557000,
+    "ptime": 557000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>So it seems like a not-great idea for normal connections.</p>",
+    "topic": "jabber",
+    "dtime": 582000,
+    "ptime": 582000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Thanks Alex.  I'm still not 100% clear on the \"usage profiles\" of CIDs in QUIC, but I'm mostly trying to figure out if there's a hidden MTU cost here due to making CIDs longer.</p>",
+    "topic": "jabber",
+    "dtime": 642000,
+    "ptime": 642000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I believe that this draft requires &gt;0 length CIDs, but it doesn't make existing implementations have to use longer CIDs in most cases.</p>",
+    "topic": "jabber",
+    "dtime": 677000,
+    "ptime": 677000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Alex in IETF QUIC we have CIDs in both directions. zero-length CIDs are very common in the server-&gt;client direction</p>",
+    "topic": "ietf-116",
+    "dtime": 688000,
+    "ptime": 688000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Ben this is guaranteed to make MTU better because it allows you to skip the 16 byte auth tag</p>",
+    "topic": "ietf-116",
+    "dtime": 728000,
+    "ptime": 728000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>That means keeping track of how many clients use the same remote peer, and then opening extra UDP sockets if they use zero length CID...</p>",
+    "topic": "ietf-116",
+    "dtime": 797000,
+    "ptime": 797000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Yes, it's definitely lower overhead than CONNECT-UDP.  I'm just trying to figure out if it's actually zero.</p>",
+    "topic": "ietf-116",
+    "dtime": 800000,
+    "ptime": 800000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>But then, if they use 1-byte CID, then there is a 1/256 chance of collision...</p>",
+    "topic": "ietf-116",
+    "dtime": 823000,
+    "ptime": 823000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>What about header protection?</p>",
+    "topic": "ietf-116",
+    "dtime": 877000,
+    "ptime": 877000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>keys are almost easy here: exporters provide us with a good way to get keying material</p>",
+    "topic": "ietf-116",
+    "dtime": 881000,
+    "ptime": 881000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Does the encryption here potentially preclude hardware offload? AIUI that was one of the desired properties?</p>",
+    "topic": "ietf-116",
+    "dtime": 945000,
+    "ptime": 945000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>do the MASQUE, the monster MASQUE</p>",
+    "topic": "ietf-116",
+    "dtime": 1023000,
+    "ptime": 1023000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Oh, and BTW I support adoption</p>",
+    "topic": "ietf-116",
+    "dtime": 1091000,
+    "ptime": 1091000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> I think that as long as we cleave closely to how QUIC does things, it will be possible</p>",
+    "topic": "ietf-116",
+    "dtime": 1126000,
+    "ptime": 1126000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Alex we already need to tell the NIC the CID-CID mapping, so putting a key in there is possible</p>",
+    "topic": "ietf-116",
+    "dtime": 1137000,
+    "ptime": 1137000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span>  Hopefully! But my understanding is that NIC QUIC offload is still very early days. I haven't seen a working implementation yet, my understanding is e.g., Mellanox CX6 TLS offload is bulk-cipher and has a TLS1.3-capable cipher now, but it's not clear if the NIC is flexible enough to work with QUIC packet framing</p>",
+    "topic": "ietf-116",
+    "dtime": 1257000,
+    "ptime": 1257000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>So it might require another generation of hardware?</p>",
+    "topic": "ietf-116",
+    "dtime": 1289000,
+    "ptime": 1289000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm not going to trivialize the effort required to protect QUIC packets, but this should be possible</p>",
+    "topic": "ietf-116",
+    "dtime": 1297000,
+    "ptime": 1297000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Yeah it'll be hard but the closer we are to header protection the happier the hardware will be</p>",
+    "topic": "ietf-116",
+    "dtime": 1325000,
+    "ptime": 1325000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"52\">@Martin Duke</span> I think that you probably need to think of the move to this forwarding path as a change in path (with all that entails)</p>",
+    "topic": "ietf-116",
+    "dtime": 1354000,
+    "ptime": 1354000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Cipher agility will need to be worked out as well, but we can probably copy the cipher from the host connection (that is hard from a specification perspective perhaps, but ...)</p>",
+    "topic": "ietf-116",
+    "dtime": 1407000,
+    "ptime": 1407000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Martin Duke has a good point: whoever has the shortest RTT through the bottleneck gets faster.</p>",
+    "topic": "ietf-116",
+    "dtime": 1425000,
+    "ptime": 1425000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Yeah re: cipher agility we'll need to cross layers, but we'll need to do that to get the key exporter anyway</p>",
+    "topic": "ietf-116",
+    "dtime": 1472000,
+    "ptime": 1472000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>@martin, On the RTT bias point, a long RTT doesn't go slower than a short RTT unless they are competing in the same bottleneck.</p>",
+    "topic": "ietf-116",
+    "dtime": 1475000,
+    "ptime": 1475000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>.. which is exactly the scenario</p>",
+    "topic": "ietf-116",
+    "dtime": 1505000,
+    "ptime": 1505000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>So if I understand correctly, the threat model would be different from traditional masque, even though we use AES-CTR.Because without having nonce generated by the masque server, a active attacker can inject two packets that are identical and figure out to where two identical packets would be sent ... That way, an active attacker can determine the client.</p>",
+    "topic": "ietf-116",
+    "dtime": 1520000,
+    "ptime": 1520000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>@Christian, No. They're usually bottlenecked in each user's access network.</p>",
+    "topic": "ietf-116",
+    "dtime": 1547000,
+    "ptime": 1547000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>If the proxy is the bottleneck?</p>",
+    "topic": "ietf-116",
+    "dtime": 1569000,
+    "ptime": 1569000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Note that single-pass length-preserving encryption like header protection is mutable, with pretty weird results.  For example, an attacker might be able to flip bits in the connection ID and watch for forwarded packets to determine which flow a packet belongs to.</p>",
+    "topic": "ietf-116",
+    "dtime": 1572000,
+    "ptime": 1572000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Regarding encryption, I have an idea for padding also.  But we'll need to steal a bit.  Does anyone have an issue with stealing either the short/long bit or the QUIC bit?</p>",
+    "topic": "ietf-116",
+    "dtime": 1618000,
+    "ptime": 1618000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Basically, the encryption threat model is very subtle, and depends a lot on how active the attacker can be</p>",
+    "topic": "ietf-116",
+    "dtime": 1625000,
+    "ptime": 1625000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>@Christian, One would hope the proxy would not be.the b'neck.</p>",
+    "topic": "ietf-116",
+    "dtime": 1633000,
+    "ptime": 1633000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I would ned to study the draft, but the idea of removing encryption for better perf does give me strange feelings...</p>",
+    "topic": "ietf-116",
+    "dtime": 1642000,
+    "ptime": 1642000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>@Bob, hope, the well known congestion algorithm...</p>",
+    "topic": "ietf-116",
+    "dtime": 1670000,
+    "ptime": 1670000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>if the bottleneck is anywhere between client and proxy, I believe my observation applies</p>",
+    "topic": "ietf-116",
+    "dtime": 1683000,
+    "ptime": 1683000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>By remove encryption, masque becomes essentially a routing protocol :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 1698000,
+    "ptime": 1698000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"52\">@Martin Duke</span> There are _three_ congestion controllers here, so who knows...</p>",
+    "topic": "ietf-116",
+    "dtime": 1708000,
+    "ptime": 1708000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1164\">@Kazuho Oku</span> isn't that already a problem when it comes to connection IDs?</p>",
+    "topic": "ietf-116",
+    "dtime": 1728000,
+    "ptime": 1728000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That is, the bit where the routing can be probed.</p>",
+    "topic": "ietf-116",
+    "dtime": 1776000,
+    "ptime": 1776000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>It's not enough to pin the IP.  You also need to pin the port.</p>",
+    "topic": "ietf-116",
+    "dtime": 1812000,
+    "ptime": 1812000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@MT I'm not sure I follow, how would you do that with traditional masque where the entire UDP packet is encrypted?</p>",
+    "topic": "ietf-116",
+    "dtime": 1834000,
+    "ptime": 1834000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>@Martin, A flow can fill your local link whatever its RTT. Yes, there might be common bottlenecks, so indeed, who knows. But network operators normally design their networks to keep the bottleneck at one \"edge\" node.</p>",
+    "topic": "ietf-116",
+    "dtime": 1843000,
+    "ptime": 1843000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>@Bob the differences are in the dynamics, not in the asymptotes</p>",
+    "topic": "ietf-116",
+    "dtime": 1885000,
+    "ptime": 1885000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>Yes, but then the differences are less marked.</p>",
+    "topic": "ietf-116",
+    "dtime": 1912000,
+    "ptime": 1912000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>capsule!</p>",
+    "topic": "ietf-116",
+    "dtime": 1960000,
+    "ptime": 1960000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Why WebRTC? Why not MoQ?</p>",
+    "topic": "ietf-116",
+    "dtime": 2255000,
+    "ptime": 2255000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Sure MoQ as well. We started with what already exists</p>",
+    "topic": "ietf-116",
+    "dtime": 2307000,
+    "ptime": 2307000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>This basically makes MASQUE act like TURN, which could work for anything, not just ICE.  SO theoretically it might work for MoQ as well.</p>",
+    "topic": "ietf-116",
+    "dtime": 2310000,
+    "ptime": 2310000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>I feel like that got hijacked and the queue was ignored.</p>",
+    "topic": "ietf-116",
+    "dtime": 2377000,
+    "ptime": 2377000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>I think ekr's idea of \"only allow in after you allow out\" is also a good approach.</p>",
+    "topic": "ietf-116",
+    "dtime": 2432000,
+    "ptime": 2432000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Because I have a one-track mind, I noticed that gluing together this and Tommy's draft, you have a different solution to the QUIC-LB problem with a minimal amount of work</p>",
+    "topic": "ietf-116",
+    "dtime": 2433000,
+    "ptime": 2433000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>I feel like we spent too much time concentrating on the STUN server in the example and not enough time thinking about the \"hey, proxy, can I listen on a UDP port\" side of things.</p>",
+    "topic": "ietf-116",
+    "dtime": 2434000,
+    "ptime": 2434000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Martin, how does this solve the QUIC-LB problem?</p>",
+    "topic": "ietf-116",
+    "dtime": 2492000,
+    "ptime": 2492000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"163\">@Alejandro Sedeño</span> Isn't the non-stun side of things the whole part about getting the ip/port from the proxy where it is listening?</p>",
+    "topic": "ietf-116",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>If I understood ekr correctly the ip/port messaging is the easy part, the hard part is figuring out policy?</p>",
+    "topic": "ietf-116",
+    "dtime": 2554000,
+    "ptime": 2554000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>All the \"clients\" listen on the VIP port, and use Tommy's capsules to communicate connection IDs to the \"proxy\" (which is the load balancer)</p>",
+    "topic": "ietf-116",
+    "dtime": 2563000,
+    "ptime": 2563000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>you need some logic to route Initials with no state, but other than that I think it works?</p>",
+    "topic": "ietf-116",
+    "dtime": 2582000,
+    "ptime": 2582000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1, yes, we want to support that!</p>",
+    "topic": "ietf-116",
+    "dtime": 2590000,
+    "ptime": 2590000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"52\">@Martin Duke</span> you're proposing a quic-specific maglev-like-thing?</p>",
+    "topic": "ietf-116",
+    "dtime": 2601000,
+    "ptime": 2601000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Route all IP over QUIC?</p>",
+    "topic": "ietf-116",
+    "dtime": 2617000,
+    "ptime": 2617000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Overlay network for the internet?</p>",
+    "topic": "ietf-116",
+    "dtime": 2625000,
+    "ptime": 2625000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>the year is 2030 and every runs on port 443</p>",
+    "topic": "ietf-116",
+    "dtime": 2646000,
+    "ptime": 2646000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>So I think the real question that needs to be answered before adoption then is whether the protocol will be designed to directly enforce or only support some policy, or if it will just allow everything and leave a note in the draft that a good proxy server should take some steps to set and enforce a reasonable policy.</p>",
+    "topic": "ietf-116",
+    "dtime": 2686000,
+    "ptime": 2686000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"525\">@Eric Orth</span>, yes. I just feel like we spent too much time talking about not needing the STUN server, which sure, but it was just a detail in the specific example. Not needing the STUN server once this capability is in place is great, but we don't need to spend all that time discussing that the example's STUN server is unnecessary.</p>",
+    "topic": "ietf-116",
+    "dtime": 2709000,
+    "ptime": 2709000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"28\">@Lucas Pardue</span> the year is 2023 and that's already true :)</p>",
+    "topic": "ietf-116",
+    "dtime": 2714000,
+    "ptime": 2714000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>connect and connect-udp effectivaly have similar notes</p>",
+    "topic": "ietf-116",
+    "dtime": 2718000,
+    "ptime": 2718000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>The paranoidsfirewals are going to MITM QUIC. For everyone else, the features should be there!</p>",
+    "topic": "ietf-116",
+    "dtime": 2721000,
+    "ptime": 2721000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@chairs the network in-room is somewhat flakey for me, which is making it hard to raise your hand in the tool.  You may want to keep that in mind if people get up without it.</p>",
+    "topic": "ietf-116",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>The funny thing is that the TURN _protocol_ doesn't provide this guarantee at all.  The network administrator just has to take it on faith that anyone who implements TURN actually enforces this policy.</p>",
+    "topic": "ietf-116",
+    "dtime": 2748000,
+    "ptime": 2748000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>@Alex let's chat on this offline</p>",
+    "topic": "ietf-116",
+    "dtime": 2776000,
+    "ptime": 2776000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>SD-WAN over QUIC?</p>",
+    "topic": "ietf-116",
+    "dtime": 2894000,
+    "ptime": 2894000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1164\">Kazuho Oku</span> <a href=\"#narrow/stream/99-masque/topic/ietf-116/near/68196\">said</a>:</p>\n<blockquote>\n<p>@MT I'm not sure I follow, how would you do that with traditional masque where the entire UDP packet is encrypted?</p>\n</blockquote>\n<p>I see where you are getting.  Yes, the tunneled version ensures that the proxy validates an auth tag.  Clearly I was wrong there :)</p>",
+    "topic": "ietf-116",
+    "dtime": 2944000,
+    "ptime": 2944000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I'm seriously confused about why hybrid arq and friends aren't doing this for the cellular network that looks like the driving use case here.</p>",
+    "topic": "ietf-116",
+    "dtime": 3078000,
+    "ptime": 3078000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The amount of ASCII art on slides is too high.</p>",
+    "topic": "ietf-116",
+    "dtime": 3081000,
+    "ptime": 3081000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>would you rather a bitmap of an SVG rendering?</p>",
+    "topic": "ietf-116",
+    "dtime": 3116000,
+    "ptime": 3116000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>until we get vector displays, I'll settle for that</p>",
+    "topic": "ietf-116",
+    "dtime": 3158000,
+    "ptime": 3158000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>You mean until we get vector displays again?</p>",
+    "topic": "ietf-116",
+    "dtime": 3168000,
+    "ptime": 3168000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>If it is set to RTT2/RTT1, you do not need to negotiation the limit, right? Proxy can determine it by itself</p>",
+    "topic": "ietf-116",
+    "dtime": 3182000,
+    "ptime": 3182000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>How about ASCII art of a bitmap of SVG rendering</p>",
+    "topic": "ietf-116",
+    "dtime": 3193000,
+    "ptime": 3193000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"361\">@Hang Shi</span> The proxy doesn't know RTT2 unless the client tells it somehow.</p>",
+    "topic": "ietf-116",
+    "dtime": 3208000,
+    "ptime": 3208000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>We use to have vector displays, back in the 80's. Huge things with large fluorescent tubes...</p>",
+    "topic": "ietf-116",
+    "dtime": 3221000,
+    "ptime": 3221000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Oh. I see</p>",
+    "topic": "ietf-116",
+    "dtime": 3225000,
+    "ptime": 3225000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>(Back in the 70's actually)</p>",
+    "topic": "ietf-116",
+    "dtime": 3235000,
+    "ptime": 3235000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> why would the proxy not know the RTT on the connections it terminates (on either end)?</p>",
+    "topic": "ietf-116",
+    "dtime": 3315000,
+    "ptime": 3315000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> This is CONNECT-UDP, so the proxy does not terminate any connection to the target.</p>",
+    "topic": "ietf-116",
+    "dtime": 3342000,
+    "ptime": 3342000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> for mobile network we are discussing a bit if we could disable HARQ and use a higher layer machismo instead where the client can decide to use it or not in order to reduce delays for unreliable transmission</p>",
+    "topic": "ietf-116",
+    "dtime": 3371000,
+    "ptime": 3371000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, most of those things in the 80s were actually raster displays with a sort-of-vector CRT</p>",
+    "topic": "ietf-116",
+    "dtime": 3381000,
+    "ptime": 3381000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> I guess it can only guess.</p>",
+    "topic": "ietf-116",
+    "dtime": 3383000,
+    "ptime": 3383000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> It can use the spin bit...</p>",
+    "topic": "ietf-116",
+    "dtime": 3397000,
+    "ptime": 3397000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>But of course there used to be actual non-raster displays. Like Evans and Sutherland IIRC</p>",
+    "topic": "ietf-116",
+    "dtime": 3399000,
+    "ptime": 3399000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>the whole monitoring characterisitics of UDP thing is not great for proxy</p>",
+    "topic": "ietf-116",
+    "dtime": 3403000,
+    "ptime": 3403000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>easy to design bad heuristics that upset the members of the EDM</p>",
+    "topic": "ietf-116",
+    "dtime": 3431000,
+    "ptime": 3431000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>If you divide the RTTs by each other, you get a dimensionless value :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3441000,
+    "ptime": 3441000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> my point exactly.  Or it can do the thing that was suggested that didn't need spin</p>",
+    "topic": "ietf-116",
+    "dtime": 3443000,
+    "ptime": 3443000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>I'm having trouble imagining the scenarios where it is desirable for the client to have this kind of control over what seems to me to be a matter between the proxy and the target.  But maybe I just don't understand the relevant usecases since I'm mostly dealing with cases where there is significant offline coordination between client and proxy(ies).</p>",
+    "topic": "ietf-116",
+    "dtime": 3596000,
+    "ptime": 3596000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1 Eric. For what it is worth, I actually implement a selective datagram retransmission mechanism in picoquic a year ago.</p>",
+    "topic": "ietf-116",
+    "dtime": 3717000,
+    "ptime": 3717000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Out of curiosity, <span class=\"user-mention\" data-user-id=\"339\">@Christian Huitema</span> for what purpose?</p>",
+    "topic": "ietf-116",
+    "dtime": 3739000,
+    "ptime": 3739000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>What is most interesting here is that networks do this sort of thing already, based on an understanding of radio performance.  Why that would be replicated at this layer escapes me.  Though the idea that this might be brought under endpoint control is interesting.</p>",
+    "topic": "ietf-116",
+    "dtime": 3747000,
+    "ptime": 3747000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There is an alternative: send the IP packet in a unidir stream by itself -- reliability, no head-of-queue issue.</p>",
+    "topic": "ietf-116",
+    "dtime": 3822000,
+    "ptime": 3822000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>It's a very tricky 3 (4?) party problem, between the client, mobile network, proxy, and target, each of whom has different relevant knowledge.  I don't think \"retransmission\" is the right hammer for this very wiggly problem.</p>",
+    "topic": "ietf-116",
+    "dtime": 3827000,
+    "ptime": 3827000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Also let's not forget about the possibility of implementing an accelerator that works great because it's stealing bandwidth from other flows.</p>",
+    "topic": "ietf-116",
+    "dtime": 3992000,
+    "ptime": 3992000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>@Ted, a para from the L4S architecture [RFC9330]:A combination of Recent Acknowledgement (RACK) [RFC8985], L4S, and link retransmission without resequencing could repair transmission errors without the head of line blocking delay usually associated with link-layer retransmission [UnorderedLTE] [RFC9331]</p>",
+    "topic": "ietf-116",
+    "dtime": 4175000,
+    "ptime": 4175000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span>  we were actually more interested in the case where we use ARQ but without re-ordering but we also discussed to disable ARQ completely because there is actually another reliability layer underneath, so even without ARQ the loss is not that high</p>",
+    "topic": "ietf-116",
+    "dtime": 4327000,
+    "ptime": 4327000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Bob are you suggesting a similar mechanism at this layer?  Or pointing out that that RLP is a data reference (which is certainly true, and I recognize that things have moved on).</p>",
+    "topic": "ietf-116",
+    "dtime": 4359000,
+    "ptime": 4359000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>Sry, don't undewrstand 'data reference question?</p>",
+    "topic": "ietf-116",
+    "dtime": 4407000,
+    "ptime": 4407000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>Can you rephrase?</p>",
+    "topic": "ietf-116",
+    "dtime": 4452000,
+    "ptime": 4452000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Mirja  disabling ARQ because you have an existing mechanism makes some sense, when the UE is aware of it, but that's essentially what I was pointing out--if this is intended to create increased reliability, it is doing so in the presence of an existing reliability layer (to wit HARQ and friends)</p>",
+    "topic": "ietf-116",
+    "dtime": 4459000,
+    "ptime": 4459000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Can this draft fix the IETF wifi problems?</p>",
+    "topic": "ietf-116",
+    "dtime": 4461000,
+    "ptime": 4461000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Can this draft keep me connected to MeetEcho?</p>",
+    "topic": "ietf-116",
+    "dtime": 4490000,
+    "ptime": 4490000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Nothing can fix the IETF WiFi problems</p>",
+    "topic": "ietf-116",
+    "dtime": 4490000,
+    "ptime": 4490000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Bob I just meant that RLP is an old CDMA term from 1990 for this basic idea, and there are much newer terms (and variants).</p>",
+    "topic": "ietf-116",
+    "dtime": 4505000,
+    "ptime": 4505000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>I guess my main point is to encourage local repair over any lossy part of a network, but not resequencing - leave that right until as late as poss in the receiver. And the widespread deployment of RACK now allows this to happen.</p>",
+    "topic": "ietf-116",
+    "dtime": 4654000,
+    "ptime": 4654000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>where receiver = app endpoint</p>",
+    "topic": "ietf-116",
+    "dtime": 4697000,
+    "ptime": 4697000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Bob I see, thanks for the clarification.</p>",
+    "topic": "ietf-116",
+    "dtime": 4709000,
+    "ptime": 4709000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>FEC by duplication is a tried and true method</p>",
+    "topic": "ietf-116",
+    "dtime": 4738000,
+    "ptime": 4738000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>It's also very inefficient</p>",
+    "topic": "ietf-116",
+    "dtime": 4776000,
+    "ptime": 4776000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>Yup</p>",
+    "topic": "ietf-116",
+    "dtime": 4780000,
+    "ptime": 4780000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>fwiw I agree with everything Marten said. Doing this for end to end QUIC in particular would be simply harmful to the endpoints' ability to understand and adapt to network conditions.</p>",
+    "topic": "ietf-116",
+    "dtime": 4848000,
+    "ptime": 4848000
+  },
+  {
+    "author": "Bob Briscoe",
+    "text": "<p>Sending a dup is really good for short flows, initial packets, etc. Local loss repair complements it for all the other bulk of packets.</p>",
+    "topic": "ietf-116",
+    "dtime": 4854000,
+    "ptime": 4854000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> the idea is that the same datagram is sent on two paths using different QUIC packets.</p>",
+    "topic": "ietf-116",
+    "dtime": 4855000,
+    "ptime": 4855000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> The HTTP Datagram? The QUIC Datagram? The UDP payload datagram?</p>",
+    "topic": "ietf-116",
+    "dtime": 4908000,
+    "ptime": 4908000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Could this be done with connect-udp where you send a UDP with multiple destination addresses?</p>",
+    "topic": "ietf-116",
+    "dtime": 4909000,
+    "ptime": 4909000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> there are two UDP datagrams on different paths containing different QUIC packets that contain different QUIC DATAGRAM frames that contain the same tunneled data.</p>",
+    "topic": "ietf-116",
+    "dtime": 4972000,
+    "ptime": 4972000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>why does the draft need an ever increasing sequence number?</p>",
+    "topic": "ietf-116",
+    "dtime": 5000000,
+    "ptime": 5000000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There are a bunch of differences between MP_QUIC and MP_TCP...</p>",
+    "topic": "ietf-116",
+    "dtime": 5011000,
+    "ptime": 5011000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"28\">@Lucas Pardue</span> I think that the requirement is to express both uniqueness and sequencing</p>",
+    "topic": "ietf-116",
+    "dtime": 5024000,
+    "ptime": 5024000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>@Christian Huitema, you were in the queue before it closed if you want to rejoin</p>",
+    "topic": "ietf-116",
+    "dtime": 5048000,
+    "ptime": 5048000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>some applications only need the uniqueness, but others care about sequencing (the non-modern stack that isn't doing QUIC)</p>",
+    "topic": "ietf-116",
+    "dtime": 5056000,
+    "ptime": 5056000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I'm pretty sure QUIC Datagrams still have unique IVs that identify them, and at least in principle could be used for deduplication by the receiver.</p>",
+    "topic": "ietf-116",
+    "dtime": 5067000,
+    "ptime": 5067000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>but seems like you could play similar packet number tircks here</p>",
+    "topic": "ietf-116",
+    "dtime": 5074000,
+    "ptime": 5074000
+  },
+  {
+    "author": "Giridhar Mandyam",
+    "text": "<p>Re: disabling HARQ.  Approx. 20 years ago when we introduced HARQ into cellular, the concern was core network latency due to rtx.  HARQ was all contained within Physical Layer, so CN latency did not come into play.  Maybe this is less of an issue with 5G CN, but benchmarking over real networks would be desirable.  Ref: <a href=\"https://www.researchgate.net/publication/2389619_Fast_ARQ_in_high_speed_downlink_packet_access_for_WCDMA_systems\">https://www.researchgate.net/publication/2389619_Fast_ARQ_in_high_speed_downlink_packet_access_for_WCDMA_systems</a></p>",
+    "topic": "ietf-116",
+    "dtime": 5098000,
+    "ptime": 5098000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> not an IV, but the encryption might be distinguishing, yes</p>",
+    "topic": "ietf-116",
+    "dtime": 5102000,
+    "ptime": 5102000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, the datagrams might not be 1:1 with packets, no?</p>",
+    "topic": "ietf-116",
+    "dtime": 5144000,
+    "ptime": 5144000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> that too, yes</p>",
+    "topic": "ietf-116",
+    "dtime": 5154000,
+    "ptime": 5154000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>This is <span class=\"user-mention\" data-user-id=\"28\">@Lucas Pardue</span>'s natural time zone.</p>",
+    "topic": "ietf-116",
+    "dtime": 5214000,
+    "ptime": 5214000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Sorry Ben, you're next</p>",
+    "topic": "ietf-116",
+    "dtime": 5823000,
+    "ptime": 5823000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I feel like we just stripped a ton of complexity out of the HTTP/2 priority scheme, and now we're putting it back in</p>",
+    "topic": "ietf-116",
+    "dtime": 5956000,
+    "ptime": 5956000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>the minimum solution here would be that the sender knows which stream the datagram belongs to, and can use the stream-level priority</p>",
+    "topic": "ietf-116",
+    "dtime": 6012000,
+    "ptime": 6012000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>This is very simiar to the discussions happening in MoQ!</p>",
+    "topic": "ietf-116",
+    "dtime": 6019000,
+    "ptime": 6019000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"52\">Martin Duke</span> <a href=\"#narrow/stream/99-masque/topic/ietf-116/near/68557\">said</a>:</p>\n<blockquote>\n<p>I feel like we just stripped a ton of complexity out of the HTTP/2 priority scheme, and now we're putting it back in</p>\n</blockquote>\n<p>That complexity has to go somewhere. Otherwise we might be able to stop working on these protocols</p>",
+    "topic": "ietf-116",
+    "dtime": 6142000,
+    "ptime": 6142000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Our thoughts back when we were working on 9297 was that we should wait until we have deployment experience with priorities before we publish it, to avoid a repeat of h2 priorities</p>",
+    "topic": "ietf-116",
+    "dtime": 6144000,
+    "ptime": 6144000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> I agree, can we get some measurements here.</p>",
+    "topic": "ietf-116",
+    "dtime": 6162000,
+    "ptime": 6162000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>+1, I'd like to see measurement before we decide to move forward on priorities</p>",
+    "topic": "ietf-116",
+    "dtime": 6204000,
+    "ptime": 6204000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 6236000,
+    "ptime": 6236000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>(no hats)</p>",
+    "topic": "ietf-116",
+    "dtime": 6241000,
+    "ptime": 6241000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"52\">Martin Duke</span> <a href=\"#narrow/stream/99-masque/topic/ietf-116/near/68565\">said</a>:</p>\n<blockquote>\n<p>the minimum solution here would be that the sender knows which stream the datagram belongs to, and can use the stream-level priority</p>\n</blockquote>\n<p>I think this is the minimum thing we ought to say.  This would make the datagram and datagram capsule cases work more or less the same.</p>",
+    "topic": "ietf-116",
+    "dtime": 6290000,
+    "ptime": 6290000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>\"Split dns\" is what I usually think of as \"split horizon dns\"?</p>",
+    "topic": "ietf-116",
+    "dtime": 6399000,
+    "ptime": 6399000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>+1 to datagram belongs to stream</p>",
+    "topic": "ietf-116",
+    "dtime": 6434000,
+    "ptime": 6434000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I would call this kind of Split DNS the \"Intranet Access Proxy\" arrangement.</p>",
+    "topic": "ietf-116",
+    "dtime": 6439000,
+    "ptime": 6439000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Please let us not do \"PAC scripts\"</p>",
+    "topic": "ietf-116",
+    "dtime": 6455000,
+    "ptime": 6455000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>+1 to No PAC</p>",
+    "topic": "ietf-116",
+    "dtime": 6523000,
+    "ptime": 6523000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>I'm wondering how this relates to Provisioning Domains (PvDs), at least for a subset of the issues.</p>",
+    "topic": "ietf-116",
+    "dtime": 6528000,
+    "ptime": 6528000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>So inheriting the stream's priority is a good default. That's the default in <a href=\"https://datatracker.ietf.org/doc/html/draft-pardue-masque-dgram-priority\">https://datatracker.ietf.org/doc/html/draft-pardue-masque-dgram-priority</a>. But you need to consider the cases, like WebTransport, where a single HTTP stream is used to manage multiple flows underneath it.</p>",
+    "topic": "ietf-116",
+    "dtime": 6539000,
+    "ptime": 6539000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>So you want more fine grained priority inside the same stream</p>",
+    "topic": "ietf-116",
+    "dtime": 6581000,
+    "ptime": 6581000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>or where multiple contexts are used (as an extension point) where certain contexts are more important than others</p>",
+    "topic": "ietf-116",
+    "dtime": 6584000,
+    "ptime": 6584000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>they are all different streams or logical datagram flows Hang</p>",
+    "topic": "ietf-116",
+    "dtime": 6615000,
+    "ptime": 6615000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Right, like a packet set</p>",
+    "topic": "ietf-116",
+    "dtime": 6691000,
+    "ptime": 6691000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The problem with PAC is not that it is a script (though that is a problem) it is that we had clients allow an arbitrary network (attacker|entity) dictate aspects of behaviour in a way that is not appropriate</p>",
+    "topic": "ietf-116",
+    "dtime": 6781000,
+    "ptime": 6781000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@MT: Using a PAC script over HTTPS makes sense, WPAD does not</p>",
+    "topic": "ietf-116",
+    "dtime": 6878000,
+    "ptime": 6878000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>In that as a user you have the agency to pick your PAC URL, whereas WPAD does not involve user agency</p>",
+    "topic": "ietf-116",
+    "dtime": 6900000,
+    "ptime": 6900000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Alex from memory Apple's corporate VPN would say \"send me *.apple.com and 17.0.0.0/8 but do everything else outside of the VPN\"</p>",
+    "topic": "ietf-116",
+    "dtime": 6954000,
+    "ptime": 6954000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> I find this surprising but good data :)</p>",
+    "topic": "ietf-116",
+    "dtime": 7030000,
+    "ptime": 7030000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>There is value in saying that the proxy would <em>accept</em> some addresses (which you might want to intersect with what you are willing to send it).</p>",
+    "topic": "ietf-116",
+    "dtime": 7093000,
+    "ptime": 7093000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> yes, I agree with that</p>",
+    "topic": "ietf-116",
+    "dtime": 7171000,
+    "ptime": 7171000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm just saying that that doesn't let the proxy sink all this data</p>",
+    "topic": "ietf-116",
+    "dtime": 7188000,
+    "ptime": 7188000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-MASQUE-20230329-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/masque"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-MASQUE-20230329-0030"
+		}		
+	]
+}

@@ -1,0 +1,546 @@
+
+{
+	"title": "IETF112-COSE-20211110-1430",
+	"filename": "IETF112-COSE-20211110-1430",
+	"start": 0,
+	"end": 3979000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "Bm6PKNn0Hoo",
+    "start": 0,
+    "end": "3979000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 210000,
+    "ptime": 210000,
+    "author": "Göran Selander",
+    "text": "I can help out when I not present<br/>"
+  },
+  {
+    "dtime": 245000,
+    "ptime": 245000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "I will try to cover for Göran when he is talking<br/>"
+  },
+  {
+    "dtime": 262000,
+    "ptime": 262000,
+    "author": "Chris Lemmons",
+    "text": "I can voice jabber.<br/>"
+  },
+  {
+    "dtime": 556000,
+    "ptime": 556000,
+    "author": "Jonathan Hammell",
+    "text": "Is the RFC Editor question in the first bullet on the hash-algs draft or x509 draft?&nbsp;&nbsp;The issue seems to be posted under the X509 GitHub project.<br/>"
+  },
+  {
+    "dtime": 628000,
+    "ptime": 628000,
+    "author": "Göran Selander",
+    "text": "<a href=\"https://github.com/cose-wg/cose-rfc8152bis/pull/34\" rel=\"nofollow\">https://github.com/cose-wg/cose-rfc8152bis/pull/34</a><br/>"
+  },
+  {
+    "dtime": 727000,
+    "ptime": 727000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Jonathan: the X509 repo holds both the X509 draft and the hash-algs<br/>draft<br/>"
+  },
+  {
+    "dtime": 755000,
+    "ptime": 755000,
+    "author": "Jonathan Hammell",
+    "text": "Ben: Ah, thanks!<br/>"
+  },
+  {
+    "dtime": 793000,
+    "ptime": 793000,
+    "author": "Bob Moskowitz",
+    "text": "I think you can make such a change if there is some version value you change as well.<br/>"
+  },
+  {
+    "dtime": 839000,
+    "ptime": 839000,
+    "author": "Bob Moskowitz",
+    "text": "This has happened in the past where running experience has revealed the need of a change.&nbsp;&nbsp;But to avoid breaking, change a version.<br/>"
+  },
+  {
+    "dtime": 869000,
+    "ptime": 869000,
+    "author": "Justin Richer",
+    "text": "id like to hear from the ad on this<br/>"
+  },
+  {
+    "dtime": 881000,
+    "ptime": 881000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "conveniently, the AD is in the mic queue<br/>"
+  },
+  {
+    "dtime": 898000,
+    "ptime": 898000,
+    "author": "Justin Richer",
+    "text": "handy, that :)<br/>"
+  },
+  {
+    "dtime": 1038000,
+    "ptime": 1038000,
+    "author": "dkg",
+    "text": "The QUIC WG has used the idea of \"invariants\" to try to frame and scope the risks of this kind of change<br/>"
+  },
+  {
+    "dtime": 1040000,
+    "ptime": 1040000,
+    "author": "Bob Moskowitz",
+    "text": "Mike, can you mute?<br/>"
+  },
+  {
+    "dtime": 1089000,
+    "ptime": 1089000,
+    "author": "dkg",
+    "text": "that is: \"kid is a string\" might be an invariant<br/>"
+  },
+  {
+    "dtime": 1130000,
+    "ptime": 1130000,
+    "author": "dkg",
+    "text": "version/feature flag only works if existing implementations check that version/feature flag *before* encountering the modified wire element<br/>"
+  },
+  {
+    "dtime": 1160000,
+    "ptime": 1160000,
+    "author": "Bob Moskowitz",
+    "text": "As they should check ver.<br/>"
+  },
+  {
+    "dtime": 1247000,
+    "ptime": 1247000,
+    "author": "dkg",
+    "text": "for store-and-forward stuff (like COSE might be used) you might also need some way that the reciever can signal to the sender that they support the new version<br/>"
+  },
+  {
+    "dtime": 1310000,
+    "ptime": 1310000,
+    "author": "Ira McDonald",
+    "text": "agree w/ Carsten about CBOR clarity allowing adding integer cleanly<br/>"
+  },
+  {
+    "dtime": 1312000,
+    "ptime": 1312000,
+    "author": "Jonathan Hammell",
+    "text": "Adding version flags to COSE headers would be another breaking change.<br/>"
+  },
+  {
+    "dtime": 1332000,
+    "ptime": 1332000,
+    "author": "John Preuß Mattsson",
+    "text": "CBOR is really nice :)<br/>"
+  },
+  {
+    "dtime": 1334000,
+    "ptime": 1334000,
+    "author": "Bob Moskowitz",
+    "text": "Always has been a problem with the latest in MIME not being supported by client Z.<br/>"
+  },
+  {
+    "dtime": 1339000,
+    "ptime": 1339000,
+    "author": "cabo",
+    "text": "Dog: What did you want to say?<br/>"
+  },
+  {
+    "dtime": 1349000,
+    "ptime": 1349000,
+    "author": "cabo",
+    "text": "Aaargh.&nbsp;&nbsp;@dkg <br/>"
+  },
+  {
+    "dtime": 1349000,
+    "ptime": 1349000,
+    "author": "dkg",
+    "text": "ha ha \"Dog\"<br/>"
+  },
+  {
+    "dtime": 1356000,
+    "ptime": 1356000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Wow, autocorrect failed badly there<br/>"
+  },
+  {
+    "dtime": 1365000,
+    "ptime": 1365000,
+    "author": "dkg",
+    "text": "not the first time :)<br/>"
+  },
+  {
+    "dtime": 1394000,
+    "ptime": 1394000,
+    "author": "dkg",
+    "text": "i wanted to ask whether there was any expected signalling for COSE where the sender could *know* that the recipient could handle these new versions<br/>"
+  },
+  {
+    "dtime": 1409000,
+    "ptime": 1409000,
+    "author": "dkg",
+    "text": "(i'm kind of a tourist here -- i don't really understand all the use cases for COSE)<br/>"
+  },
+  {
+    "dtime": 1413000,
+    "ptime": 1413000,
+    "author": "cabo",
+    "text": "That depends on the protocol within you use COSE.<br/>"
+  },
+  {
+    "dtime": 1424000,
+    "ptime": 1424000,
+    "author": "cabo",
+    "text": "Within which.<br/>"
+  },
+  {
+    "dtime": 1432000,
+    "ptime": 1432000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Yeah, COSE can be used in a lot of places, and we probably don't even<br/>know about all of them<br/>"
+  },
+  {
+    "dtime": 1443000,
+    "ptime": 1443000,
+    "author": "cabo",
+    "text": "COSE just provides the formatting for the objects.<br/>"
+  },
+  {
+    "dtime": 1462000,
+    "ptime": 1462000,
+    "author": "dkg",
+    "text": "so there is no generic COSE capability signalling mechanism that a given use case could adopt?<br/>"
+  },
+  {
+    "dtime": 1470000,
+    "ptime": 1470000,
+    "author": "cabo",
+    "text": "If the protocol makes use of KID, it probably already says what that can be.<br/>"
+  },
+  {
+    "dtime": 1505000,
+    "ptime": 1505000,
+    "author": "cabo",
+    "text": "Sender and receiver of a COSE message may not be in a position to talk to each other<br/>"
+  },
+  {
+    "dtime": 1530000,
+    "ptime": 1530000,
+    "author": "cabo",
+    "text": "This is a bit like asking how I negotiate what MIME types I can use in mail.<br/>"
+  },
+  {
+    "dtime": 1542000,
+    "ptime": 1542000,
+    "author": "dkg",
+    "text": "right, i'm familiar with that kind of use case from OpenPGP work too.&nbsp;&nbsp;\"capability signalling is left as an exercise to the reader\" ☹<br/>"
+  },
+  {
+    "dtime": 1556000,
+    "ptime": 1556000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "(I am waiting for Brian Sipos to jump in and talk about how in DTN you<br/>may not have a reverse path at all.)<br/>"
+  },
+  {
+    "dtime": 1563000,
+    "ptime": 1563000,
+    "author": "dkg",
+    "text": "not a great recipe for interoperability<br/>"
+  },
+  {
+    "dtime": 1575000,
+    "ptime": 1575000,
+    "author": "cabo",
+    "text": "That's why the (current) DTN uses CBOR :-)<br/>"
+  },
+  {
+    "dtime": 1602000,
+    "ptime": 1602000,
+    "author": "dkg",
+    "text": "but what i'm hearing is that if there even is a reverse path, there's no clear way to signal capabilities on it<br/>"
+  },
+  {
+    "dtime": 1665000,
+    "ptime": 1665000,
+    "author": "cabo",
+    "text": "To a large extent, those capabilities will center around the protocol that uses COSE.<br/>"
+  },
+  {
+    "dtime": 1685000,
+    "ptime": 1685000,
+    "author": "cabo",
+    "text": "Having some modules that could be used by those protocols would be conceivable.<br/>"
+  },
+  {
+    "dtime": 1693000,
+    "ptime": 1693000,
+    "author": "cabo",
+    "text": "But nobody has asked for those...<br/>"
+  },
+  {
+    "dtime": 1835000,
+    "ptime": 1835000,
+    "author": "dkg",
+    "text": "i've added a comment to <a href=\"https://github.com/cose-wg/cose-rfc8152bis/pull/34,\" rel=\"nofollow\">https://github.com/cose-wg/cose-rfc8152bis/pull/34,</a> sorry for overloading the chat here.<br/>"
+  },
+  {
+    "dtime": 1855000,
+    "ptime": 1855000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Thanks dkg!<br/>"
+  },
+  {
+    "dtime": 2251000,
+    "ptime": 2251000,
+    "author": "dkg",
+    "text": "none of these revocation mechanisms really work robustly anyway (and other WGs are trying to define short-lived certs that don't use revocation at all).&nbsp;&nbsp;i'd support punting revocation to existing CRL documentation, while also starting work on a separate CRL draft.<br/>"
+  },
+  {
+    "dtime": 2263000,
+    "ptime": 2263000,
+    "author": "dkg",
+    "text": "(i prefer CRL over OCSP because of the privacy concerns with OCSP)<br/>"
+  },
+  {
+    "dtime": 2335000,
+    "ptime": 2335000,
+    "author": "Jonathan Hammell",
+    "text": "+1 on Russ's comment<br/>"
+  },
+  {
+    "dtime": 2461000,
+    "ptime": 2461000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "RFC 6919 MUST (BUT WE KNOW YOU WON'T), yes<br/>"
+  },
+  {
+    "dtime": 2483000,
+    "ptime": 2483000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "And while I was typing that, I missed whether Carsten was supporting<br/>separate documents.&nbsp;&nbsp;Sigh.<br/>"
+  },
+  {
+    "dtime": 2483000,
+    "ptime": 2483000,
+    "author": "Bob Moskowitz",
+    "text": "But CRLs cost.&nbsp;&nbsp;Thus OCSP alternative.<br/>"
+  },
+  {
+    "dtime": 2532000,
+    "ptime": 2532000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "I think it would probably be premature to pull in CRL-lite as the<br/>mandatory option in the core C509 spec.<br/>"
+  },
+  {
+    "dtime": 2550000,
+    "ptime": 2550000,
+    "author": "dkg",
+    "text": "CRLLitte: <a href=\"https://blog.mozilla.org/security/2020/01/21/crlite-part-3-speeding-up-secure-browsing/\" rel=\"nofollow\">https://blog.mozilla.org/security/2020/01/21/crlite-part-3-speeding-up-secure-browsing/</a><br/>"
+  },
+  {
+    "dtime": 2563000,
+    "ptime": 2563000,
+    "author": "Bob Moskowitz",
+    "text": "Even delta CRLs are evil in constrained enviroments so you end up looking things up remotely<br/>"
+  },
+  {
+    "dtime": 2570000,
+    "ptime": 2570000,
+    "author": "dkg",
+    "text": "Bob, are you claiming that OCSP doesn't cost?<br/>"
+  },
+  {
+    "dtime": 2614000,
+    "ptime": 2614000,
+    "author": "Bob Moskowitz",
+    "text": "Less than CRLs.&nbsp;&nbsp;Nothing is free.&nbsp;&nbsp;Not even vacuum <br/>"
+  },
+  {
+    "dtime": 2668000,
+    "ptime": 2668000,
+    "author": "Bob Moskowitz",
+    "text": "At least in the work I did with CRLs and OSCP.&nbsp;&nbsp;Part of the reason for delta CRLs.<br/>"
+  },
+  {
+    "dtime": 2870000,
+    "ptime": 2870000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Hmm, that was a longer inter-slide delay than I remember, but I'm<br/>failing to find where the actual image size is, from the chrome<br/>inspector<br/>"
+  },
+  {
+    "dtime": 2934000,
+    "ptime": 2934000,
+    "author": "cabo",
+    "text": "56207 bytes<br/>"
+  },
+  {
+    "dtime": 2946000,
+    "ptime": 2946000,
+    "author": "cabo",
+    "text": "1067x600 JPEG<br/>"
+  },
+  {
+    "dtime": 2949000,
+    "ptime": 2949000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "thanks.&nbsp;&nbsp;So, not actually huge<br/>"
+  },
+  {
+    "dtime": 3028000,
+    "ptime": 3028000,
+    "author": "dkg",
+    "text": "In OpenPGP people made the argument for years that if you want integrity you must sign inside encryption.&nbsp;&nbsp;that hasn't aged well.<br/>"
+  },
+  {
+    "dtime": 3042000,
+    "ptime": 3042000,
+    "author": "dkg",
+    "text": "please use the authenticated mode<br/>"
+  },
+  {
+    "dtime": 3143000,
+    "ptime": 3143000,
+    "author": "dkg",
+    "text": "it is not a great additional cost<br/>"
+  },
+  {
+    "dtime": 3204000,
+    "ptime": 3204000,
+    "author": "Hannes Tschofenig",
+    "text": "Joined very late; missed most of the discussion. Will look at the minutes...<br/>"
+  },
+  {
+    "dtime": 3249000,
+    "ptime": 3249000,
+    "author": "dkg",
+    "text": "Hannes: you've already been name-checked once (positively) :)&nbsp;&nbsp; -- for your work on arm HPKE<br/>"
+  },
+  {
+    "dtime": 3255000,
+    "ptime": 3255000,
+    "author": "cabo",
+    "text": "Yes, please<br/>"
+  },
+  {
+    "dtime": 3278000,
+    "ptime": 3278000,
+    "author": "Dan Harkins",
+    "text": "would it not be more efficient to just add AesKeyWrap to HPKE and have the firmware be the \"plaintext\" instead of having HPKE encrypt a KEK (using a traditional AEAD) and then decrypt the KEK to use with AesKeyWrap?<br/>"
+  },
+  {
+    "dtime": 3294000,
+    "ptime": 3294000,
+    "author": "cabo",
+    "text": "(This would have been the place to use the show-of-hands tool.)<br/>"
+  },
+  {
+    "dtime": 3304000,
+    "ptime": 3304000,
+    "author": "Hannes Tschofenig",
+    "text": "What was the outcome?<br/>"
+  },
+  {
+    "dtime": 3327000,
+    "ptime": 3327000,
+    "author": "John Preuß Mattsson",
+    "text": "Postitive. Call for adoption on the list I think<br/>"
+  },
+  {
+    "dtime": 3338000,
+    "ptime": 3338000,
+    "author": "Matthew Miller",
+    "text": "Hannes: call for adoption makes sense, will come to the list soon<br/>"
+  },
+  {
+    "dtime": 3353000,
+    "ptime": 3353000,
+    "author": "Hannes Tschofenig",
+    "text": "Thanks.<br/>"
+  },
+  {
+    "dtime": 3366000,
+    "ptime": 3366000,
+    "author": "Hannes Tschofenig",
+    "text": "The audio isn't great.<br/>"
+  },
+  {
+    "dtime": 3573000,
+    "ptime": 3573000,
+    "author": "Craig.W.Pearce",
+    "text": "Getting 18kbps audio here and clear<br/>"
+  },
+  {
+    "dtime": 3574000,
+    "ptime": 3574000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "This feels like a dumb question, but: why does anyone use<br/>ECDSA-not-star when ECDSA* is faster?<br/>"
+  },
+  {
+    "dtime": 3578000,
+    "ptime": 3578000,
+    "author": "Ivaylo Petrov",
+    "text": "it's the same for me - from time to time it becomes slow and barely comprehensible<br/>"
+  },
+  {
+    "dtime": 3599000,
+    "ptime": 3599000,
+    "author": "cabo",
+    "text": "Audio great for me<br/>"
+  },
+  {
+    "dtime": 3602000,
+    "ptime": 3602000,
+    "author": "John Preuß Mattsson",
+    "text": "My audio is good<br/>"
+  },
+  {
+    "dtime": 3627000,
+    "ptime": 3627000,
+    "author": "Ivaylo Petrov",
+    "text": "switching to the participants tab makes it bad for me<br/>"
+  },
+  {
+    "dtime": 3632000,
+    "ptime": 3632000,
+    "author": "Ira McDonald",
+    "text": "My audio has also been good throughout<br/>"
+  },
+  {
+    "dtime": 3842000,
+    "ptime": 3842000,
+    "author": "Hannes Tschofenig",
+    "text": "Sounds pretty interesting<br/>"
+  },
+  {
+    "dtime": 3862000,
+    "ptime": 3862000,
+    "author": "Ira McDonald",
+    "text": "show of hands - yes!<br/>"
+  },
+  {
+    "dtime": 3937000,
+    "ptime": 3937000,
+    "author": "John Preuß Mattsson",
+    "text": "I think this sounds very&nbsp;&nbsp;interesting. The way to speed this up is to submit it to CFRG asap I think<br/>"
+  },
+  {
+    "dtime": 3973000,
+    "ptime": 3973000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "John: interestingly enough, that was also the conclusion when a<br/>similar proposal was made at SECDISPATCH at IETF 111.<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-COSE-20211110-1430"
+		}
+	]
+}

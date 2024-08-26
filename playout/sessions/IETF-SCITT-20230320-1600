@@ -1,0 +1,301 @@
+
+{
+	"title": "IETF-SCITT-20230320-1600",
+	"filename": "IETF-SCITT-20230320-1600",
+	"start": 0,
+	"end": 3802000,
+	"start_datetime": "2023-03-20T15:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "-LcZHg5sdEk",
+    "start": 0,
+    "end": "3802000"
+  }
+],
+	"messages": [
+  {
+    "author": "Dick Brooks",
+    "text": "<p>Lots of interesting stuff happening today in the US: <a href=\"https://energycentral.com/c/ec/harmonization-cybersecurity-across-critical-infrastructure-moving-fast\">https://energycentral.com/c/ec/harmonization-cybersecurity-across-critical-infrastructure-moving-fast</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 63000,
+    "ptime": 63000
+  },
+  {
+    "author": "Kay Williams",
+    "text": "<p>Hello everyone!</p>",
+    "topic": "ietf-interim",
+    "dtime": 145000,
+    "ptime": 145000
+  },
+  {
+    "author": "Dick Brooks",
+    "text": "<p>Hi Kay</p>",
+    "topic": "ietf-interim",
+    "dtime": 158000,
+    "ptime": 158000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p><a href=\"https://datatracker.ietf.org/meeting/116/materials/agenda-116-scitt-00\">https://datatracker.ietf.org/meeting/116/materials/agenda-116-scitt-00</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 249000,
+    "ptime": 249000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Do we need to book a SCITT hackathon project for the week-end?</p>",
+    "topic": "ietf-interim",
+    "dtime": 670000,
+    "ptime": 670000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>I am also wondering how to follow up on the slide deck from IETF115, notably the issues summarizing the hackathon in London.</p>",
+    "topic": "ietf-interim",
+    "dtime": 759000,
+    "ptime": 759000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Followup on the London Hackathon topics is a good portion for updates.</p>",
+    "topic": "ietf-interim",
+    "dtime": 921000,
+    "ptime": 921000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Question on the architecture perhaps ripe for discussion at IETF116: does the architecture scale to allow consumers to gather all the evidence they need to address the main use cases?</p>",
+    "topic": "ietf-interim",
+    "dtime": 936000,
+    "ptime": 936000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Perhaps my scaling question is good for a hackathon</p>",
+    "topic": "ietf-interim",
+    "dtime": 1017000,
+    "ptime": 1017000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Neal: yes!</p>",
+    "topic": "ietf-interim",
+    "dtime": 1067000,
+    "ptime": 1067000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Neal, can you define \"scale\" in this topic?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1099000,
+    "ptime": 1099000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>If software developers around the world are constantly updating supply chain info and consuming it, providing evidence for billions of end-users who use it frequently to query a variety of bits of evidence relevant to whether a particular artifact meets their specific requirements, that could be a lot of traffic</p>",
+    "topic": "ietf-interim",
+    "dtime": 1215000,
+    "ptime": 1215000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>And of course IETF is renowned for having expertise in scaling protocols and systems</p>",
+    "topic": "ietf-interim",
+    "dtime": 1285000,
+    "ptime": 1285000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Gotcha. I think you're asking if a single instance would scale to the worlds demands?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1307000,
+    "ptime": 1307000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>I'm focused on a consumer meeting their own needs. Via one or many instances.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1339000,
+    "ptime": 1339000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>So it really melds the use case and architecture discussions</p>",
+    "topic": "ietf-interim",
+    "dtime": 1360000,
+    "ptime": 1360000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>SCITT is intended to be run my multiple entities. Software Vendors will host their own SCITT instances, for instance Microsoft will host a SCITT instance for its software.<br>\nOther vendors will host theirs.<br>\nThere will likely be other entities, from security vendors or industry verticals that will host statement around various software products</p>",
+    "topic": "ietf-interim",
+    "dtime": 1362000,
+    "ptime": 1362000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>RFC9334 (rats architecture) states in Section 1: \"Amongst other things, this document is about trust and trustworthiness. Trust is a choice one makes about another system. Trustworthiness is a quality about the other system that can be used in making one's decision to trust it or not. This is a subtle difference\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1436000,
+    "ptime": 1436000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>+1 to append-only log</p>",
+    "topic": "ietf-interim",
+    "dtime": 1453000,
+    "ptime": 1453000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Consumers (not necessarily end users), but consumers of SCITT will query the SCITT Transparency Services related to the software they care about. <br>\nThey could then query other SCITT Transparency Services for statements related to their software from entities they trust.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1467000,
+    "ptime": 1467000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Neal: the hope is to scale up the updates by registering only a summary of the update info, e.g. hashed commitments to large SBOMs. For the lookups, we can replicate the registry and still issue recent receipts, so it is less a bottleneck (although it can still be quite costly to scale up). But I'd be happy to go through the details.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1535000,
+    "ptime": 1535000
+  },
+  {
+    "author": "Dick Brooks",
+    "text": "<p>I agree S/MIME is broadly adopted across the Energy industry for data interchange</p>",
+    "topic": "ietf-interim",
+    "dtime": 1781000,
+    "ptime": 1781000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>Charlie, my push is to ensure we have a flexible format that allows movement on identity.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2188000,
+    "ptime": 2188000
+  },
+  {
+    "author": "Charles Hart",
+    "text": "<p>@Roy I agree - just have a concern that COSE is not widely used/understood yet</p>",
+    "topic": "ietf-interim",
+    "dtime": 2279000,
+    "ptime": 2279000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>Investments in libraries and examples are key, but COSE is a progression from JSON signing and encryption via CBOR.  Outlining which languages need to be brought up first, which groups review and perform threat models are larger than this.  Some of which may come up in the IETF COSE meeting.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2690000,
+    "ptime": 2690000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>It is scope is increasing and it is actively being worked through.  One of the first questions I had when this came up is \"Do we know why we should not use S\\MIME?\".</p>",
+    "topic": "ietf-interim",
+    "dtime": 2759000,
+    "ptime": 2759000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>Field confusion within the serialization format is important to keep our eye on.  Getting out of the ASN.1 parsing business will help.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2799000,
+    "ptime": 2799000
+  },
+  {
+    "author": "Kay Williams",
+    "text": "<p>Agree with Yogesh, let's use GitHub to track issues/questions regarding the architecture document.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2897000,
+    "ptime": 2897000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Agreed. Also a good way to improve the architecture text!</p>",
+    "topic": "ietf-interim",
+    "dtime": 2945000,
+    "ptime": 2945000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Yogesh: can we use the use cases as a gentle intro to SCITT, or do we need a technical summary before?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2990000,
+    "ptime": 2990000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Using restaurant cleanliness scores may not translate well to international audience.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3238000,
+    "ptime": 3238000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>A restaurant cleanliness board is an example of one scitt instance, but on top of that note that different people have different restaurant requirements like looking for Halal food, made carefully separated from a variety of allergens, using locally-sourced ingredients, organic ingredients, paying a fair wage, securely managing credit cards they take from you, etc etc.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3432000,
+    "ptime": 3432000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>so I want the end-user to be able to query to meet their overlap of requirements</p>",
+    "topic": "ietf-interim",
+    "dtime": 3471000,
+    "ptime": 3471000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Does anyone have context on the \"key transparency BOF\" at IETF116?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3566000,
+    "ptime": 3566000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>And whether the bananas were shipped properly :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3587000,
+    "ptime": 3587000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>I've got a hard stop at the hour.</p>\n<p>I believe we need the online discussions, but agree with Charlie to stay focused on the agenda items and timeboxed.</p>\n<p>I would vote for weekly meetings after IETF 116, at the same time.<br>\nOnce we get back in sync with UK/US times.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3669000,
+    "ptime": 3669000
+  },
+  {
+    "author": "Dick Brooks",
+    "text": "<p>That analogy was presented by Anne Neuberger in a video, linked in this article: <a href=\"https://energycentral.com/c/um/what-does-it-mean-rebalance-cybersecurity-risk\">https://energycentral.com/c/um/what-does-it-mean-rebalance-cybersecurity-risk</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 3715000,
+    "ptime": 3715000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Yes Anne Nueberger is excellent!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3758000,
+    "ptime": 3758000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20230320-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-11/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20230320-1600"
+		}
+	]
+}

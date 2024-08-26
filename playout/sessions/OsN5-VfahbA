@@ -1,0 +1,245 @@
+
+{
+	"title": "IETF115-WISH-20221110-1700",
+	"filename": "IETF115-WISH-20221110-1700",
+	"start": 0,
+	"end": 3085000,
+	"start_datetime": "2022-11-10T16:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "OsN5-VfahbA",
+    "start": 0,
+    "end": "3085000"
+  }
+],
+	"messages": [
+  {
+    "author": "Adam Roach",
+    "text": "<p>Sounds good to me</p>",
+    "topic": "jabber",
+    "dtime": 768000,
+    "ptime": 768000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Adam, are you remote?</p>",
+    "topic": "jabber",
+    "dtime": 809000,
+    "ptime": 809000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>Sergio -- I do see your email from yesterday about the \"Accept\" issue, and I'm going to have to poke at it a little bit and reply in a little bit.</p>",
+    "topic": "jabber",
+    "dtime": 809000,
+    "ptime": 809000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>I'm remote</p>",
+    "topic": "jabber",
+    "dtime": 814000,
+    "ptime": 814000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Ok.</p>",
+    "topic": "jabber",
+    "dtime": 817000,
+    "ptime": 817000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>I'm going to reload</p>",
+    "topic": "jabber",
+    "dtime": 1249000,
+    "ptime": 1249000
+  },
+  {
+    "author": "Varun Singh",
+    "text": "<p>I am in support the work as well. If there is editorial or review effort needed, I am happy to help.</p>",
+    "topic": "jabber",
+    "dtime": 1449000,
+    "ptime": 1449000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>...and rechartering takes a while. Like, probably won't happen much before IETF 116</p>",
+    "topic": "jabber",
+    "dtime": 1577000,
+    "ptime": 1577000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>That doesn't stop people from doing work on WHEP though.</p>",
+    "topic": "jabber",
+    "dtime": 1599000,
+    "ptime": 1599000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>Right! What I heard Tim talking about was sequencing of formal relics, like WISH versus charter change</p>",
+    "topic": "jabber",
+    "dtime": 1636000,
+    "ptime": 1636000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Is there hope that getting WHIP to a published RFC might draw more interest for participation in work on WHEP?</p>",
+    "topic": "jabber",
+    "dtime": 1639000,
+    "ptime": 1639000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>Re: the WG name -- the recharter can (I believe) change it to \"WebRTC Initiation Signaling over HTTPS\" so that it matches what we're actually doing. :)</p>",
+    "topic": "jabber",
+    "dtime": 1802000,
+    "ptime": 1802000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Adam++ :)</p>",
+    "topic": "jabber",
+    "dtime": 1844000,
+    "ptime": 1844000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>It's not extensive list it seems: DASH uses fMP4 - you can have A LOT of different things in MP4</p>",
+    "topic": "jabber",
+    "dtime": 2129000,
+    "ptime": 2129000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>not just languages, subtitles, events</p>",
+    "topic": "jabber",
+    "dtime": 2143000,
+    "ptime": 2143000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>conceptually, DASH is bunch of fMP4 segments</p>",
+    "topic": "jabber",
+    "dtime": 2167000,
+    "ptime": 2167000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Which are the ones we want?</p>",
+    "topic": "jabber",
+    "dtime": 2170000,
+    "ptime": 2170000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>I don't think it was meant to be an exhaustive list, but mostly an overview of some macro things that it might make sense to have</p>",
+    "topic": "jabber",
+    "dtime": 2181000,
+    "ptime": 2181000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>To be clear, our problem in WebRTC isn't that we don't have a way to do subtitles -- it's that we have too many to choose from. I'd think RFC 8759 is our best bet, but this is the outcome of a <a href=\"https://xkcd.com/927/\">https://xkcd.com/927/</a> kind of situation.</p>",
+    "topic": "jabber",
+    "dtime": 2187000,
+    "ptime": 2187000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>but then someone who uses DASH over regular HTTP will try to use it with WebRTC and find that some of the things they CAN do with regular DASH - they can't do with WebRTC...</p>",
+    "topic": "jabber",
+    "dtime": 2245000,
+    "ptime": 2245000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>unless WebRTC is just used to do fetch</p>",
+    "topic": "jabber",
+    "dtime": 2258000,
+    "ptime": 2258000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Any hope of doing 8759 in browsers?</p>",
+    "topic": "jabber",
+    "dtime": 2313000,
+    "ptime": 2313000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Maybe doing something with insertable streams, but I doubt any of them handle m=application</p>",
+    "topic": "jabber",
+    "dtime": 2390000,
+    "ptime": 2390000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>WHEP to WHIP sounds quite easy actually, and a good pro to have</p>",
+    "topic": "jabber",
+    "dtime": 2418000,
+    "ptime": 2418000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>@Jonathan -- Good point re browser support. If you're getting all the way to insertable streams, then you could leverage something like H.264 and H.264 SEI messages to embed CTA-708 captions. And I cast back to the XKCD.</p>",
+    "topic": "jabber",
+    "dtime": 2760000,
+    "ptime": 2760000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>But fundamentally, I agree with the recent mic comment (I think it was Harald) pointing out that these kinds of problems have far more applicability than WHEP, and should be solved elsewhere first, and adopted by WHEP</p>",
+    "topic": "jabber",
+    "dtime": 2880000,
+    "ptime": 2880000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>DC can be unreliable, which might be a better option if you need to keep up (WS/TCP may lag behind)</p>",
+    "topic": "jabber",
+    "dtime": 2914000,
+    "ptime": 2914000
+  },
+  {
+    "author": "Adam Roach",
+    "text": "<p>So my vote would be to keep WHEP simple -- at least for now -- and iterate with extensions on solutions after they're hammered out in their respective other working groups</p>",
+    "topic": "jabber",
+    "dtime": 2965000,
+    "ptime": 2965000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Thanks!</p>",
+    "topic": "jabber",
+    "dtime": 3000000,
+    "ptime": 3000000
+  },
+  {
+    "author": "Sergio Garcia Murillo",
+    "text": "<p>+1 to keep WHEP simple Adam.. :)</p>",
+    "topic": "jabber",
+    "dtime": 3026000,
+    "ptime": 3026000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-WISH-20221110-1700"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/wish"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-WISH-20221110-1700"
+		}		
+	]
+}

@@ -1,0 +1,1197 @@
+
+{
+	"title": "IETF117-QUIC-20230725-1630",
+	"filename": "IETF117-QUIC-20230725-1630",
+	"start": 0,
+	"end": 7470000,
+	"start_datetime": "2023-07-25T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "85A1BgeRaYw",
+    "start": 0,
+    "end": "7470000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ira McDonald",
+    "text": "<p>Matt - you're too CLOSE to the mic - it's distorting</p>",
+    "topic": "ietf-117",
+    "dtime": 248000,
+    "ptime": 248000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yet another RFC</p>",
+    "topic": "ietf-117",
+    "dtime": 270000,
+    "ptime": 270000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>is the video feed on the online client supposed to switch to the speaker instead of the room/mic automatically?</p>",
+    "topic": "ietf-117",
+    "dtime": 370000,
+    "ptime": 370000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Robin: no it's manual, fixed</p>",
+    "topic": "ietf-117",
+    "dtime": 389000,
+    "ptime": 389000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>thanks :)</p>",
+    "topic": "ietf-117",
+    "dtime": 392000,
+    "ptime": 392000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Robin doesn't like looking at us</p>",
+    "topic": "ietf-117",
+    "dtime": 401000,
+    "ptime": 401000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>Lucas makes me nervous</p>",
+    "topic": "ietf-117",
+    "dtime": 420000,
+    "ptime": 420000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>try sitting next to him</p>",
+    "topic": "ietf-117",
+    "dtime": 430000,
+    "ptime": 430000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>0.0</p>",
+    "topic": "ietf-117",
+    "dtime": 448000,
+    "ptime": 448000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>Why do you think I stayed in Belgium...</p>",
+    "topic": "ietf-117",
+    "dtime": 450000,
+    "ptime": 450000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>@Robin and you get to miss out on the diverse and exotic beers they have!</p>",
+    "topic": "ietf-117",
+    "dtime": 574000,
+    "ptime": 574000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Something something smurfs chocolate?</p>",
+    "topic": "ietf-117",
+    "dtime": 582000,
+    "ptime": 582000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>Don't forget the fries and waffles though!</p>",
+    "topic": "ietf-117",
+    "dtime": 630000,
+    "ptime": 630000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Haven't had a mitraillette in about two decades, for better or worse.</p>",
+    "topic": "ietf-117",
+    "dtime": 734000,
+    "ptime": 734000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>One side question, apart from reading RFC 9000, do you have a paper / article / survey / introduction to advise for someone willing to dig into QUIC ?</p>",
+    "topic": "ietf-117",
+    "dtime": 771000,
+    "ptime": 771000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>chairs, can you encourage quentin to stand on the pink X ?</p>",
+    "topic": "ietf-117",
+    "dtime": 785000,
+    "ptime": 785000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>@Antoine: at the risk of touting my own horn: <a href=\"https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/\">https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 804000,
+    "ptime": 804000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>thanks for the reminder Daniel</p>",
+    "topic": "ietf-117",
+    "dtime": 818000,
+    "ptime": 818000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Stand in the PINK BOX!</p>",
+    "topic": "ietf-117",
+    "dtime": 827000,
+    "ptime": 827000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Robin Thanks (from a Belgian neighbour from Lille)</p>",
+    "topic": "ietf-117",
+    "dtime": 904000,
+    "ptime": 904000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>can you skip sequence numbers?</p>",
+    "topic": "ietf-117",
+    "dtime": 950000,
+    "ptime": 950000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Don't need to skip sequence numbers if the frame is reliably delivered. Can't have unknown frame types, so you should be able to parse every item in the sequence.</p>",
+    "topic": "ietf-117",
+    "dtime": 1015000,
+    "ptime": 1015000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>There's always reorder so I think we need sequence numbers?</p>",
+    "topic": "ietf-117",
+    "dtime": 1038000,
+    "ptime": 1038000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> I'm not concerned about whether there is a need (there is no point in skipping), only what logic is applied.</p>",
+    "topic": "ietf-117",
+    "dtime": 1057000,
+    "ptime": 1057000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Presumably, we're OK with just if last_status.seq &lt; new_status.seq { do something }</p>",
+    "topic": "ietf-117",
+    "dtime": 1099000,
+    "ptime": 1099000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>^^ this is what is specified in the doc I think, and that we are not changing that regardless of how we send the state</p>",
+    "topic": "ietf-117",
+    "dtime": 1130000,
+    "ptime": 1130000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yes, please rename this error code.</p>",
+    "topic": "ietf-117",
+    "dtime": 1138000,
+    "ptime": 1138000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The conclusion I reached from the discussion over the weekend was that error codes can be sent without \"negotiation\" (that is, you can send a new error code without necessarily receiving an indication from the peer that the error code will be understood).</p>",
+    "topic": "ietf-117",
+    "dtime": 1316000,
+    "ptime": 1316000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Makes sense. Just call it protocol violation, and document the frame type that caused it.</p>",
+    "topic": "ietf-117",
+    "dtime": 1448000,
+    "ptime": 1448000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Can you send the ACK_MP across more than one connection?  So on the validated and unvalidated path?</p>",
+    "topic": "ietf-117",
+    "dtime": 1462000,
+    "ptime": 1462000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Mathis Engelbert has a similar matter of error code consideration with the RTP over QUIC draft. That application mapping wants to fail when QUIC transport parameter is not present when it was expected (such as via out of band agreement)</p>",
+    "topic": "ietf-117",
+    "dtime": 1472000,
+    "ptime": 1472000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> Yes we can, however for the sake of having good RTT estimate we recommend ACKs to be sent conistently on one path</p>",
+    "topic": "ietf-117",
+    "dtime": 1576000,
+    "ptime": 1576000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>The use case I'm thinking of is when someone is using multipath because of path instability on the validated path; isn't it possible that waiting for the validated path  ACK_MP will delay the validation?</p>",
+    "topic": "ietf-117",
+    "dtime": 1590000,
+    "ptime": 1590000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I missed the conclusion on that one</p>",
+    "topic": "ietf-117",
+    "dtime": 1623000,
+    "ptime": 1623000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Kazuho  That's why you would do it across both--you still get consistency.</p>",
+    "topic": "ietf-117",
+    "dtime": 1624000,
+    "ptime": 1624000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Eric, you are confusing validation and continuity check. In 9000, these are separate concepts</p>",
+    "topic": "ietf-117",
+    "dtime": 1643000,
+    "ptime": 1643000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Ted I have been working on such a use case with MP-TCP, and sending keepalives on a stable yet expensive path was very handy</p>",
+    "topic": "ietf-117",
+    "dtime": 1663000,
+    "ptime": 1663000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>If we have status frames, we should use them, not rely on other packet types and guesswork</p>",
+    "topic": "ietf-117",
+    "dtime": 1701000,
+    "ptime": 1701000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>ACK_MP is not used for validating paths. Path validation is exchange of PATH_CHALLENGE and PATH_RESPONSE. ACK_MP is a bi-product that carries RTT estimate.</p>",
+    "topic": "ietf-117",
+    "dtime": 1720000,
+    "ptime": 1720000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Kazuho; thanks for the correction.</p>",
+    "topic": "ietf-117",
+    "dtime": 1776000,
+    "ptime": 1776000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>We only use the mp error for the case where there is no cid in the handshake packet. Was the proposal to rename that?</p>",
+    "topic": "ietf-117",
+    "dtime": 1959000,
+    "ptime": 1959000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm not sure that I agree with <span class=\"user-mention\" data-user-id=\"782\">@Marten Seemann</span> about not needing a new CC for the address tuple that is created by migration</p>",
+    "topic": "ietf-117",
+    "dtime": 2048000,
+    "ptime": 2048000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Presumably, this approach would allow a client to migrate to a completely different address tuple, without signaling the path</p>",
+    "topic": "ietf-117",
+    "dtime": 2115000,
+    "ptime": 2115000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/7-quic/topic/ietf-117/near/80426\">said</a>:</p>\n<blockquote>\n<p>I'm not sure that I agree with <span class=\"user-mention silent\" data-user-id=\"782\">Marten Seemann</span> about not needing a new CC for the address tuple that is created by migration</p>\n</blockquote>\n<p>So RFC 9000 makes the distinction for re-use as long as the IP address hasn't changed, only ports. As that is a sign of NAT rebinding.</p>",
+    "topic": "ietf-117",
+    "dtime": 2123000,
+    "ptime": 2123000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"658\">@Magnus Westerlund</span> exactly my point.  It is only under certain _assumptions_ that retaining the congestion controller state is permitted.</p>",
+    "topic": "ietf-117",
+    "dtime": 2166000,
+    "ptime": 2166000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>A client can move to a completely different path (see preferred address) where you might ideally want to reset state.</p>",
+    "topic": "ietf-117",
+    "dtime": 2189000,
+    "ptime": 2189000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>You also need to reset the congestion controller if the NAT rebinding switches you to a completely different path.</p>",
+    "topic": "ietf-117",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"339\">@Christian Huitema</span> The key-per-path proposal is orthogonal to path IDs.</p>",
+    "topic": "ietf-117",
+    "dtime": 2264000,
+    "ptime": 2264000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Right, from the viewpoint of loss recovery and CC, each \"sub connection\" as identified by \"path ID\" behaves exactly like each QUIC v1 connection.</p>",
+    "topic": "ietf-117",
+    "dtime": 2271000,
+    "ptime": 2271000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>(as well as their own connection IDs)</p>",
+    "topic": "ietf-117",
+    "dtime": 2295000,
+    "ptime": 2295000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>meetecho: can you change the slides again for reliable resets?</p>",
+    "topic": "ietf-117",
+    "dtime": 2617000,
+    "ptime": 2617000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Is the silence intentional, or is my connection gone?</p>",
+    "topic": "ietf-117",
+    "dtime": 2671000,
+    "ptime": 2671000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>And they didn't even pause his timer. Harsh</p>",
+    "topic": "ietf-117",
+    "dtime": 2676000,
+    "ptime": 2676000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>Time to crack some jokes, Marten</p>",
+    "topic": "ietf-117",
+    "dtime": 2702000,
+    "ptime": 2702000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>What if the reliable reset happens during a windows OS update?</p>",
+    "topic": "ietf-117",
+    "dtime": 2733000,
+    "ptime": 2733000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"782\">Marten Seemann</span> <a href=\"#narrow/stream/7-quic/topic/ietf-117/near/80446\">said</a>:</p>\n<blockquote>\n<p>You also need to reset the congestion controller if the NAT rebinding switches you to a completely different path.</p>\n</blockquote>\n<p>I am uncertain what you refer to here Martin. Yes, a NAT rebinding can result in a path change due to ECMP routing, but it is likely not something the peer can reliably discern. A NAT-rebinding would only result in a change of the source port as seen from the perspective of the peer to the one being NATed. Thus, one can't determine if this is a path change due to further routing in the network, or if it has made no different to the actual path other then how the NAT binding looks.</p>",
+    "topic": "ietf-117",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>Has this presentation been reliably reset?</p>",
+    "topic": "ietf-117",
+    "dtime": 2792000,
+    "ptime": 2792000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>If you have a hard path-ID, then the client can send data on a new 4-tuple while keeping the hard path ID constant. If the server then keeps the congestion state, that's a bug.</p>",
+    "topic": "ietf-117",
+    "dtime": 2853000,
+    "ptime": 2853000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I agree, this should have an error code. If we want to omit it, make the other type have an implicit NO_ERROR.</p>",
+    "topic": "ietf-117",
+    "dtime": 3058000,
+    "ptime": 3058000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>+1 to what MT is saying (about the 1 byte, not the shed)</p>",
+    "topic": "ietf-117",
+    "dtime": 3171000,
+    "ptime": 3171000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>QUIC doesn't specify a NO_ERROR existing...</p>",
+    "topic": "ietf-117",
+    "dtime": 3174000,
+    "ptime": 3174000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Matt this is application error code, we have H3_NO_ERROR</p>",
+    "topic": "ietf-117",
+    "dtime": 3221000,
+    "ptime": 3221000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>We may think of frames per connection, per stream or per packet. Per packet definitely qualifies for 1 byte. Per stream, maybe. Per connection, probably not.</p>",
+    "topic": "ietf-117",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><a href=\"https://www.rfc-editor.org/rfc/rfc9000.html#section-22.5\">https://www.rfc-editor.org/rfc/rfc9000.html#section-22.5</a> says 0x00 is NO_ERROR.</p>",
+    "topic": "ietf-117",
+    "dtime": 3279000,
+    "ptime": 3279000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Right, but that is an application thing. This new semantic introduces an inconsistency to stream termination in that it forces it to have an application error of some sort, whereas normal stream termination does NOT always need an error</p>",
+    "topic": "ietf-117",
+    "dtime": 3279000,
+    "ptime": 3279000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>I.e. FINs do not have an error</p>",
+    "topic": "ietf-117",
+    "dtime": 3286000,
+    "ptime": 3286000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Ah, right, this is an application error code, so it's up to the app to specify the error code space.  Never mind me.</p>",
+    "topic": "ietf-117",
+    "dtime": 3318000,
+    "ptime": 3318000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Have to send it.</p>",
+    "topic": "ietf-117",
+    "dtime": 3322000,
+    "ptime": 3322000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>it would not be inconsistent if our streams always terminated with error codes, but they don't</p>",
+    "topic": "ietf-117",
+    "dtime": 3336000,
+    "ptime": 3336000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>ACK Frequency is 2 bytes now. SHould it be 1?</p>",
+    "topic": "ietf-117",
+    "dtime": 3416000,
+    "ptime": 3416000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Unsure if this is a QUIC question or a WebTransport question or a WC3 question - is if this is now a piece of the transport API surface that a web transport application would expect to be able to use for its own streams</p>",
+    "topic": "ietf-117",
+    "dtime": 3559000,
+    "ptime": 3559000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Better than the Oppenheimer Update.</p>",
+    "topic": "ietf-117",
+    "dtime": 3597000,
+    "ptime": 3597000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>+1 Jonathan was going to say that</p>",
+    "topic": "ietf-117",
+    "dtime": 3617000,
+    "ptime": 3617000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>I'm not going to die on the CLOSE_STREAM always having an error, but I just want people to realize that this _is_ fundamentally an philosophical divergence.</p>\n<p>It also allows an application to awkwardly leverage partially reliable streams by always sending CLOSE_STREAM with a small reliable size, and then it will have an error for no reason</p>",
+    "topic": "ietf-117",
+    "dtime": 3629000,
+    "ptime": 3629000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>and my argument for having a no-error option is that the normal close path doesn't need an error, so this shouldn't either</p>",
+    "topic": "ietf-117",
+    "dtime": 3673000,
+    "ptime": 3673000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"339\">Christian Huitema</span> <a href=\"#narrow/stream/7-quic/topic/ietf-117/near/80490\">said</a>:</p>\n<blockquote>\n<p>If you have a hard path-ID, then the client can send data on a new 4-tuple while keeping the hard path ID constant. If the server then keeps the congestion state, that's a bug.</p>\n</blockquote>\n<p>Well, there are a couple of corner cases where an actual path change might not be known by the sending client, but readily detectable by the peer. So this would be true for just using the CID as well as having the path ID redirecton layer. The peer would need to change their path ID and do a path validation in this case would it not. The question I can't answer is if this forces the unaware sending party here to actually classify this as a new path?</p>",
+    "topic": "ietf-117",
+    "dtime": 3693000,
+    "ptime": 3693000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>And I don't find \"APIs are hard\" a convincing argument for introducing that philosophical inconsistency</p>",
+    "topic": "ietf-117",
+    "dtime": 3694000,
+    "ptime": 3694000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>ACK Frequency can stay as 2 bytes, it is an infrequently-used frame (in my experience)</p>",
+    "topic": "ietf-117",
+    "dtime": 3733000,
+    "ptime": 3733000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>FINs reflect that the data was fully sent and will be delivered.  If the stream terminates abruptly, there's an error code to explain why. This is an abrupt termination, despite reliably delivering part of the data. I don't see this as a problem, personally, and I don't think that's \"APIs are hard.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3747000,
+    "ptime": 3747000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Mike: it's explicitly _not_ an abrupt termination. There is a reliable size.</p>",
+    "topic": "ietf-117",
+    "dtime": 3769000,
+    "ptime": 3769000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>But I also don't object to having an errorless version, because I can understand the semantics of \"I sent this normally, I just don't care if you get it.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3778000,
+    "ptime": 3778000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>You could set the reliable size to everything you sent - 10, and send 10 TB</p>",
+    "topic": "ietf-117",
+    "dtime": 3782000,
+    "ptime": 3782000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>that's not very abrupt</p>",
+    "topic": "ietf-117",
+    "dtime": 3791000,
+    "ptime": 3791000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>reliable size &lt;= bytes sent is a surprising condition</p>",
+    "topic": "ietf-117",
+    "dtime": 3801000,
+    "ptime": 3801000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1495\">Alan Frindell</span> <a href=\"#narrow/stream/7-quic/topic/ietf-117/near/80543\">said</a>:</p>\n<blockquote>\n<p>Unsure if this is a QUIC question or a WebTransport question or a WC3 question - is if this is now a piece of the transport API surface that a web transport application would expect to be able to use for its own streams</p>\n</blockquote>\n<p>Bernard filed this with W3C: <a href=\"https://github.com/w3c/webtransport/issues/531\">https://github.com/w3c/webtransport/issues/531</a></p>",
+    "topic": "ietf-117",
+    "dtime": 3814000,
+    "ptime": 3814000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> That sounds like something that is worth considering for WT.  It might even be easy to do.</p>",
+    "topic": "ietf-117",
+    "dtime": 3850000,
+    "ptime": 3850000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Martin: if you are leveraging this as a cheap PR for streams, how is that a surprisng condition?</p>",
+    "topic": "ietf-117",
+    "dtime": 3857000,
+    "ptime": 3857000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>\"Reliably give me X bytes, you can have the rest if you have it already, I guess\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3877000,
+    "ptime": 3877000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"761\">@Matt Joras</span> if your application expectation is that each stream has a non-deterministic number of bytes that are delivered, sure</p>",
+    "topic": "ietf-117",
+    "dtime": 3904000,
+    "ptime": 3904000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>If you view this as a PR stream feature I think the error code being required makes a lot less sense</p>",
+    "topic": "ietf-117",
+    "dtime": 3906000,
+    "ptime": 3906000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>but that's fundamentally surprising (and I agree that this is a subjective call)</p>",
+    "topic": "ietf-117",
+    "dtime": 3922000,
+    "ptime": 3922000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Sure, I think it is subjective. But I can also imagine some application designers are going to realize they can use this for stream PR and use it like that</p>",
+    "topic": "ietf-117",
+    "dtime": 3951000,
+    "ptime": 3951000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"761\">@Matt Joras</span> are you concerned about saving that byte for the error code?</p>",
+    "topic": "ietf-117",
+    "dtime": 3959000,
+    "ptime": 3959000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>No I'm not</p>",
+    "topic": "ietf-117",
+    "dtime": 4000000,
+    "ptime": 4000000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>OK, good</p>",
+    "topic": "ietf-117",
+    "dtime": 4004000,
+    "ptime": 4004000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Fundamentally, I think any time an application doesn't reliably deliver all the bytes, it should have to indicate why to the other side.  The \"why\" might well be a non-error condition, like \"too old to be useful,\" but interpretation of the reason is an application question.</p>",
+    "topic": "ietf-117",
+    "dtime": 4102000,
+    "ptime": 4102000
+  },
+  {
+    "author": "Rui Paulo",
+    "text": "<p>Where's Ken?</p>",
+    "topic": "ietf-117",
+    "dtime": 4113000,
+    "ptime": 4113000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Re #313, +1 to removing .well-known, there are security concerns that have to be addressed and we do not need to do that work inside qlog.</p>",
+    "topic": "ietf-117",
+    "dtime": 4194000,
+    "ptime": 4194000
+  },
+  {
+    "author": "Rui Paulo",
+    "text": "<p>I see Martin's point where's having a separate UDP doc makes sense.  TCP is a different beast and requires a separate doc</p>",
+    "topic": "ietf-117",
+    "dtime": 4269000,
+    "ptime": 4269000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Am I confused, or doesn't Martin's question imply that datagrams should <em>not</em> be in a udp-subnamespace</p>",
+    "topic": "ietf-117",
+    "dtime": 4269000,
+    "ptime": 4269000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"733\">Rui Paulo</span> <a href=\"#narrow/stream/7-quic/topic/ietf-117/near/80590\">said</a>:</p>\n<blockquote>\n<p>Where's Ken?</p>\n</blockquote>\n<p>There he is!</p>",
+    "topic": "ietf-117",
+    "dtime": 4300000,
+    "ptime": 4300000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Mike: That's okay but the current framing of the implementation of the frame is that it is \"moving the FIN\". Under that framing, I would argue that such an application does not really have a good meaning for \"all the bytes\". Fundamentally, \"all the bytes\" is not completely deterministic.</p>",
+    "topic": "ietf-117",
+    "dtime": 4319000,
+    "ptime": 4319000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Alex: my understanding is that martin would like a full UDP schema but in the absence of someone volunteering to write the whole thing, he is happy with some partial support as proposed</p>",
+    "topic": "ietf-117",
+    "dtime": 4350000,
+    "ptime": 4350000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>RIght, but doesn't that also imply that QUIC datagrams should not be squatting the udp namespace?</p>",
+    "topic": "ietf-117",
+    "dtime": 4460000,
+    "ptime": 4460000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>there are QUIC datagram frames and UDP datagrams, and right now they both sit in the same namespace, which is confusing</p>",
+    "topic": "ietf-117",
+    "dtime": 4523000,
+    "ptime": 4523000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Right, and wasn't the proposal on the slide to put them all in the udp namespace?</p>",
+    "topic": "ietf-117",
+    "dtime": 4566000,
+    "ptime": 4566000
+  },
+  {
+    "author": "Rui Paulo",
+    "text": "<p>And finally the barbenheimer reference.</p>",
+    "topic": "ietf-117",
+    "dtime": 4594000,
+    "ptime": 4594000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>Good things come to those who wait</p>",
+    "topic": "ietf-117",
+    "dtime": 4613000,
+    "ptime": 4613000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>no, the proposal was just to move the UDP datagrams to <code>udp</code> and keep QUIC datagram frames in <code>quic</code></p>",
+    "topic": "ietf-117",
+    "dtime": 4647000,
+    "ptime": 4647000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Oh. That's not what I thought it was saying and that makes a lot more sense. Thanks.</p>",
+    "topic": "ietf-117",
+    "dtime": 4683000,
+    "ptime": 4683000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>Sorry that was unclear Alex. Lucas of course has the right of it.</p>",
+    "topic": "ietf-117",
+    "dtime": 4713000,
+    "ptime": 4713000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>thanks for asking Alex, good to know we are aligned</p>",
+    "topic": "ietf-117",
+    "dtime": 4729000,
+    "ptime": 4729000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>(bit disappointed David didn't announce himself as Barbie enthusiast tbh...)</p>",
+    "topic": "ietf-117",
+    "dtime": 4736000,
+    "ptime": 4736000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>ack_frequency frequency</p>",
+    "topic": "ietf-117",
+    "dtime": 4790000,
+    "ptime": 4790000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>I,I Kenthusiast.</p>",
+    "topic": "ietf-117",
+    "dtime": 4804000,
+    "ptime": 4804000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I believe that a random sample from the 2 byte space (62-16483) is fine.</p>",
+    "topic": "ietf-117",
+    "dtime": 4975000,
+    "ptime": 4975000
+  },
+  {
+    "author": "Rui Paulo",
+    "text": "<p>I really enjoyed 0xaf, so we could continue the joke with 0xacfe</p>",
+    "topic": "ietf-117",
+    "dtime": 5372000,
+    "ptime": 5372000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>0xaf is two bytes.</p>",
+    "topic": "ietf-117",
+    "dtime": 5410000,
+    "ptime": 5410000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>(the varint encoding of 0xaf is 2 bytes)</p>",
+    "topic": "ietf-117",
+    "dtime": 5446000,
+    "ptime": 5446000
+  },
+  {
+    "author": "Rui Paulo",
+    "text": "<p>the slides for ACK_FREQUENCY that were presented were not exactly the slides that are on github, or am I missing something?</p>",
+    "topic": "ietf-117",
+    "dtime": 5707000,
+    "ptime": 5707000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>yeah Ian updated them and we have yet to update github</p>",
+    "topic": "ietf-117",
+    "dtime": 5723000,
+    "ptime": 5723000
+  },
+  {
+    "author": "Rui Paulo",
+    "text": "<p>Matt: I'm just confused because the slide about Meta deployment experience talked about regressions with ACK_FREQUENCY but the takeaway slide painted a different picture</p>",
+    "topic": "ietf-117",
+    "dtime": 5782000,
+    "ptime": 5782000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>There were regressions and then we changed things and there were no longer obvious regressions.</p>",
+    "topic": "ietf-117",
+    "dtime": 5826000,
+    "ptime": 5826000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>the main thing to note is the PTO IMMEDIATE_ACK and not using windowed min RTT</p>",
+    "topic": "ietf-117",
+    "dtime": 5859000,
+    "ptime": 5859000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>FTR, my comment regarding 3 bits would be that:</p>\n<ul>\n<li>I do not expect CDNs to implement capabilities for supporting only 7 customers.</li>\n<li>ECH is about hiding trees in a forest, difference of one bit is not going to be a problem. If it is, it is a failure of ECH.</li>\n</ul>",
+    "topic": "ietf-117",
+    "dtime": 6016000,
+    "ptime": 6016000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Couldn't this be done at the IP layer (DSCP)?</p>",
+    "topic": "ietf-117",
+    "dtime": 6176000,
+    "ptime": 6176000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>Should avoid thinking of it as priority and just think of it as a path indicator.</p>",
+    "topic": "ietf-117",
+    "dtime": 6229000,
+    "ptime": 6229000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Surely this leaks security info?</p>",
+    "topic": "ietf-117",
+    "dtime": 6238000,
+    "ptime": 6238000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>It could -- when setting the path, have a specific 4-tuple+priority code, and then set path status to \"priority only\"</p>",
+    "topic": "ietf-117",
+    "dtime": 6250000,
+    "ptime": 6250000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>From my understanding the idea is to give apps a means to influence the QoS policy</p>",
+    "topic": "ietf-117",
+    "dtime": 6253000,
+    "ptime": 6253000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Jonathan it leaks a strong hint on the app using the QUIC connection</p>",
+    "topic": "ietf-117",
+    "dtime": 6304000,
+    "ptime": 6304000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>Is the existence of multiple paths exposed to the application?</p>",
+    "topic": "ietf-117",
+    "dtime": 6324000,
+    "ptime": 6324000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so we want <em>some</em> networks to understand the priorities but not other networks?</p>",
+    "topic": "ietf-117",
+    "dtime": 6369000,
+    "ptime": 6369000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Looking at the length of the queue AND the remaining time, you each have 2 seconds.</p>",
+    "topic": "ietf-117",
+    "dtime": 6392000,
+    "ptime": 6392000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Due to a mis-click, I lost my place and dropped to the body.  So I fear that my concerns here will be lost in the noise.</p>",
+    "topic": "ietf-117",
+    "dtime": 6395000,
+    "ptime": 6395000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Of course, the whole idea of network QOS is orthogonal to QUIC. QUIC view is that the network is a set of path through marshes infested with mosquitoes, caymans, and middleboxes. The last thing you want is mark paths as important, because the caymans and the middleboxes will get you!</p>",
+    "topic": "ietf-117",
+    "dtime": 6413000,
+    "ptime": 6413000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>What is wrong with per-packet DSCP now?</p>",
+    "topic": "ietf-117",
+    "dtime": 6423000,
+    "ptime": 6423000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>ACK Ted</p>",
+    "topic": "ietf-117",
+    "dtime": 6423000,
+    "ptime": 6423000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>high-entropy variable-length connection IDs  are proving to be an attractive nuisance</p>",
+    "topic": "ietf-117",
+    "dtime": 6430000,
+    "ptime": 6430000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Martin Apps lack capacity to set DSCP properly, maybe</p>",
+    "topic": "ietf-117",
+    "dtime": 6458000,
+    "ptime": 6458000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Among them:  this leaks information; this does not justify using a single QUIC connection; the limitation to pre-determining the number of server identified queues and coordination that will be a massive pain; it doesn't work outside a single SRv6 domain; and so many, many more.</p>",
+    "topic": "ietf-117",
+    "dtime": 6464000,
+    "ptime": 6464000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Presumably if you can set ECN you can set DSCP?  Unless your API is very weird</p>",
+    "topic": "ietf-117",
+    "dtime": 6487000,
+    "ptime": 6487000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>@Martin Thomson: if you define a path as 4-tuple plus DSCP code, and set the path status to \"priority\", you get pretty much that.</p>",
+    "topic": "ietf-117",
+    "dtime": 6490000,
+    "ptime": 6490000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> you mean that you don't want people using connection IDs to execute a cleartext protocol with arbitrary eavesdroppers?</p>",
+    "topic": "ietf-117",
+    "dtime": 6500000,
+    "ptime": 6500000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>(Note: As I recall the Windows APIs in this space are indeed weird.)</p>",
+    "topic": "ietf-117",
+    "dtime": 6516000,
+    "ptime": 6516000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it's not my favorite design pattern</p>",
+    "topic": "ietf-117",
+    "dtime": 6517000,
+    "ptime": 6517000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Oh, and DSCP are filtered most of the time</p>",
+    "topic": "ietf-117",
+    "dtime": 6527000,
+    "ptime": 6527000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> ++</p>",
+    "topic": "ietf-117",
+    "dtime": 6584000,
+    "ptime": 6584000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>MP-QUIC + whatever seems like the right answer</p>",
+    "topic": "ietf-117",
+    "dtime": 6617000,
+    "ptime": 6617000
+  },
+  {
+    "author": "Dragana Damjanovic",
+    "text": "<p>I agree with the comments</p>",
+    "topic": "ietf-117",
+    "dtime": 6662000,
+    "ptime": 6662000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Such an enthusiastic group today</p>",
+    "topic": "ietf-117",
+    "dtime": 6906000,
+    "ptime": 6906000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>An underlying idea is that the application is smart enough...</p>",
+    "topic": "ietf-117",
+    "dtime": 6908000,
+    "ptime": 6908000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>Application versus application is not the point.</p>",
+    "topic": "ietf-117",
+    "dtime": 6967000,
+    "ptime": 6967000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>such enthusiasm, wow</p>",
+    "topic": "ietf-117",
+    "dtime": 6978000,
+    "ptime": 6978000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Should I start making \"Ted Hardie Enthusiast\" stickers?</p>",
+    "topic": "ietf-117",
+    "dtime": 6981000,
+    "ptime": 6981000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>I think a colored dot would be more appropriate.</p>",
+    "topic": "ietf-117",
+    "dtime": 7015000,
+    "ptime": 7015000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>I'm presenting a similar draft about p2p QUIC at AVTCORE tomorrow if anyone is interested.</p>",
+    "topic": "ietf-117",
+    "dtime": 7076000,
+    "ptime": 7076000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>Similar to the NAT document or the previous one?</p>",
+    "topic": "ietf-117",
+    "dtime": 7120000,
+    "ptime": 7120000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>The NAT one</p>",
+    "topic": "ietf-117",
+    "dtime": 7126000,
+    "ptime": 7126000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>About how to do ICE+QUIC together.</p>",
+    "topic": "ietf-117",
+    "dtime": 7147000,
+    "ptime": 7147000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>My draft is basically \"MODE 1\" here.</p>",
+    "topic": "ietf-117",
+    "dtime": 7236000,
+    "ptime": 7236000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Peter I'd suggest you mention this at the mic after Marten is done so folks in the room know - not everyone sees the chat</p>",
+    "topic": "ietf-117",
+    "dtime": 7273000,
+    "ptime": 7273000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>That is what I thought but wanted to be sure.</p>",
+    "topic": "ietf-117",
+    "dtime": 7283000,
+    "ptime": 7283000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>I'm remote, so I guess I'll raise my hand</p>",
+    "topic": "ietf-117",
+    "dtime": 7329000,
+    "ptime": 7329000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>we'll mention it on the mic</p>",
+    "topic": "ietf-117",
+    "dtime": 7345000,
+    "ptime": 7345000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>thx</p>",
+    "topic": "ietf-117",
+    "dtime": 7420000,
+    "ptime": 7420000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-QUIC-20230725-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/quic"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-QUIC-20230725-1630"
+		}		
+	]
+}

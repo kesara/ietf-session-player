@@ -1,0 +1,224 @@
+
+{
+	"title": "IETF116-EMU-20230327-0030",
+	"filename": "IETF116-EMU-20230327-0030",
+	"start": 0,
+	"end": 4856000,
+	"start_datetime": "2023-03-27T00:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "WzOp4kAPSVA",
+    "start": 0,
+    "end": "4856000"
+  }
+],
+	"messages": [
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Usual rules. If you want what you say to be conveyed at the room mic, please preface it with \"mic:\"</p>",
+    "topic": "ietf-116",
+    "dtime": 106000,
+    "ptime": 106000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Assuming the background of these slides is white, the projector in room G412 is ridiculously dim.</p>",
+    "topic": "ietf-116",
+    "dtime": 247000,
+    "ptime": 247000
+  },
+  {
+    "author": "Peter Yee",
+    "text": "<p>Yes, white background.</p>",
+    "topic": "ietf-116",
+    "dtime": 386000,
+    "ptime": 386000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>is this with Basic-Password-Auth?</p>",
+    "topic": "ietf-116",
+    "dtime": 699000,
+    "ptime": 699000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>the problem is if you have a mix of single round authentication clients and chained authentication</p>",
+    "topic": "ietf-116",
+    "dtime": 733000,
+    "ptime": 733000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>isn't this what standards are for? We need to define what proper behavior is instead of just documenting what Windows does.</p>",
+    "topic": "ietf-116",
+    "dtime": 847000,
+    "ptime": 847000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I think the TLS 1.2 profiling needs work for this to be worthy of 2023 standards track. RFC 7540 was best practice 2015. Legacy interop is tricky so I don't think the draft needs to forbid as much as the 2025 RFC 7540.</p>\n<p>What I strongly thing the draft must add is</p>\n<ol>\n<li>\n<p>Add. \"This version of the TEAP implementation MUST support and prefer TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 with the P-256 elliptic curve\". This is the cipher suite mandated by HTTP/2.</p>\n</li>\n<li>\n<p>Refer to BCP 195 (RFC 9325, RFC 8996)</p>\n</li>\n</ol>\n<p>Nit: TLS RFC spells \"cipher suite\"</p>",
+    "topic": "ietf-116",
+    "dtime": 857000,
+    "ptime": 857000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>mic? either of you?</p>",
+    "topic": "ietf-116",
+    "dtime": 932000,
+    "ptime": 932000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>I'll just add, I wouldn't mind if someone wanted to add an identity TLV</p>",
+    "topic": "ietf-116",
+    "dtime": 1267000,
+    "ptime": 1267000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>i like the idea of the client and server doing a capabilities exchange</p>",
+    "topic": "ietf-116",
+    "dtime": 1292000,
+    "ptime": 1292000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>as it is optional and solves this problem so would be useful, even for TEAPv1/7170bis</p>",
+    "topic": "ietf-116",
+    "dtime": 1377000,
+    "ptime": 1377000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Is it an identity hint or an identifier?</p>",
+    "topic": "ietf-116",
+    "dtime": 1396000,
+    "ptime": 1396000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>about identity being \"\" (empty string) and using \"credentials not available\". I'd say this a correct error message would be something like \"authentication method not configured\" or similar that tells the client (in this case) doesn't now how to authenticate vs. what identity to use</p>",
+    "topic": "ietf-116",
+    "dtime": 1577000,
+    "ptime": 1577000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>If we're specifying a ciphersuite in 2023, do we specify anything with _RSA_ ?</p>",
+    "topic": "ietf-116",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>not RSA key exchange but RSA sig are fine</p>",
+    "topic": "ietf-116",
+    "dtime": 1696000,
+    "ptime": 1696000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>RSA sigs are fine if your keys are big enough, and by now the recommendations are really big ones.</p>",
+    "topic": "ietf-116",
+    "dtime": 1777000,
+    "ptime": 1777000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>ECDHE and ECDSA</p>",
+    "topic": "ietf-116",
+    "dtime": 1788000,
+    "ptime": 1788000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>thanks everyone.</p>",
+    "topic": "ietf-116",
+    "dtime": 2532000,
+    "ptime": 2532000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>(thumbs up emoji)</p>",
+    "topic": "ietf-116",
+    "dtime": 2999000,
+    "ptime": 2999000
+  },
+  {
+    "author": "Peter Yee",
+    "text": "<p>We will run a show of hands in Meetecho.</p>",
+    "topic": "ietf-116",
+    "dtime": 3024000,
+    "ptime": 3024000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 3066000,
+    "ptime": 3066000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p><a href=\"https://github.com/emu-wg/rfc7170bis/issues/16\">https://github.com/emu-wg/rfc7170bis/issues/16</a><br>\n<a href=\"https://github.com/emu-wg/rfc7170bis/issues/15\">https://github.com/emu-wg/rfc7170bis/issues/15</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3187000,
+    "ptime": 3187000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>We are working on the evolution of EAP-CREDS that has some elements that might be in common. However, EAP-CREDS is to be used AFTER authentications and does not explicitly tackle bootstrapping - it is more focused on the management after the bootstrapping is done (that part is usually not well managed across access networks... e.g., policy)</p>",
+    "topic": "ietf-116",
+    "dtime": 3937000,
+    "ptime": 3937000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>(related to EAP onboarding)</p>",
+    "topic": "ietf-116",
+    "dtime": 3955000,
+    "ptime": 3955000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I will follow up EAP TLS PSK discussion and IoT EAP on the mailing list.</p>",
+    "topic": "ietf-116",
+    "dtime": 4548000,
+    "ptime": 4548000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-116",
+    "dtime": 4666000,
+    "ptime": 4666000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>thanks all!</p>",
+    "topic": "ietf-116",
+    "dtime": 4670000,
+    "ptime": 4670000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-EMU-20230327-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/emu"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-EMU-20230327-0030"
+		}		
+	]
+}

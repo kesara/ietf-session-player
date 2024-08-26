@@ -1,0 +1,665 @@
+
+{
+	"title": "IETF120-SML-20240723-2230",
+	"filename": "IETF120-SML-20240723-2230",
+	"start": 0,
+	"end": 5629000,
+	"start_datetime": "2024-07-23T22:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "jy20CkdgvSQ",
+    "start": 0,
+    "end": "5629000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Welcome to sml@ietf-120!</p>",
+    "topic": "ietf-120",
+    "dtime": 423000,
+    "ptime": 423000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Unfortunately, there is a parallel conflicting session for OAuth2 which will discuss OAuth2 for email. It's planned to start in about 25-30 minutes, for 20 minutes, and I need to attend that.</p>",
+    "topic": "ietf-120",
+    "dtime": 858000,
+    "ptime": 858000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Is there something you want to bring up in the next few min?</p>",
+    "topic": "ietf-120",
+    "dtime": 1138000,
+    "ptime": 1138000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Not right now</p>",
+    "topic": "ietf-120",
+    "dtime": 1187000,
+    "ptime": 1187000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>no</p>",
+    "topic": "ietf-120",
+    "dtime": 1222000,
+    "ptime": 1222000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>I'm keenly interested in the discussion about the format, whether it's within HTML within script tags, or as MIME attachment.</p>",
+    "topic": "ietf-120",
+    "dtime": 1264000,
+    "ptime": 1264000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>I'm strongly in favor of using MIME multipart/related + JSON-LD as representation.</p>\n<p>Putting it in HTML in script would cause great parsing problems.</p>\n<p>E.g. many mail servers strip JavaScript (or HTML) from emails. For very good reasons.</p>",
+    "topic": "ietf-120",
+    "dtime": 1380000,
+    "ptime": 1380000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>\"ease of creation\" vs. \"ease of handling\" seem like they might be very different, no?</p>",
+    "topic": "ietf-120",
+    "dtime": 1405000,
+    "ptime": 1405000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>I haven't seen a mail system strip HTML for a long time other than some dusty mailing lists.</p>",
+    "topic": "ietf-120",
+    "dtime": 1425000,
+    "ptime": 1425000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>John, Ben isn't talking about stripping the whole text/html part, he's talking about sanitizing its content by stripping scripts, i think</p>",
+    "topic": "ietf-120",
+    "dtime": 1453000,
+    "ptime": 1453000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>I agree that you can't count on a mail program running your JS</p>",
+    "topic": "ietf-120",
+    "dtime": 1459000,
+    "ptime": 1459000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>any sensible firewall would strip Javascript from emails, though :)</p>",
+    "topic": "ietf-120",
+    "dtime": 1461000,
+    "ptime": 1461000
+  },
+  {
+    "author": "Lyndon Nerenberg",
+    "text": "<p>i am subscribed to many non-dusty mailing lists that do that.</p>",
+    "topic": "ietf-120",
+    "dtime": 1465000,
+    "ptime": 1465000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i think \"mailing list\" == \"dusty\"  (i say this as a dusty person)</p>",
+    "topic": "ietf-120",
+    "dtime": 1487000,
+    "ptime": 1487000
+  },
+  {
+    "author": "Lyndon Nerenberg",
+    "text": "<p>(strip html)</p>",
+    "topic": "ietf-120",
+    "dtime": 1490000,
+    "ptime": 1490000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>I think it's a feature if you can't send SML through what is supposed to be a discussion list</p>",
+    "topic": "ietf-120",
+    "dtime": 1504000,
+    "ptime": 1504000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm currently using structured e-mail messages in group e-mail conversations in great effect.  it would be sad to rule that out.</p>",
+    "topic": "ietf-120",
+    "dtime": 1533000,
+    "ptime": 1533000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>+1</p>",
+    "topic": "ietf-120",
+    "dtime": 1549000,
+    "ptime": 1549000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(not SML-structured, but <a href=\"http://webxdc.org/\">http://webxdc.org/</a> over e-mail via the <a href=\"https://delta.chat/\">https://delta.chat/</a> MUAs)</p>",
+    "topic": "ietf-120",
+    "dtime": 1554000,
+    "ptime": 1554000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>@dkg what do they do?</p>",
+    "topic": "ietf-120",
+    "dtime": 1560000,
+    "ptime": 1560000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>shared grocery lists,  multiplayer games, collaborative document editing</p>",
+    "topic": "ietf-120",
+    "dtime": 1581000,
+    "ptime": 1581000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>duh, I have to go to oauth2.</p>",
+    "topic": "ietf-120",
+    "dtime": 1636000,
+    "ptime": 1636000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>MIME headers are limited to 1000 chars, IIRC</p>",
+    "topic": "ietf-120",
+    "dtime": 1648000,
+    "ptime": 1648000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>multipart/related should work, no?</p>",
+    "topic": "ietf-120",
+    "dtime": 1661000,
+    "ptime": 1661000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Ben, i don't think that's true -- where is that MIME header limit?</p>",
+    "topic": "ietf-120",
+    "dtime": 1672000,
+    "ptime": 1672000
+  },
+  {
+    "author": "Lyndon Nerenberg",
+    "text": "<p>We (hushmail) would have a direct use for this for our secure forms submission service. Currently we have an internal ad-hoc format, SML is a 100% match to what we need. Privacy policy expression would be critical to us adopting it, though.</p>",
+    "topic": "ietf-120",
+    "dtime": 1722000,
+    "ptime": 1722000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>I might be mistaken, I'd have to check</p>",
+    "topic": "ietf-120",
+    "dtime": 1724000,
+    "ptime": 1724000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>I currently emit and receive larger Headers on nearly every e-mail. (<a href=\"https://autocrypt.org/\">https://autocrypt.org/</a> and microsoft-style anti-spam annotations)</p>",
+    "topic": "ietf-120",
+    "dtime": 1788000,
+    "ptime": 1788000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>haven't had delivery problems yet</p>",
+    "topic": "ietf-120",
+    "dtime": 1797000,
+    "ptime": 1797000
+  },
+  {
+    "author": "Arnt Gulbrandsen",
+    "text": "<p>Pete will kindly send mail to the list and reference the old voice thing that points to, etc.</p>",
+    "topic": "ietf-120",
+    "dtime": 1944000,
+    "ptime": 1944000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"4097\">Arnt Gulbrandsen</span> <a href=\"#narrow/stream/361-sml/topic/ietf-120/near/125649\">said</a>:</p>\n<blockquote>\n<p>Pete will kindly send mail to the list and reference the old voice thing that points to, etc.</p>\n</blockquote>\n<p><em>I</em> have to go dig through that old stuff?!?! <span aria-label=\"oh no\" class=\"emoji emoji-1f615\" role=\"img\" title=\"oh no\">:oh_no:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 2065000,
+    "ptime": 2065000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>In IMAP/JMAP you can fetch a particular part of multipart, without fetching the rest</p>",
+    "topic": "ietf-120",
+    "dtime": 2182000,
+    "ptime": 2182000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Yeah, the VPIM thing was the \"Message-Context\" header, which is not the right thing here. It's the IMIP thing that makes sense, if Ken can find it.</p>",
+    "topic": "ietf-120",
+    "dtime": 2442000,
+    "ptime": 2442000
+  },
+  {
+    "author": "Kenneth Murchison",
+    "text": "<p>draft I mentioned about a header pointing at iCalendar data:<br>\n<a href=\"https://datatracker.ietf.org/doc/draft-daboo-imip-headers/\">https://datatracker.ietf.org/doc/draft-daboo-imip-headers/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2494000,
+    "ptime": 2494000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>I'm back. I hope I didn't miss the most interesting part :)</p>",
+    "topic": "ietf-120",
+    "dtime": 2880000,
+    "ptime": 2880000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>+1 to Alexey's idea, and I'm planning to write up the use case</p>",
+    "topic": "ietf-120",
+    "dtime": 3042000,
+    "ptime": 3042000
+  },
+  {
+    "author": "Michael Slusarz",
+    "text": "<p>From a while back, there's a 998 character limit for a line for 5322 data, but you can have multiple lines</p>",
+    "topic": "ietf-120",
+    "dtime": 3058000,
+    "ptime": 3058000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Yes, that's probably what I had in my mind. If this is no longer the case, all the better. Surely DKIM headers are huge, so I'm probably wrong.</p>",
+    "topic": "ietf-120",
+    "dtime": 3134000,
+    "ptime": 3134000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>I'm happy to help work on the Use Cases document, and contribute to the core spec.</p>",
+    "topic": "ietf-120",
+    "dtime": 3295000,
+    "ptime": 3295000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Sounds great, Trent</p>",
+    "topic": "ietf-120",
+    "dtime": 3308000,
+    "ptime": 3308000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Ben, those limits are SMTP line length limits, but nothing limits a header to a single line</p>",
+    "topic": "ietf-120",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Should clients be doing DKIM?<br>\ngood point!</p>",
+    "topic": "ietf-120",
+    "dtime": 3583000,
+    "ptime": 3583000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Or is there a stronger need for DKIM here than on other messages?</p>",
+    "topic": "ietf-120",
+    "dtime": 3623000,
+    "ptime": 3623000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>(I agree that clients probably shouldn't do it)</p>",
+    "topic": "ietf-120",
+    "dtime": 3650000,
+    "ptime": 3650000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>(or at least not be required to do so)</p>",
+    "topic": "ietf-120",
+    "dtime": 3663000,
+    "ptime": 3663000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>I would classify SML as less dangerous than HTML (in most use cases)</p>",
+    "topic": "ietf-120",
+    "dtime": 3718000,
+    "ptime": 3718000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I don't know whether this is worth saying on the mic or the list, but I really think the privacy and security stuff should be in the main document, not separated out.</p>",
+    "topic": "ietf-120",
+    "dtime": 3759000,
+    "ptime": 3759000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Daniel as far as I understand the authorized-results (?) header is added by the incoming MTA (and in practice many MTAs seem to do)</p>",
+    "topic": "ietf-120",
+    "dtime": 3778000,
+    "ptime": 3778000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>@pete, I assume that this initial document is the starting point for what will eventually be folded into the core spec (that's my guess), but it's starting more as a discussion piece (e.g. talking about trust models, etc.).</p>",
+    "topic": "ietf-120",
+    "dtime": 3845000,
+    "ptime": 3845000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Trust is more about policy and situations. Where as the core spec is more about the technical protocol aspects.</p>",
+    "topic": "ietf-120",
+    "dtime": 3917000,
+    "ptime": 3917000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>@HaJo -- Murray and Phillip just observed that ARC doesn't have any cryptographic protections at all, so the MUA depends on its MTA to strip bogus ARC headers.  that's … not great</p>",
+    "topic": "ietf-120",
+    "dtime": 4057000,
+    "ptime": 4057000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Ben look up \"Calendar Spam\"</p>",
+    "topic": "ietf-120",
+    "dtime": 4203000,
+    "ptime": 4203000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p><a href=\"https://standards.calconnect.org/csd/cc-18003.html\">https://standards.calconnect.org/csd/cc-18003.html</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4227000,
+    "ptime": 4227000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>wow, so somebody figured that out</p>",
+    "topic": "ietf-120",
+    "dtime": 4227000,
+    "ptime": 4227000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>That CalConnect/M3AAWG joint document was in response to some Spam campaigns (probably mentioned in the document)</p>",
+    "topic": "ietf-120",
+    "dtime": 4256000,
+    "ptime": 4256000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Exactly. What Michael said.</p>",
+    "topic": "ietf-120",
+    "dtime": 4309000,
+    "ptime": 4309000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Ben: I understood you argued against \"trusted sender\" in terms of you don't like, e.g., Roundcubes current \"trusted sender\" for loading remote image content as a baseline already?</p>",
+    "topic": "ietf-120",
+    "dtime": 4364000,
+    "ptime": 4364000
+  },
+  {
+    "author": "Michael Slusarz",
+    "text": "<p>I agree with Arnt's statement that it becomes easier to shoot yourself in the foot</p>",
+    "topic": "ietf-120",
+    "dtime": 4386000,
+    "ptime": 4386000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>we don't <em>all</em> live with html, fwiw.  and saying \"don't make it worse than this horrible mess\" isn't a terrific argument.</p>",
+    "topic": "ietf-120",
+    "dtime": 4442000,
+    "ptime": 4442000
+  },
+  {
+    "author": "Aayush Gupta",
+    "text": "<p>It seems to me that independently of client verified dkim, to have verifiability, the MTA should be signing any structured data with DKIM (i.e. data or at least hashes should be in the body over the header for that reason)</p>",
+    "topic": "ietf-120",
+    "dtime": 4443000,
+    "ptime": 4443000
+  },
+  {
+    "author": "Aayush Gupta",
+    "text": "<p>I actually like forcing the client to verify with DKIM -- even if the client's mailserver edits it, the 'download original eml' or whatever should still give clients the ability to verify their own emails and not have to trust their mailserver</p>",
+    "topic": "ietf-120",
+    "dtime": 4550000,
+    "ptime": 4550000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 to Ayush, if anyone ships it and we care about authenticity, you do want it to be covered by DKIM, so that the recipient MTA can confirm it</p>",
+    "topic": "ietf-120",
+    "dtime": 4588000,
+    "ptime": 4588000
+  },
+  {
+    "author": "Michael Slusarz",
+    "text": "<p>And I agree with Pete's statement that it is useful to educate people on the new ways you can shoot yourself in the foot, even if it is the same root causes</p>",
+    "topic": "ietf-120",
+    "dtime": 4598000,
+    "ptime": 4598000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Did somebody say \"location\" use case? That soulds interesting :)</p>",
+    "topic": "ietf-120",
+    "dtime": 4629000,
+    "ptime": 4629000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>As Peter Saint-Andre used to say, \"Don't leave foot-guns laying around.\"</p>",
+    "topic": "ietf-120",
+    "dtime": 4635000,
+    "ptime": 4635000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>+1 :)</p>",
+    "topic": "ietf-120",
+    "dtime": 4655000,
+    "ptime": 4655000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>but i disagree with Aayush about client-side DKIM checking.  it's not robust (keys can disappear between message delivery at the MTA and message read by the MUA) and it creates an additional privacy risk.</p>",
+    "topic": "ietf-120",
+    "dtime": 4678000,
+    "ptime": 4678000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I think it's worth saying that because this structured data has more cool/fancy/interesting/machine-readable stuff, encryption might be more important than the average email message.</p>",
+    "topic": "ietf-120",
+    "dtime": 4914000,
+    "ptime": 4914000
+  },
+  {
+    "author": "Aayush Gupta",
+    "text": "<p>agree that we should address Daniel's concerns -- perhaps changing DKIM a bit to ensure previous keys are still available via caches or something, for some period of time to avoid failures on rotation seems good? i guess it seems preferable to me to enable DKIM and encourage client side dkim checking, even if rarely DKIMs fail for people who receive mail from a new sender during a key rotation -- vs nerfing DKIM + reducing verifiability across the board</p>",
+    "topic": "ietf-120",
+    "dtime": 4919000,
+    "ptime": 4919000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Agreed with Daniel.<br>\nThe trust document can point out problems and <em>possible</em> solutions, but the client has to choose what to do.</p>",
+    "topic": "ietf-120",
+    "dtime": 4940000,
+    "ptime": 4940000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>I think that the core SML specification should allow (and possibly enable) some or all data elements in the structure being encrypted (and/or signed) - that's separate from the overall email itself.</p>",
+    "topic": "ietf-120",
+    "dtime": 4941000,
+    "ptime": 4941000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>(Daniel Eggert)</p>",
+    "topic": "ietf-120",
+    "dtime": 4955000,
+    "ptime": 4955000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-ietf-lamps-e2e-mail-guidance/\">https://datatracker.ietf.org/doc/draft-ietf-lamps-e2e-mail-guidance/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4979000,
+    "ptime": 4979000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Interesting point Trent.</p>",
+    "topic": "ietf-120",
+    "dtime": 5048000,
+    "ptime": 5048000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>@Trent: The only realistic way I can see to make that happen would be to use MIME parts for SML and then encrypt that part.</p>",
+    "topic": "ietf-120",
+    "dtime": 5062000,
+    "ptime": 5062000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>please don't try to squeeze part-wise e2e cryptographic properties into this draft.  there are a lot of dragons there</p>",
+    "topic": "ietf-120",
+    "dtime": 5077000,
+    "ptime": 5077000
+  },
+  {
+    "author": "Aayush Gupta",
+    "text": "<p>+1 on defining ways that DKIM can pass on encrypted messages, because right now i.e. protonmail must sign signatures on plaintext for other mailservers to receive, which is annoying since it must decrypt first so you have to trust your MTA (protonmail). would be cool if the standard let DKIM pass even on encrypted text</p>",
+    "topic": "ietf-120",
+    "dtime": 5077000,
+    "ptime": 5077000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>part-wise e2e protections are  an entirely different chunk of work</p>",
+    "topic": "ietf-120",
+    "dtime": 5116000,
+    "ptime": 5116000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Think about forwarding an SML part where you would want to verify that it came originally from a trusted sender.</p>",
+    "topic": "ietf-120",
+    "dtime": 5139000,
+    "ptime": 5139000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>But there's big problems for clients. <a href=\"https://efail.de\">https://efail.de</a> pointed out major problems when only parts of the email are encrypted. It's tricky for clients to implement correctly. Esp. in the UI.</p>",
+    "topic": "ietf-120",
+    "dtime": 5141000,
+    "ptime": 5141000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>remember, the web used to just use https for \"credit card entry forms\".  turns out that doesn't actually protect users</p>",
+    "topic": "ietf-120",
+    "dtime": 5150000,
+    "ptime": 5150000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 Ben</p>",
+    "topic": "ietf-120",
+    "dtime": 5156000,
+    "ptime": 5156000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>@Aayush, DKIM currently signs encrypted messages just fine</p>",
+    "topic": "ietf-120",
+    "dtime": 5215000,
+    "ptime": 5215000
+  },
+  {
+    "author": "Aayush Gupta",
+    "text": "<p>regarding daniel gillmor's original point, i wonder if we can ensure dkim passing after key expiry can be done by forcing dnssec on at least dkim keys, so that one can attach a signature chain as a hint and a client can verify it even after key expiry</p>",
+    "topic": "ietf-120",
+    "dtime": 5253000,
+    "ptime": 5253000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>@Ban - I could be wrong... but in my mind, I can foresee being able to encrypt a single JSON-LD element within an otherwise unencrypted SML MIME part package.</p>",
+    "topic": "ietf-120",
+    "dtime": 5253000,
+    "ptime": 5253000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"510\">@Trent Adams</span> I agree with Ben: If you want to do that, probably put that part in a separate MIME part and use MIME security to encrypt or sign that.</p>",
+    "topic": "ietf-120",
+    "dtime": 5320000,
+    "ptime": 5320000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Yes for adoption</p>",
+    "topic": "ietf-120",
+    "dtime": 5425000,
+    "ptime": 5425000
+  },
+  {
+    "author": "Aayush Gupta",
+    "text": "<p>+1 on not even putting part wise protection in the draft -- making it an option might lead to things not being signed or encrypted that should be</p>",
+    "topic": "ietf-120",
+    "dtime": 5477000,
+    "ptime": 5477000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>What Murray means is, he's inviting us to his house to talk.</p>",
+    "topic": "ietf-120",
+    "dtime": 5602000,
+    "ptime": 5602000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Great, let's party on the list :)</p>",
+    "topic": "ietf-120",
+    "dtime": 5618000,
+    "ptime": 5618000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-SML-20240723-2230"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/sml"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-SML-20240723-2230"
+		}		
+	]
+}

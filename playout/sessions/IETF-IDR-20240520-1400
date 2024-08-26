@@ -1,0 +1,406 @@
+
+{
+	"title": "IETF-IDR-20240520-1400",
+	"filename": "IETF-IDR-20240520-1400",
+	"start": 0,
+	"end": 5962000,
+	"start_datetime": "2024-05-20T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "q96ozw6RAqs",
+    "start": 0,
+    "end": "5962000"
+  }
+],
+	"messages": [
+  {
+    "author": "Susan Hares",
+    "text": "<p>Jie - are you presenting the first draft?</p>",
+    "topic": "ietf-interim",
+    "dtime": 23000,
+    "ptime": 23000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Good morning Alvaro..</p>",
+    "topic": "ietf-interim",
+    "dtime": 37000,
+    "ptime": 37000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>No, I think Ran will present</p>",
+    "topic": "ietf-interim",
+    "dtime": 40000,
+    "ptime": 40000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>I can hear nothing...</p>",
+    "topic": "ietf-interim",
+    "dtime": 51000,
+    "ptime": 51000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>We'll wait a moment for Ran Chen to arrive.</p>",
+    "topic": "ietf-interim",
+    "dtime": 66000,
+    "ptime": 66000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Jie can you hear me?</p>",
+    "topic": "ietf-interim",
+    "dtime": 78000,
+    "ptime": 78000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Sue has been speaking.</p>",
+    "topic": "ietf-interim",
+    "dtime": 79000,
+    "ptime": 79000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>We'll start in 5 minutes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 93000,
+    "ptime": 93000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>Sue, I can hear you ok</p>",
+    "topic": "ietf-interim",
+    "dtime": 101000,
+    "ptime": 101000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Ran - can you do a mike check by saying hi this morning?</p>",
+    "topic": "ietf-interim",
+    "dtime": 117000,
+    "ptime": 117000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Yes I can hear now, thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 332000,
+    "ptime": 332000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Joel, would you paste the spring draft name here?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1088000,
+    "ptime": 1088000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>and let's also repeat this on th elist.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1096000,
+    "ptime": 1096000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>Joel's question also seems to apply to draft-ietf-idr-sr-policy-nrp, which also carries an NRP ID.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1131000,
+    "ptime": 1131000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>draft-ietf-spring-resource-aware-segments</p>",
+    "topic": "ietf-interim",
+    "dtime": 1168000,
+    "ptime": 1168000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thanks.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1178000,
+    "ptime": 1178000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>In my understanding this draft is related to the mechanism of using NRP-ID in data packet.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1261000,
+    "ptime": 1261000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>What spring draft has been adopted that describes that mechanism?  As far as I know, the adopted mechanisms for SR with NRP (eithe rmPLS or SRv6) do not use a separate NRP-ID.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1352000,
+    "ptime": 1352000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>6man work on NRP-IDs would still need to explain the relationship to SRv6.  And doesn't seem to apply to SR-MPLS at all.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1507000,
+    "ptime": 1507000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>The NRP-ID based approach in 6man can be used with or without SRv6. When used with SRv6, it will be used with normal SRv6 SIDs, as the resource used will be indicated by the NRP-ID</p>",
+    "topic": "ietf-interim",
+    "dtime": 1720000,
+    "ptime": 1720000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>I think it would be beneficial to cover this in a Spring WG draft.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1936000,
+    "ptime": 1936000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>There is also a similar draft in PCE WG for NRP with SR Policy - draft-dong-pce-pcep-nrp ... all the more reason for this to be covered generically in a SPRING draft.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2152000,
+    "ptime": 2152000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Joel is correct. This IDR draft needs to allocate these new SR Seg Types : <a href=\"https://www.iana.org/assignments/segment-routing/segment-routing.xhtml#segment-types\">https://www.iana.org/assignments/segment-routing/segment-routing.xhtml#segment-types</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2475000,
+    "ptime": 2475000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Thanks for the comments Ketan. While it is not quite clear to me when a SPRING draft is needed, and when the extensions can be done in IDR or other relevant WGs.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2584000,
+    "ptime": 2584000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p><a href=\"https://www.iana.org/assignments/segment-routing/segment-routing.xhtml#segment-types\">https://www.iana.org/assignments/segment-routing/segment-routing.xhtml#segment-types</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Summary: We need to coordinate the allocation at the same time.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2799000,
+    "ptime": 2799000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Just a heads up, I have a conflict and need to leave in 10 minutes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2874000,
+    "ptime": 2874000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Jie, regarding NRPs an SR Policies, if youa re refering to <a href=\"https://www.ietf.org/archive/id/draft-ietf-6man-enhanced-vpn-vtn-id-06.html\">https://www.ietf.org/archive/id/draft-ietf-6man-enhanced-vpn-vtn-id-06.html</a> then somewhere we need to explain how that relates to SR, since as written it has no reference to SR.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3022000,
+    "ptime": 3022000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Ketan you are in queue, but I'm not hearing your voice.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3195000,
+    "ptime": 3195000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Thanks Joel, I understand your point. The 6man draft  does not rely on SR, while it can be used with SR. We will consider how and where to reflect its relationship with SRv6.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3303000,
+    "ptime": 3303000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>H.insert is not standardized, and is expected to face serious resistance if there is an effort to standardize it.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3707000,
+    "ptime": 3707000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>If this draft were to cite H.insert, it would likely need review in SPRING and 6man.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3730000,
+    "ptime": 3730000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Sorry, have to run.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3745000,
+    "ptime": 3745000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Alvaro have you seen the update on draft-lin-idr-sr-epe-over-l2bundle</p>",
+    "topic": "ietf-interim",
+    "dtime": 3990000,
+    "ptime": 3990000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I find the use case of a low-latency member in a bundle to be unusual.  LAG members should share similar properties to avoid issues with packet reordering, for example.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4012000,
+    "ptime": 4012000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jeffrey - agree.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4100000,
+    "ptime": 4100000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>The use case is for more granular steering of flows over LAG members to ensure there is no over-subscription for certain flows.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4149000,
+    "ptime": 4149000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"745\">@Susan Hares</span> No, I was just looking at it. :-(  I am under the impression that everything this draft describes already could work<br>\n that way...</p>",
+    "topic": "ietf-interim",
+    "dtime": 4160000,
+    "ptime": 4160000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Alvaro, this is just specifying the procedures and does not define any new TLVs - only the use of existing TLVs in a certain additional manner.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4221000,
+    "ptime": 4221000
+  },
+  {
+    "author": "Mengxiao Chen",
+    "text": "<p>@Jeffery Traffics may be per-flow load balanced between LAG members. This could help avoid reordering for a certain flow.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4236000,
+    "ptime": 4236000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>It is required so routers do so consistently and consumers are aware and consume it accordingly (the later is though beyond the scope of BGP-LS :-))</p>",
+    "topic": "ietf-interim",
+    "dtime": 4265000,
+    "ptime": 4265000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>IEEE LAG procedures permit balancing as the implementation wants to do.  Consistency in hashing of traffic over members is common.  </p>\n<p>It's the inclusion of links of different capabilities in a LAG that I find unusual.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4302000,
+    "ptime": 4302000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>@Ketan Right.  That I think it may not be needed is not blocking.  I guess it can't hurt to explain things more...</p>",
+    "topic": "ietf-interim",
+    "dtime": 4337000,
+    "ptime": 4337000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Alvaro - ack. That said, I think the authors will discuss your feedback that a formal \"update\" is not required in this case.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4392000,
+    "ptime": 4392000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>it's not important to repeat my point on mic</p>",
+    "topic": "ietf-interim",
+    "dtime": 4423000,
+    "ptime": 4423000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>The use of PeerAdj SID for inter-domain bundle link may also be used for resource partition, as described in draft-ietf-idr-bgpls-sr-vtn-mt</p>",
+    "topic": "ietf-interim",
+    "dtime": 4577000,
+    "ptime": 4577000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Template Architecture is bigger than this draft [Alvaro</p>",
+    "topic": "ietf-interim",
+    "dtime": 5501000,
+    "ptime": 5501000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>oops - Template architecture needs to be discusses or pointed to.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5515000,
+    "ptime": 5515000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-alvarez-pce-path-profiles-04\">https://datatracker.ietf.org/doc/html/draft-alvarez-pce-path-profiles-04</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 5616000,
+    "ptime": 5616000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>That draft expired a long time ago. :-(</p>",
+    "topic": "ietf-interim",
+    "dtime": 5667000,
+    "ptime": 5667000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>but there are implementations ... with vendor specific tlvs perhaps</p>",
+    "topic": "ietf-interim",
+    "dtime": 5812000,
+    "ptime": 5812000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>i agree this needs work in spring</p>",
+    "topic": "ietf-interim",
+    "dtime": 5823000,
+    "ptime": 5823000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>for pcep</p>",
+    "topic": "ietf-interim",
+    "dtime": 5838000,
+    "ptime": 5838000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-IDR-20240520-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-idr-04/session/idr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-IDR-20240520-1400"
+		}
+	]
+}

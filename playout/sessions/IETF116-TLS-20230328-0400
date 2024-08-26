@@ -1,0 +1,1988 @@
+
+{
+	"title": "IETF116-TLS-20230328-0400",
+	"filename": "IETF116-TLS-20230328-0400",
+	"start": 0,
+	"end": 7106000,
+	"start_datetime": "2023-03-28T03:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "u_sFyz4F7dc",
+    "start": 0,
+    "end": "7106000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Aren't computers wonderful.</p>",
+    "topic": "ietf-116",
+    "dtime": 117000,
+    "ptime": 117000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I can take notes, but would appreciate a second note-taker.</p>",
+    "topic": "jabber",
+    "dtime": 204000,
+    "ptime": 204000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>let's deprecate 1.3!</p>",
+    "topic": "ietf-116",
+    "dtime": 225000,
+    "ptime": 225000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I can take notes, but would appreciate a second note-taker.</p>",
+    "topic": "ietf-116",
+    "dtime": 236000,
+    "ptime": 236000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>KEMTLS as TLS 1.4?</p>",
+    "topic": "ietf-116",
+    "dtime": 242000,
+    "ptime": 242000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>SVCB is pretty much deployed?</p>",
+    "topic": "ietf-116",
+    "dtime": 461000,
+    "ptime": 461000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Yep, SVCB (well, HTTPS) is live in all browsers and many websites</p>",
+    "topic": "ietf-116",
+    "dtime": 483000,
+    "ptime": 483000
+  },
+  {
+    "author": "Amir Omidi",
+    "text": "<p>That's great to hear</p>",
+    "topic": "ietf-116",
+    "dtime": 499000,
+    "ptime": 499000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>yeah, but support for the ECH extensions? Is such support needed or do they just let people add any SVCB extensions?</p>",
+    "topic": "ietf-116",
+    "dtime": 503000,
+    "ptime": 503000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Use of the \"ech\" SVCB key is well-defined but still basically experimental.  I'll be talking about the formal status of that in a few minutes.</p>",
+    "topic": "ietf-116",
+    "dtime": 572000,
+    "ptime": 572000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>I am interested in deployment of 'ech' fields in DNS that support SVCB.</p>",
+    "topic": "ietf-116",
+    "dtime": 615000,
+    "ptime": 615000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Because without DNS support of 'ech' then ECH in TLS is not very useful, IMO</p>",
+    "topic": "ietf-116",
+    "dtime": 641000,
+    "ptime": 641000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yes, that's correct.</p>",
+    "topic": "ietf-116",
+    "dtime": 648000,
+    "ptime": 648000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>The \"ech\" key definition is stable, but the contents are an ECHConfigList, which has not reached WGLC, so SVCB is basically not the limiting factor.</p>",
+    "topic": "ietf-116",
+    "dtime": 678000,
+    "ptime": 678000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"11\">@Rich Salz</span> I'm not sure I understand your thesis, though. I mean, the DNS kind of needs to be coordinated with the service provider.</p>",
+    "topic": "ietf-116",
+    "dtime": 681000,
+    "ptime": 681000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>So, I would imagine any service provider ready to deploy ECH can make SVCB work</p>",
+    "topic": "ietf-116",
+    "dtime": 700000,
+    "ptime": 700000
+  },
+  {
+    "author": "Kyle Nekritz",
+    "text": "<p>We (Meta) will hopefully have some ECH experimentation/deployment within the next couple months as well</p>",
+    "topic": "ietf-116",
+    "dtime": 721000,
+    "ptime": 721000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Is the concern that we don't have a good plan for SVCB documents?  Because that has been worked out now (and presumably is what we'll be talking about in a few minutes)</p>",
+    "topic": "ietf-116",
+    "dtime": 721000,
+    "ptime": 721000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1819\">@Kyle Nekritz</span> AMAZING</p>",
+    "topic": "ietf-116",
+    "dtime": 729000,
+    "ptime": 729000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Being mostly ignorant, on purpose, of DNS I want to know if 'ech' needs extra work above and beyond SVCB and if, for example, it's supported/supportable in BIKND</p>",
+    "topic": "ietf-116",
+    "dtime": 732000,
+    "ptime": 732000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>\\o/</p>",
+    "topic": "ietf-116",
+    "dtime": 738000,
+    "ptime": 738000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1819\">@Kyle Nekritz</span> WOOHOO</p>",
+    "topic": "ietf-116",
+    "dtime": 743000,
+    "ptime": 743000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>We managed to configure the straight HTTPS record in BIND for something</p>",
+    "topic": "ietf-116",
+    "dtime": 761000,
+    "ptime": 761000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1819\">@Kyle Nekritz</span> great!</p>",
+    "topic": "ietf-116",
+    "dtime": 768000,
+    "ptime": 768000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>though it <em>might</em> have been with an explicit value</p>",
+    "topic": "ietf-116",
+    "dtime": 771000,
+    "ptime": 771000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>HTTPS in bind worked just fine far as I've seen</p>",
+    "topic": "ietf-116",
+    "dtime": 795000,
+    "ptime": 795000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"127\">@Joseph Salowey</span> rsa_fixed_dh and dss_fixed_dh in certificate types seem a little bit like they might need to be \"D\"</p>",
+    "topic": "ietf-116",
+    "dtime": 802000,
+    "ptime": 802000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>If the DNS server can publish SVCB records, adding particular keys <em>should</em> be minor. But I agree, it'd be good to have confirmation of that from DNS folks.</p>",
+    "topic": "ietf-116",
+    "dtime": 806000,
+    "ptime": 806000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>sorry, when I said \"with bind\" I meant publishing ech= values too</p>",
+    "topic": "ietf-116",
+    "dtime": 834000,
+    "ptime": 834000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>If we're waiting on more data from the TLS side to move forward than getting any data from the DNS side seems like something to get as well.</p>",
+    "topic": "ietf-116",
+    "dtime": 887000,
+    "ptime": 887000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Hmm.. I thought we had deployed https but I think I was wrong</p>",
+    "topic": "ietf-116",
+    "dtime": 931000,
+    "ptime": 931000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>But note that bind lets you just provide the bytestring and a numeric codepoint</p>",
+    "topic": "ietf-116",
+    "dtime": 940000,
+    "ptime": 940000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@EKR if you're still running on bare HTTP, you should really get on that</p>",
+    "topic": "ietf-116",
+    "dtime": 961000,
+    "ptime": 961000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> HTTP/0.9</p>",
+    "topic": "ietf-116",
+    "dtime": 981000,
+    "ptime": 981000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>bind knows about HTTPS now and takes the presentation format, I think NSD last I looked still needed the numeric codepoint but it's been a while</p>",
+    "topic": "ietf-116",
+    "dtime": 1020000,
+    "ptime": 1020000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Yeah, proving agreement on the templates is super important. It needs to be bound into the key-schedule.</p>",
+    "topic": "ietf-116",
+    "dtime": 1024000,
+    "ptime": 1024000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>(Also, come to the Usable Formal Methods RG tomorrow <span aria-label=\"partying face\" class=\"emoji emoji-1f973\" role=\"img\" title=\"partying face\">:partying_face:</span> )</p>",
+    "topic": "ietf-116",
+    "dtime": 1076000,
+    "ptime": 1076000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 1109000,
+    "ptime": 1109000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>oh no, i hadn't looked to see how much work it would be</p>",
+    "topic": "ietf-116",
+    "dtime": 1130000,
+    "ptime": 1130000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>why secp384r1+Kyber768? I would think secp256r1+Kyber768 would be a better choice right now.</p>",
+    "topic": "ietf-116",
+    "dtime": 1200000,
+    "ptime": 1200000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>secp256k1!</p>",
+    "topic": "ietf-116",
+    "dtime": 1230000,
+    "ptime": 1230000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>(yes, sorry)</p>",
+    "topic": "ietf-116",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>(That was a joke)</p>",
+    "topic": "ietf-116",
+    "dtime": 1251000,
+    "ptime": 1251000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>:)</p>",
+    "topic": "ietf-116",
+    "dtime": 1263000,
+    "ptime": 1263000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Is there a reason not to put this in an RFC cluster with Kyber, and make the initial codepoint <code>X25519Kyber768</code>?</p>",
+    "topic": "ietf-116",
+    "dtime": 1320000,
+    "ptime": 1320000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Let's keep it simple. Boring concatenation works fine here.</p>",
+    "topic": "ietf-116",
+    "dtime": 1327000,
+    "ptime": 1327000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>+1 David</p>",
+    "topic": "ietf-116",
+    "dtime": 1336000,
+    "ptime": 1336000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>how's all that kyber IPR stuff going?</p>",
+    "topic": "ietf-116",
+    "dtime": 1392000,
+    "ptime": 1392000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I like the suggestion to have a draft that registers a codepoint but never becomes an RFC.  When NIST is done, we let the draft expire and register the final combination elsewhere.</p>",
+    "topic": "ietf-116",
+    "dtime": 1734000,
+    "ptime": 1734000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>+1 to Russ's points.</p>",
+    "topic": "ietf-116",
+    "dtime": 1789000,
+    "ptime": 1789000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>also +1 to Russ' point on IPR - it'd be bad to see possibly encumbered stuff at this level</p>",
+    "topic": "ietf-116",
+    "dtime": 1854000,
+    "ptime": 1854000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>Length-prefixed parts seem reasonable to me.</p>",
+    "topic": "ietf-116",
+    "dtime": 1932000,
+    "ptime": 1932000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>FWIW, I'm suggesting that we don't wait to see what CFRG says, unless they decide to explode the whole idea of k1||k2</p>",
+    "topic": "ietf-116",
+    "dtime": 1953000,
+    "ptime": 1953000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>length prefixing is pointless work</p>",
+    "topic": "ietf-116",
+    "dtime": 1968000,
+    "ptime": 1968000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> said \"very extensible\", which - despite knowing what he meant - still engages a visceral reaction in me</p>",
+    "topic": "ietf-116",
+    "dtime": 2046000,
+    "ptime": 2046000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"11\">@Rich Salz</span> , on the SVCB topic there's also a defined ability to represent parameters in zone files as keyNNN=\"data\" even if the ech= parameter doesn't have a presentation to wire format parser yet.</p>",
+    "topic": "ietf-116",
+    "dtime": 2067000,
+    "ptime": 2067000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>adopt it</p>",
+    "topic": "ietf-116",
+    "dtime": 2203000,
+    "ptime": 2203000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>would you say that kind of thing is ready for wide-spread deployment?</p>",
+    "topic": "ietf-116",
+    "dtime": 2215000,
+    "ptime": 2215000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>adopt - get dnsdir for review asap as well - although i don't see any issues there either</p>",
+    "topic": "ietf-116",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>so the tl;dr here is just \"split the ECH stuff out of SVCB\"?</p>",
+    "topic": "ietf-116",
+    "dtime": 2240000,
+    "ptime": 2240000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>@Erik, I mean \"is putting key=bytes\" qualify as ready for large-scale deployment, that the rest of ECH is requiring before moving forward?</p>",
+    "topic": "ietf-116",
+    "dtime": 2296000,
+    "ptime": 2296000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>agree about keeping it seperate as well</p>",
+    "topic": "ietf-116",
+    "dtime": 2378000,
+    "ptime": 2378000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/140-tls/topic/ietf-116/near/66739\">said</a>:</p>\n<blockquote>\n<p>so the tl;dr here is just \"split the ECH stuff out of SVCB\"?</p>\n</blockquote>\n<p>Yes, exactly. It was a little odd there anyway, since ECH isn't necessarily a core aspect of connection setup. But it's a natural extension to register.</p>",
+    "topic": "ietf-116",
+    "dtime": 2392000,
+    "ptime": 2392000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>So rather than ech=\"[...]\" you'd do key5=\"[...]\".  The presentation format is defined as being base64 for ech= (before being converted to binary wire format)  whereas with key5= it would be escaped encoding.   All of the other plumbing (eg, key synchronization, etc) is going to be much more work than just the presentation to wire format conversion.  (And it's likely that bind9 already just supports ech=)</p>",
+    "topic": "ietf-116",
+    "dtime": 2416000,
+    "ptime": 2416000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"11\">@Rich Salz</span> bind takes that just fine, e.g. \"HTTPS   1 <a href=\"http://draft-13.esni.defo.ie\">draft-13.esni.defo.ie</a>. ech=AMD+DQA88QAgACDP5BkVscfKSJcI3UtV/rZ3ZkG/OGhYmL0g2MfxBipJAwAEAAEAAQANY292ZXIuZGVmby5pZQAA/g0APMkAIAAgqrQDl0Of4LDPk92pyTp7phw0vBdNEmfekpL62rbLYmUABAABAAEADWNvdmVyLmRlZm8uaWUAAP4NADxfACAAIBnMZspPBWTQE3dsaLJofWHb8AWIOL2cEUwtwVKhvv11AAQAAQABAA1jb3Zlci5kZWZvLmllAAA=\" is from a zone file for bind</p>",
+    "topic": "ietf-116",
+    "dtime": 2417000,
+    "ptime": 2417000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>whatever gets the docs done, man</p>",
+    "topic": "ietf-116",
+    "dtime": 2431000,
+    "ptime": 2431000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>If we merge this with anything, it might be the draft using .well-known URLs.  Different ways of discovering the ECH config.</p>",
+    "topic": "ietf-116",
+    "dtime": 2453000,
+    "ptime": 2453000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>maybe we could osmosis it, but keep it in the Approved IESG state</p>",
+    "topic": "ietf-116",
+    "dtime": 2458000,
+    "ptime": 2458000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>stretch goal for the chairs</p>",
+    "topic": "ietf-116",
+    "dtime": 2463000,
+    "ptime": 2463000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>merging in the .well-known stuff might make sense, can be looked at later</p>",
+    "topic": "ietf-116",
+    "dtime": 2475000,
+    "ptime": 2475000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>-1 to combining with anything else.  keep the already-approved stuff separate from anything new</p>",
+    "topic": "ietf-116",
+    "dtime": 2499000,
+    "ptime": 2499000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Richard that's a fair point</p>",
+    "topic": "ietf-116",
+    "dtime": 2528000,
+    "ptime": 2528000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>+1 to Richard's -1 -- the other Richard.</p>",
+    "topic": "ietf-116",
+    "dtime": 2535000,
+    "ptime": 2535000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Merging with the .well-known might be more confusing?  Since they have fairly different (albeit complementry) purposes</p>",
+    "topic": "ietf-116",
+    "dtime": 2536000,
+    "ptime": 2536000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i violently agree :D</p>",
+    "topic": "ietf-116",
+    "dtime": 2539000,
+    "ptime": 2539000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I would just make the signatures smaller</p>",
+    "topic": "ietf-116",
+    "dtime": 2636000,
+    "ptime": 2636000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>But I'd also prefer to just keep it separate given that almost all of this was in the RFC Editor queue already, so it would be better to not open .</p>",
+    "topic": "ietf-116",
+    "dtime": 2643000,
+    "ptime": 2643000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i mean, do we really need signatures?</p>",
+    "topic": "ietf-116",
+    "dtime": 2647000,
+    "ptime": 2647000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>can't we just use the blockchain?</p>",
+    "topic": "ietf-116",
+    "dtime": 2662000,
+    "ptime": 2662000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> good plans</p>",
+    "topic": "ietf-116",
+    "dtime": 2682000,
+    "ptime": 2682000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i mean, CT is basically a blockchain</p>",
+    "topic": "ietf-116",
+    "dtime": 2695000,
+    "ptime": 2695000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> isn't that what the idea is?</p>",
+    "topic": "ietf-116",
+    "dtime": 2700000,
+    "ptime": 2700000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yeah i was just realizing that</p>",
+    "topic": "ietf-116",
+    "dtime": 2708000,
+    "ptime": 2708000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Not all merkle trees are blockchains :)</p>",
+    "topic": "ietf-116",
+    "dtime": 2715000,
+    "ptime": 2715000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Can we just use Ethereum?</p>",
+    "topic": "ietf-116",
+    "dtime": 2717000,
+    "ptime": 2717000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>TLSCoin?</p>",
+    "topic": "ietf-116",
+    "dtime": 2730000,
+    "ptime": 2730000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>CACoin</p>",
+    "topic": "ietf-116",
+    "dtime": 2741000,
+    "ptime": 2741000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Yes, let's solve the micropayments problem since X509 is too hard to change</p>",
+    "topic": "ietf-116",
+    "dtime": 2745000,
+    "ptime": 2745000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>nifty-tls</p>",
+    "topic": "ietf-116",
+    "dtime": 2752000,
+    "ptime": 2752000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Alex - CT-like, \"grow to the right\" Merkle trees are an awful lot like blockchains</p>",
+    "topic": "ietf-116",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>blockchains with log-depth proofs</p>",
+    "topic": "ietf-116",
+    "dtime": 2763000,
+    "ptime": 2763000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>This draft doesn't grow to the right, AIUI, it is a fixed-width window</p>",
+    "topic": "ietf-116",
+    "dtime": 2768000,
+    "ptime": 2768000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>nice to see that MLS isn't the only WG that includes a graph theory seminar</p>",
+    "topic": "ietf-116",
+    "dtime": 2809000,
+    "ptime": 2809000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>not to be confused with a steve urkel tree</p>",
+    "topic": "ietf-116",
+    "dtime": 2833000,
+    "ptime": 2833000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>LOL</p>",
+    "topic": "ietf-116",
+    "dtime": 2840000,
+    "ptime": 2840000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>DID I SIGN THAT??</p>",
+    "topic": "ietf-116",
+    "dtime": 2850000,
+    "ptime": 2850000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>no mention here of delegated credentials</p>",
+    "topic": "ietf-116",
+    "dtime": 2934000,
+    "ptime": 2934000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>though the same logic applies</p>",
+    "topic": "ietf-116",
+    "dtime": 2940000,
+    "ptime": 2940000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/140-tls/topic/ietf-116/near/66712\">said</a>:</p>\n<blockquote>\n<p>FWIW, I'm suggesting that we don't wait to see what CFRG says, unless they decide to explode the whole idea of k1||k2</p>\n</blockquote>\n<p>The question is whether you want <code>k1||ct1||k2||ct2</code>, and separately whether any of those things are (or need to be) fixed-length. For TLS, as I understand it, it doesn't matter, largely because ephemeral KEM means that you can't do repeated chosen-ciphertext attacks against the same server key.</p>",
+    "topic": "ietf-116",
+    "dtime": 2986000,
+    "ptime": 2986000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> yeah, we don't worry about that extra information presently in TLS</p>",
+    "topic": "ietf-116",
+    "dtime": 3049000,
+    "ptime": 3049000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>that is bound later via Finished and the transcript</p>",
+    "topic": "ietf-116",
+    "dtime": 3081000,
+    "ptime": 3081000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I mean there is some benefit to considering framing of some kind, if we're worried about some clever attack where <code>k1||k2 == k3||k4</code> for <code>k1 ≠ k3</code> and <code>k2 ≠ k4</code>.</p>",
+    "topic": "ietf-116",
+    "dtime": 3109000,
+    "ptime": 3109000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>issuance delay was a killer for doing inclusion proofs in CT.  EKR and i wrote up a scheme of exactly this shape for CT, and it was rejected on the basis of \"i can't issue a cert immediately\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3123000,
+    "ptime": 3123000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yep.</p>",
+    "topic": "ietf-116",
+    "dtime": 3157000,
+    "ptime": 3157000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I wonder if you can avoid the issuance delay using XMSS or similar.</p>",
+    "topic": "ietf-116",
+    "dtime": 3158000,
+    "ptime": 3158000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>This really is a blockchain, with a block time of 1h</p>",
+    "topic": "ietf-116",
+    "dtime": 3164000,
+    "ptime": 3164000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Please do not call things a blockchain that don't do the proof-of-work/proof-of-stake thing</p>",
+    "topic": "ietf-116",
+    "dtime": 3190000,
+    "ptime": 3190000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"782\">@Marten Seemann</span> inclusion proof contains work, so it is a proof of work?</p>",
+    "topic": "ietf-116",
+    "dtime": 3195000,
+    "ptime": 3195000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think the issuance delay is in part because of the need to include it in the transparency service.</p>",
+    "topic": "ietf-116",
+    "dtime": 3197000,
+    "ptime": 3197000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>^ +1</p>",
+    "topic": "ietf-116",
+    "dtime": 3214000,
+    "ptime": 3214000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/140-tls/topic/ietf-116/near/66868\">said</a>:</p>\n<blockquote>\n<p>I mean there is some benefit to considering framing of some kind, if we're worried about some clever attack where <code>k1||k2 == k3||k4</code> for <code>k1 ≠ k3</code> and <code>k2 ≠ k4</code>.</p>\n</blockquote>\n<p>That most certainly matters for \"the general case\" like CMS where you can pair arbitrarily bad KEMs (cough RSA-KEM RFC 5990) in a completely non-negotiated, non-transcripted way with long-term keys. The question here is whether that applies to TLS. Seems pretty consensus-y that it does not.</p>",
+    "topic": "ietf-116",
+    "dtime": 3216000,
+    "ptime": 3216000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yes, if you are relying on the inclusion proof, then you need the inclusion to be proven</p>",
+    "topic": "ietf-116",
+    "dtime": 3226000,
+    "ptime": 3226000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Do you really need the lifetime to be universal?  Seems like you just need a separate sub-tree for each batch of lifetimes.</p>",
+    "topic": "ietf-116",
+    "dtime": 3229000,
+    "ptime": 3229000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Why do that over having lots of different CAs with the global parameters?</p>",
+    "topic": "ietf-116",
+    "dtime": 3260000,
+    "ptime": 3260000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Seems analogous to me?</p>",
+    "topic": "ietf-116",
+    "dtime": 3268000,
+    "ptime": 3268000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> I think that you need some expectation of when then batch is available, just as a service guarantee if nothing else</p>",
+    "topic": "ietf-116",
+    "dtime": 3270000,
+    "ptime": 3270000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I actually think there's a reasonable argument that Haber-Stornetta timestamping services are blockchains, as is CT.</p>",
+    "topic": "ietf-116",
+    "dtime": 3278000,
+    "ptime": 3278000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Also there's \"permissioned\" blockchains</p>",
+    "topic": "ietf-116",
+    "dtime": 3293000,
+    "ptime": 3293000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>TLS 1.3 key schedule, also a blockchain</p>",
+    "topic": "ietf-116",
+    "dtime": 3297000,
+    "ptime": 3297000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>It can wait</p>",
+    "topic": "ietf-116",
+    "dtime": 3325000,
+    "ptime": 3325000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>MeetEcho's awesome 15sec unmute time strikes again!</p>",
+    "topic": "ietf-116",
+    "dtime": 3337000,
+    "ptime": 3337000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>So the efficiency here is coming from having cached the merkle tree?</p>",
+    "topic": "ietf-116",
+    "dtime": 3384000,
+    "ptime": 3384000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And the main signature</p>",
+    "topic": "ietf-116",
+    "dtime": 3397000,
+    "ptime": 3397000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> I believe that the cache only holds the heads</p>",
+    "topic": "ietf-116",
+    "dtime": 3398000,
+    "ptime": 3398000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>so you have a signature on the head from each CA, the inclusion proof provides the counter-hashes in the tree</p>",
+    "topic": "ietf-116",
+    "dtime": 3421000,
+    "ptime": 3421000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Each \"cert\" is an inclusion proof to some heads, and you need to deliver the signed heads for each batch</p>",
+    "topic": "ietf-116",
+    "dtime": 3423000,
+    "ptime": 3423000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>\"what if CT <em>was</em> the PKI??\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3449000,
+    "ptime": 3449000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>Does that mean that I have to contact the CA (or a mirror) to get the block that contains the certificate?</p>",
+    "topic": "ietf-116",
+    "dtime": 3479000,
+    "ptime": 3479000
+  },
+  {
+    "author": "Nicholas Gajcowski",
+    "text": "<p>Inclusion proof is necessary hashes to travese up tree root?</p>",
+    "topic": "ietf-116",
+    "dtime": 3503000,
+    "ptime": 3503000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nicholas - yes, the hashes on the \"copath\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3523000,
+    "ptime": 3523000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>You don't care which block has the cert. You just care a proof that the CA actually included it in the signature</p>",
+    "topic": "ietf-116",
+    "dtime": 3524000,
+    "ptime": 3524000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I think of it as \"If we have to do merkle signatures for PQ reasons, we might as well unify that with the CT merkle tree\".</p>",
+    "topic": "ietf-116",
+    "dtime": 3547000,
+    "ptime": 3547000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>But this isn't a merkle tree. Each batch of certificates is independent.</p>",
+    "topic": "ietf-116",
+    "dtime": 3589000,
+    "ptime": 3589000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Each batch is a merkle tree</p>",
+    "topic": "ietf-116",
+    "dtime": 3600000,
+    "ptime": 3600000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Yes, but no linkage between the windows.</p>",
+    "topic": "ietf-116",
+    "dtime": 3624000,
+    "ptime": 3624000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>Then I don't understand where the batching gives you any advantage</p>",
+    "topic": "ietf-116",
+    "dtime": 3645000,
+    "ptime": 3645000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>So in short you still need a transparency service for the transparency service :-P</p>",
+    "topic": "ietf-116",
+    "dtime": 3656000,
+    "ptime": 3656000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"782\">@Marten Seemann</span> batching reduces the load on the distribution system</p>",
+    "topic": "ietf-116",
+    "dtime": 3671000,
+    "ptime": 3671000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>@Dennis, by your definition wouldn't all \"merkle trees\" be immutable?</p>",
+    "topic": "ietf-116",
+    "dtime": 3678000,
+    "ptime": 3678000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>What</p>",
+    "topic": "ietf-116",
+    "dtime": 3682000,
+    "ptime": 3682000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>This draft moves the concern from \"I'm worried about what CAs are signing\" to \"I'm worried about what the transparency service is signing\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3695000,
+    "ptime": 3695000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>keep in mind that you need to effectively broadcast the tree heads to all web users</p>",
+    "topic": "ietf-116",
+    "dtime": 3696000,
+    "ptime": 3696000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>What's the difference between a head and a certificate? In this case seems just changing the terminology.</p>",
+    "topic": "ietf-116",
+    "dtime": 3703000,
+    "ptime": 3703000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>The transparency service isn't signing anything</p>",
+    "topic": "ietf-116",
+    "dtime": 3707000,
+    "ptime": 3707000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>It's just conveying signatures produces by the CAs to the RPs</p>",
+    "topic": "ietf-116",
+    "dtime": 3717000,
+    "ptime": 3717000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>The transparency service is the witness that those heads are correct and not split view.</p>",
+    "topic": "ietf-116",
+    "dtime": 3737000,
+    "ptime": 3737000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"11\">Rich Salz</span> <a href=\"#narrow/stream/140-tls/topic/ietf-116/near/66924\">said</a>:</p>\n<blockquote>\n<p>What's the difference between a head and a certificate? In this case seems just changing the terminology.</p>\n</blockquote>\n<p>maybe if you swap \"certificate\" for \"trust anchor\" ?</p>",
+    "topic": "ietf-116",
+    "dtime": 3737000,
+    "ptime": 3737000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> you might imagine a counter-signature from transparency services, along the lines of SCTs</p>",
+    "topic": "ietf-116",
+    "dtime": 3739000,
+    "ptime": 3739000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>And really the combination of transparency services / monitors decide what the root store is, effectievly</p>",
+    "topic": "ietf-116",
+    "dtime": 3740000,
+    "ptime": 3740000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> sure, but I don't think that's required for this scheme to work?</p>",
+    "topic": "ietf-116",
+    "dtime": 3755000,
+    "ptime": 3755000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>If the transparency service can equivocate, you're back in \"PKI without CT\" land.</p>",
+    "topic": "ietf-116",
+    "dtime": 3755000,
+    "ptime": 3755000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@mt yo dawg, i heard you like transparency</p>",
+    "topic": "ietf-116",
+    "dtime": 3763000,
+    "ptime": 3763000
+  },
+  {
+    "author": "Amir Omidi",
+    "text": "<p>@Dennis Jackson, its pretty simple to verify that the transparency services are following the CAs properly though</p>",
+    "topic": "ietf-116",
+    "dtime": 3832000,
+    "ptime": 3832000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>can DC + wildcards address the velocity issues</p>",
+    "topic": "ietf-116",
+    "dtime": 3888000,
+    "ptime": 3888000
+  },
+  {
+    "author": "Amir Omidi",
+    "text": "<p>Backup certificates from other CAs can also address it</p>",
+    "topic": "ietf-116",
+    "dtime": 3919000,
+    "ptime": 3919000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Amir: I'm not so sure in practice. Right now the transparency services are (in theory) independent of Google. In this draft, Google is the transparency service.</p>",
+    "topic": "ietf-116",
+    "dtime": 3987000,
+    "ptime": 3987000
+  },
+  {
+    "author": "Devon O'Brien",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2103\">@Dennis Jackson</span>  The Transparency Service, as likely implemented, will be explicitly trusted by the RP. An example later in the slides is a software update channel where the TS is operated by the RP/browser vendor.</p>",
+    "topic": "ietf-116",
+    "dtime": 4010000,
+    "ptime": 4010000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I can imagine an emergency option for fast issuance even within the Merkle tree framework, at the cost of larger handshakes for fast-issued certs.</p>",
+    "topic": "ietf-116",
+    "dtime": 4015000,
+    "ptime": 4015000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>If that's the model Devon, that's weaker than what we have now with CT.</p>",
+    "topic": "ietf-116",
+    "dtime": 4039000,
+    "ptime": 4039000
+  },
+  {
+    "author": "Devon O'Brien",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> You almost certainly lose the issuance transparency element if you do that</p>",
+    "topic": "ietf-116",
+    "dtime": 4041000,
+    "ptime": 4041000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2594\">@Devon O'Brien</span> You would need an XMSS-type SCT from the transparency log.</p>",
+    "topic": "ietf-116",
+    "dtime": 4096000,
+    "ptime": 4096000
+  },
+  {
+    "author": "Amir Omidi",
+    "text": "<p>There can be more than one transparency monitoring service at the same time. Misbehaving transparency servers can be dropped like how CT can be dropped for example.</p>",
+    "topic": "ietf-116",
+    "dtime": 4104000,
+    "ptime": 4104000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>BoF!'</p>",
+    "topic": "ietf-116",
+    "dtime": 4132000,
+    "ptime": 4132000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Which is to say, nice work for socializing this here, but I'd like to see a BoF</p>",
+    "topic": "ietf-116",
+    "dtime": 4157000,
+    "ptime": 4157000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"43\">@Paul Wouters</span> <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 4179000,
+    "ptime": 4179000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>because DNSSEC is gonna have a great time with giant PQ sigs</p>",
+    "topic": "ietf-116",
+    "dtime": 4196000,
+    "ptime": 4196000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Just put the DNS zone in a CT log</p>",
+    "topic": "ietf-116",
+    "dtime": 4223000,
+    "ptime": 4223000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>DNSSEC transparency is long overdue</p>",
+    "topic": "ietf-116",
+    "dtime": 4236000,
+    "ptime": 4236000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> Fun fact: DNS messages and records are limited to 64Kbytes.  There is no extended-length mechanism.</p>",
+    "topic": "ietf-116",
+    "dtime": 4242000,
+    "ptime": 4242000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Any system which depends on retrieving new big values from DNS is going to have a bad day</p>",
+    "topic": "ietf-116",
+    "dtime": 4242000,
+    "ptime": 4242000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><a href=\"https://www.internetfire.org/projects/dns-transparency\">https://www.internetfire.org/projects/dns-transparency</a></p>",
+    "topic": "ietf-116",
+    "dtime": 4244000,
+    "ptime": 4244000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>Not sure if even a BoF would be sufficient (necessary yes, but maybe not sufficient), could be a workshoppy type thing needed</p>",
+    "topic": "ietf-116",
+    "dtime": 4262000,
+    "ptime": 4262000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> conveniently anything more than like 1000 bytes doesn't really work that reliably :)</p>",
+    "topic": "ietf-116",
+    "dtime": 4277000,
+    "ptime": 4277000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/140-tls/topic/ietf-116/near/66984\">said</a>:</p>\n<blockquote>\n<p>Any system which depends on retrieving new big values from DNS is going to have a bad day</p>\n</blockquote>\n<p>unless you use encrypted transport</p>",
+    "topic": "ietf-116",
+    "dtime": 4281000,
+    "ptime": 4281000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>post-quantum, tls, dns, merkle trees.  turtles all the way down</p>",
+    "topic": "ietf-116",
+    "dtime": 4310000,
+    "ptime": 4310000
+  },
+  {
+    "author": "Devon O'Brien",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2103\">@Dennis Jackson</span> Google functionally was the transparency service for many years, while it required Google SCTs. A reason 1st party TS might be more palatable is because they completely reflect all CA issuances, and do so before they even reach RPs. The TS both defines what RPs trust as well as publishing the set of valid certificates.</p>",
+    "topic": "ietf-116",
+    "dtime": 4314000,
+    "ptime": 4314000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> yes, to a reliable server</p>",
+    "topic": "ietf-116",
+    "dtime": 4318000,
+    "ptime": 4318000
+  },
+  {
+    "author": "Amir Omidi",
+    "text": "<p>The IPV4 evil bit solves the need to do any of this /s</p>",
+    "topic": "ietf-116",
+    "dtime": 4326000,
+    "ptime": 4326000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2004\">@Amir Omidi</span>  As we saw last week[1] some CAs don't bother checking the validity SCT staples, and got away with that bad behaviour for a very long time.<br>\nThe transparency servers can just not check anything, and rely on the CAs to not misbehave.  </p>\n<p>[1] <a href=\"https://sslmate.com/blog/post/march_2023_ct_blunders\">https://sslmate.com/blog/post/march_2023_ct_blunders</a></p>",
+    "topic": "ietf-116",
+    "dtime": 4369000,
+    "ptime": 4369000
+  },
+  {
+    "author": "Amir Omidi",
+    "text": "<p>Oh I know - I'm on Google Trust Services and we had this blunder: <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1815874\">https://bugzilla.mozilla.org/show_bug.cgi?id=1815874</a></p>",
+    "topic": "ietf-116",
+    "dtime": 4418000,
+    "ptime": 4418000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this is great and all, but kind of funny in light of the numbers davidben was just talking about</p>",
+    "topic": "ietf-116",
+    "dtime": 4439000,
+    "ptime": 4439000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i was just writing that</p>",
+    "topic": "ietf-116",
+    "dtime": 4450000,
+    "ptime": 4450000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>7 bytes per key vs. multiple thousands</p>",
+    "topic": "ietf-116",
+    "dtime": 4466000,
+    "ptime": 4466000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i was just writing that</p>",
+    "topic": "ietf-116",
+    "dtime": 4472000,
+    "ptime": 4472000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Nice. In this session we had a talk about big keys that require hundreds of bytes to encode, and about much smaller keys that are already compact, and making them more compact.</p>",
+    "topic": "ietf-116",
+    "dtime": 4494000,
+    "ptime": 4494000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2004\">@Amir Omidi</span> Ouch, that looks painful.</p>",
+    "topic": "ietf-116",
+    "dtime": 4499000,
+    "ptime": 4499000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>DNS already use compact encodings along these lines avoiding ASN.1</p>",
+    "topic": "ietf-116",
+    "dtime": 4573000,
+    "ptime": 4573000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Great minds and all that...</p>",
+    "topic": "ietf-116",
+    "dtime": 4596000,
+    "ptime": 4596000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2594\">@Devon O'Brien</span> - My point is that right now is that the trust model for undiscoverable MiTM is $BROWSER_VENDOR not to ship bad code and no more than 2 bad CT logs and one bad CA.</p>",
+    "topic": "ietf-116",
+    "dtime": 4603000,
+    "ptime": 4603000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>As currently written, the draft moves this to $BROWSER_VENDOR not to ship bad code, $BROWSER_VENDOR not to lie about a tree head update and one bad CA.</p>",
+    "topic": "ietf-116",
+    "dtime": 4646000,
+    "ptime": 4646000
+  },
+  {
+    "author": "Nicholas Gajcowski",
+    "text": "<p>With compact, you don’t have to worry about getting a bad y.  But will need to address getting a bad x where there isn’t a y.</p>",
+    "topic": "ietf-116",
+    "dtime": 4652000,
+    "ptime": 4652000
+  },
+  {
+    "author": "Devon O'Brien",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2103\">@Dennis Jackson</span> I see your point now. I'm not sure a compromised $browser_vendor would need CT Logs to get away with undiscoverable MITM under that threat model today.</p>",
+    "topic": "ietf-116",
+    "dtime": 4814000,
+    "ptime": 4814000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2103\">@Dennis Jackson</span> You can also use one of the models with multiple mirrors. Though I suppose, to avoid the RP contacting mirrors directly, we'd need the mirrors to counter-sign things, which seems easy enough. Want to file something on the GitHub? :-) (Though I also agree with Devon here.)</p>",
+    "topic": "ietf-116",
+    "dtime": 4851000,
+    "ptime": 4851000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>If you don't trust your browser vendor, you're pretty well out of luck</p>",
+    "topic": "ietf-116",
+    "dtime": 4853000,
+    "ptime": 4853000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>correction: HTTP/2 doesn't forbid it</p>",
+    "topic": "ietf-116",
+    "dtime": 4865000,
+    "ptime": 4865000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>My biggest concern about compact representations is about compatibility.  If the world tried to move to the compact curves, there would be an awkward period where we have a lot of HelloRetryRequest, which is enough of a barrier that I think the majority of clients would be unlikely to switch.</p>",
+    "topic": "ietf-116",
+    "dtime": 4870000,
+    "ptime": 4870000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"829\">@David Benjamin</span> - I have a half written mail, but too many fires not enough time. I'm hoping to get it to soon. :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 4888000,
+    "ptime": 4888000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>psk_ke is already unusable. :-(</p>",
+    "topic": "ietf-116",
+    "dtime": 4901000,
+    "ptime": 4901000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2103\">@Dennis Jackson</span> Conveniently, the actual format of the signed windows being tossed around is mostly a great big TODO in the document right now anyway. :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 4935000,
+    "ptime": 4935000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>(But in cTLS, the parties can pin the key exchange method ahead of time so it might work there.)</p>",
+    "topic": "ietf-116",
+    "dtime": 4979000,
+    "ptime": 4979000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>A trust model that relies on a s/w vendor not to do something, in particular not to ship bad code, seems a little flimsy</p>",
+    "topic": "ietf-116",
+    "dtime": 5017000,
+    "ptime": 5017000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>deprecate the future!</p>",
+    "topic": "ietf-116",
+    "dtime": 5042000,
+    "ptime": 5042000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"329\">@Andrew Campling</span> Surely all trust models meet that description.</p>",
+    "topic": "ietf-116",
+    "dtime": 5050000,
+    "ptime": 5050000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Unless you have an implementation of HTML and CSS in silicon!</p>",
+    "topic": "ietf-116",
+    "dtime": 5126000,
+    "ptime": 5126000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>John just summoned Peter Gutmann</p>",
+    "topic": "ietf-116",
+    "dtime": 5268000,
+    "ptime": 5268000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>RFC9151 says RSA 3K or 4K. (not 2K)</p>",
+    "topic": "ietf-116",
+    "dtime": 5330000,
+    "ptime": 5330000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Is Peter Gutmann in the room?</p>",
+    "topic": "ietf-116",
+    "dtime": 5341000,
+    "ptime": 5341000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I am in favor of adopting this draft.</p>",
+    "topic": "ietf-116",
+    "dtime": 5366000,
+    "ptime": 5366000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>yeah</p>",
+    "topic": "ietf-116",
+    "dtime": 5376000,
+    "ptime": 5376000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I am in favour also</p>",
+    "topic": "ietf-116",
+    "dtime": 5377000,
+    "ptime": 5377000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"331\">Deb Cooley</span> <a href=\"#narrow/stream/140-tls/topic/ietf-116/near/67066\">said</a>:</p>\n<blockquote>\n<p>RFC9151 says RSA 3K or 4K. (not 2K)</p>\n</blockquote>\n<p>What about MST3K?</p>",
+    "topic": "ietf-116",
+    "dtime": 5389000,
+    "ptime": 5389000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>eh?</p>",
+    "topic": "ietf-116",
+    "dtime": 5422000,
+    "ptime": 5422000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>(it is early where I am)</p>",
+    "topic": "ietf-116",
+    "dtime": 5431000,
+    "ptime": 5431000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>mystery science theater 3000</p>",
+    "topic": "ietf-116",
+    "dtime": 5437000,
+    "ptime": 5437000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>SMH</p>",
+    "topic": "ietf-116",
+    "dtime": 5443000,
+    "ptime": 5443000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>I really wish John Gilmore's idea -- use weird RSA sizes that aren't multiples of 1024, to make it more difficult for hardware -- had more uptake.</p>",
+    "topic": "ietf-116",
+    "dtime": 5443000,
+    "ptime": 5443000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><a href=\"https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000\">https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000</a></p>",
+    "topic": "ietf-116",
+    "dtime": 5445000,
+    "ptime": 5445000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>yeah, yeah, but it is literally 0130 here.</p>",
+    "topic": "ietf-116",
+    "dtime": 5463000,
+    "ptime": 5463000
+  },
+  {
+    "author": "Nicholas Gajcowski",
+    "text": "<p>I don’t know what mst3k is either.  Lol</p>",
+    "topic": "ietf-116",
+    "dtime": 5465000,
+    "ptime": 5465000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>now we do.</p>",
+    "topic": "ietf-116",
+    "dtime": 5473000,
+    "ptime": 5473000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>The new port is bad news</p>",
+    "topic": "ietf-116",
+    "dtime": 5476000,
+    "ptime": 5476000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>I see a cluster of 1300 bit RSA keys in DNSSEC.</p>",
+    "topic": "ietf-116",
+    "dtime": 5489000,
+    "ptime": 5489000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>yuck</p>",
+    "topic": "ietf-116",
+    "dtime": 5500000,
+    "ptime": 5500000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The new port is a bad idea, but we can't stop someone from defining a new protocol</p>",
+    "topic": "ietf-116",
+    "dtime": 5501000,
+    "ptime": 5501000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I've seen RSA-2084 and RSA-4069</p>",
+    "topic": "ietf-116",
+    "dtime": 5509000,
+    "ptime": 5509000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>O(100) out of 21.6 million, so not common, but still unexpected.</p>",
+    "topic": "ietf-116",
+    "dtime": 5516000,
+    "ptime": 5516000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>because this would be a new protocol</p>",
+    "topic": "ietf-116",
+    "dtime": 5518000,
+    "ptime": 5518000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>I didn't say no uptake, I said more uptake :)</p>",
+    "topic": "ietf-116",
+    "dtime": 5525000,
+    "ptime": 5525000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>If we adopt this draft, it will finally dislodge tls-flags, so there's that.</p>",
+    "topic": "ietf-116",
+    "dtime": 5528000,
+    "ptime": 5528000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Is \"draft-sbn\" the first use of author initials as the name?</p>",
+    "topic": "ietf-116",
+    "dtime": 5588000,
+    "ptime": 5588000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>it's one AES operation per record</p>",
+    "topic": "ietf-116",
+    "dtime": 5672000,
+    "ptime": 5672000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>the scrubbing back and forth and dealing with alignment issues is perhaps a little expensive</p>",
+    "topic": "ietf-116",
+    "dtime": 5716000,
+    "ptime": 5716000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think I was actually wrong about the two sides disagreeing</p>",
+    "topic": "ietf-116",
+    "dtime": 5724000,
+    "ptime": 5724000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>with port numbers, you can totally disagree</p>",
+    "topic": "ietf-116",
+    "dtime": 5740000,
+    "ptime": 5740000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>those aren't authenticated</p>",
+    "topic": "ietf-116",
+    "dtime": 5746000,
+    "ptime": 5746000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yes, but I think it will cause a handshake failure</p>",
+    "topic": "ietf-116",
+    "dtime": 5749000,
+    "ptime": 5749000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>it probably would, yes</p>",
+    "topic": "ietf-116",
+    "dtime": 5757000,
+    "ptime": 5757000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>The attacker will be able to remove the encrypted SN (mostly) but not re-inject</p>",
+    "topic": "ietf-116",
+    "dtime": 5774000,
+    "ptime": 5774000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Just try harder and design your hardware to do the right thing!</p>",
+    "topic": "ietf-116",
+    "dtime": 5777000,
+    "ptime": 5777000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>you might need to know the keys in order to rewrite the packet as well as flipping the port</p>",
+    "topic": "ietf-116",
+    "dtime": 5786000,
+    "ptime": 5786000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, unless you use short sequence numbers in which case you can just produce like all 256 values</p>",
+    "topic": "ietf-116",
+    "dtime": 5791000,
+    "ptime": 5791000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And figure one will decrypt</p>",
+    "topic": "ietf-116",
+    "dtime": 5794000,
+    "ptime": 5794000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>(256 encrypted values)</p>",
+    "topic": "ietf-116",
+    "dtime": 5805000,
+    "ptime": 5805000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Tru, 256 values isn't many</p>",
+    "topic": "ietf-116",
+    "dtime": 5807000,
+    "ptime": 5807000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>We had that exact same discussion with another vendor for QUIC a couple years ago, and eventually they just fixed the hardware...</p>",
+    "topic": "ietf-116",
+    "dtime": 5821000,
+    "ptime": 5821000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>+1 to fix the h/w</p>",
+    "topic": "ietf-116",
+    "dtime": 5832000,
+    "ptime": 5832000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>What is the hardware in question here? Mellanox CX6?</p>",
+    "topic": "ietf-116",
+    "dtime": 5900000,
+    "ptime": 5900000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I am completely unconvinced. Seems like there is some unstated silly reason behind that!</p>",
+    "topic": "ietf-116",
+    "dtime": 5916000,
+    "ptime": 5916000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>The Microsoft experiments 2 years ago did mention 5% if I remember</p>",
+    "topic": "ietf-116",
+    "dtime": 5958000,
+    "ptime": 5958000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>5% is not a convincing number, at least for me</p>",
+    "topic": "ietf-116",
+    "dtime": 5973000,
+    "ptime": 5973000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>can we future-deprecate that now as well?</p>",
+    "topic": "ietf-116",
+    "dtime": 5978000,
+    "ptime": 5978000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>5% was my total guess, just header size / MTU.</p>",
+    "topic": "ietf-116",
+    "dtime": 6004000,
+    "ptime": 6004000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>if John was attempting to summon Peter Gutmann, this discussion is like drawing a pentagram in blood and drippy candles</p>",
+    "topic": "ietf-116",
+    "dtime": 6053000,
+    "ptime": 6053000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"476\">@Sean Turner</span> why are you thinking so small? Deprecate TLS 1.3</p>",
+    "topic": "ietf-116",
+    "dtime": 6056000,
+    "ptime": 6056000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>doesn't deprecation just mean, there will be no more work done on this and at some point in the future it might go away</p>",
+    "topic": "ietf-116",
+    "dtime": 6169000,
+    "ptime": 6169000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>rather than it goes away now</p>",
+    "topic": "ietf-116",
+    "dtime": 6179000,
+    "ptime": 6179000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Whoa, there's \"deprecate\" and then there's \"deprecate\".  </p>\n<p>Saying that the IETF won't make new extensions to 1.2 is one thing. </p>\n<p>Telling SecDir to require \"at least TLS 1.3\" in the Security Considerations of new documents is another. </p>\n<p>Telling the world to stop using TLS 1.2 is a whole different thing.</p>",
+    "topic": "ietf-116",
+    "dtime": 6213000,
+    "ptime": 6213000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Why are we moving to deprecate 1.2? Is it \"bad\" in some \"your data is at risk / CVSS 10.0\" sort of way?</p>",
+    "topic": "ietf-116",
+    "dtime": 6224000,
+    "ptime": 6224000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>\"deprecate: to disparage or belittle\" -&gt; \"You should feel ashamed for using TLS 1.2\".</p>",
+    "topic": "ietf-116",
+    "dtime": 6298000,
+    "ptime": 6298000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>tls1.1? figures for that were always tiny weren't they?</p>",
+    "topic": "ietf-116",
+    "dtime": 6310000,
+    "ptime": 6310000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>You can have good TLS 1.2 connections. But TLS 1.2 has some things like TLS_RSA_WITH_DES_CBC_SHA.</p>",
+    "topic": "ietf-116",
+    "dtime": 6342000,
+    "ptime": 6342000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>@Stephen Farrell: Yes, most implementations got 1.1 and 1.2 at the same time, so the handshake always ended with either 1.0 or 1.2</p>",
+    "topic": "ietf-116",
+    "dtime": 6395000,
+    "ptime": 6395000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>I think</p>\n<p>WG recharter - to no longer accept anything TLS1.2 related other than to disable/discourage specific things</p>\n<p>Recommend (not require) SecDir considers requiring TLS1.3 as a minimum for new docs</p>",
+    "topic": "ietf-116",
+    "dtime": 6424000,
+    "ptime": 6424000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>+1 for re-charter to not do new work on 1.2</p>",
+    "topic": "ietf-116",
+    "dtime": 6476000,
+    "ptime": 6476000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<ol>\n<li>for charter text or wtv, it should be \"deprecate, except for security-critical fixes\"</li>\n<li>as an appsec guy, I second being very very clear about \"deprecate\" vs \"vulnerable\". Otherwise my professional life will BLOW UP with takedown requests.</li>\n</ol>",
+    "topic": "ietf-116",
+    "dtime": 6492000,
+    "ptime": 6492000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>Maybe also make a statement about deprecating tl1.2 except as per UTA spec?</p>",
+    "topic": "ietf-116",
+    "dtime": 6503000,
+    "ptime": 6503000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>No objections to treating 1.2 as a stable protocol barring a compelling unforseen future incentive.  However definitely premature to say its use is actively discouraged.</p>",
+    "topic": "ietf-116",
+    "dtime": 6511000,
+    "ptime": 6511000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I don't think we need to put this in the charter. Any document adoption requires a discussion. Hopefully the people in the WG have enough sense not to adopt it.</p>",
+    "topic": "ietf-116",
+    "dtime": 6545000,
+    "ptime": 6545000
+  },
+  {
+    "author": "John Gray",
+    "text": "<p>Umm, we still have customers that wonder why their software stopped working because they are still using TLS 1.1 or 1.0 (to our horror).    I think planning a long term roadmap for deprecation of 1.2 is a good idea, but realistically it won't be able to happen suddenly (without breaking the internet) for many years...</p>",
+    "topic": "ietf-116",
+    "dtime": 6613000,
+    "ptime": 6613000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>So we're using deprecate to mean \"done, no new work\"? Do we need a new word? \"doneprecate\"?</p>",
+    "topic": "ietf-116",
+    "dtime": 6683000,
+    "ptime": 6683000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think MT's \"if you are designing a new protocol that uses TLS then it should be &gt;= 1.3\" is a good line</p>",
+    "topic": "ietf-116",
+    "dtime": 6699000,
+    "ptime": 6699000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Because it's now the case that almost every environment can get 1.3</p>",
+    "topic": "ietf-116",
+    "dtime": 6723000,
+    "ptime": 6723000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>publish a doc as a BCP perhaps?</p>",
+    "topic": "ietf-116",
+    "dtime": 6789000,
+    "ptime": 6789000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>that encompasses the comments made here</p>",
+    "topic": "ietf-116",
+    "dtime": 6806000,
+    "ptime": 6806000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i agree</p>",
+    "topic": "ietf-116",
+    "dtime": 6905000,
+    "ptime": 6905000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>The faster we publish TLS 1.4, we could more easily deprecate 1.2</p>",
+    "topic": "ietf-116",
+    "dtime": 6955000,
+    "ptime": 6955000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Regarding raising the ceiling, earlier we discussed moving hybrid-kex forward, which only applies to TLS 1.3. Dangling PQC as a carrot to raise the ceiling seems like a good angle.</p>",
+    "topic": "ietf-116",
+    "dtime": 6998000,
+    "ptime": 6998000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>No PQC for TLS 1.2 seems like a plausible rule.</p>",
+    "topic": "ietf-116",
+    "dtime": 7046000,
+    "ptime": 7046000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 to reserving PQC for 1.3</p>",
+    "topic": "ietf-116",
+    "dtime": 7065000,
+    "ptime": 7065000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-TLS-20230328-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/tls"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-TLS-20230328-0400"
+		}		
+	]
+}

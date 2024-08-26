@@ -1,0 +1,756 @@
+
+{
+	"title": "IETF115-SECDISPATCH-20221110-1700",
+	"filename": "IETF115-SECDISPATCH-20221110-1700",
+	"start": 0,
+	"end": 3424000,
+	"start_datetime": "2022-11-10T16:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "aQ73MZHaCWM",
+    "start": 0,
+    "end": "3424000"
+  }
+],
+	"messages": [
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Thank you Tero for taking notes!</p>",
+    "topic": "jabber",
+    "dtime": 223000,
+    "ptime": 223000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>A big thank you to Rifaat for stepping up and Tero for minutes!</p>",
+    "topic": "jabber",
+    "dtime": 241000,
+    "ptime": 241000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>is \"L7\" used here to mean \"layer 7\"?</p>",
+    "topic": "jabber",
+    "dtime": 410000,
+    "ptime": 410000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>L7 as defined by the ISO-OSI network layering model</p>",
+    "topic": "jabber",
+    "dtime": 471000,
+    "ptime": 471000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>\"selective privacy\"... terrible name.</p>",
+    "topic": "jabber",
+    "dtime": 724000,
+    "ptime": 724000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Roman to the user <em>agent</em>, one presumes.  not the human</p>",
+    "topic": "jabber",
+    "dtime": 740000,
+    "ptime": 740000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>@richard.  Yes.</p>",
+    "topic": "jabber",
+    "dtime": 791000,
+    "ptime": 791000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>reminder to folks to focus on DISPATCH outcomes</p>",
+    "topic": "jabber",
+    "dtime": 838000,
+    "ptime": 838000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Are we giving feedback now?</p>",
+    "topic": "jabber",
+    "dtime": 887000,
+    "ptime": 887000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: dispatch outcome: no action, I'd say, can't see this being of much use, seems to do too much, can't see why a person would want to (or could) differentiate between this and what we have already</p>",
+    "topic": "jabber",
+    "dtime": 945000,
+    "ptime": 945000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>For those wondering about this being in scope for RATS WG, it would only be the case if the WG was interested in using this proposal as a protocol to carry \"evidence\" or \"attestation results\"</p>",
+    "topic": "jabber",
+    "dtime": 977000,
+    "ptime": 977000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Wasn't this presented at ART dispatch?  Does anyone know the result?</p>",
+    "topic": "jabber",
+    "dtime": 1009000,
+    "ptime": 1009000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Sure, \"go away\" is a valid dispatch outcome.  But does it even belong to this area?</p>",
+    "topic": "jabber",
+    "dtime": 1014000,
+    "ptime": 1014000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: think they were just giving a heads-up for today when they did this Monday</p>",
+    "topic": "jabber",
+    "dtime": 1042000,
+    "ptime": 1042000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@Ekr But it's not using any of the TLS security?</p>",
+    "topic": "jabber",
+    "dtime": 1069000,
+    "ptime": 1069000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>We're going to have to cut the queue to stay on time</p>",
+    "topic": "jabber",
+    "dtime": 1073000,
+    "ptime": 1073000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>ART dispatch was \"wait for secdispatch result\" IIRC</p>",
+    "topic": "jabber",
+    "dtime": 1074000,
+    "ptime": 1074000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Dispatch loop!</p>",
+    "topic": "jabber",
+    "dtime": 1106000,
+    "ptime": 1106000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm leaning toward no-action as well.  this also results in a big privacy risks as soon as servers start requiring HTTPA from the user if it's bidirectional</p>",
+    "topic": "jabber",
+    "dtime": 1107000,
+    "ptime": 1107000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Yep, \"wait for secdispatch + make sure to check with httpbis on realism\"</p>",
+    "topic": "jabber",
+    "dtime": 1111000,
+    "ptime": 1111000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>(I expressed concerns about this design the first time it was presented, and think this is no-action right now)</p>",
+    "topic": "jabber",
+    "dtime": 1139000,
+    "ptime": 1139000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>+1 to wrong layer -- maybe a new protocol intended for use between TEE and the reverse proxy, then a TLS extension for reverse proxy to web browser? Assuming the demand exists, per ekr's question.</p>",
+    "topic": "jabber",
+    "dtime": 1189000,
+    "ptime": 1189000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: also I'm fairly allergic to presentations that use the word trust and derivatives so much without being specific as to who's trusting whom for what - that's generally a bit of a red flag</p>",
+    "topic": "jabber",
+    "dtime": 1219000,
+    "ptime": 1219000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1542\">@Hans Wang</span> also maybe look at TLS Exporter Keys</p>",
+    "topic": "jabber",
+    "dtime": 1220000,
+    "ptime": 1220000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>+1 to no action, doing this at the TLS layer seems better</p>",
+    "topic": "jabber",
+    "dtime": 1299000,
+    "ptime": 1299000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: now that's a way to make routing secure:-)</p>",
+    "topic": "jabber",
+    "dtime": 1331000,
+    "ptime": 1331000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I like Ben's CONNECT-UDP idea</p>",
+    "topic": "jabber",
+    "dtime": 1343000,
+    "ptime": 1343000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>sftcd: it's about the level of attention routing security has gotten historically</p>",
+    "topic": "jabber",
+    "dtime": 1375000,
+    "ptime": 1375000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>there is no \"next slide quickly\"</p>",
+    "topic": "jabber",
+    "dtime": 1417000,
+    "ptime": 1417000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>These secure routing drafts were also presented in RATS and I2NSF.  A recommendation of out I2NSF was to engage the IDR WG.</p>",
+    "topic": "jabber",
+    "dtime": 1462000,
+    "ptime": 1462000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>killing &lt;keygen&gt; was a hard-won victory</p>",
+    "topic": "jabber",
+    "dtime": 1512000,
+    "ptime": 1512000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: wasn't there also a browser dislike of the lovely mutual auth UIs? ;-)</p>",
+    "topic": "jabber",
+    "dtime": 1580000,
+    "ptime": 1580000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>browser self-hate more like it</p>",
+    "topic": "jabber",
+    "dtime": 1608000,
+    "ptime": 1608000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i mean, who came up with those UIs?</p>",
+    "topic": "jabber",
+    "dtime": 1622000,
+    "ptime": 1622000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>This is code that hasn't been used since you couldn't count on all browsers being IE, right?</p>",
+    "topic": "jabber",
+    "dtime": 1632000,
+    "ptime": 1632000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this seems duplicative of PKCS#10 ?</p>",
+    "topic": "jabber",
+    "dtime": 1655000,
+    "ptime": 1655000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>sort of</p>",
+    "topic": "jabber",
+    "dtime": 1666000,
+    "ptime": 1666000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>You can also do this with Exported Authenticators</p>",
+    "topic": "jabber",
+    "dtime": 1676000,
+    "ptime": 1676000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>it is the key gen part has been deprecated</p>",
+    "topic": "jabber",
+    "dtime": 1683000,
+    "ptime": 1683000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>(for good reason)</p>",
+    "topic": "jabber",
+    "dtime": 1689000,
+    "ptime": 1689000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>OAuth / JOSE also have a bunch of PoP stuff</p>",
+    "topic": "jabber",
+    "dtime": 1735000,
+    "ptime": 1735000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>see, e.g., draft-ietf-oauth-dpop</p>",
+    "topic": "jabber",
+    "dtime": 1744000,
+    "ptime": 1744000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Informational, AD-sponsored or ISE</p>",
+    "topic": "jabber",
+    "dtime": 1762000,
+    "ptime": 1762000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it says \"don't change it\", but it's not the format that was used because of the MD5 change, right?</p>",
+    "topic": "jabber",
+    "dtime": 1767000,
+    "ptime": 1767000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> I think he's saying that MD5 was required in a profile of SPKAC that was chosen by the HTML5 spec</p>",
+    "topic": "jabber",
+    "dtime": 1809000,
+    "ptime": 1809000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>So any WG that adopts this doesn't get change control, at least not in a meaningful way, because the document has to comply with existing implementations.</p>",
+    "topic": "jabber",
+    "dtime": 1823000,
+    "ptime": 1823000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i see</p>",
+    "topic": "jabber",
+    "dtime": 1825000,
+    "ptime": 1825000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>The draft specifies the ASN.1 message format.  The SecCons say when using the message format, don't use MD5.</p>",
+    "topic": "jabber",
+    "dtime": 1833000,
+    "ptime": 1833000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>This says to me \"individual submission\"</p>",
+    "topic": "jabber",
+    "dtime": 1833000,
+    "ptime": 1833000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Yoav: right, that means informational draft in the ISE</p>",
+    "topic": "jabber",
+    "dtime": 1840000,
+    "ptime": 1840000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: or they could use the never-used rfc7486 :-)</p>",
+    "topic": "jabber",
+    "dtime": 1847000,
+    "ptime": 1847000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>TPMs can prove possession of non signing keys, but browsers typically dont talk to TPMs</p>",
+    "topic": "jabber",
+    "dtime": 1868000,
+    "ptime": 1868000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm pretty skeptical about the whole idea of using this mechanism this way. Modern practice is to do much tighter protocol binding than this is designed for.</p>",
+    "topic": "jabber",
+    "dtime": 1911000,
+    "ptime": 1911000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: is this tied to &lt;keygen/&gt; or not? he just confused me</p>",
+    "topic": "jabber",
+    "dtime": 1924000,
+    "ptime": 1924000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>As, for instance, with TLS EAs, etf.</p>",
+    "topic": "jabber",
+    "dtime": 1925000,
+    "ptime": 1925000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Of course, when you try to document the way existing implementations do it, you'll find that OpenSSL and NSS do something slightly different</p>",
+    "topic": "jabber",
+    "dtime": 1932000,
+    "ptime": 1932000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>if the only change is \"not MD5\", would folks still be OK with AD sponsorship?</p>",
+    "topic": "jabber",
+    "dtime": 1938000,
+    "ptime": 1938000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I would be OK with AD sponsorship at Info</p>",
+    "topic": "jabber",
+    "dtime": 1951000,
+    "ptime": 1951000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I would</p>",
+    "topic": "jabber",
+    "dtime": 1955000,
+    "ptime": 1955000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Not at PS, obvs.</p>",
+    "topic": "jabber",
+    "dtime": 1956000,
+    "ptime": 1956000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I think he's saying that &lt;keygen/&gt; used a profile of SPKAC that pinned MD5, but SPKAC is general.</p>",
+    "topic": "jabber",
+    "dtime": 1970000,
+    "ptime": 1970000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>yes.</p>",
+    "topic": "jabber",
+    "dtime": 1978000,
+    "ptime": 1978000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @ben: that's what I heard at first but then he seemed to say otherwise</p>",
+    "topic": "jabber",
+    "dtime": 2012000,
+    "ptime": 2012000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I'll ask:-)</p>",
+    "topic": "jabber",
+    "dtime": 2021000,
+    "ptime": 2021000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I generally would think such a document should have security considerations that make clear this is kind of disfavored</p>",
+    "topic": "jabber",
+    "dtime": 2031000,
+    "ptime": 2031000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>ekr: that's what i'm in line to say</p>",
+    "topic": "jabber",
+    "dtime": 2045000,
+    "ptime": 2045000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Is this format used anywhere outside of keygen today? It seems part of the argument is that folks may want to implement this, but the only known user discussed so far is a deprecated HTML element?</p>",
+    "topic": "jabber",
+    "dtime": 2060000,
+    "ptime": 2060000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> good this will save me calories</p>",
+    "topic": "jabber",
+    "dtime": 2079000,
+    "ptime": 2079000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Yeah, I suspect you can do stupid passthrough attacks given that it's not bound to the exporter keys</p>",
+    "topic": "jabber",
+    "dtime": 2088000,
+    "ptime": 2088000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>(Assuming it's not bound because it was invented before exporter keys were in TLS)</p>",
+    "topic": "jabber",
+    "dtime": 2124000,
+    "ptime": 2124000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Deb - now i'm curious what you think you need &lt;keygen&gt; for</p>",
+    "topic": "jabber",
+    "dtime": 2151000,
+    "ptime": 2151000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I assume for NSA Browser</p>",
+    "topic": "jabber",
+    "dtime": 2162000,
+    "ptime": 2162000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>shouldn't that be like &lt;keyleak&gt; tho?</p>",
+    "topic": "jabber",
+    "dtime": 2175000,
+    "ptime": 2175000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Side-question: are there apetites for non-interactive (aka CSR-like) PoPs of KEM keys? To my knowledge we never invented any for (EC)DH and it's generally been fine, right?<br>\n(Note: AuthKEM would be a motivator cause then we'll need to enroll KEM certs at scale over ACME etc)</p>",
+    "topic": "jabber",
+    "dtime": 2178000,
+    "ptime": 2178000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>hey, hey....  I have some use cases that don't use our smartcards.  The keys are s/w PKI keys.  they have to come from somewhere.</p>",
+    "topic": "jabber",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>greenfield apps SHOULD NOT use this</p>",
+    "topic": "jabber",
+    "dtime": 2238000,
+    "ptime": 2238000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Oh no! This is a terrible idea for key rolling</p>",
+    "topic": "jabber",
+    "dtime": 2263000,
+    "ptime": 2263000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>It's not bound to the previous key!!!</p>",
+    "topic": "jabber",
+    "dtime": 2276000,
+    "ptime": 2276000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>+1 to DKG.</p>",
+    "topic": "jabber",
+    "dtime": 2291000,
+    "ptime": 2291000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>MUST NOT (BUT WE KNOW YOU WILL)</p>",
+    "topic": "jabber",
+    "dtime": 2328000,
+    "ptime": 2328000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: getting more strongly against AD sponsor the more I hear</p>",
+    "topic": "jabber",
+    "dtime": 2331000,
+    "ptime": 2331000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@Mike O:  most of the time key exchange is ephemeral</p>",
+    "topic": "jabber",
+    "dtime": 2338000,
+    "ptime": 2338000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: that'll be an interesting last call</p>",
+    "topic": "jabber",
+    "dtime": 2347000,
+    "ptime": 2347000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>and when it isn't the keys are escrowed, so they aren't generated by the user, but by the system</p>",
+    "topic": "jabber",
+    "dtime": 2360000,
+    "ptime": 2360000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>@Deb, yeah, I'm thinking of things like (EC)DH certs for S/MIME. Good point that those are usually server-generated, so don't need a PoP during enrollment <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "jabber",
+    "dtime": 2437000,
+    "ptime": 2437000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>IPsec has something like this as an alternative to IKE.  It's in RFC 4430.  Pretty negligible implementation or use.</p>",
+    "topic": "jabber",
+    "dtime": 2583000,
+    "ptime": 2583000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>SPKAC should be Informational and Historic</p>",
+    "topic": "jabber",
+    "dtime": 2694000,
+    "ptime": 2694000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>That's my expectation</p>",
+    "topic": "jabber",
+    "dtime": 2697000,
+    "ptime": 2697000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: +1 to ekr I think (without having read the draft of course:-)</p>",
+    "topic": "jabber",
+    "dtime": 2697000,
+    "ptime": 2697000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> histormational or infostoric</p>",
+    "topic": "jabber",
+    "dtime": 2717000,
+    "ptime": 2717000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: just in case: dispatch to kitten would be an awful outcome for all concerned</p>",
+    "topic": "jabber",
+    "dtime": 2793000,
+    "ptime": 2793000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: \"interest from radius\" - my interpretation having chaired that BoF was that the room didn't react negatively, as opposed to being interested</p>",
+    "topic": "jabber",
+    "dtime": 2849000,
+    "ptime": 2849000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: is it ok to quibble with the summary at this point (depending what rlb says:-)</p>",
+    "topic": "jabber",
+    "dtime": 3034000,
+    "ptime": 3034000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I don't really agree that the spkac ad sponsor dispatch outcome was where the room was headed fwiw, I think it may have started there but the room got colder</p>",
+    "topic": "jabber",
+    "dtime": 3113000,
+    "ptime": 3113000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it got colder as the plans for use got wider</p>",
+    "topic": "jabber",
+    "dtime": 3136000,
+    "ptime": 3136000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Esp. with the suggestion that this be used for key rolling</p>",
+    "topic": "jabber",
+    "dtime": 3141000,
+    "ptime": 3141000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Key rolling requires channel binding if you want to be sure that the same person owns both keys</p>",
+    "topic": "jabber",
+    "dtime": 3196000,
+    "ptime": 3196000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>yolokeyrolling</p>",
+    "topic": "jabber",
+    "dtime": 3207000,
+    "ptime": 3207000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Leif - Can you make sure these comments make the minutes?</p>",
+    "topic": "jabber",
+    "dtime": 3213000,
+    "ptime": 3213000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Oops, Tero - Could you please make sure this is in the minutes</p>",
+    "topic": "jabber",
+    "dtime": 3240000,
+    "ptime": 3240000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Thanks, Richard!</p>",
+    "topic": "jabber",
+    "dtime": 3266000,
+    "ptime": 3266000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i have this feedback in the minutes, I think Roman can take that into consideration</p>",
+    "topic": "jabber",
+    "dtime": 3268000,
+    "ptime": 3268000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Thanks, Richard!</p>",
+    "topic": "jabber",
+    "dtime": 3294000,
+    "ptime": 3294000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-SECDISPATCH-20221110-1700"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/secdispatch"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-SECDISPATCH-20221110-1700"
+		}		
+	]
+}

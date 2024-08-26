@@ -1,0 +1,581 @@
+
+{
+	"title": "IETF-SCITT-20231023-1500",
+	"filename": "IETF-SCITT-20231023-1500",
+	"start": 0,
+	"end": 3811000,
+	"start_datetime": "2023-10-23T14:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "3-rWxqWkAxk",
+    "start": 0,
+    "end": "3811000"
+  }
+],
+	"messages": [
+  {
+    "author": "Michael Richardson",
+    "text": "<p>when sharing your screen, aim to share a window which is 800x600 (rather than your whole monitor) Sending more pixels just makes them <em>smaller</em> on our screens.</p>",
+    "topic": "ietf-interim",
+    "dtime": 534000,
+    "ptime": 534000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Excellent job using IETF tools to compare draft revisions!</p>",
+    "topic": "ietf-interim",
+    "dtime": 549000,
+    "ptime": 549000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p><a href=\"https://author-tools.ietf.org/api/iddiff?url_1=https://www.ietf.org/archive/id/draft-ietf-scitt-architecture-02.txt&amp;url_2=https://ietf-wg-scitt.github.io/draft-ietf-scitt-architecture/cleanup-for-118/draft-ietf-scitt-architecture.txt\">https://author-tools.ietf.org/api/iddiff?url_1=https://www.ietf.org/archive/id/draft-ietf-scitt-architecture-02.txt&amp;url_2=https://ietf-wg-scitt.github.io/draft-ietf-scitt-architecture/cleanup-for-118/draft-ietf-scitt-architecture.txt</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 576000,
+    "ptime": 576000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I like the change, it helps ensure IETF focuses on the parts that it should be focusing on, and encourages us from being distracted by commercial applications of IETF standards... a consumer is just another type of verifier.</p>",
+    "topic": "ietf-interim",
+    "dtime": 975000,
+    "ptime": 975000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Steve Lasker's recent email says \"Verifiers use the Subject to ensure completeness and non-equivocation in supply chain evidence by identifying all Transparent Statements linked to the one(s) they are evaluating.\" It also notes that a variety of transparency services may have statements relating to the same subject. Is the subject defined such that it can be consistently used by verifiers across services? Is there any way for verifiers to learn which services they should be looking at for a given subject/artifact?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1014000,
+    "ptime": 1014000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>rats separates RP and verifier, perhaps a find replace on \"verifier\" to \"RP\" for SCITT is needed.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1147000,
+    "ptime": 1147000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Michael, yes, good point on screen size. I'll go smaller next time to avoid distraction now.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1186000,
+    "ptime": 1186000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>It may be okay to proceed with this as it is.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1306000,
+    "ptime": 1306000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>-1 to more disscussion.... +1 to more PRs.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1318000,
+    "ptime": 1318000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>I think the role of Relying Party is an important on, and helps us clarify that different RPs may evaluate the status of an artifact and statements about it differently based on their perspective, other information they have, etc.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1325000,
+    "ptime": 1325000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>\"Relying Party\" in the sense that X.509 certificate people understand it would make sense, but I fear the English words could still imply the confusion of a breadth of application-layer personæ from deeply technical forensic auditors to a 3rd party user of a supply chain app or software repo.</p>\n<p>I like the idea of inlcuding this concept but I think it's different from the verifier so I'm not sure about the find/replace</p>",
+    "topic": "ietf-interim",
+    "dtime": 1393000,
+    "ptime": 1393000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>feel free to comment on the issue to track this discussion: <a href=\"https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/120\">https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/120</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 1453000,
+    "ptime": 1453000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<blockquote>\n<p>Is there any way for verifiers to learn which services they should be looking at for a given subject/artifact?</p>\n</blockquote>\n<p>Neal, I don't want to lose this topic. Noting I saw it. It's part of the validation scenarios I'd like to get to, once we have stability on what went into the Transparency Service. <br>\nThere is some content written as feedback in PRs for how discoverability is covered.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1456000,
+    "ptime": 1456000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>\"Viewer\" might be a simple term we can use.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1463000,
+    "ptime": 1463000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I don't think we should invent new terms</p>",
+    "topic": "ietf-interim",
+    "dtime": 1490000,
+    "ptime": 1490000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>The viewer may decide not to rely on the information they view.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1491000,
+    "ptime": 1491000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>when we have RATs and OAUTH terms that are sufficient.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1500000,
+    "ptime": 1500000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Good point</p>",
+    "topic": "ietf-interim",
+    "dtime": 1513000,
+    "ptime": 1513000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>I'm hearing a lot of discussion for focusing on verification, which involves receipts, registration policies and leveraging the data we're discussing for being put in the Transparency Service. <br>\nThose are great, next discussions.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1581000,
+    "ptime": 1581000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Maybe we can proceed with this version for now and use PR mechanism for changing this later</p>",
+    "topic": "ietf-interim",
+    "dtime": 1630000,
+    "ptime": 1630000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>+2 ^</p>",
+    "topic": "ietf-interim",
+    "dtime": 1648000,
+    "ptime": 1648000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Henk - Sorry I jumped the queue - sometimes I have trouble hearing when names are called...</p>",
+    "topic": "ietf-interim",
+    "dtime": 1651000,
+    "ptime": 1651000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>FWIW Relying Party sounds good to me</p>",
+    "topic": "ietf-interim",
+    "dtime": 1654000,
+    "ptime": 1654000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Could Relying Party be in the terminology, and say See Verifier?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1680000,
+    "ptime": 1680000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Would that be a good start?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1700000,
+    "ptime": 1700000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>As a short-term solution you could just say \"This document uses the term Relying Party and Verifier interchangably.\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1712000,
+    "ptime": 1712000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I think it will need to be eventually changed from verifier.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1727000,
+    "ptime": 1727000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Then, when we settle on the term (at the IETF meeting) we can then do the update</p>",
+    "topic": "ietf-interim",
+    "dtime": 1736000,
+    "ptime": 1736000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Single term, search and replace, if it's truly the same definition is easy</p>",
+    "topic": "ietf-interim",
+    "dtime": 1760000,
+    "ptime": 1760000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>It may be too much to ask it to be changed within this tight time window. Maybe a comment in the text that this is under discussion.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1761000,
+    "ptime": 1761000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>The issue is that we don't have too much time till the deadline</p>",
+    "topic": "ietf-interim",
+    "dtime": 1771000,
+    "ptime": 1771000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>Re Dick's comment, is that not the purpose of the use cases document?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1863000,
+    "ptime": 1863000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>To meet the deadline, I'd ask looking for things that I missed in editing that make it inaccurate to previous versions.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1913000,
+    "ptime": 1913000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>Should it not be clear how the TS could work for some key examples to describe by example what level of abstractions and presumed actors/agents we have?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1915000,
+    "ptime": 1915000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>ACK, Steve. You need any showstopper feedback on this PR before when today?https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/pull/118</p>",
+    "topic": "ietf-interim",
+    "dtime": 1964000,
+    "ptime": 1964000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>A.J., I've been adding more examples, and agree we should add more use case examples, and code examples.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1981000,
+    "ptime": 1981000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>UTC 23:59 - 5pm pacific time</p>",
+    "topic": "ietf-interim",
+    "dtime": 2006000,
+    "ptime": 2006000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>ok, 4:59 Pacific Time - we're shooting for accuracy here.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2024000,
+    "ptime": 2024000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I would suggest to \"note\" that we do not have agreement on the verifier and mark it in the issue list. Then, Steve can merge the PR and we discuss it on the list and make a decision at the meeting.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2025000,
+    "ptime": 2025000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>our scope treats payloads / artifacts as opaque and the current API does not expose artifacts directly to callers.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2195000,
+    "ptime": 2195000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Excellent work Steve.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2375000,
+    "ptime": 2375000
+  },
+  {
+    "author": "Andrew Reiter",
+    "text": "<p>agreed; nice work</p>",
+    "topic": "ietf-interim",
+    "dtime": 2399000,
+    "ptime": 2399000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>@A.J. a bunch of formal use case examples (to the level of UML activity diagrams) would be awesome</p>",
+    "topic": "ietf-interim",
+    "dtime": 2525000,
+    "ptime": 2525000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I'm queued to discuss scrapi</p>",
+    "topic": "ietf-interim",
+    "dtime": 2531000,
+    "ptime": 2531000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I have a time conflict and although I have a partial draft of higher level api I had no chance of progressing it but I will review it and see if at least I can provide it for review at 118, but not in any formal way.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2535000,
+    "ptime": 2535000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p><a href=\"https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases\">https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2566000,
+    "ptime": 2566000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/\">https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2585000,
+    "ptime": 2585000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>^   Last updated        2023-10-16</p>",
+    "topic": "ietf-interim",
+    "dtime": 2600000,
+    "ptime": 2600000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>I think formal activity diagrams will really help to answer these questions of the various layers of abstraction and application/end-users vs components and building block</p>",
+    "topic": "ietf-interim",
+    "dtime": 2621000,
+    "ptime": 2621000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p><a href=\"https://github.com/ietf-scitt/draft-birkholz-scitt-scrapi/\">https://github.com/ietf-scitt/draft-birkholz-scitt-scrapi/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2704000,
+    "ptime": 2704000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p><a href=\"https://github.com/ietf-scitt/draft-birkholz-scitt-scrapi\">https://github.com/ietf-scitt/draft-birkholz-scitt-scrapi</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2712000,
+    "ptime": 2712000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Index of specs and related docs: <a href=\"https://scitt.io/scitt-specs.html\">https://scitt.io/scitt-specs.html</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2730000,
+    "ptime": 2730000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>scitt rest api is still a lower level API and is good but does not handle the higher level issues I had in mind.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2912000,
+    "ptime": 2912000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>We all have opinions on \"quality\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 2986000,
+    "ptime": 2986000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>:)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3021000,
+    "ptime": 3021000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I'm happy to present on a not WG adopted individual draft</p>",
+    "topic": "ietf-interim",
+    "dtime": 3042000,
+    "ptime": 3042000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>that we hope will one day be WG adopted</p>",
+    "topic": "ietf-interim",
+    "dtime": 3048000,
+    "ptime": 3048000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>In terms of agenda, you can sign me up to discuss API, and Receipts.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3092000,
+    "ptime": 3092000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>-1 to changing the naming, Transparency Services are now a generally understood concept, like \"Post Quantum\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3263000,
+    "ptime": 3263000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>see also, CT, KT and CATs</p>",
+    "topic": "ietf-interim",
+    "dtime": 3276000,
+    "ptime": 3276000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p><a href=\"https://catsworkshop.dev/program/\">https://catsworkshop.dev/program/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 3291000,
+    "ptime": 3291000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>I may need be able to drive the content myself, but I know no one in this kind of work enjoys slide authoring and presentation, I can volunteer, just let me know what you need and when.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3403000,
+    "ptime": 3403000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>oh, the slides will be done last minute... it is the only way.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3424000,
+    "ptime": 3424000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I can cover \"Receipt types\" in addition to \"Receipts\".</p>",
+    "topic": "ietf-interim",
+    "dtime": 3465000,
+    "ptime": 3465000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>happy to work with others address it</p>",
+    "topic": "ietf-interim",
+    "dtime": 3478000,
+    "ptime": 3478000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>I agree with Roy that we also need an official role of some sort for regular auditing / checking consistency etc. Relying parties need to know whether each log really is append-only in practice</p>",
+    "topic": "ietf-interim",
+    "dtime": 3485000,
+    "ptime": 3485000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>+1 Jon, consistency proofs keep the ledger better agnostic, but they also create 2 different types of receipts.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3509000,
+    "ptime": 3509000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>I know, this is why I am happy to volunteer now, and make sure I make time for you all to do the shoveling of coal, during the Hackathon.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3510000,
+    "ptime": 3510000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Proposed Meeting Agenda:<br>\nSummary since last<br>\nTerminology updates<br>\nFeed - Subject convergence for a series of statements about a thing (Artifact)<br>\nNow focusing on the verification sceanrios, issuing receipts, finding the series of statements about an Artifact<br>\nAudit capabilities</p>",
+    "topic": "ietf-interim",
+    "dtime": 3523000,
+    "ptime": 3523000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>Thanks A.J, we'll build that in</p>",
+    "topic": "ietf-interim",
+    "dtime": 3607000,
+    "ptime": 3607000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>+1 for use case updates</p>",
+    "topic": "ietf-interim",
+    "dtime": 3661000,
+    "ptime": 3661000
+  },
+  {
+    "author": "Neal McBurnett",
+    "text": "<p>Nice list, Steve. Thanks!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3714000,
+    "ptime": 3714000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 3761000,
+    "ptime": 3761000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Shepheard write up can be done by folks other than chairs, per the IESG statement</p>",
+    "topic": "ietf-interim",
+    "dtime": 3786000,
+    "ptime": 3786000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>thank you everyone</p>",
+    "topic": "ietf-interim",
+    "dtime": 3788000,
+    "ptime": 3788000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>its a great opportunity to learn IETF processes</p>",
+    "topic": "ietf-interim",
+    "dtime": 3794000,
+    "ptime": 3794000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Thank you.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3795000,
+    "ptime": 3795000
+  },
+  {
+    "author": "Andrew Reiter",
+    "text": "<p>thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 3798000,
+    "ptime": 3798000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20231023-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-38/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20231023-1500"
+		}
+	]
+}

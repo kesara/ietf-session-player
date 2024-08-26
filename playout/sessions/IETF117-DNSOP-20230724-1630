@@ -1,0 +1,728 @@
+
+{
+	"title": "IETF117-DNSOP-20230724-1630",
+	"filename": "IETF117-DNSOP-20230724-1630",
+	"start": 0,
+	"end": 7748000,
+	"start_datetime": "2023-07-24T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "IU9PajrpohE",
+    "start": 0,
+    "end": "7748000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jean Queralt",
+    "text": "<p>Greetings from Malaysia.</p>",
+    "topic": "ietf-117",
+    "dtime": 63000,
+    "ptime": 63000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Good morning DNSOPs</p>",
+    "topic": "ietf-117",
+    "dtime": 218000,
+    "ptime": 218000
+  },
+  {
+    "author": "Suzanne Woolf",
+    "text": "<p>Good morning/afternoon/evening to everyone, wherever you are thanks for joining us!</p>",
+    "topic": "ietf-117",
+    "dtime": 278000,
+    "ptime": 278000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>We can recommend DF flag set if we make the text a Best Aspirational Practice instead of a Best Common Practice document, right?</p>",
+    "topic": "ietf-117",
+    "dtime": 757000,
+    "ptime": 757000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>cds-consistency presentation is up.</p>",
+    "topic": "ietf-117",
+    "dtime": 1377000,
+    "ptime": 1377000
+  },
+  {
+    "author": "Lars-Johan Liman",
+    "text": "<p>@charis: Tim mentioned structured error messages, and that he didn't want to mess with stuff that was still in motion. I disagree. I think it far more advantageous to \"fix\" the protocol _before_ it's cast in stone and everybody has implemented it. If there already is a new and better \"version\", let's make sure _that's_ what gets deployed, and not the intermediary \"less optimal\" version. Yes, it will delay deployment of the current spec, but it may lead to a sooner deployment of the better version. IMHO.</p>",
+    "topic": "ietf-117",
+    "dtime": 1396000,
+    "ptime": 1396000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>currently requesting IETF creates \"Best Aspirational Practice\" document</p>",
+    "topic": "ietf-117",
+    "dtime": 1408000,
+    "ptime": 1408000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>@lars: I am in favor of fixing the protocol. before cast in stone! I was trying to say I want to see more operational experience so we. can fix anything which is not working</p>",
+    "topic": "ietf-117",
+    "dtime": 1485000,
+    "ptime": 1485000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>NOc knows ; they are seeing lots of TX errors on the AP in front right of room</p>",
+    "topic": "ietf-117",
+    "dtime": 1488000,
+    "ptime": 1488000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>Thanks Warren.</p>",
+    "topic": "ietf-117",
+    "dtime": 1526000,
+    "ptime": 1526000
+  },
+  {
+    "author": "Lars-Johan Liman",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"48\">@Tim Wicinski</span> : Ah! Got it. Then we're in agreement!</p>",
+    "topic": "ietf-117",
+    "dtime": 1557000,
+    "ptime": 1557000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>Reminder to folks: if you want to go to the mic, you need to raise your hand in Meetecho. Your minutes-taker thanks you.</p>",
+    "topic": "ietf-117",
+    "dtime": 1593000,
+    "ptime": 1593000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>It pains me to say that the CDS consistency draft is yet another piece of evidence that DNSSEC is exceptionally risky in real operational practice.  :(</p>",
+    "topic": "ietf-117",
+    "dtime": 1604000,
+    "ptime": 1604000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>Au contraire, DNSSEC is the only mechanism to authenticate e.g. CSYNC updates. Need of due care in multi-provider setups (rare) does not mean that DNSSEC is risky, it is just evidence that multi-provider is complex.</p>",
+    "topic": "ietf-117",
+    "dtime": 1731000,
+    "ptime": 1731000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i don't think risky is the correct word to use - but yes far from simple that there are huge opportunities for errors and failures</p>",
+    "topic": "ietf-117",
+    "dtime": 1741000,
+    "ptime": 1741000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>I would argue there will/should be more and more multi-provider setups, but I am just an operator who worries about everything</p>",
+    "topic": "ietf-117",
+    "dtime": 1782000,
+    "ptime": 1782000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>these are uncommon today but i am seeing an uptick on requirements to do multi provider at DNS level if not self hosting</p>",
+    "topic": "ietf-117",
+    "dtime": 1835000,
+    "ptime": 1835000
+  },
+  {
+    "author": "Viktor Dukhovni",
+    "text": "<p>I'm in favour of validating updated CSYNC names.</p>",
+    "topic": "ietf-117",
+    "dtime": 1863000,
+    "ptime": 1863000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>Well, this is sort of my point (it's not a comment on the draft, which given my usual hat I refuse to have an opinion about). DNSSEC may just have made DNS too brittle, and the work that has to be done to make it work in a realistic operational world may be evidence that we actually do need to muddle out a way to replace the DNS for real.</p>",
+    "topic": "ietf-117",
+    "dtime": 1974000,
+    "ptime": 1974000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>Sounds like time for the blockchain Mr Sullivan</p>",
+    "topic": "ietf-117",
+    "dtime": 2033000,
+    "ptime": 2033000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i do personally prefer the idea that if we can encrypt the dns communication transmission end to end we can alternatively mitigate a lot of the original cause for DNSSEC in the first place.</p>",
+    "topic": "ietf-117",
+    "dtime": 2163000,
+    "ptime": 2163000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>aka DoT/DoH for auth servers</p>",
+    "topic": "ietf-117",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>In that environment, nothing stops any step along the way from modifying answers.   Channel and data security solve different problems.</p>",
+    "topic": "ietf-117",
+    "dtime": 2218000,
+    "ptime": 2218000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@Anthony Surely encryption of the DNS solves a different problem to DNSSEC as it does not guarantee the validity of the response, simply prevents them from being observed?</p>",
+    "topic": "ietf-117",
+    "dtime": 2245000,
+    "ptime": 2245000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>yes on both counts - you have to trust the recursive resolver</p>",
+    "topic": "ietf-117",
+    "dtime": 2301000,
+    "ptime": 2301000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>The NOC says that there are 3-5 phones nearby the APs using 80Mhz channels. Because we are near the SFO port, we cannot use the DFS 5Ghz channels (because of RADAR interference). They are still looking...</p>",
+    "topic": "ietf-117",
+    "dtime": 2352000,
+    "ptime": 2352000
+  },
+  {
+    "author": "Andrew Fregly",
+    "text": "<p>Has anybody considered that a block chain might be a good solution to to the problem CSYNC is trying to solve?</p>",
+    "topic": "ietf-117",
+    "dtime": 2397000,
+    "ptime": 2397000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/114-dnsop/topic/ietf-117/near/78485\">said</a>:</p>\n<blockquote>\n<p>The NOC says that there are 3-5 phones nearby the APs using 80Mhz channels. Because we are near the SFO port, we cannot use the DFS 5Ghz channels (because of RADAR interference). They are still looking...</p>\n</blockquote>\n<p>are we that close that this would cause a real issue?</p>",
+    "topic": "ietf-117",
+    "dtime": 2400000,
+    "ptime": 2400000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Channel security implies data security if and only if you decide to have absolute faith in the resolver you are using, which is the implicit assumption in the original browser deployment model.</p>",
+    "topic": "ietf-117",
+    "dtime": 2409000,
+    "ptime": 2409000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Whoever has a device called Pixel_9871, it would be great if you could turn off your hotspot... It's using an 80Mhz channel that overlaps with the channels that the IETF is using...</p>",
+    "topic": "ietf-117",
+    "dtime": 2514000,
+    "ptime": 2514000
+  },
+  {
+    "author": "Gabriel Andrews",
+    "text": "<p>Guilty - handling.</p>",
+    "topic": "ietf-117",
+    "dtime": 2527000,
+    "ptime": 2527000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>DNSSEC does not require you to trust your recursive, and I don't think it would be an improvement to require that we do.</p>",
+    "topic": "ietf-117",
+    "dtime": 2661000,
+    "ptime": 2661000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<div class=\"message_inline_image\"><a href=\"https://cdn.wkumari.dev/dnsop_wifi.png\"><img src=\"/external_content/cdd1f8c4b5c12016ecffd928e67a8004195f68de/68747470733a2f2f63646e2e776b756d6172692e6465762f646e736f705f776966692e706e67\"></a></div>",
+    "topic": "ietf-117",
+    "dtime": 2669000,
+    "ptime": 2669000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Ta!</p>",
+    "topic": "ietf-117",
+    "dtime": 2674000,
+    "ptime": 2674000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Thank you! Should be better now...</p>",
+    "topic": "ietf-117",
+    "dtime": 2723000,
+    "ptime": 2723000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>NS1 does not have code queued up for NXNAME, BTW. I haven't really looked to see the level of effort.</p>",
+    "topic": "ietf-117",
+    "dtime": 2784000,
+    "ptime": 2784000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>All better now -- <a href=\"https://cdn.wkumari.dev/dnsop_wifi2.png\">https://cdn.wkumari.dev/dnsop_wifi2.png</a><br>\nNOC sees TX errors decreasing. Thanks!</p>\n<div class=\"message_inline_image\"><a href=\"https://cdn.wkumari.dev/dnsop_wifi2.png\"><img src=\"/external_content/6ca88ce49aa34f07995160b41bc52cc6e2fb4cd2/68747470733a2f2f63646e2e776b756d6172692e6465762f646e736f705f77696669322e706e67\"></a></div>",
+    "topic": "ietf-117",
+    "dtime": 2826000,
+    "ptime": 2826000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>We do not have to fix this non-problem. ;-)</p>",
+    "topic": "ietf-117",
+    "dtime": 2970000,
+    "ptime": 2970000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>It's been operational for years and the world has not ended, IMHO.</p>",
+    "topic": "ietf-117",
+    "dtime": 2983000,
+    "ptime": 2983000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>Shane, your comments for Issue 4?</p>",
+    "topic": "ietf-117",
+    "dtime": 3015000,
+    "ptime": 3015000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>Yes, that's correct.</p>",
+    "topic": "ietf-117",
+    "dtime": 3054000,
+    "ptime": 3054000
+  },
+  {
+    "author": "Puneet Sood",
+    "text": "<p>Issue 5: Strongly prefer recommending following RFC 4470</p>",
+    "topic": "ietf-117",
+    "dtime": 3054000,
+    "ptime": 3054000
+  },
+  {
+    "author": "Puneet Sood",
+    "text": "<p>for new implementations.</p>",
+    "topic": "ietf-117",
+    "dtime": 3062000,
+    "ptime": 3062000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>if pre-existing standards solve the problem correctly then surely that is the the guidance to give - go deploy as per the correct standards</p>",
+    "topic": "ietf-117",
+    "dtime": 3063000,
+    "ptime": 3063000
+  },
+  {
+    "author": "Puneet Sood",
+    "text": "<p>thanks Tale for saying that.</p>",
+    "topic": "ietf-117",
+    "dtime": 3253000,
+    "ptime": 3253000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>concur with adoption</p>",
+    "topic": "ietf-117",
+    "dtime": 3642000,
+    "ptime": 3642000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>You know............ If we just filed an errata with the original spec and say it was supposed to be 1 bit not 16 bits then we have 15 new bits to use for other things!!!!!</p>",
+    "topic": "ietf-116",
+    "dtime": 3950000,
+    "ptime": 3950000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>We can get rid of source port randomization! Good idea, Wes. ;-)</p>",
+    "topic": "ietf-117",
+    "dtime": 3980000,
+    "ptime": 3980000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>@Ted Lemon: What about keeping all of the \"interesting\" bits in an Appendix?</p>",
+    "topic": "ietf-117",
+    "dtime": 3994000,
+    "ptime": 3994000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>Wes-From-The-Past has an excellent bad idea. :)</p>",
+    "topic": "ietf-117",
+    "dtime": 4009000,
+    "ptime": 4009000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1707\">@Shane Kerr</span>  New source of entropy... ? :-P</p>",
+    "topic": "ietf-117",
+    "dtime": 4021000,
+    "ptime": 4021000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>+1 that the document includes a bunch of background/reasoning that really only makes sense in an informational.  This doc should just say very simply, \"QDCOUNT MUST be 0 or 1\" and maybe at most say required by operational practices by assumptions in the ecosystem.</p>",
+    "topic": "ietf-117",
+    "dtime": 4030000,
+    "ptime": 4030000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>Agree with interesting bits in the Appendix</p>",
+    "topic": "ietf-117",
+    "dtime": 4106000,
+    "ptime": 4106000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>that's odd...  so the past-116 me was done using the meetecho chat tool on a phone.</p>",
+    "topic": "ietf-117",
+    "dtime": 4111000,
+    "ptime": 4111000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Much as I disagree with all the arguments around unable to differentiate errors and such, only asking one question is a defacto standard at this point, so let's codify it for the one way that'll work with all the existing implementations.</p>",
+    "topic": "ietf-117",
+    "dtime": 4118000,
+    "ptime": 4118000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>Now I'm in the future</p>",
+    "topic": "ietf-118",
+    "dtime": 4131000,
+    "ptime": 4131000
+  },
+  {
+    "author": "Peter Koch",
+    "text": "<p>DNS-SD is not the DNS, robustness principle applies, +1 to Liman</p>",
+    "topic": "ietf-117",
+    "dtime": 4223000,
+    "ptime": 4223000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>\"QDCOUNT MUST be at most 1.  Otherwise response behavior is unpredictable due to historically being undefined and ambiguous.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 4419000,
+    "ptime": 4419000
+  },
+  {
+    "author": "Peter Thomassen",
+    "text": "<p>How about making QDCOUNT&lt;=1 a BCP? Seems to me that would help manage expectations of those trying creative implementations, while not completely blocking the road in case something comes around the corner in the future where we wouldn't want to be as strict. (Best <em>Current</em> Practice.)</p>",
+    "topic": "ietf-117",
+    "dtime": 4428000,
+    "ptime": 4428000
+  },
+  {
+    "author": "Peter Thomassen",
+    "text": "<p>BCP would also be \"informational\" enough to contain all the analysis bits in an appendix.</p>",
+    "topic": "ietf-117",
+    "dtime": 4463000,
+    "ptime": 4463000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>+1 to Eric</p>",
+    "topic": "ietf-117",
+    "dtime": 4522000,
+    "ptime": 4522000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>I prefer to codify the reality that only 0 and 1 work. It's a little bit of anti-amel.</p>",
+    "topic": "ietf-117",
+    "dtime": 4534000,
+    "ptime": 4534000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>anti-camel</p>",
+    "topic": "ietf-117",
+    "dtime": 4565000,
+    "ptime": 4565000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>MUST NOT statements save lives! :-D</p>",
+    "topic": "ietf-117",
+    "dtime": 4597000,
+    "ptime": 4597000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>Any implementation of QDCOUNT &gt; 1 would hit so many weird corner cases —which make responses useless—that anyone who wants to do that should use a separate mechanism.  Hence Ray's multi-qtypes draft.</p>",
+    "topic": "ietf-117",
+    "dtime": 4694000,
+    "ptime": 4694000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>So better to just outlaw it and push people to EDNS</p>",
+    "topic": "ietf-117",
+    "dtime": 4714000,
+    "ptime": 4714000
+  },
+  {
+    "author": "Lars-Johan Liman",
+    "text": "<p>I still think that text along the lines of \"&gt; 1 is not well defined in public DNS documents, and should only be used in situations where both client and server agree on the semantics. In normal cases DNS servers are expected to respond with FORMERR.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 4743000,
+    "ptime": 4743000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Shane, MUST NOT saves millions of lines of code too. :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 4764000,
+    "ptime": 4764000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>Anyone who wants to write a DNS server that doesn't need to interoperate with other DNS servers is free to ignore any RFC they wish.</p>",
+    "topic": "ietf-117",
+    "dtime": 4790000,
+    "ptime": 4790000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>I prefer QDcount must be &lt;2. That can be revisited If/when someone comes up with a reasonable use case for QDcount &gt;= 2.</p>",
+    "topic": "ietf-117",
+    "dtime": 4887000,
+    "ptime": 4887000
+  },
+  {
+    "author": "Peter Thomassen",
+    "text": "<p>Why is a standards document better than a BCP (which would be easier to revise iff needed)?</p>",
+    "topic": "ietf-117",
+    "dtime": 4920000,
+    "ptime": 4920000
+  },
+  {
+    "author": "Jaime Jimenez",
+    "text": "<p>About DOTS: it’s based in CoAP and there are many CoAP client/server libraries.</p>",
+    "topic": "ietf-117",
+    "dtime": 4973000,
+    "ptime": 4973000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>You may look at <a href=\"https://github.com/nttdots/go-dots\">https://github.com/nttdots/go-dots</a></p>",
+    "topic": "ietf-117",
+    "dtime": 5068000,
+    "ptime": 5068000
+  },
+  {
+    "author": "Puneet Sood",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"297\">Peter Thomassen</span> <a href=\"#narrow/stream/114-dnsop/topic/ietf-117/near/78774\">said</a>:</p>\n<blockquote>\n<p>Why is a standards document better than a BCP (which would be easier to revise iff needed)?</p>\n</blockquote>\n<p>Agreed. Not seeing the value to having this as a standards track or WG RFC</p>",
+    "topic": "ietf-117",
+    "dtime": 5080000,
+    "ptime": 5080000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Lamp <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 5134000,
+    "ptime": 5134000
+  },
+  {
+    "author": "Lars-Johan Liman",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1208\">Puneet Sood</span> <a href=\"#narrow/stream/114-dnsop/topic/ietf-117/near/78782\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"297\">Peter Thomassen</span> <a href=\"#narrow/stream/114-dnsop/topic/ietf-117/near/78774\">said</a>:</p>\n<blockquote>\n<p>Why is a standards document better than a BCP (which would be easier to revise iff needed)?</p>\n</blockquote>\n<p>Agreed. Not seeing the value to having this as a standards track or WG RFC</p>\n</blockquote>\n<p>I can go with a BCP. That makes sense to me.</p>",
+    "topic": "ietf-117",
+    "dtime": 5147000,
+    "ptime": 5147000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Urg autocorrect ... Snmp <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 5157000,
+    "ptime": 5157000
+  },
+  {
+    "author": "Jean Queralt",
+    "text": "<p>Anyone from Meetecho to report bugs?</p>",
+    "topic": "ietf-117",
+    "dtime": 5264000,
+    "ptime": 5264000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>What's wrong Jean?</p>",
+    "topic": "ietf-117",
+    "dtime": 5281000,
+    "ptime": 5281000
+  },
+  {
+    "author": "Jean Queralt",
+    "text": "<p>Users with Private Chat (seemingly) disabled do show up on the \"tab\" list on top of the chat though no actual chatting is possible. My take is the Private Chat should not show for such users and the \"tab\" should also not appear.</p>",
+    "topic": "ietf-117",
+    "dtime": 5371000,
+    "ptime": 5371000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>Perl scripts that are hard to maintain? Hard to believe! ;-)</p>",
+    "topic": "ietf-117",
+    "dtime": 5376000,
+    "ptime": 5376000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>moral of the story, don't drink and code perl scripts :D</p>",
+    "topic": "ietf-117",
+    "dtime": 5494000,
+    "ptime": 5494000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>I don't know how the machines know what date and time it is where you are, but they do.</p>",
+    "topic": "ietf-117",
+    "dtime": 5501000,
+    "ptime": 5501000
+  },
+  {
+    "author": "Nigel Hickson",
+    "text": "<p>Hope you perhaps discussed issues of failure with ICANN ccNSO</p>",
+    "topic": "ietf-117",
+    "dtime": 5510000,
+    "ptime": 5510000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>this does kind of make sense as a BCP or informational</p>",
+    "topic": "ietf-117",
+    "dtime": 5557000,
+    "ptime": 5557000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>happy to offer a review</p>",
+    "topic": "ietf-117",
+    "dtime": 6031000,
+    "ptime": 6031000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>question what track?</p>",
+    "topic": "ietf-117",
+    "dtime": 6042000,
+    "ptime": 6042000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>I have to concur there are a large field of non-TLDs with many different organizations underneath them.</p>",
+    "topic": "ietf-117",
+    "dtime": 6674000,
+    "ptime": 6674000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i vote to adopt - definitely agree to also note the historical DoS concerns as a security consideration - the implementations have support to control who to accept NOTIFY  from</p>",
+    "topic": "ietf-117",
+    "dtime": 6707000,
+    "ptime": 6707000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>We tried the side-channel for this with draft-ietf-regext-dnsoperator-to-rrr-protocol ... it didn't get much traction.  I think this has a better chance of succeeding.</p>",
+    "topic": "ietf-117",
+    "dtime": 6714000,
+    "ptime": 6714000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>\"The real answer is another TXT Record\"  Bad-Idea-Tim</p>",
+    "topic": "ietf-117",
+    "dtime": 6808000,
+    "ptime": 6808000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>TXT records solve everything. :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 6841000,
+    "ptime": 6841000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>Thoe the folks in the mic queue now: we are already over time.</p>",
+    "topic": "ietf-117",
+    "dtime": 7356000,
+    "ptime": 7356000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>Meetecho session can be closed any moment.</p>",
+    "topic": "ietf-117",
+    "dtime": 7417000,
+    "ptime": 7417000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We don't close sessions automatically</p>",
+    "topic": "ietf-117",
+    "dtime": 7435000,
+    "ptime": 7435000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We wait for people to leave :)</p>",
+    "topic": "ietf-117",
+    "dtime": 7444000,
+    "ptime": 7444000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Unless you never do, of course! :D</p>",
+    "topic": "ietf-117",
+    "dtime": 7453000,
+    "ptime": 7453000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>Thanks!  We will manage it and close DNSOP in couple of minutes</p>",
+    "topic": "ietf-117",
+    "dtime": 7471000,
+    "ptime": 7471000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>The thing that concerns me about this proposal is the lack of any standardized signal for algorithm status, and how this interacts with the long tail of embedded systems, etc.</p>",
+    "topic": "ietf-117",
+    "dtime": 7558000,
+    "ptime": 7558000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-DNSOP-20230724-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/dnsop"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-DNSOP-20230724-1630"
+		}		
+	]
+}

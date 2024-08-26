@@ -1,0 +1,280 @@
+
+{
+	"title": "IETF118-CFRG-20231109-1400",
+	"filename": "IETF118-CFRG-20231109-1400",
+	"start": 0,
+	"end": 5485000,
+	"start_datetime": "2023-11-09T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "d9PZnnZd2zU",
+    "start": 0,
+    "end": "5485000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Hi everyone!</p>",
+    "topic": "ietf-118",
+    "dtime": 154000,
+    "ptime": 154000
+  },
+  {
+    "author": "Renzo Navas",
+    "text": "<p>Hello</p>",
+    "topic": "ietf-118",
+    "dtime": 265000,
+    "ptime": 265000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>What are our use cases for BBS signatures?</p>",
+    "topic": "ietf-118",
+    "dtime": 1544000,
+    "ptime": 1544000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>Representing rich credentials with identity attributes which may be redacted, and presented without correlation</p>",
+    "topic": "ietf-118",
+    "dtime": 1729000,
+    "ptime": 1729000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>@ChrisP: Privacy Pass is one use case</p>",
+    "topic": "ietf-118",
+    "dtime": 1848000,
+    "ptime": 1848000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>There Jose-json-web-proofs is attempting to describe a container format for these sorts of signatures/proofs</p>",
+    "topic": "ietf-118",
+    "dtime": 1852000,
+    "ptime": 1852000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>I'm a bit worried of having two non-PQ secure tools for the same purpose, but it sounds like this gets us something that RSA blind signatures don't get us.</p>",
+    "topic": "ietf-118",
+    "dtime": 2047000,
+    "ptime": 2047000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>meetecho camera is not capturing the speaker</p>",
+    "topic": "ietf-118",
+    "dtime": 2107000,
+    "ptime": 2107000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>^ <span class=\"user-mention\" data-user-id=\"3062\">@Nick Sullivan</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2149000,
+    "ptime": 2149000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Richard: there doesn't seem to be one?</p>",
+    "topic": "ietf-118",
+    "dtime": 2153000,
+    "ptime": 2153000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>there a 3 microphones and 2 cameras, so I'm guessing that's why</p>",
+    "topic": "ietf-118",
+    "dtime": 2154000,
+    "ptime": 2154000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Or are they in a different spot?</p>",
+    "topic": "ietf-118",
+    "dtime": 2159000,
+    "ptime": 2159000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>not sure.  sounded like they were in the room</p>",
+    "topic": "ietf-118",
+    "dtime": 2201000,
+    "ptime": 2201000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Hubert: that may be it, we have two cameras that are pointing at the mic lines in the corridor</p>",
+    "topic": "ietf-118",
+    "dtime": 2246000,
+    "ptime": 2246000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>To be very clear, EU eIDAS digital identity wallet work cannot use BBS signatures without JWP work (credentials/payload layer) in JOSE WG</p>",
+    "topic": "ietf-118",
+    "dtime": 2299000,
+    "ptime": 2299000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>There are three mic lines, but I think only cameras on two of the three.</p>",
+    "topic": "ietf-118",
+    "dtime": 2339000,
+    "ptime": 2339000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Also, it's not clear that \"issuing credentials frequently\" is a non-starter.  There is also work on automating credential issuance that could support a fair degree of unlinkability without needing BBS</p>",
+    "topic": "ietf-118",
+    "dtime": 2664000,
+    "ptime": 2664000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>We might be seeing a case here for moving from GCM to OCB for authenticated encryption - the Tamrin models will cost so much less to run.</p>",
+    "topic": "ietf-118",
+    "dtime": 3248000,
+    "ptime": 3248000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>This is very cool work.</p>",
+    "topic": "ietf-118",
+    "dtime": 3376000,
+    "ptime": 3376000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>This might actually be a serious point, the state space required to verify will expand when using AEADs that are non nonce reuse resistant.</p>\n<p>Composing one protocol on another is going to cause things to grow expopnentially.</p>",
+    "topic": "ietf-118",
+    "dtime": 3415000,
+    "ptime": 3415000
+  },
+  {
+    "author": "Justus Winter",
+    "text": "<p>(s/GPG/OpenPGP/g please)</p>",
+    "topic": "ietf-118",
+    "dtime": 3446000,
+    "ptime": 3446000
+  },
+  {
+    "author": "Alison Becker",
+    "text": "<p>this would be great work to present/discuss to the UFMRG group as well!</p>",
+    "topic": "ietf-118",
+    "dtime": 3481000,
+    "ptime": 3481000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>tbh when i was reading the agenda, i read this as \"The Majestic VDAF\" on first pass, and was like \"awww yeah it is\"</p>",
+    "topic": "ietf-118",
+    "dtime": 3508000,
+    "ptime": 3508000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>lol</p>",
+    "topic": "ietf-118",
+    "dtime": 3533000,
+    "ptime": 3533000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>We can call it that if you want, Ricahrd</p>",
+    "topic": "ietf-118",
+    "dtime": 3620000,
+    "ptime": 3620000
+  },
+  {
+    "author": "Vasilis Kalos",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/267-cfrg/topic/ietf-118/near/100298\">said</a>:</p>\n<blockquote>\n<p>Also, it's not clear that \"issuing credentials frequently\" is a non-starter.  There is also work on automating credential issuance that could support a fair degree of unlinkability without needing BBS</p>\n</blockquote>\n<p>Agreed that it is not a \"non starter\". I think it depends on the use case. BBS seem better suited when unlinkability against the Issuer is desirable, (and also maybe cases that credentials will be used at a high rate).</p>",
+    "topic": "ietf-118",
+    "dtime": 3682000,
+    "ptime": 3682000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1102\">@Vasilis Kalos</span> What do you mean \"unlinkability agains the issuer\"?  The point of a credential is to encode information the issuer associates with the subject, so presumably the verifier / relying party needs to know at least that the issuer is a party that the verifier trusts.</p>",
+    "topic": "ietf-118",
+    "dtime": 3850000,
+    "ptime": 3850000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"128\">@Christopher Wood</span> We don't yet have an apples-to-apples comparison. Probably the CPU time will be higher and the communication cost slightly higher.</p>",
+    "topic": "ietf-118",
+    "dtime": 4165000,
+    "ptime": 4165000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>As I said at the mic, I think performance is the least interesting aspect right now :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4335000,
+    "ptime": 4335000
+  },
+  {
+    "author": "Vasilis Kalos",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/267-cfrg/topic/ietf-118/near/100363\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1102\">Vasilis Kalos</span> What do you mean \"unlinkability agains the issuer\"?  The point of a credential is to encode information the issuer associates with the subject, so presumably the verifier / relying party needs to know at least that the issuer is a party that the verifier trusts.</p>\n</blockquote>\n<p>That's correct. Sorry, should have clarified. I meant that the Issuer will not be able to \"track\" the credential. So if the Verifiers work together with the Issuer (or if they are the same entity), the Issuer will not be able to link a BBS proof presentation to the user that created it (or rather the signature/signed-messages that where used to generate it).</p>",
+    "topic": "ietf-118",
+    "dtime": 4494000,
+    "ptime": 4494000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>I see, thanks!</p>",
+    "topic": "ietf-118",
+    "dtime": 4710000,
+    "ptime": 4710000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>I agree that that's a property you can't get from simply issuing multiple credentials with standard signatures.  though you might not need full BBS; a blinded signature seems like it could suffice</p>",
+    "topic": "ietf-118",
+    "dtime": 4758000,
+    "ptime": 4758000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I can't see any point in trying to move away from RSA 1.5, I am only supporting RSA for compatibility at this point.<br>\n(EC) Diffie Hellman based approaches do appear to be a lot more robust as a matter of structure.</p>",
+    "topic": "ietf-118",
+    "dtime": 5053000,
+    "ptime": 5053000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>as long as you have support for it, you will be vulnerable, even if it's just the compatibility API</p>",
+    "topic": "ietf-118",
+    "dtime": 5287000,
+    "ptime": 5287000
+  },
+  {
+    "author": "Vasilis Kalos",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/267-cfrg/topic/ietf-118/near/100456\">said</a>:</p>\n<blockquote>\n<p>I agree that that's a property you can't get from simply issuing multiple credentials with standard signatures.  though you might not need full BBS; a blinded signature seems like it could suffice</p>\n</blockquote>\n<p>Yes that's true. The hope is that BBS will provide an easier (and more efficient) way to provide the combination of those features (note unlinkability against the Issuer does not need blinding in BBS), together with the ability to be easily combined with other zk-protocols as well.</p>",
+    "topic": "ietf-118",
+    "dtime": 5427000,
+    "ptime": 5427000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-CFRG-20231109-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/cfrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-CFRG-20231109-1400"
+		}		
+	]
+}

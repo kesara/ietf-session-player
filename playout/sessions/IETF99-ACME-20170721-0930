@@ -1,0 +1,511 @@
+{
+  "title": "IETF99-ACME-20170721-0930",
+  "filename": "IETF99-ACME-20170721-0930",
+  "start": 0,
+  "end": 5528000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "GPITyilBw1A",
+      "start": 0.0,
+      "end": 5528000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Good morning all!  I\u0027ll be your jabber scribe; if you have something you\u0027d like said in the physical room, please preface it with \"mic:\"",
+      "ptime": 15000.0,
+      "dtime": 963000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "agenda bash",
+      "ptime": 36000.0,
+      "dtime": 984000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "doc status",
+      "ptime": 53000.0,
+      "dtime": 1001000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Yaron on STAR",
+      "ptime": 162000.0,
+      "dtime": 1110000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Jacob Hoffman-Andrews just joined the room",
+      "ptime": 397000.0,
+      "dtime": 1345000.0
+    },
+    {
+      "text": "Ted hardie at mic",
+      "ptime": 497000.0,
+      "dtime": 1445000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Rob Murray just joined the room",
+      "ptime": 569000.0,
+      "dtime": 1517000.0
+    },
+    {
+      "text": "Yoav Nir at mic",
+      "ptime": 584000.0,
+      "dtime": 1532000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 646000.0,
+      "dtime": 1594000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ted at table",
+      "ptime": 690000.0,
+      "dtime": 1638000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ben Schwartz at mic",
+      "ptime": 786000.0,
+      "dtime": 1734000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Michael Richardson at mic",
+      "ptime": 833000.0,
+      "dtime": 1781000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "HTTP Expires says something about how long the server will keep the resource unchanged, not how long the content applies to some other protocol.",
+      "ptime": 943000.0,
+      "dtime": 1891000.0,
+      "author": "Stefan Eissing"
+    },
+    {
+      "text": "HTTP Expires says something about how long the server will keep the resource unchanged, not how long the content applies to some other protocol.",
+      "ptime": 943000.0,
+      "dtime": 1891000.0,
+      "author": "Stefan Eissing"
+    },
+    {
+      "text": "Stefan would you like that said at the mic?",
+      "ptime": 961000.0,
+      "dtime": 1909000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Can you read this as a comment to the participant? Thanks.",
+      "ptime": 991000.0,
+      "dtime": 1939000.0,
+      "author": "Stefan Eissing"
+    },
+    {
+      "text": "sure",
+      "ptime": 1008000.0,
+      "dtime": 1956000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Lopez Diego at mic",
+      "ptime": 1056000.0,
+      "dtime": 2004000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 1126000.0,
+      "dtime": 2074000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Deb Cooley at mic",
+      "ptime": 1137000.0,
+      "dtime": 2085000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "if you use unique URLs for a cert, you can never expire that.",
+      "ptime": 1152000.0,
+      "dtime": 2100000.0,
+      "author": "Stefan Eissing"
+    },
+    {
+      "text": "Meaning you may cache it at HTTP level forever",
+      "ptime": 1166000.0,
+      "dtime": 2114000.0,
+      "author": "Stefan Eissing"
+    },
+    {
+      "text": "Stefan, how would the new URLs get communicated to the DNO?",
+      "ptime": 1201000.0,
+      "dtime": 2149000.0,
+      "author": "mcr"
+    },
+    {
+      "text": "For the record, we also need per-cert URLs",
+      "ptime": 1206000.0,
+      "dtime": 2154000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "NOTE: title should be \"Stop Issuance\"",
+      "ptime": 1285000.0,
+      "dtime": 2233000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Is there a sophisticated banking term for the \"stop check\"",
+      "ptime": 1316000.0,
+      "dtime": 2264000.0,
+      "author": "mcr"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 1319000.0,
+      "dtime": 2267000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Deactivation syntax:",
+      "ptime": 1532000.0,
+      "dtime": 2480000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "\"payload\": base64url({",
+      "ptime": 1533000.0,
+      "dtime": 2481000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "Orders also have a ?status? field, so we can reuse that",
+      "ptime": 1549000.0,
+      "dtime": 2497000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "Richard Barnes on acme-acme",
+      "ptime": 1570000.0,
+      "dtime": 2518000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "",
+      "ptime": 1731000.0,
+      "dtime": 2679000.0,
+      "author": "mcr"
+    },
+    {
+      "text": "Paul Hoffman previously, now Richard Barnes at mic",
+      "ptime": 1757000.0,
+      "dtime": 2705000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Okke Timm just joined the room",
+      "ptime": 1927000.0,
+      "dtime": 2875000.0
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 2029000.0,
+      "dtime": 2977000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Clint Wilson (DigiCert) at mic",
+      "ptime": 2100000.0,
+      "dtime": 3048000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 2172000.0,
+      "dtime": 3120000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "no hums for \"acme only\", strong hum for \"acme and non-acme\"",
+      "ptime": 2252000.0,
+      "dtime": 3200000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Jon Peterson on STIR TNs for ACME",
+      "ptime": 2272000.0,
+      "dtime": 3220000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 2656000.0,
+      "dtime": 3604000.0
+    },
+    {
+      "text": "Peter Spacek at mic",
+      "ptime": 2694000.0,
+      "dtime": 3642000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Mary Barnes at mic",
+      "ptime": 2824000.0,
+      "dtime": 3772000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Jim (??) at mic",
+      "ptime": 2848000.0,
+      "dtime": 3796000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Jim Reid",
+      "ptime": 2855000.0,
+      "dtime": 3803000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 2889000.0,
+      "dtime": 3837000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Mary Barnes on MACE Id and Challenges for VoIP Service Providers",
+      "ptime": 2965000.0,
+      "dtime": 3913000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "s/MACE/ACME",
+      "ptime": 2981000.0,
+      "dtime": 3929000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Rob Murray just left the room",
+      "ptime": 3156000.0,
+      "dtime": 4104000.0
+    },
+    {
+      "text": "Chris Wendt at mic",
+      "ptime": 3221000.0,
+      "dtime": 4169000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "https://cdn.meme.am/cache/instances/folder656/500x/79789656/y-u-no-y-u-no-wear-your-badge.jpg",
+      "ptime": 3250000.0,
+      "dtime": 4198000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ted Hardie at mic",
+      "ptime": 3276000.0,
+      "dtime": 4224000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Chris Wendt at mic",
+      "ptime": 3327000.0,
+      "dtime": 4275000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ted again",
+      "ptime": 3395000.0,
+      "dtime": 4343000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 3408000.0,
+      "dtime": 4356000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Taiji Kimura just joined the room",
+      "ptime": 3434000.0,
+      "dtime": 4382000.0
+    },
+    {
+      "text": "Chris Wendt at mic",
+      "ptime": 3481000.0,
+      "dtime": 4429000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes previously, Jon Peterson now at mic",
+      "ptime": 3546000.0,
+      "dtime": 4494000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Jon Peterson again",
+      "ptime": 3592000.0,
+      "dtime": 4540000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Alexey Melnikov on Extensions to ACME for email",
+      "ptime": 3655000.0,
+      "dtime": 4603000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ted Hardie at mic",
+      "ptime": 3955000.0,
+      "dtime": 4903000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Peter Spacek at mic",
+      "ptime": 4053000.0,
+      "dtime": 5001000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 4141000.0,
+      "dtime": 5089000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "?? at mic (sorry, could not catch name)",
+      "ptime": 4194000.0,
+      "dtime": 5142000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Andreas Schulz at mic",
+      "ptime": 4204000.0,
+      "dtime": 5152000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Russ Housley at mic",
+      "ptime": 4263000.0,
+      "dtime": 5211000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ondrej Caletka at mic",
+      "ptime": 4279000.0,
+      "dtime": 5227000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "this is an attractive bike shed",
+      "ptime": 4360000.0,
+      "dtime": 5308000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 4370000.0,
+      "dtime": 5318000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 4496000.0,
+      "dtime": 5444000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Michael Richardson at mic",
+      "ptime": 4677000.0,
+      "dtime": 5625000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ted Hardie at mic",
+      "ptime": 4735000.0,
+      "dtime": 5683000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 4822000.0,
+      "dtime": 5770000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ben Schartz at mic",
+      "ptime": 4927000.0,
+      "dtime": 5875000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 4984000.0,
+      "dtime": 5932000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Paul Hoffman at mic (voluntelling Viktor D)",
+      "ptime": 5097000.0,
+      "dtime": 6045000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Kathleen Moriarty at mic",
+      "ptime": 5144000.0,
+      "dtime": 6092000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 5177000.0,
+      "dtime": 6125000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 5240000.0,
+      "dtime": 6188000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Clint Wilson at mic",
+      "ptime": 5284000.0,
+      "dtime": 6232000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "oh the pedantry",
+      "ptime": 5437000.0,
+      "dtime": 6385000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Kathleen at mic",
+      "ptime": 5443000.0,
+      "dtime": 6391000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "and we\u0027re done",
+      "ptime": 5464000.0,
+      "dtime": 6412000.0,
+      "author": "m\u0026m"
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-ACME-20170721-0930"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+
+{
+	"title": "IETF-JSONPATH-20220426-0800",
+	"filename": "IETF-JSONPATH-20220426-0800",
+	"start": 0,
+	"end": 5860000,
+	"start_datetime": "2022-04-26T07:50:14Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "6vbyKOGudv0",
+    "start": 0,
+    "end": "5860000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 408000,
+    "ptime": 408000,
+    "author": "Greg Dennis",
+    "text": "evening* :slightly_smiling_face:<br/>"
+  },
+  {
+    "dtime": 1647000,
+    "ptime": 1647000,
+    "author": "Glyn Normington",
+    "text": "<a href=\"https://cburgmer.github.io/json-path-comparison/results/filter_expression_with_boolean_and_operator_and_value_true.html\" rel=\"nofollow\">https://cburgmer.github.io/json-path-comparison/results/filter_expression_with_boolean_and_operator_and_value_true.html</a><br/>"
+  },
+  {
+    "dtime": 1771000,
+    "ptime": 1771000,
+    "author": "Glyn Normington",
+    "text": "<a href=\"https://cburgmer.github.io/json-path-comparison/results/filter_expression_with_boolean_and_operator_and_value_false.html\" rel=\"nofollow\">https://cburgmer.github.io/json-path-comparison/results/filter_expression_with_boolean_and_operator_and_value_false.html</a><br/>"
+  },
+  {
+    "dtime": 2269000,
+    "ptime": 2269000,
+    "author": "Greg Dennis",
+    "text": "$[?(@.foo==false)]<br/>"
+  },
+  {
+    "dtime": 2296000,
+    "ptime": 2296000,
+    "author": "Glyn Normington",
+    "text": "<a href=\"https://cburgmer.github.io/json-path-comparison/results/filter_expression_with_equals_true.html\" rel=\"nofollow\">https://cburgmer.github.io/json-path-comparison/results/filter_expression_with_equals_true.html</a><br/>"
+  },
+  {
+    "dtime": 4827000,
+    "ptime": 4827000,
+    "author": "Julian Reschke",
+    "text": "if it's a must, the impl essentially needs to parse the expression based on the i-regexp grammar and reject everything outside, then pass that to the internal regexp impl<br/>"
+  },
+  {
+    "dtime": 5142000,
+    "ptime": 5142000,
+    "author": "cabo",
+    "text": "Yes.&nbsp;&nbsp;Unfortunately, the grammar for iregexps is hideous (see document), so that is a non-trivial onus.<br/>"
+  },
+  {
+    "dtime": 5608000,
+    "ptime": 5608000,
+    "author": "Julian Reschke",
+    "text": "point taken (so much for jumping into a WG meeting unprepared :-)<br/>"
+  },
+  {
+    "dtime": 5674000,
+    "ptime": 5674000,
+    "author": "cabo",
+    "text": "Thanks for doing that!<br/>"
+  },
+  {
+    "dtime": 5776000,
+    "ptime": 5776000,
+    "author": "Julian Reschke",
+    "text": "that email actually was what brought me here<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-JSONPATH-20220426-0800"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-jsonpath-03/session/jsonpath"
+		}
+	]
+}

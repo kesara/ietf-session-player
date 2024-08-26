@@ -1,0 +1,407 @@
+{
+  "title": "IETF104-TEEP-20190326-0900",
+  "filename": "IETF104-TEEP-20190326-0900",
+  "start": 0,
+  "end": 7291000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "wJTweQ5AB3Q",
+      "start": 0.0,
+      "end": 7291000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "This is Ming for remote participation",
+      "ptime": 46000.0,
+      "dtime": 1207000.0,
+      "author": "Mingliang Pei"
+    },
+    {
+      "text": "***Nicolae Paladi just left the room",
+      "ptime": 78000.0,
+      "dtime": 1239000.0
+    },
+    {
+      "text": "***Nicolae Paladi just joined the room",
+      "ptime": 79000.0,
+      "dtime": 1240000.0
+    },
+    {
+      "text": "Hello all remote people, I am your jabber scribe. If you\u0027d like something read aloud at the microphone please type it here and mention that you\u0027d like it read.",
+      "ptime": 145000.0,
+      "dtime": 1306000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "***Henk Birkholz just joined the room",
+      "ptime": 294000.0,
+      "dtime": 1455000.0
+    },
+    {
+      "text": "got it, thx",
+      "ptime": 426000.0,
+      "dtime": 1587000.0,
+      "author": "Mingliang Pei"
+    },
+    {
+      "text": "Slides: https://datatracker.ietf.org/meeting/104/materials/slides-104-teep-architecture-updates-00",
+      "ptime": 553000.0,
+      "dtime": 1714000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "Draft in question: https://datatracker.ietf.org/doc/draft-ietf-teep-architecture/",
+      "ptime": 647000.0,
+      "dtime": 1808000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "***Ned Smith just joined the room",
+      "ptime": 693000.0,
+      "dtime": 1854000.0
+    },
+    {
+      "text": "***Corinna Schmitt just joined the room",
+      "ptime": 1103000.0,
+      "dtime": 2264000.0
+    },
+    {
+      "text": "Comment: this is just a nit, but Trusted App and Trust Anchor both use the acronym TA, right?",
+      "ptime": 1134000.0,
+      "dtime": 2295000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "***Corinna Schmitt just left the room",
+      "ptime": 1150000.0,
+      "dtime": 2311000.0
+    },
+    {
+      "text": "***Corinna Schmitt just joined the room",
+      "ptime": 1150000.0,
+      "dtime": 2311000.0
+    },
+    {
+      "text": "Would you like that read aloud henk?",
+      "ptime": 1165000.0,
+      "dtime": 2326000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "That is not really bad - but just listening, at some points it actually was confusing until I remembered you meant Trustlet",
+      "ptime": 1183000.0,
+      "dtime": 2344000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "yes, please",
+      "ptime": 1194000.0,
+      "dtime": 2355000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "For those on jabber and not meetecho, we\u0027re currently on slide 7",
+      "ptime": 1574000.0,
+      "dtime": 2735000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 1760000.0,
+      "dtime": 2921000.0
+    },
+    {
+      "text": "Slide 8",
+      "ptime": 1764000.0,
+      "dtime": 2925000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "I agree",
+      "ptime": 2374000.0,
+      "dtime": 3535000.0,
+      "author": "Mingliang Pei"
+    },
+    {
+      "text": "Link to the suit draft that was being referenced: https://datatracker.ietf.org/doc/draft-moran-suit-manifest/",
+      "ptime": 2600000.0,
+      "dtime": 3761000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "The draft text does not explicitly highlights that TAM AND/OR are taking on the role of Verifier",
+      "ptime": 2893000.0,
+      "dtime": 4054000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "I had problems matching that, only this presentation made that clear (for me)",
+      "ptime": 2915000.0,
+      "dtime": 4076000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "AND/OR Service Provider",
+      "ptime": 2934000.0,
+      "dtime": 4095000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "sry :)",
+      "ptime": 2938000.0,
+      "dtime": 4099000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "2.) also highlighting that the assertion presented are thing that \"the device\" (or TEE respectively) is true has to be spelled out very specifically, I think.",
+      "ptime": 3022000.0,
+      "dtime": 4183000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "(implying that they are not necessary true)",
+      "ptime": 3096000.0,
+      "dtime": 4257000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "the device thinks",
+      "ptime": 3157000.0,
+      "dtime": 4318000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "yes",
+      "ptime": 3176000.0,
+      "dtime": 4337000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "that has to be spelled out explicitly",
+      "ptime": 3185000.0,
+      "dtime": 4346000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "ack",
+      "ptime": 3196000.0,
+      "dtime": 4357000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "Apologies Henk, was doing my best to understand",
+      "ptime": 3210000.0,
+      "dtime": 4371000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "no problem... was tring to fight chromes autocorrect",
+      "ptime": 3225000.0,
+      "dtime": 4386000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "you did well :-) thx",
+      "ptime": 3233000.0,
+      "dtime": 4394000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "(Y)",
+      "ptime": 3252000.0,
+      "dtime": 4413000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "***Mingliang Pei just left the room",
+      "ptime": 3280000.0,
+      "dtime": 4441000.0
+    },
+    {
+      "text": "***Mingliang Pei just joined the room",
+      "ptime": 3283000.0,
+      "dtime": 4444000.0
+    },
+    {
+      "text": "***Ned Smith just left the room",
+      "ptime": 3791000.0,
+      "dtime": 4952000.0
+    },
+    {
+      "text": "***Agam Jain just joined the room",
+      "ptime": 3949000.0,
+      "dtime": 5110000.0
+    },
+    {
+      "text": "where Can I get this presentation/document?",
+      "ptime": 4783000.0,
+      "dtime": 5944000.0,
+      "author": "Agam Jain"
+    },
+    {
+      "text": "Slides: https://datatracker.ietf.org/meeting/104/materials/slides-104-teep-architecture-updates-00\t[04:09] Draft in question: https://datatracker.ietf.org/doc/draft-ietf-teep-architecture/",
+      "ptime": 4797000.0,
+      "dtime": 5958000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 5105000.0,
+      "dtime": 6266000.0
+    },
+    {
+      "text": "netconf",
+      "ptime": 5369000.0,
+      "dtime": 6530000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "thanks",
+      "ptime": 5390000.0,
+      "dtime": 6551000.0,
+      "author": "Agam Jain"
+    },
+    {
+      "text": "has an ongoing work on trust anchors in YANG",
+      "ptime": 5397000.0,
+      "dtime": 6558000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "pls make sure to have a dialog there (iKent\u0027s draft)",
+      "ptime": 5438000.0,
+      "dtime": 6599000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "draft on TA",
+      "ptime": 5509000.0,
+      "dtime": 6670000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "oh okay... point taken",
+      "ptime": 5542000.0,
+      "dtime": 6703000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "***Agam Jain just left the room",
+      "ptime": 5636000.0,
+      "dtime": 6797000.0
+    },
+    {
+      "text": "Dave Thaler, Hackathon report",
+      "ptime": 5639000.0,
+      "dtime": 6800000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "Slides:https://datatracker.ietf.org/meeting/104/materials/slides-104-teep-hackathon-report-01",
+      "ptime": 5642000.0,
+      "dtime": 6803000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "***Corinna Schmitt just left the room",
+      "ptime": 5966000.0,
+      "dtime": 7127000.0
+    },
+    {
+      "text": "***99rst just joined the room",
+      "ptime": 6201000.0,
+      "dtime": 7362000.0
+    },
+    {
+      "text": "Slides: https://datatracker.ietf.org/doc/slides-104-teep-otrp-over-http/00/",
+      "ptime": 6728000.0,
+      "dtime": 7889000.0,
+      "author": "Stephen Banghart"
+    },
+    {
+      "text": "***Mingliang Pei just left the room",
+      "ptime": 6741000.0,
+      "dtime": 7902000.0
+    },
+    {
+      "text": "***Agam Jain just joined the room",
+      "ptime": 6846000.0,
+      "dtime": 8007000.0
+    },
+    {
+      "text": "***Mingliang Pei just joined the room",
+      "ptime": 7187000.0,
+      "dtime": 8348000.0
+    },
+    {
+      "text": "Hey!",
+      "ptime": 7246000.0,
+      "dtime": 8407000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": ":-)",
+      "ptime": 7251000.0,
+      "dtime": 8412000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "thx",
+      "ptime": 7252000.0,
+      "dtime": 8413000.0,
+      "author": "Mingliang Pei"
+    },
+    {
+      "text": "Thx!",
+      "ptime": 7253000.0,
+      "dtime": 8414000.0,
+      "author": "Henk Birkholz"
+    },
+    {
+      "text": "***Stephen Banghart just left the room",
+      "ptime": 7290000.0,
+      "dtime": 8451000.0
+    },
+    {
+      "text": "***Mingliang Pei just left the room",
+      "ptime": 7290000.0,
+      "dtime": 8451000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 7290000.0,
+      "dtime": 8451000.0
+    },
+    {
+      "text": "***Nicolae Paladi just left the room",
+      "ptime": 7290000.0,
+      "dtime": 8451000.0
+    },
+    {
+      "text": "***Agam Jain just left the room",
+      "ptime": 7290000.0,
+      "dtime": 8451000.0
+    },
+    {
+      "text": "***Henk Birkholz just left the room",
+      "ptime": 7290000.0,
+      "dtime": 8451000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 7290000.0,
+      "dtime": 8451000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-TEEP-20190326-0900"
+    }
+  ]
+}

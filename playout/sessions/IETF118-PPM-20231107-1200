@@ -1,0 +1,462 @@
+
+{
+	"title": "IETF118-PPM-20231107-1200",
+	"filename": "IETF118-PPM-20231107-1200",
+	"start": 0,
+	"end": 7629000,
+	"start_datetime": "2023-11-07T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "BADvIuYiDWY",
+    "start": 0,
+    "end": "7629000"
+  }
+],
+	"messages": [
+  {
+    "author": "Shan Wang",
+    "text": "<p>Good morning everyone</p>",
+    "topic": "ietf-118",
+    "dtime": 224000,
+    "ptime": 224000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-118",
+    "dtime": 346000,
+    "ptime": 346000
+  },
+  {
+    "author": "Junye Chen",
+    "text": "<p>Question: as a speaker, should I join from the onsite tool, or as a full client with video?</p>",
+    "topic": "ietf-118",
+    "dtime": 474000,
+    "ptime": 474000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>You're remote, yes?</p>",
+    "topic": "ietf-118",
+    "dtime": 501000,
+    "ptime": 501000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>if so, use the full client.</p>",
+    "topic": "ietf-118",
+    "dtime": 515000,
+    "ptime": 515000
+  },
+  {
+    "author": "Junye Chen",
+    "text": "<p>Yes. Ok, I will use the full client.</p>",
+    "topic": "ietf-118",
+    "dtime": 586000,
+    "ptime": 586000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>The other thing is that you may end up with label combinations that have a very small set of clients reporting, too few to meet the min batch size, so you never get to collect those reports.</p>",
+    "topic": "ietf-118",
+    "dtime": 1487000,
+    "ptime": 1487000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>*The other thing _about creating a whole bunch of tasks_</p>",
+    "topic": "ietf-118",
+    "dtime": 1515000,
+    "ptime": 1515000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>But not filling in labels is, in itself, a fingerprintable attribute, no?</p>",
+    "topic": "ietf-118",
+    "dtime": 1569000,
+    "ptime": 1569000
+  },
+  {
+    "author": "Shan Wang",
+    "text": "<p>Tim, if there are set of clients that are labelled by combinations, then shouldn't we avoid collecting their data</p>",
+    "topic": "ietf-118",
+    "dtime": 1702000,
+    "ptime": 1702000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>if there's no difference, then what's the advantage?</p>",
+    "topic": "ietf-118",
+    "dtime": 1998000,
+    "ptime": 1998000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>If you simulate labels with tasks created up front, then you never get to aggregate reports for tasks with too few contributions.</p>",
+    "topic": "ietf-118",
+    "dtime": 2023000,
+    "ptime": 2023000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>If you do labels, you could try a specific query involving some label combo, get told \"nope, not enough reports\", and then try again with a less specific query until you get enough reports in the batch.</p>",
+    "topic": "ietf-118",
+    "dtime": 2060000,
+    "ptime": 2060000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>the issue specifically suggests a preference for labels so that queries don't have to be pre-created</p>",
+    "topic": "ietf-118",
+    "dtime": 2117000,
+    "ptime": 2117000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>I disagree with Kunal here, to be clear.</p>",
+    "topic": "ietf-118",
+    "dtime": 2162000,
+    "ptime": 2162000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Someone should just make a PR for this.</p>",
+    "topic": "ietf-118",
+    "dtime": 2168000,
+    "ptime": 2168000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p>is there a short answer for what the difference is between \"labels\" and \"tasks\" here?</p>",
+    "topic": "ietf-118",
+    "dtime": 2217000,
+    "ptime": 2217000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>My question is, does combining labels make stuff different, because different tasks are not bound together?</p>",
+    "topic": "ietf-118",
+    "dtime": 2222000,
+    "ptime": 2222000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>@Shan what are the attacks?</p>",
+    "topic": "ietf-118",
+    "dtime": 2243000,
+    "ptime": 2243000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I think there's some disagreement over the query language that would be available over labels.  Some folks anticipate only \"exact match\", others anticipate \"subset match\".</p>",
+    "topic": "ietf-118",
+    "dtime": 2400000,
+    "ptime": 2400000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>@Kyle Hogan the idea is that each task would define a set of labels for which clients could provide values. That's as short as I can make it. The long version is <a href=\"https://github.com/ietf-wg-ppm/draft-ietf-ppm-dap/issues/489\">https://github.com/ietf-wg-ppm/draft-ietf-ppm-dap/issues/489</a>.</p>",
+    "topic": "ietf-118",
+    "dtime": 2409000,
+    "ptime": 2409000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>\"Exact match only\" reproduces the behavior of independent tasks.  Partial match query languages have different privacy properties.</p>",
+    "topic": "ietf-118",
+    "dtime": 2476000,
+    "ptime": 2476000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>the title of the issue in github is different than the title on the slide</p>",
+    "topic": "ietf-118",
+    "dtime": 2566000,
+    "ptime": 2566000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Is it a requirement that the client knows what the parameters are?</p>",
+    "topic": "ietf-118",
+    "dtime": 2628000,
+    "ptime": 2628000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Only a subset of the parameters.</p>",
+    "topic": "ietf-118",
+    "dtime": 2638000,
+    "ptime": 2638000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>The client needs to know e.g. what VDAF is in use, but it doesn't need to know what the batch size is</p>",
+    "topic": "ietf-118",
+    "dtime": 2684000,
+    "ptime": 2684000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>transparency of the measurement parameters to the user seems very valuable. no preference on how to accomplish it.</p>",
+    "topic": "ietf-118",
+    "dtime": 2836000,
+    "ptime": 2836000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Something like (1) and (2) would be this</p>",
+    "topic": "ietf-118",
+    "dtime": 2849000,
+    "ptime": 2849000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>What if I don't understand the extension, and just see an opaque key ID?</p>",
+    "topic": "ietf-118",
+    "dtime": 3068000,
+    "ptime": 3068000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>DAP requires partcipants to bail out if they don't recognize an extension</p>",
+    "topic": "ietf-118",
+    "dtime": 3094000,
+    "ptime": 3094000
+  },
+  {
+    "author": "Shan Wang",
+    "text": "<p>@Jonathan, the aggregator must abort if the extension is not recognised</p>",
+    "topic": "ietf-118",
+    "dtime": 3779000,
+    "ptime": 3779000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>This doesn't look like a deviation: <a href=\"https://datatracker.ietf.org/doc/html/rfc8446#:~:text=suite%20selector%20*/%0A%0A%20%20%20%20%20%20struct%20%7B-,ProtocolVersion%20legacy_version%20%3D%200x0303%3B%20%20%20%20/*%20TLS%20v1.2%20*/,-Random%20random%3B%0A%20%20%20%20%20%20%20%20%20%20opaque\">https://datatracker.ietf.org/doc/html/rfc8446#:~:text=suite%20selector%20*/%0A%0A%20%20%20%20%20%20struct%20%7B-,ProtocolVersion%20legacy_version%20%3D%200x0303%3B%20%20%20%20/*%20TLS%20v1.2%20*/,-Random%20random%3B%0A%20%20%20%20%20%20%20%20%20%20opaque</a></p>",
+    "topic": "ietf-118",
+    "dtime": 3952000,
+    "ptime": 3952000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Not complying with TLS syntax makes me sad <span aria-label=\"disappointed\" class=\"emoji emoji-1f61e\" role=\"img\" title=\"disappointed\">:disappointed:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3973000,
+    "ptime": 3973000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I like Chris Wood's suggestion</p>",
+    "topic": "ietf-118",
+    "dtime": 4034000,
+    "ptime": 4034000
+  },
+  {
+    "author": "Shan Wang",
+    "text": "<p>As an implementor, I found RFC8446 is a bit hard to use (apart from wire encoding)</p>",
+    "topic": "ietf-118",
+    "dtime": 4167000,
+    "ptime": 4167000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>Junye, do you want to share and control your own slides?</p>",
+    "topic": "ietf-118",
+    "dtime": 4235000,
+    "ptime": 4235000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"128\">@Christopher Wood</span> and presumably the current format with fixed sizes could also be encoded with the quic syntax, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 4244000,
+    "ptime": 4244000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>or have Ben do it for you?</p>",
+    "topic": "ietf-118",
+    "dtime": 4247000,
+    "ptime": 4247000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>@Benjamin Schwartz In TLS 1.3 that notation indicates a field in a struct that has exactly one legal value. In DAP we use that notation to illustrate constructing values of a struct in a particular case, but there's &gt;1 legal value for the field.</p>",
+    "topic": "ietf-118",
+    "dtime": 4393000,
+    "ptime": 4393000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>@Simon yep</p>",
+    "topic": "ietf-118",
+    "dtime": 4670000,
+    "ptime": 4670000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>dishonest clients can disrupt privacy of the honest client and accuracy of the aggregate value</p>",
+    "topic": "ietf-118",
+    "dtime": 5057000,
+    "ptime": 5057000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>(if most clients are dishonest, there is no way to get an accurate measurement)</p>",
+    "topic": "ietf-118",
+    "dtime": 5107000,
+    "ptime": 5107000
+  },
+  {
+    "author": "Kunal Talwar",
+    "text": "<p>Dishonest clients can impact the utility and the privacy. Here we are concerned primarily with the privacy aspect. The utility aspects are addressed by the verfication of contributions. E.g. for histograms, we can verify that each client contributes a 0-1 vector with  at most one 1 in it. This would imply that K dishonest clients can create an error of K in the final histogram.</p>",
+    "topic": "ietf-118",
+    "dtime": 5226000,
+    "ptime": 5226000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>is this a normative specification? or just some documentation/recipes for someone who wanted to do differential privacy with dap?</p>",
+    "topic": "ietf-118",
+    "dtime": 5769000,
+    "ptime": 5769000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> I think this draft is informative, not normative.</p>",
+    "topic": "ietf-118",
+    "dtime": 5851000,
+    "ptime": 5851000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Tim said what I wanted to say</p>",
+    "topic": "ietf-118",
+    "dtime": 5853000,
+    "ptime": 5853000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>if the authors and group are interested in making this standards-track/normative interoperable, that sounds promising, if hard</p>",
+    "topic": "ietf-118",
+    "dtime": 5971000,
+    "ptime": 5971000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>FWIW, for DP, the best informational or framework documents come after you build and ship one or more concrete instantiations. I don’t want to block this work, but it is still quite vague and academic.</p>",
+    "topic": "ietf-118",
+    "dtime": 6440000,
+    "ptime": 6440000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Yes. Besides informational vs. standards track, I'd like the document to be clear on whether it's a paper for academics or a specification for engineers and implementers. Is it LaTeX or Markdown?</p>",
+    "topic": "ietf-118",
+    "dtime": 6491000,
+    "ptime": 6491000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>whatever happened to nroff?</p>",
+    "topic": "ietf-118",
+    "dtime": 6527000,
+    "ptime": 6527000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>For aggregator DP, it seems like a standards-track specification is required in order to configure the DP parameters.</p>",
+    "topic": "ietf-118",
+    "dtime": 6571000,
+    "ptime": 6571000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I am most interested in concrete instantiations, not the abstract stuff. This is also a criticism of DAP, which I firmly believe is too abstracted.</p>",
+    "topic": "ietf-118",
+    "dtime": 6709000,
+    "ptime": 6709000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>@Martin by concrete instantiations, do you mean specific DP parameters?</p>",
+    "topic": "ietf-118",
+    "dtime": 6786000,
+    "ptime": 6786000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>In what way do you think DAP is too abstract?</p>",
+    "topic": "ietf-118",
+    "dtime": 6907000,
+    "ptime": 6907000
+  },
+  {
+    "author": "Junye Chen",
+    "text": "<p>@Tim Some of the DP definitions are very theoretical, but once we establish them, I think the implementations of DP mechanisms, derivations of the mechanism parameters, and implementations of DP policies should focus mostly on engineering.</p>",
+    "topic": "ietf-118",
+    "dtime": 7023000,
+    "ptime": 7023000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>don't those consistency questions also come up with out-of-band configuration? we just have unstandardized ways of distributing the task configurations</p>",
+    "topic": "ietf-118",
+    "dtime": 7227000,
+    "ptime": 7227000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> I think there's a hidden assumption that the client binary is audited, which generally includes consistency.</p>",
+    "topic": "ietf-118",
+    "dtime": 7335000,
+    "ptime": 7335000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"452\">@Christopher Patton</span> I think TaskProv requires that the client provisioning happen over an OHTTP-like anonymizer.  Otherwise, I can tag individual users and follow them by IP (supercookie).</p>",
+    "topic": "ietf-118",
+    "dtime": 7473000,
+    "ptime": 7473000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>but to what end? what does an attacker get to do with that?</p>",
+    "topic": "ietf-118",
+    "dtime": 7497000,
+    "ptime": 7497000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I get to see that my one user in Country A is now in Country B.</p>",
+    "topic": "ietf-118",
+    "dtime": 7521000,
+    "ptime": 7521000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"452\">@Christopher Patton</span> I can watch the client IPs of individual users as they wander the network, indefinitely, building up a location history trace.</p>",
+    "topic": "ietf-118",
+    "dtime": 7616000,
+    "ptime": 7616000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-PPM-20231107-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/ppm"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-PPM-20231107-1200"
+		}		
+	]
+}

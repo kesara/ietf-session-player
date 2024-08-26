@@ -1,0 +1,1461 @@
+{
+  "title": "IETF104-TLS-20190326-1610",
+  "filename": "IETF104-TLS-20190326-1610",
+  "start": 0,
+  "end": 7998000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "1Wj_PdHLTEI",
+      "start": 0.0,
+      "end": 7998000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 20000.0,
+      "dtime": 632000.0
+    },
+    {
+      "text": "***Phillip Hunt just joined the room",
+      "ptime": 30000.0,
+      "dtime": 642000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 37000.0,
+      "dtime": 649000.0
+    },
+    {
+      "text": "***Petteri Stenius just joined the room",
+      "ptime": 90000.0,
+      "dtime": 702000.0
+    },
+    {
+      "text": "***Kaustubha Govind just joined the room",
+      "ptime": 185000.0,
+      "dtime": 797000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 216000.0,
+      "dtime": 828000.0
+    },
+    {
+      "text": "***Hubert Kario just joined the room",
+      "ptime": 219000.0,
+      "dtime": 831000.0
+    },
+    {
+      "text": "I;m your jabber scribe so use MIC or ping me to relay something.",
+      "ptime": 230000.0,
+      "dtime": 842000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Kathleen on Deprecating TLS 1.0 and 1.1",
+      "ptime": 254000.0,
+      "dtime": 866000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-deprecation-00",
+      "ptime": 275000.0,
+      "dtime": 887000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "http://tlscanary-plot-8e95d89854d73f4d.elb.us-west-2.amazonaws.com/",
+      "ptime": 279000.0,
+      "dtime": 891000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "p2 Updates and Questions",
+      "ptime": 281000.0,
+      "dtime": 893000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "For anyone interested in the current progress on the 1.0/1.1 deprecation, details are here: http://tlscanary-plot-8e95d89854d73f4d.elb.us-west-2.amazonaws.com/",
+      "ptime": 301000.0,
+      "dtime": 913000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Stephen at mic",
+      "ptime": 347000.0,
+      "dtime": 959000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p3 Updates and questions continued",
+      "ptime": 441000.0,
+      "dtime": 1053000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 Document updates",
+      "ptime": 501000.0,
+      "dtime": 1113000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p5 Ready for WGLC?",
+      "ptime": 515000.0,
+      "dtime": 1127000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Kevin Smith just joined the room",
+      "ptime": 520000.0,
+      "dtime": 1132000.0
+    },
+    {
+      "text": "Martin",
+      "ptime": 534000.0,
+      "dtime": 1146000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "If I?m remembering correctly GIST is the transport for NSIS",
+      "ptime": 540000.0,
+      "dtime": 1152000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-dtls-01",
+      "ptime": 589000.0,
+      "dtime": 1201000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr presenting",
+      "ptime": 592000.0,
+      "dtime": 1204000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2, -31 draft",
+      "ptime": 606000.0,
+      "dtime": 1218000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Panos Kampanakis just joined the room",
+      "ptime": 625000.0,
+      "dtime": 1237000.0
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 629000.0,
+      "dtime": 1241000.0
+    },
+    {
+      "text": "p3 Issue 78 - amplification factor",
+      "ptime": 650000.0,
+      "dtime": 1262000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "martin",
+      "ptime": 750000.0,
+      "dtime": 1362000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "hannes",
+      "ptime": 812000.0,
+      "dtime": 1424000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "martin",
+      "ptime": 878000.0,
+      "dtime": 1490000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "jana the quic guy",
+      "ptime": 951000.0,
+      "dtime": 1563000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "/me is glad not to be labeled the quic guy",
+      "ptime": 978000.0,
+      "dtime": 1590000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "p4 issue 76 - non-empty cookies + cookie extension",
+      "ptime": 994000.0,
+      "dtime": 1606000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "kaduk: the issue here is that the addition of a connection ID basically implies the existence of connection migration (it\u0027s not necessary without)",
+      "ptime": 1019000.0,
+      "dtime": 1631000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "p5 issue 72 - key separation",
+      "ptime": 1026000.0,
+      "dtime": 1638000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p6 implementation status",
+      "ptime": 1068000.0,
+      "dtime": 1680000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p7 next steps",
+      "ptime": 1124000.0,
+      "dtime": 1736000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-certificate-compression-00",
+      "ptime": 1182000.0,
+      "dtime": 1794000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Alessandro Ghedini",
+      "ptime": 1192000.0,
+      "dtime": 1804000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2 Draft status",
+      "ptime": 1199000.0,
+      "dtime": 1811000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p3 Implementation / Deployment Status",
+      "ptime": 1212000.0,
+      "dtime": 1824000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 data",
+      "ptime": 1249000.0,
+      "dtime": 1861000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Richard Barnes",
+      "ptime": 1343000.0,
+      "dtime": 1955000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr",
+      "ptime": 1351000.0,
+      "dtime": 1963000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Chrome only supports brotli, so the server better do brotli, too :)",
+      "ptime": 1368000.0,
+      "dtime": 1980000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "p5 open issue",
+      "ptime": 1416000.0,
+      "dtime": 2028000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 1424000.0,
+      "dtime": 2036000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 1430000.0,
+      "dtime": 2042000.0
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 1463000.0,
+      "dtime": 2075000.0
+    },
+    {
+      "text": "p6 potential solution",
+      "ptime": 1467000.0,
+      "dtime": 2079000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p7 next steps",
+      "ptime": 1507000.0,
+      "dtime": 2119000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "victor vassiliv",
+      "ptime": 1548000.0,
+      "dtime": 2160000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "hannes",
+      "ptime": 1581000.0,
+      "dtime": 2193000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ben kaduk",
+      "ptime": 1675000.0,
+      "dtime": 2287000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "martin",
+      "ptime": 1715000.0,
+      "dtime": 2327000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ben interrupting then martin again",
+      "ptime": 1796000.0,
+      "dtime": 2408000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr",
+      "ptime": 1846000.0,
+      "dtime": 2458000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Hugo Krawczyk just left the room",
+      "ptime": 1857000.0,
+      "dtime": 2469000.0
+    },
+    {
+      "text": "victor",
+      "ptime": 1942000.0,
+      "dtime": 2554000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "daniel franke",
+      "ptime": 1985000.0,
+      "dtime": 2597000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-delegated-credentials-00",
+      "ptime": 2024000.0,
+      "dtime": 2636000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Nick Sullivan",
+      "ptime": 2028000.0,
+      "dtime": 2640000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p3 motivation",
+      "ptime": 2046000.0,
+      "dtime": 2658000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 global picture",
+      "ptime": 2080000.0,
+      "dtime": 2692000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 picture web server app / dc minter / key server",
+      "ptime": 2101000.0,
+      "dtime": 2713000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "(that was p5 and p6)",
+      "ptime": 2115000.0,
+      "dtime": 2727000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p7 delegated credentials",
+      "ptime": 2119000.0,
+      "dtime": 2731000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Yuki Goto just left the room",
+      "ptime": 2182000.0,
+      "dtime": 2794000.0
+    },
+    {
+      "text": "p8 handshake validation",
+      "ptime": 2201000.0,
+      "dtime": 2813000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Yuki Goto just joined the room",
+      "ptime": 2202000.0,
+      "dtime": 2814000.0
+    },
+    {
+      "text": "p9 benefits",
+      "ptime": 2215000.0,
+      "dtime": 2827000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Elias Summermatter just joined the room",
+      "ptime": 2216000.0,
+      "dtime": 2828000.0
+    },
+    {
+      "text": "chris nacio",
+      "ptime": 2243000.0,
+      "dtime": 2855000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr",
+      "ptime": 2286000.0,
+      "dtime": 2898000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Martin Thomson @ mic",
+      "ptime": 2376000.0,
+      "dtime": 2988000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "rich salz",
+      "ptime": 2383000.0,
+      "dtime": 2995000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Rich Salz @ mic",
+      "ptime": 2384000.0,
+      "dtime": 2996000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr",
+      "ptime": 2416000.0,
+      "dtime": 3028000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p10 updates",
+      "ptime": 2473000.0,
+      "dtime": 3085000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p11 next steps",
+      "ptime": 2525000.0,
+      "dtime": 3137000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Rich Salz @ mic",
+      "ptime": 2585000.0,
+      "dtime": 3197000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr",
+      "ptime": 2618000.0,
+      "dtime": 3230000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "+1 to ekr",
+      "ptime": 2627000.0,
+      "dtime": 3239000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "+1 to ekr",
+      "ptime": 2634000.0,
+      "dtime": 3246000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-esni-03",
+      "ptime": 2660000.0,
+      "dtime": 3272000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Chris Wood",
+      "ptime": 2661000.0,
+      "dtime": 3273000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2 overview",
+      "ptime": 2671000.0,
+      "dtime": 3283000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 2688000.0,
+      "dtime": 3300000.0
+    },
+    {
+      "text": "p4 summary of changes",
+      "ptime": 2702000.0,
+      "dtime": 3314000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Hansj?rg Wenger just joined the room",
+      "ptime": 2716000.0,
+      "dtime": 3328000.0
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 2753000.0,
+      "dtime": 3365000.0
+    },
+    {
+      "text": "p5 pending changes",
+      "ptime": 2790000.0,
+      "dtime": 3402000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p5 multi-cdn case",
+      "ptime": 2852000.0,
+      "dtime": 3464000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p8 simple multi-cdn solution (pr 136)",
+      "ptime": 2952000.0,
+      "dtime": 3564000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Balamuhunthan Balarajah just joined the room",
+      "ptime": 2972000.0,
+      "dtime": 3584000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 2973000.0,
+      "dtime": 3585000.0
+    },
+    {
+      "text": "p9 tradeoff",
+      "ptime": 3007000.0,
+      "dtime": 3619000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p10 generalized multip-cdn proposal (pr137, simplified)",
+      "ptime": 3054000.0,
+      "dtime": 3666000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p11 moving forward",
+      "ptime": 3200000.0,
+      "dtime": 3812000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Phillip Hunt just left the room",
+      "ptime": 3248000.0,
+      "dtime": 3860000.0
+    },
+    {
+      "text": "stephen at mic",
+      "ptime": 3260000.0,
+      "dtime": 3872000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Petteri Stenius just left the room",
+      "ptime": 3298000.0,
+      "dtime": 3910000.0
+    },
+    {
+      "text": "patrick mcmanus",
+      "ptime": 3417000.0,
+      "dtime": 4029000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr",
+      "ptime": 3563000.0,
+      "dtime": 4175000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "erik nygren",
+      "ptime": 3736000.0,
+      "dtime": 4348000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "I think ekr omitted a possible requirement that some people may need to manage A/AAAA differently from ESNIKeys RRs and 136 might not work for them",
+      "ptime": 3759000.0,
+      "dtime": 4371000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Elias Summermatter just left the room",
+      "ptime": 3793000.0,
+      "dtime": 4405000.0
+    },
+    {
+      "text": "david benjamin",
+      "ptime": 3849000.0,
+      "dtime": 4461000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "wes hardaker",
+      "ptime": 3902000.0,
+      "dtime": 4514000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "erik kline",
+      "ptime": 4003000.0,
+      "dtime": 4615000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "nick sullivan",
+      "ptime": 4056000.0,
+      "dtime": 4668000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p12 open issues and questions",
+      "ptime": 4122000.0,
+      "dtime": 4734000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr",
+      "ptime": 4182000.0,
+      "dtime": 4794000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-esni-divergence-00",
+      "ptime": 4296000.0,
+      "dtime": 4908000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Mike Bishop",
+      "ptime": 4298000.0,
+      "dtime": 4910000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "\"we can\u0027t\"",
+      "ptime": 4312000.0,
+      "dtime": 4924000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Proxy \"Do A and AAA RRtypes diverge?\"",
+      "ptime": 4329000.0,
+      "dtime": 4941000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p5 ? and throw most of it away",
+      "ptime": 4379000.0,
+      "dtime": 4991000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p6 depends on how you slice it",
+      "ptime": 4423000.0,
+      "dtime": 5035000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p7 frequency of divergence by resolver",
+      "ptime": 4468000.0,
+      "dtime": 5080000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "DKG",
+      "ptime": 4498000.0,
+      "dtime": 5110000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "Jana",
+      "ptime": 4567000.0,
+      "dtime": 5179000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "DKG\u0027s question makes sense",
+      "ptime": 4567000.0,
+      "dtime": 5179000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "***Alan Ford just joined the room",
+      "ptime": 4578000.0,
+      "dtime": 5190000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 4604000.0,
+      "dtime": 5216000.0
+    },
+    {
+      "text": "Also you should exclude ones that start on one CDN then switch completely to another.",
+      "ptime": 4610000.0,
+      "dtime": 5222000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Ben Kaduk",
+      "ptime": 4618000.0,
+      "dtime": 5230000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 4632000.0,
+      "dtime": 5244000.0
+    },
+    {
+      "text": "Pat McManus @ mic",
+      "ptime": 4705000.0,
+      "dtime": 5317000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Erik Nygren",
+      "ptime": 4875000.0,
+      "dtime": 5487000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "isn\u0027t ESNIKeys to be looked up over TLS? Could we ask that the A/AAA is also?",
+      "ptime": 4909000.0,
+      "dtime": 5521000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "ekr",
+      "ptime": 4930000.0,
+      "dtime": 5542000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "stephen",
+      "ptime": 4974000.0,
+      "dtime": 5586000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "jana",
+      "ptime": 4990000.0,
+      "dtime": 5602000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ek",
+      "ptime": 5033000.0,
+      "dtime": 5645000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr obviously",
+      "ptime": 5041000.0,
+      "dtime": 5653000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p11 different perspectives",
+      "ptime": 5161000.0,
+      "dtime": 5773000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***dcf just joined the room",
+      "ptime": 5169000.0,
+      "dtime": 5781000.0
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-opaque-00",
+      "ptime": 5187000.0,
+      "dtime": 5799000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Nick Sullivan",
+      "ptime": 5191000.0,
+      "dtime": 5803000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p3 short history",
+      "ptime": 5211000.0,
+      "dtime": 5823000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 srp in tls",
+      "ptime": 5219000.0,
+      "dtime": 5831000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p5 opaque ...",
+      "ptime": 5230000.0,
+      "dtime": 5842000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p6 opaque overview",
+      "ptime": 5302000.0,
+      "dtime": 5914000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***hugo krawczyk just joined the room",
+      "ptime": 5336000.0,
+      "dtime": 5948000.0
+    },
+    {
+      "text": "***Kaustubha Govind just left the room",
+      "ptime": 5338000.0,
+      "dtime": 5950000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 5344000.0,
+      "dtime": 5956000.0
+    },
+    {
+      "text": "p7 opaque dependencies oerview",
+      "ptime": 5362000.0,
+      "dtime": 5974000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p8 fundamental components / terminology",
+      "ptime": 5379000.0,
+      "dtime": 5991000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 5406000.0,
+      "dtime": 6018000.0
+    },
+    {
+      "text": "***Diogo Real just left the room",
+      "ptime": 5423000.0,
+      "dtime": 6035000.0
+    },
+    {
+      "text": "***hugo krawczyk just left the room",
+      "ptime": 5468000.0,
+      "dtime": 6080000.0
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 5491000.0,
+      "dtime": 6103000.0
+    },
+    {
+      "text": "p9 fundamental ...",
+      "ptime": 5500000.0,
+      "dtime": 6112000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p10 fundamental ? (with flow diagram)",
+      "ptime": 5526000.0,
+      "dtime": 6138000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p11 \"b*H2C\" flow",
+      "ptime": 5562000.0,
+      "dtime": 6174000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p12 fundamental? (with bullet list)",
+      "ptime": 5577000.0,
+      "dtime": 6189000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***gianluca capitani just joined the room",
+      "ptime": 5622000.0,
+      "dtime": 6234000.0
+    },
+    {
+      "text": "p14 high-level overview",
+      "ptime": 5635000.0,
+      "dtime": 6247000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p15 in place of pki keys: opaque-sign",
+      "ptime": 5694000.0,
+      "dtime": 6306000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p16 3dh/mqv",
+      "ptime": 5753000.0,
+      "dtime": 6365000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p17 post-handshake auth",
+      "ptime": 5838000.0,
+      "dtime": 6450000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p18 properties",
+      "ptime": 5892000.0,
+      "dtime": 6504000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***gianluca capitani just left the room",
+      "ptime": 5924000.0,
+      "dtime": 6536000.0
+    },
+    {
+      "text": "p19 recap",
+      "ptime": 5943000.0,
+      "dtime": 6555000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 5944000.0,
+      "dtime": 6556000.0
+    },
+    {
+      "text": "why do we need an alternative to SRP? does anyone use it?",
+      "ptime": 5953000.0,
+      "dtime": 6565000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Alan Ford just left the room",
+      "ptime": 5954000.0,
+      "dtime": 6566000.0
+    },
+    {
+      "text": "only legacy that ain\u0027t gonna change",
+      "ptime": 5966000.0,
+      "dtime": 6578000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "pakes, meh",
+      "ptime": 5980000.0,
+      "dtime": 6592000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Ben Kaduk",
+      "ptime": 5981000.0,
+      "dtime": 6593000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "EKR",
+      "ptime": 5992000.0,
+      "dtime": 6604000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "AFAIK nobody uses PAKEs much.  Definitely not in TLS",
+      "ptime": 6011000.0,
+      "dtime": 6623000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 6026000.0,
+      "dtime": 6638000.0
+    },
+    {
+      "text": "Ben Kaduk",
+      "ptime": 6030000.0,
+      "dtime": 6642000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "Kenny Patterson",
+      "ptime": 6045000.0,
+      "dtime": 6657000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "keep it for tls1.4",
+      "ptime": 6057000.0,
+      "dtime": 6669000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Rich Salz",
+      "ptime": 6069000.0,
+      "dtime": 6681000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "Richard Barnes",
+      "ptime": 6086000.0,
+      "dtime": 6698000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "Martin Thomson",
+      "ptime": 6146000.0,
+      "dtime": 6758000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "Hannes",
+      "ptime": 6237000.0,
+      "dtime": 6849000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "alexey",
+      "ptime": 6281000.0,
+      "dtime": 6893000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Alexey Melnikov",
+      "ptime": 6281000.0,
+      "dtime": 6893000.0,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "somehow there\u0027s never a shortage of PAKEs",
+      "ptime": 6291000.0,
+      "dtime": 6903000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "yeah.  why?",
+      "ptime": 6299000.0,
+      "dtime": 6911000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "irrelevance?",
+      "ptime": 6305000.0,
+      "dtime": 6917000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-hybrid-design-03",
+      "ptime": 6322000.0,
+      "dtime": 6934000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Chris Wood presenting for the other folks",
+      "ptime": 6328000.0,
+      "dtime": 6940000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2 Motivation and Goals",
+      "ptime": 6333000.0,
+      "dtime": 6945000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p3 non-goals",
+      "ptime": 6372000.0,
+      "dtime": 6984000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 design parameters",
+      "ptime": 6404000.0,
+      "dtime": 7016000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Hansj?rg Wenger just left the room",
+      "ptime": 6469000.0,
+      "dtime": 7081000.0
+    },
+    {
+      "text": "p5 negotiation",
+      "ptime": 6503000.0,
+      "dtime": 7115000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "I met a non-crazy person recently who said he\u0027d maybe like to mix 3-4 different PQ algorithms in on the basis of not being terribly confident in any one of \u0027em (regardless of whether NIST pick one winner of each kind)",
+      "ptime": 6518000.0,
+      "dtime": 7130000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "What does \"mix\" mean here, @sftcd?",
+      "ptime": 6552000.0,
+      "dtime": 7164000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "p6 key combination",
+      "ptime": 6583000.0,
+      "dtime": 7195000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 6597000.0,
+      "dtime": 7209000.0
+    },
+    {
+      "text": "you mean like digesting with BOTH md5 and sha1?",
+      "ptime": 6602000.0,
+      "dtime": 7214000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "he wanted to be fine if even one of the PQ algs was ok",
+      "ptime": 6603000.0,
+      "dtime": 7215000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "not fully clear, maybe derive a secret independently for each alg then KDF together the lot",
+      "ptime": 6648000.0,
+      "dtime": 7260000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "as chris just said:-)",
+      "ptime": 6657000.0,
+      "dtime": 7269000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "my point was that TLS used to use two hashes in case one broke, right?  so he\u0027s got precedent",
+      "ptime": 6679000.0,
+      "dtime": 7291000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "ekr",
+      "ptime": 6685000.0,
+      "dtime": 7297000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "that person\u0027s logic was something like \"if PQ crypto is needed at all, I\u0027m worried that new attack algs may be discovered so want \u003e1 alg mixed in\"",
+      "ptime": 6705000.0,
+      "dtime": 7317000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "martin (who is NOT the quic guy)",
+      "ptime": 6722000.0,
+      "dtime": 7334000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p6 skipped",
+      "ptime": 6761000.0,
+      "dtime": 7373000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p7? p8? p9 ?",
+      "ptime": 6776000.0,
+      "dtime": 7388000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p10 technical questions",
+      "ptime": 6779000.0,
+      "dtime": 7391000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p11 procedural questions",
+      "ptime": 6831000.0,
+      "dtime": 7443000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 6853000.0,
+      "dtime": 7465000.0
+    },
+    {
+      "text": "martin",
+      "ptime": 6894000.0,
+      "dtime": 7506000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 6922000.0,
+      "dtime": 7534000.0
+    },
+    {
+      "text": "jonathan hyland",
+      "ptime": 6957000.0,
+      "dtime": 7569000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "tobias \u003csurname missed sorry\u003e",
+      "ptime": 6997000.0,
+      "dtime": 7609000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Kenny Paterson",
+      "ptime": 7051000.0,
+      "dtime": 7663000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***tobhe just joined the room",
+      "ptime": 7053000.0,
+      "dtime": 7665000.0
+    },
+    {
+      "text": "Tobias Heider",
+      "ptime": 7059000.0,
+      "dtime": 7671000.0,
+      "author": "tobhe"
+    },
+    {
+      "text": "thanks Tobias :)",
+      "ptime": 7086000.0,
+      "dtime": 7698000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Hannes, https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-cwt-00",
+      "ptime": 7163000.0,
+      "dtime": 7775000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2 cwt history",
+      "ptime": 7196000.0,
+      "dtime": 7808000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p3 cwt example",
+      "ptime": 7272000.0,
+      "dtime": 7884000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Yuki Goto just left the room",
+      "ptime": 7274000.0,
+      "dtime": 7886000.0
+    },
+    {
+      "text": "p4 certificate types history",
+      "ptime": 7303000.0,
+      "dtime": 7915000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p5 CWTs",
+      "ptime": 7335000.0,
+      "dtime": 7947000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p6 draft content",
+      "ptime": 7390000.0,
+      "dtime": 8002000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p7 next steps",
+      "ptime": 7415000.0,
+      "dtime": 8027000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "richard barnes",
+      "ptime": 7420000.0,
+      "dtime": 8032000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-tls-slides-ietf104-tls-fake-sni-00",
+      "ptime": 7470000.0,
+      "dtime": 8082000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Dmitry Belyavskiy",
+      "ptime": 7474000.0,
+      "dtime": 8086000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Thomas Fossati just left the room",
+      "ptime": 7514000.0,
+      "dtime": 8126000.0
+    },
+    {
+      "text": "p2 DPI how to deal with HTTPS?",
+      "ptime": 7527000.0,
+      "dtime": 8139000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p3 fake sni: why?",
+      "ptime": 7584000.0,
+      "dtime": 8196000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 fake sni vs aliases",
+      "ptime": 7659000.0,
+      "dtime": 8271000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p5 some future ideas",
+      "ptime": 7745000.0,
+      "dtime": 8357000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p6 links",
+      "ptime": 7759000.0,
+      "dtime": 8371000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p7 questions?",
+      "ptime": 7766000.0,
+      "dtime": 8378000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "christian huitema at the mic",
+      "ptime": 7771000.0,
+      "dtime": 8383000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "roeluf de toit",
+      "ptime": 7849000.0,
+      "dtime": 8461000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "erik nygren",
+      "ptime": 7897000.0,
+      "dtime": 8509000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "adjourned.",
+      "ptime": 7966000.0,
+      "dtime": 8578000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Thomas Peterson just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Dmitri Tikhonov just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Panos Kampanakis just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Nimrod Aviram just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Balamuhunthan Balarajah just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Paul Brears just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Raja Ashok V K just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Hubert Kario just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 7997000.0,
+      "dtime": 8609000.0
+    },
+    {
+      "text": "***Kevin Smith just left the room",
+      "ptime": 7998000.0,
+      "dtime": 8610000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-TLS-20190326-1610"
+    }
+  ]
+}

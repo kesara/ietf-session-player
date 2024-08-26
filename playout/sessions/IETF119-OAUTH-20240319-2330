@@ -1,0 +1,658 @@
+
+{
+	"title": "IETF119-OAUTH-20240319-2330",
+	"filename": "IETF119-OAUTH-20240319-2330",
+	"start": 0,
+	"end": 7326000,
+	"start_datetime": "2024-03-19T23:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "8THTZkEij60",
+    "start": 0,
+    "end": "7326000"
+  }
+],
+	"messages": [
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>On site tool login = <a href=\"https://meetecho-sin.ietf.org/lite/?group=oauth\">https://meetecho-sin.ietf.org/lite/?group=oauth</a></p>",
+    "topic": "ietf-119",
+    "dtime": 264000,
+    "ptime": 264000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Is there a volunteer to take meeting minutes?</p>",
+    "topic": "ietf-119",
+    "dtime": 523000,
+    "ptime": 523000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>i'll take notes</p>",
+    "topic": "ietf-118",
+    "dtime": 579000,
+    "ptime": 579000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Love that description of SD0-WT</p>",
+    "topic": "ietf-119",
+    "dtime": 579000,
+    "ptime": 579000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Thanks Justin!</p>",
+    "topic": "ietf-119",
+    "dtime": 627000,
+    "ptime": 627000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>would love some help if anyone can</p>",
+    "topic": "ietf-118",
+    "dtime": 671000,
+    "ptime": 671000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>i'm using the notes.ietf tool</p>",
+    "topic": "ietf-118",
+    "dtime": 678000,
+    "ptime": 678000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>@justin - dropping in the occasional observation</p>",
+    "topic": "ietf-119",
+    "dtime": 887000,
+    "ptime": 887000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<div class=\"codehilite\"><pre><span></span><code>\n</code></pre></div>",
+    "topic": "ietf-119",
+    "dtime": 989000,
+    "ptime": 989000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<div class=\"codehilite\"><pre><span></span><code>\n</code></pre></div>",
+    "topic": "ietf-119",
+    "dtime": 999000,
+    "ptime": 999000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>ETOOMANYTILDES</p>",
+    "topic": "ietf-119",
+    "dtime": 1006000,
+    "ptime": 1006000
+  },
+  {
+    "author": "Chunchi Liu",
+    "text": "<p>correct me if im wrong, there is no algrebraic comparison capability of the claims right, like comparing age?&gt;=18</p>",
+    "topic": "ietf-119",
+    "dtime": 1055000,
+    "ptime": 1055000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Chunchi Liu - Correct</p>",
+    "topic": "ietf-119",
+    "dtime": 1105000,
+    "ptime": 1105000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>The holder can present either the whole claim or nothing.  Not a predicate on the claim.</p>",
+    "topic": "ietf-119",
+    "dtime": 1126000,
+    "ptime": 1126000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>but the claim could be a predicate, if the signer pre-considered that possibility, right? age_over_18 could be a claim?</p>",
+    "topic": "ietf-119",
+    "dtime": 1200000,
+    "ptime": 1200000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yeah, that's right.</p>",
+    "topic": "ietf-119",
+    "dtime": 1210000,
+    "ptime": 1210000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>but the JWT issuer would have to do the combinations, once it's signed you can only reveal / not</p>",
+    "topic": "ietf-119",
+    "dtime": 1231000,
+    "ptime": 1231000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>if you wanted to be able to prove age &gt; 18 or age &gt; 21, you would need age_over_18 and age_over_20 claims.  you couldn't just have an age claim and prove things without revealing it</p>",
+    "topic": "ietf-119",
+    "dtime": 1290000,
+    "ptime": 1290000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>If you had \"age_over_21\", you wouldn't need \"age_over_18\" within the same SD-JWT</p>",
+    "topic": "ietf-119",
+    "dtime": 1384000,
+    "ptime": 1384000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>that seems to have broken chat <br>\n<a href=\"/user_uploads/2/c/VOcGjKOFRB-74-tbs5XnZAKh/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/c/VOcGjKOFRB-74-tbs5XnZAKh/image.png\" title=\"image.png\"><img src=\"/user_uploads/2/c/VOcGjKOFRB-74-tbs5XnZAKh/image.png\"></a></div>",
+    "topic": "ietf-119",
+    "dtime": 1443000,
+    "ptime": 1443000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>or we could just remove recursive redaction, which was my original suggestion</p>",
+    "topic": "ietf-119",
+    "dtime": 1518000,
+    "ptime": 1518000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>whole bunch of unnecessary complexity</p>",
+    "topic": "ietf-119",
+    "dtime": 1536000,
+    "ptime": 1536000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i really like SD-JWT~KB, but Brian thinks it's too cute</p>",
+    "topic": "ietf-119",
+    "dtime": 1585000,
+    "ptime": 1585000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I'm not enough of a cryptonerd for this but I wonder if there's a confusion attack of getting the KB confused with a disclosure or vice versa, if the values can be forced in either way.</p>",
+    "topic": "ietf-119",
+    "dtime": 1630000,
+    "ptime": 1630000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>disclosure is a base64url encoded string and KB JWT is a JWS, tho..?</p>",
+    "topic": "ietf-119",
+    "dtime": 1665000,
+    "ptime": 1665000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p>The places to put the disclosure and the KB-JWT are different (there's always a tilda at the end if there is no KB-JWT).</p>",
+    "topic": "ietf-119",
+    "dtime": 1688000,
+    "ptime": 1688000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>did the presenter say that the Key Binding privacy considerations are included in the -08 draft? I don't see that described</p>",
+    "topic": "ietf-119",
+    "dtime": 1699000,
+    "ptime": 1699000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Kristina - you mean that there's no risk of confusion because the last segment is different?</p>",
+    "topic": "ietf-119",
+    "dtime": 1701000,
+    "ptime": 1701000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>tl;dr for this most important PR: <a href=\"https://github.com/oauth-wg/oauth-selective-disclosure-jwt/pull/394\">https://github.com/oauth-wg/oauth-selective-disclosure-jwt/pull/394</a></p>\n<p>terminology is changing: now issuer-signed JWT + Disclosures are called SD-JWT and adding KB JWT to that will be called \"SD-JWT and KB JWT\" (SD-JWT~KB for short)</p>",
+    "topic": "ietf-119",
+    "dtime": 1769000,
+    "ptime": 1769000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>to clarify the alg:none thing, i'm worried about like <code>verify(sd_jwt, require_kb=False)</code></p>",
+    "topic": "ietf-119",
+    "dtime": 1772000,
+    "ptime": 1772000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>someone calls <code>verify(sd_jwt)</code>, thinks they're getting KB, and they're not</p>",
+    "topic": "ietf-119",
+    "dtime": 1800000,
+    "ptime": 1800000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> this PR added that text <a href=\"https://github.com/oauth-wg/oauth-selective-disclosure-jwt/pull/354\">https://github.com/oauth-wg/oauth-selective-disclosure-jwt/pull/354</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1814000,
+    "ptime": 1814000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>thanks <span class=\"user-mention\" data-user-id=\"4123\">@Kristina Yasuda</span> .. is the protection always batch issuance with a different key binding key for each item in the batch?</p>",
+    "topic": "ietf-119",
+    "dtime": 1897000,
+    "ptime": 1897000
+  },
+  {
+    "author": "Nat Sakimura",
+    "text": "<p>As always, great presso, thanks @brian</p>",
+    "topic": "ietf-119",
+    "dtime": 1931000,
+    "ptime": 1931000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span>  yes, that's the simplest mitigation. there are also ZKP crypto emerging that can be added on top of  SD-JWT to add unlinkability to it, too, but that is mentioned only briefly in the draft, I think.</p>",
+    "topic": "ietf-119",
+    "dtime": 1985000,
+    "ptime": 1985000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>For comments we were not able to discuss, please post them to them to the list.</p>",
+    "topic": "ietf-119",
+    "dtime": 2000000,
+    "ptime": 2000000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>While something like hash wires could be used for range proofs on top of SD-JWT without adding new cryptographic primitives, I'm not sure whether it would be better to approach such concepts in JSON Web Proofs rather than as an extension on top of JWT.</p>",
+    "topic": "ietf-119",
+    "dtime": 2296000,
+    "ptime": 2296000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>when i said emerging crypto, one of the things I had in mind was: <a href=\"https://github.com/microsoft/Nova\">https://github.com/microsoft/Nova</a></p>\n<p>If one can add unlinkability to sd-jwt without issuer resigning the credential, that is pretty useful and should be pursued IMO</p>",
+    "topic": "ietf-119",
+    "dtime": 2507000,
+    "ptime": 2507000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>Apologies for running over on time.  I honestly thought I was going to be under time. Misjudgment on my part.</p>",
+    "topic": "ietf-119",
+    "dtime": 2609000,
+    "ptime": 2609000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p>I can commit some time</p>",
+    "topic": "ietf-119",
+    "dtime": 2741000,
+    "ptime": 2741000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Noted Tim</p>",
+    "topic": "ietf-119",
+    "dtime": 2773000,
+    "ptime": 2773000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-ietf-oauth-transaction-tokens-01.html#section-8.1\">https://www.ietf.org/archive/id/draft-ietf-oauth-transaction-tokens-01.html#section-8.1</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3313000,
+    "ptime": 3313000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>\"A workload that invokes another workload using HTTP and needs to present a Txn-Token to the invoked workload MUST use the HTTP Header Txn-Token to communicate the Txn-Token. The value of this header MUST be the JWT that represents the Txn-Token.\"</p>",
+    "topic": "ietf-119",
+    "dtime": 3341000,
+    "ptime": 3341000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1404\">@Dean Saxe</span>  I take blame for that line, it was supposed to be a placeholder</p>",
+    "topic": "ietf-119",
+    "dtime": 3686000,
+    "ptime": 3686000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>No worries, Atul!  We'll clean it up.</p>",
+    "topic": "ietf-119",
+    "dtime": 3851000,
+    "ptime": 3851000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Yaron &amp; Joe volunteered to review the transaction tokens draft.</p>",
+    "topic": "ietf-119",
+    "dtime": 3893000,
+    "ptime": 3893000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>is there a github repo to file issues?</p>",
+    "topic": "ietf-119",
+    "dtime": 3900000,
+    "ptime": 3900000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>I'l file my concerns for discussion and tracking.</p>",
+    "topic": "ietf-119",
+    "dtime": 3916000,
+    "ptime": 3916000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>I'd love to contribute to a review, this is a topic close to my heart</p>",
+    "topic": "ietf-119",
+    "dtime": 3918000,
+    "ptime": 3918000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>I have a few other nits on the text</p>",
+    "topic": "ietf-119",
+    "dtime": 3928000,
+    "ptime": 3928000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Perfect. Thanks, Adam.</p>",
+    "topic": "ietf-119",
+    "dtime": 3939000,
+    "ptime": 3939000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>But does his code compile?</p>",
+    "topic": "ietf-119",
+    "dtime": 3973000,
+    "ptime": 3973000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>@Dean <a href=\"https://github.com/oauth-wg/oauth-transaction-tokens\">https://github.com/oauth-wg/oauth-transaction-tokens</a> is the repo</p>",
+    "topic": "ietf-119",
+    "dtime": 3974000,
+    "ptime": 3974000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>(jk)</p>",
+    "topic": "ietf-119",
+    "dtime": 3978000,
+    "ptime": 3978000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p><a href=\"https://github.com/oauth-wg/oauth-transaction-tokens\">https://github.com/oauth-wg/oauth-transaction-tokens</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3982000,
+    "ptime": 3982000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>you can also post your review notes to the mailing list. Of course, filing PRs will be appreciated by the draft editors...</p>",
+    "topic": "ietf-119",
+    "dtime": 4018000,
+    "ptime": 4018000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>Heads up to its authors, very minor thing: the transaction tokens I-D in datatrack doesn't have the GitHub metadata on the page to find the repo for this draft, so it could help to save me 1-2 Google searches like the others (I lurk and getting my legs, not a frequent OAUTH contributor yet or would have guessed the GH repo org).</p>",
+    "topic": "ietf-119",
+    "dtime": 4106000,
+    "ptime": 4106000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>Thanks Roman.</p>",
+    "topic": "ietf-119",
+    "dtime": 4153000,
+    "ptime": 4153000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>We can fix that, A.J.</p>",
+    "topic": "ietf-119",
+    "dtime": 4195000,
+    "ptime": 4195000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3865\">A.J. Stein</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-119/near/112078\">said</a>:</p>\n<blockquote>\n<p>Heads up to its authors, very minor thing: the transaction tokens I-D in datatrack doesn't have the GitHub metadata on the page to find the repo for this draft, so it could help to save me 1-2 Google searches like the others (I lurk and getting my legs, not a frequent OAUTH contributor yet or would have guessed the GH repo org).</p>\n</blockquote>\n<p>Added this issue to track: <a href=\"https://github.com/oauth-wg/oauth-transaction-tokens/issues/72\">https://github.com/oauth-wg/oauth-transaction-tokens/issues/72</a></p>",
+    "topic": "ietf-119",
+    "dtime": 4291000,
+    "ptime": 4291000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>added to notes</p>",
+    "topic": "ietf-119",
+    "dtime": 4322000,
+    "ptime": 4322000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1219\">Atul Tulshibagwale</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-119/near/112101\">said</a>:</p>\n<blockquote>\n<p>Added this issue to track: <a href=\"https://github.com/oauth-wg/oauth-transaction-tokens/issues/72\">https://github.com/oauth-wg/oauth-transaction-tokens/issues/72</a></p>\n</blockquote>\n<p>Oh wait I am tired and getting loopy. I forgot this is YAML metadata, I can easily pitch in there. <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 4395000,
+    "ptime": 4395000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>:)</p>",
+    "topic": "ietf-119",
+    "dtime": 4412000,
+    "ptime": 4412000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>sorry AJ I beat you to it ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 4442000,
+    "ptime": 4442000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"56\">Aaron Parecki</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-119/near/112119\">said</a>:</p>\n<blockquote>\n<p>sorry AJ I beat you to it ;-)</p>\n</blockquote>\n<p>Sigh you people are fast, I forked in vain!</p>",
+    "topic": "ietf-119",
+    "dtime": 4461000,
+    "ptime": 4461000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>Is there effort / prior art to formalize naming / develop a schema for \"scopes\", explicit and clear mappings at the boundary between systems around entitlement meaning would be useful</p>",
+    "topic": "ietf-119",
+    "dtime": 4613000,
+    "ptime": 4613000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>This question might be better raised in a more \"general\" forum</p>",
+    "topic": "ietf-119",
+    "dtime": 4632000,
+    "ptime": 4632000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>Or for me to do more research</p>",
+    "topic": "ietf-119",
+    "dtime": 4791000,
+    "ptime": 4791000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>Unfortunately, there isn’t much for <code>scopes</code>. RFC 6749 defines <code>scope</code> as effectively a space delimited list of strings.</p>",
+    "topic": "ietf-119",
+    "dtime": 5162000,
+    "ptime": 5162000
+  },
+  {
+    "author": "Dmitry Izumskiy",
+    "text": "<p>it this presentation available?</p>",
+    "topic": "ietf-119",
+    "dtime": 5169000,
+    "ptime": 5169000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3990\">Dmitry Izumskiy</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-119/near/112217\">said</a>:</p>\n<blockquote>\n<p>it this presentation available?</p>\n</blockquote>\n<p>Isn't it this one in the agenda?</p>\n<p><a href=\"https://datatracker.ietf.org/meeting/119/session/oauth/\">https://datatracker.ietf.org/meeting/119/session/oauth/</a></p>\n<p><a href=\"https://datatracker.ietf.org/meeting/119/materials/slides-119-oauth-sessb-identity-assertion-authorization-grant\">https://datatracker.ietf.org/meeting/119/materials/slides-119-oauth-sessb-identity-assertion-authorization-grant</a></p>",
+    "topic": "ietf-119",
+    "dtime": 5276000,
+    "ptime": 5276000
+  },
+  {
+    "author": "Dmitry Izumskiy",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-119",
+    "dtime": 5387000,
+    "ptime": 5387000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>\"for reasons\"</p>",
+    "topic": "ietf-119",
+    "dtime": 5514000,
+    "ptime": 5514000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>sorry...</p>",
+    "topic": "ietf-119",
+    "dtime": 5520000,
+    "ptime": 5520000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 5530000,
+    "ptime": 5530000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>Hmm… that was supposed to be just a smiley face… I will avoid emojis from now on</p>",
+    "topic": "ietf-119",
+    "dtime": 5576000,
+    "ptime": 5576000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>using the full chat client helps (I learned the hard way)</p>",
+    "topic": "ietf-119",
+    "dtime": 5603000,
+    "ptime": 5603000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 5665000,
+    "ptime": 5665000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>the reason why this should be a separate doc that is a profile of a chaining draft was pretty clear to me..</p>",
+    "topic": "ietf-119",
+    "dtime": 5765000,
+    "ptime": 5765000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>I feel the same way</p>",
+    "topic": "ietf-119",
+    "dtime": 5789000,
+    "ptime": 5789000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 5797000,
+    "ptime": 5797000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 5814000,
+    "ptime": 5814000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>(but would appreciate if the naming of the drafts would be more aligned - right now it is not intuitive that one is the profile of the other..)</p>",
+    "topic": "ietf-119",
+    "dtime": 5818000,
+    "ptime": 5818000
+  },
+  {
+    "author": "Adam Bradley",
+    "text": "<p>Looks great, preserve explicit consent without loss of fidelity or intent at the API side</p>",
+    "topic": "ietf-119",
+    "dtime": 5857000,
+    "ptime": 5857000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>ok, i suck at naming and I need to read Aaron's draft, but \"Identity Assertion to Authorization Grant profile of oauth chaining\" or something..? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 6318000,
+    "ptime": 6318000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Ther eis s limit to how much the document can help avoid this issue - there are other mechainsm like conformance testing etc that further helps verifiy correct implementation. I do agree the sepc needs to be clear as possible, but perhaps we need to also think about conformance test ssuites?</p>",
+    "topic": "ietf-119",
+    "dtime": 7228000,
+    "ptime": 7228000
+  },
+  {
+    "author": "Nat Sakimura",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 7295000,
+    "ptime": 7295000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 7301000,
+    "ptime": 7301000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-119",
+    "dtime": 7311000,
+    "ptime": 7311000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-OAUTH-20240319-2330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-OAUTH-20240319-2330"
+		}		
+	]
+}

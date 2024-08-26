@@ -1,0 +1,679 @@
+
+{
+	"title": "IETF117-OHAI-20230728-1900",
+	"filename": "IETF117-OHAI-20230728-1900",
+	"start": 0,
+	"end": 3252000,
+	"start_datetime": "2023-07-28T19:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "AIDAT938fyY",
+    "start": 0,
+    "end": "3252000"
+  }
+],
+	"messages": [
+  {
+    "author": "Eric Orth",
+    "text": "<p>Oh! Hi, OHAI.</p>",
+    "topic": "ietf-117",
+    "dtime": 139000,
+    "ptime": 139000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>nice 4sq blast from the past</p>",
+    "topic": "ietf-117",
+    "dtime": 162000,
+    "ptime": 162000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Maybe we should stop calling them \"blue sheets\"</p>",
+    "topic": "ietf-117",
+    "dtime": 315000,
+    "ptime": 315000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"attendance\"</p>",
+    "topic": "ietf-117",
+    "dtime": 320000,
+    "ptime": 320000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>They're still blue, are they not?</p>",
+    "topic": "ietf-117",
+    "dtime": 331000,
+    "ptime": 331000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>They printed the QR codes on blue paper, but you don't need to use those</p>",
+    "topic": "ietf-117",
+    "dtime": 349000,
+    "ptime": 349000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>And yet they float around the room awkwardly.</p>",
+    "topic": "ietf-117",
+    "dtime": 441000,
+    "ptime": 441000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>fair point Eric</p>",
+    "topic": "ietf-117",
+    "dtime": 472000,
+    "ptime": 472000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Clearly we need DEFCON style eink badges that show QR codes</p>",
+    "topic": "ietf-117",
+    "dtime": 484000,
+    "ptime": 484000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>there were bluetooth badges at one IETF meeting.  in japan iirc</p>",
+    "topic": "ietf-117",
+    "dtime": 503000,
+    "ptime": 503000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>privacy concerns</p>",
+    "topic": "ietf-117",
+    "dtime": 519000,
+    "ptime": 519000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>When the IETF adopts retinal scans and DNA sequencing for WG sessions, we'll still be calling that bluesheets.<span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 536000,
+    "ptime": 536000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>blue NFC tokens?</p>",
+    "topic": "ietf-117",
+    "dtime": 558000,
+    "ptime": 558000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>BEEP over OHTTP</p>",
+    "topic": "ietf-117",
+    "dtime": 586000,
+    "ptime": 586000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>I was under the impression OHTTP was avoiding the browsing (interactive) scenario (\"that's what MASQUE is for\").  Did I miss something?</p>",
+    "topic": "ietf-117",
+    "dtime": 610000,
+    "ptime": 610000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p>is this going to be interactive?</p>",
+    "topic": "ietf-117",
+    "dtime": 629000,
+    "ptime": 629000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"977\">@David Oliver</span> this is still one request/response each way, just large messages</p>",
+    "topic": "ietf-117",
+    "dtime": 631000,
+    "ptime": 631000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"977\">@David Oliver</span> this won't be interactive</p>",
+    "topic": "ietf-117",
+    "dtime": 640000,
+    "ptime": 640000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>David: I believe this is still at a single request/response pair level</p>",
+    "topic": "ietf-117",
+    "dtime": 648000,
+    "ptime": 648000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>However, streaming does create some very interesting stuff.</p>",
+    "topic": "ietf-117",
+    "dtime": 665000,
+    "ptime": 665000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Traffic analysis, integration into existing systems.</p>",
+    "topic": "ietf-117",
+    "dtime": 696000,
+    "ptime": 696000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87348\">said</a>:</p>\n<blockquote>\n<p>However, streaming does create some very interesting stuff.</p>\n</blockquote>\n<p>like tagging the stream? what kind of interesting stuff is the concern here?</p>",
+    "topic": "ietf-117",
+    "dtime": 698000,
+    "ptime": 698000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>it would seem like requests would be less likely to be separable, non-identifiable and oblivious if they are large, chunked or interactive</p>",
+    "topic": "ietf-117",
+    "dtime": 705000,
+    "ptime": 705000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3173\">@Kyle Hogan</span> what do you mean by tagging the stream?</p>",
+    "topic": "ietf-117",
+    "dtime": 726000,
+    "ptime": 726000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>I think we all had that moment of panic :D</p>",
+    "topic": "ietf-117",
+    "dtime": 804000,
+    "ptime": 804000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87354\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3173\">Kyle Hogan</span> what do you mean by tagging the stream?</p>\n</blockquote>\n<p>one of the Tor attacks is to \"tag\" the stream where an on-path adversary can delay messages in a stream to create a traffic pattern where there was none. This pattern can persist across relays/proxies if not careful</p>",
+    "topic": "ietf-117",
+    "dtime": 814000,
+    "ptime": 814000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>\"Chunked OHTTP\"</p>",
+    "topic": "ietf-117",
+    "dtime": 849000,
+    "ptime": 849000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Oh, that's a property we're good on.</p>",
+    "topic": "ietf-117",
+    "dtime": 851000,
+    "ptime": 851000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Chonky OHTTP</p>",
+    "topic": "ietf-117",
+    "dtime": 852000,
+    "ptime": 852000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>+1 to this statement.</p>",
+    "topic": "ietf-117",
+    "dtime": 855000,
+    "ptime": 855000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"incremental processing\" or IOHTTP</p>",
+    "topic": "ietf-117",
+    "dtime": 861000,
+    "ptime": 861000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>And now we're working with haskell</p>",
+    "topic": "ietf-117",
+    "dtime": 877000,
+    "ptime": 877000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87363\">said</a>:</p>\n<blockquote>\n<p>Oh, that's a property we're good on.</p>\n</blockquote>\n<p>So that seems non-obvious to me.</p>",
+    "topic": "ietf-117",
+    "dtime": 943000,
+    "ptime": 943000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Long, Oblivious Chunked HTTP (LOCH)</p>",
+    "topic": "ietf-117",
+    "dtime": 945000,
+    "ptime": 945000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p>is there a concern about total size of the stream here? I'm assuming that the individual messages were fixed size. Is the stream fixed size?</p>",
+    "topic": "ietf-117",
+    "dtime": 945000,
+    "ptime": 945000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Yes! I guessed correctly.</p>",
+    "topic": "ietf-117",
+    "dtime": 964000,
+    "ptime": 964000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>David has favourite --children-- i-ds.</p>",
+    "topic": "ietf-117",
+    "dtime": 1048000,
+    "ptime": 1048000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Per-message, for a slightly broadening definition of \"message\".</p>",
+    "topic": "ietf-117",
+    "dtime": 1066000,
+    "ptime": 1066000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>per message ... except that the message could have multiple chunks</p>",
+    "topic": "ietf-117",
+    "dtime": 1069000,
+    "ptime": 1069000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> my understanding is that tagging only works if you can modify something on one leg that is observable on another leg.  We encapsulate on one leg.</p>",
+    "topic": "ietf-117",
+    "dtime": 1091000,
+    "ptime": 1091000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nick - yes that</p>",
+    "topic": "ietf-117",
+    "dtime": 1096000,
+    "ptime": 1096000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87383\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> my understanding is that tagging only works if you can modify something on one leg that is observable on another leg.  We encapsulate on one leg.</p>\n</blockquote>\n<p>okay now I have concerns again. what do you mean by encapsulate?</p>",
+    "topic": "ietf-117",
+    "dtime": 1130000,
+    "ptime": 1130000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i remain disgruntled that we are doing HPKE in one direction and raw AEAD in the other</p>",
+    "topic": "ietf-117",
+    "dtime": 1140000,
+    "ptime": 1140000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The encapsulated request is the payload to an HTTPS request.</p>",
+    "topic": "ietf-117",
+    "dtime": 1160000,
+    "ptime": 1160000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>\"Could do this with MASQUE except with more TLS handshakes\" is true of any OHTTP.</p>",
+    "topic": "ietf-117",
+    "dtime": 1167000,
+    "ptime": 1167000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That is, there are two layers of encapsulation.</p>",
+    "topic": "ietf-117",
+    "dtime": 1174000,
+    "ptime": 1174000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87383\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> my understanding is that tagging only works if you can modify something on one leg that is observable on another leg.  We encapsulate on one leg.</p>\n</blockquote>\n<p>So say the server sends 10 packets, I delay the first by one second the second by two seconds, etc. That pattern would continue in the encapsulated stream</p>",
+    "topic": "ietf-117",
+    "dtime": 1195000,
+    "ptime": 1195000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87389\">said</a>:</p>\n<blockquote>\n<p>That is, there are two layers of encapsulation.</p>\n</blockquote>\n<p>the tagging is at the packet level here. I said \"message, but that wasn't the right term.</p>",
+    "topic": "ietf-117",
+    "dtime": 1208000,
+    "ptime": 1208000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Ah, I see.  Timing as tagging.</p>",
+    "topic": "ietf-117",
+    "dtime": 1216000,
+    "ptime": 1216000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p>what <span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> said</p>",
+    "topic": "ietf-117",
+    "dtime": 1218000,
+    "ptime": 1218000
+  },
+  {
+    "author": "Luca Niccolini",
+    "text": "<p>my 2c. streaming (errr Chunking) will help in building proxies or OHAI support in existing proxies :) you don't really want a proxy that has to buffer a whole message in either direction. This has prevented us from building OHAI support into the edge proxy and instead delegate to a separate service. Also you don't have to enforce arbitrary limits on the size of the request/response to protect from running out of memory</p>",
+    "topic": "ietf-117",
+    "dtime": 1294000,
+    "ptime": 1294000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>we should also protect against chunks being inserted ...</p>",
+    "topic": "ietf-117",
+    "dtime": 1305000,
+    "ptime": 1305000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"621\">@Luca Niccolini</span> we'll ask for folks interested in implementing this at the end, that's valuable feedback</p>",
+    "topic": "ietf-117",
+    "dtime": 1407000,
+    "ptime": 1407000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Re insertion: Yes, should be a requirement, but we essentially get that for free from HPKE, right? Should be impossible for anybody without the keys to insert a valid message.</p>",
+    "topic": "ietf-117",
+    "dtime": 1445000,
+    "ptime": 1445000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"621\">@Luca Niccolini</span> are you talking about a relay or a gateway?</p>",
+    "topic": "ietf-117",
+    "dtime": 1452000,
+    "ptime": 1452000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>(I'm assuming gateway)</p>",
+    "topic": "ietf-117",
+    "dtime": 1466000,
+    "ptime": 1466000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"525\">Eric Orth</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87405\">said</a>:</p>\n<blockquote>\n<p>Re insertion: Yes, should be a requirement, but we essentially get that for free from HPKE, right? Should be impossible for anybody without the keys to insert a valid message.</p>\n</blockquote>\n<p>it really depends on which parties can tell whether a message is \"valid\"</p>",
+    "topic": "ietf-117",
+    "dtime": 1475000,
+    "ptime": 1475000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I have to duck out, but I'm very much in support of this being done here.</p>",
+    "topic": "ietf-117",
+    "dtime": 1505000,
+    "ptime": 1505000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p>I'm much more familiar with Tor, but \"invalid\" messages can make it pretty far through the network in many cases</p>",
+    "topic": "ietf-117",
+    "dtime": 1516000,
+    "ptime": 1516000
+  },
+  {
+    "author": "Luca Niccolini",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87406\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"621\">Luca Niccolini</span> are you talking about a relay or a gateway?</p>\n</blockquote>\n<p>yes a gateway</p>",
+    "topic": "ietf-117",
+    "dtime": 1536000,
+    "ptime": 1536000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I was intending to reference the case where the client sent query 1 via OHAI service  1 and query 2 via OHAI service two</p>",
+    "topic": "ietf-117",
+    "dtime": 1550000,
+    "ptime": 1550000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>what's going to stop this from being used for 2 request-response pairs?</p>",
+    "topic": "ietf-117",
+    "dtime": 1572000,
+    "ptime": 1572000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87415\">said</a>:</p>\n<blockquote>\n<p>what's going to stop this from being used for 2 request-response pairs?</p>\n</blockquote>\n<p>it would break the security analysis?</p>",
+    "topic": "ietf-117",
+    "dtime": 1607000,
+    "ptime": 1607000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Here, one long message would chunk them it but send all chunks along the same path, because they are all the same message at the end of the day.</p>",
+    "topic": "ietf-117",
+    "dtime": 1673000,
+    "ptime": 1673000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>if you need to download a giant file, then how much are you saving by the optimization of not setting up a MASQUE session</p>",
+    "topic": "ietf-117",
+    "dtime": 1673000,
+    "ptime": 1673000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Re the chunk boundary issue, is that not the same as TLS records and everything else? I think it's a general requirement that a streaming readers of byte streams must not be sensitive to read boundaries. No objections to saying as much in this draft, but ISTM this is pretty fundamental to streaming.</p>",
+    "topic": "ietf-117",
+    "dtime": 1673000,
+    "ptime": 1673000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>EKR doesn't want us to have job security</p>",
+    "topic": "ietf-117",
+    "dtime": 1702000,
+    "ptime": 1702000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>performance improvements for a huge file that will take a long long time to download doesn't seem as helpful?</p>",
+    "topic": "ietf-117",
+    "dtime": 1746000,
+    "ptime": 1746000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>For Ekr everything looks like TLS <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 1823000,
+    "ptime": 1823000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>It's reinventing TLS, but saving a round trip, in exchange for sacrificing forward secrecy and replay protection. And replacing the auth story with \"I knew the server's key ahead of time\".</p>",
+    "topic": "ietf-117",
+    "dtime": 1827000,
+    "ptime": 1827000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I do feel like this proposal, while interesting, is definitely edging into marginal-returns territory where this sort of question is very justified.</p>",
+    "topic": "ietf-117",
+    "dtime": 1845000,
+    "ptime": 1845000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>The autotranscriber is coping very well with ekr-speed speech.</p>",
+    "topic": "ietf-117",
+    "dtime": 1881000,
+    "ptime": 1881000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>It’s a human</p>",
+    "topic": "ietf-117",
+    "dtime": 1893000,
+    "ptime": 1893000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>in this room</p>",
+    "topic": "ietf-117",
+    "dtime": 1899000,
+    "ptime": 1899000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Much respect to the human in question!</p>",
+    "topic": "ietf-117",
+    "dtime": 1968000,
+    "ptime": 1968000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Even more impressive...</p>",
+    "topic": "ietf-117",
+    "dtime": 1970000,
+    "ptime": 1970000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>(feeling very validated when my question gets asked in the mic q)</p>",
+    "topic": "ietf-117",
+    "dtime": 2182000,
+    "ptime": 2182000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>It’s hard to support something without clarity on the use cases to justify the trade offs</p>",
+    "topic": "ietf-117",
+    "dtime": 2204000,
+    "ptime": 2204000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>You can make backpressure work properly but it's easy to mess up</p>",
+    "topic": "ietf-117",
+    "dtime": 2249000,
+    "ptime": 2249000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>I'm not quite following why the backpressure story would be any different if you had tunneled TLS over the proxy instead. They're both ultimately just piping encrypted records. The differences are more in the \"handshake\" half.</p>",
+    "topic": "ietf-117",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Did I miss discussion of a specific use case where the response may be particularly large?</p>",
+    "topic": "ietf-117",
+    "dtime": 2613000,
+    "ptime": 2613000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I understood Tommy's discussion there of why that may be desirable, but I don't recall hearing an example such use</p>",
+    "topic": "ietf-117",
+    "dtime": 2632000,
+    "ptime": 2632000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>maybe Safe Browsing or something, where you want to download an updated segment of a database, but maybe you don't want to reveal to the endpoint which segment of the database you are interested in</p>",
+    "topic": "ietf-117",
+    "dtime": 2720000,
+    "ptime": 2720000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@Alex I believe the very limited info on use cases is the text on slide 3</p>",
+    "topic": "ietf-117",
+    "dtime": 2748000,
+    "ptime": 2748000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Yeah, I saw that, I find that a bit too generic to find this sufficiently motivating :(</p>",
+    "topic": "ietf-117",
+    "dtime": 2966000,
+    "ptime": 2966000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>EVERYTHING OVER HTTP</p>",
+    "topic": "ietf-117",
+    "dtime": 3039000,
+    "ptime": 3039000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>If you create a new key for every DNS request, those are user-specific keys and thus can be used to correlate together all the messages from the same DNS-querying user.</p>",
+    "topic": "ietf-117",
+    "dtime": 3083000,
+    "ptime": 3083000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>For replay, see Idempotency-key header in HTTPAPI</p>",
+    "topic": "ietf-117",
+    "dtime": 3099000,
+    "ptime": 3099000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>:)</p>",
+    "topic": "ietf-117",
+    "dtime": 3105000,
+    "ptime": 3105000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>After the formal end of the wg, can we play \"guess the use case\"?</p>",
+    "topic": "ietf-117",
+    "dtime": 3199000,
+    "ptime": 3199000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"231\">Mark Nottingham</span> <a href=\"#narrow/stream/247-ohai/topic/ietf-117/near/87510\">said</a>:</p>\n<blockquote>\n<p>For replay, see Idempotency-key header in HTTPAPI</p>\n</blockquote>\n<p>Yup, that's the \"solve replay with recipient state\" solution space. TLS 1.3 has some discussion of that too. :-) You don't need idempotency-key, just any bit of unique randomness in there.</p>",
+    "topic": "ietf-117",
+    "dtime": 3209000,
+    "ptime": 3209000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Why do we need TLS when we have HTTP? /me ducks</p>",
+    "topic": "ietf-117",
+    "dtime": 3237000,
+    "ptime": 3237000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-OHAI-20230728-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/ohai"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-OHAI-20230728-1900"
+		}		
+	]
+}

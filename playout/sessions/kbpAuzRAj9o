@@ -1,0 +1,125 @@
+
+{
+	"title": "IETF114-NMRG-20220727-1400",
+	"filename": "IETF114-NMRG-20220727-1400",
+	"start": 0,
+	"end": 7270000,
+	"start_datetime": "2022-07-27T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "kbpAuzRAj9o",
+    "start": 0,
+    "end": "7270000"
+  }
+],
+	"messages": [
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I guess some pluggins are needed to translate to protocol-specific objects</p>",
+    "dtime": 1561000,
+    "ptime": 1561000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>I don’t see Felipe logged into the Meetecho — if anyone wants to follow up on his presentation, I can make the connection. :-)</p>",
+    "dtime": 1977000,
+    "ptime": 1977000
+  },
+  {
+    "author": "Alexander Clemm",
+    "text": "<p>Question re: Cheng Zhou's presentation <br>\nin NMRG: Have you considered using YANG Push (RFC 8641 / RFC 8639) as a mechanism to collect data / updates between digital twin and network?</p>",
+    "dtime": 2579000,
+    "ptime": 2579000
+  },
+  {
+    "author": "Cheng Zhou",
+    "text": "<p>Good point. Yes, as noted in the slides: ANG modeling can be a common method to describing a network equipment with simple structured language.</p>",
+    "dtime": 2618000,
+    "ptime": 2618000
+  },
+  {
+    "author": "Cheng Zhou",
+    "text": "<p>YANG modeling</p>",
+    "dtime": 2630000,
+    "ptime": 2630000
+  },
+  {
+    "author": "Alexander Clemm",
+    "text": "<p>Modeling via YANG is one thing, the other is the mechanism to retrieve the actual data - streaming as per RFC 8641 may be one option to consider if the data is modeled in YANG</p>",
+    "dtime": 2706000,
+    "ptime": 2706000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>You are right, Alex. 8641/8639 are indirectly cited via I-D.ietf-netconf-adaptive-subscription.</p>",
+    "dtime": 3070000,
+    "ptime": 3070000
+  },
+  {
+    "author": "Cheng Zhou",
+    "text": "<p>Yes. YANG Push (RFC 8641 / RFC 8639) can be used to collect data.</p>",
+    "dtime": 3106000,
+    "ptime": 3106000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Both are worth to be cited explicitly in the next iteration of the draft.</p>",
+    "dtime": 3175000,
+    "ptime": 3175000
+  },
+  {
+    "author": "Cheng Zhou",
+    "text": "<p>Yes. We will make the update in next version, both to the arch draft and to the data collection draft.</p>",
+    "dtime": 3581000,
+    "ptime": 3581000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>If the measurement is reliable (which I'm not sure about yet), doing the measurement at the DT this would save waking some nodes in the PN just to handle the probing request.</p>",
+    "dtime": 3858000,
+    "ptime": 3858000
+  },
+  {
+    "author": "Danyang Chen",
+    "text": "<p>Yes, if we are measuring end-to-end delay, we can just measure the nodes at both ends without waking up the intermediate PNs</p>",
+    "dtime": 4163000,
+    "ptime": 4163000
+  },
+  {
+    "author": "Hongwei Yang",
+    "text": "<p>Yes, network measurement is a use case for DTN, especially one-way delay measurement</p>",
+    "dtime": 4533000,
+    "ptime": 4533000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@dean: there are actually two dimensions that require some standardization actions. The first one is how to capture network-wide a set of energy-related metric. This can be basically an enhanced YANG twin of the eman MIBs.</p>",
+    "dtime": 5079000,
+    "ptime": 5079000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The second one is whether some forwarding tweaking is needed based on power/energy metrics.</p>",
+    "dtime": 5152000,
+    "ptime": 5152000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-NMRG-20220727-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/nmrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-NMRG-20220727-1400"
+		}		
+	]
+}

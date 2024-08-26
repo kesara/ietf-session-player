@@ -1,0 +1,1295 @@
+{
+  "title": "IETF113-WEBTRANS-20220324-1330",
+  "filename": "IETF113-WEBTRANS-20220324-1330",
+  "start": 0,
+  "end": 6833000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "9ys7hwscwXM",
+      "start": 0,
+      "end": "6833000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 460000,
+      "ptime": 460000,
+      "author": "Alan Frindell",
+      "text": "I can jabber scribe<br/>"
+    },
+    {
+      "dtime": 468000,
+      "ptime": 468000,
+      "author": "Alan Frindell",
+      "text": "dang it lucas<br/>"
+    },
+    {
+      "dtime": 478000,
+      "ptime": 478000,
+      "author": "lpardue",
+      "text": "you can be note taker alan<br/>"
+    },
+    {
+      "dtime": 485000,
+      "ptime": 485000,
+      "author": "Alan Frindell",
+      "text": "that is not my forte<br/>"
+    },
+    {
+      "dtime": 617000,
+      "ptime": 617000,
+      "author": "David Schinazi",
+      "text": "Meetecho I see that I can pass slide control to folks (which is great thanks) but I can't figure out how to take it back to myself, is that possible?<br/>"
+    },
+    {
+      "dtime": 629000,
+      "ptime": 629000,
+      "author": "Martin Thomson",
+      "text": "you aren't going to get anything better from us on dates, sorry<br/>"
+    },
+    {
+      "dtime": 648000,
+      "ptime": 648000,
+      "author": "Meetecho",
+      "text": "David: at the moment this isn't possible<br/>"
+    },
+    {
+      "dtime": 662000,
+      "ptime": 662000,
+      "author": "Martin Thomson",
+      "text": "the right arrow key works<br/>"
+    },
+    {
+      "dtime": 664000,
+      "ptime": 664000,
+      "author": "David Schinazi",
+      "text": "MT do you want that said at the mic?<br/>"
+    },
+    {
+      "dtime": 675000,
+      "ptime": 675000,
+      "author": "David Schinazi",
+      "text": "(Mozilla's position not the right arrow)<br/>"
+    },
+    {
+      "dtime": 679000,
+      "ptime": 679000,
+      "author": "David Schinazi",
+      "text": "Thanks Meetecho<br/>"
+    },
+    {
+      "dtime": 680000,
+      "ptime": 680000,
+      "author": "Martin Thomson",
+      "text": "I just wanted that on the record<br/>"
+    },
+    {
+      "dtime": 690000,
+      "ptime": 690000,
+      "author": "David Schinazi",
+      "text": "Thanks MT<br/>"
+    },
+    {
+      "dtime": 713000,
+      "ptime": 713000,
+      "author": "Martin Thomson",
+      "text": "I think that we just got writable streams finalized, so we're in a reasonable shape, but a small team with shifting priorities makes it hard to commit to a date<br/>"
+    },
+    {
+      "dtime": 821000,
+      "ptime": 821000,
+      "author": "Alan Frindell",
+      "text": "is there a mechanism in the api for setting egress priority?<br/>"
+    },
+    {
+      "dtime": 828000,
+      "ptime": 828000,
+      "author": "Martin Thomson",
+      "text": "I think that we might want to talk about the priority thing some<br/>"
+    },
+    {
+      "dtime": 833000,
+      "ptime": 833000,
+      "author": "Eric Kinnear",
+      "text": "Can we just inherit HTTP priorities since we put all of this over HTTP?<br/>"
+    },
+    {
+      "dtime": 845000,
+      "ptime": 845000,
+      "author": "Alan Frindell",
+      "text": "HTTP prioritizes request streams<br/>"
+    },
+    {
+      "dtime": 858000,
+      "ptime": 858000,
+      "author": "Eric Kinnear",
+      "text": "Ah fair<br/>"
+    },
+    {
+      "dtime": 954000,
+      "ptime": 954000,
+      "author": "Martin Thomson",
+      "text": "I'm not sure about what divergence is allowed by W3C process<br/>"
+    },
+    {
+      "dtime": 1064000,
+      "ptime": 1064000,
+      "author": "lpardue",
+      "text": "I wrote an I-D to accomodate HTTP datagram priority signalling. If people hate it that's fine but I've not seen any other reasonable suggestion<br/>"
+    },
+    {
+      "dtime": 1087000,
+      "ptime": 1087000,
+      "author": "Alan Frindell",
+      "text": "mt: it shows you are still sending audio?<br/>"
+    },
+    {
+      "dtime": 1103000,
+      "ptime": 1103000,
+      "author": "Eric Kinnear",
+      "text": "(There are two notes.ietf.org docs titled the same, one linked from the agenda in datatracker, one was made before switching to that one)<br/>"
+    },
+    {
+      "dtime": 1181000,
+      "ptime": 1181000,
+      "author": "lpardue",
+      "text": "incremental and 8 levels of urgency, sounds great ;)<br/>"
+    },
+    {
+      "dtime": 1184000,
+      "ptime": 1184000,
+      "author": "Mike Bishop",
+      "text": "@Alan, Meetecho recommended in a previous session people with Australia-scale latency mute rather than disconnecting audio due to the cutover time.<br/>"
+    },
+    {
+      "dtime": 1187000,
+      "ptime": 1187000,
+      "author": "Alan Frindell",
+      "text": "fair point about sequential/incremental.<br/>"
+    },
+    {
+      "dtime": 1209000,
+      "ptime": 1209000,
+      "author": "Martin Thomson",
+      "text": "8 or 4 levels would be fine<br/>"
+    },
+    {
+      "dtime": 1212000,
+      "ptime": 1212000,
+      "author": "Alan Frindell",
+      "text": "gotcha<br/>"
+    },
+    {
+      "dtime": 1305000,
+      "ptime": 1305000,
+      "author": "Alan Frindell",
+      "text": "I agree that signaling priority to the peer can be punted to applications over WT, but we still need an API to control browser side egress priority, right?<br/>"
+    },
+    {
+      "dtime": 1320000,
+      "ptime": 1320000,
+      "author": "Martin Thomson",
+      "text": "I was using a local mute (of which I have at least three) to manage my audio during discussion; I will continue doing that to avoid the multi-second lag<br/>"
+    },
+    {
+      "dtime": 1336000,
+      "ptime": 1336000,
+      "author": "Alan Frindell",
+      "text": "(y)<br/>"
+    },
+    {
+      "dtime": 1339000,
+      "ptime": 1339000,
+      "author": "Martin Thomson",
+      "text": "yes, we need a browser API for setting a priority value<br/>"
+    },
+    {
+      "dtime": 1353000,
+      "ptime": 1353000,
+      "author": "Jonathan Lennox",
+      "text": "Where \"we\" means W3C in this context, yes?<br/>"
+    },
+    {
+      "dtime": 1361000,
+      "ptime": 1361000,
+      "author": "Martin Thomson",
+      "text": "indeed<br/>"
+    },
+    {
+      "dtime": 1428000,
+      "ptime": 1428000,
+      "author": "Hang Shi",
+      "text": "Brower API for setting the priority would be useful. Application need some way to control the scheduling of multiple streams/datagrams.<br/>"
+    },
+    {
+      "dtime": 1444000,
+      "ptime": 1444000,
+      "author": "Martin Thomson",
+      "text": "our implementation has 5 levels, just to be perverse<br/>"
+    },
+    {
+      "dtime": 1465000,
+      "ptime": 1465000,
+      "author": "lpardue",
+      "text": "reminder, if you'd like me to relay anything to the microphone, please prepend a message here with MIC:<br/>"
+    },
+    {
+      "dtime": 1477000,
+      "ptime": 1477000,
+      "author": "Alan Frindell",
+      "text": "I like having goaway semantics&nbsp;&nbsp;on sessions<br/>"
+    },
+    {
+      "dtime": 1493000,
+      "ptime": 1493000,
+      "author": "Alan Frindell",
+      "text": "Sue<br/>"
+    },
+    {
+      "dtime": 1497000,
+      "ptime": 1497000,
+      "author": "Alan Frindell",
+      "text": "ure<br/>"
+    },
+    {
+      "dtime": 1504000,
+      "ptime": 1504000,
+      "author": "lpardue",
+      "text": "who is sue?<br/>"
+    },
+    {
+      "dtime": 1544000,
+      "ptime": 1544000,
+      "author": "Martin Thomson",
+      "text": "it turned out that we needed 5 to ensure that we can interleave with control frames, but one of those is a little scary<br/>"
+    },
+    {
+      "dtime": 1554000,
+      "ptime": 1554000,
+      "author": "Martin Thomson",
+      "text": "that is, 5 priority levels<br/>"
+    },
+    {
+      "dtime": 1617000,
+      "ptime": 1617000,
+      "author": "Martin Thomson",
+      "text": "I agree with Alan<br/>"
+    },
+    {
+      "dtime": 1654000,
+      "ptime": 1654000,
+      "author": "Eric Kinnear",
+      "text": "Seems workable, +1<br/>"
+    },
+    {
+      "dtime": 1656000,
+      "ptime": 1656000,
+      "author": "Alan Frindell",
+      "text": "I have a special calendar where I mark the days that Martin agrees with me<br/>"
+    },
+    {
+      "dtime": 1673000,
+      "ptime": 1673000,
+      "author": "David Schinazi",
+      "text": "Ooh I need one of those<br/>"
+    },
+    {
+      "dtime": 1707000,
+      "ptime": 1707000,
+      "author": "Mike Bishop",
+      "text": "My initial reaction was negative, but you might need to open new WebTrans streams to finish serving a \"request,\" so I can see the rationale for having GOAWAY not apply here.<br/>"
+    },
+    {
+      "dtime": 1726000,
+      "ptime": 1726000,
+      "author": "David Schinazi",
+      "text": "It might not be visible on meetecho but Alan is intently staring at the ceiling right now<br/>"
+    },
+    {
+      "dtime": 1734000,
+      "ptime": 1734000,
+      "author": "Martin Thomson",
+      "text": "Mike: that's exactly my reasoning also<br/>"
+    },
+    {
+      "dtime": 1766000,
+      "ptime": 1766000,
+      "author": "Martin Thomson",
+      "text": "Mike: you might want to exercise the \"WT_GTFO\" frame at the same time as GOAWAY if that makes sense.<br/>"
+    },
+    {
+      "dtime": 1774000,
+      "ptime": 1774000,
+      "author": "Alan Frindell",
+      "text": "i think to be consistent with what I just said at the mic, then closing CONNECT stream should kill everrything<br/>"
+    },
+    {
+      "dtime": 1800000,
+      "ptime": 1800000,
+      "author": "David Schinazi",
+      "text": "WTF_GTFO<br/>"
+    },
+    {
+      "dtime": 1815000,
+      "ptime": 1815000,
+      "author": "David Schinazi",
+      "text": "would be a better frame name<br/>"
+    },
+    {
+      "dtime": 1820000,
+      "ptime": 1820000,
+      "author": "Martin Thomson",
+      "text": "Closing CONNECT as an implicit WT_GTFO seems right, though the HTTP/2 version will be somewhat more immediate and final<br/>"
+    },
+    {
+      "dtime": 1832000,
+      "ptime": 1832000,
+      "author": "Alan Frindell",
+      "text": "is half-close specified in the doc now?<br/>"
+    },
+    {
+      "dtime": 1865000,
+      "ptime": 1865000,
+      "author": "Alan Frindell",
+      "text": "eg: there is no half-close<br/>"
+    },
+    {
+      "dtime": 1891000,
+      "ptime": 1891000,
+      "author": "Eric Kinnear",
+      "text": "Right, you may want to kick a single WT session and all of its streams<br/>"
+    },
+    {
+      "dtime": 2004000,
+      "ptime": 2004000,
+      "author": "Martin Thomson",
+      "text": "there is a half-close for streams, which means interesting things for this, because the termination cannot be synchronous<br/>"
+    },
+    {
+      "dtime": 2031000,
+      "ptime": 2031000,
+      "author": "Alan Frindell",
+      "text": "in h3 yes<br/>"
+    },
+    {
+      "dtime": 2034000,
+      "ptime": 2034000,
+      "author": "Martin Thomson",
+      "text": "yes, magnus, there are races<br/>"
+    },
+    {
+      "dtime": 2044000,
+      "ptime": 2044000,
+      "author": "Martin Thomson",
+      "text": "the answer is \"don't do that then\"<br/>"
+    },
+    {
+      "dtime": 2122000,
+      "ptime": 2122000,
+      "author": "David Schinazi",
+      "text": "Lucas can I ask you to close the door of the room please?<br/>"
+    },
+    {
+      "dtime": 2163000,
+      "ptime": 2163000,
+      "author": "lpardue",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 2195000,
+      "ptime": 2195000,
+      "author": "David Schinazi",
+      "text": "(there's something halfway between a vacuum and a hair dryer outside)<br/>"
+    },
+    {
+      "dtime": 2197000,
+      "ptime": 2197000,
+      "author": "David Schinazi",
+      "text": "Thanks Lucas<br/>"
+    },
+    {
+      "dtime": 2199000,
+      "ptime": 2199000,
+      "author": "Mike Bishop",
+      "text": "Now that permission to ask has been obtained, David will now ask Lucas to close the door.&nbsp;&nbsp;;-)<br/>"
+    },
+    {
+      "dtime": 2211000,
+      "ptime": 2211000,
+      "author": "lpardue",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 2350000,
+      "ptime": 2350000,
+      "author": "Luke Curley",
+      "text": "aww I just woke up and missed the priority discussion<br/>"
+    },
+    {
+      "dtime": 2368000,
+      "ptime": 2368000,
+      "author": "Martin Thomson",
+      "text": "Luke: how many priority levels do you want?<br/>"
+    },
+    {
+      "dtime": 2373000,
+      "ptime": 2373000,
+      "author": "Alan Frindell",
+      "text": "I don't think you missed that much - is there a point you wanted to make?<br/>"
+    },
+    {
+      "dtime": 2375000,
+      "ptime": 2375000,
+      "author": "Martin Thomson",
+      "text": "4, 8, or ?<br/>"
+    },
+    {
+      "dtime": 2388000,
+      "ptime": 2388000,
+      "author": "Magnus Westerlund",
+      "text": "@martin: I do need to read the draft. As long as it clear enough that this is what will happen. I was thinking about this due to some interesting corner case found when working on DTLS/SCTP where we work hard to maintain the SCTP convention that a non aborted session will have have delivered the data is sent reliable even if shutdown is called direclty. So its a question of clarity on the semantics.<br/>"
+    },
+    {
+      "dtime": 2396000,
+      "ptime": 2396000,
+      "author": "Alan Frindell",
+      "text": "and do you want the signaling built into WT or each application<br/>"
+    },
+    {
+      "dtime": 2405000,
+      "ptime": 2405000,
+      "author": "Victor Vasiliev",
+      "text": "The proposal I was going to write had four billions squared levels of priorities<br/>"
+    },
+    {
+      "dtime": 2425000,
+      "ptime": 2425000,
+      "author": "Martin Thomson",
+      "text": "magnus, yeah, this is a very reasonable thing to have in mind, but if we don't have that SCTP guarantee, then it's a bit easier<br/>"
+    },
+    {
+      "dtime": 2432000,
+      "ptime": 2432000,
+      "author": "Luke Curley",
+      "text": "Warp works by prioritizing new &gt; old<br/>"
+    },
+    {
+      "dtime": 2442000,
+      "ptime": 2442000,
+      "author": "Alan Frindell",
+      "text": "Maybe HTTP/3 stream should read QUIC stream on this slide<br/>"
+    },
+    {
+      "dtime": 2451000,
+      "ptime": 2451000,
+      "author": "Luke Curley",
+      "text": "my current implementation just uses a uint64 for priority so it's super easy<br/>"
+    },
+    {
+      "dtime": 2470000,
+      "ptime": 2470000,
+      "author": "Luke Curley",
+      "text": "basically stream id == priority<br/>"
+    },
+    {
+      "dtime": 2471000,
+      "ptime": 2471000,
+      "author": "Magnus Westerlund",
+      "text": "MT: Sure, as long as the properties of the provided transport is clearly documented. <br/>"
+    },
+    {
+      "dtime": 2479000,
+      "ptime": 2479000,
+      "author": "Martin Thomson",
+      "text": "Luke: that is opposite to what HTTP will do generally, so enabling that might be tricky; good input<br/>"
+    },
+    {
+      "dtime": 2492000,
+      "ptime": 2492000,
+      "author": "Martin Thomson",
+      "text": "Magnus, yeah, I'm not sure if we are very clear just yet<br/>"
+    },
+    {
+      "dtime": 2513000,
+      "ptime": 2513000,
+      "author": "Luke Curley",
+      "text": "yeah, HTTP typically prioritizes older streams/requests first<br/>"
+    },
+    {
+      "dtime": 2531000,
+      "ptime": 2531000,
+      "author": "Alan Frindell",
+      "text": "Is that in the draft?&nbsp;&nbsp;I thought it was ambiguous<br/>"
+    },
+    {
+      "dtime": 2561000,
+      "ptime": 2561000,
+      "author": "Martin Thomson",
+      "text": "Alan: I think that the priorities draft says that you order responses by how they arrived<br/>"
+    },
+    {
+      "dtime": 2566000,
+      "ptime": 2566000,
+      "author": "Martin Thomson",
+      "text": "(by stream ID)<br/>"
+    },
+    {
+      "dtime": 2577000,
+      "ptime": 2577000,
+      "author": "Alan Frindell",
+      "text": "push notwithstanding<br/>"
+    },
+    {
+      "dtime": 2599000,
+      "ptime": 2599000,
+      "author": "Martin Thomson",
+      "text": "push is ¯_(ツ)_/¯, as always<br/>"
+    },
+    {
+      "dtime": 2645000,
+      "ptime": 2645000,
+      "author": "Alan Frindell",
+      "text": "i'll go back and read it, I thought it was up to the implementation and loose guidance to do it that way<br/>"
+    },
+    {
+      "dtime": 2650000,
+      "ptime": 2650000,
+      "author": "Martin Thomson",
+      "text": "SETTINGS_WT_MAX_SESSIONS is pretty neat<br/>"
+    },
+    {
+      "dtime": 2652000,
+      "ptime": 2652000,
+      "author": "Luke Curley",
+      "text": "I'm not sure if there's explicit text, but browsers will request resources in the order they depend on them<br/>"
+    },
+    {
+      "dtime": 2662000,
+      "ptime": 2662000,
+      "author": "Martin Thomson",
+      "text": "Alan: yes, priority is always \"loose guidance\"<br/>"
+    },
+    {
+      "dtime": 2672000,
+      "ptime": 2672000,
+      "author": "Luke Curley",
+      "text": "so it's generally safer to serve requests in order<br/>"
+    },
+    {
+      "dtime": 2696000,
+      "ptime": 2696000,
+      "author": "lpardue",
+      "text": "priorities says the request order is an input into the scheduling. No strict requirement on FIFO or LIFO. Just a nudge that FIFO works better for the web<br/>"
+    },
+    {
+      "dtime": 2707000,
+      "ptime": 2707000,
+      "author": "Alan Frindell",
+      "text": "right<br/>"
+    },
+    {
+      "dtime": 2734000,
+      "ptime": 2734000,
+      "author": "Luke Curley",
+      "text": "yeah, and Warp wants LIFO not FIFO<br/>"
+    },
+    {
+      "dtime": 2745000,
+      "ptime": 2745000,
+      "author": "lpardue",
+      "text": "with pooling in H3, you might even want a different approach for webtransport streams and normal request streams<br/>"
+    },
+    {
+      "dtime": 2783000,
+      "ptime": 2783000,
+      "author": "lpardue",
+      "text": "in quiche, we walk a stream iterator. The first version of that did LIFO by accident. To fix it we just reversed the iterator<br/>"
+    },
+    {
+      "dtime": 2796000,
+      "ptime": 2796000,
+      "author": "Luke Curley",
+      "text": "Warp also has a control stream with priority = maxint64<br/>"
+    },
+    {
+      "dtime": 2798000,
+      "ptime": 2798000,
+      "author": "Mike Bishop",
+      "text": "Though note that H3 doesn't allow you to change that value after the connection is established.<br/>"
+    },
+    {
+      "dtime": 2815000,
+      "ptime": 2815000,
+      "author": "Luke Curley",
+      "text": "so media won't delay control messages<br/>"
+    },
+    {
+      "dtime": 2820000,
+      "ptime": 2820000,
+      "author": "Martin Thomson",
+      "text": "would it be a MAX_STREAMS capsule or something else?<br/>"
+    },
+    {
+      "dtime": 2828000,
+      "ptime": 2828000,
+      "author": "Alan Frindell",
+      "text": "yeah he said capsuile<br/>"
+    },
+    {
+      "dtime": 2844000,
+      "ptime": 2844000,
+      "author": "Jonathan Lennox",
+      "text": "For a MOQ scenario I can certainly imagine wanting to say \"this frame is now stale, de-prioritize it\"<br/>"
+    },
+    {
+      "dtime": 2853000,
+      "ptime": 2853000,
+      "author": "Alan Frindell",
+      "text": "note i think for h2 it already had those<br/>"
+    },
+    {
+      "dtime": 2854000,
+      "ptime": 2854000,
+      "author": "Martin Thomson",
+      "text": "I guess that you need to have it be an absolute number, because you can't make it a MAX_WT_STREAM_ID<br/>"
+    },
+    {
+      "dtime": 2859000,
+      "ptime": 2859000,
+      "author": "Jonathan Lennox",
+      "text": "That makes the API a lot more complicated tho<br/>"
+    },
+    {
+      "dtime": 2902000,
+      "ptime": 2902000,
+      "author": "Will Law",
+      "text": "WT_MAX_DATA does not include datagram bytes?<br/>"
+    },
+    {
+      "dtime": 2917000,
+      "ptime": 2917000,
+      "author": "lpardue",
+      "text": "no flow control on datagrams<br/>"
+    },
+    {
+      "dtime": 2920000,
+      "ptime": 2920000,
+      "author": "Martin Thomson",
+      "text": "jonathan, it's a constraint, but it doesn't necessarily mean that the API is worse; using it is harder though<br/>"
+    },
+    {
+      "dtime": 2922000,
+      "ptime": 2922000,
+      "author": "Alan Frindell",
+      "text": "correct<br/>"
+    },
+    {
+      "dtime": 2933000,
+      "ptime": 2933000,
+      "author": "David Schinazi",
+      "text": "Datagram bytes can't really be flow controlled because they're not retransmitted so you can't keep both endpoints in sync<br/>"
+    },
+    {
+      "dtime": 2971000,
+      "ptime": 2971000,
+      "author": "lpardue",
+      "text": "layers are a myth<br/>"
+    },
+    {
+      "dtime": 2976000,
+      "ptime": 2976000,
+      "author": "Martin Thomson",
+      "text": "Marten is right; this is really tricky<br/>"
+    },
+    {
+      "dtime": 2991000,
+      "ptime": 2991000,
+      "author": "Martin Thomson",
+      "text": "I can see a limit on streams as feasible<br/>"
+    },
+    {
+      "dtime": 3020000,
+      "ptime": 3020000,
+      "author": "Alan Frindell",
+      "text": "my intuition is the same as Davids<br/>"
+    },
+    {
+      "dtime": 3249000,
+      "ptime": 3249000,
+      "author": "Jan-Ivar Bruaroey",
+      "text": "more streams != more data<br/>"
+    },
+    {
+      "dtime": 3283000,
+      "ptime": 3283000,
+      "author": "Jan-Ivar Bruaroey",
+      "text": "E.g. when sending N bytes, it seems entirely up to the application to use between 1 and N streams<br/>"
+    },
+    {
+      "dtime": 3415000,
+      "ptime": 3415000,
+      "author": "Martin Thomson",
+      "text": "enforcing MAX_WT_STREAMS might be a little tricky to work out<br/>"
+    },
+    {
+      "dtime": 3468000,
+      "ptime": 3468000,
+      "author": "Martin Thomson",
+      "text": "and for the problem where a session eats all the data (which is easy to arrange, by the way), that's something we can address with timeouts and the like in the extreme; we'll need to think about what we can do<br/>"
+    },
+    {
+      "dtime": 3510000,
+      "ptime": 3510000,
+      "author": "Alan Frindell",
+      "text": "i think it's worth spending some more time exploring, not sure it's possible<br/>"
+    },
+    {
+      "dtime": 3518000,
+      "ptime": 3518000,
+      "author": "Martin Thomson",
+      "text": "+1 to David's suggestion<br/>"
+    },
+    {
+      "dtime": 3578000,
+      "ptime": 3578000,
+      "author": "Martin Thomson",
+      "text": "do we *have* to solve it?&nbsp;&nbsp;no.<br/>"
+    },
+    {
+      "dtime": 3615000,
+      "ptime": 3615000,
+      "author": "Eric Kinnear",
+      "text": "Let's do this without MAX_DATA for now, and we can revisit as we get the rest of it working (or not)<br/>"
+    },
+    {
+      "dtime": 3631000,
+      "ptime": 3631000,
+      "author": "lpardue",
+      "text": "no worry, we have&nbsp;&nbsp;infinite time to fix our past mistakes<br/>"
+    },
+    {
+      "dtime": 3640000,
+      "ptime": 3640000,
+      "author": "Martin Thomson",
+      "text": "yeah, I suspect Alan's prediction will come true...&nbsp;&nbsp;I'm just not interested in grappling with it<br/>"
+    },
+    {
+      "dtime": 3665000,
+      "ptime": 3665000,
+      "author": "Martin Thomson",
+      "text": "implementation-level strategies for managing resource sharing with pooling might still be possible, without standardization of any mechanisms<br/>"
+    },
+    {
+      "dtime": 3741000,
+      "ptime": 3741000,
+      "author": "lpardue",
+      "text": "what frames *are* flow controlled? DATA and ..<br/>"
+    },
+    {
+      "dtime": 3746000,
+      "ptime": 3746000,
+      "author": "Alan Frindell",
+      "text": "hopefully i'm just not the one doing the debugging, because future Alan will be angry with past Alan<br/>"
+    },
+    {
+      "dtime": 3750000,
+      "ptime": 3750000,
+      "author": "Martin Thomson",
+      "text": "WT_MAX_STREAMS<br/>"
+    },
+    {
+      "dtime": 3776000,
+      "ptime": 3776000,
+      "author": "Martin Thomson",
+      "text": "anything that opens a stream can't be sent, but a lot of the housekeeping stuff is possible<br/>"
+    },
+    {
+      "dtime": 3799000,
+      "ptime": 3799000,
+      "author": "Martin Thomson",
+      "text": "Alan: that's a constant, you're just tweaking the magnitude<br/>"
+    },
+    {
+      "dtime": 3808000,
+      "ptime": 3808000,
+      "author": "Martin Thomson",
+      "text": "s/constant/given<br/>"
+    },
+    {
+      "dtime": 3840000,
+      "ptime": 3840000,
+      "author": "Alan Frindell",
+      "text": "a given that I'll be upset with myself?&nbsp;&nbsp;or that I'm doing the debugging<br/>"
+    },
+    {
+      "dtime": 3872000,
+      "ptime": 3872000,
+      "author": "Martin Thomson",
+      "text": "plenty of reasons to be angry at my previous self, I can't imagine anyone else is different<br/>"
+    },
+    {
+      "dtime": 3926000,
+      "ptime": 3926000,
+      "author": "Alan Frindell",
+      "text": "be gentle with yourself martin.&nbsp;&nbsp;We're all doing our best<br/>"
+    },
+    {
+      "dtime": 3928000,
+      "ptime": 3928000,
+      "author": "Martin Thomson",
+      "text": "do any of the other frames have lengths?<br/>"
+    },
+    {
+      "dtime": 3953000,
+      "ptime": 3953000,
+      "author": "Martin Thomson",
+      "text": "Alan: yeah, it's 1:35am and the fourth day in a row, hard to see past that :|<br/>"
+    },
+    {
+      "dtime": 4091000,
+      "ptime": 4091000,
+      "author": "Alan Frindell",
+      "text": "so these would be like datagram capsules, where intermediaries can convert to native concepts where supported<br/>"
+    },
+    {
+      "dtime": 4307000,
+      "ptime": 4307000,
+      "author": "Victor Vasiliev",
+      "text": "Does H2 draft currently define CLOSE_WEBTRANSPORT_SESSION?<br/>"
+    },
+    {
+      "dtime": 4383000,
+      "ptime": 4383000,
+      "author": "Martin Thomson",
+      "text": "Victor: not yet<br/>"
+    },
+    {
+      "dtime": 4386000,
+      "ptime": 4386000,
+      "author": "Martin Thomson",
+      "text": "it's an open issue<br/>"
+    },
+    {
+      "dtime": 4420000,
+      "ptime": 4420000,
+      "author": "Eric Kinnear",
+      "text": "Yeah, need to write some text, but can make it look like whatever we do for H3<br/>"
+    },
+    {
+      "dtime": 4432000,
+      "ptime": 4432000,
+      "author": "Martin Thomson",
+      "text": "WT_CONNECTION_CLOSE might be the shape that takes :p<br/>"
+    },
+    {
+      "dtime": 4490000,
+      "ptime": 4490000,
+      "author": "lpardue",
+      "text": "isn't that the defnition of an HTTP intermediary? :)<br/>"
+    },
+    {
+      "dtime": 4509000,
+      "ptime": 4509000,
+      "author": "Martin Thomson",
+      "text": "David is doing a good job of framing my thinking.&nbsp;&nbsp;I think that this comes back to ekr's comments in the design team: if you have an intermediary, it needs to intermediate WebTransport...<br/>"
+    },
+    {
+      "dtime": 4522000,
+      "ptime": 4522000,
+      "author": "Martin Thomson",
+      "text": "it's not a generic intermediatry<br/>"
+    },
+    {
+      "dtime": 4600000,
+      "ptime": 4600000,
+      "author": "lpardue",
+      "text": "that problem exists for H2 to H2 intermediation<br/>"
+    },
+    {
+      "dtime": 4694000,
+      "ptime": 4694000,
+      "author": "Eric Kinnear",
+      "text": "And we're not keeping everything in the stream for H3<br/>"
+    },
+    {
+      "dtime": 4762000,
+      "ptime": 4762000,
+      "author": "Martin Thomson",
+      "text": "one model I had for this that works is where you only opportunistically lift things out of the stream<br/>"
+    },
+    {
+      "dtime": 4822000,
+      "ptime": 4822000,
+      "author": "Mike Bishop",
+      "text": "@Martin, I like that model a lot.&nbsp;&nbsp;Everything *can* be a capsule, but particular protocols might define a \"better\" way to carry that particular capsule type.<br/>"
+    },
+    {
+      "dtime": 4875000,
+      "ptime": 4875000,
+      "author": "Martin Thomson",
+      "text": "the performance guarantees are ... not great<br/>"
+    },
+    {
+      "dtime": 4943000,
+      "ptime": 4943000,
+      "author": "Eric Kinnear",
+      "text": "(Which, to be fair, is really agreeing with Martin here)<br/>"
+    },
+    {
+      "dtime": 4949000,
+      "ptime": 4949000,
+      "author": "Eric Kinnear",
+      "text": ":) <br/>"
+    },
+    {
+      "dtime": 4974000,
+      "ptime": 4974000,
+      "author": "Martin Thomson",
+      "text": "I forgot, we added lengths<br/>"
+    },
+    {
+      "dtime": 5006000,
+      "ptime": 5006000,
+      "author": "lpardue",
+      "text": "QUIC SMASH<br/>"
+    },
+    {
+      "dtime": 5022000,
+      "ptime": 5022000,
+      "author": "Alan Frindell",
+      "text": "When it was LTV is was a little nicer for QUIC parser re-use :P<br/>"
+    },
+    {
+      "dtime": 5034000,
+      "ptime": 5034000,
+      "author": "Eric Kinnear",
+      "text": "Heh, that ship has sailed I think<br/>"
+    },
+    {
+      "dtime": 5097000,
+      "ptime": 5097000,
+      "author": "Alan Frindell",
+      "text": "even if you have h3 on both sides of a webtransport proxy, you can still have the stream mismatch problem.<br/>"
+    },
+    {
+      "dtime": 5112000,
+      "ptime": 5112000,
+      "author": "lpardue",
+      "text": "exactly<br/>"
+    },
+    {
+      "dtime": 5112000,
+      "ptime": 5112000,
+      "author": "Martin Thomson",
+      "text": "and that was incoherent, sorry<br/>"
+    },
+    {
+      "dtime": 5118000,
+      "ptime": 5118000,
+      "author": "Martin Thomson",
+      "text": "so, so, tired<br/>"
+    },
+    {
+      "dtime": 5243000,
+      "ptime": 5243000,
+      "author": "Eric Kinnear",
+      "text": "Victor: Any thoughts? How are capsules feeling in H3?<br/>"
+    },
+    {
+      "dtime": 5273000,
+      "ptime": 5273000,
+      "author": "Martin Thomson",
+      "text": "we talked about this idea of a baseline protocol before and rejected it.&nbsp;&nbsp;i don't remember why<br/>"
+    },
+    {
+      "dtime": 5296000,
+      "ptime": 5296000,
+      "author": "Martin Thomson",
+      "text": "I'd be happy to join a call<br/>"
+    },
+    {
+      "dtime": 5334000,
+      "ptime": 5334000,
+      "author": "Eric Kinnear",
+      "text": "Same re: remembering why<br/>"
+    },
+    {
+      "dtime": 5346000,
+      "ptime": 5346000,
+      "author": "Eric Kinnear",
+      "text": "+1, thanks Martin<br/>"
+    },
+    {
+      "dtime": 5347000,
+      "ptime": 5347000,
+      "author": "Alan Frindell",
+      "text": "kinda sounds like a design team<br/>"
+    },
+    {
+      "dtime": 5349000,
+      "ptime": 5349000,
+      "author": "Victor Vasiliev",
+      "text": "Capsules have been convenient in h3<br/>"
+    },
+    {
+      "dtime": 5365000,
+      "ptime": 5365000,
+      "author": "Eric Kinnear",
+      "text": "Design team sounds good<br/>"
+    },
+    {
+      "dtime": 5389000,
+      "ptime": 5389000,
+      "author": "Martin Thomson",
+      "text": "I think we rejected a baseline protocol because we wouldn't be able to guarantee performance properties of various pieces<br/>"
+    },
+    {
+      "dtime": 5409000,
+      "ptime": 5409000,
+      "author": "Eric Kinnear",
+      "text": "(Which it sounds like is a problem either way, so far)<br/>"
+    },
+    {
+      "dtime": 5455000,
+      "ptime": 5455000,
+      "author": "Martin Thomson",
+      "text": "right, but requireUnreliable might not produce a guarantee as much as originally thought<br/>"
+    },
+    {
+      "dtime": 5515000,
+      "ptime": 5515000,
+      "author": "Martin Thomson",
+      "text": "wow, that queue filled fast<br/>"
+    },
+    {
+      "dtime": 5528000,
+      "ptime": 5528000,
+      "author": "Eric Kinnear",
+      "text": "Would that be a \"sending strategy\" sort of thing to add to HTTP priorities land?<br/>"
+    },
+    {
+      "dtime": 5589000,
+      "ptime": 5589000,
+      "author": "Martin Thomson",
+      "text": "Alan's suggestion is what I was going to say also: you might not even need to have that signal sent<br/>"
+    },
+    {
+      "dtime": 5610000,
+      "ptime": 5610000,
+      "author": "lpardue",
+      "text": "as MT used to tell me when I was young, don't conflate per-request(stream) signalling with prioritization<br/>"
+    },
+    {
+      "dtime": 5625000,
+      "ptime": 5625000,
+      "author": "Martin Thomson",
+      "text": "Eric: the challenge is that we need to be able to tell the *browser* what to do, and I suspect that that is Luke's challenge here<br/>"
+    },
+    {
+      "dtime": 5641000,
+      "ptime": 5641000,
+      "author": "Eric Kinnear",
+      "text": "So far every time we've looked at sending strategies it's been something that we didn't really need the client to signal since it was already obvious to the server anyways<br/>"
+    },
+    {
+      "dtime": 5652000,
+      "ptime": 5652000,
+      "author": "Eric Kinnear",
+      "text": "Yeah, makes sense :) <br/>"
+    },
+    {
+      "dtime": 5789000,
+      "ptime": 5789000,
+      "author": "Victor Vasiliev",
+      "text": "<a href=\"https://github.com/w3c/webtransport/issues/62\" rel=\"nofollow\">https://github.com/w3c/webtransport/issues/62</a><br/>"
+    },
+    {
+      "dtime": 5845000,
+      "ptime": 5845000,
+      "author": "Luke Curley",
+      "text": "yeah, I think prioritization can be signaled at the application level<br/>"
+    },
+    {
+      "dtime": 5873000,
+      "ptime": 5873000,
+      "author": "Luke Curley",
+      "text": "but it could be at the transport too<br/>"
+    },
+    {
+      "dtime": 5904000,
+      "ptime": 5904000,
+      "author": "Martin Thomson",
+      "text": "yeah, I don't think that we're doing transport-level priority signaling<br/>"
+    },
+    {
+      "dtime": 5919000,
+      "ptime": 5919000,
+      "author": "Martin Thomson",
+      "text": "we tried that once.&nbsp;&nbsp;it kinda didn't work out as well as we had hoped<br/>"
+    },
+    {
+      "dtime": 6003000,
+      "ptime": 6003000,
+      "author": "Martin Thomson",
+      "text": "+1 to lucas here<br/>"
+    },
+    {
+      "dtime": 6032000,
+      "ptime": 6032000,
+      "author": "Martin Thomson",
+      "text": "I'm just concerned that we might need rules about priority tweaks at the browser end<br/>"
+    },
+    {
+      "dtime": 6095000,
+      "ptime": 6095000,
+      "author": "Martin Thomson",
+      "text": "thankfully, we don't need to design the prioritization scheme :)<br/>"
+    },
+    {
+      "dtime": 6100000,
+      "ptime": 6100000,
+      "author": "lpardue",
+      "text": "I agree on the browser side and that's one area I am less certain how to address. MT if we say little now, does it prevent future browserland-innovation <br/>"
+    },
+    {
+      "dtime": 6125000,
+      "ptime": 6125000,
+      "author": "Martin Thomson",
+      "text": "lucas: probably not so much<br/>"
+    },
+    {
+      "dtime": 6167000,
+      "ptime": 6167000,
+      "author": "Martin Thomson",
+      "text": "one thing web sites can do is just hold application data back so that they never engage browser-level prioritization; at a cost of not always keeping the stack saturated (which might be suboptimal)<br/>"
+    },
+    {
+      "dtime": 6360000,
+      "ptime": 6360000,
+      "author": "lpardue",
+      "text": "reminder, Cloudflare support discretionary priority boundaries in a single resource for H2. It's set upfront, it's dynamic but not interactive<br/>"
+    },
+    {
+      "dtime": 6523000,
+      "ptime": 6523000,
+      "author": "lpardue",
+      "text": "congestion control control and priority optimization = C3PO<br/>"
+    },
+    {
+      "dtime": 6538000,
+      "ptime": 6538000,
+      "author": "Alan Frindell",
+      "text": "lucas: does that mean you the server will serve the resource at different priorities as its served?<br/>"
+    },
+    {
+      "dtime": 6590000,
+      "ptime": 6590000,
+      "author": "Luke Curley",
+      "text": "+1 to GCC in QUIC<br/>"
+    },
+    {
+      "dtime": 6608000,
+      "ptime": 6608000,
+      "author": "lpardue",
+      "text": "alan: yes, see cf-priority-change header towards the bottom of <a href=\"https://blog.cloudflare.com/parallel-streaming-of-progressive-images/\" rel=\"nofollow\">https://blog.cloudflare.com/parallel-streaming-of-progressive-images/</a><br/>"
+    },
+    {
+      "dtime": 6629000,
+      "ptime": 6629000,
+      "author": "Alan Frindell",
+      "text": "ok yeah, figured it was a progressive jpeg thing, thanks<br/>"
+    },
+    {
+      "dtime": 6641000,
+      "ptime": 6641000,
+      "author": "lpardue",
+      "text": "the notion of a \"priority change<br/>"
+    },
+    {
+      "dtime": 6651000,
+      "ptime": 6651000,
+      "author": "Will Law",
+      "text": "@lpardue - Remote Reliability Datagram Delay = R2D2<br/>"
+    },
+    {
+      "dtime": 6661000,
+      "ptime": 6661000,
+      "author": "lpardue",
+      "text": "\" could be more standardized to work in other domians, like temporal<br/>"
+    },
+    {
+      "dtime": 6665000,
+      "ptime": 6665000,
+      "author": "Victor Vasiliev",
+      "text": "We did have a version of GoogCC in QUIC at some point<br/>"
+    },
+    {
+      "dtime": 6680000,
+      "ptime": 6680000,
+      "author": "lpardue",
+      "text": "lol Will<br/>"
+    },
+    {
+      "dtime": 6690000,
+      "ptime": 6690000,
+      "author": "Stefan Holmer",
+      "text": "I think when it comes to RTC the congestion control problem is pretty far from solved, and I believe most applications still iterate a lot on this. So being able to have more possibilities to experiment and improve over time would be highly useful<br/>"
+    },
+    {
+      "dtime": 6702000,
+      "ptime": 6702000,
+      "author": "Luke Curley",
+      "text": "@victor doesn't GCC depend on a RTT estimate per packet?<br/>"
+    },
+    {
+      "dtime": 6710000,
+      "ptime": 6710000,
+      "author": "Francesca Palombini",
+      "text": "thank you to the chairs as well!<br/>"
+    },
+    {
+      "dtime": 6725000,
+      "ptime": 6725000,
+      "author": "Luke Curley",
+      "text": "are QUIC ACKS adequate?<br/>"
+    },
+    {
+      "dtime": 6738000,
+      "ptime": 6738000,
+      "author": "Stefan Holmer",
+      "text": "quic acks with receive timestamps are enough<br/>"
+    },
+    {
+      "dtime": 6750000,
+      "ptime": 6750000,
+      "author": "Jonathan Lennox",
+      "text": "Yeah, this is why receive timestamps were suggested I think<br/>"
+    },
+    {
+      "dtime": 6754000,
+      "ptime": 6754000,
+      "author": "Victor Vasiliev",
+      "text": "We have an extension for timestamps<br/>"
+    },
+    {
+      "dtime": 6767000,
+      "ptime": 6767000,
+      "author": "Luke Curley",
+      "text": "I think it depends on the ACK batch size<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF113-WEBTRANS-20220324-1330"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/113/session/webtrans"
+    }
+  ],
+  "start_datetime": "2022-03-24T13:30:00Z"
+}

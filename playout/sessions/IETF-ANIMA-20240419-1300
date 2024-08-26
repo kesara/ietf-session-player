@@ -1,0 +1,217 @@
+
+{
+	"title": "IETF-ANIMA-20240419-1300",
+	"filename": "IETF-ANIMA-20240419-1300",
+	"start": 0,
+	"end": 3708000,
+	"start_datetime": "2024-04-19T12:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "D9HvhVmykoA",
+    "start": 0,
+    "end": "3708000"
+  }
+],
+	"messages": [
+  {
+    "author": "Steffen Fries",
+    "text": "<p>It seems I have audio problems hearing you</p>",
+    "topic": "ietf-interim",
+    "dtime": 82000,
+    "ptime": 82000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>will reconnect</p>",
+    "topic": "ietf-interim",
+    "dtime": 94000,
+    "ptime": 94000
+  },
+  {
+    "author": "Esko Dijk",
+    "text": "<p>my audio is ok!</p>",
+    "topic": "ietf-interim",
+    "dtime": 100000,
+    "ptime": 100000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Michael, is your audio working ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 179000,
+    "ptime": 179000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>now it is workin</p>",
+    "topic": "ietf-interim",
+    "dtime": 188000,
+    "ptime": 188000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>will reconnect</p>",
+    "topic": "ietf-interim",
+    "dtime": 316000,
+    "ptime": 316000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>pledgeenrollrequesttrigger = {<br>\n  \"enroll-type\": $enroll-rype<br>\n}</p>\n<p>$enroll-type /= \"\"enroll-generic-cert\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 921000,
+    "ptime": 921000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>pledgeenrollrequesttrigger = {<br>\n  \"enroll-type\": $enroll-type<br>\n}</p>\n<p>$enroll-type /= \"enroll-generic-cert\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 964000,
+    "ptime": 964000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>pledgeenrollrequesttrigger = {<br>\n  \"enroll-type\": $enroll-type<br>\n}</p>\n<p>$enroll-type /= \"enroll-generic-cert\"<br>\n$enroll-type /= \"new-stuff\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 998000,
+    "ptime": 998000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<ul>\n<li>\"resource type\" target parameter</li>\n</ul>",
+    "topic": "ietf-interim",
+    "dtime": 1624000,
+    "ptime": 1624000
+  },
+  {
+    "author": "Esko Dijk",
+    "text": "<p>rt=resource type</p>",
+    "topic": "ietf-interim",
+    "dtime": 1625000,
+    "ptime": 1625000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>I don't think there is a way around -- there are no URI references that change port and scheme but keep the host as-is</p>",
+    "topic": "ietf-interim",
+    "dtime": 1744000,
+    "ptime": 1744000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>That's not on the link format, that's on URI references</p>",
+    "topic": "ietf-interim",
+    "dtime": 1775000,
+    "ptime": 1775000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Yes, unfortunately</p>",
+    "topic": "ietf-interim",
+    "dtime": 1795000,
+    "ptime": 1795000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>Appropriate to hack around? No. It's not a link any more then.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1900000,
+    "ptime": 1900000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>Maybe<br>\n&lt;/x&gt;;rt=bski.something-base;and-we-also-have-somethign-on-another-port=8485 (where /x, the brski.something-base, is some resource that is really available here, and then the port 8485 thing isn't even a URI we're talking about)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2034000,
+    "ptime": 2034000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>(Provided there <em>are</em> any CoAP local resources at all)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2051000,
+    "ptime": 2051000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>For an RD lookup it'd be<br>\n/lookup/resource?rt=brski.jp&amp;href=https://*</p>",
+    "topic": "ietf-interim",
+    "dtime": 2377000,
+    "ptime": 2377000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>yes, https:* is sufficient</p>",
+    "topic": "ietf-interim",
+    "dtime": 2397000,
+    "ptime": 2397000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>coap+tcp, coaps+tcp</p>",
+    "topic": "ietf-interim",
+    "dtime": 2437000,
+    "ptime": 2437000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/rfc8323\">https://datatracker.ietf.org/doc/html/rfc8323</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2462000,
+    "ptime": 2462000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>\"There has to be a better way\": <a href=\"https://datatracker.ietf.org/doc/draft-ietf-core-transport-indication/\">https://datatracker.ietf.org/doc/draft-ietf-core-transport-indication/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2488000,
+    "ptime": 2488000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>Future transports will likely just use coap:// (details in there)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2512000,
+    "ptime": 2512000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>FWIW, 8323 also specifies CoAP over WebSockets :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2594000,
+    "ptime": 2594000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>Just because you use CoAP doesn't need you need to also have a CoAP-over-X transport.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2618000,
+    "ptime": 2618000
+  },
+  {
+    "author": "Esko Dijk",
+    "text": "<p>Actually, cBRSKI uses cEST (Constrained EST) which differs from EST</p>",
+    "topic": "ietf-interim",
+    "dtime": 2833000,
+    "ptime": 2833000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-ANIMA-20240419-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-anima-01/session/anima"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-ANIMA-20240419-1300"
+		}
+	]
+}

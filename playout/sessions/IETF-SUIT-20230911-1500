@@ -1,0 +1,273 @@
+
+{
+	"title": "IETF-SUIT-20230911-1500",
+	"filename": "IETF-SUIT-20230911-1500",
+	"start": 0,
+	"end": 5383000,
+	"start_datetime": "2023-09-11T14:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "iwEDXsX7OWc",
+    "start": 0,
+    "end": "5383000"
+  }
+],
+	"messages": [
+  {
+    "author": "David Waltermire",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2023-suit-01-suit\">https://notes.ietf.org/notes-ietf-interim-2023-suit-01-suit#</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 176000,
+    "ptime": 176000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>There used to be a dependancy graph for WG documents on the DT.</p>",
+    "topic": "ietf-interim",
+    "dtime": 675000,
+    "ptime": 675000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>@Michael, haven't seen it but that would be nice...</p>",
+    "topic": "ietf-interim",
+    "dtime": 721000,
+    "ptime": 721000
+  },
+  {
+    "author": "Akira Tsukamoto",
+    "text": "<p>for the gcm-16, -7, -25, 1</p>",
+    "topic": "ietf-interim",
+    "dtime": 733000,
+    "ptime": 733000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>@Hannes I uploaded your slides</p>",
+    "topic": "ietf-interim",
+    "dtime": 771000,
+    "ptime": 771000
+  },
+  {
+    "author": "Russ Housley",
+    "text": "<p>I don't think that came from me, but I do not object since the 256-bit AES key is quantum-resistant.</p>",
+    "topic": "ietf-interim",
+    "dtime": 784000,
+    "ptime": 784000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I can't take notes, since I didn't understand Akira's suggestion either.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1076000,
+    "ptime": 1076000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I prefer option #3</p>",
+    "topic": "ietf-interim",
+    "dtime": 1954000,
+    "ptime": 1954000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I'll take a look at the syntax problem and get it fixed</p>",
+    "topic": "ietf-interim",
+    "dtime": 1997000,
+    "ptime": 1997000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>There are attestation technologies that do not provide the same flexibility as an EAT and are therefore unable to convey a SUIT Report in evidence.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2007000,
+    "ptime": 2007000
+  },
+  {
+    "author": "Ira McDonald",
+    "text": "<p>+1 to Option 3 w/ fixed CDDL</p>",
+    "topic": "ietf-interim",
+    "dtime": 2145000,
+    "ptime": 2145000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I'll try and track it down</p>",
+    "topic": "ietf-interim",
+    "dtime": 2798000,
+    "ptime": 2798000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p><a href=\"https://github.com/ietf-teep/teep-protocol/issues\">https://github.com/ietf-teep/teep-protocol/issues</a> has 3 issues (editorial?) filed yesterday</p>",
+    "topic": "ietf-interim",
+    "dtime": 2874000,
+    "ptime": 2874000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p><a href=\"https://github.com/ietf-teep/teep-protocol/issues/367\">https://github.com/ietf-teep/teep-protocol/issues/367</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2967000,
+    "ptime": 2967000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p><a href=\"https://github.com/ietf-teep/teep-protocol/pull/369/files\">https://github.com/ietf-teep/teep-protocol/pull/369/files</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 3059000,
+    "ptime": 3059000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>which agenda item is this nopw?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3337000,
+    "ptime": 3337000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>SUIT Manifest</p>",
+    "topic": "ietf-interim",
+    "dtime": 3396000,
+    "ptime": 3396000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>What would an alternative title be, if not trust domains?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4454000,
+    "ptime": 4454000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Ken, you need to update the examples, namely * AES-KW with COSE_Mac0 on the manifest, and * ES-DH with the new context information structure.You have sent these updates to me via email but they are not yet in the draft</p>",
+    "topic": "ietf-interim",
+    "dtime": 4489000,
+    "ptime": 4489000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>(had to take a phone call)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4593000,
+    "ptime": 4593000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>nack</p>",
+    "topic": "ietf-interim",
+    "dtime": 4756000,
+    "ptime": 4756000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>back</p>",
+    "topic": "ietf-interim",
+    "dtime": 4758000,
+    "ptime": 4758000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>The SUIT report still needs tht text from <a href=\"https://github.com/ietf-teep/teep-protocol/pull/369/files\">https://github.com/ietf-teep/teep-protocol/pull/369/files</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 4819000,
+    "ptime": 4819000
+  },
+  {
+    "author": "Ken Takayama",
+    "text": "<p>@Hannes I've missed your comment here and misunderstood. I've pushed them today. Could you review them?https://github.com/suit-wg/suit-firmware-encryption/pull/30https://github.com/suit-wg/suit-firmware-encryption/pull/31</p>",
+    "topic": "ietf-interim",
+    "dtime": 4844000,
+    "ptime": 4844000
+  },
+  {
+    "author": "Ken Takayama",
+    "text": "<p>Currently they are using <strong>AES128GCM</strong> so let me try to replace it with AES128CTR.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4877000,
+    "ptime": 4877000
+  },
+  {
+    "author": "Russ Housley",
+    "text": "<p>We have 10 more minutes</p>",
+    "topic": "ietf-interim",
+    "dtime": 4886000,
+    "ptime": 4886000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I can look on how to add AES-CTR in t_cose</p>",
+    "topic": "ietf-interim",
+    "dtime": 4942000,
+    "ptime": 4942000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Ken, thanks for your PRs. That's great</p>",
+    "topic": "ietf-interim",
+    "dtime": 4962000,
+    "ptime": 4962000
+  },
+  {
+    "author": "David Waltermire",
+    "text": "<p>Sorry. My internet has been unstable this morning.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4990000,
+    "ptime": 4990000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Sry, pretty l8</p>",
+    "topic": "ietf-interim",
+    "dtime": 5220000,
+    "ptime": 5220000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>thanks all!</p>",
+    "topic": "ietf-interim",
+    "dtime": 5364000,
+    "ptime": 5364000
+  },
+  {
+    "author": "Ken Takayama",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-interim",
+    "dtime": 5371000,
+    "ptime": 5371000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 5371000,
+    "ptime": 5371000
+  },
+  {
+    "author": "Kohei Isobe",
+    "text": "<p>Thanks all! See you at Prague.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5378000,
+    "ptime": 5378000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SUIT-20230911-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-suit-01/session/suit"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SUIT-20230911-1500"
+		}
+	]
+}

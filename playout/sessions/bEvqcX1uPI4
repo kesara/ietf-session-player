@@ -1,0 +1,233 @@
+
+{
+	"title": "IETF113-PCE-20220322-1200",
+	"filename": "IETF113-PCE-20220322-1200",
+	"start": 0,
+	"end": 3722000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "bEvqcX1uPI4",
+    "start": 0,
+    "end": "3722000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 218000,
+    "ptime": 218000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "<a href=\"https://notes.ietf.org/notes-ietf-113-pce?edit\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-113-pce?edit</a><br/>"
+  },
+  {
+    "dtime": 640000,
+    "ptime": 640000,
+    "author": "Boris Khasanov",
+    "text": "How persistent adj-SID should be allocated? Which mechanism?<br/>"
+  },
+  {
+    "dtime": 838000,
+    "ptime": 838000,
+    "author": "Zhibo Hu",
+    "text": "Strict bandwidth commitment per path to ensure no impact on the Service Level Agreement (SLA) due to changing network load from<br/>other services.How did it do it?<br/>"
+  },
+  {
+    "dtime": 929000,
+    "ptime": 929000,
+    "author": "Ketan Talaulikar",
+    "text": "@Boris, this comes from RFC8402 and the IGP RFCs. They are configured/provisioned&nbsp;&nbsp;(usually from within the SRLB). I think it might be covered in draft-ietf-isis-sr-yang<br/>"
+  },
+  {
+    "dtime": 1134000,
+    "ptime": 1134000,
+    "author": "Zafar Ali",
+    "text": "@Zhibo This is done using local QoS policies at the routers and traffic marking for the Circuit Style SR traffic<br/>"
+  },
+  {
+    "dtime": 1145000,
+    "ptime": 1145000,
+    "author": "Boris Khasanov",
+    "text": "Thanks @Ketan. yes, I know that they come from SRLB. Point was -&nbsp;&nbsp;it looks that they should be assigned in centralized way (i.e. from PCE/controller) by some mechanism like PCEP or Netconf<br/>"
+  },
+  {
+    "dtime": 1164000,
+    "ptime": 1164000,
+    "author": "Jie Dong",
+    "text": "how to guarantee the set of bandwidth for a CS-SR path on a link? Do you need to allocate different SIDs for different paths?<br/>"
+  },
+  {
+    "dtime": 1283000,
+    "ptime": 1283000,
+    "author": "Zhibo Hu",
+    "text": "@Zafar Ali, Does the router maintain per-path QoS queues?How do you mark it?<br/>"
+  },
+  {
+    "dtime": 1311000,
+    "ptime": 1311000,
+    "author": "Zafar Ali",
+    "text": "@ Jie, No, there is only one Adj SID per link. The bandwidth guarantees are achieve using QoS constructs<br/>"
+  },
+  {
+    "dtime": 1334000,
+    "ptime": 1334000,
+    "author": "John Scudder",
+    "text": "Sounds like the authors should work with the chairs (and AD if necessary...) to find a good home for this work. I agree with Dhruv's point.<br/>"
+  },
+  {
+    "dtime": 1343000,
+    "ptime": 1343000,
+    "author": "Ketan Talaulikar",
+    "text": "@Boris, not via PCEP (AFAIK) but why not via Netconf since we have the YANG models.<br/>"
+  },
+  {
+    "dtime": 1361000,
+    "ptime": 1361000,
+    "author": "Haomian Zheng",
+    "text": "This should not be PCEP-specific. Similar mechanism was designed for GMPLS a few years ago, refer to RFC8131 for more details.<br/>"
+  },
+  {
+    "dtime": 1364000,
+    "ptime": 1364000,
+    "author": "Andrew Stone",
+    "text": "agreed with Dhruv, seems quite a general architecture guideline rather than protocol extensions (in this doc) <br/>"
+  },
+  {
+    "dtime": 1388000,
+    "ptime": 1388000,
+    "author": "Zafar Ali",
+    "text": "@Zhibo, No - there is no per path QoS queues. The queues are per EXP, as usual (no change is required)<br/>"
+  },
+  {
+    "dtime": 1441000,
+    "ptime": 1441000,
+    "author": "Andrew Stone",
+    "text": "@Zafar - if under some condition something happens which causes bandwidth to no longer be sufficient (ex: PCE is using telemetry to accurately verify bandwidth assignment), despite it being set to \"do not optimize\" - wouldn't one expect PCE to tear down a given path?<br/>"
+  },
+  {
+    "dtime": 1462000,
+    "ptime": 1462000,
+    "author": "Jie Dong",
+    "text": "@Zafar, then how to distinguish traffic belonging to one CS path from the traffic of another path?<br/>"
+  },
+  {
+    "dtime": 1476000,
+    "ptime": 1476000,
+    "author": "Zhibo Hu",
+    "text": "OK, @Zafar Ali, OK, thank you, maybe it didn't do what it claims to do.<br/>"
+  },
+  {
+    "dtime": 1477000,
+    "ptime": 1477000,
+    "author": "Zafar Ali",
+    "text": "@Andrew please advise on the right home for the work. We will follow-up, accordingly<br/>"
+  },
+  {
+    "dtime": 1519000,
+    "ptime": 1519000,
+    "author": "Boris Khasanov",
+    "text": "@ketan, yes- Netconf/Yang will work. But PCECC, IMO, could be even better (just one PCEP as transport for all)<br/>"
+  },
+  {
+    "dtime": 1519000,
+    "ptime": 1519000,
+    "author": "Andrew Stone",
+    "text": "\"feels like\" an rtgwg or spring item <br/>"
+  },
+  {
+    "dtime": 1556000,
+    "ptime": 1556000,
+    "author": "Zafar Ali",
+    "text": "@ Jie Customers set aside an EXP/ DHCP for the circuit style traffic. Traffic is marked using that EXP/ DHCP to differentiate the traffic belonging to the circuit style<br/>"
+  },
+  {
+    "dtime": 1566000,
+    "ptime": 1566000,
+    "author": "Cheng Li",
+    "text": "I see a O-bit in RP object as per RFC5440, no sure that that can be reused<br/>"
+  },
+  {
+    "dtime": 1661000,
+    "ptime": 1661000,
+    "author": "Zafar Ali",
+    "text": "@ Andrew The PCE performs the admission control to ensure bandwidth guarantees<br/>"
+  },
+  {
+    "dtime": 1688000,
+    "ptime": 1688000,
+    "author": "Andrew Stone",
+    "text": "@zafar - their might still be uncontrolled traffic demands in the network <br/>"
+  },
+  {
+    "dtime": 1870000,
+    "ptime": 1870000,
+    "author": "Zafar Ali",
+    "text": "@Andrew, there should never be uncontrolled traffic pushed for the circuit style - due to bandwidth admission control and traffic marking/ QoS policies to guarantee the allocated BW for the circuit style traffic. Yes, there can be uncontrolled traffic demands&nbsp;&nbsp;for other type of policies, which should not impact the circuit style traffic<br/>"
+  },
+  {
+    "dtime": 1939000,
+    "ptime": 1939000,
+    "author": "Jie Dong",
+    "text": "@Zafar do you mean to reserve some dedicated TC/DSCP code points for CS style traffic? Will multiple CS paths share the same code point?<br/>"
+  },
+  {
+    "dtime": 2079000,
+    "ptime": 2079000,
+    "author": "dhruvdhody",
+    "text": "Christian on mic<br/>"
+  },
+  {
+    "dtime": 2098000,
+    "ptime": 2098000,
+    "author": "dhruvdhody",
+    "text": "no its samuel :)<br/>"
+  },
+  {
+    "dtime": 2170000,
+    "ptime": 2170000,
+    "author": "Zafar Ali",
+    "text": "@ Jie, No new code point needed. On a per deployment basis, customer set aside an EXP/ DHCP (existing code points) for circuit style policies/ traffic. Yes, all CS paths share the same EXP/ DHCP marking.<br/>"
+  },
+  {
+    "dtime": 2281000,
+    "ptime": 2281000,
+    "author": "Vishnu Beeram",
+    "text": "+1 to Dhruv's comment on using Policy Association<br/>"
+  },
+  {
+    "dtime": 2414000,
+    "ptime": 2414000,
+    "author": "Boris Khasanov",
+    "text": "@Dhruv, pls send your last question to the list, to make sure that it won't be forgotten<br/>"
+  },
+  {
+    "dtime": 2439000,
+    "ptime": 2439000,
+    "author": "dhruvdhody",
+    "text": "well sure it will be documented in the minutes too<br/>"
+  },
+  {
+    "dtime": 3483000,
+    "ptime": 3483000,
+    "author": "dhruvdhody",
+    "text": "Huanan - i will send my comments on the list! <br/>"
+  },
+  {
+    "dtime": 3687000,
+    "ptime": 3687000,
+    "author": "Italo Busi",
+    "text": "bye bye<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-PCE-20220322-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/pce"
+		}
+	]
+}

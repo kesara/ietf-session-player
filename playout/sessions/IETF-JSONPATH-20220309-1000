@@ -1,0 +1,179 @@
+
+{
+	"title": "IETF-JSONPATH-20220309-1000",
+	"filename": "IETF-JSONPATH-20220309-1000",
+	"start": 0,
+	"end": 6927000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "sf0DrI9em8U",
+    "start": 0,
+    "end": "6927000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 103000,
+    "ptime": 103000,
+    "author": "Glyn Normington",
+    "text": "<a href=\"https://mailarchive.ietf.org/arch/msg/jsonpath/rCUDfRsD9RV3Prg8KHxCE7ozzDo/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/msg/jsonpath/rCUDfRsD9RV3Prg8KHxCE7ozzDo/</a> is my list, for anyone who wants to bring it up.<br/>"
+  },
+  {
+    "dtime": 672000,
+    "ptime": 672000,
+    "author": "Francesca Palombini",
+    "text": "Hello! Sorry for being late<br/>"
+  },
+  {
+    "dtime": 837000,
+    "ptime": 837000,
+    "author": "Francesca Palombini",
+    "text": "My personal preference is that Last Call comments are fixed before the IESG evaluation, and new version is published, so that it is “cleaner” for the last round of reviews (IESG reviews)<br/>"
+  },
+  {
+    "dtime": 951000,
+    "ptime": 951000,
+    "author": "Francesca Palombini",
+    "text": "So what documents were we talking about? (Again sorry for being late)<br/>"
+  },
+  {
+    "dtime": 1016000,
+    "ptime": 1016000,
+    "author": "Francesca Palombini",
+    "text": "Ok! Got it. Thanks for the summary!<br/>"
+  },
+  {
+    "dtime": 1559000,
+    "ptime": 1559000,
+    "author": "Glyn Normington",
+    "text": "<a href=\"https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/issues/25#issuecomment-733910389\" rel=\"nofollow\">https://github.com/ietf-wg-jsonpath/draft-ietf-jsonpath-base/issues/25#issuecomment-733910389</a> mentions what I would call naive delegation to Javascript as a security concern<br/>"
+  },
+  {
+    "dtime": 1965000,
+    "ptime": 1965000,
+    "author": "Glyn Normington",
+    "text": "Latest: <a href=\"https://ietf-wg-jsonpath.github.io/draft-ietf-jsonpath-base/draft-ietf-jsonpath-base.html\" rel=\"nofollow\">https://ietf-wg-jsonpath.github.io/draft-ietf-jsonpath-base/draft-ietf-jsonpath-base.html</a><br/>"
+  },
+  {
+    "dtime": 2596000,
+    "ptime": 2596000,
+    "author": "Stefan Gössner",
+    "text": "?@..x<br/>"
+  },
+  {
+    "dtime": 2605000,
+    "ptime": 2605000,
+    "author": "Stefan Gössner",
+    "text": "?@..x<br/>"
+  },
+  {
+    "dtime": 2664000,
+    "ptime": 2664000,
+    "author": "Stefan Gössner",
+    "text": "?@..x == 7<br/>"
+  },
+  {
+    "dtime": 2825000,
+    "ptime": 2825000,
+    "author": "Stefan Gössner",
+    "text": "?@..[@.x == 7]<br/>"
+  },
+  {
+    "dtime": 2858000,
+    "ptime": 2858000,
+    "author": "Glyn Normington",
+    "text": "?@..[?@.x == 7]<br/>"
+  },
+  {
+    "dtime": 2973000,
+    "ptime": 2973000,
+    "author": "Glyn Normington",
+    "text": "<a href=\"https://ietf-wg-jsonpath.github.io/draft-ietf-jsonpath-base/draft-ietf-jsonpath-base.html#name-descendant-selector\" rel=\"nofollow\">https://ietf-wg-jsonpath.github.io/draft-ietf-jsonpath-base/draft-ietf-jsonpath-base.html#name-descendant-selector</a> doesn't allow a \"bald\" recursive descent such as $..<br/>"
+  },
+  {
+    "dtime": 3408000,
+    "ptime": 3408000,
+    "author": "Stefan Gössner",
+    "text": "rel-path&nbsp;&nbsp;&nbsp;&nbsp; = \"@\" *(S (dot-selector / index-selector))<br/>"
+  },
+  {
+    "dtime": 3543000,
+    "ptime": 3543000,
+    "author": "Glyn Normington",
+    "text": "Sorry - lost internet there.<br/>"
+  },
+  {
+    "dtime": 3848000,
+    "ptime": 3848000,
+    "author": "Stefan Gössner",
+    "text": "@index<br/>"
+  },
+  {
+    "dtime": 3901000,
+    "ptime": 3901000,
+    "author": "Glyn Normington",
+    "text": "Oops - in my email I should have written about functions \"I'm not convinced the benefit outweighs the cost\"!<br/>"
+  },
+  {
+    "dtime": 4232000,
+    "ptime": 4232000,
+    "author": "Carsten Bormann",
+    "text": "$.perpetrator[?@.conviction %#&amp; length &gt; 2]<br/>"
+  },
+  {
+    "dtime": 4544000,
+    "ptime": 4544000,
+    "author": "Stefan Gössner",
+    "text": "$.perpetrator[?@.conviction#length &gt; 2]<br/>"
+  },
+  {
+    "dtime": 4545000,
+    "ptime": 4545000,
+    "author": "Carsten Bormann",
+    "text": "RFC6648<br/>"
+  },
+  {
+    "dtime": 4649000,
+    "ptime": 4649000,
+    "author": "Stefan Gössner",
+    "text": "@#index<br/>"
+  },
+  {
+    "dtime": 4937000,
+    "ptime": 4937000,
+    "author": "Carsten Bormann",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 5921000,
+    "ptime": 5921000,
+    "author": "Carsten Bormann",
+    "text": "<a href=\"https://www.iso.org/standard/63555.html,\" rel=\"nofollow\">https://www.iso.org/standard/63555.html,</a> CHF 178<br/>"
+  },
+  {
+    "dtime": 6348000,
+    "ptime": 6348000,
+    "author": "Glyn Normington",
+    "text": "?@.foo == $.bar<br/>"
+  },
+  {
+    "dtime": 6526000,
+    "ptime": 6526000,
+    "author": "Stefan Gössner",
+    "text": "?@.color == [128,64,0]<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-JSONPATH-20220309-1000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-jsonpath-02/session/jsonpath"
+		}
+	]
+}

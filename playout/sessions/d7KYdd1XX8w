@@ -1,0 +1,329 @@
+
+{
+	"title": "IETF115-RTGWG-20221110-1300",
+	"filename": "IETF115-RTGWG-20221110-1300",
+	"start": 0,
+	"end": 7378000,
+	"start_datetime": "2022-11-10T13:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "d7KYdd1XX8w",
+    "start": 0,
+    "end": "7378000"
+  }
+],
+	"messages": [
+  {
+    "author": "Tony Li",
+    "text": "<p>Couldn't this be done with YANG?</p>",
+    "topic": "jabber",
+    "dtime": 634000,
+    "ptime": 634000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Slides aren't visible</p>",
+    "topic": "jabber",
+    "dtime": 866000,
+    "ptime": 866000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>I see slide at least.</p>",
+    "topic": "jabber",
+    "dtime": 875000,
+    "ptime": 875000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Must be delay at the speakers end</p>",
+    "topic": "jabber",
+    "dtime": 902000,
+    "ptime": 902000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>I guess there were delays</p>",
+    "topic": "jabber",
+    "dtime": 965000,
+    "ptime": 965000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>please help with the notes: <a href=\"https://notes.ietf.org/notes-ietf-115-rtgwg?edit\">https://notes.ietf.org/notes-ietf-115-rtgwg?edit</a></p>",
+    "topic": "jabber",
+    "dtime": 1294000,
+    "ptime": 1294000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>This room had Ethernet connector. 6man was loosing WiFi constantly too.</p>",
+    "topic": "jabber",
+    "dtime": 1974000,
+    "ptime": 1974000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>Wifi is significantly worse in the meeting rooms than elsewhere in the venue.</p>",
+    "topic": "jabber",
+    "dtime": 2044000,
+    "ptime": 2044000
+  },
+  {
+    "author": "Amy",
+    "text": "<p>YANG did not fully address the semantic interoperability between multiple vendors due to vendor-specific YANGs. We think the parsing-validating-mapping methodology could also be applied to YANG. We discuss it more in the discussion session of our paper: <a href=\"https://amyworkspace.github.io/hxchen/files/sigcomm22-nassim.pdf\">https://amyworkspace.github.io/hxchen/files/sigcomm22-nassim.pdf</a></p>",
+    "topic": "jabber",
+    "dtime": 2217000,
+    "ptime": 2217000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Chairs should have an ethernet cable on the desk they can use for connectivity</p>",
+    "topic": "jabber",
+    "dtime": 2263000,
+    "ptime": 2263000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>Thanks. good to know. hope this won't happen again</p>",
+    "topic": "jabber",
+    "dtime": 2494000,
+    "ptime": 2494000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>(wrong channel, sorry)</p>",
+    "topic": "jabber",
+    "dtime": 2682000,
+    "ptime": 2682000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>DNS has so many extentions. It makes sense  to analyze which one is sopported by ROSA and which one is not. Comparison to DNS looks mendatory for better understanding.</p>",
+    "topic": "jabber",
+    "dtime": 3139000,
+    "ptime": 3139000
+  },
+  {
+    "author": "Feng Yang",
+    "text": "<p>Does that mean the SAG needs to learn full of the services advertised ? That will put a big burden to the SAG</p>",
+    "topic": "jabber",
+    "dtime": 3479000,
+    "ptime": 3479000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Eduard fair point to outline which DNS capability we intend to 'replace'</p>",
+    "topic": "jabber",
+    "dtime": 3649000,
+    "ptime": 3649000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Feng no, the SAG utilizes the namespace-specific resolution service, e.g., the DNS, it does not learn all services available (which would indeed be a significant scalability challenge)</p>",
+    "topic": "jabber",
+    "dtime": 3713000,
+    "ptime": 3713000
+  },
+  {
+    "author": "Louis Chan",
+    "text": "<p>Just processing the URL in a different way could be a solution too. Replacing DNS would a huge processing load to routing entities</p>",
+    "topic": "jabber",
+    "dtime": 3857000,
+    "ptime": 3857000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>I don't really see what extra it brings over dns -&gt; anycast address -&gt; (some routing happening), but perhaps I should read the draft. e.g. adding new AF is pretty big hammer.</p>",
+    "topic": "jabber",
+    "dtime": 3963000,
+    "ptime": 3963000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Louis at the SAR (i.e., the domain-internal elements), the binary names (encoded from the URLs) are indeed processed through a hash-based lookup, so much faster than a DNS lookup. In eBPF, that is what we do, i.e., extract the serviceID from the EH, do the hash based lookup to determine the next hop (possibly doing a secondary step to select one of possibly more next hops) and forward. This is fast (100ks of requests per second), even in eBPF. Also, the load is smaller since the SAR only processes the local client load, rather than needing to resolve all clients of a domain.</p>",
+    "topic": "jabber",
+    "dtime": 4057000,
+    "ptime": 4057000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Markus less latency due to missing DNS lookup and the ability to realize ingress scheduling of requests, in addition to anycast type of ROSA-level routing.</p>",
+    "topic": "jabber",
+    "dtime": 4174000,
+    "ptime": 4174000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>If those anycast addresses are static, they should be cacheable and have long TTL etc. Is this just optimizing initial single rare requests to bunch of seldom used services or what?</p>",
+    "topic": "jabber",
+    "dtime": 4218000,
+    "ptime": 4218000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Markus this allows, for instance, for multi-site retrieval, scheduled at the ingress, without involving any lookup and using the existing IPv6 routes to the unicast replicas.</p>",
+    "topic": "jabber",
+    "dtime": 4248000,
+    "ptime": 4248000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Is KIRA a replacement for BGP?</p>",
+    "topic": "jabber",
+    "dtime": 4290000,
+    "ptime": 4290000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>See bullet 1.1</p>",
+    "topic": "jabber",
+    "dtime": 4319000,
+    "ptime": 4319000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>How does the KIRA communicate with routers?</p>",
+    "topic": "jabber",
+    "dtime": 4328000,
+    "ptime": 4328000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Markus indeed, for long-lived anycast addresses, the routed mode of ROSA is the same, essentially, but you could do per request scheduling for those (anycast) services.</p>",
+    "topic": "jabber",
+    "dtime": 4330000,
+    "ptime": 4330000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"739\">@Dirk Trossen</span>  The draft mentions LISP similarities, is it correct to say you convert the service url into an identifier then make a map request equivalent based on the service identifier?  However you do this in-band by sending the service request to a special map server - called ingress SAR who forwards the request and then the host updates the service mapping locally when they get a response from the receiving service.</p>",
+    "topic": "jabber",
+    "dtime": 4488000,
+    "ptime": 4488000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>Is that on the right track?</p>",
+    "topic": "jabber",
+    "dtime": 4510000,
+    "ptime": 4510000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Darren that is indeed correct. In a manner, the SAR is the mapping service, particularly in the scheduled mode where indeed one of possibly several service instance IPs is chosen, based on some possibly service-specific selection mechanism. In routed mode, the SAR forwards to another SAR, until it reaches the instance. This is different from the mapping process in LISP.</p>",
+    "topic": "jabber",
+    "dtime": 4773000,
+    "ptime": 4773000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>Differences come in the mapping federation, itself. SARs are not federated but include mapping/routing entries populated by an overlay DV protocol. Any locally unknown service address is being directed to the SAG, which may either direct the packet to another ROSA domain or to the public Internet.</p>",
+    "topic": "jabber",
+    "dtime": 5050000,
+    "ptime": 5050000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>The similarities to the UPA work in LSR are not small.</p>",
+    "topic": "jabber",
+    "dtime": 5251000,
+    "ptime": 5251000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"739\">@Dirk Trossen</span> thanks, that clarifies the proposal for me.</p>",
+    "topic": "jabber",
+    "dtime": 5505000,
+    "ptime": 5505000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"486\">Eduard V</span> <a href=\"#narrow/stream/172-rtgwg/topic/jabber/near/55377\">said</a>:</p>\n<blockquote>\n<p>Is KIRA a replacement for BGP?</p>\n</blockquote>\n<p>No, it is not. It's designed for control plane connectivity, so routing of data packets would be a different thing. One of KIRA's use cases is its use as in-band control plane fabric for SDN.</p>",
+    "topic": "jabber",
+    "dtime": 5574000,
+    "ptime": 5574000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"800\">Boris Khasanov</span> <a href=\"#narrow/stream/172-rtgwg/topic/jabber/near/55380\">said</a>:</p>\n<blockquote>\n<p>How does the KIRA communicate with routers?</p>\n</blockquote>\n<p>Not sure what you mean. Currently, we are using IPv6 packets and link-local addresses for communicating between KIRA routing instances. So a router would always have to implement KIRA for its control plane. Using this connectivity, you could simply use ssh netconf or whatever to connect to the router in order to configure it, e.g., its data plane routing like OSPF or BGP.</p>",
+    "topic": "jabber",
+    "dtime": 5680000,
+    "ptime": 5680000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@Roland -  Am i correct that routers do need to have KIRA agent installed and run to be able to communicate?</p>",
+    "topic": "jabber",
+    "dtime": 5813000,
+    "ptime": 5813000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>SRv6 is required to waste more bandwidth.</p>",
+    "topic": "jabber",
+    "dtime": 6214000,
+    "ptime": 6214000
+  },
+  {
+    "author": "Aleksandr Klimenko",
+    "text": "<p>Yingzhen, was it a single-vendor solution?</p>",
+    "topic": "jabber",
+    "dtime": 6268000,
+    "ptime": 6268000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@Tony: \"SRv6 or not SRv6, that is the question...\" :)</p>",
+    "topic": "jabber",
+    "dtime": 6374000,
+    "ptime": 6374000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>@aleksander sorry, which one are you asking?</p>",
+    "topic": "jabber",
+    "dtime": 7044000,
+    "ptime": 7044000
+  },
+  {
+    "author": "Louis Chan",
+    "text": "<p>I wonder why there are 1800 SRv6 policies, and the network shown is not big</p>",
+    "topic": "jabber",
+    "dtime": 7046000,
+    "ptime": 7046000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>This seems somewhat similar to MPLS MNA</p>",
+    "topic": "jabber",
+    "dtime": 7214000,
+    "ptime": 7214000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"800\">Boris Khasanov</span> <a href=\"#narrow/stream/172-rtgwg/topic/jabber/near/55526\">said</a>:</p>\n<blockquote>\n<p>@Roland -  Am i correct that routers do need to have KIRA agent installed and run to be able to communicate?</p>\n</blockquote>\n<p>Yes.</p>",
+    "topic": "jabber",
+    "dtime": 7354000,
+    "ptime": 7354000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-RTGWG-20221110-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/rtgwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-RTGWG-20221110-1300"
+		}		
+	]
+}

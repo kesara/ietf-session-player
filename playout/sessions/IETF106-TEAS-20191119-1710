@@ -1,0 +1,446 @@
+{
+  "title": "IETF106-TEAS-20191119-1710",
+  "filename": "IETF106-TEAS-20191119-1710",
+  "start": 0,
+  "end": 5593000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "JMDuPgOjN3g",
+      "start": 0.0,
+      "end": 5593000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Michael Scharf just joined the room",
+      "ptime": 294000.0,
+      "dtime": 674000.0
+    },
+    {
+      "text": "***Daniele Ceccarelli just joined the room",
+      "ptime": 394000.0,
+      "dtime": 774000.0
+    },
+    {
+      "text": "***Michael Scharf just left the room",
+      "ptime": 438000.0,
+      "dtime": 818000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 438000.0,
+      "dtime": 818000.0
+    },
+    {
+      "text": "***zhenqiang li just joined the room",
+      "ptime": 462000.0,
+      "dtime": 842000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 1118000.0,
+      "dtime": 1498000.0
+    },
+    {
+      "text": "network slicing might be just a use case but it shows up 5 times in a single slide",
+      "ptime": 1218000.0,
+      "dtime": 1598000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "that\u0027s cool",
+      "ptime": 1245000.0,
+      "dtime": 1625000.0,
+      "author": "zhenqiang li"
+    },
+    {
+      "text": "do you want me to repeat this?",
+      "ptime": 1246000.0,
+      "dtime": 1626000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "note this is a different draft",
+      "ptime": 1260000.0,
+      "dtime": 1640000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "the VPN+ one is a WG doc, this is not",
+      "ptime": 1278000.0,
+      "dtime": 1658000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "in a better shape: please make sure that network slicing is just one of the use cases of this work and not trying to do what is in the scope of the DT team",
+      "ptime": 1317000.0,
+      "dtime": 1697000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "In queue after me",
+      "ptime": 1380000.0,
+      "dtime": 1760000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "***Fatai Zhang just joined the room",
+      "ptime": 1518000.0,
+      "dtime": 1898000.0
+    },
+    {
+      "text": "@meetecho remote volume is low",
+      "ptime": 1568000.0,
+      "dtime": 1948000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "Lou Berger: ack",
+      "ptime": 1581000.0,
+      "dtime": 1961000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "the confusion in this document makes me feel there is the same confusion in the VPN+ framework (confusion in terms of scope). Please make sure this is not another attempt to define network slicing but focus on VPN+ and, if possible, not just on deterministic VPNs but VPNs that can deliver traffic with given KPIs/SLAs",
+      "ptime": 1662000.0,
+      "dtime": 2042000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "how do thouse two things differ?",
+      "ptime": 1739000.0,
+      "dtime": 2119000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "deterministic VPN makes me think of packets delivered in order, not a single packect dropper. a VPN with constraints is a VPN that might have upper bound limints in term of delay or have a given amount of reserved bandwidht in the network",
+      "ptime": 1802000.0,
+      "dtime": 2182000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "(sorry for typos...trying to type as fast as possilbe)",
+      "ptime": 1821000.0,
+      "dtime": 2201000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "As a contributor to the VPN+ framework, I\u0027m a bit downcast by your comments, Daniele. The term \"deterministic VPN\" is yours and the only mention of \"deterministic\" in the draft is in the context of DetNet.",
+      "ptime": 2899000.0,
+      "dtime": 3279000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "Obviously, it\u0027s a WG draft and can be modified as the WG wants, but at the time it was adopted it contained some clear text about slicing and was (IMHO) TEAS putting a stake in the ground about slicing. Indeed, it includes the text \"Note that, in this document, the four terms \"VPN\", \"Enhanced VPN\" (or \"VPN+\"), \"Virtual Network (VN)\", and \"Network Slice\" may be  considered as describing similar concepts dependent on the viewpoint from which they are used.\"",
+      "ptime": 2997000.0,
+      "dtime": 3377000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "i was referring to a previous comment talking about Network Slicing vs Deterministic VPNs. I felt the need to clarifiy \"not just\" deterministic VPNs",
+      "ptime": 3045000.0,
+      "dtime": 3425000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "In other words, in *my* mind there is not a significant difference between VPN+ and network slicing. The main thing was that the term \"network slicing\" was clearly poisoned, and it was useful to use \"VPN+\" because when looked at from outside, they are the same",
+      "ptime": 3158000.0,
+      "dtime": 3538000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "Indeed my concerns are more against the presentation than against document. I don\u0027t have major issues with the document, but the presenation seems to be very much network slicing oriented.",
+      "ptime": 3168000.0,
+      "dtime": 3548000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "but if VPN+ and Network Slicing are the same thing why are duplicating the work in the DT?",
+      "ptime": 3249000.0,
+      "dtime": 3629000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "I didn\u0027t set up the DT after the WG had adopted the framework :-)",
+      "ptime": 3272000.0,
+      "dtime": 3652000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "***zhenqiang li just left the room",
+      "ptime": 3278000.0,
+      "dtime": 3658000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3279000.0,
+      "dtime": 3659000.0
+    },
+    {
+      "text": "this is another issue :)",
+      "ptime": 3291000.0,
+      "dtime": 3671000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "still in your mind (since we\u0027re running a parallel session) what is the difference between VPN+ and service to tunnel binding?",
+      "ptime": 3387000.0,
+      "dtime": 3767000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "isn\u0027t the final goal the same?",
+      "ptime": 3402000.0,
+      "dtime": 3782000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "I wonder whether one of the hidden issues here is that a \"VPN\" is not a technology, it is a service. The mismatch on that thought bit us doing L3SM, and perhaps it is biting here as well. There is a difference between the service (whether you call it an enhanced VPN or a network slice or a virtual network it is essentially a similar/same service), and the delivery mechanisms (control plane and data plane which may also be similar for the two concepts).",
+      "ptime": 3456000.0,
+      "dtime": 3836000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "And, yes, service to tunnel binding is also relevant",
+      "ptime": 3481000.0,
+      "dtime": 3861000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "The framework was *intended* (may not have achieved!) to set the scene to developing technology solutions",
+      "ptime": 3525000.0,
+      "dtime": 3905000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "I certainly hope the DT is looking at the VPN+ framework to see in what ways what it says is different from their view of network slicing",
+      "ptime": 3569000.0,
+      "dtime": 3949000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "Perhaps, also, compare and contrast with ACTN VN",
+      "ptime": 3591000.0,
+      "dtime": 3971000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "this could save Jari a lot of headhaches :)",
+      "ptime": 3597000.0,
+      "dtime": 3977000.0,
+      "author": "Daniele Ceccarelli"
+    },
+    {
+      "text": "Well yes. Before starting research read the literature?",
+      "ptime": 3623000.0,
+      "dtime": 4003000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "***Michael Scharf just joined the room",
+      "ptime": 3856000.0,
+      "dtime": 4236000.0
+    },
+    {
+      "text": "***David Sinicrope just joined the room",
+      "ptime": 3922000.0,
+      "dtime": 4302000.0
+    },
+    {
+      "text": "Hi Adrian - the enhanced vpn draft needs some work. It confuses network slicing with the VPN service you note and then mixes in a good dose of the need for VPN/TE binding",
+      "ptime": 4583000.0,
+      "dtime": 4963000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "It also make statements about providing levels of traffic isolation that have little to do with the VPN or the binding, but the underlying technology used to provide determinism",
+      "ptime": 4673000.0,
+      "dtime": 5053000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "... and that was only section 1. ;-)",
+      "ptime": 4758000.0,
+      "dtime": 5138000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "Thanks, Dave, you make my point",
+      "ptime": 5129000.0,
+      "dtime": 5509000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "You are talking about VPN as though it is a technology not a service",
+      "ptime": 5159000.0,
+      "dtime": 5539000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "The request for isolation is a service request.",
+      "ptime": 5198000.0,
+      "dtime": 5578000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "The delivery of isolation is a technology.",
+      "ptime": 5213000.0,
+      "dtime": 5593000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "The request of r a slice or an enhanced VPN is a service request",
+      "ptime": 5241000.0,
+      "dtime": 5621000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "Not my words, I\u0027m regurgitating the draft",
+      "ptime": 5256000.0,
+      "dtime": 5636000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "How you achieve those things is technology-specific",
+      "ptime": 5261000.0,
+      "dtime": 5641000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "I agree with what you are saying, but that\u0027s not what I\u0027m seeing in the draft",
+      "ptime": 5282000.0,
+      "dtime": 5662000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "Then we should look through it together, because I look at the same words and see something different :-)",
+      "ptime": 5307000.0,
+      "dtime": 5687000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "For example, you use the word \"deterministic\" but where do you find that in the draft that is not about DetNet?",
+      "ptime": 5361000.0,
+      "dtime": 5741000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "\"Unlike a traditional    VPN, an enhanced VPN can achieve greater isolation with strict    performance guarantees. \"",
+      "ptime": 5364000.0,
+      "dtime": 5744000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "as you say, its not the VPN that gives the guarantee but the technology underneath",
+      "ptime": 5393000.0,
+      "dtime": 5773000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "Mutter: it\u0027s not the connection service that gives the guarantee of connectivity, it\u0027s the technology underneath",
+      "ptime": 5432000.0,
+      "dtime": 5812000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "the words I used were \"deterministic transport\" which is a general reference to DetNet, TSN and FlexE",
+      "ptime": 5432000.0,
+      "dtime": 5812000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "all of which are mentioned in the draft",
+      "ptime": 5462000.0,
+      "dtime": 5842000.0,
+      "author": "David Sinicrope"
+    },
+    {
+      "text": "***Srihari Ramachandra just left the room",
+      "ptime": 5493000.0,
+      "dtime": 5873000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5494000.0,
+      "dtime": 5874000.0
+    },
+    {
+      "text": "yes they are, in the sections that provide a list of possible candidate technologies",
+      "ptime": 5501000.0,
+      "dtime": 5881000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "But recall that when you describe a slice you are describing an offering",
+      "ptime": 5546000.0,
+      "dtime": 5926000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "If, in your quote, it said \"offer\" instead of \"achieve\"... ?",
+      "ptime": 5564000.0,
+      "dtime": 5944000.0,
+      "author": "adrianfarrel"
+    },
+    {
+      "text": "***Bernard Sales just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***David Sinicrope just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***Michael Scharf just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***Daniele Ceccarelli just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***Fatai Zhang just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5592000.0,
+      "dtime": 5972000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-TEAS-20191119-1710"
+    }
+  ]
+}

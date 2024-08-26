@@ -1,0 +1,637 @@
+
+{
+	"title": "IETF115-PRIVACYPASS-20221111-1200",
+	"filename": "IETF115-PRIVACYPASS-20221111-1200",
+	"start": 0,
+	"end": 3911000,
+	"start_datetime": "2022-11-11T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "XnzynPHOLUo",
+    "start": 0,
+    "end": "3911000"
+  }
+],
+	"messages": [
+  {
+    "author": "Robin Wilton",
+    "text": "<p>Hi Joe</p>",
+    "topic": "jabber",
+    "dtime": 13000,
+    "ptime": 13000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>it's not a bitter place to end at all</p>",
+    "topic": "jabber",
+    "dtime": 61000,
+    "ptime": 61000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>can someone remind us of the timeline of reviews for the core docs?</p>",
+    "topic": "jabber",
+    "dtime": 165000,
+    "ptime": 165000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>The WGLC ends next friday</p>",
+    "topic": "jabber",
+    "dtime": 219000,
+    "ptime": 219000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>How does Sybil protection work here?</p>",
+    "topic": "jabber",
+    "dtime": 479000,
+    "ptime": 479000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>AIUI the attester verifies client identity and is responsible for sybil protection</p>",
+    "topic": "jabber",
+    "dtime": 525000,
+    "ptime": 525000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>the origin here chooses a singular issuer, and gives the client a particular key to use?</p>",
+    "topic": "jabber",
+    "dtime": 567000,
+    "ptime": 567000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1796\">@Nikita Borisov</span>  Gotcha, makes sense</p>",
+    "topic": "jabber",
+    "dtime": 633000,
+    "ptime": 633000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>The \"blinding\" here is actually symmetric encryption effectively, right?</p>",
+    "topic": "jabber",
+    "dtime": 689000,
+    "ptime": 689000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>adding ZKP seems like quite a big change, +1 to skipping</p>",
+    "topic": "jabber",
+    "dtime": 1274000,
+    "ptime": 1274000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Don't object to skipping, but def. seems an avenue worth exploring.</p>",
+    "topic": "jabber",
+    "dtime": 1305000,
+    "ptime": 1305000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>If the crypto in your protocol can be described as \"very cool\" you probably don't want it in your protocol <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "jabber",
+    "dtime": 1366000,
+    "ptime": 1366000
+  },
+  {
+    "author": "Steven Valdez",
+    "text": "<p>Its not a massive change to the core privacypass protocol itself, but yeah would need an extension in the crypto to support.</p>",
+    "topic": "jabber",
+    "dtime": 1374000,
+    "ptime": 1374000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>#MakeCryptoBoringAgain</p>",
+    "topic": "jabber",
+    "dtime": 1405000,
+    "ptime": 1405000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>to be clear, i don't think the JOSE ZKP stuff is fully general ZKP</p>",
+    "topic": "jabber",
+    "dtime": 1421000,
+    "ptime": 1421000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>but it might be enough to address what PrivacyPass needs</p>",
+    "topic": "jabber",
+    "dtime": 1433000,
+    "ptime": 1433000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>is this the relevant JOSE document? <a href=\"https://www.ietf.org/id/draft-jmiller-jose-json-web-proof-00.html\">https://www.ietf.org/id/draft-jmiller-jose-json-web-proof-00.html</a></p>",
+    "topic": "jabber",
+    "dtime": 1504000,
+    "ptime": 1504000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nikita there are a few more docs, full repo here: <a href=\"https://github.com/json-web-proofs/json-web-proofs\">https://github.com/json-web-proofs/json-web-proofs</a></p>",
+    "topic": "jabber",
+    "dtime": 1599000,
+    "ptime": 1599000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> thank you!</p>",
+    "topic": "jabber",
+    "dtime": 1630000,
+    "ptime": 1630000
+  },
+  {
+    "author": "John Bradley",
+    "text": "<p>That document may be adopted by the WG.  It describes the container not the specific ZKP algorithm.</p>",
+    "topic": "jabber",
+    "dtime": 1684000,
+    "ptime": 1684000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>the origin is choosing the acceptable issuer, but I would think that the origin shouldn't be able to provide any extra detail to pass from the client to the issuer. and agree that having a good key consistency system would generally limit those risks.</p>",
+    "topic": "jabber",
+    "dtime": 1853000,
+    "ptime": 1853000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i think the main ZKP people have in mind is proof of possession of a BBS signature <a href=\"https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/\">https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/</a></p>",
+    "topic": "jabber",
+    "dtime": 1866000,
+    "ptime": 1866000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I'd also like to know / understand the answer.</p>",
+    "topic": "jabber",
+    "dtime": 1914000,
+    "ptime": 1914000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>So could that discussion happen on-list please?</p>",
+    "topic": "jabber",
+    "dtime": 1929000,
+    "ptime": 1929000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>key blinding basically takes an DSA key (x, g^x) and blinds it to (x*r, g^{x*r})</p>",
+    "topic": "jabber",
+    "dtime": 1930000,
+    "ptime": 1930000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>FWIW, the ZKP I was using is a a basic conjunction of DLEQ statements</p>",
+    "topic": "jabber",
+    "dtime": 2076000,
+    "ptime": 2076000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Putting stuff into an \"Anti-Fraud\" group sides like the opposite of what we want?</p>",
+    "topic": "jabber",
+    "dtime": 2129000,
+    "ptime": 2129000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>You want fraud?</p>",
+    "topic": "jabber",
+    "dtime": 2144000,
+    "ptime": 2144000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Anti-fraud is for defending servers against clients, PP is about defending clients against servers.</p>",
+    "topic": "jabber",
+    "dtime": 2158000,
+    "ptime": 2158000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>All their decisions will be weighted towards the servers</p>",
+    "topic": "jabber",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>How is PP defending clients against servers?</p>",
+    "topic": "jabber",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>it's about both, providing certain guarantees to the server and certain guarantees to the client</p>",
+    "topic": "jabber",
+    "dtime": 2201000,
+    "ptime": 2201000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>I wouldn't say that, it's giving the servers a way to defend against clients without having the clients lose privacy</p>",
+    "topic": "jabber",
+    "dtime": 2204000,
+    "ptime": 2204000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>privacypass is about defending both, right?</p>",
+    "topic": "jabber",
+    "dtime": 2211000,
+    "ptime": 2211000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>always better to remove the word \"trust\"</p>",
+    "topic": "jabber",
+    "dtime": 2212000,
+    "ptime": 2212000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Well, PP is a way to have a compromise -- you get anti-fraud without harming client privacy</p>",
+    "topic": "jabber",
+    "dtime": 2213000,
+    "ptime": 2213000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>PP is protecting clients from servers by stopping servers linking their requests together.</p>",
+    "topic": "jabber",
+    "dtime": 2258000,
+    "ptime": 2258000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>While still attesting to some property about the client in the abstract (which is the part that benefits servers)</p>",
+    "topic": "jabber",
+    "dtime": 2286000,
+    "ptime": 2286000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Right, if we wanted to protect the clients from the servers by making things unlinkable, we tell people to use Tor</p>",
+    "topic": "jabber",
+    "dtime": 2313000,
+    "ptime": 2313000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>PP makes it such that your use of Tor doesn't give you infinitely many captcha challenges because of other bad actors on those same IPs producing abuse</p>",
+    "topic": "jabber",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>I think of privacy pass as trying to be no more linkable than access without privacy pass. It does not add new unlinkability features, unlike OHTTP/Tor</p>",
+    "topic": "jabber",
+    "dtime": 2341000,
+    "ptime": 2341000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>That's a good way of thinking of it, yes</p>",
+    "topic": "jabber",
+    "dtime": 2374000,
+    "ptime": 2374000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>It's goal is to not <em>add</em> linkability, rather than explicitly removing linkability</p>",
+    "topic": "jabber",
+    "dtime": 2401000,
+    "ptime": 2401000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it's a harm reduction approach</p>",
+    "topic": "jabber",
+    "dtime": 2422000,
+    "ptime": 2422000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>From the original PP paper: <br>\n<a href=\"/user_uploads/2/be/tR7TXZ4LluhwIIMh9HTmJ5WV/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/be/tR7TXZ4LluhwIIMh9HTmJ5WV/image.png\" title=\"image.png\"><img src=\"/user_uploads/2/be/tR7TXZ4LluhwIIMh9HTmJ5WV/image.png\"></a></div>",
+    "topic": "jabber",
+    "dtime": 2424000,
+    "ptime": 2424000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Literally property one of the protocol</p>",
+    "topic": "jabber",
+    "dtime": 2443000,
+    "ptime": 2443000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yes, and the documents still talk about unlinkability</p>",
+    "topic": "jabber",
+    "dtime": 2448000,
+    "ptime": 2448000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>But that really means they don't add linkability</p>",
+    "topic": "jabber",
+    "dtime": 2463000,
+    "ptime": 2463000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>If I use tokens from my same IP address all the time it doesn't help me</p>",
+    "topic": "jabber",
+    "dtime": 2477000,
+    "ptime": 2477000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Privacy pass didn't link me, but it didn't stop me from being linked either</p>",
+    "topic": "jabber",
+    "dtime": 2489000,
+    "ptime": 2489000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>as usual, academic descriptions do not explicitly say the \"assuming a spherical cow\" part out loud</p>",
+    "topic": "jabber",
+    "dtime": 2495000,
+    "ptime": 2495000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 Tommy</p>",
+    "topic": "jabber",
+    "dtime": 2499000,
+    "ptime": 2499000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>they work on their specific domain, and leave the rest of the world as an abstraction</p>",
+    "topic": "jabber",
+    "dtime": 2518000,
+    "ptime": 2518000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>it enables to implement unlinkability</p>",
+    "topic": "jabber",
+    "dtime": 2542000,
+    "ptime": 2542000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>this is the risk of depending only on formal methods - it's easy to forget the difference between the world modeled by the formal methods and the larger world</p>",
+    "topic": "jabber",
+    "dtime": 2557000,
+    "ptime": 2557000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>which is not to say that formal proofs are bad -- they're critically important; just limited to the domains where they operate</p>",
+    "topic": "jabber",
+    "dtime": 2588000,
+    "ptime": 2588000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Fair enough. Spherical cows in a vacuum aren't representative of the real world.</p>",
+    "topic": "jabber",
+    "dtime": 2628000,
+    "ptime": 2628000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>right, as protocol designers we need to both take the formal proofs seriously, <em>and</em> understand what parts they don't cover and how those other pieces have an impact on the higher-level goals.</p>",
+    "topic": "jabber",
+    "dtime": 2720000,
+    "ptime": 2720000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>This paper might be of interest to people here actually:<br>\nPaper: <a href=\"https://ieeexplore.ieee.org/abstract/document/9799315\">https://ieeexplore.ieee.org/abstract/document/9799315</a><br>\nSlides: <a href=\"https://ssr2022.com/slides/FormalisingLinkedDataBasedVerifiableCredentials.pdf\">https://ssr2022.com/slides/FormalisingLinkedDataBasedVerifiableCredentials.pdf</a><br>\nAbstract: </p>\n<blockquote>\n<p>In this paper, we propose a formal definition for Linked-Data based verifiable credential to enable secure selective disclosure among one or multiple verifiable credentials a user has. Previous schemes considered using a single verifiable credential and could not hide the user's identifying information when performing selective disclosure. We pro-pose the first Linked-Data based verifiable credentials that can perform selective disclosure free from the restrictions the previous scheme had, and prove its property. We also discuss a novel use of combining multiple certificates issued by independent issuers to still allow users to perform selective disclosure on the set of credentials. Our scheme has been implemented as an open source Web-based application that generates a verifiable presentation for a given selection of attributes. The performance evaluation is also provided in the paper.</p>\n</blockquote>",
+    "topic": "jabber",
+    "dtime": 2741000,
+    "ptime": 2741000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1 to the question, I'm not sure we are far along enough on the web side to be confident that we won't need any changes</p>",
+    "topic": "jabber",
+    "dtime": 2788000,
+    "ptime": 2788000
+  },
+  {
+    "author": "Philipp Pfeiffenberger",
+    "text": "<p>+1 -- we are making progress on collecting requirements in the W3C AFCG, but we have yet to stack rank and really flesh them out.</p>",
+    "topic": "jabber",
+    "dtime": 2883000,
+    "ptime": 2883000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>it's been an early morning for me, but what I heard is that the Private Access Token implementation isn't currently using the rate-limiting token extensions, but is testing it out?</p>",
+    "topic": "jabber",
+    "dtime": 3127000,
+    "ptime": 3127000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Correct, type 2 basic tokens are being used in production, and type 3 rate limited tokens are currently are testable but not used in production</p>",
+    "topic": "jabber",
+    "dtime": 3189000,
+    "ptime": 3189000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Early morning here too =)</p>",
+    "topic": "jabber",
+    "dtime": 3199000,
+    "ptime": 3199000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>It might be nominally afternoon here, but I'm tired anyway <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "jabber",
+    "dtime": 3234000,
+    "ptime": 3234000
+  },
+  {
+    "author": "Mark McFadden",
+    "text": "<p>I'd be willing to revive the consolidation draft that I originally contributed.</p>",
+    "topic": "jabber",
+    "dtime": 3267000,
+    "ptime": 3267000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>do we want to wait and see how it actually gets used and what problems arise and what is needed?</p>",
+    "topic": "jabber",
+    "dtime": 3340000,
+    "ptime": 3340000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Another plug for the Formal Methods at the IETF Research Group to be formed.</p>",
+    "topic": "jabber",
+    "dtime": 3499000,
+    "ptime": 3499000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>The ProVerif work is a formal analysis</p>",
+    "topic": "jabber",
+    "dtime": 3539000,
+    "ptime": 3539000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Technically distinct from a formal verification.</p>",
+    "topic": "jabber",
+    "dtime": 3552000,
+    "ptime": 3552000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 philipp for explicitly identifying some core tensions of this work.</p>",
+    "topic": "jabber",
+    "dtime": 3598000,
+    "ptime": 3598000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>(FA proves the design is correct, FV proves that a particular piece of code implements the design.)</p>",
+    "topic": "jabber",
+    "dtime": 3626000,
+    "ptime": 3626000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>thanks for the clarification, Hoyland</p>",
+    "topic": "jabber",
+    "dtime": 3647000,
+    "ptime": 3647000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>why wouldn't these discussions be in the architecture?</p>",
+    "topic": "jabber",
+    "dtime": 3649000,
+    "ptime": 3649000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Hoyland: would your hypothetical \"formal methods\" group do both FA and FV?</p>",
+    "topic": "jabber",
+    "dtime": 3693000,
+    "ptime": 3693000
+  },
+  {
+    "author": "Steven Valdez",
+    "text": "<p>It seems like some of these considerations would be dependent on what the higher level system/usecase building on top of privacypass is, not sure how much can be generalized across all the different ways of using privacypass.</p>",
+    "topic": "jabber",
+    "dtime": 3734000,
+    "ptime": 3734000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>That would be my preference. We had a side meeting yesterday where it was suggested we just focus on formal specification (i.e. the first step of FA or FV).</p>",
+    "topic": "jabber",
+    "dtime": 3736000,
+    "ptime": 3736000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so there's FA and FV and FS -- any other Fs we should know about?</p>",
+    "topic": "jabber",
+    "dtime": 3759000,
+    "ptime": 3759000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm sorry i missed that side meeting</p>",
+    "topic": "jabber",
+    "dtime": 3782000,
+    "ptime": 3782000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Probably, but those are the only ones I know about <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "jabber",
+    "dtime": 3793000,
+    "ptime": 3793000
+  },
+  {
+    "author": "Nikita Borisov",
+    "text": "<p>big thanks to notetakers!</p>",
+    "topic": "jabber",
+    "dtime": 3821000,
+    "ptime": 3821000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Oh, Formal Methods as the general / overarching name.</p>",
+    "topic": "jabber",
+    "dtime": 3826000,
+    "ptime": 3826000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>right.</p>",
+    "topic": "jabber",
+    "dtime": 3843000,
+    "ptime": 3843000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>was that side meeting recorded?</p>",
+    "topic": "jabber",
+    "dtime": 3851000,
+    "ptime": 3851000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> safe travels to those of you traveling</p>",
+    "topic": "jabber",
+    "dtime": 3861000,
+    "ptime": 3861000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>Kudos to Florence for that! Amazing speed and accuracy.</p>",
+    "topic": "jabber",
+    "dtime": 3877000,
+    "ptime": 3877000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-PRIVACYPASS-20221111-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/privacypass"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-PRIVACYPASS-20221111-1200"
+		}		
+	]
+}

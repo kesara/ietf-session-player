@@ -1,0 +1,644 @@
+
+{
+	"title": "IETF119-6MAN-20240321-0300",
+	"filename": "IETF119-6MAN-20240321-0300",
+	"start": 0,
+	"end": 7363000,
+	"start_datetime": "2024-03-21T03:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "fOaBYqHLC-8",
+    "start": 0,
+    "end": "7363000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ted Lemon",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"720\">@Jen Linkova</span> I updated the slides again to change all instances of \"stub router\" to \"SNAC router\".</p>",
+    "topic": "ietf-116",
+    "dtime": 1499000,
+    "ptime": 1499000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>@Jen Linkova I updated the slides again to change all instances of \"stub router\" to \"SNAC router\".</p>",
+    "topic": "ietf-119",
+    "dtime": 1528000,
+    "ptime": 1528000
+  },
+  {
+    "author": "Bob Hinden",
+    "text": "<p>I approved the slides, will see if meetecho updates in time.</p>",
+    "topic": "ietf-119",
+    "dtime": 1619000,
+    "ptime": 1619000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 1626000,
+    "ptime": 1626000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Ketan has a point. This is exactly why I asked to remove it from the EH</p>",
+    "topic": "ietf-119",
+    "dtime": 1658000,
+    "ptime": 1658000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>we won't have 100 NRPs</p>",
+    "topic": "ietf-119",
+    "dtime": 1708000,
+    "ptime": 1708000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I'm not even sure there will be more than 1 to put it politely.</p>",
+    "topic": "ietf-119",
+    "dtime": 1732000,
+    "ptime": 1732000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Med yes a few/handful is what I've heard as well</p>",
+    "topic": "ietf-119",
+    "dtime": 1813000,
+    "ptime": 1813000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>But I am not precluding more. My point was about simplicity and h/w pipeline efficiency</p>",
+    "topic": "ietf-119",
+    "dtime": 1844000,
+    "ptime": 1844000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The number is important here as this will  have implication on the configuration burden mentioned by Jie</p>",
+    "topic": "ietf-119",
+    "dtime": 1906000,
+    "ptime": 1906000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Yes, number is also important. But again, that is a topic for TEAS WG. I will start and email thread on this later today.</p>",
+    "topic": "ietf-119",
+    "dtime": 2140000,
+    "ptime": 2140000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>It is OK to take the discussion about NRP number to TEAS.</p>",
+    "topic": "ietf-119",
+    "dtime": 2172000,
+    "ptime": 2172000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I'm not sure we will get an answer, but please do. Thanks</p>",
+    "topic": "ietf-119",
+    "dtime": 2196000,
+    "ptime": 2196000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>As for the encoding, using flag to control the forwarding behavior of specific packets is already used in the design of IPv6 extension headers. Devices support extension header should be capable of that processing.</p>",
+    "topic": "ietf-119",
+    "dtime": 2383000,
+    "ptime": 2383000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>O(1) state in router for 2^64 downstream devices.</p>",
+    "topic": "ietf-119",
+    "dtime": 2512000,
+    "ptime": 2512000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Another thing to consider is extensibility, we have had that discussion in previous IETF meetings, and it seems people want to see this option/ID  being generic and to be used for other applications (in addition to identifying the forwarding resources)</p>",
+    "topic": "ietf-119",
+    "dtime": 2513000,
+    "ptime": 2513000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>@Jie, I apologize for not following the discussion today. One argument caught my eye. Please help me understand, that you envision that OAM test packets might be arbitrary dropped. Is that the case? Would that cause fault negative alarms?</p>",
+    "topic": "ietf-119",
+    "dtime": 2783000,
+    "ptime": 2783000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"169\">@Michael Richardson</span> right, and the classification rules to be deployed on  every node needs to be very flexible (complex) in this case</p>",
+    "topic": "ietf-119",
+    "dtime": 2796000,
+    "ptime": 2796000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>s/fault/false/ ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 2867000,
+    "ptime": 2867000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"504\">@Greg Mirsky</span> What I said was OAM packets used to check the availability of an NRP should be dropped when there is no NRP provisioned on a transit node, this way it can correctly reflect the status of the NRP</p>",
+    "topic": "ietf-119",
+    "dtime": 2901000,
+    "ptime": 2901000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>@Jie,</p>",
+    "topic": "ietf-119",
+    "dtime": 2929000,
+    "ptime": 2929000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>but the purpose and the expectation of a function that sent the query is to receive response. Not?</p>",
+    "topic": "ietf-119",
+    "dtime": 2969000,
+    "ptime": 2969000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>If the request merely times out, how it can be distinguished from the network defect?</p>",
+    "topic": "ietf-119",
+    "dtime": 3016000,
+    "ptime": 3016000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>my Thanks to Brian for continuing to persue this.  This looks like a good way to avoid further useless holes in the ground.</p>",
+    "topic": "ietf-119",
+    "dtime": 3057000,
+    "ptime": 3057000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"504\">@Greg Mirsky</span> If the purpose of the OAM packet is to check the connectivity (say BFD), not receiving the packet would be the expected result to detect the failure of an NRP</p>",
+    "topic": "ietf-119",
+    "dtime": 3106000,
+    "ptime": 3106000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>BFD is not intended to check availability of an application but only the forwarding path and the forwarding engine (to a certain degree). Frankly, I'm now more confused by the idea behind that mechanism than before.</p>",
+    "topic": "ietf-119",
+    "dtime": 3203000,
+    "ptime": 3203000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>In MPLS, LSP Ping can be used to check the consistency between the control and data plane. AFAIK, there's seems no analogous functionality in IPv6 yet.</p>",
+    "topic": "ietf-119",
+    "dtime": 3301000,
+    "ptime": 3301000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"504\">@Greg Mirsky</span> we can discuss about OAM after the meeting, but the S flag is not only for the OAM packets, it can be set on demand for specific flows of packets according to the policy on  \"drop or fallback\"</p>",
+    "topic": "ietf-119",
+    "dtime": 3402000,
+    "ptime": 3402000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>@Jie, sure, let continue the discussion. Though, I'd like to make a point that IMHO the applicability of S flag to OAM must be made clear before the document moves forward.</p>",
+    "topic": "ietf-119",
+    "dtime": 3522000,
+    "ptime": 3522000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1238\">@Lorenzo Colitti</span> how can we get a default zone/scope implemented for Linux Kernel.</p>",
+    "topic": "ietf-119",
+    "dtime": 3548000,
+    "ptime": 3548000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>could it be per-process.... inherited to child processes.</p>",
+    "topic": "ietf-119",
+    "dtime": 3580000,
+    "ptime": 3580000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>% set-default-scope 14; chrome &amp;</p>",
+    "topic": "ietf-119",
+    "dtime": 3604000,
+    "ptime": 3604000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"504\">@Greg Mirsky</span> Currently there is no mentioning/restriction about the setting of the S flag on packets. All depends on operators policy.</p>",
+    "topic": "ietf-119",
+    "dtime": 3811000,
+    "ptime": 3811000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>@Jie, I believe that the case of OAM must be explicitly discussed or it is excluded from the S-flag altogether. I strongly believe that playing with arbitrary policies toward OAM is a clear path to a problem that would be hard to detect and troubleshoot, as you may have turned off the very mechanism that is intended to help you in the detection and localization of the problem.</p>",
+    "topic": "ietf-119",
+    "dtime": 4096000,
+    "ptime": 4096000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"504\">@Greg Mirsky</span> thanks for your suggestion, we will take it into consideration</p>",
+    "topic": "ietf-119",
+    "dtime": 4192000,
+    "ptime": 4192000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Love the transcription</p>",
+    "topic": "ietf-119",
+    "dtime": 4391000,
+    "ptime": 4391000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>As individual: let's have SNAC routers sending M&amp;O flags to 0</p>",
+    "topic": "ietf-119",
+    "dtime": 4674000,
+    "ptime": 4674000
+  },
+  {
+    "author": "Timothy Winters",
+    "text": "<p>@Eric, that might work Can we think if any host on a SNAC router might be triggered by the flags?</p>",
+    "topic": "ietf-119",
+    "dtime": 4777000,
+    "ptime": 4777000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Unsure whether a SNAC router should also have a pure host function (or can simply start stateful/stateless DHCP anyway)</p>",
+    "topic": "ietf-119",
+    "dtime": 4926000,
+    "ptime": 4926000
+  },
+  {
+    "author": "Timothy Winters",
+    "text": "<p>Sorry I meant a SNAC router sending RAs to a host attached to it.</p>",
+    "topic": "ietf-119",
+    "dtime": 4990000,
+    "ptime": 4990000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>on the stub network then? Good question</p>",
+    "topic": "ietf-119",
+    "dtime": 5019000,
+    "ptime": 5019000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>ENOQUEUE for truce ?</p>",
+    "topic": "ietf-119",
+    "dtime": 5037000,
+    "ptime": 5037000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Just wondering if there would need to be some exponential backup requirement to avoid lots of MUST triggered messages in case of problems. Or rate-limit, or any of our common texts for such cases</p>",
+    "topic": "ietf-119",
+    "dtime": 5087000,
+    "ptime": 5087000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I want 6man to adopt this, because I think that we can make it slightly better than the storey with NAT44.</p>",
+    "topic": "ietf-119",
+    "dtime": 6378000,
+    "ptime": 6378000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>+1 on everything Lorenzo said.</p>",
+    "topic": "ietf-119",
+    "dtime": 6493000,
+    "ptime": 6493000
+  },
+  {
+    "author": "Nick Buraglio",
+    "text": "<p>As one of the co-authors of this update, I am happy to respond to these</p>",
+    "topic": "ietf-119",
+    "dtime": 6521000,
+    "ptime": 6521000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>Full disclosure: I haven't read the draft. But i would note that NAT-PT for v6 is how IPv6 is used in Kubernets (including Google Cloud Platform).  wishes does not necessarily match reality.</p>",
+    "topic": "ietf-119",
+    "dtime": 6545000,
+    "ptime": 6545000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"893\">Fernando Gont</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115657\">said</a>:</p>\n<blockquote>\n<p>Full disclosure: I haven't read the draft. But i would note that NAT-PT for v6 is how IPv6 is used in Kubernets (including Google Cloud Platform).  wishes does not necessarily match reality.</p>\n</blockquote>\n<p>Really? I thought they did DHCPv6-PD.</p>",
+    "topic": "ietf-119",
+    "dtime": 6572000,
+    "ptime": 6572000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>Nope. They essentially mimicked ipV4 FOR THE ipv6 case. Train has left.</p>",
+    "topic": "ietf-119",
+    "dtime": 6599000,
+    "ptime": 6599000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>(I'm referring to <em>Kubernetes</em>, not regular compute instances)</p>",
+    "topic": "ietf-119",
+    "dtime": 6626000,
+    "ptime": 6626000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"893\">Fernando Gont</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115659\">said</a>:</p>\n<blockquote>\n<p>Nope. They essentially mimicked ipV4 FOR THE ipv6 case. Train has left.</p>\n</blockquote>\n<p>I disagree: the engine has left the station, the caboose is still visible :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 6640000,
+    "ptime": 6640000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>Minimal uses, and will definitely be over utilised. \"Because it looks the same as NAT44\"</p>",
+    "topic": "ietf-119",
+    "dtime": 6658000,
+    "ptime": 6658000
+  },
+  {
+    "author": "Lorenzo Colitti",
+    "text": "<p>it was experimental because there was no cosensus on anything else</p>",
+    "topic": "ietf-119",
+    "dtime": 6663000,
+    "ptime": 6663000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>TWO votes for historic!</p>",
+    "topic": "ietf-119",
+    "dtime": 6673000,
+    "ptime": 6673000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>It's pretty much production. That's what we use in production clusters in gcp nowadays.</p>",
+    "topic": "ietf-119",
+    "dtime": 6706000,
+    "ptime": 6706000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Yeah, Toerless, we have Industrial examples of anti-patterns for NAT44: How it leads to major insecurity.</p>",
+    "topic": "ietf-119",
+    "dtime": 6720000,
+    "ptime": 6720000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"106\">@Toerless Eckert</span> in the industrial cast you should just use ULA. Industrial settings SHOULD NOT be using the global internet.</p>",
+    "topic": "ietf-119",
+    "dtime": 6740000,
+    "ptime": 6740000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>do we have a description of the \"industrial use case\" somewhere?</p>",
+    "topic": "ietf-119",
+    "dtime": 6755000,
+    "ptime": 6755000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>+1 to ted</p>",
+    "topic": "ietf-119",
+    "dtime": 6775000,
+    "ptime": 6775000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>I was thinking was Ted said, but...</p>",
+    "topic": "ietf-119",
+    "dtime": 6778000,
+    "ptime": 6778000
+  },
+  {
+    "author": "Nick Buraglio",
+    "text": "<p>I have some that we use for scientific instruments that functionally fall into that category</p>",
+    "topic": "ietf-119",
+    "dtime": 6783000,
+    "ptime": 6783000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>:)</p>",
+    "topic": "ietf-119",
+    "dtime": 6784000,
+    "ptime": 6784000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"724\">Ted Lemon</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115677\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"106\">Toerless Eckert</span> in the industrial cast you should just use ULA. Industrial settings SHOULD NOT be using the global internet.</p>\n</blockquote>\n<p>Nope, ULA does not work.  NAT44 leads to lack of ability to audit. They want to move towards a flat network with sdn managed L2 firewalls.</p>",
+    "topic": "ietf-119",
+    "dtime": 6801000,
+    "ptime": 6801000
+  },
+  {
+    "author": "Lorenzo Colitti",
+    "text": "<p>the kubernetes ship has not necessarily sailed. it's software, it can be fixed if something better (PD?) comes along</p>",
+    "topic": "ietf-119",
+    "dtime": 6822000,
+    "ptime": 6822000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1238\">Lorenzo Colitti</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115685\">said</a>:</p>\n<blockquote>\n<p>the kubernetes ship has not necessarily sailed. it's software, it can be fixed if something better (PD?) comes along</p>\n</blockquote>\n<p>Docker has PD, AFAIK, but on Amazon, it can't be used for stupid reasons.</p>",
+    "topic": "ietf-119",
+    "dtime": 6856000,
+    "ptime": 6856000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"169\">@Michael Richardson</span> I have no idea what you mean by this. You don't need NAT at all with ULA. If you need to connect networks together, you connect them together. There's no need for address rewrites or global addresses.</p>",
+    "topic": "ietf-119",
+    "dtime": 6865000,
+    "ptime": 6865000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>If you really really want global addresses, you can buy a block from an RIR, but why on earth would you ever route a factory floor to the global internet? This is a recipe for ransomware attacks.</p>",
+    "topic": "ietf-119",
+    "dtime": 6921000,
+    "ptime": 6921000
+  },
+  {
+    "author": "Nick Buraglio",
+    "text": "<p>ULA works well for contained sensor networks. If they need external connectivity they can use an application proxy or GUA</p>",
+    "topic": "ietf-119",
+    "dtime": 6941000,
+    "ptime": 6941000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"724\">Ted Lemon</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115688\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"169\">Michael Richardson</span> I have no idea what you mean by this. You don't need NAT at all with ULA. If you need to connect networks together, you connect them together. There's no need for address rewrites or global addresses.</p>\n</blockquote>\n<p>The lack of a \"PD\" in <em>IPv4</em> leads to multiple layers of NAT44 for industrial networks, which means that they auditing system can not see all the devices/traffic.  ULA with routing of ULA subnets would work, but at that point, one can just use PI GUA and a simple outgoing-only firewall.</p>",
+    "topic": "ietf-119",
+    "dtime": 6954000,
+    "ptime": 6954000
+  },
+  {
+    "author": "Fernando Gont",
+    "text": "<p>In theory, you qould be able to make Kubernetes work with unique addresses. In practice, for the most part you wouldn't care to do so.</p>",
+    "topic": "ietf-119",
+    "dtime": 6977000,
+    "ptime": 6977000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>(many sins are hidden by NAT44)</p>",
+    "topic": "ietf-119",
+    "dtime": 6978000,
+    "ptime": 6978000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>Sure, but why would you do that. Why do you want outgoing connectivity?</p>",
+    "topic": "ietf-119",
+    "dtime": 6984000,
+    "ptime": 6984000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<ol>\n<li>software updates. 2. cloud computing. 3. diagnostics.</li>\n</ol>",
+    "topic": "ietf-119",
+    "dtime": 7018000,
+    "ptime": 7018000
+  },
+  {
+    "author": "Naoki Matsuhira",
+    "text": "<p>I've been experiencing a lot of issues with NAT. With IPv6, I don't think it should be repeated.</p>",
+    "topic": "ietf-119",
+    "dtime": 7060000,
+    "ptime": 7060000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Let's face it: everyone hates NAT (and many of us ULA). Having said this, should the IETF be pragmatic and try to \"herd\" NAT66 implementations ? Endless discussions of course</p>",
+    "topic": "ietf-119",
+    "dtime": 7091000,
+    "ptime": 7091000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>Hm. Our preference is to host software updates locally. I think this is sort of what SUIT is working on, isn't it?</p>",
+    "topic": "ietf-119",
+    "dtime": 7092000,
+    "ptime": 7092000
+  },
+  {
+    "author": "Lorenzo Colitti",
+    "text": "<p>I think that instead of herding NAT66 implementations we can better spend our time providing better solutions to the problems that people try to solve with NAT66</p>",
+    "topic": "ietf-119",
+    "dtime": 7157000,
+    "ptime": 7157000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>Let's face it: everyone hates NAT (and many of us ULA). Having said this, should the IETF be pragmatic and try to \"herd\" NAT66 implementations ?</p>\n</blockquote>\n<p>I worry that this pragmatism will undermine our other work as then questions will arise about why newer RFCs don't work well with this one (and the informational/PS nuance <em>will</em> be lost on customers)</p>",
+    "topic": "ietf-119",
+    "dtime": 7163000,
+    "ptime": 7163000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"209\">Éric Vyncke</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115709\">said</a>:</p>\n<blockquote>\n<p>Let's face it: everyone hates NAT (and many of us ULA). Having said this, should the IETF be pragmatic and try to \"herd\" NAT66 implementations ? Endless discussions of course</p>\n</blockquote>\n<p>We should adopt and publish NPTv6, because we treated NAT44 the way oppressive regimes treated AIDS: as a sign you were a deviant. So it spread, unchecked.</p>",
+    "topic": "ietf-119",
+    "dtime": 7183000,
+    "ptime": 7183000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@lorenzo no disagreement on working of usable solutions</p>",
+    "topic": "ietf-119",
+    "dtime": 7185000,
+    "ptime": 7185000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1238\">Lorenzo Colitti</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115718\">said</a>:</p>\n<blockquote>\n<p>I think that instead of herding NAT66 implementations we can better spend our time providing better solutions to the problems that people try to solve with NAT66</p>\n</blockquote>\n<p>Yes. I want that too.</p>",
+    "topic": "ietf-119",
+    "dtime": 7204000,
+    "ptime": 7204000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>I would also very specifically like it to be the case that an IETF standards-track document that tries to reference NPTv6 would be a down-reference and would get special attention and perhaps opprobrium.</p>",
+    "topic": "ietf-119",
+    "dtime": 7214000,
+    "ptime": 7214000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>we treated NAT44 the way oppressive regimes treated AIDS: as a sign you were a deviant. So it spread, unchecked.</p>\n</blockquote>\n<p>One diff: NAT <em>had</em> to spread due to address exhaustion. Fortunately, we still have a few IPv6 addresses left.</p>",
+    "topic": "ietf-119",
+    "dtime": 7240000,
+    "ptime": 7240000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>One or two.</p>",
+    "topic": "ietf-119",
+    "dtime": 7251000,
+    "ptime": 7251000
+  },
+  {
+    "author": "Lorenzo Colitti",
+    "text": "<p>+100</p>",
+    "topic": "ietf-119",
+    "dtime": 7252000,
+    "ptime": 7252000
+  },
+  {
+    "author": "Naoki Matsuhira",
+    "text": "<p>Thank you on agenda.</p>",
+    "topic": "ietf-119",
+    "dtime": 7274000,
+    "ptime": 7274000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"512\">Tommy Jensen</span> <a href=\"#narrow/stream/19-6man/topic/ietf-119/near/115726\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>we treated NAT44 the way oppressive regimes treated AIDS: as a sign you were a deviant. So it spread, unchecked.</p>\n</blockquote>\n<p>One diff: NAT <em>had</em> to spread due to address exhaustion. Fortunately, we still have a few IPv6 addresses left.</p>\n</blockquote>\n<p>Not at the beginning.  Not when the various protocols and socializations were developing.  Addresses were available, but they were not free, often way over-priced.</p>",
+    "topic": "ietf-119",
+    "dtime": 7303000,
+    "ptime": 7303000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-6MAN-20240321-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/6man"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-6MAN-20240321-0300"
+		}		
+	]
+}

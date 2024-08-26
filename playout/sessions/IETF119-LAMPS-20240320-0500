@@ -1,0 +1,462 @@
+
+{
+	"title": "IETF119-LAMPS-20240320-0500",
+	"filename": "IETF119-LAMPS-20240320-0500",
+	"start": 0,
+	"end": 4997000,
+	"start_datetime": "2024-03-20T05:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "-rF6yr4h9oY",
+    "start": 0,
+    "end": "4997000"
+  }
+],
+	"messages": [
+  {
+    "author": "Falko Strenzke",
+    "text": "<p>There is no sound and no video</p>",
+    "topic": "ietf-119",
+    "dtime": 170000,
+    "ptime": 170000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p>I have sound and video</p>",
+    "topic": "ietf-119",
+    "dtime": 188000,
+    "ptime": 188000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>Are you using the full client or the onsite tool?</p>",
+    "topic": "ietf-119",
+    "dtime": 191000,
+    "ptime": 191000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>Use the full client and you should get both.</p>",
+    "topic": "ietf-119",
+    "dtime": 210000,
+    "ptime": 210000
+  },
+  {
+    "author": "Falko Strenzke",
+    "text": "<p>sorry, my error :-|</p>",
+    "topic": "ietf-119",
+    "dtime": 229000,
+    "ptime": 229000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>working fine for me.</p>",
+    "topic": "ietf-119",
+    "dtime": 243000,
+    "ptime": 243000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>NP - this isn't webex/zoon/meet ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 246000,
+    "ptime": 246000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>Isn't TLS 1.2 in the process of deprecation?</p>",
+    "topic": "ietf-119",
+    "dtime": 1254000,
+    "ptime": 1254000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>And to be clear CMC does not require TLS at all, but if you do then use 1.2 or later is what the I-D says.</p>",
+    "topic": "ietf-119",
+    "dtime": 1254000,
+    "ptime": 1254000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>It is technically obsoleted, but there's <a href=\"https://datatracker.ietf.org/doc/rfc9325/\">https://datatracker.ietf.org/doc/rfc9325/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1298000,
+    "ptime": 1298000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>@Sean: RFC9325 that you mentioned says it obsoletes 7525 (and not TLS 1.2)</p>",
+    "topic": "ietf-119",
+    "dtime": 1494000,
+    "ptime": 1494000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Yes to just precomputing DER(OID)</p>",
+    "topic": "ietf-119",
+    "dtime": 1499000,
+    "ptime": 1499000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Basically +1 to what Russ said</p>",
+    "topic": "ietf-119",
+    "dtime": 1521000,
+    "ptime": 1521000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>I'll throw in a PR to help stop the silliness</p>",
+    "topic": "ietf-119",
+    "dtime": 1659000,
+    "ptime": 1659000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>Do we need RSA-PSS?  The reasoning for including RSA was for old code.  How much old code was updated to PSS?  (And does it compile ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 1688000,
+    "ptime": 1688000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Can I please get help taking notes? I'm struggling to note-take and debate :)</p>",
+    "topic": "ietf-119",
+    "dtime": 1713000,
+    "ptime": 1713000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"693\">Jonathan Hammell</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-119/near/113320\">said</a>:</p>\n<blockquote>\n<p>Do we need RSA-PSS?  The reasoning for including RSA was for old code.  How much old code was updated to PSS?  (And does it compile ;)</p>\n</blockquote>\n<p>Useful comment. Can you take that to Mic plz?</p>",
+    "topic": "ietf-119",
+    "dtime": 1773000,
+    "ptime": 1773000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-mahy-lamps-im-keyusage-01.html\">https://www.ietf.org/archive/id/draft-mahy-lamps-im-keyusage-01.html</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1781000,
+    "ptime": 1781000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>I think TLS 1.2 is not obsolete, it is proposed to be feature freeze: <a href=\"https://datatracker.ietf.org/doc/draft-rsalz-tls-tls12-frozen/02/\">https://datatracker.ietf.org/doc/draft-rsalz-tls-tls12-frozen/02/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2126000,
+    "ptime": 2126000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>We don't hear you. Please speak in front of mic.</p>",
+    "topic": "ietf-119",
+    "dtime": 2301000,
+    "ptime": 2301000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>Mike is repeating John's comment</p>",
+    "topic": "ietf-119",
+    "dtime": 2313000,
+    "ptime": 2313000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>queue is locked, please take additional discussion on this point to the list</p>",
+    "topic": "ietf-119",
+    "dtime": 2349000,
+    "ptime": 2349000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>an implementation of composite-sigs-v13 was merged into OQS yesterday <span aria-label=\"partying face\" class=\"emoji emoji-1f973\" role=\"img\" title=\"partying face\">:partying_face:</span><br>\n<a href=\"https://github.com/open-quantum-safe/oqs-provider/pull/317\">https://github.com/open-quantum-safe/oqs-provider/pull/317</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2750000,
+    "ptime": 2750000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>in the big list of algorithms, why was there both an ML-DSA-44+Ed25519 combo <em>AND</em> an ML-DSA-65+Ed25519 combo?</p>",
+    "topic": "ietf-119",
+    "dtime": 2940000,
+    "ptime": 2940000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Because there isn't a middle strength of EdDSA</p>",
+    "topic": "ietf-119",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-119/near/113398\">said</a>:</p>\n<blockquote>\n<p>Because there isn't a middle strength of EdDSA</p>\n</blockquote>\n<p>Ed25519 would have a \"combined\" strength of 128, so why pair it with ML-DSA-65 at all?</p>",
+    "topic": "ietf-119",
+    "dtime": 3058000,
+    "ptime": 3058000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Are you asking us to change it to ML-DSA-65+Ed448? We can do that.</p>",
+    "topic": "ietf-119",
+    "dtime": 3098000,
+    "ptime": 3098000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>That would make more sense</p>",
+    "topic": "ietf-119",
+    "dtime": 3122000,
+    "ptime": 3122000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>The way we have it is consistent with X-Wing, which is ML-KEM768+X25519.</p>",
+    "topic": "ietf-119",
+    "dtime": 3143000,
+    "ptime": 3143000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p>Or remove the one where EdXXX doesn't align well with ML-DSA?</p>",
+    "topic": "ietf-119",
+    "dtime": 3150000,
+    "ptime": 3150000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I honestly think that if anything in this draft should be MUST IMPLEMENT, then ML-DSA-65+Ed25519 is the one as evidenced by the fact that it's  consistent with X-Wing and advice from the ML-DSA designers: <a href=\"https://pq-crystals.org/dilithium/index.shtml\">https://pq-crystals.org/dilithium/index.shtml</a>. If we're going to remove anything, it should be the ML-DSA-44+Ed25519, but that one's good because it's small.</p>",
+    "topic": "ietf-119",
+    "dtime": 3270000,
+    "ptime": 3270000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>Please move camera to Hannes</p>",
+    "topic": "ietf-119",
+    "dtime": 3349000,
+    "ptime": 3349000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-119/near/113405\">said</a>:</p>\n<blockquote>\n<p>The way we have it is consistent with X-Wing, which is ML-KEM768+X25519.</p>\n</blockquote>\n<p>Hmm, there was legitimate concern that Kyber512 / ML-KEM512 did not quite achieve 128-bits of effective security. Is there is a similar concern with ML-DSA-44 that it doesn't achieve 128-bits of security?</p>",
+    "topic": "ietf-119",
+    "dtime": 3557000,
+    "ptime": 3557000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>Is it limited to TPM and Arm PSA? or could it be used in confidential computing contexts also?</p>",
+    "topic": "ietf-119",
+    "dtime": 3598000,
+    "ptime": 3598000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>It could be used for any sort of attestation / evidence.</p>",
+    "topic": "ietf-119",
+    "dtime": 3775000,
+    "ptime": 3775000
+  },
+  {
+    "author": "Hendrik Brockhaus",
+    "text": "<p>We are happy to take text for CMC :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 3826000,
+    "ptime": 3826000
+  },
+  {
+    "author": "Quynh Dang",
+    "text": "<p><a href=\"https://csrc.nist.gov/csrc/media/Projects/post-quantum-cryptography/documents/faq/Kyber-512-FAQ.pdf\">https://csrc.nist.gov/csrc/media/Projects/post-quantum-cryptography/documents/faq/Kyber-512-FAQ.pdf</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3838000,
+    "ptime": 3838000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>ML-DSA-44 is category 2. So a category above AES-128. There was no similar discussion about ML-DSA-44.</p>",
+    "topic": "ietf-119",
+    "dtime": 3959000,
+    "ptime": 3959000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>John, you said ML-DSA-44 twice, did you mean that?</p>",
+    "topic": "ietf-119",
+    "dtime": 3997000,
+    "ptime": 3997000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>@Hendrik awesome!</p>",
+    "topic": "ietf-119",
+    "dtime": 4031000,
+    "ptime": 4031000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>John means that there was no discussion for ML-DSA-44 similar to the discussion on ML-KEM-512.</p>",
+    "topic": "ietf-119",
+    "dtime": 4063000,
+    "ptime": 4063000
+  },
+  {
+    "author": "Kris Kwiatkowski",
+    "text": "<p>Regarding, \"I honestly think that if anything in this draft should be MUST IMPLEMENT, then ML-DSA-65+Ed25519 \"</p>\n<p>I would say ML-DSA-44+ECDSA/P256 is the option to implement.<br>\nThe small MLDSA-44 is much faster than 65 for signing, has small memory footprint and you get 128-bit security from ECDSA anyway. Then, if one of the goals is to make a combo with FIPS-certified scheme, then there are probably not too many EdDSA FIPS-certified modules.</p>",
+    "topic": "ietf-119",
+    "dtime": 4087000,
+    "ptime": 4087000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I agree with the NIST statement Quynh linked:<br>\n\"the most plausible values for the practical security of Kyber512 against known attacks are signifcantly higher than that of AES128\"</p>",
+    "topic": "ietf-119",
+    "dtime": 4116000,
+    "ptime": 4116000
+  },
+  {
+    "author": "Kris Kwiatkowski",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 4132000,
+    "ptime": 4132000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>So that presumes the attester know which verifier he's asking for a nonce and it assumes he signals something in his nonce request which isn't there.</p>",
+    "topic": "ietf-119",
+    "dtime": 4166000,
+    "ptime": 4166000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"88\">Kris Kwiatkowski</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-119/near/113451\">said</a>:</p>\n<blockquote>\n<p>Regarding, \"I honestly think that if anything in this draft should be MUST IMPLEMENT, then ML-DSA-65+Ed25519 \"</p>\n<p>I would say ML-DSA-44+ECDSA/P256 is the option to implement.<br>\nThe small MLDSA-44 is much faster than 65 for signing, has small memory footprint and you get 128-bit security from ECDSA anyway. Then, if one of the goals is to make a combo with FIPS-certified scheme, then there are probably not too many EdDSA FIPS-certified modules.</p>\n</blockquote>\n<p>So. From hallway chats, it seems like TLS WG might choose ML-DSA-65 as the default signature scheme. It would look really silly if LAMPS didn't register OIDs to be able to make those certificates (assuming they want them in hybrid).</p>",
+    "topic": "ietf-119",
+    "dtime": 4197000,
+    "ptime": 4197000
+  },
+  {
+    "author": "Kris Kwiatkowski",
+    "text": "<p>Good point. Although, I would be surprised if hybrids is used in TLS.</p>",
+    "topic": "ietf-119",
+    "dtime": 4302000,
+    "ptime": 4302000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>The atteester need not request a nonce. The verifier could simply require it.</p>",
+    "topic": "ietf-119",
+    "dtime": 4382000,
+    "ptime": 4382000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>Please use the mic.</p>",
+    "topic": "ietf-119",
+    "dtime": 4409000,
+    "ptime": 4409000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I think ML-DSA-44 and  ML-DSA-87 (without hybrid) would be most interesting in TLS. (But I think TLS should register all three ML-DSA).</p>",
+    "topic": "ietf-119",
+    "dtime": 4420000,
+    "ptime": 4420000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>@Ned, that was my suggestion for putting it in the csrattrs response. \"Here's a nonce\".</p>",
+    "topic": "ietf-119",
+    "dtime": 4426000,
+    "ptime": 4426000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>@dan Seems like that is good enough</p>",
+    "topic": "ietf-119",
+    "dtime": 4489000,
+    "ptime": 4489000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i thought dan was asking for it in EST</p>",
+    "topic": "ietf-119",
+    "dtime": 4492000,
+    "ptime": 4492000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>@chairs: Can you move to the slide with the figure?</p>",
+    "topic": "ietf-119",
+    "dtime": 4523000,
+    "ptime": 4523000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>@Daniel there are two parts the signaling and the nonce. Could be the same or separate I suppose</p>",
+    "topic": "ietf-119",
+    "dtime": 4535000,
+    "ptime": 4535000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>or are we supposed to read this slide as all data elements in CMP are also included in EST, just in json?</p>",
+    "topic": "ietf-119",
+    "dtime": 4538000,
+    "ptime": 4538000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>@Daniel The slide shows a solid line from verfier to EE/Attester, but there may be protocol layering at play</p>",
+    "topic": "ietf-119",
+    "dtime": 4630000,
+    "ptime": 4630000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>I'd need to double check the draft, but on first read a few weeks back I think there was a missing hint in the nonce response, which seemed necessary given the hint shows up in the evidence statement.</p>",
+    "topic": "ietf-119",
+    "dtime": 4654000,
+    "ptime": 4654000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-119/near/113477\">said</a>:</p>\n<blockquote>\n<p>or are we supposed to read this slide as all data elements in CMP are also included in EST, just in json?</p>\n</blockquote>\n<p><a href=\"https://www.ietf.org/archive/id/draft-tschofenig-lamps-nonce-cmp-est-01.html#name-conveying-a-nonce-in-est\">https://www.ietf.org/archive/id/draft-tschofenig-lamps-nonce-cmp-est-01.html#name-conveying-a-nonce-in-est</a></p>\n<div class=\"codehilite\"><pre><span></span><code>POST /.well-known/est/nonce HTTP/1.1\nContent-Type: application/json\n{\n  &quot;len&quot;: 8,\n  &quot;hint&quot;: &quot;https://example.com&quot;\n}\n</code></pre></div>\n<p>The hint is there in the EST version also. Bad slides. Good draft.</p>",
+    "topic": "ietf-119",
+    "dtime": 4672000,
+    "ptime": 4672000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"617\">Carl Wallace</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-119/near/113483\">said</a>:</p>\n<blockquote>\n<p>I'd need to double check the draft, but on first read a few weeks back I think there was a missing hint in the nonce response, which seemed necessary given the hint shows up in the evidence statement.</p>\n</blockquote>\n<p>You're implying that the Attester would echo the hint from the Response into the Attestation?</p>",
+    "topic": "ietf-119",
+    "dtime": 4743000,
+    "ptime": 4743000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>So in the draft it's not clear what's in the request.</p>",
+    "topic": "ietf-119",
+    "dtime": 4880000,
+    "ptime": 4880000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-LAMPS-20240320-0500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/lamps"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-LAMPS-20240320-0500"
+		}		
+	]
+}

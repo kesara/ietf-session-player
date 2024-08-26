@@ -1,0 +1,1865 @@
+
+{
+	"title": "IETF114-MOQ-20220727-1400",
+	"filename": "IETF114-MOQ-20220727-1400",
+	"start": 0,
+	"end": 6413000,
+	"start_datetime": "2022-07-27T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "-ZsbbUjvzTY",
+    "start": 0,
+    "end": "6413000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ted Hardie",
+    "text": "<p>If you can take notes locally, we can integrate them later</p>",
+    "dtime": 14000,
+    "ptime": 14000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>lol, kudos to the chairs, can't believe this is the first Gritty i've seen this IETF</p>",
+    "dtime": 17000,
+    "ptime": 17000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>test</p>",
+    "dtime": 52000,
+    "ptime": 52000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>ack</p>",
+    "dtime": 118000,
+    "ptime": 118000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>there is like 1500ms of latency on the chat, kind of baffling</p>",
+    "dtime": 133000,
+    "ptime": 133000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Meetecho, I'm getting distortion from Ted Hardie's mike.</p>",
+    "dtime": 157000,
+    "ptime": 157000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>me too</p>",
+    "dtime": 178000,
+    "ptime": 178000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Ok, I can take notes locally</p>",
+    "dtime": 187000,
+    "ptime": 187000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>Morning Everyone</p>",
+    "dtime": 221000,
+    "ptime": 221000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Also appreciate any other help for the note takers</p>",
+    "dtime": 241000,
+    "ptime": 241000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>+1, thanks for those assisting</p>",
+    "dtime": 264000,
+    "ptime": 264000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>~100 people in the room for those curious</p>",
+    "dtime": 283000,
+    "ptime": 283000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Ted, I think you are clipping. You should lower the gain of your mic, not just move farther from it.</p>",
+    "dtime": 296000,
+    "ptime": 296000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>is the double negative in the final question intentional?</p>",
+    "dtime": 331000,
+    "ptime": 331000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>It is not.</p>",
+    "dtime": 347000,
+    "ptime": 347000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Hmmm - the questions don't include \"willing to write/edit documents\". I guess plenty of people have already stepped forward.</p>",
+    "dtime": 472000,
+    "ptime": 472000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>q: does it imply that protocol will be on top of QUIC datagrams only?</p>",
+    "dtime": 602000,
+    "ptime": 602000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>The charter said streams or datagrams, I think.</p>",
+    "dtime": 617000,
+    "ptime": 617000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I feel like there's something wonky about the grammar of the bullet point</p>\n<ul>\n<li>rate adaption strategies based on changing codec rates, changing chosen media encoding/qualities</li>\n</ul>",
+    "dtime": 625000,
+    "ptime": 625000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1040\">@Kirill Pugin</span> the charter says streams or datagrams or both</p>",
+    "dtime": 626000,
+    "ptime": 626000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>you can do adaptive streaming with QUIC pluggable congestion controllers on streams</p>",
+    "dtime": 636000,
+    "ptime": 636000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Martin Thomson, yes, I was confused by milestones, where it says \"WG adoption of Protocol Specification for Datagram Extension to Media Publication<br>\nProtocol over QUIC\"</p>",
+    "dtime": 693000,
+    "ptime": 693000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<ol>\n<li>\"will be a push protocol for sending media\"</li>\n<li>\"The mechanism to name and receive media will enable:<br>\n• Requesting the server start sending\"<br>\n??? Sounds like a pull to me.</li>\n</ol>",
+    "dtime": 712000,
+    "ptime": 712000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Perhaps: \"This solution will address X, Y, and Z, and may cover other use cases.\"</p>",
+    "dtime": 715000,
+    "ptime": 715000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>Is the intent to develop a single solution that addresses ALL or multiple, possibly related, but possibly distinct solutions?</p>",
+    "dtime": 719000,
+    "ptime": 719000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>cause this is very broad covering a lot of media with very different charateristics and demands</p>",
+    "dtime": 758000,
+    "ptime": 758000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Mic</p>",
+    "dtime": 762000,
+    "ptime": 762000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Can someone post the link to the github repo for PRs?</p>",
+    "dtime": 805000,
+    "ptime": 805000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Hey! I just said what Victor said! <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "dtime": 823000,
+    "ptime": 823000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter\">https://github.com/moq-wg/moq-charter</a></p>",
+    "dtime": 830000,
+    "ptime": 830000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Why even call it a push protocol?</p>",
+    "dtime": 843000,
+    "ptime": 843000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter/blob/main/charter.md\">https://github.com/moq-wg/moq-charter/blob/main/charter.md</a></p>",
+    "dtime": 845000,
+    "ptime": 845000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Victor, should we change \"request media and encodings\" to \"receive media and encodings\"</p>",
+    "dtime": 864000,
+    "ptime": 864000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> audio better but still a bit distorted, any way to lower the gain a bit?</p>",
+    "dtime": 891000,
+    "ptime": 891000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>s/request/solicit</p>",
+    "dtime": 895000,
+    "ptime": 895000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>\"Push\" seems to me to imply \"unsolicited\".</p>",
+    "dtime": 907000,
+    "ptime": 907000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>;)</p>",
+    "dtime": 919000,
+    "ptime": 919000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"solicit\" is just a synonym.  can we be clear about what the semantics of the protocol will look like?</p>",
+    "dtime": 940000,
+    "ptime": 940000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>+1 MT</p>",
+    "dtime": 954000,
+    "ptime": 954000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It seems to me that what you really have for distribution is pull.  Push for ingest works.</p>",
+    "dtime": 984000,
+    "ptime": 984000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>push for distribution also can work</p>",
+    "dtime": 1003000,
+    "ptime": 1003000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I think the intent is that the media is pushed, rather than requested segment by segment</p>",
+    "dtime": 1018000,
+    "ptime": 1018000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>but it needs to be bidir as Cullen is saying right now</p>",
+    "dtime": 1028000,
+    "ptime": 1028000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>it's sounds like pub/sub</p>",
+    "dtime": 1036000,
+    "ptime": 1036000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Lucas, exactly! :D</p>",
+    "dtime": 1046000,
+    "ptime": 1046000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"502\">@Alan Frindell</span> if you are pushing in response to a request, it's a response to a request, even if there is lots of stuff that you need to send</p>",
+    "dtime": 1067000,
+    "ptime": 1067000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>agreed</p>",
+    "dtime": 1078000,
+    "ptime": 1078000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>+1 to Kyle's point</p>",
+    "dtime": 1086000,
+    "ptime": 1086000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>Gaming requires interactivity in almost all modern games.</p>",
+    "dtime": 1101000,
+    "ptime": 1101000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>The DNS over QUIC use case was ther efrom the beginning</p>",
+    "dtime": 1117000,
+    "ptime": 1117000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>+1 to Luke.</p>",
+    "dtime": 1139000,
+    "ptime": 1139000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"896\">@Juliusz Chroboczek</span> <span class=\"user-mention\" data-user-id=\"1058\">@Kyle Rose</span> you are still in queue</p>",
+    "dtime": 1144000,
+    "ptime": 1144000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Please remember to depart the queue once you've said your bit.</p>",
+    "dtime": 1153000,
+    "ptime": 1153000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Thanks, corrected.</p>",
+    "dtime": 1157000,
+    "ptime": 1157000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Could the chairs ask \"who else would have said this at the mike?\", rather than wait for each of us to get up and say the same thing?</p>",
+    "dtime": 1162000,
+    "ptime": 1162000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Having at least 2 use cases is a good way to avoid over-specialization</p>",
+    "dtime": 1168000,
+    "ptime": 1168000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Sorry, I mean game streaming (e.g., twitch)</p>",
+    "dtime": 1172000,
+    "ptime": 1172000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>the chairs can/should remove them from the queue</p>",
+    "dtime": 1175000,
+    "ptime": 1175000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Gaming is surely low-latency interactive like video conferencing</p>",
+    "dtime": 1184000,
+    "ptime": 1184000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>ack</p>",
+    "dtime": 1220000,
+    "ptime": 1220000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I think Kyle was thinking of the twitch usecase, which is just video-streaming with a medium-latency chat in the opposite direction.</p>",
+    "dtime": 1237000,
+    "ptime": 1237000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>I'm going to say something about \"low-latency\", but I'll try not to say the same thing again ...</p>",
+    "dtime": 1242000,
+    "ptime": 1242000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"887\">@Victor Vasiliev</span> ... Luke's point was that this is a design detail, not something that needs to be encoded in a charter.</p>",
+    "dtime": 1273000,
+    "ptime": 1273000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Ideally, everything is low latency. So we obv need to come up with definitions for kinda-low latency, definitely low latency, super low latency, ultra low latency, and nearly-instantaneous low-latency.</p>",
+    "dtime": 1320000,
+    "ptime": 1320000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>the solution is to just use numbers of your upper latency bound</p>",
+    "dtime": 1355000,
+    "ptime": 1355000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Is the issue \"low-latency\", or is the issue \"interactive\"? Latency is important for live streams/meetings, but it's way the heck more important for cloud gaming</p>",
+    "dtime": 1381000,
+    "ptime": 1381000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I'm okay with that if people agree it's in scope.</p>",
+    "dtime": 1382000,
+    "ptime": 1382000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Thanks.</p>",
+    "dtime": 1387000,
+    "ptime": 1387000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>+1 Bernard, but we should seriously be asking \"who agrees with that statement\" as we go.</p>",
+    "dtime": 1453000,
+    "ptime": 1453000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>If we fork this into multiple working groups, would it be multiple working groups with the same participants anyway?  Would that force serialization of the work?</p>",
+    "dtime": 1468000,
+    "ptime": 1468000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter/pull/52\">https://github.com/moq-wg/moq-charter/pull/52</a> proposed change to charter ti reove push</p>",
+    "dtime": 1488000,
+    "ptime": 1488000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>Is it possible to encourage using the tool to track who is talking... it's slightly harder for a remote particpant to see who was talking when people wear masks?</p>",
+    "dtime": 1525000,
+    "ptime": 1525000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter/pull/51\">https://github.com/moq-wg/moq-charter/pull/51</a> PR to fix the grammar issue I mentioned, and to make the rate adaptation bullet point more general</p>",
+    "dtime": 1554000,
+    "ptime": 1554000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>The tool should show you through animation who's talking.  The browser version does at least.</p>",
+    "dtime": 1572000,
+    "ptime": 1572000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"339\">Christian Huitema</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/25376\">said</a>:</p>\n<blockquote>\n<p>Having at least 2 use cases is a good way to avoid over-specialization</p>\n</blockquote>\n<p>Agreed, but 2 is still a lot smaller than the N being discussed here. And as I think we're seeing with QUIC, it's mostly important that enough people with different use cases be involved enough to say \"keep in mind we want to do X in the future, so don't bake in something that precludes that\". IMO, this effort will be most successful if it focuses on a clear, well-defined use case as a first deliverable.</p>",
+    "dtime": 1578000,
+    "ptime": 1578000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"730\">Gorry Fairhurst</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/25433\">said</a>:</p>\n<blockquote>\n<p>Is it possible to encourage using the tool to track who is talking... it's slightly harder for a remote particpant to see who was talking when people wear masks?</p>\n</blockquote>\n<p>It's not a breeze for us, either! I'm not complaining, just noting this is a challenge.</p>",
+    "dtime": 1595000,
+    "ptime": 1595000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>+1 Kyle</p>",
+    "dtime": 1639000,
+    "ptime": 1639000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>+1 Ted.</p>",
+    "dtime": 1642000,
+    "ptime": 1642000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Ted's mic has very good gain. <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "dtime": 1707000,
+    "ptime": 1707000
+  },
+  {
+    "author": "Kiran Makhijani",
+    "text": "<p>if the use cases are limited or modified - will it also change the type of endpoints involved?</p>",
+    "dtime": 1801000,
+    "ptime": 1801000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Note that limiting the use cases in the charter doesn't mean that the WG can't <em>ever</em> work on other use cases; it just requires going back to the IESG to re-charter.</p>",
+    "dtime": 1943000,
+    "ptime": 1943000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>+1 Pete</p>",
+    "dtime": 1981000,
+    "ptime": 1981000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Which is not to say that's a requirement, just one possible path.</p>",
+    "dtime": 2008000,
+    "ptime": 2008000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Which draft was just referred to?</p>",
+    "dtime": 2027000,
+    "ptime": 2027000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>\"individual draft has no stnading\"?</p>",
+    "dtime": 2045000,
+    "ptime": 2045000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>as in not adopted by any working group I assume?</p>",
+    "dtime": 2065000,
+    "ptime": 2065000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I imagine there's some risk that if you say \"A first, then B\", you can develop A without considering B at all, and the risk of boxing yourself in increases.</p>",
+    "dtime": 2073000,
+    "ptime": 2073000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I would say \"media distribution\" protocol is the building block we're aiming for.</p>",
+    "dtime": 2091000,
+    "ptime": 2091000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I'd like to know which concrete draft that is.</p>",
+    "dtime": 2100000,
+    "ptime": 2100000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>If you specialize too early in that, you end up with a bad building block for the others.</p>",
+    "dtime": 2112000,
+    "ptime": 2112000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>There is no \"Distribution\" without \"Contribution\" Ted ;)</p>",
+    "dtime": 2117000,
+    "ptime": 2117000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>+100 to what @Cullen is saying</p>",
+    "dtime": 2119000,
+    "ptime": 2119000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 on what fluffy said</p>",
+    "dtime": 2119000,
+    "ptime": 2119000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-gruessing-moq-requirements\">https://datatracker.ietf.org/doc/html/draft-gruessing-moq-requirements</a></p>",
+    "dtime": 2131000,
+    "ptime": 2131000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Thanks Cullen. That helped clarify what the desire is. Perhaps <em>that</em> should be said in the charter.</p>",
+    "dtime": 2145000,
+    "ptime": 2145000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>contribution is just inbound distribution</p>",
+    "dtime": 2146000,
+    "ptime": 2146000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Which draft was just referred to?</p>\n<p>10:33<br>\n\"individual draft has no stnading\"?</p>",
+    "dtime": 2148000,
+    "ptime": 2148000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>a unified tool is a spork, but we all still prefer spoons, knifes, and forks because they do their tasks really well together.</p>",
+    "dtime": 2158000,
+    "ptime": 2158000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Thanks Alan.</p>",
+    "dtime": 2158000,
+    "ptime": 2158000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Which draft was just referred to?</p>\n<p>10:33<br>\n\"individual draft has no stnading\"?</p>",
+    "dtime": 2171000,
+    "ptime": 2171000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>What Fluffy said was not clear to me in the current  charter text.</p>",
+    "dtime": 2226000,
+    "ptime": 2226000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Thanks, Alan - that's the one. And the draft hasn't been adopted by any working group, because we're trying to create the working group now <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+    "dtime": 2242000,
+    "ptime": 2242000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>cases like inject depend highly reliable behavior whereas most distribution cases do not - that's just one big difference.</p>",
+    "dtime": 2261000,
+    "ptime": 2261000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Glenn, I don't think we're looking at swiss army knife here, but Lego blocks; from those you can build lots of things.</p>",
+    "dtime": 2266000,
+    "ptime": 2266000
+  },
+  {
+    "author": "Kiran Makhijani",
+    "text": "<p>maybe saying 'live streaming usecases' in the charter is a better way to go about it.</p>",
+    "dtime": 2292000,
+    "ptime": 2292000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I've never heard mandatory pronounced as mandate-ory.  I know it makes sense, but that threw me.</p>",
+    "dtime": 2440000,
+    "ptime": 2440000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>@Ted - that's not what I'm hearing when it's described as a unified tool.       Perhaps integrated tool?</p>",
+    "dtime": 2451000,
+    "ptime": 2451000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>-1 on \"ends-to-ends\"</p>",
+    "dtime": 2454000,
+    "ptime": 2454000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>So, I'm confused: are we designing a generic media distribution system or a point-to-point transport on top of QUIC? The latter is reasonably well-defined, even if the required properties will differ based on the specific use case (as Glenn noted);  but the former is exactly the kind of worm-can this group really, really needs to avoid.</p>",
+    "dtime": 2463000,
+    "ptime": 2463000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Martin: welcome to the world of non-native speakers... we're thrown off by the pronunciation of English constantly ;-)</p>",
+    "dtime": 2479000,
+    "ptime": 2479000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Are the slides here somewhere?</p>",
+    "dtime": 2499000,
+    "ptime": 2499000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I don't understand what ends-to-ends means</p>",
+    "dtime": 2505000,
+    "ptime": 2505000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Pub/sub-style one-to-many or many-to-many distribution should explicitly be out of scope for this effort.</p>",
+    "dtime": 2522000,
+    "ptime": 2522000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/25634\">said</a>:</p>\n<blockquote>\n<p>Are the slides here somewhere?</p>\n</blockquote>\n<p><a href=\"https://datatracker.ietf.org/meeting/114/materials/slides-114-moq-chair-slides-for-moq-bof-00\">https://datatracker.ietf.org/meeting/114/materials/slides-114-moq-chair-slides-for-moq-bof-00</a></p>",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>Folks nobody is making the notes</p>",
+    "dtime": 2546000,
+    "ptime": 2546000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"896\">Juliusz Chroboczek</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/25632\">said</a>:</p>\n<blockquote>\n<p>Martin: welcome to the world of non-native speakers... we're thrown off by the pronunciation of English constantly ;-)</p>\n</blockquote>\n<p>So are we.</p>",
+    "dtime": 2561000,
+    "ptime": 2561000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>The note taker is taking them locally because of a tool issue</p>",
+    "dtime": 2567000,
+    "ptime": 2567000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Behcet, aren't Lucas is and someone else taking notes?</p>",
+    "dtime": 2575000,
+    "ptime": 2575000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>maybe they do it not in the tool</p>",
+    "dtime": 2588000,
+    "ptime": 2588000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Luca*</p>",
+    "dtime": 2601000,
+    "ptime": 2601000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1040\">@Kirill Pugin</span> that's what Ted is saying</p>",
+    "dtime": 2626000,
+    "ptime": 2626000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Behcet Sarikaya, yeah I just slow at typing :D</p>",
+    "dtime": 2656000,
+    "ptime": 2656000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I think it would be a good outcome here to have a protocol that can seamlessly move from real-time to buffered; the fact that we have a hard line today between protocols for these is a bad thing, not a good one.</p>",
+    "dtime": 2676000,
+    "ptime": 2676000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>hm... noob question: why my tagging people doesn't work? :D</p>",
+    "dtime": 2681000,
+    "ptime": 2681000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Just in case that wasn't clear, that was MOP not MoQ</p>",
+    "dtime": 2685000,
+    "ptime": 2685000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>MOPS</p>",
+    "dtime": 2696000,
+    "ptime": 2696000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>this is a MOPS-to-MoQ push</p>",
+    "dtime": 2736000,
+    "ptime": 2736000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>+1 to Leslie's great points</p>",
+    "dtime": 2756000,
+    "ptime": 2756000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Jonathan Rosenberg<br>\n+1, that what I was trying to say, probably not very well</p>",
+    "dtime": 2764000,
+    "ptime": 2764000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Kirill, you were reasonably clear.</p>",
+    "dtime": 2789000,
+    "ptime": 2789000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 to what Jonathan said</p>",
+    "dtime": 2792000,
+    "ptime": 2792000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Also +1 to Leslie about the relationship with MOPS.</p>",
+    "dtime": 2894000,
+    "ptime": 2894000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>To EKR: if we have relays, then encryption of content prevents relays from accessing it</p>",
+    "dtime": 2895000,
+    "ptime": 2895000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>+1 to <span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> 's comment on \"NO on ends-to-ends\"</p>",
+    "dtime": 2901000,
+    "ptime": 2901000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Christian: yes, that was my impression, but my point is that this charter doesn't really say that</p>",
+    "dtime": 2918000,
+    "ptime": 2918000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>to EKR's point - QUIC encryption only protects on the wire, it does not protect at caching or reception.</p>",
+    "dtime": 2961000,
+    "ptime": 2961000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Can encryption of content be left to existing DRM systems?</p>",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I interpret it as a way of saying \"support DRM\"</p>",
+    "dtime": 2970000,
+    "ptime": 2970000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Glenn: yes, I understand this point. My point is that the charter is unclear</p>",
+    "dtime": 2980000,
+    "ptime": 2980000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>while exposing metadata to relays</p>",
+    "dtime": 2985000,
+    "ptime": 2985000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> <a href=\"https://github.com/moq-wg/moq-charter/issues/57\">https://github.com/moq-wg/moq-charter/issues/57</a></p>",
+    "dtime": 2996000,
+    "ptime": 2996000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>Luke: Was hoping that we'd treat DRM in an opaque fashion much like existing protocols today.</p>",
+    "dtime": 3040000,
+    "ptime": 3040000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>DRM is controversial. Maintaining confidentiality of the content of a multiparty conversation, less so.</p>",
+    "dtime": 3043000,
+    "ptime": 3043000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>where is the usecase for confidentiality with relays outside of DRM coming from?</p>",
+    "dtime": 3075000,
+    "ptime": 3075000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>Agree with @Christian, DRM have different goal than e2e encryption</p>",
+    "dtime": 3091000,
+    "ptime": 3091000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> - audio and video conferencing</p>",
+    "dtime": 3092000,
+    "ptime": 3092000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>DRM is involves rights management - aka compliance with a complex set of use rules.  Encryption at rest and protection from disclosure isn't necessarily DRM.</p>",
+    "dtime": 3099000,
+    "ptime": 3099000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Re end-to-end, I think the charter is reasonably clear.</p>",
+    "dtime": 3108000,
+    "ptime": 3108000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> I would assume it comes from the same reason as any other E2E encryption, e.g., for messaging</p>",
+    "dtime": 3130000,
+    "ptime": 3130000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> also <a href=\"https://github.com/moq-wg/moq-charter/issues/58\">https://github.com/moq-wg/moq-charter/issues/58</a></p>",
+    "dtime": 3171000,
+    "ptime": 3171000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Alex: sharing confidential data with your colleagues without Zoom doing industrial espionage?</p>",
+    "dtime": 3184000,
+    "ptime": 3184000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>But in E2E messaging  we usually separate transport encryption from message encryption, and they're layered, no?</p>",
+    "dtime": 3186000,
+    "ptime": 3186000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>does the same technique not work here?</p>",
+    "dtime": 3196000,
+    "ptime": 3196000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>that is the case here as well. the transport encryption is quic</p>",
+    "dtime": 3201000,
+    "ptime": 3201000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"344\">Alex Chernyakhovsky</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/25786\">said</a>:</p>\n<blockquote>\n<p>does the same technique not work here?</p>\n</blockquote>\n<p>Yes, maybe.  But probably not.</p>",
+    "dtime": 3212000,
+    "ptime": 3212000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>would explicitly mentioning DRM make more sense instead of hand-waving \"encryption\"?</p>",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>The message encryption is this</p>",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Alex: if you want the relay to be able to drop frames on congestion, you need to send some metadata in the clear.</p>",
+    "dtime": 3227000,
+    "ptime": 3227000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>-1 to mentioning DRM</p>",
+    "dtime": 3238000,
+    "ptime": 3238000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I say probably not because e2ee for messaging generally doesn't involve selective leaks to enable certain actions by intermediaries.</p>",
+    "dtime": 3250000,
+    "ptime": 3250000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>-1 to DRM</p>",
+    "dtime": 3273000,
+    "ptime": 3273000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@MT: is that really true? For instance, e-mail with OpenPGP has addressing information in the clear (over TLS, of course)</p>",
+    "dtime": 3287000,
+    "ptime": 3287000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>You also need an integrity scheme that is not broken when you drop droppable frames.</p>",
+    "dtime": 3293000,
+    "ptime": 3293000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>DRM more politics than technical problem</p>",
+    "dtime": 3296000,
+    "ptime": 3296000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>on encryption - consider the case of a private conversation where caching nodes can read the message in the clear from the cache.</p>",
+    "dtime": 3298000,
+    "ptime": 3298000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> I think that the difference here is that the requirements for media might extend beyond addressing/reachability info.</p>",
+    "dtime": 3321000,
+    "ptime": 3321000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>hm, if we want to drop frames, shouldn't there be work at the media layer so e.g., h264 or av1 have a concept of an encrypted frame...?</p>",
+    "dtime": 3348000,
+    "ptime": 3348000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>otherwise I don't understand how we can expose a rich enough metadata that won't be fragile to new media formats</p>",
+    "dtime": 3390000,
+    "ptime": 3390000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>No, encryption happens at a higher layer.  What the modern codecs provide is information in the header that indicates which pieces of data can be dropped without breaking subsequent frames.</p>",
+    "dtime": 3409000,
+    "ptime": 3409000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>is that actually a property of the codec, and not the container?</p>",
+    "dtime": 3443000,
+    "ptime": 3443000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>.. and that \"indication of what can be dropped\" needs to be available to the relays.</p>",
+    "dtime": 3443000,
+    "ptime": 3443000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Juliusz, does that mean that encryption layer needs to be aware of that codec information?</p>",
+    "dtime": 3448000,
+    "ptime": 3448000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Yes, unfortunately the metadata is codec-specific.  So either you have codec-specific code in the relays, or you map all of the codec-specific data to a common data structure.</p>",
+    "dtime": 3470000,
+    "ptime": 3470000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>EKR's point about authentication is good.  Maybe this protocol should assure that metadata is always E2E authenticated, and may be E2E encrypted.</p>",
+    "dtime": 3474000,
+    "ptime": 3474000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> I would prefer the opposite: an MTI which can be overrided in specific use cases</p>",
+    "dtime": 3491000,
+    "ptime": 3491000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>@Kirill, yes, that's currently the case.</p>",
+    "dtime": 3494000,
+    "ptime": 3494000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>+1 to where Ted is headed ...</p>",
+    "dtime": 3517000,
+    "ptime": 3517000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>+1 to ekr, and that mandatory format support stifles future agility in implementations</p>",
+    "dtime": 3532000,
+    "ptime": 3532000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>I think the only data in the metadata is stuff that the system absoltyely can't work without the cache and server seeing.</p>",
+    "dtime": 3535000,
+    "ptime": 3535000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>\"mandatory for some\" doesn't sound mandatory</p>",
+    "dtime": 3535000,
+    "ptime": 3535000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>as long as \"MTI that can be overriden\" is just MTI without mandatory to use</p>",
+    "dtime": 3558000,
+    "ptime": 3558000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>E2E encryption does not preclude transcoding, it just requires that the transcoder be an end to the encryption</p>",
+    "dtime": 3577000,
+    "ptime": 3577000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Mandatory === \"we WISH YOU WOULD BUT KNOW YOU WON\"T\" - what's the RFC on that</p>",
+    "dtime": 3654000,
+    "ptime": 3654000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>RFC 6919</p>",
+    "dtime": 3661000,
+    "ptime": 3661000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>MUST (BUT WE KNOW YOU WON'T) <a href=\"https://datatracker.ietf.org/doc/html/rfc6919#section-1\">https://datatracker.ietf.org/doc/html/rfc6919#section-1</a></p>",
+    "dtime": 3681000,
+    "ptime": 3681000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Is there anyone in chat who feels they can write a PR that captures the changed encryption wording being proposed?</p>",
+    "dtime": 3780000,
+    "ptime": 3780000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i can take a stab at it.  what's the repo URL?</p>",
+    "dtime": 3797000,
+    "ptime": 3797000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>why wouldn't we do caching for Live streaming?</p>",
+    "dtime": 3798000,
+    "ptime": 3798000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>we do...</p>",
+    "dtime": 3803000,
+    "ptime": 3803000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter\">https://github.com/moq-wg/moq-charter</a>.</p>",
+    "dtime": 3815000,
+    "ptime": 3815000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>the effect of caching for livestreaming diminishes as the buffer size of the stream decreases (ultra low latency, for example)</p>",
+    "dtime": 3895000,
+    "ptime": 3895000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>The viewers dont decide on the codecs or the formats, the platforms they use pick them.</p>",
+    "dtime": 3905000,
+    "ptime": 3905000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Luke, are you suggesting that we support only 1 format? what if in 10 years there is better format?</p>",
+    "dtime": 3906000,
+    "ptime": 3906000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Once again, MTI doesn't mean Mandatory to Use; it does give you a way to confirm inter-operation.</p>",
+    "dtime": 3938000,
+    "ptime": 3938000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Alex, well, if you have 1M viewers on ultra low latency - do you really want them all to go to your origin?</p>",
+    "dtime": 3946000,
+    "ptime": 3946000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>@kirill I thought the point was to not require any specific format so that in future the one format can be chosen by the implementor? Not that we only define one here.</p>",
+    "dtime": 3957000,
+    "ptime": 3957000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>No, we don't go to origin. But we do fanout from RAM</p>",
+    "dtime": 3972000,
+    "ptime": 3972000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>RAM is cache - no?</p>",
+    "dtime": 3982000,
+    "ptime": 3982000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I generally call things \"caching\" if we write it to durable storage</p>",
+    "dtime": 3983000,
+    "ptime": 3983000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>btw.  DRM key management is usually done by separate a callout to a key server by a player.  So that's not even the case I think we're discussing here about encryption.</p>",
+    "dtime": 3986000,
+    "ptime": 3986000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>If there is a specific broadcast, it makes sense to have a specific codec for that broadcast. If the broadcaster selects a poor;y supported codec, there will be fewer viewers...</p>",
+    "dtime": 3987000,
+    "ptime": 3987000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter/pull/59\">https://github.com/moq-wg/moq-charter/pull/59</a></p>",
+    "dtime": 4017000,
+    "ptime": 4017000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>(because ram buffers mostly exist to save the storage media from to many iops, and we don't bother in the YT Live implementation to even think about hitting storage for ultra low latency streams)</p>",
+    "dtime": 4032000,
+    "ptime": 4032000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>without an MTI format, you will possibly have to support all formats the different platforms decide to pick for coverage</p>",
+    "dtime": 4043000,
+    "ptime": 4043000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>the charter allows peers to request encodings,  so I interpret requesting the mandatory to implement encoding means that it must work</p>",
+    "dtime": 4052000,
+    "ptime": 4052000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"657\">@Luke Curley</span> that is the usual intent</p>",
+    "dtime": 4064000,
+    "ptime": 4064000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Alex, what if you have 1M viewing stream at 1s latency and 1M viewing same stream at 10s latency?</p>",
+    "dtime": 4066000,
+    "ptime": 4066000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I don't think YT supports multiple latency values for a single stream</p>",
+    "dtime": 4095000,
+    "ptime": 4095000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>it's decided by the producer iirc</p>",
+    "dtime": 4101000,
+    "ptime": 4101000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>so I don't have any experience with that sort of situation</p>",
+    "dtime": 4107000,
+    "ptime": 4107000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I haven't thought about it seriously, but what about MTI for the receiver?  E.g. a guarantee that if you send AV1+Opus, then all receivers must accept it?</p>",
+    "dtime": 4117000,
+    "ptime": 4117000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah, so if GIF is mandatory to implement, and a viewer requests GIF, then I must produce GIF even if 99% of viewers are using the better PNG format</p>",
+    "dtime": 4134000,
+    "ptime": 4134000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"657\">@Luke Curley</span> depending on how it's written, yes. Sometimes it's just a requirement on clients</p>",
+    "dtime": 4162000,
+    "ptime": 4162000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>No, the opposite — if you put GIF on your webpage, then all compliant browsers will see the image.</p>",
+    "dtime": 4174000,
+    "ptime": 4174000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>(using image formats to avoid codec wars)</p>",
+    "dtime": 4175000,
+    "ptime": 4175000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Even for realtime, we can have events like clients loosing connectivity and reconnecting. You want to sevre them enough data from the cache to avoid big glitches in the video.</p>",
+    "dtime": 4192000,
+    "ptime": 4192000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Encryption PR <a href=\"https://github.com/moq-wg/moq-charter/pull/60\">https://github.com/moq-wg/moq-charter/pull/60</a></p>",
+    "dtime": 4218000,
+    "ptime": 4218000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>if a client loses connectivity for longer than the buffer size, there will always be big glitches in video</p>",
+    "dtime": 4230000,
+    "ptime": 4230000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>fwiw, I am +1 on not requiring specific format - it gets outdated too quickly</p>",
+    "dtime": 4238000,
+    "ptime": 4238000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(PR adopts EKR's suggestion for E2E authentication of metadata)</p>",
+    "dtime": 4243000,
+    "ptime": 4243000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>if a client reqursts GIF and you don't want to, tell them to GOAWAY</p>",
+    "dtime": 4250000,
+    "ptime": 4250000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah for video distribution, we would not serve the viewer GIF because it's too expensive, as it requires transcoding and duplicated caching</p>",
+    "dtime": 4273000,
+    "ptime": 4273000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 on Lucaas</p>",
+    "dtime": 4283000,
+    "ptime": 4283000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>that seems entirely reasonable Luke</p>",
+    "dtime": 4291000,
+    "ptime": 4291000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>The idea is that metadata is not monolithic.</p>",
+    "dtime": 4317000,
+    "ptime": 4317000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>what does it mean to deny a mandatory codec? that seems contrary to the goal of interop</p>",
+    "dtime": 4328000,
+    "ptime": 4328000
+  },
+  {
+    "author": "Glenn Deen",
+    "text": "<p>(Sorry I've lost my voice and can't join the mic)</p>",
+    "dtime": 4331000,
+    "ptime": 4331000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>can someone summarize what Spencer said?</p>",
+    "dtime": 4358000,
+    "ptime": 4358000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>the draft would say \"you MUST support gif\" but my server would lose the connection if you tried to use it</p>",
+    "dtime": 4378000,
+    "ptime": 4378000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>seems like a spec violation to me</p>",
+    "dtime": 4446000,
+    "ptime": 4446000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>yes, it is a spec violation</p>",
+    "dtime": 4461000,
+    "ptime": 4461000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>at least in spirit</p>",
+    "dtime": 4469000,
+    "ptime": 4469000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I think it depends what what \"support \" really means</p>",
+    "dtime": 4495000,
+    "ptime": 4495000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>if you're pushing GIFs at my relay, I doubt I care at all</p>",
+    "dtime": 4518000,
+    "ptime": 4518000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Alan has dropped offline but may not know it.</p>",
+    "dtime": 4552000,
+    "ptime": 4552000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Can someone clarify the intended relationship between \"format\" \"container\" and \"codec\"? Not sure that question got answered.</p>",
+    "dtime": 4612000,
+    "ptime": 4612000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Maybe call that \"transport data\" instead of \"metadata\", and limit it to what is explicitly standardize.</p>",
+    "dtime": 4652000,
+    "ptime": 4652000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I have been assuming \"format\" means a particular container and codec pair. Container is the outer framing layer that contains 1 or more streams (e.g., audio + video) of data specified in some codec (e.g., h264 vs av1 or mp3 vs aac)</p>",
+    "dtime": 4675000,
+    "ptime": 4675000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>but it may not be transport, like timestamp of the frame for example</p>",
+    "dtime": 4683000,
+    "ptime": 4683000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>FWIW, AV1 calls it the \"dependency descriptor\", but I think that's too specific.</p>",
+    "dtime": 4705000,
+    "ptime": 4705000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"339\">Christian Huitema</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/26078\">said</a>:</p>\n<blockquote>\n<p>Maybe call that \"transport data\" instead of \"metadata\", and limit it to what is explicitly standardize.</p>\n</blockquote>\n<p>That's a reasonable suggestion. I am now wondering how stable that would be (measured in years), but that's a follow-on question.</p>",
+    "dtime": 4753000,
+    "ptime": 4753000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"344\">Alex Chernyakhovsky</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/26086\">said</a>:</p>\n<blockquote>\n<p>I have been assuming \"format\" means a particular container and codec pair. Container is the outer framing layer that contains 1 or more streams (e.g., audio + video) of data specified in some codec (e.g., h264 vs av1 or mp3 vs aac)</p>\n</blockquote>\n<p>Yeah, this probably ought to be a charter that includes definitions ...</p>",
+    "dtime": 4818000,
+    "ptime": 4818000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>I propose \"Media information\". Metadata is too confusing, \"transport data\" likewise as we're describing the car not the road it's driving on.</p>",
+    "dtime": 4839000,
+    "ptime": 4839000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter/pull/61\">https://github.com/moq-wg/moq-charter/pull/61</a></p>",
+    "dtime": 4971000,
+    "ptime": 4971000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>there's quite a bit of overlap between \"container\" and \"transport\"</p>",
+    "dtime": 4982000,
+    "ptime": 4982000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Either of <a href=\"https://github.com/moq-wg/moq-charter/pull/60/files\">https://github.com/moq-wg/moq-charter/pull/60/files</a> and <a href=\"https://github.com/moq-wg/moq-charter/pull/59/files\">https://github.com/moq-wg/moq-charter/pull/59/files</a> would be good imporvements to the security stuff</p>",
+    "dtime": 4994000,
+    "ptime": 4994000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@ekr PR loks good</p>",
+    "dtime": 5005000,
+    "ptime": 5005000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>Agree PR#59 is a good addition</p>",
+    "dtime": 5033000,
+    "ptime": 5033000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>container vs transport is hard. You could imagine stripping away containers and having everything live in the stream and having a super integrated thing. But that seems weird</p>",
+    "dtime": 5049000,
+    "ptime": 5049000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>like the timestamp could be easy to parse in the transport, but it's also easy to parse in the container</p>",
+    "dtime": 5058000,
+    "ptime": 5058000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>+1 Mo on MTI being an endpoint thing. We have too much experience with mechanisms that require host and midpoint upgrades in order for updated mechanisms to work at all.</p>",
+    "dtime": 5069000,
+    "ptime": 5069000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>timestamp is weird because a general solution for timestamp is you could produce an out of band timestamp-&gt;byterange mapping and now you're done</p>",
+    "dtime": 5091000,
+    "ptime": 5091000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>the transport requires no knowledge of the underlying format but suddenly you can now do seeks seamlessly</p>",
+    "dtime": 5103000,
+    "ptime": 5103000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>it really depends on if you encrypt the container, or just the underlying media</p>",
+    "dtime": 5115000,
+    "ptime": 5115000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Alex, RTP doesn't use any of the containers you're familiar with, every codec supported by RTP specifies a packetisation scheme that maps sequences of frames (roughly speaking) into a sequence of RTP packets.</p>",
+    "dtime": 5120000,
+    "ptime": 5120000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>of course, the thing producing this mapping needs to have knowledge of the container</p>",
+    "dtime": 5129000,
+    "ptime": 5129000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>@Juliusz Chroboczek fair enough, point taken</p>",
+    "dtime": 5155000,
+    "ptime": 5155000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"344\">Alex Chernyakhovsky</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/26157\">said</a>:</p>\n<blockquote>\n<p>timestamp is weird because a general solution for timestamp is you could produce an out of band timestamp-&gt;byterange mapping and now you're done</p>\n</blockquote>\n<p>Are we talking about the same timestamps? Timestamps in the media, QUIC timestamps, both, or something else?</p>",
+    "dtime": 5166000,
+    "ptime": 5166000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>media presentation timestamps</p>",
+    "dtime": 5190000,
+    "ptime": 5190000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>aka when the frame should be shown</p>",
+    "dtime": 5202000,
+    "ptime": 5202000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>now the chair (Ted) talking</p>",
+    "dtime": 5234000,
+    "ptime": 5234000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>IMO any decision making should be done based on the media timestamps and never on the transport timestamps</p>",
+    "dtime": 5243000,
+    "ptime": 5243000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>otherwise stuff like b-frames become a nightmare</p>",
+    "dtime": 5261000,
+    "ptime": 5261000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>What do you mean by that, Luke? I could imagine something looking at the data rate from transport timestamps and realizing it can't support the current format resolution</p>",
+    "dtime": 5270000,
+    "ptime": 5270000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> and <span class=\"user-mention\" data-user-id=\"502\">@Alan Frindell</span> , do you want me to write a PR for the live media change in scope, providing a pointer to the definition?</p>",
+    "dtime": 5317000,
+    "ptime": 5317000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>left side of room dont see it</p>",
+    "dtime": 5326000,
+    "ptime": 5326000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> can you click the \"Files Changed\" tab so it'll show all the changes rolled together?</p>",
+    "dtime": 5335000,
+    "ptime": 5335000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p><a href=\"https://github.com/moq-wg/moq-charter/pull/60/files\">https://github.com/moq-wg/moq-charter/pull/60/files</a></p>",
+    "dtime": 5365000,
+    "ptime": 5365000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Thank you!</p>",
+    "dtime": 5365000,
+    "ptime": 5365000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>I can see the PR</p>",
+    "dtime": 5469000,
+    "ptime": 5469000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>PR lgtm</p>",
+    "dtime": 5482000,
+    "ptime": 5482000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>That looks about right.</p>",
+    "dtime": 5484000,
+    "ptime": 5484000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Opened another PR to clarify the caching reasons:\"* cache friendly media mechanisms, including for semi-live, DVR, and VOD use-cases\"(added the \"including...\")</p>",
+    "dtime": 5493000,
+    "ptime": 5493000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>\"Github is neither a git nor a hub\". Discuss...</p>",
+    "dtime": 5575000,
+    "ptime": 5575000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Should the BoF question also include whether the IETF is the right place with the right people?</p>",
+    "dtime": 5634000,
+    "ptime": 5634000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Wait. Are we talking about the problem statement at the beginning of the BOF, or the problem statement after discussion?</p>",
+    "dtime": 5657000,
+    "ptime": 5657000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>Ted was online</p>",
+    "dtime": 5699000,
+    "ptime": 5699000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Let's mandate Cullent to solve the problem, then wait six months for him to come back with a complete solution and send it to the IESG ;-)</p>",
+    "dtime": 5701000,
+    "ptime": 5701000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>I answered assuming that ...</p>",
+    "dtime": 5705000,
+    "ptime": 5705000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I like people actively not raising their hands to review. <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "dtime": 5766000,
+    "ptime": 5766000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>\"I definitely shall not review!\"</p>",
+    "dtime": 5806000,
+    "ptime": 5806000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"139\">Pete Resnick</span> <a href=\"#narrow/stream/304-moq/topic/jabber/near/26269\">said</a>:</p>\n<blockquote>\n<p>\"I definitely shall not review!\"</p>\n</blockquote>\n<p>\"And you can't make me!!!\"</p>",
+    "dtime": 5840000,
+    "ptime": 5840000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>commenting on the mailing list that the work should cease is still commenting on the mailing list</p>",
+    "dtime": 5883000,
+    "ptime": 5883000
+  },
+  {
+    "author": "Jake Holland",
+    "text": "<p>these answers make no promises on quality of review comments tho, right?</p>",
+    "dtime": 5908000,
+    "ptime": 5908000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>\"I reviewed the draft. There are words.\"</p>",
+    "dtime": 5979000,
+    "ptime": 5979000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Absolutely.  I can, in good faith, make a promise to make stupid comments.</p>",
+    "dtime": 5983000,
+    "ptime": 5983000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Caveat that the chairs should review the discussion both in the chat and in the room to make sure that all charter clarifications were captured, forming the WG seems fine.</p>",
+    "dtime": 6031000,
+    "ptime": 6031000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"I am aware of the existence of a draft.  I have not read it.\"</p>",
+    "dtime": 6034000,
+    "ptime": 6034000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>\"I heard a rumor a draft exists, but I have not personally verified this, and honestly I'm dubious.\"</p>",
+    "dtime": 6074000,
+    "ptime": 6074000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>\"This document is Ready (to Expire Unpublished).\"</p>",
+    "dtime": 6077000,
+    "ptime": 6077000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Did the poll stats get recorded someplace?  They never popped up here.  Might be connectivity again.</p>",
+    "dtime": 6108000,
+    "ptime": 6108000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>all presentations must be pirate-themed from now on</p>",
+    "dtime": 6112000,
+    "ptime": 6112000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1045\">@Suhas Nandakumar</span> please enunciate more crisply</p>",
+    "dtime": 6125000,
+    "ptime": 6125000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>QuicR presentation now</p>",
+    "dtime": 6125000,
+    "ptime": 6125000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>lol</p>",
+    "dtime": 6131000,
+    "ptime": 6131000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>doing Jabber scribe voluntarily <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+    "dtime": 6169000,
+    "ptime": 6169000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>I'm thinking that BOFs should be able to request interims, right?</p>",
+    "dtime": 6197000,
+    "ptime": 6197000
+  },
+  {
+    "author": "Will Law",
+    "text": "<p>Suhas was clear for online audience</p>",
+    "dtime": 6199000,
+    "ptime": 6199000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>the speakers in these rooms are awful, it would seem</p>",
+    "dtime": 6215000,
+    "ptime": 6215000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>+1</p>",
+    "dtime": 6336000,
+    "ptime": 6336000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Cullen: are there any more details on QuicR?</p>",
+    "dtime": 6342000,
+    "ptime": 6342000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>breakfast* :(</p>",
+    "dtime": 6349000,
+    "ptime": 6349000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>... lunch, or breakfast...</p>",
+    "dtime": 6353000,
+    "ptime": 6353000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>BOF adjourns</p>",
+    "dtime": 6356000,
+    "ptime": 6356000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>thank you BoF'ers</p>",
+    "dtime": 6357000,
+    "ptime": 6357000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-MOQ-20220727-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/moq"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-MOQ-20220727-1400"
+		}		
+	]
+}

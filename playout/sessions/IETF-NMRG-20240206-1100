@@ -1,0 +1,441 @@
+
+{
+	"title": "IETF-NMRG-20240206-1100",
+	"filename": "IETF-NMRG-20240206-1100",
+	"start": 0,
+	"end": 5418000,
+	"start_datetime": "2024-02-06T11:02:24Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "PjnqB9Eopjo",
+    "start": 0,
+    "end": "5418000"
+  }
+],
+	"messages": [
+  {
+    "author": "Daniel King",
+    "text": "<p>Audio is good. Hi, All.</p>",
+    "topic": "ietf-interim",
+    "dtime": 22000,
+    "ptime": 22000
+  },
+  {
+    "author": "Cheng Zhou",
+    "text": "<p>yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 44000,
+    "ptime": 44000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>Yes, we can see slides</p>",
+    "topic": "ietf-interim",
+    "dtime": 45000,
+    "ptime": 45000
+  },
+  {
+    "author": "Sebastian Rieger",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 464000,
+    "ptime": 464000
+  },
+  {
+    "author": "Danyang Chen",
+    "text": "<p>yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 465000,
+    "ptime": 465000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>We can see fullscreen.</p>",
+    "topic": "ietf-interim",
+    "dtime": 472000,
+    "ptime": 472000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Hi Laurent, is there a URL for Minutes/Discussion/Questions/et al.?</p>",
+    "topic": "ietf-interim",
+    "dtime": 566000,
+    "ptime": 566000
+  },
+  {
+    "author": "Laurent Ciavaglia",
+    "text": "<p>yes: <a href=\"https://notes.ietf.org/notes-nmrg-20240206\">https://notes.ietf.org/notes-nmrg-20240206</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 598000,
+    "ptime": 598000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Thanks. Will help with minutes, if/as needed.</p>",
+    "topic": "ietf-interim",
+    "dtime": 624000,
+    "ptime": 624000
+  },
+  {
+    "author": "Laurent Ciavaglia",
+    "text": "<p>@all: Don't hesitate to write your questions / comments in the chat (w/ slide number). thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 626000,
+    "ptime": 626000
+  },
+  {
+    "author": "Christopher Janz",
+    "text": "<p>Slide 3: the functional definition here of network digital twin is much larger in scope than the cited definition of digital twin generically</p>",
+    "topic": "ietf-interim",
+    "dtime": 692000,
+    "ptime": 692000
+  },
+  {
+    "author": "coupaye",
+    "text": "<p>why not using a well known definition of DT such as the one by the Digital Twin Consortium ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 745000,
+    "ptime": 745000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Question for end of presentation - Slide 2: \"The Scope of NDT\" for \"real-time\" interaction. \"real-time\" typically refers to processes or events that are perceived to occur instantaneously or notable perceptible delay. Does this mean NDT might not be used for planning applications, or sensitivity analysis where a response might take minutes or hours?</p>",
+    "topic": "ietf-interim",
+    "dtime": 804000,
+    "ptime": 804000
+  },
+  {
+    "author": "Christopher Janz",
+    "text": "<p>My comment was for the record - discussion can follow my presentation :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 842000,
+    "ptime": 842000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>@coupaye, the idea is apply digital twin to the network,  not completely align</p>",
+    "topic": "ietf-interim",
+    "dtime": 889000,
+    "ptime": 889000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>@Daniel king, I think network planning phase can be covered. Agree the real time needs to be clarified.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1003000,
+    "ptime": 1003000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Thanks, Qin!</p>",
+    "topic": "ietf-interim",
+    "dtime": 1020000,
+    "ptime": 1020000
+  },
+  {
+    "author": "Marco Liebsch",
+    "text": "<p>In the presented framework, can an application (App) use the NTD to simulate an intent and receive results before enforcing the changes to the physical network? Just to allow the App to elaborate if the impact of the intent is acceptable or not..?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1184000,
+    "ptime": 1184000
+  },
+  {
+    "author": "Christopher Janz",
+    "text": "<p>There is no reason to define two types of NDT, online and offline. Having to do so is a consequence of having defined NDT (online) with a broader functional scope than is conventionally done for DTs.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1240000,
+    "ptime": 1240000
+  },
+  {
+    "author": "Marco Liebsch",
+    "text": "<p>addendum: upstream it looks like an App can only receive capabilities</p>",
+    "topic": "ietf-interim",
+    "dtime": 1247000,
+    "ptime": 1247000
+  },
+  {
+    "author": "Danyang Chen",
+    "text": "<p>@Marco Liebsch,yes, we can do the simulation verification in the inner closed loop</p>",
+    "topic": "ietf-interim",
+    "dtime": 1338000,
+    "ptime": 1338000
+  },
+  {
+    "author": "Marco Liebsch",
+    "text": "<p>thanks, Danyang. Inner closed loop means it's kept in that grey box, but does not include the App itself, no?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1451000,
+    "ptime": 1451000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Slide 6: Online &amp; Offline – We need further discussion and clarification. We had similar discussions in the PCE WG many moons ago.  Online, typically means it is connected to a network for data retrieval. An Offline NDT, might use historical data but it still needs to be connected to the network at some point to retrieve it. Otherwise, you need to add another layer of partitioning. As an application/use case of NDT, “offline” it should not really sit under the “realtime” bullet as shown on the slide.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "Danyang Chen",
+    "text": "<p>@Marco Liebsch,yes, In the inner closed loop, the physical network and APP itself can be unaffected</p>",
+    "topic": "ietf-interim",
+    "dtime": 1563000,
+    "ptime": 1563000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>@ March Liebsch, I think it is more than verify intent is acceptable, NDT can collect telemetry data to check to match the intent</p>",
+    "topic": "ietf-interim",
+    "dtime": 1582000,
+    "ptime": 1582000
+  },
+  {
+    "author": "Marco Liebsch",
+    "text": "<p>That would mean that the App's intent needs to include sufficient information and semantics to allow the inner closed loop to assess the result and take a decision to enforce or not enforce.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1599000,
+    "ptime": 1599000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Great presentation, thanks Cheng, authors.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1626000,
+    "ptime": 1626000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>intent may set the target or SLA, NDT can for example, collect the data to see whether network performance meet the sla</p>",
+    "topic": "ietf-interim",
+    "dtime": 1705000,
+    "ptime": 1705000
+  },
+  {
+    "author": "coupaye",
+    "text": "<p>not sure it should always mirror the behaviour, mirroring the state is core?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1781000,
+    "ptime": 1781000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>the state is data, the core is data driven management or how data is mapped, correlated, derived or verified to help build the close loop</p>",
+    "topic": "ietf-interim",
+    "dtime": 1968000,
+    "ptime": 1968000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>@Qin, thanks. So that intent scenario would be \"online\"? I guess an \"offline\" intent scenario might be. Analyse my network and highlight possible resilience or future capacity concerns based on planned demand. The latter scenario requires information to perform the intent request. Maybe exploring passive (offline)  and active (online/realtime) terminology,  for the deployment models/use cases.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2208000,
+    "ptime": 2208000
+  },
+  {
+    "author": "Marco Liebsch",
+    "text": "<p>What I see from Christoper's material in the context of my previous comment is that we may treat an NDT as a tool for a controller and not as the controller per se.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2456000,
+    "ptime": 2456000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Re: Slide 4 - Proposed Representation. Given the current architecture in the NMRG I-D, where do the Scenario Generation and Scenario Evaluation components reside? Are they within “Data Repository” (left-side box) and “DT Network Mgmt” (right-side box), or are they currently missing from the NMRG architecture?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2565000,
+    "ptime": 2565000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Is there a GitHub repository for [draft-irtf-nmrg-network-digital-twin-arch], assuming we have some common agreement for open questions, it would be good to track them as issues. Obviously, the minutes can also track anything agreed as next steps.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2814000,
+    "ptime": 2814000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>Agree with Dan, Github needs to be setup</p>",
+    "topic": "ietf-interim",
+    "dtime": 2922000,
+    "ptime": 2922000
+  },
+  {
+    "author": "Sebastian Rieger",
+    "text": "<p>Regarding the \"real-time\" discussion for online NDT, maybe a clarification could be to not only talk about data- but also \"event-driven\" streaming and processing of data between the real network and the twins?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3034000,
+    "ptime": 3034000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Thanks for the clarification Cheng, I think defining  NDT as \"Network Control\" would be helped by further detailed the application of \"Active Network Control\" and \"Passive Network Control\", for the different use cases.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3050000,
+    "ptime": 3050000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Passive control, at least to me, means gathering data (which may be historic) and insights, which can then inform control decisions or strategies for the future.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3134000,
+    "ptime": 3134000
+  },
+  {
+    "author": "Laurent Ciavaglia",
+    "text": "<p>@Daniel, on GitHub repo: not active/used for the draft to my knowledge. Need to check with authors</p>",
+    "topic": "ietf-interim",
+    "dtime": 3148000,
+    "ptime": 3148000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>@Chris, I think interface, Data, Models, Mapping will be four phase of data driven management,  i.e., where you get the data, how data is stored, how data is modelled, how data i mapped, verified, drived to populate the  policy, which build close loop</p>",
+    "topic": "ietf-interim",
+    "dtime": 3168000,
+    "ptime": 3168000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>I think the open issue where the controller or analyer sit in the picture? I like analogy of March, four elements can be see as tool.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3318000,
+    "ptime": 3318000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Re: Slide 3 Figure 2: DTN Controller - The controller interface to the real network, which scenarios are you investigating. Is the interface a network/device model, or more abstracted interface that is talking to a controller, which than makes a configuration change?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3349000,
+    "ptime": 3349000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Ah, thanks Qin, I think we both came to the same conclusion. A need to show where the configuration agent (controller, et al.) resides.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3404000,
+    "ptime": 3404000
+  },
+  {
+    "author": "Marco Liebsch",
+    "text": "<p>IMO, in Fig 1 we may be a bit more flexible regarding the upper right box (Interface) and the inner function of the NDT about Control. By intent an App may delegate control to the NTD, but in case the App may be a controller and requests feedback from the NTD. This means a control arrow in Fig.2 may also be from the App to the physical network after the NTD expose simulated figures back to the App. Just a thought..</p>",
+    "topic": "ietf-interim",
+    "dtime": 3616000,
+    "ptime": 3616000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>@chris Agree. We should avoid multiple architectures for different use cases. A single unified architecture, with different implementation/frameworks, and time horizons for results, would be less confusing for industry.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3879000,
+    "ptime": 3879000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Ideally, this I-D [draft-irtf-nmrg-network-digital-twin-arch] would be the anchor for NDT development in other areas of the IETF, even though it is an RG document. A good example of this is RFC7426: SDN): Layers and Architecture Terminology.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4350000,
+    "ptime": 4350000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>The latter document is referenced by numerous IETF I-Ds/RFCs.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4378000,
+    "ptime": 4378000
+  },
+  {
+    "author": "Christopher Janz",
+    "text": "<p>Certainly use cases can influence details of modeling, I think what Albert means is, what influences architecture. In an architectural sense, saying modeling is enough.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4632000,
+    "ptime": 4632000
+  },
+  {
+    "author": "Albert Cabellos",
+    "text": "<p>Guys</p>",
+    "topic": "ietf-interim",
+    "dtime": 4747000,
+    "ptime": 4747000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>If we can have a few minutes for \"next steps\", that would be great, too.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4753000,
+    "ptime": 4753000
+  },
+  {
+    "author": "Albert Cabellos",
+    "text": "<p>I need to drop, talk to you in the next meeting</p>",
+    "topic": "ietf-interim",
+    "dtime": 4769000,
+    "ptime": 4769000
+  },
+  {
+    "author": "Laurent Ciavaglia",
+    "text": "<p>@Daniel: yes. I'd like to cover next steps</p>",
+    "topic": "ietf-interim",
+    "dtime": 4835000,
+    "ptime": 4835000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>I'd support an biweekly call, and prioritise the open issues, and maybe focus on a few issues at a time. I am very happy to help the authors. Again, as most people have said, a good document and I would like to see it published.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4889000,
+    "ptime": 4889000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>biweekly call is reasonable</p>",
+    "topic": "ietf-interim",
+    "dtime": 5061000,
+    "ptime": 5061000
+  },
+  {
+    "author": "Christopher Janz",
+    "text": "<p>Sure. I think also we should capture conclusions and/or open disagreements from each call, including this one.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5113000,
+    "ptime": 5113000
+  },
+  {
+    "author": "Cheng Zhou",
+    "text": "<p>Biweekly call is fine. Offline tracking issues (via Github) + on-demand online call could also be an option.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5170000,
+    "ptime": 5170000
+  },
+  {
+    "author": "Christopher Janz",
+    "text": "<p>We have a not excessively long document under consideration. It's title is concept and architecture. We should be able to agree on both. So I'd argue we continue to focus on concept/architecture and ideally progress this document toward an RFC. If we cannot agree on these basics, then what will we?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5192000,
+    "ptime": 5192000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Thanks chairs, authors, all.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5325000,
+    "ptime": 5325000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-NMRG-20240206-1100"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-nmrg-01/session/nmrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-NMRG-20240206-1100"
+		}
+	]
+}

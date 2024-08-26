@@ -1,0 +1,280 @@
+
+{
+	"title": "IETF120-EXTRA-20240726-0000",
+	"filename": "IETF120-EXTRA-20240726-0000",
+	"start": 0,
+	"end": 3682000,
+	"start_datetime": "2024-07-26T00:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "mDCwlvgRPoc",
+    "start": 0,
+    "end": "3682000"
+  }
+],
+	"messages": [
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>\"Conduct unbecoming an ombudsdude\"</p>",
+    "topic": "ietf-120",
+    "dtime": 104000,
+    "ptime": 104000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>There appears to not yet exist a mailmaint Zulip stream. Someone should probably check into that.</p>",
+    "topic": "ietf-120",
+    "dtime": 226000,
+    "ptime": 226000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>That's right. Shall I send a message to the support team?</p>",
+    "topic": "ietf-120",
+    "dtime": 395000,
+    "ptime": 395000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>(done)</p>",
+    "topic": "ietf-120",
+    "dtime": 486000,
+    "ptime": 486000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Remember to depart the queue when you're done.</p>",
+    "topic": "ietf-120",
+    "dtime": 1012000,
+    "ptime": 1012000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Let's see what the actual implementers want to do, but let's adopt.</p>",
+    "topic": "ietf-120",
+    "dtime": 1220000,
+    "ptime": 1220000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>I should have added that every step we take into the MUA business without really addressing those systems makes me more anxious</p>",
+    "topic": "ietf-120",
+    "dtime": 1236000,
+    "ptime": 1236000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>The mailmaint Zulip stream has been created. Of course we'll keep the chat here for this session.</p>",
+    "topic": "ietf-120",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I agree we'll have to tread carefully.  To some degree I'd like to see if we can maintain such discipline with this draft as a good test.</p>",
+    "topic": "ietf-120",
+    "dtime": 1273000,
+    "ptime": 1273000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>I support adoption. RFC 8058 works, Wrong Recipient is just a variation of that.</p>",
+    "topic": "ietf-120",
+    "dtime": 1359000,
+    "ptime": 1359000
+  },
+  {
+    "author": "David Weekly",
+    "text": "<p>(THANK YOU to John for presenting this. I'm very sorry I couldn't present myself due to conflicts.)</p>",
+    "topic": "ietf-120",
+    "dtime": 1426000,
+    "ptime": 1426000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Make an effort!</p>",
+    "topic": "ietf-120",
+    "dtime": 1637000,
+    "ptime": 1637000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Did someone ask the \"is someone going to implement this\" question?</p>",
+    "topic": "ietf-120",
+    "dtime": 1977000,
+    "ptime": 1977000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>John's co-author, I believe, is an implementer.</p>",
+    "topic": "ietf-120",
+    "dtime": 1991000,
+    "ptime": 1991000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Don't know of others.</p>",
+    "topic": "ietf-120",
+    "dtime": 1999000,
+    "ptime": 1999000
+  },
+  {
+    "author": "Phillip Tao",
+    "text": "<p>I think the guidance in the draft makes sense to me. The important bit to me is that MTAs should not drop expires messages, and leave it to MUAs to interpret within reason</p>",
+    "topic": "ietf-120",
+    "dtime": 2031000,
+    "ptime": 2031000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>One passes it to the user and the user does whatever they do.  The \"what does it mean\" problem gets serious if one starts contemplating having the mail store start deleting expired stuff</p>",
+    "topic": "ietf-120",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>John: Does that definition satisfy your earlier concerns?</p>",
+    "topic": "ietf-120",
+    "dtime": 2092000,
+    "ptime": 2092000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>The Email Expiration Date Initiative in Europe sees this as a possible path to saving energy, with the Expires: header as a key to deletion of the message - <a href=\"https://www.zerocarbon.email/\">https://www.zerocarbon.email/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2129000,
+    "ptime": 2129000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Todd: Interesting.</p>",
+    "topic": "ietf-120",
+    "dtime": 2150000,
+    "ptime": 2150000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>As long as they don't push to standardize that interpretation.</p>",
+    "topic": "ietf-120",
+    "dtime": 2163000,
+    "ptime": 2163000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Love the transcription: \"male user agent\"</p>",
+    "topic": "ietf-120",
+    "dtime": 2167000,
+    "ptime": 2167000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Todd: if we need to go down that path, I favor a separate draft</p>",
+    "topic": "ietf-120",
+    "dtime": 2178000,
+    "ptime": 2178000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>My understanding is that, to date, there are many instances of such headers in email messages in Europe, but no implementation of the deletion part</p>",
+    "topic": "ietf-120",
+    "dtime": 2220000,
+    "ptime": 2220000
+  },
+  {
+    "author": "Michael Slusarz",
+    "text": "<p>Expires as a means to auto-delete messages isn't going to fly for my customers where storage upsell is the primary component of the business plan</p>",
+    "topic": "ietf-120",
+    "dtime": 2231000,
+    "ptime": 2231000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>I think Daniel has a valid point. Imho this does not invalidate the draft, but MUA developers should perhaps be sensitivized regarding this (as far as I remember the current draft already does to a certain extent).</p>",
+    "topic": "ietf-120",
+    "dtime": 2279000,
+    "ptime": 2279000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>I'm not arguing for it or against it; only pointing to what some people talk about doing with it</p>",
+    "topic": "ietf-120",
+    "dtime": 2284000,
+    "ptime": 2284000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>You can always write a Sieve script that moves an expired message to trash if you're a user who wants to do such a thing. But I agree, that should not be the recommended thing for an MUA to do.</p>",
+    "topic": "ietf-120",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Phillip Tao",
+    "text": "<p>Expires as a means to auto-delete is scary to me, and goes to what Daniel said. Letting senders decide what happens to my email after I've received it opens up a can of worms. IMO, this is useful as a way for the sender to express additional intent, but it should not be binding in any way and the recipient/recipient MUA should decide how to interpret it.</p>",
+    "topic": "ietf-120",
+    "dtime": 2340000,
+    "ptime": 2340000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>At most, we could let the sender express some hint or preference, but indeed it should not be binding</p>",
+    "topic": "ietf-120",
+    "dtime": 2367000,
+    "ptime": 2367000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Add Orie to that list.</p>",
+    "topic": "ietf-120",
+    "dtime": 2790000,
+    "ptime": 2790000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I think the odds are that whatever gets said (by whoever, whether it's us or W3C or some random other party), people are going to hop on pretty quickly, so let's do try to get this right.</p>",
+    "topic": "ietf-120",
+    "dtime": 2911000,
+    "ptime": 2911000
+  },
+  {
+    "author": "Barry Leiba",
+    "text": "<p>Bron, will you mark Arnt’s document as “related”?</p>",
+    "topic": "ietf-120",
+    "dtime": 2942000,
+    "ptime": 2942000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Pete.  Yes.  And that is exactly why I'm concerned about getting it right and in the right places, rather tahn doing a standalone draft that more or less says \"don't be stupid and here are examples of stupid and/or how to avoid it\"</p>",
+    "topic": "ietf-120",
+    "dtime": 3012000,
+    "ptime": 3012000
+  },
+  {
+    "author": "Michael Peddemors",
+    "text": "<p>For the record, hoping enough time for “other business”</p>",
+    "topic": "ietf-120",
+    "dtime": 3113000,
+    "ptime": 3113000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-EXTRA-20240726-0000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/extra"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-EXTRA-20240726-0000"
+		}		
+	]
+}

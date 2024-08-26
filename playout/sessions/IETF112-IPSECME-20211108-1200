@@ -1,0 +1,418 @@
+{
+  "title": "IETF112-IPSECME-20211108-1200",
+  "filename": "IETF112-IPSECME-20211108-1200",
+  "start": 0,
+  "end": 7091000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "iq7SDTwGc0w",
+      "start": 0,
+      "end": "7091000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 7000,
+      "ptime": 7000,
+      "author": "kivinen",
+      "text": "Yes, and it will automatically turn off, if there is inactivity for too long.<br/>"
+    },
+    {
+      "dtime": 95000,
+      "ptime": 95000,
+      "author": "Paul Wouters",
+      "text": "i will<br/>"
+    },
+    {
+      "dtime": 129000,
+      "ptime": 129000,
+      "author": "Donald Eastlake",
+      "text": "I also can<br/>"
+    },
+    {
+      "dtime": 130000,
+      "ptime": 130000,
+      "author": "Jonathan Hammell",
+      "text": "I will help.<br/>"
+    },
+    {
+      "dtime": 294000,
+      "ptime": 294000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "ikev2-intermediate has been in publication-requested for 80 days :(<br/>It is currently number three in my queue by age, having been held back<br/>a bit by being behind a 100-page document that I'm almost done with.<br/>"
+    },
+    {
+      "dtime": 335000,
+      "ptime": 335000,
+      "author": "Yoav Nir",
+      "text": "g-ikev2 is by now almost 15 years since the -00 individual draft.<br/>"
+    },
+    {
+      "dtime": 364000,
+      "ptime": 364000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Is Valery a lot quieter than Tero for everyone, or just me?<br/>"
+    },
+    {
+      "dtime": 373000,
+      "ptime": 373000,
+      "author": "Deb Cooley",
+      "text": "no, for me too.<br/>"
+    },
+    {
+      "dtime": 374000,
+      "ptime": 374000,
+      "author": "Paul Wouters",
+      "text": "yes he is<br/>"
+    },
+    {
+      "dtime": 376000,
+      "ptime": 376000,
+      "author": "Christian Hopps",
+      "text": "much quieter for me<br/>"
+    },
+    {
+      "dtime": 381000,
+      "ptime": 381000,
+      "author": "Deb Cooley",
+      "text": "and now Tero is loud. LOL<br/>"
+    },
+    {
+      "dtime": 420000,
+      "ptime": 420000,
+      "author": "Mohamed Boucadair",
+      "text": "@Chairs: Any plan to issue a WG call for adoption for draft-btw-add-ipsecme-ike. We thought that was&nbsp;&nbsp;agreed in IETF#111<br/>"
+    },
+    {
+      "dtime": 470000,
+      "ptime": 470000,
+      "author": "Paul Wouters",
+      "text": "I think we are waiting on ADD discussion?<br/>"
+    },
+    {
+      "dtime": 754000,
+      "ptime": 754000,
+      "author": "Valery Smyslov",
+      "text": "@Paul: I don't think so. Add WG tells it's out of scope and the current draft is aligned with ADD work.<br/>"
+    },
+    {
+      "dtime": 858000,
+      "ptime": 858000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Tero's analysis seems reasonable to me, in that we can adopt now to<br/>show WG interest in doing the work.&nbsp;&nbsp;We would presumably want to wait<br/>on ADD for the actual mechanism before we proceed to publication,<br/>though, to ensure that we remain in alignment.<br/>"
+    },
+    {
+      "dtime": 916000,
+      "ptime": 916000,
+      "author": "Paul Wouters",
+      "text": "that would be nice. I have still some reservations on some ADD items, although not specifically on the ikev2 additions.<br/>"
+    },
+    {
+      "dtime": 978000,
+      "ptime": 978000,
+      "author": "Mohamed Boucadair",
+      "text": "Agree with Ben. That's the plan we had in mind.<br/>"
+    },
+    {
+      "dtime": 1386000,
+      "ptime": 1386000,
+      "author": "Yoav Nir",
+      "text": "We can have 5Gbps tunnels today with about almost 1M packets per second. It would be weird to have a 1 microsecond drop timer.<br/>"
+    },
+    {
+      "dtime": 2602000,
+      "ptime": 2602000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "I'm going to say this at the mic, too, but I'm hearing in the live<br/>discussion that there is a broad spectrum of use cases and we can't be<br/>confident that the SHOULD is the right guidance for all of them<br/>"
+    },
+    {
+      "dtime": 2733000,
+      "ptime": 2733000,
+      "author": "Yoav Nir",
+      "text": "We should remember that the fact that we put a \"knob\" in the RFC does not mean that implementations have an actual knob. Implementations may choose to implement just one of the MAYs. <br/>Fortunately in this case it does not affect interoperability.<br/>"
+    },
+    {
+      "dtime": 3232000,
+      "ptime": 3232000,
+      "author": "Yoav Nir",
+      "text": "With any luck and operational experience, in 1-3 years we can have a best practices document for this.<br/>"
+    },
+    {
+      "dtime": 3457000,
+      "ptime": 3457000,
+      "author": "Lou Berger",
+      "text": "is already there<br/>"
+    },
+    {
+      "dtime": 3535000,
+      "ptime": 3535000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "With respect to renaming \"drop timer\" to \"loss timer\", we may want to<br/>check whether existing transport protocols have an analogous timer and<br/>use the corresponding term.&nbsp;&nbsp;I am not awake enough yet to remember<br/>enough about TCP to be more useful...<br/>"
+    },
+    {
+      "dtime": 3617000,
+      "ptime": 3617000,
+      "author": "Deb Cooley",
+      "text": "say it needs to be some percentage of the channel speed.<br/>"
+    },
+    {
+      "dtime": 3631000,
+      "ptime": 3631000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Right<br/>"
+    },
+    {
+      "dtime": 3631000,
+      "ptime": 3631000,
+      "author": "Lou Berger",
+      "text": "so let the market decide<br/>"
+    },
+    {
+      "dtime": 3632000,
+      "ptime": 3632000,
+      "author": "Deb Cooley",
+      "text": "percentage, or some other word.<br/>"
+    },
+    {
+      "dtime": 3649000,
+      "ptime": 3649000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "We can't recommend a specific value, but we can say that it roughly<br/>relates to some other operational parameter<br/>"
+    },
+    {
+      "dtime": 3653000,
+      "ptime": 3653000,
+      "author": "Deb Cooley",
+      "text": "yay!<br/>"
+    },
+    {
+      "dtime": 3733000,
+      "ptime": 3733000,
+      "author": "Bob Moskowitz",
+      "text": "Percentage of a channel speed where that is 400Gb,&nbsp;&nbsp;Yuck.<br/>"
+    },
+    {
+      "dtime": 3747000,
+      "ptime": 3747000,
+      "author": "Christian Hopps",
+      "text": "Expected tunnel rate<br/>"
+    },
+    {
+      "dtime": 3753000,
+      "ptime": 3753000,
+      "author": "Christian Hopps",
+      "text": "not the link speed<br/>"
+    },
+    {
+      "dtime": 3758000,
+      "ptime": 3758000,
+      "author": "Deb Cooley",
+      "text": "doesn't have to be 'percentage'<br/>"
+    },
+    {
+      "dtime": 3771000,
+      "ptime": 3771000,
+      "author": "Deb Cooley",
+      "text": "and yes tunnel speed.<br/>"
+    },
+    {
+      "dtime": 3803000,
+      "ptime": 3803000,
+      "author": "Bob Moskowitz",
+      "text": "Ah.&nbsp;&nbsp;I joined late and missed that distinction.&nbsp;&nbsp;Of course if the tunnel is data center to data center over a shared 400Gb link, it COULD still be 100Gb!&nbsp;&nbsp;:)<br/>"
+    },
+    {
+      "dtime": 3851000,
+      "ptime": 3851000,
+      "author": "Bob Moskowitz",
+      "text": "Just remembering some things we were doing at Verizon when I was there back in 2013....<br/>"
+    },
+    {
+      "dtime": 4056000,
+      "ptime": 4056000,
+      "author": "Yoav Nir",
+      "text": "@Bob Moskowitz: Same is 20 years ago, only with more zeros.<br/>"
+    },
+    {
+      "dtime": 4098000,
+      "ptime": 4098000,
+      "author": "Bob Moskowitz",
+      "text": ":)<br/>"
+    },
+    {
+      "dtime": 4386000,
+      "ptime": 4386000,
+      "author": "Bob Moskowitz",
+      "text": "Valery, a little louder, please.<br/>"
+    },
+    {
+      "dtime": 4860000,
+      "ptime": 4860000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "@Yoav Nir, I assume you are going to take Ludovice from the queue at<br/>the appropriate point<br/>"
+    },
+    {
+      "dtime": 4958000,
+      "ptime": 4958000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "I saw Ludovic maybe talking, but didn't hear anything; perhaps he has<br/>a local mute<br/>"
+    },
+    {
+      "dtime": 5017000,
+      "ptime": 5017000,
+      "author": "Valery Smyslov",
+      "text": "@Bob: I'll try :-)<br/>"
+    },
+    {
+      "dtime": 5049000,
+      "ptime": 5049000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "@Ludovic: if you are having trouble connecting audio, you can write<br/>something here and we can relay it to the audio channel for you<br/>"
+    },
+    {
+      "dtime": 5059000,
+      "ptime": 5059000,
+      "author": "Paul Wouters",
+      "text": "who is 'we\" ? :)<br/>"
+    },
+    {
+      "dtime": 5078000,
+      "ptime": 5078000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Maybe Yoav, maybe me ... maybe you ;)<br/>"
+    },
+    {
+      "dtime": 5080000,
+      "ptime": 5080000,
+      "author": "Ludovic Perret",
+      "text": "no, in fact my question was adressed :-)<br/>"
+    },
+    {
+      "dtime": 5092000,
+      "ptime": 5092000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Okay, thanks for confirming :)<br/>"
+    },
+    {
+      "dtime": 5129000,
+      "ptime": 5129000,
+      "author": "Bob Moskowitz",
+      "text": "Us older people sometimes need a boost. and like a more even sound level.&nbsp;&nbsp;Or smarter headphones I guess.<br/>"
+    },
+    {
+      "dtime": 5286000,
+      "ptime": 5286000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "I'm a little surprised that we don't see many videoconferencing<br/>technologies that include client-side functionality to apply local<br/>per-speaker gain adjustment.<br/>I heard a rumor that Cisco was working on a Webex feature where the<br/>central server would try to normalize participant audio levels ... but<br/>given that the local webex client tries to automatically adjust the<br/>microphone gain and gets it wrong in the common case where you unmute<br/>but don't talk right away, I don't have high hopes.<br/>"
+    },
+    {
+      "dtime": 5394000,
+      "ptime": 5394000,
+      "author": "Bob Moskowitz",
+      "text": "One speaker coming across as yelling and another whispering.&nbsp;&nbsp;Been there, have had to deal with it.<br/>"
+    },
+    {
+      "dtime": 5424000,
+      "ptime": 5424000,
+      "author": "Bob Moskowitz",
+      "text": "I am listening carefully.<br/>"
+    },
+    {
+      "dtime": 5509000,
+      "ptime": 5509000,
+      "author": "kivinen",
+      "text": "discord, jitsi etc do have feature where you can locally adjust per person audio to be louder or quieter.<br/>"
+    },
+    {
+      "dtime": 5688000,
+      "ptime": 5688000,
+      "author": "Yoav Nir",
+      "text": "-00 individual draft was published in March 2010.<br/>"
+    },
+    {
+      "dtime": 5875000,
+      "ptime": 5875000,
+      "author": "Bob Moskowitz",
+      "text": "When I look at this draft and consider MLS, I wonder if we are missing a 'bet'.&nbsp;&nbsp;Or is MLS hash trees just too big to be used in most cases within IKE?<br/>"
+    },
+    {
+      "dtime": 6079000,
+      "ptime": 6079000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Hmm, it may be worth looking into.<br/>But what do you mean by \"use within IKE\" for the MLS hash trees?<br/>I MLS mostly doesn't *send* the full hash tree around<br/>"
+    },
+    {
+      "dtime": 6232000,
+      "ptime": 6232000,
+      "author": "Bob Moskowitz",
+      "text": "True, not the full hash tree, but it could be a substantially big piece of it.&nbsp;&nbsp;And the concept of the hash tree used in MLS as what is within IKE to support multiple parties.&nbsp;&nbsp;Something that I have turned around in my mind ever since MLS gelled in a way forward, but my attention is up in the clouds.&nbsp;&nbsp;Real clouds.&nbsp;&nbsp;;)<br/>"
+    },
+    {
+      "dtime": 6386000,
+      "ptime": 6386000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "I guess this sort of scheme to announce supported auth methods doesn't<br/>really introduce a downgrade attack, since there's no preference<br/>information to affect which of many mutually supported algorithms are<br/>selected.<br/>"
+    },
+    {
+      "dtime": 6418000,
+      "ptime": 6418000,
+      "author": "Bob Moskowitz",
+      "text": "MLS has a clear way of adding are removing parties in the group.&nbsp;&nbsp;approaches like this need additional activity to manage this.<br/>"
+    },
+    {
+      "dtime": 6426000,
+      "ptime": 6426000,
+      "author": "Dan Harkins",
+      "text": "the notifies will be included in the AUTH payload though so I don't think downgrade is possible.<br/>"
+    },
+    {
+      "dtime": 6599000,
+      "ptime": 6599000,
+      "author": "Dan Harkins",
+      "text": "implemented isn't useful<br/>"
+    },
+    {
+      "dtime": 6605000,
+      "ptime": 6605000,
+      "author": "Dan Harkins",
+      "text": "allowed is useful<br/>"
+    },
+    {
+      "dtime": 6987000,
+      "ptime": 6987000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Thank you for the quick turnaround with posting the draft, Christian!<br/>"
+    },
+    {
+      "dtime": 7008000,
+      "ptime": 7008000,
+      "author": "Christian Hopps",
+      "text": "My pleasure :)<br/>"
+    },
+    {
+      "dtime": 7069000,
+      "ptime": 7069000,
+      "author": "Paul Wouters",
+      "text": "so keep larger slot for next tie :)<br/>"
+    },
+    {
+      "dtime": 7082000,
+      "ptime": 7082000,
+      "author": "Stefan-Lukas Gazdag",
+      "text": "Thanks! Bye!<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-IPSECME-20211108-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/ipsecme"
+    }
+  ]
+}

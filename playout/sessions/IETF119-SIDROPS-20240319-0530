@@ -1,0 +1,427 @@
+
+{
+	"title": "IETF119-SIDROPS-20240319-0530",
+	"filename": "IETF119-SIDROPS-20240319-0530",
+	"start": 0,
+	"end": 5512000,
+	"start_datetime": "2024-03-19T05:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "WXn4hE4a0iY",
+    "start": 0,
+    "end": "5512000"
+  }
+],
+	"messages": [
+  {
+    "author": "Keyur Patel",
+    "text": "<p>Hello Sidrops!!</p>",
+    "topic": "ietf-119",
+    "dtime": 44000,
+    "ptime": 44000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>in favor of more slots to do work / virtual interim</p>",
+    "topic": "ietf-119",
+    "dtime": 134000,
+    "ptime": 134000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>I currently have 22:30 start time</p>",
+    "topic": "ietf-119",
+    "dtime": 176000,
+    "ptime": 176000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>@geoff you sound great at 22:30 :)</p>",
+    "topic": "ietf-119",
+    "dtime": 178000,
+    "ptime": 178000
+  },
+  {
+    "author": "Chris Morrow",
+    "text": "<p>is 01:30...</p>",
+    "topic": "ietf-119",
+    "dtime": 190000,
+    "ptime": 190000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>which is less bad than 3am au</p>",
+    "topic": "ietf-119",
+    "dtime": 193000,
+    "ptime": 193000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>but yes</p>",
+    "topic": "ietf-119",
+    "dtime": 202000,
+    "ptime": 202000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>many people get to lose</p>",
+    "topic": "ietf-119",
+    "dtime": 209000,
+    "ptime": 209000
+  },
+  {
+    "author": "Chris Morrow",
+    "text": "<p>(trying find a time is correctly bad for global :( )</p>",
+    "topic": "ietf-119",
+    "dtime": 213000,
+    "ptime": 213000
+  },
+  {
+    "author": "Maria Matějka",
+    "text": "<p>@meetecho camera on speaker please</p>",
+    "topic": "ietf-119",
+    "dtime": 570000,
+    "ptime": 570000
+  },
+  {
+    "author": "Maria Matějka",
+    "text": "<p>thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 585000,
+    "ptime": 585000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I think the point of substance would be can we stick to email asynchronous discussion for things</p>",
+    "topic": "ietf-119",
+    "dtime": 640000,
+    "ptime": 640000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>and if not, what is the specific outcome of interim and f2f?</p>",
+    "topic": "ietf-119",
+    "dtime": 654000,
+    "ptime": 654000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>both deadlines which you can impose abritratily and high bandwidth engagemtn are demonstraboly more productive than isosyncrouns engagment</p>",
+    "topic": "ietf-119",
+    "dtime": 770000,
+    "ptime": 770000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>seems like sidrops does need more frequent high bandwidth engament however that is achieved</p>",
+    "topic": "ietf-119",
+    "dtime": 1104000,
+    "ptime": 1104000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>as evidenced by me and probably others tuning in about 3 times a a year</p>",
+    "topic": "ietf-119",
+    "dtime": 1159000,
+    "ptime": 1159000
+  },
+  {
+    "author": "Chris Morrow",
+    "text": "<p>There's certainly been some consternation among implementers over a bunch of some core parts here.</p>",
+    "topic": "ietf-119",
+    "dtime": 1346000,
+    "ptime": 1346000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>medium and large deployments have mixed RPs.  if they behave differently, kaboom</p>",
+    "topic": "ietf-119",
+    "dtime": 1488000,
+    "ptime": 1488000
+  },
+  {
+    "author": "Chris Morrow",
+    "text": "<p>still seems like you'd probably guard the 'new way' in a flag per RP software then roll that flag over as you finish up code deployments to the RPs in your world.</p>\n<p>it's not a global flag-day, but...</p>",
+    "topic": "ietf-119",
+    "dtime": 1577000,
+    "ptime": 1577000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>Behaviour will diverge between software versions (with/w/o the change). You will also hit this with a flag day (old version pre-behaviour, newer versions)</p>",
+    "topic": "ietf-119",
+    "dtime": 1588000,
+    "ptime": 1588000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>so if we're defining BGP attributes to carry path, could we .. define BGP atributes to carry manifest, and ADD/DEL/UPD for ROA?</p>",
+    "topic": "ietf-119",
+    "dtime": 1858000,
+    "ptime": 1858000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>As best I understand Job's presentation, the flag day is somewhat squishy.  If everyone is conformant to existing and stricter procedures, they're conformant to the new desired behavior.  I also understand that the current behavior is generally how we want the records to be published.</p>\n<p>What he's describing is that when there's an error, he wants laxer behaviors; validation succeeds rather than fails.  When the records are inconsistent, the likely desire is that the records are corrected.  Meanwhile, you'll have a subset of the Internet using strict procedures that now are in a dire failing mode and a subset of the Internet using the newer lax procedures still working.</p>",
+    "topic": "ietf-119",
+    "dtime": 1965000,
+    "ptime": 1965000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1086\">@Job Snijders</span> do I have the scenario correct?</p>",
+    "topic": "ietf-119",
+    "dtime": 1973000,
+    "ptime": 1973000
+  },
+  {
+    "author": "zhang jun",
+    "text": "<p>will you compare the performance of FC-BGP with ASPA?</p>",
+    "topic": "ietf-119",
+    "dtime": 2072000,
+    "ptime": 2072000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"422\">@Jeffrey Haas</span>  This global (and local) inconsistencies already are a part of life: not all network use the same TALs as other networks, not all networks use the same TALs inside their RPs, and not all RP implementations are compliant with the current standards in relationship to for example Manifest handling. So I don't think that redefining this specific algorithm adds much variance across the board: the errors I'm trying to address are transcient so its entirely possible that some RPs see the error case and some don't (with the current algorithm) depending on fetching / parsing timers</p>",
+    "topic": "ietf-119",
+    "dtime": 2182000,
+    "ptime": 2182000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1086\">Job Snijders</span> <a href=\"#narrow/stream/197-sidrops/topic/ietf-119/near/110918\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"422\">Jeffrey Haas</span>  This global (and local) inconsistencies already are a part of life: not all network use the same TALs as other networks, not all networks use the same TALs inside their RPs, and not all RP implementations are compliant with the current standards in relationship to for example Manifest handling. So I don't think that redefining this specific algorithm adds much variance across the board: the errors I'm trying to address are transcient so its entirely possible that some RPs see the error case and some don't (with the current algorithm) depending on fetching / parsing timers</p>\n</blockquote>\n<p>I agree with Rob that mixed mode deployment will lead to different behaviors.  Your point is we have a flavor of this already.  My point is that the desire is that when we deviate from the perfect, which will cause failures today, we move to the more relaxed.  Thus, when the situation you're addressing occurs, the strict mode users are going to break... this already needs action to correct.</p>",
+    "topic": "ietf-119",
+    "dtime": 2312000,
+    "ptime": 2312000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>could we not just have a little chat with arin?</p>",
+    "topic": "ietf-119",
+    "dtime": 2615000,
+    "ptime": 2615000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>sound have a little chat with arin</p>",
+    "topic": "ietf-119",
+    "dtime": 2685000,
+    "ptime": 2685000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>@Randy: This issue needs serious mis-issuance to have impact. Most likely cause - to me- would be loss of control of private key and an attempt to DOS the CA. Not sure why I would trust the CA afterwards.</p>",
+    "topic": "ietf-119",
+    "dtime": 2705000,
+    "ptime": 2705000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>*to have impact &lt;=&gt; to happen</p>",
+    "topic": "ietf-119",
+    "dtime": 2719000,
+    "ptime": 2719000
+  },
+  {
+    "author": "Zhuotao Liu",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1089\">zhang jun</span> <a href=\"#narrow/stream/197-sidrops/topic/ietf-119/near/110909\">said</a>:</p>\n<blockquote>\n<p>will you compare the performance of FC-BGP with ASPA?</p>\n</blockquote>\n<p>Good question! FC-BGP messages are real-time propagated via BGP routing protocol. So it does not add objects to RPKI. So it is hard to compare their performance Apple-to-apple. In terms of security, the two approaches have different goals but they can complement to each other. I am happy to discuss this more offline.</p>",
+    "topic": "ietf-119",
+    "dtime": 2723000,
+    "ptime": 2723000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>if someone upstream deaggragates you prefix for you that's invalid</p>",
+    "topic": "ietf-119",
+    "dtime": 2847000,
+    "ptime": 2847000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>yeah no, you claim matches the route announced or it does not</p>",
+    "topic": "ietf-119",
+    "dtime": 2892000,
+    "ptime": 2892000
+  },
+  {
+    "author": "Joel Jaeggli",
+    "text": "<p>you don't jailhouse lawyer two more specifics into route you're willing to accept</p>",
+    "topic": "ietf-119",
+    "dtime": 2938000,
+    "ptime": 2938000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3573\">Zhuotao Liu</span> <a href=\"#narrow/stream/197-sidrops/topic/ietf-119/near/110964\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1089\">zhang jun</span> <a href=\"#narrow/stream/197-sidrops/topic/ietf-119/near/110909\">said</a>:</p>\n<blockquote>\n<p>will you compare the performance of FC-BGP with ASPA?</p>\n</blockquote>\n<p>Good question! FC-BGP messages are real-time propagated via BGP routing protocol. So it does not add objects to RPKI. So it is hard to compare their performance Apple-to-apple. In terms of security, the two approaches have different goals but they can complement to each other. I am happy to discuss this more offline.</p>\n</blockquote>\n<p>I owe the authors a thorough read of your fc-bgp draft.  However, you have a SKI.  Where is the key stored?  I would have presumed something like RPKI.</p>",
+    "topic": "ietf-119",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Zhuotao Liu",
+    "text": "<p>Exactly! We rely on RPKI for that. My previous statement is we do not plan to consistently add new objects during path validation. But yes, we need a shared trust base like RPKI. I skip this in today’s presentation due to time constraints</p>",
+    "topic": "ietf-119",
+    "dtime": 3529000,
+    "ptime": 3529000
+  },
+  {
+    "author": "Maria Matějka",
+    "text": "<p>i'm still completely clueless what to do with transparent route server setups which are completely incompatible with fc-bgp</p>",
+    "topic": "ietf-119",
+    "dtime": 3676000,
+    "ptime": 3676000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3819\">Maria Matějka</span> <a href=\"#narrow/stream/197-sidrops/topic/ietf-119/near/111033\">said</a>:</p>\n<blockquote>\n<p>i'm still completely clueless what to do with transparent route server setups which are completely incompatible with fc-bgp</p>\n</blockquote>\n<p>A procedure similar to RSes and bgpsec likely should be used.</p>",
+    "topic": "ietf-119",
+    "dtime": 3731000,
+    "ptime": 3731000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>For <span class=\"user-mention\" data-user-id=\"1086\">@Job Snijders</span> 's presentation, RFC 8097 extended communities are non-transitive for the reasons mentioned in the presentation.</p>",
+    "topic": "ietf-119",
+    "dtime": 3932000,
+    "ptime": 3932000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>8097 communities should be nuked from orbit</p>",
+    "topic": "ietf-119",
+    "dtime": 4254000,
+    "ptime": 4254000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>@job re validation reconsidered: keep in mind that one of the implmenetations of the rfc3779 algorithm that needs to be updated is openssl itself.  sorry, seemed like a good idea at the time.</p>",
+    "topic": "ietf-119",
+    "dtime": 4345000,
+    "ptime": 4345000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>@rob: I think that the generic interpretation of rfc3779 should not change. But within RPKI this looser definition seems to be less fragile to me.</p>",
+    "topic": "ietf-119",
+    "dtime": 4399000,
+    "ptime": 4399000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>oh boy now we have application specific different interpretation of the same critical extension?  whee!</p>",
+    "topic": "ietf-119",
+    "dtime": 4441000,
+    "ptime": 4441000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<blockquote>\n<p>oh boy now we have application specific different interpretation of the same critical extension? whee!</p>\n</blockquote>\n<p>because the only alternative is a flag day (or fragility that you hit depending on what order you observe states in in a distributed system)</p>",
+    "topic": "ietf-119",
+    "dtime": 4524000,
+    "ptime": 4524000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"387\">Randy Bush</span> <a href=\"#narrow/stream/197-sidrops/topic/ietf-119/near/111060\">said</a>:</p>\n<blockquote>\n<p>8097 communities should be nuked from orbit</p>\n</blockquote>\n<p>Care to tersely expand on why?</p>",
+    "topic": "ietf-119",
+    "dtime": 4528000,
+    "ptime": 4528000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"409\">@Rob Austein</span> current plan is to introduce a new flag for <code>X509_VERIFY_PARAM_set_flags()</code> to disable the openssl/libressl rfc3779 checking following the original algorithm <em>and</em> as a \"temporarily\" measure a callback to catch the 3779 verification error; but yeah, there is work to be done in both openssl and libressl, and we are willing to take on that work</p>",
+    "topic": "ietf-119",
+    "dtime": 4535000,
+    "ptime": 4535000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>@job that's plausible.  we can thumb wrestle over details but i think the basic approach is ok.</p>",
+    "topic": "ietf-119",
+    "dtime": 4580000,
+    "ptime": 4580000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p>the goal is to make it easier for future implementers (through libraries), provide guidance for current implementers (demonstrate how to do callback), and I know its a lot of work in a delicate area of the ecosystem, but luckily there are a number of libcrypto people willing to help and review</p>",
+    "topic": "ietf-119",
+    "dtime": 4647000,
+    "ptime": 4647000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>cool</p>",
+    "topic": "ietf-119",
+    "dtime": 4702000,
+    "ptime": 4702000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p>Overview as I understand it:</p>\n<p>rpki-client + FORT - depend on C libcrypto, will need to take on complications to make things work<br>\nRoutinator: has its own Rust rpki-specific validator/chain builder, for them this change might be a 3 line diff<br>\nrpki-prover: a Haskell project, I'm not 100% sure where it gets the chain validation bits from, or was bespoke original implementation<br>\nRPSTIR2: AFAIK uses Go bindings into openssl</p>",
+    "topic": "ietf-119",
+    "dtime": 4999000,
+    "ptime": 4999000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>rpki-validator 3: already has a feature flag for this <span aria-label=\"speak no evil\" class=\"emoji emoji-1f64a\" role=\"img\" title=\"speak no evil\">:speak_no_evil:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 5025000,
+    "ptime": 5025000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>my ancient code (which i assume nobody is really using for validation these days) also used libcrypto.</p>",
+    "topic": "ietf-119",
+    "dtime": 5073000,
+    "ptime": 5073000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>there is a few (&lt; 5) rcynic instances out there, some without RRDP enabled</p>",
+    "topic": "ietf-119",
+    "dtime": 5116000,
+    "ptime": 5116000
+  },
+  {
+    "author": "Job Snijders",
+    "text": "<p>AFRINIC uses rcynic for inspection and compliance testing: <a href=\"https://validator.afrinic.net/rpki/rcynic/rpki.afrinic.net.html\">https://validator.afrinic.net/rpki/rcynic/rpki.afrinic.net.html</a></p>",
+    "topic": "ietf-119",
+    "dtime": 5137000,
+    "ptime": 5137000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>thank you and see you at ietf120 :)</p>",
+    "topic": "ietf-119",
+    "dtime": 5445000,
+    "ptime": 5445000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>and at the interims</p>",
+    "topic": "ietf-119",
+    "dtime": 5455000,
+    "ptime": 5455000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-SIDROPS-20240319-0530"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/sidrops"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-SIDROPS-20240319-0530"
+		}		
+	]
+}

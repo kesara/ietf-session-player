@@ -1,0 +1,557 @@
+
+{
+	"title": "IETF114-WEBTRANS-20220726-1400",
+	"filename": "IETF114-WEBTRANS-20220726-1400",
+	"start": 0,
+	"end": 7410000,
+	"start_datetime": "2022-07-26T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "uh65xHVYCEE",
+    "start": 0,
+    "end": "7410000"
+  }
+],
+	"messages": [
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"http://zulip.ietf.org\">zulip.ietf.org</a> also works as a chat interface.  Zulip is strange, but it seems perfectly functional.</p>",
+    "dtime": 282000,
+    "ptime": 282000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>preface with mic: if you want me to relay</p>",
+    "dtime": 540000,
+    "ptime": 540000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>(test) do messages to arbitrary topics get presented to the chat for those not using zulip?</p>",
+    "dtime": 569000,
+    "ptime": 569000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>\"zulip is strange\" is an interesting way to put it :)</p>",
+    "dtime": 581000,
+    "ptime": 581000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>My understanding is that only the jabber topic is bridged to jabber.</p>",
+    "dtime": 605000,
+    "ptime": 605000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> I take it that you agree with me.</p>",
+    "dtime": 605000,
+    "ptime": 605000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>W3C charters have expiration dates?  Interesting idea.</p>",
+    "dtime": 662000,
+    "ptime": 662000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>(ominous music)</p>",
+    "dtime": 666000,
+    "ptime": 666000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I am used to zulip's predecessor (barnowl TUI client for MIT Zephyr)</p>",
+    "dtime": 669000,
+    "ptime": 669000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@mt, yes I see that message in the meetecho chat</p>",
+    "dtime": 787000,
+    "ptime": 787000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> notice that any message not sent to the jabber topic will not be mirrored to the Jabber room: won't matter in the future, but may matter now</p>",
+    "dtime": 834000,
+    "ptime": 834000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>In the Meetecho client we display incoming messages on any topic</p>",
+    "dtime": 859000,
+    "ptime": 859000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>consistency - yay</p>",
+    "dtime": 877000,
+    "ptime": 877000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>that seems totally sensible from a design perspective</p>",
+    "dtime": 887000,
+    "ptime": 887000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p><a href=\"https://github.com/w3c/webtransport/issues/\">https://github.com/w3c/webtransport/issues/</a></p>",
+    "dtime": 1111000,
+    "ptime": 1111000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>When I was working on an XMPP client for the aforementioned barnowl, I used MUC threads to carry information akin to zulip topics, but I also exposed it and don't expect that most clients do that.</p>",
+    "dtime": 1252000,
+    "ptime": 1252000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Whether or not L4S is available might affect performance in many ways.  Most of those are strictly positive, so I would not want to end up in a situation where you could disable L4S or ECN when it is active and functioning correctly.</p>",
+    "dtime": 1315000,
+    "ptime": 1315000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p><a href=\"https://github.com/w3c/webtransport/issues/365\">https://github.com/w3c/webtransport/issues/365</a></p>",
+    "dtime": 1367000,
+    "ptime": 1367000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I sense a pile-on</p>",
+    "dtime": 1758000,
+    "ptime": 1758000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Considering the HTTP priority model, is setting a policy for how to prioritize multiple sequential streams at the same priority urgency a way to accomplish the warp use case?  eg: Newest first, oldest first.</p>",
+    "dtime": 1772000,
+    "ptime": 1772000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I would get up to say that naming congestion controllers is a mistake, but I can also comment on the issue</p>",
+    "dtime": 1789000,
+    "ptime": 1789000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"502\">@Alan Frindell</span> we have discussed that as an option, but it is not clear that it would work.</p>",
+    "dtime": 1890000,
+    "ptime": 1890000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>for Warp, 8 strict levels, or created last, would both</p>",
+    "dtime": 1918000,
+    "ptime": 1918000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but it limits the design space for stuff like RUSH</p>",
+    "dtime": 1935000,
+    "ptime": 1935000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>would both work*</p>",
+    "dtime": 2015000,
+    "ptime": 2015000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>would both work*</p>",
+    "dtime": 2033000,
+    "ptime": 2033000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Oh, I know, we can create a tree of dependencies, with branches on the tree being assigned a weighting...</p>",
+    "dtime": 2086000,
+    "ptime": 2086000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>MT....</p>",
+    "dtime": 2094000,
+    "ptime": 2094000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p><em>flashbacks</em> :|</p>",
+    "dtime": 2120000,
+    "ptime": 2120000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Simpler is better for priorities, but the ordering of more than 8 things is something that's a bit challenging with the current priority scheme</p>",
+    "dtime": 2175000,
+    "ptime": 2175000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I'll say it again: you never go full TAPS</p>",
+    "dtime": 2200000,
+    "ptime": 2200000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>could we have an API design where the developer has to check a box saying \"I really know what I'm doing and if I screw it up it's all my fault\" before calling the more complicated method?</p>",
+    "dtime": 2257000,
+    "ptime": 2257000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> WebTransport.subtle.blah ?</p>",
+    "dtime": 2290000,
+    "ptime": 2290000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p><code>ISolemlySwearIAmUpToNoGood()</code></p>",
+    "dtime": 2314000,
+    "ptime": 2314000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It looks like the current proposed design more or less fits into what you might consider as a reasonable paradigm.  You have a list of options you can choose from, but you can also just express a target.</p>",
+    "dtime": 2342000,
+    "ptime": 2342000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The idea that <span class=\"user-mention\" data-user-id=\"31\">@Eric Kinnear</span> raised about expressing anti-goals fits within that (don't spend power is also <code>aim: \"low-power\"</code>).</p>",
+    "dtime": 2386000,
+    "ptime": 2386000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p><code>{complicated:yes, awareOfComplicatedRisks: yes}</code></p>",
+    "dtime": 2401000,
+    "ptime": 2401000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I look forward to people copy&amp;pasting that from StackOverflow</p>",
+    "dtime": 2455000,
+    "ptime": 2455000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>the datagram stats API is for folks who want to build their own CC in Javascript</p>",
+    "dtime": 2468000,
+    "ptime": 2468000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>it would be nice if the CC selection API could avoid that</p>",
+    "dtime": 2503000,
+    "ptime": 2503000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> what we need is a proof of competence.</p>",
+    "dtime": 2523000,
+    "ptime": 2523000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Is JS fast enough to build CC, reacting to each packet?</p>",
+    "dtime": 2533000,
+    "ptime": 2533000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"361\">@Hang Shi</span> probably not in theory or in practice, but you can maybe work something out (see also Audio Worklets)</p>",
+    "dtime": 2576000,
+    "ptime": 2576000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I think we just want the person who copies from Stack Overflow (which I absolutely agree is the likely use case) to see something scary, and then ask a follow-up, like, wait, why does this explicitly say it's scary/a bad idea?</p>",
+    "dtime": 2617000,
+    "ptime": 2617000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>is the problem JS interpretation time, or JS's execution context being shared within a thread?</p>",
+    "dtime": 2636000,
+    "ptime": 2636000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> The problem is that it is hard to operate something that is sufficiently responsive when you are sharing the thread with a bunch of other stuff.</p>",
+    "dtime": 2690000,
+    "ptime": 2690000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>what if the CC was running in its own thread/context separate from the context where  the DOM exists?</p>",
+    "dtime": 2770000,
+    "ptime": 2770000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>if the browser timestamps packet arrival and send times, Javascript should be fine for computing CC</p>",
+    "dtime": 2776000,
+    "ptime": 2776000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> I don't think that works in practice.  WebCrypto tried that and it didn't work.</p>",
+    "dtime": 2787000,
+    "ptime": 2787000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> That is what a worklet is.</p>",
+    "dtime": 2803000,
+    "ptime": 2803000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>ah, thanks for clarifying</p>",
+    "dtime": 2815000,
+    "ptime": 2815000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"657\">@Luke Curley</span> It depends on whether you are wanting to drive things like pacing from JS.  If it is just processing feedback and calculating a target window, then you might do something reasonable, but that is not the totality of what CC means.</p>",
+    "dtime": 2852000,
+    "ptime": 2852000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>pacing would be tough, yeah</p>",
+    "dtime": 2920000,
+    "ptime": 2920000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>although that could be configured in the WebTransport datagram API</p>",
+    "dtime": 2998000,
+    "ptime": 2998000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I'm really not a fan of sending UDP packets in Javascript, but that's the entire point of the datagram API</p>",
+    "dtime": 3043000,
+    "ptime": 3043000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>is the concern that you have a proxy that speaks H3 WT with H3 Datagrams fronting a backend that supports H3 WT without them?</p>",
+    "dtime": 3160000,
+    "ptime": 3160000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>+1 Marten</p>",
+    "dtime": 3245000,
+    "ptime": 3245000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<ul>\n<li>1 Marten</li>\n</ul>",
+    "dtime": 3263000,
+    "ptime": 3263000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"502\">Alan Frindell</span> <a href=\"#narrow/stream/132-webtrans/topic/jabber/near/22860\">said</a>:</p>\n<blockquote>\n<p>is the concern that you have a proxy that speaks H3 WT with H3 Datagrams fronting a backend that supports H3 WT without them?</p>\n</blockquote>\n<p>My concern is that optionality complicates negotiation, that's all.</p>",
+    "dtime": 3474000,
+    "ptime": 3474000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>If you don't need them, then you only have to have the capacity to throw them out.</p>",
+    "dtime": 3501000,
+    "ptime": 3501000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Also, you probably won't ever exercise that capability.</p>",
+    "dtime": 3732000,
+    "ptime": 3732000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>This flow control is very to easy to bypass.</p>",
+    "dtime": 4016000,
+    "ptime": 4016000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"361\">Hang Shi</span> <a href=\"#narrow/stream/132-webtrans/topic/jabber/near/22983\">said</a>:</p>\n<blockquote>\n<p>This flow control is very to easy to bypass.</p>\n</blockquote>\n<p>Say more?  if we implement a limit, why would that limit be easy to bypass?  Are you just saying that there are other ways to exhaust resources?</p>",
+    "dtime": 4236000,
+    "ptime": 4236000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>The limit is per session. What stops a bad website to open multiple sessions?</p>",
+    "dtime": 4484000,
+    "ptime": 4484000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>The connection level limits still apply I assume</p>",
+    "dtime": 4743000,
+    "ptime": 4743000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>are there intermediaries that will forward out of order stream data for H3?  I'm not sure that would really work.</p>",
+    "dtime": 4743000,
+    "ptime": 4743000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>out-of-order stream data seems doable but ... very special-case to me. I'd expect no one to do it</p>",
+    "dtime": 4855000,
+    "ptime": 4855000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"502\">Alan Frindell</span> <a href=\"#narrow/stream/132-webtrans/topic/jabber/near/23102\">said</a>:</p>\n<blockquote>\n<p>are there intermediaries that will forward out of order stream data for H3?  I'm not sure that would really work.</p>\n</blockquote>\n<p>why would it fail?</p>",
+    "dtime": 4865000,
+    "ptime": 4865000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Do we also need to provide guidance/warnings on buffer bloat risks?  (Especially with cases like a mix of H2 and H3 having too big of a buffer in some place could cause problems that endpoints wil need to worry about)</p>",
+    "dtime": 5046000,
+    "ptime": 5046000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"672\">@Erik Nygren</span> That is exactly the sort of rabbit-hole I'm trying to avoid going down.</p>",
+    "dtime": 5123000,
+    "ptime": 5123000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I guess I mean i's not possible until after you have seen some amount of the beginning of the stream. Once you see the WT session ID and know the upstream session and stream ID, you could probably forward later out of order stream data?</p>",
+    "dtime": 5365000,
+    "ptime": 5365000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Can I redirect you to the place you asked me to CONNECT to?</p>",
+    "dtime": 5670000,
+    "ptime": 5670000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Did we land on always using GET or do we sometimes use GET and sometimes CONNECT methods?  Will things get weird if we follow redirects and it switches schemes?  (eg, switching between a h2 stack and an h1 stack and an h3 stack?)</p>",
+    "dtime": 5869000,
+    "ptime": 5869000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"672\">@Erik Nygren</span> Good point.  I believe that we are only using CONNECT, with the annotations.</p>",
+    "dtime": 5962000,
+    "ptime": 5962000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Does webtrans differ from masque here? I thought for masque we went with extended-connect everywhere</p>",
+    "dtime": 5967000,
+    "ptime": 5967000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Extended-connect everywhere, across masque + webtransport, specifically to be consistent across the two</p>",
+    "dtime": 6016000,
+    "ptime": 6016000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>(yay, extended-connect everywhere across masque + webtransport is good.)</p>",
+    "dtime": 6050000,
+    "ptime": 6050000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>websocket clients may ignore redirects, which meant they just didn't work the one time I tried to use them.</p>",
+    "dtime": 6078000,
+    "ptime": 6078000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"672\">@Erik Nygren</span> note also that redirects will need to be limited in type, because those redirects that downgrade to GET won't work here, at all.</p>",
+    "dtime": 6172000,
+    "ptime": 6172000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>+1 to <span class=\"user-mention\" data-user-id=\"502\">@Alan Frindell</span> on punting this to a new specification, where we will have more knowledge about what we need.</p>",
+    "dtime": 6407000,
+    "ptime": 6407000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Making a reset reliable is probably useful...</p>",
+    "dtime": 6608000,
+    "ptime": 6608000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Here's the H3 text:</p>\n<blockquote>\n<p>If a client-initiated stream terminates without enough of the HTTP message to provide a complete response, the server SHOULD abort its response stream with the error code H3_REQUEST_INCOMPLETE.</p>\n</blockquote>",
+    "dtime": 6934000,
+    "ptime": 6934000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Hmm, what if there's not enough of a message?</p>",
+    "dtime": 7000000,
+    "ptime": 7000000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Receipt of a fin from the server is not an ack that it received the client fin</p>",
+    "dtime": 7156000,
+    "ptime": 7156000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Right.  Indeed, I would say that sending a FIN without a capsule is also totally valid.</p>",
+    "dtime": 7286000,
+    "ptime": 7286000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>So there is an optional capsule, a FIN, and an optional STOP_SENDING.  Send each at your own discretion.</p>",
+    "dtime": 7329000,
+    "ptime": 7329000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Obviously, not sending the FIN will mean that the session remains active, so you need a rule saying that other capsules sent after the \"end\" capsule are not permitted (and cause the session to be torn down, with a STOP_SENDING).</p>",
+    "dtime": 7387000,
+    "ptime": 7387000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-WEBTRANS-20220726-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/webtrans"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-WEBTRANS-20220726-1400"
+		}		
+	]
+}

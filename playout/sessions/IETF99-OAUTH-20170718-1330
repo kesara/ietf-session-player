@@ -1,0 +1,421 @@
+{
+  "title": "IETF99-OAUTH-20170718-1330",
+  "filename": "IETF99-OAUTH-20170718-1330",
+  "start": 0,
+  "end": 7383000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "LE1r8P-R8ho",
+      "start": 0.0,
+      "end": 7383000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Rifaat Shekh-Yusef just left the room",
+      "ptime": 49000.0,
+      "dtime": 908000.0
+    },
+    {
+      "text": "***Rifaat Shekh-Yusef just joined the room",
+      "ptime": 58000.0,
+      "dtime": 917000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 89000.0,
+      "dtime": 948000.0
+    },
+    {
+      "text": "Good afternoon. If you\u0027d like a comment read at the mic, please preface it with \"mic:\"",
+      "ptime": 96000.0,
+      "dtime": 955000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "Can anyody tell the chair his mic is off?",
+      "ptime": 104000.0,
+      "dtime": 963000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "We can\u0027t hear them remotely",
+      "ptime": 113000.0,
+      "dtime": 972000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Thx!",
+      "ptime": 129000.0,
+      "dtime": 988000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "no prob",
+      "ptime": 135000.0,
+      "dtime": 994000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 387000.0,
+      "dtime": 1246000.0
+    },
+    {
+      "text": "***Hannes Raddatz just joined the room",
+      "ptime": 495000.0,
+      "dtime": 1354000.0
+    },
+    {
+      "text": "the camera is aimed at the ceiling",
+      "ptime": 817000.0,
+      "dtime": 1676000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "@meetecho camera at the ceiling",
+      "ptime": 822000.0,
+      "dtime": 1681000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "Justin Richer: yep, working on that, sorry...",
+      "ptime": 843000.0,
+      "dtime": 1702000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "@meetecho that\u0027s better, thanks!",
+      "ptime": 899000.0,
+      "dtime": 1758000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "We\u0027ll try to stick to the ground level, this time :)",
+      "ptime": 913000.0,
+      "dtime": 1772000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Mic: I read the draft. Good work. I would like to see more algorithm agility for the confirmation method, i.e., more than just SHA-256. Hardcoding any algorithm is not safe because once it is cryptanalyzed, implementations will be hard-pressed to move off of it. Also, how can the certificate be transmitted with the token if a relying party wants the entire certificate?",
+      "ptime": 1256000.0,
+      "dtime": 2115000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": ":raises hand:",
+      "ptime": 1285000.0,
+      "dtime": 2144000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": ":raises hand:",
+      "ptime": 1285000.0,
+      "dtime": 2144000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": ":raises hand:",
+      "ptime": 1289000.0,
+      "dtime": 2148000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Let me know if the answer is sufficient or you want follow up @sean",
+      "ptime": 1363000.0,
+      "dtime": 2222000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "Mic: ok. yeah another hash algorithm/claim name can be defined. But an example would be good, as well as text in the draft that says just what you said (define a new confirmation method, etc.)",
+      "ptime": 1382000.0,
+      "dtime": 2241000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "waiting",
+      "ptime": 1421000.0,
+      "dtime": 2280000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "***Hans Zandbelt just joined the room",
+      "ptime": 1454000.0,
+      "dtime": 2313000.0
+    },
+    {
+      "text": "Mic: yeah i wanted to see how it interacts with the JWT spec, jose spec, etc. (like will one upstream registration be sufficient, or you have to do one specifically for mutual tls oauth)",
+      "ptime": 1470000.0,
+      "dtime": 2329000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "mic: if the \"cnf\" is registered with all the semantics of JWT for its sub-bits then it should flow through to introspection, right?",
+      "ptime": 1471000.0,
+      "dtime": 2330000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "That answer covers it for me, thank you.",
+      "ptime": 1598000.0,
+      "dtime": 2457000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "mic: I still would like to see some way to get the certificate that is submitted via mutual TLS out to relying parties. It doesn\u0027t have to be in \"cnf\", but I think some method of retrieval would be helpful. (and if it\u0027s not in the token, then it has to be stored and referenced, which has downsides)",
+      "ptime": 1611000.0,
+      "dtime": 2470000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "mic: oh ok, if it\u0027s available to all, would like to see text that describes the availability",
+      "ptime": 1640000.0,
+      "dtime": 2499000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "active line, sorry for the delay",
+      "ptime": 1702000.0,
+      "dtime": 2561000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "@sean do you still want that read?",
+      "ptime": 1735000.0,
+      "dtime": 2594000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "mainly the second part",
+      "ptime": 1750000.0,
+      "dtime": 2609000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "REVISED mic:",
+      "ptime": 1758000.0,
+      "dtime": 2617000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "some method of retrieval would be helpful. (and if it\u0027s not in the token, then it has to be stored and referenced, which has downsides). if it\u0027s available to all, would like to see text that describes how (or at least, the fact that) all parties have access to the certificate itself",
+      "ptime": 1815000.0,
+      "dtime": 2674000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "second mic: i disagree with hashing the SPKI. The relevant security token is the certificate, not the public key. The public key can be extracted from the certificate; not the other way. This also assumes that the cert is available to all parties. (I agree with John Bradley just now.)",
+      "ptime": 1929000.0,
+      "dtime": 2788000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Renzo Navas just joined the room",
+      "ptime": 1949000.0,
+      "dtime": 2808000.0
+    },
+    {
+      "text": "haha, you know what i mean :)",
+      "ptime": 2000000.0,
+      "dtime": 2859000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "haha, you know what i mean :)",
+      "ptime": 2000000.0,
+      "dtime": 2859000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "mic: I have a client who\u0027s implementing this in the near future so we\u0027ll be reading this in depth",
+      "ptime": 2180000.0,
+      "dtime": 3039000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Philip Lafrance just joined the room",
+      "ptime": 2482000.0,
+      "dtime": 3341000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 2534000.0,
+      "dtime": 3393000.0
+    },
+    {
+      "text": "Hi, John",
+      "ptime": 2711000.0,
+      "dtime": 3570000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "(no you don\u0027t have to put that to the mic)",
+      "ptime": 2716000.0,
+      "dtime": 3575000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "thx :)",
+      "ptime": 2729000.0,
+      "dtime": 3588000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": ":gauntlet thrown:",
+      "ptime": 3980000.0,
+      "dtime": 4839000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "mic: I agree with Brian that HTTP signing is limited to places where it makes sense -- HTTP isn\u0027t simple to deal with. It was never meant to be universal, just useful.",
+      "ptime": 4019000.0,
+      "dtime": 4878000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "I also agree that mTLS is a huge pain in the ass and we won\u0027t see it everywhere either. Why not both?",
+      "ptime": 4064000.0,
+      "dtime": 4923000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 4218000.0,
+      "dtime": 5077000.0
+    },
+    {
+      "text": "***Peter DeVries just joined the room",
+      "ptime": 4371000.0,
+      "dtime": 5230000.0
+    },
+    {
+      "text": "For my information: mTLS \u003d\u003d mutual TLS?",
+      "ptime": 4426000.0,
+      "dtime": 5285000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "ekr: Yes, draft-ietf-oauth-mtls",
+      "ptime": 4446000.0,
+      "dtime": 5305000.0,
+      "author": "Jeffrey Yasskin"
+    },
+    {
+      "text": "***pgrassi just joined the room",
+      "ptime": 4850000.0,
+      "dtime": 5709000.0
+    },
+    {
+      "text": "***Hannes Raddatz just left the room",
+      "ptime": 5485000.0,
+      "dtime": 6344000.0
+    },
+    {
+      "text": "mic: should a hint not be sent in the authorisation request that the client is going to apply incremental auth - this will allow the AS to customise the consent screen. I agree with not sending a token in the authorisation request, but maybe a flag should be sent.",
+      "ptime": 5654000.0,
+      "dtime": 6513000.0,
+      "author": "Dave Tonge"
+    },
+    {
+      "text": "do we have a jabber scribe?",
+      "ptime": 5664000.0,
+      "dtime": 6523000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "(I am at the mic and can do it if someone wants)",
+      "ptime": 5673000.0,
+      "dtime": 6532000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "@dave youre fifth in line",
+      "ptime": 5721000.0,
+      "dtime": 6580000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "thanks",
+      "ptime": 5737000.0,
+      "dtime": 6596000.0,
+      "author": "Dave Tonge"
+    },
+    {
+      "text": "***Arne Wall just joined the room",
+      "ptime": 5894000.0,
+      "dtime": 6753000.0
+    },
+    {
+      "text": ":raises hand:",
+      "ptime": 6040000.0,
+      "dtime": 6899000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": ":raises hand:",
+      "ptime": 6051000.0,
+      "dtime": 6910000.0,
+      "author": "Dave Tonge"
+    },
+    {
+      "text": "I indicated the raised hands but follow up on email or something.... :)",
+      "ptime": 6113000.0,
+      "dtime": 6972000.0,
+      "author": "Mike Jenkins"
+    },
+    {
+      "text": "***patrick hu just joined the room",
+      "ptime": 6454000.0,
+      "dtime": 7313000.0
+    },
+    {
+      "text": "***Stephen Hutchinson just joined the room",
+      "ptime": 6532000.0,
+      "dtime": 7391000.0
+    },
+    {
+      "text": ":raises hand:",
+      "ptime": 6711000.0,
+      "dtime": 7570000.0,
+      "author": "Dave Tonge"
+    },
+    {
+      "text": "***patrick hu just left the room",
+      "ptime": 6830000.0,
+      "dtime": 7689000.0
+    },
+    {
+      "text": "***Dave Tonge just left the room",
+      "ptime": 7100000.0,
+      "dtime": 7959000.0
+    },
+    {
+      "text": "The other paper I was referencing was:",
+      "ptime": 7184000.0,
+      "dtime": 8043000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "http://www.cs.unc.edu/~fabian/papers/foniks-oak11.pdf",
+      "ptime": 7185000.0,
+      "dtime": 8044000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "we\u0027re done",
+      "ptime": 7327000.0,
+      "dtime": 8186000.0,
+      "author": "Mike Jenkins"
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-OAUTH-20170718-1330"
+    }
+  ]
+}

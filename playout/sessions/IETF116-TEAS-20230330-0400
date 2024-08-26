@@ -1,0 +1,168 @@
+
+{
+	"title": "IETF116-TEAS-20230330-0400",
+	"filename": "IETF116-TEAS-20230330-0400",
+	"start": 0,
+	"end": 5558000,
+	"start_datetime": "2023-03-30T03:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "bvnpXonJ5lo",
+    "start": 0,
+    "end": "5558000"
+  }
+],
+	"messages": [
+  {
+    "author": "Lou Berger",
+    "text": "<p>is the audio level okay</p>",
+    "topic": "ietf-116",
+    "dtime": 82000,
+    "ptime": 82000
+  },
+  {
+    "author": "Vishnu Beeram",
+    "text": "<p>Can someone remote ack if the audio is ok?</p>",
+    "topic": "ietf-116",
+    "dtime": 189000,
+    "ptime": 189000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Sounds ok here</p>",
+    "topic": "ietf-116",
+    "dtime": 211000,
+    "ptime": 211000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>remote sound is okay</p>",
+    "topic": "ietf-116",
+    "dtime": 220000,
+    "ptime": 220000
+  },
+  {
+    "author": "Vishnu Beeram",
+    "text": "<p>thanks!</p>",
+    "topic": "ietf-116",
+    "dtime": 225000,
+    "ptime": 225000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>@adrian - we used \"string\" for ac-svc-name because of that</p>",
+    "topic": "ietf-116",
+    "dtime": 2037000,
+    "ptime": 2037000
+  },
+  {
+    "author": "Vishnu Beeram",
+    "text": "<p>The AC modeling presentation from Med that Reza referred to is on our agenda in the second session..</p>",
+    "topic": "ietf-116",
+    "dtime": 2236000,
+    "ptime": 2236000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"114\">@Dhruv Dhody</span>,  using a string would work. BTW, this should be a leaf-list as many ACs of the same SDP of a slice</p>",
+    "topic": "ietf-116",
+    "dtime": 2260000,
+    "ptime": 2260000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The same comment applies for the peer-sap-id. A leaf-list is needed as an AC an be terminated by more than one peer SAP</p>",
+    "topic": "ietf-116",
+    "dtime": 2299000,
+    "ptime": 2299000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>ack</p>",
+    "topic": "ietf-116",
+    "dtime": 2299000,
+    "ptime": 2299000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I don't think the doc is ready for the WGLC. Some more rounds are still needed, IMO.</p>",
+    "topic": "ietf-116",
+    "dtime": 2505000,
+    "ptime": 2505000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>@Joel - Would traffic and Interference Isolation work, I think that is what you suggested before?</p>",
+    "topic": "ietf-116",
+    "dtime": 2543000,
+    "ptime": 2543000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Not sure why the CE loopback thing is displayed in slide 5.</p>",
+    "topic": "ietf-116",
+    "dtime": 3125000,
+    "ptime": 3125000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Dhruv Sorry, just turned on the chat.  To be clear, my suggestion in the email exchange is to remove alll references to interference isolation.  I understand others disagree.  I have been clear in earlier emails why I am asking for this.</p>",
+    "topic": "ietf-116",
+    "dtime": 3844000,
+    "ptime": 3844000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>I will add this to the issue-list to track it from YANG PoV</p>",
+    "topic": "ietf-116",
+    "dtime": 4080000,
+    "ptime": 4080000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"114\">@Dhruv Dhody</span> Thank you.</p>",
+    "topic": "ietf-116",
+    "dtime": 4098000,
+    "ptime": 4098000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The L3NM/L2NM are designed to be ready to be triggered by a slice service. RFC9182 says the following: \"   'parent-service-id':  Refers to an identifier of the parent service<br>\n      (e.g., L3SM, IETF network slice, VPN+) that triggered the creation<br>\n      of the VPN service.\"</p>",
+    "topic": "ietf-116",
+    "dtime": 4524000,
+    "ptime": 4524000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The NSSM can be mapped to LxNM directly</p>",
+    "topic": "ietf-116",
+    "dtime": 4580000,
+    "ptime": 4580000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>merge would be great</p>",
+    "topic": "ietf-116",
+    "dtime": 4590000,
+    "ptime": 4590000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-TEAS-20230330-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/teas"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-TEAS-20230330-0400"
+		}		
+	]
+}

@@ -1,0 +1,889 @@
+
+{
+	"title": "IETF116-LAMPS-20230329-0030",
+	"filename": "IETF116-LAMPS-20230329-0030",
+	"start": 0,
+	"end": 7413000,
+	"start_datetime": "2023-03-29T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "jKZAls4Dv64",
+    "start": 0,
+    "end": "7413000"
+  }
+],
+	"messages": [
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>I have no clear opinion, the author's position seems reasonable but I have not reviewed the draft in detail.</p>",
+    "topic": "ietf-116",
+    "dtime": 765000,
+    "ptime": 765000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>One of the things about the proposed KEM message protection flow in 4210bis is that it adds an extra round-trip (2 RTT for RSA / DH, to 3 RTT with KEMs). I think that is unavoidable, and probably #NotABigDeal for CMP, but worth review.</p>",
+    "topic": "ietf-116",
+    "dtime": 853000,
+    "ptime": 853000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Ballot that we commit a minor bit of vandalism to the LAMPS/About page to \"Lots of Additional Mechanisms\".</p>",
+    "topic": "ietf-116",
+    "dtime": 890000,
+    "ptime": 890000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "ietf-116",
+    "dtime": 897000,
+    "ptime": 897000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>we can see it just fine.</p>",
+    "topic": "ietf-116",
+    "dtime": 982000,
+    "ptime": 982000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>LOLOLOL</p>",
+    "topic": "ietf-116",
+    "dtime": 986000,
+    "ptime": 986000
+  },
+  {
+    "author": "Amir Omidi",
+    "text": "<p>:) #Remote yay</p>",
+    "topic": "ietf-116",
+    "dtime": 994000,
+    "ptime": 994000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Is there an official font for ASN.1?</p>",
+    "topic": "ietf-116",
+    "dtime": 1003000,
+    "ptime": 1003000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>It is great for remote people :D ... A first!</p>",
+    "topic": "ietf-116",
+    "dtime": 1004000,
+    "ptime": 1004000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><a href=\"https://datatracker.ietf.org/meeting/116/materials/slides-116-lamps-kyber-certificates\">https://datatracker.ietf.org/meeting/116/materials/slides-116-lamps-kyber-certificates</a></p>",
+    "topic": "ietf-116",
+    "dtime": 1014000,
+    "ptime": 1014000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>They could look at their laptops too.... even in the room.....</p>",
+    "topic": "ietf-116",
+    "dtime": 1024000,
+    "ptime": 1024000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>presenting to a roomful of people looking at their laptops is … not so great</p>",
+    "topic": "ietf-116",
+    "dtime": 1044000,
+    "ptime": 1044000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>sure</p>",
+    "topic": "ietf-116",
+    "dtime": 1060000,
+    "ptime": 1060000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>like that hasn't happened for years</p>",
+    "topic": "ietf-116",
+    "dtime": 1071000,
+    "ptime": 1071000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it's not about saving the size, it's about saving the parsing confusion</p>",
+    "topic": "ietf-116",
+    "dtime": 1084000,
+    "ptime": 1084000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>private key transport <em>is</em> an interoperability issue.</p>",
+    "topic": "ietf-116",
+    "dtime": 1133000,
+    "ptime": 1133000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>If we replace all ASN.1 structures with great big octet strings, do we really need the ASN.1?</p>",
+    "topic": "ietf-116",
+    "dtime": 1232000,
+    "ptime": 1232000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>did we ever <em>really</em> need ASN.1?</p>",
+    "topic": "ietf-116",
+    "dtime": 1248000,
+    "ptime": 1248000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>only in that we needed a format</p>",
+    "topic": "ietf-116",
+    "dtime": 1261000,
+    "ptime": 1261000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>ASN.1 is merely a format</p>",
+    "topic": "ietf-116",
+    "dtime": 1272000,
+    "ptime": 1272000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>eyeroll</p>",
+    "topic": "ietf-116",
+    "dtime": 1289000,
+    "ptime": 1289000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>right but modern crypto primitive definitions typically specify a bytewise representation anyway -- just using that directly is good for interop</p>",
+    "topic": "ietf-116",
+    "dtime": 1313000,
+    "ptime": 1313000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>we're doing the same thing in OpenPGP, fwiw</p>",
+    "topic": "ietf-116",
+    "dtime": 1344000,
+    "ptime": 1344000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>sure, but you need some structure, right?</p>",
+    "topic": "ietf-116",
+    "dtime": 1345000,
+    "ptime": 1345000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>TLV and such</p>",
+    "topic": "ietf-116",
+    "dtime": 1349000,
+    "ptime": 1349000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>not if the OID tells you what object you need and the object itself is of known size.</p>",
+    "topic": "ietf-116",
+    "dtime": 1391000,
+    "ptime": 1391000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>So the OID is your structure</p>",
+    "topic": "ietf-116",
+    "dtime": 1408000,
+    "ptime": 1408000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>which I have to then go look up</p>",
+    "topic": "ietf-116",
+    "dtime": 1416000,
+    "ptime": 1416000
+  },
+  {
+    "author": "Michael Jenkins",
+    "text": "<p>It'll have a non-Disney owned name, specifically</p>",
+    "topic": "ietf-116",
+    "dtime": 1470000,
+    "ptime": 1470000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>The new names are a bit... hard... :( ehehehe!!</p>",
+    "topic": "ietf-116",
+    "dtime": 1471000,
+    "ptime": 1471000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>if you're talking about naming, don't forget the 4Q curves, which were a response to bada55 curves</p>",
+    "topic": "ietf-116",
+    "dtime": 1497000,
+    "ptime": 1497000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Disney will buy any name we come up with.</p>",
+    "topic": "ietf-116",
+    "dtime": 1505000,
+    "ptime": 1505000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Hash entire certificate instead :)</p>",
+    "topic": "ietf-116",
+    "dtime": 1596000,
+    "ptime": 1596000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>... and algorithm agility, please!</p>",
+    "topic": "ietf-116",
+    "dtime": 1614000,
+    "ptime": 1614000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>So the uni-qsckeys-kyber draft does specify binary encodings for public and private keys (see s. 3.5).<br>\nThey have chosen ASN.1 (and therefore I assume DER, but I don't think that's actually said), which seems a bit of a bizarre choice for protocols that don't use ASN.1.<br>\nBut I assume you just DER that pub key structure to get a BIT or OCTET string, and stuff that into the structure in Sean's draft?<br>\n<a href=\"https://www.ietf.org/archive/id/draft-uni-qsckeys-kyber-00.html#name-private-key-full-encoding\">https://www.ietf.org/archive/id/draft-uni-qsckeys-kyber-00.html#name-private-key-full-encoding</a></p>",
+    "topic": "ietf-116",
+    "dtime": 1700000,
+    "ptime": 1700000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>More generalized is a good idea - we should work on repeatable proceses... post-quantum now... post-ai tomorrow... post-post-post... :)</p>",
+    "topic": "ietf-116",
+    "dtime": 1763000,
+    "ptime": 1763000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>We have a great strategy for a repeatable process ... it's called IETF, updates, -bis, etc :)</p>",
+    "topic": "ietf-116",
+    "dtime": 1817000,
+    "ptime": 1817000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Yeah, don't mess with our excuse for traveling around the world to conferences.</p>",
+    "topic": "ietf-116",
+    "dtime": 1864000,
+    "ptime": 1864000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Heheheh!! :)</p>",
+    "topic": "ietf-116",
+    "dtime": 1897000,
+    "ptime": 1897000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>The first internet draft to add a new HCP might be a good place to ask IANA for a registry, if we want one</p>",
+    "topic": "ietf-116",
+    "dtime": 2581000,
+    "ptime": 2581000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>I really like the approach, great work!</p>",
+    "topic": "ietf-116",
+    "dtime": 2645000,
+    "ptime": 2645000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1065\">@Tim Hollebeek</span> <span class=\"user-mention\" data-user-id=\"100\">@Russ Housley</span> I uploaded new 5990bis slides via the datatracker. This set has a white background.</p>",
+    "topic": "ietf-116",
+    "dtime": 2768000,
+    "ptime": 2768000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>Thank you</p>",
+    "topic": "ietf-116",
+    "dtime": 2813000,
+    "ptime": 2813000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>Approved</p>",
+    "topic": "ietf-116",
+    "dtime": 2837000,
+    "ptime": 2837000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>Sorry 'bout that folks. I have used that background for three other presentations and it was okay.</p>",
+    "topic": "ietf-116",
+    "dtime": 2860000,
+    "ptime": 2860000
+  },
+  {
+    "author": "Michael Jenkins",
+    "text": "<p>It worked fine on Meetecho...</p>",
+    "topic": "ietf-116",
+    "dtime": 2880000,
+    "ptime": 2880000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>so then the bcc'd person can't accidentally send a message to the regular recipients?</p>",
+    "topic": "ietf-116",
+    "dtime": 2953000,
+    "ptime": 2953000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>reply not send....</p>",
+    "topic": "ietf-116",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Daniel Migault",
+    "text": "<p>@sean and black fonts ?</p>",
+    "topic": "ietf-116",
+    "dtime": 3179000,
+    "ptime": 3179000
+  },
+  {
+    "author": "Daniel Migault",
+    "text": "<p>;-)</p>",
+    "topic": "ietf-116",
+    "dtime": 3187000,
+    "ptime": 3187000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p><span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 3477000,
+    "ptime": 3477000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"331\">Deb Cooley</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-116/near/68296\">said</a>:</p>\n<blockquote>\n<p>so then the bcc'd person can't accidentally \"reply all\" to the regular recipients?</p>\n</blockquote>\n<p>the draft recommends:</p>\n<blockquote>\n<p>Each <code>Bcc</code> recipient receives a distinct copy of the message, with an identical cryptographic payload, and the message is signed and encrypted to that specific recipient and all the named recipients.</p>\n</blockquote>",
+    "topic": "ietf-116",
+    "dtime": 3961000,
+    "ptime": 3961000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>bummer.... I don't use bcc, because most people aren't smart enough to realize that I bcc'd them.</p>",
+    "topic": "ietf-116",
+    "dtime": 4226000,
+    "ptime": 4226000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>(regardless of whether it is encrypted or not)</p>",
+    "topic": "ietf-116",
+    "dtime": 4237000,
+    "ptime": 4237000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"846\">@PRAT Julien</span> I know I'm an author on this, so should maybe give feedback privately. Should that be KMAC rather than HKDF-SHA2-* ?</p>",
+    "topic": "ietf-116",
+    "dtime": 4259000,
+    "ptime": 4259000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>I think the main reason i use Bcc is to drop someone from a thread.  in that case, i start such a message with something like:</p>\n<p>[dropping Jane to Bcc to spare her inbox]</p>",
+    "topic": "ietf-116",
+    "dtime": 4297000,
+    "ptime": 4297000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>oooohhh, I like that</p>",
+    "topic": "ietf-116",
+    "dtime": 4328000,
+    "ptime": 4328000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(while bcc'ing jane, that is)</p>",
+    "topic": "ietf-116",
+    "dtime": 4330000,
+    "ptime": 4330000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>my MUA tells people on the BCC that they are on the BCC, and encapsulates the original message into a new message to the BCC. (This is MH)</p>",
+    "topic": "ietf-116",
+    "dtime": 4434000,
+    "ptime": 4434000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>The Blind is for the people on the CC, not the person on the BCC :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 4461000,
+    "ptime": 4461000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>wow, that seems weird.  so if they reply to you about the Bcc, they're actually replying to the new variant message?</p>\n<p>does the variant message have a distinct Message-ID?  does it References: the original Message-ID?</p>",
+    "topic": "ietf-116",
+    "dtime": 4509000,
+    "ptime": 4509000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>(I've typically used BCC to tell my VP that I'm disagreeing with my manager, and/or that that the manager is doing something against the company policy)</p>",
+    "topic": "ietf-116",
+    "dtime": 4511000,
+    "ptime": 4511000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@Daniel, yes, if they reply, they are replying to me, not the group.  And yes, it has a new message-Id. The old one is in the encapsulated message.</p>",
+    "topic": "ietf-116",
+    "dtime": 4540000,
+    "ptime": 4540000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>shocked, shocked that you ever disagree with your manager, <span class=\"user-mention\" data-user-id=\"169\">@Michael Richardson</span></p>",
+    "topic": "ietf-116",
+    "dtime": 4555000,
+    "ptime": 4555000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>I usually send a second message to the people I didn't want on the original message.  I usually call it a 'ghetto bcc'</p>",
+    "topic": "ietf-116",
+    "dtime": 4576000,
+    "ptime": 4576000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>People really wanted a combination of dilithium3 and PKCS1.5?</p>",
+    "topic": "ietf-116",
+    "dtime": 5455000,
+    "ptime": 5455000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>I was going to say that I appreciated their restraint in picking combinations ;)</p>",
+    "topic": "ietf-116",
+    "dtime": 5558000,
+    "ptime": 5558000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>No finite field DSA?</p>",
+    "topic": "ietf-116",
+    "dtime": 5610000,
+    "ptime": 5610000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i was wondering whether i could nest the generic combiners</p>",
+    "topic": "ietf-116",
+    "dtime": 5613000,
+    "ptime": 5613000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@Yoav don't give them ideas</p>",
+    "topic": "ietf-116",
+    "dtime": 5648000,
+    "ptime": 5648000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>What does it mean for a CA to revoke RSA?  If the CA refuses to sign any certificates with RSA, and isn't using RSA itself, is it equivalent to revoking all previous certificates that had RSA keys?</p>",
+    "topic": "ietf-116",
+    "dtime": 5898000,
+    "ptime": 5898000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Yeah, I'm not getting why we'd revoke the RSA on <em>old</em> certificates</p>",
+    "topic": "ietf-116",
+    "dtime": 5929000,
+    "ptime": 5929000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>I don't understand it.  If you don't want RSA 1024, then don't issue certs with that algorithm</p>",
+    "topic": "ietf-116",
+    "dtime": 5975000,
+    "ptime": 5975000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>It's not that ...</p>",
+    "topic": "ietf-116",
+    "dtime": 5988000,
+    "ptime": 5988000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>go on</p>",
+    "topic": "ietf-116",
+    "dtime": 5998000,
+    "ptime": 5998000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@Deb, imagine you signed 15 year long certificates 12 years ago.</p>",
+    "topic": "ietf-116",
+    "dtime": 5999000,
+    "ptime": 5999000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>stop....</p>",
+    "topic": "ietf-116",
+    "dtime": 6007000,
+    "ptime": 6007000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>12 years ago Deb did not used combined signatures</p>",
+    "topic": "ietf-116",
+    "dtime": 6023000,
+    "ptime": 6023000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>And that thing may be verified using the algorithm the thing says not to use</p>",
+    "topic": "ietf-116",
+    "dtime": 6031000,
+    "ptime": 6031000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Okay. In 12 years, imagine you had 15 year duration certificates with three years left on them.</p>",
+    "topic": "ietf-116",
+    "dtime": 6056000,
+    "ptime": 6056000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Right, and that is RSA + dilithium3, and we don't like RSA anymore</p>",
+    "topic": "ietf-116",
+    "dtime": 6080000,
+    "ptime": 6080000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Why revoke it.  The signature still verifies. If you don't trust RSA, don't verify the RSA sig?</p>",
+    "topic": "ietf-116",
+    "dtime": 6104000,
+    "ptime": 6104000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>oh so this is entirely because of composite stuff?</p>",
+    "topic": "ietf-116",
+    "dtime": 6116000,
+    "ptime": 6116000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@Yoav, I agree. But maybe the idea is that the policy is at the CA, rather than the nodes, and that's where I think it mostly fails.</p>",
+    "topic": "ietf-116",
+    "dtime": 6127000,
+    "ptime": 6127000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>+1 what Paul said about splitting the I-D into two parts</p>",
+    "topic": "ietf-116",
+    "dtime": 6162000,
+    "ptime": 6162000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>Nested composite is not allowed in the signatures draft.  The draft says: \"Since recursive composite public keys are disallowed in [I-D.ounsworth-pq-composite-keys], no component signature may itself be a composite\"</p>",
+    "topic": "ietf-116",
+    "dtime": 6319000,
+    "ptime": 6319000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>I agree with DKG: the generic OIDs are a bad idea</p>",
+    "topic": "ietf-116",
+    "dtime": 6440000,
+    "ptime": 6440000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>I don't get the \"rake factory\" reference.   Google didn't help.</p>",
+    "topic": "ietf-116",
+    "dtime": 6563000,
+    "ptime": 6563000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>If you leave a bunch of rakes lying around and you step on them, they smack you in the face</p>",
+    "topic": "ietf-116",
+    "dtime": 6603000,
+    "ptime": 6603000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>He might have made it up on the fly.  possibly</p>",
+    "topic": "ietf-116",
+    "dtime": 6627000,
+    "ptime": 6627000
+  },
+  {
+    "author": "Andrew Fregly",
+    "text": "<p>How could CRLs be used to revoke an algorithm globally?</p>",
+    "topic": "ietf-116",
+    "dtime": 6636000,
+    "ptime": 6636000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>And I agree with DKG again about not revocating algorithms, but replacing the software instead</p>",
+    "topic": "ietf-116",
+    "dtime": 6654000,
+    "ptime": 6654000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"331\">@Deb Cooley</span> Thanks.  I've heard of the danger of leaving rakes around, just not sure what that had to do with a factory making them.</p>",
+    "topic": "ietf-116",
+    "dtime": 6674000,
+    "ptime": 6674000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>making one's clients agile.</p>",
+    "topic": "ietf-116",
+    "dtime": 6676000,
+    "ptime": 6676000
+  },
+  {
+    "author": "Andrew Fregly",
+    "text": "<p>Current speaker seems bo be picking up the point\\</p>",
+    "topic": "ietf-116",
+    "dtime": 6682000,
+    "ptime": 6682000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>@chairs - Do you want me to ask my questions in chat?</p>",
+    "topic": "ietf-116",
+    "dtime": 6754000,
+    "ptime": 6754000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>I'm happy to given the time.</p>",
+    "topic": "ietf-116",
+    "dtime": 6767000,
+    "ptime": 6767000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>rakes: <a href=\"/user_uploads/2/26/7fP2UZw5kMxRHU_K5izR8l6r/sideshow-bob-rakes.gif\">sideshow-bob-rakes.gif</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/26/7fP2UZw5kMxRHU_K5izR8l6r/sideshow-bob-rakes.gif\" title=\"sideshow-bob-rakes.gif\"><img src=\"/user_uploads/2/26/7fP2UZw5kMxRHU_K5izR8l6r/sideshow-bob-rakes.gif\"></a></div>",
+    "topic": "ietf-116",
+    "dtime": 6776000,
+    "ptime": 6776000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>Two questions:</p>\n<ol>\n<li>Do we need SPHINCS+ hybrids? The OpenPGP doesn't include them and SPHINCS+ is pretty mature.</li>\n<li>Why is the K-of-N parameter a parameter of the key and not the signature? (based on the presentation, correct me if I'm wrong)</li>\n</ol>",
+    "topic": "ietf-116",
+    "dtime": 6880000,
+    "ptime": 6880000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the idea is that the generic combiner is a factory for making rakes that will hit peopl in the face</p>",
+    "topic": "ietf-116",
+    "dtime": 6885000,
+    "ptime": 6885000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>You don't want to be writing a combiner guidance document in the future.</p>",
+    "topic": "ietf-116",
+    "dtime": 6983000,
+    "ptime": 6983000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>revocation of algorithms sound like usually verifier side's policy .  <br>\nIt sound fine if CA is controlling all EE devices. It might be helpful to describe use case of mass-revocation.</p>",
+    "topic": "ietf-116",
+    "dtime": 6988000,
+    "ptime": 6988000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i do like the idea of compact, privacy-preserving mass-revocation -- i'm just not sure this is the thing we want to do it though.</p>",
+    "topic": "ietf-116",
+    "dtime": 7027000,
+    "ptime": 7027000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Doesn't k-of-n also sound like verifier-side policy?</p>",
+    "topic": "ietf-116",
+    "dtime": 7031000,
+    "ptime": 7031000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>One of the things to address on algorithms revocation is not a binary event.  If people want this, they might want to communicate a work factor or something like that to indicate approximate how weak RSA is</p>",
+    "topic": "ietf-116",
+    "dtime": 7084000,
+    "ptime": 7084000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>And it's not clear how to communicate a non-binary signal using CRLs.  Which might be another reason not to use CRLs for this.</p>",
+    "topic": "ietf-116",
+    "dtime": 7109000,
+    "ptime": 7109000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>Of course if one wanted to revoke all certs w/ a particular algorithm from a CA, one could revoke the CA.</p>",
+    "topic": "ietf-116",
+    "dtime": 7134000,
+    "ptime": 7134000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>@Yoav, yes it is. Ultimately it is always the choice of the verifying party if to accept or not a signature (besides the mathematical verification). The indication in the CRL and OCSP can provide the indication to the client how to handle things in an easy, integrated way.</p>",
+    "topic": "ietf-116",
+    "dtime": 7134000,
+    "ptime": 7134000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>I was thinking same thing as Yoav.</p>",
+    "topic": "ietf-116",
+    "dtime": 7136000,
+    "ptime": 7136000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1065\">@Tim Hollebeek</span> or you might want to say \"RSA bad, but RSA as part of 2-of-3 RSA + Khyber + Snausage is fine, even if you don't know how to validate Snausage\"</p>",
+    "topic": "ietf-116",
+    "dtime": 7162000,
+    "ptime": 7162000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-116/near/68514\">said</a>:</p>\n<blockquote>\n<p>People really wanted a combination of dilithium3 and PKCS1.5?</p>\n</blockquote>\n<p>There's still a lot of PKCSv1.5 out there. If the goal is to continue to use your battle-hardened crypto modules, then I think you need to offer it in hybrid.</p>",
+    "topic": "ietf-116",
+    "dtime": 7226000,
+    "ptime": 7226000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-116/near/68533\">said</a>:</p>\n<blockquote>\n<p>i was wondering whether i could nest the generic combiners</p>\n</blockquote>\n<p>No.</p>",
+    "topic": "ietf-116",
+    "dtime": 7239000,
+    "ptime": 7239000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>I think if you sign up for kofn, you've signed up for revoking RSA means that already, Daniel</p>",
+    "topic": "ietf-116",
+    "dtime": 7240000,
+    "ptime": 7240000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>@Daniel - Thanks for the support, we will work on a separate document so we can possibly collaborate on the solution. The idea I presented can be expanded to other details of certificates (e.g., do not trust certs issued before date X).</p>",
+    "topic": "ietf-116",
+    "dtime": 7267000,
+    "ptime": 7267000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1065\">@Tim Hollebeek</span> even if you don't know how to evaluate one of the others?</p>",
+    "topic": "ietf-116",
+    "dtime": 7273000,
+    "ptime": 7273000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>As a personal opinion, I retain an allergy to kofn.</p>",
+    "topic": "ietf-116",
+    "dtime": 7275000,
+    "ptime": 7275000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> That's an interesting point I'd like to avoid since kofn is already to complex for my taste.  But people who like it need to address that too.</p>",
+    "topic": "ietf-116",
+    "dtime": 7320000,
+    "ptime": 7320000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"693\">Jonathan Hammell</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-116/near/68630\">said</a>:</p>\n<blockquote>\n<p>I don't get the \"rake factory\" reference.   Google didn't help.</p>\n</blockquote>\n<p>I think the point is that generic composite is giving you a blueprint to create rakes to smack yourself in the face with.</p>",
+    "topic": "ietf-116",
+    "dtime": 7326000,
+    "ptime": 7326000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i think this is all a lot of complexity, and even if it would work in a perfect world, i'm not convinced that the complexity cost is worthwhile</p>",
+    "topic": "ietf-116",
+    "dtime": 7329000,
+    "ptime": 7329000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Thank you everybody!</p>",
+    "topic": "ietf-116",
+    "dtime": 7345000,
+    "ptime": 7345000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>keep it simple until you know you need the complexity.</p>",
+    "topic": "ietf-116",
+    "dtime": 7347000,
+    "ptime": 7347000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "ietf-116",
+    "dtime": 7365000,
+    "ptime": 7365000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-LAMPS-20230329-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/lamps"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-LAMPS-20230329-0030"
+		}		
+	]
+}

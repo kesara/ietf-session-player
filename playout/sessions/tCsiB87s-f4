@@ -1,0 +1,659 @@
+
+{
+	"title": "IETF114-ANRW-20220726-1900",
+	"filename": "IETF114-ANRW-20220726-1900",
+	"start": 0,
+	"end": 7451000,
+	"start_datetime": "2022-07-26T18:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "tCsiB87s-f4",
+    "start": 0,
+    "end": "7451000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Surely we should just provide a Tamarin model.</p>",
+    "dtime": 20000,
+    "ptime": 20000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I want an \"RF-C\" ML bot that can just make the spec based on the keywords and title</p>",
+    "dtime": 85000,
+    "ptime": 85000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>\"XYZ over QUIC, using no extension frames\"</p>",
+    "dtime": 115000,
+    "ptime": 115000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>We're still having the usual cookie break issue and people are lingering in the halls.</p>",
+    "dtime": 129000,
+    "ptime": 129000
+  },
+  {
+    "author": "Colin Perkins",
+    "text": "<p>We'll give it a couple of minutes</p>",
+    "dtime": 188000,
+    "ptime": 188000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>yes</p>",
+    "dtime": 270000,
+    "ptime": 270000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Also previously seen in IETF specifications: XDR, thrift.</p>",
+    "dtime": 783000,
+    "ptime": 783000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>and, of course, asn.1</p>",
+    "dtime": 855000,
+    "ptime": 855000
+  },
+  {
+    "author": "Joerg Ott",
+    "text": "<p>quite a bit of this is just about syntax, which is the easy part</p>",
+    "dtime": 963000,
+    "ptime": 963000
+  },
+  {
+    "author": "Joerg Ott",
+    "text": "<p>well: easier</p>",
+    "dtime": 979000,
+    "ptime": 979000
+  },
+  {
+    "author": "Colin Perkins",
+    "text": "<p>Also, not just syntax</p>",
+    "dtime": 1032000,
+    "ptime": 1032000
+  },
+  {
+    "author": "Joerg Ott",
+    "text": "<p>(was referring to XDR, ASN.1, ...)</p>",
+    "dtime": 1056000,
+    "ptime": 1056000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"422\">Jeffrey Haas</span> <a href=\"#narrow/stream/327-anrw/topic/jabber/near/23955\">said</a>:</p>\n<blockquote>\n<p>and, of course, asn.1</p>\n</blockquote>\n<p>It's lovely that we kept the .1 even though we went through DER, BER and at least one other form of rep. So .. its all ASN.1 but not ASN1.bis or ASN1.ter</p>",
+    "dtime": 1058000,
+    "ptime": 1058000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>The issue with having a fixed syntax is that the first thing people will do is complain that it's not expressive enough, whilst simultaneously complaining it's too expressive.</p>",
+    "dtime": 1061000,
+    "ptime": 1061000
+  },
+  {
+    "author": "Colin Perkins",
+    "text": "<p>Note at <a href=\"https://notes.ietf.org/notes-ietf-114-anrw\">https://notes.ietf.org/notes-ietf-114-anrw</a></p>",
+    "dtime": 1082000,
+    "ptime": 1082000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The asn.1 fun is partially about how serialization format was considered a separate item from the language.</p>",
+    "dtime": 1190000,
+    "ptime": 1190000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>We have similar considerations at the moment with how YANG can be serialized over different mechanisms in different formats.</p>",
+    "dtime": 1227000,
+    "ptime": 1227000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>i'm now reminded of the \"fun\" I had developing user interfaces in UML - <a href=\"https://lucaspardue.com/wp-content/uploads/2014/04/states_5.png\">https://lucaspardue.com/wp-content/uploads/2014/04/states_5.png</a></p>\n<div class=\"message_inline_image\"><a href=\"https://lucaspardue.com/wp-content/uploads/2014/04/states_5.png\"><img src=\"/external_content/607261aab36d4fc34aaabf14542805daf3a655ef/68747470733a2f2f6c756361737061726475652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031342f30342f7374617465735f352e706e67\"></a></div>",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p><a href=\"https://lucaspardue.com/2014/04/22/uml-modelling-user-interfaces-part-1-hierarchy-and-navigation/\">https://lucaspardue.com/2014/04/22/uml-modelling-user-interfaces-part-1-hierarchy-and-navigation/</a></p>",
+    "dtime": 1267000,
+    "ptime": 1267000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>ASN.1 was naively optimistic; folks creating it thought there would be an ASN.2</p>",
+    "dtime": 1273000,
+    "ptime": 1273000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>When the author of the mechanism admits it is very fluid, that means at best you have nice stencils you can use for your drawing tool but not necessarily much else. :-)</p>",
+    "dtime": 1302000,
+    "ptime": 1302000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I'm glad he said isomorphisms, I felt saying \"defined by an FSM\" was an uneccessary restriction</p>",
+    "dtime": 1303000,
+    "ptime": 1303000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The 'read between the lines' issue prevalent in RFCs</p>",
+    "dtime": 1452000,
+    "ptime": 1452000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I also think he just said that even Normative RFC language is not an isomorphism to an FSM</p>",
+    "dtime": 1468000,
+    "ptime": 1468000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>There's a key step missing here. Defining the security properties. What is an \"attack\" depends on what the spec is trying to protect you from.</p>",
+    "dtime": 1469000,
+    "ptime": 1469000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>^</p>",
+    "dtime": 1499000,
+    "ptime": 1499000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>My favourite one is the ORIGIN Frame RFC which uses the word \"origin\" with at least three different meanings (in different contexts).</p>",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>Wait: He's a formal-methods person and he just said \"Heuristic\" HERESY!!!</p>",
+    "dtime": 1626000,
+    "ptime": 1626000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>how about the word frame Jonathan? that's quite overloaded too</p>",
+    "dtime": 1648000,
+    "ptime": 1648000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Tools like Tamarin and ProVerif rely heavily on heuristics, because the problems are only semi-decidable.</p>",
+    "dtime": 1660000,
+    "ptime": 1660000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>This missing FIN thing.. isn't it an argument to \"the RFC could have been better written\" ?</p>",
+    "dtime": 2140000,
+    "ptime": 2140000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>implicit behaviour and ambiguities are inherently unhelpful</p>",
+    "dtime": 2159000,
+    "ptime": 2159000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>so as a proof of concept of \"well written\" this feels like quite a strong test: easy to FSMise, is a good spec</p>",
+    "dtime": 2178000,
+    "ptime": 2178000
+  },
+  {
+    "author": "Olaf Kolkman",
+    "text": "<p>I was thinking the same thing - one step further - this could be integrated in the WG processes, as a sort last-call tool.</p>",
+    "dtime": 2201000,
+    "ptime": 2201000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Well many protocols, e.g. TLS cannot be described (correctly) with an FSM, so I'm not sure that would help.</p>",
+    "dtime": 2209000,
+    "ptime": 2209000
+  },
+  {
+    "author": "Michael Tüxen",
+    "text": "<p>The text CLOSE_WAIT--- FIN! ---&gt; LAST-ACK is from the TCP RFC.</p>",
+    "dtime": 2216000,
+    "ptime": 2216000
+  },
+  {
+    "author": "Michael Tüxen",
+    "text": "<p>In particular, from handling the RECEIVE primitive. And in that case there should be no state transition...</p>",
+    "dtime": 2252000,
+    "ptime": 2252000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Having such tools part of a step similar to a \"grammar check\" would certainly be useful.  If the markup step that produces the procedural elements for the identified fsm were to be carried into the rfc xml, it means you can iterate over your human readable text until the correct fsm can be identified from the text.That basically means we end up training the humans to write text the tool likes.  It likely is more declarative and, possibly, easier to read.</p>",
+    "dtime": 2483000,
+    "ptime": 2483000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I was always attracted to Milners CCS. I wonder if things which won't express well in an FSM can be represented in CCS or derived systems better?</p>",
+    "dtime": 2612000,
+    "ptime": 2612000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>IIUC CCS is more expressive, so yes.</p>",
+    "dtime": 2681000,
+    "ptime": 2681000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"422\">Jeffrey Haas</span> <a href=\"#narrow/stream/327-anrw/topic/jabber/near/24209\">said</a>:</p>\n<blockquote>\n<p>Having such tools part of a step similar to a \"grammar check\" would certainly be useful.  If the markup step that produces the procedural elements for the identified fsm were to be carried into the rfc xml, it means you can iterate over your human readable text until the correct fsm can be identified from the text.That basically means we end up training the humans to write text the tool likes.  It likely is more declarative and, possibly, easier to read.</p>\n</blockquote>\n<p>He went there</p>",
+    "dtime": 2732000,
+    "ptime": 2732000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Glad he did.</p>",
+    "dtime": 2745000,
+    "ptime": 2745000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Tamarin is based on Pattern-Matching Recursion Schemes that are (much) more expressive than FSMs, and it's difficult to fully describe TLS in PMRSs.</p>",
+    "dtime": 2756000,
+    "ptime": 2756000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>If the tools interactively guide the humans to help with the generated stuff, among other things it helps people to whom English is not a first language.</p>",
+    "dtime": 2780000,
+    "ptime": 2780000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I'm going to be honest I was skeptical, but I come out of this one less skeptical. I think he's adding value.</p>",
+    "dtime": 2785000,
+    "ptime": 2785000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>As someone who didn't study formal systems in school and hasn't kept up with natural language processing, it was nice to see that the tooling can get a good part of the way therel.</p>",
+    "dtime": 2875000,
+    "ptime": 2875000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Even if it's just a form of \"the computer is the developer and can they implement the rfc\"</p>",
+    "dtime": 2895000,
+    "ptime": 2895000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>or we write the diagrams in SVG and use XML attributes to help!</p>",
+    "dtime": 2975000,
+    "ptime": 2975000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>There's sometimes the issue that sometimes attempts to clean up text and turn them into FSMs that it doesn't always lead to cleaner rfcs.  I offer BGP RFC 4271 as an example.</p>",
+    "dtime": 3000000,
+    "ptime": 3000000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>I want a tool that reports things like \"there is no plausible way to implement RFC 793 without goto\"</p>",
+    "dtime": 3127000,
+    "ptime": 3127000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"49\">@Colin Perkins</span> require the queue tool to be used?  Jonathan's been waiting for awhile.</p>",
+    "dtime": 3301000,
+    "ptime": 3301000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>FSMs with states can be expressed with sub-states.  Unexplored sub-states in a deterministic FSM are often a pointer to bugs.  (again, I offer BGP)</p>",
+    "dtime": 3472000,
+    "ptime": 3472000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@Jeffrey Haas some FSMs with states can be represented that way. If the number of tokens is finite that can be done, but if the number of tokens is infinite (or even very large) then you can't express it with sub-FSMs</p>",
+    "dtime": 3582000,
+    "ptime": 3582000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Even for modestly large, it becomes impractical for human comprehension.  That was part of our findings in the BGP work.  However, it also was good for illustrating that elements that contributed to sub-states as inputs were sources of ambiguity and bugs.  Somewhat by proxy, large numbers of sub-states were a sign of hidden complexity that still needed deterministic handling.</p>",
+    "dtime": 4058000,
+    "ptime": 4058000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>One thing I love about the current presentation is the usual tie-in as to whether a cleanly logical bit of text would let us map nicely into easily readable language for a native speaker.  (See also, English sucks...)</p>",
+    "dtime": 4234000,
+    "ptime": 4234000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>The main thing that can't be done is dependencies between different parts of the protocol. For example checking that agreed parameter values are the ones that are used. Even saying \"is the nonce I sent the same as the nonce I got back\" is not possible in a true FSM, unless you have two states per value in your nonce space.</p>",
+    "dtime": 4236000,
+    "ptime": 4236000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>(But yes, I do have to agree that English is horribly ambiguous)</p>",
+    "dtime": 4304000,
+    "ptime": 4304000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Your one phrase example on nonces both showing the mess and that for a native speaker it's \"easy\". :-)</p>",
+    "dtime": 4342000,
+    "ptime": 4342000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Great presentation, Yu-Chuan. Thanks.</p>",
+    "dtime": 4710000,
+    "ptime": 4710000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>how does the IESG's definition of quality line up to slide 10's definition?</p>",
+    "dtime": 5551000,
+    "ptime": 5551000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>What IESG definition of quality?</p>",
+    "dtime": 5591000,
+    "ptime": 5591000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>(serious question)</p>",
+    "dtime": 5609000,
+    "ptime": 5609000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I see a relatively high frequency of \"thank you for a well-written document\" in IESG reviews - I hope you're not suggesting that's IESG boilerplate :P</p>",
+    "dtime": 5735000,
+    "ptime": 5735000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>@rich: we have relied on sufficient for interop.  this is a long way from a model that can be evaluated with any formality</p>",
+    "dtime": 5747000,
+    "ptime": 5747000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>did celeste's and harry's implementations interop?  and we can not even formalise 'interop' in a formally complete and testable fashion.</p>",
+    "dtime": 5878000,
+    "ptime": 5878000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>ack to both Randy and Lucas.</p>",
+    "dtime": 5898000,
+    "ptime": 5898000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>what's the line between \"easy to understand\" and \"better off documented in other literature artforms\"</p>",
+    "dtime": 5994000,
+    "ptime": 5994000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>Basic test has been whether multiple implementer brains parse the text the same way, as demonstrated by interop testing of their respective implementations.  Sometimes if we're lucky we have someone with a wicked sense of humor who enjoys fuzz testing the spec by obeying the letter while violating the spirit wherever s/he can.  But it's still just human interpretation.</p>",
+    "dtime": 6136000,
+    "ptime": 6136000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Get a non-expert to implement it. You'd be amazed at the kind of things n00bs will get wrong.</p>",
+    "dtime": 6220000,
+    "ptime": 6220000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>A non-native speaker is almost as good for this.</p>",
+    "dtime": 6279000,
+    "ptime": 6279000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Also, it's probably a good way to train people in writing crypto code.</p>",
+    "dtime": 6301000,
+    "ptime": 6301000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>A problem is they rarely point out problems, thinking it's their fault for being bad English speakers.</p>",
+    "dtime": 6312000,
+    "ptime": 6312000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>to rephrase my questions: I've seen people ask to document deeply aspects of HTTP in a spec that extends it minimally. That seems beyond the remit of a specification. The understanding of the entire protocol needs all of the other things</p>",
+    "dtime": 6316000,
+    "ptime": 6316000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>and how do you say \"constant time\" and \"constant power\" formally? :)</p>",
+    "dtime": 6329000,
+    "ptime": 6329000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>Again, thanks to the ANRW PC for selecting really nice content to muse over, kept my interest all the way through</p>",
+    "dtime": 6333000,
+    "ptime": 6333000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>+1</p>",
+    "dtime": 6348000,
+    "ptime": 6348000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>+many</p>",
+    "dtime": 6355000,
+    "ptime": 6355000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Hear hear</p>",
+    "dtime": 6355000,
+    "ptime": 6355000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>++</p>",
+    "dtime": 6368000,
+    "ptime": 6368000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I think the isomorphic/strictly equivalent thing might be a road to say \"heres a bunch of techniques to write a spec which is better to formally verify and implement\" without having to be proscriptive which one is used. The tools approach, to a bunch of tests, I would see as something which worked in a CI document management method. Modify the draft? it does a bunch of check tasks, even human mediated heuristics, tells you a score</p>",
+    "dtime": 6520000,
+    "ptime": 6520000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>on consistency, shoutout to HTTP folks that have been writing (and enforcing) style guides documented at - <a href=\"https://httpwg.org/admin/editors/style-guide\">https://httpwg.org/admin/editors/style-guide</a></p>",
+    "dtime": 6549000,
+    "ptime": 6549000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I really struggled with this kind of CI check on a patch for a while, but watching it nitpick me for my code attempts really told me how I was working wrongly</p>",
+    "dtime": 6556000,
+    "ptime": 6556000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Julian is a machine.  Literally.</p>",
+    "dtime": 6571000,
+    "ptime": 6571000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I started trying to implement HTTP style checks in Vale but ran out of time</p>",
+    "dtime": 6577000,
+    "ptime": 6577000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>Julia is a machine, figurarively and literally</p>",
+    "dtime": 6586000,
+    "ptime": 6586000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>lol</p>",
+    "dtime": 6592000,
+    "ptime": 6592000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>This cognitive load point is important.  Years ago I read editorial guidelines for a SF mag, one of their guidelines was \"you get to introduce one hard concept per story, after that you lose your audience\"</p>",
+    "dtime": 6594000,
+    "ptime": 6594000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>Oh no.. language wars on a slide. Noooo</p>",
+    "dtime": 6652000,
+    "ptime": 6652000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>pyhton2 or 3?</p>",
+    "dtime": 6676000,
+    "ptime": 6676000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>py2 is dead</p>",
+    "dtime": 6685000,
+    "ptime": 6685000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I really increasingly regret we didn't go with S-Expressions. At the time I was meh, but now I am more 'wish we had'</p>",
+    "dtime": 6690000,
+    "ptime": 6690000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>Heh.  I tried, George you were in the room :)</p>",
+    "dtime": 6708000,
+    "ptime": 6708000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>(in PKI)</p>",
+    "dtime": 6711000,
+    "ptime": 6711000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>yes. you did, and you were right</p>",
+    "dtime": 6717000,
+    "ptime": 6717000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>cfrg intra-rg review is much more thorough than wg..ietf..directorate review of ietf docs.</p>",
+    "dtime": 6974000,
+    "ptime": 6974000
+  },
+  {
+    "author": "Colin Perkins",
+    "text": "<p>Please use the meetecho queue so we can manage local and remote questions</p>",
+    "dtime": 7014000,
+    "ptime": 7014000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I've been pretty enamoured of DY*'s approach lately.Formally verified implementation and formally analysed spec from one document.https://hal.inria.fr/hal-03178425/document</p>",
+    "dtime": 7108000,
+    "ptime": 7108000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>The spec is law?</p>",
+    "dtime": 7291000,
+    "ptime": 7291000
+  },
+  {
+    "author": "Rob Austein",
+    "text": "<p>The fact that some reference implementations suck does not mean that all do.  Strongly support reference implementations as I don't believe that it runs until I see it boot.  Whenever there are multiple sources of truth (text vs pseudo code vs reference code) the spec has to state which one is authoritative :)</p>",
+    "dtime": 7355000,
+    "ptime": 7355000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I absolutely think Colin is on the money with pursuing this. I think its worth it, and would add value.</p>",
+    "dtime": 7362000,
+    "ptime": 7362000
+  },
+  {
+    "author": "Colin Perkins",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-114-anrw\">https://notes.ietf.org/notes-ietf-114-anrw</a></p>",
+    "dtime": 7382000,
+    "ptime": 7382000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>I think CFRG gets interested academics to do deep studies, and their motivation is ..not sure what adjective...  IETF/directorate/etc reviews are hard to get similar enthusiasm if it's not your particular WG.</p>",
+    "dtime": 7410000,
+    "ptime": 7410000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>I really enjoyed this and look forward to seeing what next steps happen.</p>",
+    "dtime": 7423000,
+    "ptime": 7423000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@MeetEcho: Adjourned</p>",
+    "dtime": 7433000,
+    "ptime": 7433000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-ANRW-20220726-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/anrw"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-ANRW-20220726-1900"
+		}		
+	]
+}

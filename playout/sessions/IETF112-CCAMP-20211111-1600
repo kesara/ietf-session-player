@@ -1,0 +1,460 @@
+{
+  "title": "IETF112-CCAMP-20211111-1600",
+  "filename": "IETF112-CCAMP-20211111-1600",
+  "start": 0,
+  "end": 7543000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "wYhSV-AvM1k",
+      "start": 0,
+      "end": "7543000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 188000,
+      "ptime": 188000,
+      "author": "Haomian Zheng",
+      "text": "will help on minutes taker.<br/>"
+    },
+    {
+      "dtime": 653000,
+      "ptime": 653000,
+      "author": "Daniel King",
+      "text": "Will also help with minutes. <br/>"
+    },
+    {
+      "dtime": 2162000,
+      "ptime": 2162000,
+      "author": "John Scudder",
+      "text": "audio is terrible for me too<br/>"
+    },
+    {
+      "dtime": 2168000,
+      "ptime": 2168000,
+      "author": "Daniel King",
+      "text": "Ah, same for me. Audio clipping from Haomian. <br/>"
+    },
+    {
+      "dtime": 2170000,
+      "ptime": 2170000,
+      "author": "John Scudder",
+      "text": "maybe put question in chat?<br/>"
+    },
+    {
+      "dtime": 2183000,
+      "ptime": 2183000,
+      "author": "John Scudder",
+      "text": "audio still unusable<br/>"
+    },
+    {
+      "dtime": 2205000,
+      "ptime": 2205000,
+      "author": "John Scudder",
+      "text": "can't hear fatai either?<br/>"
+    },
+    {
+      "dtime": 2206000,
+      "ptime": 2206000,
+      "author": "Aihua Guo",
+      "text": "cannot hear a complete sentence...<br/>"
+    },
+    {
+      "dtime": 2218000,
+      "ptime": 2218000,
+      "author": "Italo Busi",
+      "text": "it seems the audio is unstable for everybody<br/>"
+    },
+    {
+      "dtime": 2219000,
+      "ptime": 2219000,
+      "author": "John Scudder",
+      "text": "better!<br/>"
+    },
+    {
+      "dtime": 2220000,
+      "ptime": 2220000,
+      "author": "Haomian Zheng",
+      "text": "what is the target of layer0-types, besides supporting optical impairment topology?<br/>"
+    },
+    {
+      "dtime": 2244000,
+      "ptime": 2244000,
+      "author": "Haomian Zheng",
+      "text": "do we want to use this to also support other document? e.g., flexi-grid topology?<br/>"
+    },
+    {
+      "dtime": 2274000,
+      "ptime": 2274000,
+      "author": "Italo Busi",
+      "text": "@haomian: dwdm-if, wson tunnel and flexi-grid tunnel models depend on layer0-types-ext<br/>"
+    },
+    {
+      "dtime": 2348000,
+      "ptime": 2348000,
+      "author": "Haomian Zheng",
+      "text": "Good plan @italo<br/>"
+    },
+    {
+      "dtime": 2371000,
+      "ptime": 2371000,
+      "author": "Adrian Farrel",
+      "text": "Yes, let's ask Adrian<br/>"
+    },
+    {
+      "dtime": 2436000,
+      "ptime": 2436000,
+      "author": "Adrian Farrel",
+      "text": "Actually, the AD is probably the best person to ask about this<br/>"
+    },
+    {
+      "dtime": 2513000,
+      "ptime": 2513000,
+      "author": "Italo Busi",
+      "text": "similar understanding as Dieter<br/>"
+    },
+    {
+      "dtime": 2610000,
+      "ptime": 2610000,
+      "author": "Italo Busi",
+      "text": "Aihua is right: I was forgetting the wson and flexi-grid path computation models ...<br/>"
+    },
+    {
+      "dtime": 2641000,
+      "ptime": 2641000,
+      "author": "Haomian Zheng",
+      "text": "all of these with -v2?<br/>"
+    },
+    {
+      "dtime": 2958000,
+      "ptime": 2958000,
+      "author": "Adrian Farrel",
+      "text": "Flexi-grid weekly calls<br/>Thursdays @ 14:00 CET <br/><a href=\"https://zoom.us/j/96715237995?pwd=WmcwMVZ3c1kyY0pucUhNcW\" rel=\"nofollow\">https://zoom.us/j/96715237995?pwd=WmcwMVZ3c1kyY0pucUhNcW</a><br/>VNOHNvdz09<br/>"
+    },
+    {
+      "dtime": 3015000,
+      "ptime": 3015000,
+      "author": "Dieter Beller",
+      "text": "This is my view: whatever all layer0-related YANG models need in terms of layer0-types extensions are fitting to the scope of the lyer0-types-ext draft. So, everything can go in up to the point in time we want to publish -v2.<br/>"
+    },
+    {
+      "dtime": 3102000,
+      "ptime": 3102000,
+      "author": "Italo Busi",
+      "text": "I agree with Dieter<br/>"
+    },
+    {
+      "dtime": 3109000,
+      "ptime": 3109000,
+      "author": "Haomian Zheng",
+      "text": "suggest to have a 'cutting point' for -v2, it will be a mess if we put too much dependent models on the same types file as a cluster. Anyway we can start -v3 right after publication lol.<br/>"
+    },
+    {
+      "dtime": 3158000,
+      "ptime": 3158000,
+      "author": "Italo Busi",
+      "text": "@haomian, if we need to publish an RFC sooner than other, we can still split between v2 and v3 in the same way we have split between v1 and v2<br/>"
+    },
+    {
+      "dtime": 3178000,
+      "ptime": 3178000,
+      "author": "Haomian Zheng",
+      "text": "No problem and we can decide later.<br/>"
+    },
+    {
+      "dtime": 3261000,
+      "ptime": 3261000,
+      "author": "Dieter Beller",
+      "text": "👍🏻<br/>"
+    },
+    {
+      "dtime": 3497000,
+      "ptime": 3497000,
+      "author": "Daniel King",
+      "text": "Great, thanks Dieter! <br/>"
+    },
+    {
+      "dtime": 3516000,
+      "ptime": 3516000,
+      "author": "Daniel King",
+      "text": "Good point Haomian, thank you. <br/>"
+    },
+    {
+      "dtime": 3635000,
+      "ptime": 3635000,
+      "author": "Lorenzo Miniero",
+      "text": "Yes we can hear you<br/>"
+    },
+    {
+      "dtime": 3637000,
+      "ptime": 3637000,
+      "author": "Scott Mansfield",
+      "text": "hello<br/>"
+    },
+    {
+      "dtime": 3662000,
+      "ptime": 3662000,
+      "author": "Scott Mansfield",
+      "text": "next slide<br/>"
+    },
+    {
+      "dtime": 3668000,
+      "ptime": 3668000,
+      "author": "John Scudder",
+      "text": "fatai, can you hear us?<br/>"
+    },
+    {
+      "dtime": 3670000,
+      "ptime": 3670000,
+      "author": "John Scudder",
+      "text": "next slide please<br/>"
+    },
+    {
+      "dtime": 3677000,
+      "ptime": 3677000,
+      "author": "Lorenzo Miniero",
+      "text": "It looks like the screen sharing feed is frozen (0kbps)<br/>"
+    },
+    {
+      "dtime": 3688000,
+      "ptime": 3688000,
+      "author": "Lorenzo Miniero",
+      "text": "Yep, he dropped<br/>"
+    },
+    {
+      "dtime": 3698000,
+      "ptime": 3698000,
+      "author": "Lorenzo Miniero",
+      "text": "Anyway you can open the preloaded slides<br/>"
+    },
+    {
+      "dtime": 3704000,
+      "ptime": 3704000,
+      "author": "Lorenzo Miniero",
+      "text": "I imported them all here<br/>"
+    },
+    {
+      "dtime": 3715000,
+      "ptime": 3715000,
+      "author": "Lorenzo Miniero",
+      "text": "Second icon under your name<br/>"
+    },
+    {
+      "dtime": 3720000,
+      "ptime": 3720000,
+      "author": "Lorenzo Miniero",
+      "text": "(barred document)<br/>"
+    },
+    {
+      "dtime": 3836000,
+      "ptime": 3836000,
+      "author": "John Scudder",
+      "text": "&lt;clap clap&gt;<br/>"
+    },
+    {
+      "dtime": 3842000,
+      "ptime": 3842000,
+      "author": "Fatai Zhang",
+      "text": "I am back, sorry<br/>"
+    },
+    {
+      "dtime": 3874000,
+      "ptime": 3874000,
+      "author": "John Scudder",
+      "text": "perfect timing ;-)<br/>"
+    },
+    {
+      "dtime": 3950000,
+      "ptime": 3950000,
+      "author": "Fatai Zhang",
+      "text": "tnanks, :-)<br/>"
+    },
+    {
+      "dtime": 5132000,
+      "ptime": 5132000,
+      "author": "Scott Mansfield",
+      "text": "schema mount needs a larger discussion, I agree.<br/>"
+    },
+    {
+      "dtime": 5196000,
+      "ptime": 5196000,
+      "author": "Daniel King",
+      "text": "+1 Support<br/>"
+    },
+    {
+      "dtime": 5198000,
+      "ptime": 5198000,
+      "author": "Italo Busi",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5200000,
+      "ptime": 5200000,
+      "author": "Dieter Beller",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5200000,
+      "ptime": 5200000,
+      "author": "Haomian Zheng",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5203000,
+      "ptime": 5203000,
+      "author": "Yi Lin",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5204000,
+      "ptime": 5204000,
+      "author": "Chaode Yu",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5204000,
+      "ptime": 5204000,
+      "author": "Luis Contreras",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5204000,
+      "ptime": 5204000,
+      "author": "Yuji Tochio",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5210000,
+      "ptime": 5210000,
+      "author": "Aihua Guo",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5231000,
+      "ptime": 5231000,
+      "author": "Xufeng Liu",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5234000,
+      "ptime": 5234000,
+      "author": "Yunbin Xu",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5250000,
+      "ptime": 5250000,
+      "author": "Yang Zhao",
+      "text": "1<br/>"
+    },
+    {
+      "dtime": 5618000,
+      "ptime": 5618000,
+      "author": "Daniel King",
+      "text": "No question, just wanted to say this is function that already existed in previous WG document(s), so it would be good for the WG to adopt sooner, rather than later.<br/>"
+    },
+    {
+      "dtime": 5930000,
+      "ptime": 5930000,
+      "author": "Fatai Zhang",
+      "text": "Dan, noted, thanks<br/>"
+    },
+    {
+      "dtime": 6331000,
+      "ptime": 6331000,
+      "author": "Daniel King",
+      "text": "I have question relationship with other network inventory models and also service attachment point models. I will post to list.<br/>"
+    },
+    {
+      "dtime": 6449000,
+      "ptime": 6449000,
+      "author": "John Scudder",
+      "text": "basically the most important thing regarding home WG from my PoV: (1) the work should happen where there is energy to do it, and (2) other WGs to which the work is relevant should be kept in the loop. As I said we can iterate with the chairs of the other WGs.<br/>"
+    },
+    {
+      "dtime": 6818000,
+      "ptime": 6818000,
+      "author": "Adrian Farrel",
+      "text": "I think the question (Dan may already be typing this on the list) was not whether \"optical inventory\" belonged somewhere else, but whether there are other places where \"inventory\" models are being built that should share an approach or even some common model<br/>"
+    },
+    {
+      "dtime": 6934000,
+      "ptime": 6934000,
+      "author": "John Scudder",
+      "text": "yes, point taken<br/>"
+    },
+    {
+      "dtime": 7112000,
+      "ptime": 7112000,
+      "author": "Haomian Zheng",
+      "text": "BTW, we are looking forward to contribution from ccamp experts, for optical cloud applications.<br/>"
+    },
+    {
+      "dtime": 7142000,
+      "ptime": 7142000,
+      "author": "Deborah Brungard",
+      "text": "I can do my comments via chat. Overall need to separate data plane from control plane. For data plane is SG15 responsibility.<br/>"
+    },
+    {
+      "dtime": 7227000,
+      "ptime": 7227000,
+      "author": "Haomian Zheng",
+      "text": "Thank you Deborah, we will follow with SG15 progress:)<br/>"
+    },
+    {
+      "dtime": 7260000,
+      "ptime": 7260000,
+      "author": "John Scudder",
+      "text": "People may also want to look at the rtgwg minutes. The raw hedgedoc notes are at <a href=\"https://notes.ietf.org/notes-ietf-112-rtgwg#\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-112-rtgwg#</a><br/>"
+    },
+    {
+      "dtime": 7287000,
+      "ptime": 7287000,
+      "author": "Dieter Beller",
+      "text": "Re draft-liu-rtgwg-optical2cloud-problem-statement-00: CCAMP is focusing on control plane aspects of the OTN - most of the requirements presented are data plane related. So, it is not clear to me to what extent the control plane can help meeting these requirements.<br/>"
+    },
+    {
+      "dtime": 7502000,
+      "ptime": 7502000,
+      "author": "Fatai Zhang",
+      "text": "see you<br/>"
+    },
+    {
+      "dtime": 7520000,
+      "ptime": 7520000,
+      "author": "Scott Mansfield",
+      "text": "thanks!<br/>"
+    },
+    {
+      "dtime": 7525000,
+      "ptime": 7525000,
+      "author": "Daniel King",
+      "text": "Thanks all<br/>"
+    },
+    {
+      "dtime": 7532000,
+      "ptime": 7532000,
+      "author": "Aihua Guo",
+      "text": "thanks all. bye!<br/>"
+    },
+    {
+      "dtime": 7536000,
+      "ptime": 7536000,
+      "author": "Deborah Brungard",
+      "text": "Bye!<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-CCAMP-20211111-1600"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/ccamp"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+
+{
+	"title": "IETF-TIGRESS-20230223-1800",
+	"filename": "IETF-TIGRESS-20230223-1800",
+	"start": 0,
+	"end": 3401000,
+	"start_datetime": "2023-02-23T17:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "7M2xn-aR4h4",
+    "start": 0,
+    "end": "3401000"
+  }
+],
+	"messages": [
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>That split of requirements around TEE/TPMs matches my expectation</p>",
+    "topic": "jabber",
+    "dtime": 516000,
+    "ptime": 516000
+  },
+  {
+    "author": "Casey Astiz",
+    "text": "<p>Noted, we will address after the meeting</p>",
+    "topic": "jabber",
+    "dtime": 532000,
+    "ptime": 532000
+  },
+  {
+    "author": "Alex Pelletier",
+    "text": "<p>We are having a little trouble hearing you Eric.</p>",
+    "topic": "jabber",
+    "dtime": 938000,
+    "ptime": 938000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Hmm.... Network issues</p>",
+    "topic": "jabber",
+    "dtime": 967000,
+    "ptime": 967000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think this is a good change. the last sentence never seemed enforceable to me</p>",
+    "topic": "jabber",
+    "dtime": 1057000,
+    "ptime": 1057000
+  },
+  {
+    "author": "Prachi Jain",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 1098000,
+    "ptime": 1098000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>What Brad just said seems like it is an important requirements question</p>",
+    "topic": "jabber",
+    "dtime": 1880000,
+    "ptime": 1880000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And are we going to standardize the format of this thing and then say \"Now Google Wallet needs to implement this\"</p>",
+    "topic": "jabber",
+    "dtime": 1908000,
+    "ptime": 1908000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And then what is the thing that makes it kick off Google Wallet and not, say Chrome</p>",
+    "topic": "jabber",
+    "dtime": 1926000,
+    "ptime": 1926000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Do we have a worked example of this?</p>",
+    "topic": "jabber",
+    "dtime": 1952000,
+    "ptime": 1952000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think it's helpful context.</p>",
+    "topic": "jabber",
+    "dtime": 2067000,
+    "ptime": 2067000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>aarghh</p>",
+    "topic": "jabber",
+    "dtime": 2168000,
+    "ptime": 2168000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'll type</p>",
+    "topic": "jabber",
+    "dtime": 2172000,
+    "ptime": 2172000
+  },
+  {
+    "author": "James Willcox",
+    "text": "<p>doesn't sound networky to me, I'd try a different mic</p>",
+    "topic": "jabber",
+    "dtime": 2174000,
+    "ptime": 2174000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>This is annoying, as I have been using this mic with every other conferencing system</p>",
+    "topic": "jabber",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>OK, new mic</p>",
+    "topic": "jabber",
+    "dtime": 2255000,
+    "ptime": 2255000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>It seems to me the mitigation on the last one is that the overall system needs credential revocation</p>",
+    "topic": "jabber",
+    "dtime": 2304000,
+    "ptime": 2304000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>After you recover your device</p>",
+    "topic": "jabber",
+    "dtime": 2330000,
+    "ptime": 2330000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Anyway, I agree with these.</p>",
+    "topic": "jabber",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Dmitry Vinokurov",
+    "text": "<p>Right, credential revocation certainly is a part of the solution - but's it's mostly life cycle management, often tied to interface with  Provisioning Entity...</p>",
+    "topic": "jabber",
+    "dtime": 2390000,
+    "ptime": 2390000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Agreed.</p>",
+    "topic": "jabber",
+    "dtime": 2417000,
+    "ptime": 2417000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>FWIW, when I said \"Signal\" I was trying to ask \"Why don't you just send the whole thing over Signal\"</p>",
+    "topic": "jabber",
+    "dtime": 3042000,
+    "ptime": 3042000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And \"We need multiple round trips\" explains that</p>",
+    "topic": "jabber",
+    "dtime": 3052000,
+    "ptime": 3052000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Can we use WebPush for notifications?</p>",
+    "topic": "jabber",
+    "dtime": 3248000,
+    "ptime": 3248000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Would it make sense to merge these?</p>",
+    "topic": "jabber",
+    "dtime": 3263000,
+    "ptime": 3263000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>rather than having two?</p>",
+    "topic": "jabber",
+    "dtime": 3277000,
+    "ptime": 3277000
+  },
+  {
+    "author": "Manuel Gerster",
+    "text": "<p>Will we still compare WebDAV with plain HTTP(S) as specified in the initial draft?</p>",
+    "topic": "jabber",
+    "dtime": 3332000,
+    "ptime": 3332000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>you should, yes</p>",
+    "topic": "jabber",
+    "dtime": 3340000,
+    "ptime": 3340000
+  },
+  {
+    "author": "Alex Pelletier",
+    "text": "<p>I am not sure if WebPush can work, I will check that out.</p>",
+    "topic": "jabber",
+    "dtime": 3344000,
+    "ptime": 3344000
+  },
+  {
+    "author": "Manuel Gerster",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 3357000,
+    "ptime": 3357000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-TIGRESS-20230223-1800"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-tigress-01/session/tigress"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-TIGRESS-20230223-1800"
+		}
+	]
+}

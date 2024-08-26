@@ -1,0 +1,995 @@
+
+{
+	"title": "IETF-IDR-20220124-1500",
+	"filename": "IETF-IDR-20220124-1500",
+	"start": 0,
+	"end": 9234000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "eyjtdWoSqpM",
+    "start": 0,
+    "end": "9234000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 728000,
+    "ptime": 728000,
+    "author": "Jeffrey Haas",
+    "text": "The note taking tool is open for collaborative minute taking.<br/>"
+  },
+  {
+    "dtime": 869000,
+    "ptime": 869000,
+    "author": "Jie Dong",
+    "text": "Yes,&nbsp;&nbsp;here is the link to the notes: <a href=\"https://notes.ietf.org/notes-ietf-interim-2022-idr-02-idr?edit\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-interim-2022-idr-02-idr?edit</a><br/>"
+  },
+  {
+    "dtime": 1707000,
+    "ptime": 1707000,
+    "author": "Keyur Patel",
+    "text": "RR will always need to be upgraded as a new SAFI is implemented<br/>"
+  },
+  {
+    "dtime": 1778000,
+    "ptime": 1778000,
+    "author": "Jeffrey Haas",
+    "text": "Kaliraj's point is an old one raised by John Scudder some years ago.&nbsp;&nbsp;If you have clear key field in the NLRI, prefix length is sufficient.<br/>"
+  },
+  {
+    "dtime": 1815000,
+    "ptime": 1815000,
+    "author": "Jeffrey Haas",
+    "text": "We have two examples where this is problematic: label stacks in the NLRI, some of the structured nlri elements.<br/>"
+  },
+  {
+    "dtime": 1843000,
+    "ptime": 1843000,
+    "author": "Jeffrey Haas",
+    "text": "Some of the discussion points around structured encodings for flowspec also overlap the conversation.<br/>"
+  },
+  {
+    "dtime": 1866000,
+    "ptime": 1866000,
+    "author": "Keyur Patel",
+    "text": "Ack. Though my observation was specific to RR comment<br/>"
+  },
+  {
+    "dtime": 1883000,
+    "ptime": 1883000,
+    "author": "Jeffrey Haas",
+    "text": "Right. My comments apply to RRs.<br/>"
+  },
+  {
+    "dtime": 1885000,
+    "ptime": 1885000,
+    "author": "John Scudder",
+    "text": "Notwithstanding that, Jeff is correct.<br/>"
+  },
+  {
+    "dtime": 1914000,
+    "ptime": 1914000,
+    "author": "John Scudder",
+    "text": "It would be great if IDR fixed this in a general way. I've looked at it before, it seems like a heavy lift, is the problem.<br/>"
+  },
+  {
+    "dtime": 1916000,
+    "ptime": 1916000,
+    "author": "Keyur Patel",
+    "text": "hmm with new safi for both proposals RRs have to be upgraded<br/>"
+  },
+  {
+    "dtime": 1923000,
+    "ptime": 1923000,
+    "author": "John Scudder",
+    "text": "\"It's all software\" of course. :-)<br/>"
+  },
+  {
+    "dtime": 1925000,
+    "ptime": 1925000,
+    "author": "Keyur Patel",
+    "text": "was my point<br/>"
+  },
+  {
+    "dtime": 1955000,
+    "ptime": 1955000,
+    "author": "Jeffrey Haas",
+    "text": "Kaliraj acknowledged that. It was his point that this stuff should moved to nexthop attribute properties.<br/>"
+  },
+  {
+    "dtime": 1977000,
+    "ptime": 1977000,
+    "author": "Jeffrey Haas",
+    "text": "We'll clearly be hitting this as part of car non-key fields discussion.<br/>"
+  },
+  {
+    "dtime": 2157000,
+    "ptime": 2157000,
+    "author": "Keyur Patel",
+    "text": "ditto with RTC comments<br/>"
+  },
+  {
+    "dtime": 2165000,
+    "ptime": 2165000,
+    "author": "Keyur Patel",
+    "text": "RTC will need to be upgraded as well<br/>"
+  },
+  {
+    "dtime": 2175000,
+    "ptime": 2175000,
+    "author": "Keyur Patel",
+    "text": "especially if new SAFI is used<br/>"
+  },
+  {
+    "dtime": 2194000,
+    "ptime": 2194000,
+    "author": "Jeffrey Haas",
+    "text": "at least if it does non-extended communities.&nbsp;&nbsp;There are prior proposals to apply rt-c to any type of extended community.<br/>"
+  },
+  {
+    "dtime": 2194000,
+    "ptime": 2194000,
+    "author": "John Scudder",
+    "text": "ISTM that sorting out these comments is exactly why we are having this interim? No? (I mean, I am not the chair nor do I have any other management role here, I'm just asking.)<br/>"
+  },
+  {
+    "dtime": 2441000,
+    "ptime": 2441000,
+    "author": "Rafal Szarecki",
+    "text": "It's all about who and how RD is allocated. It could be ASbase not PE base<br/>"
+  },
+  {
+    "dtime": 2565000,
+    "ptime": 2565000,
+    "author": "Srihari Sangli",
+    "text": "FYI for all the thread on mailing list about the discussion : <a href=\"https://mailarchive.ietf.org/arch/msg/idr/v_zIzI7faxcXkra2wGRkoq4Y5fA/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/msg/idr/v_zIzI7faxcXkra2wGRkoq4Y5fA/</a><br/>"
+  },
+  {
+    "dtime": 2569000,
+    "ptime": 2569000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "Yes. When \"Egress-PE originating CT routes\", RD will be same. And multipath will work in main BGP-CT table itself. In this case multipath in the transport-RIB is not required.<br/>"
+  },
+  {
+    "dtime": 2667000,
+    "ptime": 2667000,
+    "author": "Swadesh Agrawal",
+    "text": "CT draft mentions about unique RD and your response on list<br/>"
+  },
+  {
+    "dtime": 2693000,
+    "ptime": 2693000,
+    "author": "Swadesh Agrawal",
+    "text": "This has the local convergence problem DJ just mentioned<br/>"
+  },
+  {
+    "dtime": 2706000,
+    "ptime": 2706000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "&gt;hmm with new safi for both proposals RRs have to be upgradedtoday, yes. but a potential feature is posisble, where RR can be configured to negotiate and pass-thru AFI/SAFIs that it doesnt understand. Carryng non-key fields in NLRI makes such things impossible/difficult.<br/>"
+  },
+  {
+    "dtime": 2755000,
+    "ptime": 2755000,
+    "author": "Swadesh Agrawal",
+    "text": "Its not a problem, CAR draft clearly specify it<br/>"
+  },
+  {
+    "dtime": 2770000,
+    "ptime": 2770000,
+    "author": "Swadesh Agrawal",
+    "text": "these are pass through on RR as in any other BGP SAFI<br/>"
+  },
+  {
+    "dtime": 2797000,
+    "ptime": 2797000,
+    "author": "Swadesh Agrawal",
+    "text": "non Key TLVs are label, SRv6 SID<br/>"
+  },
+  {
+    "dtime": 2809000,
+    "ptime": 2809000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "CT draft specifies the \"Per Transport-Class prefix\" label allocation mode, with which local-convergence problem does not exist<br/>"
+  },
+  {
+    "dtime": 2824000,
+    "ptime": 2824000,
+    "author": "Swadesh Agrawal",
+    "text": "which are to be interpreted at point nexthop is changed<br/>"
+  },
+  {
+    "dtime": 2829000,
+    "ptime": 2829000,
+    "author": "Jeffrey Haas",
+    "text": "with regard to add-paths case for addressing path pinch point issue, were the authors intending to mandate implementation of <a href=\"https://datatracker.ietf.org/doc/html/draft-pmohapat-idr-fast-conn-restore-03\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-pmohapat-idr-fast-conn-restore-03</a> ?<br/>"
+  },
+  {
+    "dtime": 2852000,
+    "ptime": 2852000,
+    "author": "Swadesh Agrawal",
+    "text": "*not changed<br/>"
+  },
+  {
+    "dtime": 2882000,
+    "ptime": 2882000,
+    "author": "John Scudder",
+    "text": "Again, I agree with Kaliraj regarding key fields in NLRI and as previously mentioned I would love to see IDR bite this off. It seems obvious that it's desirable to do it in a manner that's general, not specific to a particular AFI/SAFI. But, that piece of work is something that should be tackled independent of anything we're discussing today.<br/>"
+  },
+  {
+    "dtime": 2892000,
+    "ptime": 2892000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "&gt;RTC will need to be upgraded as wellRTC works with CT today in Junos. It is tested by test-team as-well as customer lab scenarios.<br/>"
+  },
+  {
+    "dtime": 2934000,
+    "ptime": 2934000,
+    "author": "Russ White",
+    "text": "I agree on the key fields in the NLRI ... this is something IDR should provide a generic solution to, rather than creating new ones per application/use case<br/>"
+  },
+  {
+    "dtime": 2985000,
+    "ptime": 2985000,
+    "author": "Jeff Tantsura",
+    "text": "+1 John<br/>"
+  },
+  {
+    "dtime": 3002000,
+    "ptime": 3002000,
+    "author": "Rafal Szarecki",
+    "text": "Question: what is 2 domains do not agree on color and create color conflict?<br/>"
+  },
+  {
+    "dtime": 3022000,
+    "ptime": 3022000,
+    "author": "Jeffrey Haas",
+    "text": "rafal, car presentation will discuss that in upcoming slides<br/>"
+  },
+  {
+    "dtime": 3104000,
+    "ptime": 3104000,
+    "author": "Srihari Sangli",
+    "text": "I dont agree that common color domain will map to 99% deployments.<br/>"
+  },
+  {
+    "dtime": 3132000,
+    "ptime": 3132000,
+    "author": "Balaji Rajagopalan",
+    "text": "Regarding ADD-PATH ID vs RD for preserving multiple paths:&nbsp;&nbsp;<br/>RD makes it easy to preserve multiple paths through the pinch point, while also making it easy to identify the source.<br/>ADD-PATH can do the former, but complicates the latter.<br/>If RD does open up scaling challenges, it can be made the same in all the PE’s (just as ADD-PATH can be disabled).<br/>IOW, using RD provides the choice of easy source identification (which one can opt out of, should scaling become a problem), but ADD-PATH doesn’t offer that choice. Am I understanding it correctly?<br/>"
+  },
+  {
+    "dtime": 3148000,
+    "ptime": 3148000,
+    "author": "Keyur Patel",
+    "text": "RTC&nbsp;&nbsp;RFC as it states is applicable to VPN SAFIs. For 3107 like address families families you would need an extension.<br/>"
+  },
+  {
+    "dtime": 3175000,
+    "ptime": 3175000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "correct Balaji<br/>"
+  },
+  {
+    "dtime": 3187000,
+    "ptime": 3187000,
+    "author": "Keyur Patel",
+    "text": "btw I should clarify - that my comments are as a wg member :)<br/>"
+  },
+  {
+    "dtime": 3223000,
+    "ptime": 3223000,
+    "author": "Jeffrey Haas",
+    "text": "Right, Keyur.&nbsp;&nbsp;I think I have about four drafts discussing extensibility toward other afi/safi<br/>"
+  },
+  {
+    "dtime": 3251000,
+    "ptime": 3251000,
+    "author": "Jeffrey Haas",
+    "text": "as an example, rtc works with evpn esi extended community in multiple implementations. :-)<br/>"
+  },
+  {
+    "dtime": 3294000,
+    "ptime": 3294000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "\"VPN SAFIs\" could have meant RFC-4364 set of AFI-SAFIs.. that is families that follow that model.<br/>"
+  },
+  {
+    "dtime": 3298000,
+    "ptime": 3298000,
+    "author": "Swadesh Agrawal",
+    "text": "Already raised issue with RD and response from Kaliraj is \"Egress-PE originating CT routes\". Then CT route will also have same RD and ADDPATH problem arises.<br/>"
+  },
+  {
+    "dtime": 3307000,
+    "ptime": 3307000,
+    "author": "John Scudder",
+    "text": "I guess the more interesting question (to me, anyway) isn't \"do you have to extend the spec\" but, how hard is it to do that? And more importantly, how hard is it to extend the implementation correspondingly? (Regarding RTC.)<br/>"
+  },
+  {
+    "dtime": 3366000,
+    "ptime": 3366000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "implementation wise, we tested CT with RTC already works. just a data point.<br/>"
+  },
+  {
+    "dtime": 3388000,
+    "ptime": 3388000,
+    "author": "John Scudder",
+    "text": "If I understand Kaliraj's point correctly, he's implying that the restriction to \"VPN SAFIs\" is chiefly a bureaucratic issue, not an implementation issue. Which if so, would be good news.<br/>"
+  },
+  {
+    "dtime": 3397000,
+    "ptime": 3397000,
+    "author": "Jeffrey Haas",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 3411000,
+    "ptime": 3411000,
+    "author": "Srihari Sangli",
+    "text": "Can 211 select the paths via 231 or 232. If so, I dont see unless both are advertised<br/>"
+  },
+  {
+    "dtime": 3415000,
+    "ptime": 3415000,
+    "author": "Haibo Wang",
+    "text": "Agree with Swadesh<br/>"
+  },
+  {
+    "dtime": 3432000,
+    "ptime": 3432000,
+    "author": "Keyur Patel",
+    "text": "@jgs: my point was if spec is to be extended (and is easy) then its a moot point as both proposals can use it and leverage it<br/>"
+  },
+  {
+    "dtime": 3449000,
+    "ptime": 3449000,
+    "author": "Jie Dong",
+    "text": "there was a draft on extending RTC to other AFI/SAFIs: <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-idr-rtc-no-rt\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-ietf-idr-rtc-no-rt</a><br/>"
+  },
+  {
+    "dtime": 3454000,
+    "ptime": 3454000,
+    "author": "Rafal Szarecki",
+    "text": "@sri - it was stated Y-RR is doing ADD-PATH<br/>"
+  },
+  {
+    "dtime": 3466000,
+    "ptime": 3466000,
+    "author": "Rafal Szarecki",
+    "text": "But ADD-PATH infinity?<br/>"
+  },
+  {
+    "dtime": 3487000,
+    "ptime": 3487000,
+    "author": "John Scudder",
+    "text": "@keyur, so, specifically, you're saying that it's equally natural to apply RTC to CAR as to CT? I take no position on that, I haven't analyzed it.<br/>"
+  },
+  {
+    "dtime": 3497000,
+    "ptime": 3497000,
+    "author": "Susan Hares",
+    "text": "draft-idr-rtc-no-rt - stalled with no implementation - so it can be picked up with 2 implementations<br/>"
+  },
+  {
+    "dtime": 3504000,
+    "ptime": 3504000,
+    "author": "Keyur Patel",
+    "text": "@jgs: exactly<br/>"
+  },
+  {
+    "dtime": 3517000,
+    "ptime": 3517000,
+    "author": "Jeffrey Haas",
+    "text": "Possible add-path infinity at domain boundaries.&nbsp;&nbsp;ebgp addpath is currently problematic.&nbsp;&nbsp;ibgp addpath for multiple hops may be needed - or not - depending on route selection procedures at a given edge.<br/>"
+  },
+  {
+    "dtime": 3541000,
+    "ptime": 3541000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "@keyur how do u apply RTC to CAR when no LCM exists?<br/>"
+  },
+  {
+    "dtime": 3569000,
+    "ptime": 3569000,
+    "author": "Keyur Patel",
+    "text": "@jgs ditto with RR comment as well.<br/>"
+  },
+  {
+    "dtime": 3588000,
+    "ptime": 3588000,
+    "author": "Keyur Patel",
+    "text": "@kaliraj - apply extcomm which is allowed<br/>"
+  },
+  {
+    "dtime": 3648000,
+    "ptime": 3648000,
+    "author": "John Scudder",
+    "text": "The word \"hacky\" has been used a little too liberally in this meeting, but I'm not super excited by this NLRI approach. If we're going to be doing this kind of thing, it should be in an AFI/SAFI neutral manner and not as a footnote attached to a spec which is doing different work. :-(<br/>"
+  },
+  {
+    "dtime": 3686000,
+    "ptime": 3686000,
+    "author": "Jeffrey Haas",
+    "text": "one of the discussion points is, if -car non-key encodings are useful, the non-key procedure perhaps should be refactored from draft into standalone proposal that it's the first user of.<br/>"
+  },
+  {
+    "dtime": 3697000,
+    "ptime": 3697000,
+    "author": "John Scudder",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 3698000,
+    "ptime": 3698000,
+    "author": "Jeffrey Haas",
+    "text": "that potentially addresses the neutral RR discussion as well.<br/>"
+  },
+  {
+    "dtime": 3699000,
+    "ptime": 3699000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "agree john, may be a new MP_NEW_REACHNLRI<br/>"
+  },
+  {
+    "dtime": 3728000,
+    "ptime": 3728000,
+    "author": "Srihari Sangli",
+    "text": "The car draft introduces flags for non-key fields (like transitive bit per nexthop behavior) is going to wrong direction of non-key field encoding<br/>"
+  },
+  {
+    "dtime": 3734000,
+    "ptime": 3734000,
+    "author": "Swadesh Agrawal",
+    "text": "CT draft mentions adding PE address in RT. CT draft carries tunnel endpoint in at least 2 places. Information is repeated in NLRI and in RT<br/>"
+  },
+  {
+    "dtime": 3784000,
+    "ptime": 3784000,
+    "author": "Keyur Patel",
+    "text": "non-key parameters to me has always been inside BGP when it came to implementing it<br/>"
+  },
+  {
+    "dtime": 3800000,
+    "ptime": 3800000,
+    "author": "John Scudder",
+    "text": "I don't follow your point, KP<br/>"
+  },
+  {
+    "dtime": 3809000,
+    "ptime": 3809000,
+    "author": "Keyur Patel",
+    "text": "and I was past the fact TLVs were carried in NLRI ever since we did BGP-LS :(<br/>"
+  },
+  {
+    "dtime": 3839000,
+    "ptime": 3839000,
+    "author": "Keyur Patel",
+    "text": "@jgs - one example is labels and the way we store within BGP as part of path attributes<br/>"
+  },
+  {
+    "dtime": 3848000,
+    "ptime": 3848000,
+    "author": "Jeffrey Haas",
+    "text": "BGP-LS and flowspec maintenance work have certainly provided ample discussion about how tricky tlv in nlri can be.<br/>"
+  },
+  {
+    "dtime": 3855000,
+    "ptime": 3855000,
+    "author": "Keyur Patel",
+    "text": "there are other examples in L2 VPN safis<br/>"
+  },
+  {
+    "dtime": 3860000,
+    "ptime": 3860000,
+    "author": "Balaji Rajagopalan",
+    "text": "@Swadesh, Although ADDPATH problem arises for routes originating from a single PE, the advantage of RD in distinguishing originating routers is still preserved. IMHO, usage of path-id (which can distinguish paths from within a PE) does not negate the advantage of being able to clearly identify the originating PE.<br/>"
+  },
+  {
+    "dtime": 3872000,
+    "ptime": 3872000,
+    "author": "Keyur Patel",
+    "text": "flopped as Jeff said<br/>"
+  },
+  {
+    "dtime": 3894000,
+    "ptime": 3894000,
+    "author": "Keyur Patel",
+    "text": "flowspec<br/>"
+  },
+  {
+    "dtime": 3896000,
+    "ptime": 3896000,
+    "author": "Keyur Patel",
+    "text": ":)<br/>"
+  },
+  {
+    "dtime": 3903000,
+    "ptime": 3903000,
+    "author": "John Scudder",
+    "text": "Either I'm too slow to get your point, or the IM medium isn't suited to get it across. :-(<br/>"
+  },
+  {
+    "dtime": 3941000,
+    "ptime": 3941000,
+    "author": "Keyur Patel",
+    "text": "we can always have a followup call. no biggie<br/>"
+  },
+  {
+    "dtime": 3970000,
+    "ptime": 3970000,
+    "author": "Srihari Sangli",
+    "text": "@keyur - information present in more than one place (NLRI key and attribute). One can argue we have predessor - Transposition for SRv6 service. IMO it is not&nbsp;&nbsp;a good structure<br/>"
+  },
+  {
+    "dtime": 3971000,
+    "ptime": 3971000,
+    "author": "John Scudder",
+    "text": "Is your point \"we already have NLRI with non-key data\"? Because, sure. That's known. And as explained in the slide deck, it's not ideal.<br/>"
+  },
+  {
+    "dtime": 4038000,
+    "ptime": 4038000,
+    "author": "Jeffrey Haas",
+    "text": "\"eases tracking of route\" is to some extent point made about RD.&nbsp;&nbsp;Operational perspective is the difference.<br/>"
+  },
+  {
+    "dtime": 4055000,
+    "ptime": 4055000,
+    "author": "Jeffrey Haas",
+    "text": "Do you want to track to originating PE and how does that play with anycast?<br/>"
+  },
+  {
+    "dtime": 4070000,
+    "ptime": 4070000,
+    "author": "Swadesh Agrawal",
+    "text": "@ Balaji, CT carries tunnel endpoint in 3 places then. RD, tunnel endpoint and RT. Same information repeated in 3 places.Do we understand packing broken(its in attribute for RTC), memory storage and scale problem<br/>"
+  },
+  {
+    "dtime": 4079000,
+    "ptime": 4079000,
+    "author": "Jeffrey Haas",
+    "text": "-car argument is effectively that original color intent is the operationally important thing<br/>"
+  },
+  {
+    "dtime": 4086000,
+    "ptime": 4086000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "have done mistakes in the past should not be an excuse to do it again. :)&nbsp;&nbsp; [non-key fields in nlri]<br/>"
+  },
+  {
+    "dtime": 4110000,
+    "ptime": 4110000,
+    "author": "John Scudder",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 4166000,
+    "ptime": 4166000,
+    "author": "Jeffrey Haas",
+    "text": "I don't think ct is doing same thing in 3 places.&nbsp;&nbsp;Originating PE, which may be distinct from endpoints. color, which may vary on a domain by domain basis.<br/>"
+  },
+  {
+    "dtime": 4181000,
+    "ptime": 4181000,
+    "author": "Jeffrey Haas",
+    "text": "but part of the discussion is the operationally expected basis cases.<br/>"
+  },
+  {
+    "dtime": 4189000,
+    "ptime": 4189000,
+    "author": "Swadesh Agrawal",
+    "text": "@Kaliraj, BGP CT is also carrying non key hard coded \"vpn label\" in NLRI. BGP CAR is just providing structure to it<br/>"
+  },
+  {
+    "dtime": 4201000,
+    "ptime": 4201000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "@swadesh, tunnel-ep only in the RD:tunnel-ep in the NLRI. The RD and RT dont have any semantic tunnel-ep. they can be any value.. just that PE-addr can also be used there..<br/>"
+  },
+  {
+    "dtime": 4220000,
+    "ptime": 4220000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "for auto-derivation etc..<br/>"
+  },
+  {
+    "dtime": 4240000,
+    "ptime": 4240000,
+    "author": "Jeffrey Haas",
+    "text": "it's worth noting standard RD has space for effectively a color value. :-)<br/>"
+  },
+  {
+    "dtime": 4296000,
+    "ptime": 4296000,
+    "author": "Haibo Wang",
+    "text": "@Kaliraj But for VPN routes, it will use&nbsp;&nbsp;to resolve CT routes?<br/>"
+  },
+  {
+    "dtime": 4316000,
+    "ptime": 4316000,
+    "author": "Swadesh Agrawal",
+    "text": "@Kaliraj, you are filtering PE by RTC. And for that CT route need to carry PE address in RT as well<br/>"
+  },
+  {
+    "dtime": 4319000,
+    "ptime": 4319000,
+    "author": "Haibo Wang",
+    "text": "@Kaliraj But for VPN routes, it will use nexthop, &amp; color to resolve CT routes?<br/>"
+  },
+  {
+    "dtime": 4401000,
+    "ptime": 4401000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "@swadesh, 8277, it takes a while to steer the ship. we cannot remove label from 8277 NLRIs today. Just not steering forward in the wrong direction. Going forward, we dont want to introduce any new non-key fields in nlri. and carry forwariding-info scoped at nexthop-attribute level.<br/>"
+  },
+  {
+    "dtime": 4453000,
+    "ptime": 4453000,
+    "author": "Swadesh Agrawal",
+    "text": "@Kaliraj, label is unique per route for BGP LU/BGP CAR/CT.<br/>"
+  },
+  {
+    "dtime": 4454000,
+    "ptime": 4454000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "@haibo, yes VPN service routes will resolve over CT/RSVP/SRTE/Flex routes for (NH, Color)<br/>"
+  },
+  {
+    "dtime": 4458000,
+    "ptime": 4458000,
+    "author": "Srihari Sangli",
+    "text": "I support grouping the label and forwarding info with nexthop and evolve nexthop attribute.<br/>"
+  },
+  {
+    "dtime": 4521000,
+    "ptime": 4521000,
+    "author": "Rafal Szarecki",
+    "text": "@Swedesh. Yes but is also redundant to RD:Addr. And implemettaion do not use it as key for table.<br/>"
+  },
+  {
+    "dtime": 4559000,
+    "ptime": 4559000,
+    "author": "Rafal Szarecki",
+    "text": "I mean RD:Addr is minimal key that provide uniqueness.<br/>"
+  },
+  {
+    "dtime": 4559000,
+    "ptime": 4559000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "@rafal - ack!<br/>"
+  },
+  {
+    "dtime": 4679000,
+    "ptime": 4679000,
+    "author": "John Scudder",
+    "text": "By the way, I think it would be appropriate for these slides to be resubmitted with the \"confidential\" statement removed. <br/>"
+  },
+  {
+    "dtime": 4700000,
+    "ptime": 4700000,
+    "author": "Haibo Wang",
+    "text": "VPN routes will use &lt;NH,Color&gt; to resolve CT tunnel, but the CT's key is RD:EP, perhaps this method will cause low efficiency<br/>"
+  },
+  {
+    "dtime": 4705000,
+    "ptime": 4705000,
+    "author": "Susan Hares",
+    "text": "+1 on resubmitting the slides without confidenteial. <br/>"
+  },
+  {
+    "dtime": 4720000,
+    "ptime": 4720000,
+    "author": "Haibo Wang",
+    "text": "VPN routes will use&nbsp;&nbsp;NH,color to resolve CT tunnel, but the CT's key is RD:EP, perhaps this method will cause low efficiency<br/>"
+  },
+  {
+    "dtime": 4797000,
+    "ptime": 4797000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "didnt get that haibo. CT routes resolve over RSVP/SRTE/FlexAlgo route in color transport-rib. So nexthop is always just NH/32 or NH/128<br/>"
+  },
+  {
+    "dtime": 4850000,
+    "ptime": 4850000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "it can do LPM in [gold|bronze| transport-rib, and resolve over any route that exists for that NH/32<br/>"
+  },
+  {
+    "dtime": 4859000,
+    "ptime": 4859000,
+    "author": "Rafal Szarecki",
+    "text": "@haibo,<br/>CT info part suggest that VLPN resolution will use color to select resolution RIB which contain EP only and VPN NH will be looked up in RIB contect against EP.<br/>"
+  },
+  {
+    "dtime": 4883000,
+    "ptime": 4883000,
+    "author": "Natrajan Venkataraman",
+    "text": "@Haibo, Since CT creates different transport rib per color effectively the Service route Protocol NH (V4 or V6) ... Which is quite efficient<br/>"
+  },
+  {
+    "dtime": 4886000,
+    "ptime": 4886000,
+    "author": "Rafal Szarecki",
+    "text": "^VPN<br/>"
+  },
+  {
+    "dtime": 4990000,
+    "ptime": 4990000,
+    "author": "John Scudder",
+    "text": "who's the speaker just now?<br/>"
+  },
+  {
+    "dtime": 5027000,
+    "ptime": 5027000,
+    "author": "John Scudder",
+    "text": "got it, never mind<br/>"
+  },
+  {
+    "dtime": 5064000,
+    "ptime": 5064000,
+    "author": "Susan Hares",
+    "text": "swadesh is the speaker.<br/>"
+  },
+  {
+    "dtime": 5088000,
+    "ptime": 5088000,
+    "author": "Jie Dong",
+    "text": "I guess Haibo's point is that the VPN service needs to match to a CT route first, then resolve to an intra-domain path （RSVP/SR Policy/etc.). And if the matching of VPN route to the CT route is based on color, it may not be as efficient as using the prefix<br/>"
+  },
+  {
+    "dtime": 5170000,
+    "ptime": 5170000,
+    "author": "Jie Dong",
+    "text": "also consider that the color rewrite may happen at the domain<br/>"
+  },
+  {
+    "dtime": 5304000,
+    "ptime": 5304000,
+    "author": "Rafal Szarecki",
+    "text": "@Jie<br/>VPN carry VPN_NH and color-community. In CT, ingress PE use color community to select resolution RIB (out of many). Then thre is just LPM in this selected RIB againat VPN_NH.<br/>"
+  },
+  {
+    "dtime": 5381000,
+    "ptime": 5381000,
+    "author": "Natrajan Venkataraman",
+    "text": "@Jie, Since CT creates one Transport RIB per color CT only looks up EP in the specific Transport RIB. Mapping community is used to select Transport color RIB<br/>"
+  },
+  {
+    "dtime": 5531000,
+    "ptime": 5531000,
+    "author": "Rafal Szarecki",
+    "text": "RD may but not have to be unique per originated device. It may be unique per domain. Same as for VPN. Its user/operator decission.<br/>"
+  },
+  {
+    "dtime": 5533000,
+    "ptime": 5533000,
+    "author": "Haibo Wang",
+    "text": "For VPN routes, nexthop and color are one entity, but the process devide it into two parts, first use color to match Colored CT Rib, and than use nexthop to do LPM<br/>"
+  },
+  {
+    "dtime": 5548000,
+    "ptime": 5548000,
+    "author": "Haibo Wang",
+    "text": "Am i right?<br/>"
+  },
+  {
+    "dtime": 5594000,
+    "ptime": 5594000,
+    "author": "Jie Dong",
+    "text": "one possible issue is that with option C the VPN routes will keep the original color of the egress PE, while the color in the CT routes may be rewritten at the domain boundary, then the CT resolution at the ingress using color may find a CT RIB which has the same color value but different semantic?<br/>"
+  },
+  {
+    "dtime": 5611000,
+    "ptime": 5611000,
+    "author": "Natrajan Venkataraman",
+    "text": "@Haibo, Lookup is a local action. Nothing is divided but only organized better for lookup efficiency<br/>"
+  },
+  {
+    "dtime": 5626000,
+    "ptime": 5626000,
+    "author": "Rafal Szarecki",
+    "text": "@haibo<br/>VPN == service route; user of CT<br/>Your understaending is correct as far as we discuss _infor_ part of CT draft. It is implementation, so everybody can select its way of implementing.<br/>"
+  },
+  {
+    "dtime": 5685000,
+    "ptime": 5685000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "\"first use color to match Colored CT Rib, and than use nexthop to do LPM\"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - correct. thats why it is efficient.<br/>"
+  },
+  {
+    "dtime": 5741000,
+    "ptime": 5741000,
+    "author": "Rafal Szarecki",
+    "text": "@Jie<br/>color is in RT, where we have originating AS. so it is unique globaly. But yes, local maping/policy would be needed.<br/>"
+  },
+  {
+    "dtime": 5827000,
+    "ptime": 5827000,
+    "author": "Robert Raszuk",
+    "text": "If there is real need to expose 231 and 232 nodes across the domain2 (acting as transit for&nbsp;&nbsp;a given color) then it may make sense to add when doing nhs towards domain1 new attribute listing them. <br/>That way possible objective is cleanly met without changing any of the BGP behavior (validating paths for next hops across domain seems like a broken concept) leave alone additional paths just made up during BGP propagation.<br/>"
+  },
+  {
+    "dtime": 5829000,
+    "ptime": 5829000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "\"while the color in the CT routes may be rewritten at the domain boundary\"&nbsp;&nbsp; -&nbsp;&nbsp;when rewriting color in the transport-layer, it should&nbsp;&nbsp;be rewritten accordingly in the service-layer family also.<br/>"
+  },
+  {
+    "dtime": 5831000,
+    "ptime": 5831000,
+    "author": "Rafal Szarecki",
+    "text": "But if set of domain agree to honor intent, this maping could be agreed via oob/contract/e-mail<br/>"
+  },
+  {
+    "dtime": 5884000,
+    "ptime": 5884000,
+    "author": "Natrajan Venkataraman",
+    "text": "@Jie, local mapping @ domain boundary can be configured if each domain chooses different colors to represent same transport class attributes<br/>"
+  },
+  {
+    "dtime": 5892000,
+    "ptime": 5892000,
+    "author": "Natrajan Venkataraman",
+    "text": "^local mapping community<br/>"
+  },
+  {
+    "dtime": 5995000,
+    "ptime": 5995000,
+    "author": "Jie Dong",
+    "text": "yes local mapping @ boundary is needed, while in option C the color in the VPN routes will keep unchanged, thus the ingress PE may also need some mechanism for the color mapping<br/>"
+  },
+  {
+    "dtime": 6101000,
+    "ptime": 6101000,
+    "author": "Haibo Wang",
+    "text": "I think there are two level intent. One is the service color, it's advertised by Egress PE, and shouldn't be modified by ASBR( for option C method). The other is tunnel level color. It also may have tow color , one is for the tunnel endpoint, this is also should be set by the Tunnel EP and not be modified by the ASBR. Then for one intra domain,&nbsp;&nbsp;the tunnel routes may need another color to resolve the intra-domain tunnels.<br/>"
+  },
+  {
+    "dtime": 6397000,
+    "ptime": 6397000,
+    "author": "Rafal Szarecki",
+    "text": "@Haibo.<br/>exectly. I do not thin Option C is a big issue. The OptionC VPN route originate in same place as CT/CAR route, so same entity administers color value.<br/>IMHO color (RT incase of CT) should not be rewritten. (evept cornenr cases- maybe). mapping is needed between CT/CAR and intra-domain tunnels, as each domain my have its internal color semantics.<br/>"
+  },
+  {
+    "dtime": 6556000,
+    "ptime": 6556000,
+    "author": "Haibo Wang",
+    "text": "Yes, so in this situation, I think the color(or RT for CT) is used as Key is more suitable.<br/>"
+  },
+  {
+    "dtime": 6560000,
+    "ptime": 6560000,
+    "author": "Rafal Szarecki",
+    "text": "Here is goodie of CT. the color (RT encoded) and RD both have origination sub-field (AS| PE-Add) so they are globally unique and guaranteed to do not collide. In my limited CAR understanding, color in NLRI may collide between domains, so addtional attribute is neede to overcome it.<br/>"
+  },
+  {
+    "dtime": 6686000,
+    "ptime": 6686000,
+    "author": "Natrajan Venkataraman",
+    "text": "@Haibo, color semantics are domain internal ... different colors can be used by different domains to signal the same transport attributes... this is as simple as rewriting the mapping community at the Boundary Node. As same as a boundary doing nexthop self. As long as service route is able to map to the unique transport attributes irrespective of the color, it works.<br/>"
+  },
+  {
+    "dtime": 6700000,
+    "ptime": 6700000,
+    "author": "Rafal Szarecki",
+    "text": "Need to digest more on CAR. Perhaps it is also not a broblem...<br/>"
+  },
+  {
+    "dtime": 6757000,
+    "ptime": 6757000,
+    "author": "Rafal Szarecki",
+    "text": "@Nat<br/>Rewriting is possible, but ... may break Option C like scenarios.<br/>"
+  },
+  {
+    "dtime": 6805000,
+    "ptime": 6805000,
+    "author": "Rafal Szarecki",
+    "text": "Unless you in-sync revrite also OptionC color-community on border.<br/>"
+  },
+  {
+    "dtime": 6840000,
+    "ptime": 6840000,
+    "author": "Jeffrey Haas",
+    "text": "General statement: anything that polymorphs one NLRI key into another in the same family has strong risk of well known bgp issues.&nbsp;&nbsp;it's almost always a bad idea.<br/>"
+  },
+  {
+    "dtime": 7016000,
+    "ptime": 7016000,
+    "author": "John Scudder",
+    "text": "It's not only a bad idea, if I'm understanding you correctly, and if I recall correctly, it's explicitly forbidden by RFC 4271.<br/>"
+  },
+  {
+    "dtime": 7081000,
+    "ptime": 7081000,
+    "author": "Natrajan Venkataraman",
+    "text": "@Rafal - Correct!<br/>"
+  },
+  {
+    "dtime": 7141000,
+    "ptime": 7141000,
+    "author": "Alvaro Retana",
+    "text": "<a href=\"https://datatracker.ietf.org/doc/html/draft-congdon-lsvr-lldp-tlvs\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-congdon-lsvr-lldp-tlvs</a><br/>"
+  },
+  {
+    "dtime": 7164000,
+    "ptime": 7164000,
+    "author": "Rafal Szarecki",
+    "text": "We only discussing mapping of attributes (RT, communities).<br/>"
+  },
+  {
+    "dtime": 7200000,
+    "ptime": 7200000,
+    "author": "Jeffrey Haas",
+    "text": "Fundamentally, if you can do your work much the same way that an l3vpn hub and spoke scenario works, it's safe.<br/>"
+  },
+  {
+    "dtime": 7451000,
+    "ptime": 7451000,
+    "author": "Natrajan Venkataraman",
+    "text": "Correct, also helps reuse the same procedures which have been tried and tested for quite some time in the field and implementation errors and new scenario handling is minimal<br/>"
+  },
+  {
+    "dtime": 7484000,
+    "ptime": 7484000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "@haibo, @rafal - when not doing rt-rewrite, with CT, u can simply attach multiple color transport-targets to the CT route. It will simply resolve over the color that is available in the local-domain<br/>and ignore the transport-target that is related to the color that does not exist locally. yes, thats another advantage of reusing 4364. we can draw venn-diagrams like this using route-targets<br/>"
+  },
+  {
+    "dtime": 7884000,
+    "ptime": 7884000,
+    "author": "Donald Eastlake",
+    "text": "That's what I was going to say. Switch in the middle is no problem - just use a different MAC multicast address.<br/>"
+  },
+  {
+    "dtime": 7923000,
+    "ptime": 7923000,
+    "author": "Randy Bush",
+    "text": "@donald: it's specifically in the l3dl draft<br/>"
+  },
+  {
+    "dtime": 8190000,
+    "ptime": 8190000,
+    "author": "Donald Eastlake",
+    "text": "IEEE has the same problem, you can have provider bridges between customer bridges, etc., so they actually have multiple MAC addresses they use with different \"penetrating power\". You just need a BGP router multicast MAC address which could be easily gotten from IANA. Good if l3dl handles this.<br/>"
+  },
+  {
+    "dtime": 8504000,
+    "ptime": 8504000,
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<a href=\"https://datatracker.ietf.org/doc/html/draft-kaliraj-idr-multinexthop-attribute-02#section-3.4.2\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-kaliraj-idr-multinexthop-attribute-02#section-3.4.2</a><br/>"
+  },
+  {
+    "dtime": 9161000,
+    "ptime": 9161000,
+    "author": "Keyur Patel",
+    "text": "thank you all. :)<br/>"
+  },
+  {
+    "dtime": 9174000,
+    "ptime": 9174000,
+    "author": "Jeff Tantsura",
+    "text": "Cheers!<br/>"
+  },
+  {
+    "dtime": 9191000,
+    "ptime": 9191000,
+    "author": "Jie Dong",
+    "text": "very good discussion, thanks to all<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-IDR-20220124-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-idr-02/session/idr"
+		}
+	]
+}

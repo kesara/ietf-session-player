@@ -1,0 +1,101 @@
+
+{
+	"title": "IETF-CORE-20220119-1500",
+	"filename": "IETF-CORE-20220119-1500",
+	"start": 0,
+	"end": 5653000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "pjBb4YsfkZU",
+    "start": 0,
+    "end": "5653000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 976000,
+    "ptime": 976000,
+    "author": "francesca",
+    "text": "(FYI, I think this is the email Carsten is describing from Rob - and it did go to CoRE if I'm not mistaken: <a href=\"https://mailarchive.ietf.org/arch/msg/core/BAmLlafGdVmySldEWdu3Wkmjp6U/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/msg/core/BAmLlafGdVmySldEWdu3Wkmjp6U/</a> )<br/>"
+  },
+  {
+    "dtime": 996000,
+    "ptime": 996000,
+    "author": "francesca",
+    "text": "no need to read it Carsten :)<br/>"
+  },
+  {
+    "dtime": 1023000,
+    "ptime": 1023000,
+    "author": "francesca",
+    "text": "just a pointer for everybody else<br/>"
+  },
+  {
+    "dtime": 2629000,
+    "ptime": 2629000,
+    "author": "Christian Amsüss",
+    "text": "If it's in the Uri-Host option, how is it not in the group URI?<br/>"
+  },
+  {
+    "dtime": 2986000,
+    "ptime": 2986000,
+    "author": "Christian Amsüss",
+    "text": "I don't think it's abuse of the option, but more putting meaning into an implementation detail that may be there on POSIX systems but is more of an artifact (but let's take that offline).<br/>"
+  },
+  {
+    "dtime": 3733000,
+    "ptime": 3733000,
+    "author": "cabo",
+    "text": "What's the difference between \"relevant subset\" in size?<br/>"
+  },
+  {
+    "dtime": 3749000,
+    "ptime": 3749000,
+    "author": "Christian Amsüss",
+    "text": "rikard, didn't get that well for the minutes, please add<br/>"
+  },
+  {
+    "dtime": 3903000,
+    "ptime": 3903000,
+    "author": "mcr",
+    "text": "certificates are ~~200 bytes for ECDSA.&nbsp;&nbsp;More for RSA.<br/>"
+  },
+  {
+    "dtime": 4011000,
+    "ptime": 4011000,
+    "author": "Rikard Höglund",
+    "text": "@Christian: Sure<br/>"
+  },
+  {
+    "dtime": 4335000,
+    "ptime": 4335000,
+    "author": "mcr",
+    "text": "32 bytes for public key.&nbsp;&nbsp;32-bytes for the signature from the CA, a bunch of extensions (~~100 bytes), and some overhead.<br/>"
+  },
+  {
+    "dtime": 4653000,
+    "ptime": 4653000,
+    "author": "Christian Amsüss",
+    "text": "+1 on ED's \"you can build a GM that can't do it\"<br/>"
+  },
+  {
+    "dtime": 4864000,
+    "ptime": 4864000,
+    "author": "Göran Selander",
+    "text": "+1 to make the mechanism optional<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-CORE-20220119-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-core-01/session/core"
+		}
+	]
+}

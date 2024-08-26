@@ -1,0 +1,224 @@
+
+{
+	"title": "IETF-EMU-20230111-1700",
+	"filename": "IETF-EMU-20230111-1700",
+	"start": 0,
+	"end": 3082000,
+	"start_datetime": "2023-01-11T17:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "CMd3wesKsEA",
+    "start": 0,
+    "end": "3082000"
+  }
+],
+	"messages": [
+  {
+    "author": "Alan DeKok",
+    "text": "<p>There's a few more topics after that, but yes, those are top</p>",
+    "topic": "jabber",
+    "dtime": 138000,
+    "ptime": 138000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>For TEAPv2 I probably would suggest just forbidding inner authentication methods that do not provide an MSK/EMSK</p>",
+    "topic": "jabber",
+    "dtime": 1028000,
+    "ptime": 1028000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>@Alex what does that mean for PKCS10/PKCS7 requests?</p>",
+    "topic": "jabber",
+    "dtime": 1053000,
+    "ptime": 1053000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>I think we have to be a lot more crisp about all of this for T2</p>",
+    "topic": "jabber",
+    "dtime": 1063000,
+    "ptime": 1063000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>PKCS{7,10} is more an action request for bootstrapping/provisioning rather than proving who you are though, right?</p>",
+    "topic": "jabber",
+    "dtime": 1119000,
+    "ptime": 1119000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>bootstrapping after you are already authenticated, so a post-bootstrapping</p>",
+    "topic": "jabber",
+    "dtime": 1135000,
+    "ptime": 1135000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>well.... there is identity information in both, but they are not METHODS and that's the issue.</p>",
+    "topic": "jabber",
+    "dtime": 1223000,
+    "ptime": 1223000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>they have no byproducts</p>",
+    "topic": "jabber",
+    "dtime": 1233000,
+    "ptime": 1233000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>Just remembered about 5770: add a note that 64 octets need to be pulled from TLS-PRF even if only 32 first octets are needed?</p>",
+    "topic": "jabber",
+    "dtime": 1264000,
+    "ptime": 1264000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>and side effects COULD produce something, but that would be an asymmetric key op with an exchnaged nonce</p>",
+    "topic": "jabber",
+    "dtime": 1269000,
+    "ptime": 1269000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>but do they occur only after an inner authentication (or resumed session)?</p>",
+    "topic": "jabber",
+    "dtime": 1313000,
+    "ptime": 1313000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>no, there needn't be an inner auth</p>",
+    "topic": "jabber",
+    "dtime": 1352000,
+    "ptime": 1352000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>only an outer auth</p>",
+    "topic": "jabber",
+    "dtime": 1357000,
+    "ptime": 1357000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>not really my comfort zone as not had to rub up against those attributes in anger</p>",
+    "topic": "jabber",
+    "dtime": 1458000,
+    "ptime": 1458000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>...or even at all</p>",
+    "topic": "jabber",
+    "dtime": 1476000,
+    "ptime": 1476000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Nobody did until recently.  That's the problem</p>",
+    "topic": "jabber",
+    "dtime": 1490000,
+    "ptime": 1490000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>I'm soon to become a pumpkin</p>",
+    "topic": "jabber",
+    "dtime": 1697000,
+    "ptime": 1697000
+  },
+  {
+    "author": "Peter Yee",
+    "text": "<p>I'll take over when you do, Eliot.</p>",
+    "topic": "jabber",
+    "dtime": 1837000,
+    "ptime": 1837000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Ok, Peter, you're up!</p>",
+    "topic": "jabber",
+    "dtime": 1995000,
+    "ptime": 1995000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Thanks, everyone!</p>",
+    "topic": "jabber",
+    "dtime": 2002000,
+    "ptime": 2002000
+  },
+  {
+    "author": "Peter Yee",
+    "text": "<p>Thanks, Eliot.</p>",
+    "topic": "jabber",
+    "dtime": 2011000,
+    "ptime": 2011000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>curious, are we raising hands, or just chipping in whenever</p>",
+    "topic": "jabber",
+    "dtime": 2356000,
+    "ptime": 2356000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>If no one has implemented PAC, then for me that's a string signal to remove it.</p>",
+    "topic": "jabber",
+    "dtime": 2851000,
+    "ptime": 2851000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>I've got nothing else for today</p>",
+    "topic": "jabber",
+    "dtime": 2863000,
+    "ptime": 2863000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>sounds good</p>",
+    "topic": "jabber",
+    "dtime": 2930000,
+    "ptime": 2930000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>thanks!</p>",
+    "topic": "jabber",
+    "dtime": 3031000,
+    "ptime": 3031000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>I'll be in Yokohama</p>",
+    "topic": "jabber",
+    "dtime": 3048000,
+    "ptime": 3048000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-EMU-20230111-1700"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-emu-02/session/emu"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-EMU-20230111-1700"
+		}
+	]
+}

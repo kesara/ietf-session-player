@@ -1,0 +1,2573 @@
+{
+  "title": "IETF113-OHAI-20220323-1330",
+  "filename": "IETF113-OHAI-20220323-1330",
+  "start": 0,
+  "end": 6424000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "oriNEz2kkH8",
+      "start": 0,
+      "end": "6424000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 78000,
+      "ptime": 78000,
+      "author": "Shivan Sahib",
+      "text": "<a href=\"https://notes.ietf.org/notes-ietf-113-ohai\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-113-ohai</a><br/>"
+    },
+    {
+      "dtime": 100000,
+      "ptime": 100000,
+      "author": "Florence D",
+      "text": "I can take notes<br/>"
+    },
+    {
+      "dtime": 155000,
+      "ptime": 155000,
+      "author": "jhoyla",
+      "text": "Happy to help jabber scribe if people need me to relay at the mic. <br/>"
+    },
+    {
+      "dtime": 165000,
+      "ptime": 165000,
+      "author": "Richard Barnes",
+      "text": "thanks @jhoyla<br/>"
+    },
+    {
+      "dtime": 239000,
+      "ptime": 239000,
+      "author": "Richard Barnes",
+      "text": "impressive as always @mt<br/>"
+    },
+    {
+      "dtime": 257000,
+      "ptime": 257000,
+      "author": "Shivan Sahib",
+      "text": "I didn't notice the animation before, wow<br/>"
+    },
+    {
+      "dtime": 270000,
+      "ptime": 270000,
+      "author": "jhoyla",
+      "text": "Fabulous slides, impressed that MeetEcho was able to handle that so smoothly.<br/>"
+    },
+    {
+      "dtime": 316000,
+      "ptime": 316000,
+      "author": "dkg",
+      "text": "they're cool, but i dunno that they're worth 400Kbps though<br/>"
+    },
+    {
+      "dtime": 335000,
+      "ptime": 335000,
+      "author": "dkg",
+      "text": "static slides are important for low-bandwidth participants<br/>"
+    },
+    {
+      "dtime": 366000,
+      "ptime": 366000,
+      "author": "Mike Bishop",
+      "text": "I'm seeing ~~514kbps; is it possible that they scale based on bandwidth?<br/>"
+    },
+    {
+      "dtime": 379000,
+      "ptime": 379000,
+      "author": "dkg",
+      "text": "i'm seeing 508kbps now<br/>"
+    },
+    {
+      "dtime": 388000,
+      "ptime": 388000,
+      "author": "jhoyla",
+      "text": "Fair point dkg. <br/>"
+    },
+    {
+      "dtime": 389000,
+      "ptime": 389000,
+      "author": "francesca",
+      "text": "statis slides also here: <a href=\"https://datatracker.ietf.org/meeting/113/session/ohai\" rel=\"nofollow\">https://datatracker.ietf.org/meeting/113/session/ohai</a><br/>"
+    },
+    {
+      "dtime": 411000,
+      "ptime": 411000,
+      "author": "dkg",
+      "text": "hard to follow what slide we're on if we're using martin's screenshare though<br/>"
+    },
+    {
+      "dtime": 413000,
+      "ptime": 413000,
+      "author": "Meetecho",
+      "text": "We just put a cap, the browser then decides how much bitrate to use for the encoded stream<br/>"
+    },
+    {
+      "dtime": 512000,
+      "ptime": 512000,
+      "author": "npd",
+      "text": "will a user be able to know what is being added about them, if the whole point is to be oblivious?<br/>"
+    },
+    {
+      "dtime": 549000,
+      "ptime": 549000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "For the shadowbanning case you wouldn't want the user to necessarily<br/>detect the signal.<br/>"
+    },
+    {
+      "dtime": 560000,
+      "ptime": 560000,
+      "author": "jhoyla",
+      "text": "To pair this with the streaming / non-atomic issue (up next) couldn't 1-bit be used to encode the IP over multiple rounds?<br/>"
+    },
+    {
+      "dtime": 614000,
+      "ptime": 614000,
+      "author": "ekr@jabber.org",
+      "text": "Well, nothing stops the proxy and client from having a side channel<br/>"
+    },
+    {
+      "dtime": 616000,
+      "ptime": 616000,
+      "author": "npd",
+      "text": "right, but aren't we recommending what a proxy should guarantee (even if the user can't confirm it technically in band) in order to be an oblivious proxy?<br/>"
+    },
+    {
+      "dtime": 627000,
+      "ptime": 627000,
+      "author": "ekr@jabber.org",
+      "text": "s/client/server/<br/>"
+    },
+    {
+      "dtime": 641000,
+      "ptime": 641000,
+      "author": "Mike Bishop",
+      "text": "Given that there's no way to control (from the protocol perspective) what the proxy sends, I think this is more of an OUGHT TO.<br/>"
+    },
+    {
+      "dtime": 648000,
+      "ptime": 648000,
+      "author": "Richard Barnes",
+      "text": "RFC 6919 is my greatest contribution to the RFC series<br/>"
+    },
+    {
+      "dtime": 658000,
+      "ptime": 658000,
+      "author": "ekr@jabber.org",
+      "text": "All of ours<br/>"
+    },
+    {
+      "dtime": 667000,
+      "ptime": 667000,
+      "author": "Richard Barnes",
+      "text": "<a href=\"https://datatracker.ietf.org/doc/html/rfc6919#section-1\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/rfc6919#section-1</a><br/>"
+    },
+    {
+      "dtime": 671000,
+      "ptime": 671000,
+      "author": "npd",
+      "text": "should we at least define what the proxy shouldn't do?<br/>"
+    },
+    {
+      "dtime": 685000,
+      "ptime": 685000,
+      "author": "Ted Hardie",
+      "text": "Doesn't this really rely on the resource and the proxy having a side channel so it can tell the proxy what users belong in the shadow banned group?&nbsp;&nbsp;Or am I missing a case where the proxy does the shadow ban based on behavior of the user towards the proxy?<br/>"
+    },
+    {
+      "dtime": 698000,
+      "ptime": 698000,
+      "author": "npd",
+      "text": "or is it just implicit that of course (though we won't write it down) a proxy should minimize or not include a Forwarded IP address?<br/>"
+    },
+    {
+      "dtime": 704000,
+      "ptime": 704000,
+      "author": "Rich Salz",
+      "text": "@rlb: one of the few 4/1 RFC's that was worth it.<br/>"
+    },
+    {
+      "dtime": 715000,
+      "ptime": 715000,
+      "author": "Andrew Campling",
+      "text": "Uncomfortable about introducing a side channel for communications from the proxy unless it is fully transparent to the client<br/>"
+    },
+    {
+      "dtime": 729000,
+      "ptime": 729000,
+      "author": "ekr@jabber.org",
+      "text": "We're not introducing a side channel. It's HTTP. There are headers<br/>"
+    },
+    {
+      "dtime": 744000,
+      "ptime": 744000,
+      "author": "Richard Barnes",
+      "text": "@ekr your point is that the side channel already exists?<br/>"
+    },
+    {
+      "dtime": 746000,
+      "ptime": 746000,
+      "author": "dkg",
+      "text": "the side channel exists whether we introduce it or not<br/>"
+    },
+    {
+      "dtime": 749000,
+      "ptime": 749000,
+      "author": "ekr@jabber.org",
+      "text": "Exactly<br/>"
+    },
+    {
+      "dtime": 757000,
+      "ptime": 757000,
+      "author": "dkg",
+      "text": "this is a not-side channel<br/>"
+    },
+    {
+      "dtime": 758000,
+      "ptime": 758000,
+      "author": "jhoyla",
+      "text": "@rich salz RFC 1925 is also v. useful.<br/>"
+    },
+    {
+      "dtime": 778000,
+      "ptime": 778000,
+      "author": "ekr@jabber.org",
+      "text": "Like we're just talking about what text we have restricting what goes in those headers<br/>"
+    },
+    {
+      "dtime": 809000,
+      "ptime": 809000,
+      "author": "Rich Salz",
+      "text": "best part of 1925 is that it has errata reported :)<br/>"
+    },
+    {
+      "dtime": 833000,
+      "ptime": 833000,
+      "author": "Ted Hardie",
+      "text": "So, the HTTP response headers say \"future comms should use group X, as this user is associated with X's charateristics?\" If that, then shadow ban seems like a pretty small use case compared to other ones (like age range indicator being reflected back).<br/>"
+    },
+    {
+      "dtime": 867000,
+      "ptime": 867000,
+      "author": "Andrew Campling",
+      "text": "It feels like we’re edging towards normalising colluding proxies and targets<br/>"
+    },
+    {
+      "dtime": 869000,
+      "ptime": 869000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "The wording being that X can have a 1-bit value?<br/>"
+    },
+    {
+      "dtime": 870000,
+      "ptime": 870000,
+      "author": "Ted Hardie",
+      "text": "Which makes me wonder how oblivious things turn out to be...<br/>"
+    },
+    {
+      "dtime": 875000,
+      "ptime": 875000,
+      "author": "jhoyla",
+      "text": "Shadow banning seems like it would fall under @sftcd's ostensibly optional clause.<br/>"
+    },
+    {
+      "dtime": 895000,
+      "ptime": 895000,
+      "author": "npd",
+      "text": "wait, are we saying that a proxy can do anything, including the user's full ip address, and users should just negotiate it in an out of band contract?<br/>"
+    },
+    {
+      "dtime": 897000,
+      "ptime": 897000,
+      "author": "dkg",
+      "text": "this is a fundamental architectural problem with the ohai scheme though, right?<br/>"
+    },
+    {
+      "dtime": 934000,
+      "ptime": 934000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "It seems like a policy decision between the user and proxy rather than<br/>an in-protocol enforcement?<br/>"
+    },
+    {
+      "dtime": 943000,
+      "ptime": 943000,
+      "author": "Ted Hardie",
+      "text": "@dkg agreed, and I think that means we don't want the standards signal to be null, and to treat anything as collusion.<br/>"
+    },
+    {
+      "dtime": 954000,
+      "ptime": 954000,
+      "author": "Martin Thomson",
+      "text": "It sounds like we are avoiding SHOULD also, which might need some finesse<br/>"
+    },
+    {
+      "dtime": 954000,
+      "ptime": 954000,
+      "author": "jhoyla",
+      "text": "MUST (BUT WE KNOW YOU WON'T) <br/>"
+    },
+    {
+      "dtime": 956000,
+      "ptime": 956000,
+      "author": "Ted Hardie",
+      "text": "Sorry, we want the standard signal to be null (no bits)<br/>"
+    },
+    {
+      "dtime": 957000,
+      "ptime": 957000,
+      "author": "Christopher Wood",
+      "text": "I think there's a misunderstanding about the MUST here.<br/>"
+    },
+    {
+      "dtime": 981000,
+      "ptime": 981000,
+      "author": "Christopher Wood",
+      "text": "(It's a restriction on the proxy about adding things the client explicitly does not know about)<br/>"
+    },
+    {
+      "dtime": 1018000,
+      "ptime": 1018000,
+      "author": "dkg",
+      "text": "Ted: it's interesting that both conclusions *could* be drawn :/<br/>"
+    },
+    {
+      "dtime": 1029000,
+      "ptime": 1029000,
+      "author": "ekr@jabber.org",
+      "text": "Indeed, the geo client hint<br/>"
+    },
+    {
+      "dtime": 1035000,
+      "ptime": 1035000,
+      "author": "sftcd-x-x-z",
+      "text": "could a client and target co-operate to discover what a proxy is currently adding? (i.e. enable that as a protocol feature for special \"test\" targets)<br/>"
+    },
+    {
+      "dtime": 1038000,
+      "ptime": 1038000,
+      "author": "dkg",
+      "text": "age limit<br/>"
+    },
+    {
+      "dtime": 1040000,
+      "ptime": 1040000,
+      "author": "dkg",
+      "text": "citizenship<br/>"
+    },
+    {
+      "dtime": 1047000,
+      "ptime": 1047000,
+      "author": "Mike Bishop",
+      "text": "The alternative is for the client to communicate with the server directly, and the proxy is effectively the server *choosing* to distance itself from certain information.<br/>"
+    },
+    {
+      "dtime": 1049000,
+      "ptime": 1049000,
+      "author": "Mike Bishop",
+      "text": "That is, this is a mechanism for the server to implement its own privacy policy.&nbsp;&nbsp;The client's trust is in the privacy policy, not the proxy necessarily.<br/>"
+    },
+    {
+      "dtime": 1052000,
+      "ptime": 1052000,
+      "author": "Tommy Pauly",
+      "text": "Yes, targets could report what proxies add<br/>"
+    },
+    {
+      "dtime": 1077000,
+      "ptime": 1077000,
+      "author": "Ted Hardie",
+      "text": "So all of those seem like a \"here are the permitted forms of collusion\"and user consent for them on disclosure.&nbsp;&nbsp;Doesn't that run into&nbsp;&nbsp;the usual concerns about the viability of user consent?<br/>"
+    },
+    {
+      "dtime": 1079000,
+      "ptime": 1079000,
+      "author": "dkg",
+      "text": "but a colluding target would just omit that<br/>"
+    },
+    {
+      "dtime": 1084000,
+      "ptime": 1084000,
+      "author": "sftcd-x-x-z",
+      "text": "adding an example or something showing that might be some good text somewhere (dunno if in an RFC but wherever)<br/>"
+    },
+    {
+      "dtime": 1129000,
+      "ptime": 1129000,
+      "author": "Christopher Wood",
+      "text": "@Ted I think it runs more closely towards the trust model<br/>"
+    },
+    {
+      "dtime": 1137000,
+      "ptime": 1137000,
+      "author": "Andrew Campling",
+      "text": "Having targets being transparent about additions from proxies seems like a good idea.&nbsp;&nbsp;But normalising collusion between proxies and targets seems to be a bad idea, even if we can identify (some) good reasons for doing it.<br/>"
+    },
+    {
+      "dtime": 1162000,
+      "ptime": 1162000,
+      "author": "Christopher Wood",
+      "text": "@Andrew who suggested collusion between proxies and targets?<br/>"
+    },
+    {
+      "dtime": 1170000,
+      "ptime": 1170000,
+      "author": "ekr@jabber.org",
+      "text": "This isn't collusion.<br/>"
+    },
+    {
+      "dtime": 1183000,
+      "ptime": 1183000,
+      "author": "Andrew Campling",
+      "text": "@ekr I disagree<br/>"
+    },
+    {
+      "dtime": 1246000,
+      "ptime": 1246000,
+      "author": "Andrew Campling",
+      "text": "@chris: signalling from the proxy to target is a form of collusion<br/>"
+    },
+    {
+      "dtime": 1248000,
+      "ptime": 1248000,
+      "author": "sftcd-x-x-z",
+      "text": "wouldn't it be nice to be able to add a bit of cgi to some random web server that'd tell clients what a proxy has added? (proxies could learn about widely used test servers of course but still could be useful)<br/>"
+    },
+    {
+      "dtime": 1253000,
+      "ptime": 1253000,
+      "author": "ekr@jabber.org",
+      "text": "The entire principle of this system is that the proxy makes public guarantees about what it doe sor does not do<br/>"
+    },
+    {
+      "dtime": 1265000,
+      "ptime": 1265000,
+      "author": "jhoyla",
+      "text": "With the shadowban, does the target have any guarantees about the honesty of the proxy?<br/>"
+    },
+    {
+      "dtime": 1269000,
+      "ptime": 1269000,
+      "author": "ekr@jabber.org",
+      "text": "And one of those things might be sending some general data<br/>"
+    },
+    {
+      "dtime": 1303000,
+      "ptime": 1303000,
+      "author": "ekr@jabber.org",
+      "text": "I'm not that interested in a semantic argument about whether that's \"collusion\" or not.<br/>"
+    },
+    {
+      "dtime": 1314000,
+      "ptime": 1314000,
+      "author": "ekr@jabber.org",
+      "text": "@jhoyla: no<br/>"
+    },
+    {
+      "dtime": 1345000,
+      "ptime": 1345000,
+      "author": "Mike Bishop",
+      "text": "Everyone seems to be assuming that the proxy is selected by the client, but isn't our scenario here that the proxy is chosen and indicated by the server?&nbsp;&nbsp;The client's choice is proxy or direct, unless I've misunderstood.<br/>"
+    },
+    {
+      "dtime": 1348000,
+      "ptime": 1348000,
+      "author": "Benjamin Schwartz",
+      "text": "Richard: That would allow the proxy to execute a truncation attack.<br/>"
+    },
+    {
+      "dtime": 1354000,
+      "ptime": 1354000,
+      "author": "ekr@jabber.org",
+      "text": "@Mike: correct.<br/>"
+    },
+    {
+      "dtime": 1360000,
+      "ptime": 1360000,
+      "author": "Andrew Campling",
+      "text": "Isn’t the whole point of Oblivious that there should be separation between the proxy and target?&nbsp;&nbsp;Anything that builds links seem like a bad idea<br/>"
+    },
+    {
+      "dtime": 1363000,
+      "ptime": 1363000,
+      "author": "ekr@jabber.org",
+      "text": "Well, or \"nothing\"<br/>"
+    },
+    {
+      "dtime": 1382000,
+      "ptime": 1382000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "The server might publish a list of proxies that it accepts traffic<br/>from, with the client picking between one of those and going direct.<br/>But the server still picks.<br/>"
+    },
+    {
+      "dtime": 1408000,
+      "ptime": 1408000,
+      "author": "ekr@jabber.org",
+      "text": "As noted above, that link already exists. It's called HTTP headers<br/>"
+    },
+    {
+      "dtime": 1415000,
+      "ptime": 1415000,
+      "author": "Mike Bishop",
+      "text": "And if the proxy \"belongs\" to the server (even if operated by a third-party), they're effectively a single party for the client's trust purposes.<br/>"
+    },
+    {
+      "dtime": 1426000,
+      "ptime": 1426000,
+      "author": "ekr@jabber.org",
+      "text": "@Mike, no I don't think that that's true at all<br/>"
+    },
+    {
+      "dtime": 1435000,
+      "ptime": 1435000,
+      "author": "jhoyla",
+      "text": "@kaduk and a server might decide to only allow signalling proxies.<br/>"
+    },
+    {
+      "dtime": 1437000,
+      "ptime": 1437000,
+      "author": "Richard Barnes",
+      "text": "i have no opinion on whether streaming is needed or not<br/>"
+    },
+    {
+      "dtime": 1450000,
+      "ptime": 1450000,
+      "author": "ekr@jabber.org",
+      "text": "I think Apple Private Relay provides a good example here.<br/>"
+    },
+    {
+      "dtime": 1450000,
+      "ptime": 1450000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "@jhoyla: right<br/>"
+    },
+    {
+      "dtime": 1478000,
+      "ptime": 1478000,
+      "author": "ekr@jabber.org",
+      "text": "Apply pays the proxies, but I think \"data goes through both Apple and CF\" is pretty different from \"data just goes through Apple\"<br/>"
+    },
+    {
+      "dtime": 1525000,
+      "ptime": 1525000,
+      "author": "Mike Bishop",
+      "text": "@ekr, disagree -- Private Relay has no opt-in or affiliation from the end server.&nbsp;&nbsp;The proxy(ies) are a separate party from the server handling the request.<br/>"
+    },
+    {
+      "dtime": 1563000,
+      "ptime": 1563000,
+      "author": "ekr@jabber.org",
+      "text": "@Mike: In the private relay case, the threat model is Apple looking at your browsing<br/>"
+    },
+    {
+      "dtime": 1578000,
+      "ptime": 1578000,
+      "author": "Mike Bishop",
+      "text": "And as to collusion between the proxies, it *is* a good comparison -- nothing stops one proxy from passing information to the second proxy.<br/>"
+    },
+    {
+      "dtime": 1600000,
+      "ptime": 1600000,
+      "author": "Mike Bishop",
+      "text": "You're trusting Apple's contract with the assorted third-parties that they're not doing that.<br/>"
+    },
+    {
+      "dtime": 1602000,
+      "ptime": 1602000,
+      "author": "ekr@jabber.org",
+      "text": "You're right that nothing stops them. The principle is that they are operated by different people who have reputational reasons not to collude<br/>"
+    },
+    {
+      "dtime": 1618000,
+      "ptime": 1618000,
+      "author": "Eric Orth",
+      "text": "My thought on streaming: If you stream a lot together, you essentially are in the traditional proxy case.&nbsp;&nbsp;The only reason to support streaming is if we have a lot of usecases for small, limited-length streams.<br/>"
+    },
+    {
+      "dtime": 1629000,
+      "ptime": 1629000,
+      "author": "ekr@jabber.org",
+      "text": "No, I'm trusting Cloudflare (and Akamai's) representation that they are not colluding with Apple<br/>"
+    },
+    {
+      "dtime": 1638000,
+      "ptime": 1638000,
+      "author": "Robin Wilton",
+      "text": "FWIW, I think we need to base this on a term other than \"shadowbanning\" - because that implies value judgements I don't think the proxy should be party to.<br/>"
+    },
+    {
+      "dtime": 1649000,
+      "ptime": 1649000,
+      "author": "Tommy Pauly",
+      "text": "Yeah I'd prefer a different media type<br/>"
+    },
+    {
+      "dtime": 1658000,
+      "ptime": 1658000,
+      "author": "npd",
+      "text": "don't we need to define what \"not colluding\" means? don't send the user's IP address, but it's okay if you send a single bit (without reflecting it to the end user) about shadowban-suspicion<br/>"
+    },
+    {
+      "dtime": 1662000,
+      "ptime": 1662000,
+      "author": "Andrew Campling",
+      "text": "Reputational reasons seems like a pretty thin defence for privacy<br/>"
+    },
+    {
+      "dtime": 1686000,
+      "ptime": 1686000,
+      "author": "ekr@jabber.org",
+      "text": "The current status is no privacy at all, so this is what's known as \"incremental progress\"<br/>"
+    },
+    {
+      "dtime": 1697000,
+      "ptime": 1697000,
+      "author": "Richard Barnes",
+      "text": "@Tommy you mean different media types streaming vs. not?<br/>"
+    },
+    {
+      "dtime": 1697000,
+      "ptime": 1697000,
+      "author": "Robin Wilton",
+      "text": "@npd Why is it the proxy's responsibility to enforce a shadowban?<br/>"
+    },
+    {
+      "dtime": 1733000,
+      "ptime": 1733000,
+      "author": "Tommy Pauly",
+      "text": "@richard yes, exactly. Let that be an extension, and clearly have the client and server know what mode they're in<br/>"
+    },
+    {
+      "dtime": 1738000,
+      "ptime": 1738000,
+      "author": "npd",
+      "text": "@robin that's been a suggestion from some participants, because the proxy is the only one who can reasonably detect malicious/repeated activity<br/>"
+    },
+    {
+      "dtime": 1751000,
+      "ptime": 1751000,
+      "author": "Mike Bishop",
+      "text": "@ekr, I think we're saying the same thing but using different terms.&nbsp;&nbsp;The client has to trust that the other parties aren't passing around information they've publicly promised not to.<br/>"
+    },
+    {
+      "dtime": 1752000,
+      "ptime": 1752000,
+      "author": "dkg",
+      "text": "+1 for Robin's suggestion that \"shadowban\" has problematic semantics; if we do this, it should be named something else.<br/>"
+    },
+    {
+      "dtime": 1758000,
+      "ptime": 1758000,
+      "author": "dkg",
+      "text": "(if we do it)<br/>"
+    },
+    {
+      "dtime": 1765000,
+      "ptime": 1765000,
+      "author": "ekr@jabber.org",
+      "text": "@Mike: yes, I 100% agree with that<br/>"
+    },
+    {
+      "dtime": 1788000,
+      "ptime": 1788000,
+      "author": "Tommy Pauly",
+      "text": "Agreed with ekr and Mike on that discussion<br/>"
+    },
+    {
+      "dtime": 1823000,
+      "ptime": 1823000,
+      "author": "Rich Salz",
+      "text": "No collusion, Tommy/Mike.<br/>"
+    },
+    {
+      "dtime": 1830000,
+      "ptime": 1830000,
+      "author": "Andrew Campling",
+      "text": "Shadow ban does have negative connotations, at least to some groups in the US and possibly elsewhere<br/>"
+    },
+    {
+      "dtime": 1840000,
+      "ptime": 1840000,
+      "author": "jhoyla",
+      "text": "How wide does this window need to be to not have to worry about clock skew?<br/>"
+    },
+    {
+      "dtime": 1854000,
+      "ptime": 1854000,
+      "author": "Daniel Migault",
+      "text": "why now not in the middle of accept ?<br/>"
+    },
+    {
+      "dtime": 1854000,
+      "ptime": 1854000,
+      "author": "dkg",
+      "text": "not just that it's pejorative -- that it has implications about things (like content) that the proxy cannot know)<br/>"
+    },
+    {
+      "dtime": 1856000,
+      "ptime": 1856000,
+      "author": "jhoyla",
+      "text": "lol, I guess MT preempted me. <br/>"
+    },
+    {
+      "dtime": 1860000,
+      "ptime": 1860000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "\"Years\".<br/>"
+    },
+    {
+      "dtime": 1865000,
+      "ptime": 1865000,
+      "author": "Richard Barnes",
+      "text": "i would note that ACME has anti-replay nonces at the application layer<br/>"
+    },
+    {
+      "dtime": 1883000,
+      "ptime": 1883000,
+      "author": "David Schinazi",
+      "text": "MT just doesn't realize time travel is real<br/>"
+    },
+    {
+      "dtime": 1891000,
+      "ptime": 1891000,
+      "author": "Tommy Pauly",
+      "text": "@Rich =P<br/>"
+    },
+    {
+      "dtime": 1891000,
+      "ptime": 1891000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "Unintended consequences of mobile daily games.<br/>"
+    },
+    {
+      "dtime": 1899000,
+      "ptime": 1899000,
+      "author": "Jonathan Lennox",
+      "text": "Doesn't TLS (or technically PKIX) break down with clocks that bad?<br/>"
+    },
+    {
+      "dtime": 1901000,
+      "ptime": 1901000,
+      "author": "Richard Barnes",
+      "text": "@Schinazi -- or doesn't want to reveal what he knows<br/>"
+    },
+    {
+      "dtime": 1901000,
+      "ptime": 1901000,
+      "author": "Alan Frindell",
+      "text": "at least time traveling HTTP requests<br/>"
+    },
+    {
+      "dtime": 1908000,
+      "ptime": 1908000,
+      "author": "jhoyla",
+      "text": "@David Schinazi shhhh! <br/>"
+    },
+    {
+      "dtime": 1910000,
+      "ptime": 1910000,
+      "author": "David Schinazi",
+      "text": "@Richard how long does ACME remember nonces?<br/>"
+    },
+    {
+      "dtime": 1912000,
+      "ptime": 1912000,
+      "author": "jhoyla",
+      "text": "It's a secret<br/>"
+    },
+    {
+      "dtime": 1913000,
+      "ptime": 1913000,
+      "author": "npd",
+      "text": "I must say, when I first saw `isMalicious` as the field name, it did seem like the evil bit was already defined in an RFC somewhere<br/>"
+    },
+    {
+      "dtime": 1919000,
+      "ptime": 1919000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "I may have pointed to the ACME anti-replay nonce pattern as a good<br/>example, on a few occasions.<br/>"
+    },
+    {
+      "dtime": 1925000,
+      "ptime": 1925000,
+      "author": "Richard Barnes",
+      "text": "@David up to the server<br/>"
+    },
+    {
+      "dtime": 1943000,
+      "ptime": 1943000,
+      "author": "Christopher Wood",
+      "text": "@rlb the HPKE context is effectively a nonce here<br/>"
+    },
+    {
+      "dtime": 1945000,
+      "ptime": 1945000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Things recover gracefully if the ACME server forgets some nonces<br/>"
+    },
+    {
+      "dtime": 1956000,
+      "ptime": 1956000,
+      "author": "Christopher Wood",
+      "text": "So we add the timestamp to shorten the window over which the server needs to remember them<br/>"
+    },
+    {
+      "dtime": 1980000,
+      "ptime": 1980000,
+      "author": "Robin Wilton",
+      "text": "@npd I would want to distinguish between the target being able to *detect* malicious activity and being able to *attribute* malicious activity.<br/>"
+    },
+    {
+      "dtime": 1981000,
+      "ptime": 1981000,
+      "author": "Rich Salz",
+      "text": "@Jonathan TLS breaks with mis-synced clocks only if you're validating timestamps in certs and many don't bother.<br/>"
+    },
+    {
+      "dtime": 2010000,
+      "ptime": 2010000,
+      "author": "David Schinazi",
+      "text": "We can always put on our HTTP hats and walk over to the other room<br/>"
+    },
+    {
+      "dtime": 2023000,
+      "ptime": 2023000,
+      "author": "Daniel Migault",
+      "text": "do we have data on client clocks ?<br/>"
+    },
+    {
+      "dtime": 2025000,
+      "ptime": 2025000,
+      "author": "jhoyla",
+      "text": "@Rich Salz do we need to care about non-compliant clients?<br/>"
+    },
+    {
+      "dtime": 2043000,
+      "ptime": 2043000,
+      "author": "jhoyla",
+      "text": "@Daniel Migualt there are a few papers I've seen<br/>"
+    },
+    {
+      "dtime": 2045000,
+      "ptime": 2045000,
+      "author": "Rich Salz",
+      "text": "Depends on if \"we\" is the IETF or if its implementors.<br/>"
+    },
+    {
+      "dtime": 2061000,
+      "ptime": 2061000,
+      "author": "David Schinazi",
+      "text": "@Daniel yeah IIRC Chrome did measurements and the results were terrifying<br/>"
+    },
+    {
+      "dtime": 2066000,
+      "ptime": 2066000,
+      "author": "Richard Barnes",
+      "text": "@Migault - the browser vendors have looked at this quite a lot<br/>"
+    },
+    {
+      "dtime": 2069000,
+      "ptime": 2069000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Thinking a bit about the scope of breakage in the face of<br/>non-compliant clocks might inform how we discuss security<br/>considerations, at least.&nbsp;&nbsp;It might even inform design choices.<br/>"
+    },
+    {
+      "dtime": 2079000,
+      "ptime": 2079000,
+      "author": "Robin Wilton",
+      "text": "@npd It seems to me only to be an issue where the proxy is being used as a vector for DoS attacks on the target - and even then, the answer IMO is for the target to be able to alert the proxy, not vice versa.<br/>"
+    },
+    {
+      "dtime": 2082000,
+      "ptime": 2082000,
+      "author": "Rich Salz",
+      "text": "So did Mozilla, which is why OCSP stapling is seven days.<br/>"
+    },
+    {
+      "dtime": 2082000,
+      "ptime": 2082000,
+      "author": "Richard Barnes",
+      "text": "this is why Chrome has \"fix your clock\" guidance if you encounter an expired cert<br/>"
+    },
+    {
+      "dtime": 2119000,
+      "ptime": 2119000,
+      "author": "Shivan Sahib",
+      "text": "@David Schinazi was the clock skew in the order of seconds per day?<br/>"
+    },
+    {
+      "dtime": 2126000,
+      "ptime": 2126000,
+      "author": "Daniel Migault",
+      "text": "@rich@david @Richard thanks. If we have any links , I would be interested.<br/>"
+    },
+    {
+      "dtime": 2164000,
+      "ptime": 2164000,
+      "author": "David Schinazi",
+      "text": "I think there were non-trivial amounts with much much more broken clocks, as in years - and it caused TLS issues. I would have to ask DavidBen<br/>"
+    },
+    {
+      "dtime": 2209000,
+      "ptime": 2209000,
+      "author": "ekr@jabber.org",
+      "text": "Of course, if you're 11s behind, you probably won't be 11s for too long :)<br/>"
+    },
+    {
+      "dtime": 2219000,
+      "ptime": 2219000,
+      "author": "Jonathan Lennox",
+      "text": "MT cites <a href=\"https://doi.org/10.1145/3133956.3134007\" rel=\"nofollow\">https://doi.org/10.1145/3133956.3134007</a> in his date-requests draft<br/>"
+    },
+    {
+      "dtime": 2224000,
+      "ptime": 2224000,
+      "author": "dkg",
+      "text": "why fuzzed instead of quantized?<br/>"
+    },
+    {
+      "dtime": 2227000,
+      "ptime": 2227000,
+      "author": "Daniel Migault",
+      "text": "on the current slide is there any reason \"now\" is not in the middle ?<br/>"
+    },
+    {
+      "dtime": 2237000,
+      "ptime": 2237000,
+      "author": "jhoyla",
+      "text": "Oh yeah, quantised would still leak on the changes.<br/>"
+    },
+    {
+      "dtime": 2252000,
+      "ptime": 2252000,
+      "author": "jhoyla",
+      "text": "Even fuzzed would leak eventually though. <br/>"
+    },
+    {
+      "dtime": 2259000,
+      "ptime": 2259000,
+      "author": "ekr@jabber.org",
+      "text": "@Daniel: message transmission latency :)<br/>"
+    },
+    {
+      "dtime": 2260000,
+      "ptime": 2260000,
+      "author": "jhoyla",
+      "text": "Esp. in the stream setting<br/>"
+    },
+    {
+      "dtime": 2267000,
+      "ptime": 2267000,
+      "author": "dkg",
+      "text": "i think you want quantized *and* fuzzed (in that order)<br/>"
+    },
+    {
+      "dtime": 2270000,
+      "ptime": 2270000,
+      "author": "Daniel Migault",
+      "text": "@ekr thanks!<br/>"
+    },
+    {
+      "dtime": 2276000,
+      "ptime": 2276000,
+      "author": "npd",
+      "text": "@robin I think in telemetry use cases, the proxy might notice some malicious repeated activity that could screw up the target's data, and the target wouldn't be able to notice that, only the proxy could identify the repetitive activity<br/>"
+    },
+    {
+      "dtime": 2276000,
+      "ptime": 2276000,
+      "author": "ekr@jabber.org",
+      "text": "Sorry, that was a joke.<br/>"
+    },
+    {
+      "dtime": 2283000,
+      "ptime": 2283000,
+      "author": "Benjamin Schwartz",
+      "text": "dkg: OHTTP provides unlinkability so I think you just need the fuzz<br/>"
+    },
+    {
+      "dtime": 2285000,
+      "ptime": 2285000,
+      "author": "ekr@jabber.org",
+      "text": "I mean, maybe that is what MT meant, but I was joking<br/>"
+    },
+    {
+      "dtime": 2310000,
+      "ptime": 2310000,
+      "author": "jhoyla",
+      "text": "@Ben Schwartz is that true in the streaming case?<br/>"
+    },
+    {
+      "dtime": 2330000,
+      "ptime": 2330000,
+      "author": "dkg",
+      "text": "schwartz: you're assuming that the http request itself won't provide linkability, right?<br/>"
+    },
+    {
+      "dtime": 2332000,
+      "ptime": 2332000,
+      "author": "Benjamin Schwartz",
+      "text": "jhoyla: I think so.&nbsp;&nbsp;Each stream would only have a single date header at the beginning.<br/>"
+    },
+    {
+      "dtime": 2353000,
+      "ptime": 2353000,
+      "author": "David Schinazi",
+      "text": "+1 to what Eric said<br/>"
+    },
+    {
+      "dtime": 2353000,
+      "ptime": 2353000,
+      "author": "dkg",
+      "text": "for example, i could be given a custom URL that i don't realize is unique to me.<br/>"
+    },
+    {
+      "dtime": 2358000,
+      "ptime": 2358000,
+      "author": "Benjamin Schwartz",
+      "text": "dkg: Yes.&nbsp;&nbsp;If your requests are linkable, you should use HTTP CONNECT (or MASQUE)<br/>"
+    },
+    {
+      "dtime": 2366000,
+      "ptime": 2366000,
+      "author": "npd",
+      "text": "@daniel now is in the middle because some messages sent with a date a little bit in the future are probably acceptable (because the client's clock is skewed forward a little bit)<br/>"
+    },
+    {
+      "dtime": 2419000,
+      "ptime": 2419000,
+      "author": "David Schinazi",
+      "text": "I agree that should not be experimental<br/>"
+    },
+    {
+      "dtime": 2427000,
+      "ptime": 2427000,
+      "author": "Eric Orth",
+      "text": "+1 to agreement<br/>"
+    },
+    {
+      "dtime": 2427000,
+      "ptime": 2427000,
+      "author": "Tommy Pauly",
+      "text": "Agreed, not experimental<br/>"
+    },
+    {
+      "dtime": 2438000,
+      "ptime": 2438000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "+1 to unexperimental.<br/>"
+    },
+    {
+      "dtime": 2464000,
+      "ptime": 2464000,
+      "author": "ekr@jabber.org",
+      "text": "not experimental<br/>"
+    },
+    {
+      "dtime": 2472000,
+      "ptime": 2472000,
+      "author": "jhoyla",
+      "text": "@schwartz Oh, of course, because you don't need replay protection on the second packet because of the sequence number.<br/>"
+    },
+    {
+      "dtime": 2472000,
+      "ptime": 2472000,
+      "author": "Andrew Campling",
+      "text": "On discovery, it depends on the use case(s) whether discovery is important.&nbsp;&nbsp;If in doubt include it would seem like a reasonable position.<br/>"
+    },
+    {
+      "dtime": 2503000,
+      "ptime": 2503000,
+      "author": "Daniel Migault",
+      "text": "@npd thanks. what you are saying is that clocks are unlikely to skew forward as opposed as backward.<br/>"
+    },
+    {
+      "dtime": 2513000,
+      "ptime": 2513000,
+      "author": "Christopher Wood",
+      "text": "No<br/>"
+    },
+    {
+      "dtime": 2515000,
+      "ptime": 2515000,
+      "author": "ekr@jabber.org",
+      "text": "Nope.<br/>"
+    },
+    {
+      "dtime": 2520000,
+      "ptime": 2520000,
+      "author": "David Schinazi",
+      "text": "+1 to addressing discovery in another draft<br/>"
+    },
+    {
+      "dtime": 2528000,
+      "ptime": 2528000,
+      "author": "Tommy Pauly",
+      "text": "It would be a mistake to try to discovery in this document<br/>"
+    },
+    {
+      "dtime": 2542000,
+      "ptime": 2542000,
+      "author": "dkg",
+      "text": "please don't discuss discovery in this document<br/>"
+    },
+    {
+      "dtime": 2543000,
+      "ptime": 2543000,
+      "author": "David Schinazi",
+      "text": "I don't necessarily agree that those people are sensible, I happen to know them well<br/>"
+    },
+    {
+      "dtime": 2546000,
+      "ptime": 2546000,
+      "author": "Andrew Campling",
+      "text": "But it does need to be addressed by this group<br/>"
+    },
+    {
+      "dtime": 2549000,
+      "ptime": 2549000,
+      "author": "Mike Bishop",
+      "text": "Discovery changes the scenario we're going after.<br/>"
+    },
+    {
+      "dtime": 2560000,
+      "ptime": 2560000,
+      "author": "Eric Orth",
+      "text": "Absolutely something this WG should work on.&nbsp;&nbsp;Not part of this draft.<br/>"
+    },
+    {
+      "dtime": 2567000,
+      "ptime": 2567000,
+      "author": "Shivan Sahib",
+      "text": "(removing chair hat) this is pretty clearly a protocol doc<br/>"
+    },
+    {
+      "dtime": 2589000,
+      "ptime": 2589000,
+      "author": "Robin Wilton",
+      "text": "@npd Fair point about some metrics only being visible to the proxy - but to my mind, if the target is going to delegate *any* function other than obliviation to the proxy, that's a matter for transparent terms of service, not for the protocol.<br/>"
+    },
+    {
+      "dtime": 2600000,
+      "ptime": 2600000,
+      "author": "ekr@jabber.org",
+      "text": "Very offended that my last minute issues and PRs weren't on MT's slides<br/>"
+    },
+    {
+      "dtime": 2611000,
+      "ptime": 2611000,
+      "author": "Martin Thomson",
+      "text": "I do agree that we need to get a better handle on what discovery might mean for ohttp<br/>"
+    },
+    {
+      "dtime": 2628000,
+      "ptime": 2628000,
+      "author": "Robin Wilton",
+      "text": "@ekr late binding is a b*tch...<br/>"
+    },
+    {
+      "dtime": 2632000,
+      "ptime": 2632000,
+      "author": "Martin Thomson",
+      "text": "it's clear from Tommy and Tiru's work that there are a lot of moving parts<br/>"
+    },
+    {
+      "dtime": 2632000,
+      "ptime": 2632000,
+      "author": "ekr@jabber.org",
+      "text": "@MT: you had like an hour to add them<br/>"
+    },
+    {
+      "dtime": 2635000,
+      "ptime": 2635000,
+      "author": "Sean Turner",
+      "text": "@MT as usual great slides<br/>"
+    },
+    {
+      "dtime": 2654000,
+      "ptime": 2654000,
+      "author": "Martin Thomson",
+      "text": "ekr: I was busy trying to write up the streaming design<br/>"
+    },
+    {
+      "dtime": 2675000,
+      "ptime": 2675000,
+      "author": "ekr@jabber.org",
+      "text": "NO EXCUSES<br/>"
+    },
+    {
+      "dtime": 2678000,
+      "ptime": 2678000,
+      "author": "Martin Thomson",
+      "text": "hah<br/>"
+    },
+    {
+      "dtime": 2702000,
+      "ptime": 2702000,
+      "author": "Richard Barnes",
+      "text": "we're going to end up reinvent BGP black holes here<br/>"
+    },
+    {
+      "dtime": 2702000,
+      "ptime": 2702000,
+      "author": "npd",
+      "text": "on discovery, it seems useful for a target to be able to provide a pointer (Alt-Svc or a link relation or something) to an oblivious proxy to it<br/>"
+    },
+    {
+      "dtime": 2833000,
+      "ptime": 2833000,
+      "author": "Benjamin Schwartz",
+      "text": "I don't get it.&nbsp;&nbsp;Why can't we just use the RateLimit-* headers?<br/>"
+    },
+    {
+      "dtime": 2835000,
+      "ptime": 2835000,
+      "author": "jhoyla",
+      "text": "Given that the proxy can't decapsulate (enucleate) the response do you need to specify that the proxy strips it?<br/>"
+    },
+    {
+      "dtime": 2852000,
+      "ptime": 2852000,
+      "author": "Tommy Pauly",
+      "text": "@ben +1, it seems like we could just use the existing rate-limit header<br/>"
+    },
+    {
+      "dtime": 2897000,
+      "ptime": 2897000,
+      "author": "jhoyla",
+      "text": "Because the proxy is aggregating clients, and needs to allocate them to the clients?<br/>"
+    },
+    {
+      "dtime": 2911000,
+      "ptime": 2911000,
+      "author": "jhoyla",
+      "text": "them=request capacity<br/>"
+    },
+    {
+      "dtime": 2928000,
+      "ptime": 2928000,
+      "author": "jhoyla",
+      "text": "(i.e. the semantics are different)<br/>"
+    },
+    {
+      "dtime": 2931000,
+      "ptime": 2931000,
+      "author": "Richard Barnes",
+      "text": "@jhoyla but you want to avoid identifying clients, so i think the idea here is to make it the proxy's job to figure out which clients to limit<br/>"
+    },
+    {
+      "dtime": 2965000,
+      "ptime": 2965000,
+      "author": "jhoyla",
+      "text": "Right, I'm just saying that the semantics are different to the rate-limit semantics<br/>"
+    },
+    {
+      "dtime": 3077000,
+      "ptime": 3077000,
+      "author": "Mike Bishop",
+      "text": "Request Resource is probably (but not necessarily) colocated with the Target Resource.&nbsp;&nbsp;Target Resource is potentially public, for clients who don't support OHAI.&nbsp;&nbsp;Either could be applying a rate limit and passing the info back to the proxy.<br/>"
+    },
+    {
+      "dtime": 3090000,
+      "ptime": 3090000,
+      "author": "jhoyla",
+      "text": "If you have a layer 7 attack that sends a small number of expensive requests, then the proxy can only rate limit the client no?<br/>"
+    },
+    {
+      "dtime": 3100000,
+      "ptime": 3100000,
+      "author": "Robin Wilton",
+      "text": "@Richard +1; and what the proxy is entitled to do *on behalf of any upstream node* should be a ToS matter for them to pre-agree, and make visible to the end user.&nbsp;&nbsp;Otherwise you run into Andrew C's \"collusion\" issue.<br/>"
+    },
+    {
+      "dtime": 3120000,
+      "ptime": 3120000,
+      "author": "jhoyla",
+      "text": "As in, can't the proxy rate limit a single bad client based on this header?<br/>"
+    },
+    {
+      "dtime": 3124000,
+      "ptime": 3124000,
+      "author": "Daniel Migault",
+      "text": "Let's add a user identifier<br/>"
+    },
+    {
+      "dtime": 3132000,
+      "ptime": 3132000,
+      "author": "Erik Nygren",
+      "text": "Presumably a Proxy could look at the ratio of requests with and without feedback to determine if a client is bad.&nbsp;&nbsp;An example might be a flood of DNS lookups for names in a given domain to hide an attack to an authoritity.<br/>"
+    },
+    {
+      "dtime": 3138000,
+      "ptime": 3138000,
+      "author": "Robin Wilton",
+      "text": "@Daniel naughty...&nbsp;&nbsp;;^)<br/>"
+    },
+    {
+      "dtime": 3146000,
+      "ptime": 3146000,
+      "author": "Rajeev RK",
+      "text": "So you are ending up DoSing the proxy instead...<br/>"
+    },
+    {
+      "dtime": 3157000,
+      "ptime": 3157000,
+      "author": "Martin Thomson",
+      "text": "why can't the two resources use a back-channel?<br/>"
+    },
+    {
+      "dtime": 3164000,
+      "ptime": 3164000,
+      "author": "Benjamin Schwartz",
+      "text": "Hm, I think the RateLimit-* headers don't quite work as specified because they would be forwarded back to the client, who would interpret them as coming from the proxy.&nbsp;&nbsp;I think the right solution is probably to solve this in the RateLimit-* draft.<br/>"
+    },
+    {
+      "dtime": 3176000,
+      "ptime": 3176000,
+      "author": "jhoyla",
+      "text": "@Erik Nygren I don't think you need to look at the ratio just tarpit clients that send requests that get negative feedback. <br/>"
+    },
+    {
+      "dtime": 3179000,
+      "ptime": 3179000,
+      "author": "Robin Wilton",
+      "text": "@Martin because then you need to defend against collusion.<br/>"
+    },
+    {
+      "dtime": 3190000,
+      "ptime": 3190000,
+      "author": "Martin Thomson",
+      "text": "robin ???<br/>"
+    },
+    {
+      "dtime": 3205000,
+      "ptime": 3205000,
+      "author": "Robin Wilton",
+      "text": "@Martin ... if you introduce a backchannel.<br/>"
+    },
+    {
+      "dtime": 3211000,
+      "ptime": 3211000,
+      "author": "jhoyla",
+      "text": "How would it go back to the client?<br/>"
+    },
+    {
+      "dtime": 3220000,
+      "ptime": 3220000,
+      "author": "jhoyla",
+      "text": "The proxy can't encapsulate it!<br/>"
+    },
+    {
+      "dtime": 3221000,
+      "ptime": 3221000,
+      "author": "Martin Thomson",
+      "text": "the server is overloaded, it tells the proxy: \"I'm overloaded, slow some of your noisier clients down\"<br/>"
+    },
+    {
+      "dtime": 3238000,
+      "ptime": 3238000,
+      "author": "ekr@jabber.org",
+      "text": "won't the client notice when it doesn't get a response<br/>"
+    },
+    {
+      "dtime": 3242000,
+      "ptime": 3242000,
+      "author": "Robin Wilton",
+      "text": "@Martin +1; that was actually my proposal on Issue 66.<br/>"
+    },
+    {
+      "dtime": 3263000,
+      "ptime": 3263000,
+      "author": "lpardue",
+      "text": "please don't reinvent another ratelimit HTTP field<br/>"
+    },
+    {
+      "dtime": 3264000,
+      "ptime": 3264000,
+      "author": "Benjamin Schwartz",
+      "text": "Don't HTTP reverse proxies generally forward unrecognized headers?<br/>"
+    },
+    {
+      "dtime": 3265000,
+      "ptime": 3265000,
+      "author": "jhoyla",
+      "text": "@MT it doesn't even need to be the noisy clients, it can be specific \"bad\" clients, because the proxy can de-anonymise them. <br/>"
+    },
+    {
+      "dtime": 3274000,
+      "ptime": 3274000,
+      "author": "Martin Thomson",
+      "text": "the response from the target will end up at the client, not the proxy<br/>"
+    },
+    {
+      "dtime": 3283000,
+      "ptime": 3283000,
+      "author": "Andrew Campling",
+      "text": "Adding to @Richard’s point, it seems like proxies having terms of service accessible to clients would be a good thing. This is something that could then be taken into account by a client in a discovery process.<br/>"
+    },
+    {
+      "dtime": 3283000,
+      "ptime": 3283000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "Isn't this header outside the encapsulated payload?<br/>"
+    },
+    {
+      "dtime": 3289000,
+      "ptime": 3289000,
+      "author": "Martin Thomson",
+      "text": "jhoyla: exactly my point<br/>"
+    },
+    {
+      "dtime": 3289000,
+      "ptime": 3289000,
+      "author": "jhoyla",
+      "text": "@ekr, not if you respond eventually, just very slowly. <br/>"
+    },
+    {
+      "dtime": 3292000,
+      "ptime": 3292000,
+      "author": "Robin Wilton",
+      "text": "@Martin it's an argument for a flag from the target to the proxy, not in the other direction.<br/>"
+    },
+    {
+      "dtime": 3293000,
+      "ptime": 3293000,
+      "author": "Mike Bishop",
+      "text": "@jhoyla, if the headers are coming from the public endpoint and are being blindly packaged up by the encapsulator.&nbsp;&nbsp;You're absolutely correct if you envision this as an endpoint which can consume and respond to an encapsulated request.<br/>"
+    },
+    {
+      "dtime": 3297000,
+      "ptime": 3297000,
+      "author": "ekr@jabber.org",
+      "text": "@jhoyla: how does it know which ones are bad, other than that they are sending a lot of stuff<br/>"
+    },
+    {
+      "dtime": 3301000,
+      "ptime": 3301000,
+      "author": "Christopher Wood",
+      "text": "+1 to Tommy -- the target tells the proxy \"I'm overloaded\" and the proxy in turn applies rate limits to clients<br/>"
+    },
+    {
+      "dtime": 3321000,
+      "ptime": 3321000,
+      "author": "ekr@jabber.org",
+      "text": "Mostly +1 to Tommy as well.<br/>"
+    },
+    {
+      "dtime": 3341000,
+      "ptime": 3341000,
+      "author": "jhoyla",
+      "text": "@ekr because the signal is sent in response to a single request (at least according to the diagram)<br/>"
+    },
+    {
+      "dtime": 3361000,
+      "ptime": 3361000,
+      "author": "ekr@jabber.org",
+      "text": "@jhoyla: but my point is that that doesn't actually work<br/>"
+    },
+    {
+      "dtime": 3366000,
+      "ptime": 3366000,
+      "author": "ekr@jabber.org",
+      "text": "because there's nothing wrong with the request<br/>"
+    },
+    {
+      "dtime": 3381000,
+      "ptime": 3381000,
+      "author": "ekr@jabber.org",
+      "text": "it's just that there are too many aggregate requests<br/>"
+    },
+    {
+      "dtime": 3391000,
+      "ptime": 3391000,
+      "author": "Tommy Pauly",
+      "text": "Exactly, ekr<br/>"
+    },
+    {
+      "dtime": 3400000,
+      "ptime": 3400000,
+      "author": "jhoyla",
+      "text": "The thing that's wrong with it is the server says slow down to that one. <br/>"
+    },
+    {
+      "dtime": 3402000,
+      "ptime": 3402000,
+      "author": "Richard Barnes",
+      "text": "Mostly +1 to Tommy, though you might want to send different sets of headers Target-&gt;Client, Target-&gt;Proxy and Request-&gt;Proxy<br/>"
+    },
+    {
+      "dtime": 3409000,
+      "ptime": 3409000,
+      "author": "Richard Barnes",
+      "text": "E2E vs HBH headers<br/>"
+    },
+    {
+      "dtime": 3410000,
+      "ptime": 3410000,
+      "author": "jhoyla",
+      "text": "Doesn't have to have any fancy logic. <br/>"
+    },
+    {
+      "dtime": 3419000,
+      "ptime": 3419000,
+      "author": "ekr@jabber.org",
+      "text": "@jhoyla: but then you're just penalizing random people<br/>"
+    },
+    {
+      "dtime": 3419000,
+      "ptime": 3419000,
+      "author": "jhoyla",
+      "text": "Statistically you'll slow down the noisy clients.<br/>"
+    },
+    {
+      "dtime": 3427000,
+      "ptime": 3427000,
+      "author": "Martin Thomson",
+      "text": "target -&gt; client === target -&gt; request<br/>"
+    },
+    {
+      "dtime": 3432000,
+      "ptime": 3432000,
+      "author": "Mike Bishop",
+      "text": "Hey, look, we have another use-case for hop-by-hop headers!<br/>"
+    },
+    {
+      "dtime": 3443000,
+      "ptime": 3443000,
+      "author": "Martin Thomson",
+      "text": "Mike: hah<br/>"
+    },
+    {
+      "dtime": 3457000,
+      "ptime": 3457000,
+      "author": "ekr@jabber.org",
+      "text": "@CAW: don't CDNs already have something for this?<br/>"
+    },
+    {
+      "dtime": 3467000,
+      "ptime": 3467000,
+      "author": "Christopher Wood",
+      "text": "For rate-limits?<br/>"
+    },
+    {
+      "dtime": 3469000,
+      "ptime": 3469000,
+      "author": "npd",
+      "text": "isn't there an in-between attack, making an expensive request that could be valid, but if a single client sends it a hundred times, that's inappropriate?<br/>"
+    },
+    {
+      "dtime": 3473000,
+      "ptime": 3473000,
+      "author": "Martin Thomson",
+      "text": "Mike: you assume that there is only one hop involved though, so I don't think hbh is the answer.<br/>"
+    },
+    {
+      "dtime": 3476000,
+      "ptime": 3476000,
+      "author": "Alissa Cooper",
+      "text": "It's unclear that the property where the attacker does not become aware that the proxy knows it is being overloaded is needed.<br/>"
+    },
+    {
+      "dtime": 3486000,
+      "ptime": 3486000,
+      "author": "ekr@jabber.org",
+      "text": "Yeah, like if you're just sending too much traffic to my site<br/>"
+    },
+    {
+      "dtime": 3506000,
+      "ptime": 3506000,
+      "author": "lpardue",
+      "text": "if you want to target something, maybe you need the ratelimit equivelent of targetted cache-control is needed<br/>"
+    },
+    {
+      "dtime": 3516000,
+      "ptime": 3516000,
+      "author": "Erik Nygren",
+      "text": "It seems like this is solidly in the same bucket of shadow banning (eg, issue #66).&nbsp;&nbsp;It may be that this area needs more requirement and design-space exploration before jumping into an implementation?<br/>"
+    },
+    {
+      "dtime": 3522000,
+      "ptime": 3522000,
+      "author": "jhoyla",
+      "text": "If one client is sending 99% of the traffic, then almost always you'll penalise that client. <br/>"
+    },
+    {
+      "dtime": 3546000,
+      "ptime": 3546000,
+      "author": "Martin Thomson",
+      "text": "erik: I don't think that this is quite the same<br/>"
+    },
+    {
+      "dtime": 3552000,
+      "ptime": 3552000,
+      "author": "ekr@jabber.org",
+      "text": "@jhoyla: one would hope that in that obvious case, the proxy would *already* have throttled that client<br/>"
+    },
+    {
+      "dtime": 3553000,
+      "ptime": 3553000,
+      "author": "Martin Thomson",
+      "text": "it's close, but not exact<br/>"
+    },
+    {
+      "dtime": 3562000,
+      "ptime": 3562000,
+      "author": "David Schinazi",
+      "text": "Meetecho could we reduce the gain a little bit in the room? Rajeev is sounding a bit too high volume in the room<br/>"
+    },
+    {
+      "dtime": 3570000,
+      "ptime": 3570000,
+      "author": "Martin Thomson",
+      "text": "erik: if this were request --&gt; proxy, then it would be analogous to #66<br/>"
+    },
+    {
+      "dtime": 3593000,
+      "ptime": 3593000,
+      "author": "Martin Thomson",
+      "text": "Tiru has framed this as target --&gt; proxy, which is a communication channel that doesn't currently exist<br/>"
+    },
+    {
+      "dtime": 3594000,
+      "ptime": 3594000,
+      "author": "lpardue",
+      "text": "I wish Rajeev sounded this clear duringthe MASQUE meeting earlier in the week :D<br/>"
+    },
+    {
+      "dtime": 3608000,
+      "ptime": 3608000,
+      "author": "Meetecho",
+      "text": "David: ack, coming<br/>"
+    },
+    {
+      "dtime": 3613000,
+      "ptime": 3613000,
+      "author": "jhoyla",
+      "text": "@ekr, that's why I assume that this is mostly used for requests at a normal rate, but are expensive to process.<br/>"
+    },
+    {
+      "dtime": 3678000,
+      "ptime": 3678000,
+      "author": "jhoyla",
+      "text": "@Meetecho thanks, that's much better.<br/>"
+    },
+    {
+      "dtime": 3728000,
+      "ptime": 3728000,
+      "author": "Richard Barnes",
+      "text": "strawman resolution: Just use the existing headers for target-&gt;client and request-&gt;proxy feedback (no target-&gt;proxy) (?)<br/>"
+    },
+    {
+      "dtime": 3743000,
+      "ptime": 3743000,
+      "author": "Benjamin Schwartz",
+      "text": "\"Intermediaries are expected to forward messages even when protocol elements are not recognized (e.g., new methods, status codes, or field names) since that preserves extensibility for downstream recipients.\"<br/>"
+    },
+    {
+      "dtime": 3751000,
+      "ptime": 3751000,
+      "author": "Benjamin Schwartz",
+      "text": "<a href=\"https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#message.forwarding\" rel=\"nofollow\">https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#message.forwarding</a><br/>"
+    },
+    {
+      "dtime": 3798000,
+      "ptime": 3798000,
+      "author": "Erik Nygren",
+      "text": "@mt: the general issue seems to be dealing with abuse in a privacy-preserving manner.&nbsp;&nbsp;It seems like the approaches are proxy-&gt;target (eg, a client reputation bit) and target-&gt;proxy channels (eg, this request may want to degrade client reputation).&nbsp;&nbsp;Rate-limiting on the proxy is just one way to deal with bad reputation.<br/>"
+    },
+    {
+      "dtime": 3834000,
+      "ptime": 3834000,
+      "author": "Martin Thomson",
+      "text": "if you s/target/request resource/ then I'm OK<br/>"
+    },
+    {
+      "dtime": 3836000,
+      "ptime": 3836000,
+      "author": "Tommy Pauly",
+      "text": "@Ben an OHTTP proxy is not a generic intermediary<br/>"
+    },
+    {
+      "dtime": 3841000,
+      "ptime": 3841000,
+      "author": "Christopher Wood",
+      "text": "Do we consider an OHTTP proxy to be an HTTP intermediary in that sense? (I don't)<br/>"
+    },
+    {
+      "dtime": 3848000,
+      "ptime": 3848000,
+      "author": "Christopher Wood",
+      "text": "What Tommy said<br/>"
+    },
+    {
+      "dtime": 3864000,
+      "ptime": 3864000,
+      "author": "Tommy Pauly",
+      "text": "I absolutely don't think it is — Chris there should probably be more explicit text in the document to clarify that<br/>"
+    },
+    {
+      "dtime": 3871000,
+      "ptime": 3871000,
+      "author": "Benjamin Schwartz",
+      "text": "My impression is that a generic gateway can be an OHTTP intermediary.<br/>"
+    },
+    {
+      "dtime": 3883000,
+      "ptime": 3883000,
+      "author": "Erik Nygren",
+      "text": "@mt: yeah, s/target/request resource/<br/>"
+    },
+    {
+      "dtime": 3890000,
+      "ptime": 3890000,
+      "author": "Tommy Pauly",
+      "text": "@ben No, it shouldn't be<br/>"
+    },
+    {
+      "dtime": 3892000,
+      "ptime": 3892000,
+      "author": "Christopher Wood",
+      "text": "@Ben That's not correct<br/>"
+    },
+    {
+      "dtime": 3920000,
+      "ptime": 3920000,
+      "author": "Martin Thomson",
+      "text": "a generic gateway would not work well.&nbsp;&nbsp;you would need to configure it extensively to avoid doing bad stuff<br/>"
+    },
+    {
+      "dtime": 3927000,
+      "ptime": 3927000,
+      "author": "Christopher Wood",
+      "text": "<a href=\"https://github.com/ietf-wg-ohai/oblivious-http/issues/106\" rel=\"nofollow\">https://github.com/ietf-wg-ohai/oblivious-http/issues/106</a><br/>"
+    },
+    {
+      "dtime": 3934000,
+      "ptime": 3934000,
+      "author": "Shivan Sahib",
+      "text": "isMalicious header from server to proxy!<br/>"
+    },
+    {
+      "dtime": 3943000,
+      "ptime": 3943000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "A intermediary needs to specifically support the OHTTP<br/>protocol/privacy guarantees? Generic ones don't give that?<br/>"
+    },
+    {
+      "dtime": 3946000,
+      "ptime": 3946000,
+      "author": "Chris Lemmons",
+      "text": "My observation is that most intermediaries don't consider themselves to be HTTP intermediaries per the RFCs. :) I agree that the OHTTP proxy should be explicitly called out as not subject to most of the things we'd normally think about an intermediary.<br/>"
+    },
+    {
+      "dtime": 3982000,
+      "ptime": 3982000,
+      "author": "Robin Wilton",
+      "text": "@Eric IMO it makes more sense to fix this one first, and put support for&nbsp;&nbsp;\"shadowbanning\" out of scope as a protocol requirement.<br/>"
+    },
+    {
+      "dtime": 3994000,
+      "ptime": 3994000,
+      "author": "jhoyla",
+      "text": "There is a massive difference between sending 1 bit from the proxy (which knows the client identity) to the target, and sending 1 bit from the target (which doesn't know the client identity) to the proxy. <br/>"
+    },
+    {
+      "dtime": 4012000,
+      "ptime": 4012000,
+      "author": "jhoyla",
+      "text": "The target _can't_ leak what it doesn't know. <br/>"
+    },
+    {
+      "dtime": 4014000,
+      "ptime": 4014000,
+      "author": "Andrew Campling",
+      "text": "This discussion seems to indicate that the target needs additional configuration to deal with Oblivious requests (and potential abuse)?<br/>"
+    },
+    {
+      "dtime": 4023000,
+      "ptime": 4023000,
+      "author": "Shivan Sahib",
+      "text": "<a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-ratelimit-headers#section-4.1\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-ratelimit-headers#section-4.1</a><br/>"
+    },
+    {
+      "dtime": 4049000,
+      "ptime": 4049000,
+      "author": "jhoyla",
+      "text": "I still don't understand how the proxy is encapsulating this info into the response. <br/>"
+    },
+    {
+      "dtime": 4053000,
+      "ptime": 4053000,
+      "author": "Erik Nygren",
+      "text": "and it may be that the target resource could return more than a single bit to the proxy (but a question then is how many bits and of what form).<br/>"
+    },
+    {
+      "dtime": 4082000,
+      "ptime": 4082000,
+      "author": "Eric Orth",
+      "text": "@jhoyla: The target doesn't know client identity, but it does know request information that the proxy doesn't know.&nbsp;&nbsp;They both know important pieces that the other doesn't.<br/>"
+    },
+    {
+      "dtime": 4177000,
+      "ptime": 4177000,
+      "author": "Andrew Campling",
+      "text": "If targets needs to behave differently in order for Oblivious to work well, that‘s a different (bigger) task than simply letting clients decide to use an Oblivious proxy.<br/>"
+    },
+    {
+      "dtime": 4225000,
+      "ptime": 4225000,
+      "author": "Tommy Pauly",
+      "text": "Oblivious HTTP is *not* generic. It always requires specially-designed target servers that support this. Targets cannot be accessed using Oblivious HTTP just randomly.<br/>"
+    },
+    {
+      "dtime": 4247000,
+      "ptime": 4247000,
+      "author": "ekr@jabber.org",
+      "text": "Exactly as Tommy sayss<br/>"
+    },
+    {
+      "dtime": 4283000,
+      "ptime": 4283000,
+      "author": "jhoyla",
+      "text": "Have the target server send WAF rules to the proxy :P <br/>"
+    },
+    {
+      "dtime": 4297000,
+      "ptime": 4297000,
+      "author": "ekr@jabber.org",
+      "text": "Indeed, the messages to the target are *encrypted*<br/>"
+    },
+    {
+      "dtime": 4338000,
+      "ptime": 4338000,
+      "author": "lpardue",
+      "text": "standard for edge WAF (etc)control, sounds useful beyond OHAI<br/>"
+    },
+    {
+      "dtime": 4353000,
+      "ptime": 4353000,
+      "author": "Martin Thomson",
+      "text": "I'm seeing a useful kernel of work here, but a lot more is needed than what I see in the current draft.<br/>"
+    },
+    {
+      "dtime": 4397000,
+      "ptime": 4397000,
+      "author": "jhoyla",
+      "text": "@Rajeev of course the target has to be aware of OHAI, because otherwise it can't decrypt the traffic.<br/>"
+    },
+    {
+      "dtime": 4397000,
+      "ptime": 4397000,
+      "author": "Martin Thomson",
+      "text": "Two things: the one bit \"this request should count toward a bad reputation for a client\" as Erik suggested; and a general \"I'm at 90% load, slow down\" signal, which is independent of any request.<br/>"
+    },
+    {
+      "dtime": 4408000,
+      "ptime": 4408000,
+      "author": "Rich Salz",
+      "text": "i wonder how much could be solved by adding a \"target={intermediate/endpoint}\" field to the rate-limit headers.<br/>"
+    },
+    {
+      "dtime": 4420000,
+      "ptime": 4420000,
+      "author": "ekr@jabber.org",
+      "text": "And of course that second one could be piggybacked on some request<br/>"
+    },
+    {
+      "dtime": 4423000,
+      "ptime": 4423000,
+      "author": "Richard Barnes",
+      "text": "would it be too heretical to say that the distinction between Request Server and Target Server is not that useful?<br/>"
+    },
+    {
+      "dtime": 4435000,
+      "ptime": 4435000,
+      "author": "Martin Thomson",
+      "text": "Richard, no, it's not heretical<br/>"
+    },
+    {
+      "dtime": 4439000,
+      "ptime": 4439000,
+      "author": "ekr@jabber.org",
+      "text": "@RLB: I actually felt the same way<br/>"
+    },
+    {
+      "dtime": 4445000,
+      "ptime": 4445000,
+      "author": "Richard Barnes",
+      "text": "might be worth eliding then<br/>"
+    },
+    {
+      "dtime": 4456000,
+      "ptime": 4456000,
+      "author": "Martin Thomson",
+      "text": "it's a convenience that we routinely elide in the draft already; it's more of a formality<br/>"
+    },
+    {
+      "dtime": 4471000,
+      "ptime": 4471000,
+      "author": "npd",
+      "text": "@martin, I think there's a third thing needed: this request was expensive and this user should be slowed down from doing it again, even though it's not malicious, and even though I'm not overwhelmed<br/>"
+    },
+    {
+      "dtime": 4479000,
+      "ptime": 4479000,
+      "author": "Martin Thomson",
+      "text": "as in, we can't define the draft without the concept, so we have it, but in practice it will be deployed in the same place<br/>"
+    },
+    {
+      "dtime": 4482000,
+      "ptime": 4482000,
+      "author": "Erik Nygren",
+      "text": "I put some notes into #66<br/>"
+    },
+    {
+      "dtime": 4488000,
+      "ptime": 4488000,
+      "author": "Richard Barnes",
+      "text": "you would probably still have to distinguish between proxy-&gt;Req/Tgt and client-&gt;Req/Tgt processing<br/>"
+    },
+    {
+      "dtime": 4491000,
+      "ptime": 4491000,
+      "author": "Martin Thomson",
+      "text": "thanks Erik<br/>"
+    },
+    {
+      "dtime": 4509000,
+      "ptime": 4509000,
+      "author": "Martin Thomson",
+      "text": "it's not simple<br/>"
+    },
+    {
+      "dtime": 4510000,
+      "ptime": 4510000,
+      "author": "Benjamin Schwartz",
+      "text": "npd: That seems like something to put in ratelimit: This request costed X tokens from your leaky token bucket.<br/>"
+    },
+    {
+      "dtime": 4612000,
+      "ptime": 4612000,
+      "author": "Mike Bishop",
+      "text": "I think the distinction between them is conceptually useful *if* you assume that the Target Resource might also be a publicly accessible URL.&nbsp;&nbsp;And perhaps if it lives on a separate server / port.<br/>"
+    },
+    {
+      "dtime": 4618000,
+      "ptime": 4618000,
+      "author": "Benjamin Schwartz",
+      "text": "I'm hearing dropouts<br/>"
+    },
+    {
+      "dtime": 4632000,
+      "ptime": 4632000,
+      "author": "Shivan Sahib",
+      "text": "yeah Tommy's audio has been clipping intermittently<br/>"
+    },
+    {
+      "dtime": 4639000,
+      "ptime": 4639000,
+      "author": "Benjamin Schwartz",
+      "text": "Better now<br/>"
+    },
+    {
+      "dtime": 4639000,
+      "ptime": 4639000,
+      "author": "Eric Orth",
+      "text": "Same.&nbsp;&nbsp;Noticable, but not enough to keep from being generally understandable.<br/>"
+    },
+    {
+      "dtime": 4642000,
+      "ptime": 4642000,
+      "author": "Francesca Palombini",
+      "text": "ok so it's not only in room<br/>"
+    },
+    {
+      "dtime": 4656000,
+      "ptime": 4656000,
+      "author": "Martin Thomson",
+      "text": "the problem is that information about the target resource isn't actionable without the identity of a proxy and request resource<br/>"
+    },
+    {
+      "dtime": 4669000,
+      "ptime": 4669000,
+      "author": "Andrew Campling",
+      "text": "Is Tommy. Connected via Private Relay? :-)<br/>"
+    },
+    {
+      "dtime": 4693000,
+      "ptime": 4693000,
+      "author": "Richard Barnes",
+      "text": "i could also envision discovering a proxy for your local network, for example<br/>"
+    },
+    {
+      "dtime": 4827000,
+      "ptime": 4827000,
+      "author": "Martin Thomson",
+      "text": "yet another example of DNS being misappropriated for purposes for which it is poorly suited<br/>"
+    },
+    {
+      "dtime": 4859000,
+      "ptime": 4859000,
+      "author": "David Schinazi",
+      "text": "Hey \"shove it in the DNS\" is our team sport, stop dunking on it<br/>"
+    },
+    {
+      "dtime": 4877000,
+      "ptime": 4877000,
+      "author": "Martin Thomson",
+      "text": "I'm OK with the example where the ISP server is better able to provide in-network addresses for servers that might be faster/closer/better, but this whole space of policy enforcement via DNS smells bad<br/>"
+    },
+    {
+      "dtime": 4899000,
+      "ptime": 4899000,
+      "author": "Erik Nygren",
+      "text": "Camels are good at carrying lots?<br/>"
+    },
+    {
+      "dtime": 4906000,
+      "ptime": 4906000,
+      "author": "Ted Hardie",
+      "text": "In this scenario, does this result in the Client having access to the ISP ODoH service when it is off network?&nbsp;&nbsp;So the ISP ODoH service now makes itself available to any off-network oblivious proxies?<br/>"
+    },
+    {
+      "dtime": 4910000,
+      "ptime": 4910000,
+      "author": "Benjamin Schwartz",
+      "text": "Martin: Doesn't make sense: you want a server close to your proxy, not close to the user<br/>"
+    },
+    {
+      "dtime": 4929000,
+      "ptime": 4929000,
+      "author": "Rajeev RK",
+      "text": "@jhoyla I get that from the discussion, but not from a reading of section&nbsp;&nbsp;3(Overview) of the draft, especially the Flow diagram on page 4. This diagram gives the impression that the OHTTP ends at the Request Resource, which then forwards the unencapsulated HTTP/S request to the target. Some indication there that this isnt just normal HTTP/S in the diagram would help<br/>"
+    },
+    {
+      "dtime": 4949000,
+      "ptime": 4949000,
+      "author": "Mallory Knodel",
+      "text": "Agree. Asking content moderation to happen elsewhere (than the DNS) is a positive outcome of this work imo.<br/>"
+    },
+    {
+      "dtime": 4951000,
+      "ptime": 4951000,
+      "author": "Martin Thomson",
+      "text": "Benjamin: I'm not assuming that you are using the proxy for all traffic; it's an OHTTP proxy (or ODoH)<br/>"
+    },
+    {
+      "dtime": 4995000,
+      "ptime": 4995000,
+      "author": "Benjamin Schwartz",
+      "text": "Martin: If you don't have a proxy for all traffic, it's not clear what you've gained.<br/>"
+    },
+    {
+      "dtime": 5002000,
+      "ptime": 5002000,
+      "author": "Andrew Campling",
+      "text": "@Tommy: this seems like a reasonable way to fit Oblivious to real-world requirements<br/>"
+    },
+    {
+      "dtime": 5002000,
+      "ptime": 5002000,
+      "author": "Martin Thomson",
+      "text": "the reason you use ODoH/DoH/OHTTP is to protect your query history; you might not care about the flows as much<br/>"
+    },
+    {
+      "dtime": 5025000,
+      "ptime": 5025000,
+      "author": "Benjamin Schwartz",
+      "text": "A hostile resolver can cause the flows to disclose the queries<br/>"
+    },
+    {
+      "dtime": 5031000,
+      "ptime": 5031000,
+      "author": "npd",
+      "text": "what are the cases where the user wants the ISP's recommended DoH server?<br/>"
+    },
+    {
+      "dtime": 5070000,
+      "ptime": 5070000,
+      "author": "Martin Thomson",
+      "text": "npd: for example, Firefox's programme for resolvers includes some ISPs<br/>"
+    },
+    {
+      "dtime": 5096000,
+      "ptime": 5096000,
+      "author": "jhoyla",
+      "text": "@Rajeev the request resource can implement all load balancing / rate limiting to logic. <br/>"
+    },
+    {
+      "dtime": 5097000,
+      "ptime": 5097000,
+      "author": "Shivan Sahib",
+      "text": "npd: I believe Chrome also prefers that<br/>"
+    },
+    {
+      "dtime": 5113000,
+      "ptime": 5113000,
+      "author": "Martin Thomson",
+      "text": "In that case we trust that the server has adequate privacy protections, but we might still use OHTTP to ensure that it doesn't build up a store of toxic query history linked together<br/>"
+    },
+    {
+      "dtime": 5116000,
+      "ptime": 5116000,
+      "author": "npd",
+      "text": "Martin Thomson_web_375: what's the benefit to the user?<br/>"
+    },
+    {
+      "dtime": 5138000,
+      "ptime": 5138000,
+      "author": "npd",
+      "text": "(audio is getting worse)<br/>"
+    },
+    {
+      "dtime": 5152000,
+      "ptime": 5152000,
+      "author": "David Schinazi",
+      "text": "Between the humming and the chopping it sounds like Tommy is spinning in a laundry machine<br/>"
+    },
+    {
+      "dtime": 5152000,
+      "ptime": 5152000,
+      "author": "Martin Thomson",
+      "text": "it's still chopping occasionally<br/>"
+    },
+    {
+      "dtime": 5154000,
+      "ptime": 5154000,
+      "author": "Benjamin Schwartz",
+      "text": "Toggling meetecho's mute seems to help<br/>"
+    },
+    {
+      "dtime": 5162000,
+      "ptime": 5162000,
+      "author": "Andrew Campling",
+      "text": "@Ekr your example is why we need a solution to colluding proxies / ODoH targets<br/>"
+    },
+    {
+      "dtime": 5178000,
+      "ptime": 5178000,
+      "author": "Eric Orth",
+      "text": "Chrome doesn't necessarily care about the ISP's recommendation, but we do care about the currently-configured DNS's recommendation, and by default that is often the ISP DNS.<br/>"
+    },
+    {
+      "dtime": 5314000,
+      "ptime": 5314000,
+      "author": "Richard Barnes",
+      "text": "doesn't ECH config put HPKE keys in SCVB?<br/>"
+    },
+    {
+      "dtime": 5329000,
+      "ptime": 5329000,
+      "author": "ekr@jabber.org",
+      "text": "@Andrew: the attack I am proposing is about working with a correctly functioning non-clluding proxy<br/>"
+    },
+    {
+      "dtime": 5330000,
+      "ptime": 5330000,
+      "author": "Eric Orth",
+      "text": "+1 to Ben's concerns.&nbsp;&nbsp;The security model absolutely has to consider that everything is compromised if the proxy is able to get the keys from anybody other than proxy/target collusion.<br/>"
+    },
+    {
+      "dtime": 5335000,
+      "ptime": 5335000,
+      "author": "Dan McArdle",
+      "text": "Indeed, though the ECH config goes in HTTPS RRs.<br/>"
+    },
+    {
+      "dtime": 5344000,
+      "ptime": 5344000,
+      "author": "Martin Thomson",
+      "text": "npd: if the ISP resolver is known to be as good (privacy-wise) as another resolver, and better (performance-wise) than that other resolver, where is the down side?<br/>"
+    },
+    {
+      "dtime": 5354000,
+      "ptime": 5354000,
+      "author": "ekr@jabber.org",
+      "text": "@RLB: ECH is a special case in which the data being hidden (the SNI) is already known to the resolver<br/>"
+    },
+    {
+      "dtime": 5359000,
+      "ptime": 5359000,
+      "author": "ekr@jabber.org",
+      "text": "At the time you make the query<br/>"
+    },
+    {
+      "dtime": 5373000,
+      "ptime": 5373000,
+      "author": "Richard Barnes",
+      "text": "seems like this issue goes away if the parametes were signed with a WebPKI-certified key<br/>"
+    },
+    {
+      "dtime": 5389000,
+      "ptime": 5389000,
+      "author": "ekr@jabber.org",
+      "text": "@RLB: yeah<br/>"
+    },
+    {
+      "dtime": 5400000,
+      "ptime": 5400000,
+      "author": "Richard Barnes",
+      "text": "@ekr except for all the other data in the ClientHello<br/>"
+    },
+    {
+      "dtime": 5410000,
+      "ptime": 5410000,
+      "author": "Martin Thomson",
+      "text": "didn't we discuss signing EchConfig?<br/>"
+    },
+    {
+      "dtime": 5432000,
+      "ptime": 5432000,
+      "author": "Eric Orth",
+      "text": "Anything that confirms the key came from the target solves this.&nbsp;&nbsp;DNSSEC, WebPKI, getting it directly from the target, etc.&nbsp;&nbsp;But the draft needs to discuss these solutions.<br/>"
+    },
+    {
+      "dtime": 5435000,
+      "ptime": 5435000,
+      "author": "npd",
+      "text": "Martin Thomson_web_375: that's what I'm looking for. the premise is that there's potentially better performance by choosing the ISP's DoH server. but is that the case if the oblivious proxy isn't close to the ISP's DoH server?<br/>"
+    },
+    {
+      "dtime": 5443000,
+      "ptime": 5443000,
+      "author": "Tommy Pauly",
+      "text": "@Eric yes, exactly<br/>"
+    },
+    {
+      "dtime": 5480000,
+      "ptime": 5480000,
+      "author": "Richard Barnes",
+      "text": "<a href=\"https://example.com/.well-known/ohai\" rel=\"nofollow\">https://example.com/.well-known/ohai</a><br/>"
+    },
+    {
+      "dtime": 5481000,
+      "ptime": 5481000,
+      "author": "npd",
+      "text": "Martin Thomson_web_375: or is the benefit of the ISP's DNS server something else (as Tommy said briefly here, some policy thing like filtering sites out for a known child)?<br/>"
+    },
+    {
+      "dtime": 5486000,
+      "ptime": 5486000,
+      "author": "Martin Thomson",
+      "text": "npd: that will depend a great deal on network topology, and whether the client is also using a proxy for the flows it creates to the IP addresses it ultimately learns from the resolver<br/>"
+    },
+    {
+      "dtime": 5489000,
+      "ptime": 5489000,
+      "author": "Shivan Sahib",
+      "text": "doesn't the client then leak its IP address to exactly the party it didn't want to leak it to?<br/>"
+    },
+    {
+      "dtime": 5528000,
+      "ptime": 5528000,
+      "author": "Martin Thomson",
+      "text": "it might not be concerned about leaking its IP address, but about leaking the identity of the sites that it is communicating with to the network<br/>"
+    },
+    {
+      "dtime": 5530000,
+      "ptime": 5530000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "Can't the OHTTP Config just be signed with the WebPKI keys and that<br/>blob is what's stored in DNS?<br/>"
+    },
+    {
+      "dtime": 5536000,
+      "ptime": 5536000,
+      "author": "Martin Thomson",
+      "text": "...and to DNS resolvers<br/>"
+    },
+    {
+      "dtime": 5537000,
+      "ptime": 5537000,
+      "author": "Benjamin Schwartz",
+      "text": "Shivan: Not necessarily (if it has a MASQUE fallback), and not in a way that is linkable to its further requests (if it has a consistency mechanism)<br/>"
+    },
+    {
+      "dtime": 5557000,
+      "ptime": 5557000,
+      "author": "Richard Barnes",
+      "text": "@svaldez - i suggested that above<br/>"
+    },
+    {
+      "dtime": 5565000,
+      "ptime": 5565000,
+      "author": "ekr@jabber.org",
+      "text": "@RLB: yes, about other stuff in ECHConfig<br/>"
+    },
+    {
+      "dtime": 5588000,
+      "ptime": 5588000,
+      "author": "Erik Nygren",
+      "text": "Per Ben's suggestion, if it is just fetching a cacheable well-known resource then that might help (but there are lots more risk of returning info there that could be used for correlation later).<br/>"
+    },
+    {
+      "dtime": 5597000,
+      "ptime": 5597000,
+      "author": "sftcd",
+      "text": "@ben-schwartz: sorry, I didn't follow how this enables masquerade as any target - got a link to the mail archive for that? (or did I hear wrong)<br/>"
+    },
+    {
+      "dtime": 5631000,
+      "ptime": 5631000,
+      "author": "Benjamin Schwartz",
+      "text": "sftcd: <a href=\"https://mailarchive.ietf.org/arch/msg/ohai/xodHZUYPhDIzbPArlwsZO4qwL1A/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/msg/ohai/xodHZUYPhDIzbPArlwsZO4qwL1A/</a><br/>"
+    },
+    {
+      "dtime": 5641000,
+      "ptime": 5641000,
+      "author": "sftcd",
+      "text": "ta<br/>"
+    },
+    {
+      "dtime": 5642000,
+      "ptime": 5642000,
+      "author": "Eric Orth",
+      "text": "I like this WG.&nbsp;&nbsp;Lots of suggestions of just using WebPKI in a DNS-based solution.&nbsp;&nbsp;DNS WG's normally get controversial if you don't at least mention DNSSEC for similar purposes.<br/>"
+    },
+    {
+      "dtime": 5699000,
+      "ptime": 5699000,
+      "author": "Benjamin Schwartz",
+      "text": "WebPKI-signing the OHTTP config is a possible solution, but I think it's operationally much more challenging than directly fetching it (e.g. consider expiration issues)<br/>"
+    },
+    {
+      "dtime": 5743000,
+      "ptime": 5743000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "Semantically its the WebPKI that's assuring integrity if you were<br/>doing the same fetch without OHTTP, seems odd to have to switch to<br/>trusting DNSSEC to give integrity when doing OHTTP.<br/>"
+    },
+    {
+      "dtime": 5756000,
+      "ptime": 5756000,
+      "author": "Martin Thomson",
+      "text": "wow, the lighting in the room has Ted's forehead the same colour as David's shirt.&nbsp;&nbsp;Very weird.<br/>"
+    },
+    {
+      "dtime": 5798000,
+      "ptime": 5798000,
+      "author": "jhoyla",
+      "text": "@MT that's not the lighting, that's the rapidly increasing temperature. <br/>"
+    },
+    {
+      "dtime": 5813000,
+      "ptime": 5813000,
+      "author": "jhoyla",
+      "text": "Bit of a fail on the ventilation side tbh. <br/>"
+    },
+    {
+      "dtime": 5815000,
+      "ptime": 5815000,
+      "author": "Martin Thomson",
+      "text": "David is looking cherry also<br/>"
+    },
+    {
+      "dtime": 5832000,
+      "ptime": 5832000,
+      "author": "David Schinazi",
+      "text": "It is getting warm in here<br/>"
+    },
+    {
+      "dtime": 5835000,
+      "ptime": 5835000,
+      "author": "Andrew Campling",
+      "text": "It is pretty warm in the room (and getting more so)<br/>"
+    },
+    {
+      "dtime": 5836000,
+      "ptime": 5836000,
+      "author": "David Schinazi",
+      "text": "Room is pretty packed<br/>"
+    },
+    {
+      "dtime": 5837000,
+      "ptime": 5837000,
+      "author": "Richard Barnes",
+      "text": "controlling one's own temperature -- another advantage of being remote<br/>"
+    },
+    {
+      "dtime": 5845000,
+      "ptime": 5845000,
+      "author": "Erik Nygren",
+      "text": "(That room looks an order of magnitude more packed than any of the other sessions I've seen.)<br/>"
+    },
+    {
+      "dtime": 5845000,
+      "ptime": 5845000,
+      "author": "sftcd",
+      "text": "fwiw, I now (belatedly:-) get Ben Schwartz's problem, and agree with him<br/>"
+    },
+    {
+      "dtime": 5877000,
+      "ptime": 5877000,
+      "author": "David Schinazi",
+      "text": "Yeah this has the same in-person attendance as other sessions except this room is about 12 times smaller<br/>"
+    },
+    {
+      "dtime": 5886000,
+      "ptime": 5886000,
+      "author": "jhoyla",
+      "text": "Yeah, def. not hyperbolic, just a impressively bad bug. <br/>"
+    },
+    {
+      "dtime": 5904000,
+      "ptime": 5904000,
+      "author": "Andrew Campling",
+      "text": "@Erik it’s more a function that the room is significantly smaller as the big ones are being set up for the plenary later<br/>"
+    },
+    {
+      "dtime": 5949000,
+      "ptime": 5949000,
+      "author": "jhoyla",
+      "text": "And the A/C appears to be off.<br/>"
+    },
+    {
+      "dtime": 5955000,
+      "ptime": 5955000,
+      "author": "Shivan Sahib",
+      "text": "yikes<br/>"
+    },
+    {
+      "dtime": 5992000,
+      "ptime": 5992000,
+      "author": "svaldez@jabber.hot-chilli.net/barnowl",
+      "text": "/s Embed OHTTP configs in origin certificates and clients look them up in CT logs.<br/>"
+    },
+    {
+      "dtime": 6025000,
+      "ptime": 6025000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Hmm, I thought conventional wisdom for large events was to pre-\"warm\"<br/>the A/C an hour or two before people show up, because the combined<br/>biological heat output was larger than the cooling rate of the<br/>ventilation system in the steady-state.<br/>"
+    },
+    {
+      "dtime": 6055000,
+      "ptime": 6055000,
+      "author": "David Schinazi",
+      "text": "This is IETF your conventional wisdom isn't valid here :P<br/>"
+    },
+    {
+      "dtime": 6113000,
+      "ptime": 6113000,
+      "author": "jhoyla",
+      "text": "Maybe we should write a conference room prep document.<br/>"
+    },
+    {
+      "dtime": 6135000,
+      "ptime": 6135000,
+      "author": "Shivan Sahib",
+      "text": "why isn't there an RFC on that<br/>"
+    },
+    {
+      "dtime": 6172000,
+      "ptime": 6172000,
+      "author": "Richard Barnes",
+      "text": "MUST warm up the AC (BUT WE KNOW YOU WONT)<br/>"
+    },
+    {
+      "dtime": 6184000,
+      "ptime": 6184000,
+      "author": "Sean Turner",
+      "text": "Not very gree<br/>"
+    },
+    {
+      "dtime": 6184000,
+      "ptime": 6184000,
+      "author": "David Schinazi",
+      "text": "@Richard perfect<br/>"
+    },
+    {
+      "dtime": 6186000,
+      "ptime": 6186000,
+      "author": "Alissa Cooper",
+      "text": "AMS in fact has a manual on room prep<br/>"
+    },
+    {
+      "dtime": 6247000,
+      "ptime": 6247000,
+      "author": "Andrew Campling",
+      "text": "Clarity on use cases may help inform the problem statement<br/>"
+    },
+    {
+      "dtime": 6252000,
+      "ptime": 6252000,
+      "author": "Martin Thomson",
+      "text": "this is a good outcome; it's worth doing more work on this, but I'd like more of an exploration of the space before we go there<br/>"
+    },
+    {
+      "dtime": 6268000,
+      "ptime": 6268000,
+      "author": "Martin Thomson",
+      "text": "SLEEP<br/>"
+    },
+    {
+      "dtime": 6273000,
+      "ptime": 6273000,
+      "author": "David Schinazi",
+      "text": "Going early sounds good, we need fresh air in the in-person room<br/>"
+    },
+    {
+      "dtime": 6278000,
+      "ptime": 6278000,
+      "author": "Ted Hardie",
+      "text": "COOL OFF<br/>"
+    },
+    {
+      "dtime": 6288000,
+      "ptime": 6288000,
+      "author": "Richard Barnes",
+      "text": "\"HOTLY discussed\" not just in the AC sense<br/>"
+    },
+    {
+      "dtime": 6292000,
+      "ptime": 6292000,
+      "author": "Rich Salz",
+      "text": "Martin, isn't the plenary for sleeping?<br/>"
+    },
+    {
+      "dtime": 6318000,
+      "ptime": 6318000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "It's so hot that the packets are getting exhausted and falling over<br/>before delivering audio<br/>"
+    },
+    {
+      "dtime": 6345000,
+      "ptime": 6345000,
+      "author": "David Schinazi",
+      "text": "The packets are warming up on their way over and expand too much to fit in the local MTU<br/>"
+    },
+    {
+      "dtime": 6349000,
+      "ptime": 6349000,
+      "author": "Christopher Wood",
+      "text": "+1 -- an interim on discovery and consistency makes sense<br/>"
+    },
+    {
+      "dtime": 6365000,
+      "ptime": 6365000,
+      "author": "Andrew Campling",
+      "text": "Discovery + use cases<br/>"
+    },
+    {
+      "dtime": 6387000,
+      "ptime": 6387000,
+      "author": "Daniel Migault",
+      "text": "and time flight of packet have been caught on the \"now\" slide.<br/>"
+    },
+    {
+      "dtime": 6398000,
+      "ptime": 6398000,
+      "author": "Francesca Palombini",
+      "text": "meetecho: session over! :)<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF113-OHAI-20220323-1330"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/113/session/ohai"
+    }
+  ],
+  "start_datetime": "2022-03-23T13:30:00Z"
+}

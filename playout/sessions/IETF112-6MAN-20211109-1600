@@ -1,0 +1,514 @@
+{
+  "title": "IETF112-6MAN-20211109-1600",
+  "filename": "IETF112-6MAN-20211109-1600",
+  "start": 0,
+  "end": 5631000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "bR4XN1pvaCo",
+      "start": 0,
+      "end": "5631000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 428000,
+      "ptime": 428000,
+      "author": "Jen Linkova",
+      "text": "I liked that Github experiment<br/>"
+    },
+    {
+      "dtime": 711000,
+      "ptime": 711000,
+      "author": "BEHCET SARIKAYA",
+      "text": "I think SID s are IPv6 addresses, right?<br/>"
+    },
+    {
+      "dtime": 816000,
+      "ptime": 816000,
+      "author": "Éric Vyncke",
+      "text": "Thank you Suresh !<br/>"
+    },
+    {
+      "dtime": 1894000,
+      "ptime": 1894000,
+      "author": "Tim Chown",
+      "text": "The CERN experiments which are increasingly IPv6 transfers (international, not a controlled domain) are marking application traffic, but due to the EH drop issues and API challenges they're using either a semantic flow label or parallel 'firefly' packets.&nbsp;&nbsp;This approach wasn't felt appropriate at this stage.<br/>"
+    },
+    {
+      "dtime": 1924000,
+      "ptime": 1924000,
+      "author": "Erik Kline",
+      "text": "(the repository for RFC9131: <a href=\"https://github.com/rfc-editor/rfc9131-AUTH48\" rel=\"nofollow\">https://github.com/rfc-editor/rfc9131-AUTH48</a>)<br/>"
+    },
+    {
+      "dtime": 2034000,
+      "ptime": 2034000,
+      "author": "Dave Thaler",
+      "text": "Bob's cat needs to sign the blue sheets :)<br/>"
+    },
+    {
+      "dtime": 2060000,
+      "ptime": 2060000,
+      "author": "Tim Chown",
+      "text": "lovely tortie cat<br/>"
+    },
+    {
+      "dtime": 2069000,
+      "ptime": 2069000,
+      "author": "Ole Trøan",
+      "text": "The secretariat auto-detected it using face recognition!<br/>"
+    },
+    {
+      "dtime": 2109000,
+      "ptime": 2109000,
+      "author": "Tim Chown",
+      "text": "Would a short info draft on what the CERN marking is doing be of interest?&nbsp;&nbsp;prob more v6ops.<br/>"
+    },
+    {
+      "dtime": 2155000,
+      "ptime": 2155000,
+      "author": "Éric Vyncke",
+      "text": "I would be interested to read this I-D, Tim<br/>"
+    },
+    {
+      "dtime": 2157000,
+      "ptime": 2157000,
+      "author": "Erik Kline",
+      "text": "@tim: that does sound interesting<br/>"
+    },
+    {
+      "dtime": 2184000,
+      "ptime": 2184000,
+      "author": "Erik Kline",
+      "text": "(how is eduroam traffic marked?&nbsp;&nbsp;;-) )<br/>"
+    },
+    {
+      "dtime": 2227000,
+      "ptime": 2227000,
+      "author": "Tim Chown",
+      "text": "ok eric, will do.<br/>"
+    },
+    {
+      "dtime": 2257000,
+      "ptime": 2257000,
+      "author": "Tim Chown",
+      "text": "well, eduroam traffic is pretty much any wifi traffic sourced from a university these days, in europe at least<br/>"
+    },
+    {
+      "dtime": 2328000,
+      "ptime": 2328000,
+      "author": "Tim Chown",
+      "text": "the 'interesting' bit is the semantics in the flow label of course, which Brian has commented on (he has roots in cern :))<br/>"
+    },
+    {
+      "dtime": 2367000,
+      "ptime": 2367000,
+      "author": "Erik Kline",
+      "text": "does this option for the basis for progress in another working group?<br/>"
+    },
+    {
+      "dtime": 2376000,
+      "ptime": 2376000,
+      "author": "Éric Vyncke",
+      "text": "@Jie why not generalizing this option ? It could be applied as a QoS marker<br/>"
+    },
+    {
+      "dtime": 2390000,
+      "ptime": 2390000,
+      "author": "Éric Vyncke",
+      "text": "for other applications<br/>"
+    },
+    {
+      "dtime": 2482000,
+      "ptime": 2482000,
+      "author": "Eduard V",
+      "text": "Voice is intermitten. Packet lost<br/>"
+    },
+    {
+      "dtime": 2490000,
+      "ptime": 2490000,
+      "author": "Darren Dukes",
+      "text": "Unfortunately I cannot hear either<br/>"
+    },
+    {
+      "dtime": 2497000,
+      "ptime": 2497000,
+      "author": "Yasunobu Toyota",
+      "text": "The audio sounds choppy....<br/>"
+    },
+    {
+      "dtime": 2498000,
+      "ptime": 2498000,
+      "author": "Éric Vyncke",
+      "text": "Indeed, cannot fllow :-(<br/>"
+    },
+    {
+      "dtime": 2534000,
+      "ptime": 2534000,
+      "author": "Mark Andrews",
+      "text": "bad echo cancellation<br/>"
+    },
+    {
+      "dtime": 2654000,
+      "ptime": 2654000,
+      "author": "Jie Dong",
+      "text": "@Eric, this may be related to QoS but is different, this identifier is designed to identify the set of resources allocated to a VTN, while QoS markers (e.g. DSCP) can be used to describe the different traffic classes within a VTN.<br/>"
+    },
+    {
+      "dtime": 2725000,
+      "ptime": 2725000,
+      "author": "Erik Kline",
+      "text": "graceful reload but not deprecating the old prefix is a configuration error<br/>"
+    },
+    {
+      "dtime": 2821000,
+      "ptime": 2821000,
+      "author": "Ted Lemon",
+      "text": "In the case that the router hardware is swapped out, neighbor discovery will fail and the router will be marked unreachable, which should prevent the prefixes it advertised being used.<br/>"
+    },
+    {
+      "dtime": 2853000,
+      "ptime": 2853000,
+      "author": "Jen Linkova",
+      "text": "@Ted: if Rule 5.5 is supported, yes<br/>"
+    },
+    {
+      "dtime": 2858000,
+      "ptime": 2858000,
+      "author": "Ole Trøan",
+      "text": "It's clearly an operational problem. But it's quite unfortunate that you have to power cycle the whole network if you operate the network this way. And unfortunately it's not your network operator, but your upstreams...<br/>"
+    },
+    {
+      "dtime": 2914000,
+      "ptime": 2914000,
+      "author": "Jen Linkova",
+      "text": "I think it all comes (again) to Rule 5.5 and RFC8028<br/>"
+    },
+    {
+      "dtime": 2923000,
+      "ptime": 2923000,
+      "author": "Ole Trøan",
+      "text": "Hosts should learn to deal with \"dud\" source addresses. Which happens for all kinds of other reasons too. In MHMP for example.<br/>"
+    },
+    {
+      "dtime": 2924000,
+      "ptime": 2924000,
+      "author": "Erik Kline",
+      "text": "well, NUD for the old router would fail<br/>"
+    },
+    {
+      "dtime": 2987000,
+      "ptime": 2987000,
+      "author": "Ted Lemon",
+      "text": "I think that hosts that don't support rule 5.5 are effectively broken.<br/>"
+    },
+    {
+      "dtime": 3020000,
+      "ptime": 3020000,
+      "author": "Erik Kline",
+      "text": "Ted: should we advance that from SHOULD to MUST?<br/>"
+    },
+    {
+      "dtime": 3035000,
+      "ptime": 3035000,
+      "author": "BEHCET SARIKAYA",
+      "text": "5.5 abrupt router outage?<br/>"
+    },
+    {
+      "dtime": 3036000,
+      "ptime": 3036000,
+      "author": "Jen Linkova",
+      "text": "IMHO we do have mechanisms to solve the problem, it's just host implementations do not care (yet)<br/>"
+    },
+    {
+      "dtime": 3046000,
+      "ptime": 3046000,
+      "author": "Jen Linkova",
+      "text": "Not, rule 5.5 of Default Address Selection<br/>"
+    },
+    {
+      "dtime": 3046000,
+      "ptime": 3046000,
+      "author": "Ted Lemon",
+      "text": "Yes.<br/>"
+    },
+    {
+      "dtime": 3067000,
+      "ptime": 3067000,
+      "author": "Dave Thaler",
+      "text": "@Erik: my opinion, no.&nbsp;&nbsp; constrained nodes need not track that sort of state today.<br/>"
+    },
+    {
+      "dtime": 3076000,
+      "ptime": 3076000,
+      "author": "Erik Kline",
+      "text": "s/advance/promote/, I guess, but thx<br/>"
+    },
+    {
+      "dtime": 3084000,
+      "ptime": 3084000,
+      "author": "Ted Lemon",
+      "text": "s/Default/Source/ address selection<br/>"
+    },
+    {
+      "dtime": 3085000,
+      "ptime": 3085000,
+      "author": "BEHCET SARIKAYA",
+      "text": "I have to look 8028<br/>"
+    },
+    {
+      "dtime": 3090000,
+      "ptime": 3090000,
+      "author": "Erik Kline",
+      "text": "even if there are multiple LBRs?<br/>"
+    },
+    {
+      "dtime": 3118000,
+      "ptime": 3118000,
+      "author": "Ted Lemon",
+      "text": "I think that the constrained node problem needs to be treated separately.<br/>"
+    },
+    {
+      "dtime": 3301000,
+      "ptime": 3301000,
+      "author": "Erik Kline",
+      "text": "NUD for the PIO-originating default router (or higher layer confirmation) is presumably happening if there's any traffic at all<br/>"
+    },
+    {
+      "dtime": 3501000,
+      "ptime": 3501000,
+      "author": "Ole Trøan",
+      "text": "Segmentation on L3 versus segmentation on L4 or L7 should not by itself have different performance properties one should think...<br/>"
+    },
+    {
+      "dtime": 3622000,
+      "ptime": 3622000,
+      "author": "Eduard V",
+      "text": "@Ted, the old router would be deprecated in 15min. It is not a good time.<br/>"
+    },
+    {
+      "dtime": 3629000,
+      "ptime": 3629000,
+      "author": "Joel Halpern",
+      "text": "Doing this in routers which originate tunnels is a disaster.<br/>"
+    },
+    {
+      "dtime": 3654000,
+      "ptime": 3654000,
+      "author": "Joel Halpern",
+      "text": "doing it on hosts might be margianlly useful, but the hsot could have just chosen to send a smaller packet.<br/>"
+    },
+    {
+      "dtime": 3657000,
+      "ptime": 3657000,
+      "author": "Éric Vyncke",
+      "text": "I fear the amount of states indeed<br/>"
+    },
+    {
+      "dtime": 3686000,
+      "ptime": 3686000,
+      "author": "Bob Hinden",
+      "text": "Yes, add a lot of state in the IP layer of the host<br/>"
+    },
+    {
+      "dtime": 3693000,
+      "ptime": 3693000,
+      "author": "Éric Vyncke",
+      "text": "Could be useful if there is a huge packet drop<br/>"
+    },
+    {
+      "dtime": 3704000,
+      "ptime": 3704000,
+      "author": "Eduard V",
+      "text": "just \"rule 5.5\" is not enough. It needs modifications that envisioned by RFC 8028, but not discussed in details.<br/>"
+    },
+    {
+      "dtime": 3741000,
+      "ptime": 3741000,
+      "author": "Ole Trøan",
+      "text": "The problem with fragments is that receiver must reassemble before the implementation can determine if this packet is part of an attack or a local application... <br/>"
+    },
+    {
+      "dtime": 3774000,
+      "ptime": 3774000,
+      "author": "Bob Hinden",
+      "text": "+1&nbsp;&nbsp;Probbly creates a new attack surface<br/>"
+    },
+    {
+      "dtime": 3779000,
+      "ptime": 3779000,
+      "author": "Joel Halpern",
+      "text": "@Ole I expect there are lots of \"problem with fragmentation\" aspects.<br/>"
+    },
+    {
+      "dtime": 3812000,
+      "ptime": 3812000,
+      "author": "Ole Trøan",
+      "text": "@Joel: Yes I mean to write \"one of the many problems\" above.<br/>"
+    },
+    {
+      "dtime": 4255000,
+      "ptime": 4255000,
+      "author": "Joel Halpern",
+      "text": "@Ole :-)<br/>"
+    },
+    {
+      "dtime": 4555000,
+      "ptime": 4555000,
+      "author": "Cheng Li",
+      "text": "question1: can it support trace mode?<br/>"
+    },
+    {
+      "dtime": 4640000,
+      "ptime": 4640000,
+      "author": "Cheng Li",
+      "text": "question2: what if a tracing packet is forwarded though an domain,&nbsp;&nbsp;will the source node outside the domain get all the information of the info of nodes along the path at other domain?<br/>"
+    },
+    {
+      "dtime": 4649000,
+      "ptime": 4649000,
+      "author": "Fred Templin",
+      "text": "Hi, seeing the comments above on fragmentation and reassembly, I would like to reiterate that you can go try it out for yourself, .e.g., on a pair of Ubuntu machines connected to a Gbps network and run iperf3 with various packet sizes. Large packets give order of magnitude performance increase even though fragmentation is being used.<br/>"
+    },
+    {
+      "dtime": 4702000,
+      "ptime": 4702000,
+      "author": "Cheng Li",
+      "text": "question3: any security issues of this extensions? what if we send a lot of packets to make up an DDOS attack?<br/>"
+    },
+    {
+      "dtime": 4731000,
+      "ptime": 4731000,
+      "author": "Fred Templin",
+      "text": "To Joel's concern about tunnel endpoints on high speed core routers, the answer is that that is not where the tunnel endpoints would be deployed.<br/>"
+    },
+    {
+      "dtime": 4849000,
+      "ptime": 4849000,
+      "author": "Fred Templin",
+      "text": "In other words, the high speed routers would be doing what they do best - forwarding IPv6 packets without doing any fragmentation/reassembly themselves.<br/>"
+    },
+    {
+      "dtime": 4858000,
+      "ptime": 4858000,
+      "author": "Ole Trøan",
+      "text": "@Fred: The performance difference is likely very implementation / platform specific. E.g. on a platform where the fragmentation was done in hardware you would offload a lot of processing from the host stack. Not all platforms behave like that of course.If this is specifically for tunnels, it would help the receiver a lot if every packet contained enough information to classify the packet.<br/>"
+    },
+    {
+      "dtime": 4882000,
+      "ptime": 4882000,
+      "author": "Eduard V",
+      "text": "Do I understand right that such iOAM would be only E2E only, not HbH. I did have an impression that iOAM is mostly about HbH.<br/>"
+    },
+    {
+      "dtime": 4994000,
+      "ptime": 4994000,
+      "author": "Fred Templin",
+      "text": "Ole, this first came to light in 1986 when Sun MIcrosystems introduced NFS. It pertained to the platforms of that day, and it still pertains to widely deployed platforms today. There is a great deal of energy having to do with segment offload to push segmentation/reassembly down to the lowest layer possible. IP fragmentation and reassembly is the ultimate layer of segmentation and reassembly.<br/>"
+    },
+    {
+      "dtime": 5003000,
+      "ptime": 5003000,
+      "author": "Erik Kline",
+      "text": "it seems to be about ioam capabilities, and not the ioam data plane itself (I think?)<br/>"
+    },
+    {
+      "dtime": 5013000,
+      "ptime": 5013000,
+      "author": "Cheng Li",
+      "text": "IPSEC connection before IOAM capabilities probe?<br/>"
+    },
+    {
+      "dtime": 5039000,
+      "ptime": 5039000,
+      "author": "Cheng Li",
+      "text": "Fullmesh IPSEC connection? crazy?<br/>"
+    },
+    {
+      "dtime": 5186000,
+      "ptime": 5186000,
+      "author": "Ole Trøan",
+      "text": "@Fred: It's turned out to be very hard to not treat IP fragment reassembly as an attack... we should design a fragment/reassembly mechanism that is a little nicer to the receiver.<br/>"
+    },
+    {
+      "dtime": 5267000,
+      "ptime": 5267000,
+      "author": "Fred Templin",
+      "text": "I don't grok that; receivers that I know and would ask to do reassembly can very gracefully handle reassembly at line rate.<br/>"
+    },
+    {
+      "dtime": 5304000,
+      "ptime": 5304000,
+      "author": "Fred Templin",
+      "text": "Again, taking iperf3 for a test spin can be illuminating.<br/>"
+    },
+    {
+      "dtime": 5375000,
+      "ptime": 5375000,
+      "author": "Ole Trøan",
+      "text": "iperf3 isn't going to provide an attack vector... try not sending the first fragment for a stream of a few million fragments at 10Mpps...<br/>"
+    },
+    {
+      "dtime": 5397000,
+      "ptime": 5397000,
+      "author": "Joel Halpern",
+      "text": "@Fred a classic example was to send a whole series fo different second fragments to a host.&nbsp;&nbsp;It has to hold them all, looking for the first to decide if it actually wants to keep the packet.&nbsp;&nbsp;You can even send 2nd, 3rd, 4th, depending upon what the hsots reasssembly limit is.&nbsp;&nbsp;And that is just one attack based on fragmentation.<br/>"
+    },
+    {
+      "dtime": 5445000,
+      "ptime": 5445000,
+      "author": "Fred Templin",
+      "text": "The key is management of the reassembly cache. And, you definitely want to do data origin authentication and only accept fragments from authentic sources.<br/>"
+    },
+    {
+      "dtime": 5478000,
+      "ptime": 5478000,
+      "author": "Cheng Li",
+      "text": "The pre-require of using AH or ESP is that we need to build up an IPSEC connection(or exchange some keys). Since&nbsp;&nbsp;a node may ping any nodes for IOAM compabilities, so I don't see how we can deploy Any to any IPSEC in our network. Like a network domain with 2K nodes, we need to maintain 2K-1 IPSEC connection?<br/>"
+    },
+    {
+      "dtime": 5482000,
+      "ptime": 5482000,
+      "author": "Joel Halpern",
+      "text": "But the reassembling host can't perform data origin authentication.&nbsp;&nbsp;And we know BCP 38 is not deployed anywhere near as widely as we would like.<br/>"
+    },
+    {
+      "dtime": 5513000,
+      "ptime": 5513000,
+      "author": "Fred Templin",
+      "text": "Sure it can, Joel - you would have to look at AERO/OMNI to see how it works - but, it works.<br/>"
+    },
+    {
+      "dtime": 5555000,
+      "ptime": 5555000,
+      "author": "Ole Trøan",
+      "text": "Here is example code for reassembly for VPP for example: <a href=\"https://git.fd.io/vpp/tree/src/vnet/ip/reass/ip6_full_reass.c#n29\" rel=\"nofollow\">https://git.fd.io/vpp/tree/src/vnet/ip/reass/ip6_full_reass.c#n29</a><br/>"
+    },
+    {
+      "dtime": 5580000,
+      "ptime": 5580000,
+      "author": "Joel Halpern",
+      "text": "Fred, if you want to assume AERO / OMNI, and only use this with that technology, then you need to say that.<br/>"
+    },
+    {
+      "dtime": 5627000,
+      "ptime": 5627000,
+      "author": "Fred Templin",
+      "text": "No, it is not just for AERO and OMNI - it is for any environment where there is sufficinet trust to be able to accept fragments.<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-6MAN-20211109-1600"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/6man"
+    }
+  ]
+}

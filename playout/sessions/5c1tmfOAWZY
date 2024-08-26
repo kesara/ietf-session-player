@@ -1,0 +1,91 @@
+
+{
+	"title": "IETF115-COINRG-20221108-0930",
+	"filename": "IETF115-COINRG-20221108-0930",
+	"start": 0,
+	"end": 7390000,
+	"start_datetime": "2022-11-08T09:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "5c1tmfOAWZY",
+    "start": 0,
+    "end": "7390000"
+  }
+],
+	"messages": [
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>For function selection in ICN COIN networks, you could use path steering: <a href=\"https://datatracker.ietf.org/doc/draft-oran-icnrg-pathsteering/\">https://datatracker.ietf.org/doc/draft-oran-icnrg-pathsteering/</a></p>",
+    "topic": "jabber",
+    "dtime": 3584000,
+    "ptime": 3584000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>What i don't get is why even think of this as a transport protocol? Isn't this just how you design a multi-party distributed computation where some of the parties are topologically positioned on switches and servers \"inside\" the network?</p>",
+    "topic": "jabber",
+    "dtime": 4018000,
+    "ptime": 4018000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>I also tend to agree with Dirk that a better match than some kind of \"wire with bumps in it\" with the transport emulating a wire is a data flow graph where each place that computes is a terminal or non-terminal node on the graph</p>",
+    "topic": "jabber",
+    "dtime": 4496000,
+    "ptime": 4496000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>I thought this is about research?</p>",
+    "topic": "jabber",
+    "dtime": 4752000,
+    "ptime": 4752000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>I agree, I feel that chasing 'easily deployable' limits the possibilities.</p>",
+    "topic": "jabber",
+    "dtime": 5886000,
+    "ptime": 5886000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>Personally, I find it interesting to work on filling in the gaps and trying to bring the clean-ideal architecture/design/mechanism into a real-world in more deployable way. But, that is only possible because there are those ambitious research on clean-slate novel approaches out there.</p>",
+    "topic": "jabber",
+    "dtime": 6120000,
+    "ptime": 6120000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>I'm struggling with what the last two talks (DLTs on provider networks measurement and IOSE) have to do with the scope of COINRG, but they're interesting talks to listen to....</p>",
+    "topic": "jabber",
+    "dtime": 6508000,
+    "ptime": 6508000
+  },
+  {
+    "author": "Eve Schooler",
+    "text": "<p>Apologies Emmanuel, please take your question to the list or include your question here and we can forward. Many thanks.</p>",
+    "topic": "jabber",
+    "dtime": 7124000,
+    "ptime": 7124000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-COINRG-20221108-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/coinrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-COINRG-20221108-0930"
+		}		
+	]
+}

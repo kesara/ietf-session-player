@@ -1,0 +1,462 @@
+
+{
+	"title": "IETF120-RTGWG-20240722-2000",
+	"filename": "IETF120-RTGWG-20240722-2000",
+	"start": 0,
+	"end": 7342000,
+	"start_datetime": "2024-07-22T19:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "eVI1z-b67Hk",
+    "start": 0,
+    "end": "7342000"
+  }
+],
+	"messages": [
+  {
+    "author": "Loa Andersson",
+    "text": "<p>volume low on your mic</p>",
+    "topic": "ietf-120",
+    "dtime": 106000,
+    "ptime": 106000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>collective note taking: <a href=\"https://notes.ietf.org/notes-ietf-120-rtgwg\">https://notes.ietf.org/notes-ietf-120-rtgwg</a></p>",
+    "topic": "ietf-120",
+    "dtime": 1088000,
+    "ptime": 1088000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>I think the option 3 is better given the motivation. Suggest calling it ietf-vrrp3 to reflect the protocol version which obsoletes the old RFC</p>",
+    "topic": "ietf-120",
+    "dtime": 1210000,
+    "ptime": 1210000
+  },
+  {
+    "author": "Jim Guichard",
+    "text": "<p>someone is in the queue</p>",
+    "topic": "ietf-120",
+    "dtime": 1240000,
+    "ptime": 1240000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I guess there was no time for Q/A? What I was in line to ask was if Acee would Obsolete the v1 vrrp model, as well. I assume so but it wasn’t on the slide.</p>",
+    "topic": "ietf-120",
+    "dtime": 1298000,
+    "ptime": 1298000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Anyway seems reasonable.</p>",
+    "topic": "ietf-120",
+    "dtime": 1308000,
+    "ptime": 1308000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>John, can you please send your question to the list?</p>",
+    "topic": "ietf-120",
+    "dtime": 1338000,
+    "ptime": 1338000
+  },
+  {
+    "author": "Jim Guichard",
+    "text": "<p>@chairs please keep an eye on the queue</p>",
+    "topic": "ietf-120",
+    "dtime": 1983000,
+    "ptime": 1983000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>@Jim, sure.</p>",
+    "topic": "ietf-120",
+    "dtime": 2017000,
+    "ptime": 2017000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>2B = To Business?</p>",
+    "topic": "ietf-120",
+    "dtime": 2043000,
+    "ptime": 2043000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>If would be interesting to validate the challenge versus BBF work with traffic steering</p>",
+    "topic": "ietf-120",
+    "dtime": 2677000,
+    "ptime": 2677000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>ie WT-474</p>",
+    "topic": "ietf-120",
+    "dtime": 2683000,
+    "ptime": 2683000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>that is basically the purpose of it</p>",
+    "topic": "ietf-120",
+    "dtime": 2691000,
+    "ptime": 2691000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>Dan - could you please send an email to the list with your comment?</p>",
+    "topic": "ietf-120",
+    "dtime": 2731000,
+    "ptime": 2731000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p>yes I will ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 2744000,
+    "ptime": 2744000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>I saw no reference in this draft to RFC 2386.  Nor to the hard problems that the RFC discusses.  Without that, I do not see the point of disucssing a notification protocol.</p>",
+    "topic": "ietf-120",
+    "dtime": 3063000,
+    "ptime": 3063000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>(Sent to chat since the chairs do not seem to want discussion at the microphone.)</p>",
+    "topic": "ietf-120",
+    "dtime": 3093000,
+    "ptime": 3093000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Loop avoidance is the responsibility of your PCE</p>",
+    "topic": "ietf-120",
+    "dtime": 3529000,
+    "ptime": 3529000
+  },
+  {
+    "author": "Nitsan Dolev Elfassy",
+    "text": "<p>PCE may not be able to follow the changes ...</p>",
+    "topic": "ietf-120",
+    "dtime": 3632000,
+    "ptime": 3632000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>If the changes are at too high a frequency for a PCE, then you lack a stable control loop.</p>",
+    "topic": "ietf-120",
+    "dtime": 3746000,
+    "ptime": 3746000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>If PCE gets LSDB (TED) it will but with some delay</p>",
+    "topic": "ietf-120",
+    "dtime": 3747000,
+    "ptime": 3747000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>The whole approach lacks a stable control loop.  THe authors may or may not have one in mind, but  the congestion response draft doesn't include it.</p>",
+    "topic": "ietf-120",
+    "dtime": 3833000,
+    "ptime": 3833000
+  },
+  {
+    "author": "Liu Yao",
+    "text": "<p>@Joel so the suggestion is to add  the control loop in the  draft on how to response to the congestion notification, right?</p>",
+    "topic": "ietf-120",
+    "dtime": 4122000,
+    "ptime": 4122000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@liu Yao No.  My suggestion is to start by explaining why the problems identified in the mid-90s with any approach like this don't apply.  Only after those problems are recognized and discussed is there any point in discussing mechanisms.</p>",
+    "topic": "ietf-120",
+    "dtime": 4329000,
+    "ptime": 4329000
+  },
+  {
+    "author": "Nitsan Dolev Elfassy",
+    "text": "<p>The whole approach does not analyze the load of the  response traffic itself ...</p>",
+    "topic": "ietf-120",
+    "dtime": 4367000,
+    "ptime": 4367000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>It may be that you can find a way around those problems.  But that is where you need to start.</p>",
+    "topic": "ietf-120",
+    "dtime": 4378000,
+    "ptime": 4378000
+  },
+  {
+    "author": "Liu Yao",
+    "text": "<p>Got it, will work on this ,thanks for pointing it out</p>",
+    "topic": "ietf-120",
+    "dtime": 4495000,
+    "ptime": 4495000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Is this mechanism capable of re-ordering packets within a flow?</p>",
+    "topic": "ietf-120",
+    "dtime": 4988000,
+    "ptime": 4988000
+  },
+  {
+    "author": "Liu Yao",
+    "text": "<p>@Nitsan generally, ARN suppression mechanism should be used accordingly to avoid notification storm. will add the analyze on this aspect.</p>",
+    "topic": "ietf-120",
+    "dtime": 4995000,
+    "ptime": 4995000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Not just capable...</p>",
+    "topic": "ietf-120",
+    "dtime": 5015000,
+    "ptime": 5015000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>it will cause packet reordering</p>",
+    "topic": "ietf-120",
+    "dtime": 5093000,
+    "ptime": 5093000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Not good for a number of higher-layer protocols.</p>",
+    "topic": "ietf-120",
+    "dtime": 5108000,
+    "ptime": 5108000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>The only upside is that it will be rate limited by BGP convergence time.</p>",
+    "topic": "ietf-120",
+    "dtime": 5122000,
+    "ptime": 5122000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Packet-based adjustment mode looks like a particular problem.</p>",
+    "topic": "ietf-120",
+    "dtime": 5134000,
+    "ptime": 5134000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Moving an elephant flow does seem highly likely to simply move the congestion, not avoid it.</p>",
+    "topic": "ietf-120",
+    "dtime": 5174000,
+    "ptime": 5174000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>in DC (10ns RTT) - BGP as the main control loop signaling is not very suitable for that</p>",
+    "topic": "ietf-120",
+    "dtime": 5206000,
+    "ptime": 5206000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>And if the elephant transport stumbles due to reordering around the move, the move appears to help ... until it doesn't.</p>",
+    "topic": "ietf-120",
+    "dtime": 5208000,
+    "ptime": 5208000
+  },
+  {
+    "author": "Nitsan Dolev Elfassy",
+    "text": "<p>Should not one expect an analysis of the various congestion causing factors before approaching with these congestion control tools ? Have we done such analysis ?</p>",
+    "topic": "ietf-120",
+    "dtime": 5290000,
+    "ptime": 5290000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>I would like to know how terrible caused by congestion today,  before discussing the solution</p>",
+    "topic": "ietf-120",
+    "dtime": 5382000,
+    "ptime": 5382000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>good point Cheng</p>",
+    "topic": "ietf-120",
+    "dtime": 5403000,
+    "ptime": 5403000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>If only there were some prior art on load-sensitive routing.</p>",
+    "topic": "ietf-120",
+    "dtime": 5440000,
+    "ptime": 5440000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>While I presume some of the reality has changed, RFFC 2386 does seem a good starting point :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 5501000,
+    "ptime": 5501000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>? Congestion comes from having insufficient bandwidth available to transport the available load. This may be due to insufficient capital, insufficient deployment, or inadquate ECMP paths. For DC purposes, a good first order approximation is an infinite demand.</p>",
+    "topic": "ietf-120",
+    "dtime": 5510000,
+    "ptime": 5510000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Cheng, ping me - I will explain. It is a consequence of cutting upper layer switches from the hyper-scale DC/Cloud (replacing by mesh).</p>",
+    "topic": "ietf-120",
+    "dtime": 5522000,
+    "ptime": 5522000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>thank you Eduard :)</p>",
+    "topic": "ietf-120",
+    "dtime": 5551000,
+    "ptime": 5551000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>@tony Li, it could be traffic spike - ex.: when the game industry release a new path/upgrades it does create spike</p>",
+    "topic": "ietf-120",
+    "dtime": 5581000,
+    "ptime": 5581000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"715\">@Jeff Tantsura</span> I agree that any current control plane is out of the question. One could, in principle have faster, lower-level control loops.</p>",
+    "topic": "ietf-120",
+    "dtime": 5685000,
+    "ptime": 5685000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>One could congest two paths at once by using detnet preof :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 5734000,
+    "ptime": 5734000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>@tli this is the topic of most today' presentations, some kind of \"fast notification\"</p>",
+    "topic": "ietf-120",
+    "dtime": 5744000,
+    "ptime": 5744000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"939\">@Dan Voyer</span> You're absolutely right, I left out insufficient foresight and planning.</p>",
+    "topic": "ietf-120",
+    "dtime": 5747000,
+    "ptime": 5747000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>Jeff, I agree with you that BGP maybe not suitable, and we need some fast solution. It is possible because the AIDC network topo is  simpler</p>",
+    "topic": "ietf-120",
+    "dtime": 5884000,
+    "ptime": 5884000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>Important point to consider - perhaps transport network is not the right place to solve the problem; end-points in most cases run some kind of congestion control, either ECN marking based (e.g DCQCN) or timer based (e.g. timely) - these are much faster in detection and can mitigate at the source - by reducing TX rate or changing entropy</p>",
+    "topic": "ietf-120",
+    "dtime": 6105000,
+    "ptime": 6105000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>@cheng li, the adaptive routing is designed for AIDC, in which the traffic model is really different from IP WAN network. The size per flow may be 400G for such as all-reduce traffic from only one GPU.</p>",
+    "topic": "ietf-120",
+    "dtime": 6107000,
+    "ptime": 6107000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>it is huge, so it might be worthy to investigate :)</p>",
+    "topic": "ietf-120",
+    "dtime": 6278000,
+    "ptime": 6278000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Shouldn't this be in QUIC and answered by same?</p>",
+    "topic": "ietf-120",
+    "dtime": 6732000,
+    "ptime": 6732000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Or tsvwg fot the CC aspects.  Dan's mike comment on relationship to detnet is very much on point.</p>",
+    "topic": "ietf-120",
+    "dtime": 6785000,
+    "ptime": 6785000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>@Dan, I don't think IP WAN network need adaptive routing. It is for AI training data center. When you run training task, at the same time, all the GPU involved in one all-reduce task maybe running at line rate, such as 400Gbps. It will cause significant congestion, and then lower the training efficiency. The traffic model is much worse than that in IP WAN network even in worst case.</p>",
+    "topic": "ietf-120",
+    "dtime": 6787000,
+    "ptime": 6787000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>in CCWG we are progressing HPCC documents, these are INT based (switch assisted) congestion control for AIDC</p>",
+    "topic": "ietf-120",
+    "dtime": 6842000,
+    "ptime": 6842000
+  },
+  {
+    "author": "Jim Guichard",
+    "text": "<p>postpone to next IETF?</p>",
+    "topic": "ietf-120",
+    "dtime": 7091000,
+    "ptime": 7091000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>^</p>",
+    "topic": "ietf-120",
+    "dtime": 7120000,
+    "ptime": 7120000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>we may consider an interim</p>",
+    "topic": "ietf-120",
+    "dtime": 7151000,
+    "ptime": 7151000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-RTGWG-20240722-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/rtgwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-RTGWG-20240722-2000"
+		}		
+	]
+}

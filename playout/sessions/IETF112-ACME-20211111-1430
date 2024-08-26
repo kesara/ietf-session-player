@@ -1,0 +1,256 @@
+{
+  "title": "IETF112-ACME-20211111-1430",
+  "filename": "IETF112-ACME-20211111-1430",
+  "start": 0,
+  "end": 2721000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "zbypQeo7ZXE",
+      "start": 0,
+      "end": "2721000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 3000,
+      "ptime": 3000,
+      "author": "Deb Cooley",
+      "text": "morning/afternoon or whatever.<br/>"
+    },
+    {
+      "dtime": 68000,
+      "ptime": 68000,
+      "author": "Kathleen Moriarty",
+      "text": "Milestone for ACME client can be pushed out. New text should be received to enable ACME to be the base of a code signing automation effort. That is expected soon. There's a possible use case from GNAP as well. Maybe last call by next meeting if these reviews come in.<br/>"
+    },
+    {
+      "dtime": 441000,
+      "ptime": 441000,
+      "author": "Roman Danyliw",
+      "text": "draft-ietf-acme-authority-token + draft-ietf-acme-authority-token-tnauthlist will proceed to to the IESG telechat together.<br/>"
+    },
+    {
+      "dtime": 517000,
+      "ptime": 517000,
+      "author": "Chris Wendt",
+      "text": "Thanks Roman for clarifying that, hopefully should be close<br/>"
+    },
+    {
+      "dtime": 754000,
+      "ptime": 754000,
+      "author": "Roman Danyliw",
+      "text": "Assuming there are no LC issues and there will be room, we could get these documents on the Dec-2 telechat.&nbsp;&nbsp;If not, they will be on the Dec-16 telechat<br/>"
+    },
+    {
+      "dtime": 892000,
+      "ptime": 892000,
+      "author": "Roman Danyliw",
+      "text": "@Brian, thanks for all of the edits!<br/>"
+    },
+    {
+      "dtime": 904000,
+      "ptime": 904000,
+      "author": "Roman Danyliw",
+      "text": "There will be a MISREF on the DTN doc<br/>"
+    },
+    {
+      "dtime": 1259000,
+      "ptime": 1259000,
+      "author": "Corey Bonnell",
+      "text": "RFC 5019<br/>"
+    },
+    {
+      "dtime": 1289000,
+      "ptime": 1289000,
+      "author": "Yoav Nir",
+      "text": "Mandating SHA1 makes people sad.<br/>"
+    },
+    {
+      "dtime": 1311000,
+      "ptime": 1311000,
+      "author": "Rich Salz",
+      "text": "should we tweak it to be *exactly* the same as OCSP?<br/>"
+    },
+    {
+      "dtime": 1339000,
+      "ptime": 1339000,
+      "author": "Deb Cooley",
+      "text": "I think SHA1 is fine here, and is smaller than other more modern hashes<br/>"
+    },
+    {
+      "dtime": 1369000,
+      "ptime": 1369000,
+      "author": "Tim Geoghegan",
+      "text": "Why is anything beyond the serial # needed to uniquely identify the certificate?<br/>"
+    },
+    {
+      "dtime": 1387000,
+      "ptime": 1387000,
+      "author": "Deb Cooley",
+      "text": "because serial number is only unique per CA<br/>"
+    },
+    {
+      "dtime": 1390000,
+      "ptime": 1390000,
+      "author": "mcr",
+      "text": "\"infrequently\" / \"instantaenously\" :-)<br/>"
+    },
+    {
+      "dtime": 1398000,
+      "ptime": 1398000,
+      "author": "Tim Geoghegan",
+      "text": "D'oh, of course, thank you<br/>"
+    },
+    {
+      "dtime": 1410000,
+      "ptime": 1410000,
+      "author": "Yoav Nir",
+      "text": "There are hash functions much faster than SHA1<br/>"
+    },
+    {
+      "dtime": 1419000,
+      "ptime": 1419000,
+      "author": "Deb Cooley",
+      "text": "but are they smaller?<br/>"
+    },
+    {
+      "dtime": 1442000,
+      "ptime": 1442000,
+      "author": "Deb Cooley",
+      "text": "I guess one could truncate.....<br/>"
+    },
+    {
+      "dtime": 1464000,
+      "ptime": 1464000,
+      "author": "Rich Salz",
+      "text": "it's not like you *have* to recalculate moer than once<br/>"
+    },
+    {
+      "dtime": 1469000,
+      "ptime": 1469000,
+      "author": "mcr",
+      "text": "I like the /issuer/name/serial block. That's very nicely and trivially cachable.<br/>"
+    },
+    {
+      "dtime": 1509000,
+      "ptime": 1509000,
+      "author": "mcr",
+      "text": "I call to adopt.<br/>"
+    },
+    {
+      "dtime": 1512000,
+      "ptime": 1512000,
+      "author": "Yoav Nir",
+      "text": "If we needed a cryptographic hash, we'd need something more secure. If we don't need a cryptographic hash, we can make do with something faster.&nbsp;&nbsp;But not up to us...<br/>"
+    },
+    {
+      "dtime": 1535000,
+      "ptime": 1535000,
+      "author": "mcr",
+      "text": "It's up to the WG chairs to decide the process, which many WGs don't realize.&nbsp;&nbsp;We don't have an official process.<br/>"
+    },
+    {
+      "dtime": 1596000,
+      "ptime": 1596000,
+      "author": "mcr",
+      "text": "But, does everyone has a T.Rex on the floor waiting for him!<br/>"
+    },
+    {
+      "dtime": 1618000,
+      "ptime": 1618000,
+      "author": "Rich Salz",
+      "text": "The TRex is for my enemies :)&nbsp;&nbsp;Good thing I don't have any.<br/>"
+    },
+    {
+      "dtime": 1620000,
+      "ptime": 1620000,
+      "author": "mcr",
+      "text": "I read -00. Not -01 yet.<br/>"
+    },
+    {
+      "dtime": 1639000,
+      "ptime": 1639000,
+      "author": "Russ Housley",
+      "text": "I read it too<br/>"
+    },
+    {
+      "dtime": 1648000,
+      "ptime": 1648000,
+      "author": "Russ Housley",
+      "text": "I support adoption<br/>"
+    },
+    {
+      "dtime": 1648000,
+      "ptime": 1648000,
+      "author": "Corey Bonnell",
+      "text": "Read -00, haven't read -01 yet<br/>"
+    },
+    {
+      "dtime": 1759000,
+      "ptime": 1759000,
+      "author": "mcr",
+      "text": "I have read -01 now, and it looks good to adopt.&nbsp;&nbsp;It will need some Security Considerations to explain SHA1, but that should be only two sentences.<br/>"
+    },
+    {
+      "dtime": 1807000,
+      "ptime": 1807000,
+      "author": "Aaron Gable",
+      "text": "@Yoav yeah, I'm not the biggest fan of sha1 either, but building on rfc5019 \"Lightweight OCSP Profile\" keeps things simple. Happy to consider alternatives though!<br/>"
+    },
+    {
+      "dtime": 1825000,
+      "ptime": 1825000,
+      "author": "Aaron Gable",
+      "text": "@mcr Oh good point, yes I can definitely include a discussion of sha1 in the security considerations.<br/>"
+    },
+    {
+      "dtime": 1898000,
+      "ptime": 1898000,
+      "author": "mcr",
+      "text": "I'm mostly meh about SHA1.&nbsp;&nbsp;The annoyance is that it makes some library continue to provide it, which will set off of bean-counter-level-audit.&nbsp;&nbsp;That's my only comment about that.&nbsp;&nbsp;But, as you say, OSCP needs it too.<br/>"
+    },
+    {
+      "dtime": 2216000,
+      "ptime": 2216000,
+      "author": "Corey Bonnell",
+      "text": "The directory structure could be modified to specify a hash algorithm along with the renewal-info URI. This would prevent ossification with SHA-1<br/>"
+    },
+    {
+      "dtime": 2650000,
+      "ptime": 2650000,
+      "author": "Rich Salz",
+      "text": "what happened to your couch, @yoav?<br/>"
+    },
+    {
+      "dtime": 2670000,
+      "ptime": 2670000,
+      "author": "Deb Cooley",
+      "text": "he moved!!<br/>"
+    },
+    {
+      "dtime": 2681000,
+      "ptime": 2681000,
+      "author": "Yoav Nir",
+      "text": "The couch is on the ground floor<br/>"
+    },
+    {
+      "dtime": 2711000,
+      "ptime": 2711000,
+      "author": "Yoav Nir",
+      "text": "IETF work bothers my daughter watching TV<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-ACME-20211111-1430"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/acme"
+    }
+  ]
+}

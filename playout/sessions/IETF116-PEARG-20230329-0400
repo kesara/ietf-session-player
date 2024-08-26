@@ -1,0 +1,441 @@
+
+{
+	"title": "IETF116-PEARG-20230329-0400",
+	"filename": "IETF116-PEARG-20230329-0400",
+	"start": 0,
+	"end": 7373000,
+	"start_datetime": "2023-03-29T03:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "d_q03DkcLWM",
+    "start": 0,
+    "end": "7373000"
+  }
+],
+	"messages": [
+  {
+    "author": "Shivan Sahib",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-116-pearg\">https://notes.ietf.org/notes-ietf-116-pearg</a></p>",
+    "topic": "ietf-116",
+    "dtime": 239000,
+    "ptime": 239000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Classic defense is for friends to toss the cards in a basket and then pick one at random. Repeat often.</p>",
+    "topic": "ietf-116",
+    "dtime": 700000,
+    "ptime": 700000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Luckily the Tokyo subway doesn't support card payments for card purchase</p>",
+    "topic": "ietf-116",
+    "dtime": 731000,
+    "ptime": 731000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>yay...?</p>",
+    "topic": "ietf-116",
+    "dtime": 915000,
+    "ptime": 915000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>so if the advertiser can deduct that the user is going to buy a Kia tomorrow, they will show the Kia ad rather than the Chevrolet ad, and get paid more?</p>",
+    "topic": "ietf-116",
+    "dtime": 1114000,
+    "ptime": 1114000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Its also that Kia wants to know what kind of return they're getting on the ad dollar they spend</p>",
+    "topic": "ietf-116",
+    "dtime": 1171000,
+    "ptime": 1171000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Actually I think you can do anything with just NAND</p>",
+    "topic": "ietf-116",
+    "dtime": 1543000,
+    "ptime": 1543000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>does IPA work for cross-device attribution?</p>",
+    "topic": "ietf-116",
+    "dtime": 1926000,
+    "ptime": 1926000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Yes, that cross-device attribution is the major advantage of IPA over a conversion measurement scheme using something like Prio</p>",
+    "topic": "ietf-116",
+    "dtime": 1951000,
+    "ptime": 1951000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 1963000,
+    "ptime": 1963000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>That's IMO, there may be other interesting properties of IPA that I'm underselling or don't understand</p>",
+    "topic": "ietf-116",
+    "dtime": 2015000,
+    "ptime": 2015000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Cross-device attribution seems sort of orthogonal to IPA to me.</p>",
+    "topic": "ietf-116",
+    "dtime": 2025000,
+    "ptime": 2025000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Yeah, my understanding is that PATCG's requirements kinda stem from meeting adtech where they are</p>",
+    "topic": "ietf-116",
+    "dtime": 2032000,
+    "ptime": 2032000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>what aspect of IPA helps with cross-device in particular? over DAP?</p>",
+    "topic": "ietf-116",
+    "dtime": 2069000,
+    "ptime": 2069000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>The linking of an ad impression to a sale can be done server side</p>",
+    "topic": "ietf-116",
+    "dtime": 2102000,
+    "ptime": 2102000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>@Tim say more? Attribution based on a match key seems to be the primary reason cross-device works here.</p>",
+    "topic": "ietf-116",
+    "dtime": 2143000,
+    "ptime": 2143000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>I think we're saying the same thing. I'm going to get some IPA terminology wrong, but IIUC the existence of match keys that follow users across devices allows cross-device to work.</p>",
+    "topic": "ietf-116",
+    "dtime": 2194000,
+    "ptime": 2194000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Yeah, agreed.</p>",
+    "topic": "ietf-116",
+    "dtime": 2207000,
+    "ptime": 2207000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>that matches my intuition</p>",
+    "topic": "ietf-116",
+    "dtime": 2209000,
+    "ptime": 2209000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>thanks</p>",
+    "topic": "ietf-116",
+    "dtime": 2215000,
+    "ptime": 2215000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>yikes</p>",
+    "topic": "ietf-116",
+    "dtime": 2318000,
+    "ptime": 2318000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>we have some slack time, so if folks have qs we have space</p>",
+    "topic": "ietf-116",
+    "dtime": 2456000,
+    "ptime": 2456000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Hum... Seems I wont be jettisoning my ad blocker just yet.</p>",
+    "topic": "ietf-116",
+    "dtime": 2764000,
+    "ptime": 2764000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>I kind of love the idea that people would cheat on the computation and the result would be that not much changes in terms of the measured effectiveness of the advertising ...</p>",
+    "topic": "ietf-116",
+    "dtime": 2954000,
+    "ptime": 2954000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>@Martin, my second question was about Differential Privacy. This isn't the first time DP has come up in PEARG, nor in the IETF. PPM, as you know, also has DP on the back of its mind for DAP and VDAF. What're your thoughts on how we -- as a community developing protocol specifications and guidance for using this protocols -- talk about how DP is used in practice? Does this require work in CFRG for specifying how one implements DP, and then perhaps work done elsewhere documenting how we use those mechanics in protocols? Or something else?</p>",
+    "topic": "ietf-116",
+    "dtime": 2981000,
+    "ptime": 2981000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I think full verifiability is probably too heavy, but something that would cost most compute (even slightly) to forge than to compute correctly would be super useful. It removes bad incentives.</p>",
+    "topic": "ietf-116",
+    "dtime": 3093000,
+    "ptime": 3093000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"128\">@Christopher Wood</span> I think that the biggest challenge we have with DP is understanding how to apply it.  You can do a lot there if you adapt it to a particular problem domain, but there are some generic guidance we might like to develop.</p>",
+    "topic": "ietf-116",
+    "dtime": 3385000,
+    "ptime": 3385000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>+1 -- I think spending some time on trying to identify generic guidance, or at least commonly applied principles, might be a good use of time.</p>",
+    "topic": "ietf-116",
+    "dtime": 3449000,
+    "ptime": 3449000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>With a system like IPA, we are talking about DP in terms of <em>rate</em>, which doesn't sit very nicely with a lot of the standard DP math.  Understanding that better would be good.</p>",
+    "topic": "ietf-116",
+    "dtime": 3454000,
+    "ptime": 3454000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>And I think that we could do a lot to set norms for systems that use DP.  This is hard, but it might be necessary to have a standard epsilon value or at least guidance about how to select it.</p>",
+    "topic": "ietf-116",
+    "dtime": 3515000,
+    "ptime": 3515000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Relevant: <a href=\"https://journalprivacyconfidentiality.org/index.php/jpc/article/view/689\">https://journalprivacyconfidentiality.org/index.php/jpc/article/view/689</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3556000,
+    "ptime": 3556000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Right now, we don't have a lot of experience in the effects of noise on systems that use DP, so it's hard to say if the value should be 0.1, 1, 10, or whatever.</p>",
+    "topic": "ietf-116",
+    "dtime": 3563000,
+    "ptime": 3563000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"We found no clear consensus on how to choose epsilon, nor is there agreement on how to approach this and other key implementation decisions. \" noice</p>",
+    "topic": "ietf-116",
+    "dtime": 3616000,
+    "ptime": 3616000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>isn't \"the right\" epsilon also kind of dependent on the data and the shape of the queries?</p>",
+    "topic": "ietf-116",
+    "dtime": 3671000,
+    "ptime": 3671000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>i.e. even if you developed an intuition for the noise tradeoff, would it apply anywhere except that deployment for that application?</p>",
+    "topic": "ietf-116",
+    "dtime": 3710000,
+    "ptime": 3710000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"781\">@Brian Trammell</span> that is totally true, but where there are commonalities, it would be good to be able to exploit them</p>",
+    "topic": "ietf-116",
+    "dtime": 3714000,
+    "ptime": 3714000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Martin, you mentioned there's analysis happening on what would be good parameters to choose. What's the data set you're using?</p>",
+    "topic": "ietf-116",
+    "dtime": 3734000,
+    "ptime": 3734000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"765\">@Shivan Sahib</span> I referred to a trial using real data.  That will hopefully inform our choices from the perspective of utility, but not necessarily privacy.  For that, we might need to lean more heavily on analytical techniques.</p>",
+    "topic": "ietf-116",
+    "dtime": 3790000,
+    "ptime": 3790000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Like pen and paper work.</p>",
+    "topic": "ietf-116",
+    "dtime": 3802000,
+    "ptime": 3802000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>FYI, IPA just landed on eprint: <a href=\"https://eprint.iacr.org/2023/437.pdf\">https://eprint.iacr.org/2023/437.pdf</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3833000,
+    "ptime": 3833000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p><span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 3885000,
+    "ptime": 3885000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>will be cutting queue soon</p>",
+    "topic": "ietf-116",
+    "dtime": 3995000,
+    "ptime": 3995000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> are you thinking that privacy red teaming as part of the audit process? if the data will be closed off except to a handful of servers, seems like we'll have to do something like that, especially given how brittle the parameters here are related to DP</p>",
+    "topic": "ietf-116",
+    "dtime": 4421000,
+    "ptime": 4421000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Rant: the IPA eprint has dozens of mentions of MPC, but never manages to spell out what MPC means.</p>",
+    "topic": "ietf-116",
+    "dtime": 4599000,
+    "ptime": 4599000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>PEARG had a presentation on testing COVID-19 tracing apps in 2020: <a href=\"https://datatracker.ietf.org/meeting/108/materials/slides-108-pearg-tact-presentation\">https://datatracker.ietf.org/meeting/108/materials/slides-108-pearg-tact-presentation</a></p>",
+    "topic": "ietf-116",
+    "dtime": 4636000,
+    "ptime": 4636000
+  },
+  {
+    "author": "Hernâni Marques",
+    "text": "<p>Where there ever assessments if this actually worked? It's part of the Swiss law to do such an assessment and otherwise shut the system down.</p>",
+    "topic": "ietf-116",
+    "dtime": 4741000,
+    "ptime": 4741000
+  },
+  {
+    "author": "Hernâni Marques",
+    "text": "<p>I mean, in the sense that it helped in any substantial way to contain the virus.</p>",
+    "topic": "ietf-116",
+    "dtime": 4773000,
+    "ptime": 4773000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Isn't using Bluetooth for contact tracing exactly an unanticipated use of BLE that we wouldn't necessarily want to preclude?</p>",
+    "topic": "ietf-116",
+    "dtime": 4793000,
+    "ptime": 4793000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> but the purpose there is to explicitly enable data exchange between mobile devices</p>",
+    "topic": "ietf-116",
+    "dtime": 5061000,
+    "ptime": 5061000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>@Hernâni Marques Some researchers at UW modeled the effectiveness of EN in the American state of Washington: <a href=\"https://www.medrxiv.org/content/10.1101/2021.06.04.21257951v4\">https://www.medrxiv.org/content/10.1101/2021.06.04.21257951v4</a></p>",
+    "topic": "ietf-116",
+    "dtime": 5064000,
+    "ptime": 5064000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>I also recall a paper out of the United Kingdom about their EN app but I can't find a link</p>",
+    "topic": "ietf-116",
+    "dtime": 5106000,
+    "ptime": 5106000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Reminder to folks to use the onsite tool for getting in the queue</p>",
+    "topic": "ietf-116",
+    "dtime": 5591000,
+    "ptime": 5591000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>It would have been also interesting looking at the combination of all other radio that come from complex devices like phones... What about extending the \"Context\" to other domains? Do you have considerations on that?</p>",
+    "topic": "ietf-116",
+    "dtime": 5633000,
+    "ptime": 5633000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>The point that infrastructure, even if privacy-preserving, brings risks around future misuse is a great one!</p>",
+    "topic": "ietf-116",
+    "dtime": 5790000,
+    "ptime": 5790000
+  },
+  {
+    "author": "Wouter Lueks",
+    "text": "<p>@Massimiliano Pala: we didn't, but others kind of did, and this is a bit of a rabbit hole :D. For example, you can go down the stack and the BT stack and look at radio / physical layer. For example: <a href=\"https://cseweb.ucsd.edu/~schulman/docs/oakland22-bletracking.pdf\">https://cseweb.ucsd.edu/~schulman/docs/oakland22-bletracking.pdf</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6034000,
+    "ptime": 6034000
+  },
+  {
+    "author": "Wouter Lueks",
+    "text": "<p>Here is the UK effectiveness paper (also finding a clear effect): <a href=\"https://www.nature.com/articles/s41586-021-03606-z\">https://www.nature.com/articles/s41586-021-03606-z</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6224000,
+    "ptime": 6224000
+  },
+  {
+    "author": "Wouter Lueks",
+    "text": "<p>I didn't talk about this today, but it was quite challenging to (1) integrate with public health authorities (who need to authorize uploads) and (2) countries could have done a lot better encouraging their citizens to use these systems.</p>",
+    "topic": "ietf-116",
+    "dtime": 6294000,
+    "ptime": 6294000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>@Wouter Lueks: Thanks! Indeed, there are so many interesting aspects of that problem.. I think that one of the mistake made was to rely on just device vendors and not involving the network operators community (maybe beacons from the infrastructures could have provided more privacy-preserving options...). Thanks again!</p>",
+    "topic": "ietf-116",
+    "dtime": 6307000,
+    "ptime": 6307000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-PEARG-20230329-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/pearg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-PEARG-20230329-0400"
+		}		
+	]
+}

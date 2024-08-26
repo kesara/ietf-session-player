@@ -1,0 +1,798 @@
+
+{
+	"title": "IETF118-QUIC-20231108-1330",
+	"filename": "IETF118-QUIC-20231108-1330",
+	"start": 0,
+	"end": 7362000,
+	"start_datetime": "2023-11-08T13:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "qbAm_HfLv_c",
+    "start": 0,
+    "end": "7362000"
+  }
+],
+	"messages": [
+  {
+    "author": "Robin Marx",
+    "text": "<p>Link to the notes: <a href=\"https://notes.ietf.org/notes-ietf-118-quic\">https://notes.ietf.org/notes-ietf-118-quic</a></p>",
+    "topic": "ietf-118",
+    "dtime": 52000,
+    "ptime": 52000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>I can help out with the notes today, but can't guarantee I can be on point the whole time, so ideally someone else would be the \"main note taker\" today</p>",
+    "topic": "ietf-118",
+    "dtime": 108000,
+    "ptime": 108000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>I can relay stuff from chat if needed; prefix with \"mic\" or similar if you want me to.</p>",
+    "topic": "ietf-118",
+    "dtime": 281000,
+    "ptime": 281000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There is yet another option -- don't version negotiation. Because it is a clear text packet that can be spoofed, and thus an attack vector.</p>",
+    "topic": "ietf-118",
+    "dtime": 526000,
+    "ptime": 526000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I think <span class=\"user-mention\" data-user-id=\"339\">@Christian Huitema</span> just volunteered for RFC9000bis</p>",
+    "topic": "ietf-118",
+    "dtime": 774000,
+    "ptime": 774000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I don't think there is any difference between 3 and 4 because the escape clause is the same.  MUST unless is really SHOULD unless you have OOB knowledge.</p>",
+    "topic": "ietf-118",
+    "dtime": 780000,
+    "ptime": 780000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>(And I am fine with 4)</p>",
+    "topic": "ietf-118",
+    "dtime": 803000,
+    "ptime": 803000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>or maybe \"MUST unless\" is equivalent to just \"SHOULD\"</p>",
+    "topic": "ietf-118",
+    "dtime": 814000,
+    "ptime": 814000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>thanks jonathan morton for volunteering to jabber scribe</p>",
+    "topic": "ietf-118",
+    "dtime": 1020000,
+    "ptime": 1020000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p><span aria-label=\"ok\" class=\"emoji emoji-1f44c\" role=\"img\" title=\"ok\">:ok:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 1070000,
+    "ptime": 1070000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Do you have a link to Rask that is mentionned among QUICclients / servers in interop tests ?</p>",
+    "topic": "ietf-118",
+    "dtime": 1372000,
+    "ptime": 1372000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>So dumb question for the notes. Isn't #273 already closed? <a href=\"https://github.com/quicwg/multipath/issues/273\">https://github.com/quicwg/multipath/issues/273</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1740000,
+    "ptime": 1740000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>the slide says that #273 is already closed…</p>",
+    "topic": "ietf-118",
+    "dtime": 1781000,
+    "ptime": 1781000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>yes we need sense</p>",
+    "topic": "ietf-118",
+    "dtime": 2110000,
+    "ptime": 2110000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>of meeting</p>",
+    "topic": "ietf-118",
+    "dtime": 2119000,
+    "ptime": 2119000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>yes that is important point</p>",
+    "topic": "ietf-118",
+    "dtime": 2197000,
+    "ptime": 2197000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>interested in exploring path IDs:  20 yes, 11 no</p>",
+    "topic": "ietf-118",
+    "dtime": 2350000,
+    "ptime": 2350000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>interested in interim/interop on path IDs: 9 yes, 19 no</p>",
+    "topic": "ietf-118",
+    "dtime": 2418000,
+    "ptime": 2418000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>From a qlog perspective, an explicit Path ID would also be nice :P</p>",
+    "topic": "ietf-118",
+    "dtime": 2569000,
+    "ptime": 2569000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>I'd be happy to work on a PR</p>",
+    "topic": "ietf-118",
+    "dtime": 2754000,
+    "ptime": 2754000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>The \"retire cid\" mechanism very much assume that there is a 1-1 relation between CID and sequence number.</p>",
+    "topic": "ietf-118",
+    "dtime": 2797000,
+    "ptime": 2797000
+  },
+  {
+    "author": "Nick Banks",
+    "text": "<p>Christian, for your comments about offloading complexity, are you saying that it would require essentially pushing down both a CID table and a path ID table, and express the mappings between them?</p>",
+    "topic": "ietf-118",
+    "dtime": 2902000,
+    "ptime": 2902000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Was that StableDiffusion?</p>",
+    "topic": "ietf-118",
+    "dtime": 2968000,
+    "ptime": 2968000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>kinda. The problem is that you know the relation between CID and sequence number when CID is created, but the relation to a path ID will be ngotiated later. SO you need to complete the negotiation before you use the CID.</p>",
+    "topic": "ietf-118",
+    "dtime": 2982000,
+    "ptime": 2982000
+  },
+  {
+    "author": "Nick Banks",
+    "text": "<p>So you can't offload encryption for a CID until after this negotiation?</p>",
+    "topic": "ietf-118",
+    "dtime": 3018000,
+    "ptime": 3018000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-118",
+    "dtime": 3025000,
+    "ptime": 3025000
+  },
+  {
+    "author": "Nick Banks",
+    "text": "<p>Is that something the peer could attack?</p>",
+    "topic": "ietf-118",
+    "dtime": 3043000,
+    "ptime": 3043000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>In fact, you cannot decryp the packet before that</p>",
+    "topic": "ietf-118",
+    "dtime": 3051000,
+    "ptime": 3051000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>It is additional complexity, so yes it can probably be attacked. And it can certainly cause bugs.</p>",
+    "topic": "ietf-118",
+    "dtime": 3089000,
+    "ptime": 3089000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"339\">Christian Huitema</span> <a href=\"#narrow/stream/7-quic/topic/ietf-118/near/98319\">said</a>:</p>\n<blockquote>\n<p>The \"retire cid\" mechanism very much assume that there is a 1-1 relation between CID and sequence number.</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> can clarify, but I think the suggestion is a 5-tuple of (CID sequence, ...UDP 4-tuple), where changing any of those represents a different path. I suspect that the rules in RFC 9000 amount to CID sequence being equally unique modulo the round-trip it takes to realize it happened, but I'd need to work through it to be sure.</p>",
+    "topic": "ietf-118",
+    "dtime": 3156000,
+    "ptime": 3156000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>You don't need a path-id so much as a number-space ID...</p>",
+    "topic": "ietf-118",
+    "dtime": 3303000,
+    "ptime": 3303000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>+1 Victor</p>",
+    "topic": "ietf-118",
+    "dtime": 3366000,
+    "ptime": 3366000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Agree with Victor -- I definitely <em>would</em> support text that says STOP_SENDING can elicit either a RESET_STREAM or a RESET_STREAM_AT.</p>",
+    "topic": "ietf-118",
+    "dtime": 3428000,
+    "ptime": 3428000
+  },
+  {
+    "author": "Nick Banks",
+    "text": "<p>+1 David</p>",
+    "topic": "ietf-118",
+    "dtime": 3467000,
+    "ptime": 3467000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1 David</p>",
+    "topic": "ietf-118",
+    "dtime": 3488000,
+    "ptime": 3488000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>+1 Mirja, nothing stops us from doing this in the future</p>",
+    "topic": "ietf-118",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>+1 kazuho, I think you can get what you want just by waiting for byte N, then send a regular STOP_SENDING</p>",
+    "topic": "ietf-118",
+    "dtime": 3556000,
+    "ptime": 3556000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>So why not wait and send STOP_SENDING after you get those bytes?</p>",
+    "topic": "ietf-118",
+    "dtime": 3589000,
+    "ptime": 3589000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Or have the application layer protocol such that receipt of STOP_SENDING leads to RESET_STREAM_AT(n) where n is after metadata</p>",
+    "topic": "ietf-118",
+    "dtime": 3634000,
+    "ptime": 3634000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>My counter-argument would be that if you lost the packet that contained the bytes you need, you might end up wasting bandwidth on the packets from the rest of the stream if you had to wait for the STOP_SENDING.  But I don't think the use case is good enough for it.</p>",
+    "topic": "ietf-118",
+    "dtime": 3667000,
+    "ptime": 3667000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Sounds like a <a href=\"https://xkcd.com/937/\">https://xkcd.com/937/</a> question.</p>",
+    "topic": "ietf-118",
+    "dtime": 3706000,
+    "ptime": 3706000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>STOP_SENDING_AT:  2 yes, 30 no</p>",
+    "topic": "ietf-118",
+    "dtime": 3772000,
+    "ptime": 3772000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> just because we shouldn't make things to be pretty, we shouldn't necessarily make them gratuitously ugly :D</p>",
+    "topic": "ietf-118",
+    "dtime": 3781000,
+    "ptime": 3781000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Are these two RESET_STREAM_AT messages reliably ordered with each other?</p>",
+    "topic": "ietf-118",
+    "dtime": 3817000,
+    "ptime": 3817000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>N/M</p>",
+    "topic": "ietf-118",
+    "dtime": 3840000,
+    "ptime": 3840000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>@meetecho: feedback: this new interface is really MUCH better for notetakers than the previous ones, well done :)</p>",
+    "topic": "ietf-118",
+    "dtime": 3913000,
+    "ptime": 3913000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Thanks for the kind words Robin, we're glad you like it!</p>",
+    "topic": "ietf-118",
+    "dtime": 3943000,
+    "ptime": 3943000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>@meetecho:  as a counterpoint, the emoticon input and output in the chat don't seem to correspond</p>",
+    "topic": "ietf-118",
+    "dtime": 3970000,
+    "ptime": 3970000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Jonathan: that's indeed a known issue, it's on the todo list! Sorry about that...</p>",
+    "topic": "ietf-118",
+    "dtime": 4034000,
+    "ptime": 4034000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Really? I thought it was the parasol mushroom update...</p>",
+    "topic": "ietf-118",
+    "dtime": 4044000,
+    "ptime": 4044000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Aren't you required to have an IANA section that says there are no actions?</p>",
+    "topic": "ietf-118",
+    "dtime": 4060000,
+    "ptime": 4060000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Yes, in fact:</p>\n<blockquote>\n<p>The RFC Editor will remove an IANA Considerations section that says<br>\n there are no IANA considerations (although such a section is required<br>\n in the Internet-Draft preceding the RFC).</p>\n</blockquote>",
+    "topic": "ietf-118",
+    "dtime": 4119000,
+    "ptime": 4119000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>this section intentionally left blank</p>",
+    "topic": "ietf-118",
+    "dtime": 4134000,
+    "ptime": 4134000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>nobody fantasises about QPACK, except maybe Alan</p>",
+    "topic": "ietf-118",
+    "dtime": 4166000,
+    "ptime": 4166000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>Fair point Mike.</p>",
+    "topic": "ietf-118",
+    "dtime": 4270000,
+    "ptime": 4270000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I am pleased Robin did not do the \"Oppenheimer update\" in Japan</p>",
+    "topic": "ietf-118",
+    "dtime": 4950000,
+    "ptime": 4950000
+  },
+  {
+    "author": "Robin Marx",
+    "text": "<p>TBH I was a bit on the fence doing it at all...</p>",
+    "topic": "ietf-118",
+    "dtime": 4988000,
+    "ptime": 4988000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I like the idea of a meetecho feature where people with multiple roles can join the queue with different (or no) \"hats\".</p>",
+    "topic": "ietf-118",
+    "dtime": 5030000,
+    "ptime": 5030000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I want one of these <a href=\"https://www.kaufland.cz/product/448981406/?kwd&amp;source=pla&amp;sid=31333993&amp;gad_source=1&amp;gclid=Cj0KCQiAgK2qBhCHARIsAGACuzmWuqRrgmqzxe9QJeX-argpYQxOmLkDAjvt5hKsbIc96_KF9O_tSa4aAq4YEALw_wcB\">https://www.kaufland.cz/product/448981406/?kwd&amp;source=pla&amp;sid=31333993&amp;gad_source=1&amp;gclid=Cj0KCQiAgK2qBhCHARIsAGACuzmWuqRrgmqzxe9QJeX-argpYQxOmLkDAjvt5hKsbIc96_KF9O_tSa4aAq4YEALw_wcB</a></p>",
+    "topic": "ietf-118",
+    "dtime": 5097000,
+    "ptime": 5097000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Note that this is also resilient to NATs which don't have consistent port mapping to different destinations.  (Albeit the information you get back may be less useful in that case.)</p>",
+    "topic": "ietf-118",
+    "dtime": 5138000,
+    "ptime": 5138000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I was wondering how the client would know if the nat had rebound it because of nat state change (reboot or similar).  The Observed_Address approach would make that easy.</p>",
+    "topic": "ietf-118",
+    "dtime": 5245000,
+    "ptime": 5245000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I will note that it sounds to me like Kazuho's use of sequence number there is very much a pathid use case.</p>",
+    "topic": "ietf-118",
+    "dtime": 5317000,
+    "ptime": 5317000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>No problem, just port the other applications to use QUIC...</p>",
+    "topic": "ietf-118",
+    "dtime": 5355000,
+    "ptime": 5355000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I disagree with Colin.</p>",
+    "topic": "ietf-118",
+    "dtime": 5355000,
+    "ptime": 5355000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Robin I don’t want to make you life harder. your design actually works (for the current draft) if you always only have one cid per path but in that case you can just have an cid field instead of an path id field. Or if you want to have a path id as defined right now you also need a cid field in all event that have a packet number.</p>",
+    "topic": "ietf-118",
+    "dtime": 5381000,
+    "ptime": 5381000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I agree with Colin here. Unless something is really disrupting from STUN / TURN / ICE, I think it will cause harm</p>",
+    "topic": "ietf-118",
+    "dtime": 5388000,
+    "ptime": 5388000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Well, I don't disagree that we should think about it, but I don't think using this will cause people to drop support for STUN, since this would not change the flow of packets to stun servers until those use cases moved to QUIC.</p>",
+    "topic": "ietf-118",
+    "dtime": 5403000,
+    "ptime": 5403000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>IIRC, in RFC9000, the server is supposed to change CIDs if it sees a port change by the client, which hints to the client that it should (have already) change CID to reflect the new port.</p>",
+    "topic": "ietf-118",
+    "dtime": 5434000,
+    "ptime": 5434000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> I don't think so? It wouldn't provide any unlinkability advantage</p>",
+    "topic": "ietf-118",
+    "dtime": 5470000,
+    "ptime": 5470000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>This can be sent in 0.5 RTT data, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 5519000,
+    "ptime": 5519000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Esp. if we move to SETTINGS</p>",
+    "topic": "ietf-118",
+    "dtime": 5533000,
+    "ptime": 5533000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I think if you're using MASQUE instead of TURN you'd want to use this instead of STUN?</p>",
+    "topic": "ietf-118",
+    "dtime": 5546000,
+    "ptime": 5546000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>you still need a frame for path probes</p>",
+    "topic": "ietf-118",
+    "dtime": 5556000,
+    "ptime": 5556000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Regarding the path ID discussion, what we really need is not just a path ID but rather a sequence number space ID. That sequence number space has to be identified before decrypting the packet -- the decryption module need to know the number space ID to mix in the nonce, and it also need the state of the number space to convert from short PN to 64 bit PN. ACK MP also needs the seuqnece number space ID. Making that the CID is a significant simplification.</p>",
+    "topic": "ietf-118",
+    "dtime": 5560000,
+    "ptime": 5560000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>The server can send 1-RTT in its first return flight, so the client can see this after a single RTT if the server sends it immediately.</p>",
+    "topic": "ietf-118",
+    "dtime": 5585000,
+    "ptime": 5585000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>There's nothing that stops the signaling server from being QUIC, it just needs to be in a datacenter or something.</p>",
+    "topic": "ietf-118",
+    "dtime": 5774000,
+    "ptime": 5774000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"52\">@Martin Duke</span>, we went through a lot of iteration on that part, so I was a little rusty what was final.  Just double-checked -- for that case, the server MAY continue using the same CID if the client has already accidentally linked the paths.</p>",
+    "topic": "ietf-118",
+    "dtime": 5853000,
+    "ptime": 5853000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>How would an application over such a QUIC session ( pre binded with STUN )  know that it doesn't need to do any further ICE negotiation, for example : consider WebRTC in QUIC. Since WebRTC control plane also has candidates gathering ,   it will try to do extra validation of STUN which was pre discovered in QUIC. This can be avoided right ?</p>",
+    "topic": "ietf-118",
+    "dtime": 6052000,
+    "ptime": 6052000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Do you test the behavior of the NAT in case of IP migration (as in ICE) ? Because you may need to keep the CONNECT-UDP proxy in the path if the binding is IP-dependent</p>",
+    "topic": "ietf-118",
+    "dtime": 6069000,
+    "ptime": 6069000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>@altanai: I get the sense that that's something that would be considered specifically for WebRTC-over-QUIC; this is just foundational.</p>",
+    "topic": "ietf-118",
+    "dtime": 6243000,
+    "ptime": 6243000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>That's why I like using multipath in that scenario, it allows you to maintain the proxy path, maybe as standby. But Marten is right, it is not strictly needed.</p>",
+    "topic": "ietf-118",
+    "dtime": 6253000,
+    "ptime": 6253000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Is use of encrypted traffic a benefit?</p>",
+    "topic": "ietf-118",
+    "dtime": 6319000,
+    "ptime": 6319000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Yes, it may be a lot of work, but if people (including me) are willing to do it, why stop them?</p>",
+    "topic": "ietf-118",
+    "dtime": 6342000,
+    "ptime": 6342000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Encrypting ICE/STUN does reduce the attack surface quite a bit, so that's a clear benefit.</p>",
+    "topic": "ietf-118",
+    "dtime": 6391000,
+    "ptime": 6391000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>@Jonathan_morton Ok, that makes sense. Also WebRTC usecase was just discussed by @jonathan_lennox</p>",
+    "topic": "ietf-118",
+    "dtime": 6397000,
+    "ptime": 6397000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>I think that if WebRTC knows that it's running over QUIC, it can assume that QUIC has done what'ever's necessary for NAT traversal</p>",
+    "topic": "ietf-118",
+    "dtime": 6457000,
+    "ptime": 6457000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but +1 to Johnathan, you still need a signaling server to exchange certs, candidates, auth, and possibly media info</p>",
+    "topic": "ietf-118",
+    "dtime": 6583000,
+    "ptime": 6583000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>ICE is a combination of techniques and packet format.  You can't avoid using the same techniques as ICE to get the same results.  You can change the packet format.  But doing the same techniques withing QUIC is not going to be easy, especially when considering web endpoints.</p>",
+    "topic": "ietf-118",
+    "dtime": 6599000,
+    "ptime": 6599000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>There should be distinct benefits in doing “NAT-related things” in QUIC compared to just applying existing techniques for QUIC.</p>",
+    "topic": "ietf-118",
+    "dtime": 6686000,
+    "ptime": 6686000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>Otherwise meh</p>",
+    "topic": "ietf-118",
+    "dtime": 6710000,
+    "ptime": 6710000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>There was an entire WG for ICE.  This could possibly be enough work to be its own WG.  If the it's done in the QUIC WG, it could easily end up consuming a lot of time, similar to how ICEbis did in MMUSIC prior to the ICE WG breaking out into its own WG.</p>",
+    "topic": "ietf-118",
+    "dtime": 6715000,
+    "ptime": 6715000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>20 yes and 17 no; I think Lucas read out the results of a previous poll</p>",
+    "topic": "ietf-118",
+    "dtime": 6734000,
+    "ptime": 6734000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>+1 Lars - this could turn out to be a layering violation or \"NIH syndrome\"</p>",
+    "topic": "ietf-118",
+    "dtime": 6802000,
+    "ptime": 6802000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>part of the quoted justification is that ICE takes a lot of round-trips - is that inherent to the technique?</p>",
+    "topic": "ietf-118",
+    "dtime": 6851000,
+    "ptime": 6851000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>(not familiar with ICE myself)</p>",
+    "topic": "ietf-118",
+    "dtime": 6864000,
+    "ptime": 6864000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>sorry yes I read out the wrong numbers. Luke stated the correct ones</p>",
+    "topic": "ietf-118",
+    "dtime": 6916000,
+    "ptime": 6916000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>ICE itself is 1-2 RTTs</p>",
+    "topic": "ietf-118",
+    "dtime": 6927000,
+    "ptime": 6927000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Jonathan I am also curious how the number of round trips could be reduced (especially since multipath is not considered)</p>",
+    "topic": "ietf-118",
+    "dtime": 6928000,
+    "ptime": 6928000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>1-2 RTTs seems reasonable for a \"complex\" connection setup</p>",
+    "topic": "ietf-118",
+    "dtime": 6966000,
+    "ptime": 6966000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>From memory, for WebRTC you need 2-3 RTTs for the signal server, 1-2 RTTs for ICE, 2 RTTs for DTLs, 2 RTTs for SCTP, and 0/1 RTTs for data channels</p>",
+    "topic": "ietf-118",
+    "dtime": 6998000,
+    "ptime": 6998000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>ICE is fine, it's the rest of WebRTC that needs to be optimized, because there's too many layers that are unaware of each other</p>",
+    "topic": "ietf-118",
+    "dtime": 7065000,
+    "ptime": 7065000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>yeah, that's important context for the debate</p>",
+    "topic": "ietf-118",
+    "dtime": 7065000,
+    "ptime": 7065000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>ex. DTLS, SCTP, and ICE all have IP spoofing mitigation, because they're all designed to run on top of UDP not each other</p>",
+    "topic": "ietf-118",
+    "dtime": 7094000,
+    "ptime": 7094000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>and that feeds back to what I suggested previously about WebRTC-over-QUIC</p>",
+    "topic": "ietf-118",
+    "dtime": 7137000,
+    "ptime": 7137000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>speaking of WebRTC-over-QUIC, we absolutely need this extension to reach parity with WebRTC (to implement GCC)</p>",
+    "topic": "ietf-118",
+    "dtime": 7196000,
+    "ptime": 7196000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>pls revive</p>",
+    "topic": "ietf-118",
+    "dtime": 7216000,
+    "ptime": 7216000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>I'm very interested in this extension</p>",
+    "topic": "ietf-118",
+    "dtime": 7298000,
+    "ptime": 7298000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>I agree with Luke that it's needed to implement googcc (AKA GCC), which would be very good for realtime use over QUIC (like MoQ and RoQ and WebTransport).</p>",
+    "topic": "ietf-118",
+    "dtime": 7331000,
+    "ptime": 7331000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>++</p>",
+    "topic": "ietf-118",
+    "dtime": 7353000,
+    "ptime": 7353000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-QUIC-20231108-1330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/quic"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-QUIC-20231108-1330"
+		}		
+	]
+}

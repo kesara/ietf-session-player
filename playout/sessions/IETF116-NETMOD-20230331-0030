@@ -1,0 +1,602 @@
+
+{
+	"title": "IETF116-NETMOD-20230331-0030",
+	"filename": "IETF116-NETMOD-20230331-0030",
+	"start": 0,
+	"end": 7309000,
+	"start_datetime": "2023-03-31T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "j7NDPa7DC6A",
+    "start": 0,
+    "end": "7309000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>Yes, clearly better</p>",
+    "topic": "ietf-116",
+    "dtime": 6000,
+    "ptime": 6000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>I've have reviewed rfc6991-bis, but Kent is right that Juergen/WG is waiting on me for a response, which should be soon.</p>",
+    "topic": "ietf-116",
+    "dtime": 391000,
+    "ptime": 391000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Sounds like all the issues that YANG-CORE has had to deal with.</p>",
+    "topic": "ietf-116",
+    "dtime": 1497000,
+    "ptime": 1497000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>Another way of thinking about this is something like the difference between runtime compatibility vs compile time compatibility [as a contributor]</p>",
+    "topic": "ietf-116",
+    "dtime": 1543000,
+    "ptime": 1543000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I assume counter_t has more bits of precision than uint8_t :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 1713000,
+    "ptime": 1713000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>We probably need to more carefully define that example. We're still debating a lot of these cases in the weekly calls and haven't worked through all the details.</p>",
+    "topic": "ietf-116",
+    "dtime": 1779000,
+    "ptime": 1779000
+  },
+  {
+    "author": "Per Andersson",
+    "text": "<p>It was a bit contrived example, and not presented in full, but the idea is that the base type for counter_t is uint8</p>",
+    "topic": "ietf-116",
+    "dtime": 1785000,
+    "ptime": 1785000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>In that case, we might not classify that as NBC even in the schema algorithm.</p>",
+    "topic": "ietf-116",
+    "dtime": 1821000,
+    "ptime": 1821000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>But if we rename a typedef that is being used by that leaf, then that would be NBC in the schema algorithm.</p>",
+    "topic": "ietf-116",
+    "dtime": 1846000,
+    "ptime": 1846000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Ah so, uint8_t -&gt; counter_t is just a change of typedef, not increased number of bits.  CBOR, JSON and XML mostly do not care about the transfer.</p>",
+    "topic": "ietf-116",
+    "dtime": 1874000,
+    "ptime": 1874000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>integers and strings are strings in xml</p>",
+    "topic": "ietf-116",
+    "dtime": 2446000,
+    "ptime": 2446000
+  },
+  {
+    "author": "Alex Huang Feng",
+    "text": "<p>Shouldn't the encodings be covered by other rfc such as yang-CBOR or yang-json ?</p>",
+    "topic": "ietf-116",
+    "dtime": 2477000,
+    "ptime": 2477000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>and very different things in binary :)</p>",
+    "topic": "ietf-116",
+    "dtime": 2480000,
+    "ptime": 2480000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>yang-CBOR is RFC9254.</p>",
+    "topic": "ietf-116",
+    "dtime": 2591000,
+    "ptime": 2591000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>The encodings are covered elsewhere, but what we define as NBC in the on-wire algorithm will have to take into account all the encodings that we want to consider. (which should include CBOR, gRPC IMO)</p>",
+    "topic": "ietf-116",
+    "dtime": 2689000,
+    "ptime": 2689000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>(as contributor) I'm very warry of going down a path where yang ends up being encoding \"aware\"</p>",
+    "topic": "ietf-116",
+    "dtime": 2690000,
+    "ptime": 2690000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>It seems to me that \"on-wire\" compatability has a lot to do with the chosen transports encoding</p>",
+    "topic": "ietf-116",
+    "dtime": 2698000,
+    "ptime": 2698000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>it might even be the definition of \"on-wire\"</p>",
+    "topic": "ietf-116",
+    "dtime": 2727000,
+    "ptime": 2727000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>Maybe. But what if we said the only differences for on-wire is that it ignores typedef name changes &amp; grouping name changes (at the limit)</p>",
+    "topic": "ietf-116",
+    "dtime": 2746000,
+    "ptime": 2746000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Now is it 1400 UTC or 1400 UK time?</p>",
+    "topic": "ietf-116",
+    "dtime": 2767000,
+    "ptime": 2767000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(GMT is a colloquial term only, used for UK winter time.)</p>",
+    "topic": "ietf-116",
+    "dtime": 2790000,
+    "ptime": 2790000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>The meeting will be 1500 now for the UK, 1400 UTC if my math is right.</p>",
+    "topic": "ietf-116",
+    "dtime": 2864000,
+    "ptime": 2864000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>We should check and update the WG list. The meeting may have been rebooked in EST at some point.</p>",
+    "topic": "ietf-116",
+    "dtime": 2895000,
+    "ptime": 2895000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>I'll check on that.</p>",
+    "topic": "ietf-116",
+    "dtime": 2909000,
+    "ptime": 2909000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>EST or ET?</p>",
+    "topic": "ietf-116",
+    "dtime": 2915000,
+    "ptime": 2915000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(ET is  EDT now)</p>",
+    "topic": "ietf-116",
+    "dtime": 2926000,
+    "ptime": 2926000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Yep.  It's 10:00 am EDT on my calendar.</p>",
+    "topic": "ietf-116",
+    "dtime": 2937000,
+    "ptime": 2937000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>The on-wire (as Jason mentioned) is more of, \"will this break the client\".  And one open question is still config v. oper.  So on-wire has been initially construed as will it break the client from a config standpoint.</p>",
+    "topic": "ietf-116",
+    "dtime": 3027000,
+    "ptime": 3027000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Maybe having an .ics somewhere might help...</p>",
+    "topic": "ietf-116",
+    "dtime": 3036000,
+    "ptime": 3036000
+  },
+  {
+    "author": "Balázs Lengyel",
+    "text": "<p>referenced by instance-identifier should be considered</p>",
+    "topic": "ietf-116",
+    "dtime": 3345000,
+    "ptime": 3345000
+  },
+  {
+    "author": "Balázs Lengyel",
+    "text": "<p>If autocopy is deferred, configuring nodes below it might be impossible</p>",
+    "topic": "ietf-116",
+    "dtime": 3433000,
+    "ptime": 3433000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>@Carsten sent one to netmod@</p>",
+    "topic": "ietf-116",
+    "dtime": 3456000,
+    "ptime": 3456000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Thanks.  This came in as 09:00-04:00, which is 1300Z.</p>",
+    "topic": "ietf-116",
+    "dtime": 3642000,
+    "ptime": 3642000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Ahh!  My brain is still foggy this morning.  I have a regular sync up meeting at 10:00 am on Mondays.  This one is 9:00 am ET on Tuesday.  The ICS is correct.</p>",
+    "topic": "ietf-116",
+    "dtime": 3746000,
+    "ptime": 3746000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I didn't understand your document before, your slide makes it clearer.  I will think on how I would be less confused.</p>",
+    "topic": "ietf-116",
+    "dtime": 3746000,
+    "ptime": 3746000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Why pointing to Section 3.7 of rfc8407 wouldn't sufficient ?</p>",
+    "topic": "ietf-116",
+    "dtime": 3838000,
+    "ptime": 3838000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Does the revision of the wiki require an RFC?  Why?</p>",
+    "topic": "ietf-116",
+    "dtime": 3958000,
+    "ptime": 3958000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>And RFC</p>",
+    "topic": "ietf-116",
+    "dtime": 3964000,
+    "ptime": 3964000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>An RFC is what they want</p>",
+    "topic": "ietf-116",
+    "dtime": 3973000,
+    "ptime": 3973000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I’m surprised external organizations are satisfied with something as unstable as a wiki.</p>",
+    "topic": "ietf-116",
+    "dtime": 4024000,
+    "ptime": 4024000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Jeff, they aren't that's what this presentation is saying :)</p>",
+    "topic": "ietf-116",
+    "dtime": 4053000,
+    "ptime": 4053000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>they want a document not a wiki</p>",
+    "topic": "ietf-116",
+    "dtime": 4062000,
+    "ptime": 4062000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I clearly missed that intent. What I thought I understood was seeing if referring to the wiki was fine.</p>",
+    "topic": "ietf-116",
+    "dtime": 4100000,
+    "ptime": 4100000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>me too</p>",
+    "topic": "ietf-116",
+    "dtime": 4111000,
+    "ptime": 4111000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Yes, it was stated a little confusingly</p>",
+    "topic": "ietf-116",
+    "dtime": 4130000,
+    "ptime": 4130000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>They want a document.</p>",
+    "topic": "ietf-116",
+    "dtime": 4139000,
+    "ptime": 4139000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>They did say this in the presentation but not forcefully/clearly.</p>",
+    "topic": "ietf-116",
+    "dtime": 4163000,
+    "ptime": 4163000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>What I would expect is an external organization would want license to borrow our text and then fork for their own internal processes</p>",
+    "topic": "ietf-116",
+    "dtime": 4243000,
+    "ptime": 4243000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Rather than refer to us.</p>",
+    "topic": "ietf-116",
+    "dtime": 4254000,
+    "ptime": 4254000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>@Christian, three is a link that I need to fix the xref and then this is more clear int he document. It's in the XML and will be fixed.</p>",
+    "topic": "ietf-116",
+    "dtime": 4379000,
+    "ptime": 4379000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Well I understood you... :) I think someone else made a comment about the document.</p>",
+    "topic": "ietf-116",
+    "dtime": 4434000,
+    "ptime": 4434000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Speaking of XML, there is likely some tooling asks here to ensure the TEMPLATE TEXT markers are added and the text is consistent within those tags, yes?</p>",
+    "topic": "ietf-116",
+    "dtime": 4447000,
+    "ptime": 4447000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>FYI Poll coming on slide 9</p>",
+    "topic": "ietf-116",
+    "dtime": 4540000,
+    "ptime": 4540000
+  },
+  {
+    "author": "Balázs Lengyel",
+    "text": "<p>speak up please</p>",
+    "topic": "ietf-116",
+    "dtime": 4819000,
+    "ptime": 4819000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>The requirements to serve 3GPP and ITU can be fulfilled without removing core YANG principles</p>",
+    "topic": "ietf-116",
+    "dtime": 5078000,
+    "ptime": 5078000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>i voted from outside the room :)</p>",
+    "topic": "ietf-116",
+    "dtime": 5084000,
+    "ptime": 5084000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>\"You Have No Tea\"</p>",
+    "topic": "ietf-116",
+    "dtime": 5317000,
+    "ptime": 5317000
+  },
+  {
+    "author": "Balázs Lengyel",
+    "text": "<p>It is a new rule for compatibility</p>",
+    "topic": "ietf-116",
+    "dtime": 5405000,
+    "ptime": 5405000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>I'm not sure we want to have a specific compatibility rule for this specific typedef? Does that not become a bit of a slippery slope?</p>",
+    "topic": "ietf-116",
+    "dtime": 5780000,
+    "ptime": 5780000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>(although I can see the desire for this case...)</p>",
+    "topic": "ietf-116",
+    "dtime": 5797000,
+    "ptime": 5797000
+  },
+  {
+    "author": "Jason Sterne",
+    "text": "<p>We hit a number of situations during our YANG Versioning work where we said \"yeah - but for this particular case, it could be considered backwards compatible\". But then we decide to try and keep the rules simple &amp; mostly aligned with 7950 rather than document too many indivdual BC cases. Maybe this is a similar situation and should just be considered NBC. It will be flagged, the client/user can look at it and decide they don't really care.  (vs not flagging it as NBC).</p>",
+    "topic": "ietf-116",
+    "dtime": 6009000,
+    "ptime": 6009000
+  },
+  {
+    "author": "Benoît Claise",
+    "text": "<p>This is great work. Applause to Mahesh and Jeff. We have been lacking this YANG coordination at the IETF. You are defining the first YANG package.</p>",
+    "topic": "ietf-116",
+    "dtime": 6251000,
+    "ptime": 6251000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>The way I read the draft, I'm not sure we'd need a special rule for this.  Old clients would still work provided the server still accepted the new bit as unknown.</p>",
+    "topic": "ietf-116",
+    "dtime": 6252000,
+    "ptime": 6252000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>@Mahesh, do we have strong agreement to delegate thing to IANA? would it be great to provide more examples to help understand how this practice is excercised</p>",
+    "topic": "ietf-116",
+    "dtime": 6286000,
+    "ptime": 6286000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>+1 on the BGP work.  Also interesting to see the OC \"donation\".</p>",
+    "topic": "ietf-116",
+    "dtime": 6288000,
+    "ptime": 6288000
+  },
+  {
+    "author": "Benoît Claise",
+    "text": "<p>Next, we'll follow the same process for the topology-related  YANG modules (what we call the Digital Map)</p>",
+    "topic": "ietf-116",
+    "dtime": 6311000,
+    "ptime": 6311000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>@Mahesh BTW, it is a good work.</p>",
+    "topic": "ietf-116",
+    "dtime": 6329000,
+    "ptime": 6329000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thanks for the supportive words. Enabling better work is a useful goal.</p>",
+    "topic": "ietf-116",
+    "dtime": 6384000,
+    "ptime": 6384000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>straw poll - should we have an interim to discuss lessons learned?</p>",
+    "topic": "ietf-116",
+    "dtime": 6440000,
+    "ptime": 6440000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>@jeff,<span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span>, thank you too.</p>",
+    "topic": "ietf-116",
+    "dtime": 6444000,
+    "ptime": 6444000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>BGO</p>",
+    "topic": "ietf-116",
+    "dtime": 6448000,
+    "ptime": 6448000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>sigh, BGP lessons learned</p>",
+    "topic": "ietf-116",
+    "dtime": 6464000,
+    "ptime": 6464000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>I think it is a good idea, I have resonance on packing model for test and validation. We have see a lot of initiate to do this.</p>",
+    "topic": "ietf-116",
+    "dtime": 6526000,
+    "ptime": 6526000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"569\">Joe Clarke</span> <a href=\"#narrow/stream/126-netmod/topic/ietf-116/near/72666\">said</a>:</p>\n<blockquote>\n<p>+1 on the BGP work.  Also interesting to see the OC \"donation\".</p>\n</blockquote>\n<p>We decided to change direction from several things in the oc module. Many of our motivations for such are differing agendas between the orgs. IETF cares about all the stuff, oc is an operational focused subset. </p>\n<p>But it’s important to recognize the history and contributions. We’ll likely borrow ideas both ways over the maintenance life</p>",
+    "topic": "ietf-116",
+    "dtime": 6533000,
+    "ptime": 6533000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>+1 for interim on lessons learned</p>",
+    "topic": "ietf-116",
+    "dtime": 6603000,
+    "ptime": 6603000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>One bit of work mahesh skipped in the slides is how collaboration tools for integrated testing, draft generation and model validation was incredibly helpful. </p>\n<p>Some baseline tools like we used that are IETF supportive would be generally helpful to the organization.</p>",
+    "topic": "ietf-116",
+    "dtime": 6653000,
+    "ptime": 6653000
+  },
+  {
+    "author": "Juan Cardona",
+    "text": "<p>Some kind of tooling for model examples, model coverage, etc for ietf models could be very useful.. I would even dare to say that it should be mandatory. Jeff, what tools did you use?</p>",
+    "topic": "ietf-116",
+    "dtime": 6910000,
+    "ptime": 6910000
+  },
+  {
+    "author": "Balázs Lengyel",
+    "text": "<p>intersted  in lessons learned</p>",
+    "topic": "ietf-116",
+    "dtime": 7221000,
+    "ptime": 7221000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I would be happy to show up at any virtual interim...</p>",
+    "topic": "ietf-116",
+    "dtime": 7233000,
+    "ptime": 7233000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The usual tools. </p>\n<p>Just inside a docker container with good make files</p>",
+    "topic": "ietf-116",
+    "dtime": 7236000,
+    "ptime": 7236000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>No need for local installs</p>",
+    "topic": "ietf-116",
+    "dtime": 7248000,
+    "ptime": 7248000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-NETMOD-20230331-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/netmod"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-NETMOD-20230331-0030"
+		}		
+	]
+}

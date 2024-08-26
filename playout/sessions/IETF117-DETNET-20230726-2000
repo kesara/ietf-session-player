@@ -1,0 +1,175 @@
+
+{
+	"title": "IETF117-DETNET-20230726-2000",
+	"filename": "IETF117-DETNET-20230726-2000",
+	"start": 0,
+	"end": 7309000,
+	"start_datetime": "2023-07-26T20:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "rDXCgiC9B3U",
+    "start": 0,
+    "end": "7309000"
+  }
+],
+	"messages": [
+  {
+    "author": "János Farkas",
+    "text": "<p>Welcome to this DetNet session! Please join note taking: <a href=\"https://notes.ietf.org/notes-ietf-117-detnet?both\">https://notes.ietf.org/notes-ietf-117-detnet?both</a></p>",
+    "topic": "ietf-117",
+    "dtime": 113000,
+    "ptime": 113000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>If we want to compare queueing mechanisms based on evaluation, either we need to have access to reference implementations for all the mechanisms or we need to have a common dataset (topology, set of flows) so we have the same ground for comparison</p>",
+    "topic": "ietf-117",
+    "dtime": 707000,
+    "ptime": 707000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>Agree, many thanks to David!</p>",
+    "topic": "ietf-117",
+    "dtime": 856000,
+    "ptime": 856000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I agree the in depth presentations are really valuable</p>",
+    "topic": "ietf-117",
+    "dtime": 878000,
+    "ptime": 878000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Also see the Detnet use case RFC - RFC 8578.  Some of those use cases need and/or benefit from the scalability extensions.</p>",
+    "topic": "ietf-117",
+    "dtime": 1536000,
+    "ptime": 1536000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>Please note not jsut CQF but P802.1Qdv – Enhancements to CQF: <a href=\"https://1.ieee802.org/tsn/802-1qdv/\">https://1.ieee802.org/tsn/802-1qdv/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 1967000,
+    "ptime": 1967000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p><a href=\"https://mailarchive.ietf.org/arch/msg/detnet/I0-73PaTi-aj9nX0UZ9bnoxys7A/\">https://mailarchive.ietf.org/arch/msg/detnet/I0-73PaTi-aj9nX0UZ9bnoxys7A/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 1991000,
+    "ptime": 1991000
+  },
+  {
+    "author": "Yizhou Li",
+    "text": "<p>Janos, thanks for pointing this out. The revision was made before the first text version of Qdv was available. Will try to add something in next revision. A quick comment to it is, current Qdv assumes point-to-point physical link between two nodes in order to maintain the cycle integrity. DetNet potentially allows more complex network structures and consequently holds some different assumptions. There can be subnetwork (TSN, MPLS TE, OTN) to provide underlying fwd and such a subnetwork can be but not necessarily must be a single point-to-point link.</p>",
+    "topic": "ietf-117",
+    "dtime": 2673000,
+    "ptime": 2673000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>Cut-Through Forwarding is an ongoing project: P802.1DU <a href=\"https://1.ieee802.org/tsn/802-1du/\">https://1.ieee802.org/tsn/802-1du/</a>, not part of IEEE std 802.1Qbv-2015  Enhancements for Scheduled Traffic, aka TAS</p>",
+    "topic": "ietf-117",
+    "dtime": 3270000,
+    "ptime": 3270000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>P4 @ working meetings - Send Draft!</p>",
+    "topic": "ietf-117",
+    "dtime": 3447000,
+    "ptime": 3447000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>An idea behind P802.1DC is to make TSN QoS mechanisms easily accessible to non-bridge devices, e.g., routers, see more at: <a href=\"https://1.ieee802.org/tsn/802-1dc/\">https://1.ieee802.org/tsn/802-1dc/</a>, e.g., the scope: IEEE Std 802.1Q specifies Quality of Service (QoS) features for bridges. These features are perfectly applicable to other devices, e.g. end stations, routers, or firewall appliances. In IEEE Std 802.1Q, the specifications of these features are scattered, and coupled tightly to the operation of a bridge. There is a need for simple reference points to these QoS specifications that are usable for non-bridge systems, and for managed objects for these features that are not specific to bridges.</p>",
+    "topic": "ietf-117",
+    "dtime": 5439000,
+    "ptime": 5439000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>is it just me, or Toerless's voice is becoming robotic ?</p>",
+    "topic": "ietf-117",
+    "dtime": 5565000,
+    "ptime": 5565000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>his voice is fine for me</p>",
+    "topic": "ietf-117",
+    "dtime": 5583000,
+    "ptime": 5583000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Getting good audio fidelity remotely here - you might check MeetEcho's audio in rate.</p>",
+    "topic": "ietf-117",
+    "dtime": 5626000,
+    "ptime": 5626000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>now getting better, must have been a QoS artefact on my side</p>",
+    "topic": "ietf-117",
+    "dtime": 5628000,
+    "ptime": 5628000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>I wonder the interest in work from OT players like Siemens, Rockwell, etc.?</p>",
+    "topic": "ietf-117",
+    "dtime": 6521000,
+    "ptime": 6521000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I have no religion, and MPLS can make a good job in OT use cases</p>",
+    "topic": "ietf-117",
+    "dtime": 7105000,
+    "ptime": 7105000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>or could, I have no proof at the end of the day</p>",
+    "topic": "ietf-117",
+    "dtime": 7125000,
+    "ptime": 7125000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>In OT networking, I think resilience of the connections is necessary to have</p>",
+    "topic": "ietf-117",
+    "dtime": 7225000,
+    "ptime": 7225000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>on top of deterministic aspects</p>",
+    "topic": "ietf-117",
+    "dtime": 7241000,
+    "ptime": 7241000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-DETNET-20230726-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/detnet"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-DETNET-20230726-2000"
+		}		
+	]
+}

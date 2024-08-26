@@ -1,0 +1,383 @@
+
+{
+	"title": "IETF114-DANCE-20220728-2130",
+	"filename": "IETF114-DANCE-20220728-2130",
+	"start": 0,
+	"end": 3485000,
+	"start_datetime": "2022-07-28T21:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "e6r-kIEYQ5U",
+    "start": 0,
+    "end": "3485000"
+  }
+],
+	"messages": [
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>meetecho please pan</p>",
+    "dtime": 376000,
+    "ptime": 376000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Thanks!</p>",
+    "dtime": 393000,
+    "ptime": 393000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Write the draft, see if TLS wants it, take it here otherwise.</p>",
+    "dtime": 590000,
+    "ptime": 590000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Why support a protocol version that's mandatory to implement under the BCP guidance for TLS usage?</p>",
+    "dtime": 660000,
+    "ptime": 660000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>MT advocating renego, oh my.<br>\nThough I do seem to recall that there is some RFC that says it's okay so long as there is no application data preceding it.</p>",
+    "dtime": 748000,
+    "ptime": 748000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yes, HTTP/2 does that.</p>",
+    "dtime": 876000,
+    "ptime": 876000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Ah, right.  Thanks.</p>",
+    "dtime": 895000,
+    "ptime": 895000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>What Bob is saying is good advice.</p>",
+    "dtime": 961000,
+    "ptime": 961000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Yes, that was good advice from Bob.</p>",
+    "dtime": 972000,
+    "ptime": 972000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"https://www.rfc-editor.org/rfc/rfc9261.html\">https://www.rfc-editor.org/rfc/rfc9261.html</a></p>",
+    "dtime": 1042000,
+    "ptime": 1042000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That architecture document clearly needs tons of work.</p>",
+    "dtime": 1183000,
+    "ptime": 1183000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: is now a stuckee author on the architecture.</p>",
+    "dtime": 1220000,
+    "ptime": 1220000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>@martin: yes, that's known -- the architecture document is far less complete.</p>",
+    "dtime": 1498000,
+    "ptime": 1498000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>This idea that TLS 1.3 is big and complex is a lie.  It is only the differences from TLS 1.2 that make it challenging.  The core protocol is fairly straightforward.</p>",
+    "dtime": 1570000,
+    "ptime": 1570000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>...unless you want 0-RTT.</p>",
+    "dtime": 1580000,
+    "ptime": 1580000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>For your next act, tell me that QUIC is not big and complex. <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "dtime": 1601000,
+    "ptime": 1601000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Also, I would like to know what tooling Jacques used to get the kerning on these slides.</p>",
+    "dtime": 1667000,
+    "ptime": 1667000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>QUIC is a nightmare of complexity :)</p>",
+    "dtime": 1677000,
+    "ptime": 1677000
+  },
+  {
+    "author": "Andrew Fregly",
+    "text": "<p>I turned up my headset volume</p>",
+    "dtime": 1681000,
+    "ptime": 1681000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"595\">@Andrew Fregly</span>  just remember to turn it back down before anyone else talks</p>",
+    "dtime": 1736000,
+    "ptime": 1736000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that the kerning is a font thing based on what I'm seeing.</p>",
+    "dtime": 1755000,
+    "ptime": 1755000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>Note that this might need more than just an extension. A new certificate_type would likely need to be defined.</p>",
+    "dtime": 1762000,
+    "ptime": 1762000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Is Nick talking about Jacques' thing or Viktor's thing?</p>",
+    "dtime": 1786000,
+    "ptime": 1786000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>Viktor's thing.</p>",
+    "dtime": 1796000,
+    "ptime": 1796000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Are these domain name SANs?</p>",
+    "dtime": 1806000,
+    "ptime": 1806000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<blockquote>\n<p>kerning is a font thing based on what I'm seeing</p>\n</blockquote>\n<p>Hmm, <a href=\"https://datatracker.ietf.org/doc/slides-114-dance-leveraging-dnssec-for-digital-identity-trust-registries/02/\">https://datatracker.ietf.org/doc/slides-114-dance-leveraging-dnssec-for-digital-identity-trust-registries/02/</a> shows only a PDF upload, and viewing the PDF natively I think I see the same as you.  Which seems to implicate the \"conversion\" step that is used to turn the slides from the datatracker into jpgs used by the streaming software.</p>",
+    "dtime": 1932000,
+    "ptime": 1932000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>Question Viktor's draft that I might have missed. Is TLS 1.2 supported because we expect that some (D)TLS implementations do not have (D)TLS 1.3 support but will be willing to implement this draft before deploying 1.3?</p>",
+    "dtime": 2024000,
+    "ptime": 2024000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"366\">@Nick Sullivan</span> That's essentially the answer I got when I just asked.  I think that that is a reasonable thing, particularly for existing deployments, who might only be looking to provide an alternative trust anchor system.</p>",
+    "dtime": 2107000,
+    "ptime": 2107000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Given OpenSSL's stance on DTLS 1.3, that seems to be a likely candidate.</p>\n<p>And I think the points that I found most compelling were not really about the codebase being unwilling to write in the 1.3 support, but rather that there is a deployed base where the incremental update within 1.2 is feasible but there are logistical constraints (e.g., flash storage, QA certification) that prevent the deployed devices from updating to 1.3.</p>",
+    "dtime": 2117000,
+    "ptime": 2117000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>People are welcome to use the NSS DTLS 1.3 implementation.  We're not done yet, but it's close.</p>",
+    "dtime": 2146000,
+    "ptime": 2146000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>Not thrilled about another RR at a zone apex.</p>",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I don't understand why you can't rely on configuration for trust anchors.</p>",
+    "dtime": 2257000,
+    "ptime": 2257000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>I can picture political problems with IANA having country-specific trust registries</p>",
+    "dtime": 2263000,
+    "ptime": 2263000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"99\">@Jim Fenton</span> Why would you even expect to be able to trust $COUNTRY for this purpose?</p>",
+    "dtime": 2285000,
+    "ptime": 2285000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>...whatever this purpose really is.</p>",
+    "dtime": 2298000,
+    "ptime": 2298000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Martin Exactly my point.</p>",
+    "dtime": 2309000,
+    "ptime": 2309000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Put differently, why does the flow of trust follow the DNS hierarchy?</p>",
+    "dtime": 2347000,
+    "ptime": 2347000
+  },
+  {
+    "author": "Hugo Salgado",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"48\">Tim Wicinski</span> <a href=\"#narrow/stream/55-dance/topic/jabber/near/32055\">said</a>:</p>\n<blockquote>\n<p>Not thrilled about another RR at a zone apex.</p>\n</blockquote>\n<p>Or you can start in <a href=\"http://_trustregistry.arpa\">_trustregistry.arpa</a> too</p>",
+    "dtime": 2379000,
+    "ptime": 2379000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: Paul, IANA because DNSSEC.</p>",
+    "dtime": 2452000,
+    "ptime": 2452000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>I will ask \"why not a TXT Record\" and I will now show myself out</p>",
+    "dtime": 2586000,
+    "ptime": 2586000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Excellent, so then you won't be here to hear me propose a new RRTYPE in the parent zone!<br>\n&lt;ducks&gt;</p>",
+    "dtime": 2615000,
+    "ptime": 2615000
+  },
+  {
+    "author": "Jacques Latour",
+    "text": "<p>yes, root zone because of DNSSEC</p>",
+    "dtime": 2618000,
+    "ptime": 2618000
+  },
+  {
+    "author": "John O'Brien",
+    "text": "<p>I was thinking, \"Why not a PTR RR?\", and will show my self out after Tim.</p>",
+    "dtime": 2633000,
+    "ptime": 2633000
+  },
+  {
+    "author": "Rolf Sonneveld",
+    "text": "<p>I don't see the speaker</p>",
+    "dtime": 2698000,
+    "ptime": 2698000
+  },
+  {
+    "author": "Michael B",
+    "text": "<p>There's a lot of acronyms here...</p>",
+    "dtime": 2699000,
+    "ptime": 2699000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I think at least half of them are \"standard\" IETF things, at least.  But yes, lots of acronyms.</p>",
+    "dtime": 2731000,
+    "ptime": 2731000
+  },
+  {
+    "author": "Rolf Sonneveld",
+    "text": "<p>Thanks, I now see him</p>",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Acronyms are a strong tradition for aircraft things</p>",
+    "dtime": 2771000,
+    "ptime": 2771000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>IKO is one I'm not familiar with.</p>",
+    "dtime": 2797000,
+    "ptime": 2797000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>or rather, ICAO, the internet informs me.</p>",
+    "dtime": 2816000,
+    "ptime": 2816000
+  },
+  {
+    "author": "Michael B",
+    "text": "<p>Ah, I missed a few that were defined in the first slide.</p>",
+    "dtime": 2853000,
+    "ptime": 2853000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: thinks ICAO should be pronounced I-COW.</p>",
+    "dtime": 3275000,
+    "ptime": 3275000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>I've heard it pronounced that way, yes.</p>",
+    "dtime": 3297000,
+    "ptime": 3297000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Apple has a policy of not announcing upcoming products.</p>",
+    "dtime": 3308000,
+    "ptime": 3308000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: iCOW</p>",
+    "dtime": 3336000,
+    "ptime": 3336000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>If size is a thing, then cTLS.</p>",
+    "dtime": 3377000,
+    "ptime": 3377000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: Apple's take on animal-free meat, perhaps.</p>",
+    "dtime": 3380000,
+    "ptime": 3380000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>OpenSSL raw public key support is in <a href=\"https://github.com/openssl/openssl/pull/18185\">https://github.com/openssl/openssl/pull/18185</a></p>",
+    "dtime": 3449000,
+    "ptime": 3449000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-DANCE-20220728-2130"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/dance"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-DANCE-20220728-2130"
+		}		
+	]
+}

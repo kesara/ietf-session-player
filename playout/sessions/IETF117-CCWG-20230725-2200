@@ -1,0 +1,147 @@
+
+{
+	"title": "IETF117-CCWG-20230725-2200",
+	"filename": "IETF117-CCWG-20230725-2200",
+	"start": 0,
+	"end": 5573000,
+	"start_datetime": "2023-07-25T22:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "u-91t6JfjmY",
+    "start": 0,
+    "end": "5573000"
+  }
+],
+	"messages": [
+  {
+    "author": "Rui Paulo",
+    "text": "<p>starting the topic</p>",
+    "topic": "ietf-117",
+    "dtime": 301000,
+    "ptime": 301000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>If anyone has comments you'd like read at the mic, please prefix with mic:</p>",
+    "topic": "ietf-117",
+    "dtime": 578000,
+    "ptime": 578000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>agree w Matt reg fairness</p>",
+    "topic": "ietf-117",
+    "dtime": 1199000,
+    "ptime": 1199000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Hell yes we should address bufferbloat!</p>",
+    "topic": "ietf-117",
+    "dtime": 1278000,
+    "ptime": 1278000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>I could reasonably suggest that the editors ask Mark if he's happy to be listed in the ACKs. No response to that question  is also information.</p>",
+    "topic": "ietf-117",
+    "dtime": 1290000,
+    "ptime": 1290000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There is also the little details that QUIC implementations do not in practice use Reno as specified in 9002. Many use Cubic or BBR.</p>",
+    "topic": "ietf-117",
+    "dtime": 1811000,
+    "ptime": 1811000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>We have a long list of documents, so let's write a few more...</p>",
+    "topic": "ietf-117",
+    "dtime": 2734000,
+    "ptime": 2734000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Can just turn CC into a pseudo-acronym that doesn't mean anything literal</p>",
+    "topic": "ietf-117",
+    "dtime": 2776000,
+    "ptime": 2776000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>or backronym it to choo-choo</p>",
+    "topic": "ietf-117",
+    "dtime": 2802000,
+    "ptime": 2802000
+  },
+  {
+    "author": "Reese Enghardt",
+    "text": "<p>I am not excited about the idea of more bikeshedding about names... :)</p>",
+    "topic": "ietf-117",
+    "dtime": 2923000,
+    "ptime": 2923000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1419\">Reese Enghardt</span> <a href=\"#narrow/stream/374-ccwg/topic/ietf-117/near/81723\">said</a>:</p>\n<blockquote>\n<p>I am not excited about the idea of more bikeshedding about names... :)</p>\n</blockquote>\n<p>Understood.</p>",
+    "topic": "ietf-117",
+    "dtime": 3028000,
+    "ptime": 3028000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Wonder whether BBRv3 considred exiting startup on RTT signals</p>",
+    "topic": "ietf-117",
+    "dtime": 3487000,
+    "ptime": 3487000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p>What about RTT fairness? I guess that flows with larger RTT will still get a larger share...</p>",
+    "topic": "ietf-117",
+    "dtime": 3999000,
+    "ptime": 3999000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>Faster reaction might cause a drawback and make the network less stable.</p>",
+    "topic": "ietf-117",
+    "dtime": 5272000,
+    "ptime": 5272000
+  },
+  {
+    "author": "Rui Miao",
+    "text": "<p>To answer the first question, the telemetry information is only carried with sender and receiver with AIMD/MIMD principle, and thus it doesn't require global consensus to converge quickly</p>",
+    "topic": "ietf-117",
+    "dtime": 5352000,
+    "ptime": 5352000
+  },
+  {
+    "author": "Rui Miao",
+    "text": "<p>To Greg, as long as the reaction is carried on at most once per round trip time, the network can be proofed to be stable.</p>",
+    "topic": "ietf-117",
+    "dtime": 5409000,
+    "ptime": 5409000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-CCWG-20230725-2200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/ccwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-CCWG-20230725-2200"
+		}		
+	]
+}

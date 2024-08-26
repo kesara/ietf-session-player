@@ -1,0 +1,203 @@
+
+{
+	"title": "IETF118-IPSECME-20231109-1200",
+	"filename": "IETF118-IPSECME-20231109-1200",
+	"start": 0,
+	"end": 5346000,
+	"start_datetime": "2023-11-09T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "8F_vnb6IGcQ",
+    "start": 0,
+    "end": "5346000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Oh.</p>",
+    "topic": "ietf-118",
+    "dtime": 191000,
+    "ptime": 191000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>didn't realize needed to send support mail on the  perforance draft... will do</p>",
+    "topic": "ietf-118",
+    "dtime": 215000,
+    "ptime": 215000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>For WGLC I would really like people saying they have read the draft, and they think it is ready for publication.</p>",
+    "topic": "ietf-118",
+    "dtime": 396000,
+    "ptime": 396000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"103\">Christian Hopps</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-118/near/99658\">said</a>:</p>\n<blockquote>\n<p>Oh.</p>\n</blockquote>\n<p>Ideally, others would read the document and send comments..  I personally hate, \"As the author I support...\"</p>",
+    "topic": "ietf-118",
+    "dtime": 497000,
+    "ptime": 497000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>The origin of this is that in IKEv1 days we had separate configurations for phase 1 and phase 2.  So the configuration remained for IKEv2.</p>",
+    "topic": "ietf-118",
+    "dtime": 851000,
+    "ptime": 851000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Define a new protocol ==&gt; Adapt Geneve ?</p>",
+    "topic": "ietf-118",
+    "dtime": 1979000,
+    "ptime": 1979000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>What are the info needed fron the transport header ? and do we want to expose this information ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2188000,
+    "ptime": 2188000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>if all these SDN people want is a port number then let maybe they should encode that information in the SPI. The SPI space is completely owned by the endpoint, if it wants to leak out \"448\" then it can put \"448\" into its SPI.</p>",
+    "topic": "ietf-118",
+    "dtime": 2845000,
+    "ptime": 2845000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>just to be clear, as part of the SPI. The first couple of octets.</p>",
+    "topic": "ietf-118",
+    "dtime": 2886000,
+    "ptime": 2886000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>Or we could add \"flow label\" field to WESP header for that kind of purposes.</p>",
+    "topic": "ietf-118",
+    "dtime": 2910000,
+    "ptime": 2910000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1661\">Dan Harkins</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-118/near/99849\">said</a>:</p>\n<blockquote>\n<p>if all these SDN people want is a port number then let maybe they should encode that information in the SPI. The SPI space is completely owned by the endpoint, if it wants to leak out \"448\" then it can put \"448\" into its SPI.</p>\n</blockquote>\n<p>This has been regularly pointed, and one of the reasons we now have the multi-SA work.  But, there are, for some situations, a scaling issue where the number of SPIs grows from one to hundreds.</p>",
+    "topic": "ietf-118",
+    "dtime": 2916000,
+    "ptime": 2916000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>yea, well the other solution is to tell those people to pound sand.</p>",
+    "topic": "ietf-118",
+    "dtime": 2945000,
+    "ptime": 2945000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>@Dan: don't they need both ports (just a question, I don't know)?</p>",
+    "topic": "ietf-118",
+    "dtime": 3013000,
+    "ptime": 3013000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>if this is fo rLB / path selection reason then a hash on whichever info is in the SPI woud play the exact same role</p>",
+    "topic": "ietf-118",
+    "dtime": 3100000,
+    "ptime": 3100000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"110\">Valery Smyslov</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-118/near/99874\">said</a>:</p>\n<blockquote>\n<p>@Dan: don't they need both ports (just a question, I don't know)?</p>\n</blockquote>\n<p>Sometimes.  Sometimes they think they need 5-tuple flows, but not really care about the actual ports.  So IPv6 FlowLabel is really want they wanted.  But, often THEY DON'T KNOW.</p>",
+    "topic": "ietf-118",
+    "dtime": 3111000,
+    "ptime": 3111000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>FlowLabel can be inconsistent between domains, though</p>",
+    "topic": "ietf-118",
+    "dtime": 3153000,
+    "ptime": 3153000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"110\">@Valery Smyslov</span> I don't actually know! I guess if they want the whole header then yes but I still would like to know what problem is not solvable without them looking into the packet. And this variable \"exclude N bits\" option seems very scary to me. Very easy to misuse.</p>",
+    "topic": "ietf-118",
+    "dtime": 3161000,
+    "ptime": 3161000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1746\">Antoine Fressancourt</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-118/near/99886\">said</a>:</p>\n<blockquote>\n<p>FlowLabel can be inconsistent between domains, though</p>\n</blockquote>\n<p>No, it can be zero, in which case it may be set, but if it's non-zero, it can't be changed.</p>",
+    "topic": "ietf-118",
+    "dtime": 3175000,
+    "ptime": 3175000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>thanks for clarification</p>",
+    "topic": "ietf-118",
+    "dtime": 3257000,
+    "ptime": 3257000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>In some WGs 3 people is everyone</p>",
+    "topic": "ietf-118",
+    "dtime": 3549000,
+    "ptime": 3549000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Way to circumvent the IETF process.</p>",
+    "topic": "ietf-118",
+    "dtime": 3748000,
+    "ptime": 3748000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>b/c no variables or registers were free for the protocol number :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4693000,
+    "ptime": 4693000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>For context, this is all 1996 or so, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 4720000,
+    "ptime": 4720000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>This reminds me of SIP response codes especially 4xx and 5xx</p>",
+    "topic": "ietf-118",
+    "dtime": 4889000,
+    "ptime": 4889000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-IPSECME-20231109-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/ipsecme"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-IPSECME-20231109-1200"
+		}		
+	]
+}

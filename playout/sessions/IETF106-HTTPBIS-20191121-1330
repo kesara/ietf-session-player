@@ -1,0 +1,869 @@
+{
+  "title": "IETF106-HTTPBIS-20191121-1330",
+  "filename": "IETF106-HTTPBIS-20191121-1330",
+  "start": 0,
+  "end": 7116000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "CLy9aZUa_w0",
+      "start": 0.0,
+      "end": 7116000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***ANDRIANISA Pascal Heriliva just joined the room",
+      "ptime": 10000.0,
+      "dtime": 194000.0
+    },
+    {
+      "text": "***Tommy Jensen just joined the room",
+      "ptime": 44000.0,
+      "dtime": 228000.0
+    },
+    {
+      "text": "***Dragana Damjanovic just joined the room",
+      "ptime": 85000.0,
+      "dtime": 269000.0
+    },
+    {
+      "text": "***agrover just joined the room",
+      "ptime": 106000.0,
+      "dtime": 290000.0
+    },
+    {
+      "text": "***Michael Toomim just left the room",
+      "ptime": 148000.0,
+      "dtime": 332000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 149000.0,
+      "dtime": 333000.0
+    },
+    {
+      "text": "I\u0027d appreciate if the Client Hints presentation could run fairly early",
+      "ptime": 156000.0,
+      "dtime": 340000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "Hi Yoav and co, I\u0027m your Jabber Scribe today",
+      "ptime": 189000.0,
+      "dtime": 373000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "If you want me to relay, please preface with \"mic:\"",
+      "ptime": 199000.0,
+      "dtime": 383000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "Should I relay?",
+      "ptime": 203000.0,
+      "dtime": 387000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "yes, please",
+      "ptime": 265000.0,
+      "dtime": 449000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": ":)",
+      "ptime": 270000.0,
+      "dtime": 454000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "***Michael Toomim just joined the room",
+      "ptime": 295000.0,
+      "dtime": 479000.0
+    },
+    {
+      "text": "***Michael Toomim just left the room",
+      "ptime": 369000.0,
+      "dtime": 553000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 370000.0,
+      "dtime": 554000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 371000.0,
+      "dtime": 555000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 371000.0,
+      "dtime": 555000.0
+    },
+    {
+      "text": "***Michael Toomim just joined the room",
+      "ptime": 372000.0,
+      "dtime": 556000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 373000.0,
+      "dtime": 557000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 403000.0,
+      "dtime": 587000.0
+    },
+    {
+      "text": "***Michael Toomim just joined the room",
+      "ptime": 404000.0,
+      "dtime": 588000.0
+    },
+    {
+      "text": "here",
+      "ptime": 804000.0,
+      "dtime": 988000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "trying to figure out meetecho",
+      "ptime": 812000.0,
+      "dtime": 996000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "click the people standing in line at the top",
+      "ptime": 837000.0,
+      "dtime": 1021000.0,
+      "author": "Bradford Lassey"
+    },
+    {
+      "text": "fourth icon on the right",
+      "ptime": 855000.0,
+      "dtime": 1039000.0,
+      "author": "Bradford Lassey"
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 863000.0,
+      "dtime": 1047000.0
+    },
+    {
+      "text": "mic: I\u0027m here",
+      "ptime": 864000.0,
+      "dtime": 1048000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "thre sholuld be Lucas Pardue presenting",
+      "ptime": 874000.0,
+      "dtime": 1058000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "there in Singapore",
+      "ptime": 880000.0,
+      "dtime": 1064000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "***Michael Toomim just left the room",
+      "ptime": 955000.0,
+      "dtime": 1139000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 956000.0,
+      "dtime": 1140000.0
+    },
+    {
+      "text": "***Michael Toomim just joined the room",
+      "ptime": 957000.0,
+      "dtime": 1141000.0
+    },
+    {
+      "text": "http-signatures is draft-cavage you were speaking before",
+      "ptime": 960000.0,
+      "dtime": 1144000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "Roberto, want me to relay any or all of those? (I assume the \"I\u0027m here\" was relevant when the chairs were figuring out who was going to present?)",
+      "ptime": 1039000.0,
+      "dtime": 1223000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "***Ekaterina Volodina just joined the room",
+      "ptime": 1053000.0,
+      "dtime": 1237000.0
+    },
+    {
+      "text": "you assumed well. Not for now thanks :)",
+      "ptime": 1098000.0,
+      "dtime": 1282000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "(y)",
+      "ptime": 1113000.0,
+      "dtime": 1297000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "mic: we should be clear that POST and PATCH are not special cases; this should be true for all methods",
+      "ptime": 1116000.0,
+      "dtime": 1300000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "@Julian: this will be quoted shortly in the slides",
+      "ptime": 1158000.0,
+      "dtime": 1342000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "sorry",
+      "ptime": 1175000.0,
+      "dtime": 1359000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": ":D",
+      "ptime": 1179000.0,
+      "dtime": 1363000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "***Kaoru Maeda just joined the room",
+      "ptime": 1274000.0,
+      "dtime": 1458000.0
+    },
+    {
+      "text": "We contacted the people that inserted those algos in the IANA",
+      "ptime": 1288000.0,
+      "dtime": 1472000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "and got their feedback before changing the IANA table",
+      "ptime": 1312000.0,
+      "dtime": 1496000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "Yoav, are you looking to speak to this, or waiting for your preso?",
+      "ptime": 1705000.0,
+      "dtime": 1889000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "mic: can I speak",
+      "ptime": 1747000.0,
+      "dtime": 1931000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "***Ekaterina Volodina just left the room",
+      "ptime": 1750000.0,
+      "dtime": 1934000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1751000.0,
+      "dtime": 1935000.0
+    },
+    {
+      "text": "?",
+      "ptime": 1751000.0,
+      "dtime": 1935000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "waiting for my presentation",
+      "ptime": 1762000.0,
+      "dtime": 1946000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "Woops pressed too many times...",
+      "ptime": 1806000.0,
+      "dtime": 1990000.0,
+      "author": "dschinazi@jab.im"
+    },
+    {
+      "text": "Roberto, you\u0027ll need to get in queue again",
+      "ptime": 1807000.0,
+      "dtime": 1991000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "I\u0027ll jump after",
+      "ptime": 1838000.0,
+      "dtime": 2022000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": ":)",
+      "ptime": 1840000.0,
+      "dtime": 2024000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "meetecho: can somebody fix the echo from the room?",
+      "ptime": 2057000.0,
+      "dtime": 2241000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "is the echo terrible for anyone else?",
+      "ptime": 2066000.0,
+      "dtime": 2250000.0,
+      "author": "Bradford Lassey"
+    },
+    {
+      "text": "yes",
+      "ptime": 2072000.0,
+      "dtime": 2256000.0,
+      "author": "Alan Frindell"
+    },
+    {
+      "text": "I don\u0027t see anyone at the AV desk here. Not sure if there\u0027s anyone to bug about this :(",
+      "ptime": 2189000.0,
+      "dtime": 2373000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "***SHUNXING YANG just joined the room",
+      "ptime": 2643000.0,
+      "dtime": 2827000.0
+    },
+    {
+      "text": "***SHUNXING YANG just left the room",
+      "ptime": 2709000.0,
+      "dtime": 2893000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2709000.0,
+      "dtime": 2893000.0
+    },
+    {
+      "text": "***ANDRIANISA Pascal Heriliva just left the room",
+      "ptime": 2881000.0,
+      "dtime": 3065000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2881000.0,
+      "dtime": 3065000.0
+    },
+    {
+      "text": "One comment coming...",
+      "ptime": 2888000.0,
+      "dtime": 3072000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: I\u0027ve read it. I really like the reformulation. I don\u0027t see the extensible case in there. I\u0027d like to see a place to put some data about what kind of a hit it was. For example, a hit on disk, ram, or some other place.",
+      "ptime": 2924000.0,
+      "dtime": 3108000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: I\u0027d like to see proxy status to follow suit.",
+      "ptime": 2956000.0,
+      "dtime": 3140000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: So, if someone adds a code, are they expected to add to this draft themselves? Or who is expected to do that?",
+      "ptime": 3098000.0,
+      "dtime": 3282000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: I commented on the issue",
+      "ptime": 3101000.0,
+      "dtime": 3285000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "the status message (eg. \"bad_request\") may change in time",
+      "ptime": 3141000.0,
+      "dtime": 3325000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "Chris, i think your comment is redundant?",
+      "ptime": 3143000.0,
+      "dtime": 3327000.0,
+      "author": "Winston Felix Handte"
+    },
+    {
+      "text": "Yeah, skip it for now.",
+      "ptime": 3151000.0,
+      "dtime": 3335000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "James got it.",
+      "ptime": 3158000.0,
+      "dtime": 3342000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "***Luca Niccolini just joined the room",
+      "ptime": 4086000.0,
+      "dtime": 4270000.0
+    },
+    {
+      "text": "mic: Does anybody use more than 2 digits of precision for qvalues?",
+      "ptime": 4163000.0,
+      "dtime": 4347000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: I observe that quite recently, we defined some high-resolution times as integer milliseconds. (See the cache-status header.)",
+      "ptime": 4259000.0,
+      "dtime": 4443000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: +1 on fixed point.",
+      "ptime": 4282000.0,
+      "dtime": 4466000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: +1 on fixed point.",
+      "ptime": 4343000.0,
+      "dtime": 4527000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "I shouldn\u0027t bring up NTP\u0027s fixed point, should I?",
+      "ptime": 4346000.0,
+      "dtime": 4530000.0,
+      "author": "Pete Resnick"
+    },
+    {
+      "text": "naw",
+      "ptime": 4361000.0,
+      "dtime": 4545000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "Hum for fixed point",
+      "ptime": 4368000.0,
+      "dtime": 4552000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "hum for fixed point",
+      "ptime": 4372000.0,
+      "dtime": 4556000.0,
+      "author": "Alan Frindell"
+    },
+    {
+      "text": "hum fixed point",
+      "ptime": 4383000.0,
+      "dtime": 4567000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "mic: It\u0027s worth noting that the floating point promonents are mostly out of the room.",
+      "ptime": 4395000.0,
+      "dtime": 4579000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "Someone please explain why floating is useful.",
+      "ptime": 4415000.0,
+      "dtime": 4599000.0,
+      "author": "Pete Resnick"
+    },
+    {
+      "text": "mic: an alternative would be to get rid of it, and define an extension later if needed",
+      "ptime": 4455000.0,
+      "dtime": 4639000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "I think the right question is whether those who prefer float can live with fixed.",
+      "ptime": 4468000.0,
+      "dtime": 4652000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "mic: qvalue can be sent as 4 digit int",
+      "ptime": 4511000.0,
+      "dtime": 4695000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "@barry: Sure, but I don\u0027t really understand the use case at all, so it would be nice to hear what the use case is.",
+      "ptime": 4519000.0,
+      "dtime": 4703000.0,
+      "author": "Pete Resnick"
+    },
+    {
+      "text": "mic: what Mark just said is interesting, as the goals for this spec seem to change from time to time :-)",
+      "ptime": 4607000.0,
+      "dtime": 4791000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "so is backporting existing header fields now a goal?",
+      "ptime": 4618000.0,
+      "dtime": 4802000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "mic: because we said last time that the URI type is not needed because backporting was not a goal...",
+      "ptime": 4678000.0,
+      "dtime": 4862000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "That would fall out of the question I asked.  If you can\u0027t live with fixed? why not, and what would you need?",
+      "ptime": 4692000.0,
+      "dtime": 4876000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "...one of the reasons...",
+      "ptime": 4723000.0,
+      "dtime": 4907000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "but yes",
+      "ptime": 4727000.0,
+      "dtime": 4911000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "I\u0027ve read it",
+      "ptime": 5193000.0,
+      "dtime": 5377000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "mic: This information is mostly information that the browser already has access to, right? Is this motivated mostly as an end-run around the browser choosing not to provide this information to the client?",
+      "ptime": 5389000.0,
+      "dtime": 5573000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: And I do assume this header would be listed in the Connection header.",
+      "ptime": 5451000.0,
+      "dtime": 5635000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: It sounds like the browser has explicitly decided that this information isn\u0027t data that it wants to provide an API to. I\u0027m not sure an end-run around that decision is advisable without fully understanding the reason browsers are making that decision.",
+      "ptime": 5589000.0,
+      "dtime": 5773000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "It can be obtained at an arbitrary rate with H2+",
+      "ptime": 5676000.0,
+      "dtime": 5860000.0,
+      "author": "piers@jabb3r.org"
+    },
+    {
+      "text": "***Luca Niccolini just left the room",
+      "ptime": 5684000.0,
+      "dtime": 5868000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5684000.0,
+      "dtime": 5868000.0
+    },
+    {
+      "text": "By sending HEAD/OPTIONS requests at required rate",
+      "ptime": 5729000.0,
+      "dtime": 5913000.0,
+      "author": "piers@jabb3r.org"
+    },
+    {
+      "text": "Yes",
+      "ptime": 5885000.0,
+      "dtime": 6069000.0,
+      "author": "piers@jabb3r.org"
+    },
+    {
+      "text": "Server Timing - pretty different",
+      "ptime": 5968000.0,
+      "dtime": 6152000.0,
+      "author": "piers@jabb3r.org"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 6027000.0,
+      "dtime": 6211000.0
+    },
+    {
+      "text": "ServerTiming enables you to relay that information is a way that is accessible to the client",
+      "ptime": 6028000.0,
+      "dtime": 6212000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "Server can calculate send rate and send it in the header",
+      "ptime": 6051000.0,
+      "dtime": 6235000.0,
+      "author": "piers@jabb3r.org"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 6063000.0,
+      "dtime": 6247000.0
+    },
+    {
+      "text": "they\u0027re definitely middlers",
+      "ptime": 6337000.0,
+      "dtime": 6521000.0,
+      "author": "Bradford Lassey"
+    },
+    {
+      "text": "Definitely need to adopt middler.",
+      "ptime": 6342000.0,
+      "dtime": 6526000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "mic: should we talk ablout assignment of frame type numbers? (slightly smily face)",
+      "ptime": 6346000.0,
+      "dtime": 6530000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "Who\u0027s speaking now?",
+      "ptime": 6406000.0,
+      "dtime": 6590000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "Roberto Peon",
+      "ptime": 6418000.0,
+      "dtime": 6602000.0,
+      "author": "Alan Frindell"
+    },
+    {
+      "text": "Merci",
+      "ptime": 6423000.0,
+      "dtime": 6607000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "***Luca Niccolini just joined the room",
+      "ptime": 6478000.0,
+      "dtime": 6662000.0
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 6649000.0,
+      "dtime": 6833000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6650000.0,
+      "dtime": 6834000.0
+    },
+    {
+      "text": "+1 interested",
+      "ptime": 7004000.0,
+      "dtime": 7188000.0,
+      "author": "Alan Frindell"
+    },
+    {
+      "text": "Hand up",
+      "ptime": 7004000.0,
+      "dtime": 7188000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 7009000.0,
+      "dtime": 7193000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 7011000.0,
+      "dtime": 7195000.0
+    },
+    {
+      "text": "HTTPSSVC?",
+      "ptime": 7047000.0,
+      "dtime": 7231000.0,
+      "author": "Bradford Lassey"
+    },
+    {
+      "text": "mic^",
+      "ptime": 7055000.0,
+      "dtime": 7239000.0,
+      "author": "Bradford Lassey"
+    },
+    {
+      "text": "***Dragana Damjanovic just left the room",
+      "ptime": 7060000.0,
+      "dtime": 7244000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7060000.0,
+      "dtime": 7244000.0
+    },
+    {
+      "text": "bye!",
+      "ptime": 7062000.0,
+      "dtime": 7246000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "ehh... nevermind",
+      "ptime": 7065000.0,
+      "dtime": 7249000.0,
+      "author": "Bradford Lassey"
+    },
+    {
+      "text": "***Alan Frindell just left the room",
+      "ptime": 7073000.0,
+      "dtime": 7257000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7074000.0,
+      "dtime": 7258000.0
+    },
+    {
+      "text": "Thank you much to the jabber relay!",
+      "ptime": 7080000.0,
+      "dtime": 7264000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "***Bradford Lassey just left the room",
+      "ptime": 7082000.0,
+      "dtime": 7266000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7082000.0,
+      "dtime": 7266000.0
+    },
+    {
+      "text": "^ :clap:",
+      "ptime": 7088000.0,
+      "dtime": 7272000.0,
+      "author": "Roberto Polli"
+    },
+    {
+      "text": "***Michael Toomim just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***Luca Niccolini just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***Roberto Polli just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***Yoav Weiss just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***Chris Lemmons just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***Julian Reschke just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***Mike English just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7115000.0,
+      "dtime": 7299000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 7116000.0,
+      "dtime": 7300000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-HTTPBIS-20191121-1330"
+    }
+  ]
+}

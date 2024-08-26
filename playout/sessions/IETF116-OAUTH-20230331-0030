@@ -1,0 +1,63 @@
+
+{
+	"title": "IETF116-OAUTH-20230331-0030",
+	"filename": "IETF116-OAUTH-20230331-0030",
+	"start": 0,
+	"end": 7193000,
+	"start_datetime": "2023-03-31T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "9KCBflTvKck",
+    "start": 0,
+    "end": "7193000"
+  }
+],
+	"messages": [
+  {
+    "author": "Nat Sakimura",
+    "text": "<p>The draft I talked about is <a href=\"https://datatracker.ietf.org/doc/html/draft-sakimura-oauth-meta-08\">https://datatracker.ietf.org/doc/html/draft-sakimura-oauth-meta-08</a></p>",
+    "topic": "ietf-116",
+    "dtime": 5327000,
+    "ptime": 5327000
+  },
+  {
+    "author": "Michael Sweet",
+    "text": "<p>FWIW, with the Internet Printing Protocol we are trying to have a printer report which auth server to use - on the client side we are requiring an allow list, i.e., the client doesn't just blindly trust the URL the printer reports. Instead, the client has a configured list of allowed and denied auth servers (which can be configured by the admin and/or user depending on the environment) and if the printer reports one that is not allowed then the user gets a Big Scary Error and you don't go any farther. I don't know whether a similar approach could be used for the more generic Resource Server providing metadata.</p>",
+    "topic": "ietf-116",
+    "dtime": 5551000,
+    "ptime": 5551000
+  },
+  {
+    "author": "Michael Sweet",
+    "text": "<p>For functionality, the WWW-Authenticate approach is useful when you have multiple auth servers in use, while .well-known force one auth server to rule them all...</p>",
+    "topic": "ietf-116",
+    "dtime": 5744000,
+    "ptime": 5744000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>CIBA = <a href=\"https://openid.net/2021/09/01/openid-connect-client-initiated-backchannel-authentication-ciba-core-is-now-a-final-specification/\">https://openid.net/2021/09/01/openid-connect-client-initiated-backchannel-authentication-ciba-core-is-now-a-final-specification/</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6938000,
+    "ptime": 6938000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-OAUTH-20230331-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-OAUTH-20230331-0030"
+		}		
+	]
+}

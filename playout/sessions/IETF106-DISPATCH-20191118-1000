@@ -1,0 +1,712 @@
+{
+  "title": "IETF106-DISPATCH-20191118-1000",
+  "filename": "IETF106-DISPATCH-20191118-1000",
+  "start": 0,
+  "end": 6637000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "AcK_9GqKucM",
+      "start": 0.0,
+      "end": 6637000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Ben is now talking, can everyone remote hear him?",
+      "ptime": 15000.0,
+      "dtime": 612000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "yes",
+      "ptime": 46000.0,
+      "dtime": 643000.0,
+      "author": "John Klensin"
+    },
+    {
+      "text": "FWIW, Etherpad is showing an IP adddress in the browser addressbar.  I created a ticket here: https://tickets.meeting.ietf.org/ticket/1344",
+      "ptime": 107000.0,
+      "dtime": 704000.0,
+      "author": "Aaron Falk"
+    },
+    {
+      "text": "***Dan York just joined the room",
+      "ptime": 129000.0,
+      "dtime": 726000.0
+    },
+    {
+      "text": "Alexey Melnikov (AD) at the mic",
+      "ptime": 159000.0,
+      "dtime": 756000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Richard Barnes at the mic",
+      "ptime": 282000.0,
+      "dtime": 879000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "(I missed Barry, between those.)",
+      "ptime": 311000.0,
+      "dtime": 908000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "aaron - that\u0027s on purpose, I think - its a workaround for this meeting",
+      "ptime": 414000.0,
+      "dtime": 1011000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "***Mary Barnes just joined the room",
+      "ptime": 438000.0,
+      "dtime": 1035000.0
+    },
+    {
+      "text": "huh. ok",
+      "ptime": 453000.0,
+      "dtime": 1050000.0,
+      "author": "Aaron Falk"
+    },
+    {
+      "text": "slides at https://datatracker.ietf.org/meeting/106/materials/slides-106-dispatch-sip-auto-peer-00",
+      "ptime": 497000.0,
+      "dtime": 1094000.0,
+      "author": "Cullen Jennings"
+    },
+    {
+      "text": "***Greg Deeds just joined the room",
+      "ptime": 644000.0,
+      "dtime": 1241000.0
+    },
+    {
+      "text": "Meetecho: Ken reports that sound is cutting in and out for him, almost unlistenable",
+      "ptime": 1024000.0,
+      "dtime": 1621000.0,
+      "author": "Bron Gondwana"
+    },
+    {
+      "text": "Bron Gondwana: checking",
+      "ptime": 1059000.0,
+      "dtime": 1656000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "I\u0027m really not sure I see where to dispatch this.  Am I missing an obvious place, or does this need someplace new?",
+      "ptime": 1060000.0,
+      "dtime": 1657000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Ken Murchison just left the room",
+      "ptime": 1068000.0,
+      "dtime": 1665000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1068000.0,
+      "dtime": 1665000.0
+    },
+    {
+      "text": "Audio sounds good to us, maybe an issue on his side?",
+      "ptime": 1119000.0,
+      "dtime": 1716000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "could be - I\u0027ll ask him to reconnect",
+      "ptime": 1133000.0,
+      "dtime": 1730000.0,
+      "author": "Bron Gondwana"
+    },
+    {
+      "text": "Suhas at the mic",
+      "ptime": 1148000.0,
+      "dtime": 1745000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "I think it need somewhere new",
+      "ptime": 1149000.0,
+      "dtime": 1746000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "@Robert is that somewhere here or in OPS/NM?",
+      "ptime": 1171000.0,
+      "dtime": 1768000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Yeah, can\u0027t be SIPCORE without rechartering, and it seems to have applicability broader than appropriate for AD sponsoring",
+      "ptime": 1185000.0,
+      "dtime": 1782000.0,
+      "author": "Adam Roach"
+    },
+    {
+      "text": "I think art is reasonable",
+      "ptime": 1212000.0,
+      "dtime": 1809000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "Cullen",
+      "ptime": 1213000.0,
+      "dtime": 1810000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Given how we never could get folks to even agree on basic SIP device configuration, I\u0027m not sure this will go anywhere either. Not that I don\u0027t think it\u0027s a good idea.",
+      "ptime": 1219000.0,
+      "dtime": 1816000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Let me know if any of these comments should be relayed (for those of you who are remote).",
+      "ptime": 1246000.0,
+      "dtime": 1843000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "For the jabber room, there was one person who raised his hand to the question about SBC vendors in the room",
+      "ptime": 1253000.0,
+      "dtime": 1850000.0,
+      "author": "Adam Roach"
+    },
+    {
+      "text": "mic: have you had any conversations with SIPConnect/SIPForum? Is this something they would be receptive to adding?",
+      "ptime": 1302000.0,
+      "dtime": 1899000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "Robert: ack",
+      "ptime": 1309000.0,
+      "dtime": 1906000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Ted Hardie",
+      "ptime": 1342000.0,
+      "dtime": 1939000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "***Ken Murchison just joined the room",
+      "ptime": 1371000.0,
+      "dtime": 1968000.0
+    },
+    {
+      "text": "Alexey at the mic",
+      "ptime": 1409000.0,
+      "dtime": 2006000.0,
+      "author": "Bron Gondwana"
+    },
+    {
+      "text": "SIP Forum tried to do the device configuration and couldn\u0027t get traction. This might be a good thing to see if we could BoF at SIPNOC.",
+      "ptime": 1410000.0,
+      "dtime": 2007000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Mary: relay?",
+      "ptime": 1433000.0,
+      "dtime": 2030000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Did I not say my name?  My apologies.",
+      "ptime": 1441000.0,
+      "dtime": 2038000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Exactly what Chris Wendt just said - that was the same with device configuration.  Jonathan you can relay if you don\u0027t mind.",
+      "ptime": 1540000.0,
+      "dtime": 2137000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Very few people are announcing their names -- please remind them",
+      "ptime": 1554000.0,
+      "dtime": 2151000.0,
+      "author": "John Klensin"
+    },
+    {
+      "text": "It just wasn\u0027t painful enough",
+      "ptime": 1569000.0,
+      "dtime": 2166000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Meetecho: confirmed better when he changed devices.  Linux dev laptop bad, Macbook good",
+      "ptime": 1577000.0,
+      "dtime": 2174000.0,
+      "author": "Bron Gondwana"
+    },
+    {
+      "text": "Side comment (not for mic) - In a previous job, when I worked with a company doing SIP applications in the cloud, we employed someone full-time doing SIP trunk interop and testing with ITSPs to get more SIP trunk capacity. Something like this could have helped make that all work easier.",
+      "ptime": 1578000.0,
+      "dtime": 2175000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "@Dan - yes, it could have helped in the past. But, people know how to make things work now.",
+      "ptime": 1602000.0,
+      "dtime": 2199000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Bron Gondwana: ack!",
+      "ptime": 1602000.0,
+      "dtime": 2199000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "It doesn\u0027t matter either way - you still need to agree common information.",
+      "ptime": 1650000.0,
+      "dtime": 2247000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "***Zhaobo Zhang just joined the room",
+      "ptime": 1759000.0,
+      "dtime": 2356000.0
+    },
+    {
+      "text": "this is very not sipcore",
+      "ptime": 1759000.0,
+      "dtime": 2356000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "Brian Rosen at the mic",
+      "ptime": 1777000.0,
+      "dtime": 2374000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "there\u0027s no actual SIP there, just nouns about sip/rtp things",
+      "ptime": 1779000.0,
+      "dtime": 2376000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "Robert: relay?",
+      "ptime": 1791000.0,
+      "dtime": 2388000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "sure",
+      "ptime": 1800000.0,
+      "dtime": 2397000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "I think a mini-WG is better given OPS/management type stuff.  You can relay.",
+      "ptime": 1827000.0,
+      "dtime": 2424000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "And, I agree with Jon P about MODERN.   If stuff works, there is no impetus for change.",
+      "ptime": 1852000.0,
+      "dtime": 2449000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Jonathan - you can relay please.",
+      "ptime": 1861000.0,
+      "dtime": 2458000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "About MODERN going no where",
+      "ptime": 1894000.0,
+      "dtime": 2491000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "***Ken Murchison just left the room",
+      "ptime": 1960000.0,
+      "dtime": 2557000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1961000.0,
+      "dtime": 2558000.0
+    },
+    {
+      "text": "***Ken Murchison just joined the room",
+      "ptime": 1979000.0,
+      "dtime": 2576000.0
+    },
+    {
+      "text": "Barry at the mic",
+      "ptime": 1986000.0,
+      "dtime": 2583000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Adam Roach",
+      "ptime": 1992000.0,
+      "dtime": 2589000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "***Zhaobo Zhang just left the room",
+      "ptime": 2018000.0,
+      "dtime": 2615000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2018000.0,
+      "dtime": 2615000.0
+    },
+    {
+      "text": "Anyone in jabber for participating (writing/reviwing)?",
+      "ptime": 2025000.0,
+      "dtime": 2622000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Cullen now presenting",
+      "ptime": 2124000.0,
+      "dtime": 2721000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Ted Hardie at the mic",
+      "ptime": 2395000.0,
+      "dtime": 2992000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "***Paul Kyzivat just joined the room",
+      "ptime": 2477000.0,
+      "dtime": 3074000.0
+    },
+    {
+      "text": "***Paul Kyzivat just left the room",
+      "ptime": 2607000.0,
+      "dtime": 3204000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2608000.0,
+      "dtime": 3205000.0
+    },
+    {
+      "text": "***Paul Kyzivat just joined the room",
+      "ptime": 2635000.0,
+      "dtime": 3232000.0
+    },
+    {
+      "text": "Bernard Aboba, Chris Wendt",
+      "ptime": 2837000.0,
+      "dtime": 3434000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Erk at mic",
+      "ptime": 3312000.0,
+      "dtime": 3909000.0,
+      "author": "Aaron Falk"
+    },
+    {
+      "text": "Jon Peterson at mic",
+      "ptime": 3316000.0,
+      "dtime": 3913000.0,
+      "author": "Aaron Falk"
+    },
+    {
+      "text": "Brian Rosen at mic",
+      "ptime": 3320000.0,
+      "dtime": 3917000.0,
+      "author": "Aaron Falk"
+    },
+    {
+      "text": "Mo Zanaty",
+      "ptime": 3348000.0,
+      "dtime": 3945000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Ekr",
+      "ptime": 3378000.0,
+      "dtime": 3975000.0,
+      "author": "Aaron Falk"
+    },
+    {
+      "text": "This is too big for a mini0",
+      "ptime": 3486000.0,
+      "dtime": 4083000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "..WG.  This needs a full BoF",
+      "ptime": 3496000.0,
+      "dtime": 4093000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Me, off-mic: mini-Area",
+      "ptime": 3504000.0,
+      "dtime": 4101000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": ":)",
+      "ptime": 3528000.0,
+      "dtime": 4125000.0,
+      "author": "Mary Barnes"
+    },
+    {
+      "text": "Wee Task Force (WTF?)",
+      "ptime": 3618000.0,
+      "dtime": 4215000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Brian Rosen",
+      "ptime": 3761000.0,
+      "dtime": 4358000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "SIP 3.0 it is, then.",
+      "ptime": 3811000.0,
+      "dtime": 4408000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "(off-mic) Yes, we saw that with SIP... it started out simple, and then so many people wanted to add their favorite PSTN \"feature\", and pretty soon SIP became far too complex.",
+      "ptime": 3893000.0,
+      "dtime": 4490000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "mic: Cullen - right now, you own the delay. Give EKR the discussion he was looking for, for example.",
+      "ptime": 4063000.0,
+      "dtime": 4660000.0,
+      "author": "Robert Sparks"
+    },
+    {
+      "text": "Alissa Cooper",
+      "ptime": 4244000.0,
+      "dtime": 4841000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Ted Hardie",
+      "ptime": 4299000.0,
+      "dtime": 4896000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Adam Roach",
+      "ptime": 5499000.0,
+      "dtime": 6096000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Matt Miller",
+      "ptime": 5506000.0,
+      "dtime": 6103000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "***Dan York just left the room",
+      "ptime": 5556000.0,
+      "dtime": 6153000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5556000.0,
+      "dtime": 6153000.0
+    },
+    {
+      "text": "Chris Wendt",
+      "ptime": 5652000.0,
+      "dtime": 6249000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Neil Jenkins",
+      "ptime": 5738000.0,
+      "dtime": 6335000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Dovecot will be engaged in this work",
+      "ptime": 5856000.0,
+      "dtime": 6453000.0,
+      "author": "Michael Slusarz"
+    },
+    {
+      "text": "Putting hand up",
+      "ptime": 5876000.0,
+      "dtime": 6473000.0,
+      "author": "Michael Slusarz"
+    },
+    {
+      "text": "Michael: I relayed you",
+      "ptime": 5884000.0,
+      "dtime": 6481000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Cullen Jennings, then Ted Hardie",
+      "ptime": 6072000.0,
+      "dtime": 6669000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "https://xkcd.com/927/",
+      "ptime": 6123000.0,
+      "dtime": 6720000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Mike Jones",
+      "ptime": 6126000.0,
+      "dtime": 6723000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Mark Nottingham",
+      "ptime": 6237000.0,
+      "dtime": 6834000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "Carsten Bormann",
+      "ptime": 6347000.0,
+      "dtime": 6944000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "John Bradley",
+      "ptime": 6421000.0,
+      "dtime": 7018000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "***Paul Kyzivat just left the room",
+      "ptime": 6613000.0,
+      "dtime": 7210000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6613000.0,
+      "dtime": 7210000.0
+    },
+    {
+      "text": "***Michael Slusarz just left the room",
+      "ptime": 6633000.0,
+      "dtime": 7230000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6633000.0,
+      "dtime": 7230000.0
+    },
+    {
+      "text": "***Alice Mahoney just left the room",
+      "ptime": 6635000.0,
+      "dtime": 7232000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6635000.0,
+      "dtime": 7232000.0
+    },
+    {
+      "text": "***fumiaki tsutsuji just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***Tim McSweeney just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***John Klensin just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***Ken Murchison just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***Robert Sparks just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***Greg Deeds just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***Mary Barnes just left the room",
+      "ptime": 6636000.0,
+      "dtime": 7233000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6637000.0,
+      "dtime": 7234000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6637000.0,
+      "dtime": 7234000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6637000.0,
+      "dtime": 7234000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6637000.0,
+      "dtime": 7234000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6637000.0,
+      "dtime": 7234000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 6637000.0,
+      "dtime": 7234000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-DISPATCH-20191118-1000"
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "title": "IETF106-IPSECME-20191121-1550",
+  "filename": "IETF106-IPSECME-20191121-1550",
+  "start": 0,
+  "end": 5547000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "yz5qZTLtHzU",
+      "start": 0.0,
+      "end": 5547000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "prefix comments for the mic with MIC: please",
+      "ptime": 107000.0,
+      "dtime": 313000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "Hi, Paul",
+      "ptime": 143000.0,
+      "dtime": 349000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Leonie Bruckert just left the room",
+      "ptime": 143000.0,
+      "dtime": 349000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 144000.0,
+      "dtime": 350000.0
+    },
+    {
+      "text": "***Leonie Bruckert just joined the room",
+      "ptime": 149000.0,
+      "dtime": 355000.0
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/106/materials/slides-106-ipsecme-chair-slides-02",
+      "ptime": 161000.0,
+      "dtime": 367000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 212000.0,
+      "dtime": 418000.0
+    },
+    {
+      "text": "***Ching-Heng Ku just joined the room",
+      "ptime": 226000.0,
+      "dtime": 432000.0
+    },
+    {
+      "text": "***Valery Smyslov just joined the room",
+      "ptime": 251000.0,
+      "dtime": 457000.0
+    },
+    {
+      "text": "It\u0027s OK",
+      "ptime": 320000.0,
+      "dtime": 526000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Ching-Heng Ku just left the room",
+      "ptime": 331000.0,
+      "dtime": 537000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 331000.0,
+      "dtime": 537000.0
+    },
+    {
+      "text": "***Ching-Heng Ku just joined the room",
+      "ptime": 334000.0,
+      "dtime": 540000.0
+    },
+    {
+      "text": "ben: is it okay now. i hear tero echoing in the room ?",
+      "ptime": 361000.0,
+      "dtime": 567000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Tobias Heider just joined the room",
+      "ptime": 380000.0,
+      "dtime": 586000.0
+    },
+    {
+      "text": "***Leonie Bruckert just left the room",
+      "ptime": 404000.0,
+      "dtime": 610000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 405000.0,
+      "dtime": 611000.0
+    },
+    {
+      "text": "***Leonie Bruckert just joined the room",
+      "ptime": 407000.0,
+      "dtime": 613000.0
+    },
+    {
+      "text": "Daniel: slide said my draft is not posted yet, it is posted now.",
+      "ptime": 414000.0,
+      "dtime": 620000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/106/materials/slides-106-ipsecme-hybrid-qske-for-ikev2-interoperability-testing-event-01",
+      "ptime": 417000.0,
+      "dtime": 623000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Leonie Bruckert just left the room",
+      "ptime": 448000.0,
+      "dtime": 654000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 449000.0,
+      "dtime": 655000.0
+    },
+    {
+      "text": "***Leonie Bruckert just joined the room",
+      "ptime": 475000.0,
+      "dtime": 681000.0
+    },
+    {
+      "text": "***Mohamed Boucadair just joined the room",
+      "ptime": 559000.0,
+      "dtime": 765000.0
+    },
+    {
+      "text": "jokes around requesting of early code point. which was just done 1 minute before meeting",
+      "ptime": 566000.0,
+      "dtime": 772000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "sean turner: do you plan to submit to implementation report?",
+      "ptime": 607000.0,
+      "dtime": 813000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "sean: this is a place to advertise interoperability",
+      "ptime": 624000.0,
+      "dtime": 830000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "john Hammel?   did you test child rekey.",
+      "ptime": 639000.0,
+      "dtime": 845000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "valery: only had 1 implementation, so could not test",
+      "ptime": 654000.0,
+      "dtime": 860000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "valery: strongswan has some concerns about how rekeying is specified",
+      "ptime": 688000.0,
+      "dtime": 894000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "valery: we will have discussion with authors",
+      "ptime": 710000.0,
+      "dtime": 916000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Stefan-Lukas Gazdag just joined the room",
+      "ptime": 764000.0,
+      "dtime": 970000.0
+    },
+    {
+      "text": "valery: not many comments on draft, mostly from authors only",
+      "ptime": 768000.0,
+      "dtime": 974000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/106/materials/slides-106-ipsecme-ip-traffic-flow-security-00",
+      "ptime": 793000.0,
+      "dtime": 999000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Tobias Guggemos just joined the room",
+      "ptime": 1106000.0,
+      "dtime": 1312000.0
+    },
+    {
+      "text": "***Mohamed Boucadair just left the room",
+      "ptime": 1133000.0,
+      "dtime": 1339000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1133000.0,
+      "dtime": 1339000.0
+    },
+    {
+      "text": "valery: you seem to leave out transport mode? any reason ?",
+      "ptime": 1266000.0,
+      "dtime": 1472000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "christian: because we chop up packets",
+      "ptime": 1312000.0,
+      "dtime": 1518000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "christian: you also leak more data in transport mode. why worry about other analyses",
+      "ptime": 1340000.0,
+      "dtime": 1546000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "valery: I\u0027m not so sure",
+      "ptime": 1346000.0,
+      "dtime": 1552000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "valery: you want to allocate a new protocol number?",
+      "ptime": 1363000.0,
+      "dtime": 1569000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "valery: is it only used on ESP trailer ?",
+      "ptime": 1372000.0,
+      "dtime": 1578000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Tuomo Soini just joined the room",
+      "ptime": 1385000.0,
+      "dtime": 1591000.0
+    },
+    {
+      "text": "valery: do you really need it ?",
+      "ptime": 1390000.0,
+      "dtime": 1596000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "christian: it is easier to get an ip number, then to create a new registry",
+      "ptime": 1425000.0,
+      "dtime": 1631000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "Ben Kadek:  an IP number is kind of a big deal",
+      "ptime": 1454000.0,
+      "dtime": 1660000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "The protocol number is the IPv6 extension header type, no?  Since this one is used only in the ESP header, we might as well standardize on using one of the reserved ones (253 or 254), no?",
+      "ptime": 1492000.0,
+      "dtime": 1698000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Ben: you need to add machinery for this. issues with alignment.... can we make it something very simple.",
+      "ptime": 1524000.0,
+      "dtime": 1730000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "christian: 32bit alignment",
+      "ptime": 1532000.0,
+      "dtime": 1738000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "Tero: for protocol nunmber. we only need it in ESP trailer. we can do without  it",
+      "ptime": 1549000.0,
+      "dtime": 1755000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "tero: there is protocol number 0",
+      "ptime": 1562000.0,
+      "dtime": 1768000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml",
+      "ptime": 1574000.0,
+      "dtime": 1780000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Tero: ipv6 does something similar",
+      "ptime": 1576000.0,
+      "dtime": 1782000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "Right.  253-255 are reserved",
+      "ptime": 1582000.0,
+      "dtime": 1788000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Tero: other option is using \"wrapped ESP\"",
+      "ptime": 1603000.0,
+      "dtime": 1809000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "(OK, 253 and 254 is \"for experimentation\")",
+      "ptime": 1608000.0,
+      "dtime": 1814000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Tero: third option: since it is negotiated. this traffic is always going to be this multiplexed traffic. we can say protocol number is ignored",
+      "ptime": 1648000.0,
+      "dtime": 1854000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "michael richardson:  clarifying question for Tero: if we use wrapped ESP that would be the protocol of the outer thing or the next header within ESP.",
+      "ptime": 1692000.0,
+      "dtime": 1898000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "Tero: i would do it as outer/ real ip header",
+      "ptime": 1704000.0,
+      "dtime": 1910000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "tero: we can reserve one more bit there",
+      "ptime": 1716000.0,
+      "dtime": 1922000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "michael:  when we do ESP over UDP the outer IP header says UDP and we only know it is ESP because we negotiated it. we could not put wrapped ESP there",
+      "ptime": 1757000.0,
+      "dtime": 1963000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "tero: wrapped esp defines how to do this. it uses special SPI numbers",
+      "ptime": 1775000.0,
+      "dtime": 1981000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "christian: we should not be so scared asking for ip number.",
+      "ptime": 1830000.0,
+      "dtime": 2036000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "christian: we could ask for private number",
+      "ptime": 1836000.0,
+      "dtime": 2042000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "david: lets talk elsewhere. we need to move on",
+      "ptime": 1867000.0,
+      "dtime": 2073000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "AFK :)",
+      "ptime": 1870000.0,
+      "dtime": 2076000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***serge-parfait goma just joined the room",
+      "ptime": 1978000.0,
+      "dtime": 2184000.0
+    },
+    {
+      "text": "***serge-parfait goma just left the room",
+      "ptime": 2322000.0,
+      "dtime": 2528000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2322000.0,
+      "dtime": 2528000.0
+    },
+    {
+      "text": "I like the notify payload better. All implementations deal correctly with unknown notify payloads (there\u0027s so many of them).  Nobody added new TS types so far. Who knows what implementations will do",
+      "ptime": 2458000.0,
+      "dtime": 2664000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Sorry",
+      "ptime": 2488000.0,
+      "dtime": 2694000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "mic: I like the notify payload better. All implementations deal correctly with unknown notify payloads (there\u0027s so many of them). Nobody added new TS types so far. Who knows what implementations will do",
+      "ptime": 2490000.0,
+      "dtime": 2696000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Stefan-Lukas Gazdag just left the room",
+      "ptime": 2493000.0,
+      "dtime": 2699000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2494000.0,
+      "dtime": 2700000.0
+    },
+    {
+      "text": "Sure",
+      "ptime": 2557000.0,
+      "dtime": 2763000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Of course this doesn\u0027t apply to Paul\u0027s implementation on mine, that are totally standards-compliant and bug-free, but all those other implementations around...",
+      "ptime": 2662000.0,
+      "dtime": 2868000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Stefan-Lukas Gazdag just joined the room",
+      "ptime": 2683000.0,
+      "dtime": 2889000.0
+    },
+    {
+      "text": "hummmmm",
+      "ptime": 2857000.0,
+      "dtime": 3063000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "hummmmm",
+      "ptime": 2864000.0,
+      "dtime": 3070000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Tero is right: if the peer doesn\u0027t understand the NOTIFY, the SA comes up and it doesn\u0027t have labels and that\u0027s not what you\u0027ve wanted.  So yes, I understand and have concerns",
+      "ptime": 2901000.0,
+      "dtime": 3107000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "yoav: but tero also said: you should never do this to someone who doesnt understand this anyway",
+      "ptime": 2922000.0,
+      "dtime": 3128000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "(and that also applies for new TS TYPEs which are the alternatives)",
+      "ptime": 2932000.0,
+      "dtime": 3138000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/106/materials/slides-106-ipsecme-ikev2-optional-sats-payloads-in-child-exchange-00",
+      "ptime": 2956000.0,
+      "dtime": 3162000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "misconfiguration happens all the time",
+      "ptime": 2967000.0,
+      "dtime": 3173000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "That\u0027s the reason the TLS working group keeps rejecting \"data-center only\" extensions",
+      "ptime": 2991000.0,
+      "dtime": 3197000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "They don\u0027t stay in the DC",
+      "ptime": 3005000.0,
+      "dtime": 3211000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Antony Antony just joined the room",
+      "ptime": 3069000.0,
+      "dtime": 3275000.0
+    },
+    {
+      "text": "***Valery Smyslov just left the room",
+      "ptime": 3138000.0,
+      "dtime": 3344000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3139000.0,
+      "dtime": 3345000.0
+    },
+    {
+      "text": "A policy change is so rare that you can probably suffer a failed rekey when this happens.  I don\u0027t think this is a problem",
+      "ptime": 3427000.0,
+      "dtime": 3633000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Ching-Heng Ku just left the room",
+      "ptime": 3469000.0,
+      "dtime": 3675000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3469000.0,
+      "dtime": 3675000.0
+    },
+    {
+      "text": "mic: Why two separate notifications: SA_UNCHANGED and SA_TS_UNCHANGED? The first is for phase 1 the second for phase 2.  There\u0027s no ambiguity. You might as well use one.",
+      "ptime": 3611000.0,
+      "dtime": 3817000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "david: are there IPR concners?",
+      "ptime": 3751000.0,
+      "dtime": 3957000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "presenter: there is a IPR release",
+      "ptime": 3784000.0,
+      "dtime": 3990000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "Sean: reasonable non-discriminatory",
+      "ptime": 3809000.0,
+      "dtime": 4015000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Tobias Heider just left the room",
+      "ptime": 3849000.0,
+      "dtime": 4055000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3849000.0,
+      "dtime": 4055000.0
+    },
+    {
+      "text": "Ben (AD):   review of charter text in a week or two",
+      "ptime": 3900000.0,
+      "dtime": 4106000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Tobias Heider just joined the room",
+      "ptime": 3916000.0,
+      "dtime": 4122000.0
+    },
+    {
+      "text": "Tero: so we need to update charter anyway ?",
+      "ptime": 3924000.0,
+      "dtime": 4130000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Tobias Heider just left the room",
+      "ptime": 4025000.0,
+      "dtime": 4231000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4025000.0,
+      "dtime": 4231000.0
+    },
+    {
+      "text": "***Tobias Heider just joined the room",
+      "ptime": 4028000.0,
+      "dtime": 4234000.0
+    },
+    {
+      "text": "***Stefan-Lukas Gazdag just left the room",
+      "ptime": 4074000.0,
+      "dtime": 4280000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4074000.0,
+      "dtime": 4280000.0
+    },
+    {
+      "text": "***Valery Smyslov just joined the room",
+      "ptime": 4191000.0,
+      "dtime": 4397000.0
+    },
+    {
+      "text": "***Stefan-Lukas Gazdag just joined the room",
+      "ptime": 4309000.0,
+      "dtime": 4515000.0
+    },
+    {
+      "text": "***Tobias Heider just left the room",
+      "ptime": 4334000.0,
+      "dtime": 4540000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4334000.0,
+      "dtime": 4540000.0
+    },
+    {
+      "text": "***Tobias Heider just joined the room",
+      "ptime": 4399000.0,
+      "dtime": 4605000.0
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/106/materials/slides-106-ipsecme-an-alternative-approach-for-postquantum-preshared-keys-in-ikev2-00",
+      "ptime": 4676000.0,
+      "dtime": 4882000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/106/materials/slides-106-ipsecme-draft-mglt-ipsecme-multiple-child-sa-00",
+      "ptime": 5020000.0,
+      "dtime": 5226000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 5209000.0,
+      "dtime": 5415000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5210000.0,
+      "dtime": 5416000.0
+    },
+    {
+      "text": "Seems like a good companion for RFC 6027.  Not sure it\u0027s worth it.  CREATE_CHILD_SA is pretty quick and efficient.",
+      "ptime": 5238000.0,
+      "dtime": 5444000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Sorry.  6311.  6027 was the problem statement",
+      "ptime": 5290000.0,
+      "dtime": 5496000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Valery Smyslov just left the room",
+      "ptime": 5444000.0,
+      "dtime": 5650000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5445000.0,
+      "dtime": 5651000.0
+    },
+    {
+      "text": "***Stefan-Lukas Gazdag just left the room",
+      "ptime": 5506000.0,
+      "dtime": 5712000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5506000.0,
+      "dtime": 5712000.0
+    },
+    {
+      "text": "It\u0027s also exciting for security gateways.  You have a dozen SAs on one side, and a dozen SAs on the other.  What you want is for them to be paired based on \"connections\".  So if packets of one TCP connection are encrypted one way with one core, you want the responses going back to the same core.  That\u0027s hard to manage, but it\u0027s required for firewalls that co-exist with the VPN gateway",
+      "ptime": 5508000.0,
+      "dtime": 5714000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Daniel Van Geest just left the room",
+      "ptime": 5515000.0,
+      "dtime": 5721000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5515000.0,
+      "dtime": 5721000.0
+    },
+    {
+      "text": "***CJ Tjhai just left the room",
+      "ptime": 5516000.0,
+      "dtime": 5722000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5516000.0,
+      "dtime": 5722000.0
+    },
+    {
+      "text": "***John Mah just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***Tuomo Soini just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***Tobias Guggemos just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***Leonie Bruckert just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***Tobias Heider just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***Yoav Nir just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***Antony Antony just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5546000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 5547000.0,
+      "dtime": 5753000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-IPSECME-20191121-1550"
+    }
+  ]
+}

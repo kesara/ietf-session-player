@@ -1,0 +1,182 @@
+
+{
+	"title": "IETF118-OPSAWG-20231108-1200",
+	"filename": "IETF118-OPSAWG-20231108-1200",
+	"start": 0,
+	"end": 3746000,
+	"start_datetime": "2023-11-08T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "RRONSphEVkk",
+    "start": 0,
+    "end": "3746000"
+  }
+],
+	"messages": [
+  {
+    "author": "Joe Clarke",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-118-opsawg\">https://notes.ietf.org/notes-ietf-118-opsawg#</a></p>",
+    "topic": "ietf-118",
+    "dtime": 187000,
+    "ptime": 187000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Notes for this slot are at the bottom of the notes page.  You'll see the section for session II.</p>",
+    "topic": "ietf-118",
+    "dtime": 277000,
+    "ptime": 277000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>ADs can rat hole too</p>",
+    "topic": "ietf-118",
+    "dtime": 1181000,
+    "ptime": 1181000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>on this topic being power usage/measurement stuff</p>",
+    "topic": "ietf-118",
+    "dtime": 1284000,
+    "ptime": 1284000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>s/can/do/ .. ?</p>",
+    "topic": "ietf-118",
+    "dtime": 1377000,
+    "ptime": 1377000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>A reminder that the NomCom feedback cycle is still open. In addition to providing AD feedback, please please also provide IAB feedback....</p>",
+    "topic": "ietf-118",
+    "dtime": 1483000,
+    "ptime": 1483000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Sorry, @Anthony.  Didn't have this window open.  Yes, the poll was for the topic of energy management/monitoring.</p>",
+    "topic": "ietf-118",
+    "dtime": 1508000,
+    "ptime": 1508000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p><a href=\"https://datatracker.ietf.org/nomcom/2023/feedback/\">https://datatracker.ietf.org/nomcom/2023/feedback/</a>  -- I can't really make it much easier than this....</p>",
+    "topic": "ietf-118",
+    "dtime": 1567000,
+    "ptime": 1567000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>Re: draft-rcr-opsawg-operational-compute-metrics - I would suggest at least trying to present this work in CATS to see if what interest/overlap is there.</p>",
+    "topic": "ietf-118",
+    "dtime": 2119000,
+    "ptime": 2119000
+  },
+  {
+    "author": "Jordi Ros-Giralt",
+    "text": "<p>Robert, yes, in addition to this afternoon's side meeting, we will be presenting the draft in CATS on Friday.</p>",
+    "topic": "ietf-118",
+    "dtime": 2183000,
+    "ptime": 2183000
+  },
+  {
+    "author": "Tianran Zhou",
+    "text": "<p>If metrics are in the CATS charter, I think it's  the place. Otherwise, maybe IPPM is generally a place for metrics.</p>",
+    "topic": "ietf-118",
+    "dtime": 2361000,
+    "ptime": 2361000
+  },
+  {
+    "author": "Jordi Ros-Giralt",
+    "text": "<p>Adrian brought up one of the four questions we are targeting to get rough consensus on, which is: do we think there exist a common set of compute metrics?</p>\n<p>It seems to me that there is a need to have a holistic approach and that a common set of metrics are applicable to all stages of the service lifecycle (although a stage might have additional metrics specific for it). An analogy we are used to understand might help here. The two key service lifecycle stages (service deployment and service selection) are equivalent to the two main lifecycle stages of a communication network: (1) \"capacity planning\" and (2) \"traffic engineering\". Capacity planning deals with provisioning the right disposition of resources (say for example bandwidth and latency) to provide a communication service to a set of users. Once these resources are deployed, traffic engineering kicks in, which deals with how these resources (the same bandwidth and latency provisioned in the first stage) are utilized. These are distinct stages in the lifecycle, but they deal with the same core metrics (bw and latency). It is important that these metrics are defined taking the whole process into account, to ensure that the second stage in the lifecycle makes decisions based on metrics that are aligned with the resources deployed in the first stage.</p>\n<p>Based on this view, we agree that not all metrics are common, but some would be, and they would need to be specified taking into account the full lifecycle, rather than just one stage of it. We plan to bring this question up during today's side meeting (Karlin 4 at 15:30) and we look forward to everyone's input. Thanks.</p>",
+    "topic": "ietf-118",
+    "dtime": 2722000,
+    "ptime": 2722000
+  },
+  {
+    "author": "Robert Wills",
+    "text": "<p>What is the RFC number Italo just referenced?</p>",
+    "topic": "ietf-118",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I think he is pointing to rfc8795</p>",
+    "topic": "ietf-118",
+    "dtime": 2833000,
+    "ptime": 2833000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p>RFC8795: YANG Data Model for Traffic Engineering (TE) Topologies</p>",
+    "topic": "ietf-118",
+    "dtime": 2841000,
+    "ptime": 2841000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p>On Friday in TEAS WG, we are discussing the option to define some profiles for the TE topology for non-TE applications</p>",
+    "topic": "ietf-118",
+    "dtime": 2874000,
+    "ptime": 2874000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Some profiling would be needed I guess</p>",
+    "topic": "ietf-118",
+    "dtime": 2875000,
+    "ptime": 2875000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>@Rob Wills, please note an AI for us to query on-list for appetite to take on bis work for 8345.  This can kick of some additional discussion around the topic.</p>",
+    "topic": "ietf-118",
+    "dtime": 2967000,
+    "ptime": 2967000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>this draft is reusing ietf-schedule common model presented early this week in opsawg</p>",
+    "topic": "ietf-118",
+    "dtime": 3334000,
+    "ptime": 3334000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Yeah, I noticed that.</p>",
+    "topic": "ietf-118",
+    "dtime": 3345000,
+    "ptime": 3345000
+  },
+  {
+    "author": "Robert Wills",
+    "text": "<p>AI added to minutes.</p>",
+    "topic": "ietf-118",
+    "dtime": 3578000,
+    "ptime": 3578000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-OPSAWG-20231108-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/opsawg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-OPSAWG-20231108-1200"
+		}		
+	]
+}

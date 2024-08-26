@@ -1,0 +1,418 @@
+{
+  "title": "IETF98-IDR-20170331-0900",
+  "filename": "IETF98-IDR-20170331-0900.json",
+  "start": 0,
+  "end": 9026000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2,
+      "src": "MejEZFIEV4c",
+      "start": 0,
+      "end": 9026000
+    }
+  ],
+  "messages": [
+    {
+      "text": "***poorna B just joined the room",
+      "ptime": 21000,
+      "dtime": 810000
+    },
+    {
+      "text": "***Andrei Robachevsky just joined the room",
+      "ptime": 88000,
+      "dtime": 877000
+    },
+    {
+      "text": "folks I am jabber scribing",
+      "ptime": 231000,
+      "dtime": 1020000,
+      "author": "Wes George"
+    },
+    {
+      "text": "anyone not following along on meetecho?",
+      "ptime": 240000,
+      "dtime": 1029000,
+      "author": "Wes George"
+    },
+    {
+      "text": "***Robert Butler just joined the room",
+      "ptime": 286000,
+      "dtime": 1075000
+    },
+    {
+      "text": "Yes - just joined",
+      "ptime": 306000,
+      "dtime": 1095000,
+      "author": "Robert Butler"
+    },
+    {
+      "text": "ok, since meetecho covers slides, I???ll just watch to carry comments to the mic",
+      "ptime": 328000,
+      "dtime": 1117000,
+      "author": "Wes George"
+    },
+    {
+      "text": "but you do use meet echo, don???t you?",
+      "ptime": 337000,
+      "dtime": 1126000,
+      "author": "Martin Horneffer"
+    },
+    {
+      "text": "if you want something said at the mic, please precede your comment with MIC:",
+      "ptime": 349000,
+      "dtime": 1138000,
+      "author": "Wes George"
+    },
+    {
+      "text": "Yes. Thanks",
+      "ptime": 352000,
+      "dtime": 1141000,
+      "author": "Robert Butler"
+    },
+    {
+      "text": "Ok",
+      "ptime": 359000,
+      "dtime": 1148000,
+      "author": "Robert Butler"
+    },
+    {
+      "text": "***Kamran Raza just joined the room",
+      "ptime": 436000,
+      "dtime": 1225000
+    },
+    {
+      "text": "***Eric Rosen just joined the room",
+      "ptime": 510000,
+      "dtime": 1299000
+    },
+    {
+      "text": "Thank you Wes",
+      "ptime": 545000,
+      "dtime": 1334000,
+      "author": "Andrei Robachevsky"
+    },
+    {
+      "text": "***richie g just joined the room",
+      "ptime": 564000,
+      "dtime": 1353000
+    },
+    {
+      "text": "***Keyur Patel just joined the room",
+      "ptime": 997000,
+      "dtime": 1786000
+    },
+    {
+      "text": "***Kamran Raza just left the room",
+      "ptime": 1840000,
+      "dtime": 2629000
+    },
+    {
+      "text": "***Kamran Raza just joined the room",
+      "ptime": 1899000,
+      "dtime": 2688000
+    },
+    {
+      "text": "***Carlos Martinez just joined the room",
+      "ptime": 2124000,
+      "dtime": 2913000
+    },
+    {
+      "text": "***Carlos Martinez just left the room",
+      "ptime": 2341000,
+      "dtime": 3130000
+    },
+    {
+      "text": "***Juan Cerezo just joined the room",
+      "ptime": 3455000,
+      "dtime": 4244000
+    },
+    {
+      "text": "***Andrei Robachevsky just left the room",
+      "ptime": 3561000,
+      "dtime": 4350000
+    },
+    {
+      "text": "MIC:@tony - Ideally if LLDP packets are lost you have much bigger problem wrt discovery. Having said that we could augment the text to make it bit more robust",
+      "ptime": 4881000,
+      "dtime": 5670000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "@tony - completly agree about his comments about tweaking the transport",
+      "ptime": 4910000,
+      "dtime": 5699000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "***IBN KHEDHER Hatem just joined the room",
+      "ptime": 4986000,
+      "dtime": 5775000
+    },
+    {
+      "text": "MIC: @Jeff - Yep a group ID makes sense.",
+      "ptime": 5034000,
+      "dtime": 5823000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "***IBN KHEDHER Hatem just left the room",
+      "ptime": 5086000,
+      "dtime": 5875000
+    },
+    {
+      "text": "MIC @Enke: LDP like discovery mechanism is a lot heavier. The biggest adv of LLDP is that discovery is decoupled from the protocol namely BGP",
+      "ptime": 5289000,
+      "dtime": 6078000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "***jo e just left the room",
+      "ptime": 5302000,
+      "dtime": 6091000
+    },
+    {
+      "text": "Wes are you planning to channel the comments?",
+      "ptime": 5321000,
+      "dtime": 6110000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": ":)",
+      "ptime": 5322000,
+      "dtime": 6111000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "***Mohan Nanduri just joined the room",
+      "ptime": 5331000,
+      "dtime": 6120000
+    },
+    {
+      "text": "***Cathy Aronson just joined the room",
+      "ptime": 5359000,
+      "dtime": 6148000
+    },
+    {
+      "text": "When people are speaking of LDP, they refer to the MPLS thing, right?",
+      "ptime": 5381000,
+      "dtime": 6170000,
+      "author": "jch"
+    },
+    {
+      "text": "yes",
+      "ptime": 5415000,
+      "dtime": 6204000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "the LDP discovery aspect of the LDP protocol to be precise",
+      "ptime": 5432000,
+      "dtime": 6221000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "Ce",
+      "ptime": 5442000,
+      "dtime": 6231000,
+      "author": "jch"
+    },
+    {
+      "text": "Clear, thanks.",
+      "ptime": 5446000,
+      "dtime": 6235000,
+      "author": "jch"
+    },
+    {
+      "text": "sorry keyur, the window was hiding and I didn???t get notification someone was typing",
+      "ptime": 5487000,
+      "dtime": 6276000,
+      "author": "Wes George"
+    },
+    {
+      "text": "do you still need me to channel?",
+      "ptime": 5493000,
+      "dtime": 6282000,
+      "author": "Wes George"
+    },
+    {
+      "text": "yep",
+      "ptime": 5497000,
+      "dtime": 6286000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "that would be nice",
+      "ptime": 5502000,
+      "dtime": 6291000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "***Cathy Aronson just left the room",
+      "ptime": 5617000,
+      "dtime": 6406000
+    },
+    {
+      "text": "***Ashutosh Gupta just joined the room",
+      "ptime": 5683000,
+      "dtime": 6472000
+    },
+    {
+      "text": "***Satoru Matsushima just joined the room",
+      "ptime": 5857000,
+      "dtime": 6646000
+    },
+    {
+      "text": "MIC:Please take a look @ \"srv6 net pgm\" document.",
+      "ptime": 5959000,
+      "dtime": 6748000,
+      "author": "Kamran Raza"
+    },
+    {
+      "text": "Thanks Wes",
+      "ptime": 5966000,
+      "dtime": 6755000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "for channeling my comments",
+      "ptime": 5972000,
+      "dtime": 6761000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "Thanks.",
+      "ptime": 6009000,
+      "dtime": 6798000,
+      "author": "Kamran Raza"
+    },
+    {
+      "text": "***Kamran Raza just left the room",
+      "ptime": 6262000,
+      "dtime": 7051000
+    },
+    {
+      "text": "Huffman black magic?  DIfficult to believe.",
+      "ptime": 6483000,
+      "dtime": 7272000,
+      "author": "jch"
+    },
+    {
+      "text": "***Satoru Matsushima just left the room",
+      "ptime": 6837000,
+      "dtime": 7626000
+    },
+    {
+      "text": "***Gaurav Dawra just joined the room",
+      "ptime": 6842000,
+      "dtime": 7631000
+    },
+    {
+      "text": "***john heasley just joined the room",
+      "ptime": 6894000,
+      "dtime": 7683000
+    },
+    {
+      "text": "MIC: We have an IDR draft for extended messages. If the messages are extended with bigger window size how would this solution stack up considering convergence is paramount for BGP.",
+      "ptime": 6952000,
+      "dtime": 7741000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "ack",
+      "ptime": 7100000,
+      "dtime": 7889000,
+      "author": "Wes George"
+    },
+    {
+      "text": "the complexity of this is a disaster waiting to happen",
+      "ptime": 7285000,
+      "dtime": 8074000,
+      "author": "randy"
+    },
+    {
+      "text": "@wes: no need to repeat at mic",
+      "ptime": 7303000,
+      "dtime": 8092000,
+      "author": "randy"
+    },
+    {
+      "text": "***Gaurav Dawra just left the room",
+      "ptime": 7417000,
+      "dtime": 8206000
+    },
+    {
+      "text": "Tony P. should be a member of a heavy metal band ;-)",
+      "ptime": 7491000,
+      "dtime": 8280000,
+      "author": "jch"
+    },
+    {
+      "text": "***richie g just left the room",
+      "ptime": 7537000,
+      "dtime": 8326000
+    },
+    {
+      "text": "***Eric Rosen just left the room",
+      "ptime": 7602000,
+      "dtime": 8391000
+    },
+    {
+      "text": "***Lorenzo Martin Ma??alac just joined the room",
+      "ptime": 7700000,
+      "dtime": 8489000
+    },
+    {
+      "text": "***Gaurav Dawra just joined the room",
+      "ptime": 7800000,
+      "dtime": 8589000
+    },
+    {
+      "text": "MIC @tiger: I am not sure if the hello mechanism is needed inside bgp with keepalives",
+      "ptime": 8007000,
+      "dtime": 8796000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "there are discovery protocols",
+      "ptime": 8011000,
+      "dtime": 8800000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "there are discovery protocols",
+      "ptime": 8011000,
+      "dtime": 8800000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "lets leverage them and not load BGP up",
+      "ptime": 8023000,
+      "dtime": 8812000,
+      "author": "Keyur Patel"
+    },
+    {
+      "text": "***poorna B just left the room",
+      "ptime": 8512000,
+      "dtime": 9301000
+    },
+    {
+      "text": "***Lorenzo Martin Ma??alac just left the room",
+      "ptime": 8630000,
+      "dtime": 9419000
+    },
+    {
+      "text": "***Robert Butler just left the room",
+      "ptime": 8822000,
+      "dtime": 9611000
+    },
+    {
+      "text": "session ends",
+      "ptime": 8984000,
+      "dtime": 9773000,
+      "author": "Wes George"
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

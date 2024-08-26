@@ -1,0 +1,618 @@
+
+{
+	"title": "IETF112-RATS-20211112-1430",
+	"filename": "IETF112-RATS-20211112-1430",
+	"start": 0,
+	"end": 3883000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "WtDHFphabjI",
+    "start": 0,
+    "end": "3883000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 16000,
+    "ptime": 16000,
+    "author": "Brendan Moran",
+    "text": ":wave:<br/>"
+  },
+  {
+    "dtime": 458000,
+    "ptime": 458000,
+    "author": "Laurence Lundblade",
+    "text": "Yes, Dave is right<br/>"
+  },
+  {
+    "dtime": 498000,
+    "ptime": 498000,
+    "author": "Dave Thaler",
+    "text": "EATis a generic format nto specific to Evidence only<br/>"
+  },
+  {
+    "dtime": 504000,
+    "ptime": 504000,
+    "author": "Laurence Lundblade",
+    "text": "Agree with Kathleen<br/>"
+  },
+  {
+    "dtime": 531000,
+    "ptime": 531000,
+    "author": "Daniel Migault",
+    "text": "@ dave evidence and claims or only evidence ?<br/>"
+  },
+  {
+    "dtime": 537000,
+    "ptime": 537000,
+    "author": "Dave Thaler",
+    "text": "Please go read section 1.3.2 of the EAT spec<br/>"
+  },
+  {
+    "dtime": 564000,
+    "ptime": 564000,
+    "author": "Dave Thaler",
+    "text": "my point is the text description of EAT does not match the EAT spec.&nbsp;&nbsp;The overlap bubbles are fine I think<br/>"
+  },
+  {
+    "dtime": 591000,
+    "ptime": 591000,
+    "author": "Dave Thaler",
+    "text": "The claims defined in EAT can appear in eitehr Evidence or Attestation Results<br/>"
+  },
+  {
+    "dtime": 607000,
+    "ptime": 607000,
+    "author": "Dave Thaler",
+    "text": "(e.g., the verifier might copy them into attestation results if the appraisal policy says to do so)<br/>"
+  },
+  {
+    "dtime": 657000,
+    "ptime": 657000,
+    "author": "Daniel Migault",
+    "text": "@dave will read the section carefully. thanks.<br/>"
+  },
+  {
+    "dtime": 659000,
+    "ptime": 659000,
+    "author": "Dave Thaler",
+    "text": "the other two docs define additional claims that would only appear in Atetstation Results<br/>"
+  },
+  {
+    "dtime": 737000,
+    "ptime": 737000,
+    "author": "Hannes Tschofenig",
+    "text": "I am wondering how it was possible to create the confusion<br/>"
+  },
+  {
+    "dtime": 769000,
+    "ptime": 769000,
+    "author": "Kathleen Moriarty",
+    "text": "Dave - there is some overlap with attestation results and EAT, that should be trimmed down as some of what attestation results is doing was planned for in EAT for a while from previous meeting slides<br/>"
+  },
+  {
+    "dtime": 855000,
+    "ptime": 855000,
+    "author": "Hannes Tschofenig",
+    "text": "I don't understand the core of the discussion. Is this a discussion about document management, or conflicting views about how the solutions should look like?<br/>"
+  },
+  {
+    "dtime": 871000,
+    "ptime": 871000,
+    "author": "Dave Thaler",
+    "text": "Misspoke in my last comment above, which says \"other two docs\" should say \"attestation-results doc\".&nbsp;&nbsp;Attestationsets doc is different.<br/>"
+  },
+  {
+    "dtime": 896000,
+    "ptime": 896000,
+    "author": "Giridhar Mandyam",
+    "text": "All - someone please confirm that my notes are being transcribed on Etherpad<br/>"
+  },
+  {
+    "dtime": 913000,
+    "ptime": 913000,
+    "author": "Hannes Tschofenig",
+    "text": "Works fine, Giri<br/>"
+  },
+  {
+    "dtime": 916000,
+    "ptime": 916000,
+    "author": "Hannes Tschofenig",
+    "text": "You are doing a great job<br/>"
+  },
+  {
+    "dtime": 932000,
+    "ptime": 932000,
+    "author": "Giridhar Mandyam",
+    "text": "Appreciate it Hannes<br/>"
+  },
+  {
+    "dtime": 943000,
+    "ptime": 943000,
+    "author": "Daniel Migault",
+    "text": "@hannes my confusion was that misinterpreted at tester with attesting environment. I am clear now. Just needed to re-read the slide correctly. Thanks dave too.<br/>"
+  },
+  {
+    "dtime": 1107000,
+    "ptime": 1107000,
+    "author": "Dave Thaler",
+    "text": "+1 to Eric<br/>"
+  },
+  {
+    "dtime": 1132000,
+    "ptime": 1132000,
+    "author": "Henk Birkholz",
+    "text": "+1 to high-level conclusions being the focus of I'd voit<br/>"
+  },
+  {
+    "dtime": 1176000,
+    "ptime": 1176000,
+    "author": "Hannes Tschofenig",
+    "text": "You could write an architecture document ;-)<br/>"
+  },
+  {
+    "dtime": 1189000,
+    "ptime": 1189000,
+    "author": "Dave Thaler",
+    "text": "&lt;slaps Hannes&gt; :)<br/>"
+  },
+  {
+    "dtime": 1281000,
+    "ptime": 1281000,
+    "author": "Henk Birkholz",
+    "text": "Figure 9 in the arch says it all :wink:<br/>"
+  },
+  {
+    "dtime": 1435000,
+    "ptime": 1435000,
+    "author": "Daniel Migault",
+    "text": "I think it would be good to ship the architecture document so people coming have a way to start to jump into the wg.&nbsp;&nbsp;<br/>"
+  },
+  {
+    "dtime": 1533000,
+    "ptime": 1533000,
+    "author": "Kathleen Moriarty",
+    "text": "Yes, for the architecture draft, that will move soon based on the assessment of the WG on the IPR views.<br/>"
+  },
+  {
+    "dtime": 1562000,
+    "ptime": 1562000,
+    "author": "Daniel Migault",
+    "text": "@ Kathleen. good thanks.<br/>"
+  },
+  {
+    "dtime": 1792000,
+    "ptime": 1792000,
+    "author": "Dave Thaler",
+    "text": "DAA is not _limited_ to TCG even if that is a common case<br/>"
+  },
+  {
+    "dtime": 1818000,
+    "ptime": 1818000,
+    "author": "Thomas Hardjono",
+    "text": "DAA is already ISO standard<br/>"
+  },
+  {
+    "dtime": 1915000,
+    "ptime": 1915000,
+    "author": "Laurence Lundblade",
+    "text": "Would like to see the draft cover more than just TCG-oriented DAA.<br/>"
+  },
+  {
+    "dtime": 1950000,
+    "ptime": 1950000,
+    "author": "Wei Pan",
+    "text": "The adoption call email says \"Please provide feedback if you have concerns on adopting\", I don't have concerns so I didn't give feedback<br/>"
+  },
+  {
+    "dtime": 1959000,
+    "ptime": 1959000,
+    "author": "Thomas Hardjono",
+    "text": "Broadly, its about user privacy<br/>"
+  },
+  {
+    "dtime": 1962000,
+    "ptime": 1962000,
+    "author": "Dave Thaler",
+    "text": "agreed thomas and laurence<br/>"
+  },
+  {
+    "dtime": 2067000,
+    "ptime": 2067000,
+    "author": "Roman Danyliw",
+    "text": "Who would volunteer to work on it?<br/>"
+  },
+  {
+    "dtime": 2069000,
+    "ptime": 2069000,
+    "author": "Roman Danyliw",
+    "text": "Review it?<br/>"
+  },
+  {
+    "dtime": 2085000,
+    "ptime": 2085000,
+    "author": "Hannes Tschofenig",
+    "text": "It does not look like a lot of work because it only defines * terminology, and * mapping to an architecture document<br/>"
+  },
+  {
+    "dtime": 2099000,
+    "ptime": 2099000,
+    "author": "Laurence Lundblade",
+    "text": "Seems like it could be a lot of work and go a lot further than the existing draft.<br/>"
+  },
+  {
+    "dtime": 2110000,
+    "ptime": 2110000,
+    "author": "Daniel Migault",
+    "text": "but that is a 8 page doc.<br/>"
+  },
+  {
+    "dtime": 2112000,
+    "ptime": 2112000,
+    "author": "Hannes Tschofenig",
+    "text": "Today, it is more a paper exercise<br/>"
+  },
+  {
+    "dtime": 2116000,
+    "ptime": 2116000,
+    "author": "Ira McDonald",
+    "text": "RATS support for DAA (even outside the TCG TPM/DICE/whatever context) is important (e.g., for EU and some other markets)<br/>"
+  },
+  {
+    "dtime": 2145000,
+    "ptime": 2145000,
+    "author": "Thomas Hardjono",
+    "text": "Yes, I'm willing to work on DAA draft<br/>"
+  },
+  {
+    "dtime": 2170000,
+    "ptime": 2170000,
+    "author": "Chris Inacio",
+    "text": "what does it mean to \"not raise hand\" for you are willing to work on it.<br/>"
+  },
+  {
+    "dtime": 2187000,
+    "ptime": 2187000,
+    "author": "Hannes Tschofenig",
+    "text": "And what does it mean to work on the draft<br/>"
+  },
+  {
+    "dtime": 2189000,
+    "ptime": 2189000,
+    "author": "Dave Thaler",
+    "text": "they're happy that others volunteered :)<br/>"
+  },
+  {
+    "dtime": 2219000,
+    "ptime": 2219000,
+    "author": "Daniel Migault",
+    "text": "will review the draft<br/>"
+  },
+  {
+    "dtime": 2238000,
+    "ptime": 2238000,
+    "author": "Kathleen Moriarty",
+    "text": "The Attestation sets draft will develop with implementation experience and is short and should remain as such - shouldn't be too taxing<br/>"
+  },
+  {
+    "dtime": 2261000,
+    "ptime": 2261000,
+    "author": "Kathleen Moriarty",
+    "text": "Could there be a call for adoption on attestation sets as well?<br/>"
+  },
+  {
+    "dtime": 2286000,
+    "ptime": 2286000,
+    "author": "Kathleen Moriarty",
+    "text": "Interest? I do have external interest that will help with reviews and updates.<br/>"
+  },
+  {
+    "dtime": 2342000,
+    "ptime": 2342000,
+    "author": "Hannes Tschofenig",
+    "text": "Kathleen, are you then allowed to tick the box (on behalf of someone else)?<br/>"
+  },
+  {
+    "dtime": 2343000,
+    "ptime": 2343000,
+    "author": "Nancy Cam-Winget",
+    "text": "There are 2 items we need to address in open mic first: 1. discussion of EAT and TEEP updates as we need to assess WGLC readiness for EAT<br/>"
+  },
+  {
+    "dtime": 2350000,
+    "ptime": 2350000,
+    "author": "Nancy Cam-Winget",
+    "text": "(2) status of architecture draft<br/>"
+  },
+  {
+    "dtime": 2370000,
+    "ptime": 2370000,
+    "author": "Nancy Cam-Winget",
+    "text": "if we have time, we can do call for adoption for attestation results and attestation sets<br/>"
+  },
+  {
+    "dtime": 2539000,
+    "ptime": 2539000,
+    "author": "Kathleen Moriarty",
+    "text": "Hannes, No, I'm just saying more people will be contributing and hopefully will on list in time.<br/>"
+  },
+  {
+    "dtime": 2573000,
+    "ptime": 2573000,
+    "author": "Kathleen Moriarty",
+    "text": "There are some non posture assessment use cases that may result in some other contributions for what sets can mean.<br/>"
+  },
+  {
+    "dtime": 2683000,
+    "ptime": 2683000,
+    "author": "Hannes Tschofenig",
+    "text": "IMHO the DAA draft does not need a lot of review because it doesn't do much<br/>"
+  },
+  {
+    "dtime": 2720000,
+    "ptime": 2720000,
+    "author": "Roman Danyliw",
+    "text": "did audio drop or is it me?<br/>"
+  },
+  {
+    "dtime": 2722000,
+    "ptime": 2722000,
+    "author": "Daniel Migault",
+    "text": "I agree with Hannes, but I am wondering if there is anything I am missing.<br/>"
+  },
+  {
+    "dtime": 2738000,
+    "ptime": 2738000,
+    "author": "Daniel Migault",
+    "text": "@roman its you or at least not me.<br/>"
+  },
+  {
+    "dtime": 2746000,
+    "ptime": 2746000,
+    "author": "Hannes Tschofenig",
+    "text": "Audio is good here<br/>"
+  },
+  {
+    "dtime": 2748000,
+    "ptime": 2748000,
+    "author": "Daphanie Nisbeth",
+    "text": "I have audio still<br/>"
+  },
+  {
+    "dtime": 2751000,
+    "ptime": 2751000,
+    "author": "Ira McDonald",
+    "text": "audio is OK here<br/>"
+  },
+  {
+    "dtime": 2783000,
+    "ptime": 2783000,
+    "author": "Laurence Lundblade",
+    "text": "Agree that the current DAA draft is very small. I think it should be a lot larger to be a lot more useful. Or maybe there is some other draft(s).<br/>"
+  },
+  {
+    "dtime": 2802000,
+    "ptime": 2802000,
+    "author": "Hannes Tschofenig",
+    "text": "What is missing, Laurence?<br/>"
+  },
+  {
+    "dtime": 2814000,
+    "ptime": 2814000,
+    "author": "Hannes Tschofenig",
+    "text": "(Maybe I am not seeing the bigger picture)<br/>"
+  },
+  {
+    "dtime": 2846000,
+    "ptime": 2846000,
+    "author": "Roman Danyliw",
+    "text": "I need to do an off-line check whether this fits into the charter.<br/>"
+  },
+  {
+    "dtime": 2859000,
+    "ptime": 2859000,
+    "author": "Roman Danyliw",
+    "text": "Are we sure we have the bandwidth to work on this too?<br/>"
+  },
+  {
+    "dtime": 2886000,
+    "ptime": 2886000,
+    "author": "Ira McDonald",
+    "text": "Roman - \"this\" being DAA?<br/>"
+  },
+  {
+    "dtime": 2900000,
+    "ptime": 2900000,
+    "author": "Roman Danyliw",
+    "text": "No, this document, rats-corim<br/>"
+  },
+  {
+    "dtime": 2902000,
+    "ptime": 2902000,
+    "author": "Laurence Lundblade",
+    "text": "Specific details on how to use DAA with COSE, EAT and such. Something that is implementable. There are a variety of DAA algorithms. FIDO's DAA document is an example of what this could be.<br/>"
+  },
+  {
+    "dtime": 2951000,
+    "ptime": 2951000,
+    "author": "Hannes Tschofenig",
+    "text": "How do you manage the Github in the group? Are individual drafts listed in WG Github before adoption?<br/>"
+  },
+  {
+    "dtime": 2969000,
+    "ptime": 2969000,
+    "author": "Brendan Moran",
+    "text": "I would like to see CoRIM adopted *somewhere*; it's a natural artifact to carry within SUIT and it would be preferable to CoSWID for SUIT.<br/>"
+  },
+  {
+    "dtime": 3026000,
+    "ptime": 3026000,
+    "author": "Wei Pan",
+    "text": "@Hannes, the GW Github is ietf-rats-wg<br/>"
+  },
+  {
+    "dtime": 3122000,
+    "ptime": 3122000,
+    "author": "Daniel Migault",
+    "text": "regarding DAA I feel this is important for deployment for cloud provider so I think we should address it properly.<br/>"
+  },
+  {
+    "dtime": 3152000,
+    "ptime": 3152000,
+    "author": "Henk Birkholz",
+    "text": "Individual drafts are not in ietf-rats-wg before adoption<br/>"
+  },
+  {
+    "dtime": 3161000,
+    "ptime": 3161000,
+    "author": "Daniel Migault",
+    "text": "and if needed do what Laurence suggested.<br/>"
+  },
+  {
+    "dtime": 3179000,
+    "ptime": 3179000,
+    "author": "Giridhar Mandyam",
+    "text": "TEEP has failed to articulate what is required from the EAT draft.&nbsp;&nbsp;TEEP is requesting a class claim, but without any defined data structure.&nbsp;&nbsp;This would lead to defining a claim of cbor-any type in my opinion.<br/>"
+  },
+  {
+    "dtime": 3198000,
+    "ptime": 3198000,
+    "author": "Giridhar Mandyam",
+    "text": "It seems that a profile would be the best route.<br/>"
+  },
+  {
+    "dtime": 3401000,
+    "ptime": 3401000,
+    "author": "Daniel Migault",
+    "text": "@hannes +1<br/>"
+  },
+  {
+    "dtime": 3422000,
+    "ptime": 3422000,
+    "author": "Hannes Tschofenig",
+    "text": "A kind of \"pre-last call\"<br/>"
+  },
+  {
+    "dtime": 3442000,
+    "ptime": 3442000,
+    "author": "Dave Thaler",
+    "text": "Disagree Giri.&nbsp;&nbsp;TEEP articulated that the data structure is opaque, with a _preference_ for UUID.<br/>"
+  },
+  {
+    "dtime": 3469000,
+    "ptime": 3469000,
+    "author": "Roman Danyliw",
+    "text": "If this first WGLC would confirm consensus on everything but the TEEP coordination issues, that would be significant progress.<br/>"
+  },
+  {
+    "dtime": 3487000,
+    "ptime": 3487000,
+    "author": "Giridhar Mandyam",
+    "text": "Dave, then why was there disagreement over Laurence's PR - which was essentially opaque data?<br/>"
+  },
+  {
+    "dtime": 3493000,
+    "ptime": 3493000,
+    "author": "Hannes Tschofenig",
+    "text": "@Giri: Someone took meeting minutes from the discussion today in TEEP about this issue, see <a href=\"https://notes.ietf.org/notes-ietf-112-teep\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-112-teep</a><br/>"
+  },
+  {
+    "dtime": 3517000,
+    "ptime": 3517000,
+    "author": "Dave Thaler",
+    "text": "because that was start of the week and this is end of the week where it was a large topic of the session right before this one.<br/>"
+  },
+  {
+    "dtime": 3528000,
+    "ptime": 3528000,
+    "author": "Giridhar Mandyam",
+    "text": "OK - so a bstr is sufficient for this claim?<br/>"
+  },
+  {
+    "dtime": 3530000,
+    "ptime": 3530000,
+    "author": "Hannes Tschofenig",
+    "text": "@Giri: We just had the resolution a bit more than an hour ago<br/>"
+  },
+  {
+    "dtime": 3533000,
+    "ptime": 3533000,
+    "author": "Laurence Lundblade",
+    "text": "My trouble with class is 1) GitHub comments propose OID and URL, 2) Semantics of what is actually identified (is it a model number?) aren't clear.<br/>"
+  },
+  {
+    "dtime": 3581000,
+    "ptime": 3581000,
+    "author": "Dave Thaler",
+    "text": "@Giri bstr would be sufficient yes, but as mentioned in the email and in the issue today, preference is for UUID just because it ensures opaqueness where bstr might tempt people to insert structure.&nbsp;&nbsp; But as long as opaque, up to RATS WG to decide between UUID vs bstr.<br/>"
+  },
+  {
+    "dtime": 3605000,
+    "ptime": 3605000,
+    "author": "Hannes Tschofenig",
+    "text": "When does the 2 week call start?<br/>"
+  },
+  {
+    "dtime": 3615000,
+    "ptime": 3615000,
+    "author": "Brendan Moran",
+    "text": "OID and URL are dangerous. They're close enough to human-readable that people will try and use them as human-facing, which leads to attempts to control them and make them the same across incompatible hardware revisions.<br/>"
+  },
+  {
+    "dtime": 3625000,
+    "ptime": 3625000,
+    "author": "Dave Thaler",
+    "text": "TEEP meeting summary: Semantics of a particular value should be up to definer of the value.<br/>"
+  },
+  {
+    "dtime": 3636000,
+    "ptime": 3636000,
+    "author": "Dave Thaler",
+    "text": "Brendan's summary of the other question is accurate from the meeting.<br/>"
+  },
+  {
+    "dtime": 3664000,
+    "ptime": 3664000,
+    "author": "Dave Thaler",
+    "text": "there were a couple of examples discussed...<br/>"
+  },
+  {
+    "dtime": 3719000,
+    "ptime": 3719000,
+    "author": "Giridhar Mandyam",
+    "text": "Thanks all for the explanation.&nbsp;&nbsp;Please comment on the PR then.&nbsp;&nbsp;We need to get this resolved before broader (e.g. IESG) review.<br/>"
+  },
+  {
+    "dtime": 3722000,
+    "ptime": 3722000,
+    "author": "Dave Thaler",
+    "text": "1) similar to Laurence's Tesla example, a vendor-specific class (like Intel has Xeon etc class processors),&nbsp;&nbsp;2) a TEEP profile specific value like \"TrustZone\" where there are multiple chip vendors<br/>"
+  },
+  {
+    "dtime": 3750000,
+    "ptime": 3750000,
+    "author": "Dave Thaler",
+    "text": "or more accurately \"TrustZone for M-class processors\"<br/>"
+  },
+  {
+    "dtime": 3758000,
+    "ptime": 3758000,
+    "author": "Dave Thaler",
+    "text": "vs \"TrustZone for A-class processors\"<br/>"
+  },
+  {
+    "dtime": 3775000,
+    "ptime": 3775000,
+    "author": "Hannes Tschofenig",
+    "text": "Thanks<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-RATS-20211112-1430"
+		}
+	]
+}

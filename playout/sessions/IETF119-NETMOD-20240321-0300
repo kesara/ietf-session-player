@@ -1,0 +1,287 @@
+
+{
+	"title": "IETF119-NETMOD-20240321-0300",
+	"filename": "IETF119-NETMOD-20240321-0300",
+	"start": 0,
+	"end": 7360000,
+	"start_datetime": "2024-03-21T03:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "REplMtuZ1ow",
+    "start": 0,
+    "end": "7360000"
+  }
+],
+	"messages": [
+  {
+    "author": "Kent Watsen",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-119-netmod?both\">https://notes.ietf.org/notes-ietf-119-netmod?both</a></p>",
+    "topic": "ietf-119",
+    "dtime": 189000,
+    "ptime": 189000
+  },
+  {
+    "author": "Scott Mansfield",
+    "text": "<p><a href=\"https://datatracker.ietf.org/liaison/1890/\">https://datatracker.ietf.org/liaison/1890/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 461000,
+    "ptime": 461000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>forgot to mention Jason, our secretary, was very helpful preparing for the session -- thank you Jason</p>",
+    "topic": "ietf-119",
+    "dtime": 1073000,
+    "ptime": 1073000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>I would agree with Lou on that we should agree on how the filename changes and not duck the issue.</p>",
+    "topic": "ietf-119",
+    "dtime": 1558000,
+    "ptime": 1558000
+  },
+  {
+    "author": "Andy Bierman",
+    "text": "<p>revision-label in filename is NBC change to YANG 1.1 so needs to wait for YANG-next</p>",
+    "topic": "ietf-119",
+    "dtime": 1871000,
+    "ptime": 1871000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>Hi Andy, I guess you mean an NBC change on tooling.  We wouldn't be taking away the old revision date scheme so that would still work.</p>",
+    "topic": "ietf-119",
+    "dtime": 2032000,
+    "ptime": 2032000
+  },
+  {
+    "author": "Italo Busi",
+    "text": "<p>I think that as soon as revision labels are going to be used, there will be the need to deliver different versions of the same YANG model in one day. This could not be done because the revision-date MUST still be unique in YANG 1.1. I therefore prefer to complete this work and to start YANG-next  quickly rather than fixing a naming issue</p>",
+    "topic": "ietf-119",
+    "dtime": 2065000,
+    "ptime": 2065000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>Just a reminder that more note takers would be helpful please :  <a href=\"https://notes.ietf.org/notes-ietf-119-netmod?both\">https://notes.ietf.org/notes-ietf-119-netmod?both</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2076000,
+    "ptime": 2076000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>not sure the room mic is working</p>",
+    "topic": "ietf-119",
+    "dtime": 2712000,
+    "ptime": 2712000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>Are you not able to hear the room?</p>",
+    "topic": "ietf-119",
+    "dtime": 2995000,
+    "ptime": 2995000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>it wasn't easy to hear james talking recently, but that was probably due to misalignment between speaker and mic height</p>",
+    "topic": "ietf-119",
+    "dtime": 3039000,
+    "ptime": 3039000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>possibly, was hard to tell</p>",
+    "topic": "ietf-119",
+    "dtime": 3077000,
+    "ptime": 3077000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>How about hearing what Joe is saying? Is he clear?</p>",
+    "topic": "ietf-119",
+    "dtime": 3283000,
+    "ptime": 3283000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>loud and clear</p>",
+    "topic": "ietf-119",
+    "dtime": 3294000,
+    "ptime": 3294000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>sounds fine to me</p>",
+    "topic": "ietf-119",
+    "dtime": 3370000,
+    "ptime": 3370000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@meetecho remote mic is low in room</p>",
+    "topic": "ietf-119",
+    "dtime": 3384000,
+    "ptime": 3384000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>I think what Maria is saying is that why we are using string in the version field (for the semver portion of the field)?</p>",
+    "topic": "ietf-119",
+    "dtime": 3485000,
+    "ptime": 3485000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, just a sec</p>",
+    "topic": "ietf-119",
+    "dtime": 3496000,
+    "ptime": 3496000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@lorenzo, think we're okay now</p>",
+    "topic": "ietf-119",
+    "dtime": 3515000,
+    "ptime": 3515000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@kent, please confirm</p>",
+    "topic": "ietf-119",
+    "dtime": 3524000,
+    "ptime": 3524000
+  },
+  {
+    "author": "Maria Matějka",
+    "text": "<p>yes, the question is, if the string is actually \"major.minor.patch_whatever\", then why this isn't like </p>\n<p>grouping semver {<br>\nuint32 major;<br>\nuint32 minor;<br>\nuint32 patch;<br>\nstring whatever;<br>\n}</p>",
+    "topic": "ietf-119",
+    "dtime": 3571000,
+    "ptime": 3571000
+  },
+  {
+    "author": "Maria Matějka",
+    "text": "<p>(i know that this is applying another layer language but hopefully you get this)</p>",
+    "topic": "ietf-119",
+    "dtime": 3620000,
+    "ptime": 3620000
+  },
+  {
+    "author": "Alex Huang Feng",
+    "text": "<p>Also, I believe for CBOR is the same, the namespace is present in the data, so same applies to this encoding</p>",
+    "topic": "ietf-119",
+    "dtime": 3907000,
+    "ptime": 3907000
+  },
+  {
+    "author": "Kent Watsen",
+    "text": "<p>we're fine, room-speakers just need speak louder</p>",
+    "topic": "ietf-119",
+    "dtime": 4140000,
+    "ptime": 4140000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>Thomas, thank you for the feedback. I'm certainly very interested to align with your work.</p>",
+    "topic": "ietf-119",
+    "dtime": 4722000,
+    "ptime": 4722000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>so 'schema-include' vs 'schema-mount'</p>",
+    "topic": "ietf-119",
+    "dtime": 4967000,
+    "ptime": 4967000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>@Jan, not to put you on the spot, but doesn't tail-f have a solution that kind of solves the problem that Jean is talking about? How does it align with what Jean is proposing.</p>",
+    "topic": "ietf-119",
+    "dtime": 5286000,
+    "ptime": 5286000
+  },
+  {
+    "author": "Ahmed Elhassany",
+    "text": "<p>@Alex thank you for clarification about cbor</p>",
+    "topic": "ietf-119",
+    "dtime": 5336000,
+    "ptime": 5336000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>@Mahesh, the solution we have is more similar to schema-mount, where you don't know what YANG modules are mounted at design time. Recently, I have stumbled over the same/similar need for something like full-include, so I think this is interesting to discuss, even if I'm also a bit worried about the deeper implications of this addition.</p>",
+    "topic": "ietf-119",
+    "dtime": 6144000,
+    "ptime": 6144000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>sounds like draft-wwx-netmod-event-yang</p>",
+    "topic": "ietf-119",
+    "dtime": 6176000,
+    "ptime": 6176000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-wwx-netmod-event-yang-10\">https://datatracker.ietf.org/doc/html/draft-wwx-netmod-event-yang-10</a></p>",
+    "topic": "ietf-119",
+    "dtime": 6269000,
+    "ptime": 6269000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>@Ed, maybe you could try asking YANG-doctors for help?</p>",
+    "topic": "ietf-119",
+    "dtime": 6273000,
+    "ptime": 6273000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@jan good idea</p>",
+    "topic": "ietf-119",
+    "dtime": 6293000,
+    "ptime": 6293000
+  },
+  {
+    "author": "Vishnu Beeram",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-liu-netmod-yang-schedule/\">https://datatracker.ietf.org/doc/draft-liu-netmod-yang-schedule/</a> -- this is the old ietf-schedules draft that was discussed in the past..</p>",
+    "topic": "ietf-119",
+    "dtime": 6771000,
+    "ptime": 6771000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>For folks who were not in IVY or OPSAWG, Rob and I have discussed this, and believe that this work is distinct enough and has enough interest for a BOF. Therefore I am hoping the interested parties will come together to propose a plan for a BOF in IETF 120.</p>",
+    "topic": "ietf-119",
+    "dtime": 7076000,
+    "ptime": 7076000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>I am of course referring to the power management draft.</p>",
+    "topic": "ietf-119",
+    "dtime": 7112000,
+    "ptime": 7112000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-NETMOD-20240321-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/netmod"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-NETMOD-20240321-0300"
+		}		
+	]
+}

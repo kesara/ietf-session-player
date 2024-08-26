@@ -1,0 +1,1150 @@
+{
+  "title": "IETF101-EMU-20180319-1550",
+  "filename": "IETF101-EMU-20180319-1550",
+  "start": 0,
+  "end": 5086000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "fBBcDTomhvQ",
+      "start": 0.0,
+      "end": 5086000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Brook Schofield just joined the room",
+      "ptime": 28000.0,
+      "dtime": 518000.0
+    },
+    {
+      "text": "Good afternoon! I will be your emu jabber scribe today.",
+      "ptime": 209000.0,
+      "dtime": 699000.0,
+      "author": "mark"
+    },
+    {
+      "text": "First up: using eap-tls with tls1.3",
+      "ptime": 269000.0,
+      "dtime": 759000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 2",
+      "ptime": 325000.0,
+      "dtime": 815000.0,
+      "author": "mark"
+    },
+    {
+      "text": "TLS is used widely for certificate authentication, but 1.3 makes much of the EAP-TLS specification not applicable",
+      "ptime": 376000.0,
+      "dtime": 866000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 3",
+      "ptime": 401000.0,
+      "dtime": 891000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 4",
+      "ptime": 468000.0,
+      "dtime": 958000.0,
+      "author": "mark"
+    },
+    {
+      "text": "BTW, this slide deck is available at EAP-TLS Clarifications \u003chttps://datatracker.ietf.org/meeting/101/materials/slides-101-emu-eap-tls-clarifications-00\u003e",
+      "ptime": 478000.0,
+      "dtime": 968000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 5",
+      "ptime": 567000.0,
+      "dtime": 1057000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 6: Privacy",
+      "ptime": 601000.0,
+      "dtime": 1091000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Discussion: requiring anonymous identifiers outside of TLS when you know that you have TLS1.3",
+      "ptime": 707000.0,
+      "dtime": 1197000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Q: It?s hard to do that if you don?t know which version of TLS is used by the time you have to send the identity",
+      "ptime": 739000.0,
+      "dtime": 1229000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Q: Eliot - RADIUS will proxies lose the certificates visibility",
+      "ptime": 785000.0,
+      "dtime": 1275000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Q: Alan DeKok - you can?t proxy half a RADIUS discussion",
+      "ptime": 807000.0,
+      "dtime": 1297000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: It?s RADIUS vs. EAP!",
+      "ptime": 817000.0,
+      "dtime": 1307000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Alan: ?",
+      "ptime": 834000.0,
+      "dtime": 1324000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: EAP goes end-to-end? is that what you?re considering?",
+      "ptime": 850000.0,
+      "dtime": 1340000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Deb Cooley just joined the room",
+      "ptime": 865000.0,
+      "dtime": 1355000.0
+    },
+    {
+      "text": "Eliot: We?re going to split functionality out; we don?t have to respond directly, but certificates help us make decisions",
+      "ptime": 881000.0,
+      "dtime": 1371000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Deb Cooley just left the room",
+      "ptime": 904000.0,
+      "dtime": 1394000.0
+    },
+    {
+      "text": "Eliot: I can flesh out this use case if people need it",
+      "ptime": 913000.0,
+      "dtime": 1403000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: The use cases that people know of are upcoming, rather than current?",
+      "ptime": 938000.0,
+      "dtime": 1428000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Alan: Watching the traffic and then proxying or not based on peeking inside an unterminated EAP session is a hard NO.  Terminating the EAP and then choosing to do something more is OK (such as looking up in LDAP)",
+      "ptime": 996000.0,
+      "dtime": 1486000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 7: Key Hierarchy",
+      "ptime": 1007000.0,
+      "dtime": 1497000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 8: Fragmentation",
+      "ptime": 1068000.0,
+      "dtime": 1558000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Alan: Fragmentation could probably be split off into a separate document.",
+      "ptime": 1123000.0,
+      "dtime": 1613000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Alan: The recommendations should be different between 1.2 and 1.3",
+      "ptime": 1144000.0,
+      "dtime": 1634000.0,
+      "author": "mark"
+    },
+    {
+      "text": "???: I think they should be separate documents",
+      "ptime": 1155000.0,
+      "dtime": 1645000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Presenter: we could reduce cert size - reduce the SAN names, etc.",
+      "ptime": 1206000.0,
+      "dtime": 1696000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 9: Other TLS 1.3 Changes",
+      "ptime": 1266000.0,
+      "dtime": 1756000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 10: More Feedback!",
+      "ptime": 1337000.0,
+      "dtime": 1827000.0,
+      "author": "mark"
+    },
+    {
+      "text": "How many people in the room have read the draft?  Quite a few",
+      "ptime": 1397000.0,
+      "dtime": 1887000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Are there any objections to adopting this as a WG draft? ? none spoken.",
+      "ptime": 1416000.0,
+      "dtime": 1906000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next up: Yari",
+      "ptime": 1450000.0,
+      "dtime": 1940000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slides:",
+      "ptime": 1453000.0,
+      "dtime": 1943000.0,
+      "author": "mark"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/101/materials/slides-101-emu-eap-aka-topics-00",
+      "ptime": 1453000.0,
+      "dtime": 1943000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 2",
+      "ptime": 1463000.0,
+      "dtime": 1953000.0,
+      "author": "mark"
+    },
+    {
+      "text": "EAP defined in 2000?s, and the implementation and usage has soared",
+      "ptime": 1560000.0,
+      "dtime": 2050000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Is used within 3G/4G mobile networks",
+      "ptime": 1560000.0,
+      "dtime": 2050000.0,
+      "author": "mark"
+    },
+    {
+      "text": "5G will be different",
+      "ptime": 1560000.0,
+      "dtime": 2050000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Oh, I misunderstood - it was defined for 3G/4g, but not widely used.",
+      "ptime": 1594000.0,
+      "dtime": 2084000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 3: draft-?-bis",
+      "ptime": 1605000.0,
+      "dtime": 2095000.0,
+      "author": "mark"
+    },
+    {
+      "text": "If you want me to relay a question, please prefix your comment with ?MIC:?",
+      "ptime": 1661000.0,
+      "dtime": 2151000.0,
+      "author": "mark"
+    },
+    {
+      "text": ":)",
+      "ptime": 1663000.0,
+      "dtime": 2153000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Did you want that relayed?",
+      "ptime": 1670000.0,
+      "dtime": 2160000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Oh, I see you in the room :)",
+      "ptime": 1688000.0,
+      "dtime": 2178000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 4: rfc5448bis updates",
+      "ptime": 1725000.0,
+      "dtime": 2215000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Ben Kaduk, bravely taking the mic: You could consider including all the IDs that you know about, rather than limiting it to just one.",
+      "ptime": 1885000.0,
+      "dtime": 2375000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: True, but I want to be sure the IDs are the same on both sides",
+      "ptime": 1899000.0,
+      "dtime": 2389000.0,
+      "author": "mark"
+    },
+    {
+      "text": "John Mattsson: Is there a generic way to specify these versions?",
+      "ptime": 2001000.0,
+      "dtime": 2491000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: that?s a good question!",
+      "ptime": 2008000.0,
+      "dtime": 2498000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret Cullen: Maybe an IANA registry, or a 3GPP registry?",
+      "ptime": 2024000.0,
+      "dtime": 2514000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: That?s reasonable, but that doesn?t get us away from having to code up the understanding of what each option means",
+      "ptime": 2068000.0,
+      "dtime": 2558000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Jorge: I don?t think the updates will be that frequent",
+      "ptime": 2081000.0,
+      "dtime": 2571000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Jon Green just left the room",
+      "ptime": 2088000.0,
+      "dtime": 2578000.0
+    },
+    {
+      "text": "Alan DeKok: From a timeliness perspective, it may be prudent to duplicate that section and update it in multiple places.",
+      "ptime": 2121000.0,
+      "dtime": 2611000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: We can consider that.",
+      "ptime": 2126000.0,
+      "dtime": 2616000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 5: Next steps",
+      "ptime": 2136000.0,
+      "dtime": 2626000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Would like a WG item as soon as possible",
+      "ptime": 2149000.0,
+      "dtime": 2639000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret Cullen: We should revisit the security considerations section to reflect current practice",
+      "ptime": 2203000.0,
+      "dtime": 2693000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: How many people have read the document?  Room: not as many",
+      "ptime": 2218000.0,
+      "dtime": 2708000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: will bring this up on the list",
+      "ptime": 2223000.0,
+      "dtime": 2713000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: Any objections to moving it to the WG?  Room: None",
+      "ptime": 2235000.0,
+      "dtime": 2725000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Deb Cooley just joined the room",
+      "ptime": 2257000.0,
+      "dtime": 2747000.0
+    },
+    {
+      "text": "Slide 6: draft-arkko-eap-aka-pfs",
+      "ptime": 2271000.0,
+      "dtime": 2761000.0,
+      "author": "mark"
+    },
+    {
+      "text": "(Perfect forward secrecy)",
+      "ptime": 2277000.0,
+      "dtime": 2767000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Jon Green just joined the room",
+      "ptime": 2278000.0,
+      "dtime": 2768000.0
+    },
+    {
+      "text": "(Talking about government surveillance)",
+      "ptime": 2288000.0,
+      "dtime": 2778000.0,
+      "author": "mark"
+    },
+    {
+      "text": "People have tried to remediate the problem, but it still exists",
+      "ptime": 2307000.0,
+      "dtime": 2797000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 7: draft-arkko-eap-aka-pfs",
+      "ptime": 2318000.0,
+      "dtime": 2808000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Backwards-compatible DH change on EAP-AKA?",
+      "ptime": 2334000.0,
+      "dtime": 2824000.0,
+      "author": "mark"
+    },
+    {
+      "text": "This protects against a passive attack",
+      "ptime": 2361000.0,
+      "dtime": 2851000.0,
+      "author": "mark"
+    },
+    {
+      "text": "There?s been discussion in 3GPP; people are interested in EAP being part of the solution",
+      "ptime": 2403000.0,
+      "dtime": 2893000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Note: This draft has an IPR notice",
+      "ptime": 2438000.0,
+      "dtime": 2928000.0,
+      "author": "mark"
+    },
+    {
+      "text": "As does 5448",
+      "ptime": 2443000.0,
+      "dtime": 2933000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Deb Cooley just left the room",
+      "ptime": 2449000.0,
+      "dtime": 2939000.0
+    },
+    {
+      "text": "PFS is slated to be completed in 3GPP, in their next release",
+      "ptime": 2479000.0,
+      "dtime": 2969000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 8: Next Steps",
+      "ptime": 2490000.0,
+      "dtime": 2980000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Aaron: There?s a longstanding issue where SIM card IMSI numbers are revealed early. Is there any appetite in fixing that?",
+      "ptime": 2567000.0,
+      "dtime": 3057000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: Yes!",
+      "ptime": 2569000.0,
+      "dtime": 3059000.0,
+      "author": "mark"
+    },
+    {
+      "text": "John Mattsson: Phase 1 mandates curve 2559 for encryption of your identity",
+      "ptime": 2611000.0,
+      "dtime": 3101000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: The core of the core will still know who you are, but maybe people elsewhere will find it more difficult",
+      "ptime": 2619000.0,
+      "dtime": 3109000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: How many read this draft?  .. some",
+      "ptime": 2635000.0,
+      "dtime": 3125000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: When does 3GPP phase 2 end?",
+      "ptime": 2647000.0,
+      "dtime": 3137000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Yari: Maybe a year from now?  We should have our own timeline, though.",
+      "ptime": 2662000.0,
+      "dtime": 3152000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: but if they need something from us, we should know their timeline.",
+      "ptime": 2682000.0,
+      "dtime": 3172000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: Adoption?  Yari: Yes, though I care about the other draft more",
+      "ptime": 2705000.0,
+      "dtime": 3195000.0,
+      "author": "mark"
+    },
+    {
+      "text": "New speaker: Alan DeKok, session identifiers",
+      "ptime": 2723000.0,
+      "dtime": 3213000.0,
+      "author": "mark"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/101/materials/slides-101-emu-eap-session-id-00",
+      "ptime": 2725000.0,
+      "dtime": 3215000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 2",
+      "ptime": 2730000.0,
+      "dtime": 3220000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 3: requirements",
+      "ptime": 2735000.0,
+      "dtime": 3225000.0,
+      "author": "mark"
+    },
+    {
+      "text": "?People like to ignore MUSTs?",
+      "ptime": 2746000.0,
+      "dtime": 3236000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 4: The problem",
+      "ptime": 2754000.0,
+      "dtime": 3244000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 5: Why?",
+      "ptime": 2771000.0,
+      "dtime": 3261000.0,
+      "author": "mark"
+    },
+    {
+      "text": "TLS is ok, because of caching",
+      "ptime": 2782000.0,
+      "dtime": 3272000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Non-TLS require different things.",
+      "ptime": 2789000.0,
+      "dtime": 3279000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Vendor-specific EAP methods are probably also in need of fixing",
+      "ptime": 2803000.0,
+      "dtime": 3293000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide? next",
+      "ptime": 2806000.0,
+      "dtime": 3296000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Bernard: One way that might fix this is an IANA registry, so that IANA checks the documents for omitted numbers",
+      "ptime": 2849000.0,
+      "dtime": 3339000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: some were published before the session-id",
+      "ptime": 2866000.0,
+      "dtime": 3356000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next slide",
+      "ptime": 2878000.0,
+      "dtime": 3368000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Updates? lots of RFCs",
+      "ptime": 2885000.0,
+      "dtime": 3375000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next slide: Any questions?",
+      "ptime": 2904000.0,
+      "dtime": 3394000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Hopefully this will be only a couple of pages",
+      "ptime": 2914000.0,
+      "dtime": 3404000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Without IANA, it could be published effectively immediately.  With IANA, it will take longer",
+      "ptime": 2936000.0,
+      "dtime": 3426000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: Should the AKA? stuff go in this draft, or shall we wait and see?  Room: Shrug.  Chair: OK, wait and see.",
+      "ptime": 2962000.0,
+      "dtime": 3452000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next presenter: Eliot Lear",
+      "ptime": 2983000.0,
+      "dtime": 3473000.0,
+      "author": "mark"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/101/materials/slides-101-emu-eap-teap-and-brski-00",
+      "ptime": 2983000.0,
+      "dtime": 3473000.0,
+      "author": "mark"
+    },
+    {
+      "text": "New TEAP stuff? Looking at brewski",
+      "ptime": 2994000.0,
+      "dtime": 3484000.0,
+      "author": "mark"
+    },
+    {
+      "text": "BRSKI, that is.",
+      "ptime": 3002000.0,
+      "dtime": 3492000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Working in OPS area, animal WG, about trusted introduction",
+      "ptime": 3032000.0,
+      "dtime": 3522000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 2",
+      "ptime": 3034000.0,
+      "dtime": 3524000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot is trying to understand EAP",
+      "ptime": 3046000.0,
+      "dtime": 3536000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Slide 3",
+      "ptime": 3050000.0,
+      "dtime": 3540000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Have had a lot of work between a device and a ? to retain a limited amount of information about a trusted root store",
+      "ptime": 3101000.0,
+      "dtime": 3591000.0,
+      "author": "mark"
+    },
+    {
+      "text": "(Think of environments like an 8086 or Z80)",
+      "ptime": 3112000.0,
+      "dtime": 3602000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Basic problem: Doing an authentication dance that involves a trusted third party doesn?t work as well when you don?t have general IP connectivity to the endpoint",
+      "ptime": 3189000.0,
+      "dtime": 3679000.0,
+      "author": "mark"
+    },
+    {
+      "text": "/me and Margaret shrug",
+      "ptime": 3214000.0,
+      "dtime": 3704000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next slide: A quick TEAP review",
+      "ptime": 3245000.0,
+      "dtime": 3735000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Want to do an extension for a trusted introduction between actors",
+      "ptime": 3301000.0,
+      "dtime": 3791000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next slide: Extending TEAP to have BRSKI: choices",
+      "ptime": 3333000.0,
+      "dtime": 3823000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Option 1: Create a new EAP method for use in the inner tunnel.  This is all good until someone tries to use it without an outer tunnel.",
+      "ptime": 3408000.0,
+      "dtime": 3898000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Option 2: New TEAP TLVs",
+      "ptime": 3408000.0,
+      "dtime": 3898000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next slide",
+      "ptime": 3445000.0,
+      "dtime": 3935000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Diagram to describe a voucher request",
+      "ptime": 3471000.0,
+      "dtime": 3961000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Next slide: We?re just beginning",
+      "ptime": 3481000.0,
+      "dtime": 3971000.0,
+      "author": "mark"
+    },
+    {
+      "text": "draft: draft-freil-brski-over-208dot11",
+      "ptime": 3495000.0,
+      "dtime": 3985000.0,
+      "author": "mark"
+    },
+    {
+      "text": "We need a _really_ broad solution, since the devices are quite varied",
+      "ptime": 3553000.0,
+      "dtime": 4043000.0,
+      "author": "mark"
+    },
+    {
+      "text": "TEAP looks nice but there doesn?t seem like a lot of adoption",
+      "ptime": 3574000.0,
+      "dtime": 4064000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Alan: EAP looks right.  TEAP looks right (inventing your own crypto is wrong).",
+      "ptime": 3588000.0,
+      "dtime": 4078000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Alan: I?d say to do it with TEAP",
+      "ptime": 3599000.0,
+      "dtime": 4089000.0,
+      "author": "mark"
+    },
+    {
+      "text": "???: Think about the environments, and figure out whether you?re likely to have EAP and TEAP there",
+      "ptime": 3633000.0,
+      "dtime": 4123000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Elliot: I work for Cisco, so I?ll certainly have it",
+      "ptime": 3653000.0,
+      "dtime": 4143000.0,
+      "author": "mark"
+    },
+    {
+      "text": "But others might not be as easy",
+      "ptime": 3681000.0,
+      "dtime": 4171000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Alan: I haven?t made light bulbs, but as a security person I say to suck it up.",
+      "ptime": 3681000.0,
+      "dtime": 4171000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: People I?ve talked to want to minimize the amount of code that they *can?t* reuse.",
+      "ptime": 3764000.0,
+      "dtime": 4254000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: for instance, reusing a DTLS stack",
+      "ptime": 3765000.0,
+      "dtime": 4255000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Onboarding happens whenever the power goes off, like every few months.",
+      "ptime": 3765000.0,
+      "dtime": 4255000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Nancy Cam-Winget: Alan really is tall.",
+      "ptime": 3765000.0,
+      "dtime": 4255000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Nancy Cam-Winget: Also from Cisco, works with Eliot.  Why do we want EAP?  Because we?re onboarding onto Wi-Fi, and use EAP.",
+      "ptime": 3907000.0,
+      "dtime": 4397000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Nancy Cam-Winget: When you look at BRSKI, it adds the voucher request-response",
+      "ptime": 3907000.0,
+      "dtime": 4397000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Nancy Cam-Winget: We can add the voucher request into TEAP.",
+      "ptime": 3907000.0,
+      "dtime": 4397000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Nancy Cam-Winget: Do we need to extend TEAP to do what EST does, or just reference EST?",
+      "ptime": 3907000.0,
+      "dtime": 4397000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret Cullen:  I have troubles understanding the picture (going back to sample flow)",
+      "ptime": 3907000.0,
+      "dtime": 4397000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: Start with usual TEAP dance",
+      "ptime": 3948000.0,
+      "dtime": 4438000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Maybe Eliot left the box to go TEAP-dancing?",
+      "ptime": 3962000.0,
+      "dtime": 4452000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: After the TEAP server hello, the server has the option to return success right there.",
+      "ptime": 3988000.0,
+      "dtime": 4478000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret: I don?t get the part where the request goes to the MASA server.  Is the AAA server doing its ow request to the MASA server, or does the AAA server forward the tunneled request to the MASA server?",
+      "ptime": 4055000.0,
+      "dtime": 4545000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: You?re always talking to the AAA server",
+      "ptime": 4070000.0,
+      "dtime": 4560000.0,
+      "author": "mark"
+    },
+    {
+      "text": "The AAA server can forward a request to the MASA server",
+      "ptime": 4095000.0,
+      "dtime": 4585000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret: So, this is almost like degenerate tunnel?",
+      "ptime": 4113000.0,
+      "dtime": 4603000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: Yes.",
+      "ptime": 4115000.0,
+      "dtime": 4605000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Max ???: The context for this is the broader work around autonomous networking",
+      "ptime": 4138000.0,
+      "dtime": 4628000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Max: ACE is doing some work here, too",
+      "ptime": 4155000.0,
+      "dtime": 4645000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Max: What we?re really addressing here is attaching these devices to 802.11, where EAP is a requirement",
+      "ptime": 4180000.0,
+      "dtime": 4670000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: Going back to Alan, I agree that creating something new that looks like TEAP isn?t the way to go.",
+      "ptime": 4214000.0,
+      "dtime": 4704000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: EAP is nice because you don?t have flutter of connectivity to confuse upper-level applications",
+      "ptime": 4296000.0,
+      "dtime": 4786000.0,
+      "author": "mark"
+    },
+    {
+      "text": "The ANIMA WG is looking at ways to piggyback information back to the peer that might be useful to the client",
+      "ptime": 4345000.0,
+      "dtime": 4835000.0,
+      "author": "mark"
+    },
+    {
+      "text": "ANIMA is also looking at the DHC WG, and might want to pass some of that information back in this process as well",
+      "ptime": 4380000.0,
+      "dtime": 4870000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: Channel binding is a mystery",
+      "ptime": 4401000.0,
+      "dtime": 4891000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Jim Schaad: Yeah, that?s going to be a pain",
+      "ptime": 4410000.0,
+      "dtime": 4900000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret Cullen: Bootstrapping with EAP to get limited access has the nice feature that it?s incrementally deployable",
+      "ptime": 4461000.0,
+      "dtime": 4951000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: Cisco?s MAC-authenticated-bypass is one example of how to get around that",
+      "ptime": 4501000.0,
+      "dtime": 4991000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret: That?s not quite what I was asking",
+      "ptime": 4510000.0,
+      "dtime": 5000000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret: When you have a device that speaks a newer version of EAP than the network?s AAA infrastructure, you?re not going anywhere",
+      "ptime": 4553000.0,
+      "dtime": 5043000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: I don?t have a good answer for that",
+      "ptime": 4560000.0,
+      "dtime": 5050000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Max Pritikin: How would the device know to try _other_ SSIDs?",
+      "ptime": 4583000.0,
+      "dtime": 5073000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Max: Fail faster",
+      "ptime": 4589000.0,
+      "dtime": 5079000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: Doesn?t EAP have a way to send a soft fail?",
+      "ptime": 4603000.0,
+      "dtime": 5093000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Jari: Veddy interesting?",
+      "ptime": 4622000.0,
+      "dtime": 5112000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Jari: It?s often useful to keep EAP to do what EAP does, and let other mechanisms deliver configuration information",
+      "ptime": 4651000.0,
+      "dtime": 5141000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: That use case is hitting us hard",
+      "ptime": 4696000.0,
+      "dtime": 5186000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Think of places where DNS doesn?t exist, so devices use the COAP resource directory.",
+      "ptime": 4720000.0,
+      "dtime": 5210000.0,
+      "author": "mark"
+    },
+    {
+      "text": "So it just needs one little hook for more information",
+      "ptime": 4729000.0,
+      "dtime": 5219000.0,
+      "author": "mark"
+    },
+    {
+      "text": "But, ?one little hook? opens a pandora box",
+      "ptime": 4747000.0,
+      "dtime": 5237000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Jari: There are many ways to discover, such as multicast.  It?s not an intractable problem.",
+      "ptime": 4767000.0,
+      "dtime": 5257000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Margaret Cullen: You might also want all of that other stuff to work on a network that doesn?t use EAP at all.",
+      "ptime": 4807000.0,
+      "dtime": 5297000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: *nods*",
+      "ptime": 4814000.0,
+      "dtime": 5304000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: It?s nice to scope this down.",
+      "ptime": 4829000.0,
+      "dtime": 5319000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Dorothy Stanley: the Dot11 WG would love to hear Eliot?s comments about what is lacking",
+      "ptime": 4932000.0,
+      "dtime": 5422000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: Look at HIM!  *points*",
+      "ptime": 4941000.0,
+      "dtime": 5431000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Room: Which him?",
+      "ptime": 4947000.0,
+      "dtime": 5437000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Eliot: We?ll be sure to bring this to them.  And I love dot11.",
+      "ptime": 4969000.0,
+      "dtime": 5459000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: Other comments?",
+      "ptime": 5017000.0,
+      "dtime": 5507000.0,
+      "author": "mark"
+    },
+    {
+      "text": "Chair: Have time back in your life:",
+      "ptime": 5022000.0,
+      "dtime": 5512000.0,
+      "author": "mark"
+    },
+    {
+      "text": "/me notes that it?s seven minutes",
+      "ptime": 5042000.0,
+      "dtime": 5532000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Brook Schofield just left the room",
+      "ptime": 5063000.0,
+      "dtime": 5553000.0
+    },
+    {
+      "text": "Chair: we?re done now!",
+      "ptime": 5068000.0,
+      "dtime": 5558000.0,
+      "author": "mark"
+    },
+    {
+      "text": "***Jon Green just left the room",
+      "ptime": 5083000.0,
+      "dtime": 5573000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-EMU-20180319-1550"
+    }
+  ]
+}

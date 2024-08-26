@@ -1,0 +1,689 @@
+
+{
+	"title": "IETF113-AVTCORE-20220325-0900",
+	"filename": "IETF113-AVTCORE-20220325-0900",
+	"start": 0,
+	"end": 7350000,
+	"start_datetime": "2022-03-25T08:45:19Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "0GKzlYSBjM8",
+    "start": 0,
+    "end": "7350000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 467000,
+    "ptime": 467000,
+    "author": "Murray Kucherawy",
+    "text": "draft-ietf-avtext-framemarking is now in \"AD Evaluation\".<br/>"
+  },
+  {
+    "dtime": 492000,
+    "ptime": 492000,
+    "author": "Murray Kucherawy",
+    "text": "I just lost audio<br/>"
+  },
+  {
+    "dtime": 527000,
+    "ptime": 527000,
+    "author": "Ted Hardie",
+    "text": "Murray, did audio come back?<br/>"
+  },
+  {
+    "dtime": 532000,
+    "ptime": 532000,
+    "author": "Murray Kucherawy",
+    "text": "No<br/>"
+  },
+  {
+    "dtime": 536000,
+    "ptime": 536000,
+    "author": "Murray Kucherawy",
+    "text": "Going to try reconnecting<br/>"
+  },
+  {
+    "dtime": 630000,
+    "ptime": 630000,
+    "author": "Murray Kucherawy",
+    "text": "No good.&nbsp;&nbsp;Audio is fine locally (e.g., playing something on YouTube).<br/>"
+  },
+  {
+    "dtime": 667000,
+    "ptime": 667000,
+    "author": "Meetecho",
+    "text": "Murray, can you see if refreshing the page helps?<br/>"
+  },
+  {
+    "dtime": 715000,
+    "ptime": 715000,
+    "author": "Murray Kucherawy",
+    "text": "I did once and it didn't help, but it's fine after a second refresh.<br/>"
+  },
+  {
+    "dtime": 969000,
+    "ptime": 969000,
+    "author": "Sergio Garcia Murillo",
+    "text": "where would that \"concurrent CC algorithms\" work be done? seems the efforts are spread in different groups<br/>"
+  },
+  {
+    "dtime": 1085000,
+    "ptime": 1085000,
+    "author": "Jonathan Lennox",
+    "text": "As an individual, I'd suggest probably starting in ICCRG?<br/>"
+  },
+  {
+    "dtime": 1116000,
+    "ptime": 1116000,
+    "author": "Colin Perkins",
+    "text": "ICCRG will be you useful feedback; it won't produce something that can be a standard quickly<br/>"
+  },
+  {
+    "dtime": 1319000,
+    "ptime": 1319000,
+    "author": "Roni Even",
+    "text": "about congestion how about transport level one like <a href=\"https://datatracker.ietf.org/doc/html/draft-pan-tsvwg-hpccplus-02\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-pan-tsvwg-hpccplus-02</a><br/>"
+  },
+  {
+    "dtime": 1571000,
+    "ptime": 1571000,
+    "author": "Mo Zanaty",
+    "text": "+1 Colin, ICCRG will tell you what you did wrong, and what others have already tried, but not converge quickly on any deployable solution.<br/>"
+  },
+  {
+    "dtime": 1589000,
+    "ptime": 1589000,
+    "author": "Roni Even",
+    "text": "there is <a href=\"https://datatracker.ietf.org/doc/html/draft-miao-iccrg-hpccplus\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-miao-iccrg-hpccplus</a> in iccrg<br/>"
+  },
+  {
+    "dtime": 1643000,
+    "ptime": 1643000,
+    "author": "Spencer Dawkins",
+    "text": "@Colin, when I'm speaking in AVTCORE, could you make your comment about getting new congestion controller quickly? I'd LOVEfor us to talk about that in a meeting ...<br/>"
+  },
+  {
+    "dtime": 1677000,
+    "ptime": 1677000,
+    "author": "Colin Perkins",
+    "text": "HPCC++ needs link changes, IIRC, so may not be the easiest to deploy wide area<br/>"
+  },
+  {
+    "dtime": 1717000,
+    "ptime": 1717000,
+    "author": "Colin Perkins",
+    "text": "Happy to try to remember<br/>"
+  },
+  {
+    "dtime": 1927000,
+    "ptime": 1927000,
+    "author": "Roni Even",
+    "text": "there wa s also a side meeting about 802.1 congestion control <a href=\"https://mailarchive.ietf.org/arch/browse/rdma-cc-interest/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/browse/rdma-cc-interest/</a><br/>"
+  },
+  {
+    "dtime": 2072000,
+    "ptime": 2072000,
+    "author": "Richard Barnes",
+    "text": "SHALL - the most officious part of RFC 2119<br/>"
+  },
+  {
+    "dtime": 2082000,
+    "ptime": 2082000,
+    "author": "Ted Hardie",
+    "text": "FYI, I sent a request for access to&nbsp;&nbsp;\"Secure Communication Interoperability Protocol (SCIP) over Real-time Transport Protocol (RTP)\" ncia.cis3@ncia.nato.int and never got a reply.&nbsp;&nbsp;So I assume that any work on this should proceed with the understanding that the actual spec will&nbsp;&nbsp;not be available.&nbsp;&nbsp;At a minimum, that would need to be called it in last call.<br/>"
+  },
+  {
+    "dtime": 2093000,
+    "ptime": 2093000,
+    "author": "Roni Even",
+    "text": "it is more about data centers<br/>"
+  },
+  {
+    "dtime": 2120000,
+    "ptime": 2120000,
+    "author": "Ted Hardie",
+    "text": "If others did get access, I will withdraw that comment, of course; it's possible that mine was dropped for some specific reasons.<br/>"
+  },
+  {
+    "dtime": 2348000,
+    "ptime": 2348000,
+    "author": "Murray Kucherawy",
+    "text": "Non-availability of references has been a problem for the IESG in the past, so I agree with Ted.&nbsp;&nbsp;We're also looking at reviewing and revising the BCPs to provide guidance about this.<br/>"
+  },
+  {
+    "dtime": 2824000,
+    "ptime": 2824000,
+    "author": "Roni Even",
+    "text": "agree with Cullen.&nbsp;&nbsp;we had such black box encryption in the circuit switch video conferencing<br/>"
+  },
+  {
+    "dtime": 2952000,
+    "ptime": 2952000,
+    "author": "Ted Hardie",
+    "text": "Spec unavailability being called out similar to a downref, but it is not exactly the same.&nbsp;&nbsp;That's not blocking.<br/>"
+  },
+  {
+    "dtime": 2961000,
+    "ptime": 2961000,
+    "author": "Richard Barnes",
+    "text": "All I meant was that there is a section in the media type registration called \"Published specification\" that cites NSA specs, which it sounds like are not actually published.<br/>"
+  },
+  {
+    "dtime": 3020000,
+    "ptime": 3020000,
+    "author": "Ted Hardie",
+    "text": "So when I requested them, they were not delivered.<br/>"
+  },
+  {
+    "dtime": 3045000,
+    "ptime": 3045000,
+    "author": "Murray Kucherawy",
+    "text": "It's easier, at least, if they're informative references.&nbsp;&nbsp;If they're normative and unavailable, reviewers don't have any way to check that their use is correct.<br/>"
+  },
+  {
+    "dtime": 3301000,
+    "ptime": 3301000,
+    "author": "Lucas Pardue",
+    "text": "I think you probably need to reference the QUIC bit grease sped in 7983bis<br/>"
+  },
+  {
+    "dtime": 3386000,
+    "ptime": 3386000,
+    "author": "Ted Hardie",
+    "text": "I think Lucas's point is the right; v2 is a greasing release.<br/>"
+  },
+  {
+    "dtime": 3418000,
+    "ptime": 3418000,
+    "author": "Murray Kucherawy",
+    "text": "Makes sense there's a QUIC v2, given how old QUIC is.<br/>"
+  },
+  {
+    "dtime": 3462000,
+    "ptime": 3462000,
+    "author": "Lucas Pardue",
+    "text": "specifically <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-quic-bit-grease-02\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-ietf-quic-bit-grease-02</a><br/>"
+  },
+  {
+    "dtime": 3481000,
+    "ptime": 3481000,
+    "author": "Lucas Pardue",
+    "text": "The second-to-most significant bit of the first byte in every QUIC<br/>&nbsp;&nbsp; packet is defined as having a fixed value in QUIC version 1 [QUIC].<br/>&nbsp;&nbsp; The purpose of having a fixed value is to allow intermediaries and<br/>&nbsp;&nbsp; endpoints to efficiently distinguish between QUIC and other<br/>&nbsp;&nbsp; protocols; see [DEMUX] for a description of a scheme that QUIC can<br/>&nbsp;&nbsp; integrate with as a result.&nbsp;&nbsp;As this bit effectively identifies a<br/>&nbsp;&nbsp; packet as QUIC, it is sometimes referred to as the \"QUIC Bit\".<br/>"
+  },
+  {
+    "dtime": 3497000,
+    "ptime": 3497000,
+    "author": "Jonathan Lennox",
+    "text": "Lucas, do you want to speak at the mic, and/or have me relay that?<br/>"
+  },
+  {
+    "dtime": 3523000,
+    "ptime": 3523000,
+    "author": "Lucas Pardue",
+    "text": "please relay<br/>"
+  },
+  {
+    "dtime": 3572000,
+    "ptime": 3572000,
+    "author": "Lucas Pardue",
+    "text": "yes that would be good enough<br/>"
+  },
+  {
+    "dtime": 3579000,
+    "ptime": 3579000,
+    "author": "Magnus Westerlund",
+    "text": "And the version 2 spec is this one: <a href=\"https://datatracker.ietf.org/doc/draft-ietf-quic-v2/\" rel=\"nofollow\">https://datatracker.ietf.org/doc/draft-ietf-quic-v2/</a><br/>"
+  },
+  {
+    "dtime": 3584000,
+    "ptime": 3584000,
+    "author": "Lucas Pardue",
+    "text": "don't shoot yourself with it :)<br/>"
+  },
+  {
+    "dtime": 3747000,
+    "ptime": 3747000,
+    "author": "Colin Perkins",
+    "text": "We should add the references to quic-v2 and quic-bit-grease<br/>"
+  },
+  {
+    "dtime": 3792000,
+    "ptime": 3792000,
+    "author": "Cullen Jennings",
+    "text": "+1 <br/>"
+  },
+  {
+    "dtime": 3858000,
+    "ptime": 3858000,
+    "author": "Ted Hardie",
+    "text": "<a href=\"https://github.com/SpencerDawkins/sdp-rtp-quic-issues/issues\" rel=\"nofollow\">https://github.com/SpencerDawkins/sdp-rtp-quic-issues/issues</a> to make the slide url clickable.<br/>"
+  },
+  {
+    "dtime": 3979000,
+    "ptime": 3979000,
+    "author": "Benson Muite",
+    "text": ":100:<br/>"
+  },
+  {
+    "dtime": 4630000,
+    "ptime": 4630000,
+    "author": "Colin Perkins",
+    "text": "+1 to Cullen (on all aspects)<br/>"
+  },
+  {
+    "dtime": 4671000,
+    "ptime": 4671000,
+    "author": "Richard Barnes",
+    "text": "QAVPF<br/>"
+  },
+  {
+    "dtime": 4735000,
+    "ptime": 4735000,
+    "author": "Cullen Jennings",
+    "text": "I like to point out that if all you want is the payload type, what you really want is that not to be a dynamic number but instead just be an IANA registry with 16 bits for the PayloadType <br/>"
+  },
+  {
+    "dtime": 4751000,
+    "ptime": 4751000,
+    "author": "Colin Perkins",
+    "text": "RTP -&gt; RTQ ?<br/>"
+  },
+  {
+    "dtime": 4769000,
+    "ptime": 4769000,
+    "author": "Cullen Jennings",
+    "text": "RTQ == MoQ ???<br/>"
+  },
+  {
+    "dtime": 4774000,
+    "ptime": 4774000,
+    "author": "Ted Hardie",
+    "text": "Meanwhile, MoQ is talking about multicase models, so you may get all of that back in a new form.<br/>"
+  },
+  {
+    "dtime": 4786000,
+    "ptime": 4786000,
+    "author": "Ted Hardie",
+    "text": "s/multicase/multicast/<br/>"
+  },
+  {
+    "dtime": 4787000,
+    "ptime": 4787000,
+    "author": "Colin Perkins",
+    "text": "@cullen: or use the media type name directly<br/>"
+  },
+  {
+    "dtime": 4798000,
+    "ptime": 4798000,
+    "author": "Cullen Jennings",
+    "text": "an SFU is application level multicast in RTP :-) <br/>"
+  },
+  {
+    "dtime": 4806000,
+    "ptime": 4806000,
+    "author": "Roni Even",
+    "text": "to stephan comment like RFC4571 rtp over tcp<br/>"
+  },
+  {
+    "dtime": 4818000,
+    "ptime": 4818000,
+    "author": "Stephan Wenger",
+    "text": "indeed.<br/>"
+  },
+  {
+    "dtime": 4910000,
+    "ptime": 4910000,
+    "author": "Cullen Jennings",
+    "text": "@colin - if we do string names, someone is going to make me change them to unicode and then I will have no clue how to compare them :-) <br/>"
+  },
+  {
+    "dtime": 4971000,
+    "ptime": 4971000,
+    "author": "Jonathan Lennox",
+    "text": "We've been doing media type comparisons for http forever so hopefully this isn't so much harder<br/>"
+  },
+  {
+    "dtime": 5002000,
+    "ptime": 5002000,
+    "author": "Colin Perkins",
+    "text": "Content-type: video/:film_projector:<br/>"
+  },
+  {
+    "dtime": 5012000,
+    "ptime": 5012000,
+    "author": "Cullen Jennings",
+    "text": "I'm sold&nbsp;&nbsp;<br/>"
+  },
+  {
+    "dtime": 5027000,
+    "ptime": 5027000,
+    "author": "Joerg Ott",
+    "text": "It's active<br/>"
+  },
+  {
+    "dtime": 5068000,
+    "ptime": 5068000,
+    "author": "Joerg Ott",
+    "text": "this is just so we know what we talking about<br/>"
+  },
+  {
+    "dtime": 5084000,
+    "ptime": 5084000,
+    "author": "Joerg Ott",
+    "text": "Happy to, this is the plan anywaty<br/>"
+  },
+  {
+    "dtime": 5111000,
+    "ptime": 5111000,
+    "author": "Joerg Ott",
+    "text": "not yet :-)<br/>"
+  },
+  {
+    "dtime": 5208000,
+    "ptime": 5208000,
+    "author": "Roni Even",
+    "text": "there is echo when cullen speaks<br/>"
+  },
+  {
+    "dtime": 5241000,
+    "ptime": 5241000,
+    "author": "Roni Even",
+    "text": "no echo cancellation :smiley:<br/>"
+  },
+  {
+    "dtime": 5259000,
+    "ptime": 5259000,
+    "author": "Suhas Nandakumar",
+    "text": "@roni .. we use the echo as a RTX mechanism<br/>"
+  },
+  {
+    "dtime": 5304000,
+    "ptime": 5304000,
+    "author": "Giles Heron",
+    "text": "LOL @Suhas<br/>"
+  },
+  {
+    "dtime": 5345000,
+    "ptime": 5345000,
+    "author": "Richard Barnes",
+    "text": "@jonathan echo is back<br/>"
+  },
+  {
+    "dtime": 5373000,
+    "ptime": 5373000,
+    "author": "Jonathan Lennox",
+    "text": "It's not my laptop - Meetecho can you take a look?<br/>"
+  },
+  {
+    "dtime": 5395000,
+    "ptime": 5395000,
+    "author": "Lucas Pardue",
+    "text": "the hand bone's connected to the ... MBONE<br/>"
+  },
+  {
+    "dtime": 5396000,
+    "ptime": 5396000,
+    "author": "Richard Barnes",
+    "text": "is it possible to just mute the room?<br/>"
+  },
+  {
+    "dtime": 5410000,
+    "ptime": 5410000,
+    "author": "rohan",
+    "text": "+1 on muting the room<br/>"
+  },
+  {
+    "dtime": 5422000,
+    "ptime": 5422000,
+    "author": "Jonathan Lennox",
+    "text": "Not in my controls but possibly in meetecho's<br/>"
+  },
+  {
+    "dtime": 5423000,
+    "ptime": 5423000,
+    "author": "Meetecho",
+    "text": "Heading there<br/>"
+  },
+  {
+    "dtime": 5444000,
+    "ptime": 5444000,
+    "author": "Murray Kucherawy",
+    "text": "Darth Jennings<br/>"
+  },
+  {
+    "dtime": 5447000,
+    "ptime": 5447000,
+    "author": "Joerg Ott",
+    "text": "but Cullen sounds nicely mystic this way<br/>"
+  },
+  {
+    "dtime": 5771000,
+    "ptime": 5771000,
+    "author": "Stephan Wenger",
+    "text": "@Cullen: AOM may also be interested if you don't want to go to MPEG<br/>"
+  },
+  {
+    "dtime": 5810000,
+    "ptime": 5810000,
+    "author": "Cullen Jennings",
+    "text": "oh interesting - I did not realize that. thanks<br/>"
+  },
+  {
+    "dtime": 5946000,
+    "ptime": 5946000,
+    "author": "Hang Shi",
+    "text": "AOM stands for Alliance for Open Media?<br/>"
+  },
+  {
+    "dtime": 6009000,
+    "ptime": 6009000,
+    "author": "Roni Even",
+    "text": "I am not sure if it is related but&nbsp;&nbsp;for H.323 we used rtp for FECC regitering a media subtype in rfc4573.<br/>"
+  },
+  {
+    "dtime": 6028000,
+    "ptime": 6028000,
+    "author": "Stephan Wenger",
+    "text": "@Hang SHi: yes<br/>"
+  },
+  {
+    "dtime": 6034000,
+    "ptime": 6034000,
+    "author": "Rohan Mahy",
+    "text": "To Jonathan's comment, this is no different than what we did in geopriv, where IETF invited domain experts<br/>"
+  },
+  {
+    "dtime": 6280000,
+    "ptime": 6280000,
+    "author": "Roni Even",
+    "text": "+1 to MO and Bernard<br/>"
+  },
+  {
+    "dtime": 6326000,
+    "ptime": 6326000,
+    "author": "Hang Shi",
+    "text": "Is this related to webtransport? If webtransport can transmit any TLV in the datagram, do we still map it to RTP?<br/>"
+  },
+  {
+    "dtime": 6333000,
+    "ptime": 6333000,
+    "author": "Suhas Nandakumar",
+    "text": "+1 on time synchronization with RTP<br/>"
+  },
+  {
+    "dtime": 6336000,
+    "ptime": 6336000,
+    "author": "Rohan Mahy",
+    "text": "Bernard said exactly what I was going to say<br/>"
+  },
+  {
+    "dtime": 6344000,
+    "ptime": 6344000,
+    "author": "Richard Barnes",
+    "text": "even QUIC is not quick<br/>"
+  },
+  {
+    "dtime": 6353000,
+    "ptime": 6353000,
+    "author": "Spencer Dawkins",
+    "text": "It does sound like we need to reopen RTCWeb and recharter it as the IETF media complaint department ... :grin:<br/>"
+  },
+  {
+    "dtime": 6358000,
+    "ptime": 6358000,
+    "author": "Ted Hardie",
+    "text": "Dirty, on the other hand...<br/>"
+  },
+  {
+    "dtime": 6392000,
+    "ptime": 6392000,
+    "author": "Hang Shi",
+    "text": "If we map it to the RTP then webtransport is widely support, do we need to do game state over RTP over webtransport over HTTP/3 over QUIC?<br/>"
+  },
+  {
+    "dtime": 6415000,
+    "ptime": 6415000,
+    "author": "Ted Hardie",
+    "text": "@Spencer&nbsp;&nbsp;RTCWeb is actually currently open, and as one of its current chairs: No, thanks.<br/>"
+  },
+  {
+    "dtime": 6488000,
+    "ptime": 6488000,
+    "author": "Sergio Garcia Murillo",
+    "text": "have we given up trying to synchronize dc messages with rtp timestamps?<br/>"
+  },
+  {
+    "dtime": 6502000,
+    "ptime": 6502000,
+    "author": "Roni Even",
+    "text": "For cullen sake not like CLUE<br/>"
+  },
+  {
+    "dtime": 6577000,
+    "ptime": 6577000,
+    "author": "Richard Barnes",
+    "text": "TLV-over-RTP<br/>"
+  },
+  {
+    "dtime": 6637000,
+    "ptime": 6637000,
+    "author": "Sergio Garcia Murillo",
+    "text": "RTMP SharedObject over RTP (just partially joking)<br/>"
+  },
+  {
+    "dtime": 6647000,
+    "ptime": 6647000,
+    "author": "Pete Resnick",
+    "text": "+1 Suhas<br/>"
+  },
+  {
+    "dtime": 6687000,
+    "ptime": 6687000,
+    "author": "Colin Perkins",
+    "text": "This seems a good fit for the current AVT charter, to me<br/>"
+  },
+  {
+    "dtime": 6692000,
+    "ptime": 6692000,
+    "author": "Pete Resnick",
+    "text": "Agree it's within&nbsp;&nbsp;charter.<br/>"
+  },
+  {
+    "dtime": 6816000,
+    "ptime": 6816000,
+    "author": "Magnus Westerlund",
+    "text": "I think the new format part is border line but you can go either way. So lets do it. But it is this part of the charter we are talking about: <br/>"
+  },
+  {
+    "dtime": 6817000,
+    "ptime": 6817000,
+    "author": "Magnus Westerlund",
+    "text": "3. To specify and maintain payload formats for use with RTP. The working<br/>group will develop RTP payload formats for new media codecs, review and<br/>revise existing payload formats to advance those that are especially<br/>useful to Internet Standard, and declare others Historic. The group will<br/>follow the guidelines established in \"Guidelines for Writers of RTP<br/>Payload Format Specifications\" [BCP 36] and \"How to Write an RTP Payload<br/>Format\" (RFC 8088), and is responsible for maintaining those guidelines.<br/>"
+  },
+  {
+    "dtime": 6913000,
+    "ptime": 6913000,
+    "author": "Simon Romano",
+    "text": "This is a nice proposal. I'd love to contribute. Thanks @Cullen for bringing this to the table.<br/>"
+  },
+  {
+    "dtime": 6949000,
+    "ptime": 6949000,
+    "author": "Hang Shi",
+    "text": "Agree. This work fits in the charter.<br/>"
+  },
+  {
+    "dtime": 7001000,
+    "ptime": 7001000,
+    "author": "Giles Heron",
+    "text": "I've read it<br/>"
+  },
+  {
+    "dtime": 7002000,
+    "ptime": 7002000,
+    "author": "Suhas Nandakumar",
+    "text": "+1 on read the draft<br/>"
+  },
+  {
+    "dtime": 7074000,
+    "ptime": 7074000,
+    "author": "Roni Even",
+    "text": "when we hear about games we are interested :smiley:<br/>"
+  },
+  {
+    "dtime": 7186000,
+    "ptime": 7186000,
+    "author": "Rohan Mahy",
+    "text": "so long and thanks for all the fish!<br/>"
+  },
+  {
+    "dtime": 7194000,
+    "ptime": 7194000,
+    "author": "Richard Barnes",
+    "text": "i would be interested in a short tags call<br/>"
+  },
+  {
+    "dtime": 7202000,
+    "ptime": 7202000,
+    "author": "Cullen Jennings",
+    "text": "<a href=\"https://eprint.iacr.org/2015/477.pdf\" rel=\"nofollow\">https://eprint.iacr.org/2015/477.pdf</a><br/>"
+  },
+  {
+    "dtime": 7216000,
+    "ptime": 7216000,
+    "author": "Cullen Jennings",
+    "text": "Paper by Magnus and Mattsson<br/>"
+  },
+  {
+    "dtime": 7223000,
+    "ptime": 7223000,
+    "author": "Suhas Nandakumar",
+    "text": "+1 on short tags call<br/>"
+  },
+  {
+    "dtime": 7270000,
+    "ptime": 7270000,
+    "author": "Cullen Jennings",
+    "text": "Thank you everyone for input on game moves <br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-AVTCORE-20220325-0900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/avtcore"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF113-AVTCORE-20220325-0900"
+		}		
+	]
+}

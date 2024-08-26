@@ -1,0 +1,567 @@
+
+{
+	"title": "IETF-MIMI-20230913-1900",
+	"filename": "IETF-MIMI-20230913-1900",
+	"start": 0,
+	"end": 7241000,
+	"start_datetime": "2023-09-13T19:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Jm_shSF8rYc",
+    "start": 0,
+    "end": "7241000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>Can Tim speak to confirm mic/speaker is working plz?</p>",
+    "topic": "ietf-interim",
+    "dtime": 144000,
+    "ptime": 144000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 164000,
+    "ptime": 164000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 167000,
+    "ptime": 167000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Pretty sure you were asking the other Jonathan but I hear you too.:slightly_smiling_face:</p>",
+    "topic": "ietf-interim",
+    "dtime": 186000,
+    "ptime": 186000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>All right, I'll do it.</p>",
+    "topic": "ietf-interim",
+    "dtime": 283000,
+    "ptime": 283000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I will take notes while Ekr presents</p>",
+    "topic": "ietf-interim",
+    "dtime": 312000,
+    "ptime": 312000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 320000,
+    "ptime": 320000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>does anyone know how to pop these out?</p>",
+    "topic": "ietf-interim",
+    "dtime": 370000,
+    "ptime": 370000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>nm I found it</p>",
+    "topic": "ietf-interim",
+    "dtime": 382000,
+    "ptime": 382000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>User 1 shouldn't always be bound to App Provider 1, for example.</p>",
+    "topic": "ietf-interim",
+    "dtime": 971000,
+    "ptime": 971000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i'm late, but the answer to the question on the slide is \"no\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1149000,
+    "ptime": 1149000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Femi - I think that account portability across providers is out of scope for this WG</p>",
+    "topic": "ietf-interim",
+    "dtime": 1199000,
+    "ptime": 1199000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>big +1 to EKR</p>",
+    "topic": "ietf-interim",
+    "dtime": 1209000,
+    "ptime": 1209000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>Are the identifiers to be tied to a provider? Are they provider-independent? I am unsure of the requirements on the actual identifiers.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1246000,
+    "ptime": 1246000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Well, user 1 could use multiple independent clients on multiple devices to access whatever service is giving them a MIMI-compatible account</p>",
+    "topic": "ietf-interim",
+    "dtime": 1250000,
+    "ptime": 1250000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>+1 for Andrew - that's the kind of question I have in mind too</p>",
+    "topic": "ietf-interim",
+    "dtime": 1265000,
+    "ptime": 1265000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I agree that \"download the entire database\" is naive, but one might imagine a less naive version that would actually be plausibly efficient</p>",
+    "topic": "ietf-interim",
+    "dtime": 1352000,
+    "ptime": 1352000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>E.g., \"download everything in the same area code as mine</p>",
+    "topic": "ietf-interim",
+    "dtime": 1361000,
+    "ptime": 1361000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>As people may recognize, this is basically the naive implementation of PIR</p>",
+    "topic": "ietf-interim",
+    "dtime": 1396000,
+    "ptime": 1396000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>(I.e., not really PIR)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1403000,
+    "ptime": 1403000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>There are fairly significant privacy concerns with being able to query so broadly.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1416000,
+    "ptime": 1416000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, I think that's the question at hand</p>",
+    "topic": "ietf-interim",
+    "dtime": 1437000,
+    "ptime": 1437000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Yes, so we should define the privacy requirements for identifiers before discussing a solution. Are these meant to be private or public, would they include personal information...?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1459000,
+    "ptime": 1459000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>As Giles observed in SF, many existing systems already have an oracle for this</p>",
+    "topic": "ietf-interim",
+    "dtime": 1478000,
+    "ptime": 1478000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Remember that this is a comparatively small database, so rate limiting is of limited use</p>",
+    "topic": "ietf-interim",
+    "dtime": 1494000,
+    "ptime": 1494000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>A related question might also be how the user is approaching discovery. If the user just wants to know who they can contact, uploading a hashed address book to somewhere might be reasonable. A similar setup works for individual lookups, too.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1634000,
+    "ptime": 1634000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>\"Somewhere\" obviously also needing definition</p>",
+    "topic": "ietf-interim",
+    "dtime": 1649000,
+    "ptime": 1649000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>+1 to not making identifiers secret</p>",
+    "topic": "ietf-interim",
+    "dtime": 1882000,
+    "ptime": 1882000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>Noting that no messaging provider today makes their list of identifiers private</p>",
+    "topic": "ietf-interim",
+    "dtime": 1913000,
+    "ptime": 1913000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Giles - I generally agree, but that might look different for these enterprise cases</p>",
+    "topic": "ietf-interim",
+    "dtime": 1952000,
+    "ptime": 1952000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>Right - another reason not to include them</p>",
+    "topic": "ietf-interim",
+    "dtime": 1965000,
+    "ptime": 1965000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Well, the DMA basically says that gatekeeper providers have to interoperate with any other provider that wants to do so. There can be arguments on whether a single self-hosted service qualifies as \"a provider\", though.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1984000,
+    "ptime": 1984000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>but it has exceptions for integrity of the gatekeeper's service</p>",
+    "topic": "ietf-interim",
+    "dtime": 2010000,
+    "ptime": 2010000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 2027000,
+    "ptime": 2027000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Travis: I don't think hashing will work for enumeration reasons.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2065000,
+    "ptime": 2065000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>Which enumeration, sorry?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2151000,
+    "ptime": 2151000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>CA-browser forum, but for messaging!</p>",
+    "topic": "ietf-interim",
+    "dtime": 2161000,
+    "ptime": 2161000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>In general, if you have H(phone number) it's trivial to compute phone number because the space of phone numbers is small</p>",
+    "topic": "ietf-interim",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>ah, fair. It's easy to solve that concern in a centralized identity lookup, but that raises questions about who would host that... which I think is now on screen.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2482000,
+    "ptime": 2482000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm not sure what problem you are trying to solve, Travis</p>",
+    "topic": "ietf-interim",
+    "dtime": 2496000,
+    "ptime": 2496000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>DNS?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2553000,
+    "ptime": 2553000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>debatable whether ENUM's failure was due to privacy or just bellheads</p>",
+    "topic": "ietf-interim",
+    "dtime": 2578000,
+    "ptime": 2578000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I don't think that this is a very good analogy, because it's going to effectively be populated by fiat</p>",
+    "topic": "ietf-interim",
+    "dtime": 2587000,
+    "ptime": 2587000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>I think central databases are a no starter</p>",
+    "topic": "ietf-interim",
+    "dtime": 2606000,
+    "ptime": 2606000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>Because incentives</p>",
+    "topic": "ietf-interim",
+    "dtime": 2634000,
+    "ptime": 2634000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>It has to be federated like DNS</p>",
+    "topic": "ietf-interim",
+    "dtime": 2645000,
+    "ptime": 2645000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Giles: I suspect we're not going to want one, but I'd like to hear you lay out your argument in more detail</p>",
+    "topic": "ietf-interim",
+    "dtime": 2645000,
+    "ptime": 2645000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>@Eric: just throwing out ideas for how to solve \"I have a phone number/email - what is that user's MIMI identifier and what provider are they on?\". Ideally, the identity database is hidden from the lookup servers themselves to make them less useful to malicious parties.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2656000,
+    "ptime": 2656000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>/me returns to observer role <span aria-label=\"innocent\" class=\"emoji emoji-1f607\" role=\"img\" title=\"innocent\">:innocent:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 2675000,
+    "ptime": 2675000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'd need to understand your architecture in more detail. But in general, I don't see how hashing helps</p>",
+    "topic": "ietf-interim",
+    "dtime": 2709000,
+    "ptime": 2709000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>Yea, I'd have to take another look at why Matrix hashes it.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2785000,
+    "ptime": 2785000
+  },
+  {
+    "author": "Basel Alnaffouri",
+    "text": "<p>you could always take your name off the book :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2830000,
+    "ptime": 2830000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Also that was before mobile phones that most people carry with them at all times.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2898000,
+    "ptime": 2898000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>sorry i keep popping in and out, ekr and giles keeps making my points :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3072000,
+    "ptime": 3072000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm skeptical of rate limiting</p>",
+    "topic": "ietf-interim",
+    "dtime": 3080000,
+    "ptime": 3080000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>@Giles: You're echoing a ton, sorry.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3110000,
+    "ptime": 3110000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>+100 to Richard</p>",
+    "topic": "ietf-interim",
+    "dtime": 4016000,
+    "ptime": 4016000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Well, this is what Certificate Transparency is for</p>",
+    "topic": "ietf-interim",
+    "dtime": 4124000,
+    "ptime": 4124000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>You need a certification authority - big providers can be one, but there can be separate ones too</p>",
+    "topic": "ietf-interim",
+    "dtime": 4181000,
+    "ptime": 4181000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I continue to not understand Basels point on why we dont need to solve it</p>",
+    "topic": "ietf-interim",
+    "dtime": 4234000,
+    "ptime": 4234000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>JDR did you take notes on my slides?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4517000,
+    "ptime": 4517000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>@ekr yes i did</p>",
+    "topic": "ietf-interim",
+    "dtime": 4585000,
+    "ptime": 4585000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Huh, I don't see them in <a href=\"https://notes.ietf.org/notes-ietf-interim-2023-mimi-09-mimi?edit\">https://notes.ietf.org/notes-ietf-interim-2023-mimi-09-mimi?edit</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 4597000,
+    "ptime": 4597000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Which is concerning</p>",
+    "topic": "ietf-interim",
+    "dtime": 4602000,
+    "ptime": 4602000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>OHAI may be a relevant technology here -- if the OHAI relay is the querying user's provider and the OHAI target is the destination of the query, you get anonymity of queries to the level of providers</p>",
+    "topic": "ietf-interim",
+    "dtime": 5305000,
+    "ptime": 5305000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>JDR's mention of \"synchronizing every night\" leads me to think of another potential requirement - what's the timeliness we expect of this protocol?  If I sign up with a new provider, how soon should I expect other people to be able to find me there with my SII?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5487000,
+    "ptime": 5487000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>in my opinion, new signups should be pretty quick for onboarding reasons. Changes to identity can take a few hours.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5545000,
+    "ptime": 5545000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>@rohan - your approach - of the user doing the lookup, this only really works for the consumer OTT case. It does NOT work for the enterprise cases that I outlined.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5680000,
+    "ptime": 5680000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>A bloom filter can yield false positives, resulting in a service receiving a query for a user hosted elsewhere. That's one of the problems my draft was attempting to mitigate.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5713000,
+    "ptime": 5713000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, that was my strawman to elicit objections</p>",
+    "topic": "ietf-interim",
+    "dtime": 6104000,
+    "ptime": 6104000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>mission accomplished!</p>",
+    "topic": "ietf-interim",
+    "dtime": 6184000,
+    "ptime": 6184000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I lke that formulation Giles</p>",
+    "topic": "ietf-interim",
+    "dtime": 6207000,
+    "ptime": 6207000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>\"The owner of the database of mapping should be able to control the rate of access to that data\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 6222000,
+    "ptime": 6222000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>I can't join the queue due to environment issues, but of all the requirement sets presented I agree with Vittorio's the most. Though I'm not sure how we evaluate \"has a business model\".</p>",
+    "topic": "ietf-interim",
+    "dtime": 7051000,
+    "ptime": 7051000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, I could imagine some new identifier space that was authenticated by some means other than routing</p>",
+    "topic": "ietf-interim",
+    "dtime": 7126000,
+    "ptime": 7126000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Blockchain /ducks</p>",
+    "topic": "ietf-interim",
+    "dtime": 7141000,
+    "ptime": 7141000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-MIMI-20230913-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-mimi-09/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-MIMI-20230913-1900"
+		}
+	]
+}

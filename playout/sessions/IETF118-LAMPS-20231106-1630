@@ -1,0 +1,252 @@
+
+{
+	"title": "IETF118-LAMPS-20231106-1630",
+	"filename": "IETF118-LAMPS-20231106-1630",
+	"start": 0,
+	"end": 3761000,
+	"start_datetime": "2023-11-06T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "IOX1sBs_25E",
+    "start": 0,
+    "end": "3761000"
+  }
+],
+	"messages": [
+  {
+    "author": "Aritra Banerjee",
+    "text": "<p>No known issues in draft-ietf-lamps-nf-eku</p>",
+    "topic": "ietf-118",
+    "dtime": 591000,
+    "ptime": 591000
+  },
+  {
+    "author": "Aritra Banerjee",
+    "text": "<p>*open</p>",
+    "topic": "ietf-118",
+    "dtime": 633000,
+    "ptime": 633000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>At least from remote, the speaker's mic is very low. Is it just that they're standing far from it, or is it an amplification issue?</p>",
+    "topic": "ietf-118",
+    "dtime": 712000,
+    "ptime": 712000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 768000,
+    "ptime": 768000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"325\">@Yoav Nir</span>  Better now?</p>",
+    "topic": "ietf-118",
+    "dtime": 772000,
+    "ptime": 772000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Yeah</p>",
+    "topic": "ietf-118",
+    "dtime": 784000,
+    "ptime": 784000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>re: draft-ietf-lamps-cert-binding-for-multi-auth:   i don't understand any meaningful advantage of having an optional hash algorithm.  it seems like one more thing to break.  keep it simple.</p>",
+    "topic": "ietf-118",
+    "dtime": 1301000,
+    "ptime": 1301000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>If the chairs accept my request I can present the ML-KEM (née Kyber) Certificates I-D.</p>",
+    "topic": "ietf-118",
+    "dtime": 1458000,
+    "ptime": 1458000
+  },
+  {
+    "author": "Alison Becker",
+    "text": "<p>@dkg thanks for the note - I like simple as well!</p>",
+    "topic": "ietf-118",
+    "dtime": 1514000,
+    "ptime": 1514000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>I’m not where I can talk.</p>",
+    "topic": "ietf-118",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>I accepted the Kyber slides, I'm going to suggest to Russ we consider returning to them after Corey (who is next)</p>",
+    "topic": "ietf-118",
+    "dtime": 1641000,
+    "ptime": 1641000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>instead of Corey, I am presenting</p>",
+    "topic": "ietf-118",
+    "dtime": 1676000,
+    "ptime": 1676000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>(5019bis)</p>",
+    "topic": "ietf-118",
+    "dtime": 1707000,
+    "ptime": 1707000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>But more likely than not you will end up with multiple attestations where the chains are identical except for the attestation key certificate.</p>",
+    "topic": "ietf-118",
+    "dtime": 1760000,
+    "ptime": 1760000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>Thank you Tadahiko</p>",
+    "topic": "ietf-118",
+    "dtime": 2046000,
+    "ptime": 2046000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>@Tim that works!</p>",
+    "topic": "ietf-118",
+    "dtime": 2213000,
+    "ptime": 2213000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"435\">Michael StJohns</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/95242\">said</a>:</p>\n<blockquote>\n<p>But more likely than not you will end up with multiple attestations where the chains are identical except for the attestation key certificate.</p>\n</blockquote>\n<p>I thought that was one of the core usecases that Carl's suggestion handles gracefully.<br>\nIs there a reason those multiple attestations can't bundled into a single EvidenceBundle?</p>\n<div class=\"codehilite\"><pre><span></span><code>EvidenceBundle {\n  evidence: [ [evidence1], [evidence2], [evidence3] ],\n  certs: [ [EndEntity1], [EndEntity2], [EndEntity3],  [common-intCA], [common-rootCA] ]\n}\n</code></pre></div>\n<p>?</p>",
+    "topic": "ietf-118",
+    "dtime": 2357000,
+    "ptime": 2357000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>Does EE mean end-entity or evidence or both?</p>",
+    "topic": "ietf-118",
+    "dtime": 2523000,
+    "ptime": 2523000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"192\">Ned Smith</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/95267\">said</a>:</p>\n<blockquote>\n<p>Does EE mean end-entity or evidence or both?</p>\n</blockquote>\n<p>Edited. Clearer?</p>",
+    "topic": "ietf-118",
+    "dtime": 2663000,
+    "ptime": 2663000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Doesn't the Kyber spec have an opinion on this already? We should just do whatever it does.</p>",
+    "topic": "ietf-118",
+    "dtime": 2819000,
+    "ptime": 2819000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"829\">David Benjamin</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/95270\">said</a>:</p>\n<blockquote>\n<p>Doesn't the Kyber spec have an opinion on this already? We should just do whatever it does.</p>\n</blockquote>\n<p>Yeah, I think that's exactly the point; NIST is telling us how to encode a Kyber public key (right?); far from us to re-engineer that.</p>",
+    "topic": "ietf-118",
+    "dtime": 2864000,
+    "ptime": 2864000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Well public key it had better have an opinion on or we really have problems. I think it also has the same opinion on the private key. Which is that, in both cases, you leave the A matrix out of the format and expand it on use or import.</p>",
+    "topic": "ietf-118",
+    "dtime": 2908000,
+    "ptime": 2908000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>Mike said: &gt;Edited. Clearer?</p>",
+    "topic": "ietf-118",
+    "dtime": 2941000,
+    "ptime": 2941000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>I'm thinking about SPDM alias cert models</p>",
+    "topic": "ietf-118",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Specifically the problem is that we become the COSE WG who are <em>still</em> arguing about how to encode ECC public keys :P</p>",
+    "topic": "ietf-118",
+    "dtime": 2965000,
+    "ptime": 2965000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>I can imagine a use case for shipping the A matrix with the private key if you want to avoid computing it and trust the source of your private key. They can do something special. For general interchange, let's avoid the redundancy.</p>",
+    "topic": "ietf-118",
+    "dtime": 2998000,
+    "ptime": 2998000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"192\">Ned Smith</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/95277\">said</a>:</p>\n<blockquote>\n<p>I'm thinking about SPDM alias cert models</p>\n</blockquote>\n<p>... I don't know what that is.</p>",
+    "topic": "ietf-118",
+    "dtime": 3000000,
+    "ptime": 3000000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/95278\">said</a>:</p>\n<blockquote>\n<p>Specifically the problem is that we become the COSE WG who are <em>still</em> arguing about how to encode ECC public keys :P</p>\n</blockquote>\n<p>Yeah, ECC made the mistake of not being <em>quite</em> firm enough in sticking to the \"there is only one encoding, stop arguing\" model. Let's never make that mistake again.</p>",
+    "topic": "ietf-118",
+    "dtime": 3034000,
+    "ptime": 3034000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>RE: \"ML-KEM\" vs \"Kyber\": nobody uses \"Rijndael\" anymore. It's AES.</p>",
+    "topic": "ietf-118",
+    "dtime": 3206000,
+    "ptime": 3206000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>I guess this is also because JOSE set a precedent of exploding all the parameters into JSON. E.g. rather than just base64-encoding the usual ASN.1 encoding, each RSA field is stuck into a separate key. I wasn't there, but I guess people consider ASN.1 gross and wanted to avoid it? And then likewise they exploded the EC point coefficients, even though there isn't even any ASN.1 involved.</p>",
+    "topic": "ietf-118",
+    "dtime": 3217000,
+    "ptime": 3217000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/95281\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"192\">Ned Smith</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/95277\">said</a>:</p>\n<blockquote>\n<p>I'm thinking about SPDM alias cert models</p>\n</blockquote>\n<p>... I don't know what that is.</p>\n</blockquote>\n<p>SPDM cert model allows dynamic extension of the cert path by an embedded CA. ECA issued certs can contain evidence.</p>",
+    "topic": "ietf-118",
+    "dtime": 3717000,
+    "ptime": 3717000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-LAMPS-20231106-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/lamps"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-LAMPS-20231106-1630"
+		}		
+	]
+}

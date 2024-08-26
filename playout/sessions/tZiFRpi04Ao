@@ -1,0 +1,227 @@
+
+{
+	"title": "IETF114-REGEXT-20220728-2130",
+	"filename": "IETF114-REGEXT-20220728-2130",
+	"start": 0,
+	"end": 3568000,
+	"start_datetime": "2022-07-28T21:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "tZiFRpi04Ao",
+    "start": 0,
+    "end": "3568000"
+  }
+],
+	"messages": [
+  {
+    "author": "James Gould",
+    "text": "<p>Go Rick!</p>",
+    "dtime": 328000,
+    "ptime": 328000
+  },
+  {
+    "author": "Richard Wilhelm",
+    "text": "<p>doc is open... anyone feel free to put stuff in or fix stuff that I mess up</p>",
+    "dtime": 345000,
+    "ptime": 345000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>car</p>",
+    "dtime": 1176000,
+    "ptime": 1176000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>Does that hold true with EVs?</p>",
+    "dtime": 1181000,
+    "ptime": 1181000
+  },
+  {
+    "author": "Peter Koch",
+    "text": "<p>not representing an ICANN contracted party, I still sympathize with Rick's concerns</p>",
+    "dtime": 1321000,
+    "ptime": 1321000
+  },
+  {
+    "author": "Stéphane Bortzmeyer",
+    "text": "<p>@Peter But why is it different than all the other RFCs that are used in ICANN contracts?</p>",
+    "dtime": 1370000,
+    "ptime": 1370000
+  },
+  {
+    "author": "Peter Koch",
+    "text": "<p>not sure about \"all the other RFCs\", but to the best of my knowledge they point to protocol specifications</p>",
+    "dtime": 1502000,
+    "ptime": 1502000
+  },
+  {
+    "author": "Stéphane Bortzmeyer",
+    "text": "<p>The best example is RFC 8499 (nt</p>",
+    "dtime": 1575000,
+    "ptime": 1575000
+  },
+  {
+    "author": "Stéphane Bortzmeyer",
+    "text": "<p>(not a protocol specification)</p>",
+    "dtime": 1590000,
+    "ptime": 1590000
+  },
+  {
+    "author": "Peter Koch",
+    "text": "<p>8499 has its own set of issues, but at least it is 'only' a BCP and does not use normative language</p>",
+    "dtime": 1751000,
+    "ptime": 1751000
+  },
+  {
+    "author": "Peter Koch",
+    "text": "<p>(except for a quote from RFC 4035)</p>",
+    "dtime": 1815000,
+    "ptime": 1815000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>I just want to ensure that the versioning of policy identifiers can still be registered</p>",
+    "dtime": 2337000,
+    "ptime": 2337000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>It exists so a client can know which query parameters to use when sending requests.</p>",
+    "dtime": 2703000,
+    "ptime": 2703000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>Ensure that identifiers like icann_rdap_response_profile_0 and icann_rdap_technical_implementation_guide_0 can continue to be registered, since versioning is not an RDAP Extension Registry feature.</p>",
+    "dtime": 2709000,
+    "ptime": 2709000
+  },
+  {
+    "author": "Richard Wilhelm",
+    "text": "<p>I think that as long as they are unique... they can be registered.  Fair?</p>",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>That sounds fair to me, as long as the proposal doesn't disallow versioning of these type of identifiers.</p>",
+    "dtime": 2860000,
+    "ptime": 2860000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>\"hint\" was bad language. :)</p>",
+    "dtime": 2874000,
+    "ptime": 2874000
+  },
+  {
+    "author": "Jasdip Singh",
+    "text": "<p>On similar lines, the NRO RDAP Profile for RIRs also has an extension registered for conformance among the RIRs.</p>",
+    "dtime": 2992000,
+    "ptime": 2992000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>Correct the policy / profile identifiers don't define structure but the data that would be returned in the structure.</p>",
+    "dtime": 2993000,
+    "ptime": 2993000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>I support the chairs proposal.</p>",
+    "dtime": 3017000,
+    "ptime": 3017000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>For draft-ietf-regext-rdap-redacted, we would register \"redacted\", which will be used for the rdapConformance value and the response member of the extension.</p>",
+    "dtime": 3081000,
+    "ptime": 3081000
+  },
+  {
+    "author": "Jasdip Singh",
+    "text": "<p>That's alright. :)</p>",
+    "dtime": 3112000,
+    "ptime": 3112000
+  },
+  {
+    "author": "Andrew Newton",
+    "text": "<p>Yes! Thanks to the Chairs!</p>",
+    "dtime": 3216000,
+    "ptime": 3216000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>Yoshiro Yoneya: clap!</p>",
+    "dtime": 3233000,
+    "ptime": 3233000
+  },
+  {
+    "author": "Jasdip Singh",
+    "text": "<p>+1</p>",
+    "dtime": 3238000,
+    "ptime": 3238000
+  },
+  {
+    "author": "Tom Harrison",
+    "text": "<p>+1</p>",
+    "dtime": 3245000,
+    "ptime": 3245000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>redacted_level_0  :-)</p>",
+    "dtime": 3276000,
+    "ptime": 3276000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>Thanks everyone!</p>",
+    "dtime": 3455000,
+    "ptime": 3455000
+  },
+  {
+    "author": "Mario Loffredo",
+    "text": "<p>me too</p>",
+    "dtime": 3456000,
+    "ptime": 3456000
+  },
+  {
+    "author": "Richard Wilhelm",
+    "text": "<p>Minutes are up-to-date... feel free to augment, update, and improve</p>",
+    "dtime": 3459000,
+    "ptime": 3459000
+  },
+  {
+    "author": "Jody Kolker",
+    "text": "<p>thanks everyone!</p>",
+    "dtime": 3467000,
+    "ptime": 3467000
+  },
+  {
+    "author": "Mario Loffredo",
+    "text": "<p>Thanks all. Good night</p>",
+    "dtime": 3479000,
+    "ptime": 3479000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-REGEXT-20220728-2130"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/regext"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-REGEXT-20220728-2130"
+		}		
+	]
+}

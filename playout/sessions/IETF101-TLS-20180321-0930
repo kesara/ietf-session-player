@@ -1,0 +1,797 @@
+{
+  "title": "IETF101-TLS-20180321-0930",
+  "filename": "IETF101-TLS-20180321-0930",
+  "start": 0,
+  "end": 9334000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "vyWOakq0HhU",
+      "start": 0.0,
+      "end": 9334000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Samuel Jero just joined the room",
+      "ptime": 106000.0,
+      "dtime": 781000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 140000.0,
+      "dtime": 815000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 318000.0,
+      "dtime": 993000.0
+    },
+    {
+      "text": "***Jason Polis just joined the room",
+      "ptime": 331000.0,
+      "dtime": 1006000.0
+    },
+    {
+      "text": "***Karen O\u0027Donoghue just joined the room",
+      "ptime": 450000.0,
+      "dtime": 1125000.0
+    },
+    {
+      "text": "***Ioana Boureanu just joined the room",
+      "ptime": 585000.0,
+      "dtime": 1260000.0
+    },
+    {
+      "text": "***Miroslav Lichvar just joined the room",
+      "ptime": 645000.0,
+      "dtime": 1320000.0
+    },
+    {
+      "text": "***Thom Peterson just joined the room",
+      "ptime": 689000.0,
+      "dtime": 1364000.0
+    },
+    {
+      "text": "Hannes at mic",
+      "ptime": 1065000.0,
+      "dtime": 1740000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Ben at mic",
+      "ptime": 1119000.0,
+      "dtime": 1794000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Thomas at mic",
+      "ptime": 1146000.0,
+      "dtime": 1821000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Tobias at mic",
+      "ptime": 1178000.0,
+      "dtime": 1853000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***c.j. just joined the room",
+      "ptime": 1224000.0,
+      "dtime": 1899000.0
+    },
+    {
+      "text": "I feel like I\u0027ve seen this discussion before",
+      "ptime": 1377000.0,
+      "dtime": 2052000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "Martin at mic",
+      "ptime": 1393000.0,
+      "dtime": 2068000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Christian at mic",
+      "ptime": 1498000.0,
+      "dtime": 2173000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Martin at mic",
+      "ptime": 1582000.0,
+      "dtime": 2257000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Subodh at mic",
+      "ptime": 1583000.0,
+      "dtime": 2258000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Tobias at mic",
+      "ptime": 1612000.0,
+      "dtime": 2287000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***GABRIEL MONTENEGRO just joined the room",
+      "ptime": 1622000.0,
+      "dtime": 2297000.0
+    },
+    {
+      "text": "Martin at mic",
+      "ptime": 1686000.0,
+      "dtime": 2361000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Rolf Sommerhalder just joined the room",
+      "ptime": 1799000.0,
+      "dtime": 2474000.0
+    },
+    {
+      "text": "Martin at mic",
+      "ptime": 1834000.0,
+      "dtime": 2509000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Rolf Sommerhalder just left the room",
+      "ptime": 1869000.0,
+      "dtime": 2544000.0
+    },
+    {
+      "text": "Tobias at mic",
+      "ptime": 1939000.0,
+      "dtime": 2614000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Martin at mic",
+      "ptime": 2015000.0,
+      "dtime": 2690000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "mic: I am confused about privacy concerns.  I thought the main reason for backporting CID for DTLS 1.2 was NAT rebinding from IOT devices and such; those implicit migration scenarios keep CIDs the same",
+      "ptime": 2066000.0,
+      "dtime": 2741000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "***GABRIEL MONTENEGRO just left the room",
+      "ptime": 2094000.0,
+      "dtime": 2769000.0
+    },
+    {
+      "text": "***Sara Dickinson just joined the room",
+      "ptime": 2142000.0,
+      "dtime": 2817000.0
+    },
+    {
+      "text": "Victor: part of the point of this is to enable the use of new paths, where constant CID isn\u0027t helpful",
+      "ptime": 2146000.0,
+      "dtime": 2821000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "we don\u0027t want linkability in that case, but assume that an endpoint can provide \u003e1 CID that causes the packet to arrive at the right destination",
+      "ptime": 2170000.0,
+      "dtime": 2845000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "True, but is there a strong reason to not make this a 1.3-only feature?",
+      "ptime": 2262000.0,
+      "dtime": 2937000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "***Daniel Havey just joined the room",
+      "ptime": 2280000.0,
+      "dtime": 2955000.0
+    },
+    {
+      "text": "OK, so that\u0027s just an argument for \"do nothing\"",
+      "ptime": 2303000.0,
+      "dtime": 2978000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Thomas at mic",
+      "ptime": 2351000.0,
+      "dtime": 3026000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Hannes at mic",
+      "ptime": 2433000.0,
+      "dtime": 3108000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Tero Kivinen just joined the room",
+      "ptime": 2450000.0,
+      "dtime": 3125000.0
+    },
+    {
+      "text": "***Tero Kivinen just left the room",
+      "ptime": 2512000.0,
+      "dtime": 3187000.0
+    },
+    {
+      "text": "Thomas at mic",
+      "ptime": 2560000.0,
+      "dtime": 3235000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Tobias at mic",
+      "ptime": 2567000.0,
+      "dtime": 3242000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Tero Kivinen just joined the room",
+      "ptime": 2572000.0,
+      "dtime": 3247000.0
+    },
+    {
+      "text": "Isn\u0027t \"rehandshake\" de-facto status quo?",
+      "ptime": 2592000.0,
+      "dtime": 3267000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 2613000.0,
+      "dtime": 3288000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 2615000.0,
+      "dtime": 3290000.0
+    },
+    {
+      "text": "Like, this isn\u0027t do-nothing vs rehandshake situation; you do rehandshake if your context requires privacy and do nothing otherwise",
+      "ptime": 2659000.0,
+      "dtime": 3334000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "Martin at mic",
+      "ptime": 2667000.0,
+      "dtime": 3342000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 2803000.0,
+      "dtime": 3478000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard at mic",
+      "ptime": 2860000.0,
+      "dtime": 3535000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Viktor Dukhovni just joined the room",
+      "ptime": 2866000.0,
+      "dtime": 3541000.0
+    },
+    {
+      "text": "DKG at mic",
+      "ptime": 2871000.0,
+      "dtime": 3546000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Victor Vasiliev: it turns out that rehandshake can be used if you are aware of a migration ahead of time (the discretionary migration), but you have to be very careful",
+      "ptime": 2880000.0,
+      "dtime": 3555000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Paul at mic",
+      "ptime": 2898000.0,
+      "dtime": 3573000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 2914000.0,
+      "dtime": 3589000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "the discretionary migration -- you mean where you\u0027re aware that you are sending via new interface or new IP address?",
+      "ptime": 2959000.0,
+      "dtime": 3634000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "Petr at mic",
+      "ptime": 3004000.0,
+      "dtime": 3679000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "I\u0027m there",
+      "ptime": 3023000.0,
+      "dtime": 3698000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 3029000.0,
+      "dtime": 3704000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 3031000.0,
+      "dtime": 3706000.0
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 3051000.0,
+      "dtime": 3726000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 3053000.0,
+      "dtime": 3728000.0
+    },
+    {
+      "text": "No.",
+      "ptime": 3054000.0,
+      "dtime": 3729000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "Yeah, this is not Victor Vasliev",
+      "ptime": 3063000.0,
+      "dtime": 3738000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "love the footer: \"DNS-OARC 28 Workshop, March 8th, Puerto Rico\"",
+      "ptime": 3104000.0,
+      "dtime": 3779000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Paul at mic",
+      "ptime": 3169000.0,
+      "dtime": 3844000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 3624000.0,
+      "dtime": 4299000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 3626000.0,
+      "dtime": 4301000.0
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 3681000.0,
+      "dtime": 4356000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 3683000.0,
+      "dtime": 4358000.0
+    },
+    {
+      "text": "***Antoin Verschuren just joined the room",
+      "ptime": 3821000.0,
+      "dtime": 4496000.0
+    },
+    {
+      "text": "***Antoin Verschuren just left the room",
+      "ptime": 3929000.0,
+      "dtime": 4604000.0
+    },
+    {
+      "text": "Viktor: can you try to be more concise in future comments, please",
+      "ptime": 3970000.0,
+      "dtime": 4645000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Petr at mic",
+      "ptime": 4050000.0,
+      "dtime": 4725000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 4144000.0,
+      "dtime": 4819000.0
+    },
+    {
+      "text": "Maybe Viktor can propose a new extension: the dnssec_commitment extension, which modifies this extension",
+      "ptime": 4163000.0,
+      "dtime": 4838000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Paul is wrong sadly.",
+      "ptime": 4340000.0,
+      "dtime": 5015000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "***Tero Kivinen just left the room",
+      "ptime": 4631000.0,
+      "dtime": 5306000.0
+    },
+    {
+      "text": "***Tero Kivinen just joined the room",
+      "ptime": 4637000.0,
+      "dtime": 5312000.0
+    },
+    {
+      "text": "Or ?Expect-DNSSEC?",
+      "ptime": 4655000.0,
+      "dtime": 5330000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "ekr: now you are just trolling",
+      "ptime": 4669000.0,
+      "dtime": 5344000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Yeah, I do actually think Expect-DANE is what you want",
+      "ptime": 4782000.0,
+      "dtime": 5457000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Expect-DNSSEC wouldn\u0027t concretely help unless we could also ensure that routing attacks are infeasible.",
+      "ptime": 4816000.0,
+      "dtime": 5491000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 4819000.0,
+      "dtime": 5494000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 4822000.0,
+      "dtime": 5497000.0
+    },
+    {
+      "text": "well it?s the same as Expect-CT, HPKP, etc.",
+      "ptime": 4836000.0,
+      "dtime": 5511000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Yeah, and all of those are ugly.",
+      "ptime": 4847000.0,
+      "dtime": 5522000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Not sufficient.",
+      "ptime": 4940000.0,
+      "dtime": 5615000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 4969000.0,
+      "dtime": 5644000.0
+    },
+    {
+      "text": "DKG at mic",
+      "ptime": 4970000.0,
+      "dtime": 5645000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 4972000.0,
+      "dtime": 5647000.0
+    },
+    {
+      "text": "The certificate usage is completely orthogonal",
+      "ptime": 4984000.0,
+      "dtime": 5659000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "The semantics are key here.  i.e., if a non-zero value can only be set with *both* valid PKIX and DANE then it is effectively Expect-DANE (or that may just be a way to do it).  But doing it as additive with non-zero is both a problem for additive being dangerous with the bad state of DNSSEC but also being that a party compromising DNSSEC could set a non-zero value (which is the \"brick\" case).",
+      "ptime": 4990000.0,
+      "dtime": 5665000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "He will now be known as ?Madman Gillmor?",
+      "ptime": 4990000.0,
+      "dtime": 5665000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "The certificate usage is irrelevant.",
+      "ptime": 5034000.0,
+      "dtime": 5709000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 5036000.0,
+      "dtime": 5711000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Paul and ekr",
+      "ptime": 5061000.0,
+      "dtime": 5736000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "HUm",
+      "ptime": 5147000.0,
+      "dtime": 5822000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "***Karen O\u0027Donoghue just left the room",
+      "ptime": 5154000.0,
+      "dtime": 5829000.0
+    },
+    {
+      "text": "***John Bond just joined the room",
+      "ptime": 5193000.0,
+      "dtime": 5868000.0
+    },
+    {
+      "text": "Kathleen at mic",
+      "ptime": 5234000.0,
+      "dtime": 5909000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "DKG at mic",
+      "ptime": 5256000.0,
+      "dtime": 5931000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 5287000.0,
+      "dtime": 5962000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 5289000.0,
+      "dtime": 5964000.0
+    },
+    {
+      "text": "Paul at mic",
+      "ptime": 5301000.0,
+      "dtime": 5976000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 5326000.0,
+      "dtime": 6001000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 5328000.0,
+      "dtime": 6003000.0
+    },
+    {
+      "text": "***Ralph Dolmans just left the room",
+      "ptime": 5449000.0,
+      "dtime": 6124000.0
+    },
+    {
+      "text": "***Sara Dickinson just left the room",
+      "ptime": 5515000.0,
+      "dtime": 6190000.0
+    },
+    {
+      "text": "***Deb Cooley just joined the room",
+      "ptime": 5613000.0,
+      "dtime": 6288000.0
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 5856000.0,
+      "dtime": 6531000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Alexandra Kulikova just joined the room",
+      "ptime": 5984000.0,
+      "dtime": 6659000.0
+    },
+    {
+      "text": "***Viktor Dukhovni just left the room",
+      "ptime": 6201000.0,
+      "dtime": 6876000.0
+    },
+    {
+      "text": "Nick at mic",
+      "ptime": 6224000.0,
+      "dtime": 6899000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 6423000.0,
+      "dtime": 7098000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Samuel Jero just left the room",
+      "ptime": 6820000.0,
+      "dtime": 7495000.0
+    },
+    {
+      "text": "***Deb Cooley just left the room",
+      "ptime": 6846000.0,
+      "dtime": 7521000.0
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 7091000.0,
+      "dtime": 7766000.0
+    },
+    {
+      "text": "***yuki Goto just joined the room",
+      "ptime": 7103000.0,
+      "dtime": 7778000.0
+    },
+    {
+      "text": "mic: it\u0027s fairly often a reduction on the order of a kilobyte or more",
+      "ptime": 7227000.0,
+      "dtime": 7902000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "I\u0027m willing to be the real benefits comes from all those certificates with dozens of SANs...",
+      "ptime": 7229000.0,
+      "dtime": 7904000.0,
+      "author": "Thom Peterson"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 7336000.0,
+      "dtime": 8011000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 7640000.0,
+      "dtime": 8315000.0
+    },
+    {
+      "text": "Is this effectively original QUIC crypto?",
+      "ptime": 7882000.0,
+      "dtime": 8557000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "Not quite.",
+      "ptime": 7900000.0,
+      "dtime": 8575000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "More like OPTLS",
+      "ptime": 7901000.0,
+      "dtime": 8576000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 8084000.0,
+      "dtime": 8759000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***George Palmer just left the room",
+      "ptime": 8145000.0,
+      "dtime": 8820000.0
+    },
+    {
+      "text": "***Tero Kivinen just left the room",
+      "ptime": 8155000.0,
+      "dtime": 8830000.0
+    },
+    {
+      "text": "Hm, what\u0027s the main difference here?",
+      "ptime": 8238000.0,
+      "dtime": 8913000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "***gianluca capitani just joined the room",
+      "ptime": 8325000.0,
+      "dtime": 9000000.0
+    },
+    {
+      "text": "***Rene Struik just joined the room",
+      "ptime": 8570000.0,
+      "dtime": 9245000.0
+    },
+    {
+      "text": "***Rene Struik just left the room",
+      "ptime": 8695000.0,
+      "dtime": 9370000.0
+    },
+    {
+      "text": "***Jason Polis just left the room",
+      "ptime": 9041000.0,
+      "dtime": 9716000.0
+    },
+    {
+      "text": "***Alexandra Kulikova just left the room",
+      "ptime": 9196000.0,
+      "dtime": 9871000.0
+    },
+    {
+      "text": "***Victor Vasiliev just left the room",
+      "ptime": 9305000.0,
+      "dtime": 9980000.0
+    },
+    {
+      "text": "***Miroslav Lichvar just left the room",
+      "ptime": 9333000.0,
+      "dtime": 1.0008E7
+    },
+    {
+      "text": "***Daniel Havey just left the room",
+      "ptime": 9334000.0,
+      "dtime": 1.0009E7
+    },
+    {
+      "text": "***yuki Goto just left the room",
+      "ptime": 9334000.0,
+      "dtime": 1.0009E7
+    },
+    {
+      "text": "***John Bond just left the room",
+      "ptime": 9334000.0,
+      "dtime": 1.0009E7
+    },
+    {
+      "text": "***Ioana Boureanu just left the room",
+      "ptime": 9334000.0,
+      "dtime": 1.0009E7
+    },
+    {
+      "text": "***gianluca capitani just left the room",
+      "ptime": 9334000.0,
+      "dtime": 1.0009E7
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-TLS-20180321-0930"
+    }
+  ]
+}

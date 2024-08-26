@@ -1,0 +1,634 @@
+{
+  "title": "IETF104-ICCRG-20190328-1610",
+  "filename": "IETF104-ICCRG-20190328-1610",
+  "start": 0,
+  "end": 7215000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "cJ-0Ti8ZlfE",
+      "start": 0.0,
+      "end": 7215000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Olivier Tilmans just joined the room",
+      "ptime": 34000.0,
+      "dtime": 507000.0
+    },
+    {
+      "text": "***Grenville Armitage just joined the room",
+      "ptime": 156000.0,
+      "dtime": 629000.0
+    },
+    {
+      "text": "***Grenville Armitage just left the room",
+      "ptime": 191000.0,
+      "dtime": 664000.0
+    },
+    {
+      "text": "***Grenville Armitage just joined the room",
+      "ptime": 192000.0,
+      "dtime": 665000.0
+    },
+    {
+      "text": "Neal Cardwell - An Update on BBR",
+      "ptime": 321000.0,
+      "dtime": 794000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Markku Kojo just joined the room",
+      "ptime": 396000.0,
+      "dtime": 869000.0
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 466000.0,
+      "dtime": 939000.0
+    },
+    {
+      "text": "What is the RTT ?",
+      "ptime": 479000.0,
+      "dtime": 952000.0,
+      "author": "Ingemar Johansson"
+    },
+    {
+      "text": "minRTT",
+      "ptime": 487000.0,
+      "dtime": 960000.0,
+      "author": "Ingemar Johansson"
+    },
+    {
+      "text": "which slide?",
+      "ptime": 585000.0,
+      "dtime": 1058000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "L4S marking (DCTCP) test",
+      "ptime": 647000.0,
+      "dtime": 1120000.0,
+      "author": "Ingemar Johansson"
+    },
+    {
+      "text": "page 6",
+      "ptime": 684000.0,
+      "dtime": 1157000.0,
+      "author": "Ingemar Johansson"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 762000.0,
+      "dtime": 1235000.0
+    },
+    {
+      "text": "min rtt",
+      "ptime": 773000.0,
+      "dtime": 1246000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Dave taht just joined the room",
+      "ptime": 897000.0,
+      "dtime": 1370000.0
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 1080000.0,
+      "dtime": 1553000.0
+    },
+    {
+      "text": "I had figured y\u0027all were trying dctcp-style ecn response. Have you tried the existing RFC3168 compliant fq_codel response?",
+      "ptime": 1188000.0,
+      "dtime": 1661000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "Dave taht: do you want to ask now or at the end?",
+      "ptime": 1218000.0,
+      "dtime": 1691000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "I can wait til the end. Or one of my team can ask the question.",
+      "ptime": 1239000.0,
+      "dtime": 1712000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "np",
+      "ptime": 1243000.0,
+      "dtime": 1716000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 1260000.0,
+      "dtime": 1733000.0
+    },
+    {
+      "text": "find john morton, pete heist, or rod grimes in the room.",
+      "ptime": 1268000.0,
+      "dtime": 1741000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "***Kannan Jayaraman just joined the room",
+      "ptime": 1342000.0,
+      "dtime": 1815000.0
+    },
+    {
+      "text": "***Felix Weinrank just joined the room",
+      "ptime": 1454000.0,
+      "dtime": 1927000.0
+    },
+    {
+      "text": "(please. They seem to not be on jabber)",
+      "ptime": 1476000.0,
+      "dtime": 1949000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "***Kannan Jayaraman just left the room",
+      "ptime": 1498000.0,
+      "dtime": 1971000.0
+    },
+    {
+      "text": "I can get Rod\u0027s attention, but he is far away. I can ask at the mic when Neal is done",
+      "ptime": 1519000.0,
+      "dtime": 1992000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 1577000.0,
+      "dtime": 2050000.0
+    },
+    {
+      "text": "please",
+      "ptime": 1677000.0,
+      "dtime": 2150000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "Which mechanism achieves a convergence to fairness among multiple BBRv2 flows?",
+      "ptime": 1712000.0,
+      "dtime": 2185000.0,
+      "author": "Mario Hock"
+    },
+    {
+      "text": "MIC: Is there something that can be done in the browser to always get a BBR response from YouTube?",
+      "ptime": 1744000.0,
+      "dtime": 2217000.0,
+      "author": "John Border"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 1792000.0,
+      "dtime": 2265000.0
+    },
+    {
+      "text": "I\u0027m hoping that jon, rod, or pete are in line by now?",
+      "ptime": 1853000.0,
+      "dtime": 2326000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "John Border: no",
+      "ptime": 1880000.0,
+      "dtime": 2353000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaking: hiren prancaster",
+      "ptime": 1887000.0,
+      "dtime": 2360000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "sigh",
+      "ptime": 1891000.0,
+      "dtime": 2364000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 1959000.0,
+      "dtime": 2432000.0
+    },
+    {
+      "text": "speaking: hiren",
+      "ptime": 1962000.0,
+      "dtime": 2435000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "should there be bluesheets?",
+      "ptime": 1997000.0,
+      "dtime": 2470000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Praveen Balasubramanian",
+      "ptime": 2007000.0,
+      "dtime": 2480000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: praveen",
+      "ptime": 2066000.0,
+      "dtime": 2539000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: michael welzl",
+      "ptime": 2101000.0,
+      "dtime": 2574000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 2118000.0,
+      "dtime": 2591000.0
+    },
+    {
+      "text": "speaker: Jake Holland",
+      "ptime": 2141000.0,
+      "dtime": 2614000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Andrew McGregor",
+      "ptime": 2179000.0,
+      "dtime": 2652000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Jonathan Morton",
+      "ptime": 2218000.0,
+      "dtime": 2691000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "Topic: Peyman Teymoori - Estimating an Additive Path Cost with Explicit Congestion Notification",
+      "ptime": 2277000.0,
+      "dtime": 2750000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Ingemar Johansson just left the room",
+      "ptime": 2338000.0,
+      "dtime": 2811000.0
+    },
+    {
+      "text": "***Zsolt Kramer just joined the room",
+      "ptime": 2447000.0,
+      "dtime": 2920000.0
+    },
+    {
+      "text": "***Marco Carugi just joined the room",
+      "ptime": 2509000.0,
+      "dtime": 2982000.0
+    },
+    {
+      "text": "***Mirja K?hlewind just joined the room",
+      "ptime": 2527000.0,
+      "dtime": 3000000.0
+    },
+    {
+      "text": "***Zsolt Kramer just left the room",
+      "ptime": 2652000.0,
+      "dtime": 3125000.0
+    },
+    {
+      "text": "***Zsolt Kramer just joined the room",
+      "ptime": 2667000.0,
+      "dtime": 3140000.0
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 2718000.0,
+      "dtime": 3191000.0
+    },
+    {
+      "text": "***Zsolt Kramer just left the room",
+      "ptime": 2783000.0,
+      "dtime": 3256000.0
+    },
+    {
+      "text": "sure wish I had live chat with my team......",
+      "ptime": 2837000.0,
+      "dtime": 3310000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "***Zsolt Kramer just joined the room",
+      "ptime": 2914000.0,
+      "dtime": 3387000.0
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 3132000.0,
+      "dtime": 3605000.0
+    },
+    {
+      "text": "***Marco Carugi just left the room",
+      "ptime": 3263000.0,
+      "dtime": 3736000.0
+    },
+    {
+      "text": "***Felix Weinrank just left the room",
+      "ptime": 3299000.0,
+      "dtime": 3772000.0
+    },
+    {
+      "text": "speaker: Jake Holland",
+      "ptime": 3443000.0,
+      "dtime": 3916000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Jonathan Morton",
+      "ptime": 3460000.0,
+      "dtime": 3933000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Felix Weinrank just joined the room",
+      "ptime": 3477000.0,
+      "dtime": 3950000.0
+    },
+    {
+      "text": "***Felix Weinrank just left the room",
+      "ptime": 3559000.0,
+      "dtime": 4032000.0
+    },
+    {
+      "text": "speaker: Bob Briscoe",
+      "ptime": 3600000.0,
+      "dtime": 4073000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Michael Welzl",
+      "ptime": 3684000.0,
+      "dtime": 4157000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "Topic: Bob Briscoe \u003d Implementing the \u0027Prague Requirements\u0027 in TCP for L4S",
+      "ptime": 3732000.0,
+      "dtime": 4205000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 4031000.0,
+      "dtime": 4504000.0
+    },
+    {
+      "text": "***Mirja K?hlewind just left the room",
+      "ptime": 4164000.0,
+      "dtime": 4637000.0
+    },
+    {
+      "text": "brian from the floor - it was like 16 marks",
+      "ptime": 4314000.0,
+      "dtime": 4787000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "brain from the floor - it is a lower bound",
+      "ptime": 4329000.0,
+      "dtime": 4802000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "Sigh. It is evident to me that the CE marks in france are coming from their enormous (3+million) fq_codel deployment.",
+      "ptime": 4442000.0,
+      "dtime": 4915000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "(free.fr\u0027s)",
+      "ptime": 4451000.0,
+      "dtime": 4924000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "as for argentina... no idea. Lots of openwrt there.",
+      "ptime": 4477000.0,
+      "dtime": 4950000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "BBR currently caps cwnd at 4, not 2.",
+      "ptime": 4515000.0,
+      "dtime": 4988000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 4632000.0,
+      "dtime": 5105000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 4736000.0,
+      "dtime": 5209000.0
+    },
+    {
+      "text": "For the mic. 1) It is a very good assumption that the CE marks from \"france\" are due to free.fr\u0027s enormous (3+million) deployment of fq_codel across their dsl subscriber lines. 2) Argentina, no idea, openwrt is big there. 3) BBR currently caps cwnd reductions to 4, unlike reno.",
+      "ptime": 4841000.0,
+      "dtime": 5314000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "as for point 1 - all someone looking at that data has to do, is pull out the IP addresses related to free.fr\u0027s BGP AS number. That\u0027s it.",
+      "ptime": 4872000.0,
+      "dtime": 5345000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "I don\u0027t know why that simple check of where the CE markings in france are coming from is so hard.",
+      "ptime": 5047000.0,
+      "dtime": 5520000.0,
+      "author": "Dave taht"
+    },
+    {
+      "text": "***Markku Kojo just left the room",
+      "ptime": 5107000.0,
+      "dtime": 5580000.0
+    },
+    {
+      "text": "neal: it was single queue",
+      "ptime": 5302000.0,
+      "dtime": 5775000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Praveen",
+      "ptime": 5492000.0,
+      "dtime": 5965000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Jonathan Morton",
+      "ptime": 5576000.0,
+      "dtime": 6049000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Andrew McGreggor",
+      "ptime": 5623000.0,
+      "dtime": 6096000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Richard Scheffenegger",
+      "ptime": 5643000.0,
+      "dtime": 6116000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "Topic: Szilveszter Nadas and Balazs Varga - Multi timescale bandwidth profile and its application for burst-aware fairness",
+      "ptime": 5679000.0,
+      "dtime": 6152000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Olivier Tilmans just left the room",
+      "ptime": 5704000.0,
+      "dtime": 6177000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 5892000.0,
+      "dtime": 6365000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 5895000.0,
+      "dtime": 6368000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 5898000.0,
+      "dtime": 6371000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 5899000.0,
+      "dtime": 6372000.0
+    },
+    {
+      "text": "***cjsu just joined the room",
+      "ptime": 5901000.0,
+      "dtime": 6374000.0
+    },
+    {
+      "text": "***Joakim Misund just left the room",
+      "ptime": 5914000.0,
+      "dtime": 6387000.0
+    },
+    {
+      "text": "speaker: Michael Menth",
+      "ptime": 6870000.0,
+      "dtime": 7343000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Jake Holland",
+      "ptime": 6928000.0,
+      "dtime": 7401000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Bob Briscoe",
+      "ptime": 7042000.0,
+      "dtime": 7515000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Micael Menth",
+      "ptime": 7114000.0,
+      "dtime": 7587000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "Michael*",
+      "ptime": 7119000.0,
+      "dtime": 7592000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "speaker: Bob Briscode",
+      "ptime": 7137000.0,
+      "dtime": 7610000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "Briscoe",
+      "ptime": 7141000.0,
+      "dtime": 7614000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "and we are done",
+      "ptime": 7167000.0,
+      "dtime": 7640000.0,
+      "author": "Tom Jones (SCRIBE)"
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 7208000.0,
+      "dtime": 7681000.0
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 7209000.0,
+      "dtime": 7682000.0
+    },
+    {
+      "text": "***Szilveszter Nadas just joined the room",
+      "ptime": 7212000.0,
+      "dtime": 7685000.0
+    },
+    {
+      "text": "***Dave taht just left the room",
+      "ptime": 7214000.0,
+      "dtime": 7687000.0
+    },
+    {
+      "text": "***Mario Hock just left the room",
+      "ptime": 7214000.0,
+      "dtime": 7687000.0
+    },
+    {
+      "text": "***Zsolt Kramer just left the room",
+      "ptime": 7214000.0,
+      "dtime": 7687000.0
+    },
+    {
+      "text": "***Grenville Armitage just left the room",
+      "ptime": 7214000.0,
+      "dtime": 7687000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 7214000.0,
+      "dtime": 7687000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-ICCRG-20190328-1610"
+    }
+  ]
+}

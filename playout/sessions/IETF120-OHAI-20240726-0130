@@ -1,0 +1,140 @@
+
+{
+	"title": "IETF120-OHAI-20240726-0130",
+	"filename": "IETF120-OHAI-20240726-0130",
+	"start": 0,
+	"end": 2726000,
+	"start_datetime": "2024-07-26T01:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "b0cjsIOmox0",
+    "start": 0,
+    "end": "2726000"
+  }
+],
+	"messages": [
+  {
+    "author": "Richard Barnes",
+    "text": "<p>note that AI here stands for Apple Intelligence</p>",
+    "topic": "ietf-120",
+    "dtime": 505000,
+    "ptime": 505000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>In case it helps <a href=\"https://security.apple.com/blog/private-cloud-compute\">https://security.apple.com/blog/private-cloud-compute</a> says \"Security researchers need to be able to verify, with a high degree of confidence, that our privacy and security guarantees for Private Cloud Compute match our public promises. We already have an earlier requirement for our guarantees to be enforceable. Hypothetically, then, if security researchers had sufficient access to the system, they would be able to verify the guarantees. But this last requirement, verifiable transparency, goes one step further and does away with the hypothetical: security researchers must be able to verify the security and privacy guarantees of Private Cloud Compute, and they must be able to verify that the software that’s running in the PCC production environment is the same as the software they inspected when verifying the guarantees.\"</p>",
+    "topic": "ietf-120",
+    "dtime": 929000,
+    "ptime": 929000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>need to add CAN to RFC 6919</p>",
+    "topic": "ietf-120",
+    "dtime": 1177000,
+    "ptime": 1177000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i hear there's this CONNECT-UDP thing...</p>",
+    "topic": "ietf-120",
+    "dtime": 1278000,
+    "ptime": 1278000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>My bikeshed suggestion is to call it $|=1</p>",
+    "topic": "ietf-120",
+    "dtime": 1433000,
+    "ptime": 1433000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Is it allowed for the client to continue sending chunked data after receiving the beginning of the server's chunked response?</p>",
+    "topic": "ietf-120",
+    "dtime": 1444000,
+    "ptime": 1444000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Jonathan - I believe that is allowed with non-Oblivious HTTP</p>",
+    "topic": "ietf-120",
+    "dtime": 1519000,
+    "ptime": 1519000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Sure, but with OHTTP it makes a difference to the threat model</p>",
+    "topic": "ietf-120",
+    "dtime": 1552000,
+    "ptime": 1552000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>\"you accidentally created a VPN\" is the \"you accidentally created a Turing machine\" of the IETF</p>",
+    "topic": "ietf-120",
+    "dtime": 2122000,
+    "ptime": 2122000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>Guardian Project working on an open source implementation (not chunked yet)</p>",
+    "topic": "ietf-120",
+    "dtime": 2251000,
+    "ptime": 2251000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>Would appreciate discussion with others on base OHTTP interop and chunked</p>",
+    "topic": "ietf-120",
+    "dtime": 2277000,
+    "ptime": 2277000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Ok, so I guess my question is, what is the security guarantee we want from a VPN over chunked OHTTP?</p>",
+    "topic": "ietf-120",
+    "dtime": 2315000,
+    "ptime": 2315000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Thanks for calling out that the GitHub repo is not linked @David, I updated <a href=\"https://datatracker.ietf.org/doc/draft-ietf-ohai-chunked-ohttp/\">https://datatracker.ietf.org/doc/draft-ietf-ohai-chunked-ohttp/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2561000,
+    "ptime": 2561000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Chris Wood also had an implementation of OHTTP relay on Cloudflare Workers that could be updated for chunked <a href=\"https://github.com/cloudflare/privacy-gateway-relay\">https://github.com/cloudflare/privacy-gateway-relay</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2619000,
+    "ptime": 2619000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>thanks! see you next time :)</p>",
+    "topic": "ietf-120",
+    "dtime": 2694000,
+    "ptime": 2694000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-OHAI-20240726-0130"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/ohai"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-OHAI-20240726-0130"
+		}		
+	]
+}

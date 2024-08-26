@@ -1,0 +1,105 @@
+
+{
+	"title": "IETF117-BMWG-20230726-1630",
+	"filename": "IETF117-BMWG-20230726-1630",
+	"start": 0,
+	"end": 7323000,
+	"start_datetime": "2023-07-26T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "GwXd-5eRoAg",
+    "start": 0,
+    "end": "7323000"
+  }
+],
+	"messages": [
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>Al was a great person: humanity, openness,kindness etc.etc.</p>",
+    "topic": "ietf-117",
+    "dtime": 1056000,
+    "ptime": 1056000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>Better to keep them separated IMO because SRv6, for example, is still developing with bigger pace at the moment. So there are features which belong only for SRv6, like SRH compression.  So it will be quite different methodology vs. SR-MPLS in some sense.</p>",
+    "topic": "ietf-117",
+    "dtime": 4121000,
+    "ptime": 4121000
+  },
+  {
+    "author": "Carsten Rossenhoevel",
+    "text": "<p><a href=\"/user_uploads/2/6d/HRhMy_b0NAWfB9CVeT5XH9zR/image.png\">image.png</a> <br>\nComparing the two drafts, the tables of content are almost identical. Each of sections 5 with the test cases has the same list of test cases (ingress / transit / egress).  The list of authors is almost identical.  So, good arguments from my point of view to combine them :-)</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/6d/HRhMy_b0NAWfB9CVeT5XH9zR/image.png\" title=\"image.png\"><img src=\"/user_uploads/2/6d/HRhMy_b0NAWfB9CVeT5XH9zR/image.png\"></a></div>",
+    "topic": "ietf-117",
+    "dtime": 4910000,
+    "ptime": 4910000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Up to chair and WG. I vote to keep it separate because people would not need 2 data plane tests at the same time. They would probably do only one for the real deployment.</p>",
+    "topic": "ietf-117",
+    "dtime": 5210000,
+    "ptime": 5210000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>no big problem to merge.</p>",
+    "topic": "ietf-117",
+    "dtime": 5235000,
+    "ptime": 5235000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>Indeed Carsten :) but there is some difference  inside too. The point about interop methodology part is very important for customers (saying that as a customer) but it contradicts with BMWG scope as Sarah said.</p>",
+    "topic": "ietf-117",
+    "dtime": 5273000,
+    "ptime": 5273000
+  },
+  {
+    "author": "Giuseppe Fioccola",
+    "text": "<p>IMO it also depends on how you can eventually do the merge. Since the tests for SR-MPLS and SRv6 need to be described separately, the merge is likely to be a sequence of separated tests. For this reason I think it can be clearer for a reader to keep them separated and therefore describe IPv6 and MPLS specific test environments separately.</p>",
+    "topic": "ietf-117",
+    "dtime": 5723000,
+    "ptime": 5723000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@Giuseppe +1</p>",
+    "topic": "ietf-117",
+    "dtime": 5806000,
+    "ptime": 5806000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Carsten, thanks that you come to BMWG with all your experience!</p>",
+    "topic": "ietf-117",
+    "dtime": 5839000,
+    "ptime": 5839000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>cool!</p>",
+    "topic": "ietf-117",
+    "dtime": 7146000,
+    "ptime": 7146000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-BMWG-20230726-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/bmwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-BMWG-20230726-1630"
+		}		
+	]
+}

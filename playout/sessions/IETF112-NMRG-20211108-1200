@@ -1,0 +1,262 @@
+{
+  "title": "IETF112-NMRG-20211108-1200",
+  "filename": "IETF112-NMRG-20211108-1200",
+  "start": 0,
+  "end": 7393000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "nnT86yKxPDU",
+      "start": 0,
+      "end": "7393000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 227000,
+      "ptime": 227000,
+      "author": "Laurent Ciavaglia",
+      "text": "Link to meeting notes: <a href=\"https://notes.ietf.org/notes-ietf-112-nmrg\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-112-nmrg</a><br/>"
+    },
+    {
+      "dtime": 1369000,
+      "ptime": 1369000,
+      "author": "Charles Eckel",
+      "text": "This draft in MEF may be of interest to the authors <a href=\"https://www.mef.net/resources/mef-105-performance-monitoring-and-service-readiness-testing-for-sd-wan/\" rel=\"nofollow\">https://www.mef.net/resources/mef-105-performance-monitoring-and-service-readiness-testing-for-sd-wan/</a><br/>"
+    },
+    {
+      "dtime": 1391000,
+      "ptime": 1391000,
+      "author": "Robert Wilton",
+      "text": "I might be helpful if this document was to reference <a href=\"https://datatracker.ietf.org/doc/draft-ietf-opsawg-ntf/\" rel=\"nofollow\">https://datatracker.ietf.org/doc/draft-ietf-opsawg-ntf/</a><br/>"
+    },
+    {
+      "dtime": 1558000,
+      "ptime": 1558000,
+      "author": "Benoît Claise",
+      "text": "And another related draft: <a href=\"https://datatracker.ietf.org/doc/draft-ietf-opsawg-service-assurance-architecture/,\" rel=\"nofollow\">https://datatracker.ietf.org/doc/draft-ietf-opsawg-service-assurance-architecture/,</a> which will need the measurement aspects.<br/>"
+    },
+    {
+      "dtime": 1690000,
+      "ptime": 1690000,
+      "author": "Danyang Chen",
+      "text": "OK, we will study after the meeting, and if you are interested in our draft, we can contact by emails. Thanks!<br/>"
+    },
+    {
+      "dtime": 1832000,
+      "ptime": 1832000,
+      "author": "Laurent Ciavaglia",
+      "text": "On IBN use case drafts : I'd like to invite for a dedicated \"interim\" meeting with interested participants. Discuss the use cases themselves and what outcome we expect to deliver: can be documents, code, tools... I'm thinking about potential PoC development and why not IETF Hackathon projects ;)<br/>"
+    },
+    {
+      "dtime": 2408000,
+      "ptime": 2408000,
+      "author": "Laurent Ciavaglia",
+      "text": "@Luis: reference to paper on IXC automation: HolistIX: a zero-touch approach for IXPs, Christoff Visser (IIJ Innovation Institute, Japan); Marc Bruyere (IIJ Innovation Institute &amp; The University of Tokyo, Japan); Yuji Sekiya and Seiichi Yamamoto (The University of Tokyo, Japan); Takashi Tomine (National Institute of Information and Communications Technology, Japan) - ZNSM<br/>"
+    },
+    {
+      "dtime": 4556000,
+      "ptime": 4556000,
+      "author": "Mohamed Boucadair",
+      "text": "I don't think there is an answer for the first question raised by&nbsp;&nbsp;Laurent as this depends on the application making using of the digital twin.<br/>"
+    },
+    {
+      "dtime": 4680000,
+      "ptime": 4680000,
+      "author": "Laurent Ciavaglia",
+      "text": "@Mohamed : you want to develop further?<br/>"
+    },
+    {
+      "dtime": 4779000,
+      "ptime": 4779000,
+      "author": "Mohamed Boucadair",
+      "text": "If your app is for training purposes or for running what-if&nbsp;&nbsp;scenarios (routing changes for example), you don't need a full real-time sync<br/>"
+    },
+    {
+      "dtime": 5321000,
+      "ptime": 5321000,
+      "author": "Rick Taylor",
+      "text": "I would like to note that there is a name-clash with the acronym DTN.&nbsp;&nbsp;Within the IETF/IRTF&nbsp;&nbsp;DTN is already assigned to \"Delay Tolerant Networks\".&nbsp;&nbsp;Perhaps another acronym?<br/>"
+    },
+    {
+      "dtime": 5376000,
+      "ptime": 5376000,
+      "author": "Colin Perkins",
+      "text": "+1 the name clash is very confusing<br/>"
+    },
+    {
+      "dtime": 5379000,
+      "ptime": 5379000,
+      "author": "Qin Wu",
+      "text": "agree, maybe not use acronym to avoid confusion<br/>"
+    },
+    {
+      "dtime": 5432000,
+      "ptime": 5432000,
+      "author": "Laurent Ciavaglia",
+      "text": "Agree. Suggestion has been made to order the words as : Network Digital Twin.<br/>"
+    },
+    {
+      "dtime": 5579000,
+      "ptime": 5579000,
+      "author": "Mohamed Boucadair",
+      "text": "Agree on the \"DTN\". That's why the acronym was \"cleaned up\" in the I-D.<br/>"
+    },
+    {
+      "dtime": 5601000,
+      "ptime": 5601000,
+      "author": "Mohamed Boucadair",
+      "text": "@Kiran: Yes<br/>"
+    },
+    {
+      "dtime": 5614000,
+      "ptime": 5614000,
+      "author": "Mohamed Boucadair",
+      "text": "multiple instance are allowed<br/>"
+    },
+    {
+      "dtime": 5711000,
+      "ptime": 5711000,
+      "author": "Qin Wu",
+      "text": "@Kiran, the draft supports one to one and one to many mapping between physical twin and digtial twin<br/>"
+    },
+    {
+      "dtime": 5715000,
+      "ptime": 5715000,
+      "author": "Kiran Makhijani",
+      "text": "@Med, I believe, the segmentation based Digital Twin networks are more significant - based on application that will use them.<br/>"
+    },
+    {
+      "dtime": 5779000,
+      "ptime": 5779000,
+      "author": "Kiran Makhijani",
+      "text": "I am actually debating should there be an exact replica of entire physical-network? there are data-regulation, security constraints that should be considered in creating replicas of network.<br/>"
+    },
+    {
+      "dtime": 5841000,
+      "ptime": 5841000,
+      "author": "Mohamed Boucadair",
+      "text": "As replied to a previous comment from Laurent, whether a\"exact\" replication is needed will depend on the application<br/>"
+    },
+    {
+      "dtime": 5904000,
+      "ptime": 5904000,
+      "author": "Laurent Ciavaglia",
+      "text": "@Kira: I agree it's not an easy / straightforward situation. What I see also as an interesting point is the various actors involved in the digital twin(s) or interactions between pieces composing the twin: different providers, operator(s), user(s) ; each contributing with different inputs and requirements<br/>"
+    },
+    {
+      "dtime": 5909000,
+      "ptime": 5909000,
+      "author": "Diego Lopez",
+      "text": "And bear in mind that the replica does not need to deal with the same traffic, but with aggregated data or knowledge<br/>"
+    },
+    {
+      "dtime": 5988000,
+      "ptime": 5988000,
+      "author": "Diego Lopez",
+      "text": "And, as Med noted, the data about the network would depend on the application the twin is sed for<br/>"
+    },
+    {
+      "dtime": 6145000,
+      "ptime": 6145000,
+      "author": "Kiran Makhijani",
+      "text": "@Diego, @Med, I agree in principle. but i am myself unclear about the closed loop between say a virtual PLC and actual PLC.<br/>"
+    },
+    {
+      "dtime": 6321000,
+      "ptime": 6321000,
+      "author": "Diego Lopez",
+      "text": "PLC = programmable logic controller? PLC = physical link circuit? PLC= ?? ?<br/>"
+    },
+    {
+      "dtime": 6358000,
+      "ptime": 6358000,
+      "author": "Diego Lopez",
+      "text": "In the first case, the twin includes the controlled plant (actually, the relevant behaviro of the controlled plant)<br/>"
+    },
+    {
+      "dtime": 6363000,
+      "ptime": 6363000,
+      "author": "Kiran Makhijani",
+      "text": "programmable logic controller. These are the endpoints in DTN (for several cases)<br/>"
+    },
+    {
+      "dtime": 6388000,
+      "ptime": 6388000,
+      "author": "Diego Lopez",
+      "text": "OK!<br/>"
+    },
+    {
+      "dtime": 6443000,
+      "ptime": 6443000,
+      "author": "Diego Lopez",
+      "text": "So, as said, the twin focused on the relevant behavior of the controlled plant<br/>"
+    },
+    {
+      "dtime": 6529000,
+      "ptime": 6529000,
+      "author": "Diego Lopez",
+      "text": "And, depending on the application, that behavior is derived from actual real-time data, an AI, synthetic data, historical data or knowledge...<br/>"
+    },
+    {
+      "dtime": 6597000,
+      "ptime": 6597000,
+      "author": "Diego Lopez",
+      "text": "The point is to evaluate not only the effect of specific control actions, but to evaluate specific situations under controlled conditions<br/>"
+    },
+    {
+      "dtime": 6646000,
+      "ptime": 6646000,
+      "author": "Kiran Makhijani",
+      "text": "yes. understood.<br/>"
+    },
+    {
+      "dtime": 7074000,
+      "ptime": 7074000,
+      "author": "Philip Eardley",
+      "text": "Diego - trying to understand your last sentence. \"the effect of specific control actions\" - this could be trying to optimise the production line? \"evaluate specific situations under controlled conditions\" - this could be the impact of a failure on part of the production line?<br/>"
+    },
+    {
+      "dtime": 7140000,
+      "ptime": 7140000,
+      "author": "Laurent Ciavaglia",
+      "text": "@Philip: this is my understanding.<br/>"
+    },
+    {
+      "dtime": 7200000,
+      "ptime": 7200000,
+      "author": "Laurent Ciavaglia",
+      "text": "simulating different scenarios (e.g. what-if, or optimization) and being able to understand / learn / anticipate on their actual effects in the real environment before / when they would happen<br/>"
+    },
+    {
+      "dtime": 7207000,
+      "ptime": 7207000,
+      "author": "Diego Lopez",
+      "text": "Yes, with the addition to the second one that it can be considered not only for failures, but also for highly improbable events<br/>"
+    },
+    {
+      "dtime": 7235000,
+      "ptime": 7235000,
+      "author": "Diego Lopez",
+      "text": "(think of a viral event or a \"perfect storm\" of any nature)<br/>"
+    },
+    {
+      "dtime": 7306000,
+      "ptime": 7306000,
+      "author": "Philip Eardley",
+      "text": "thanks, that all makes sense<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-NMRG-20211108-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/nmrg"
+    }
+  ]
+}

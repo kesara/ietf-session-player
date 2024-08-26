@@ -1,0 +1,728 @@
+
+{
+	"title": "IETF-MIMI-20230928-1900",
+	"filename": "IETF-MIMI-20230928-1900",
+	"start": 0,
+	"end": 6341000,
+	"start_datetime": "2023-09-28T19:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "YBEhXQBkMI8",
+    "start": 0,
+    "end": "6341000"
+  }
+],
+	"messages": [
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i assume that was audible</p>",
+    "topic": "ietf-interim",
+    "dtime": 113000,
+    "ptime": 113000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Yes, it was</p>",
+    "topic": "ietf-interim",
+    "dtime": 120000,
+    "ptime": 120000
+  },
+  {
+    "author": "Basel Alnaffouri",
+    "text": "<p>I can hear it</p>",
+    "topic": "ietf-interim",
+    "dtime": 139000,
+    "ptime": 139000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2023-mimi-08-mimi\">https://notes.ietf.org/notes-ietf-interim-2023-mimi-08-mimi#</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 224000,
+    "ptime": 224000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Thanks Matthew!</p>",
+    "topic": "ietf-interim",
+    "dtime": 229000,
+    "ptime": 229000
+  },
+  {
+    "author": "Andrew Morgan",
+    "text": "<p>we can hear you</p>",
+    "topic": "ietf-interim",
+    "dtime": 301000,
+    "ptime": 301000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>MLS Arch 3.6:\"A group in<br>\n   MLS is defined as the set of clients that have knowledge of the<br>\n   shared group secret established in the group key establishment phase<br>\n   of the protocol and have contributed to it.\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1203000,
+    "ptime": 1203000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Note that the contribution part is the thing that can be considered the consent</p>",
+    "topic": "ietf-interim",
+    "dtime": 1262000,
+    "ptime": 1262000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Hm. But then a client that has been added to a group is only a member after it has made a commit?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1345000,
+    "ptime": 1345000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Or does the KeyPackage cound as a contribution?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1361000,
+    "ptime": 1361000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>count*</p>",
+    "topic": "ietf-interim",
+    "dtime": 1368000,
+    "ptime": 1368000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Well technically you have the secrets so you are in the group... We have this annoyance that there is no notion of consent, so we had a long discussion about the fact that updating acts as a consent.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1442000,
+    "ptime": 1442000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Maybe we should clarify by using pending/unconfirmed member in contrast to full member</p>",
+    "topic": "ietf-interim",
+    "dtime": 1474000,
+    "ptime": 1474000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>The point Benjamin is making above is what I was referring to.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1511000,
+    "ptime": 1511000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>I would argue that in the context of MLS, that's not a very meaningful distinction, is it? Either you have the key material or you don't.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1522000,
+    "ptime": 1522000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>As I said, it's a technicality.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1529000,
+    "ptime": 1529000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>There is no notion of consent in MLS, is there? I agree that it makes sense in the context of MIMI.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1549000,
+    "ptime": 1549000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>It is a lawyer thing more than a technical thing.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1566000,
+    "ptime": 1566000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>If I add you to my anarchist group, did you accept?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1582000,
+    "ptime": 1582000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>I will probably propose unconfirmed member vs confirmed member</p>",
+    "topic": "ietf-interim",
+    "dtime": 1633000,
+    "ptime": 1633000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Ah, so you're saying that we need to be careful what we say in the MLS arch doc, because people might get the wrong idea?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1648000,
+    "ptime": 1648000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>correct</p>",
+    "topic": "ietf-interim",
+    "dtime": 1658000,
+    "ptime": 1658000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>I understand. I still think that it should be punted to the application layer. That's worked well in the past ;-)<br>\nBut I guess we're off MIMI topic here.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1696000,
+    "ptime": 1696000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>What I meant when I said \"this is a technicality\" is merely \"if we are going to refer to someone being an inactive or active in the room and that's contingent on MLS membership\" then we need to be very sharp on what MLS membership is</p>",
+    "topic": "ietf-interim",
+    "dtime": 1913000,
+    "ptime": 1913000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Is it possible that one could be in a state where it is not possible to verify that someone was removed</p>",
+    "topic": "ietf-interim",
+    "dtime": 1940000,
+    "ptime": 1940000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I do want to respond to this point</p>",
+    "topic": "ietf-interim",
+    "dtime": 1980000,
+    "ptime": 1980000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Good point. I for one was not aware that MLS \"membership\" depended on some form of consent.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1998000,
+    "ptime": 1998000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p><a href=\"https://github.com/mlswg/mls-architecture/issues/205\">https://github.com/mlswg/mls-architecture/issues/205</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2030000,
+    "ptime": 2030000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I feel like this diagram is not intended as a factual statement\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 2292000,
+    "ptime": 2292000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Fundamentally these systems just aren't negotiation systems the same way that (say) TLS is in that it's not like counterparties negotiate on an interaction by interaction basis which protocol they use</p>",
+    "topic": "ietf-interim",
+    "dtime": 2756000,
+    "ptime": 2756000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Fair enough. I meant more in the way that MLS is \"negotiating\" via KeyPackages, etc.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2798000,
+    "ptime": 2798000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Konrad: 100%</p>",
+    "topic": "ietf-interim",
+    "dtime": 2807000,
+    "ptime": 2807000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>+1 to ekr, especially since all these docs are in the same WG</p>",
+    "topic": "ietf-interim",
+    "dtime": 3031000,
+    "ptime": 3031000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 for re-combining documents where we can</p>",
+    "topic": "ietf-interim",
+    "dtime": 3038000,
+    "ptime": 3038000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>One reason to have at least the DS as a separate document is that it might serve as a blueprint for others who want to use MLS outside the MIMI context, where they might not need any notion of users, but still need a DS to use MLS.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3225000,
+    "ptime": 3225000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, I think they can reference it</p>",
+    "topic": "ietf-interim",
+    "dtime": 3300000,
+    "ptime": 3300000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Ideally having something self contained for platforms to implement would be nice if we can instead of having to look into some beast document. The DS is actually a good example.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3511000,
+    "ptime": 3511000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm sensitive to the notion of composability, but I'm just saying trying to read all these drafts together is very difficult.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3522000,
+    "ptime": 3522000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And the priority of this WG is to deliver something implementable</p>",
+    "topic": "ietf-interim",
+    "dtime": 3548000,
+    "ptime": 3548000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Fair enough, we can always let the apps implement the MIMI layer.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3581000,
+    "ptime": 3581000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Hmm, that's not possible at the MLS layer right ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3872000,
+    "ptime": 3872000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i suspect it's just a convenience / hygeine thing, avoiding things getting wedged</p>",
+    "topic": "ietf-interim",
+    "dtime": 4020000,
+    "ptime": 4020000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>... in exactly the way Konrad says</p>",
+    "topic": "ietf-interim",
+    "dtime": 4046000,
+    "ptime": 4046000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Thank you.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4046000,
+    "ptime": 4046000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>The intuition is that the policy to apply commits at the hub is the same as any other client</p>",
+    "topic": "ietf-interim",
+    "dtime": 4059000,
+    "ptime": 4059000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Otherwise you can diverge</p>",
+    "topic": "ietf-interim",
+    "dtime": 4068000,
+    "ptime": 4068000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>But there is nothing else it can do than DOS the group</p>",
+    "topic": "ietf-interim",
+    "dtime": 4080000,
+    "ptime": 4080000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>one way to view the enforcement -- the hub should reject commits that it knows the clients will reject.  if clients are enforcing that the commit confirms the current state and a commit doesn't, then the hub should reject it.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4162000,
+    "ptime": 4162000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Naively the cut I would want to draw is \"The hub is responsible for ensuring that correctly functioning clients converge on a state\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 4191000,
+    "ptime": 4191000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>But \"The hub is not responsible for preventing group partition if a client is malicious\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 4200000,
+    "ptime": 4200000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>+1</p>",
+    "topic": "ietf-interim",
+    "dtime": 4208000,
+    "ptime": 4208000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>sgtm</p>",
+    "topic": "ietf-interim",
+    "dtime": 4217000,
+    "ptime": 4217000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>seems to me that the more the hub is obliged to keep some sort of state that is synchronized with client state, the more the metadata of the conversation will leak to the hub.  i'd say that means we want to minimzethe amount of enforcement that happens on the hub.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4228000,
+    "ptime": 4228000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>My loose memory is that we need the hub to do <em>some</em> enforcement to ensure correct function</p>",
+    "topic": "ietf-interim",
+    "dtime": 4288000,
+    "ptime": 4288000
+  },
+  {
+    "author": "Andrew Morgan",
+    "text": "<p>note that if you hit page-down in pdf.js, you'll go one slide down without needing to scroll manually</p>",
+    "topic": "ietf-interim",
+    "dtime": 4308000,
+    "ptime": 4308000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>The mute button is greyed out :-(</p>",
+    "topic": "ietf-interim",
+    "dtime": 4309000,
+    "ptime": 4309000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@EKR note that the scheme here is a lot like what you proposed, where the hub proposes to remove Bob's devices</p>",
+    "topic": "ietf-interim",
+    "dtime": 4315000,
+    "ptime": 4315000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Please go ahead!</p>",
+    "topic": "ietf-interim",
+    "dtime": 4318000,
+    "ptime": 4318000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Richard: thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 4332000,
+    "ptime": 4332000
+  },
+  {
+    "author": "Basel Alnaffouri",
+    "text": "<p>I think as a guiding principle we probably want to have simpler clients and do more heavy lifting on the server (in secure/private way)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4383000,
+    "ptime": 4383000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>well, also this WG is only chartered to do S2S stuff :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4429000,
+    "ptime": 4429000
+  },
+  {
+    "author": "Basel Alnaffouri",
+    "text": "<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 4443000,
+    "ptime": 4443000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the phrase \"jump ball\" always comes to mind when it's not clear who should commit, but i wasn't sure if the reference would be clear <a href=\"https://en.wikipedia.org/wiki/Jump_ball\">https://en.wikipedia.org/wiki/Jump_ball</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 4640000,
+    "ptime": 4640000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>thanks for the clarification for those of us who aren't up to speed on sportsball, <span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 4701000,
+    "ptime": 4701000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>The case of two concurrent Remove+Commit is interesting since one will be rejected. In that case the Server should propose and enforce that someone else commits the second removal in the next epoch.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4753000,
+    "ptime": 4753000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>The fact that MLS Proposals are specific to an epoch is both inevitable and unfortunate</p>",
+    "topic": "ietf-interim",
+    "dtime": 4881000,
+    "ptime": 4881000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>can someone remind me why the hub needs to know the difference between the participant and their specific clients?  (especially for participants who are not native/local to the hub)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4969000,
+    "ptime": 4969000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<blockquote>\n<p>The fact that MLS Proposals are specific to an epoch is both inevitable and unfortunateNot with that attitude</p>\n</blockquote>",
+    "topic": "ietf-interim",
+    "dtime": 4982000,
+    "ptime": 4982000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<blockquote>\n<p>The fact that MLS Proposals are specific to an epoch is both inevitable and unfortunateNot with that attitue</p>\n</blockquote>",
+    "topic": "ietf-interim",
+    "dtime": 4998000,
+    "ptime": 4998000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Argh</p>",
+    "topic": "ietf-interim",
+    "dtime": 5002000,
+    "ptime": 5002000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>go back to IRC, ekr</p>",
+    "topic": "ietf-interim",
+    "dtime": 5022000,
+    "ptime": 5022000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>@Daniel: it's largely to allow a \"user with zero clients, but doesn't want to go find Alice to get them to send another invite\" case.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5082000,
+    "ptime": 5082000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>The hub doesn't realistically need to track the clients themselves: just ensuring at time of Add that the associated user is participating in the room.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5129000,
+    "ptime": 5129000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1025\">@Travis Ralston</span> it seems like overkill for this particular purpose</p>",
+    "topic": "ietf-interim",
+    "dtime": 5160000,
+    "ptime": 5160000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/89751\">said</a>:</p>\n<blockquote>\n<p>can someone remind me why the hub needs to know the difference between the participant and their specific clients?  (especially for participants who are not native/local to the hub)</p>\n</blockquote>\n<p>MLS is interested in what clients (represented by their key material) are in the room and needs to track them for authentication purposes and to allow external commits, i.e. to allow new clients to add themselves to the group.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5178000,
+    "ptime": 5178000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>There are means to reduce the metadata footprint, though. We plan on proposing those once we have established agreement on generally how the flows work.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5212000,
+    "ptime": 5212000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I wasn't on the design team!</p>",
+    "topic": "ietf-interim",
+    "dtime": 5292000,
+    "ptime": 5292000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>My understanding of MLS is that it is flexible enough to have \"server responsible separating out the different clients for a given participant\" as well as \"participants manage their own clients without knowledge from the server\".  i want to make sure that latter approach is still maintained in MIMI, because i don't think the servers need to know in principle about different clients.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5335000,
+    "ptime": 5335000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Like if I were the person writing, it would be one document!</p>",
+    "topic": "ietf-interim",
+    "dtime": 5350000,
+    "ptime": 5350000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>multiple documents is harder from the consumer view as well, not just the producer as Tim describes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5429000,
+    "ptime": 5429000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>generic MLS DS seems distinct from a DS that is capable of handling the federated DS.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5523000,
+    "ptime": 5523000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>fwiw, people refer to the TLS presentation syntax all the time, without it being separate from RFC 8446</p>",
+    "topic": "ietf-interim",
+    "dtime": 5550000,
+    "ptime": 5550000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>I don't particularly care about the number of docs as long as we have a selfcontained section for the DS</p>",
+    "topic": "ietf-interim",
+    "dtime": 5592000,
+    "ptime": 5592000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2083\">@Benjamin Beurdouche</span> agreed that there should be a clear section delimiter <span aria-label=\"stuck out tongue\" class=\"emoji emoji-1f61b\" role=\"img\" title=\"stuck out tongue\">:stuck_out_tongue:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 5632000,
+    "ptime": 5632000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think the standard here is \"Can I make sense of the document I am reading with only a cursory understanding of the other document\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 5646000,
+    "ptime": 5646000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Which, BTW, is <em>also</em> the standard for componentization in a single document. I.e., clear interfaces, information hiding, etc.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5679000,
+    "ptime": 5679000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>+1 to Alissa</p>",
+    "topic": "ietf-interim",
+    "dtime": 5689000,
+    "ptime": 5689000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I also agree with this.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5760000,
+    "ptime": 5760000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/89765\">said</a>:</p>\n<blockquote>\n<p>My understanding of MLS is that it is flexible enough to have \"server responsible separating out the different clients for a given participant\" as well as \"participants manage their own clients without knowledge from the server\".  i want to make sure that latter approach is still maintained in MIMI, because i don't think the servers need to know in principle about different clients.</p>\n</blockquote>\n<p>Yes, there is a way to \"hide\" a user's clients underneath a leaf s.t. each leaf represents a user rather than a client. But as far as I'm aware, there are some kinks to be ironed out for that to work. I'm not aware of anyone using MLS using that particular way of representing users. I'm not against it, but we should be sure that we know it actually works and how. Specifically, clients need to synchronize their state very well. But they might have to do synchronize user-level state anyway.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5830000,
+    "ptime": 5830000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>200-page document, here we come!</p>",
+    "topic": "ietf-interim",
+    "dtime": 5886000,
+    "ptime": 5886000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>homework for the DT: read RFC 9000 / 9001</p>",
+    "topic": "ietf-interim",
+    "dtime": 5933000,
+    "ptime": 5933000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>(tabs have been opened)</p>",
+    "topic": "ietf-interim",
+    "dtime": 5978000,
+    "ptime": 5978000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>salient \"TLS-shaped hole\" section: <a href=\"https://bifurcation.github.io/qrfc/rfcs/rfc9000.html#section-7\">https://bifurcation.github.io/qrfc/rfcs/rfc9000.html#section-7</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 5978000,
+    "ptime": 5978000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>fun fact, the K in EKR is for \"Kombine all the documents\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 6119000,
+    "ptime": 6119000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>It kind of is</p>",
+    "topic": "ietf-interim",
+    "dtime": 6183000,
+    "ptime": 6183000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>All good <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 6247000,
+    "ptime": 6247000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>that schedule sgtm</p>",
+    "topic": "ietf-interim",
+    "dtime": 6285000,
+    "ptime": 6285000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Bye</p>",
+    "topic": "ietf-interim",
+    "dtime": 6334000,
+    "ptime": 6334000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>thanks all!  bye</p>",
+    "topic": "ietf-interim",
+    "dtime": 6336000,
+    "ptime": 6336000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-MIMI-20230928-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-mimi-08/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-MIMI-20230928-1900"
+		}
+	]
+}

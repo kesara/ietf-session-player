@@ -1,0 +1,147 @@
+
+{
+	"title": "IETF-ALTO-20230530-1400",
+	"filename": "IETF-ALTO-20230530-1400",
+	"start": 0,
+	"end": 3659000,
+	"start_datetime": "2023-05-30T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "K0wvu2E5YXs",
+    "start": 0,
+    "end": "3659000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jordi Ros-Giralt",
+    "text": "<p>I will be taking meeting minutes, unless somebody is already taking them, thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 150000,
+    "ptime": 150000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Thanks Jodi</p>",
+    "topic": "ietf-interim",
+    "dtime": 167000,
+    "ptime": 167000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Jordi</p>",
+    "topic": "ietf-interim",
+    "dtime": 176000,
+    "ptime": 176000
+  },
+  {
+    "author": "Ayoub MESSOUS",
+    "text": "<p>Thank you Jordi!</p>",
+    "topic": "ietf-interim",
+    "dtime": 210000,
+    "ptime": 210000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>Can you clarify the relation between trust metric and trust cost metric?</p>",
+    "topic": "ietf-interim",
+    "dtime": 540000,
+    "ptime": 540000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>Can improving trustworthy to alleviate network congestion issue? e.g., provide a dedicated network slice for each client, to avoid congest control issue?</p>",
+    "topic": "ietf-interim",
+    "dtime": 609000,
+    "ptime": 609000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>who wil be the consumer of trusted IP based geolocation? NMS application or endpoint device such as client or browser?</p>",
+    "topic": "ietf-interim",
+    "dtime": 677000,
+    "ptime": 677000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>should trust measurement functionality be only supported by ALTO server or you expect ALTO client initiate trust measurement and send the measurement request to the ALTO server and ask ALTO server to perform trust measurment tasks?</p>",
+    "topic": "ietf-interim",
+    "dtime": 802000,
+    "ptime": 802000
+  },
+  {
+    "author": "Jordi Ros-Giralt",
+    "text": "<p>In slide 15, do you expect to have a separate ALTO map for trust? or embed trust information in the existing ALTO maps.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1305000,
+    "ptime": 1305000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>(as individual), a key point of this proposal is to define trust as a measurement metric.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1326000,
+    "ptime": 1326000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I do think this part should be defined first in WGs such as IPPM WG</p>",
+    "topic": "ietf-interim",
+    "dtime": 1369000,
+    "ptime": 1369000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>right, we need to better understand use case for trust metric, e.g., path computation, trust routing, etc</p>",
+    "topic": "ietf-interim",
+    "dtime": 1386000,
+    "ptime": 1386000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>In any case, having a draft would be useful to digest the concept, identify the feasibility of the approach from an engineering standpoint.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1531000,
+    "ptime": 1531000
+  },
+  {
+    "author": "Kai Gao",
+    "text": "<p>I see two cases where \"trust\" may be related in ALTO services: First, using the trust levels to give preferences to different ALTO information resources, to resolve potential conflicts. Second, a trust value may be associated with a specific cost/property value to indicate the trustworthiness of that value. Seems to me that apart from the definition of trust-related metrics, it is also important to focus on how to use those metrics in the ALTO framework.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1670000,
+    "ptime": 1670000
+  },
+  {
+    "author": "Qin Wu",
+    "text": "<p>How do you see the contradiction between security parameter and performance of information distribution?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2896000,
+    "ptime": 2896000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The overview cons seems to be useful to sort out aspects that can be fixed by following BCPs out there vs. those that would need some recommendations from the ALTO (e.g., timers for polling data).</p>",
+    "topic": "ietf-interim",
+    "dtime": 3468000,
+    "ptime": 3468000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-ALTO-20230530-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-alto-05/session/alto"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-ALTO-20230530-1400"
+		}
+	]
+}

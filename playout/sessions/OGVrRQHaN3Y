@@ -1,0 +1,257 @@
+
+{
+	"title": "IETF114-RTGAREA-20220725-1730",
+	"filename": "IETF114-RTGAREA-20220725-1730",
+	"start": 0,
+	"end": 3151000,
+	"start_datetime": "2022-07-25T17:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "OGVrRQHaN3Y",
+    "start": 0,
+    "end": "3151000"
+  }
+],
+	"messages": [
+  {
+    "author": "Andy Malis",
+    "text": "<p>We hear you!</p>",
+    "dtime": 72000,
+    "ptime": 72000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Did I just hear jabber was being retired next IETF?</p>",
+    "dtime": 387000,
+    "ptime": 387000
+  },
+  {
+    "author": "Andy Malis",
+    "text": "<p>@Christian yes, starting next IETF it's Zulip only</p>",
+    "dtime": 445000,
+    "ptime": 445000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@chopps That what I have heard</p>",
+    "dtime": 504000,
+    "ptime": 504000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>as long as it all works from this unified meetecho view, probably not a big deal.</p>",
+    "dtime": 568000,
+    "ptime": 568000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"422\">@Jeffrey Haas</span> yes, we're already using Zulip</p>",
+    "dtime": 599000,
+    "ptime": 599000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>would be nice if Zulip could be used outside of meeting as well</p>",
+    "dtime": 607000,
+    "ptime": 607000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"197\">@Lorenzo Miniero</span> That's not what Jeff asked. :)</p>",
+    "dtime": 807000,
+    "ptime": 807000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p><a href=\"https://www.ietf.org/mailman/listinfo/routing-discussion\">https://www.ietf.org/mailman/listinfo/routing-discussion</a></p>",
+    "dtime": 873000,
+    "ptime": 873000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> what I meant is that Meetecho is already using Zulip under the hood, not Jabber, so the integration is already there. We send to the \"jabber\" topic so that it's mirrored to the Jabber room, but then display any incoming message related to any topic</p>",
+    "dtime": 876000,
+    "ptime": 876000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Great that's it's already done. Thanks for the clarification!</p>",
+    "dtime": 907000,
+    "ptime": 907000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>So when Jabber goes away, will the Meetecho chat interface remain the same or do we have to use the Zulip app?</p>",
+    "dtime": 920000,
+    "ptime": 920000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>It will remain mostly the same, but probably with some additional UI changes to reflect the topic of the message</p>",
+    "dtime": 952000,
+    "ptime": 952000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Cool, thank you.</p>",
+    "dtime": 967000,
+    "ptime": 967000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>At the moment we just display incoming messages with no info on the topic they pertain to</p>",
+    "dtime": 971000,
+    "ptime": 971000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Starting a Bad Attitude topic.</p>",
+    "dtime": 1420000,
+    "ptime": 1420000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>@ADs - perhaps add the <a href=\"mailto:routing-discussion@ietf.org\">routing-discussion@ietf.org</a> mailing list in datatracker <a href=\"https://datatracker.ietf.org/ag/rtgarea/about/\">https://datatracker.ietf.org/ag/rtgarea/about/</a></p>",
+    "dtime": 1479000,
+    "ptime": 1479000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Present</p>",
+    "dtime": 1556000,
+    "ptime": 1556000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Thanks Dhruv, we will get that sorted</p>",
+    "dtime": 1581000,
+    "ptime": 1581000
+  },
+  {
+    "author": "Nagarajan Duraisamy",
+    "text": "<p>Isn't CAN a registered copyrighted trademark of Robert Bosch ?</p>",
+    "dtime": 1757000,
+    "ptime": 1757000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>One more time, with feeling: routing is not a dump truck.</p>",
+    "dtime": 2280000,
+    "ptime": 2280000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Tony I am fine with describing this as a load balancer, i.e., instance selection problem, but it is proposed to be done on-path, not off-path.</p>",
+    "dtime": 2316000,
+    "ptime": 2316000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"739\">@Dirk Trossen</span> I don't see how that matters one whit.</p>",
+    "dtime": 2347000,
+    "ptime": 2347000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>If routing is not a dump truck, where are we gonna have our fire?</p>",
+    "dtime": 2349000,
+    "ptime": 2349000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Tony (again) whether or not appropriate signaling would be dumped into a routing protocol is up for discussion - I do see your point and personally agree to it.</p>",
+    "dtime": 2374000,
+    "ptime": 2374000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>When you have got a hammer…</p>",
+    "dtime": 2402000,
+    "ptime": 2402000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Tony it does matter when looking at the latency imposed by off-path signaling. So I don't get the \"not one whit\" - how much it does matter is to be clarified, indeed, though.</p>",
+    "dtime": 2428000,
+    "ptime": 2428000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>Confirmed - <a href=\"https://trademarks.justia.com/791/03/can-79103365.html\">https://trademarks.justia.com/791/03/can-79103365.html</a></p>\n<p><span class=\"user-mention silent\" data-user-id=\"642\">Nagarajan Duraisamy</span> <a href=\"#narrow/stream/336-rtgarea/topic/jabber/near/20839\">said</a>:</p>\n<blockquote>\n<p>Isn't CAN a registered copyrighted trademark of Robert Bosch ?</p>\n</blockquote>",
+    "dtime": 2440000,
+    "ptime": 2440000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"739\">@Dirk Trossen</span> I have no issues with you doing on-path LB signalling, as long as it's outside of routing.</p>",
+    "dtime": 2485000,
+    "ptime": 2485000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>ALTO is in transport area.</p>",
+    "dtime": 2523000,
+    "ptime": 2523000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"179\">Adrian Farrel</span> <a href=\"#narrow/stream/336-rtgarea/topic/Bad.20Attitude/near/20908\">said</a>:</p>\n<blockquote>\n<p>If routing is not a dump truck, where are we gonna have our fire?</p>\n</blockquote>\n<p>send it to the transport area? <em>runs</em></p>",
+    "dtime": 2573000,
+    "ptime": 2573000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Tony Alto is done above L3, CAN/dyncast proposes to do at L3. Whether it will use a routing protocol to convey/signal the information is to be seen.</p>",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>RFC 6123 - <a href=\"https://datatracker.ietf.org/doc/rfc6123/\">https://datatracker.ietf.org/doc/rfc6123/</a></p>",
+    "dtime": 2819000,
+    "ptime": 2819000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Inclusion of Manageability Sections in Path Computation Element (PCE) Working Group Drafts</p>",
+    "dtime": 2962000,
+    "ptime": 2962000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Also look at RFC 5706</p>",
+    "dtime": 3026000,
+    "ptime": 3026000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p><a href=\"https://www.rfc-editor.org/cluster_info.php?cid=C336\">https://www.rfc-editor.org/cluster_info.php?cid=C336</a></p>",
+    "dtime": 3074000,
+    "ptime": 3074000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>BFD yang is published -&gt; rfc9127</p>",
+    "dtime": 3091000,
+    "ptime": 3091000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-RTGAREA-20220725-1730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/rtgarea"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-RTGAREA-20220725-1730"
+		}		
+	]
+}

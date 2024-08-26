@@ -1,0 +1,168 @@
+
+{
+	"title": "IETF120-BESS-20240724-1630",
+	"filename": "IETF120-BESS-20240724-1630",
+	"start": 0,
+	"end": 6955000,
+	"start_datetime": "2024-07-24T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "63cf6rGL9nc",
+    "start": 0,
+    "end": "6955000"
+  }
+],
+	"messages": [
+  {
+    "author": "Matthew Bocci",
+    "text": "<p>Jump in the queue</p>",
+    "topic": "ietf-120",
+    "dtime": 57000,
+    "ptime": 57000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ratko: click your avatar in the lower bar, and then click \"select your devces\", from there you'll be able to to choose the mic to use. If the bars move when you talk, it means it should work</p>",
+    "topic": "ietf-120",
+    "dtime": 92000,
+    "ptime": 92000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The ipvpn text is fine after last review and I'm good with it moving forward.</p>",
+    "topic": "ietf-120",
+    "dtime": 520000,
+    "ptime": 520000
+  },
+  {
+    "author": "Ratko Kovacina",
+    "text": "<p>unfortunately, it is not working .... it worked  in the past, and I look like I  can send video and tests are passing .</p>",
+    "topic": "ietf-120",
+    "dtime": 525000,
+    "ptime": 525000
+  },
+  {
+    "author": "Nitsan Dolev Elfassy",
+    "text": "<p>Dear BESS Chairs can you please explain why haven't we adopted  draft-burdet-bess-evpn-fast-reroute-07 yet ?</p>",
+    "topic": "ietf-120",
+    "dtime": 1307000,
+    "ptime": 1307000
+  },
+  {
+    "author": "Zhaohui Zhang",
+    "text": "<p>@ratko - do you have a red ! mark next to your mic icon? I accidentally declined my permission request and now I can't use my mic at all - and it has that red ! mark next to it</p>",
+    "topic": "ietf-120",
+    "dtime": 1345000,
+    "ptime": 1345000
+  },
+  {
+    "author": "Zhaohui Zhang",
+    "text": "<p>@Nitsan - we'll check the history and get back</p>",
+    "topic": "ietf-120",
+    "dtime": 1473000,
+    "ptime": 1473000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"383\">@Zheng Zhang</span> depending on the browser, you can reset permissions, so that you're asked again next time. Some browsers, like Chrome, remember what you chose</p>",
+    "topic": "ietf-120",
+    "dtime": 1499000,
+    "ptime": 1499000
+  },
+  {
+    "author": "Zhaohui Zhang",
+    "text": "<p>Thanks. For now it's not a real problem for me but wondered if that was @ratko's problem as well.</p>",
+    "topic": "ietf-120",
+    "dtime": 2014000,
+    "ptime": 2014000
+  },
+  {
+    "author": "Ratko Kovacina",
+    "text": "<p>not it  was not the problem for me - it appears that in the bottom banner - only speaker icon is disabled - all others work for me - but speaker is disabled and I cannot enable it. When I do local test - it works ok</p>",
+    "topic": "ietf-120",
+    "dtime": 2126000,
+    "ptime": 2126000
+  },
+  {
+    "author": "krishnaswamy ananthamurthy",
+    "text": "<p>@Ratko, Can u try different browser?</p>",
+    "topic": "ietf-120",
+    "dtime": 3243000,
+    "ptime": 3243000
+  },
+  {
+    "author": "Ratko Kovacina",
+    "text": "<p>I was trying safari and mozila and it was the same for both so far</p>",
+    "topic": "ietf-120",
+    "dtime": 3443000,
+    "ptime": 3443000
+  },
+  {
+    "author": "krishnaswamy ananthamurthy",
+    "text": "<p>Please try clearing the cache</p>",
+    "topic": "ietf-120",
+    "dtime": 3525000,
+    "ptime": 3525000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>@gyan obvs this is just a straight diff, not a semantic explanation of the changes, but <a href=\"https://author-tools.ietf.org/diff?doc_1=7432&amp;doc_2=draft-ietf-bess-rfc7432bis\">https://author-tools.ietf.org/diff?doc_1=7432&amp;doc_2=draft-ietf-bess-rfc7432bis</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3568000,
+    "ptime": 3568000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I haven't had a chance to read this carefully yet, but initial reaction is I don't love the use of RFC 9012 in this way -- If you're going to use 9012, use it the way it was specced, meaning carry the full tunnel spec in the tunnel encap attribute. If you just need a convenient attribute to stuff an IP address into, I think it would be better to choose one that doesn't already have a pile of semantics defined (which you are ignoring).</p>",
+    "topic": "ietf-120",
+    "dtime": 3824000,
+    "ptime": 3824000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>+1 to Sue. This ain't \"in adherence to 9012\" AFAICT.</p>",
+    "topic": "ietf-120",
+    "dtime": 4228000,
+    "ptime": 4228000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>+1 to Mankamana, BGP is reliable, even though it may suffer from convergence issues impacting timing.  The old IGMP/MLD mechanisms were designed to deal with unreliable environments where hosts may go away without notice.</p>",
+    "topic": "ietf-120",
+    "dtime": 6373000,
+    "ptime": 6373000
+  },
+  {
+    "author": "Jorge Rabadan",
+    "text": "<p>Thanks Jeff. That's good feedback from Mankamana, Ali and you. We can discuss further and agree on how to clarify this. About the delta time to account for BGP propagation, it might not be needed if we think it is not an issue.</p>",
+    "topic": "ietf-120",
+    "dtime": 6670000,
+    "ptime": 6670000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>BGP may take time and it may depend on load.  The underlying question for the multicast traffic is how problematic staying joined is.</p>",
+    "topic": "ietf-120",
+    "dtime": 6755000,
+    "ptime": 6755000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-BESS-20240724-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/bess"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-BESS-20240724-1630"
+		}		
+	]
+}

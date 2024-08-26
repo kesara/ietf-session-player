@@ -1,0 +1,322 @@
+
+{
+	"title": "IETF120-LAMPS-20240724-2230",
+	"filename": "IETF120-LAMPS-20240724-2230",
+	"start": 0,
+	"end": 5552000,
+	"start_datetime": "2024-07-24T22:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "yiyi4vXHTRc",
+    "start": 0,
+    "end": "5552000"
+  }
+],
+	"messages": [
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i didn't hear you Mike</p>",
+    "topic": "ietf-120",
+    "dtime": 6000,
+    "ptime": 6000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(i'm remote right now too, though)</p>",
+    "topic": "ietf-120",
+    "dtime": 21000,
+    "ptime": 21000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I have had so much trouble with Meetecho and headsets this week.</p>",
+    "topic": "ietf-120",
+    "dtime": 32000,
+    "ptime": 32000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>\"the side of the KEK\" -&gt; \"the size of the KEK\"?</p>",
+    "topic": "ietf-120",
+    "dtime": 280000,
+    "ptime": 280000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>What's on the other side of KEK?</p>",
+    "topic": "ietf-120",
+    "dtime": 315000,
+    "ptime": 315000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it's a K on both sides</p>",
+    "topic": "ietf-120",
+    "dtime": 324000,
+    "ptime": 324000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Are there known implementers of RSA-KEM?<br>\n(asking as an author of composite-kem)</p>",
+    "topic": "ietf-120",
+    "dtime": 339000,
+    "ptime": 339000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Why did the chicken cross the KEK?</p>",
+    "topic": "ietf-120",
+    "dtime": 345000,
+    "ptime": 345000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Key indistinguishability... sending them side by side? A new version of IND-CPA. ;)</p>",
+    "topic": "ietf-120",
+    "dtime": 372000,
+    "ptime": 372000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>Nit: perhaps the term 'shy' is not appropriate for a configuration, since it has interesting connotations sometimes.  In particular, valuing privacy doesn't make you shy.</p>",
+    "topic": "ietf-120",
+    "dtime": 1059000,
+    "ptime": 1059000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>Is that the old term or the new term?</p>",
+    "topic": "ietf-120",
+    "dtime": 1085000,
+    "ptime": 1085000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i welcome suggestions for other than \"shy\", Tim</p>",
+    "topic": "ietf-120",
+    "dtime": 1087000,
+    "ptime": 1087000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>shy is the new term</p>",
+    "topic": "ietf-120",
+    "dtime": 1093000,
+    "ptime": 1093000
+  },
+  {
+    "author": "Russ Housley",
+    "text": "<p>We used RSA-KEM to prove that kemri worked.  Nothing else was stable.  People use RSA key transport in real life</p>",
+    "topic": "ietf-120",
+    "dtime": 1641000,
+    "ptime": 1641000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Oh yeah, I know that KeyTrans with RSA-PKCS#1v1.5 and RSA-OAEP are common. But do any crypto libs implement rfc5990?</p>",
+    "topic": "ietf-120",
+    "dtime": 1697000,
+    "ptime": 1697000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p>This is a non-answer to your question, but Carl and I have the only known implementations of cms-kemri and neither of us implement RSA-KEM.</p>",
+    "topic": "ietf-120",
+    "dtime": 2305000,
+    "ptime": 2305000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>It's an approved audit process, Henk provided one example, there are many others.</p>",
+    "topic": "ietf-120",
+    "dtime": 2546000,
+    "ptime": 2546000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>I used to get the CA I managed attested by an auditor against the policies and implementation of operational practices. Whenever I use the word attestation externally, the audit process is assumed.</p>",
+    "topic": "ietf-120",
+    "dtime": 2639000,
+    "ptime": 2639000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Can somebody provide the link to the NIST definition of attestation?</p>",
+    "topic": "ietf-120",
+    "dtime": 2673000,
+    "ptime": 2673000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Is it this?<br>\n<a href=\"https://csrc.nist.gov/glossary/term/attestation\">https://csrc.nist.gov/glossary/term/attestation</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2716000,
+    "ptime": 2716000
+  },
+  {
+    "author": "Muhammad Usama Sardar",
+    "text": "<p><a href=\"https://csrc.nist.gov/glossary/term/attestation\">https://csrc.nist.gov/glossary/term/attestation</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2718000,
+    "ptime": 2718000
+  },
+  {
+    "author": "Pascal Schäfer",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-120/near/128435\">said</a>:</p>\n<blockquote>\n<p>Can somebody provide the link to the NIST definition of attestation?</p>\n</blockquote>\n<p>Do you mean this link? <a href=\"https://csrc.nist.gov/glossary/term/attestation\">https://csrc.nist.gov/glossary/term/attestation</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2720000,
+    "ptime": 2720000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>There are two definitions</p>",
+    "topic": "ietf-120",
+    "dtime": 2749000,
+    "ptime": 2749000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Russ: we can hear you on mic.</p>",
+    "topic": "ietf-120",
+    "dtime": 2756000,
+    "ptime": 2756000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>I believe that there is an IESG statement on attestation.</p>",
+    "topic": "ietf-120",
+    "dtime": 2779000,
+    "ptime": 2779000
+  },
+  {
+    "author": "Muhammad Usama Sardar",
+    "text": "<p>The first definition is the most relevant to the draft.</p>",
+    "topic": "ietf-120",
+    "dtime": 2782000,
+    "ptime": 2782000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>I checked the RSA KEM examples in RFC5990bis with a private implementation.</p>",
+    "topic": "ietf-120",
+    "dtime": 2790000,
+    "ptime": 2790000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"331\">Deb Cooley</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-120/near/128451\">said</a>:</p>\n<blockquote>\n<p>I believe that there is an IESG statement on attestation.</p>\n</blockquote>\n<p><a href=\"https://datatracker.ietf.org/doc/statement-iab-statement-on-the-risks-of-attestation-of-software-and-hardware-on-the-open-internet/\">https://datatracker.ietf.org/doc/statement-iab-statement-on-the-risks-of-attestation-of-software-and-hardware-on-the-open-internet/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2818000,
+    "ptime": 2818000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/statement-iab-statement-on-the-risks-of-attestation-of-software-and-hardware-on-the-open-internet/\">https://datatracker.ietf.org/doc/statement-iab-statement-on-the-risks-of-attestation-of-software-and-hardware-on-the-open-internet/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2842000,
+    "ptime": 2842000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>IAB and about risks....</p>",
+    "topic": "ietf-120",
+    "dtime": 2858000,
+    "ptime": 2858000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>not definitions.</p>",
+    "topic": "ietf-120",
+    "dtime": 2865000,
+    "ptime": 2865000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>per se</p>",
+    "topic": "ietf-120",
+    "dtime": 2868000,
+    "ptime": 2868000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>This is the definition that Henk was referring to: <a href=\"https://www.nist.gov/system/files/documents/2022/02/04/software-supply-chain-security-guidance-under-EO-14028-section-4e.pdf\">https://www.nist.gov/system/files/documents/2022/02/04/software-supply-chain-security-guidance-under-EO-14028-section-4e.pdf</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2949000,
+    "ptime": 2949000
+  },
+  {
+    "author": "Muhammad Usama Sardar",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1750\">Muhammad Sardar</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-120/near/128453\">said</a>:</p>\n<blockquote>\n<p>The first definition is the most relevant to the draft.</p>\n</blockquote>\n<p>However, I do have concerns with this definition. It does not necessarily have to be digital signatures and <em>only</em> measurements. Also note the glossary wrongly attributed the definition to NIST SP 1800-19B but actually it comes from Bartock et al., Trusted Geolocation in the Cloud: Proof of Concept Implementation, NISTIR 7904, 2015.</p>",
+    "topic": "ietf-120",
+    "dtime": 3117000,
+    "ptime": 3117000
+  },
+  {
+    "author": "Muhammad Usama Sardar",
+    "text": "<p>For instance, there is local attestation which is based on MAC rather than digital signatures.</p>",
+    "topic": "ietf-120",
+    "dtime": 3202000,
+    "ptime": 3202000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1750\">Muhammad Sardar</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-120/near/128499\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1750\">Muhammad Sardar</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-120/near/128453\">said</a>:</p>\n<blockquote>\n<p>The first definition is the most relevant to the draft.</p>\n</blockquote>\n<p>However, I do have concerns with this definition. It does not necessarily have to be digital signatures and <em>only</em> measurements. Also note the glossary wrongly attributed the definition to NIST SP 1800-19B but actually it comes from Bartock et al., Trusted Geolocation in the Cloud: Proof of Concept Implementation, NISTIR 7904, 2015.</p>\n</blockquote>\n<p>We have a fairly lengthy github issue on this topic -- feel free to contribute. I think in the end we will close the Issue and make no text changes because this draft is definitely not the time or place to attempt an authoritative definition of these terms.<br>\n<a href=\"https://github.com/lamps-wg/csr-attestation/issues/139\">https://github.com/lamps-wg/csr-attestation/issues/139</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Muhammad Usama Sardar",
+    "text": "<p>Thanks, pasted my comments in the issue there.</p>",
+    "topic": "ietf-120",
+    "dtime": 3683000,
+    "ptime": 3683000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>Not backwards compatible. Not intended to be.</p>",
+    "topic": "ietf-120",
+    "dtime": 4164000,
+    "ptime": 4164000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Is Dan tempting me to create an X.509 cert with gigabyte pqrsa keys ??</p>",
+    "topic": "ietf-120",
+    "dtime": 4743000,
+    "ptime": 4743000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p><span aria-label=\"smiling devil\" class=\"emoji emoji-1f608\" role=\"img\" title=\"smiling devil\">:smiling_devil:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 4860000,
+    "ptime": 4860000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>For people following along at home, if the attacker wants to know which verification failed, he can just do the verifications himself instead of trying to figure it out via timing :)</p>",
+    "topic": "ietf-120",
+    "dtime": 5154000,
+    "ptime": 5154000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-LAMPS-20240724-2230"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/lamps"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-LAMPS-20240724-2230"
+		}		
+	]
+}

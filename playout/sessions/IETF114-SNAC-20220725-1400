@@ -1,0 +1,533 @@
+
+{
+	"title": "IETF114-SNAC-20220725-1400",
+	"filename": "IETF114-SNAC-20220725-1400",
+	"start": 0,
+	"end": 7240000,
+	"start_datetime": "2022-07-25T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "NOxCvFTEui8",
+    "start": 0,
+    "end": "7240000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jianwei Mao",
+    "text": "<p>yes, it is ok, thanks</p>",
+    "dtime": 13000,
+    "ptime": 13000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>Thank you!</p>",
+    "dtime": 22000,
+    "ptime": 22000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>Thanks Fred for the check</p>",
+    "dtime": 28000,
+    "ptime": 28000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Please ask Ted to hold the mic we don't hear him well remotely</p>",
+    "dtime": 296000,
+    "ptime": 296000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>Much better</p>",
+    "dtime": 327000,
+    "ptime": 327000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>do you slides from remoete ?</p>",
+    "dtime": 329000,
+    "ptime": 329000
+  },
+  {
+    "author": "Jianwei Mao",
+    "text": "<p>it is clear, thanks</p>",
+    "dtime": 331000,
+    "ptime": 331000
+  },
+  {
+    "author": "Ian Dickinson",
+    "text": "<p>general volume was low - now is better</p>",
+    "dtime": 336000,
+    "ptime": 336000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>I don't see slides as a remote participant.</p>",
+    "dtime": 348000,
+    "ptime": 348000
+  },
+  {
+    "author": "Umberto Fattore",
+    "text": "<p>Hi, are the slides shared also online? I actually do not see them</p>",
+    "dtime": 354000,
+    "ptime": 354000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Working on them</p>",
+    "dtime": 374000,
+    "ptime": 374000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>It's still hard to hear any time Ted turns his head, can he hold it in his hand so it moves with him?</p>",
+    "dtime": 380000,
+    "ptime": 380000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>Slides are visible now, thanks.</p>",
+    "dtime": 471000,
+    "ptime": 471000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: meetecho, the monitors in Freedom E/F are not really setup right.  We should have one projector for remote participants, yes?</p>",
+    "dtime": 755000,
+    "ptime": 755000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>mcr: ack, we'll check</p>",
+    "dtime": 835000,
+    "ptime": 835000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>bhoeneis: cannot find the slides. URL?</p>",
+    "dtime": 1027000,
+    "ptime": 1027000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Looks like “home networking problem” again.</p>",
+    "dtime": 1044000,
+    "ptime": 1044000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>The only way forward would be to go on a limited scope</p>",
+    "dtime": 1086000,
+    "ptime": 1086000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@meetecho with the current setup, chairs cannot see the queue</p>",
+    "dtime": 1184000,
+    "ptime": 1184000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Eric: got it. We're currently working on an audio issue in another room, and then we'll come check</p>",
+    "dtime": 1508000,
+    "ptime": 1508000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@lorenzo thanks</p>",
+    "dtime": 1521000,
+    "ptime": 1521000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: Garage LAN can communicate to IPs on the HOME LAN via the Internal Router, if it can discover the IP address of the service.  It's not communication that is broken, it's discovery!</p>",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: <a href=\"https://datatracker.ietf.org/meeting/114/session/snac\">https://datatracker.ietf.org/meeting/114/session/snac</a>  has materials.</p>",
+    "dtime": 1641000,
+    "ptime": 1641000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Start wondering whether this is about clarification or discussion on the scope ;-)</p>",
+    "dtime": 1693000,
+    "ptime": 1693000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: @Eric, I asked Ted what \"not break\" would mean... What I interpret that to mean is that when plugging in StubRouter 2 (to the garage LAN), that whatever was working on the Garage LAN should continue to work.  And whatever stuff was working through the Stub Network (via Stub Router 1) should continue to work.</p>",
+    "dtime": 1835000,
+    "ptime": 1835000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: @Erik, I think that the Stub Router is greenfield.</p>",
+    "dtime": 1845000,
+    "ptime": 1845000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: @meetecho, the audio from remote is too loud/clipping  :-(</p>",
+    "dtime": 1929000,
+    "ptime": 1929000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: someone poked the gain in the room.</p>",
+    "dtime": 1940000,
+    "ptime": 1940000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>We are closing the mic line for this topic after Michael</p>",
+    "dtime": 2264000,
+    "ptime": 2264000
+  },
+  {
+    "author": "Jianwei Mao",
+    "text": "<p>thank Ted for your answer :)</p>",
+    "dtime": 2438000,
+    "ptime": 2438000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Routing would be simple. The desire to avoid routing to achieve routing would be more complicated.</p>",
+    "dtime": 2448000,
+    "ptime": 2448000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@meetcho no news about fixing the monitors ?</p>",
+    "dtime": 2578000,
+    "ptime": 2578000
+  },
+  {
+    "author": "Pascal Thubert",
+    "text": "<p>Repeat the question please?</p>",
+    "dtime": 2601000,
+    "ptime": 2601000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>The question couldn't be heard remotely</p>",
+    "dtime": 2617000,
+    "ptime": 2617000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>We could not hear the question</p>",
+    "dtime": 2623000,
+    "ptime": 2623000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Eric: we fixed the audio issue so I relayed, I think someone will look into this soon, apologies for the delay</p>",
+    "dtime": 2632000,
+    "ptime": 2632000
+  },
+  {
+    "author": "Pascal Thubert",
+    "text": "<p>Note: 6LoWPAN was mentioned and already has its soution for this that scales to tens of thousands: RFC 8505/8929</p>",
+    "dtime": 2648000,
+    "ptime": 2648000
+  },
+  {
+    "author": "Pascal Thubert",
+    "text": "<p>plus RPL in the stub routers</p>",
+    "dtime": 2667000,
+    "ptime": 2667000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>Whoever is talking, we cannot hear</p>",
+    "dtime": 2703000,
+    "ptime": 2703000
+  },
+  {
+    "author": "Pascal Thubert",
+    "text": "<p>same cannot hear</p>",
+    "dtime": 2715000,
+    "ptime": 2715000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>Is there a mic?</p>",
+    "dtime": 2732000,
+    "ptime": 2732000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>If so, it is not feeding to the remote audio</p>",
+    "dtime": 2745000,
+    "ptime": 2745000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>yes and the speaker is close to the mike</p>",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Is the person you can't hear in the room or remote?</p>",
+    "dtime": 2759000,
+    "ptime": 2759000
+  },
+  {
+    "author": "Pascal Thubert",
+    "text": "<p>In room I guess</p>",
+    "dtime": 2770000,
+    "ptime": 2770000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>in the room on the mic queue</p>",
+    "dtime": 2773000,
+    "ptime": 2773000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>In the room</p>",
+    "dtime": 2774000,
+    "ptime": 2774000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Are other mics fine? Have you checked if it's turned on?</p>",
+    "dtime": 2823000,
+    "ptime": 2823000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>We heard the local queue before (Michael), but the last speaker was completely missed</p>",
+    "dtime": 2827000,
+    "ptime": 2827000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>Can't hear again</p>",
+    "dtime": 3257000,
+    "ptime": 3257000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>please repeat questions we cant hear don't just answer them: repeat them</p>",
+    "dtime": 3257000,
+    "ptime": 3257000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@meetecho, mic at the mic line no more working....</p>",
+    "dtime": 3294000,
+    "ptime": 3294000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>Thanks Suresh</p>",
+    "dtime": 3297000,
+    "ptime": 3297000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>No worries <span class=\"user-mention\" data-user-id=\"540\">@Juan-Carlos Zúñiga</span></p>",
+    "dtime": 3332000,
+    "ptime": 3332000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>Now it works!</p>",
+    "dtime": 3352000,
+    "ptime": 3352000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: as an another answer to Ran: because the WiFi access point is owned/operated by the ISP, and the ISP gets replaced regularly, and so it isn't trusted with the credentials to the lightbulb.</p>",
+    "dtime": 3380000,
+    "ptime": 3380000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>So it WAS switched off :)</p>",
+    "dtime": 3385000,
+    "ptime": 3385000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>Indeed. We could not tell from abroad ;)</p>",
+    "dtime": 3424000,
+    "ptime": 3424000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>BTW, we could not see the room/queue video either. Now we do</p>",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"540\">@Juan-Carlos Zúñiga</span> , we could not even tell from the front of the room :)</p>",
+    "dtime": 3512000,
+    "ptime": 3512000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><a href=\"https://www.amazon.com/Kasa-Smart-WiFi-Router-TP-Link/dp/B077Y939JQ\">https://www.amazon.com/Kasa-Smart-WiFi-Router-TP-Link/dp/B077Y939JQ</a></p>",
+    "dtime": 3563000,
+    "ptime": 3563000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>One search found me an amazon store selling a zigbee enabled home router made by TP-link.</p>",
+    "dtime": 3581000,
+    "ptime": 3581000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>So \"they exist\"</p>",
+    "dtime": 3589000,
+    "ptime": 3589000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: yeah, @George, 97% of home users use whatever their ISP gives them, and many ISPs are actively hostile to issues when you don't use their modem.</p>",
+    "dtime": 3653000,
+    "ptime": 3653000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: (I wish that wasn't so)</p>",
+    "dtime": 3668000,
+    "ptime": 3668000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>Stewart's question implied they're as rare as hens teeth. they exist, on retail. I live in an economy where most consumers BYO (OZ) so my own experience of CPE is different. I certainly don't disagree most of the world is vendor supplied.</p>",
+    "dtime": 3793000,
+    "ptime": 3793000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>who is talking now?</p>",
+    "dtime": 4031000,
+    "ptime": 4031000
+  },
+  {
+    "author": "Martin Turon",
+    "text": "<p>Pascal</p>",
+    "dtime": 4047000,
+    "ptime": 4047000
+  },
+  {
+    "author": "Martin Turon",
+    "text": "<p>PAscal Thubert</p>",
+    "dtime": 4074000,
+    "ptime": 4074000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>Thanks Martin I know Pascal</p>",
+    "dtime": 4092000,
+    "ptime": 4092000
+  },
+  {
+    "author": "Oliver Borchert",
+    "text": "<p>yes</p>",
+    "dtime": 4975000,
+    "ptime": 4975000
+  },
+  {
+    "author": "Oliver Borchert",
+    "text": "<p>can you speak a bit louder or closer to the microphone?</p>",
+    "dtime": 5565000,
+    "ptime": 5565000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Is there a (read-only) link to the live version of the charter draft?</p>",
+    "dtime": 6358000,
+    "ptime": 6358000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>+1 to Tom's point that security needs thinking about. But I need to figure out whether the stub network boundary is or can be a useful security boundary. Particularly as they are dynamic.</p>",
+    "dtime": 6529000,
+    "ptime": 6529000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Would a Deliverable on recommended firewall policies for stub network routers make sense?  (similar to rfc6092 ?)</p>",
+    "dtime": 6563000,
+    "ptime": 6563000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: The underlying question is whether security needs to be in the charter.</p>",
+    "dtime": 6627000,
+    "ptime": 6627000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Let's not boil the ocean...</p>",
+    "dtime": 6654000,
+    "ptime": 6654000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>@Erik yes, or alternatively in the way that Stuart phrased it which was kind of \"the wg will think about it\".</p>",
+    "dtime": 6772000,
+    "ptime": 6772000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: I can live with what's there.</p>",
+    "dtime": 6800000,
+    "ptime": 6800000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>\"wg will think about it\" might be better charter-wise as a firewall policy deliverable is just one specific way the WG might choose to address.</p>",
+    "dtime": 6901000,
+    "ptime": 6901000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Are we not using the show of hands tool?</p>",
+    "dtime": 7016000,
+    "ptime": 7016000
+  },
+  {
+    "author": "Ted Lemon",
+    "text": "<p>Here is view/comment link to the doc: <a href=\"https://docs.google.com/document/d/1D_LnZtBELWnv5PtztiW9AKRCjrAThuD9n0hVmjm6lhU/edit?usp=sharing\">https://docs.google.com/document/d/1D_LnZtBELWnv5PtztiW9AKRCjrAThuD9n0hVmjm6lhU/edit?usp=sharing</a></p>",
+    "dtime": 7042000,
+    "ptime": 7042000
+  },
+  {
+    "author": "Gabriel Montenegro",
+    "text": "<p>+1</p>",
+    "dtime": 7045000,
+    "ptime": 7045000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-SNAC-20220725-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/snac"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-SNAC-20220725-1400"
+		}		
+	]
+}

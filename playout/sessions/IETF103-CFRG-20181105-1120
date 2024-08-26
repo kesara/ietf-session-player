@@ -1,0 +1,316 @@
+{
+  "title": "IETF103-CFRG-20181105-1120",
+  "filename": "IETF103-CFRG-20181105-1120",
+  "start": 0,
+  "end": 3462000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "FnVI9lbVMaY",
+      "start": 0.0,
+      "end": 3462000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 13000.0,
+      "dtime": 532000.0
+    },
+    {
+      "text": "Hello all.  I\u0027ll be your Jabber relay today.  If you have anything you want relayed into the room, please preface it with \"mic:\"",
+      "ptime": 95000.0,
+      "dtime": 614000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Melinda just joined the room",
+      "ptime": 281000.0,
+      "dtime": 800000.0
+    },
+    {
+      "text": "the eyecharts will continue until morale improves",
+      "ptime": 355000.0,
+      "dtime": 874000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "suggestion wrt PAKE selection: s/1 or more/0 or more/",
+      "ptime": 430000.0,
+      "dtime": 949000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Martin Thomson at mic",
+      "ptime": 453000.0,
+      "dtime": 972000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 454000.0,
+      "dtime": 973000.0
+    },
+    {
+      "text": "Stephen Farrel at mic",
+      "ptime": 476000.0,
+      "dtime": 995000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Rich Salz at mic",
+      "ptime": 494000.0,
+      "dtime": 1013000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Martin Thomson at mic",
+      "ptime": 530000.0,
+      "dtime": 1049000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Seonghan at mic",
+      "ptime": 555000.0,
+      "dtime": 1074000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 650000.0,
+      "dtime": 1169000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Rich Salz at mic",
+      "ptime": 711000.0,
+      "dtime": 1230000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Stanislav V. Smyshlyaev - ( https://datatracker.ietf.org/meeting/103/materials/slides-103-cfrg-randomness-improvements-for-security-protocols-00 )",
+      "ptime": 845000.0,
+      "dtime": 1364000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***nat just joined the room",
+      "ptime": 960000.0,
+      "dtime": 1479000.0
+    },
+    {
+      "text": "Martin Thomson asked for a PAKE from CFRG ASAP.",
+      "ptime": 971000.0,
+      "dtime": 1490000.0,
+      "author": "alexey.melnikov"
+    },
+    {
+      "text": "Martin Thomson at mic",
+      "ptime": 1041000.0,
+      "dtime": 1560000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "So Sign(K, tag1) is only guaranteed if K can\u0027t be used to sign tag1.  How is that guaranteed?",
+      "ptime": 1485000.0,
+      "dtime": 2004000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "hmm, that\u0027s a little weak",
+      "ptime": 1541000.0,
+      "dtime": 2060000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Valery at mic",
+      "ptime": 1584000.0,
+      "dtime": 2103000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "kaduk@jabber.org/barnowl: are these quoting something, or are you saying something?",
+      "ptime": 1598000.0,
+      "dtime": 2117000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Paul Hoffman at mic",
+      "ptime": 1661000.0,
+      "dtime": 2180000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "have there been any studies of side-channels for using HKDF like this? G(L) is used as the key, so if the HKDF implementation is side-channel resistant already this also ought be ok, but I dunno if HKDF implementations have worried about that",
+      "ptime": 1681000.0,
+      "dtime": 2200000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Chris Wood at mic",
+      "ptime": 1701000.0,
+      "dtime": 2220000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "I don\u0027t think that HKDF has any inherent side-channels, but I agree that there might be some around the edges",
+      "ptime": 1761000.0,
+      "dtime": 2280000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Nick Sullivan ( https://datatracker.ietf.org/meeting/103/materials/slides-103-cfrg-hash2curve-00 )",
+      "ptime": 1769000.0,
+      "dtime": 2288000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "I\u0027m not aware of any side channels for HKDF",
+      "ptime": 1799000.0,
+      "dtime": 2318000.0,
+      "author": "Christopher Wood"
+    },
+    {
+      "text": "Happy to be shown otherwise though",
+      "ptime": 1807000.0,
+      "dtime": 2326000.0,
+      "author": "Christopher Wood"
+    },
+    {
+      "text": "can\u0027t access the paper now, but https://link.springer.com/chapter/10.1007/978-981-10-4154-9_31 seems like it should be relevant maybe (I\u0027ve not read it, just found with a search)",
+      "ptime": 1944000.0,
+      "dtime": 2463000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "paywall ftw",
+      "ptime": 1987000.0,
+      "dtime": 2506000.0,
+      "author": "Christopher Wood"
+    },
+    {
+      "text": "yeah, didn\u0027t see a version without paywall so far",
+      "ptime": 2048000.0,
+      "dtime": 2567000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "they do, but I\u0027m on the ietf n/w",
+      "ptime": 2091000.0,
+      "dtime": 2610000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "not VPNing into TCD, no, I VPN out more often:-)",
+      "ptime": 2143000.0,
+      "dtime": 2662000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "( https://datatracker.ietf.org/meeting/103/materials/slides-103-cfrg-voprf-00 )",
+      "ptime": 2306000.0,
+      "dtime": 2825000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 2470000.0,
+      "dtime": 2989000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 2497000.0,
+      "dtime": 3016000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "so... \"s\" isn\u0027t sent  on the wire?",
+      "ptime": 2727000.0,
+      "dtime": 3246000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "because the diagram shows s being sent from the prover in the first transaction and received at the second",
+      "ptime": 2765000.0,
+      "dtime": 3284000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Stanislav at mic",
+      "ptime": 3048000.0,
+      "dtime": 3567000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 3099000.0,
+      "dtime": 3618000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Stanislav at mic",
+      "ptime": 3193000.0,
+      "dtime": 3712000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Seonghan at mic",
+      "ptime": 3277000.0,
+      "dtime": 3796000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Richard Barnes at mic",
+      "ptime": 3319000.0,
+      "dtime": 3838000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Chris Wood at mic",
+      "ptime": 3366000.0,
+      "dtime": 3885000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "ekr at mic",
+      "ptime": 3378000.0,
+      "dtime": 3897000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "***Yoshiro Yoneya just left the room",
+      "ptime": 3461000.0,
+      "dtime": 3980000.0
+    },
+    {
+      "text": "***Dave Wheeler just left the room",
+      "ptime": 3461000.0,
+      "dtime": 3980000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 3461000.0,
+      "dtime": 3980000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 3461000.0,
+      "dtime": 3980000.0
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 3462000.0,
+      "dtime": 3981000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF103-CFRG-20181105-1120"
+    }
+  ]
+}

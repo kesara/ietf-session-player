@@ -1,0 +1,441 @@
+
+{
+	"title": "IETF119-OAUTH-20240322-0500",
+	"filename": "IETF119-OAUTH-20240322-0500",
+	"start": 0,
+	"end": 5645000,
+	"start_datetime": "2024-03-22T05:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Oh0EaisUtYI",
+    "start": 0,
+    "end": "5645000"
+  }
+],
+	"messages": [
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Good morning!</p>",
+    "topic": "ietf-119",
+    "dtime": 124000,
+    "ptime": 124000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>I'm going to miss all of you after this</p>",
+    "topic": "ietf-119",
+    "dtime": 147000,
+    "ptime": 147000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>Happy birthday, <span class=\"user-mention\" data-user-id=\"1218\">@Kelley Burgin</span> !</p>",
+    "topic": "ietf-119",
+    "dtime": 161000,
+    "ptime": 161000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>hannes you have to move the mouse cursor over the slides for the clicker to work</p>",
+    "topic": "ietf-119",
+    "dtime": 216000,
+    "ptime": 216000
+  },
+  {
+    "author": "Sarah Cecchetti",
+    "text": "<p>Happy Thursday evening</p>",
+    "topic": "ietf-119",
+    "dtime": 225000,
+    "ptime": 225000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>Oh good, the brains behind the operation has arrived =)</p>",
+    "topic": "ietf-119",
+    "dtime": 742000,
+    "ptime": 742000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>we did the PR to fix this in oid4vc...</p>",
+    "topic": "ietf-119",
+    "dtime": 995000,
+    "ptime": 995000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>kristina can you queue to describe this?</p>",
+    "topic": "ietf-119",
+    "dtime": 1078000,
+    "ptime": 1078000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>ah actually i am wrong, we only discussed, have not done the PR yet.</p>",
+    "topic": "ietf-119",
+    "dtime": 1094000,
+    "ptime": 1094000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>i'll get back to you offline, aaron.</p>",
+    "topic": "ietf-119",
+    "dtime": 1105000,
+    "ptime": 1105000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>we did not commit to not breaking changes -- requiring PKCE breaks things.</p>",
+    "topic": "ietf-119",
+    "dtime": 1316000,
+    "ptime": 1316000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>but it's important to be deliberate about what we'd consider an interop between 2.0 and 2.1, and from which side</p>",
+    "topic": "ietf-119",
+    "dtime": 1339000,
+    "ptime": 1339000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>requiring PKCE only breaks things that want to be 2.1 compliant.</p>",
+    "topic": "ietf-119",
+    "dtime": 1375000,
+    "ptime": 1375000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>at least, as far I understand things</p>",
+    "topic": "ietf-119",
+    "dtime": 1387000,
+    "ptime": 1387000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>audio issue, again :'(</p>",
+    "topic": "ietf-119",
+    "dtime": 1395000,
+    "ptime": 1395000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>Please speak closer to the mic.</p>",
+    "topic": "ietf-119",
+    "dtime": 1422000,
+    "ptime": 1422000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>what I was queued to say: requiring deployed client_ids to change is a nightmare, but requiring alphanumeric secrets seems untenable.</p>",
+    "topic": "ietf-119",
+    "dtime": 1479000,
+    "ptime": 1479000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>if this is the only way we think the feature can be interoperable, we should deprecate for 2.1</p>",
+    "topic": "ietf-119",
+    "dtime": 1501000,
+    "ptime": 1501000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>+1 to probably treating client_id and client_secrets differently..</p>",
+    "topic": "ietf-119",
+    "dtime": 1562000,
+    "ptime": 1562000
+  },
+  {
+    "author": "Filip Skokan",
+    "text": "<p>if only the character set didn't include the \":\" character we could get away from any additional encoding of all username / password characters.</p>",
+    "topic": "ietf-119",
+    "dtime": 1642000,
+    "ptime": 1642000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@dean that's exactly my point.</p>",
+    "topic": "ietf-119",
+    "dtime": 1647000,
+    "ptime": 1647000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@david if people implemented properly it as it's already specified, it would ALSO be interoperable ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 1684000,
+    "ptime": 1684000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>I have seen\"did:...\" as a client_id, filip...</p>",
+    "topic": "ietf-119",
+    "dtime": 1771000,
+    "ptime": 1771000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>@Justin yeah I doubt this is the only way, although it is certainly a way to force the peg through the hole</p>",
+    "topic": "ietf-119",
+    "dtime": 1926000,
+    "ptime": 1926000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p><a href=\"https://github.com/cedar-policy/cedar\">https://github.com/cedar-policy/cedar</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1952000,
+    "ptime": 1952000
+  },
+  {
+    "author": "Sarah Cecchetti",
+    "text": "<p>and <a href=\"https://www.cedarpolicy.com/en\">https://www.cedarpolicy.com/en</a> and <a href=\"https://cedarland.blog/\">https://cedarland.blog/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2012000,
+    "ptime": 2012000
+  },
+  {
+    "author": "Sarah Cecchetti",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-cecchetti-oauth-rar-cedar/\">https://datatracker.ietf.org/doc/draft-cecchetti-oauth-rar-cedar/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2136000,
+    "ptime": 2136000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>big +1 to George's comment just now</p>",
+    "topic": "ietf-119",
+    "dtime": 2258000,
+    "ptime": 2258000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>client -&gt; AS, AS -&gt; client, and AS -&gt; RS don't need to be the same format or value in a functioning system</p>",
+    "topic": "ietf-119",
+    "dtime": 2308000,
+    "ptime": 2308000
+  },
+  {
+    "author": "Sarah Cecchetti",
+    "text": "<p>Yup. The next draft will use \"type\" to indicate format in URI format. Another open question is whether to give guidance about when to make that an array that also includes intent.</p>",
+    "topic": "ietf-119",
+    "dtime": 2500000,
+    "ptime": 2500000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>the value of \"type\" is defined to be a single string, so having it as an array would break parsing. You could define a secondary field to carry the other information, though, and require/recommend/etc that when the type is \"<a href=\"http://cedarpolicy.org\">cedarpolicy.org</a>\"</p>",
+    "topic": "ietf-119",
+    "dtime": 2735000,
+    "ptime": 2735000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>For this question to answer wouldn't the entities.json be more necessary on top of the policy?</p>",
+    "topic": "ietf-119",
+    "dtime": 2798000,
+    "ptime": 2798000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>+1 to <span class=\"user-mention\" data-user-id=\"204\">@Brian Campbell</span> , can't the RS simply get the Cedar policy directly from the Cedar service?</p>",
+    "topic": "ietf-119",
+    "dtime": 2812000,
+    "ptime": 2812000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>why does the client or AS need to be involved?</p>",
+    "topic": "ietf-119",
+    "dtime": 2830000,
+    "ptime": 2830000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Have others looked at other policy languages, such as OPA/Rego?</p>",
+    "topic": "ietf-119",
+    "dtime": 3331000,
+    "ptime": 3331000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>I have some familiarity</p>",
+    "topic": "ietf-119",
+    "dtime": 3401000,
+    "ptime": 3401000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>@Hannes - there is a very large number of policy languages out there (some number above 20 by last count)</p>",
+    "topic": "ietf-119",
+    "dtime": 3451000,
+    "ptime": 3451000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>But only a few have found wider usage</p>",
+    "topic": "ietf-119",
+    "dtime": 3467000,
+    "ptime": 3467000
+  },
+  {
+    "author": "Christian Bormann",
+    "text": "<p>I was wondering about Rego as well, but Rego is used more on the infrastructure side from my experience?</p>",
+    "topic": "ietf-119",
+    "dtime": 3477000,
+    "ptime": 3477000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>The question for me was whether we should standardize the two most popular policy languages</p>",
+    "topic": "ietf-119",
+    "dtime": 3521000,
+    "ptime": 3521000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>OPA/Rego has found adoption, but it is also very flexible and requires a skilled user to avoid unfortunate outcomes.</p>",
+    "topic": "ietf-119",
+    "dtime": 3561000,
+    "ptime": 3561000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>@Hannes - how would you define popular?</p>",
+    "topic": "ietf-119",
+    "dtime": 3610000,
+    "ptime": 3610000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>XACML? ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 3621000,
+    "ptime": 3621000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>popular  = what the group prefers</p>",
+    "topic": "ietf-119",
+    "dtime": 3640000,
+    "ptime": 3640000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>gotta do your homework before the meetings! ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 3730000,
+    "ptime": 3730000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>on the mic please</p>",
+    "topic": "ietf-119",
+    "dtime": 3900000,
+    "ptime": 3900000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>use the mic brian</p>",
+    "topic": "ietf-119",
+    "dtime": 3903000,
+    "ptime": 3903000
+  },
+  {
+    "author": "Nat Sakimura",
+    "text": "<p>Please use mic</p>",
+    "topic": "ietf-119",
+    "dtime": 3953000,
+    "ptime": 3953000
+  },
+  {
+    "author": "Yaroslav Rosomakho",
+    "text": "<p>Might be a good idea to provide an optional URL to redirect user to so that user would know why he/she got kicked out</p>",
+    "topic": "ietf-119",
+    "dtime": 4823000,
+    "ptime": 4823000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>@Yaroslav there is no user interaction in this draft, it happens entirely without the user context.</p>",
+    "topic": "ietf-119",
+    "dtime": 4896000,
+    "ptime": 4896000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>what is the lifecycle for this signed jwk set?</p>",
+    "topic": "ietf-119",
+    "dtime": 5067000,
+    "ptime": 5067000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>What is the lifetime of these certs?</p>",
+    "topic": "ietf-119",
+    "dtime": 5459000,
+    "ptime": 5459000
+  },
+  {
+    "author": "Nat Sakimura",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 5590000,
+    "ptime": 5590000
+  },
+  {
+    "author": "Nigel Hickson",
+    "text": "<p>thank you</p>",
+    "topic": "ietf-119",
+    "dtime": 5595000,
+    "ptime": 5595000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>the times remotely were pretty brutal :)</p>",
+    "topic": "ietf-119",
+    "dtime": 5610000,
+    "ptime": 5610000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>thank you!</p>",
+    "topic": "ietf-119",
+    "dtime": 5616000,
+    "ptime": 5616000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>confirmed</p>",
+    "topic": "ietf-119",
+    "dtime": 5617000,
+    "ptime": 5617000
+  },
+  {
+    "author": "Christian Bormann",
+    "text": "<p>Thanks and have a great day!</p>",
+    "topic": "ietf-119",
+    "dtime": 5631000,
+    "ptime": 5631000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-OAUTH-20240322-0500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-OAUTH-20240322-0500"
+		}		
+	]
+}

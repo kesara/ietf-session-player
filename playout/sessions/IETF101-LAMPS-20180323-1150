@@ -1,0 +1,203 @@
+{
+  "title": "IETF101-LAMPS-20180323-1150",
+  "filename": "IETF101-LAMPS-20180323-1150",
+  "start": 0,
+  "end": 5539000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "0CX16QVnd5Y",
+      "start": 0.0,
+      "end": 5539000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Jacob Hoffman-Andrews just left the room",
+      "ptime": 263000.0,
+      "dtime": 699000.0
+    },
+    {
+      "text": "***Jacob Hoffman-Andrews just joined the room",
+      "ptime": 312000.0,
+      "dtime": 748000.0
+    },
+    {
+      "text": "***Sean Leonard just joined the room",
+      "ptime": 1284000.0,
+      "dtime": 1720000.0
+    },
+    {
+      "text": "is it in the ASN.1?",
+      "ptime": 1421000.0,
+      "dtime": 1857000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Mic: Is it in the ASN.1?",
+      "ptime": 1426000.0,
+      "dtime": 1862000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "(I\u0027m not defending it)",
+      "ptime": 1430000.0,
+      "dtime": 1866000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "mic: Has there been any discussion on changing the \"SHOULD\" for querying the authoratative nameserver(s) to a \"MUST\" in section 6.3?",
+      "ptime": 2052000.0,
+      "dtime": 2488000.0,
+      "author": "Corey Bonnell"
+    },
+    {
+      "text": "Mic: Should the ShakeOutputLen\u0027s length requirement be expressed in ASN.1 as a size constraint? And similarly for RSASSA-PSS-params\u0027 saltLength, to restrict size to 32 or 64 accordingly?",
+      "ptime": 2509000.0,
+      "dtime": 2945000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Mic: so to be clear, what component(s) enforce the size constraint?",
+      "ptime": 2700000.0,
+      "dtime": 3136000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "because it won\u0027t be the ASN.1 encoder/decoder",
+      "ptime": 2742000.0,
+      "dtime": 3178000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "does that answer your que",
+      "ptime": 2775000.0,
+      "dtime": 3211000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "I am more skeptical about disabling variable-length encoding",
+      "ptime": 2806000.0,
+      "dtime": 3242000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "but am not adamant about keeping it in (yet)",
+      "ptime": 2817000.0,
+      "dtime": 3253000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I\u0027d probably take that to the mailing list before it gets nailed down",
+      "ptime": 2828000.0,
+      "dtime": 3264000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "Mic: probably not necessary",
+      "ptime": 3144000.0,
+      "dtime": 3580000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "+1 to EKR",
+      "ptime": 3146000.0,
+      "dtime": 3582000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "(to the issue of where to define the salt)",
+      "ptime": 3158000.0,
+      "dtime": 3594000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 3164000.0,
+      "dtime": 3600000.0
+    },
+    {
+      "text": "It looks like there\u0027s broad agreement on that.",
+      "ptime": 3178000.0,
+      "dtime": 3614000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "***Jacob Hoffman-Andrews just left the room",
+      "ptime": 3244000.0,
+      "dtime": 3680000.0
+    },
+    {
+      "text": "Mic: digest and a pointer (subject information access)",
+      "ptime": 4764000.0,
+      "dtime": 5200000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "like a URI",
+      "ptime": 4823000.0,
+      "dtime": 5259000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I would like to know what the implications are of having multiple public keys with the same certificate subject name and certificate serial number",
+      "ptime": 5024000.0,
+      "dtime": 5460000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "(You can mic that)",
+      "ptime": 5028000.0,
+      "dtime": 5464000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "because some crypto stacks index public \u0026 private keypairs by issuer + serial number. just pointing out additional complication.",
+      "ptime": 5053000.0,
+      "dtime": 5489000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "So \u003c-- Mic: prior comment",
+      "ptime": 5059000.0,
+      "dtime": 5495000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "\u003c-- see prior comment",
+      "ptime": 5164000.0,
+      "dtime": 5600000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "about indexing point",
+      "ptime": 5174000.0,
+      "dtime": 5610000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Corey Bonnell just left the room",
+      "ptime": 5538000.0,
+      "dtime": 5974000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 5538000.0,
+      "dtime": 5974000.0
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 5538000.0,
+      "dtime": 5974000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-LAMPS-20180323-1150"
+    }
+  ]
+}

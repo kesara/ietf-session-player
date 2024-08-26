@@ -1,0 +1,272 @@
+{
+  "title": "IETF104-COSE-20190326-0900",
+  "filename": "IETF104-COSE-20190326-0900",
+  "start": 0,
+  "end": 6317000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "l3Hp7dNzs2M",
+      "start": 0.0,
+      "end": 6317000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Agenda Bash ? slience",
+      "ptime": 189000.0,
+      "dtime": 1299000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Jim Schaad talks about https://datatracker.ietf.org/meeting/104/materials/slides-104-cose-rfc8152bis-struct-00",
+      "ptime": 222000.0,
+      "dtime": 1332000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Countersignatures issue:  top bytetag does not make it easy to tell is it is one or more countersignature",
+      "ptime": 291000.0,
+      "dtime": 1401000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Anyone using countersignature?",
+      "ptime": 310000.0,
+      "dtime": 1420000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "If not, lets chand it",
+      "ptime": 328000.0,
+      "dtime": 1438000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Jim thinks he is the only one that uses countersignature, please speak up if the are others out there?",
+      "ptime": 421000.0,
+      "dtime": 1531000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "***Matthew Gillmore just joined the room",
+      "ptime": 707000.0,
+      "dtime": 1817000.0
+    },
+    {
+      "text": "Discussion of whether is should be a subsection of signature or a section at the same level",
+      "ptime": 1152000.0,
+      "dtime": 2262000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Either way, it should be moved out of an appendix",
+      "ptime": 1168000.0,
+      "dtime": 2278000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Do we need a CBOR Tag for countersignatures?  No one used detached countersignatures, but people would like to have one for the future",
+      "ptime": 1387000.0,
+      "dtime": 2497000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "IANA Considerations",
+      "ptime": 1428000.0,
+      "dtime": 2538000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Updating instructions for experts as well",
+      "ptime": 1461000.0,
+      "dtime": 2571000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "CBOR Issues ? canonicalization",
+      "ptime": 1669000.0,
+      "dtime": 2779000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Carsen: CBOR documents only have recommendations",
+      "ptime": 1729000.0,
+      "dtime": 2839000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Jim: his document includes a proper subset of the recommendations",
+      "ptime": 1758000.0,
+      "dtime": 2868000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Carsen: it is now called \"preferred encoding\"",
+      "ptime": 1853000.0,
+      "dtime": 2963000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Interop Status",
+      "ptime": 1993000.0,
+      "dtime": 3103000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Need interop testing between now and Montreal",
+      "ptime": 2110000.0,
+      "dtime": 3220000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Continue soliciting feedback from implementers",
+      "ptime": 2277000.0,
+      "dtime": 3387000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "COSE Algorithms ? Jim Schaad",
+      "ptime": 2310000.0,
+      "dtime": 3420000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Relatively few changes in the text extracted from RFC 8152",
+      "ptime": 2363000.0,
+      "dtime": 3473000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Clean up security considerations",
+      "ptime": 2379000.0,
+      "dtime": 3489000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "What additional algorithms are needed?",
+      "ptime": 2433000.0,
+      "dtime": 3543000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "see slide 12 for a list of possible algorithms to add",
+      "ptime": 2585000.0,
+      "dtime": 3695000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 2917000.0,
+      "dtime": 4027000.0
+    },
+    {
+      "text": "Hash Algorithm ? Jim Schaad",
+      "ptime": 3129000.0,
+      "dtime": 4239000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "***Matthew Gillmore just left the room",
+      "ptime": 3288000.0,
+      "dtime": 4398000.0
+    },
+    {
+      "text": "X.509 Certificates ? Jim Schaad",
+      "ptime": 3928000.0,
+      "dtime": 5038000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Does anyone need to ship CRLs or OCSP responses in the COSE message?",
+      "ptime": 4090000.0,
+      "dtime": 5200000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Mike Jones",
+      "ptime": 4838000.0,
+      "dtime": 5948000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "draft-jones-cose-additional-algorithms",
+      "ptime": 4849000.0,
+      "dtime": 5959000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "https://www.w3.org/TR/2019/REC-webauthn-1-20190304/",
+      "ptime": 4887000.0,
+      "dtime": 5997000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "secp256k1 Curve Name?  Do others care?",
+      "ptime": 5419000.0,
+      "dtime": 6529000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "should we use point compression?",
+      "ptime": 5549000.0,
+      "dtime": 6659000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Call for adoption ends today",
+      "ptime": 5584000.0,
+      "dtime": 6694000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "Will be adopting",
+      "ptime": 5623000.0,
+      "dtime": 6733000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "SUIT Hash Signatures (Russ Housley)",
+      "ptime": 5641000.0,
+      "dtime": 6751000.0,
+      "author": "Kathleen"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/104/materials/slides-104-cose-cose-hash-sig-00",
+      "ptime": 5677000.0,
+      "dtime": 6787000.0,
+      "author": "Kathleen"
+    },
+    {
+      "text": "Possible MTI for SUIT, quantum safe algorithm",
+      "ptime": 6036000.0,
+      "dtime": 7146000.0,
+      "author": "Kathleen"
+    },
+    {
+      "text": "Virtual Interim in May",
+      "ptime": 6129000.0,
+      "dtime": 7239000.0,
+      "author": "Russ Housley"
+    },
+    {
+      "text": "***99rst just joined the room",
+      "ptime": 6183000.0,
+      "dtime": 7293000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 6317000.0,
+      "dtime": 7427000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-COSE-20190326-0900"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+
+{
+	"title": "IETF120-RADEXT-20240726-2000",
+	"filename": "IETF120-RADEXT-20240726-2000",
+	"start": 0,
+	"end": 5066000,
+	"start_datetime": "2024-07-26T19:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "8GNL2omMbjA",
+    "start": 0,
+    "end": "5066000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jan-Frederik Rieckers",
+    "text": "<p>Hi <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 374000,
+    "ptime": 374000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>Proxy-State alternative: is User-Name long enough to hide the gibberish? Earlier it was indicated more than on Proxy-State was required.</p>",
+    "topic": "ietf-120",
+    "dtime": 1705000,
+    "ptime": 1705000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>That is, there's usually just one Reply-Message</p>",
+    "topic": "ietf-120",
+    "dtime": 1742000,
+    "ptime": 1742000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>not going to be Class'y eh?</p>",
+    "topic": "ietf-120",
+    "dtime": 1757000,
+    "ptime": 1757000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>My understanding is \"yes\", with limitations.  It's easier to find collisions in lots of data.   It's more CPU power to find shorter collisions.  But it's theoreyically possible</p>",
+    "topic": "ietf-120",
+    "dtime": 1776000,
+    "ptime": 1776000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>Very good presentation!</p>",
+    "topic": "ietf-120",
+    "dtime": 1791000,
+    "ptime": 1791000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>HMAC!</p>",
+    "topic": "ietf-120",
+    "dtime": 1855000,
+    "ptime": 1855000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>so maybe we need to say that we will deprecate HMAC-MD5 within 5 years?</p>",
+    "topic": "ietf-120",
+    "dtime": 2084000,
+    "ptime": 2084000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>Sounds like it</p>",
+    "topic": "ietf-120",
+    "dtime": 2095000,
+    "ptime": 2095000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>For posterity: Because of MD5 output length.</p>",
+    "topic": "ietf-120",
+    "dtime": 2283000,
+    "ptime": 2283000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>IIRC Hugo Krawchyk explained that HMAC is secure even for MD5 since it requires to find second preimage, which is difficullt compared to collision even for MD5. But I agree that MD5 is dated</p>",
+    "topic": "ietf-120",
+    "dtime": 2305000,
+    "ptime": 2305000
+  },
+  {
+    "author": "Fabian Mauchle",
+    "text": "<p>if we need to add signaling, maybe something for RADIUS/1.1</p>",
+    "topic": "ietf-120",
+    "dtime": 2352000,
+    "ptime": 2352000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>So we likely need to add crypto binding to RADIUS/TLS</p>",
+    "topic": "ietf-120",
+    "dtime": 2358000,
+    "ptime": 2358000
+  },
+  {
+    "author": "Miro Haller",
+    "text": "<p>@Heikki: yes, the User-Name is shorter. The collision can be made shorter at the cost of more computation time. So, it is possible but it would need to be evaluated how practical it is.</p>",
+    "topic": "ietf-120",
+    "dtime": 2393000,
+    "ptime": 2393000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>Does know Diameter people so that they could be asked did they consider a binding mechanism?</p>",
+    "topic": "ietf-120",
+    "dtime": 2402000,
+    "ptime": 2402000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>So the question is whether you need the client and server to agree on whether they are talking to each other</p>",
+    "topic": "ietf-120",
+    "dtime": 2423000,
+    "ptime": 2423000
+  },
+  {
+    "author": "Nadia Heninger",
+    "text": "<p>@Heikki Marc Stevens has computed MD5 collisions as short as 1 block: <a href=\"https://marc-stevens.nl/research/md5-1block-collision/\">https://marc-stevens.nl/research/md5-1block-collision/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2446000,
+    "ptime": 2446000
+  },
+  {
+    "author": "Nadia Heninger",
+    "text": "<p>And also alphanumeric only characters: <a href=\"https://twitter.com/realhashbreaker/status/1770161965006008570\">https://twitter.com/realhashbreaker/status/1770161965006008570</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2498000,
+    "ptime": 2498000
+  },
+  {
+    "author": "Jan-Frederik Rieckers",
+    "text": "<p>Not yet.</p>",
+    "topic": "ietf-120",
+    "dtime": 2504000,
+    "ptime": 2504000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I know that EAP-TLS does use the exporter interface (although I personally think that they do it wrong, as I commented on the list at the time)</p>",
+    "topic": "ietf-120",
+    "dtime": 2517000,
+    "ptime": 2517000
+  },
+  {
+    "author": "Jan-Frederik Rieckers",
+    "text": "<p>Keep it on the ML</p>",
+    "topic": "ietf-120",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>@Miro and Nadia. Thanks for the clarifications. It seems that it's a bit dangerous for a Radius server to echo back any values from a client, unless the server implements the suggested mitigation where Message-Authenticator is the first attribute</p>",
+    "topic": "ietf-120",
+    "dtime": 2628000,
+    "ptime": 2628000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>EAP methods most often  use the TLS exporter in order to derive things like challenges inside of the TLS tunnel</p>",
+    "topic": "ietf-120",
+    "dtime": 2680000,
+    "ptime": 2680000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>but RADIUS/TLS just transports data, and doesn't use per-hop challenges or  random tokens.  So it may need crypto binding</p>",
+    "topic": "ietf-120",
+    "dtime": 2735000,
+    "ptime": 2735000
+  },
+  {
+    "author": "Nadia Heninger",
+    "text": "<p>@Heikki Yes, the Response Authenticator should be considered vulnerable unless Message-Authenticator is required and either validated or is the first attribute in the response.</p>",
+    "topic": "ietf-120",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>+1 to Paul</p>",
+    "topic": "ietf-120",
+    "dtime": 3253000,
+    "ptime": 3253000
+  },
+  {
+    "author": "Jan-Frederik Rieckers",
+    "text": "<p>Thanks Paul for the vote of confidence for this protocol <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 3369000,
+    "ptime": 3369000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>So I def. need to learn more about how Radius works, but TLS channel bindings I understand</p>",
+    "topic": "ietf-120",
+    "dtime": 3391000,
+    "ptime": 3391000
+  },
+  {
+    "author": "Jan-Frederik Rieckers",
+    "text": "<p>That's good. I know how RADIUS works, but not much about channel bindings ;)</p>",
+    "topic": "ietf-120",
+    "dtime": 3417000,
+    "ptime": 3417000
+  },
+  {
+    "author": "Q Misell",
+    "text": "<p>I may be entirely wrong here but it should be possible to use EKM as the shared secret</p>",
+    "topic": "ietf-120",
+    "dtime": 3556000,
+    "ptime": 3556000
+  },
+  {
+    "author": "Nadia Heninger",
+    "text": "<p>For the cryptographers in the room who are new to RADIUS, check out the description of the password obfuscation method: <a href=\"https://datatracker.ietf.org/doc/html/rfc2865#section-5.2\">https://datatracker.ietf.org/doc/html/rfc2865#section-5.2</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3794000,
+    "ptime": 3794000
+  },
+  {
+    "author": "Jan-Frederik Rieckers",
+    "text": "<p>The problem is: RADIUS is Hop-by-Hop. So there is nothing stopping the Middle person from just re-encrypting the RADIUS packets. We don't have some end-to-end mechanism</p>",
+    "topic": "ietf-120",
+    "dtime": 3876000,
+    "ptime": 3876000
+  },
+  {
+    "author": "Nadia Heninger",
+    "text": "<p>It's sort of using MD5 as a block cipher in a sort of unauthenticated feedback mode. This is vulnerable in theory to decryption oracle attacks, but we didn't analyze implementations enough to see if we could find a practical one. Realistically the attacks on brute forcing the shared secret or password are probably easier.</p>",
+    "topic": "ietf-120",
+    "dtime": 3936000,
+    "ptime": 3936000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>Experimenting with OpenSSL to support TLS-PSK and TLS with certificates shows it's possible. It becomes complex because TLSv1.3   APIs for PSK differ from 1.2 and earlier. Also, session resumption is done with PSKs in TLSv1.3. In short if TLSv1.2 and 1.3 need to be supported there are lots of moving parts</p>",
+    "topic": "ietf-120",
+    "dtime": 4355000,
+    "ptime": 4355000
+  },
+  {
+    "author": "Fabian Mauchle",
+    "text": "<p>only restriction ding PSK and certificates at the same time (TLS1.3) is to limit ciphersuites to one hash method (SHA256 or SHA384)</p>",
+    "topic": "ietf-120",
+    "dtime": 4466000,
+    "ptime": 4466000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-gundavelli-radext-5g-auth-01\">https://datatracker.ietf.org/doc/html/draft-gundavelli-radext-5g-auth-01</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4618000,
+    "ptime": 4618000
+  },
+  {
+    "author": "Jan-Frederik Rieckers",
+    "text": "<p>See you at the next interim <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span><br>\nAnd hopefully in person in Dublin</p>",
+    "topic": "ietf-120",
+    "dtime": 5010000,
+    "ptime": 5010000
+  },
+  {
+    "author": "Fabian Mauchle",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 5058000,
+    "ptime": 5058000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-RADEXT-20240726-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/radext"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-RADEXT-20240726-2000"
+		}		
+	]
+}

@@ -1,0 +1,364 @@
+
+{
+	"title": "IETF118-WEBTRANS-20231106-1430",
+	"filename": "IETF118-WEBTRANS-20231106-1430",
+	"start": 0,
+	"end": 5477000,
+	"start_datetime": "2023-11-06T14:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "GE_WtmaPJA8",
+    "start": 0,
+    "end": "5477000"
+  }
+],
+	"messages": [
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>New topic, who dis?</p>",
+    "topic": "ietf-118",
+    "dtime": 338000,
+    "ptime": 338000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>If anyone in this chat would like something said at the microphone, please say it here prefixed with \"mic:\" and I will repeat it</p>",
+    "topic": "ietf-118",
+    "dtime": 505000,
+    "ptime": 505000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>does the atomic tool reside in a lead-lined toolbox?</p>",
+    "topic": "ietf-118",
+    "dtime": 1175000,
+    "ptime": 1175000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Where do I route beers for more green on that chart? Eric?</p>",
+    "topic": "ietf-118",
+    "dtime": 1333000,
+    "ptime": 1333000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>send cake instead - <a href=\"https://www.howtogeek.com/817409/mozilla-sent-microsoft-a-cake-for-internet-explorers-death/\">https://www.howtogeek.com/817409/mozilla-sent-microsoft-a-cake-for-internet-explorers-death/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1387000,
+    "ptime": 1387000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p><span aria-label=\"cake\" class=\"emoji emoji-1f370\" role=\"img\" title=\"cake\">:cake:</span><span aria-label=\"birthday\" class=\"emoji emoji-1f382\" role=\"img\" title=\"birthday\">:birthday:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 1440000,
+    "ptime": 1440000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>(huh I sent a cake emoji and now I'm seeing a baloon emoji, that's odd)</p>",
+    "topic": "ietf-118",
+    "dtime": 1471000,
+    "ptime": 1471000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>QUIC always recommends pacing ;)</p>\n<p><a href=\"https://datatracker.ietf.org/doc/html/rfc9002#name-pacing\">https://datatracker.ietf.org/doc/html/rfc9002#name-pacing</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1582000,
+    "ptime": 1582000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>is there equivalent of receive rate?</p>",
+    "topic": "ietf-118",
+    "dtime": 1649000,
+    "ptime": 1649000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@kirill not with TCP algorithms, your application will have to send it to the receiver</p>",
+    "topic": "ietf-118",
+    "dtime": 2123000,
+    "ptime": 2123000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>yeah, I guess what I meant is that there at least 2 usecases:</p>\n<p>1) I am encoder and need to know how to configure encoder to try to avoid congestion</p>\n<p>2) I am receiver - I want to know what is highest quality (for video usecases) I can download to avoid stalling at playback time</p>",
+    "topic": "ietf-118",
+    "dtime": 2214000,
+    "ptime": 2214000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah, ultimately the sender's congestion control algorithm is the upper bound of what can be sent over the network</p>",
+    "topic": "ietf-118",
+    "dtime": 2307000,
+    "ptime": 2307000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>yup, so that API would tell me #1 or #2 from my example? :D</p>",
+    "topic": "ietf-118",
+    "dtime": 2352000,
+    "ptime": 2352000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>the encoder and receiver should be less than this value, so it's ideal to pull it directly from the CC</p>",
+    "topic": "ietf-118",
+    "dtime": 2404000,
+    "ptime": 2404000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>so yeah the encoder could call webtransport.getStats() or whatever to periodically update the encoder bitrate</p>",
+    "topic": "ietf-118",
+    "dtime": 2445000,
+    "ptime": 2445000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>We should make sure we don't run into the same attack problems that H/2 is experiencing with \"Rapid Resets\" and/or introduce a new vector.  (eg, servers need to be able to bound stream limits in a way that can't be bypassed in a way similar to Rapid Resets)</p>",
+    "topic": "ietf-118",
+    "dtime": 2449000,
+    "ptime": 2449000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>and the sender could periodically send the estimated bitrate to the receiver for ABR purposes</p>",
+    "topic": "ietf-118",
+    "dtime": 2464000,
+    "ptime": 2464000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>pls don't try to guess the estimated bitrate on the receiver side like HLS/DASH</p>",
+    "topic": "ietf-118",
+    "dtime": 2482000,
+    "ptime": 2482000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Luke, yup it would be nice to have these as 2 APIs ;)</p>",
+    "topic": "ietf-118",
+    "dtime": 2508000,
+    "ptime": 2508000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah I think it makes sense in MoQ :D</p>",
+    "topic": "ietf-118",
+    "dtime": 2544000,
+    "ptime": 2544000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>just gotta factor in relays somehow</p>",
+    "topic": "ietf-118",
+    "dtime": 2557000,
+    "ptime": 2557000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>estimated send rate is a hop-by-hop property, while stuff like ABR is end-to-end</p>",
+    "topic": "ietf-118",
+    "dtime": 2581000,
+    "ptime": 2581000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>what document is the capsule defined in?</p>",
+    "topic": "ietf-118",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>+1 for direct from cc and sharing estimated bitrate to receiver<br>\nThe less decisions on derived data are made on behalf of what we think use case should need or could need the better</p>",
+    "topic": "ietf-118",
+    "dtime": 2610000,
+    "ptime": 2610000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>want me to say that at the mic Lucas?</p>",
+    "topic": "ietf-118",
+    "dtime": 2620000,
+    "ptime": 2620000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>too late :), I'll take an action to follow up</p>",
+    "topic": "ietf-118",
+    "dtime": 2681000,
+    "ptime": 2681000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Oh I want tridirectional streams now</p>",
+    "topic": "ietf-118",
+    "dtime": 2717000,
+    "ptime": 2717000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>And datapounds</p>",
+    "topic": "ietf-118",
+    "dtime": 2734000,
+    "ptime": 2734000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>let's stay in metric system</p>",
+    "topic": "ietf-118",
+    "dtime": 2757000,
+    "ptime": 2757000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>See <a href=\"https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html\">https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html</a> for <span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> 's proposal for making H2 stream limits consistent with H3.</p>",
+    "topic": "ietf-118",
+    "dtime": 3183000,
+    "ptime": 3183000
+  },
+  {
+    "author": "Eric Gorbaty",
+    "text": "<p>Commenting on the earlier WT_MAX_STREAMS thing: I'm partial to putting explicit examples in the doc to make usage for these clear.</p>",
+    "topic": "ietf-118",
+    "dtime": 3185000,
+    "ptime": 3185000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>h3-over-webtransport coming up next</p>",
+    "topic": "ietf-118",
+    "dtime": 3603000,
+    "ptime": 3603000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Are there other TLS -ish things can you do with raw quic that someone is going to ask for over WebTransport?</p>",
+    "topic": "ietf-118",
+    "dtime": 3628000,
+    "ptime": 3628000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Oh I want to call it \"Not-ALPN\" now</p>",
+    "topic": "ietf-118",
+    "dtime": 3706000,
+    "ptime": 3706000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I like Not-ALPN</p>",
+    "topic": "ietf-118",
+    "dtime": 3730000,
+    "ptime": 3730000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Did David just say \"no one strongly objects\" is consensus?</p>",
+    "topic": "ietf-118",
+    "dtime": 3898000,
+    "ptime": 3898000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Do we need to define how WebTransport interacts with SVCB / HTTPS DNS RRs?    (Especially since there we define a SvcParam for ALPN and if we use ALPN here then we need to define how they interact.)</p>",
+    "topic": "ietf-118",
+    "dtime": 3901000,
+    "ptime": 3901000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>+1 Magnus</p>",
+    "topic": "ietf-118",
+    "dtime": 3915000,
+    "ptime": 3915000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>WTSPN</p>",
+    "topic": "ietf-118",
+    "dtime": 3928000,
+    "ptime": 3928000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>BLPN</p>",
+    "topic": "ietf-118",
+    "dtime": 3932000,
+    "ptime": 3932000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>My alternative proposal would be WebTransport-Subprotocols that would be an sf-list of sf-bytestrings</p>",
+    "topic": "ietf-118",
+    "dtime": 3933000,
+    "ptime": 3933000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>ALPN++</p>",
+    "topic": "ietf-118",
+    "dtime": 3937000,
+    "ptime": 3937000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>If we call it subprotocol does that cause too much confusion with websockets?</p>",
+    "topic": "ietf-118",
+    "dtime": 3941000,
+    "ptime": 3941000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>(I think it shouldn't so long as it's clear.)</p>",
+    "topic": "ietf-118",
+    "dtime": 4076000,
+    "ptime": 4076000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>+1 to not making server wait on client settings in the final version of WT</p>",
+    "topic": "ietf-118",
+    "dtime": 5217000,
+    "ptime": 5217000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>People are welcome to object to the proposal in question, but then they're left to implement multiple WebTransport version support in some other alternative way...</p>",
+    "topic": "ietf-118",
+    "dtime": 5339000,
+    "ptime": 5339000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>put the WebTransport version in the CONNECT header? :p</p>",
+    "topic": "ietf-118",
+    "dtime": 5383000,
+    "ptime": 5383000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-WEBTRANS-20231106-1430"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/webtrans"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-WEBTRANS-20231106-1430"
+		}		
+	]
+}

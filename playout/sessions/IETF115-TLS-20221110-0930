@@ -1,0 +1,1400 @@
+
+{
+	"title": "IETF115-TLS-20221110-0930",
+	"filename": "IETF115-TLS-20221110-0930",
+	"start": 0,
+	"end": 5226000,
+	"start_datetime": "2022-11-10T09:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "cFqDi31KhoE",
+    "start": 0,
+    "end": "5226000"
+  }
+],
+	"messages": [
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I can help with notes, but I might not know the technical details well enough to capture the debates / decisions properly.</p>",
+    "topic": "jabber",
+    "dtime": 76000,
+    "ptime": 76000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>Notes here: <a href=\"https://notes.ietf.org/notes-ietf-115-tls\">https://notes.ietf.org/notes-ietf-115-tls#</a></p>",
+    "topic": "jabber",
+    "dtime": 131000,
+    "ptime": 131000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Feedback for the chairs: the text color in some of these slides is quite close to the background :-)</p>",
+    "topic": "jabber",
+    "dtime": 184000,
+    "ptime": 184000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>@David: ack</p>",
+    "topic": "jabber",
+    "dtime": 349000,
+    "ptime": 349000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Anyone that missed the ECH deployment considerations side meeting on Monday evening can catch the recording of the session at <a href=\"https://419.consulting/encrypted-dns/f/ech-on-the-side\">https://419.consulting/encrypted-dns/f/ech-on-the-side</a>.  (Sorry about the quality of the sound but I think you should be able to pick up the key points).</p>",
+    "topic": "jabber",
+    "dtime": 435000,
+    "ptime": 435000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"329\">@Andrew Campling</span>  thanks for that link!</p>",
+    "topic": "jabber",
+    "dtime": 457000,
+    "ptime": 457000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Totally bummed that I'm going to have to leave for noncom and can't make the session.  My favorite WG but duty calls</p>",
+    "topic": "jabber",
+    "dtime": 559000,
+    "ptime": 559000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>\"Further instructions to IANA regarding...\"</p>",
+    "topic": "jabber",
+    "dtime": 955000,
+    "ptime": 955000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>\"An update on the registry\" though that sounds like we're closing it</p>",
+    "topic": "jabber",
+    "dtime": 977000,
+    "ptime": 977000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i was just going to note that you could include the diff as an appendix in a full replacement doc</p>",
+    "topic": "jabber",
+    "dtime": 1004000,
+    "ptime": 1004000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> good idea ;)</p>",
+    "topic": "jabber",
+    "dtime": 1067000,
+    "ptime": 1067000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>But then you get the opportunity to have the diff disagree with the text and arguing about which one takes precedence</p>",
+    "topic": "jabber",
+    "dtime": 1068000,
+    "ptime": 1068000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>\"Discouraged\" sounds like it needs reassurance :teddy_bear:</p>",
+    "topic": "jabber",
+    "dtime": 1091000,
+    "ptime": 1091000
+  },
+  {
+    "author": "Carrick Bartle",
+    "text": "<p>haha</p>",
+    "topic": "jabber",
+    "dtime": 1104000,
+    "ptime": 1104000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>\"Recommended = D\" seems a bit ... obscure</p>",
+    "topic": "jabber",
+    "dtime": 1105000,
+    "ptime": 1105000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>like awwww, poor SHA-1!</p>",
+    "topic": "jabber",
+    "dtime": 1111000,
+    "ptime": 1111000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Rich decides!</p>",
+    "topic": "jabber",
+    "dtime": 1115000,
+    "ptime": 1115000
+  },
+  {
+    "author": "Carrick Bartle",
+    "text": "<p>@benjamin +1</p>",
+    "topic": "jabber",
+    "dtime": 1119000,
+    "ptime": 1119000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>deprecated?</p>",
+    "topic": "jabber",
+    "dtime": 1142000,
+    "ptime": 1142000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>(which is different)</p>",
+    "topic": "jabber",
+    "dtime": 1162000,
+    "ptime": 1162000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(to be clear, i was not saying we need a new word other than \"discouraged\")</p>",
+    "topic": "jabber",
+    "dtime": 1163000,
+    "ptime": 1163000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>it's values for the recommended column with potential values: Y/N/D</p>",
+    "topic": "jabber",
+    "dtime": 1167000,
+    "ptime": 1167000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Y/N/-Y</p>",
+    "topic": "jabber",
+    "dtime": 1179000,
+    "ptime": 1179000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>deprecated refers to document status ... subtle but different</p>",
+    "topic": "jabber",
+    "dtime": 1242000,
+    "ptime": 1242000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>definitely different</p>",
+    "topic": "jabber",
+    "dtime": 1264000,
+    "ptime": 1264000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>!remind me when this text is updated so i can update the copy/paste in MLS</p>",
+    "topic": "jabber",
+    "dtime": 1288000,
+    "ptime": 1288000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Also, why are we preserving private use?</p>",
+    "topic": "jabber",
+    "dtime": 1330000,
+    "ptime": 1330000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: given how hard it is to agree on one letter, adding more could only make it harder:-)</p>",
+    "topic": "jabber",
+    "dtime": 1346000,
+    "ptime": 1346000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>re: the values - we did do a consensus call at saag for this ;)</p>",
+    "topic": "jabber",
+    "dtime": 1354000,
+    "ptime": 1354000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Encouraging people to provide a specification is a good thing (the good government theory).  But I'm OK with \"niener-niener\".</p>",
+    "topic": "jabber",
+    "dtime": 1532000,
+    "ptime": 1532000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>'ekr stinks'</p>",
+    "topic": "jabber",
+    "dtime": 1571000,
+    "ptime": 1571000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i plan to register \"fnord\"</p>",
+    "topic": "jabber",
+    "dtime": 1582000,
+    "ptime": 1582000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>In general, I believe even FCFS policies are subject to abuse prevention heuristics</p>",
+    "topic": "jabber",
+    "dtime": 1591000,
+    "ptime": 1591000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"331\">@Deb Cooley</span> \"EXPORTER-ekr stinks\"</p>",
+    "topic": "jabber",
+    "dtime": 1600000,
+    "ptime": 1600000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I don't know if \"EXPORTER-tls-14\" is considered abusive by IANA...</p>",
+    "topic": "jabber",
+    "dtime": 1664000,
+    "ptime": 1664000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Up until now, we've considered a published I-D as a \"specification\"</p>",
+    "topic": "jabber",
+    "dtime": 1740000,
+    "ptime": 1740000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> Is a Private Use range sufficient?</p>",
+    "topic": "jabber",
+    "dtime": 1760000,
+    "ptime": 1760000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>World people be bothered by exporter-maga for example?</p>",
+    "topic": "jabber",
+    "dtime": 1828000,
+    "ptime": 1828000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"EXPORTER-tls-14\" should be fine</p>",
+    "topic": "jabber",
+    "dtime": 1829000,
+    "ptime": 1829000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Also, this \"EXPORTER-\" prefix should be unnecessary in any version of TLS from 1.3 onwards.</p>",
+    "topic": "jabber",
+    "dtime": 1853000,
+    "ptime": 1853000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>But with I-Ds the specification is a particular version of the I-D.  The author cannot later revise the draft and change the meaning of the code point.</p>",
+    "topic": "jabber",
+    "dtime": 1863000,
+    "ptime": 1863000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>How many people noted the difference between {{}} and [] in the text?</p>",
+    "topic": "jabber",
+    "dtime": 1878000,
+    "ptime": 1878000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Always Be Deprecating</p>",
+    "topic": "jabber",
+    "dtime": 1962000,
+    "ptime": 1962000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/140-tls/topic/jabber/near/53918\">said</a>:</p>\n<blockquote>\n<p>How many people noted the difference between {{}} and [] in the text?</p>\n</blockquote>\n<p>markdown fail ;)</p>",
+    "topic": "jabber",
+    "dtime": 2040000,
+    "ptime": 2040000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>\"email clients\" ?  or \"SMTP clients\" ?</p>",
+    "topic": "jabber",
+    "dtime": 2084000,
+    "ptime": 2084000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>MUAs definitely <em>should</em> abort if they can't verify group structure</p>",
+    "topic": "jabber",
+    "dtime": 2106000,
+    "ptime": 2106000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>So who's opposing deprecating them?</p>",
+    "topic": "jabber",
+    "dtime": 2109000,
+    "ptime": 2109000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span>  Presumably the latter, but I think the main point was \"opportunistic TLS\".</p>",
+    "topic": "jabber",
+    "dtime": 2141000,
+    "ptime": 2141000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>EXPORTER-ekr-really-really-stinks-neiner-neiner</p>",
+    "topic": "jabber",
+    "dtime": 2232000,
+    "ptime": 2232000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>bring back DES for opportunistic TLS!</p>",
+    "topic": "jabber",
+    "dtime": 2242000,
+    "ptime": 2242000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>RC4-40</p>",
+    "topic": "jabber",
+    "dtime": 2248000,
+    "ptime": 2248000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>This is surprising to me.  Not too long ago pretty much all of the TLS handshakes were RSA key exchange. By the time people were looking for FS, they moved to ECDHE, not FFDHE.  So I don't know where this FFDHE community sprang up from.</p>",
+    "topic": "jabber",
+    "dtime": 2444000,
+    "ptime": 2444000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>As promised: <a href=\"https://github.com/tlswg/rfc8447bis/pull/33\">https://github.com/tlswg/rfc8447bis/pull/33</a></p>",
+    "topic": "jabber",
+    "dtime": 2477000,
+    "ptime": 2477000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Yoav, this is <em>old</em> SMTP servers</p>",
+    "topic": "jabber",
+    "dtime": 2484000,
+    "ptime": 2484000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Opportunistic TLS Considered Harmful: Just Get Your Act Together</p>",
+    "topic": "jabber",
+    "dtime": 2486000,
+    "ptime": 2486000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I think it was done in some MTA code bases/install HOWTOs - they encouraged generating your own FFDHE</p>",
+    "topic": "jabber",
+    "dtime": 2514000,
+    "ptime": 2514000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Old SMTP servers use RSA key exchange, and if I owned one that was running old versions of software I would be too afraid to reconfigure it to some ciphersuite it hasn't used before.  If it's using a TLS library from the last 15 years, it supports ECDHE.</p>",
+    "topic": "jabber",
+    "dtime": 2583000,
+    "ptime": 2583000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>if only we had TLS profiles :)</p>",
+    "topic": "jabber",
+    "dtime": 2614000,
+    "ptime": 2614000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I think what we should do is deprecate FFDHE entirely.  If someone has to ignore us because they are running ancient software, then they ignore us.</p>",
+    "topic": "jabber",
+    "dtime": 2668000,
+    "ptime": 2668000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @yoav: IIUC the MTA code might well support ECDHE but has a configured FFDHE custom group that they also don't wanna change (but I may be wrong)</p>",
+    "topic": "jabber",
+    "dtime": 2669000,
+    "ptime": 2669000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>According to the bird site not many people run their own email servers any more.</p>",
+    "topic": "jabber",
+    "dtime": 2686000,
+    "ptime": 2686000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>yoav: I agree. deprecate != disable</p>",
+    "topic": "jabber",
+    "dtime": 2699000,
+    "ptime": 2699000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: we have done \"the email folks can catch up later\" before all right</p>",
+    "topic": "jabber",
+    "dtime": 2711000,
+    "ptime": 2711000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> Why not apply the same logic to RSA?</p>",
+    "topic": "jabber",
+    "dtime": 2727000,
+    "ptime": 2727000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @jonathon: I'd be sad if we provide yet more reasons to make that worse</p>",
+    "topic": "jabber",
+    "dtime": 2737000,
+    "ptime": 2737000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I honestly, cannot remember whether what we do with FFDHE right now.</p>",
+    "topic": "jabber",
+    "dtime": 2745000,
+    "ptime": 2745000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> could you add your suggestion to the notes please?  I don't think I've captured it well</p>",
+    "topic": "jabber",
+    "dtime": 2781000,
+    "ptime": 2781000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>(Agreed with EKR and MT; Chrome also would not apply different TLS policies between https URLs and http-&gt;https upgrades. It'd cause a lot of problems with the security model.)</p>",
+    "topic": "jabber",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Florence: i'll try.</p>",
+    "topic": "jabber",
+    "dtime": 2820000,
+    "ptime": 2820000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>at $dayjob, our meassurement for TLS ciphersuites was we had 16 out of 2B connections not doing modern AEAD / ECDHE</p>",
+    "topic": "jabber",
+    "dtime": 2839000,
+    "ptime": 2839000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"654\">@Florence D</span> thanks for asking DKG to do that. The audio is horrible up here at the front.</p>",
+    "topic": "jabber",
+    "dtime": 2853000,
+    "ptime": 2853000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>16 / 2B seems pretty justifiably negligible</p>",
+    "topic": "jabber",
+    "dtime": 2880000,
+    "ptime": 2880000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Who's opposed to removing FFDHE entirely?</p>",
+    "topic": "jabber",
+    "dtime": 2892000,
+    "ptime": 2892000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@David: I think Nimrod said Viktor opposed</p>",
+    "topic": "jabber",
+    "dtime": 2911000,
+    "ptime": 2911000
+  },
+  {
+    "author": "Carrick Bartle",
+    "text": "<p>Yes, that's right</p>",
+    "topic": "jabber",
+    "dtime": 2923000,
+    "ptime": 2923000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>(dayjob is API connections though, not really dealing with endusers on old software/hardware)</p>",
+    "topic": "jabber",
+    "dtime": 2928000,
+    "ptime": 2928000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>Thanks</p>",
+    "topic": "jabber",
+    "dtime": 2933000,
+    "ptime": 2933000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>But also to the high-level point, it's always viable for implementations to ignore our recommendations. I'd be surprised if browsers could remove RSA key exchange quite yet, but I'm still in favor of deprecating it.</p>",
+    "topic": "jabber",
+    "dtime": 2952000,
+    "ptime": 2952000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>If only one person is opposed, then that doesn't prevent the chairs from declaring rough consensus</p>",
+    "topic": "jabber",
+    "dtime": 2961000,
+    "ptime": 2961000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I just skimmed RFC 7435.  Sadly, it doesn't say \"accept a weak cipher over plaintext\".  If it said that, then we'd be golden.</p>",
+    "topic": "jabber",
+    "dtime": 2996000,
+    "ptime": 2996000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>opportunistic SMTP STARTTLS clients don't do cert validation</p>",
+    "topic": "jabber",
+    "dtime": 3007000,
+    "ptime": 3007000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Just to elaborate, the reason that you can't use different policies in the Web for opportunistic and not is that those are the same Origin in the RFC 6454 sense. And so if you have a weak algorithm used with upgrade then it can affect content loaded over the strong algorithm</p>",
+    "topic": "jabber",
+    "dtime": 3015000,
+    "ptime": 3015000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> in that case, why are we even debating this point</p>",
+    "topic": "jabber",
+    "dtime": 3027000,
+    "ptime": 3027000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>opportunistic can mean \"not secure\"</p>",
+    "topic": "jabber",
+    "dtime": 3047000,
+    "ptime": 3047000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Section 3 says:<br>\n   With unauthenticated, encrypted communication, OS protocols may<br>\n   employ more liberal settings than would be best practice when<br>\n   security is mandated by policy.  Some legacy systems support<br>\n   encryption, but implement only outdated algorithms or protocol<br>\n   versions.  Compatibility with these systems avoids the need to resort<br>\n   to cleartext fallback.</p>",
+    "topic": "jabber",
+    "dtime": 3053000,
+    "ptime": 3053000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>key exchange .ne. authentication</p>",
+    "topic": "jabber",
+    "dtime": 3054000,
+    "ptime": 3054000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1799\">@David Benjamin</span> awesome, done</p>",
+    "topic": "jabber",
+    "dtime": 3072000,
+    "ptime": 3072000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Suggested text: \"FFDHE, kill it with fire!\"</p>",
+    "topic": "jabber",
+    "dtime": 3133000,
+    "ptime": 3133000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>why isn't the section cited by davidben sufficient?</p>",
+    "topic": "jabber",
+    "dtime": 3135000,
+    "ptime": 3135000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 dkg</p>",
+    "topic": "jabber",
+    "dtime": 3207000,
+    "ptime": 3207000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>It would be nice to have a pointer to that text in this draft</p>",
+    "topic": "jabber",
+    "dtime": 3225000,
+    "ptime": 3225000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 Ben</p>",
+    "topic": "jabber",
+    "dtime": 3232000,
+    "ptime": 3232000
+  },
+  {
+    "author": "Carrick Bartle",
+    "text": "<p>@Ben agreed</p>",
+    "topic": "jabber",
+    "dtime": 3254000,
+    "ptime": 3254000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>please do not say \"only safe groups\" or \"large enough\"</p>",
+    "topic": "jabber",
+    "dtime": 3296000,
+    "ptime": 3296000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Do we need a pointer to that text in every deprecation draft? I mean, it's just one sentence, so I won't die on the hill but the nice thing about generic text like this is we can stop worrying about this for every deprecation, when the objection is generic anyway.</p>",
+    "topic": "jabber",
+    "dtime": 3299000,
+    "ptime": 3299000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I don't think that the \"large enough\" or \"safe group\" options are viable.</p>",
+    "topic": "jabber",
+    "dtime": 3302000,
+    "ptime": 3302000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>clients cannot verify that.  just point to a single list.</p>",
+    "topic": "jabber",
+    "dtime": 3319000,
+    "ptime": 3319000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: wrt opportunistic, if someone's not seen it: RFC7435</p>",
+    "topic": "jabber",
+    "dtime": 3322000,
+    "ptime": 3322000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Consensus call on \"Do we want a big room next time?\"</p>",
+    "topic": "jabber",
+    "dtime": 3339000,
+    "ptime": 3339000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>bad Martin squatting on option points</p>",
+    "topic": "jabber",
+    "dtime": 3382000,
+    "ptime": 3382000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I would humbly propose: poll #1: should we deprecate? (raise your hand means you want to deprecate some or all of FFDHE, not raise means you want another option such as opportunistic) and poll #2: should we deprecate all groups? (raise hand = deprecate FFDHE entirely, not raise = only deprecate some)</p>",
+    "topic": "jabber",
+    "dtime": 3401000,
+    "ptime": 3401000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"https://www.rfc-editor.org/rfc/rfc7435.html#page-7\">https://www.rfc-editor.org/rfc/rfc7435.html#page-7</a></p>",
+    "topic": "jabber",
+    "dtime": 3402000,
+    "ptime": 3402000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And to update on this point: the <em>purpose</em> of deprecating this thing is to tell those people they ought to configure properly</p>",
+    "topic": "jabber",
+    "dtime": 3527000,
+    "ptime": 3527000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+100 EKR</p>",
+    "topic": "jabber",
+    "dtime": 3577000,
+    "ptime": 3577000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>EAP-TLS makes me afraid. It undermines the assumptions that all the proofs use.</p>",
+    "topic": "jabber",
+    "dtime": 3595000,
+    "ptime": 3595000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/140-tls/topic/jabber/near/54269\">said</a>:</p>\n<blockquote>\n<p>And to update on this point: the <em>purpose</em> of deprecating this thing is to tell those people they ought to configure properly</p>\n</blockquote>\n<p>Ehh, you're assuming that \"old stuff\" even has an ECDH implementation, but I digress b/c those ancient things are not worth holding up the future for.</p>",
+    "topic": "jabber",
+    "dtime": 3641000,
+    "ptime": 3641000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>my support is intended to include support for <em>either</em> \"deprecate all FFDHE\" or \"deprecate all FFDHE except for a narrow list of known groups\"</p>",
+    "topic": "jabber",
+    "dtime": 3656000,
+    "ptime": 3656000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> well, those people ought to upgrade. What's the chance that that has a bunch of SEV 1 vulns anyway</p>",
+    "topic": "jabber",
+    "dtime": 3682000,
+    "ptime": 3682000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I like how our options are \"raise hand\" / \"do not raise hand\" / neither raise hand nor do not raise hand.</p>",
+    "topic": "jabber",
+    "dtime": 3687000,
+    "ptime": 3687000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Could we get a sense of the room for deprecate all vs deprecate some? (my second poll above)</p>",
+    "topic": "jabber",
+    "dtime": 3707000,
+    "ptime": 3707000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>This tool is terrible.  Chairs should be able to set the options.</p>",
+    "topic": "jabber",
+    "dtime": 3724000,
+    "ptime": 3724000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/140-tls/topic/jabber/near/54300\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> well, those people ought to upgrade. What's the chance that that has a bunch of SEV 1 vulns anyway</p>\n</blockquote>\n<p>Nearly 100%.<br>\nPoint made.</p>",
+    "topic": "jabber",
+    "dtime": 3765000,
+    "ptime": 3765000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Ounsworth: please treat \"configure appropriately\" to include \"ensure your cryptographic software dependencies were built in the last decade\"</p>",
+    "topic": "jabber",
+    "dtime": 3776000,
+    "ptime": 3776000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Also, \"neither\" got ~60 votes so it's the clear winner</p>",
+    "topic": "jabber",
+    "dtime": 3777000,
+    "ptime": 3777000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>(<span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span>  the tool was made this way because \"we do not take votes\" and so it mimicks what used to happen in a physical room)</p>",
+    "topic": "jabber",
+    "dtime": 3807000,
+    "ptime": 3807000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>There is a case for constrained devices that don't have space for an EC implementation alongside their FF implementation.  These are actively updated, but not able to add EC safely.  (Just as proof that you can invent an argument in favour of just about anything, not that we should preserve FFDHE)</p>",
+    "topic": "jabber",
+    "dtime": 3873000,
+    "ptime": 3873000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"768\">@Vittorio Bertola</span> that is even worse.  The options should reflect what people intend.</p>",
+    "topic": "jabber",
+    "dtime": 3914000,
+    "ptime": 3914000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>\"Think of the constrained devices\" is the IETF version of \"think of the children\"</p>",
+    "topic": "jabber",
+    "dtime": 3942000,
+    "ptime": 3942000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Looks like a discussion for shmoo (perhaps - not sure who has authority over this)</p>",
+    "topic": "jabber",
+    "dtime": 3958000,
+    "ptime": 3958000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Yoav lol</p>",
+    "topic": "jabber",
+    "dtime": 3986000,
+    "ptime": 3986000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Has anyone considered doing CBOR? /ducks</p>",
+    "topic": "jabber",
+    "dtime": 4003000,
+    "ptime": 4003000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>To be clear, not raising a hand requires no action, but the tool allows people to take an explicit action to <em>not</em> raise their hand.  This is both silly and confusing.</p>",
+    "topic": "jabber",
+    "dtime": 4006000,
+    "ptime": 4006000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Yoav wins best quote of IETF 115</p>",
+    "topic": "jabber",
+    "dtime": 4015000,
+    "ptime": 4015000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>No EKR, ducks have not considered using CBOR</p>",
+    "topic": "jabber",
+    "dtime": 4018000,
+    "ptime": 4018000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/140-tls/topic/jabber/near/54302\">said</a>:</p>\n<blockquote>\n<p>I like how our options are \"raise hand\" / \"do not raise hand\" / neither raise hand nor do not raise hand.</p>\n</blockquote>\n<p>This is equivalent to Y / N / D</p>",
+    "topic": "jabber",
+    "dtime": 4059000,
+    "ptime": 4059000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I thought it was Y / D / N respectively</p>",
+    "topic": "jabber",
+    "dtime": 4090000,
+    "ptime": 4090000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>hmmm yes/no/discourage</p>",
+    "topic": "jabber",
+    "dtime": 4125000,
+    "ptime": 4125000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>or yes/no/meh</p>",
+    "topic": "jabber",
+    "dtime": 4131000,
+    "ptime": 4131000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@sftcd Don't worry, we're screaming on the inside <span aria-label=\"scream\" class=\"emoji emoji-1f631\" role=\"img\" title=\"scream\">:scream:</span> <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "jabber",
+    "dtime": 4136000,
+    "ptime": 4136000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>good ol' Optional[bool]</p>",
+    "topic": "jabber",
+    "dtime": 4138000,
+    "ptime": 4138000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>If the tool said \"Positive\"/\"Negative\"/\"Not enough information\"/\"Don't care\" it would be much more useful.</p>",
+    "topic": "jabber",
+    "dtime": 4160000,
+    "ptime": 4160000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Yes / No / If you must</p>",
+    "topic": "jabber",
+    "dtime": 4163000,
+    "ptime": 4163000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>But I don't get why we can't have free form text for options.</p>",
+    "topic": "jabber",
+    "dtime": 4190000,
+    "ptime": 4190000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>MT: then we have to argue what the difference between \"not enough info\" and \"don't care\" and the people who don't click any button</p>",
+    "topic": "jabber",
+    "dtime": 4199000,
+    "ptime": 4199000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> the only invariant here is that the options will be inadequate and argued over in great detail</p>",
+    "topic": "jabber",
+    "dtime": 4231000,
+    "ptime": 4231000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>can we just define a generic equivalence between TXT records and .well-known ?</p>",
+    "topic": "jabber",
+    "dtime": 4273000,
+    "ptime": 4273000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><a href=\"https://example.com/.well-known/txt\">https://example.com/.well-known/txt</a></p>",
+    "topic": "jabber",
+    "dtime": 4291000,
+    "ptime": 4291000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>speaking as someone with experience in the Debian general resolution process, which allows any number of alternates on the ballot, it is really confusing when there are 6 subtly different options and you're trying to express preferences among them.</p>",
+    "topic": "jabber",
+    "dtime": 4293000,
+    "ptime": 4293000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> I might find that problematic.  Which is authoritative?</p>",
+    "topic": "jabber",
+    "dtime": 4302000,
+    "ptime": 4302000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Whichever one you ask</p>",
+    "topic": "jabber",
+    "dtime": 4332000,
+    "ptime": 4332000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>love the one you're with, man</p>",
+    "topic": "jabber",
+    "dtime": 4340000,
+    "ptime": 4340000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>would each participant rank the various options?  how would you combine the rankings?  condorcet method?</p>",
+    "topic": "jabber",
+    "dtime": 4344000,
+    "ptime": 4344000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I know.  We can solve this with more engineering.</p>",
+    "topic": "jabber",
+    "dtime": 4383000,
+    "ptime": 4383000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span>  That sounds like a fabulous way to achieve a protocol confusion attack.</p>",
+    "topic": "jabber",
+    "dtime": 4384000,
+    "ptime": 4384000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Does this thread about meetecho polls win \"most esoteric debate of 115\" ?</p>",
+    "topic": "jabber",
+    "dtime": 4410000,
+    "ptime": 4410000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>to be clear, only a 40% serious suggestion.  i can't be expected to be coherent before 05:45</p>",
+    "topic": "jabber",
+    "dtime": 4423000,
+    "ptime": 4423000
+  },
+  {
+    "author": "Arnaud Taddei",
+    "text": "<p>@Daniel, Borda?</p>",
+    "topic": "jabber",
+    "dtime": 4424000,
+    "ptime": 4424000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> approval voting</p>",
+    "topic": "jabber",
+    "dtime": 4428000,
+    "ptime": 4428000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> Not even in the top 10 <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "jabber",
+    "dtime": 4434000,
+    "ptime": 4434000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>I do like that @david S's title changes depending on the topic</p>",
+    "topic": "jabber",
+    "dtime": 4435000,
+    "ptime": 4435000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I'm an enthusiasm enthusiast</p>",
+    "topic": "jabber",
+    "dtime": 4449000,
+    "ptime": 4449000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Richard, it's <em>always</em> before 05:45</p>",
+    "topic": "jabber",
+    "dtime": 4451000,
+    "ptime": 4451000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>LOL  @david</p>",
+    "topic": "jabber",
+    "dtime": 4466000,
+    "ptime": 4466000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(yes, i was frustrated by Gremlins as a child)</p>",
+    "topic": "jabber",
+    "dtime": 4470000,
+    "ptime": 4470000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Daniel that explains a few things</p>",
+    "topic": "jabber",
+    "dtime": 4474000,
+    "ptime": 4474000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I'm very tempted to open my talk with \"Jonathan Hoyland: Not a morning enthusiast.\"</p>",
+    "topic": "jabber",
+    "dtime": 4483000,
+    "ptime": 4483000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>:)</p>",
+    "topic": "jabber",
+    "dtime": 4509000,
+    "ptime": 4509000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>headline in the Register: Mozilla Says We Should All Be Publishing our TLS Keys</p>",
+    "topic": "jabber",
+    "dtime": 4530000,
+    "ptime": 4530000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>which webpage. there are so many clusters of nss documentation :) :)</p>",
+    "topic": "jabber",
+    "dtime": 4561000,
+    "ptime": 4561000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>NSS has documentation?</p>",
+    "topic": "jabber",
+    "dtime": 4574000,
+    "ptime": 4574000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i mean, other than pk11pub.h</p>",
+    "topic": "jabber",
+    "dtime": 4585000,
+    "ptime": 4585000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>ouch</p>",
+    "topic": "jabber",
+    "dtime": 4586000,
+    "ptime": 4586000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yes, it does</p>",
+    "topic": "jabber",
+    "dtime": 4595000,
+    "ptime": 4595000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this seems plausible</p>",
+    "topic": "jabber",
+    "dtime": 4633000,
+    "ptime": 4633000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>but what is your title?????</p>",
+    "topic": "jabber",
+    "dtime": 4639000,
+    "ptime": 4639000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>\"yes enthusiast\", he just got cut off</p>",
+    "topic": "jabber",
+    "dtime": 4657000,
+    "ptime": 4657000
+  },
+  {
+    "author": "Bas Westerbaan",
+    "text": "<p><span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "jabber",
+    "dtime": 4670000,
+    "ptime": 4670000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>PLEASE DO NOT ENABLE AUTOMATICALLY AND AT SCALE</p>",
+    "topic": "jabber",
+    "dtime": 4692000,
+    "ptime": 4692000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>There is at least one stack where I've had to implement this.</p>",
+    "topic": "jabber",
+    "dtime": 4718000,
+    "ptime": 4718000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>When not to do it: Basically always.</p>",
+    "topic": "jabber",
+    "dtime": 4751000,
+    "ptime": 4751000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>disable automatically after 20 tls connections? :)</p>",
+    "topic": "jabber",
+    "dtime": 4754000,
+    "ptime": 4754000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Security Considerations: Don't do this.</p>",
+    "topic": "jabber",
+    "dtime": 4759000,
+    "ptime": 4759000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I should have said \"enthusiastic yes\"</p>",
+    "topic": "jabber",
+    "dtime": 4772000,
+    "ptime": 4772000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>sftcd has graduated from the IETF classic \"i didn't read the doc, but...\" to \"i didn't realize there was a doc\".  one small step...</p>",
+    "topic": "jabber",
+    "dtime": 4777000,
+    "ptime": 4777000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"43\">@Paul Wouters</span> That's very optimistic of you. Most pages make dozens and dozens of subrequests.</p>",
+    "topic": "jabber",
+    "dtime": 4782000,
+    "ptime": 4782000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>this is about symmetric keys, not asymmetric secret keys</p>",
+    "topic": "jabber",
+    "dtime": 4804000,
+    "ptime": 4804000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Quite often I want to see an entire page load.</p>",
+    "topic": "jabber",
+    "dtime": 4808000,
+    "ptime": 4808000
+  },
+  {
+    "author": "Andrei Popov",
+    "text": "<p>It's a bit strange to publish a document that explains how to do something we don't want deployed.</p>",
+    "topic": "jabber",
+    "dtime": 4828000,
+    "ptime": 4828000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>ok, fair enough. maybe use 10s then :)</p>",
+    "topic": "jabber",
+    "dtime": 4839000,
+    "ptime": 4839000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>your webpages load in 10s‽</p>",
+    "topic": "jabber",
+    "dtime": 4852000,
+    "ptime": 4852000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>To reframe: we have a cross-application file format which is already well used. The question is just where the doc lives.</p>",
+    "topic": "jabber",
+    "dtime": 4860000,
+    "ptime": 4860000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I mean, we don't plan to run QLog on every QUIC connection, but we still publish it</p>",
+    "topic": "jabber",
+    "dtime": 4861000,
+    "ptime": 4861000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: now that I know it exists I might even read it:-)</p>",
+    "topic": "jabber",
+    "dtime": 4872000,
+    "ptime": 4872000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>In browsers the idea that you can go into settings and turn this mode on (it makes a big red banner in the UI) and it dumps a file with \"this TCP 5-tuple = this key hex blob\"</p>",
+    "topic": "jabber",
+    "dtime": 4887000,
+    "ptime": 4887000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Although there was some discussion of running QLog on everything with ring buffer.s</p>",
+    "topic": "jabber",
+    "dtime": 4895000,
+    "ptime": 4895000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I'd be v. opposed to this work being done elsewhere - it's for debugging TLS</p>",
+    "topic": "jabber",
+    "dtime": 4930000,
+    "ptime": 4930000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span>  I thought you had to start the browser with the command line flag?</p>",
+    "topic": "jabber",
+    "dtime": 4933000,
+    "ptime": 4933000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Oh you're right Jonathan</p>",
+    "topic": "jabber",
+    "dtime": 4957000,
+    "ptime": 4957000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Sorry, environment variable.</p>",
+    "topic": "jabber",
+    "dtime": 4984000,
+    "ptime": 4984000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Or that</p>",
+    "topic": "jabber",
+    "dtime": 5037000,
+    "ptime": 5037000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>environment flags</p>",
+    "topic": "jabber",
+    "dtime": 5049000,
+    "ptime": 5049000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>I think Firefox needs to be compiled with a debug flag. Otherwise we don't support it.</p>",
+    "topic": "jabber",
+    "dtime": 5060000,
+    "ptime": 5060000
+  },
+  {
+    "author": "Ira McDonald",
+    "text": "<p>Datatracker still lists Expired drafts</p>",
+    "topic": "jabber",
+    "dtime": 5081000,
+    "ptime": 5081000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>Please check the notes!</p>",
+    "topic": "jabber",
+    "dtime": 5127000,
+    "ptime": 5127000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>I tried to capture the discussion but there was a lot of it <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+    "topic": "jabber",
+    "dtime": 5143000,
+    "ptime": 5143000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-TLS-20221110-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/tls"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-TLS-20221110-0930"
+		}		
+	]
+}

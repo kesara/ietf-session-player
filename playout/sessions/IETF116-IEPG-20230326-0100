@@ -1,0 +1,742 @@
+
+{
+	"title": "IETF116-IEPG-20230326-0100",
+	"filename": "IETF116-IEPG-20230326-0100",
+	"start": 0,
+	"end": 7342000,
+	"start_datetime": "2023-03-26T01:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "IX6FRw0KvAU",
+    "start": 0,
+    "end": "7342000"
+  }
+],
+	"messages": [
+  {
+    "author": "Randy Bush",
+    "text": "<p>i sent email.  i suggest i not present to leave room for nin-BGP/DNS</p>",
+    "topic": "ietf-116",
+    "dtime": 162000,
+    "ptime": 162000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62376\">said</a>:</p>\n<blockquote>\n<p>Thanks! I'm a tryin'.... At the moment I'm starting to feel somewhat better -- and I suspect that by the end of the weeks I'm going to  be super tired of being in this hotel room....</p>\n</blockquote>\n<p>At least there's really good food in the room service, even though the rates are TERRIBLE.</p>",
+    "topic": "ietf-116",
+    "dtime": 171000,
+    "ptime": 171000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>if you run out of presos before you run out of time, i can sing</p>",
+    "topic": "ietf-116",
+    "dtime": 229000,
+    "ptime": 229000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>a song about RPKI? Great!</p>",
+    "topic": "ietf-116",
+    "dtime": 275000,
+    "ptime": 275000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>We should... there should be quite a bit of time</p>",
+    "topic": "ietf-116",
+    "dtime": 339000,
+    "ptime": 339000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>... isn</p>",
+    "topic": "ietf-116",
+    "dtime": 856000,
+    "ptime": 856000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Isn't that what a proxy would normally do? The proxy terminates and makes a new connection?  That's what a proxy is....</p>",
+    "topic": "ietf-116",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62388\">said</a>:</p>\n<blockquote>\n<p>Isn't that what a proxy would normally do? The proxy terminates and makes a new connection?  That's what a proxy is....</p>\n</blockquote>\n<p>How much freedom do you want to give a proxy to add or remove qualities in the IP header? Is there a control knob?</p>",
+    "topic": "ietf-116",
+    "dtime": 929000,
+    "ptime": 929000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>middleboxes screw it up.  shock and surprise</p>",
+    "topic": "ietf-116",
+    "dtime": 961000,
+    "ptime": 961000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>nut it looks as if the headers made it across the internet.</p>",
+    "topic": "ietf-116",
+    "dtime": 1004000,
+    "ptime": 1004000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>*but</p>",
+    "topic": "ietf-116",
+    "dtime": 1041000,
+    "ptime": 1041000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>So it working as intended: proxy creates new IP connection, whole DNS service just serve DNS.</p>",
+    "topic": "ietf-116",
+    "dtime": 1101000,
+    "ptime": 1101000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>EH are a transport level construct. The proxy terminates the connection, and a new connection is made from the proxy to the server. I wouldn't expect e.g TTL to propagate, I don't see why EH would either.</p>",
+    "topic": "ietf-116",
+    "dtime": 1115000,
+    "ptime": 1115000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>Yep</p>",
+    "topic": "ietf-116",
+    "dtime": 1159000,
+    "ptime": 1159000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Obviously the type of loadbalancer would affect this -- ECMP vs L3 vs proxy, etc...</p>",
+    "topic": "ietf-116",
+    "dtime": 1191000,
+    "ptime": 1191000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62395\">said</a>:</p>\n<blockquote>\n<p>EH are a transport level construct. The proxy terminates the connection, and a new connection is made from the proxy to the server. I wouldn't expect e.g TTL to propagate, I don't see why EH would either.</p>\n</blockquote>\n<p>Fair, but dropping/packetloss was unfortunate. good to remove that</p>",
+    "topic": "ietf-116",
+    "dtime": 1208000,
+    "ptime": 1208000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>I would also be puzzled if EHs from origin were in the cached responses. Different layers?</p>",
+    "topic": "ietf-116",
+    "dtime": 1229000,
+    "ptime": 1229000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>My understanding is also that some of the bigger CDNs do requests from all PoPs, others have central caching layers</p>",
+    "topic": "ietf-116",
+    "dtime": 1289000,
+    "ptime": 1289000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>It's not if it is complicated or not, it's that it doesn't make sense -- IPv6 EH are an IP level thing. The IP connection ends at the end of the proxy. Copying the EH into a new connection doesn't make sense...</p>",
+    "topic": "ietf-116",
+    "dtime": 1673000,
+    "ptime": 1673000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62410\">said</a>:</p>\n<blockquote>\n<p>It's not if it is complicated or not, it's that it doesn't make sense -- IPv6 EH are an IP level thing. The IP connection ends at the end of the proxy. Copying the EH into a new connection doesn't make sense...</p>\n</blockquote>\n<p>what about for things like SRV6 doing complex source routing directives in EH? that would mean shedloads more state in the CDN edge to maintain the routing</p>",
+    "topic": "ietf-116",
+    "dtime": 1723000,
+    "ptime": 1723000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>(I am not pro SRV6 or SCION, I just observe these kinds of wierder networks may need this info preserved)</p>",
+    "topic": "ietf-116",
+    "dtime": 1748000,
+    "ptime": 1748000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>i want an ipv6 pony</p>",
+    "topic": "ietf-116",
+    "dtime": 1757000,
+    "ptime": 1757000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Seems like the general point Jeff is making is that you can only say “it worked over the carriers we tested”, those results aren’t probative about non-tested infrastructure.</p>",
+    "topic": "ietf-116",
+    "dtime": 1759000,
+    "ptime": 1759000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>to state the obvious, is often useful</p>",
+    "topic": "ietf-116",
+    "dtime": 1782000,
+    "ptime": 1782000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<blockquote>\n<p>i want an ipv6 pony<br>\nit's so outdated, the pony shall be v6-only!</p>\n</blockquote>",
+    "topic": "ietf-116",
+    "dtime": 1840000,
+    "ptime": 1840000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>More interesting is what networks were actually tested.  The \"core\" of the Internet is a relatively small number of players.  If the use cases she has in mind work fine over that large subset of things, perhaps good enough?</p>",
+    "topic": "ietf-116",
+    "dtime": 1902000,
+    "ptime": 1902000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>i thought that with ipv6 we were not going to need cdns :)</p>",
+    "topic": "ietf-116",
+    "dtime": 1911000,
+    "ptime": 1911000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>And how you deal with the proximity magic to distribute content ?</p>",
+    "topic": "ietf-116",
+    "dtime": 1949000,
+    "ptime": 1949000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<blockquote>\n<p>i thought that with ipv6 we were not going to need cdns :)</p>\n</blockquote>\n<p>What, running my site on a mini-tower under my table again? ;)</p>",
+    "topic": "ietf-116",
+    "dtime": 1970000,
+    "ptime": 1970000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>She's using proxy as a proxy?</p>",
+    "topic": "ietf-116",
+    "dtime": 1972000,
+    "ptime": 1972000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>\"They put a fix into their load-balancer\" is different to \"They put a fix into their proxy\"</p>",
+    "topic": "ietf-116",
+    "dtime": 2018000,
+    "ptime": 2018000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62423\">said</a>:</p>\n<blockquote>\n<p>\"They put a fix into their load-balancer\" is different to \"They put a fix into their proxy\"</p>\n</blockquote>\n<p>\"their edge is no longer dropping incoming packets that have an EH\", it may not even be the LB layer yet?</p>",
+    "topic": "ietf-116",
+    "dtime": 2069000,
+    "ptime": 2069000
+  },
+  {
+    "author": "Mark Andrews",
+    "text": "<p>This shows that EH now make it across the internet now that the broken LB have been fixed.</p>",
+    "topic": "ietf-116",
+    "dtime": 2120000,
+    "ptime": 2120000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>Or that the upstreams of that CDN changed to new ones that no longer drop EH? It's about topology as well isn't it?</p>",
+    "topic": "ietf-116",
+    "dtime": 2154000,
+    "ptime": 2154000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Or to throw in yet more speculation, all traffic with an EH bypasses the proxy.</p>",
+    "topic": "ietf-116",
+    "dtime": 2205000,
+    "ptime": 2205000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Probably not.  I missed that detail in Nalini's tcpdump.</p>",
+    "topic": "ietf-116",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"156\">Ties de Kock</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62426\">said</a>:</p>\n<blockquote>\n<p>Or that the upstreams of that CDN changed to new ones that no longer drop EH? It's about topology as well isn't it?</p>\n</blockquote>\n<p>There's been two divergent poles of belief here: a) \"its never going to work too many surfaces to attack\" and b) \"lets see what we can push on with some dialogue\" -Nalini is in camp b) and showed they get some traction at least on EH caused packetloss/drop. I think thats useful but to scale you'd have to understand how many, how much of the core &amp;c &amp;c. I thought Jeff's comment pretty much went there.</p>",
+    "topic": "ietf-116",
+    "dtime": 2276000,
+    "ptime": 2276000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Personally, I'm thrilled to see things working as well as has been demonstrated.  I'm among the camp that had \"grown up\" with the idea that EH were a feature that was broken enough that it wasn't viable for use.</p>",
+    "topic": "ietf-116",
+    "dtime": 2340000,
+    "ptime": 2340000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>reading around, some yangdoc (riff on pandoc) would be really hard because every single instance demands the specific schema to work out how to map the Yang to gRPC to RPC to XML to CBOR to JSON to Yang</p>",
+    "topic": "ietf-116",
+    "dtime": 2812000,
+    "ptime": 2812000
+  },
+  {
+    "author": "Mark Andrews",
+    "text": "<p>I wonder if it is as simple as using flow-id too load balance IPv6 vs the 5 tuple.</p>",
+    "topic": "ietf-116",
+    "dtime": 2906000,
+    "ptime": 2906000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"263\">George Michaelson</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62439\">said</a>:</p>\n<blockquote>\n<p>reading around, some yangdoc (riff on pandoc) would be really hard because every single instance demands the specific schema to work out how to map the Yang to gRPC to RPC to XML to CBOR to JSON to Yang</p>\n</blockquote>\n<p>If you ignore the versioning discussion (which you shouldn't), the presentation layer discussions aren't actually terrible.  There's a dire need to spend work on getting us out of text-rendered fields in these mechanisms, but even that isn't difficult to do.</p>",
+    "topic": "ietf-116",
+    "dtime": 2944000,
+    "ptime": 2944000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>If you are  <em>not</em> using flow labels for balancing you are really asking for troubles, yes - because all fragmented packets (DNS and RADIUS) are disappearing</p>",
+    "topic": "ietf-116",
+    "dtime": 2989000,
+    "ptime": 2989000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I'm not currently deeply involved in netmod/netconf so I'm not sure if that work is in progress yet.</p>",
+    "topic": "ietf-116",
+    "dtime": 2996000,
+    "ptime": 2996000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Speaking of EH and IPFIX, are EH part of the common set of IEs that can be sent?  I've been mostly out of the flow processing game for some years.</p>",
+    "topic": "ietf-116",
+    "dtime": 3712000,
+    "ptime": 3712000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Answering my own question, apparently so: <a href=\"https://www.juniper.net/documentation/us/en/software/junos/flow-monitoring/topics/concept/services-ipfix-flow-aggregation-ipv6-extended-attributes.html\">https://www.juniper.net/documentation/us/en/software/junos/flow-monitoring/topics/concept/services-ipfix-flow-aggregation-ipv6-extended-attributes.html</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3920000,
+    "ptime": 3920000
+  },
+  {
+    "author": "Benoît Claise",
+    "text": "<p>@Jeff. At least, EH is specified in IANA (See 64 at <a href=\"https://www.iana.org/assignments/ipfix/ipfix.xhtml\">https://www.iana.org/assignments/ipfix/ipfix.xhtml</a>). See also an IPFIX IANA cleanup that covers EH at <a href=\"https://datatracker.ietf.org/doc/draft-boucla-opsawg-ipfix-fixes/\">https://datatracker.ietf.org/doc/draft-boucla-opsawg-ipfix-fixes/</a> Now, I know I am not exactly answering your support question ..</p>",
+    "topic": "ietf-116",
+    "dtime": 3958000,
+    "ptime": 3958000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thanks, Benoît.  Looks like at least some vendors implement it.</p>",
+    "topic": "ietf-116",
+    "dtime": 3988000,
+    "ptime": 3988000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I liked how Ana's talk \"unified\" the disparate measurement variances by \"typing\" them into a grid. I think thats a useful meta-analysis</p>",
+    "topic": "ietf-116",
+    "dtime": 4262000,
+    "ptime": 4262000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Anna's presentation seems to answer my question to Nalini.  The where stuff goes does seem to matter at least in her samples.</p>",
+    "topic": "ietf-116",
+    "dtime": 4265000,
+    "ptime": 4265000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I love how the transcription tool rendered \"5 tuples\" into \"5 tacos\"</p>",
+    "topic": "ietf-116",
+    "dtime": 4494000,
+    "ptime": 4494000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Its not only where, but also how -- CDNs can do many different types of LB - e.g: <a href=\"https://cloud.redhat.com/blog/global-load-balancer-approaches\">https://cloud.redhat.com/blog/global-load-balancer-approaches</a></p>",
+    "topic": "ietf-116",
+    "dtime": 4549000,
+    "ptime": 4549000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>I can take a device to South Africa <span class=\"user-mention\" data-user-id=\"245\">@Ana Custura</span></p>",
+    "topic": "ietf-116",
+    "dtime": 4550000,
+    "ptime": 4550000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Hmmm... Tacos...  I'm gonna start using 3-taco and 5-taco from now on...</p>",
+    "topic": "ietf-116",
+    "dtime": 4604000,
+    "ptime": 4604000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>there are many opportunities for layer violations making a taco</p>",
+    "topic": "ietf-116",
+    "dtime": 4805000,
+    "ptime": 4805000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>and they certainly look like packets</p>",
+    "topic": "ietf-116",
+    "dtime": 4830000,
+    "ptime": 4830000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>A chalupa is a particularly bad taco violation.</p>",
+    "topic": "ietf-116",
+    "dtime": 4847000,
+    "ptime": 4847000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>there has to be a join here with sandwiches and the lawful/neutral/chaotic theory</p>",
+    "topic": "ietf-116",
+    "dtime": 4866000,
+    "ptime": 4866000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>talking about food is cruel! ;)) (me, who missed breakfast) ;))</p>",
+    "topic": "ietf-116",
+    "dtime": 4893000,
+    "ptime": 4893000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>I wonder how much of Olga et al's model of IETF included priviledged knowledge \"tweaks\" to guide the info captured in protocols</p>",
+    "topic": "ietf-116",
+    "dtime": 5015000,
+    "ptime": 5015000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>The diagrams looked pretty machine made, but I wonder if they got hit a few times by NOC people to conform to reality. Sort of cheating, but understandable cheating</p>",
+    "topic": "ietf-116",
+    "dtime": 5042000,
+    "ptime": 5042000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>The less necessary cheats, the more the protocol(s) are adding value I guess</p>",
+    "topic": "ietf-116",
+    "dtime": 5067000,
+    "ptime": 5067000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>@Jeff: So a Taco Bell CHEESY GORDITA CRUNCH is encapsualtion?</p>",
+    "topic": "ietf-116",
+    "dtime": 5071000,
+    "ptime": 5071000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>Would nachos be compression or encryption then?</p>",
+    "topic": "ietf-116",
+    "dtime": 5191000,
+    "ptime": 5191000
+  },
+  {
+    "author": "Geoff Huston",
+    "text": "<p>fragmentation obviously</p>",
+    "topic": "ietf-116",
+    "dtime": 5216000,
+    "ptime": 5216000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62484\">said</a>:</p>\n<blockquote>\n<p>@Jeff: So a Taco Bell CHEESY GORDITA CRUNCH is encapsualtion?</p>\n</blockquote>\n<p>Indeed.  Comparisons to taco bell and tunneling is left to someone else's imagination.</p>",
+    "topic": "ietf-116",
+    "dtime": 5393000,
+    "ptime": 5393000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"263\">George Michaelson</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62482\">said</a>:</p>\n<blockquote>\n<p>The diagrams looked pretty machine made, but I wonder if they got hit a few times by NOC people to conform to reality. Sort of cheating, but understandable cheating</p>\n</blockquote>\n<p>There's some strong overlap with what Olga is describing vs. the prior work for the LIME working group.</p>",
+    "topic": "ietf-116",
+    "dtime": 5422000,
+    "ptime": 5422000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Nice presentations by Thomas and Olga, they should also be repeated to another audience later this week</p>",
+    "topic": "ietf-116",
+    "dtime": 5457000,
+    "ptime": 5457000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 5502000,
+    "ptime": 5502000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Are the slides for this preso uploaded to Datatracker ?</p>",
+    "topic": "ietf-116",
+    "dtime": 5669000,
+    "ptime": 5669000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>ohh it is a real time demo</p>",
+    "topic": "ietf-116",
+    "dtime": 5682000,
+    "ptime": 5682000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>not realtime</p>",
+    "topic": "ietf-116",
+    "dtime": 5740000,
+    "ptime": 5740000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>Human mediated causes follow diurnal cycle</p>",
+    "topic": "ietf-116",
+    "dtime": 5774000,
+    "ptime": 5774000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>so could be eg. Mac/Linux latop lids opening and shutting with the day-night cycle</p>",
+    "topic": "ietf-116",
+    "dtime": 5789000,
+    "ptime": 5789000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>or embedded s/w calls to it via eg audio/video streaming. WebRTC type stuff, Netflix using NTS/NTP to keep track of things?</p>",
+    "topic": "ietf-116",
+    "dtime": 5896000,
+    "ptime": 5896000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>I run some NTP servers in my house, and they go \"Click\" when they service a request. In the morning, when I open my laptop (and my wife opens her's) there are lots of additional Clicks... :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 5971000,
+    "ptime": 5971000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Randy promised singing.</p>",
+    "topic": "ietf-116",
+    "dtime": 6039000,
+    "ptime": 6039000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"240\">Warren Kumari</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62506\">said</a>:</p>\n<blockquote>\n<p>I run some NTP servers in my house, and they go \"Click\" when they service a request. In the morning, when I open my laptop (and my wife opens her's) there are lots of additional Clicks... :-)</p>\n</blockquote>\n<p>thats the squirrel feeder clicking into life as the weights are re-wound in the cage for the big pendulum</p>",
+    "topic": "ietf-116",
+    "dtime": 6042000,
+    "ptime": 6042000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Indeed.</p>",
+    "topic": "ietf-116",
+    "dtime": 6056000,
+    "ptime": 6056000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Timing is a dangerous drug. I now have 4 GPS based units and 3 Cesium clocks (only 2 of which work)</p>",
+    "topic": "ietf-116",
+    "dtime": 6121000,
+    "ptime": 6121000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>I've wasted hundreds of hours trying to improve phase and accuracy and similar... no idea why...</p>",
+    "topic": "ietf-116",
+    "dtime": 6215000,
+    "ptime": 6215000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>At least you've not reached the point where you start worrying about whether you're getting drift due to solar flares.</p>",
+    "topic": "ietf-116",
+    "dtime": 6258000,
+    "ptime": 6258000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Gee, thanks Jeff. Now I have a new source of error to worry 'bout....</p>",
+    "topic": "ietf-116",
+    "dtime": 6300000,
+    "ptime": 6300000
+  },
+  {
+    "author": "Geoff Huston",
+    "text": "<p>we measured user's clocks a couple of years ago - only 58% of end clients have their reported clock values within 2 seconds of UTC time. Time appears to be an elastic convcept.</p>",
+    "topic": "ietf-116",
+    "dtime": 6438000,
+    "ptime": 6438000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Best I know it's still something physicists are trying to determine the impact of.  It's been several years since I saw the last bread crumb on the topic.</p>",
+    "topic": "ietf-116",
+    "dtime": 6441000,
+    "ptime": 6441000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"259\">Geoff Huston</span> <a href=\"#narrow/stream/345-iepg/topic/ietf-116/near/62517\">said</a>:</p>\n<blockquote>\n<p>we measured user's clocks a couple of years ago - only 58% of end clients have their reported clock values within 2 seconds of UTC time. Time appears to be an elastic convcept.</p>\n</blockquote>\n<p>\"Time is an illusion. Lunch time, doubly so.\"<br>\n(The usual citation.)</p>",
+    "topic": "ietf-116",
+    "dtime": 6469000,
+    "ptime": 6469000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>\"Time is an illusion. Lunch time doubly so\" - Douglas Adams, HHG</p>",
+    "topic": "ietf-116",
+    "dtime": 6470000,
+    "ptime": 6470000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>those withdraw times are terrible.</p>",
+    "topic": "ietf-116",
+    "dtime": 6753000,
+    "ptime": 6753000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Indeed.  This is depressing...</p>",
+    "topic": "ietf-116",
+    "dtime": 6846000,
+    "ptime": 6846000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>(deleted)</p>",
+    "topic": "stream events",
+    "dtime": 6874000,
+    "ptime": 6874000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The numbers are still better than when things were caught up in IRR to get into AOL. :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 6897000,
+    "ptime": 6897000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>Shall we have a warning slide saying \"this presentation contains images and data some users might find disturbing\"?</p>",
+    "topic": "ietf-116",
+    "dtime": 6900000,
+    "ptime": 6900000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Good work, but depressing...</p>",
+    "topic": "ietf-116",
+    "dtime": 6919000,
+    "ptime": 6919000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Did Randy's slide have convergence time for a single provider in the stuff presented so far?</p>",
+    "topic": "ietf-116",
+    "dtime": 6980000,
+    "ptime": 6980000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>Fetch rate really influences the mean delay measured</p>",
+    "topic": "ietf-116",
+    "dtime": 7058000,
+    "ptime": 7058000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>If you were fetching on a timer, catching the start of the next interval you can end up with max delay. :-/</p>",
+    "topic": "ietf-116",
+    "dtime": 7099000,
+    "ptime": 7099000
+  },
+  {
+    "author": "Geoff Huston",
+    "text": "<p>eaxctly - and more clients polling more publication points more frequently does not appear to have a happy ending</p>",
+    "topic": "ietf-116",
+    "dtime": 7100000,
+    "ptime": 7100000
+  },
+  {
+    "author": "Geoff Huston",
+    "text": "<p>opportunistic uncoordinated client-side pull is abiout the worst information flooding protocol we could possibly devise!</p>",
+    "topic": "ietf-116",
+    "dtime": 7177000,
+    "ptime": 7177000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>Polling more frequently is low load for rrdp. Just checked - and 99.9+% of requests to our rrdp can ends up being cached</p>",
+    "topic": "ietf-116",
+    "dtime": 7181000,
+    "ptime": 7181000
+  },
+  {
+    "author": "Ties de Kock",
+    "text": "<p>Poor flooding, but scales far enough atm</p>",
+    "topic": "ietf-116",
+    "dtime": 7199000,
+    "ptime": 7199000
+  },
+  {
+    "author": "Geoff Huston",
+    "text": "<p>but it desn't scale Ties - its just too damn slow!</p>",
+    "topic": "ietf-116",
+    "dtime": 7240000,
+    "ptime": 7240000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"387\">@Randy Bush</span> was the single AS slide for convergence slide #16?</p>",
+    "topic": "ietf-116",
+    "dtime": 7323000,
+    "ptime": 7323000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-IEPG-20230326-0100"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/iepg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-IEPG-20230326-0100"
+		}		
+	]
+}

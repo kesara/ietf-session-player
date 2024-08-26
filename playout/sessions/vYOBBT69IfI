@@ -1,0 +1,353 @@
+
+{
+	"title": "IETF113-MAPRG-20220323-0900",
+	"filename": "IETF113-MAPRG-20220323-0900",
+	"start": 0,
+	"end": 7433000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "vYOBBT69IfI",
+    "start": 0,
+    "end": "7433000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 68000,
+    "ptime": 68000,
+    "author": "George Michaelson",
+    "text": "in the room is quiet (as in low volume, I had to turn my client to max)<br/>"
+  },
+  {
+    "dtime": 77000,
+    "ptime": 77000,
+    "author": "George Michaelson",
+    "text": "maybe AV guys can up volume a bit in the venue?<br/>"
+  },
+  {
+    "dtime": 184000,
+    "ptime": 184000,
+    "author": "Jonathan Reed",
+    "text": "I can confirm it's 5am in Boston :-). (Hi Dave!)<br/>"
+  },
+  {
+    "dtime": 195000,
+    "ptime": 195000,
+    "author": "Dave Plonka",
+    "text": "Hola!<br/>"
+  },
+  {
+    "dtime": 295000,
+    "ptime": 295000,
+    "author": "Jen Linkova",
+    "text": "Hello, I'll be a jabber scribe - if you don't like to use Meetecho audio and prefer me to relay a question/comment, pls prepend your statement with \"RELAY\" or \"MIC\"<br/>"
+  },
+  {
+    "dtime": 349000,
+    "ptime": 349000,
+    "author": "Dave Plonka",
+    "text": "Tnx, Jen<br/>"
+  },
+  {
+    "dtime": 635000,
+    "ptime": 635000,
+    "author": "George Michaelson",
+    "text": "this side channel is only because we chose not to do NSEC3.<br/>"
+  },
+  {
+    "dtime": 688000,
+    "ptime": 688000,
+    "author": "George Michaelson",
+    "text": "well that, and the a.b.c.d single hex digit space is not too much to walk, in a descent<br/>"
+  },
+  {
+    "dtime": 858000,
+    "ptime": 858000,
+    "author": "Jen Linkova",
+    "text": "I suspect the majority of addresses do not have reverse delegations...<br/>"
+  },
+  {
+    "dtime": 905000,
+    "ptime": 905000,
+    "author": "George Michaelson",
+    "text": "Its a testable proposition, given that each PTR delegation demands a domain: object in whois, and the parent zones are published via FTP<br/>"
+  },
+  {
+    "dtime": 949000,
+    "ptime": 949000,
+    "author": "Geoff Huston",
+    "text": "lesson 1 - DONT USE ipv6.arpa -OR- use a synthetic server that responds to any address and never responds with NXDOMAIN!<br/>"
+  },
+  {
+    "dtime": 955000,
+    "ptime": 955000,
+    "author": "George Michaelson",
+    "text": "since most delegates have a single /32, its ~~ number of address holders<br/>"
+  },
+  {
+    "dtime": 1573000,
+    "ptime": 1573000,
+    "author": "Shumon Huque",
+    "text": "RFC 8020 semantics were a clarification, not a new enhancement to the spec to aid caching. With DNSSEC, the NSEC/NSEC3 records in an NXDOMAIN response cryptographically prove that nothing below the name exists.<br/>"
+  },
+  {
+    "dtime": 1823000,
+    "ptime": 1823000,
+    "author": "Jonathan Morton",
+    "text": "which, to be fair, is a valid condition - for *forward* resolving<br/>"
+  },
+  {
+    "dtime": 1855000,
+    "ptime": 1855000,
+    "author": "Jonathan Morton",
+    "text": "the points here are about *reverse* resolution specifically<br/>"
+  },
+  {
+    "dtime": 2223000,
+    "ptime": 2223000,
+    "author": "Christian Veenman",
+    "text": "We cannot hear you<br/>"
+  },
+  {
+    "dtime": 2275000,
+    "ptime": 2275000,
+    "author": "George Michaelson",
+    "text": "I think his iBuds are losing charge or BT binding<br/>"
+  },
+  {
+    "dtime": 2325000,
+    "ptime": 2325000,
+    "author": "George Michaelson",
+    "text": "echo cancelling outcome maybe?<br/>"
+  },
+  {
+    "dtime": 3361000,
+    "ptime": 3361000,
+    "author": "George Michaelson",
+    "text": "Not to over-do it, why would you do DOH3 in preference to DOQ? especially if the HTTP3 header cost is higher?<br/>"
+  },
+  {
+    "dtime": 3376000,
+    "ptime": 3376000,
+    "author": "George Michaelson",
+    "text": "I must be missing something like \"its easier to deploy\"<br/>"
+  },
+  {
+    "dtime": 3498000,
+    "ptime": 3498000,
+    "author": "George Michaelson",
+    "text": "Whats the current ratio of high speed internet GEO to LEO? In Australia, anyone on the (old) national sat network is hoping to move over to LEO as soon as a ground station opens near to them. 50ms delay!<br/>"
+  },
+  {
+    "dtime": 3511000,
+    "ptime": 3511000,
+    "author": "Erik Nygren",
+    "text": "One use-case for DoH3 vs DoQ is if you want HTTP semantics for other reasons (eg, embedding configuration in URI template, auth tokens, etc).<br/>"
+  },
+  {
+    "dtime": 3525000,
+    "ptime": 3525000,
+    "author": "Sara Dickinson",
+    "text": "For the same reason browsers do DoH instead of DoT (stub to recursive) - they see advantages because they can leverage HTTP caching/proxing behaviour<br/>"
+  },
+  {
+    "dtime": 3532000,
+    "ptime": 3532000,
+    "author": "George Michaelson",
+    "text": "so its the bundle effect. \"if you're using it already, for other things, it makes sense to carry DNS over it\"<br/>"
+  },
+  {
+    "dtime": 3540000,
+    "ptime": 3540000,
+    "author": "Erik Nygren",
+    "text": "(but for recursive-to-authoritative DoQ seems like the obvious solution)<br/>"
+  },
+  {
+    "dtime": 3682000,
+    "ptime": 3682000,
+    "author": "Matthias Wählisch",
+    "text": "@Mike on slide you say that you found 264 verified resolvers which support of all targeted DNS protocols. two questions: (1) how did you do the verification? (2) any more details that you can share about these hosts (same prefix, AS etc.?)?<br/>"
+  },
+  {
+    "dtime": 3799000,
+    "ptime": 3799000,
+    "author": "Erik Nygren",
+    "text": "@Mike: did you also study how multiple requests over a long-lived connection compared in the face of&nbsp;&nbsp;packet loss?&nbsp;&nbsp;That seems like a potentially common real-world scenario where DoQ might have a big advantage due to lack of HOL blocking.<br/>"
+  },
+  {
+    "dtime": 3824000,
+    "ptime": 3824000,
+    "author": "George Michaelson",
+    "text": "wow nginx looks terrible on this. its good to have free but I like Free to be good!<br/>"
+  },
+  {
+    "dtime": 3884000,
+    "ptime": 3884000,
+    "author": "George Michaelson",
+    "text": "also I dont understand why caddy isn't on the test set. Is it totally OBE?<br/>"
+  },
+  {
+    "dtime": 3964000,
+    "ptime": 3964000,
+    "author": "George Michaelson",
+    "text": "Sats being delay bound its a strict queue, once you manage loss (L2 FEC?) its TDM like. you have a contract for use of the BW.<br/>"
+  },
+  {
+    "dtime": 3986000,
+    "ptime": 3986000,
+    "author": "Mike Kosek",
+    "text": "@Erik: we are currently working on measurements with long-lived connections, so not yet. but the interaction with packet loss is an interesting thought.<br/>"
+  },
+  {
+    "dtime": 4127000,
+    "ptime": 4127000,
+    "author": "George Michaelson",
+    "text": "he really does need to qualify SAT == GEO SAT<br/>"
+  },
+  {
+    "dtime": 4141000,
+    "ptime": 4141000,
+    "author": "George Michaelson",
+    "text": "we have a vibrant market in low delay LEO SAT now, with significant b/w<br/>"
+  },
+  {
+    "dtime": 4185000,
+    "ptime": 4185000,
+    "author": "Erik Nygren",
+    "text": "@Mike:&nbsp;&nbsp;My guess would be that the p95 response times for parallel lookups would especially survive loss better in DoQ than DoH2/DoT. (I agree with Lorenzo that comparing total bytes and packets sent would also be interesting)<br/>"
+  },
+  {
+    "dtime": 4264000,
+    "ptime": 4264000,
+    "author": "Mike Kosek",
+    "text": "@Matthias: yes, sure thing. (1) those 264 are a subset of the 1217 DoQ resolvers, and we identified those 264 by optimistically sending DoTCP, DoUDP, DoT, DoH queries. (2) as for geographical distribution, those 264 are located in Asia with 123 (46.59%), EU with 83 (31.44%), NA with 51 (19.32%), OC (5 resolvers, 1.89%) and AF (2 resolvers, 0.76%). We have AS-distribution on the 1217 resolvers in the paper, but I do not have stats for the 264 at hand right now<br/>"
+  },
+  {
+    "dtime": 4284000,
+    "ptime": 4284000,
+    "author": "Matthias Wählisch",
+    "text": "thanks @Mike!<br/>"
+  },
+  {
+    "dtime": 4434000,
+    "ptime": 4434000,
+    "author": "John Border",
+    "text": "GEO satellite links are usually very asymmetric.&nbsp;&nbsp;So, different strategies might work better depending on the direction.<br/>"
+  },
+  {
+    "dtime": 4649000,
+    "ptime": 4649000,
+    "author": "Mike Kosek",
+    "text": "@Erik: makes sense. also considering the initial RTO of QUIC which does diverge from TCP<br/>"
+  },
+  {
+    "dtime": 4670000,
+    "ptime": 4670000,
+    "author": "Lorenzo Colitti",
+    "text": "@George: the reason for DoH is that I think notable implementations such as dns.google or cloudflare don't support DoQ (or not yet)<br/>"
+  },
+  {
+    "dtime": 4721000,
+    "ptime": 4721000,
+    "author": "Lorenzo Colitti",
+    "text": "it does seem like DoQ is better for DNS, I hadn't considered the HOL blocking issue that Erik pointed out<br/>"
+  },
+  {
+    "dtime": 4765000,
+    "ptime": 4765000,
+    "author": "Lorenzo Colitti",
+    "text": "I think having data showing that DoQ performs better than DoH would help convince the teams running those services to implement DoQ<br/>"
+  },
+  {
+    "dtime": 4782000,
+    "ptime": 4782000,
+    "author": "Lorenzo Colitti",
+    "text": "(and teams building clients, like ourselves, as well)<br/>"
+  },
+  {
+    "dtime": 4858000,
+    "ptime": 4858000,
+    "author": "Mike Kosek",
+    "text": "@Lorenzo: for DoH3, do you signal H3 via alt-svc on DoH connections?<br/>"
+  },
+  {
+    "dtime": 4861000,
+    "ptime": 4861000,
+    "author": "Sara Dickinson",
+    "text": "The HOL issue was a major driver in developing the DoQ spec - Adguard run a DoQ based service and anecdotally report equal or better performance for DoQ vs DoT/H particularly in mobile networks which they attribute to better handling of packet loss<br/>"
+  },
+  {
+    "dtime": 4864000,
+    "ptime": 4864000,
+    "author": "George Michaelson",
+    "text": "I think Sara and others pointed out DOH3 has advantages in other ways. Its not a shootout, there might be a range of issues to balance out<br/>"
+  },
+  {
+    "dtime": 5085000,
+    "ptime": 5085000,
+    "author": "Erik Nygren",
+    "text": "I think there may also be very different practical answers for client-to-recursive vs stub-to-recursive than for recursive-to-authoritative.&nbsp;&nbsp;For the first two, DoH2/DoH3 may both be needed (and perhaps DoT/DoQ as well) but for the third I've wonder why we need anything other than DoQ.<br/>"
+  },
+  {
+    "dtime": 5153000,
+    "ptime": 5153000,
+    "author": "Sara Dickinson",
+    "text": "Of the implementors I've spoken too they seem keen to jump straight to DoQ for recursive/auth (but performance data would really help cement that decision)<br/>"
+  },
+  {
+    "dtime": 5238000,
+    "ptime": 5238000,
+    "author": "Sara Dickinson",
+    "text": "For stub/recursive I can see a bit of evolution still happening involving all the protocols for the foreseeable but I can imagine a mix of DoHTTP/3 and DoQ longer term<br/>"
+  },
+  {
+    "dtime": 5584000,
+    "ptime": 5584000,
+    "author": "Will Hawkins",
+    "text": "Thank you -- really fascinating!<br/>"
+  },
+  {
+    "dtime": 5685000,
+    "ptime": 5685000,
+    "author": "Ties de Kock",
+    "text": "/9, 0.2%?<br/>"
+  },
+  {
+    "dtime": 6146000,
+    "ptime": 6146000,
+    "author": "Matthias Wählisch",
+    "text": "@Ties, yes, my bad, roughly 1/512.<br/>"
+  },
+  {
+    "dtime": 7376000,
+    "ptime": 7376000,
+    "author": "Mike Kosek",
+    "text": "thanks all, bb<br/>"
+  },
+  {
+    "dtime": 7385000,
+    "ptime": 7385000,
+    "author": "Jerome Mao",
+    "text": "thanks all!<br/>"
+  },
+  {
+    "dtime": 7387000,
+    "ptime": 7387000,
+    "author": "Mirja Kühlewind",
+    "text": "Thanks all speakers!<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-MAPRG-20220323-0900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/maprg"
+		}
+	]
+}

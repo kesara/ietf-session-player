@@ -1,0 +1,260 @@
+{
+  "title": "IETF104-UTA-20190326-1000",
+  "filename": "IETF104-UTA-20190326-1000",
+  "start": 0,
+  "end": 2979000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "aUBus4EJRwg",
+      "start": 0.0,
+      "end": 2979000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Michael Slusarz just joined the room",
+      "ptime": 38000.0,
+      "dtime": 276000.0
+    },
+    {
+      "text": "***Viktor Dukhovni just joined the room",
+      "ptime": 727000.0,
+      "dtime": 965000.0
+    },
+    {
+      "text": "***J Harris just joined the room",
+      "ptime": 849000.0,
+      "dtime": 1087000.0
+    },
+    {
+      "text": "***J Harris just left the room",
+      "ptime": 870000.0,
+      "dtime": 1108000.0
+    },
+    {
+      "text": "This got discussed. The sender is responsible for NOTIFY\u003dHDRS",
+      "ptime": 1302000.0,
+      "dtime": 1540000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "Yes Comfortable.",
+      "ptime": 1307000.0,
+      "dtime": 1545000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "[Mic] Any expectation that you\u0027re going to be able to influence the behavior of agents who assume ownership of the message by changing the envelope from is unrealistic.",
+      "ptime": 1332000.0,
+      "dtime": 1570000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "We dealt with this same issue many years ago in the NOTARY working group. Those semantics are the ones you\u0027re going to get if you\u0027re lucky.",
+      "ptime": 1371000.0,
+      "dtime": 1609000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "An MTA that supports REQUIRETLS is responsible for RET\u003dHDRS on the way back.",
+      "ptime": 1373000.0,
+      "dtime": 1611000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "[Mic] The problem with Sieve is that it can be executed anywhere from just before delivery to long after.",
+      "ptime": 1443000.0,
+      "dtime": 1681000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "***Jordan Wilkinson just joined the room",
+      "ptime": 1489000.0,
+      "dtime": 1727000.0
+    },
+    {
+      "text": "There\u0027ll be discussion of the details on the list.",
+      "ptime": 1515000.0,
+      "dtime": 1753000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "@Ned Freed, I hope my rendition was acceptable.",
+      "ptime": 1556000.0,
+      "dtime": 1794000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "It was.",
+      "ptime": 1573000.0,
+      "dtime": 1811000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "***Jordan Wilkinson just left the room",
+      "ptime": 1577000.0,
+      "dtime": 1815000.0
+    },
+    {
+      "text": "[Mic] If we want to make it possible for a server to say \"I only accept messages over TLS, don\u0027t bother trying anything else\", then we need to define a mechanism to say that. Because we don\u0027t have one now.",
+      "ptime": 1699000.0,
+      "dtime": 1937000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Does it really make a difference to say \"TLS-Optional: Yes\" instead?",
+      "ptime": 1849000.0,
+      "dtime": 2087000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "And either way, I guess we going to see people who don\u0027t read the spec putting in the opposite, e.g., \"Require-TLS: Yes\". Sigh.",
+      "ptime": 1969000.0,
+      "dtime": 2207000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Bingo!!!! What Viktor is saying!",
+      "ptime": 2291000.0,
+      "dtime": 2529000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Pete Resnick\t@ the mic",
+      "ptime": 2321000.0,
+      "dtime": 2559000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Corinna Schmitt just left the room",
+      "ptime": 2358000.0,
+      "dtime": 2596000.0
+    },
+    {
+      "text": "AFAIK we don\u0027t even have an ehnanced status code for MAIL FROM that says \"TLS required\".",
+      "ptime": 2397000.0,
+      "dtime": 2635000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Viktor Dukhovni @ remote mic",
+      "ptime": 2485000.0,
+      "dtime": 2723000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Agam Jain just joined the room",
+      "ptime": 2495000.0,
+      "dtime": 2733000.0
+    },
+    {
+      "text": "And once again Viktor nails it.",
+      "ptime": 2518000.0,
+      "dtime": 2756000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Hannes Tschofenig @ the mic",
+      "ptime": 2548000.0,
+      "dtime": 2786000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "One reader",
+      "ptime": 2789000.0,
+      "dtime": 3027000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "I will review it as soon as I get some time.",
+      "ptime": 2818000.0,
+      "dtime": 3056000.0,
+      "author": "Loganaden Velvindron"
+    },
+    {
+      "text": "Alexey Melnikov @ the mic",
+      "ptime": 2824000.0,
+      "dtime": 3062000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Barry Leiba volunteers to review",
+      "ptime": 2836000.0,
+      "dtime": 3074000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "AM @ the mic",
+      "ptime": 2898000.0,
+      "dtime": 3136000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Session ends.",
+      "ptime": 2956000.0,
+      "dtime": 3194000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "FWIW, my concern - and it\u0027s a general one in no way specific to this draft - is the gap I see between what the IETF is doing in the IoT space and what I see happening with ESP32 and similar hardware at the local makerspace.",
+      "ptime": 2963000.0,
+      "dtime": 3201000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 2972000.0,
+      "dtime": 3210000.0
+    },
+    {
+      "text": "***Viktor Dukhovni just left the room",
+      "ptime": 2976000.0,
+      "dtime": 3214000.0
+    },
+    {
+      "text": "***Ken Murchison just left the room",
+      "ptime": 2978000.0,
+      "dtime": 3216000.0
+    },
+    {
+      "text": "***Valery Smyslov just left the room",
+      "ptime": 2978000.0,
+      "dtime": 3216000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 2978000.0,
+      "dtime": 3216000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 2978000.0,
+      "dtime": 3216000.0
+    },
+    {
+      "text": "***Raja Ashok V K just left the room",
+      "ptime": 2978000.0,
+      "dtime": 3216000.0
+    },
+    {
+      "text": "***Agam Jain just left the room",
+      "ptime": 2978000.0,
+      "dtime": 3216000.0
+    },
+    {
+      "text": "***Loganaden Velvindron just left the room",
+      "ptime": 2978000.0,
+      "dtime": 3216000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-UTA-20190326-1000"
+    }
+  ]
+}

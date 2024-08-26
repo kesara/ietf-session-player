@@ -1,0 +1,1259 @@
+{
+  "title": "IETF113-DNSOP-20220322-0900",
+  "filename": "IETF113-DNSOP-20220322-0900",
+  "start": 0,
+  "end": 7112000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "7HxcmvFOnlU",
+      "start": 0,
+      "end": "7112000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 107000,
+      "ptime": 107000,
+      "author": "Donald Eastlake",
+      "text": "sound level seems very low to me<br/>"
+    },
+    {
+      "dtime": 120000,
+      "ptime": 120000,
+      "author": "Donald Eastlake",
+      "text": "Ah, that's good.<br/>"
+    },
+    {
+      "dtime": 133000,
+      "ptime": 133000,
+      "author": "Suzanne Woolf",
+      "text": "Looks like a good turnout on-site....hello all!<br/>"
+    },
+    {
+      "dtime": 139000,
+      "ptime": 139000,
+      "author": "MarcoSIDN@MacPro",
+      "text": "Remote participants are loud and clear, chairs not so much<br/>"
+    },
+    {
+      "dtime": 160000,
+      "ptime": 160000,
+      "author": "Antoin Verschuren",
+      "text": "internal room sound a bit low indeed....<br/>"
+    },
+    {
+      "dtime": 176000,
+      "ptime": 176000,
+      "author": "Brian Dickson",
+      "text": "wrong slide??<br/>"
+    },
+    {
+      "dtime": 183000,
+      "ptime": 183000,
+      "author": "MarcoSIDN@MacPro",
+      "text": ";-)<br/>"
+    },
+    {
+      "dtime": 206000,
+      "ptime": 206000,
+      "author": "Tim Wicinski",
+      "text": "Hello !<br/>"
+    },
+    {
+      "dtime": 207000,
+      "ptime": 207000,
+      "author": "Andrew Campling",
+      "text": "@Suzanne: possibly the busiest room so far this week?<br/>"
+    },
+    {
+      "dtime": 919000,
+      "ptime": 919000,
+      "author": "Samuel Weiler",
+      "text": "Ulrich, where does that discussion start?&nbsp;&nbsp;I see the new thread this Sunday, started by Libor, and I'm wondering what came before.<br/>"
+    },
+    {
+      "dtime": 1040000,
+      "ptime": 1040000,
+      "author": "Andrew Campling",
+      "text": "Remedial Meetecho training for session chairs&nbsp;&nbsp;:slightly_smiling_face:<br/>"
+    },
+    {
+      "dtime": 1061000,
+      "ptime": 1061000,
+      "author": "Suzanne Woolf",
+      "text": "@all: remote participants in meetecho can join the queue directly, but if you're in jabber (not in meetecho) and have a comment for the mic, please prefix it in the chat with MIC: and I'll read it out for you<br/>"
+    },
+    {
+      "dtime": 1124000,
+      "ptime": 1124000,
+      "author": "Suzanne Woolf",
+      "text": "@Andrew:&nbsp;&nbsp;there's always a glitch somewhere....good to get it out of the way early ;-)<br/>"
+    },
+    {
+      "dtime": 1179000,
+      "ptime": 1179000,
+      "author": "Andrew Campling",
+      "text": "Fair comment.&nbsp;&nbsp;In truth, the hybrid Meetecho experience has been pretty good so far ……<br/>"
+    },
+    {
+      "dtime": 1308000,
+      "ptime": 1308000,
+      "author": "George Michaelson",
+      "text": "we're getting foldback from the room.<br/>"
+    },
+    {
+      "dtime": 1316000,
+      "ptime": 1316000,
+      "author": "Jonathan Reed",
+      "text": "I'm hearing a slight echo (which I think is Duane's audio being picked up on the room mics, and then rebroadcast<br/>"
+    },
+    {
+      "dtime": 1319000,
+      "ptime": 1319000,
+      "author": "George Michaelson",
+      "text": "its not yet a feedback loop but I worry it could be<br/>"
+    },
+    {
+      "dtime": 1405000,
+      "ptime": 1405000,
+      "author": "Benjamin Schwartz",
+      "text": "(Just a reminder to remote presenters: the easiest way to talk over the reverb is to mute the room audio using the mute button in the bottom right of Meetecho.)<br/>"
+    },
+    {
+      "dtime": 1423000,
+      "ptime": 1423000,
+      "author": "fanf",
+      "text": "the speakers (er not the people, the black boxes on stilts) in the room could be turned down which would make my ears happier and reduce echo/feedback<br/>"
+    },
+    {
+      "dtime": 1499000,
+      "ptime": 1499000,
+      "author": "Meetecho",
+      "text": "fanf: going to do that right niw<br/>"
+    },
+    {
+      "dtime": 1502000,
+      "ptime": 1502000,
+      "author": "Meetecho",
+      "text": "*now<br/>"
+    },
+    {
+      "dtime": 1643000,
+      "ptime": 1643000,
+      "author": "Andrew Campling",
+      "text": "Ironically for those of us in the room it’s hardest to hear in-room mic comments - the remote speakers are very clear<br/>"
+    },
+    {
+      "dtime": 1717000,
+      "ptime": 1717000,
+      "author": "David Lawrence",
+      "text": "I'm fully in favor of these requirements, but do wonder what practical effect it will have in the wondrous Internet of Things.&nbsp;&nbsp; Better to state it, of course, so at least small implementations have a better chance of doing the right thing.<br/>"
+    },
+    {
+      "dtime": 1763000,
+      "ptime": 1763000,
+      "author": "Brian Dickson",
+      "text": "Strongly support (Brian Dickson of GoDaddy). Fine with tweaking after adoption.<br/>"
+    },
+    {
+      "dtime": 1766000,
+      "ptime": 1766000,
+      "author": "Benjamin Schwartz",
+      "text": "Scale the cache duration based on RTT :-)<br/>"
+    },
+    {
+      "dtime": 1781000,
+      "ptime": 1781000,
+      "author": "David Lawrence",
+      "text": "(Yes, what Jim is saying re which implementations are most implicated.)<br/>"
+    },
+    {
+      "dtime": 1788000,
+      "ptime": 1788000,
+      "author": "Brett Carr",
+      "text": "Strong support for this from me. Something we should of probably done quite some time ago (benefit of hindsight of course)<br/>"
+    },
+    {
+      "dtime": 1798000,
+      "ptime": 1798000,
+      "author": "Geoff Huston",
+      "text": "The question is - will an RFC change obviously demented misbehaviour? The answer is no! Unfortunately,<br/>"
+    },
+    {
+      "dtime": 1857000,
+      "ptime": 1857000,
+      "author": "David Lawrence",
+      "text": "Mmm, it is most likely to have an effect if it turns out BIND or Unbound or Google or Umbrella was somehow a big part of the problem.&nbsp;&nbsp;Maybe even dnsmasq.&nbsp;&nbsp; Not so much Joe's Special IoT DNS.<br/>"
+    },
+    {
+      "dtime": 1867000,
+      "ptime": 1867000,
+      "author": "David Lawrence",
+      "text": "(Sorry Joe)<br/>"
+    },
+    {
+      "dtime": 1896000,
+      "ptime": 1896000,
+      "author": "Geoff Huston",
+      "text": "I think its custom resolvers running in large resolver farms with loose orchestration - way outside conventional RFC space<br/>"
+    },
+    {
+      "dtime": 1899000,
+      "ptime": 1899000,
+      "author": "Benjamin Schwartz",
+      "text": "David: I don't think too many IoT devices are trying to resolve facebook.com in full-recursive mode.<br/>"
+    },
+    {
+      "dtime": 1915000,
+      "ptime": 1915000,
+      "author": "Tim Wicinski",
+      "text": "<a href=\"https://blog.verisign.com/security/facebook-dns-outage/\" rel=\"nofollow\">https://blog.verisign.com/security/facebook-dns-outage/</a><br/>"
+    },
+    {
+      "dtime": 1944000,
+      "ptime": 1944000,
+      "author": "Tim Wicinski",
+      "text": "I believe that is the post Duane was referring to<br/>"
+    },
+    {
+      "dtime": 1990000,
+      "ptime": 1990000,
+      "author": "David Lawrence",
+      "text": "Right, fair point about IoT specifically.<br/>"
+    },
+    {
+      "dtime": 2024000,
+      "ptime": 2024000,
+      "author": "George Michaelson",
+      "text": "I for one would have preferred glue to be narrow in definition<br/>"
+    },
+    {
+      "dtime": 2043000,
+      "ptime": 2043000,
+      "author": "George Michaelson",
+      "text": "I think term misappropriation is a huge problem in IETF. we do it all the time, hijacking somebody else's core concept<br/>"
+    },
+    {
+      "dtime": 2044000,
+      "ptime": 2044000,
+      "author": "PE",
+      "text": "agree. using referral glue to be specific seems prudent<br/>"
+    },
+    {
+      "dtime": 2057000,
+      "ptime": 2057000,
+      "author": "fanf",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 2075000,
+      "ptime": 2075000,
+      "author": "Peter Koch",
+      "text": "glue is about data origin, so \"referral glue\" sounds a bit weird (denoting the _use_ of glue)<br/>"
+    },
+    {
+      "dtime": 2104000,
+      "ptime": 2104000,
+      "author": "Benjamin Schwartz",
+      "text": "I don't get \"referral glue\".&nbsp;&nbsp;Of course all glue is for referral, including the various things contemplated in DPRIVE.<br/>"
+    },
+    {
+      "dtime": 2109000,
+      "ptime": 2109000,
+      "author": "Peter Koch",
+      "text": "referrals could also be filled by auth data, which is not glue at all<br/>"
+    },
+    {
+      "dtime": 2118000,
+      "ptime": 2118000,
+      "author": "Peter Hessler",
+      "text": "I think a reference to what we mean by \"glue\" is very useful for this document; be it in this draft or in another (published and referenced) document<br/>"
+    },
+    {
+      "dtime": 2125000,
+      "ptime": 2125000,
+      "author": "PE",
+      "text": "less concerned with exact term than that we have a specific term for A/AAAA glue only<br/>"
+    },
+    {
+      "dtime": 2153000,
+      "ptime": 2153000,
+      "author": "Brett Carr",
+      "text": "I would like to see the definitions put in the terminology RFC. The huge amount of terminology in DNS is often a barrier when trying to train new staff in ops. I'd like to move towards a single place for terminology.<br/>"
+    },
+    {
+      "dtime": 2162000,
+      "ptime": 2162000,
+      "author": "PE",
+      "text": "and +1 on definition in doc<br/>"
+    },
+    {
+      "dtime": 2166000,
+      "ptime": 2166000,
+      "author": "Shumon Huque",
+      "text": "\"nameserver glue\"? But I also agree with the criticism of co-opting a well known term to mean something new and larger in scope.<br/>"
+    },
+    {
+      "dtime": 2170000,
+      "ptime": 2170000,
+      "author": "David Lawrence",
+      "text": "I am stodgy old school on this.&nbsp;&nbsp;Glue is only the records you *need* to have in the answer because otherwise you're self-referrential and can't make any progress on the query.&nbsp;&nbsp; The other junk is just additional data.<br/>"
+    },
+    {
+      "dtime": 2179000,
+      "ptime": 2179000,
+      "author": "George Michaelson",
+      "text": "+1 to definitions to terminology doc<br/>"
+    },
+    {
+      "dtime": 2208000,
+      "ptime": 2208000,
+      "author": "Peter Hessler",
+      "text": "imho as long as the terminology doc can be referenced from this document, sure!<br/>"
+    },
+    {
+      "dtime": 2215000,
+      "ptime": 2215000,
+      "author": "George Michaelson",
+      "text": "\"more work for Paul Hoffman HA HA AHAHAHAHAH!!!\"<br/>"
+    },
+    {
+      "dtime": 2227000,
+      "ptime": 2227000,
+      "author": "PE",
+      "text": "maybe \"delegation glue\"?<br/>"
+    },
+    {
+      "dtime": 2279000,
+      "ptime": 2279000,
+      "author": "PE",
+      "text": "problem with Ben's \"treat it all the same\" makes definition creep a real problem<br/>"
+    },
+    {
+      "dtime": 2287000,
+      "ptime": 2287000,
+      "author": "Peter Koch",
+      "text": "shameless plug &lt;<a href=\"https://datatracker.ietf.org/doc/html/draft-koch-dns-glue-clarifications-05&gt;\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-koch-dns-glue-clarifications-05&gt;</a><br/>"
+    },
+    {
+      "dtime": 2295000,
+      "ptime": 2295000,
+      "author": "Peter Koch",
+      "text": "<a href=\"https://datatracker.ietf.org/doc/html/draft-koch-dns-glue-clarifications-05\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-koch-dns-glue-clarifications-05</a><br/>"
+    },
+    {
+      "dtime": 2301000,
+      "ptime": 2301000,
+      "author": "David Lawrence",
+      "text": "\"sibling glue\" just isn't a thing that currently exists in my brain.&nbsp;&nbsp;i'd prefer to not see it start to exist.<br/>"
+    },
+    {
+      "dtime": 2355000,
+      "ptime": 2355000,
+      "author": "George Michaelson",
+      "text": "I would have thought that draft you plugged was worth referencing in this document Peter<br/>"
+    },
+    {
+      "dtime": 2439000,
+      "ptime": 2439000,
+      "author": "fanf",
+      "text": "sibling glue (from my pov) is something that exists more strongly in EPP than DNS - registries often require nameserver addresses for any names under their TLD, not just nameservers inside the registrant's domain<br/>"
+    },
+    {
+      "dtime": 2480000,
+      "ptime": 2480000,
+      "author": "Benjamin Schwartz",
+      "text": "I'm hearing crazy distortion<br/>"
+    },
+    {
+      "dtime": 2484000,
+      "ptime": 2484000,
+      "author": "Jonathan Reed",
+      "text": "same<br/>"
+    },
+    {
+      "dtime": 2485000,
+      "ptime": 2485000,
+      "author": "Wes Hardaker",
+      "text": "yep<br/>"
+    },
+    {
+      "dtime": 2485000,
+      "ptime": 2485000,
+      "author": "Samuel Weiler",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 2499000,
+      "ptime": 2499000,
+      "author": "Dan McArdle",
+      "text": "Reconnect audio stream? Maybe a bit got flipped<br/>"
+    },
+    {
+      "dtime": 2514000,
+      "ptime": 2514000,
+      "author": "Peter Hessler",
+      "text": "almost sounds like something is resting on the mic diaphram<br/>"
+    },
+    {
+      "dtime": 2516000,
+      "ptime": 2516000,
+      "author": "Shumon Huque",
+      "text": "Sibling glue is also explicitly included in RFC 1034/1035 although it did not have a separate name.<br/>"
+    },
+    {
+      "dtime": 2591000,
+      "ptime": 2591000,
+      "author": "Meetecho",
+      "text": "Checking audio<br/>"
+    },
+    {
+      "dtime": 2605000,
+      "ptime": 2605000,
+      "author": "Meetecho",
+      "text": "Audio seems fine here, was it a remote speaker?<br/>"
+    },
+    {
+      "dtime": 2619000,
+      "ptime": 2619000,
+      "author": "Peter Hessler",
+      "text": "yea, it was the remote speaker; seems it is all cleared up now<br/>"
+    },
+    {
+      "dtime": 2722000,
+      "ptime": 2722000,
+      "author": "Hugo Salgado",
+      "text": "Alexander +1. Besides that, the problem with some registries is with SIBLING glues. The in-domain are covered in all cases.<br/>"
+    },
+    {
+      "dtime": 3048000,
+      "ptime": 3048000,
+      "author": "David Lawrence",
+      "text": "Is chat still up?&nbsp;&nbsp;Seems weird I haven't had a new message in over 5 minutes.<br/>"
+    },
+    {
+      "dtime": 3060000,
+      "ptime": 3060000,
+      "author": "Brian Dickson",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 3063000,
+      "ptime": 3063000,
+      "author": "Geoff Huston",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 3117000,
+      "ptime": 3117000,
+      "author": "Geoff Huston",
+      "text": "do you want me to set up a bot to \"yes\" every 4 minutes and 50 seconds to reassure you? :-)<br/>"
+    },
+    {
+      "dtime": 3191000,
+      "ptime": 3191000,
+      "author": "David Lawrence",
+      "text": "I'll just accept the warm glow of your earlier reassurance.<br/>"
+    },
+    {
+      "dtime": 3214000,
+      "ptime": 3214000,
+      "author": "Geoff Huston",
+      "text": "fair enough! :-)<br/>"
+    },
+    {
+      "dtime": 3241000,
+      "ptime": 3241000,
+      "author": "fanf",
+      "text": "i was moaning silently to myself and failing to turn that into any coherent words to put here<br/>"
+    },
+    {
+      "dtime": 3293000,
+      "ptime": 3293000,
+      "author": "Andrew Campling",
+      "text": "Perhaps we need a chat equivalent of background music to avoid awkward silences?&nbsp;&nbsp;:-)<br/>"
+    },
+    {
+      "dtime": 3310000,
+      "ptime": 3310000,
+      "author": "Geoff Huston",
+      "text": "Why would you want different keys for different transports? What am I missing here?<br/>"
+    },
+    {
+      "dtime": 3419000,
+      "ptime": 3419000,
+      "author": "Andrew Fregly",
+      "text": "He seems to be hanging from the ceiling<br/>"
+    },
+    {
+      "dtime": 3422000,
+      "ptime": 3422000,
+      "author": "Donald Eastlake",
+      "text": "Is he in Autralia? :-)<br/>"
+    },
+    {
+      "dtime": 3468000,
+      "ptime": 3468000,
+      "author": "Andrew Campling",
+      "text": "Calling from the bat cave?<br/>"
+    },
+    {
+      "dtime": 3469000,
+      "ptime": 3469000,
+      "author": "Geoff Huston",
+      "text": "I was wondering why every other video was upside down<br/>"
+    },
+    {
+      "dtime": 3570000,
+      "ptime": 3570000,
+      "author": "Samuel Weiler",
+      "text": "You couldn't hear anything, right?<br/>"
+    },
+    {
+      "dtime": 3577000,
+      "ptime": 3577000,
+      "author": "Suzanne Woolf",
+      "text": "@Sam correct<br/>"
+    },
+    {
+      "dtime": 3583000,
+      "ptime": 3583000,
+      "author": "Wes Hardaker",
+      "text": "it's a long story about the camera mount I'm using and keeping it out of field of view by mounting the camera upside down and then video flipping it.&nbsp;&nbsp;But I failed to turn on flipping.<br/>"
+    },
+    {
+      "dtime": 3615000,
+      "ptime": 3615000,
+      "author": "Thom",
+      "text": "That wasn’t a very long story after all<br/>"
+    },
+    {
+      "dtime": 3623000,
+      "ptime": 3623000,
+      "author": "Wes Hardaker",
+      "text": "I could make it longer.<br/>"
+    },
+    {
+      "dtime": 3630000,
+      "ptime": 3630000,
+      "author": "Wes Hardaker",
+      "text": "that was the tLDR<br/>"
+    },
+    {
+      "dtime": 3676000,
+      "ptime": 3676000,
+      "author": "fanf",
+      "text": "funny that they do dry runs for EVA in a swimming pool<br/>"
+    },
+    {
+      "dtime": 3682000,
+      "ptime": 3682000,
+      "author": "Brian Dickson",
+      "text": "Or given the camera reference, a tSLR?<br/>"
+    },
+    {
+      "dtime": 3696000,
+      "ptime": 3696000,
+      "author": "Wes Hardaker",
+      "text": ":perfect:<br/>"
+    },
+    {
+      "dtime": 3713000,
+      "ptime": 3713000,
+      "author": "Samuel Weiler",
+      "text": "argh, technology.&nbsp;&nbsp;Reiterating Wes's comments, I'm also concerned about adding needed operational synchronizations, e.g. with a CDN.&nbsp;&nbsp;It reminds me of one of the flaws in rfc2535 DNSSEC, where when a parent rolled its keys (think, in this case, CDN), it had to get every child to update their zone (think, in this case, customers of the CDN).<br/>"
+    },
+    {
+      "dtime": 3734000,
+      "ptime": 3734000,
+      "author": "Benjamin Schwartz",
+      "text": "Sam: Yep, this is all about avoiding that<br/>"
+    },
+    {
+      "dtime": 3791000,
+      "ptime": 3791000,
+      "author": "Jim Reid",
+      "text": "@fanf, if the astronauts get wet in the swimming pool, there's a much more serious problem to fix.<br/>"
+    },
+    {
+      "dtime": 3815000,
+      "ptime": 3815000,
+      "author": "Hazel Smith",
+      "text": "@Wes: I'm very confused/curious what kind of camera mount you're using that it would be in the field of view... Personally, I use a DSLR on a quick release plate, on a manfrotto ball head, on a hague camera supports angle bracket bolted to a Manfrotto Super Clamp, which is clamped to a Lindy 70cm desk clamped monitor mounting pole... which works really well to hold a 1DX2 above my VC monitor<br/>"
+    },
+    {
+      "dtime": 3960000,
+      "ptime": 3960000,
+      "author": "Jim Reid",
+      "text": "Do these camera things support DNSSEC? :-)<br/>"
+    },
+    {
+      "dtime": 3984000,
+      "ptime": 3984000,
+      "author": "Hazel Smith",
+      "text": "Great question... it has a gigabit ethernet port, but I've not observed its DNS behaviour<br/>"
+    },
+    {
+      "dtime": 4000000,
+      "ptime": 4000000,
+      "author": "Andrew Fregly",
+      "text": "Does it produce signed video?<br/>"
+    },
+    {
+      "dtime": 4032000,
+      "ptime": 4032000,
+      "author": "Hazel Smith",
+      "text": "that sounds like that would be a question for MOQ WG maybe?<br/>"
+    },
+    {
+      "dtime": 4040000,
+      "ptime": 4040000,
+      "author": "Hazel Smith",
+      "text": ";)<br/>"
+    },
+    {
+      "dtime": 4075000,
+      "ptime": 4075000,
+      "author": "Andrew Fregly",
+      "text": "I think signing on a per-video-frame basis might be too much overhead<br/>"
+    },
+    {
+      "dtime": 4182000,
+      "ptime": 4182000,
+      "author": "Hazel Smith",
+      "text": "jokes aside, that sounds like an application for stream ciphers.<br/>"
+    },
+    {
+      "dtime": 4190000,
+      "ptime": 4190000,
+      "author": "Wes Hardaker",
+      "text": "@hazel: so I recently bought a mount to move the simple web camera off the top of my monitor to be closer to me, since the field was too wide (and zooming causes drop in quality).&nbsp;&nbsp;But the mount attaches to the bottom of the webcam, and the flexible mount's arm causes a drop into the field of the monitor's view.&nbsp;&nbsp;So by flipping the mount upside down, the arc of the flexible mount goes *up* allowing me to put the camera at the right spot out of the way of the monitor.&nbsp;&nbsp;If I was doing professional video zooming then I'd certainly sacrifice my monitor view for recording.&nbsp;&nbsp;But for my 4-6 hours of daily meetings, I'm lazy and haven't bought anything better.&nbsp;&nbsp;So the hack is to flip the video of an upside down camera instead (trivial in zoom, requires a fake virtual device for anything else).<br/>"
+    },
+    {
+      "dtime": 4221000,
+      "ptime": 4221000,
+      "author": "Hazel Smith",
+      "text": "ahhh<br/>"
+    },
+    {
+      "dtime": 4254000,
+      "ptime": 4254000,
+      "author": "Wes Hardaker",
+      "text": "I should just start over with a new camera :-)<br/>"
+    },
+    {
+      "dtime": 4322000,
+      "ptime": 4322000,
+      "author": "Andrew Fregly",
+      "text": "I am in favor of signing media so that you at least know the origin device as a way of dealing with deep fakes.<br/>"
+    },
+    {
+      "dtime": 4336000,
+      "ptime": 4336000,
+      "author": "Hazel Smith",
+      "text": "(I feed my video out of the camera as HDMI, and then through a HDMI distribution amplifier, so I get a copy for the confidence monitor plus a copy for each VC machine. The Google Meet box and the Intel NUC I use for Meetecho and Zoom each have a Magewell USB Capture HDMI Gen 2 device that takes the HDMI video and pretends to be a webcam to the OS :))<br/>"
+    },
+    {
+      "dtime": 4696000,
+      "ptime": 4696000,
+      "author": "Benjamin Schwartz",
+      "text": "Andrew: See talk #2 in <a href=\"https://datatracker.ietf.org/doc/agenda-113-hrpc/\" rel=\"nofollow\">https://datatracker.ietf.org/doc/agenda-113-hrpc/</a><br/>"
+    },
+    {
+      "dtime": 4886000,
+      "ptime": 4886000,
+      "author": "Wes Hardaker",
+      "text": "ha ha; @ben: didn't you push back on that for people that disliked the digest type hack you originally wrote?<br/>"
+    },
+    {
+      "dtime": 4935000,
+      "ptime": 4935000,
+      "author": "Jonathan Reed",
+      "text": "INORITE!&nbsp;&nbsp; I said last time, let's please have a general purpose record to stop doing that, and got told it'll never happen.<br/>"
+    },
+    {
+      "dtime": 4974000,
+      "ptime": 4974000,
+      "author": "Hazel Smith",
+      "text": "Is Roland's audio clipping harshly for others too?<br/>"
+    },
+    {
+      "dtime": 4987000,
+      "ptime": 4987000,
+      "author": "Benjamin Schwartz",
+      "text": "There's a difference here between \"define a new META digest type\" and \"define a new NOTDS RR type\"<br/>"
+    },
+    {
+      "dtime": 4988000,
+      "ptime": 4988000,
+      "author": "Meetecho",
+      "text": "Checking<br/>"
+    },
+    {
+      "dtime": 4996000,
+      "ptime": 4996000,
+      "author": "Joao Damas",
+      "text": "he sounds fine in the room<br/>"
+    },
+    {
+      "dtime": 4997000,
+      "ptime": 4997000,
+      "author": "Suzanne Woolf",
+      "text": "I'm hearing echo again too<br/>"
+    },
+    {
+      "dtime": 5003000,
+      "ptime": 5003000,
+      "author": "Benjamin Schwartz",
+      "text": "No clipping here<br/>"
+    },
+    {
+      "dtime": 5019000,
+      "ptime": 5019000,
+      "author": "Hazel Smith",
+      "text": "yeah, the clipping/crackling stopped the moment I asked, haha.<br/>"
+    },
+    {
+      "dtime": 5021000,
+      "ptime": 5021000,
+      "author": "George Michaelson",
+      "text": "since he has headphones, it cannot be foldback his side<br/>"
+    },
+    {
+      "dtime": 5025000,
+      "ptime": 5025000,
+      "author": "Jim Reid",
+      "text": "No echo or clipping in the room<br/>"
+    },
+    {
+      "dtime": 5042000,
+      "ptime": 5042000,
+      "author": "Hazel Smith",
+      "text": "and, I have been hearing quiet echos of every speaker so far, I assumed it was the room microphones picking up the room speakers<br/>"
+    },
+    {
+      "dtime": 5062000,
+      "ptime": 5062000,
+      "author": "George Michaelson",
+      "text": "Is one of the chairs mic live?<br/>"
+    },
+    {
+      "dtime": 5075000,
+      "ptime": 5075000,
+      "author": "Meetecho",
+      "text": "Hazel: yes, that's what usually happens but we've been working to tweak this and minimize the impact<br/>"
+    },
+    {
+      "dtime": 5081000,
+      "ptime": 5081000,
+      "author": "Tom Carpay",
+      "text": "Noema &lt;3<br/>"
+    },
+    {
+      "dtime": 5082000,
+      "ptime": 5082000,
+      "author": "George Michaelson",
+      "text": "ie benno/suz/tim<br/>"
+    },
+    {
+      "dtime": 5084000,
+      "ptime": 5084000,
+      "author": "sftcd-x",
+      "text": "hash based sigs for DNSSEC seems like a bad idea to me - why not wait for a new signature algorithm from NIST that is not stateful?<br/>"
+    },
+    {
+      "dtime": 5092000,
+      "ptime": 5092000,
+      "author": "Meetecho",
+      "text": "DNSOP is in oneof the largest rooms, so physics don't help :)<br/>"
+    },
+    {
+      "dtime": 5094000,
+      "ptime": 5094000,
+      "author": "Geoff Huston",
+      "text": "I think the dog has a live mic<br/>"
+    },
+    {
+      "dtime": 5101000,
+      "ptime": 5101000,
+      "author": "sftcd-x",
+      "text": "remider: stateful implies a finite number of signing operations before the private key leaks<br/>"
+    },
+    {
+      "dtime": 5103000,
+      "ptime": 5103000,
+      "author": "Thom",
+      "text": "Dog is in favour of PQC<br/>"
+    },
+    {
+      "dtime": 5107000,
+      "ptime": 5107000,
+      "author": "George Michaelson",
+      "text": "BIFF. somebody somewhere has mail<br/>"
+    },
+    {
+      "dtime": 5145000,
+      "ptime": 5145000,
+      "author": "sftcd-x",
+      "text": "stateful sigs != safe<br/>"
+    },
+    {
+      "dtime": 5165000,
+      "ptime": 5165000,
+      "author": "Jim Reid",
+      "text": "<a href=\"https://www.amazon.com/How-Teach-Quantum-Physics-Your/dp/1416572295\" rel=\"nofollow\">https://www.amazon.com/How-Teach-Quantum-Physics-Your/dp/1416572295</a><br/>"
+    },
+    {
+      "dtime": 5179000,
+      "ptime": 5179000,
+      "author": "Benjamin Schwartz",
+      "text": "sftcd-x: That seems fairly manageable in DNSSEC.&nbsp;&nbsp;You update your zone as needed, and BIND rotates the keys as needed.<br/>"
+    },
+    {
+      "dtime": 5181000,
+      "ptime": 5181000,
+      "author": "Hazel Smith",
+      "text": "@Meetecho: ack. (I use a Biamp TesiraForte audio interface which does a pretty good job of hardware AEC (Acoustic Echo Cancellation) and has 12 mic inputs and 8 outputs, might be worth considering using something like that if you aren't already)<br/>"
+    },
+    {
+      "dtime": 5242000,
+      "ptime": 5242000,
+      "author": "Meetecho",
+      "text": "The audio is WebRTC based so there's an echo canceller involved too, plus we play with gains and mixer settings: looking into some hardware might be helpful in the future!<br/>"
+    },
+    {
+      "dtime": 5284000,
+      "ptime": 5284000,
+      "author": "sftcd-x",
+      "text": "@ben: whether manageable or not, better to wait for something without that problem<br/>"
+    },
+    {
+      "dtime": 5294000,
+      "ptime": 5294000,
+      "author": "Suzanne Woolf",
+      "text": "qirg meets in the next session for those QC-curious<br/>"
+    },
+    {
+      "dtime": 5365000,
+      "ptime": 5365000,
+      "author": "sftcd-x",
+      "text": "the break here is leaking the private key<br/>"
+    },
+    {
+      "dtime": 5450000,
+      "ptime": 5450000,
+      "author": "Andrew Fregly",
+      "text": "The multi-tree model handles distributed signing and scalability though is more complex<br/>"
+    },
+    {
+      "dtime": 5470000,
+      "ptime": 5470000,
+      "author": "sftcd-x",
+      "text": "@ben: also in terms of \"manageable\" - if the root zone is signed using classical crypto then use of PQC algs lower down isn't compelling, but stateful sigs at the root seems like a horrible thought<br/>"
+    },
+    {
+      "dtime": 5512000,
+      "ptime": 5512000,
+      "author": "sftcd-x",
+      "text": "eddsa doesn't have the stateful unsafety problem<br/>"
+    },
+    {
+      "dtime": 5514000,
+      "ptime": 5514000,
+      "author": "Andrew Fregly",
+      "text": "Needs a bit of explanation of how it would work for root.<br/>"
+    },
+    {
+      "dtime": 5564000,
+      "ptime": 5564000,
+      "author": "Benjamin Schwartz",
+      "text": "The only special consideration for the root is that you need to give yourself enough margin to do a root rollover before you run out of signatures.<br/>"
+    },
+    {
+      "dtime": 5573000,
+      "ptime": 5573000,
+      "author": "Andrew Fregly",
+      "text": "The draft of implementation considerations would discuss the issues.<br/>"
+    },
+    {
+      "dtime": 5586000,
+      "ptime": 5586000,
+      "author": "George Michaelson",
+      "text": "on average how many signings per key are being made at present in the root?<br/>"
+    },
+    {
+      "dtime": 5600000,
+      "ptime": 5600000,
+      "author": "George Michaelson",
+      "text": "if we understand the bounds as limits, we can say if the risk of those bounds is real.<br/>"
+    },
+    {
+      "dtime": 5675000,
+      "ptime": 5675000,
+      "author": "Andrew Fregly",
+      "text": "Some configurations support 2^60 one time signing keys.<br/>"
+    },
+    {
+      "dtime": 5687000,
+      "ptime": 5687000,
+      "author": "Andrew Fregly",
+      "text": "Not likely to run out.<br/>"
+    },
+    {
+      "dtime": 5713000,
+      "ptime": 5713000,
+      "author": "Andrew Fregly",
+      "text": "Need to set tree sizes based on expected number of signings.<br/>"
+    },
+    {
+      "dtime": 5725000,
+      "ptime": 5725000,
+      "author": "sftcd-x",
+      "text": "but all the code for handling the 2nd last signature operation is still needed (for no good reason)<br/>"
+    },
+    {
+      "dtime": 5756000,
+      "ptime": 5756000,
+      "author": "Andrew Fregly",
+      "text": "With several orders of magnitude to deal with fudge factor.<br/>"
+    },
+    {
+      "dtime": 5826000,
+      "ptime": 5826000,
+      "author": "Andrew Fregly",
+      "text": "We pulled implementation consideration out as it is quite a robust topic.<br/>"
+    },
+    {
+      "dtime": 5842000,
+      "ptime": 5842000,
+      "author": "Andrew Fregly",
+      "text": "Signatures for SPHINCS+ are much larger<br/>"
+    },
+    {
+      "dtime": 5945000,
+      "ptime": 5945000,
+      "author": "Andrew Fregly",
+      "text": "Also, we want a more considered discussion of implementation issues. It takes a bit of time to understand it.<br/>"
+    },
+    {
+      "dtime": 6004000,
+      "ptime": 6004000,
+      "author": "Thom",
+      "text": "If your machine turns off before having committed the sequence number to disk you have to rotate your keys<br/>"
+    },
+    {
+      "dtime": 6041000,
+      "ptime": 6041000,
+      "author": "Maarten Aertsen",
+      "text": "I think I unintentionally may have found a bug :-)<br/>"
+    },
+    {
+      "dtime": 6052000,
+      "ptime": 6052000,
+      "author": "Hazel Smith",
+      "text": "@Thom: silly question maybe, but... couldn't you just bump the number first, write it to disk, *then* use it?<br/>"
+    },
+    {
+      "dtime": 6095000,
+      "ptime": 6095000,
+      "author": "Maarten Aertsen",
+      "text": "(It was a fat finger though)<br/>"
+    },
+    {
+      "dtime": 6208000,
+      "ptime": 6208000,
+      "author": "Andrew Fregly",
+      "text": "You can allocate enough OTS keys that you can checkpoint in batches. If doing in memory, just skip to the next batch if you go down.<br/>"
+    },
+    {
+      "dtime": 6307000,
+      "ptime": 6307000,
+      "author": "Hazel Smith",
+      "text": "sounds similar to implementations of \"sequence\" types in RDBMSes. (where you are much more worried about using a number twice than you are about skipping a number, and taking a batch of numbers in advance saves you from having to fsync for every one)<br/>"
+    },
+    {
+      "dtime": 6383000,
+      "ptime": 6383000,
+      "author": "Vicky Risk",
+      "text": "maybe this is a failure of imagination, ,but what is this draft FOR? what/who needs this QoS data?<br/>"
+    },
+    {
+      "dtime": 6397000,
+      "ptime": 6397000,
+      "author": "sftcd-x",
+      "text": "on post-quantum stuff more generally: the *real* problem is the threat to confidentiality, even there, it's IMO still to early to standardise anything (we need more experience with newer algs 1st), for things like DNSSEC it makes no sense at all to try \"get ahead of the game\" esp if that'd involve figuring out how to avoid all the pitfalls of stateful sigs<br/>"
+    },
+    {
+      "dtime": 6422000,
+      "ptime": 6422000,
+      "author": "George Michaelson",
+      "text": "nothing about DNSSEC is about confidentiality<br/>"
+    },
+    {
+      "dtime": 6430000,
+      "ptime": 6430000,
+      "author": "George Michaelson",
+      "text": "its about trust in the label and RRSet.<br/>"
+    },
+    {
+      "dtime": 6443000,
+      "ptime": 6443000,
+      "author": "George Michaelson",
+      "text": "all that is required is that you cannot forge its state<br/>"
+    },
+    {
+      "dtime": 6449000,
+      "ptime": 6449000,
+      "author": "sftcd-x",
+      "text": "exactly - so let those with confidentiality problems figure out the PQ stuff first<br/>"
+    },
+    {
+      "dtime": 6491000,
+      "ptime": 6491000,
+      "author": "George Michaelson",
+      "text": "it must be driven by belief use of flawed PQ algs means people CAN forge state<br/>"
+    },
+    {
+      "dtime": 6504000,
+      "ptime": 6504000,
+      "author": "David Lawrence",
+      "text": "I don't think I really grok you here.&nbsp;&nbsp;I mean, I totally get the DNSSEC-is-not-about-confidentiality part.&nbsp;&nbsp;I don't get why we'd be unconcerned with the thread to authenticity.<br/>"
+    },
+    {
+      "dtime": 6507000,
+      "ptime": 6507000,
+      "author": "George Michaelson",
+      "text": "algs, subsequently flawed by shors alg<br/>"
+    },
+    {
+      "dtime": 6531000,
+      "ptime": 6531000,
+      "author": "George Michaelson",
+      "text": "if there is a belief continued use of RSA poses a risk to authenticity, then PQ is needed<br/>"
+    },
+    {
+      "dtime": 6536000,
+      "ptime": 6536000,
+      "author": "sftcd-x",
+      "text": "@tale: because there's a lot of \"figuring out\" to be done before deployment of PQ stuff will be ready for primetime<br/>"
+    },
+    {
+      "dtime": 6557000,
+      "ptime": 6557000,
+      "author": "Benjamin Schwartz",
+      "text": "Confidentiality requires solving the problem now.&nbsp;&nbsp;Authenticity requires solving the problem eventually.<br/>"
+    },
+    {
+      "dtime": 6568000,
+      "ptime": 6568000,
+      "author": "Roland van Rijswijk-Deij",
+      "text": "there are two observations I'd like to make regarding that: PQC schemes are split into KEM/Key Exchange and Signature schemes, so letting the confidentiality people figure things out might not work. Second, as soon as PQC schemes are standardised, there will be pressure to support them, and I think it's good to start preparing for that now.<br/>"
+    },
+    {
+      "dtime": 6581000,
+      "ptime": 6581000,
+      "author": "David Lawrence",
+      "text": "Okay, that part I'm fine with.&nbsp;&nbsp; I thought an argument was being made that somehow the authenticity part wasn't somehow relevant.<br/>"
+    },
+    {
+      "dtime": 6603000,
+      "ptime": 6603000,
+      "author": "sftcd-x",
+      "text": "@roland: in this case, I think that's not \"preparing\" but rather \"succumbing\" and to what's (for now) a fashion choide<br/>"
+    },
+    {
+      "dtime": 6615000,
+      "ptime": 6615000,
+      "author": "Joao Damas",
+      "text": "at this point this feels like a fully academic endeavour, so perhaps best addressed in that real rather than in the iEtf<br/>"
+    },
+    {
+      "dtime": 6629000,
+      "ptime": 6629000,
+      "author": "Jim Reid",
+      "text": "Will the server return QoS info for the resolver or the end client&gt;<br/>"
+    },
+    {
+      "dtime": 6659000,
+      "ptime": 6659000,
+      "author": "Andrew Campling",
+      "text": "@Joao: IRTF?<br/>"
+    },
+    {
+      "dtime": 6661000,
+      "ptime": 6661000,
+      "author": "Joao Damas",
+      "text": "(I was referring to the PQC item)<br/>"
+    },
+    {
+      "dtime": 6665000,
+      "ptime": 6665000,
+      "author": "Benjamin Schwartz",
+      "text": "Vicky: Yeah, I don't understand exactly.&nbsp;&nbsp;I can sort of imagine a response that says \"BTW, this server is ~~XX ms away from you\"<br/>"
+    },
+    {
+      "dtime": 6675000,
+      "ptime": 6675000,
+      "author": "Joao Damas",
+      "text": "IRTF would be a lot more appropriate, yes<br/>"
+    },
+    {
+      "dtime": 6687000,
+      "ptime": 6687000,
+      "author": "sftcd-x",
+      "text": "btw, if people start working on some kind of PQ-DNSSEC, it's 100% for sure that people will propose ways of signing with &gt;1 alg (a mix of classical and new PQ algs), so if dnsop goes there, dealing with that'll be part of the price to pay<br/>"
+    },
+    {
+      "dtime": 6735000,
+      "ptime": 6735000,
+      "author": "Roland van Rijswijk-Deij",
+      "text": "@sftcd-x: the point of this draft is not to succumb to any fashions ;-), HBS-es are _old_ and proven, hence our idea to standardise a failsafe. Happy to receive feedback or pushback on that from the WG.<br/>"
+    },
+    {
+      "dtime": 6741000,
+      "ptime": 6741000,
+      "author": "George Michaelson",
+      "text": "is JSON capable of surviving DNS string compression?<br/>"
+    },
+    {
+      "dtime": 6764000,
+      "ptime": 6764000,
+      "author": "Joao Damas",
+      "text": "agreed. so let's not have dnsop take it until a) there is a reasonable need and b) it has been figured out elsewhere<br/>"
+    },
+    {
+      "dtime": 6779000,
+      "ptime": 6779000,
+      "author": "Benjamin Schwartz",
+      "text": "George: Compression would not be applied here, so there's no worry there<br/>"
+    },
+    {
+      "dtime": 6796000,
+      "ptime": 6796000,
+      "author": "Roland van Rijswijk-Deij",
+      "text": "and @sftcd-x: yes, when talking PQC, multi-algorithm signing is just around the corner, that is a valid concern (with all the pain it brings)<br/>"
+    },
+    {
+      "dtime": 6799000,
+      "ptime": 6799000,
+      "author": "sftcd-x",
+      "text": "@roland: yes the idea of HBS is old, and can be secure but afaik basically *nobody* has experience in using any of the RFCs on those topics so I really can't see that as in any way \"safe\"<br/>"
+    },
+    {
+      "dtime": 6830000,
+      "ptime": 6830000,
+      "author": "Andrew Fregly",
+      "text": "The stateful HBS algorithms have been specified for message signing in two RFCs<br/>"
+    },
+    {
+      "dtime": 6862000,
+      "ptime": 6862000,
+      "author": "Roland van Rijswijk-Deij",
+      "text": "@sftcd-x is your concern mostly operational? There is ample cryptoanalytic research supporting the security of HBS schemes.<br/>"
+    },
+    {
+      "dtime": 6862000,
+      "ptime": 6862000,
+      "author": "George Michaelson",
+      "text": "Thanks Ben. I had memory (wrong I guess) that payload was compressed, but if not, then no worries!<br/>"
+    },
+    {
+      "dtime": 6879000,
+      "ptime": 6879000,
+      "author": "sftcd-x",
+      "text": "@roland: I have &gt;1 concern (sorry;-)<br/>"
+    },
+    {
+      "dtime": 6920000,
+      "ptime": 6920000,
+      "author": "sftcd-x",
+      "text": "but yes, the utter lack of experience in real use of HBS means, for me, they can't be a current failsafe<br/>"
+    },
+    {
+      "dtime": 6925000,
+      "ptime": 6925000,
+      "author": "Andrew Campling",
+      "text": "+1 to proceeding with this draft (ie Structured Data for Filtered DNS) in order to improve transparency<br/>"
+    },
+    {
+      "dtime": 6927000,
+      "ptime": 6927000,
+      "author": "Andrew Fregly",
+      "text": "The stareful HBS algorithms are also NIST specified in NIS SP 800-208<br/>"
+    },
+    {
+      "dtime": 6937000,
+      "ptime": 6937000,
+      "author": "George Michaelson",
+      "text": "Ben's comments are echoes of comments made when Tiramul first presented on this<br/>"
+    },
+    {
+      "dtime": 6947000,
+      "ptime": 6947000,
+      "author": "Tommy Pauly",
+      "text": "The client behavior of actually using the page can be worked out<br/>"
+    },
+    {
+      "dtime": 7018000,
+      "ptime": 7018000,
+      "author": "Thom",
+      "text": "Hazel Smith_web_993 re: hbs: getting that assurance from the file system is not trivial with all the weird layers of caching…<br/>"
+    },
+    {
+      "dtime": 7075000,
+      "ptime": 7075000,
+      "author": "Suzanne Woolf",
+      "text": "Thanks everyone!!<br/>"
+    },
+    {
+      "dtime": 7086000,
+      "ptime": 7086000,
+      "author": "Roland van Rijswijk-Deij",
+      "text": "Thanks! Hybrid was smooth!<br/>"
+    },
+    {
+      "dtime": 7091000,
+      "ptime": 7091000,
+      "author": "Roland van Rijswijk-Deij",
+      "text": "Compliments to the chairs!<br/>"
+    },
+    {
+      "dtime": 7098000,
+      "ptime": 7098000,
+      "author": "Brian Dickson",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 7111000,
+      "ptime": 7111000,
+      "author": "Suzanne Woolf",
+      "text": "thanks Roland! Also shout-out to @meetecho for the new features.<br/>"
+    },
+    {
+      "dtime": 7114000,
+      "ptime": 7114000,
+      "author": "Hazel Smith",
+      "text": "Yep, +1, hybrid with MeetEcho and the mobile line joining thing seemed to work well<br/>"
+    },
+    {
+      "dtime": 7146000,
+      "ptime": 7146000,
+      "author": "Meetecho",
+      "text": "Glad to be of help!<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF113-DNSOP-20220322-0900"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/113/session/dnsop"
+    }
+  ],
+  "start_datetime": "2022-03-22T09:00:00Z"
+}

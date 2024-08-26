@@ -1,0 +1,329 @@
+
+{
+	"title": "IETF113-BESS-20220321-0900",
+	"filename": "IETF113-BESS-20220321-0900",
+	"start": 0,
+	"end": 7397000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "9kERhqbJIz4",
+    "start": 0,
+    "end": "7397000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 111000,
+    "ptime": 111000,
+    "author": "Tony Przygienda",
+    "text": "awful echo BTW<br/>"
+  },
+  {
+    "dtime": 163000,
+    "ptime": 163000,
+    "author": "Tony Li",
+    "text": "Me too. I'm guessing the mic is picking up the in-room speakers.<br/>"
+  },
+  {
+    "dtime": 203000,
+    "ptime": 203000,
+    "author": "Tony Przygienda",
+    "text": "take a cavernous room, 3 people in it, prototype voice IETF tool and here ye' go ...<br/>"
+  },
+  {
+    "dtime": 229000,
+    "ptime": 229000,
+    "author": "Tony Li",
+    "text": "I don't think it's the tool.<br/>"
+  },
+  {
+    "dtime": 375000,
+    "ptime": 375000,
+    "author": "Tony Przygienda",
+    "text": "good encoder should kill it or have option but agree, unlikely, it's mostly acustics ... bunch of perforareted pannels or at least wooly carpet on the floor would kill it. anyway ... ;-)<br/>"
+  },
+  {
+    "dtime": 432000,
+    "ptime": 432000,
+    "author": "Joel Halpern",
+    "text": "Reminder that folks in the room should uses the in room tool to queue.<br/>"
+  },
+  {
+    "dtime": 619000,
+    "ptime": 619000,
+    "author": "Tony Li",
+    "text": "Turning off the in-room speakers would probably do it.<br/>"
+  },
+  {
+    "dtime": 646000,
+    "ptime": 646000,
+    "author": "Tony Li",
+    "text": "Better yet, a more directional mic.<br/>"
+  },
+  {
+    "dtime": 672000,
+    "ptime": 672000,
+    "author": "Joel Halpern",
+    "text": "If they turn off the in-room speaker, people in the room (assume there were a decent number of them (not this case) would have trouble hearing.<br/>"
+  },
+  {
+    "dtime": 711000,
+    "ptime": 711000,
+    "author": "Tony Li",
+    "text": "I think 10 feet would be ok. :) But they would have trouble hearing remote people, so ok, that doesn't work.<br/>"
+  },
+  {
+    "dtime": 866000,
+    "ptime": 866000,
+    "author": "Tony Li",
+    "text": "Notice that this mic has less echo.<br/>"
+  },
+  {
+    "dtime": 889000,
+    "ptime": 889000,
+    "author": "Susan Hares",
+    "text": "Keyur - which draft did you promise I would look at?<br/>"
+  },
+  {
+    "dtime": 961000,
+    "ptime": 961000,
+    "author": "Joel Halpern",
+    "text": "Keyur, you can lower your hand :-)<br/>"
+  },
+  {
+    "dtime": 1715000,
+    "ptime": 1715000,
+    "author": "Jeffrey Haas",
+    "text": "I will follow up to email, Jorge, but the issue with RD rewrite is that you must be very careful about loop prevention.&nbsp;&nbsp;The route no longer has the same key and can loop across domains when you transform route from RD1 to RD2.<br/>"
+  },
+  {
+    "dtime": 1762000,
+    "ptime": 1762000,
+    "author": "Jeffrey Haas",
+    "text": "The question was whether this procedure is done anywhere else in bess procedures.<br/>"
+  },
+  {
+    "dtime": 3014000,
+    "ptime": 3014000,
+    "author": "Joel Halpern",
+    "text": "That is impressive audio breakup.<br/>"
+  },
+  {
+    "dtime": 3029000,
+    "ptime": 3029000,
+    "author": "Tony Li",
+    "text": "Buffer bloat?<br/>"
+  },
+  {
+    "dtime": 3050000,
+    "ptime": 3050000,
+    "author": "Haibo Wang",
+    "text": "I CAN HERE<br/>"
+  },
+  {
+    "dtime": 3051000,
+    "ptime": 3051000,
+    "author": "Jorge Rabadan",
+    "text": "Thanks @Jeff. We are suggesting the use of D-PATH to identify loops... I agree with your statement, hence the use of D-PATH is needed...<br/>"
+  },
+  {
+    "dtime": 3132000,
+    "ptime": 3132000,
+    "author": "Jeffrey Haas",
+    "text": "Understood, Jorge.&nbsp;&nbsp;I'll review it in that context.&nbsp;&nbsp;The general issue is when you transform routes, it can be problematic even if you're not otherwise losing path loop detection.&nbsp;&nbsp;Such detection is usually only helpful when you have routes that remain comparable.<br/>"
+  },
+  {
+    "dtime": 3331000,
+    "ptime": 3331000,
+    "author": "Jorge Rabadan",
+    "text": "OK, let us know if you see any issues with the use of D-PATH in this context. We think it should be enough for a given ethernet tag id, which is part of the key and what it is used at the evpn level to program the data path..<br/>"
+  },
+  {
+    "dtime": 3454000,
+    "ptime": 3454000,
+    "author": "Jim Uttaro",
+    "text": "D-PATH is/was intended to provide loop protection when state was being advertised between signaling domains. That semantic seems to be overloaded here to accomplish service considerations in certain topologies. Do I have that right?<br/>"
+  },
+  {
+    "dtime": 3635000,
+    "ptime": 3635000,
+    "author": "Jorge Rabadan",
+    "text": "@Jim, in a way it is the same thing, loop protection, only for EVPN L2 services, instead of IP-VRFs that was the original spec<br/>"
+  },
+  {
+    "dtime": 3699000,
+    "ptime": 3699000,
+    "author": "Jim Uttaro",
+    "text": "I will take a read on the drat and comment on the list.. Thanks<br/>"
+  },
+  {
+    "dtime": 3732000,
+    "ptime": 3732000,
+    "author": "Jorge Rabadan",
+    "text": "thanks!<br/>"
+  },
+  {
+    "dtime": 4282000,
+    "ptime": 4282000,
+    "author": "Joel Halpern",
+    "text": "If this draft is defining the endpoint behaviors, shouldn't it at least be socialized (if not managed) in SPRING?<br/>"
+  },
+  {
+    "dtime": 4349000,
+    "ptime": 4349000,
+    "author": "Dan Voyer",
+    "text": "@Joel, perhaps the archtiecture draft<br/>"
+  },
+  {
+    "dtime": 4434000,
+    "ptime": 4434000,
+    "author": "Joel Halpern",
+    "text": "#Dan I have tried reading the dmm architecture draft.&nbsp;&nbsp;That looks like it is careful to describe the mobile approach (and seems to avoid changing the 3GPP architecture.)&nbsp;&nbsp;As such, I would expect that to belong in DMM.&nbsp;&nbsp;It is the behavior definition that spring usually discusses.<br/>"
+  },
+  {
+    "dtime": 4503000,
+    "ptime": 4503000,
+    "author": "Tony Przygienda",
+    "text": "keyur is arguing well. if 3GPP wants to be carried over IP it's kind of interesting to talk \"how\". whether it's SRv6 or some tunnel or BGP signalling is arguably to be argued ;-)<br/>"
+  },
+  {
+    "dtime": 4537000,
+    "ptime": 4537000,
+    "author": "Tony Przygienda",
+    "text": "now how \"BGP is a fabric\" here eludes me ;-)<br/>"
+  },
+  {
+    "dtime": 4588000,
+    "ptime": 4588000,
+    "author": "Tony Li",
+    "text": "Yeah, BGP is a dump truck, not a fabric.<br/>"
+  },
+  {
+    "dtime": 4612000,
+    "ptime": 4612000,
+    "author": "Joel Halpern",
+    "text": "@Tony Li :-)<br/>"
+  },
+  {
+    "dtime": 4699000,
+    "ptime": 4699000,
+    "author": "Gyan Mishra",
+    "text": "Keyur have you worked with the IETF 3GPP liaison for this solution that 3GPP is open to this solution<br/>"
+  },
+  {
+    "dtime": 4791000,
+    "ptime": 4791000,
+    "author": "Keyur Patel",
+    "text": "I havent as of now and reason was as Tony P said. No changes to 3gpp<br/>"
+  },
+  {
+    "dtime": 4829000,
+    "ptime": 4829000,
+    "author": "Keyur Patel",
+    "text": "@Tony L :&nbsp;&nbsp;:)<br/>"
+  },
+  {
+    "dtime": 4861000,
+    "ptime": 4861000,
+    "author": "Keyur Patel",
+    "text": "@Joel: Happy to do that if needed<br/>"
+  },
+  {
+    "dtime": 4927000,
+    "ptime": 4927000,
+    "author": "Tony Przygienda",
+    "text": "closer to mike, echo is killing the sound<br/>"
+  },
+  {
+    "dtime": 4934000,
+    "ptime": 4934000,
+    "author": "Joel Halpern",
+    "text": "@Keyur for now, please ssend a notice about the behavior definition drafts to the spring list.&nbsp;&nbsp;Thanks.<br/>"
+  },
+  {
+    "dtime": 4950000,
+    "ptime": 4950000,
+    "author": "Keyur Patel",
+    "text": "ack will do<br/>"
+  },
+  {
+    "dtime": 4953000,
+    "ptime": 4953000,
+    "author": "Keyur Patel",
+    "text": "thanks<br/>"
+  },
+  {
+    "dtime": 5976000,
+    "ptime": 5976000,
+    "author": "Jeffrey Haas",
+    "text": "Please note there's a bess-sbfd thread on the bfd mail list:<a href=\"https://mailarchive.ietf.org/arch/msg/rtg-bfd/Weo6kjz6uohx4fGNTygoonNoD-c/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/msg/rtg-bfd/Weo6kjz6uohx4fGNTygoonNoD-c/</a><br/>"
+  },
+  {
+    "dtime": 6766000,
+    "ptime": 6766000,
+    "author": "Daniam Henriques",
+    "text": ":<br/>"
+  },
+  {
+    "dtime": 6783000,
+    "ptime": 6783000,
+    "author": "Tony Li",
+    "text": "Just a wee bit o' echo.<br/>"
+  },
+  {
+    "dtime": 6788000,
+    "ptime": 6788000,
+    "author": "Andrew Alston",
+    "text": "OUCH<br/>"
+  },
+  {
+    "dtime": 6790000,
+    "ptime": 6790000,
+    "author": "Martin Vigoureux",
+    "text": "submarine like echo<br/>"
+  },
+  {
+    "dtime": 6809000,
+    "ptime": 6809000,
+    "author": "Andrew Alston",
+    "text": "wow that was headache inducing :)<br/>"
+  },
+  {
+    "dtime": 6829000,
+    "ptime": 6829000,
+    "author": "Jeffrey Haas",
+    "text": "It's at times like these that I give side-eye to all of the people that claim that modern codecs can handle open-air mics.<br/>"
+  },
+  {
+    "dtime": 6849000,
+    "ptime": 6849000,
+    "author": "Andrew Alston",
+    "text": ":) He needs to go headset on his side to avoid the feedback I think<br/>"
+  },
+  {
+    "dtime": 6858000,
+    "ptime": 6858000,
+    "author": "Jeffrey Haas",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 7377000,
+    "ptime": 7377000,
+    "author": "Jie Dong",
+    "text": "thank you<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-BESS-20220321-0900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/bess"
+		}
+	]
+}

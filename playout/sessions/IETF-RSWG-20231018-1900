@@ -1,0 +1,798 @@
+
+{
+	"title": "IETF-RSWG-20231018-1900",
+	"filename": "IETF-RSWG-20231018-1900",
+	"start": 0,
+	"end": 3559000,
+	"start_datetime": "2023-10-18T19:01:23Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "UQ-FIIrmJYU",
+    "start": 0,
+    "end": "3559000"
+  }
+],
+	"messages": [
+  {
+    "author": "John Levine",
+    "text": "<p>link to hedgedoc?</p>",
+    "topic": "ietf-interim",
+    "dtime": 168000,
+    "ptime": 168000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2023-rswg-03-rswg\">https://notes.ietf.org/notes-ietf-interim-2023-rswg-03-rswg#</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 180000,
+    "ptime": 180000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Agree with John.  XML exists so that we're able to (re)generate different presentations of the agreed semantics.</p>",
+    "topic": "ietf-interim",
+    "dtime": 418000,
+    "ptime": 418000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(note that there is a tool to generate epub from rfcxml)</p>",
+    "topic": "ietf-interim",
+    "dtime": 429000,
+    "ptime": 429000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>audiobook?</p>",
+    "topic": "ietf-interim",
+    "dtime": 448000,
+    "ptime": 448000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>I totally want Tom Hanks reading my RFC to others!</p>",
+    "topic": "ietf-interim",
+    "dtime": 467000,
+    "ptime": 467000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Aside from this stupid* thing where someone might want to protect the use of their voice/likeness, AI can deliver your dream already.</p>",
+    "topic": "ietf-interim",
+    "dtime": 509000,
+    "ptime": 509000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>clarifying question</p>",
+    "topic": "ietf-interim",
+    "dtime": 517000,
+    "ptime": 517000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I would <em>like</em> that to be the case, but I don't think that we need to retroactively change RFC XML.</p>",
+    "topic": "ietf-interim",
+    "dtime": 677000,
+    "ptime": 677000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>If we don't change the old XML, that means we are committing to support multiple rendering tools?</p>",
+    "topic": "ietf-interim",
+    "dtime": 716000,
+    "ptime": 716000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"9\">@Robert Sparks</span>  , what were the tightly coupled things to which you referred?</p>",
+    "topic": "ietf-interim",
+    "dtime": 728000,
+    "ptime": 728000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I don't think that is necessarily the case John.  Say we add a math tag.  That could only be used in new RFCs.</p>",
+    "topic": "ietf-interim",
+    "dtime": 752000,
+    "ptime": 752000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>I would expect that once we fixed the actual bugs in v3, most future changes will be <em>extensions</em>, so wouldn't require changes to old docs.</p>",
+    "topic": "ietf-interim",
+    "dtime": 762000,
+    "ptime": 762000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>Until we get to v4</p>",
+    "topic": "ietf-interim",
+    "dtime": 776000,
+    "ptime": 776000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>@julian that would be my hope too</p>",
+    "topic": "ietf-interim",
+    "dtime": 779000,
+    "ptime": 779000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Of course, a math tag would be great for RFC 9438, so we might decide to backport such a change too.</p>",
+    "topic": "ietf-interim",
+    "dtime": 785000,
+    "ptime": 785000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>additions that are backward compatible are fine; we've been doing that all along</p>",
+    "topic": "ietf-interim",
+    "dtime": 818000,
+    "ptime": 818000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>I fully agree with Paul</p>",
+    "topic": "ietf-interim",
+    "dtime": 821000,
+    "ptime": 821000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<blockquote>\n<p>@Robert Sparks , what were the tightly coupled things to which you referred?</p>\n</blockquote>\n<p>changing the grammar for future rfcs vs making already published rfcs match the newly defined grammar</p>",
+    "topic": "ietf-interim",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>My sense is that there are some simple rules we can follow: if we can fix existing RFCs easily, then maybe we might decide to do that.  The number of RFCs affected won't matter.</p>",
+    "topic": "ietf-interim",
+    "dtime": 989000,
+    "ptime": 989000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>Jay is getting my point.</p>",
+    "topic": "ietf-interim",
+    "dtime": 998000,
+    "ptime": 998000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>If we decide that fixing existing RFCs is difficult, we might decide not to.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1023000,
+    "ptime": 1023000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Martin +1</p>",
+    "topic": "ietf-interim",
+    "dtime": 1034000,
+    "ptime": 1034000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>If we can get along with a single version of HTML, why would we need more versions of RFCXML?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1059000,
+    "ptime": 1059000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That's a very good point Julian.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1087000,
+    "ptime": 1087000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that we can manage that, but I don't want to pretend that it is always possible.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1115000,
+    "ptime": 1115000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>But we don't have a single version of HTML.  People who wrote web pages 10 years ago and no longer maintain them are not going back to rewrite them in the latest HTML</p>",
+    "topic": "ietf-interim",
+    "dtime": 1134000,
+    "ptime": 1134000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>@martin yes, that is what I had in mind</p>",
+    "topic": "ietf-interim",
+    "dtime": 1147000,
+    "ptime": 1147000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Jay: but they still render properly.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1164000,
+    "ptime": 1164000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>Because the tools support multiple versions</p>",
+    "topic": "ietf-interim",
+    "dtime": 1187000,
+    "ptime": 1187000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>@julian only due to vast efforts in web browsers</p>",
+    "topic": "ietf-interim",
+    "dtime": 1191000,
+    "ptime": 1191000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>I can live with v3 and v4, but not v3.1, 3.2, 3.3, ...<br>\nLarge changes can break, but what we're talking about so far is small</p>",
+    "topic": "ietf-interim",
+    "dtime": 1228000,
+    "ptime": 1228000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yes, there are deprecated elements in HTML, but there is just a single process.  I don't think that we need to adhere so strictly to the idea that every HTML page ever written works, but we should make every break deliberate.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Do we have a large, backwards-incompatible change on the table?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1266000,
+    "ptime": 1266000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<blockquote>\n<p>Jay: but they still render properly.<br>\nNot so. Some subset of what they wrote might, but browsers have changed behaviors in ways that left things behind.</p>\n</blockquote>",
+    "topic": "ietf-interim",
+    "dtime": 1271000,
+    "ptime": 1271000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"350\">@Eliot Lear</span> , I could use some filling in to the notes for what you just said.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1286000,
+    "ptime": 1286000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I was looking at frameset in HTML yesterday.  If we made a similar decision in RFC XML, maybe we'd have to decide to cut those loose at some point.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1287000,
+    "ptime": 1287000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<blockquote>\n<p>Do we have a large, backwards-incompatible change on the table?</p>\n</blockquote>\n<p>To the XML - one at leas t- where we keep the document name.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1309000,
+    "ptime": 1309000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>(frameset is deprecated, but it still works in browsers)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1320000,
+    "ptime": 1320000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Robert: modern tools would be able to process both; only old tools would be broken</p>",
+    "topic": "ietf-interim",
+    "dtime": 1358000,
+    "ptime": 1358000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>Sure - just answering Julian</p>",
+    "topic": "ietf-interim",
+    "dtime": 1392000,
+    "ptime": 1392000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>nitpick on Jay's point: the ordering won't change</p>",
+    "topic": "ietf-interim",
+    "dtime": 1435000,
+    "ptime": 1435000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>FWIW, I happen to disagree with Robert (do you have an example of things broken in HTML in the last 10 years?)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1440000,
+    "ptime": 1440000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Pete: my answer is \"yes\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1601000,
+    "ptime": 1601000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>Probably things older than 10 years ago, but I think we should move that offline</p>",
+    "topic": "ietf-interim",
+    "dtime": 1601000,
+    "ptime": 1601000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>+1 to Julian</p>",
+    "topic": "ietf-interim",
+    "dtime": 1715000,
+    "ptime": 1715000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>Paul - Here's a way to see this.  in 20 years we might be in a position where we have RFCs in a version of RFCXML that is no longer supported by the tools (I think we are coalescing on that acceptance) .  At that point, the rendering and the XML in the same PDF are nothing more than a promise that from one you can get to another.  If that's an endpoint, then we might as well start with that.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1730000,
+    "ptime": 1730000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>To Julian's point about renderings, please read the appendix of my draft: <a href=\"https://martinthomson.github.io/rfc-syntax-change/draft-thomson-rswg-syntax-change.html#appendix-A\">https://martinthomson.github.io/rfc-syntax-change/draft-thomson-rswg-syntax-change.html#appendix-A</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 1768000,
+    "ptime": 1768000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(the change in xml2rfc broke certain definition lists, and I did notice with my test set, just too late)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1903000,
+    "ptime": 1903000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Can we please separate re-rendering from re-publication?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1925000,
+    "ptime": 1925000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>at extensible: we aren't using namespaces well yet.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1953000,
+    "ptime": 1953000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Eliot: I think that we need to resolve this question because some people are of the impression that re-rendering is bad.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1960000,
+    "ptime": 1960000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"350\">@Eliot Lear</span> : Can you define what you mean by those two terms.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1960000,
+    "ptime": 1960000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Sure- let me take the mic on that point</p>",
+    "topic": "ietf-interim",
+    "dtime": 1980000,
+    "ptime": 1980000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Robert: read what the HTML people say about namespaces before you decide that they are good</p>",
+    "topic": "ietf-interim",
+    "dtime": 1981000,
+    "ptime": 1981000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>ok - pointer please - and specifically, in the strawman of providing cues for audiobooks, would you not use a namespace?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2050000,
+    "ptime": 2050000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"https://github.com/whatwg/html/blob/main/FAQ.md#what-about-namespaces-in-html\">https://github.com/whatwg/html/blob/main/FAQ.md#what-about-namespaces-in-html</a> <a href=\"https://wiki.whatwg.org/wiki/Why_no_namespaces\">https://wiki.whatwg.org/wiki/Why_no_namespaces</a> (the latter is amazingly slow)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2137000,
+    "ptime": 2137000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>reftests for PDF are possible, but I think that this idea that we need PDFs to be zero risk is silly when we have no guarantee that they are zero risk today</p>",
+    "topic": "ietf-interim",
+    "dtime": 2221000,
+    "ptime": 2221000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>(on quick skim - those say namespaces in xml is great - namespaces in html is not great. Fine - I was talking about namespaces in xml for extending RFCXML, but that wouldn't mean namespaces in the html necessarily. Will read more after.)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2256000,
+    "ptime": 2256000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>Today, each PDF is manually read and checked by at least the RPC.  We cannot do that with 1000+ PDFs at once</p>",
+    "topic": "ietf-interim",
+    "dtime": 2272000,
+    "ptime": 2272000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I have written a few RFCs and I use HTML and check TXT.  I have never checked PDFs.  Am I trusting the RPC as a result?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2367000,
+    "ptime": 2367000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 2375000,
+    "ptime": 2375000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>See, that is just as risky as the sorts of things you are talking about.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2394000,
+    "ptime": 2394000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Small risks, well managed.  Not zero risk.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2415000,
+    "ptime": 2415000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>No it isn't - there's a gulf betwen a professional whose job it is to read it, who has worked on the document in details, and nobody reading it at all because we republished 1000 at once</p>",
+    "topic": "ietf-interim",
+    "dtime": 2467000,
+    "ptime": 2467000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>+1 to Paul re PDF</p>",
+    "topic": "ietf-interim",
+    "dtime": 2544000,
+    "ptime": 2544000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>out there question, but not entirely unserious: can we stop publishing pdf?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2648000,
+    "ptime": 2648000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>It's a better way to read offline than the plain text format</p>",
+    "topic": "ietf-interim",
+    "dtime": 2760000,
+    "ptime": 2760000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>The question these days is how many people print out RFCs rather than on a tablet or phone? Also, you can print the HTML and it's not a whole lot worse than the PDF.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2809000,
+    "ptime": 2809000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Jay: just off-line or \"on paper\"?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2850000,
+    "ptime": 2850000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The PDFs are in effect the output of a printer.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2857000,
+    "ptime": 2857000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>So the \"Download PDF\" button could just invoke the print function?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2859000,
+    "ptime": 2859000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>HTML can be read of-line just fine</p>",
+    "topic": "ietf-interim",
+    "dtime": 2864000,
+    "ptime": 2864000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>f</p>",
+    "topic": "ietf-interim",
+    "dtime": 2869000,
+    "ptime": 2869000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>If browsers had proper paged media support, then yes. we could just \"print\" the HTML</p>",
+    "topic": "ietf-interim",
+    "dtime": 2909000,
+    "ptime": 2909000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Most browsers have a \"Save to PDF\" feature, which is just an invocation of their print functions.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2914000,
+    "ptime": 2914000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(My apologies for not catching everything in the notes; watching what's going on here too.)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2949000,
+    "ptime": 2949000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>So we're all agreed we don't need to publish the PDF version any more?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(browsers lack support for many CSS paged media features, sich as headers / footers or inserting page numbers)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2967000,
+    "ptime": 2967000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>There are missing features in browsers, mostly around widow/orphan control, but they do have some paged media functions now.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2982000,
+    "ptime": 2982000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Jay: I would be ok with that</p>",
+    "topic": "ietf-interim",
+    "dtime": 2983000,
+    "ptime": 2983000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>There are people who believe PDF/A is a good archive format.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2987000,
+    "ptime": 2987000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Martin: counters/headers/footers...</p>",
+    "topic": "ietf-interim",
+    "dtime": 3002000,
+    "ptime": 3002000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>I'm fine with dumping PDF, but I also believe that we can support it as a least-important output format.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3062000,
+    "ptime": 3062000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>+1 to Eliot re \"obsoletes\" over \"updates\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3085000,
+    "ptime": 3085000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>No no!  Humishment!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3132000,
+    "ptime": 3132000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>I don't understand what differences you mean?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3137000,
+    "ptime": 3137000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>About what?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3199000,
+    "ptime": 3199000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>I leaned toward Jay but I could flip my bit with some good parameters around changes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3240000,
+    "ptime": 3240000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>I think the question was too vague to really give us useful input</p>",
+    "topic": "ietf-interim",
+    "dtime": 3252000,
+    "ptime": 3252000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>\"Do we always have to re-render all the publication formats when the underlying XML changes?\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3257000,
+    "ptime": 3257000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Eliot: please send pull requests - I attempted to put those parameters in place, but could always do better.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3279000,
+    "ptime": 3279000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Robert: I agree, re: vagueness</p>",
+    "topic": "ietf-interim",
+    "dtime": 3290000,
+    "ptime": 3290000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Jay: \"always have to\" is absolute.  My draft does not take that position.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3311000,
+    "ptime": 3311000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>My impression is that we've been going in circles about these issues for a long time, and it would be good to break that circle somehow</p>",
+    "topic": "ietf-interim",
+    "dtime": 3319000,
+    "ptime": 3319000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Yean, Martin, I thought you responded positively to me the last time around, and that was good.  And I don't think the current text REQUIRES rerendering.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3376000,
+    "ptime": 3376000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>+1 Julian</p>",
+    "topic": "ietf-interim",
+    "dtime": 3388000,
+    "ptime": 3388000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>@jay I think we need to rerender them all internally to look for breakage, but not necessarily ship the new ones.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3388000,
+    "ptime": 3388000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that this can just be a decision we make with full understanding of the circumstances.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3409000,
+    "ptime": 3409000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>For example, my view is that the address change would result in changes to the PDF only.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3443000,
+    "ptime": 3443000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>(only because of the XML embedding)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3463000,
+    "ptime": 3463000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>@martin do you mean the attached XML or something else?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3469000,
+    "ptime": 3469000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>Ah</p>",
+    "topic": "ietf-interim",
+    "dtime": 3473000,
+    "ptime": 3473000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>:)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3476000,
+    "ptime": 3476000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>\"The software says that the stuff nobody looked at is ok\" is not without risk</p>",
+    "topic": "ietf-interim",
+    "dtime": 3478000,
+    "ptime": 3478000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Thank you chairs, thank you all!  Good discussion</p>",
+    "topic": "ietf-interim",
+    "dtime": 3493000,
+    "ptime": 3493000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>risk is there to be managed, not eliminated</p>",
+    "topic": "ietf-interim",
+    "dtime": 3506000,
+    "ptime": 3506000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>gotta bounce, as the kids say</p>",
+    "topic": "ietf-interim",
+    "dtime": 3523000,
+    "ptime": 3523000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>thanks chairs</p>",
+    "topic": "ietf-interim",
+    "dtime": 3540000,
+    "ptime": 3540000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-RSWG-20231018-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-rswg-03/session/rswg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-RSWG-20231018-1900"
+		}
+	]
+}

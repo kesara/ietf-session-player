@@ -1,0 +1,968 @@
+{
+  "title": "IETF106-SECDISPATCH-20191119-1710",
+  "filename": "IETF106-SECDISPATCH-20191119-1710",
+  "start": 0,
+  "end": 5502000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "CYBhLQ0-fwE",
+      "start": 0.0,
+      "end": 5502000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Greetings!",
+      "ptime": 8000.0,
+      "dtime": 357000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "***John Border just joined the room",
+      "ptime": 21000.0,
+      "dtime": 370000.0
+    },
+    {
+      "text": "***Jim Schaad just joined the room",
+      "ptime": 34000.0,
+      "dtime": 383000.0
+    },
+    {
+      "text": "***Frederic Fieau just joined the room",
+      "ptime": 61000.0,
+      "dtime": 410000.0
+    },
+    {
+      "text": "***Yoav Nir just joined the room",
+      "ptime": 67000.0,
+      "dtime": 416000.0
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 82000.0,
+      "dtime": 431000.0
+    },
+    {
+      "text": "Good afternoon!  I\u0027ll be your jabber scribe for this session.  If you have something you\u0027d like echoed at the into the room, please preface it with \"mic:\"",
+      "ptime": 153000.0,
+      "dtime": 502000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Minutes being taken at http://4.31.198.44:9009/p/notes-ietf-106-secdispatch",
+      "ptime": 171000.0,
+      "dtime": 520000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "I was pretty sure that the z in oyez was not silent",
+      "ptime": 194000.0,
+      "dtime": 543000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Alex Davidson just joined the room",
+      "ptime": 281000.0,
+      "dtime": 630000.0
+    },
+    {
+      "text": "***Frederic Fieau just left the room",
+      "ptime": 330000.0,
+      "dtime": 679000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 330000.0,
+      "dtime": 679000.0
+    },
+    {
+      "text": "***Frederic Fieau just joined the room",
+      "ptime": 364000.0,
+      "dtime": 713000.0
+    },
+    {
+      "text": "i believe the proper plural is `signersInfo`",
+      "ptime": 479000.0,
+      "dtime": 828000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "No the plural is singerInfos",
+      "ptime": 534000.0,
+      "dtime": 883000.0,
+      "author": "Jim Schaad"
+    },
+    {
+      "text": "?????",
+      "ptime": 562000.0,
+      "dtime": 911000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "***Joseph Heenan just joined the room",
+      "ptime": 572000.0,
+      "dtime": 921000.0
+    },
+    {
+      "text": "sorry, ??????",
+      "ptime": 584000.0,
+      "dtime": 933000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "Well really:)",
+      "ptime": 629000.0,
+      "dtime": 978000.0,
+      "author": "Jim Schaad"
+    },
+    {
+      "text": "??????",
+      "ptime": 735000.0,
+      "dtime": 1084000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "?",
+      "ptime": 801000.0,
+      "dtime": 1150000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "we should get a giant hourglass and have someone in the front row operate it",
+      "ptime": 822000.0,
+      "dtime": 1171000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "I don\u0027t get the \"false sense of security\" issue with solution #2. If a certificate has one valid signature (with whatever algorithm) and the RP is willing to accept a certificate with this algorithm, then what is the problem?  If it\u0027s time to not accept RSA signatures then all RPs need to stop accepting them regardless of whether they support other algorithms",
+      "ptime": 898000.0,
+      "dtime": 1247000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "(Rich are you using the etherpad for the minutes or not?)",
+      "ptime": 918000.0,
+      "dtime": 1267000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "(Rich told me he was using the etherpad)",
+      "ptime": 957000.0,
+      "dtime": 1306000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "***Kobi Gurkan just joined the room",
+      "ptime": 970000.0,
+      "dtime": 1319000.0
+    },
+    {
+      "text": "The \"false sense of security\" argument is, for example, in an audited environment, it can be hard to prove that all clients are validating the PQ keys / sigs. Because the extn is non-critical, the behaviour is the same whether they validated it or not.",
+      "ptime": 1009000.0,
+      "dtime": 1358000.0,
+      "author": "Mike Ounsworth"
+    },
+    {
+      "text": "***Joseph Heenan just left the room",
+      "ptime": 1029000.0,
+      "dtime": 1378000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1029000.0,
+      "dtime": 1378000.0
+    },
+    {
+      "text": "***Joseph Heenan just joined the room",
+      "ptime": 1031000.0,
+      "dtime": 1380000.0
+    },
+    {
+      "text": "OK. Thanks.",
+      "ptime": 1085000.0,
+      "dtime": 1434000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Still, since you have to update all RPs anyway, the only difference is whether we have to update them all *now* (as we would need to do solution #3) or allow it to be done over time, and at some point make the extensions critical, when your audited environment is ready.",
+      "ptime": 1179000.0,
+      "dtime": 1528000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Mic: we\u0027ll not trying to argue the solution; we\u0027re looking for where we should design the solution",
+      "ptime": 1179000.0,
+      "dtime": 1528000.0,
+      "author": "Scott Fluhrer"
+    },
+    {
+      "text": "Mic line is closed, sorry",
+      "ptime": 1202000.0,
+      "dtime": 1551000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "Scott Fluhrer: I\u0027ll try to get it into the room, but I think the chairs cut the line already",
+      "ptime": 1223000.0,
+      "dtime": 1572000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "N.P.",
+      "ptime": 1223000.0,
+      "dtime": 1572000.0,
+      "author": "Scott Fluhrer"
+    },
+    {
+      "text": "n/m",
+      "ptime": 1230000.0,
+      "dtime": 1579000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Yes, as I wrote earlier: http://4.31.198.44:9009/p/notes-ietf-106-secdispatch (etherpad.ietf.org redirect)",
+      "ptime": 1234000.0,
+      "dtime": 1583000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Rich thanks :)",
+      "ptime": 1249000.0,
+      "dtime": 1598000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "#3 requires you to update RPs now at least to understand the composite message format. Support for the final form of NIST primitives can come staged.",
+      "ptime": 1280000.0,
+      "dtime": 1629000.0,
+      "author": "Mike Ounsworth"
+    },
+    {
+      "text": "LAMPS sent this here because it wasn",
+      "ptime": 1351000.0,
+      "dtime": 1700000.0,
+      "author": "Daniel Van Geest"
+    },
+    {
+      "text": "\u0027t \"L\" enough",
+      "ptime": 1362000.0,
+      "dtime": 1711000.0,
+      "author": "Daniel Van Geest"
+    },
+    {
+      "text": "Nothing like a URL with no SSL and a dotted-decimal address. Who needs TLS and DNS?",
+      "ptime": 1398000.0,
+      "dtime": 1747000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Scott Fluhrer just left the room",
+      "ptime": 1445000.0,
+      "dtime": 1794000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1445000.0,
+      "dtime": 1794000.0
+    },
+    {
+      "text": "At least, the debate about which category of solution to take was not \"L\" enough. Maybe a minimalistic version of composite could be?",
+      "ptime": 1457000.0,
+      "dtime": 1806000.0,
+      "author": "Mike Ounsworth"
+    },
+    {
+      "text": "LAMPS hasn\u0027t really been \"L\" for a while",
+      "ptime": 1491000.0,
+      "dtime": 1840000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "future presenters: please keep the presentation short so we can have more discussion :)",
+      "ptime": 1495000.0,
+      "dtime": 1844000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "future chairs: please request more meeting time :)",
+      "ptime": 1544000.0,
+      "dtime": 1893000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "noted.",
+      "ptime": 1570000.0,
+      "dtime": 1919000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "And they\u0027re pushing back against that (finally?). They don\u0027t want it becoming PKIXv2",
+      "ptime": 1577000.0,
+      "dtime": 1926000.0,
+      "author": "Daniel Van Geest"
+    },
+    {
+      "text": "We should have known. It\u0027s the same L as in LDAP.  The S in SMTP didn\u0027t work so well either. Doesn\u0027t bode well for LAKE",
+      "ptime": 1584000.0,
+      "dtime": 1933000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "oh hi kathleen!  ?",
+      "ptime": 1598000.0,
+      "dtime": 1947000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "Hi Richard!",
+      "ptime": 1609000.0,
+      "dtime": 1958000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "thanks for waking up early!",
+      "ptime": 1626000.0,
+      "dtime": 1975000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "Time was based on it being okay the last time, but Vancouver is likely to have more demand.",
+      "ptime": 1653000.0,
+      "dtime": 2002000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "Yep, had RATS before this and am a chair for that too.",
+      "ptime": 1668000.0,
+      "dtime": 2017000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "it\u0027s hard being popular",
+      "ptime": 1673000.0,
+      "dtime": 2022000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "ha",
+      "ptime": 1678000.0,
+      "dtime": 2027000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "Yeah... it\u0027s a rough meeting time for US remote folks. No pressure, but it better be worth it. :D",
+      "ptime": 1710000.0,
+      "dtime": 2059000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "***Michele Orru just left the room",
+      "ptime": 1725000.0,
+      "dtime": 2074000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1725000.0,
+      "dtime": 2074000.0
+    },
+    {
+      "text": "Ha, agreed Chris!",
+      "ptime": 1727000.0,
+      "dtime": 2076000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "If Brian doesn\u0027t get tp speak, his cover slide should be shown.  Amazing picture if nothing else makes it worth it for you Chris.",
+      "ptime": 1766000.0,
+      "dtime": 2115000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "Heh. Nice",
+      "ptime": 1781000.0,
+      "dtime": 2130000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "just to cue everyone up: chairs are going to propose this is a new focused WG if anything",
+      "ptime": 1781000.0,
+      "dtime": 2130000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "***Frederic Fieau just left the room",
+      "ptime": 1795000.0,
+      "dtime": 2144000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1795000.0,
+      "dtime": 2144000.0
+    },
+    {
+      "text": "***Frederic Fieau just joined the room",
+      "ptime": 1892000.0,
+      "dtime": 2241000.0
+    },
+    {
+      "text": "***Chris Lemmons just left the room",
+      "ptime": 1970000.0,
+      "dtime": 2319000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 1970000.0,
+      "dtime": 2319000.0
+    },
+    {
+      "text": "***Chris Lemmons just joined the room",
+      "ptime": 2105000.0,
+      "dtime": 2454000.0
+    },
+    {
+      "text": "That\u0027s something for the TLS WG to do, no?  (and other RPs like IKE)",
+      "ptime": 2180000.0,
+      "dtime": 2529000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "i did\u0027nt expect this to be a blockchain talk!",
+      "ptime": 2270000.0,
+      "dtime": 2619000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "needs to be ballpoint for the carbon paper to work",
+      "ptime": 2303000.0,
+      "dtime": 2652000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "Not if you press your fountain pen hard enough",
+      "ptime": 2327000.0,
+      "dtime": 2676000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "What about my quill?",
+      "ptime": 2447000.0,
+      "dtime": 2796000.0,
+      "author": "Jim Schaad"
+    },
+    {
+      "text": "***Michele Orr? just joined the room",
+      "ptime": 2481000.0,
+      "dtime": 2830000.0
+    },
+    {
+      "text": "IDK. Quills do not support RTL text for right-handed people",
+      "ptime": 2506000.0,
+      "dtime": 2855000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Richiard, there\u0027s no blockchain",
+      "ptime": 2533000.0,
+      "dtime": 2882000.0,
+      "author": "Michele Orr?"
+    },
+    {
+      "text": "joking",
+      "ptime": 2548000.0,
+      "dtime": 2897000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "It\u0027s not *this* kind or cash :)",
+      "ptime": 2548000.0,
+      "dtime": 2897000.0,
+      "author": "Kobi Gurkan"
+    },
+    {
+      "text": "lol, okay sorry ^^\"",
+      "ptime": 2570000.0,
+      "dtime": 2919000.0,
+      "author": "Michele Orr?"
+    },
+    {
+      "text": "I support this work, I\u0027d like to see this blind signature based protocol moving forward. Would be willing to participate in a WG",
+      "ptime": 2632000.0,
+      "dtime": 2981000.0,
+      "author": "Kobi Gurkan"
+    },
+    {
+      "text": "Maybe put a \"mic:\" in front if you want that voiced.",
+      "ptime": 2660000.0,
+      "dtime": 3009000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "did anyone understand the name?",
+      "ptime": 2673000.0,
+      "dtime": 3022000.0,
+      "author": "Michele Orr?"
+    },
+    {
+      "text": "leif ?",
+      "ptime": 2676000.0,
+      "dtime": 3025000.0,
+      "author": "Michele Orr?"
+    },
+    {
+      "text": "Leif",
+      "ptime": 2685000.0,
+      "dtime": 3034000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Let me try that",
+      "ptime": 2685000.0,
+      "dtime": 3034000.0,
+      "author": "Kobi Gurkan"
+    },
+    {
+      "text": "Eric Rescorla",
+      "ptime": 2685000.0,
+      "dtime": 3034000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "mic:I support this work, I\u0027d like to see this blind signature based protocol moving forward. Would be willing to participate in a WG",
+      "ptime": 2695000.0,
+      "dtime": 3044000.0,
+      "author": "Kobi Gurkan"
+    },
+    {
+      "text": "in line, Kobi Gurkan",
+      "ptime": 2726000.0,
+      "dtime": 3075000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "Leif Johansson was before Eric",
+      "ptime": 2729000.0,
+      "dtime": 3078000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "and we cut the line after Matt",
+      "ptime": 2744000.0,
+      "dtime": 3093000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Kathleen, thank you!",
+      "ptime": 2744000.0,
+      "dtime": 3093000.0,
+      "author": "Michele Orr?"
+    },
+    {
+      "text": "No problem!",
+      "ptime": 2755000.0,
+      "dtime": 3104000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "sorry we are short on time!",
+      "ptime": 2824000.0,
+      "dtime": 3173000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "get out of line, mark :)",
+      "ptime": 2825000.0,
+      "dtime": 3174000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "we have 3 more minutes of discussion",
+      "ptime": 2851000.0,
+      "dtime": 3200000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "luxury!",
+      "ptime": 2857000.0,
+      "dtime": 3206000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 2940000.0,
+      "dtime": 3289000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 2941000.0,
+      "dtime": 3290000.0
+    },
+    {
+      "text": "***Kobi Gurkan just left the room",
+      "ptime": 3036000.0,
+      "dtime": 3385000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3036000.0,
+      "dtime": 3385000.0
+    },
+    {
+      "text": "***Alex Davidson just left the room",
+      "ptime": 3056000.0,
+      "dtime": 3405000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3056000.0,
+      "dtime": 3405000.0
+    },
+    {
+      "text": "***Michele Orr? just left the room",
+      "ptime": 3071000.0,
+      "dtime": 3420000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3071000.0,
+      "dtime": 3420000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 3096000.0,
+      "dtime": 3445000.0
+    },
+    {
+      "text": "nb: https://tools.ietf.org/html/draft-thomson-http-content-signature-00",
+      "ptime": 3099000.0,
+      "dtime": 3448000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "***Mirja K?hlewind just joined the room",
+      "ptime": 3280000.0,
+      "dtime": 3629000.0
+    },
+    {
+      "text": "***Mirja K?hlewind just left the room",
+      "ptime": 3376000.0,
+      "dtime": 3725000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3376000.0,
+      "dtime": 3725000.0
+    },
+    {
+      "text": "***Massimiliano Pala just joined the room",
+      "ptime": 3393000.0,
+      "dtime": 3742000.0
+    },
+    {
+      "text": "***Massimiliano Pala just left the room",
+      "ptime": 3454000.0,
+      "dtime": 3803000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3454000.0,
+      "dtime": 3803000.0
+    },
+    {
+      "text": "***Massimiliano Pala just joined the room",
+      "ptime": 3454000.0,
+      "dtime": 3803000.0
+    },
+    {
+      "text": "***Andrew S just joined the room",
+      "ptime": 3476000.0,
+      "dtime": 3825000.0
+    },
+    {
+      "text": "***Rolf Sonneveld just joined the room",
+      "ptime": 3530000.0,
+      "dtime": 3879000.0
+    },
+    {
+      "text": "***Massimiliano Pala just left the room",
+      "ptime": 3546000.0,
+      "dtime": 3895000.0
+    },
+    {
+      "text": "***Massimiliano Pala just joined the room",
+      "ptime": 3546000.0,
+      "dtime": 3895000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3546000.0,
+      "dtime": 3895000.0
+    },
+    {
+      "text": "fyi, chairs are going to ask for opinion on dispatching this to http wg",
+      "ptime": 3612000.0,
+      "dtime": 3961000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "The HTTP WG was asking, \"Why isn\u0027t this here?\"",
+      "ptime": 3640000.0,
+      "dtime": 3989000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "***Mirja K?hlewind just joined the room",
+      "ptime": 3680000.0,
+      "dtime": 4029000.0
+    },
+    {
+      "text": "SECDISPATCH extending its reach into ART....",
+      "ptime": 4010000.0,
+      "dtime": 4359000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "NOTHING IS BEYOND OUR REACH https://cdni.rt.com/files/news/21/69/60/00/untitled-1.jpg",
+      "ptime": 4079000.0,
+      "dtime": 4428000.0,
+      "author": "Richard Barnes"
+    },
+    {
+      "text": "***Mirja K?hlewind just left the room",
+      "ptime": 4331000.0,
+      "dtime": 4680000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4332000.0,
+      "dtime": 4681000.0
+    },
+    {
+      "text": "SMART would be the right home, but it\u0027s not a group at this point.  It\u0027s also research to figure out how to best do this.",
+      "ptime": 4605000.0,
+      "dtime": 4954000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "This definitely smells like the IRTF, if anything. Not sure precisely where, though.",
+      "ptime": 4722000.0,
+      "dtime": 5071000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "Not yet a program, by the way; just a mailing list and some musing.",
+      "ptime": 4794000.0,
+      "dtime": 5143000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Joseph Heenan just left the room",
+      "ptime": 4943000.0,
+      "dtime": 5292000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4944000.0,
+      "dtime": 5293000.0
+    },
+    {
+      "text": "***Joseph Heenan just joined the room",
+      "ptime": 4945000.0,
+      "dtime": 5294000.0
+    },
+    {
+      "text": "You\u0027re right. That\u0027s a pretty great picture. :)",
+      "ptime": 4988000.0,
+      "dtime": 5337000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "***Drazen Urch just left the room",
+      "ptime": 4991000.0,
+      "dtime": 5340000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4992000.0,
+      "dtime": 5341000.0
+    },
+    {
+      "text": "***Dragana Damjanovic just joined the room",
+      "ptime": 5007000.0,
+      "dtime": 5356000.0
+    },
+    {
+      "text": ":-)",
+      "ptime": 5025000.0,
+      "dtime": 5374000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "Hrm. I forsee some neat new opportunities for 431 cache poisoning.",
+      "ptime": 5279000.0,
+      "dtime": 5628000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "Thanks to the scribes and relays!",
+      "ptime": 5469000.0,
+      "dtime": 5818000.0,
+      "author": "Chris Lemmons"
+    },
+    {
+      "text": "***Dragana Damjanovic just left the room",
+      "ptime": 5469000.0,
+      "dtime": 5818000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5470000.0,
+      "dtime": 5819000.0
+    },
+    {
+      "text": "Yes, thank you~",
+      "ptime": 5480000.0,
+      "dtime": 5829000.0,
+      "author": "Kathleen Moriarty"
+    },
+    {
+      "text": "***Kathleen Moriarty just left the room",
+      "ptime": 5498000.0,
+      "dtime": 5847000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5498000.0,
+      "dtime": 5847000.0
+    },
+    {
+      "text": "***Frederic Fieau just left the room",
+      "ptime": 5501000.0,
+      "dtime": 5850000.0
+    },
+    {
+      "text": "***Massimiliano Pala just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Elena Bakos Lang just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***G?ran Selander just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Rolf Sonneveld just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Joseph Heenan just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Andrew S just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Daniel Van Geest just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Mike Ounsworth just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Jim Schaad just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Chris Lemmons just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5502000.0,
+      "dtime": 5851000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-SECDISPATCH-20191119-1710"
+    }
+  ]
+}

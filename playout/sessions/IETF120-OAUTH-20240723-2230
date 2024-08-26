@@ -1,0 +1,462 @@
+
+{
+	"title": "IETF120-OAUTH-20240723-2230",
+	"filename": "IETF120-OAUTH-20240723-2230",
+	"start": 0,
+	"end": 5487000,
+	"start_datetime": "2024-07-23T22:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "S1sYA5VW9o8",
+    "start": 0,
+    "end": "5487000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jean-Francois",
+    "text": "<p>I can do a part but english is not my first language</p>",
+    "topic": "ietf-120",
+    "dtime": 81000,
+    "ptime": 81000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>I can take the identity chaining part in case Brian doesn't show up</p>",
+    "topic": "ietf-120",
+    "dtime": 269000,
+    "ptime": 269000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>in the italian implementation called SPID Attribute Auhtorities we used the grant tokens as well</p>\n<p>we used to provide multiple grant tokens within a single token using the ietf draft embedded jwt</p>\n<p>the grant tokens are therefore required to be used to a STS endpoint (token exchange) provided by third parties AS for the issuance of the access token required to access to the RS hosted within their domains</p>\n<p>the grant tokens only provides the proof of the user's consent to allow a RP to obtain an access token to consume data about that subject</p>",
+    "topic": "ietf-120",
+    "dtime": 987000,
+    "ptime": 987000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>your solution Aaron reminds me this impl we had in italy two years ago. I find it interesting.</p>",
+    "topic": "ietf-120",
+    "dtime": 1024000,
+    "ptime": 1024000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>using embedded jwt you can provide multiple jwts embedded in a single one</p>",
+    "topic": "ietf-120",
+    "dtime": 1163000,
+    "ptime": 1163000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>In what aspects JAG is different from UMA2.0?</p>",
+    "topic": "ietf-120",
+    "dtime": 1303000,
+    "ptime": 1303000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>I guess we don't need to ask consent for the user to share their data across the various apps?</p>",
+    "topic": "ietf-120",
+    "dtime": 1320000,
+    "ptime": 1320000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>if the apps belongs to different domains from the one of the idp probably we should have user's consent</p>",
+    "topic": "ietf-120",
+    "dtime": 1353000,
+    "ptime": 1353000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>Should not Consent be ask every time as consent if bound to objective and two different apps have different objectives.... One consent given at the time of App1 usage might not have encompassed App2 objectives</p>",
+    "topic": "ietf-120",
+    "dtime": 1427000,
+    "ptime": 1427000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>@Guiseppe &amp; @Jean, IdP could enforce if user has given consent during token exchange when assertion grant would be issued.</p>",
+    "topic": "ietf-120",
+    "dtime": 1515000,
+    "ptime": 1515000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>yes Jean, I think so</p>\n<p>a good UX/UI provided by the IDP should allow the user to select the apps for which it gives consents</p>\n<p>this is how it was implemented in the spid attribute authorities</p>\n<p>for each consent a grant token is issued and usable from the rp to third party AS to exchange it with an AT</p>",
+    "topic": "ietf-120",
+    "dtime": 1542000,
+    "ptime": 1542000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>Say as an employee, I own a file that contains sensitive customer data. How do I as an employee make sure I do not have liability for some other app obtaining that data from the file storage app on my behalf without my knowledge?</p>",
+    "topic": "ietf-120",
+    "dtime": 1599000,
+    "ptime": 1599000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>sounds great online</p>",
+    "topic": "ietf-120",
+    "dtime": 1635000,
+    "ptime": 1635000
+  },
+  {
+    "author": "Jennifer Schreiber",
+    "text": "<p>i think its the room, it sounds great online</p>",
+    "topic": "ietf-120",
+    "dtime": 1654000,
+    "ptime": 1654000
+  },
+  {
+    "author": "Michael Slusarz",
+    "text": "<p>yeah, Neil is good online</p>",
+    "topic": "ietf-120",
+    "dtime": 1659000,
+    "ptime": 1659000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>@atul is STS provides a UI and the token exchange request is made through an user-agent ... it would be ok</p>\n<p>from my experience the token exchange is request by a client not necessarly public but confidential, as my impl mandates</p>\n<p>i got your point anyway</p>",
+    "topic": "ietf-120",
+    "dtime": 1659000,
+    "ptime": 1659000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>Can we have the link to the slides online please?</p>",
+    "topic": "ietf-120",
+    "dtime": 1713000,
+    "ptime": 1713000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>You can find them on the meeting materials page</p>",
+    "topic": "ietf-120",
+    "dtime": 1730000,
+    "ptime": 1730000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p><a href=\"https://datatracker.ietf.org/meeting/120/materials/slides-120-oauth-oauth-profile-for-open-public-clients\">https://datatracker.ietf.org/meeting/120/materials/slides-120-oauth-oauth-profile-for-open-public-clients</a></p>",
+    "topic": "ietf-120",
+    "dtime": 1734000,
+    "ptime": 1734000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-120",
+    "dtime": 1742000,
+    "ptime": 1742000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>alternative spec, similar, but without dynamic client registration, and OTOH nailing a few more details down.</p>",
+    "topic": "ietf-120",
+    "dtime": 1813000,
+    "ptime": 1813000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-bucksch-mauth-00.html\">https://www.ietf.org/archive/id/draft-bucksch-mauth-00.html</a></p>",
+    "topic": "ietf-120",
+    "dtime": 1816000,
+    "ptime": 1816000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>Published today Ben? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 1849000,
+    "ptime": 1849000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>yes, but already discussed since a year :)</p>",
+    "topic": "ietf-120",
+    "dtime": 1890000,
+    "ptime": 1890000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>dpop across everything sounds good.</p>",
+    "topic": "ietf-120",
+    "dtime": 2145000,
+    "ptime": 2145000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>seems like we learn that dpop is not recommended because its only defined for http frequently....</p>",
+    "topic": "ietf-120",
+    "dtime": 2170000,
+    "ptime": 2170000
+  },
+  {
+    "author": "Dmitry Telegin",
+    "text": "<p>is it going to be a DCR registration per each client _instance_?</p>",
+    "topic": "ietf-120",
+    "dtime": 2179000,
+    "ptime": 2179000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>CATv3</p>",
+    "topic": "ietf-120",
+    "dtime": 2770000,
+    "ptime": 2770000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>specifically we haven't defined how DPoP works with SASL</p>",
+    "topic": "ietf-120",
+    "dtime": 2774000,
+    "ptime": 2774000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Personally, I would put the OAuth2 for mail spec into the mail WGs.</p>",
+    "topic": "ietf-120",
+    "dtime": 2792000,
+    "ptime": 2792000
+  },
+  {
+    "author": "Ben Bucksch",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-120",
+    "dtime": 2822000,
+    "ptime": 2822000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>you can still audience-constrain the tokens though</p>",
+    "topic": "ietf-120",
+    "dtime": 2823000,
+    "ptime": 2823000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>here the slides Rifaat</p>\n<p><a href=\"https://docs.google.com/presentation/d/1MiTbGkcIW23NnIXDueqQ7lHQCqQT9llghjtY-rRmiD0\">https://docs.google.com/presentation/d/1MiTbGkcIW23NnIXDueqQ7lHQCqQT9llghjtY-rRmiD0</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2854000,
+    "ptime": 2854000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>+1</p>",
+    "topic": "ietf-120",
+    "dtime": 2901000,
+    "ptime": 2901000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>as usual not awake :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 2907000,
+    "ptime": 2907000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>It doesn’t require dependency with short-lived Credentials and their periodical renewal (in particular when LoA high costs a lot to the user UX)</p>",
+    "topic": "ietf-120",
+    "dtime": 2985000,
+    "ptime": 2985000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>here the repo<br>\n<a href=\"https://github.com/peppelinux/draft-demarco-oauth-status-assertions\">https://github.com/peppelinux/draft-demarco-oauth-status-assertions</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3015000,
+    "ptime": 3015000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>the multiple request objects was required by the italian credential providers that issues multiple types of credentials, therefore to make it more efficient</p>",
+    "topic": "ietf-120",
+    "dtime": 3071000,
+    "ptime": 3071000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>thank you leif</p>",
+    "topic": "ietf-120",
+    "dtime": 3287000,
+    "ptime": 3287000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>this is the PR where this proposal went ahead and is going to be finalized </p>\n<p><a href=\"https://github.com/peppelinux/draft-demarco-oauth-status-assertions/pull/61\">https://github.com/peppelinux/draft-demarco-oauth-status-assertions/pull/61</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3367000,
+    "ptime": 3367000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>and further reviewd.</p>",
+    "topic": "ietf-120",
+    "dtime": 3373000,
+    "ptime": 3373000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>it's not a status list, it's a jwt representing the status</p>",
+    "topic": "ietf-120",
+    "dtime": 3499000,
+    "ptime": 3499000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>The more interesting cases for this are not boolean, or enumerations... but if you only consider simple status values like suspended and revoked, there can be confusion, especially on privacy differences.</p>",
+    "topic": "ietf-120",
+    "dtime": 3690000,
+    "ptime": 3690000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>You can use fresh assertions with different security bindings in the future</p>",
+    "topic": "ietf-120",
+    "dtime": 3872000,
+    "ptime": 3872000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>you need a new kind of cnf, and a new kind of assertion binding</p>",
+    "topic": "ietf-120",
+    "dtime": 3887000,
+    "ptime": 3887000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>you can imagine a version of this that uses bbs for both the issued token and the paired assertion</p>",
+    "topic": "ietf-120",
+    "dtime": 3918000,
+    "ptime": 3918000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>+1 Justin</p>",
+    "topic": "ietf-120",
+    "dtime": 3939000,
+    "ptime": 3939000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>just come back, unlucky network fault, using 4g right now.</p>",
+    "topic": "ietf-120",
+    "dtime": 3988000,
+    "ptime": 3988000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>when to use CRLS and when to use OCSP...</p>",
+    "topic": "ietf-120",
+    "dtime": 4057000,
+    "ptime": 4057000
+  },
+  {
+    "author": "Simone",
+    "text": "<p>we can just have a threat modeling session with the authors to review it from privacy/security perspective</p>",
+    "topic": "ietf-120",
+    "dtime": 4197000,
+    "ptime": 4197000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I would also be cautious to not frame status lists or status assertions as only related to revocation or suspension...</p>",
+    "topic": "ietf-120",
+    "dtime": 4210000,
+    "ptime": 4210000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>status assertion was born as a request for feature within the status list but we was forced to create an I-D</p>\n<p>an informative RFC would be great to show them</p>",
+    "topic": "ietf-120",
+    "dtime": 4264000,
+    "ptime": 4264000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>well done Brian! ;)</p>",
+    "topic": "ietf-120",
+    "dtime": 4300000,
+    "ptime": 4300000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>Is JAG competing against Cross Domain presented by Brian?</p>",
+    "topic": "ietf-120",
+    "dtime": 4499000,
+    "ptime": 4499000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>JAG is a profile of this</p>",
+    "topic": "ietf-120",
+    "dtime": 4544000,
+    "ptime": 4544000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Media type plus/plus+plus</p>",
+    "topic": "ietf-120",
+    "dtime": 4710000,
+    "ptime": 4710000
+  },
+  {
+    "author": "Jean-Francois",
+    "text": "<p>thanks Arndt</p>",
+    "topic": "ietf-120",
+    "dtime": 4910000,
+    "ptime": 4910000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>@Jean this is why I wanted to present after Brian's <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 5340000,
+    "ptime": 5340000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>\"hey trust me\" is almost as good of a name as \"identity chaining\"</p>",
+    "topic": "ietf-120",
+    "dtime": 5341000,
+    "ptime": 5341000
+  },
+  {
+    "author": "Dean Saxe",
+    "text": "<p>Where is referred token binding documented?</p>",
+    "topic": "ietf-120",
+    "dtime": 5395000,
+    "ptime": 5395000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>thanks, bye</p>",
+    "topic": "ietf-120",
+    "dtime": 5462000,
+    "ptime": 5462000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-OAUTH-20240723-2230"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-OAUTH-20240723-2230"
+		}		
+	]
+}

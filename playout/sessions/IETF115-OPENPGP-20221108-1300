@@ -1,0 +1,427 @@
+
+{
+	"title": "IETF115-OPENPGP-20221108-1300",
+	"filename": "IETF115-OPENPGP-20221108-1300",
+	"start": 0,
+	"end": 5549000,
+	"start_datetime": "2022-11-08T13:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "496ZP2z88KQ",
+    "start": 0,
+    "end": "5549000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: bummer, hope all recovered soon</p>",
+    "topic": "jabber",
+    "dtime": 15000,
+    "ptime": 15000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>I admit I am not...</p>",
+    "topic": "jabber",
+    "dtime": 350000,
+    "ptime": 350000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>For the notes: I am willing to do a (non expert!) review.</p>",
+    "topic": "jabber",
+    "dtime": 408000,
+    "ptime": 408000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>I plan to review in the next couple weeks (as indicated in the room).</p>",
+    "topic": "jabber",
+    "dtime": 434000,
+    "ptime": 434000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>(it's only 164 pages, after all...  ;^O  )</p>",
+    "topic": "jabber",
+    "dtime": 449000,
+    "ptime": 449000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>If <em>everyone's</em> stepping off the cliff, it must be a good idea.</p>",
+    "topic": "jabber",
+    "dtime": 494000,
+    "ptime": 494000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: thanks all for volunteering</p>",
+    "topic": "jabber",
+    "dtime": 512000,
+    "ptime": 512000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @robin: it's a wylie coyote kinda cliff so it'll be fine:-)</p>",
+    "topic": "jabber",
+    "dtime": 533000,
+    "ptime": 533000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: for remote folks, feel free to jump into the queue (same for onsite folks)</p>",
+    "topic": "jabber",
+    "dtime": 670000,
+    "ptime": 670000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>Just for clarity, I see two \"draft-koch-openpgp-\" documents, so make sure you're looking at the \"rfc4880bis-00\" draft, not the \"webkey-service\" draft.</p>",
+    "topic": "jabber",
+    "dtime": 699000,
+    "ptime": 699000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>that's right, it's rfc4880bis-00</p>",
+    "topic": "jabber",
+    "dtime": 716000,
+    "ptime": 716000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: yes, as per recent list discussion</p>",
+    "topic": "jabber",
+    "dtime": 724000,
+    "ptime": 724000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>proposal: move version number from v5 to v6 for: Key, Signature, OPS, and PKESK</p>",
+    "topic": "jabber",
+    "dtime": 1097000,
+    "ptime": 1097000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>I'm not qualified to make a decision at this point, sorry.</p>",
+    "topic": "jabber",
+    "dtime": 1154000,
+    "ptime": 1154000
+  },
+  {
+    "author": "Samuel Gwinn",
+    "text": "<p>Is it possible to remove one's vote</p>",
+    "topic": "jabber",
+    "dtime": 1475000,
+    "ptime": 1475000
+  },
+  {
+    "author": "Samuel Gwinn",
+    "text": "<p>I do not feel qualified to weigh in. I did not note the option to abstain before I clicked an option.</p>",
+    "topic": "jabber",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @samuel, no problem we'll score it at 12:0 so</p>",
+    "topic": "jabber",
+    "dtime": 1642000,
+    "ptime": 1642000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: aron's proposal: pick salt length based on hash alg used in signature</p>",
+    "topic": "jabber",
+    "dtime": 2067000,
+    "ptime": 2067000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>@sftcd Your text here is how I understood it too.</p>",
+    "topic": "jabber",
+    "dtime": 2128000,
+    "ptime": 2128000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: ta</p>",
+    "topic": "jabber",
+    "dtime": 2150000,
+    "ptime": 2150000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>Is the goal of Aron's proposal to prevent people from using a stronger hashing algorithm with a weaker (shorter) salt?</p>",
+    "topic": "jabber",
+    "dtime": 2236000,
+    "ptime": 2236000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: dkg variant: add salt length to IANA registry for sig algs</p>",
+    "topic": "jabber",
+    "dtime": 2254000,
+    "ptime": 2254000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: Robin Wilton_web_187: did you want me to ask that in the room or join the queue?</p>",
+    "topic": "jabber",
+    "dtime": 2362000,
+    "ptime": 2362000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>@sftcd Since you and Aron are both in the room, would you mind asking (mic line permitting).</p>",
+    "topic": "jabber",
+    "dtime": 2404000,
+    "ptime": 2404000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: will do</p>",
+    "topic": "jabber",
+    "dtime": 2422000,
+    "ptime": 2422000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>Maybe PQ will result in v7 sigs. <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "topic": "jabber",
+    "dtime": 2487000,
+    "ptime": 2487000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @robin: he's answering you now anyway:-)</p>",
+    "topic": "jabber",
+    "dtime": 2553000,
+    "ptime": 2553000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>ack</p>",
+    "topic": "jabber",
+    "dtime": 2628000,
+    "ptime": 2628000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>LOL</p>",
+    "topic": "jabber",
+    "dtime": 2791000,
+    "ptime": 2791000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>OK, I'll get back in my box ;^)</p>",
+    "topic": "jabber",
+    "dtime": 2807000,
+    "ptime": 2807000
+  },
+  {
+    "author": "Ira McDonald",
+    "text": "<p>polls are BINARY only</p>",
+    "topic": "jabber",
+    "dtime": 2847000,
+    "ptime": 2847000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>Am I reading this correctly... that &lt;4GB is considered to be a \"small\" message? <span aria-label=\"flushed\" class=\"emoji emoji-1f633\" role=\"img\" title=\"flushed\">:flushed:</span></p>",
+    "topic": "jabber",
+    "dtime": 3185000,
+    "ptime": 3185000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>Ah, OK, thanks.</p>",
+    "topic": "jabber",
+    "dtime": 3234000,
+    "ptime": 3234000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>proposed trailer fix would be another deviation from draft-koch, right?</p>",
+    "topic": "jabber",
+    "dtime": 3382000,
+    "ptime": 3382000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: yes, it is another deviation from draft-koch</p>",
+    "topic": "jabber",
+    "dtime": 3410000,
+    "ptime": 3410000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: but we'll be v6 signatures then right, so we avoid the non-interop (or don't make it worse)</p>",
+    "topic": "jabber",
+    "dtime": 3440000,
+    "ptime": 3440000
+  },
+  {
+    "author": "Robert Lee",
+    "text": "<p>Assuming old versions will go away because we've asked them to feels very optimistic to me.  Is there a reason to be confident that v3 is actually going to go away?</p>",
+    "topic": "jabber",
+    "dtime": 3618000,
+    "ptime": 3618000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>@sftcd No objection</p>",
+    "topic": "jabber",
+    "dtime": 4123000,
+    "ptime": 4123000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>I think we've already discussed enough work items to keep people busy until re-chartering becomes the next logical step.</p>",
+    "topic": "jabber",
+    "dtime": 4162000,
+    "ptime": 4162000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: ta</p>",
+    "topic": "jabber",
+    "dtime": 4182000,
+    "ptime": 4182000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Ok, dumb question: what's \"SPECIFICATION REQUIRED\" ?</p>",
+    "topic": "jabber",
+    "dtime": 4723000,
+    "ptime": 4723000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>that's what we're talking about here</p>",
+    "topic": "jabber",
+    "dtime": 4733000,
+    "ptime": 4733000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Yeah, I see that, but I don't know what the words mean</p>",
+    "topic": "jabber",
+    "dtime": 4748000,
+    "ptime": 4748000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>we're trying to figure out how to tell the designated expert what we think is a sufficient \"specification\"</p>",
+    "topic": "jabber",
+    "dtime": 4776000,
+    "ptime": 4776000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>For registration policy possibilities, see Section 4 of <a href=\"https://www.rfc-editor.org/rfc/rfc8126.html\">https://www.rfc-editor.org/rfc/rfc8126.html</a></p>",
+    "topic": "jabber",
+    "dtime": 4957000,
+    "ptime": 4957000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>\"Specification Required\" is Section 4.6 = <a href=\"https://www.rfc-editor.org/rfc/rfc8126.html#section-4.6\">https://www.rfc-editor.org/rfc/rfc8126.html#section-4.6</a></p>",
+    "topic": "jabber",
+    "dtime": 5018000,
+    "ptime": 5018000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1247\">@Aron Wussler</span> when you say \"composite\", do you mean the key / sig / kem wire encoding according to draft-ounsworth-pq-composite-keys-03, or something else?</p>\n<p>If you like, I would love to sit down with you and talk about terminology as per draft-driscoll-pqt-hybrid-terminology to avoid confusion.</p>",
+    "topic": "jabber",
+    "dtime": 5226000,
+    "ptime": 5226000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I'm gonna suggest we have an interim meeting <em>after</em> the end of WGLC and when we've hit the \"publication requested\" button for crypto-refresh - sound ok?</p>",
+    "topic": "jabber",
+    "dtime": 5323000,
+    "ptime": 5323000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: with rechartering being the topic of that interim</p>",
+    "topic": "jabber",
+    "dtime": 5343000,
+    "ptime": 5343000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: sftcd: sounds reasonable</p>",
+    "topic": "jabber",
+    "dtime": 5363000,
+    "ptime": 5363000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Algorithm pairs look reasonable to me at first glance. The only comment is whether you actually need that many?</p>",
+    "topic": "jabber",
+    "dtime": 5487000,
+    "ptime": 5487000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i'm also scared of the number of options</p>",
+    "topic": "jabber",
+    "dtime": 5512000,
+    "ptime": 5512000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: thanks all</p>",
+    "topic": "jabber",
+    "dtime": 5513000,
+    "ptime": 5513000
+  },
+  {
+    "author": "Robin Wilton",
+    "text": "<p>Thanks everyone</p>",
+    "topic": "jabber",
+    "dtime": 5517000,
+    "ptime": 5517000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i recommend just choosing two</p>",
+    "topic": "jabber",
+    "dtime": 5517000,
+    "ptime": 5517000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: if folks find they need more, they can specify them later</p>",
+    "topic": "jabber",
+    "dtime": 5540000,
+    "ptime": 5540000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-OPENPGP-20221108-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/openpgp"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-OPENPGP-20221108-1300"
+		}		
+	]
+}

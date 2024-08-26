@@ -1,0 +1,1349 @@
+
+{
+	"title": "IETF114-TIGRESS-20220727-1900",
+	"filename": "IETF114-TIGRESS-20220727-1900",
+	"start": 0,
+	"end": 7187000,
+	"start_datetime": "2022-07-27T19:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "XwZtma6eDUA",
+    "start": 0,
+    "end": "7187000"
+  }
+],
+	"messages": [
+  {
+    "author": "Pete Resnick",
+    "text": "<p>She said something at the beginning about not doing \"protocol\" or the like, but instead that they were only doing \"api\". Did I get that wrong?</p>",
+    "dtime": 580000,
+    "ptime": 580000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Pete what she meant was that we aren't trying to describe a specific communication protocol, but more at one layer higher to facilitate the steps that need to happen (APIs) to actually achieve the share.</p>",
+    "dtime": 605000,
+    "ptime": 605000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i solve these problems by living in an apartment building with a front desk :)</p>",
+    "dtime": 609000,
+    "ptime": 609000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Meaning - whether HTTP is used or not for the actual API calls isn't the question, if that makes sense.</p>",
+    "dtime": 623000,
+    "ptime": 623000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"785\">@Matt Byington</span> Thanks, that's what I missed.</p>",
+    "dtime": 636000,
+    "ptime": 636000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>No problem at all.</p>",
+    "dtime": 640000,
+    "ptime": 640000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Is there a link to the draft? I don't see one in the meeting materials link</p>",
+    "dtime": 749000,
+    "ptime": 749000
+  },
+  {
+    "author": "Nick Sha",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-secure-credential-transfer/\">https://datatracker.ietf.org/doc/draft-secure-credential-transfer/</a></p>",
+    "dtime": 763000,
+    "ptime": 763000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>I'm not hearing the word \"permissionless\", and I was hoping that was part of the requirements.  I'm concerned about RPs interjecting themselves - and stopping the functionality that end users need.</p>",
+    "dtime": 765000,
+    "ptime": 765000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Eric <a href=\"https://datatracker.ietf.org/doc/html/draft-secure-credential-transfer-04\">https://datatracker.ietf.org/doc/html/draft-secure-credential-transfer-04</a></p>",
+    "dtime": 780000,
+    "ptime": 780000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Samuel \"RP\"?</p>",
+    "dtime": 793000,
+    "ptime": 793000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>relying party.  e.g. the hotel or apartment manager (in the form of the lock on the room or apartment door), in their examples</p>",
+    "dtime": 827000,
+    "ptime": 827000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Ah got it. Yes. So typically the RP in typical crypto scenarios is the one verifying the signature for example, in this case it's a little different IMHO - you have sender and receiver, and you have the credential authority themselves. This would be the issuer of the credentials. They have to be \"trusted\", but we should prevent MITM (intermediary) attacks, for sure.</p>",
+    "dtime": 884000,
+    "ptime": 884000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Seems like we should not be re-doing the BOF here</p>",
+    "dtime": 954000,
+    "ptime": 954000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I thought this :was: the BoF</p>",
+    "dtime": 972000,
+    "ptime": 972000
+  },
+  {
+    "author": "Bradford Lassey",
+    "text": "<p>its a WG now</p>",
+    "dtime": 1025000,
+    "ptime": 1025000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"545\">@Justin Richer</span> they were chartered a week and a half ago</p>",
+    "dtime": 1027000,
+    "ptime": 1027000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>We did a BoF a few months ago, Justin (virtual). The WG is defined and established now.</p>",
+    "dtime": 1035000,
+    "ptime": 1035000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>correct - this is not a BoF</p>",
+    "dtime": 1038000,
+    "ptime": 1038000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>sounds like authorization/delegation protocol is (mis-)called a transfer protocol</p>",
+    "dtime": 1040000,
+    "ptime": 1040000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>virtual bof a little while ago <a href=\"https://datatracker.ietf.org/wg/tigress/about/\">https://datatracker.ietf.org/wg/tigress/about/</a></p>",
+    "dtime": 1048000,
+    "ptime": 1048000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>the purpose of the presentation is to make sure everyone has a chance to catch up with the problem description</p>",
+    "dtime": 1055000,
+    "ptime": 1055000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Thanks everyone -- I saw that bof but thought this was the WG-forming bof. I got it now!</p>",
+    "dtime": 1074000,
+    "ptime": 1074000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>DKG is having more eventful hotel stays than i am</p>",
+    "dtime": 1080000,
+    "ptime": 1080000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/27224\">said</a>:</p>\n<blockquote>\n<p>virtual bof a little while ago <a href=\"https://datatracker.ietf.org/wg/tigress/about/\">https://datatracker.ietf.org/wg/tigress/about/</a></p>\n</blockquote>\n<p>The BOF that led to this WG was named SECRET -- <a href=\"https://datatracker.ietf.org/wg/secret/meetings/\">https://datatracker.ietf.org/wg/secret/meetings/</a></p>",
+    "dtime": 1103000,
+    "ptime": 1103000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>\"justified parties\" (Kim Cameron)</p>",
+    "dtime": 1285000,
+    "ptime": 1285000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"690\">Kristina Yasuda</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/27221\">said</a>:</p>\n<blockquote>\n<p>sounds like authorization/delegation protocol is (mis-)called a transfer protocol</p>\n</blockquote>\n<p>Indeed.  We spent significant time bike-shedding the name after the BoF.</p>",
+    "dtime": 1373000,
+    "ptime": 1373000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"652\">Leif Johansson</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/27226\">said</a>:</p>\n<blockquote>\n<p>the purpose of the presentation is to make sure everyone has a chance to catch up with the problem description</p>\n</blockquote>\n<p>Thank you for starting this meeting with this introduction to level set what we agreed to in the charter.</p>",
+    "dtime": 1435000,
+    "ptime": 1435000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>The relay server is a foundational piece of the architecture written into the charter.</p>",
+    "dtime": 1503000,
+    "ptime": 1503000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>relay server is just necessary for async, right? so that the sender and receiver don't have to be online at the same time</p>",
+    "dtime": 1512000,
+    "ptime": 1512000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Yes.</p>",
+    "dtime": 1518000,
+    "ptime": 1518000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>And because you don't want a cryptographic key sent in an SMS, too ;)</p>",
+    "dtime": 1524000,
+    "ptime": 1524000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>(Or a secure channel - you don't want the end users to see that material, from a UX perspective)</p>",
+    "dtime": 1545000,
+    "ptime": 1545000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/27289\">said</a>:</p>\n<blockquote>\n<p>relay server is just necessary for async, right? so that the sender and receiver don't have to be online at the same time</p>\n</blockquote>\n<p>Agreed.  In the charter we said \"* Not require that both the sender and recipient have connectivity to the relay server at the same time\"</p>",
+    "dtime": 1568000,
+    "ptime": 1568000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Precisely, yes, concur.</p>",
+    "dtime": 1584000,
+    "ptime": 1584000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>The charter says we don't want replay attacks so \"* Ensure the credential can only be provisioned once (anti-replay)\"</p>",
+    "dtime": 1623000,
+    "ptime": 1623000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>Does this mean the link sent to the receiver is a one-time-use link?</p>",
+    "dtime": 1675000,
+    "ptime": 1675000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>JDR: that's my understanding, that that's effectively the goal here</p>",
+    "dtime": 1823000,
+    "ptime": 1823000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>JR: Mostly yes. but we do want to allow that specific receiver to retry (for example for read time outs). if that makes sense?</p>",
+    "dtime": 1870000,
+    "ptime": 1870000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>He's not asking why you want to prevent replay. He's asking how it's possible to do a replay attack.</p>",
+    "dtime": 1879000,
+    "ptime": 1879000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>where in the draft is the \"thing\" that the receiver sends to the provisioning authority being defined?</p>",
+    "dtime": 1974000,
+    "ptime": 1974000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>can't find it</p>",
+    "dtime": 1981000,
+    "ptime": 1981000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"690\">@Kristina Yasuda</span> it's just some opaque blob defined</p>",
+    "dtime": 2105000,
+    "ptime": 2105000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Kristina: For stateless, this would be the bearer token effectively that travels with the provisioning data to the receiver, via the relay server. For stateful, like cars that comply with CCC, it'd be the receiver providing their asymmetric public key to the sender who then signs it. with an attestation. because cars are \"local\" credential authority.</p>",
+    "dtime": 2111000,
+    "ptime": 2111000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Sounds like provisioning the link between car owner and valet on the relay server would be tricky.</p>",
+    "dtime": 2162000,
+    "ptime": 2162000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>since they don't have more than a very ephemeral relationship</p>",
+    "dtime": 2183000,
+    "ptime": 2183000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>How so? The relay server is mostly a \"dumb pipe\". The \"sender\" here, the owner of the car, would simply sign the key with the attestation stating it is for valet privileges only.</p>",
+    "dtime": 2192000,
+    "ptime": 2192000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Lots would be left to implementers. Really important that this WG thinks about guardrails.</p>",
+    "dtime": 2199000,
+    "ptime": 2199000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Mallory: that's true. I agree with that.</p>",
+    "dtime": 2216000,
+    "ptime": 2216000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>What is being sent? The actual secure credential itself, or a way to get an actual secure credential?</p>",
+    "dtime": 2678000,
+    "ptime": 2678000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>The latter, Brent, but pedantically a way to get a newly-minted secure credential with the appropriate ACLs.</p>",
+    "dtime": 2697000,
+    "ptime": 2697000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>So, I can share my car key as long as the provisioning server (which is out of scope) agrees?</p>",
+    "dtime": 2747000,
+    "ptime": 2747000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>Maybe this will be answered by the architecture overview...</p>",
+    "dtime": 2782000,
+    "ptime": 2782000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i'm pretty sure that a piece of paper has a replay attack</p>",
+    "dtime": 2782000,
+    "ptime": 2782000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Car key is a little different since you own the car you can technically share the credential without the vehicle OEM at all, since you own the private key to the car as the user. But in short, yes</p>",
+    "dtime": 2798000,
+    "ptime": 2798000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Jabber: that's the thing, the point is that you could technically share that widely (the paper) but only the first one who \"claims\" it is the only one allowed in.</p>",
+    "dtime": 2826000,
+    "ptime": 2826000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>(preventing the replay specifically of the redemption)</p>",
+    "dtime": 2842000,
+    "ptime": 2842000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>But if I wanted to share my car key without involving the OEM, would I need to then set up my own provoking server?</p>",
+    "dtime": 2867000,
+    "ptime": 2867000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: Matt Byington -- how do we ensure that car owners do actually retain this level of ownership?</p>",
+    "dtime": 2881000,
+    "ptime": 2881000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>*provisioning lol</p>",
+    "dtime": 2890000,
+    "ptime": 2890000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>provoking == relay, yes.</p>",
+    "dtime": 2896000,
+    "ptime": 2896000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"293\">@Brent Zundel</span> that would indeed be a provoking server!</p>",
+    "dtime": 2921000,
+    "ptime": 2921000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>dkg: that's by design and codified in the CCC vehicle digital key standard</p>",
+    "dtime": 2922000,
+    "ptime": 2922000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>(that the owner of the car owns the private key).</p>",
+    "dtime": 2933000,
+    "ptime": 2933000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>Okay, so I send the secure credential I control to the relay, then send access to the relay to the entity with whom I'm sharing the key.</p>",
+    "dtime": 2968000,
+    "ptime": 2968000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Yes, Brent, exactly. Now - this is still pending the \"allowlist\" discussion from a few minutes ago, given that your relay may not be trusted by sender or recipient</p>",
+    "dtime": 3014000,
+    "ptime": 3014000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>For example, large device OEMs will likely use a relay server for shares that they are in control of and host.</p>",
+    "dtime": 3064000,
+    "ptime": 3064000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: if I have a fat channel between sender/receiver can I just share a did: or ni: URL and avoid the relay server entirely?</p>",
+    "dtime": 3137000,
+    "ptime": 3137000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: as i understand it, the credential <em>owner</em> (the authority) must be online, even if the sender and recipient are not synchronously online.  is that right?</p>",
+    "dtime": 3213000,
+    "ptime": 3213000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>mcr: yes that would work. as long as whatever operating system on sender and receiver supported that, also. no reason that wouldn't work.</p>",
+    "dtime": 3266000,
+    "ptime": 3266000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: requirements: problem statement, assumptions, constraints, threat model</p>",
+    "dtime": 3268000,
+    "ptime": 3268000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>dkg: yes, correct, for remote credential authorities (like a hotel key). specifically they have to be online when the sender initiates the share and again online when the receiver attempts to redeem it (and to provision the credential on the recipients device) but not technically in between.</p>",
+    "dtime": 3311000,
+    "ptime": 3311000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: so in the case where the authority (the owner) <em>is</em> the sender (my understanding of the car owner model), the requirement for offline access is moot, because the sender must be online in their role as the owner.</p>",
+    "dtime": 3377000,
+    "ptime": 3377000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: is that right?</p>",
+    "dtime": 3392000,
+    "ptime": 3392000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: dkg, alas, in the car case, you are (DRM) not the owner, as far as I can tell.</p>",
+    "dtime": 3405000,
+    "ptime": 3405000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: mcr: that's not what Byington claims above (\"codified in the CCC\")</p>",
+    "dtime": 3431000,
+    "ptime": 3431000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>dkg: precisely. you're spot on. they'd have to be online initially to initiate the share. now, they could go offline, while the recipient is offline. then, recipient goes online, generates asymmetric key pair, and sends the public part of that key pair BACK to sender to sign, through relay. now, the protocol \"waits\" until sender is back online, signs the receiver's public key, and put the signature back onto relay to send to recipient. that's the \"back and forth\" and why the relay is needed in the first place.</p>",
+    "dtime": 3442000,
+    "ptime": 3442000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>For car: The Vehicle Owner is the credential authority. But it != Vehicle OEM</p>",
+    "dtime": 3469000,
+    "ptime": 3469000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: that's good news.</p>",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>(that signature, from sender/owner of the car, is really what the car cryptographically NEEDS for the receiver's key to work).</p>",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: mcr: i'm sure that there will be some fuzziness w.r.t. rental cars, leased cars, company cars, etc.</p>",
+    "dtime": 3530000,
+    "ptime": 3530000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>It then uses chain of trust not dis-similar to SSL CAs to see \"do I trust this key? no. hmm. but it's signed by the owner's key, which I do trust. so you're good to go\"</p>",
+    "dtime": 3537000,
+    "ptime": 3537000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: and the bank that loaned the money to buy the car!</p>",
+    "dtime": 3547000,
+    "ptime": 3547000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Yes. In those cases, the rental car company is the owner of the car. YOu'd need to get the share from them. And your key wouldn't contain privileges that would allow you to further share the credential.</p>",
+    "dtime": 3573000,
+    "ptime": 3573000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: right, we've already got ignition lockouts used by collections companies</p>",
+    "dtime": 3579000,
+    "ptime": 3579000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: so if you've rented a car, and you find you've had one too many, you can't give your friend the keys to drive you home without the rental car company knowing about it.</p>",
+    "dtime": 3663000,
+    "ptime": 3663000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>They could just use your phone?</p>",
+    "dtime": 3689000,
+    "ptime": 3689000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Which already has the credential. Spatial locality is guaranteed (since it's a car).</p>",
+    "dtime": 3701000,
+    "ptime": 3701000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Plus, you should have planned ahead better! don't bring your car in the first place. drinking and driving takes too many lives. but that's a different problem not covered in this WG.</p>",
+    "dtime": 3734000,
+    "ptime": 3734000
+  },
+  {
+    "author": "Nick Sha",
+    "text": "<p>dkg: rental cars and fleet management usecase definitely will require a more thoughts at the CCC credential level</p>",
+    "dtime": 3747000,
+    "ptime": 3747000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>probably a mailing list conversation, but suggest to rename \"mailbox\" as it's misleading. it's something that the user can delete any time and there will be as many mailboxes as there are receivers which does not match  general association of \"mailbox\"</p>",
+    "dtime": 3750000,
+    "ptime": 3750000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Kristina: noted</p>",
+    "dtime": 3788000,
+    "ptime": 3788000
+  },
+  {
+    "author": "Brent Zundel",
+    "text": "<p>I like \"dead drop\"<br>\nMakes me feel like a spy.</p>",
+    "dtime": 3796000,
+    "ptime": 3796000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Pushing responsibility to the user for making a trust decision is something we see being exploited in authorization protocols/cross device protocols. General suggestion here is that the protocols should (1) minimise the trust decisions the user makes (e.g. make it hard for the attacker to initiate the request) (2) provide the necessary information to the user to make good decisions (location, reputation etc of requestor) and (3) help the user recover from poor trust decisions.</p>",
+    "dtime": 3798000,
+    "ptime": 3798000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: \"you should have planned better\" is not very satisfying to someone who didn't plan, or whose life didn't happen according to their plan.</p>",
+    "dtime": 3800000,
+    "ptime": 3800000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>dkg: agreed, was a bad joke. my original statement still stands that the car is still drive-able from the friend as long as you're in the car with the phone.</p>",
+    "dtime": 3830000,
+    "ptime": 3830000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>A threat model that takes into account social engineering attacks will help in the design and also help implementors in avoiding some of the social engineering attacks that may happen.</p>",
+    "dtime": 3861000,
+    "ptime": 3861000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Pieter: I fully concur with your statements there, potentially vehemently. It will be critical to explain what you are sharing and what it grants the recipient in whatever UI is drawn. definitely.</p>",
+    "dtime": 3873000,
+    "ptime": 3873000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: is spatial locality part of this spec?  or just something that you expect to happen during provisioning or some other out-of-scope arrangements?</p>",
+    "dtime": 3896000,
+    "ptime": 3896000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>dkg: specifically not required for sharing. you should be able to share to a recipient anywhere, they shouldn't need to be close to you.</p>",
+    "dtime": 3930000,
+    "ptime": 3930000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>(other than if you use a comm. mechanism that requires it like blueTooth, NFC, ZigBee, Z-wave, etc)</p>",
+    "dtime": 3944000,
+    "ptime": 3944000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>this system does not add any new revocation capabilities for these new credentials, right?  we're left with whatever exists already in the credential scheme?  so if it's not good at revoking creds now, this doesn't help?</p>",
+    "dtime": 3950000,
+    "ptime": 3950000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p>Proximity woudl likely influence UI presentation to the user, but not the protocol.</p>",
+    "dtime": 3957000,
+    "ptime": 3957000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Tim C: agreed.</p>",
+    "dtime": 3968000,
+    "ptime": 3968000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"785\">Matt Byington</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/27600\">said</a>:</p>\n<blockquote>\n<p>@Pieter: I fully concur with your statements there, potentially vehemently. It will be critical to explain what you are sharing and what it grants the recipient in whatever UI is drawn. definitely.</p>\n</blockquote>\n<p>Some of the work we are doing on cross device flows may be useful as you think about this problem. We need to design for Homo Sapiens, not Homo Securitus ;)</p>",
+    "dtime": 3987000,
+    "ptime": 3987000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Samuel W: yes that's right. we do think revocation is critical. but it needs to happen between sender and credential authority</p>",
+    "dtime": 3989000,
+    "ptime": 3989000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>proximity would affect the security context of the protocol in use though.</p>",
+    "dtime": 3991000,
+    "ptime": 3991000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: Byington: i think that makes sense -- by the same token, the authority could require arbitrary other constraints during the issuance step, right?</p>",
+    "dtime": 3999000,
+    "ptime": 3999000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>dkg: yep. agreed.</p>",
+    "dtime": 4016000,
+    "ptime": 4016000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the WG name notwithstanding, the presence of credentials in this scheme is kind of irrelevant.  this is basically SMS + Bron Gondwana's self-encrypting URLs</p>",
+    "dtime": 4021000,
+    "ptime": 4021000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Justin R: yes that is true</p>",
+    "dtime": 4026000,
+    "ptime": 4026000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>For very small values of \"read\"...</p>",
+    "dtime": 4044000,
+    "ptime": 4044000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Viktor conveniently doesn't mention that the existing way to integrate GSS-API and HTTP is quite unfortunately structured...</p>",
+    "dtime": 4094000,
+    "ptime": 4094000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: Barnes: i am also not seeing why this is \"credentials\".  it's a three-party (or two-party) handshake.</p>",
+    "dtime": 4145000,
+    "ptime": 4145000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>+1 to what Eric is saying</p>",
+    "dtime": 4273000,
+    "ptime": 4273000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>(with chair-hat off) I remember the oauth2 BoF when multiple people noted striking similarities with Kerberos</p>",
+    "dtime": 4295000,
+    "ptime": 4295000
+  },
+  {
+    "author": "Bradford Lassey",
+    "text": "<p>All of those chat applications need to be modified to do this GET to display the preview to begin with</p>",
+    "dtime": 4308000,
+    "ptime": 4308000
+  },
+  {
+    "author": "Bradford Lassey",
+    "text": "<p>so the...yea, what Barnces just said</p>",
+    "dtime": 4323000,
+    "ptime": 4323000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: any good design is worth repeating :-)</p>",
+    "dtime": 4323000,
+    "ptime": 4323000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Bradford pretty much all of them do the GET already today. You can test it for yourself. That's pretty standard to show rich previews (for example when people share websites to each other)</p>",
+    "dtime": 4439000,
+    "ptime": 4439000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p>I see it more as a voucher system than a messaging system.</p>",
+    "dtime": 4513000,
+    "ptime": 4513000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>What is the non-generic part of the <em>protocol</em>?</p>",
+    "dtime": 4520000,
+    "ptime": 4520000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: the trick is to disguise my house key credentials as a cat picture.</p>",
+    "dtime": 4533000,
+    "ptime": 4533000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"116\">@Tim Cappalli</span> Sure, the <em>system</em> isn't generic, but what about the underlying <em>protocol</em> is not generic?</p>",
+    "dtime": 4590000,
+    "ptime": 4590000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>to be clear, i think this approach is fine, i just think it could be stated more reusably</p>",
+    "dtime": 4696000,
+    "ptime": 4696000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>For the draft, would be good to clarify the use-cases for stateful protocol</p>",
+    "dtime": 4747000,
+    "ptime": 4747000
+  },
+  {
+    "author": "Prachi Jain",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"690\">Kristina Yasuda</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/27761\">said</a>:</p>\n<blockquote>\n<p>For the draft, would be good to clarify the use-cases for stateful protocol</p>\n</blockquote>\n<p>Noted !!</p>",
+    "dtime": 4772000,
+    "ptime": 4772000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>thanks! right now, hard to imagine why stateless one is not enough</p>",
+    "dtime": 4801000,
+    "ptime": 4801000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>(PS looks like there are no notetakers..?)</p>",
+    "dtime": 4827000,
+    "ptime": 4827000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Kristina: The main thing is when the sender needs something from the recipient. That's what it boils down to. In that case, since you can't guarantee both are online at same time, hence stateful.</p>",
+    "dtime": 4828000,
+    "ptime": 4828000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>\"Needs something\" == for example needs a newly-minted public key from the recipient that the sender needs to sign</p>",
+    "dtime": 4857000,
+    "ptime": 4857000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>@kristina - PaulHoffman is taking notes but probably offline</p>",
+    "dtime": 4877000,
+    "ptime": 4877000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i thought the difference was whether there was a distinct credential server involved</p>",
+    "dtime": 4881000,
+    "ptime": 4881000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>right so sender can pre-obtain it or obtain it after initiating sending - a diagram would help</p>",
+    "dtime": 4884000,
+    "ptime": 4884000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: did i misunderstand those diagrams?</p>",
+    "dtime": 4897000,
+    "ptime": 4897000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>@leif, yeah this page is blank: <a href=\"https://notes.ietf.org/notes-ietf-114-tigress\">https://notes.ietf.org/notes-ietf-114-tigress</a></p>",
+    "dtime": 4900000,
+    "ptime": 4900000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>dkg: you are right. they sort of go hand in hand. whenever you have a symmetric credential the sender is never the authority. i'm conflating the two for brevity.</p>",
+    "dtime": 4935000,
+    "ptime": 4935000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>I am sure Paul is doing it using his favorite 3d markdown editor or something</p>",
+    "dtime": 4952000,
+    "ptime": 4952000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Of course, relay server has visibility to IP addresses of sender and receiver.</p>",
+    "dtime": 5028000,
+    "ptime": 5028000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I don't think this answer is aligning with the question. It's sounding like the question is about how to abuse the relay server, not about how to trust it.</p>",
+    "dtime": 5043000,
+    "ptime": 5043000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p>Aside: The FIDO cross-device authentication architecture is very similar to this, especially the \"sender\" &gt; relay server relationship component.</p>",
+    "dtime": 5057000,
+    "ptime": 5057000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: If the relay server becomes available for sharing cat pictures, then there is, I guess, a risk that it will be used for distribute of child porn or other illegal material, and it seems that we are doing a lot of work here to avoid that. The corollary is that we don't want the relay server to have to ever look at what's stored there, because we are trying not to trust the relay server with access to the credential.</p>",
+    "dtime": 5095000,
+    "ptime": 5095000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Justin: It's worth noting the relay must be open to the internet with regard to ingress traffic but that doesn't mean it isn't doing authentication of the sender.</p>",
+    "dtime": 5102000,
+    "ptime": 5102000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@Matt what's the authentication layer look like?</p>",
+    "dtime": 5121000,
+    "ptime": 5121000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>The more interesting question to me is whether there is much new work to be done here or could technology we've already got be adapted to do what's needed?</p>",
+    "dtime": 5151000,
+    "ptime": 5151000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>(personally, at least at this point it sounds like stateless protocol is enough and stateful protocol is an overkill for what it is meant to do - which is fairly narrowly scoped)</p>",
+    "dtime": 5160000,
+    "ptime": 5160000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Justin: It could be proprietary for someone who doesn't want their relay server used more widely for sending. We define different authentication mechanisms in the draft.</p>",
+    "dtime": 5168000,
+    "ptime": 5168000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: Are there IPR or other reasons why the entire Connected Car Credential protocol can't/isn't coming to the IETF?  We could use that for many things.</p>",
+    "dtime": 5193000,
+    "ptime": 5193000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Kristina: since you don't have both parties online at the same time (or rather can't guarantee that) you must have state.</p>",
+    "dtime": 5225000,
+    "ptime": 5225000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: @Pete like HTTP PATCH, POST, and all the WebDAV Stuff, right?</p>",
+    "dtime": 5240000,
+    "ptime": 5240000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>once again, I want <em>permissionless</em> delegation.</p>",
+    "dtime": 5417000,
+    "ptime": 5417000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>@Matt receiver can retrieve \"token\" from the mailbox any time - that is orthogonal to sender obtaining additional info after pushing that \"token\" to the mailbox</p>",
+    "dtime": 5438000,
+    "ptime": 5438000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>The relay servers are doing a lot of critical work in this design. Something I raised in my review of the WG charter was the unlikelihood that the relay server is truly an independent third party. Ecosystem/implementations question to follow through about as this progresses.</p>",
+    "dtime": 5439000,
+    "ptime": 5439000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>that's why current stateful/stateless definition is kind of misleading, no?</p>",
+    "dtime": 5455000,
+    "ptime": 5455000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Kristina: I don't disagree but I fear we are missing each other's point. It might be my fault. I am trying to respond to a lot of the messages</p>",
+    "dtime": 5470000,
+    "ptime": 5470000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>yesh, thanks for responding</p>",
+    "dtime": 5484000,
+    "ptime": 5484000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>In practice, I expect Hilton will use Hilton's relay server, Schlage will use Schlage's, GM will use GM's. It will be hard wired into the vendor's key sharing app.</p>",
+    "dtime": 5486000,
+    "ptime": 5486000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Mallory: Relay doesn't have to be a third party so I don't disagree with you. It could be owned and operated by the same as the sender.</p>",
+    "dtime": 5501000,
+    "ptime": 5501000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p>if you go to get a <em>new</em> hotel key at the front desk, you need to show ID and that is likely logged. I don't see the difference here.</p>",
+    "dtime": 5517000,
+    "ptime": 5517000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>@mcr: I think there's work to be done here, but it sounds more like a profile on, e.g., WEBDAV, which might be less work. Or not; I could be convinced either way.</p>",
+    "dtime": 5519000,
+    "ptime": 5519000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Jim F: that is certainly a tenable state of affairs and I don't see an issue there.</p>",
+    "dtime": 5519000,
+    "ptime": 5519000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>@Jim if relay server is managed by the credential authority, now it has to establish trust with the sender</p>",
+    "dtime": 5522000,
+    "ptime": 5522000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>pedantically it <em>could</em> establish trust in some way. it could also choose to be open and sans auth.</p>",
+    "dtime": 5593000,
+    "ptime": 5593000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Kristina The relay server has to establish trust with the sender in any case. But typical users will trust the hardcoded one because they don't have any knowledge of relay servers at all.</p>",
+    "dtime": 5649000,
+    "ptime": 5649000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"116\">@Tim Cappalli</span> when I checked i I got two keys and I can give the second one to anyone</p>",
+    "dtime": 5649000,
+    "ptime": 5649000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: As long as I have to use the Hilton App, and not a generic wallet+secure-enclave, then there is no point in standardization :-)</p>",
+    "dtime": 5653000,
+    "ptime": 5653000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/27998\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"116\">Tim Cappalli</span> when I checked i I got two keys and I can give the second one to anyone</p>\n</blockquote>\n<p>Sure, but in this model, you're not sharing an existing key. It is the equivalent of going to the front desk and getting another one.</p>",
+    "dtime": 5679000,
+    "ptime": 5679000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: so wait, to borrow a key from a friend who has a Schlage lock, i have to install a Schlage app on my mobile device?</p>",
+    "dtime": 5691000,
+    "ptime": 5691000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p>It is a derived credential in many ways.</p>",
+    "dtime": 5695000,
+    "ptime": 5695000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: @dkg, Jim said that, not me.</p>",
+    "dtime": 5709000,
+    "ptime": 5709000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"116\">@Tim Cappalli</span> but again, I can get another key and give it to someone but the hotel doesn't know who I gave it to</p>",
+    "dtime": 5714000,
+    "ptime": 5714000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Tim C / mcr: the equivalent will exist in this protocol. Hilton (the credential authority) would limit you from sharing your key to the number of people you put on your hotel reservation.</p>",
+    "dtime": 5730000,
+    "ptime": 5730000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/310-tigress/topic/jabber/near/28021\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"116\">Tim Cappalli</span> but again, I can get another key and give it to someone but the hotel doesn't know who I gave it to</p>\n</blockquote>\n<p>you can also just give your phone to someone else...</p>",
+    "dtime": 5731000,
+    "ptime": 5731000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>(analogous to your \"front desk\" example, same deal)</p>",
+    "dtime": 5737000,
+    "ptime": 5737000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"116\">@Tim Cappalli</span> well, I think those are pretty different</p>",
+    "dtime": 5751000,
+    "ptime": 5751000
+  },
+  {
+    "author": "Tim Cappalli",
+    "text": "<p>are they though?</p>",
+    "dtime": 5759000,
+    "ptime": 5759000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: but, as EKR just said, they don't actually do that today.</p>",
+    "dtime": 5763000,
+    "ptime": 5763000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Would assume there are some existing apps that use Bluetooth or airdrop and don’t even bother with servers. Does this protocol work in that case?</p>",
+    "dtime": 5766000,
+    "ptime": 5766000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yes, they are different, in part because the keys are separate from all my other stuff</p>",
+    "dtime": 5783000,
+    "ptime": 5783000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>seems like this OpenGraph stuff invites abuse.  definitely implementing that on my next phishing campaign</p>",
+    "dtime": 5786000,
+    "ptime": 5786000
+  },
+  {
+    "author": "Bradford Lassey",
+    "text": "<p>dkg: I think the answer depends. If schlage requires you to have the app to use the key then yes. If schlage lets the crediential live in apple wallet and google wallet then you can send it via sms withough the schlague app</p>",
+    "dtime": 5822000,
+    "ptime": 5822000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>certainly it's an avenue of abuse. totally agree.</p>",
+    "dtime": 5827000,
+    "ptime": 5827000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Bradford is spot on , I think.</p>",
+    "dtime": 5838000,
+    "ptime": 5838000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@bradford But you probably needed to have the schlage app to open your own front door in any case.</p>",
+    "dtime": 5911000,
+    "ptime": 5911000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>mcr: keybox.</p>",
+    "dtime": 5956000,
+    "ptime": 5956000
+  },
+  {
+    "author": "Bradford Lassey",
+    "text": "<p>@Jim, that's a product decision for Schlage to make</p>",
+    "dtime": 5968000,
+    "ptime": 5968000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>@Jim not necessarily at all.</p>",
+    "dtime": 5978000,
+    "ptime": 5978000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>dead drop</p>",
+    "dtime": 5981000,
+    "ptime": 5981000
+  },
+  {
+    "author": "Bradford Lassey",
+    "text": "<p>but it is possible to do without a schlage app</p>",
+    "dtime": 5985000,
+    "ptime": 5985000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>I think mailbox is a pretty common term used in messaging space for this</p>",
+    "dtime": 5999000,
+    "ptime": 5999000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yeah, \"mailbox\" or \"dropbox\" are pretty standard</p>",
+    "dtime": 6014000,
+    "ptime": 6014000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>personal data store rather</p>",
+    "dtime": 6029000,
+    "ptime": 6029000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"71\">@Cullen Jennings</span> But \"mailbox\" tends to be a long lived entity. In this model, they're ephemeral.</p>",
+    "dtime": 6107000,
+    "ptime": 6107000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>They do live for as long as the stateful transfer needs to take. could be 30 days for example.</p>",
+    "dtime": 6139000,
+    "ptime": 6139000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>(depending on the online/offline of the sender and receiver)</p>",
+    "dtime": 6150000,
+    "ptime": 6150000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>if everyone is online, yes it would be fast and mostly ephemeral.</p>",
+    "dtime": 6164000,
+    "ptime": 6164000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Would the mailbox (or whatever) typically be delete-on-retrieval?</p>",
+    "dtime": 6196000,
+    "ptime": 6196000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>@Pete - fair but acutaly, I think these do live for hours to days so that is long lived in my world.  ( but none of this is a big deal as long as they define whatever term they use )</p>",
+    "dtime": 6223000,
+    "ptime": 6223000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>Jim: yes on <em>completion</em> (since could be more than 1 retrieval )</p>",
+    "dtime": 6240000,
+    "ptime": 6240000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(NB: The name of this thing is mostly a \"bikeshed\" question. But yes, <span class=\"user-mention\" data-user-id=\"71\">@Cullen Jennings</span> , it is fine if well defined.)</p>",
+    "dtime": 6277000,
+    "ptime": 6277000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@matt I don't understand the more than 1 retrieval case.</p>",
+    "dtime": 6299000,
+    "ptime": 6299000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>for example a read time out, relay thinks it is done (wrote bytes to socket) but receiver has to retry (broken pipe) or otherwise. also, for stateful, the receiver would download information twice: once to get the sender's info and then again to download sender's signature.</p>",
+    "dtime": 6339000,
+    "ptime": 6339000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>I think part of confusion here is what the apps on the mobile device is.</p>",
+    "dtime": 6346000,
+    "ptime": 6346000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>It's not just going to be confusion, it's going to be a whole world of lock-in per relay server, like Jim was saying.</p>",
+    "dtime": 6370000,
+    "ptime": 6370000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@matt thanks</p>",
+    "dtime": 6375000,
+    "ptime": 6375000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>you'll receive it and your software will just say \"no\"</p>",
+    "dtime": 6383000,
+    "ptime": 6383000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Is it the hilton app, it is apple wallet, and how does it put things in and out of whatsapp. I can imagine how I would implement it and it might be right but probably drawing that all out would help people  undertand</p>",
+    "dtime": 6400000,
+    "ptime": 6400000
+  },
+  {
+    "author": "Matt Byington",
+    "text": "<p>makes sense Cullen we can work on that. it could be any of the ones you just listed.</p>",
+    "dtime": 6423000,
+    "ptime": 6423000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"71\">@Cullen Jennings</span> from what I can tell, commenters seem to want to control the relay server, whereas app developer are going to control the relay server.</p>",
+    "dtime": 6429000,
+    "ptime": 6429000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Problem with not being able to choose relay server might be if the provider goes out of business and relay server disappears. Can't share credentials then,</p>",
+    "dtime": 6487000,
+    "ptime": 6487000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<p>That problem stems from proprietary app stores, if Schlage goes out of business, you're buying new locks.</p>",
+    "dtime": 6594000,
+    "ptime": 6594000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>It's the allowlist for the receiver, we can't legislate that being a user choice from an RFC.</p>",
+    "dtime": 6635000,
+    "ptime": 6635000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Examples are good.</p>",
+    "dtime": 6669000,
+    "ptime": 6669000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>We have a number of different options on documenting requirements -- in a skeleton solution draft, in a draft we use but don't adopt, update the charter now that we learned more, etc.  We'll sort it out.</p>",
+    "dtime": 6738000,
+    "ptime": 6738000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Same answer if we also need examples or use cases documented.</p>",
+    "dtime": 6785000,
+    "ptime": 6785000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Same answer if we need a upfront threat model.</p>",
+    "dtime": 6822000,
+    "ptime": 6822000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Sounds like a lot of people want to start with a fresh document.</p>",
+    "dtime": 7015000,
+    "ptime": 7015000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Using voting to assess consensus is not a great way of doing it, either...</p>",
+    "dtime": 7099000,
+    "ptime": 7099000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Thanks for all of the input for this first meeting.</p>",
+    "dtime": 7133000,
+    "ptime": 7133000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-TIGRESS-20220727-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/tigress"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-TIGRESS-20220727-1900"
+		}		
+	]
+}

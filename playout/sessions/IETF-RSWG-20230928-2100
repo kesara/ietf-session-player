@@ -1,0 +1,595 @@
+
+{
+	"title": "IETF-RSWG-20230928-2100",
+	"filename": "IETF-RSWG-20230928-2100",
+	"start": 0,
+	"end": 3656000,
+	"start_datetime": "2023-09-28T21:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "tppjGj_JVsM",
+    "start": 0,
+    "end": "3656000"
+  }
+],
+	"messages": [
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Russ how many times have I told you to use the correct speaker in Pete's house?</p>",
+    "topic": "ietf-interim",
+    "dtime": 50000,
+    "ptime": 50000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Russ, can you move over to the other speaker</p>",
+    "topic": "ietf-interim",
+    "dtime": 53000,
+    "ptime": 53000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Welcome Russ and thank you EKR</p>",
+    "topic": "ietf-interim",
+    "dtime": 291000,
+    "ptime": 291000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>welcome russ.</p>",
+    "topic": "ietf-interim",
+    "dtime": 291000,
+    "ptime": 291000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>applause</p>",
+    "topic": "ietf-interim",
+    "dtime": 292000,
+    "ptime": 292000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Gonna spend most of this meeting complaining about the chairing</p>",
+    "topic": "ietf-interim",
+    "dtime": 308000,
+    "ptime": 308000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 321000,
+    "ptime": 321000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Pete has it right</p>",
+    "topic": "ietf-interim",
+    "dtime": 541000,
+    "ptime": 541000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I edit in raw XML, but I'm a bit odd.</p>",
+    "topic": "ietf-interim",
+    "dtime": 829000,
+    "ptime": 829000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I might be weird, but I use HTML, but check TXT thoroughly in AUTH48, I also check XML, but only a little</p>",
+    "topic": "ietf-interim",
+    "dtime": 836000,
+    "ptime": 836000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I doubt anyone can handle \"prepped\" XML, even Pete</p>",
+    "topic": "ietf-interim",
+    "dtime": 870000,
+    "ptime": 870000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>What I do, FWIW, is read the TXT and use the diffs against TXT to track stuff through AUTH48</p>",
+    "topic": "ietf-interim",
+    "dtime": 962000,
+    "ptime": 962000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yeah, TXT diffs are a very powerful tool</p>",
+    "topic": "ietf-interim",
+    "dtime": 1097000,
+    "ptime": 1097000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>True story, I have actually used PDF diffs.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1113000,
+    "ptime": 1113000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>HTML diffing tools generally try to do too much, I can't imagine what PDF diffs are like</p>",
+    "topic": "ietf-interim",
+    "dtime": 1130000,
+    "ptime": 1130000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>In the final stages of preparation of camera ready copy</p>",
+    "topic": "ietf-interim",
+    "dtime": 1132000,
+    "ptime": 1132000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, the idea was to persuade yourself that the page had not changed at all</p>",
+    "topic": "ietf-interim",
+    "dtime": 1148000,
+    "ptime": 1148000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Or, rather to get a list of the pages which were different</p>",
+    "topic": "ietf-interim",
+    "dtime": 1157000,
+    "ptime": 1157000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>There are a bunch of changes queued for the next xml2rfc release that will make html for that release forward look different than  that release back. That will happen over and over going forward. At _some_ point I anticipate a real need to have older things _look like_ all the other things. A world where we go change _just that thing that changed_ and avoid the other updates to how html renders differently is bad for consumers and bad for producers.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1200000,
+    "ptime": 1200000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>(also laying out here for use in the rubrik) : Kesara noted that the dates captured in preptime in the currently published XML are not tagged with a timezone, and are implicitly in P[SD]T....</p>",
+    "topic": "ietf-interim",
+    "dtime": 1287000,
+    "ptime": 1287000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>What Robert said</p>",
+    "topic": "ietf-interim",
+    "dtime": 1324000,
+    "ptime": 1324000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Though I didn't realize the PST/PDT thing.  That would be worth fixing.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1367000,
+    "ptime": 1367000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I would be less uncomfortable if we differentiated \"changes in the XML\" that are not intended to change the meaning from those that do.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1473000,
+    "ptime": 1473000
+  },
+  {
+    "author": "Alexis Rossi",
+    "text": "<p>That is what Martin's draft does</p>",
+    "topic": "ietf-interim",
+    "dtime": 1488000,
+    "ptime": 1488000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Yes, but I don't know what people are talking about right now.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1513000,
+    "ptime": 1513000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that this is what we are all assuming.  If we're talking about semantic changes, then it's a different discussion.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1609000,
+    "ptime": 1609000
+  },
+  {
+    "author": "Alexis Rossi",
+    "text": "<p>please only give broad guidance, we don't know what we're doing yet!</p>",
+    "topic": "ietf-interim",
+    "dtime": 1737000,
+    "ptime": 1737000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>My draft does not give that guidance at all.  It specifically disavows authority in that area and leaves this to RPC discretion.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1801000,
+    "ptime": 1801000
+  },
+  {
+    "author": "Alexis Rossi",
+    "text": "<p>^ that is preferable</p>",
+    "topic": "ietf-interim",
+    "dtime": 1817000,
+    "ptime": 1817000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>html6</p>",
+    "topic": "ietf-interim",
+    "dtime": 1825000,
+    "ptime": 1825000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>I like the way Joel suggests we think about this.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1903000,
+    "ptime": 1903000
+  },
+  {
+    "author": "Alexis Rossi",
+    "text": "<p>yes, please don't make up metadata!</p>",
+    "topic": "ietf-interim",
+    "dtime": 1933000,
+    "ptime": 1933000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>we lost Joel</p>",
+    "topic": "ietf-interim",
+    "dtime": 1986000,
+    "ptime": 1986000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that Joel is largely saying what the draft is (trying) to say, so that is good.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2034000,
+    "ptime": 2034000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>We can change the canonical[sic] form.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2084000,
+    "ptime": 2084000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm going to say that we <em>should not</em> do that.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2100000,
+    "ptime": 2100000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@MT: you should get in line then because I am going to say we should.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2161000,
+    "ptime": 2161000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>We have had examples of rendered PDFs that missed parts of tables and diagrams</p>",
+    "topic": "ietf-interim",
+    "dtime": 2269000,
+    "ptime": 2269000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>PDF rendering is a complete disaster, generally.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2284000,
+    "ptime": 2284000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>but almost every other SDO uses it as their official format, no?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2303000,
+    "ptime": 2303000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>and many governments.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I trust PDF about as far as I can throw it.  It inherits all the quirks of HTML (by virtue of being rendered using HTML), but the renderer has none of the robustness of a web browser.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>pdf, at least as we make it, doesn't seem to be what's actually consumed.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2389000,
+    "ptime": 2389000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Oh I forgot to mention, it's absolutely in scope for this WG to say that \"the canonical format is LaTeX\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 2462000,
+    "ptime": 2462000
+  },
+  {
+    "author": "Kesara Rathnayake",
+    "text": "<p>Do we have analytics data on how many people consume PDFs?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2464000,
+    "ptime": 2464000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Our toolchain for PDF is different, so it is possible that other people are able to use PDF properly, while we cannot</p>",
+    "topic": "ietf-interim",
+    "dtime": 2480000,
+    "ptime": 2480000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Though of course it would need stream approval, both via RSWG and probably extra consultation</p>",
+    "topic": "ietf-interim",
+    "dtime": 2487000,
+    "ptime": 2487000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>LaTeX as a format isn't crazy</p>",
+    "topic": "ietf-interim",
+    "dtime": 2502000,
+    "ptime": 2502000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<blockquote>\n<p>I trust PDF about as far as I can throw it.</p>\n</blockquote>",
+    "topic": "ietf-interim",
+    "dtime": 2543000,
+    "ptime": 2543000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Is that also a statement about official new zealand documents?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2554000,
+    "ptime": 2554000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Martin as we discussed on the list, since I can't come up with better wording than what you have in your draft, I can live with your draft.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2565000,
+    "ptime": 2565000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>New draft idea: S-Expressions as input format'</p>",
+    "topic": "ietf-interim",
+    "dtime": 2594000,
+    "ptime": 2594000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>This just postpones the technical debt.  Which is what we may want to do...</p>",
+    "topic": "ietf-interim",
+    "dtime": 2679000,
+    "ptime": 2679000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>@EKR that S-Expression draft is now in my ISE queue.  Want to review?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2680000,
+    "ptime": 2680000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"115\">@Carsten Bormann</span> \"This\"? What postones the technical debt?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2743000,
+    "ptime": 2743000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Not rerendering</p>",
+    "topic": "ietf-interim",
+    "dtime": 2752000,
+    "ptime": 2752000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Ack</p>",
+    "topic": "ietf-interim",
+    "dtime": 2766000,
+    "ptime": 2766000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>for people hitting the queue frequently - consider staying attached to the audio, and mute only with the button in the lower right corner - that will go a long way towards avoiding the media startup clipping. The group here is small enough that the conference performance will not be affected.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2807000,
+    "ptime": 2807000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Though turning off the video is probably useful.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2839000,
+    "ptime": 2839000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>If we change the XML a lot, that re-checking becomes expensive and therefore it is a win to decouple the two.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3033000,
+    "ptime": 3033000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>We <em>do</em> have to check, at some point.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3052000,
+    "ptime": 3052000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I <em>largely</em> agree with what Joel said.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3380000,
+    "ptime": 3380000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think we could and should require that the tools generate stable renderings on the same data.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3391000,
+    "ptime": 3391000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Thanks EKR.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3393000,
+    "ptime": 3393000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>That I think is within our remit</p>",
+    "topic": "ietf-interim",
+    "dtime": 3402000,
+    "ptime": 3402000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>is tomorrow supposed to be a replay of today's agenda or a continuation?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3425000,
+    "ptime": 3425000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>If we decide canonical is PDF A4 and not USLetter, confirming the re-redendering seems a bit tricky.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3439000,
+    "ptime": 3439000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Rich: oh yeah</p>",
+    "topic": "ietf-interim",
+    "dtime": 3448000,
+    "ptime": 3448000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I suspect HTML and TXT are much easier than PDF along those \"de minimus changes checking\" line.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3455000,
+    "ptime": 3455000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>A4 is clearly superior here.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3456000,
+    "ptime": 3456000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>So it's true that <em>sometimes</em> you do have to be like \"We rerendered in A4 and spot checked that 1/10 RFCs looked fine and moved on\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3477000,
+    "ptime": 3477000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"9\">@Robert Sparks</span> Continuation. Russ or I will minute this evening.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3479000,
+    "ptime": 3479000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Martin Thomson: I think you mean A1</p>",
+    "topic": "ietf-interim",
+    "dtime": 3502000,
+    "ptime": 3502000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>thanks, Pete and Russ!  Thanks, all!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3571000,
+    "ptime": 3571000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>A series, that's all</p>",
+    "topic": "ietf-interim",
+    "dtime": 3583000,
+    "ptime": 3583000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Maybe in PST, like the preptool.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3590000,
+    "ptime": 3590000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>and RFCs are A4 as far as I can tell</p>",
+    "topic": "ietf-interim",
+    "dtime": 3591000,
+    "ptime": 3591000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Too soon?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3591000,
+    "ptime": 3591000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>13:00</p>",
+    "topic": "ietf-interim",
+    "dtime": 3595000,
+    "ptime": 3595000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I will not be attending.  Thanks all.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3629000,
+    "ptime": 3629000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-RSWG-20230928-2100"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-rswg-01/session/rswg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-RSWG-20230928-2100"
+		}
+	]
+}

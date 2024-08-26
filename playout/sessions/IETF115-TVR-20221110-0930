@@ -1,0 +1,1568 @@
+
+{
+	"title": "IETF115-TVR-20221110-0930",
+	"filename": "IETF115-TVR-20221110-0930",
+	"start": 0,
+	"end": 7388000,
+	"start_datetime": "2022-11-10T09:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "uc4pwwj6bR0",
+    "start": 0,
+    "end": "7388000"
+  }
+],
+	"messages": [
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Morning, Kevin. Thanks for showing up at short notice.</p>",
+    "topic": "jabber",
+    "dtime": 70000,
+    "ptime": 70000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>date on the slides is wrong</p>",
+    "topic": "jabber",
+    "dtime": 80000,
+    "ptime": 80000
+  },
+  {
+    "author": "Kevin Shortt",
+    "text": "<p>Thanks for having me.</p>",
+    "topic": "jabber",
+    "dtime": 83000,
+    "ptime": 83000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Morning all :)</p>",
+    "topic": "jabber",
+    "dtime": 369000,
+    "ptime": 369000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>Good morning, please join us for joint minute taking at: <a href=\"https://notes.ietf.org/notes-ietf-115-tvr?edit\">https://notes.ietf.org/notes-ietf-115-tvr?edit</a></p>",
+    "topic": "jabber",
+    "dtime": 471000,
+    "ptime": 471000
+  },
+  {
+    "author": "Qiangzhou Gao",
+    "text": "<p>Morning all :)</p>",
+    "topic": "jabber",
+    "dtime": 574000,
+    "ptime": 574000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>good morning</p>",
+    "topic": "jabber",
+    "dtime": 852000,
+    "ptime": 852000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>In the past we didn't have routing flying in space :-)</p>",
+    "topic": "jabber",
+    "dtime": 928000,
+    "ptime": 928000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>@chairs I'd suggest cutting the queue at this point to get through the rest of the material</p>",
+    "topic": "jabber",
+    "dtime": 946000,
+    "ptime": 946000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@wes thanks - we have 25 minutes for discussion - we can take 10 minutes here</p>",
+    "topic": "jabber",
+    "dtime": 989000,
+    "ptime": 989000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>This being called 'time variant routing', let me ask a maybe silly question: is time the only predictable dimension of variance in routing we may care about? Or may we care about other predictable changes to routing (e.g., based on locality)?</p>",
+    "topic": "jabber",
+    "dtime": 1050000,
+    "ptime": 1050000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@dirk at least some is in scope, think a fair question to ask at mic</p>",
+    "topic": "jabber",
+    "dtime": 1098000,
+    "ptime": 1098000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>good question</p>",
+    "topic": "jabber",
+    "dtime": 1116000,
+    "ptime": 1116000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>this also causes us to ask some other questions, like \"how do I know about resources that are not currently not on line?\" ...</p>",
+    "topic": "jabber",
+    "dtime": 1170000,
+    "ptime": 1170000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>dynamic routing is rather critical, from the input we have gotten from the community.</p>",
+    "topic": "jabber",
+    "dtime": 1225000,
+    "ptime": 1225000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>Knowing if a resource that is far better for me t solve a problem is offline, but I know will return at a set time, I now must weigh if it is worth waiting for said resource or spending additional resources that are ill-fit to the problem I am currently facing</p>",
+    "topic": "jabber",
+    "dtime": 1300000,
+    "ptime": 1300000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>this should deal with the dynamic topology ... the key is reachability to a resources across any path ... the path might change</p>",
+    "topic": "jabber",
+    "dtime": 1332000,
+    "ptime": 1332000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@tony was that the question</p>",
+    "topic": "jabber",
+    "dtime": 1353000,
+    "ptime": 1353000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>of course you can have failures but think about a satellite that passes over a given point every x number of time units</p>",
+    "topic": "jabber",
+    "dtime": 1370000,
+    "ptime": 1370000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>@Dirk - Good question. Do we need to consider a reliability, or probability, of the link being available at a scheduled time.</p>",
+    "topic": "jabber",
+    "dtime": 1381000,
+    "ptime": 1381000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>the concept of neighbor discovery needs to be including in this thinking as well, adding to the definition of dynamic.</p>",
+    "topic": "jabber",
+    "dtime": 1402000,
+    "ptime": 1402000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>also change in other metrics, e.g., delay, loss probabiliy, available data rate</p>",
+    "topic": "jabber",
+    "dtime": 1409000,
+    "ptime": 1409000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>The presenter just alluded to a question that we should be clear on.  What time scale and precision of timing are we concerned with?  He said \"not nanoseconds\".</p>",
+    "topic": "jabber",
+    "dtime": 1433000,
+    "ptime": 1433000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>I believe it is way longer, perhaps days</p>",
+    "topic": "jabber",
+    "dtime": 1468000,
+    "ptime": 1468000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>If we agree that we want liveness, then 'not nanoseconds' is a given.</p>",
+    "topic": "jabber",
+    "dtime": 1484000,
+    "ptime": 1484000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Yes, at least for LEO, UAV, we are considering minutes, hours, days.</p>",
+    "topic": "jabber",
+    "dtime": 1492000,
+    "ptime": 1492000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>deep space as well</p>",
+    "topic": "jabber",
+    "dtime": 1507000,
+    "ptime": 1507000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Months :-)</p>",
+    "topic": "jabber",
+    "dtime": 1518000,
+    "ptime": 1518000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>SSI - Solar System Internet is slowly evolving, and we don't have yet a routing solution</p>",
+    "topic": "jabber",
+    "dtime": 1564000,
+    "ptime": 1564000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Folks, we are trying to reflect some of the chat questions and responses in the minutes. Feel free to visit edit/add your points.</p>",
+    "topic": "jabber",
+    "dtime": 1572000,
+    "ptime": 1572000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-115-tvr?edit\">https://notes.ietf.org/notes-ietf-115-tvr?edit</a></p>",
+    "topic": "jabber",
+    "dtime": 1584000,
+    "ptime": 1584000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>this gentleman needs solar panels and batteries :)</p>",
+    "topic": "jabber",
+    "dtime": 1602000,
+    "ptime": 1602000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 1621000,
+    "ptime": 1621000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Scott Johnson, no actually he has a large backup power plant.  But the large scale power outages affect things around him.'</p>",
+    "topic": "jabber",
+    "dtime": 1662000,
+    "ptime": 1662000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>I think when we go to use cases this may get more clear</p>",
+    "topic": "jabber",
+    "dtime": 1711000,
+    "ptime": 1711000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>The CCAMP/PCE veterans might remember the concept of a VNT - Virtual Network Topology - that we discussed for setting up multi-layer networks, this feels like a scheduled VNT.</p>",
+    "topic": "jabber",
+    "dtime": 1748000,
+    "ptime": 1748000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>@Joel Halpern  I understand.  I am presently in the middle of a hurricane.  I deployed my AS because other peoples networks kept failing around me due to such events :)</p>",
+    "topic": "jabber",
+    "dtime": 1774000,
+    "ptime": 1774000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>There are uses cases for reacting to conditions that change over time (peak power costs, data caps, etc...)</p>",
+    "topic": "jabber",
+    "dtime": 1827000,
+    "ptime": 1827000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>The multi-homed redundancy use case.</p>",
+    "topic": "jabber",
+    "dtime": 1833000,
+    "ptime": 1833000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>A great many use cases, Ed.  I agree completely.</p>",
+    "topic": "jabber",
+    "dtime": 1858000,
+    "ptime": 1858000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>95th% billing, for example.</p>",
+    "topic": "jabber",
+    "dtime": 1892000,
+    "ptime": 1892000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>it is good to have schedule yes I agree</p>",
+    "topic": "jabber",
+    "dtime": 1942000,
+    "ptime": 1942000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>It is interesting WG use cases</p>",
+    "topic": "jabber",
+    "dtime": 1974000,
+    "ptime": 1974000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"605\">@Daniel King</span>  Also RFC 8413 if we consider TE</p>",
+    "topic": "jabber",
+    "dtime": 1977000,
+    "ptime": 1977000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>What happens when the schedule changes but that is not possible to notify the nodes in time to make a change useful?</p>",
+    "topic": "jabber",
+    "dtime": 1983000,
+    "ptime": 1983000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>Propagation latency being the problem.</p>",
+    "topic": "jabber",
+    "dtime": 2025000,
+    "ptime": 2025000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Would a scheduled topology only consider network metrics, what about  say energy cost ($)?</p>",
+    "topic": "jabber",
+    "dtime": 2067000,
+    "ptime": 2067000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>to the point about microloops ... this also applies to bgp hunt reduction as well as microloops in link-state protocols ... scheduling would help us reduce the effects of these things because we could invoke the proper techniques to make convergence less disruptive</p>",
+    "topic": "jabber",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>another point ... if an application knows about a change that is coming, it can adjust its timers to compensate for the future jitter without changing all its timers permanently ... this could help performance, even in higher performance networks</p>",
+    "topic": "jabber",
+    "dtime": 2260000,
+    "ptime": 2260000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Why the topology changes is pretty much irrelevant.</p>",
+    "topic": "jabber",
+    "dtime": 2268000,
+    "ptime": 2268000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>wouldn't know link x is going to go down in y seconds allow devices to precompute the correct alternate path, and then use something like ordered fib to change the forwarding in the correct order to stop microloops from actually looping traffic? I think this is what Stewart is getting at?</p>",
+    "topic": "jabber",
+    "dtime": 2366000,
+    "ptime": 2366000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Yes, of course.</p>",
+    "topic": "jabber",
+    "dtime": 2394000,
+    "ptime": 2394000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@dhruv - as you might guess - I'd like to see TE considered as in scope</p>",
+    "topic": "jabber",
+    "dtime": 2475000,
+    "ptime": 2475000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>Relating to my comment at the mic on having suitable API to the scheduling (system) may also allow for using the information for other network functions. For instance, access authorization is a key aspect when attaching to a new network domain, pre-authorizing based on schedule information would reduce the effective downtime and thus facilitate smoother reconnection (handover).</p>",
+    "topic": "jabber",
+    "dtime": 2537000,
+    "ptime": 2537000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@tony agree, but it gets interesting when schedule support future adjacency options, e.g., @T4 can peer with nodes c or d, but not both</p>",
+    "topic": "jabber",
+    "dtime": 2572000,
+    "ptime": 2572000
+  },
+  {
+    "author": "Rick Taylor",
+    "text": "<p>@Dirk - I completely agree that having future network change information available from the lower layers would allow very interesting upper-layer behaviour</p>",
+    "topic": "jabber",
+    "dtime": 2602000,
+    "ptime": 2602000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"177\">@Lou Berger</span> Is topology planning in scope? That becomes MUCH harder.</p>",
+    "topic": "jabber",
+    "dtime": 2622000,
+    "ptime": 2622000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Nanosat and microsats, have finite power that needs to be considered so that links can be scheduled between (solar) power regeneration. RF and FSO interfaces differ in power consumption and BW capabilities. You also have a choice to continue a path in space via ISL, or bounce along earth ground stations.</p>",
+    "topic": "jabber",
+    "dtime": 2647000,
+    "ptime": 2647000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>that's part of what we need to decide</p>",
+    "topic": "jabber",
+    "dtime": 2649000,
+    "ptime": 2649000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>BTW completely agree - we've been heare before with virtual topologies</p>",
+    "topic": "jabber",
+    "dtime": 2675000,
+    "ptime": 2675000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>That sounds like an offline optimization problem, IMHO.</p>",
+    "topic": "jabber",
+    "dtime": 2691000,
+    "ptime": 2691000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>That's a fair approach/ Part of the purpose of this meeting is to decide scope</p>",
+    "topic": "jabber",
+    "dtime": 2734000,
+    "ptime": 2734000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>or at least discuss and get some sense of where interests lie</p>",
+    "topic": "jabber",
+    "dtime": 2767000,
+    "ptime": 2767000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>:point_up_2:</p>",
+    "topic": "jabber",
+    "dtime": 2792000,
+    "ptime": 2792000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>It could be that we end up deciding there are problems here, but they cannot be solved through \"traditional\" routing ... so offline might be the only real option</p>",
+    "topic": "jabber",
+    "dtime": 2792000,
+    "ptime": 2792000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"172\">@Rick Taylor</span>  this could position the 'time-variant' work on one on 'schedule system for network functions' (i.e., suitable APIs for pushing and pulling information), while 'routing' may be the key use case category in the WG, while the first aspect may well be applicable beyond. It avoids boiling the ocean but still make the work of wider use (for others).</p>",
+    "topic": "jabber",
+    "dtime": 2799000,
+    "ptime": 2799000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>what happens when there is a link error, and you want to unload stored data into an available commercial link in a dynamic fashion to deal with the unplanned link outage.</p>",
+    "topic": "jabber",
+    "dtime": 2828000,
+    "ptime": 2828000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>Transport and unplanned outages would seem to be out of scope ... (?)</p>",
+    "topic": "jabber",
+    "dtime": 2889000,
+    "ptime": 2889000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>transport as in transport protocol, e.g., tcp/quic?</p>",
+    "topic": "jabber",
+    "dtime": 2915000,
+    "ptime": 2915000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>BP</p>",
+    "topic": "jabber",
+    "dtime": 2931000,
+    "ptime": 2931000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@russ Surely if you have a schedule for unplanned outages? Oh, wait!</p>",
+    "topic": "jabber",
+    "dtime": 2937000,
+    "ptime": 2937000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>LTP</p>",
+    "topic": "jabber",
+    "dtime": 2940000,
+    "ptime": 2940000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>Suppose that all the routers in the network decide to use a path schedule plan B, how to guarantee all the router's FIB work in the same time? If we download the RIB to FIB in advance? how to trigger the switchover when the primary link/node doesn't down?</p>",
+    "topic": "jabber",
+    "dtime": 2945000,
+    "ptime": 2945000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>in practical application, they must be in scope, it seems.</p>",
+    "topic": "jabber",
+    "dtime": 2951000,
+    "ptime": 2951000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"383\">@Zheng Zhang</span>  This is part of what Stewart was talking about, I think</p>",
+    "topic": "jabber",
+    "dtime": 2987000,
+    "ptime": 2987000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"383\">@Zheng Zhang</span> We wait for liveness to propagate and then switch FIBs at a predetermined time.</p>",
+    "topic": "jabber",
+    "dtime": 2998000,
+    "ptime": 2998000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>To me this looks possibly as problem statement which could be addressed in two relatively simple ways ... a) add cron to IGP and BGP to grecefully dry some paths according to schedule b) Rename this WG BOF to RVR - Redundant Variant Routing meaning active-active accoring to schedule</p>",
+    "topic": "jabber",
+    "dtime": 3001000,
+    "ptime": 3001000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>do not assume it is only packets that are being routed.  in many cases, packet delivery is already broken.</p>",
+    "topic": "jabber",
+    "dtime": 3039000,
+    "ptime": 3039000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>all solutions are on the table ;-)</p>",
+    "topic": "jabber",
+    "dtime": 3044000,
+    "ptime": 3044000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Tony Li OK. It needs specific processing in FIB, right?</p>",
+    "topic": "jabber",
+    "dtime": 3060000,
+    "ptime": 3060000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@Zheng and Russ. There are solutions and there are problems. The common problem is to avoid loops and drop-zones caused by mismatched FIBs. The solutions are many and established</p>",
+    "topic": "jabber",
+    "dtime": 3063000,
+    "ptime": 3063000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>in these cases, IGP and BGP already do not work.</p>",
+    "topic": "jabber",
+    "dtime": 3070000,
+    "ptime": 3070000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1453\">@Scott Johnson</span> If we do this right, we can change before packet delivery breaks.</p>",
+    "topic": "jabber",
+    "dtime": 3072000,
+    "ptime": 3072000
+  },
+  {
+    "author": "Kevin Shortt",
+    "text": "<p>I'm trying to but I don't have access.</p>",
+    "topic": "jabber",
+    "dtime": 3106000,
+    "ptime": 3106000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Predictable connectivity also applies to rural links  in developing where power is finite and/or only available at specific (predictable) times.</p>",
+    "topic": "jabber",
+    "dtime": 3109000,
+    "ptime": 3109000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>howso, @Tony Li, when propagation delay exceeds timeouts?</p>",
+    "topic": "jabber",
+    "dtime": 3140000,
+    "ptime": 3140000
+  },
+  {
+    "author": "Kevin Shortt",
+    "text": "<p>I'm having trouble getting my audio up.</p>",
+    "topic": "jabber",
+    "dtime": 3143000,
+    "ptime": 3143000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"179\">@Adrian Farrel</span> Are there other solutions available? A hard coordinated switch of FIBs would be doable.</p>",
+    "topic": "jabber",
+    "dtime": 3150000,
+    "ptime": 3150000
+  },
+  {
+    "author": "Kevin Shortt",
+    "text": "<p>Will do!</p>",
+    "topic": "jabber",
+    "dtime": 3180000,
+    "ptime": 3180000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@Tony. Look at ATT's TDM network in 1995 :-)</p>",
+    "topic": "jabber",
+    "dtime": 3190000,
+    "ptime": 3190000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>I think what we are trying to decide if it makes sense or not to work on this and if we need a new WG</p>",
+    "topic": "jabber",
+    "dtime": 3206000,
+    "ptime": 3206000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@Kevin, in Meetecho there is a microphone icon, you need to click it</p>",
+    "topic": "jabber",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Yes, it's in the top left corner, in a box under your name</p>",
+    "topic": "jabber",
+    "dtime": 3253000,
+    "ptime": 3253000
+  },
+  {
+    "author": "Kevin Shortt",
+    "text": "<p>Thanks everyone.</p>",
+    "topic": "jabber",
+    "dtime": 3264000,
+    "ptime": 3264000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"242\">@Jorge Amodio</span> Yes and yes. :-)</p>",
+    "topic": "jabber",
+    "dtime": 3264000,
+    "ptime": 3264000
+  },
+  {
+    "author": "Kevin Shortt",
+    "text": "<p>The problem is I can't grant access to my microphone.</p>",
+    "topic": "jabber",
+    "dtime": 3276000,
+    "ptime": 3276000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Oh :-(</p>",
+    "topic": "jabber",
+    "dtime": 3286000,
+    "ptime": 3286000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>@Kevin ... always happes to me .. Switch browser</p>",
+    "topic": "jabber",
+    "dtime": 3293000,
+    "ptime": 3293000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>@Tony Li I concur.</p>",
+    "topic": "jabber",
+    "dtime": 3294000,
+    "ptime": 3294000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p><a href=\"https://support.google.com/chrome/answer/2693767?hl=en-GB&amp;co=GENIE.Platform%3DDesktop\">https://support.google.com/chrome/answer/2693767?hl=en-GB&amp;co=GENIE.Platform%3DDesktop</a></p>",
+    "topic": "jabber",
+    "dtime": 3352000,
+    "ptime": 3352000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Maybe you declined access to the mic during the preflight when you joined? Browsers tend to remember this setting, so you may have to check the settings and remove the refusal. Changing browser as suggested would prompt it again there</p>",
+    "topic": "jabber",
+    "dtime": 3357000,
+    "ptime": 3357000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>TVR could be also for terrestrial apps, ie IoT</p>",
+    "topic": "jabber",
+    "dtime": 3581000,
+    "ptime": 3581000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>The usecases are reasonable. But it's really hard to solve it. I am not saying I am negative with it. I just want to say, there are many challanges in it. such as how to calculate and download a path which is not existed (suppose the link is down and only up in schedule time)</p>",
+    "topic": "jabber",
+    "dtime": 3661000,
+    "ptime": 3661000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"383\">@Zheng Zhang</span> the problem of how to know what should/might exist versus what does exist is a real problem ...</p>",
+    "topic": "jabber",
+    "dtime": 3712000,
+    "ptime": 3712000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"383\">@Zheng Zhang</span>  isn't the point of a schedule to know of the link availability in advance, possibly needing to still check liveness at the time of expected availability? Point of having an API to the schedule is for announcing possible link availability upfront.</p>",
+    "topic": "jabber",
+    "dtime": 3788000,
+    "ptime": 3788000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>I think that a good chunk of time needs to be spent collecting these hard problems even before we start looking at the solution space</p>",
+    "topic": "jabber",
+    "dtime": 3792000,
+    "ptime": 3792000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>+1 <span class=\"user-mention\" data-user-id=\"179\">@Adrian Farrel</span></p>",
+    "topic": "jabber",
+    "dtime": 3857000,
+    "ptime": 3857000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Russ White Understood</p>",
+    "topic": "jabber",
+    "dtime": 3858000,
+    "ptime": 3858000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"383\">@Zheng Zhang</span> The implementation is certainly tricky.  Conceptually, however it's straightforward.</p>",
+    "topic": "jabber",
+    "dtime": 3862000,
+    "ptime": 3862000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@adrian completely agree and think it will be an important <em>wg</em> topic if there is sufficient support to form a wg</p>",
+    "topic": "jabber",
+    "dtime": 3873000,
+    "ptime": 3873000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>@zheng Zhang that is why we are trying to figure if a new WG is needed to focus on this</p>",
+    "topic": "jabber",
+    "dtime": 3884000,
+    "ptime": 3884000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Dirk Trossen The worst case is that, how to calculate a path which is not in the database.  Maybe adviertise a non-existed route in advance?</p>",
+    "topic": "jabber",
+    "dtime": 3936000,
+    "ptime": 3936000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Instead of SPF on the LSDB it's SPF on LSDB + link.</p>",
+    "topic": "jabber",
+    "dtime": 3976000,
+    "ptime": 3976000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>yes we some times do</p>",
+    "topic": "jabber",
+    "dtime": 3980000,
+    "ptime": 3980000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>echo</p>",
+    "topic": "jabber",
+    "dtime": 3988000,
+    "ptime": 3988000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>hear echo</p>",
+    "topic": "jabber",
+    "dtime": 4001000,
+    "ptime": 4001000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>+1 lots of opportunities for precalculation</p>",
+    "topic": "jabber",
+    "dtime": 4003000,
+    "ptime": 4003000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Jorge Amodio Yes. I think this work is interesting but we will face/solve may problems :-)</p>",
+    "topic": "jabber",
+    "dtime": 4012000,
+    "ptime": 4012000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@meetecho can you help with the echo</p>",
+    "topic": "jabber",
+    "dtime": 4017000,
+    "ptime": 4017000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Working on it</p>",
+    "topic": "jabber",
+    "dtime": 4022000,
+    "ptime": 4022000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>I believe we need to save these discussion for a WG if we need one</p>",
+    "topic": "jabber",
+    "dtime": 4027000,
+    "ptime": 4027000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>thanks!</p>",
+    "topic": "jabber",
+    "dtime": 4029000,
+    "ptime": 4029000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>thanks</p>",
+    "topic": "jabber",
+    "dtime": 4029000,
+    "ptime": 4029000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>focus on the \"bof\"</p>",
+    "topic": "jabber",
+    "dtime": 4051000,
+    "ptime": 4051000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>exactly.</p>",
+    "topic": "jabber",
+    "dtime": 4091000,
+    "ptime": 4091000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>I'll be contrarian and disagree: we can do all of this without enumerating all of the reasons why the topology is changing. We just operate at the topological level of abstraction.</p>",
+    "topic": "jabber",
+    "dtime": 4100000,
+    "ptime": 4100000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>yes that is right, we should focus in that direction</p>",
+    "topic": "jabber",
+    "dtime": 4105000,
+    "ptime": 4105000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>bof if needed wg</p>",
+    "topic": "jabber",
+    "dtime": 4123000,
+    "ptime": 4123000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>of course we're here to see if there is sufficient interest so identifying work to be done is helpful</p>",
+    "topic": "jabber",
+    "dtime": 4125000,
+    "ptime": 4125000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"383\">@Zheng Zhang</span> if it isn't in the schedule, it is a hard problem (how do you travel on a bus which is not in any schedule?). One of the aspects of populating the database is also its curation for users of its information to ensure not just provenance but also veracity, also in terms of 'promise in the future'. As mentioned before, the work on ensuring/establishing such knowledge base is a key strand of work for me, possibly of use to other network functions, while its specific use for routing may be the other strand of work for TVR specifically.</p>",
+    "topic": "jabber",
+    "dtime": 4129000,
+    "ptime": 4129000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@tony not sure that is a contrarian view (at least from pov)</p>",
+    "topic": "jabber",
+    "dtime": 4164000,
+    "ptime": 4164000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>@Lou, I agree</p>",
+    "topic": "jabber",
+    "dtime": 4199000,
+    "ptime": 4199000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>integrate datacenters and off-grid/grid interactive power plants.</p>",
+    "topic": "jabber",
+    "dtime": 4242000,
+    "ptime": 4242000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>I agree with @Tony. So this is decreasingly contrarian. Knowledge of fact and knowledge of cause are both interesting, but not both necessary for all objectives</p>",
+    "topic": "jabber",
+    "dtime": 4344000,
+    "ptime": 4344000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>I'll then suggest that the format, storage, access, and delivery of the schedule is in scope. Computation of the schedule is out of scope.</p>",
+    "topic": "jabber",
+    "dtime": 4428000,
+    "ptime": 4428000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>if we agree that a WG is needed part of the discussion will probably translate into the charter for such group</p>",
+    "topic": "jabber",
+    "dtime": 4456000,
+    "ptime": 4456000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>obviously this has to go through the ietf process</p>",
+    "topic": "jabber",
+    "dtime": 4542000,
+    "ptime": 4542000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>I'll add to <span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> and say that the definition of the data elements into and out of the schedule computations is in scope. (and thus how to format, store, access and transport them)</p>",
+    "topic": "jabber",
+    "dtime": 4556000,
+    "ptime": 4556000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>focus on the need for the WG not the end solution</p>",
+    "topic": "jabber",
+    "dtime": 4759000,
+    "ptime": 4759000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>can't hear</p>",
+    "topic": "jabber",
+    "dtime": 4789000,
+    "ptime": 4789000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>are we in the scoping discussion yet? or is this q&amp;a on use cases?</p>",
+    "topic": "jabber",
+    "dtime": 4796000,
+    "ptime": 4796000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>The argument for the WG is clear: this is out of scope for existing WG's.</p>",
+    "topic": "jabber",
+    "dtime": 4802000,
+    "ptime": 4802000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>@Tony agree</p>",
+    "topic": "jabber",
+    "dtime": 4817000,
+    "ptime": 4817000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>Agree</p>",
+    "topic": "jabber",
+    "dtime": 4821000,
+    "ptime": 4821000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>now the $1M question is what area ?</p>",
+    "topic": "jabber",
+    "dtime": 4839000,
+    "ptime": 4839000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>we need a proposed start of conditions and way to solve in general, and what we don't get into</p>",
+    "topic": "jabber",
+    "dtime": 4873000,
+    "ptime": 4873000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Tony Agree</p>",
+    "topic": "jabber",
+    "dtime": 4879000,
+    "ptime": 4879000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>yes what is policy</p>",
+    "topic": "jabber",
+    "dtime": 4905000,
+    "ptime": 4905000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"242\">@Jorge Amodio</span> Seems like we should figure out the work first.</p>",
+    "topic": "jabber",
+    "dtime": 4925000,
+    "ptime": 4925000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>amen</p>",
+    "topic": "jabber",
+    "dtime": 4938000,
+    "ptime": 4938000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>we'll need a clear charter</p>",
+    "topic": "jabber",
+    "dtime": 4974000,
+    "ptime": 4974000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>thanks Lars, important comment,</p>",
+    "topic": "jabber",
+    "dtime": 5121000,
+    "ptime": 5121000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>@Jorge, I agree</p>",
+    "topic": "jabber",
+    "dtime": 5155000,
+    "ptime": 5155000
+  },
+  {
+    "author": "Zongpeng Du",
+    "text": "<p>Can source routing help here if the topology is changing, which can bypass the LSDB ?</p>",
+    "topic": "jabber",
+    "dtime": 5319000,
+    "ptime": 5319000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>??? The purpose of source routing is to bypass normal path computation. Why is that needed here?</p>",
+    "topic": "jabber",
+    "dtime": 5366000,
+    "ptime": 5366000
+  },
+  {
+    "author": "Russ White",
+    "text": "<p>only if the source knows about the schedule, etc. ... but if that is so, then the problem is at the application layer rather than the network layer (?)</p>",
+    "topic": "jabber",
+    "dtime": 5430000,
+    "ptime": 5430000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>@russ source may be network element not application ingress</p>",
+    "topic": "jabber",
+    "dtime": 5472000,
+    "ptime": 5472000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Source routing is just another form of TE. So we should discuss TE approaches versus distributed routing</p>",
+    "topic": "jabber",
+    "dtime": 5479000,
+    "ptime": 5479000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>confused why you say \"versus\"</p>",
+    "topic": "jabber",
+    "dtime": 5507000,
+    "ptime": 5507000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>ok I think this was not in the initial charter within first presentation, I think this should been in the first talk, thanks Rick.</p>",
+    "topic": "jabber",
+    "dtime": 5511000,
+    "ptime": 5511000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>agree with the rest</p>",
+    "topic": "jabber",
+    "dtime": 5517000,
+    "ptime": 5517000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@Lou, because I did Latin at school?</p>",
+    "topic": "jabber",
+    "dtime": 5533000,
+    "ptime": 5533000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>he is trying to show what this is \"not\"</p>",
+    "topic": "jabber",
+    "dtime": 5546000,
+    "ptime": 5546000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>amo amas amat</p>",
+    "topic": "jabber",
+    "dtime": 5548000,
+    "ptime": 5548000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>which will drive on which area it lands</p>",
+    "topic": "jabber",
+    "dtime": 5561000,
+    "ptime": 5561000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>..., amountain, amotorboat, amotorbike</p>",
+    "topic": "jabber",
+    "dtime": 5601000,
+    "ptime": 5601000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>Fortunately I have google translation :-P</p>",
+    "topic": "jabber",
+    "dtime": 5667000,
+    "ptime": 5667000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>@Jorge, yes Agree</p>",
+    "topic": "jabber",
+    "dtime": 5672000,
+    "ptime": 5672000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>AMEN Rick</p>",
+    "topic": "jabber",
+    "dtime": 5712000,
+    "ptime": 5712000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@Zheng Zhang - send me the link ;-)</p>",
+    "topic": "jabber",
+    "dtime": 5715000,
+    "ptime": 5715000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Lou You really don't need it :-P</p>",
+    "topic": "jabber",
+    "dtime": 5753000,
+    "ptime": 5753000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>I didn't have proper British scooling</p>",
+    "topic": "jabber",
+    "dtime": 5820000,
+    "ptime": 5820000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>good point Rick</p>",
+    "topic": "jabber",
+    "dtime": 5832000,
+    "ptime": 5832000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"177\">@Lou Berger</span> Tsk, you have no idea what you missed out on.</p>",
+    "topic": "jabber",
+    "dtime": 5849000,
+    "ptime": 5849000
+  },
+  {
+    "author": "Padma Pillay-Esnault",
+    "text": "<p>FWIW the notion of predictive routing was introduced in LISP. There is a draft since a few years.</p>",
+    "topic": "jabber",
+    "dtime": 5923000,
+    "ptime": 5923000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Actually, I think my quote was wrong. I think it is...<br>\namotorbike, amotorboat, aminibus</p>",
+    "topic": "jabber",
+    "dtime": 5938000,
+    "ptime": 5938000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>FWIW I think multicast and multi-path should be in scope</p>",
+    "topic": "jabber",
+    "dtime": 5995000,
+    "ptime": 5995000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"177\">@Lou Berger</span> Agree</p>",
+    "topic": "jabber",
+    "dtime": 6021000,
+    "ptime": 6021000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>Agree <span class=\"user-mention\" data-user-id=\"177\">@Lou Berger</span></p>",
+    "topic": "jabber",
+    "dtime": 6031000,
+    "ptime": 6031000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>To Adrian, amazing, aminibus doesn't mean a mini bus, my friend</p>",
+    "topic": "jabber",
+    "dtime": 6033000,
+    "ptime": 6033000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Responding to Rick's comment: Trust me, applications don't want to worry about this stuff.</p>",
+    "topic": "jabber",
+    "dtime": 6056000,
+    "ptime": 6056000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Padma, could you please send the link?</p>",
+    "topic": "jabber",
+    "dtime": 6072000,
+    "ptime": 6072000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Not worry but be aware</p>",
+    "topic": "jabber",
+    "dtime": 6075000,
+    "ptime": 6075000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"139\">@Pete Resnick</span> Yes, but per <span class=\"user-mention\" data-user-id=\"739\">@Dirk Trossen</span> 's comments, there may be significant advantages to having applications that know the schedule.</p>",
+    "topic": "jabber",
+    "dtime": 6108000,
+    "ptime": 6108000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"242\">@Jorge Amodio</span> : Don't want to be aware. \"Deliver my data; don't tell me how it got there.\"</p>",
+    "topic": "jabber",
+    "dtime": 6115000,
+    "ptime": 6115000
+  },
+  {
+    "author": "Padma Pillay-Esnault",
+    "text": "<p>Here it is <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-lisp-predictive-rlocs-10\">https://datatracker.ietf.org/doc/html/draft-ietf-lisp-predictive-rlocs-10</a></p>",
+    "topic": "jabber",
+    "dtime": 6121000,
+    "ptime": 6121000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Padma, Thank you :-)</p>",
+    "topic": "jabber",
+    "dtime": 6147000,
+    "ptime": 6147000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"248\">Tony Li</span> <a href=\"#narrow/stream/355-tvr/topic/jabber/near/54788\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"139\">Pete Resnick</span> Yes, but per <span class=\"user-mention silent\" data-user-id=\"739\">Dirk Trossen</span> 's comments, there may be significant advantages to having applications that know the schedule.</p>\n</blockquote>\n<p>It's not just about applications but other network functions, such as authorization.</p>",
+    "topic": "jabber",
+    "dtime": 6174000,
+    "ptime": 6174000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Good comment, but do we need a WG or not ? :-)</p>",
+    "topic": "jabber",
+    "dtime": 6234000,
+    "ptime": 6234000
+  },
+  {
+    "author": "Zheng Zhang",
+    "text": "<p>@Dirk, that's another question, if the user/source address/user-key will change or not?</p>",
+    "topic": "jabber",
+    "dtime": 6276000,
+    "ptime": 6276000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> I got here late. Which of Dirk's comments?</p>",
+    "topic": "jabber",
+    "dtime": 6439000,
+    "ptime": 6439000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Scroll back in chat</p>",
+    "topic": "jabber",
+    "dtime": 6461000,
+    "ptime": 6461000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> Yes, still looking.</p>",
+    "topic": "jabber",
+    "dtime": 6491000,
+    "ptime": 6491000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> You mean \"link availability APIs\"?</p>",
+    "topic": "jabber",
+    "dtime": 6630000,
+    "ptime": 6630000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Yes</p>",
+    "topic": "jabber",
+    "dtime": 6644000,
+    "ptime": 6644000
+  },
+  {
+    "author": "Kevin Shortt",
+    "text": "<p>There's a lot of about whether or not there should be a schedule. To turn things around a bit, would it be worth looking at the priority applications the network should serve and determine which of those applications REQUIRE/BENEFIT FROM such schedules and those that don't?</p>",
+    "topic": "jabber",
+    "dtime": 6706000,
+    "ptime": 6706000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"764\">@Jari Arkko</span> Are Time Invariant Volvos out of scope?</p>",
+    "topic": "jabber",
+    "dtime": 6709000,
+    "ptime": 6709000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>thanks Adrian, important comment</p>",
+    "topic": "jabber",
+    "dtime": 6720000,
+    "ptime": 6720000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>scope &amp; charter</p>",
+    "topic": "jabber",
+    "dtime": 6733000,
+    "ptime": 6733000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"248\">@Tony Li</span> That's not in the category of what I think of as a \"significant advantage\" to applications. (Unless, like my old friends at Qualcomm, you mean that everything above the PHY layer is an \"application\".)</p>",
+    "topic": "jabber",
+    "dtime": 6739000,
+    "ptime": 6739000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>To WG or not to WG, that is the question :-)</p>",
+    "topic": "jabber",
+    "dtime": 6753000,
+    "ptime": 6753000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@adrian agree - we had some discussions if tying in via interesting usage of ecn, but that's cross-area</p>",
+    "topic": "jabber",
+    "dtime": 6759000,
+    "ptime": 6759000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>Poll coming: <br>\nAre you interested in seeing this problem being worked in the IETF? (Raise hand for yes)</p>\n<p>Do you think a new <em>Routing</em> WG is needed to work this problem? (Raise hand for yes)</p>\n<p>Are you willing to contribute as an author or reviewer if a new WG is formed? (Raise hand for yes)</p>",
+    "topic": "jabber",
+    "dtime": 6781000,
+    "ptime": 6781000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>apologies i was less clear than i could have been. another way of saying what i meant to express earlier is that even if tvr came up with a scheme that can (re)establish paths on sub-RTT end-to-end timescales, we don;t actually have a transport layer protocol that applications could use to exchange data over paths with characteristics that change so frequently.</p>",
+    "topic": "jabber",
+    "dtime": 6820000,
+    "ptime": 6820000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Area decision should be left to ADs</p>",
+    "topic": "jabber",
+    "dtime": 6822000,
+    "ptime": 6822000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>Agree with Colin,</p>",
+    "topic": "jabber",
+    "dtime": 6841000,
+    "ptime": 6841000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"139\">@Pete Resnick</span> Knowing that capacity grows by 3 orders of magnitude in 10ms might be useful.</p>",
+    "topic": "jabber",
+    "dtime": 6870000,
+    "ptime": 6870000
+  },
+  {
+    "author": "Padma Pillay-Esnault",
+    "text": "<p>A comment on scope - we should be cautious on this as different devices - we mentioned aerial drones, satellites and rural deployments - they actually have very different requirements, constraints, or regulations … can we have some clarity on what scope we are aiming at ?</p>",
+    "topic": "jabber",
+    "dtime": 6885000,
+    "ptime": 6885000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>The common abstraction is topology.</p>",
+    "topic": "jabber",
+    "dtime": 6914000,
+    "ptime": 6914000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Significant number of \"no\" to the routing area question. Probably need people to explain that on the list.</p>",
+    "topic": "jabber",
+    "dtime": 7030000,
+    "ptime": 7030000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Take the area out of the equation.</p>",
+    "topic": "jabber",
+    "dtime": 7067000,
+    "ptime": 7067000
+  },
+  {
+    "author": "Stewart Bryant",
+    "text": "<p>Alt to new WG is to incubate in RTGWG</p>",
+    "topic": "jabber",
+    "dtime": 7071000,
+    "ptime": 7071000
+  },
+  {
+    "author": "Jari Arkko",
+    "text": "<p>I voted \"no\" for the new WG. What I wanted to say is \"don't create entirely new tech, just deliver an attribute or two to routing protocols\". That can go to a new WG but I was afraid if I had said \"yes\" to the original question that would open the gates for much more research than is actually necessary :-)</p>",
+    "topic": "jabber",
+    "dtime": 7090000,
+    "ptime": 7090000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>#2 is tricky, I think area is tbd</p>",
+    "topic": "jabber",
+    "dtime": 7094000,
+    "ptime": 7094000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>no it may not change the question</p>",
+    "topic": "jabber",
+    "dtime": 7169000,
+    "ptime": 7169000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>Jari: +1</p>",
+    "topic": "jabber",
+    "dtime": 7180000,
+    "ptime": 7180000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>means same Area but only done in another WG</p>",
+    "topic": "jabber",
+    "dtime": 7190000,
+    "ptime": 7190000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>yes Scope within IETF routing Area</p>",
+    "topic": "jabber",
+    "dtime": 7256000,
+    "ptime": 7256000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>please come joint the discussion at <a href=\"https://datatracker.ietf.org/wg/tvr/about/\">https://datatracker.ietf.org/wg/tvr/about/</a></p>",
+    "topic": "jabber",
+    "dtime": 7311000,
+    "ptime": 7311000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-TVR-20221110-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/tvr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-TVR-20221110-0930"
+		}		
+	]
+}

@@ -1,0 +1,385 @@
+
+{
+	"title": "IETF115-SPRING-20221108-0930",
+	"filename": "IETF115-SPRING-20221108-0930",
+	"start": 0,
+	"end": 7571000,
+	"start_datetime": "2022-11-08T09:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "tumpChJYvM8",
+    "start": 0,
+    "end": "7571000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ole Trøan",
+    "text": "<p>Confirmed</p>",
+    "topic": "jabber",
+    "dtime": 14000,
+    "ptime": 14000
+  },
+  {
+    "author": "Xueyan Song",
+    "text": "<p>can hear</p>",
+    "topic": "jabber",
+    "dtime": 32000,
+    "ptime": 32000
+  },
+  {
+    "author": "Gaurav Dawra",
+    "text": "<p>Can Hear</p>",
+    "topic": "jabber",
+    "dtime": 438000,
+    "ptime": 438000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>A reminder AGAIN about masks please - if you arent eating or drinking masks are mandatory</p>",
+    "topic": "jabber",
+    "dtime": 453000,
+    "ptime": 453000
+  },
+  {
+    "author": "Kiran",
+    "text": "<p>I cant here</p>",
+    "topic": "jabber",
+    "dtime": 501000,
+    "ptime": 501000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Kiran, are you still having trouble hearing Rakesh?</p>",
+    "topic": "jabber",
+    "dtime": 638000,
+    "ptime": 638000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I can't get into the hedgeDoc notes--is it working for others?  Are the notes being taken there?</p>",
+    "topic": "jabber",
+    "dtime": 648000,
+    "ptime": 648000
+  },
+  {
+    "author": "Kiran",
+    "text": "<p>yes</p>",
+    "topic": "jabber",
+    "dtime": 659000,
+    "ptime": 659000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Is it audible to other remote people?</p>",
+    "topic": "jabber",
+    "dtime": 680000,
+    "ptime": 680000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>yes</p>",
+    "topic": "jabber",
+    "dtime": 688000,
+    "ptime": 688000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>yes, it is audible</p>",
+    "topic": "jabber",
+    "dtime": 702000,
+    "ptime": 702000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Kiran, have you tried clicking the restart button in meetecho?</p>",
+    "topic": "jabber",
+    "dtime": 705000,
+    "ptime": 705000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Ted Hardie - I can open the hedgedoc from the agenda page, and it appears to have minutes started.</p>",
+    "topic": "jabber",
+    "dtime": 791000,
+    "ptime": 791000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Joel. Thanks; something on my end then.</p>",
+    "topic": "jabber",
+    "dtime": 822000,
+    "ptime": 822000
+  },
+  {
+    "author": "Kiran",
+    "text": "<p>It is audible now thanks</p>",
+    "topic": "jabber",
+    "dtime": 876000,
+    "ptime": 876000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>wondering if there is a more generic network issue on site</p>",
+    "topic": "jabber",
+    "dtime": 1106000,
+    "ptime": 1106000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>For upcoming mic comment for BFD presentation:<br>\n<a href=\"https://wiki.ietf.org/en/group/bfd/non-wg-related-activities\">https://wiki.ietf.org/en/group/bfd/non-wg-related-activities</a></p>",
+    "topic": "jabber",
+    "dtime": 1261000,
+    "ptime": 1261000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/rfc8986#section-4.2\">https://datatracker.ietf.org/doc/html/rfc8986#section-4.2</a></p>",
+    "topic": "jabber",
+    "dtime": 1849000,
+    "ptime": 1849000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jie please look for L2 bundle member in the above section</p>",
+    "topic": "jabber",
+    "dtime": 1879000,
+    "ptime": 1879000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>End.X can be also used for the scenario presented in this draft.</p>",
+    "topic": "jabber",
+    "dtime": 1949000,
+    "ptime": 1949000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"393\">@Ketan Talaulikar</span> Thanks for the pointer Ketan. Since End.X is for L3 adjacency, IMO it does not cover the cases where there is no L3 adjacency between two nodes. I agree the L2 bundle case is somehow different from the IP+optical or IP+MTN case, we can discuss further whether it is helpful to make it one use case of End.XU or not.</p>",
+    "topic": "jabber",
+    "dtime": 2245000,
+    "ptime": 2245000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Jie Dong if there is a packet adjacency (optical, ethernet, ...) between the two nodes, why is there not an IP adjacency between them?  Even if there is no routing adjacency?</p>",
+    "topic": "jabber",
+    "dtime": 2327000,
+    "ptime": 2327000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jie, RFC8986 already covers the use of End.X behavior for L2 Bundle members.</p>",
+    "topic": "jabber",
+    "dtime": 2334000,
+    "ptime": 2334000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Joel +1 ... End.X is not limited to IGP adjacencies</p>",
+    "topic": "jabber",
+    "dtime": 2399000,
+    "ptime": 2399000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"165\">@Joel Halpern</span> Yes in the cases mentioned in the slides, there is no routing adjacency. Regarding IP adjacency, do you mean the two endpoints need to be in the same network subnet?</p>",
+    "topic": "jabber",
+    "dtime": 2532000,
+    "ptime": 2532000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Jie Dong there is no need for a subnet.  it can happily be an unnumbered point-to-point IP adjacency.  How the controller knows about it is a different quesiton.</p>",
+    "topic": "jabber",
+    "dtime": 2595000,
+    "ptime": 2595000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jie for ptp links subnet match is not required</p>",
+    "topic": "jabber",
+    "dtime": 2608000,
+    "ptime": 2608000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>Why are two different modes defined for BFD? It seems with transport mode, all usecases for detecting liveness of the segment list can be satisfied</p>",
+    "topic": "jabber",
+    "dtime": 2637000,
+    "ptime": 2637000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Shraddha +1</p>",
+    "topic": "jabber",
+    "dtime": 2655000,
+    "ptime": 2655000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1076\">@Shraddha Hegde</span> +1</p>",
+    "topic": "jabber",
+    "dtime": 2677000,
+    "ptime": 2677000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"393\">@Ketan Talaulikar</span> In some cases you don't want to expose that link as a layer-3 adjacency to IGP. It is only used for cross-layer TE path optimization. and for P2P IP link  you would need to create L3 logical interfaces for each underlay ptp link, which may not be necessary or not wanted by the operator</p>",
+    "topic": "jabber",
+    "dtime": 3106000,
+    "ptime": 3106000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1076\">@Shraddha Hegde</span>  I don't pretend to speak for the authors of that bfd document, but there have been cases over BFD's lifetime that there's a desire to probe a higher layer endpoint, and a lower layer portion of the same endpoint.  In most cases they often share fate, so probing one of the forms is sufficient to satisfy reachability for the other.  (See example of bfd for ipv4 being sufficient in some cases for ipv6 on same link.)  However, some hardware platforms may be architected that just because transport is working and you can test to that endpoint, the underlying service directly behind that endpoint may be separably tested.</p>",
+    "topic": "jabber",
+    "dtime": 3302000,
+    "ptime": 3302000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jie I didn't talk about enabling IGP on that optical link. L3 adjacency is different from IGP adjacency. End.X can be used for L3 adjacency as well as L2 bundle member links within a L3 LAG bundle</p>",
+    "topic": "jabber",
+    "dtime": 3360000,
+    "ptime": 3360000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>per RFC8986</p>",
+    "topic": "jabber",
+    "dtime": 3365000,
+    "ptime": 3365000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>@Jeffrey Haas  In SRv6 if the service end need to be tested the service SID can be added to stack in transport mode itself. Tunnel mode seems redundant</p>",
+    "topic": "jabber",
+    "dtime": 3863000,
+    "ptime": 3863000
+  },
+  {
+    "author": "Mengxiao Chen",
+    "text": "<p>@Shraddha Tunnel mode is more friendly for hardware in some cases. One example is that, the inner packet in tunnel mode only contains ipv6 header and udp header which is easier for low-performance device to process. Another example: the checksum in UDP header includes the IPv6 header, in transport mode, the DA in outer IPv6 header changes in SRv6 forwarding, but in tunnel mode, the DA of inner IPv6 header does not change.</p>",
+    "topic": "jabber",
+    "dtime": 3950000,
+    "ptime": 3950000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>To add to what Shraddha mentioned, the tunnel part here is provided by the SRv6 service and not the BFD implementation.</p>",
+    "topic": "jabber",
+    "dtime": 3957000,
+    "ptime": 3957000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I won't argue what feels redundant or not.  These conversations for BFD layer termination always end up having strong opinions from each participant depending on what layer they care about, and what their hardware or software finds easier. :-)</p>",
+    "topic": "jabber",
+    "dtime": 4216000,
+    "ptime": 4216000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>See most recently the discussion for BFD for Ethernet LAGs.</p>",
+    "topic": "jabber",
+    "dtime": 4262000,
+    "ptime": 4262000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jeff, I meant to say that the use of transport or tunnel mode is determined by the service using BFD</p>",
+    "topic": "jabber",
+    "dtime": 4291000,
+    "ptime": 4291000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"393\">@Ketan Talaulikar</span> Understood.  Some want to test to service, some want to test to endpoint.  Both perspectives have favor among different parties.</p>",
+    "topic": "jabber",
+    "dtime": 4360000,
+    "ptime": 4360000
+  },
+  {
+    "author": "Jim Uttaro",
+    "text": "<p>Would this be considered an Option B like mapping ?</p>",
+    "topic": "jabber",
+    "dtime": 4381000,
+    "ptime": 4381000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jim this is at the transport layer. Perhaps I misunderstand your Q?</p>",
+    "topic": "jabber",
+    "dtime": 4452000,
+    "ptime": 4452000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>@Jim, yes</p>",
+    "topic": "jabber",
+    "dtime": 4467000,
+    "ptime": 4467000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>+1 ketan, why this needs to be standardized, what protocol changes are needed and more importantly why?</p>",
+    "topic": "jabber",
+    "dtime": 5790000,
+    "ptime": 5790000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>On the previous presentation, there is a WG document on resource-aware segments, which is to associate network resource attributes with SR SIDs, it seems a reference to that document is needed.</p>",
+    "topic": "jabber",
+    "dtime": 6853000,
+    "ptime": 6853000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>Thanks Jie, we will look into the draft.</p>",
+    "topic": "jabber",
+    "dtime": 7031000,
+    "ptime": 7031000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>the name of the last draft is misleading. It is not \"Native IPv6\", it is \"Srv6\"</p>",
+    "topic": "jabber",
+    "dtime": 7035000,
+    "ptime": 7035000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Have the authors of this draft looked at <a href=\"https://datatracker.ietf.org/doc/draft-ietf-spring-sr-replication-segment/\">https://datatracker.ietf.org/doc/draft-ietf-spring-sr-replication-segment/</a> and why that does not also cover their use-case?</p>",
+    "topic": "jabber",
+    "dtime": 7280000,
+    "ptime": 7280000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Also <a href=\"https://datatracker.ietf.org/doc/draft-ietf-bess-mvpn-evpn-sr-p2mp/\">https://datatracker.ietf.org/doc/draft-ietf-bess-mvpn-evpn-sr-p2mp/</a> to get the full picture.</p>",
+    "topic": "jabber",
+    "dtime": 7465000,
+    "ptime": 7465000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-SPRING-20221108-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/spring"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-SPRING-20221108-0930"
+		}		
+	]
+}

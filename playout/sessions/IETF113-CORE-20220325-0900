@@ -1,0 +1,274 @@
+{
+  "title": "IETF113-CORE-20220325-0900",
+  "filename": "IETF113-CORE-20220325-0900",
+  "start": 0,
+  "end": 7331000,
+  "start_datetime": "2022-03-25T09:00:00Z",
+  "videos": [
+    {
+      "type": 2,
+      "src": "MLGvEEJGtc8",
+      "start": 0,
+      "end": "7331000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 92000,
+      "ptime": 92000,
+      "author": "zulipbot",
+      "text": "(Francesca Palombini) Hi Carsten! 👋<br/>"
+    },
+    {
+      "dtime": 252000,
+      "ptime": 252000,
+      "author": "zulipbot",
+      "text": "(Francesca Palombini) good job!! 👏 👏<br/>"
+    },
+    {
+      "dtime": 385000,
+      "ptime": 385000,
+      "author": "zulipbot",
+      "text": "(Francesca Palombini) a bit choppy<br/>"
+    },
+    {
+      "dtime": 436000,
+      "ptime": 436000,
+      "author": "c.amsuess",
+      "text": "meetecho, is there anything you can do for the audio?<br/>"
+    },
+    {
+      "dtime": 461000,
+      "ptime": 461000,
+      "author": "Meetecho",
+      "text": "What's the problem?<br/>"
+    },
+    {
+      "dtime": 483000,
+      "ptime": 483000,
+      "author": "c.amsuess",
+      "text": "\"sounds terrible\", sorry no audio expoert<br/>"
+    },
+    {
+      "dtime": 484000,
+      "ptime": 484000,
+      "author": "zulipbot",
+      "text": "(Francesca Palombini) I think Carsten mentioned that it could be his internet connection<br/>"
+    },
+    {
+      "dtime": 498000,
+      "ptime": 498000,
+      "author": "Meetecho",
+      "text": "\"sounds terrible\" is not much to work on :D<br/>"
+    },
+    {
+      "dtime": 514000,
+      "ptime": 514000,
+      "author": "c.amsuess",
+      "text": "do you hear the stream and it sounds good for you?<br/>"
+    },
+    {
+      "dtime": 557000,
+      "ptime": 557000,
+      "author": "Meetecho",
+      "text": "We're monitoring 8 rooms at the same time, checking the core audio now<br/>"
+    },
+    {
+      "dtime": 594000,
+      "ptime": 594000,
+      "author": "Meetecho",
+      "text": "Sending someone over<br/>"
+    },
+    {
+      "dtime": 603000,
+      "ptime": 603000,
+      "author": "c.amsuess",
+      "text": "thanks<br/>"
+    },
+    {
+      "dtime": 773000,
+      "ptime": 773000,
+      "author": "c.amsuess",
+      "text": "It was probably local to the sender; we've switched to the second presentation now and he sounds fine.<br/>"
+    },
+    {
+      "dtime": 785000,
+      "ptime": 785000,
+      "author": "Meetecho",
+      "text": "Yes, we were noticing the same thing<br/>"
+    },
+    {
+      "dtime": 914000,
+      "ptime": 914000,
+      "author": "c.amsuess",
+      "text": "If we were to play make-a-wish, I'd love to see something like \"put on head phones\", \"move your mike closer / further away from you\" or \"switch off video\" suggestions for speakers, but I realize this is very simple to just-say and very hard to decide reliably.<br/>"
+    },
+    {
+      "dtime": 971000,
+      "ptime": 971000,
+      "author": "Meetecho",
+      "text": "We try to do that by sending private messages, from time to time, but not all speakers notice the dialog that appears<br/>"
+    },
+    {
+      "dtime": 1003000,
+      "ptime": 1003000,
+      "author": "Carsten Bormann",
+      "text": "Which is something we could address by sorting random chats from alerts<br/>"
+    },
+    {
+      "dtime": 1709000,
+      "ptime": 1709000,
+      "author": "David Navarro",
+      "text": "A prefix means more bytes sent on the wire...<br/>"
+    },
+    {
+      "dtime": 1725000,
+      "ptime": 1725000,
+      "author": "cabo",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 1810000,
+      "ptime": 1810000,
+      "author": "c.amsuess",
+      "text": "I more and more think that these parameters would be a way better fit for a fetch content format than for queries. (But it's not practical on the short time scale).<br/>"
+    },
+    {
+      "dtime": 1895000,
+      "ptime": 1895000,
+      "author": "Carsten Bormann",
+      "text": "That is true -- query parameters are a bit archaic...<br/>"
+    },
+    {
+      "dtime": 2023000,
+      "ptime": 2023000,
+      "author": "David Navarro",
+      "text": "Could be worse: in LwM2M, the client first indicates the cond param with a \"PUT /resource?{attributes}\" then observe the resource. Not our proudest moment...<br/>"
+    },
+    {
+      "dtime": 2319000,
+      "ptime": 2319000,
+      "author": "cabo",
+      "text": "c.amsuess: You want to ask that at the mic?<br/>"
+    },
+    {
+      "dtime": 2348000,
+      "ptime": 2348000,
+      "author": "c.amsuess",
+      "text": "I'll have to see more of the history of that, it'd exceed today's time probably<br/>"
+    },
+    {
+      "dtime": 2502000,
+      "ptime": 2502000,
+      "author": "c.amsuess",
+      "text": "good call -- it *was* quickly done. thanks.<br/>"
+    },
+    {
+      "dtime": 2862000,
+      "ptime": 2862000,
+      "author": "zulipbot",
+      "text": "(Esko Dijk) Thanks authors/Marco for all the work!<br/>"
+    },
+    {
+      "dtime": 5157000,
+      "ptime": 5157000,
+      "author": "Ari Keränen",
+      "text": "+1; we need a solution to this and the presented solution looks good<br/>"
+    },
+    {
+      "dtime": 5907000,
+      "ptime": 5907000,
+      "author": "Göran",
+      "text": "+1 to Marcos comment<br/>"
+    },
+    {
+      "dtime": 6021000,
+      "ptime": 6021000,
+      "author": "Marco Tiloca",
+      "text": "I'm interested to review<br/>"
+    },
+    {
+      "dtime": 6031000,
+      "ptime": 6031000,
+      "author": "Göran",
+      "text": "I can review<br/>"
+    },
+    {
+      "dtime": 6057000,
+      "ptime": 6057000,
+      "author": "zulipbot",
+      "text": "(Esko Dijk) Can also review at some point<br/>"
+    },
+    {
+      "dtime": 6062000,
+      "ptime": 6062000,
+      "author": "David Navarro",
+      "text": "I'm kind of discovering these Respond-To-* options. They looks like a vector for DOS attacks. Should the document address it ?<br/>"
+    },
+    {
+      "dtime": 6991000,
+      "ptime": 6991000,
+      "author": "Thomas Fossati",
+      "text": "Martine &amp; co-authors: extremely interesting presentation / work, thank you<br/>"
+    },
+    {
+      "dtime": 7031000,
+      "ptime": 7031000,
+      "author": "cabo",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 7250000,
+      "ptime": 7250000,
+      "author": "Thomas Fossati",
+      "text": "I'm interested reviewing<br/>"
+    },
+    {
+      "dtime": 7262000,
+      "ptime": 7262000,
+      "author": "cabo",
+      "text": "Would review as well<br/>"
+    },
+    {
+      "dtime": 7281000,
+      "ptime": 7281000,
+      "author": "miri64",
+      "text": "Thank you! <br/>"
+    },
+    {
+      "dtime": 7290000,
+      "ptime": 7290000,
+      "author": "Thomas Fossati",
+      "text": "cheers, thanks all<br/>"
+    },
+    {
+      "dtime": 7304000,
+      "ptime": 7304000,
+      "author": "zulipbot",
+      "text": "(Francesca Palombini) thank you all!<br/>"
+    },
+    {
+      "dtime": 7333000,
+      "ptime": 7333000,
+      "author": "Laurent Toutain",
+      "text": "I can do a review<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF113-CORE-20220325-0900"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/113/session/core"
+    },
+    {
+      "type": 3,
+      "title": "Show of hands",
+      "link": "polls/IETF113-CORE-20220325-0900"
+    }
+  ]
+}

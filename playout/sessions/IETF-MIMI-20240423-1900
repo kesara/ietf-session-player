@@ -1,0 +1,315 @@
+
+{
+	"title": "IETF-MIMI-20240423-1900",
+	"filename": "IETF-MIMI-20240423-1900",
+	"start": 0,
+	"end": 7339000,
+	"start_datetime": "2024-04-23T19:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "3_72Kp62Cnw",
+    "start": 0,
+    "end": "7339000"
+  }
+],
+	"messages": [
+  {
+    "author": "Brendan McMillion",
+    "text": "<p><span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 196000,
+    "ptime": 196000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Thanks Brendan!!</p>",
+    "topic": "ietf-interim",
+    "dtime": 207000,
+    "ptime": 207000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>srsly tnx</p>",
+    "topic": "ietf-interim",
+    "dtime": 261000,
+    "ptime": 261000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>even more so, why would we believe that non-MSP DPs would exist?</p>",
+    "topic": "ietf-interim",
+    "dtime": 909000,
+    "ptime": 909000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>\"Non sunt multiplicanda entia sine necessitate\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1194000,
+    "ptime": 1194000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Richard, are you actually in queue?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1405000,
+    "ptime": 1405000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>No, sorry</p>",
+    "topic": "ietf-interim",
+    "dtime": 1506000,
+    "ptime": 1506000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>LoST -- quite the blast from the past</p>",
+    "topic": "ietf-interim",
+    "dtime": 1556000,
+    "ptime": 1556000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>Isn't it supposed to be the user's choice where their messages are routed? Why would a DP have the right to override that</p>",
+    "topic": "ietf-interim",
+    "dtime": 2061000,
+    "ptime": 2061000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>i see if more as a choice of which app you use to send/receive messages being able to interoperate with the \"gatekeepers\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 2185000,
+    "ptime": 2185000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>PIR preserves lookup privacy. Do you mean KT? To prevent lying</p>",
+    "topic": "ietf-interim",
+    "dtime": 2666000,
+    "ptime": 2666000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Oblivious PIR ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2690000,
+    "ptime": 2690000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Brendan - Fair, we should get to precise definitions if we're going to do something.  but i would put PIR and KT on a similar scale of complexity</p>",
+    "topic": "ietf-interim",
+    "dtime": 2856000,
+    "ptime": 2856000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>Any kind of PIR is a privacy feature. Not authenticity. Making sure everyone agrees on a mapping of SIIs -&gt; SSIs is the KT problem</p>",
+    "topic": "ietf-interim",
+    "dtime": 2906000,
+    "ptime": 2906000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>KT is much simpler :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2911000,
+    "ptime": 2911000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>my point is that the query privacy that PIR provides also provides a consistency property, in that the server can't use the query to vary its behavior</p>",
+    "topic": "ietf-interim",
+    "dtime": 3047000,
+    "ptime": 3047000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>With PIR, the server is aware of what the SIIs -&gt; SSIs. So it can still say \"oh this phone number is mine, I'm changing it to route to me w/o permission\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3142000,
+    "ptime": 3142000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>PIR just means that I don't know what SII an individual query is for</p>",
+    "topic": "ietf-interim",
+    "dtime": 3196000,
+    "ptime": 3196000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>Right; the server can learn any additional information from the query to allow it vary it behavior.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3251000,
+    "ptime": 3251000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p><strong>can not</strong></p>",
+    "topic": "ietf-interim",
+    "dtime": 3274000,
+    "ptime": 3274000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>This is irrespective of the validity of the mappings.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3315000,
+    "ptime": 3315000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i know i use a different messaging app to contact Rohan every time i message him.  it's a fun game we play.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3524000,
+    "ptime": 3524000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>It's still not clear to me why PIR prevents me from suppressing mappings. With PIR, I know all the mappings,  I can suppress the mappings I don't like</p>\n<p>Not trying to shill KT, but this seems to me very clearly to be the problem KT solves. You have a set of mappings you want to make sure everyone has the same view of (either to detect suppression of mappings, or creation of incorrect mappings)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4189000,
+    "ptime": 4189000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>with PIR, you have to suppress globally, you can't selectively suppress</p>",
+    "topic": "ietf-interim",
+    "dtime": 4232000,
+    "ptime": 4232000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>which, now that i think about it, KT doesn't defend against either</p>",
+    "topic": "ietf-interim",
+    "dtime": 4244000,
+    "ptime": 4244000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(just don't publish the suppressed binding to the log)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4271000,
+    "ptime": 4271000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>first LoST, now offer/answer, oh no</p>",
+    "topic": "ietf-interim",
+    "dtime": 4315000,
+    "ptime": 4315000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>You don't have to suppress globally? PIR doesn't preserve the anonymity of the requester. You can provide different data to different people</p>",
+    "topic": "ietf-interim",
+    "dtime": 4553000,
+    "ptime": 4553000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>I’m giving up, will be back in a few</p>",
+    "topic": "ietf-interim",
+    "dtime": 4652000,
+    "ptime": 4652000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>PIR does not provide anonymity. So the provider is able to vary responses using identity info.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4654000,
+    "ptime": 4654000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>But OHTTP+PIR gets you there</p>",
+    "topic": "ietf-interim",
+    "dtime": 4677000,
+    "ptime": 4677000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>Using IP blinding + PIR could fix that.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4706000,
+    "ptime": 4706000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>Right.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4723000,
+    "ptime": 4723000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>Rohan, is is enough to tell business contacts to reach you through Wire (say)</p>",
+    "topic": "ietf-interim",
+    "dtime": 5558000,
+    "ptime": 5558000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>And personal contacts through Telegram (say).</p>",
+    "topic": "ietf-interim",
+    "dtime": 5590000,
+    "ptime": 5590000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@Femi,<br>\nI need to be able to tell the DPs NOT to automatically route calls to my other services. (and preferably to be able to present a human readable thing that tells them where to go)</p>",
+    "topic": "ietf-interim",
+    "dtime": 6417000,
+    "ptime": 6417000
+  },
+  {
+    "author": "Fabian Neumann",
+    "text": "<p>Not the job. Although I see that App A would \"upgrade\" to Sender-Receiver who are both on App A to use App A.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6619000,
+    "ptime": 6619000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>Theoretically sender could want to choose a receiver client - I don't think that's something we should support though.</p>",
+    "topic": "ietf-interim",
+    "dtime": 7008000,
+    "ptime": 7008000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>(\"I prefer to the recipient to read this message on client x\")</p>",
+    "topic": "ietf-interim",
+    "dtime": 7043000,
+    "ptime": 7043000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>Agree. The recipient choice matters...along the lines of Rohan's point earlier. We should focus more on the recipient to Alissa point.</p>",
+    "topic": "ietf-interim",
+    "dtime": 7214000,
+    "ptime": 7214000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-MIMI-20240423-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-mimi-02/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-MIMI-20240423-1900"
+		}
+	]
+}

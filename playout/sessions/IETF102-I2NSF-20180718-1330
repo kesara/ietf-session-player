@@ -1,0 +1,293 @@
+{
+  "title": "IETF102-I2NSF-20180718-1330",
+  "filename": "IETF102-I2NSF-20180718-1330",
+  "start": 0,
+  "end": 5495000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "4il8-pkKvlg",
+      "start": 0.0,
+      "end": 5495000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Bharath Meduri just left the room",
+      "ptime": 16000.0,
+      "dtime": 576000.0
+    },
+    {
+      "text": "***Bharath Meduri just joined the room",
+      "ptime": 20000.0,
+      "dtime": 580000.0
+    },
+    {
+      "text": "***Jinyong Kim just joined the room",
+      "ptime": 33000.0,
+      "dtime": 593000.0
+    },
+    {
+      "text": "mic: We need a Jabber scribe!",
+      "ptime": 34000.0,
+      "dtime": 594000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/102/materials/slides-102-i2nsf-i2nsf-hackathon-report-00",
+      "ptime": 122000.0,
+      "dtime": 682000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Can someone in the room remind Linda that we need a Jabber scribe?",
+      "ptime": 133000.0,
+      "dtime": 693000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Fernando Pereniguez-Garcia just joined the room",
+      "ptime": 172000.0,
+      "dtime": 732000.0
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/102/materials/slides-102-i2nsf-sdn-controlled-ipsec-flows-00",
+      "ptime": 430000.0,
+      "dtime": 990000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Rafa: mute your speaker",
+      "ptime": 492000.0,
+      "dtime": 1052000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "@Meetecho: do you know where the echo is coming from?  Is it on Rafa\u0027s end or in the room?",
+      "ptime": 796000.0,
+      "dtime": 1356000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Rafa should be fine as he\u0027s using a headset, we\u0027re coming to check",
+      "ptime": 819000.0,
+      "dtime": 1379000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "We\u0027re going to tinker with the mixer, so please let us know when audio gets better",
+      "ptime": 883000.0,
+      "dtime": 1443000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "better now",
+      "ptime": 913000.0,
+      "dtime": 1473000.0,
+      "author": "Gabriel L?pez"
+    },
+    {
+      "text": "***Paolo Saviano just joined the room",
+      "ptime": 915000.0,
+      "dtime": 1475000.0
+    },
+    {
+      "text": "Definitely",
+      "ptime": 943000.0,
+      "dtime": 1503000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "better now",
+      "ptime": 970000.0,
+      "dtime": 1530000.0,
+      "author": "Bharath Meduri"
+    },
+    {
+      "text": "SAD lifetime?",
+      "ptime": 1144000.0,
+      "dtime": 1704000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Paolo Saviano just left the room",
+      "ptime": 1265000.0,
+      "dtime": 1825000.0
+    },
+    {
+      "text": "yes, we need to include the SAD lifetime configuration like part of the IPsec policy",
+      "ptime": 1275000.0,
+      "dtime": 1835000.0,
+      "author": "Gabriel L?pez"
+    },
+    {
+      "text": "***Dick Chen just joined the room",
+      "ptime": 1573000.0,
+      "dtime": 2133000.0
+    },
+    {
+      "text": "preshared key will also be configured in yang file? is it not a biggest security problem?",
+      "ptime": 1681000.0,
+      "dtime": 2241000.0,
+      "author": "Bharath Meduri"
+    },
+    {
+      "text": "yes, it is configured in the model in order to be applied from the controller to the NSF. The channel between the controller and the NSF is protected by the southbound API",
+      "ptime": 1737000.0,
+      "dtime": 2297000.0,
+      "author": "Gabriel L?pez"
+    },
+    {
+      "text": "SSH or TLS are used by netconf",
+      "ptime": 1745000.0,
+      "dtime": 2305000.0,
+      "author": "Gabriel L?pez"
+    },
+    {
+      "text": "For IOT i feel there is already a minimal Ikev2 implementation rfc at ipsecme WG",
+      "ptime": 2076000.0,
+      "dtime": 2636000.0,
+      "author": "Bharath Meduri"
+    },
+    {
+      "text": "not only for IoT, let\u0027s think in a huge number of virtual machines under the same controller",
+      "ptime": 2222000.0,
+      "dtime": 2782000.0,
+      "author": "Gabriel L?pez"
+    },
+    {
+      "text": "Need a blob carrier",
+      "ptime": 2228000.0,
+      "dtime": 2788000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "mic: I hesitate to interrupt this interesting discussion, but we\u0027re almost 15 minutes late",
+      "ptime": 2578000.0,
+      "dtime": 3138000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "And the Controller knows when a SA expires for every pair of nodes, so it could prevent  the rekey before it happens",
+      "ptime": 2904000.0,
+      "dtime": 3464000.0,
+      "author": "Gabriel L?pez"
+    },
+    {
+      "text": "Online? We\u0027re having a discussion in America, Europe and Asia. It doesn\u0027t get more online than that",
+      "ptime": 3005000.0,
+      "dtime": 3565000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/102/materials/slides-102-i2nsf-capability-information-model-00",
+      "ptime": 3390000.0,
+      "dtime": 3950000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Jinyong Kim just left the room",
+      "ptime": 3637000.0,
+      "dtime": 4197000.0
+    },
+    {
+      "text": "***Jinyong Kim just joined the room",
+      "ptime": 3670000.0,
+      "dtime": 4230000.0
+    },
+    {
+      "text": "***Rafael Marin-Lopez just left the room",
+      "ptime": 3813000.0,
+      "dtime": 4373000.0
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 3963000.0,
+      "dtime": 4523000.0
+    },
+    {
+      "text": "***Yoav Nir just left the room",
+      "ptime": 4247000.0,
+      "dtime": 4807000.0
+    },
+    {
+      "text": "***Gabriel L?pez just left the room",
+      "ptime": 4277000.0,
+      "dtime": 4837000.0
+    },
+    {
+      "text": "***Fernando Pereniguez-Garcia just left the room",
+      "ptime": 4313000.0,
+      "dtime": 4873000.0
+    },
+    {
+      "text": "***Yoav Nir just joined the room",
+      "ptime": 4336000.0,
+      "dtime": 4896000.0
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/102/materials/slides-102-i2nsf-i2nsf-data-model-00",
+      "ptime": 4670000.0,
+      "dtime": 5230000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Bharath Meduri just left the room",
+      "ptime": 4678000.0,
+      "dtime": 5238000.0
+    },
+    {
+      "text": "DM missing pieces",
+      "ptime": 4780000.0,
+      "dtime": 5340000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/102/materials/slides-102-i2nsf-dm-missing-pieces-00",
+      "ptime": 4781000.0,
+      "dtime": 5341000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "Information model",
+      "ptime": 4860000.0,
+      "dtime": 5420000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/102/materials/slides-102-i2nsf-i2nsf-information-model-00",
+      "ptime": 4860000.0,
+      "dtime": 5420000.0,
+      "author": "Yoav Nir"
+    },
+    {
+      "text": "***Yoav Nir just left the room",
+      "ptime": 5494000.0,
+      "dtime": 6054000.0
+    },
+    {
+      "text": "***Dongjin Hong just left the room",
+      "ptime": 5494000.0,
+      "dtime": 6054000.0
+    },
+    {
+      "text": "***Jinyong Kim just left the room",
+      "ptime": 5494000.0,
+      "dtime": 6054000.0
+    },
+    {
+      "text": "***Dick Chen just left the room",
+      "ptime": 5495000.0,
+      "dtime": 6055000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF102-I2NSF-20180718-1330"
+    }
+  ]
+}

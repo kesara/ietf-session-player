@@ -1,0 +1,215 @@
+
+{
+	"title": "IETF114-MLS-20220729-1630",
+	"filename": "IETF114-MLS-20220729-1630",
+	"start": 0,
+	"end": 2985000,
+	"start_datetime": "2022-07-29T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "_eky6T6O1KY",
+    "start": 0,
+    "end": "2985000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@SPT the mic is hot.</p>",
+    "dtime": 23000,
+    "ptime": 23000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>We could just hear your chatter with Nick before we started.</p>",
+    "dtime": 165000,
+    "ptime": 165000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>It's no fun to spy on them if you <em>tell</em> them, Jonathan :)</p>",
+    "dtime": 186000,
+    "ptime": 186000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>mwhahaha</p>",
+    "dtime": 195000,
+    "ptime": 195000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>Any chance someone can boost the audio in the room?</p>",
+    "dtime": 258000,
+    "ptime": 258000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>(it's a tad quiet)</p>",
+    "dtime": 267000,
+    "ptime": 267000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Trent: Hopefully that helps?</p>",
+    "dtime": 298000,
+    "ptime": 298000
+  },
+  {
+    "author": "Trent Adams",
+    "text": "<p>Thanks!</p>",
+    "dtime": 305000,
+    "ptime": 305000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@Richard Barnes I had my volume up, so you just blasted my head off <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "dtime": 322000,
+    "ptime": 322000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i'll be your jabber scribe if you want me to relay anything to the mic</p>",
+    "dtime": 330000,
+    "ptime": 330000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: several more people just walked into the room</p>",
+    "dtime": 393000,
+    "ptime": 393000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>That final slide is disturbing in far too many ways...</p>",
+    "dtime": 791000,
+    "ptime": 791000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Onward!! mls-protocol to IESG!</p>",
+    "dtime": 793000,
+    "ptime": 793000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>for the \"extensions after base protocol\" pattern, see, e.g., <a href=\"https://datatracker.ietf.org/doc/html/rfc6066\">https://datatracker.ietf.org/doc/html/rfc6066</a></p>",
+    "dtime": 1090000,
+    "ptime": 1090000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>status_request!</p>",
+    "dtime": 1263000,
+    "ptime": 1263000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>cf. HTTP Accept and Require headers</p>",
+    "dtime": 1633000,
+    "ptime": 1633000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><a href=\"https://www.rfc-editor.org/rfc/rfc9110.html#name-content-negotiation-fields\">https://www.rfc-editor.org/rfc/rfc9110.html#name-content-negotiation-fields</a></p>",
+    "dtime": 1691000,
+    "ptime": 1691000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i look forward to being able to send model/vrml with end-to-end security!</p>",
+    "dtime": 1763000,
+    "ptime": 1763000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>GroupContextExtensions proposal</p>",
+    "dtime": 2196000,
+    "ptime": 2196000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the zero-length vector thing does seem like premature optimization</p>",
+    "dtime": 2242000,
+    "ptime": 2242000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this is just like ALPN for MLS</p>",
+    "dtime": 2603000,
+    "ptime": 2603000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>so an MLS-ALPN that says \"this is MIMI\", then content negotiation that is MIMI-specific?</p>",
+    "dtime": 2712000,
+    "ptime": 2712000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Ted: yeah, that's what i meant by the alternative</p>",
+    "dtime": 2743000,
+    "ptime": 2743000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>That would simplify the life of the MLS-font distribution to printers use case that Rohan mentioned, as they could have one that was radically simpler than MIMI's.</p>",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: ALPN in the sense of \"cleartext negotiation bound into the cryptographic handshake\"?</p>",
+    "dtime": 2805000,
+    "ptime": 2805000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i'd be sad if it's in the clear</p>",
+    "dtime": 2845000,
+    "ptime": 2845000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Murray, you're literally an expert here-thoughts?</p>",
+    "dtime": 2884000,
+    "ptime": 2884000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@dkg - It would be less cleartext than TLS.  The equivalent of the ClientHello (KeyPackage) would still be unencrypted, but the equivalent of ServerHello (Welcome) would be encrypted.</p>",
+    "dtime": 2929000,
+    "ptime": 2929000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@MeetEcho adjourned.</p>",
+    "dtime": 2943000,
+    "ptime": 2943000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, thanks!</p>",
+    "dtime": 2964000,
+    "ptime": 2964000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-MLS-20220729-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/mls"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-MLS-20220729-1630"
+		}		
+	]
+}

@@ -1,0 +1,182 @@
+
+{
+	"title": "IETF115-LSR-20221109-0930",
+	"filename": "IETF115-LSR-20221109-0930",
+	"start": 0,
+	"end": 6480000,
+	"start_datetime": "2022-11-09T09:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "JZkzIaVNsYU",
+    "start": 0,
+    "end": "6480000"
+  }
+],
+	"messages": [
+  {
+    "author": "Tony Li",
+    "text": "<p>Extended hierarchy should just die. Area Proxy should move to experimental and do WG last call.</p>",
+    "topic": "jabber",
+    "dtime": 599000,
+    "ptime": 599000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I put myself back in the queue as a proxy for Tony P.</p>",
+    "topic": "jabber",
+    "dtime": 2965000,
+    "ptime": 2965000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>LSInfinity is not for aging out. Please recheck RFC2328</p>",
+    "topic": "jabber",
+    "dtime": 3147000,
+    "ptime": 3147000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>It is just taking the prefix out of consideration. The LSA needs to remain.</p>",
+    "topic": "jabber",
+    "dtime": 3175000,
+    "ptime": 3175000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Also, I see MAX METRIC for a link (0xFFFF) is being confused by LSInfinity for a prefix?</p>",
+    "topic": "jabber",
+    "dtime": 3208000,
+    "ptime": 3208000
+  },
+  {
+    "author": "Bruno Decraene",
+    "text": "<p>\"out of consideration\" and \"unreachable\" seems two different semantics to me. IOW \"out of consideration\" does not  seem to imply \"unreachable\"</p>",
+    "topic": "jabber",
+    "dtime": 3697000,
+    "ptime": 3697000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Ketan +1 in regards to link metric vs prefix metric</p>",
+    "topic": "jabber",
+    "dtime": 3797000,
+    "ptime": 3797000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>my comment, for the queue, as an operator or someone that would use UPA, I prefer to be either \"informational\" (preference) or track-ID (lease preferred) but deffinitly not \"experimental\"</p>",
+    "topic": "jabber",
+    "dtime": 3831000,
+    "ptime": 3831000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Thanks Dan, let's make sure that comment gets into the minutes</p>",
+    "topic": "jabber",
+    "dtime": 4195000,
+    "ptime": 4195000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>yeah, one tag is a cheap hack for one hop</p>",
+    "topic": "jabber",
+    "dtime": 4526000,
+    "ptime": 4526000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>if you have 2 hops you _really_ have a problem because your chain is looped</p>",
+    "topic": "jabber",
+    "dtime": 4540000,
+    "ptime": 4540000
+  },
+  {
+    "author": "Louis Chan",
+    "text": "<p>If metric is advertised correctly across instances, metric value will be high enough to avoid real looping.</p>",
+    "topic": "jabber",
+    "dtime": 4624000,
+    "ptime": 4624000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>+1 Bruno: yes, the draft is swaying the meaning of \"unreachable\" from \"not advertised\" to \"advertised with infinite metric\". Based on protocol spec this is a distinction without behavior difference and this fact is played cleverly</p>",
+    "topic": "jabber",
+    "dtime": 4762000,
+    "ptime": 4762000
+  },
+  {
+    "author": "Martin Horneffer",
+    "text": "<p>BTW, I agree 100% to Peter. And I’m one of those who use tags and route policies for this purpose.</p>",
+    "topic": "jabber",
+    "dtime": 4765000,
+    "ptime": 4765000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>so kuddos to the sophists who found and use it ;-) The only problem is really scalability AFAIS (I skip the double-clever flex-algo stuff doing it as well and then using the \"context\", i.e. semiotics to actually differentiate). If your head didn't explod yet I recommend some de Saussure ;-)</p>",
+    "topic": "jabber",
+    "dtime": 4837000,
+    "ptime": 4837000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>@Martin H., yes, same here - we use tags and route-policies for this as well</p>",
+    "topic": "jabber",
+    "dtime": 4970000,
+    "ptime": 4970000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Louis: and your protocol preferences are hacked correctly and, and, and. There is tons of broken glass you have to carefully step around when you're doing this kind of stuff and 99.9% of customers are better served by either hiearchical IGP or BGP'ing the whole thing.</p>",
+    "topic": "jabber",
+    "dtime": 5108000,
+    "ptime": 5108000
+  },
+  {
+    "author": "Julien Meuric",
+    "text": "<p>PCE chair hat on: nicely put, <span class=\"user-mention\" data-user-id=\"422\">@Jeffrey Haas</span></p>",
+    "topic": "jabber",
+    "dtime": 6232000,
+    "ptime": 6232000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"688\">@Julien Meuric</span> I'm still not sure the use case presented in LSR is a good fit for pcep, but it's a good example of flowspec being used for encoding support of the use cases.</p>",
+    "topic": "jabber",
+    "dtime": 6283000,
+    "ptime": 6283000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>However, the use case in lsr is the main question.  Do you really want domain-wide installation of firewall rules?  I suspect not.  This means that even in an IGP sense there's a need for targeted distribution for a subset of the domain.</p>",
+    "topic": "jabber",
+    "dtime": 6350000,
+    "ptime": 6350000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Getting clarity from the authors for the use case would help</p>",
+    "topic": "jabber",
+    "dtime": 6365000,
+    "ptime": 6365000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-LSR-20221109-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/lsr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-LSR-20221109-0930"
+		}		
+	]
+}

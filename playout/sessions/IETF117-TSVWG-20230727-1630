@@ -1,0 +1,308 @@
+
+{
+	"title": "IETF117-TSVWG-20230727-1630",
+	"filename": "IETF117-TSVWG-20230727-1630",
+	"start": 0,
+	"end": 7426000,
+	"start_datetime": "2023-07-27T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "HcjKkhYn08Q",
+    "start": 0,
+    "end": "7426000"
+  }
+],
+	"messages": [
+  {
+    "author": "Uri Blumenthal",
+    "text": "<p>Audio volume is very low - could you please increase it?</p>",
+    "topic": "ietf-117",
+    "dtime": 125000,
+    "ptime": 125000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Uri: do you mean for remotes? It sounds fine to us</p>",
+    "topic": "ietf-117",
+    "dtime": 158000,
+    "ptime": 158000
+  },
+  {
+    "author": "Anna Brunstrom",
+    "text": "<p>i hear well remotely</p>",
+    "topic": "ietf-117",
+    "dtime": 205000,
+    "ptime": 205000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Volume level is fine for me remotely.</p>",
+    "topic": "ietf-117",
+    "dtime": 208000,
+    "ptime": 208000
+  },
+  {
+    "author": "Martin Horneffer",
+    "text": "<p>audio is good here - remotely.</p>",
+    "topic": "ietf-117",
+    "dtime": 221000,
+    "ptime": 221000
+  },
+  {
+    "author": "Ira McDonald",
+    "text": "<p>remote volume is fine for me remotely too</p>",
+    "topic": "ietf-117",
+    "dtime": 226000,
+    "ptime": 226000
+  },
+  {
+    "author": "Reese Enghardt",
+    "text": "<p>It might be good for Marten to get a bit closer to the mic</p>",
+    "topic": "ietf-117",
+    "dtime": 240000,
+    "ptime": 240000
+  },
+  {
+    "author": "Uri Blumenthal",
+    "text": "<p>Yes, remote. Yes, it must be Marten talking too far from the mike.</p>",
+    "topic": "ietf-117",
+    "dtime": 260000,
+    "ptime": 260000
+  },
+  {
+    "author": "Shigeya Suzuki",
+    "text": "<p>seems no problem. (I'm attending from Hilton's room..)</p>",
+    "topic": "ietf-117",
+    "dtime": 262000,
+    "ptime": 262000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I think Marten is speaking quietly, he should be careful to speak close to the mike.</p>",
+    "topic": "ietf-117",
+    "dtime": 268000,
+    "ptime": 268000
+  },
+  {
+    "author": "Uri Blumenthal",
+    "text": "<p>Would somebody please inform Marten...?</p>",
+    "topic": "ietf-117",
+    "dtime": 285000,
+    "ptime": 285000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Works well now for this remote attendee</p>",
+    "topic": "ietf-117",
+    "dtime": 295000,
+    "ptime": 295000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>Got it. Will move closer to the mic</p>",
+    "topic": "ietf-117",
+    "dtime": 489000,
+    "ptime": 489000
+  },
+  {
+    "author": "Ira McDonald",
+    "text": "<p>These \"hums\" are not in the recording or remotely accessible - please use the Meetecho polling mechanism for transparency - thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 2468000,
+    "ptime": 2468000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Do we need to know more than that we need &gt; 16 kB...</p>",
+    "topic": "ietf-117",
+    "dtime": 2968000,
+    "ptime": 2968000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Most security requirements are just taken from current IPsec deployments which this is a repleacement/complement for.</p>",
+    "topic": "ietf-117",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Someone should explain me why there is a need for DTLS over SCTP instead of merely SCTP over DTLS...</p>",
+    "topic": "ietf-117",
+    "dtime": 3266000,
+    "ptime": 3266000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>@Christian, want to get in queue to ask that question?</p>",
+    "topic": "ietf-117",
+    "dtime": 3375000,
+    "ptime": 3375000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Doing changes to a DTLS stack is bad from a security perspective as you then cannot easily do security patches. Much nices to do implementations outside of the DTLS stack.</p>",
+    "topic": "ietf-117",
+    "dtime": 3567000,
+    "ptime": 3567000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>That's kinda what Hannes is doing: DTLS normally comes bundled with UDP, so off the shelf stack is kinda easier if you port DTLS over SCTP, per RFC 6083. But I have no horse in this race. I am just curious.</p>",
+    "topic": "ietf-117",
+    "dtime": 3618000,
+    "ptime": 3618000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>In thought we are kind of deprecating TLS/1.2?</p>",
+    "topic": "ietf-117",
+    "dtime": 3635000,
+    "ptime": 3635000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>TLS WG is currently discussing deprecating 1.2 and recommending phasing it out. Making something published in 2024 1.2 only would be odd. Our suggestion to focus on DTLS 1.3 got objections last time it was discussed...</p>",
+    "topic": "ietf-117",
+    "dtime": 3731000,
+    "ptime": 3731000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>What Magnus just said makes the point: if you decrypt below the transport, the transport ignores the bad packets. If you put decryption after transport, injecting a bad chunk pretty much closes the connection.</p>",
+    "topic": "ietf-117",
+    "dtime": 3758000,
+    "ptime": 3758000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Contrary to Hannes, I think not having to mess with DTLS is very important</p>",
+    "topic": "ietf-117",
+    "dtime": 3875000,
+    "ptime": 3875000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I find Magnus's nomenclature for the options to be very confusing, making it hard to follow</p>",
+    "topic": "ietf-117",
+    "dtime": 4095000,
+    "ptime": 4095000
+  },
+  {
+    "author": "Tom Herbert",
+    "text": "<p>Does sctp checksum have pseudo header covering addresses?</p>",
+    "topic": "ietf-117",
+    "dtime": 4508000,
+    "ptime": 4508000
+  },
+  {
+    "author": "C. Heard",
+    "text": "<p>The SCTP common header, which is protected by the CRC32c  SCTP checksum includes the port numbers but not the IP addresses (RFC9260) There is an encapsulation in UDP (RFC6951), and the UDP checksum would be non-zero if operating over IPv6.</p>",
+    "topic": "ietf-117",
+    "dtime": 5235000,
+    "ptime": 5235000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>In terms of gaming tests - yes a lot of qualitative. Some games can also report latency stats or the developers can look at QoE in the backend.</p>",
+    "topic": "ietf-117",
+    "dtime": 5581000,
+    "ptime": 5581000
+  },
+  {
+    "author": "Sebastian Moeller",
+    "text": "<p>I would hum for not doing WGLC as this should not be published.</p>",
+    "topic": "ietf-117",
+    "dtime": 6152000,
+    "ptime": 6152000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Process complaint: chairs should use the Meetecho hand tool, not the hum in the room. Room only hum is disempowering for remote users.</p>",
+    "topic": "ietf-117",
+    "dtime": 6222000,
+    "ptime": 6222000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p>+1</p>",
+    "topic": "ietf-117",
+    "dtime": 6247000,
+    "ptime": 6247000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1 Sebastian: absence of reply to a hum is not approval!</p>",
+    "topic": "ietf-117",
+    "dtime": 6261000,
+    "ptime": 6261000
+  },
+  {
+    "author": "Sebastian Moeller",
+    "text": "<p>Martin, Thanks!</p>",
+    "topic": "ietf-117",
+    "dtime": 6311000,
+    "ptime": 6311000
+  },
+  {
+    "author": "Uri Blumenthal",
+    "text": "<p>I assume somebody is tracking remote attendees?</p>",
+    "topic": "ietf-117",
+    "dtime": 6315000,
+    "ptime": 6315000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>This kind of draft is exactly why we should not standardize UDP options!</p>",
+    "topic": "ietf-117",
+    "dtime": 6435000,
+    "ptime": 6435000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p>I agree with Christian here, this is a layer violation</p>",
+    "topic": "ietf-117",
+    "dtime": 6994000,
+    "ptime": 6994000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I actually thought this was going to be something else, a new IP protocol number-equivalent since everything runs over UDP now</p>",
+    "topic": "ietf-117",
+    "dtime": 7085000,
+    "ptime": 7085000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Regarding the hum, the old way is to have a \"jabber scribe\" as we just rehearsed. As AD, there is no policy on using him vs the new tools, and I am disinclined to preemptively micromanage chairs. But please email the chairs with your concerns!</p>",
+    "topic": "ietf-117",
+    "dtime": 7233000,
+    "ptime": 7233000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Kazuho is right. These kind of ideas amount to saying that the path is congested, and priority data should be moved first. using ECN is a fine way to solve the issue: network uses ECN to signal congestion, application receives ECN and selects to only use the priority data.</p>",
+    "topic": "ietf-117",
+    "dtime": 7370000,
+    "ptime": 7370000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-TSVWG-20230727-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/tsvwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-TSVWG-20230727-1630"
+		}		
+	]
+}

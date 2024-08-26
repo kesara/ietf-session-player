@@ -1,0 +1,490 @@
+
+{
+	"title": "IETF118-MLS-20231108-0830",
+	"filename": "IETF118-MLS-20231108-0830",
+	"start": 0,
+	"end": 4927000,
+	"start_datetime": "2023-11-08T08:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "R1ESkveSTt4",
+    "start": 0,
+    "end": "4927000"
+  }
+],
+	"messages": [
+  {
+    "author": "Richard Barnes",
+    "text": "<p>wow, we really got the tiniest room this time</p>",
+    "topic": "ietf-118",
+    "dtime": 112000,
+    "ptime": 112000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>lgtm so far</p>",
+    "topic": "ietf-118",
+    "dtime": 360000,
+    "ptime": 360000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>Would be great to be able to list some concrete extensions / timeline for when they'll be done</p>",
+    "topic": "ietf-118",
+    "dtime": 470000,
+    "ptime": 470000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yeah, +1 to EKR</p>",
+    "topic": "ietf-118",
+    "dtime": 566000,
+    "ptime": 566000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><a href=\"https://github.com/mlswg/wg-materials/pull/14/files\">https://github.com/mlswg/wg-materials/pull/14/files</a></p>",
+    "topic": "ietf-118",
+    "dtime": 707000,
+    "ptime": 707000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Regarding the \"thorough security analysis\", the point of the safe extensions work is that additional formal analysis is not necessary for any combination of safe extensions. This doesn't mean there is no security analysis, but that the security properties of MLS aren't invalidated</p>",
+    "topic": "ietf-118",
+    "dtime": 733000,
+    "ptime": 733000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Not quite true Rohan, a safe extension can still be dangerous in different ways</p>",
+    "topic": "ietf-118",
+    "dtime": 777000,
+    "ptime": 777000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>The \"safe extensions\" is just securit analysis abstracted one layer -- analyze the framework instead of each one individually</p>",
+    "topic": "ietf-118",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I agree with Raphael, you still need to prove that any new extension fulfils the assumptions of the extension framework.</p>",
+    "topic": "ietf-118",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>SHOULD it be capitalized?</p>",
+    "topic": "ietf-118",
+    "dtime": 935000,
+    "ptime": 935000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I could define an extension that publishes the keys to Twitter.</p>",
+    "topic": "ietf-118",
+    "dtime": 937000,
+    "ptime": 937000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>RFC 6919</p>",
+    "topic": "ietf-118",
+    "dtime": 947000,
+    "ptime": 947000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Jonathan no you couldn't, you would have to publish them to X</p>",
+    "topic": "ietf-118",
+    "dtime": 981000,
+    "ptime": 981000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>The safe extension work is focused on negative impact to MLS. Analysis of extensions themselves would provide insight on their security. I agree that it is probably a good idea for approved/WG accepted extensions to be treated with the same rigor as the original protocol so that users have more assurance than \"non negative\" security effects.</p>",
+    "topic": "ietf-118",
+    "dtime": 1149000,
+    "ptime": 1149000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>slide 7 about mls extensions claims that they can use \"public key material\" but konrad said \"signatures\" -- if they're making signatures,  that's not public key material.</p>",
+    "topic": "ietf-118",
+    "dtime": 1627000,
+    "ptime": 1627000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@DKG that seems useful to take to the mic</p>",
+    "topic": "ietf-118",
+    "dtime": 1652000,
+    "ptime": 1652000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>I very like \"domain separation by extension id by default\"</p>",
+    "topic": "ietf-118",
+    "dtime": 1705000,
+    "ptime": 1705000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Is there any worry about signing/encrypting oracle attacks</p>",
+    "topic": "ietf-118",
+    "dtime": 1756000,
+    "ptime": 1756000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so i think i understand this as saying that the extension cannot make signatures that either the main protocol could have made or any other extension could make; and it can decrypt messages from any other client  only if those messages came from the other client's implementation of that same extension.</p>",
+    "topic": "ietf-118",
+    "dtime": 1963000,
+    "ptime": 1963000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>An aside, I know there has been MLS message format analysis and recommendations in the Comparse model/work, has any of that been for MLS Extensions ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2006000,
+    "ptime": 2006000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>If I'm a malicious extension implementation can I access the secrets of other extensions?</p>",
+    "topic": "ietf-118",
+    "dtime": 2116000,
+    "ptime": 2116000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Jonathan I think the goal is to avoid that</p>",
+    "topic": "ietf-118",
+    "dtime": 2135000,
+    "ptime": 2135000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>but obviously that comes down to software</p>",
+    "topic": "ietf-118",
+    "dtime": 2145000,
+    "ptime": 2145000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>So I see how that's avoided in the spec, but not how that would be enforced in code?</p>",
+    "topic": "ietf-118",
+    "dtime": 2175000,
+    "ptime": 2175000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Not the IETF's job to do code!</p>",
+    "topic": "ietf-118",
+    "dtime": 2186000,
+    "ptime": 2186000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3484\">Deirdre Connolly</span> <a href=\"#narrow/stream/105-mls/topic/ietf-118/near/97384\">said</a>:</p>\n<blockquote>\n<p>Is there any worry about signing/encrypting oracle attacks</p>\n</blockquote>\n<p>Not that I know of.</p>",
+    "topic": "ietf-118",
+    "dtime": 2219000,
+    "ptime": 2219000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Fair, but that does seem a critical point, so maybe worth calling out in the spec?</p>",
+    "topic": "ietf-118",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Dierdre - There is some domain separation for signing/encryption in MLS.  grep for \"WithLabel\"</p>",
+    "topic": "ietf-118",
+    "dtime": 2268000,
+    "ptime": 2268000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> is that similarly enforced by the domain separation between new Extensions?</p>",
+    "topic": "ietf-118",
+    "dtime": 2312000,
+    "ptime": 2312000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Dierdre I would hope so!</p>",
+    "topic": "ietf-118",
+    "dtime": 2330000,
+    "ptime": 2330000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3484\">Deirdre Connolly</span> <a href=\"#narrow/stream/105-mls/topic/ietf-118/near/97415\">said</a>:</p>\n<blockquote>\n<p>An aside, I know there has been MLS message format analysis and recommendations in the Comparse model/work, has any of that been for MLS Extensions ?</p>\n</blockquote>\n<p>We are following the TLS approach so afaik we have no ambiguous message format problem by design.</p>",
+    "topic": "ietf-118",
+    "dtime": 2330000,
+    "ptime": 2330000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>It is a good point though to ensure this problem doesn't appear in apps through extensions</p>",
+    "topic": "ietf-118",
+    "dtime": 2388000,
+    "ptime": 2388000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>I would probably propose that most of these things go into separate documents.  They are not small extensions.</p>",
+    "topic": "ietf-118",
+    "dtime": 2397000,
+    "ptime": 2397000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2083\">@Benjamin Beurdouche</span> that's good, the Comparse work found/confirmed signature confusion in draft 12 of MLS, so it'd be good to continue using that framework to analyze the new Extension message formats</p>",
+    "topic": "ietf-118",
+    "dtime": 2404000,
+    "ptime": 2404000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/105-mls/topic/ietf-118/near/97473\">said</a>:</p>\n<blockquote>\n<p>I would probably propose that most of these things go into separate documents.  They are not small extensions.</p>\n</blockquote>\n<p>Yes, at least for the \"user trees\" we're in the process of writing something down.</p>",
+    "topic": "ietf-118",
+    "dtime": 2433000,
+    "ptime": 2433000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>To Sean's point \"Extensions to support MIMI\" is easy charter scope to write</p>",
+    "topic": "ietf-118",
+    "dtime": 2518000,
+    "ptime": 2518000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>and I think MIMI is forbidden by charter to DIY</p>",
+    "topic": "ietf-118",
+    "dtime": 2532000,
+    "ptime": 2532000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>MIMI's charter says that extensions to MLS are out of scope and \"If needed, requirements will be referred to the MLS working group or other relevant working groups in the security area.\"</p>",
+    "topic": "ietf-118",
+    "dtime": 2551000,
+    "ptime": 2551000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p><a href=\"https://datatracker.ietf.org/wg/mimi/about/\">https://datatracker.ietf.org/wg/mimi/about/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2566000,
+    "ptime": 2566000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>I wonder if we can nerd-snipe karthik et al into modeling the Extensions formats <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2605000,
+    "ptime": 2605000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Is this mooted by user trees?</p>",
+    "topic": "ietf-118",
+    "dtime": 2690000,
+    "ptime": 2690000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Dierdre unfortunately Karthik is a consultant now <span aria-label=\"money face\" class=\"emoji emoji-1f911\" role=\"img\" title=\"money face\">:money_face:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2769000,
+    "ptime": 2769000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>MIMI is probably going to need more than the user trees extension will provide.</p>",
+    "topic": "ietf-118",
+    "dtime": 2772000,
+    "ptime": 2772000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>(Never mind, I misunderstood your question.)</p>",
+    "topic": "ietf-118",
+    "dtime": 2818000,
+    "ptime": 2818000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>I just pinged him, we'll see <span aria-label=\"halo\" class=\"emoji emoji-1f607\" role=\"img\" title=\"halo\">:halo:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2994000,
+    "ptime": 2994000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>It sounds like the enforcement can be done by the client just doing bookkeeping itself about what KPs are for what purpose. In which case, I don't see why it would need an extension, if it's not communicating anything to anyone else</p>",
+    "topic": "ietf-118",
+    "dtime": 3548000,
+    "ptime": 3548000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Belt and braces security?</p>",
+    "topic": "ietf-118",
+    "dtime": 3580000,
+    "ptime": 3580000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>'defense in depth' &lt;3</p>",
+    "topic": "ietf-118",
+    "dtime": 3596000,
+    "ptime": 3596000
+  },
+  {
+    "author": "Brendan McMillion",
+    "text": "<p>Kabuki theater(?)</p>",
+    "topic": "ietf-118",
+    "dtime": 3614000,
+    "ptime": 3614000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>\"sensible mimi chairs\" -- you heard it here first</p>",
+    "topic": "ietf-118",
+    "dtime": 4002000,
+    "ptime": 4002000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>you could hook the scope in the MLS charter to the scoping constraints in the mimi charter, e.g., the mimi charter has a notion of an \"initial phase\" (focused only on messaging) and has a long list of things that are out of scope</p>",
+    "topic": "ietf-118",
+    "dtime": 4099000,
+    "ptime": 4099000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Important: the NEW kyber does not commit to the public key/ciphersuite, does MLS rely on that? or does the HPKE handle that fine?</p>",
+    "topic": "ietf-118",
+    "dtime": 4104000,
+    "ptime": 4104000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Dierdre - Interesting, i did not know that.  I expect that Théophile will know the answer to that</p>",
+    "topic": "ietf-118",
+    "dtime": 4144000,
+    "ptime": 4144000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>It's annoying and keeps biting</p>",
+    "topic": "ietf-118",
+    "dtime": 4153000,
+    "ptime": 4153000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>and maybe Beurdouche</p>",
+    "topic": "ietf-118",
+    "dtime": 4156000,
+    "ptime": 4156000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>There are arguments that seem to boil down to 'it makes the IND-CCA* proofs nicer'</p>",
+    "topic": "ietf-118",
+    "dtime": 4175000,
+    "ptime": 4175000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>A worry:<br>\n<a href=\"/user_uploads/2/37/XxtU4U1a4wHouVPvgUoxWpes/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/37/XxtU4U1a4wHouVPvgUoxWpes/image.png\" title=\"image.png\"><img src=\"/user_uploads/2/37/XxtU4U1a4wHouVPvgUoxWpes/image.png\"></a></div>",
+    "topic": "ietf-118",
+    "dtime": 4291000,
+    "ptime": 4291000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Yikes</p>",
+    "topic": "ietf-118",
+    "dtime": 4298000,
+    "ptime": 4298000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Dierdre where is that from?</p>",
+    "topic": "ietf-118",
+    "dtime": 4340000,
+    "ptime": 4340000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>yikes indeed.  <span class=\"user-mention\" data-user-id=\"3484\">@Deirdre Connolly</span>  are you saying that the reason for the change is that not committing to the key/ciphersuite makes the IND-CCA proofs nicer?</p>",
+    "topic": "ietf-118",
+    "dtime": 4641000,
+    "ptime": 4641000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>that's a good point, that HPKE is public-key committing even if the underlying KEM isn't</p>",
+    "topic": "ietf-118",
+    "dtime": 4642000,
+    "ptime": 4642000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Nice proofs are important!</p>",
+    "topic": "ietf-118",
+    "dtime": 4662000,
+    "ptime": 4662000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>correct proofs are important!</p>",
+    "topic": "ietf-118",
+    "dtime": 4674000,
+    "ptime": 4674000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>It's easier to check proofs for correctness if they are nice.</p>",
+    "topic": "ietf-118",
+    "dtime": 4695000,
+    "ptime": 4695000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>We should only submit perfect drafts from now on</p>",
+    "topic": "ietf-118",
+    "dtime": 4733000,
+    "ptime": 4733000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-MLS-20231108-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/mls"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-MLS-20231108-0830"
+		}		
+	]
+}

@@ -1,0 +1,280 @@
+
+{
+	"title": "IETF-SATP-20240618-1400",
+	"filename": "IETF-SATP-20240618-1400",
+	"start": 0,
+	"end": 3644000,
+	"start_datetime": "2024-06-18T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "BVMQ-f18x_0",
+    "start": 0,
+    "end": "3644000"
+  }
+],
+	"messages": [
+  {
+    "author": "Venkatraman Ramakrishna",
+    "text": "<p>Hi everyone. Unfortunately, I'll have to drop halfway through the call.</p>",
+    "topic": "ietf-interim",
+    "dtime": 56000,
+    "ptime": 56000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Thx Rama</p>",
+    "topic": "ietf-interim",
+    "dtime": 112000,
+    "ptime": 112000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2024-satp-04-satp\">https://notes.ietf.org/notes-ietf-interim-2024-satp-04-satp</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 116000,
+    "ptime": 116000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Is anyine speaking?</p>",
+    "topic": "ietf-interim",
+    "dtime": 143000,
+    "ptime": 143000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 155000,
+    "ptime": 155000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>I'm not hearing sounds. Maybe its my computer.</p>",
+    "topic": "ietf-interim",
+    "dtime": 160000,
+    "ptime": 160000
+  },
+  {
+    "author": "Venkatraman Ramakrishna",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 164000,
+    "ptime": 164000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>thomas, your side</p>",
+    "topic": "ietf-interim",
+    "dtime": 170000,
+    "ptime": 170000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Rebooting</p>",
+    "topic": "ietf-interim",
+    "dtime": 190000,
+    "ptime": 190000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Yes. Arch-05 just uploaded</p>",
+    "topic": "ietf-interim",
+    "dtime": 314000,
+    "ptime": 314000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Yes, Stage-1 assumes TransferContextID  already established.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1012000,
+    "ptime": 1012000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>SessionID is a hash of the TransferContextID</p>",
+    "topic": "ietf-interim",
+    "dtime": 1040000,
+    "ptime": 1040000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Yes, picture is Core needs to be updated</p>",
+    "topic": "ietf-interim",
+    "dtime": 1078000,
+    "ptime": 1078000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Each transfer instance has 1 TransferContextID and 1 SessionID</p>",
+    "topic": "ietf-interim",
+    "dtime": 1295000,
+    "ptime": 1295000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>If a gateway crashes, at the restart its the same  ContextID but a new SessionID</p>",
+    "topic": "ietf-interim",
+    "dtime": 1345000,
+    "ptime": 1345000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 1481000,
+    "ptime": 1481000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Is it a JSON stcture ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1533000,
+    "ptime": 1533000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-avrilionis-satp-setup-stage/\">https://datatracker.ietf.org/doc/draft-avrilionis-satp-setup-stage/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 1719000,
+    "ptime": 1719000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>see annex 4</p>",
+    "topic": "ietf-interim",
+    "dtime": 1743000,
+    "ptime": 1743000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>Isn't this related to the negotiation stage occuring before stage 1?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2700000,
+    "ptime": 2700000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>(Stage 0)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2706000,
+    "ptime": 2706000
+  },
+  {
+    "author": "Venkatraman Ramakrishna",
+    "text": "<p>Yes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2711000,
+    "ptime": 2711000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>If all negotion happens in Stage0 then 1.2 proposal receipt can only be a non-business (technical) reason</p>",
+    "topic": "ietf-interim",
+    "dtime": 2770000,
+    "ptime": 2770000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>(I mean rejection at 1.2)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2792000,
+    "ptime": 2792000
+  },
+  {
+    "author": "Venkatraman Ramakrishna",
+    "text": "<p>Personally, I vote to make Stage-0 a completely separate protocol. The negotiation that leads to a transfer decision has nothing to do with the mechanics of the actual transfer.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2898000,
+    "ptime": 2898000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>Rama +1</p>",
+    "topic": "ietf-interim",
+    "dtime": 2911000,
+    "ptime": 2911000
+  },
+  {
+    "author": "Venkatraman Ramakrishna",
+    "text": "<p>Sorry, I really need to jump now. But it was a great discussion. I'll catch the remainder from the recording.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Wes Hardaker",
+    "text": "<p>Thanks rama</p>",
+    "topic": "ietf-interim",
+    "dtime": 3020000,
+    "ptime": 3020000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>SATP  party at Vancouver?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3091000,
+    "ptime": 3091000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>:-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3099000,
+    "ptime": 3099000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Is the Settelement Finality part of the ContextID data strcture ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3454000,
+    "ptime": 3454000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>@thomas, yes we could create a section in the transferContext on settlement finality</p>",
+    "topic": "ietf-interim",
+    "dtime": 3582000,
+    "ptime": 3582000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Thank you Wes! Thanks foks</p>",
+    "topic": "ietf-interim",
+    "dtime": 3596000,
+    "ptime": 3596000
+  },
+  {
+    "author": "Denis Avrilionis",
+    "text": "<p>Thank you Wes, Thomas, Anthony and team!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3617000,
+    "ptime": 3617000
+  },
+  {
+    "author": "Anthony Culligan",
+    "text": "<p>Thanks all</p>",
+    "topic": "ietf-interim",
+    "dtime": 3628000,
+    "ptime": 3628000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SATP-20240618-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-satp-04/session/satp"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SATP-20240618-1400"
+		}
+	]
+}

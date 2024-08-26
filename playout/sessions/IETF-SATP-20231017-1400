@@ -1,0 +1,245 @@
+
+{
+	"title": "IETF-SATP-20231017-1400",
+	"filename": "IETF-SATP-20231017-1400",
+	"start": 0,
+	"end": 2848000,
+	"start_datetime": "2023-10-17T14:00:13Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "n6sy4did0hM",
+    "start": 0,
+    "end": "2848000"
+  }
+],
+	"messages": [
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Dec yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 259000,
+    "ptime": 259000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Feb yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 264000,
+    "ptime": 264000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>I think Architecture is ready</p>",
+    "topic": "ietf-interim",
+    "dtime": 282000,
+    "ptime": 282000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>SAT-Core needs review by WG members</p>",
+    "topic": "ietf-interim",
+    "dtime": 310000,
+    "ptime": 310000
+  },
+  {
+    "author": "Rafael Belchior",
+    "text": "<p>hello folks</p>",
+    "topic": "ietf-interim",
+    "dtime": 435000,
+    "ptime": 435000
+  },
+  {
+    "author": "Claire",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span>🏻</p>",
+    "topic": "ietf-interim",
+    "dtime": 454000,
+    "ptime": 454000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>@Alex: it wouild be good if you have some thoughts about numbering monothilic systems (eg. RTGS)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1678000,
+    "ptime": 1678000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Examples from Quant</p>",
+    "topic": "ietf-interim",
+    "dtime": 1685000,
+    "ptime": 1685000
+  },
+  {
+    "author": "Rafael Belchior",
+    "text": "<p>i concur with Yaron</p>",
+    "topic": "ietf-interim",
+    "dtime": 1712000,
+    "ptime": 1712000
+  },
+  {
+    "author": "Rafael Belchior",
+    "text": "<p>readable names do not really add much</p>",
+    "topic": "ietf-interim",
+    "dtime": 1721000,
+    "ptime": 1721000
+  },
+  {
+    "author": "Rafael Belchior",
+    "text": "<p>on the model; there should be a mapping offline</p>",
+    "topic": "ietf-interim",
+    "dtime": 1791000,
+    "ptime": 1791000
+  },
+  {
+    "author": "Alexandru Chiriac",
+    "text": "<p>@Thomas: We don't really, but that is why I prefer Option B - having a readable name in the value makes it even less likely there will be conflicts, in my opinion.</p>\n<p>Also, to address the concerns on parsing and storage:<br>\nParsing: I would wager clients and routers would be implementing the network id list as an enum, so the variable length wouldn't necessarily be an issue.<br>\nStorage: this could have been a problem a couple years ago, but I think storage systems nowadays are well above the requirements of this proposal</p>",
+    "topic": "ietf-interim",
+    "dtime": 1830000,
+    "ptime": 1830000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p>For databases, why not have a simple UUID, so a purely random, long value?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2035000,
+    "ptime": 2035000
+  },
+  {
+    "author": "Rafael Belchior",
+    "text": "<p>readable names add ambiguity: e.g., ethereum subnetwork</p>",
+    "topic": "ietf-interim",
+    "dtime": 2147000,
+    "ptime": 2147000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>@Wes: In the IETF, is teh hash-algo idenrtified by an OID?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2257000,
+    "ptime": 2257000
+  },
+  {
+    "author": "Weijia Zhang",
+    "text": "<p>hash is either sha3 or secp256k1.  Sha3 is better.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2261000,
+    "ptime": 2261000
+  },
+  {
+    "author": "Alexandru Chiriac",
+    "text": "<p>@Rafael, if the names are defined ambiguously, yes... but I was thinking of the example set by <a href=\"http://chainlist.org\">chainlist.org</a>. Suppose we did not even have the chainId, the readable names themselves are very distinguishable from one another: <a href=\"https://chainlist.org/\">https://chainlist.org/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2279000,
+    "ptime": 2279000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p>@thomas I think there's an IANA registry for hash values.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2292000,
+    "ptime": 2292000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<ul>\n<li>algorithms.</li>\n</ul>",
+    "topic": "ietf-interim",
+    "dtime": 2300000,
+    "ptime": 2300000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>eg. SHA256 is <a href=\"https://oidref.com/2.16.840.1.101.3.4.2.1\">https://oidref.com/2.16.840.1.101.3.4.2.1</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2340000,
+    "ptime": 2340000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>ok thanks</p>",
+    "topic": "ietf-interim",
+    "dtime": 2349000,
+    "ptime": 2349000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p>@thomas <a href=\"https://www.iana.org/assignments/named-information/named-information.xhtml#hash-alg\">https://www.iana.org/assignments/named-information/named-information.xhtml#hash-alg</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2437000,
+    "ptime": 2437000
+  },
+  {
+    "author": "Rafael Belchior",
+    "text": "<p>@Alex that could work but could become problematic in particular for private networks (imagine: supply-chain blockchain in HF)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2450000,
+    "ptime": 2450000
+  },
+  {
+    "author": "Venkatraman Ramakrishna",
+    "text": "<p>March should be definitely doable.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2559000,
+    "ptime": 2559000
+  },
+  {
+    "author": "Alexandru Chiriac",
+    "text": "<p>@Rafael I see, yeah. But I'm wondering how likely is that to appear in practice... I've seen networks like \"Marco Polo Network\" but not just plainly \"supply chain network\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 2603000,
+    "ptime": 2603000
+  },
+  {
+    "author": "Venkatraman Ramakrishna",
+    "text": "<p>We can also experiment with these naming conventions in the Hyperledger Cacti system, where an SATP implementation is underway, and several different connector types exist.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2606000,
+    "ptime": 2606000
+  },
+  {
+    "author": "Rafael Belchior",
+    "text": "<p>Agreed @Rama</p>",
+    "topic": "ietf-interim",
+    "dtime": 2623000,
+    "ptime": 2623000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>I will send out calendar invites for Subgroup meetings</p>",
+    "topic": "ietf-interim",
+    "dtime": 2626000,
+    "ptime": 2626000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Thanks Wes &amp; Claire</p>",
+    "topic": "ietf-interim",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Thanks all.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2798000,
+    "ptime": 2798000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SATP-20231017-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-satp-10/session/satp"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SATP-20231017-1400"
+		}
+	]
+}

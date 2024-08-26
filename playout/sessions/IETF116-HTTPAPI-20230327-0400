@@ -1,0 +1,784 @@
+
+{
+	"title": "IETF116-HTTPAPI-20230327-0400",
+	"filename": "IETF116-HTTPAPI-20230327-0400",
+	"start": 0,
+	"end": 7398000,
+	"start_datetime": "2023-03-27T04:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "NSC10B6A1v4",
+    "start": 0,
+    "end": "7398000"
+  }
+],
+	"messages": [
+  {
+    "author": "Erik Wilde",
+    "text": "<p>Hello everybody from Zurich!</p>",
+    "topic": "ietf-116",
+    "dtime": 20000,
+    "ptime": 20000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p><a href=\"https://ietf-wg-httpapi.github.io/\">https://ietf-wg-httpapi.github.io/</a></p>",
+    "topic": "ietf-116",
+    "dtime": 655000,
+    "ptime": 655000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>very accurate Rich, thank you :)</p>",
+    "topic": "ietf-116",
+    "dtime": 656000,
+    "ptime": 656000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>Project status board <a href=\"https://github.com/orgs/ietf-wg-httpapi/projects/1/views/1\">https://github.com/orgs/ietf-wg-httpapi/projects/1/views/1</a></p>",
+    "topic": "ietf-116",
+    "dtime": 709000,
+    "ptime": 709000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>hello. i am on chat only today.</p>",
+    "topic": "ietf-116",
+    "dtime": 737000,
+    "ptime": 737000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>I can also mention that Zahed has volunteered to take on the docs that are with me (link-template and yaml media types)</p>",
+    "topic": "ietf-116",
+    "dtime": 766000,
+    "ptime": 766000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>\"I don't think it's a controversial thing.\" Ha! ;-)</p>",
+    "topic": "ietf-116",
+    "dtime": 972000,
+    "ptime": 972000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>Couldn't it be treated similar to HTTP headers? there's no std- prefix there either</p>",
+    "topic": "ietf-116",
+    "dtime": 1031000,
+    "ptime": 1031000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@evert  The concern is a conflict  new properties we add in the future with existing extensions that have been created in the past.</p>",
+    "topic": "ietf-116",
+    "dtime": 1122000,
+    "ptime": 1122000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>I think this \"prefix-\" idea smells a bit</p>",
+    "topic": "ietf-116",
+    "dtime": 1150000,
+    "ptime": 1150000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>Is that also an issue with HTTP headers potentially ?</p>",
+    "topic": "ietf-116",
+    "dtime": 1160000,
+    "ptime": 1160000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"231\">@Mark Nottingham</span> <span class=\"user-mention\" data-user-id=\"1242\">@Erik Wilde</span> is there issue opened for the 400 error example?</p>",
+    "topic": "ietf-116",
+    "dtime": 1201000,
+    "ptime": 1201000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@sanjay Not yet.</p>",
+    "topic": "ietf-116",
+    "dtime": 1242000,
+    "ptime": 1242000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>good point @sanjay, there definitely should be one.</p>",
+    "topic": "ietf-116",
+    "dtime": 1275000,
+    "ptime": 1275000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>You welcome :)</p>",
+    "topic": "ietf-116",
+    "dtime": 1726000,
+    "ptime": 1726000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>here you go, @sanjay: <a href=\"https://github.com/ietf-wg-httpapi/rfc7807bis/issues/76\">https://github.com/ietf-wg-httpapi/rfc7807bis/issues/76</a></p>",
+    "topic": "ietf-116",
+    "dtime": 1884000,
+    "ptime": 1884000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>thanks @darrel for prototyping for binary vs string structure field. i do not have strong opinion on this as far as while debugging and searching logs while doing root cause analysis.</p>",
+    "topic": "ietf-116",
+    "dtime": 1890000,
+    "ptime": 1890000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>thanks you captured</p>",
+    "topic": "ietf-116",
+    "dtime": 1923000,
+    "ptime": 1923000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>i am only on chat today</p>",
+    "topic": "ietf-116",
+    "dtime": 1931000,
+    "ptime": 1931000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Declaring that you ought to compare UUIDs on a byte-by-byte basis even when they are sf-string seems like a good idea.</p>",
+    "topic": "ietf-116",
+    "dtime": 2002000,
+    "ptime": 2002000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>maybe binary can be used to bake other information in the I-K field</p>",
+    "topic": "ietf-116",
+    "dtime": 2015000,
+    "ptime": 2015000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Are sf-strings ever compared on other than a byte-by-byte basis?</p>",
+    "topic": "ietf-116",
+    "dtime": 2039000,
+    "ptime": 2039000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>@roberto example of other things?</p>",
+    "topic": "ietf-116",
+    "dtime": 2041000,
+    "ptime": 2041000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>sounds like an evolving \"Best practices for datatypes in SF values\" spec? I remember @mnot mentioning a similar approach for dateTime values.</p>",
+    "topic": "ietf-116",
+    "dtime": 2049000,
+    "ptime": 2049000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>My weakly held opinion is opaque string keys are much nicer to handle in <em>some</em> languages and would rather see sf-string without a prescribed format like UUID</p>",
+    "topic": "ietf-116",
+    "dtime": 2051000,
+    "ptime": 2051000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>I mean you could specify it as a string or bytes -- allow both forms.</p>",
+    "topic": "ietf-116",
+    "dtime": 2061000,
+    "ptime": 2061000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(\"Comparing strings\" is just one of those magic phrases that cause us i18n people heartburn.)</p>",
+    "topic": "ietf-116",
+    "dtime": 2106000,
+    "ptime": 2106000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>+1 string</p>",
+    "topic": "ietf-116",
+    "dtime": 2177000,
+    "ptime": 2177000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>+1 too =)</p>",
+    "topic": "ietf-116",
+    "dtime": 2191000,
+    "ptime": 2191000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>+1 string yay!</p>",
+    "topic": "ietf-116",
+    "dtime": 2195000,
+    "ptime": 2195000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I can assure you that during Last-Call someone is going to call out the string comparison question if you don't specify it carefully.</p>",
+    "topic": "ietf-116",
+    "dtime": 2218000,
+    "ptime": 2218000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>thanks darrel!</p>",
+    "topic": "ietf-116",
+    "dtime": 2223000,
+    "ptime": 2223000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Pete: they're ascii strings, if that helps.</p>",
+    "topic": "ietf-116",
+    "dtime": 2232000,
+    "ptime": 2232000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>we do not have any other issues</p>",
+    "topic": "ietf-116",
+    "dtime": 2245000,
+    "ptime": 2245000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"231\">@Mark Nottingham</span> Case-sensitive ascii strings?</p>",
+    "topic": "ietf-116",
+    "dtime": 2258000,
+    "ptime": 2258000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>yes</p>",
+    "topic": "ietf-116",
+    "dtime": 2268000,
+    "ptime": 2268000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>So long as that's specified, yes, far less heartburn.</p>",
+    "topic": "ietf-116",
+    "dtime": 2285000,
+    "ptime": 2285000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>We are especially interested in have feedback from plaftorm folks.</p>",
+    "topic": "ietf-116",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p><span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span> Darrel</p>",
+    "topic": "ietf-116",
+    "dtime": 2553000,
+    "ptime": 2553000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>thanks @darrel for pitching in!</p>",
+    "topic": "ietf-116",
+    "dtime": 2573000,
+    "ptime": 2573000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1242\">Erik Wilde</span> <a href=\"#narrow/stream/223-httpapi/topic/ietf-116/near/64238\">said</a>:</p>\n<blockquote>\n<p>here you go, @sanjay: <a href=\"https://github.com/ietf-wg-httpapi/rfc7807bis/issues/76\">https://github.com/ietf-wg-httpapi/rfc7807bis/issues/76</a></p>\n</blockquote>\n<p>Thanks!</p>",
+    "topic": "ietf-116",
+    "dtime": 2600000,
+    "ptime": 2600000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>deprecation headers and sunset headers are like warning signs informing about respective events. if those dates are in human readable, it would help. imo.</p>",
+    "topic": "ietf-116",
+    "dtime": 2777000,
+    "ptime": 2777000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>regardless lifecycle or individual events, date is important for these events. so format for date is important to resolve.</p>",
+    "topic": "ietf-116",
+    "dtime": 2884000,
+    "ptime": 2884000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>FYI We're using the Sunset headers and really like it</p>",
+    "topic": "ietf-116",
+    "dtime": 2973000,
+    "ptime": 2973000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>IIUC this is targeted at APIs, not U-A</p>",
+    "topic": "ietf-116",
+    "dtime": 3009000,
+    "ptime": 3009000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>well, not browser U-A</p>",
+    "topic": "ietf-116",
+    "dtime": 3039000,
+    "ptime": 3039000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>This also is useful for intermediaries like API gateways.</p>",
+    "topic": "ietf-116",
+    "dtime": 3041000,
+    "ptime": 3041000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>They could use these signals to for example update their \"catalog\" of APIs that they manage.</p>",
+    "topic": "ietf-116",
+    "dtime": 3077000,
+    "ptime": 3077000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 3087000,
+    "ptime": 3087000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>There also is the question of whether an API would return this on all resources or just on special ones such as \"home resources\". I am in favor of that latter approach.</p>",
+    "topic": "ietf-116",
+    "dtime": 3130000,
+    "ptime": 3130000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>@Darrel: in your experience, do you confirm that there's value in human-readability for this specific use-case?</p>",
+    "topic": "ietf-116",
+    "dtime": 3156000,
+    "ptime": 3156000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@roberto In all of the cases we use it for, there is some form of processing before the developer sees it.</p>",
+    "topic": "ietf-116",
+    "dtime": 3231000,
+    "ptime": 3231000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>thanks @Erik</p>",
+    "topic": "ietf-116",
+    "dtime": 3255000,
+    "ptime": 3255000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>I did!</p>",
+    "topic": "ietf-116",
+    "dtime": 3282000,
+    "ptime": 3282000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 3297000,
+    "ptime": 3297000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>Erik and I spoke about that</p>",
+    "topic": "ietf-116",
+    "dtime": 3312000,
+    "ptime": 3312000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>as a side note: a lifecycle header would also compete with sunset which is an RFC. but i guess that would be ok.</p>",
+    "topic": "ietf-116",
+    "dtime": 3370000,
+    "ptime": 3370000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>The <em>real</em> question: CAN WE GET TO 15?</p>",
+    "topic": "ietf-116",
+    "dtime": 3388000,
+    "ptime": 3388000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>i like distinct events that these 2 headers are conveying in a very scoped manner. are other events in lifecycle clearly defined. for example some call alfa, beta, some call eap, some call ga, some would say something else.</p>",
+    "topic": "ietf-116",
+    "dtime": 3511000,
+    "ptime": 3511000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>We are using it (Deprecation) successfully</p>",
+    "topic": "ietf-116",
+    "dtime": 3527000,
+    "ptime": 3527000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>Thanks <span class=\"user-mention\" data-user-id=\"2307\">@Evert Pot</span> !</p>",
+    "topic": "ietf-116",
+    "dtime": 3547000,
+    "ptime": 3547000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>(if it's helpful to share our use-case, happy to!)</p>",
+    "topic": "ietf-116",
+    "dtime": 3674000,
+    "ptime": 3674000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>Seems a recurring discussion :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3715000,
+    "ptime": 3715000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Are there generic tools that consume it?</p>",
+    "topic": "ietf-116",
+    "dtime": 3795000,
+    "ptime": 3795000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2307\">@Evert Pot</span>  What is the reaction from OAuth OIDC working groups? Do they not want to add these there?</p>",
+    "topic": "ietf-116",
+    "dtime": 4157000,
+    "ptime": 4157000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>@evert I think that your work is interesting. I am curious about whether there are some security caveats when using this I-D</p>",
+    "topic": "ietf-116",
+    "dtime": 4383000,
+    "ptime": 4383000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>I think this should be pushed there since endpoints are defined there just to keep things in sync.</p>",
+    "topic": "ietf-116",
+    "dtime": 4441000,
+    "ptime": 4441000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>/me shows hand</p>",
+    "topic": "ietf-116",
+    "dtime": 4569000,
+    "ptime": 4569000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>Sorry, I have to take kids to school now :) Thank you and see you on list. Bye:)</p>",
+    "topic": "ietf-116",
+    "dtime": 4688000,
+    "ptime": 4688000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@roberto Thanks for your contributions.</p>",
+    "topic": "ietf-116",
+    "dtime": 4712000,
+    "ptime": 4712000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>by @roberto!</p>",
+    "topic": "ietf-116",
+    "dtime": 4716000,
+    "ptime": 4716000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>@rich I am def interested in reviewing this</p>",
+    "topic": "ietf-116",
+    "dtime": 4725000,
+    "ptime": 4725000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Evert: I had discussions in the past w OAuth people about OAuth client setup/management. This IS considered a valid topic in there imho</p>",
+    "topic": "ietf-116",
+    "dtime": 4965000,
+    "ptime": 4965000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@Hans-Jörg  I think the interesting question is whether there are a set of semantics that can be captured that are more broad than OAuth.</p>",
+    "topic": "ietf-116",
+    "dtime": 5073000,
+    "ptime": 5073000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-116",
+    "dtime": 5242000,
+    "ptime": 5242000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>yes</p>",
+    "topic": "ietf-116",
+    "dtime": 5245000,
+    "ptime": 5245000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>yes</p>",
+    "topic": "ietf-116",
+    "dtime": 5246000,
+    "ptime": 5246000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>Unsure</p>",
+    "topic": "ietf-116",
+    "dtime": 5251000,
+    "ptime": 5251000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>I note that the transcription tool doesn't seem to know about hums.</p>",
+    "topic": "ietf-116",
+    "dtime": 5300000,
+    "ptime": 5300000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>morning! ;-)</p>",
+    "topic": "ietf-116",
+    "dtime": 5307000,
+    "ptime": 5307000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Darrel: (Minor) there should be Fullscreen/presentation mode in Acrobat viewer</p>",
+    "topic": "ietf-116",
+    "dtime": 5437000,
+    "ptime": 5437000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Darrel (to prior comment): I agree, just wanted to point out there are/might be OAuth people interested in this</p>",
+    "topic": "ietf-116",
+    "dtime": 5527000,
+    "ptime": 5527000
+  },
+  {
+    "author": "Mark Thomas",
+    "text": "<p>What was the question? Couldn't hear it remotely.</p>",
+    "topic": "ietf-116",
+    "dtime": 5973000,
+    "ptime": 5973000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>I'm slightly terrified of the ability to change individual bytes in resources via HTTP requests.</p>",
+    "topic": "ietf-116",
+    "dtime": 6077000,
+    "ptime": 6077000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Mark: if you refer to my off question, I just asked for clarification which of the hesders in the example determined the \"append\"</p>",
+    "topic": "ietf-116",
+    "dtime": 6079000,
+    "ptime": 6079000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>(sorry for just shouting in the room...)</p>",
+    "topic": "ietf-116",
+    "dtime": 6100000,
+    "ptime": 6100000
+  },
+  {
+    "author": "Mark Thomas",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"72\">@Hans-Jörg Happel</span> I was. Tx.</p>",
+    "topic": "ietf-116",
+    "dtime": 6102000,
+    "ptime": 6102000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>@Darrel: I mean, that's just PATCH</p>",
+    "topic": "ietf-116",
+    "dtime": 6108000,
+    "ptime": 6108000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>I was building WebDAV servers before and we also really needed this. I wrote this in 2012 to try and solve the same thing: <a href=\"https://sabre.io/dav/http-patch/\">https://sabre.io/dav/http-patch/</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6130000,
+    "ptime": 6130000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>+1 to all of this so far</p>",
+    "topic": "ietf-116",
+    "dtime": 6203000,
+    "ptime": 6203000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>I wonder if infinite-length patches (which I understood are in scope?) are something HTTP servers would be happy to implement...</p>",
+    "topic": "ietf-116",
+    "dtime": 6205000,
+    "ptime": 6205000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>I am not an expert on those meta topics: but isn't this rather work for the HTTP WG as opposed to HTTP API? (even though much of it makes PATCH usage APIish)</p>",
+    "topic": "ietf-116",
+    "dtime": 6394000,
+    "ptime": 6394000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>This reminds me of just how plainly this got written into RFC 5789:  PATCH is neither safe nor idempotent as defined by [RFC2616], Section<br>\n   9.1.</p>",
+    "topic": "ietf-116",
+    "dtime": 6445000,
+    "ptime": 6445000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>There is <a href=\"https://greenbytes.de/tech/webdav/rfc8673.html\">https://greenbytes.de/tech/webdav/rfc8673.html</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6467000,
+    "ptime": 6467000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/rfc8673/\">https://datatracker.ietf.org/doc/rfc8673/</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6472000,
+    "ptime": 6472000
+  },
+  {
+    "author": "Kenji Baheux",
+    "text": "<p>Naive question: how does the client knows how far an abruptly interrupted upload went? (re: use case of resuming an upload). Does this require a round trip to check with the server what it got?</p>",
+    "topic": "ietf-116",
+    "dtime": 6641000,
+    "ptime": 6641000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>Locking the queue as we only have 6 mins to go.</p>",
+    "topic": "ietf-116",
+    "dtime": 6857000,
+    "ptime": 6857000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>How well is Expect supported with unknown tokens? Always thought that could be used more</p>",
+    "topic": "ietf-116",
+    "dtime": 7031000,
+    "ptime": 7031000
+  },
+  {
+    "author": "Ian Williams",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2500\">Kenji Baheux</span> <a href=\"#narrow/stream/223-httpapi/topic/ietf-116/near/64584\">said</a>:</p>\n<blockquote>\n<p>Naive question: how does the client knows how far an abruptly interrupted upload went? (re: use case of resuming an upload). Does this require a round trip to check with the server what it got?</p>\n</blockquote>\n<p>Could see this being a header in like a <code>HEAD</code> response or something</p>",
+    "topic": "ietf-116",
+    "dtime": 7065000,
+    "ptime": 7065000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>\"byte-shedding\"</p>",
+    "topic": "ietf-116",
+    "dtime": 7278000,
+    "ptime": 7278000
+  },
+  {
+    "author": "Evert Pot",
+    "text": "<p>i want to know more about the multipart hate</p>",
+    "topic": "ietf-116",
+    "dtime": 7303000,
+    "ptime": 7303000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>multipard considered harmful</p>",
+    "topic": "ietf-116",
+    "dtime": 7312000,
+    "ptime": 7312000
+  },
+  {
+    "author": "Sanjay Dalal",
+    "text": "<p>Thank you all!</p>",
+    "topic": "ietf-116",
+    "dtime": 7332000,
+    "ptime": 7332000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>thank you all! Thanks Rich and Darrel</p>",
+    "topic": "ietf-116",
+    "dtime": 7348000,
+    "ptime": 7348000
+  },
+  {
+    "author": "Erik Wilde",
+    "text": "<p>thanks a lot everybody! bye!</p>",
+    "topic": "ietf-116",
+    "dtime": 7349000,
+    "ptime": 7349000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>enjoy the cookies</p>",
+    "topic": "ietf-116",
+    "dtime": 7355000,
+    "ptime": 7355000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>Thank you!  Enjoy the rest of your day.</p>",
+    "topic": "ietf-116",
+    "dtime": 7379000,
+    "ptime": 7379000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-HTTPAPI-20230327-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/httpapi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-HTTPAPI-20230327-0400"
+		}		
+	]
+}

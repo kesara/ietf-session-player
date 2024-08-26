@@ -1,0 +1,900 @@
+
+{
+	"title": "IETF112-MEDIAMAN-20211109-1430",
+	"filename": "IETF112-MEDIAMAN-20211109-1430",
+	"start": 0,
+	"end": 3629000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "TUBWW5yOxNU",
+    "start": 0,
+    "end": "3629000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 268000,
+    "ptime": 268000,
+    "author": "Phillip Hallam-Baker",
+    "text": "I can scribe<br/>"
+  },
+  {
+    "dtime": 543000,
+    "ptime": 543000,
+    "author": "Alexey Melnikov",
+    "text": "Somebody asked to register a new model/* media type just recently<br/>"
+  },
+  {
+    "dtime": 572000,
+    "ptime": 572000,
+    "author": "Alexey Melnikov",
+    "text": "I.e. in the last 6 months. model/* is rare, but apparently still used.<br/>"
+  },
+  {
+    "dtime": 694000,
+    "ptime": 694000,
+    "author": "mnot",
+    "text": "Cullen makes a really good point — and it calls into question yet again what the actual value of structured suffixes are<br/>"
+  },
+  {
+    "dtime": 721000,
+    "ptime": 721000,
+    "author": "Ned Freed",
+    "text": "FWIW, there have been subtypes registered under multiple top-level types, and not just for RTP.<br/>"
+  },
+  {
+    "dtime": 749000,
+    "ptime": 749000,
+    "author": "Alexey Melnikov",
+    "text": "I think removing top level types would be too late at this point<br/>"
+  },
+  {
+    "dtime": 749000,
+    "ptime": 749000,
+    "author": "Jonathan Lennox",
+    "text": "But are they actually the same format, just with different top-level characteristics?&nbsp;&nbsp;Not name collisions?<br/>"
+  },
+  {
+    "dtime": 767000,
+    "ptime": 767000,
+    "author": "Ned Freed",
+    "text": "Same format, different use.<br/>"
+  },
+  {
+    "dtime": 865000,
+    "ptime": 865000,
+    "author": "Ned Freed",
+    "text": "PHB is of course correct. Knowing the general nature of a type is useful. It's not limited to browsers either - email systems have been known to filter based on top-level types.<br/>"
+  },
+  {
+    "dtime": 867000,
+    "ptime": 867000,
+    "author": "Alexey Melnikov",
+    "text": "IMAP has a separate field for type and subtype.<br/>"
+  },
+  {
+    "dtime": 890000,
+    "ptime": 890000,
+    "author": "Alexey Melnikov",
+    "text": "Indeed, email systems have different handling based on top level type<br/>"
+  },
+  {
+    "dtime": 945000,
+    "ptime": 945000,
+    "author": "Cullen Jennings",
+    "text": "I think the content inspection tools are sort of disappearing with TLS everywhere <br/>"
+  },
+  {
+    "dtime": 958000,
+    "ptime": 958000,
+    "author": "Ned Freed",
+    "text": "It's also useful from the practical standpoint of people knowing from the name what sort of type it is. Frankly, I think this is the most important case by far.<br/>"
+  },
+  {
+    "dtime": 1029000,
+    "ptime": 1029000,
+    "author": "Ned Freed",
+    "text": "As for content scanning, no sensible content scanning system bases any sort of decision on the untrusted content type. It might check to see if the type is intentionally misleading, but that is it.<br/>"
+  },
+  {
+    "dtime": 1082000,
+    "ptime": 1082000,
+    "author": "Dave Thaler",
+    "text": "@Cullen some content filters are above TLS (like browser extensions).&nbsp;&nbsp;No idea if they use TL media types.<br/>"
+  },
+  {
+    "dtime": 1129000,
+    "ptime": 1129000,
+    "author": "Cullen Jennings",
+    "text": "All good points but if we have no idea who uses TopLevelTypes, we are going to have no idea how to set up the correct properties of it <br/>"
+  },
+  {
+    "dtime": 1149000,
+    "ptime": 1149000,
+    "author": "Dave Thaler",
+    "text": "agree<br/>"
+  },
+  {
+    "dtime": 1178000,
+    "ptime": 1178000,
+    "author": "Ned Freed",
+    "text": "Cullen: The world doesn't consist solely of unrestricted HTTP connections. Email is the obvious counterexample where content scanning is commonplace.<br/>"
+  },
+  {
+    "dtime": 1273000,
+    "ptime": 1273000,
+    "author": "Ned Freed",
+    "text": "Wrong wrong wrong wrong wrong.<br/>"
+  },
+  {
+    "dtime": 1283000,
+    "ptime": 1283000,
+    "author": "Alexey Melnikov",
+    "text": "Cullen: not true!<br/>"
+  },
+  {
+    "dtime": 1303000,
+    "ptime": 1303000,
+    "author": "Ned Freed",
+    "text": "Cullen, everything you just said is nonsense, top to bottom, side to side.<br/>"
+  },
+  {
+    "dtime": 1309000,
+    "ptime": 1309000,
+    "author": "Dave Thaler",
+    "text": "I do know there is a common perception (real or imagined I don't know but someone here probably does) that browsers use the existing TL types, e.g., whether to display content on screen (even if it doesn't recognize subtype) or as a file.&nbsp;&nbsp;Not sure that helps say anything about future ones.<br/>"
+  },
+  {
+    "dtime": 1321000,
+    "ptime": 1321000,
+    "author": "Cullen Jennings",
+    "text": "Ahgg, I totally defer to Ned and Alexey on this - I am sure they are right not me<br/>"
+  },
+  {
+    "dtime": 1329000,
+    "ptime": 1329000,
+    "author": "Phillip Hallam-Baker",
+    "text": "What about macros? That is the real test<br/>"
+  },
+  {
+    "dtime": 1343000,
+    "ptime": 1343000,
+    "author": "Jonathan Lennox",
+    "text": "Is that a special characteristic of multipart, though?&nbsp;&nbsp;Do any other top-levels have that property?<br/>"
+  },
+  {
+    "dtime": 1369000,
+    "ptime": 1369000,
+    "author": "Alexey Melnikov",
+    "text": "Multipart, text and possibly message<br/>"
+  },
+  {
+    "dtime": 1434000,
+    "ptime": 1434000,
+    "author": "Alexey Melnikov",
+    "text": "My web mail client also handles \"image\" and \"audio\" differently, because it generates different HTML for them<br/>"
+  },
+  {
+    "dtime": 1472000,
+    "ptime": 1472000,
+    "author": "Phillip Hallam-Baker",
+    "text": "The real concern for firewalls is active content. And you can have that in any media type. Fonts can be programs. <br/>"
+  },
+  {
+    "dtime": 1494000,
+    "ptime": 1494000,
+    "author": "Alexey Melnikov",
+    "text": "PHP: that is certainly true<br/>"
+  },
+  {
+    "dtime": 1528000,
+    "ptime": 1528000,
+    "author": "Jonathan Lennox",
+    "text": "I.e. you assume any image/* can go into an &lt;img&gt; and a web browser can handle it?&nbsp;&nbsp;(Or at least there's no better way it could be handled?)<br/>"
+  },
+  {
+    "dtime": 1551000,
+    "ptime": 1551000,
+    "author": "Jonathan Lennox",
+    "text": "Hm, tag stripping.&nbsp;&nbsp;Can go into an %lt;img&gt;<br/>"
+  },
+  {
+    "dtime": 1557000,
+    "ptime": 1557000,
+    "author": "Alexey Melnikov",
+    "text": "Yes.<br/>"
+  },
+  {
+    "dtime": 1603000,
+    "ptime": 1603000,
+    "author": "Ned Freed",
+    "text": "Absolutely. Active content was recognized from the start as the main danger. Our attempts to deal with it, e.g., safe TCL, were naive at best.<br/>"
+  },
+  {
+    "dtime": 1611000,
+    "ptime": 1611000,
+    "author": "Alexey Melnikov",
+    "text": "And audio/* can be &amp;lt;audio&gt; element, etc<br/>"
+  },
+  {
+    "dtime": 1666000,
+    "ptime": 1666000,
+    "author": "Phillip Hallam-Baker",
+    "text": "I think it will probably help folk work out what the format is about if it is called haptics/whatever rather than application/whatever<br/>"
+  },
+  {
+    "dtime": 1684000,
+    "ptime": 1684000,
+    "author": "Alexey Melnikov",
+    "text": "Indeed<br/>"
+  },
+  {
+    "dtime": 1758000,
+    "ptime": 1758000,
+    "author": "Ned Freed",
+    "text": "PHB: Agreed.<br/>"
+  },
+  {
+    "dtime": 1788000,
+    "ptime": 1788000,
+    "author": "Murray Kucherawy",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 1835000,
+    "ptime": 1835000,
+    "author": "Phillip Hallam-Baker",
+    "text": "Summary of discussion so far: 1) The use of toplevel names does not give rise to critical concerns, 2) Filing these new formats under haptics will be more convenient going forward.<br/>"
+  },
+  {
+    "dtime": 1857000,
+    "ptime": 1857000,
+    "author": "Ned Freed",
+    "text": "Can these haptics streams be bidirectional? Or are two streams used when you want feedback?<br/>"
+  },
+  {
+    "dtime": 1871000,
+    "ptime": 1871000,
+    "author": "Murray Kucherawy",
+    "text": "Does (1) mean \"the creation of new names is not a concern\"?<br/>"
+  },
+  {
+    "dtime": 1944000,
+    "ptime": 1944000,
+    "author": "Alexey Melnikov",
+    "text": "+1. I am fine with haptics at a new top level<br/>"
+  },
+  {
+    "dtime": 1983000,
+    "ptime": 1983000,
+    "author": "Chris Ullrich",
+    "text": "Ned, the current haptic formats don't specify any sensing/tracking data. This may happen in MPEG-I Phase 2 but we're a few years out on that.<br/>"
+  },
+  {
+    "dtime": 1986000,
+    "ptime": 1986000,
+    "author": "Cullen Jennings",
+    "text": "gcode is uh, not really code in my mind in that it is not even close to turning complete. But postscript is .... <br/>"
+  },
+  {
+    "dtime": 2001000,
+    "ptime": 2001000,
+    "author": "Jonathan Lennox",
+    "text": "I'd say \"a new name is not a concern for media types which otherwise would have to go under application\".&nbsp;&nbsp;That's the \"we can't have any special treatment for this\" category so a new toplevel would be handled the same for devices that don't know the top level.<br/>"
+  },
+  {
+    "dtime": 2007000,
+    "ptime": 2007000,
+    "author": "Ned Freed",
+    "text": "PHB: More generally, I find the cost-benefit basis people seem to be using to be skewed from reality. Speaking as a type reviewer and implementor of code to support various types, the creation of a new top-level type is pretty much a nothingburger.<br/>"
+  },
+  {
+    "dtime": 2038000,
+    "ptime": 2038000,
+    "author": "Murray Kucherawy",
+    "text": "So we're fine with this new top-level domain, and just need to look at the more general policy/guidance.&nbsp;&nbsp;Do we want to approve this one and then set up the guidance document, or vice-versa?<br/>"
+  },
+  {
+    "dtime": 2056000,
+    "ptime": 2056000,
+    "author": "Dave Thaler",
+    "text": "To Jonathan's point in chat about image maybe being auto-put into an img html tag, if we start seeing haptics html tags then having a haptics TL type would probably be helpful.<br/>"
+  },
+  {
+    "dtime": 2058000,
+    "ptime": 2058000,
+    "author": "Murray Kucherawy",
+    "text": "sorry, top-level type, not top-level domain.<br/>"
+  },
+  {
+    "dtime": 2060000,
+    "ptime": 2060000,
+    "author": "Ned Freed",
+    "text": "We go on and on about the benefits not being sufficient. But the costs are so low!!!<br/>"
+  },
+  {
+    "dtime": 2079000,
+    "ptime": 2079000,
+    "author": "Alexey Melnikov",
+    "text": "Murray: I am happy to approve this one and then think about generic guidance.<br/>"
+  },
+  {
+    "dtime": 2089000,
+    "ptime": 2089000,
+    "author": "Cullen Jennings",
+    "text": "The MP4 example highlights how totally irrelevant the top level is. <br/>"
+  },
+  {
+    "dtime": 2187000,
+    "ptime": 2187000,
+    "author": "Dave Thaler",
+    "text": "mp4 is a sort of multipart itself...<br/>"
+  },
+  {
+    "dtime": 2193000,
+    "ptime": 2193000,
+    "author": "Alexey Melnikov",
+    "text": "Murray: I don't want to delay \"haptics\" and as Ned said the risk of creating a new top level one is low<br/>"
+  },
+  {
+    "dtime": 2202000,
+    "ptime": 2202000,
+    "author": "Ned Freed",
+    "text": "First, the fact that there are types that can fit under multiple top levels doesn't make them irrelevant.<br/>"
+  },
+  {
+    "dtime": 2226000,
+    "ptime": 2226000,
+    "author": "Alexey Melnikov",
+    "text": "\"mp4\" as a new top level type ;-)?<br/>"
+  },
+  {
+    "dtime": 2248000,
+    "ptime": 2248000,
+    "author": "Ned Freed",
+    "text": "Second, top level types for things like mp4 have been used as an indicator of how mp4 is being used.<br/>"
+  },
+  {
+    "dtime": 2250000,
+    "ptime": 2250000,
+    "author": "Phillip Hallam-Baker",
+    "text": "MP4 with active code.<br/>"
+  },
+  {
+    "dtime": 2254000,
+    "ptime": 2254000,
+    "author": "Murray Kucherawy",
+    "text": "Last time I read the draft it looked like it was generally in good enough shape to adopt.&nbsp;&nbsp;I might like a section on guidance about what the reviewers should be looking for in future registrations.<br/>"
+  },
+  {
+    "dtime": 2268000,
+    "ptime": 2268000,
+    "author": "Phillip Hallam-Baker",
+    "text": "Some of the stuff in my basement, <br/>"
+  },
+  {
+    "dtime": 2269000,
+    "ptime": 2269000,
+    "author": "Cullen Jennings",
+    "text": "Well once again, mp4 is another disaster as we treat it as a media type but it actually a container type <br/>"
+  },
+  {
+    "dtime": 2288000,
+    "ptime": 2288000,
+    "author": "Jonathan Lennox",
+    "text": "But \"multipart/mp4\" would also be a disaster.<br/>"
+  },
+  {
+    "dtime": 2319000,
+    "ptime": 2319000,
+    "author": "Cullen Jennings",
+    "text": "What we actually need is a container type and, the media types inside them <br/>"
+  },
+  {
+    "dtime": 2321000,
+    "ptime": 2321000,
+    "author": "Ned Freed",
+    "text": "Third, the problems with generic stream container types like mp4 don't begin or end with the top level type. There are all sorts of subtype issues as well, with registrations of specific profiles.<br/>"
+  },
+  {
+    "dtime": 2324000,
+    "ptime": 2324000,
+    "author": "Alexey Melnikov",
+    "text": "Dave: exactly<br/>"
+  },
+  {
+    "dtime": 2326000,
+    "ptime": 2326000,
+    "author": "Cullen Jennings",
+    "text": "for example <br/>"
+  },
+  {
+    "dtime": 2339000,
+    "ptime": 2339000,
+    "author": "Cullen Jennings",
+    "text": "mp4/h264+opus+hapticType22<br/>"
+  },
+  {
+    "dtime": 2360000,
+    "ptime": 2360000,
+    "author": "Dave Thaler",
+    "text": "thanks, this is a technical reason to have a TL type, in my view<br/>"
+  },
+  {
+    "dtime": 2453000,
+    "ptime": 2453000,
+    "author": "Ned Freed",
+    "text": "PHB: An example of MP4 with code is when subtitles streams are included. Some of them allow for pretty sophisticated positioning control.<br/>"
+  },
+  {
+    "dtime": 2497000,
+    "ptime": 2497000,
+    "author": "Phillip Hallam-Baker",
+    "text": "@ned agreed. Also Llama dalek's controls (behind me in the video)<br/>"
+  },
+  {
+    "dtime": 2529000,
+    "ptime": 2529000,
+    "author": "Jonathan Lennox",
+    "text": "When MPEG4 was first introduced I remember a presentation saying you could encode a full mixdown from MIDI source to final audio in MPEG4, but I don't know if that survived in real life.<br/>"
+  },
+  {
+    "dtime": 2530000,
+    "ptime": 2530000,
+    "author": "Phillip Hallam-Baker",
+    "text": "@ned, if there is an intruder, he reacts by 'playing' a script.<br/>"
+  },
+  {
+    "dtime": 2601000,
+    "ptime": 2601000,
+    "author": "Ned Freed",
+    "text": "Dangers abound...<br/>"
+  },
+  {
+    "dtime": 2620000,
+    "ptime": 2620000,
+    "author": "Murray Kucherawy",
+    "text": "I have no objection to allowing it as long as we can agree on an interpretation of it is non-ambiguous.<br/>"
+  },
+  {
+    "dtime": 2628000,
+    "ptime": 2628000,
+    "author": "Murray Kucherawy",
+    "text": "that is*<br/>"
+  },
+  {
+    "dtime": 2644000,
+    "ptime": 2644000,
+    "author": "Alexey Melnikov",
+    "text": "I find +xml+zip more compelling<br/>"
+  },
+  {
+    "dtime": 2656000,
+    "ptime": 2656000,
+    "author": "Ned Freed",
+    "text": "Non-ambiguous and no conflict with previous interpretation<br/>"
+  },
+  {
+    "dtime": 2656000,
+    "ptime": 2656000,
+    "author": "Alexey Melnikov",
+    "text": "than +ld+json<br/>"
+  },
+  {
+    "dtime": 2672000,
+    "ptime": 2672000,
+    "author": "Murray Kucherawy",
+    "text": "Ned: Right<br/>"
+  },
+  {
+    "dtime": 2676000,
+    "ptime": 2676000,
+    "author": "Phillip Hallam-Baker",
+    "text": "Got to allow structure<br/>"
+  },
+  {
+    "dtime": 2692000,
+    "ptime": 2692000,
+    "author": "Phillip Hallam-Baker",
+    "text": "What is the media type though? The wrapper?<br/>"
+  },
+  {
+    "dtime": 2732000,
+    "ptime": 2732000,
+    "author": "Murray Kucherawy",
+    "text": "Right now I believe everything before the first + is the type/subtype, everything after the first + is a single suffix<br/>"
+  },
+  {
+    "dtime": 2752000,
+    "ptime": 2752000,
+    "author": "Murray Kucherawy",
+    "text": "But that last bit is mushy<br/>"
+  },
+  {
+    "dtime": 2779000,
+    "ptime": 2779000,
+    "author": "Alexey Melnikov",
+    "text": "Murray: If you application understands suffices ;-)<br/>"
+  },
+  {
+    "dtime": 2784000,
+    "ptime": 2784000,
+    "author": "Murray Kucherawy",
+    "text": "right<br/>"
+  },
+  {
+    "dtime": 2791000,
+    "ptime": 2791000,
+    "author": "Ned Freed",
+    "text": "Actually, no. We keyed it on the last +, not the first. Everything before the last + is not a suffix.<br/>"
+  },
+  {
+    "dtime": 2819000,
+    "ptime": 2819000,
+    "author": "Phillip Hallam-Baker",
+    "text": "type names should be processed left to right.<br/>"
+  },
+  {
+    "dtime": 2828000,
+    "ptime": 2828000,
+    "author": "Phillip Hallam-Baker",
+    "text": "vc should be controlling first<br/>"
+  },
+  {
+    "dtime": 2830000,
+    "ptime": 2830000,
+    "author": "Phillip Hallam-Baker",
+    "text": "then ld<br/>"
+  },
+  {
+    "dtime": 2832000,
+    "ptime": 2832000,
+    "author": "Jonathan Lennox",
+    "text": "I don't imagine suffix-parsing implementations are very consistent on this.<br/>"
+  },
+  {
+    "dtime": 2833000,
+    "ptime": 2833000,
+    "author": "Phillip Hallam-Baker",
+    "text": "then jscon<br/>"
+  },
+  {
+    "dtime": 2846000,
+    "ptime": 2846000,
+    "author": "Murray Kucherawy",
+    "text": "Jonathan: I think yeah that's the problem<br/>"
+  },
+  {
+    "dtime": 2858000,
+    "ptime": 2858000,
+    "author": "Ned Freed",
+    "text": "But since we never allowed a media type with a + in the subtype name (with one bizarre exception where it's the last character) and never allowed a suffix that contained a +, I don't think there's a problem changing the definition of a second +.<br/>"
+  },
+  {
+    "dtime": 2991000,
+    "ptime": 2991000,
+    "author": "Murray Kucherawy",
+    "text": "I think order should have meaning.&nbsp;&nbsp;Personally I think consuming suffixes right-to-left is the way to go.<br/>"
+  },
+  {
+    "dtime": 2992000,
+    "ptime": 2992000,
+    "author": "Ned Freed",
+    "text": "JL: I have no doubt that they are inconsistent in whether they look at the first or last + - even though the spec told them what to do - but again I don't think it matters. Either way they won't fail in some sort of ugly way.<br/>"
+  },
+  {
+    "dtime": 2997000,
+    "ptime": 2997000,
+    "author": "Alexey Melnikov",
+    "text": "I will have a problem with order not being significant<br/>"
+  },
+  {
+    "dtime": 3014000,
+    "ptime": 3014000,
+    "author": "Jonathan Lennox",
+    "text": "Order should be significant, especially for an example like +xml+zip<br/>"
+  },
+  {
+    "dtime": 3025000,
+    "ptime": 3025000,
+    "author": "Alexey Melnikov",
+    "text": "Exactly<br/>"
+  },
+  {
+    "dtime": 3027000,
+    "ptime": 3027000,
+    "author": "Dave Thaler",
+    "text": "right, as long as order is significant, I like it.<br/>"
+  },
+  {
+    "dtime": 3038000,
+    "ptime": 3038000,
+    "author": "Ned Freed",
+    "text": "Order has to be signficiant to maintain backwards compatibility, and it has to be that the last suffix is the outermost thing in the type.<br/>"
+  },
+  {
+    "dtime": 3071000,
+    "ptime": 3071000,
+    "author": "Murray Kucherawy",
+    "text": "Yeah, I think that matches what I'm envisioning.<br/>"
+  },
+  {
+    "dtime": 3081000,
+    "ptime": 3081000,
+    "author": "mnot",
+    "text": "If by 'significant' people mean that the specific suffix (e.g., ld+json) needs to be registered, I agree.<br/>"
+  },
+  {
+    "dtime": 3092000,
+    "ptime": 3092000,
+    "author": "Alexey Melnikov",
+    "text": "mnot: yes<br/>"
+  },
+  {
+    "dtime": 3099000,
+    "ptime": 3099000,
+    "author": "Ned Freed",
+    "text": "mnot: +1<br/>"
+  },
+  {
+    "dtime": 3099000,
+    "ptime": 3099000,
+    "author": "Murray Kucherawy",
+    "text": "What about registering \"ld\" and \"json\" separately?<br/>"
+  },
+  {
+    "dtime": 3120000,
+    "ptime": 3120000,
+    "author": "Alexey Melnikov",
+    "text": "This would be much harder to deal with<br/>"
+  },
+  {
+    "dtime": 3122000,
+    "ptime": 3122000,
+    "author": "Murray Kucherawy",
+    "text": "Should we have to register \"ld+json\" and \"json+ld\" separately?&nbsp;&nbsp;Or just register the tokens and let the order spell out the process.<br/>"
+  },
+  {
+    "dtime": 3127000,
+    "ptime": 3127000,
+    "author": "Dave Thaler",
+    "text": "In the example on screen there is no value to registering \"ld\" separately<br/>"
+  },
+  {
+    "dtime": 3131000,
+    "ptime": 3131000,
+    "author": "mnot",
+    "text": "Then a registry entry could define 'application/foo+json+ld' which is going to be a problem<br/>"
+  },
+  {
+    "dtime": 3131000,
+    "ptime": 3131000,
+    "author": "Jonathan Lennox",
+    "text": "I don't think there's any meaning to \"ld\", the thing is \"JSON-LD\".<br/>"
+  },
+  {
+    "dtime": 3139000,
+    "ptime": 3139000,
+    "author": "Dave Thaler",
+    "text": "since +ld (vs +ld+json) doesn't mean JSON-LD<br/>"
+  },
+  {
+    "dtime": 3141000,
+    "ptime": 3141000,
+    "author": "Murray Kucherawy",
+    "text": "maybe that's a bad example<br/>"
+  },
+  {
+    "dtime": 3160000,
+    "ptime": 3160000,
+    "author": "Cullen Jennings",
+    "text": "I think we register 3 things here. Json, ls+json, vc+ld+json<br/>"
+  },
+  {
+    "dtime": 3171000,
+    "ptime": 3171000,
+    "author": "Ned Freed",
+    "text": "Cullen: +1<br/>"
+  },
+  {
+    "dtime": 3171000,
+    "ptime": 3171000,
+    "author": "Murray Kucherawy",
+    "text": "I'm just thinking foo+xml+zip means \"unzip it\", \"unxml it\", now you have a \"foo\".<br/>"
+  },
+  {
+    "dtime": 3184000,
+    "ptime": 3184000,
+    "author": "Cullen Jennings",
+    "text": "is there was an xml version of vc, then there could also be vc+xml <br/>"
+  },
+  {
+    "dtime": 3186000,
+    "ptime": 3186000,
+    "author": "Murray Kucherawy",
+    "text": "So those could all be separate things, rather than registering specific combinations.<br/>"
+  },
+  {
+    "dtime": 3198000,
+    "ptime": 3198000,
+    "author": "mnot",
+    "text": "Cullen +1 (in different registries)<br/>"
+  },
+  {
+    "dtime": 3247000,
+    "ptime": 3247000,
+    "author": "Alexey Melnikov",
+    "text": "Suffixes are already in a separate subregistry.<br/>"
+  },
+  {
+    "dtime": 3261000,
+    "ptime": 3261000,
+    "author": "Ned Freed",
+    "text": "If you make them separate, then you open the door to things like ld+ber or ld+xml. Do we really want this?<br/>"
+  },
+  {
+    "dtime": 3276000,
+    "ptime": 3276000,
+    "author": "Alexey Melnikov",
+    "text": "Ned: no.<br/>"
+  },
+  {
+    "dtime": 3282000,
+    "ptime": 3282000,
+    "author": "Jonathan Lennox",
+    "text": "If someone wants to register them, but they'd need to be registered explicitly.<br/>"
+  },
+  {
+    "dtime": 3283000,
+    "ptime": 3283000,
+    "author": "Murray Kucherawy",
+    "text": "Yeah or \"zip+xml\".&nbsp;&nbsp;wut.<br/>"
+  },
+  {
+    "dtime": 3298000,
+    "ptime": 3298000,
+    "author": "Jonathan Lennox",
+    "text": "ld+cbor seems like it might be useful to someone<br/>"
+  },
+  {
+    "dtime": 3321000,
+    "ptime": 3321000,
+    "author": "Cullen Jennings",
+    "text": "removing myslef from Q as I was going to say what mnot said <br/>"
+  },
+  {
+    "dtime": 3324000,
+    "ptime": 3324000,
+    "author": "Cullen Jennings",
+    "text": "+1 mnot <br/>"
+  },
+  {
+    "dtime": 3334000,
+    "ptime": 3334000,
+    "author": "Manu Sporny",
+    "text": "Yes, what @Mark said... I believe that's ONE of the things that the current draft is suggesting... clarify that structured suffixes can contain '+' character. I think DID WG and VC WG would be fine w/ just saying \"structured suffix can contain + character\".<br/>"
+  },
+  {
+    "dtime": 3363000,
+    "ptime": 3363000,
+    "author": "Dave Thaler",
+    "text": "does application/foo+zip necessarily mean that unzipping results in an application/foo?<br/>"
+  },
+  {
+    "dtime": 3371000,
+    "ptime": 3371000,
+    "author": "Ned Freed",
+    "text": "I think we need to do a little more than say +s are allowed in suffixes. I think the current draft has this right in mapping trailing sufix sequences to separate media types.<br/>"
+  },
+  {
+    "dtime": 3396000,
+    "ptime": 3396000,
+    "author": "Murray Kucherawy",
+    "text": "@Dave: That's always how I've naturally parsed it.<br/>"
+  },
+  {
+    "dtime": 3419000,
+    "ptime": 3419000,
+    "author": "Manu Sporny",
+    "text": "@jonathan -- ld+cbor -- There is work on CBOR-LD here -- <a href=\"https://docs.google.com/presentation/d/1ksh-gUdjJJwDpdleasvs9aRXEmeRvqhkVWqeitx5ZAE/edit\" rel=\"nofollow\">https://docs.google.com/presentation/d/1ksh-gUdjJJwDpdleasvs9aRXEmeRvqhkVWqeitx5ZAE/edit</a><br/>"
+  },
+  {
+    "dtime": 3420000,
+    "ptime": 3420000,
+    "author": "mnot",
+    "text": "That's a processing model. It doesn't apply to everything - e.g., ld<br/>"
+  },
+  {
+    "dtime": 3435000,
+    "ptime": 3435000,
+    "author": "Ned Freed",
+    "text": "@Dave: Yes, but realize that application/foo may have no actual representation associated with it.<br/>"
+  },
+  {
+    "dtime": 3490000,
+    "ptime": 3490000,
+    "author": "Jonathan Lennox",
+    "text": "I think application/foo+zip means \"you can feed this to a zip parser and get something valid out\", but by definition with zip it can be multiple files.<br/>"
+  },
+  {
+    "dtime": 3515000,
+    "ptime": 3515000,
+    "author": "Dave Thaler",
+    "text": "that seems to prevent +zip suffix from being used for zip archives containing multiple \"files\", or am I missing something?<br/>"
+  },
+  {
+    "dtime": 3523000,
+    "ptime": 3523000,
+    "author": "Jonathan Lennox",
+    "text": "So which one would be the application/foo is poorly defined.<br/>"
+  },
+  {
+    "dtime": 3550000,
+    "ptime": 3550000,
+    "author": "mnot",
+    "text": "I am assuming that adopting these drafts doesn't necessarily correspond 1:1 with publishing RFCs<br/>"
+  },
+  {
+    "dtime": 3551000,
+    "ptime": 3551000,
+    "author": "Ned Freed",
+    "text": "There are types using the +zip suffix with multiple \"files\" inside.<br/>"
+  },
+  {
+    "dtime": 3600000,
+    "ptime": 3600000,
+    "author": "Dave Thaler",
+    "text": "yes, Ned that's my point...&nbsp;&nbsp;so the expectation about foo+zip unzipping to foo is suspect to me<br/>"
+  },
+  {
+    "dtime": 3600000,
+    "ptime": 3600000,
+    "author": "Manu Sporny",
+    "text": "Thanks all :)<br/>"
+  },
+  {
+    "dtime": 3608000,
+    "ptime": 3608000,
+    "author": "Alexey Melnikov",
+    "text": "Thank you all<br/>"
+  },
+  {
+    "dtime": 3611000,
+    "ptime": 3611000,
+    "author": "mnot",
+    "text": "g'night<br/>"
+  },
+  {
+    "dtime": 3619000,
+    "ptime": 3619000,
+    "author": "Yeshwant Muthusamy",
+    "text": "thanks all!<br/>"
+  },
+  {
+    "dtime": 3637000,
+    "ptime": 3637000,
+    "author": "Ned Freed",
+    "text": "You're assuming there's a representation of \"foo\" as a single entity. That may not be the case.<br/>"
+  },
+  {
+    "dtime": 3662000,
+    "ptime": 3662000,
+    "author": "Dave Thaler",
+    "text": "agree, it may or may not be the case.&nbsp;&nbsp; Unless we explicitly disallow it.<br/>"
+  },
+  {
+    "dtime": 3740000,
+    "ptime": 3740000,
+    "author": "Dave Thaler",
+    "text": "(I have a pending media type request where I think the answer matters, to know if the subtype is correct or needs to change before registration)<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-MEDIAMAN-20211109-1430"
+		}
+	]
+}

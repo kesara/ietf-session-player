@@ -1,0 +1,588 @@
+
+{
+	"title": "IETF115-RSWG-20221108-1300",
+	"filename": "IETF115-RSWG-20221108-1300",
+	"start": 0,
+	"end": 5595000,
+	"start_datetime": "2022-11-08T12:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "UW5QykuBW0I",
+    "start": 0,
+    "end": "5595000"
+  }
+],
+	"messages": [
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Moin.</p>",
+    "topic": "jabber",
+    "dtime": 58000,
+    "ptime": 58000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 192000,
+    "ptime": 192000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Good audio</p>",
+    "topic": "jabber",
+    "dtime": 197000,
+    "ptime": 197000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>John Levine is notetaker.</p>",
+    "topic": "jabber",
+    "dtime": 291000,
+    "ptime": 291000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p><a href=\"https://notes.ietf.org/rswg-notes-115\">https://notes.ietf.org/rswg-notes-115</a></p>",
+    "topic": "jabber",
+    "dtime": 442000,
+    "ptime": 442000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Pantone palettes!</p>",
+    "topic": "jabber",
+    "dtime": 644000,
+    "ptime": 644000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>superblack</p>",
+    "topic": "jabber",
+    "dtime": 669000,
+    "ptime": 669000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>maybe unpopular suggestion: stop publishing pdf. Build a different story about what we hand lawyers. Remove the constraints we have with trying to get things to play well in pdf.</p>",
+    "topic": "jabber",
+    "dtime": 1311000,
+    "ptime": 1311000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 1326000,
+    "ptime": 1326000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>or switch to a princepdf license</p>",
+    "topic": "jabber",
+    "dtime": 1347000,
+    "ptime": 1347000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>our PDF should just be HTML printed to PDF using \"paged media\" CSS rules</p>",
+    "topic": "jabber",
+    "dtime": 1388000,
+    "ptime": 1388000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>+1 to John Levine's point</p>",
+    "topic": "jabber",
+    "dtime": 1640000,
+    "ptime": 1640000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Eliot, I think the normative question is about whether the document will be comprehensible in some future when the diagrams are not available</p>",
+    "topic": "jabber",
+    "dtime": 1726000,
+    "ptime": 1726000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And while I agree with PHB's target, we often fall short</p>",
+    "topic": "jabber",
+    "dtime": 1756000,
+    "ptime": 1756000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>EVERGREEN</p>",
+    "topic": "jabber",
+    "dtime": 1917000,
+    "ptime": 1917000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>The caveat I'd make to PHB's point is that we want the SVG to enhance the understanding for anyone who can access any of it; it shouldn't increase confusion if (e.g.) my only limitations is that I can't see the colors.</p>",
+    "topic": "jabber",
+    "dtime": 2064000,
+    "ptime": 2064000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm hoping that people who feel like this ought to be an RFC are in the chat and can weigh in. E.g., Klensin</p>",
+    "topic": "jabber",
+    "dtime": 2067000,
+    "ptime": 2067000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>no discussion needed here!</p>",
+    "topic": "jabber",
+    "dtime": 2139000,
+    "ptime": 2139000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@ekr: I'm almost agnostic about \"should be an RFC\".  On the other hand, I believe that it should be documented and that whatever the document mechanism should be extremely stable -- no moving targets, no regular adjustments, etc.  And I think we need an answer to Robert's question about reissuing older documents.</p>",
+    "topic": "jabber",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I am coming to the conclusion that there are two questions: 1. <em>How</em> do we document changes from 799x? (e.g., separate document, document with list of changes, etc.) and 2. <em>When</em> do document these changes? (do we publish a checkpoint, do we hold until we have consensus on what we want implemented...)</p>",
+    "topic": "jabber",
+    "dtime": 2891000,
+    "ptime": 2891000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Pete +1</p>",
+    "topic": "jabber",
+    "dtime": 2911000,
+    "ptime": 2911000
+  },
+  {
+    "author": "Alice Russo",
+    "text": "<p>A point of clarity: RFC 7991 was published Dec. 2016; the first RFC published in the new format was Oct. 2019. <br>\n665 RFCs have been published in the new format.</p>",
+    "topic": "jabber",
+    "dtime": 2980000,
+    "ptime": 2980000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>who is at the mic now ?</p>",
+    "topic": "jabber",
+    "dtime": 3128000,
+    "ptime": 3128000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Lars Eggert</p>",
+    "topic": "jabber",
+    "dtime": 3148000,
+    "ptime": 3148000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>we raced at me joining the queue and you closing it - do you want to kick me?</p>",
+    "topic": "jabber",
+    "dtime": 3149000,
+    "ptime": 3149000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>tnx</p>",
+    "topic": "jabber",
+    "dtime": 3155000,
+    "ptime": 3155000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Robert: nah, go ahead</p>",
+    "topic": "jabber",
+    "dtime": 3160000,
+    "ptime": 3160000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>We should have warned</p>",
+    "topic": "jabber",
+    "dtime": 3163000,
+    "ptime": 3163000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"139\">@Pete Resnick</span> My problem with not being able to show colours is that I do UI work and sometimes you really need to make use of colour to make the intended point, even if that point is 'some people cannot tell the difference between this and that.'</p>",
+    "topic": "jabber",
+    "dtime": 3399000,
+    "ptime": 3399000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I don't see any version of the world in which xml2rfc doesn't maintain some form of backwards compatibility.</p>",
+    "topic": "jabber",
+    "dtime": 3648000,
+    "ptime": 3648000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>going to v4 would be a very bad idea</p>",
+    "topic": "jabber",
+    "dtime": 3659000,
+    "ptime": 3659000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Speaking as an author/editor of sometimes-complex documents who is writing in RFCXML, I need to know what the rules are and those rules need to persist for at least the duration of all of the number versions of an I-D.  I (and then-contemporary tools) should also  be usable if I go to create a bis-version of an RFC later.</p>",
+    "topic": "jabber",
+    "dtime": 3714000,
+    "ptime": 3714000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>we really do need - at some point - a consensus call and a pass things out to others</p>",
+    "topic": "jabber",
+    "dtime": 3718000,
+    "ptime": 3718000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"355\">@John Klensin</span> I believe that anything that is documented today should work tomorrow.  On the condition that that documentation is accurate.</p>",
+    "topic": "jabber",
+    "dtime": 3748000,
+    "ptime": 3748000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>How that content is presented might change slightly (see also &lt;tt&gt; discussions), but the semantics should continue to be respected</p>",
+    "topic": "jabber",
+    "dtime": 3778000,
+    "ptime": 3778000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>xml2rfc 3.1 for Windows</p>",
+    "topic": "jabber",
+    "dtime": 3862000,
+    "ptime": 3862000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>I don't agree that the RSAB is change process for small things.  The RSAB can provide interpretation where there is a problem and that can lead to a change, but it cannot invent something new.</p>",
+    "topic": "jabber",
+    "dtime": 3865000,
+    "ptime": 3865000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>3.1.1 for Workgroups</p>",
+    "topic": "jabber",
+    "dtime": 3871000,
+    "ptime": 3871000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Martin, agreed.  But there are cases now in which documents written v3-2016 cannot be processed by xml2rfc-2022November without hand-tweaking.  Whether we can that change \"v4\", \"v3.1\" or something else, it is still a problem.</p>",
+    "topic": "jabber",
+    "dtime": 3894000,
+    "ptime": 3894000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>@Jay: +1</p>",
+    "topic": "jabber",
+    "dtime": 3910000,
+    "ptime": 3910000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Jay: yes, I think that's the right way to think about it. So hopefully there will not be a lot of changes to the doc. But based on the commentary I wouldn't be shocked if there were like 5-10 such things over the next couple years</p>",
+    "topic": "jabber",
+    "dtime": 3942000,
+    "ptime": 3942000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"355\">@John Klensin</span> Do you have an example of that?</p>",
+    "topic": "jabber",
+    "dtime": 3962000,
+    "ptime": 3962000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I don't edit in XML2RFC, I edit in Word or Markdown. XML2RFC is an output format for me.</p>",
+    "topic": "jabber",
+    "dtime": 3976000,
+    "ptime": 3976000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Not right now.  Would need to go back and look. but I'm fairly sure at least some of them were reported, when discovered, on the tools list.</p>",
+    "topic": "jabber",
+    "dtime": 4014000,
+    "ptime": 4014000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>John - are you remembering issues with references or something else?</p>",
+    "topic": "jabber",
+    "dtime": 4085000,
+    "ptime": 4085000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>And, fwiw, most of my concern would be solved by what I think Paul is suggesting: the ability to identify each file with an exact version number.</p>",
+    "topic": "jabber",
+    "dtime": 4088000,
+    "ptime": 4088000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Robert: don't remember, but references could well have been part of the story.</p>",
+    "topic": "jabber",
+    "dtime": 4121000,
+    "ptime": 4121000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>semantics of &lt;postal&gt; and &lt;u&gt; depend on external sources</p>",
+    "topic": "jabber",
+    "dtime": 4140000,
+    "ptime": 4140000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@John: I initially thought you said \"semantics of &lt;postel&gt;\"</p>",
+    "topic": "jabber",
+    "dtime": 4160000,
+    "ptime": 4160000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>In future we should just reference the hash of the format document</p>",
+    "topic": "jabber",
+    "dtime": 4317000,
+    "ptime": 4317000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>:)</p>",
+    "topic": "jabber",
+    "dtime": 4318000,
+    "ptime": 4318000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>But this is another fundamental question: if, as PHB more or less suggested, we intend to deprecate \"write in RFCXML\", then there needs to be clarity and consensus about that... including acceptance that some authors will either just drop out  or will submit things to the RPC that require a lot of work as part o fthe price of that change.</p>",
+    "topic": "jabber",
+    "dtime": 4325000,
+    "ptime": 4325000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>if we move to another authoring format, that would already need to be used for I-D submission, so by the time something hits the RPC the format would not require extra work on their part</p>",
+    "topic": "jabber",
+    "dtime": 4514000,
+    "ptime": 4514000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"355\">@John Klensin</span> I haven't tested it recently, but I can read in either XML2RFC format and output Markdown, Word, HTML or the latest XML2RFC. <br>\nThis is lossy in that there are some features I have never supported int the format but it is reasonably OK</p>",
+    "topic": "jabber",
+    "dtime": 4554000,
+    "ptime": 4554000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>all published RFCs use the latest schema</p>",
+    "topic": "jabber",
+    "dtime": 4565000,
+    "ptime": 4565000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>the changes since the first published RFC really are upward compatible</p>",
+    "topic": "jabber",
+    "dtime": 4643000,
+    "ptime": 4643000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that John's approach there is about right.</p>",
+    "topic": "jabber",
+    "dtime": 4867000,
+    "ptime": 4867000
+  },
+  {
+    "author": "George Michaelson",
+    "text": "<p>(can't make the room, had to do some 1 on 1 stuff. I wondered if AD/WG chairs can comment if a '-bis' process formalism could be on-charter? Warren Kumari can fill in on the reasons in SIDROPS a lack of documented formalisms on who can do a -BIS and who should be author list or ACK and what to do if authors don't respond.</p>",
+    "topic": "jabber",
+    "dtime": 4892000,
+    "ptime": 4892000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>We should be able to interpret any RFC - and the elements it contains - using the latest document.</p>",
+    "topic": "jabber",
+    "dtime": 4895000,
+    "ptime": 4895000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> Is that just a comment about the current position or a principle for the future?</p>",
+    "topic": "jabber",
+    "dtime": 5067000,
+    "ptime": 5067000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> Until we do a breaking change.</p>",
+    "topic": "jabber",
+    "dtime": 5080000,
+    "ptime": 5080000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>A principle that might guide the development of a 3.1</p>",
+    "topic": "jabber",
+    "dtime": 5081000,
+    "ptime": 5081000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>So a breaking v4 is fine?</p>",
+    "topic": "jabber",
+    "dtime": 5106000,
+    "ptime": 5106000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>When breaking v4 is a bridge we need to cross, we can deal with that.  I would rather not go there unless given good reason.</p>",
+    "topic": "jabber",
+    "dtime": 5134000,
+    "ptime": 5134000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I am going to suggest that we parallelize the 3.1 and as-is changes.</p>",
+    "topic": "jabber",
+    "dtime": 5150000,
+    "ptime": 5150000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"14\">@Jay Daley</span> If things happen in social media space as I expect, then v4 will be a profile of another document format entirely</p>",
+    "topic": "jabber",
+    "dtime": 5156000,
+    "ptime": 5156000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>fullname should work without major, incompatible changes</p>",
+    "topic": "jabber",
+    "dtime": 5168000,
+    "ptime": 5168000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"14\">@Jay Daley</span> The only good reason for a v4 would be to move to some wider spec used across the industry for more than just IETF</p>",
+    "topic": "jabber",
+    "dtime": 5214000,
+    "ptime": 5214000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>Notes are still here: <a href=\"https://notes.ietf.org/rswg-notes-115\">https://notes.ietf.org/rswg-notes-115</a></p>",
+    "topic": "jabber",
+    "dtime": 5242000,
+    "ptime": 5242000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Thanks John</p>",
+    "topic": "jabber",
+    "dtime": 5247000,
+    "ptime": 5247000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>feel free to fix my summaries of what you all said</p>",
+    "topic": "jabber",
+    "dtime": 5263000,
+    "ptime": 5263000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"14\">@Jay Daley</span> I have an annotation tool that allows people to make comments onto a base document that is essentially in HTML 2.0 with extensions taken from XML2RFC.</p>",
+    "topic": "jabber",
+    "dtime": 5294000,
+    "ptime": 5294000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Robert: is the \"names\" issue documented somewhere?</p>",
+    "topic": "jabber",
+    "dtime": 5326000,
+    "ptime": 5326000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"14\">@Jay Daley</span> I am not going to tell the rest of the world to use &lt;t&gt; as paragraph markers, that ain't gonna fly. I am not going to annotate unrestricted HTML either and HTML is not sufficient for a document format.</p>",
+    "topic": "jabber",
+    "dtime": 5366000,
+    "ptime": 5366000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"14\">@Jay Daley</span>  Read my draft.... <a href=\"https://www.ietf.org/archive/id/draft-hallambaker-everything-00.html\">https://www.ietf.org/archive/id/draft-hallambaker-everything-00.html</a> <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span> <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+    "topic": "jabber",
+    "dtime": 5400000,
+    "ptime": 5400000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"354\">@Julian Reschke</span> <a href=\"https://github.com/rfcseries-wg/new-topics/issues/15\">https://github.com/rfcseries-wg/new-topics/issues/15</a></p>",
+    "topic": "jabber",
+    "dtime": 5424000,
+    "ptime": 5424000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>thx</p>",
+    "topic": "jabber",
+    "dtime": 5464000,
+    "ptime": 5464000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>FWIW, <a href=\"https://github.com/rfcseries-wg/new-topics/issues/15#issuecomment-1307314281\">https://github.com/rfcseries-wg/new-topics/issues/15#issuecomment-1307314281</a></p>",
+    "topic": "jabber",
+    "dtime": 5548000,
+    "ptime": 5548000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>I don't think there's an issue here at all, thanks to the original design</p>",
+    "topic": "jabber",
+    "dtime": 5571000,
+    "ptime": 5571000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-RSWG-20221108-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/rswg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-RSWG-20221108-1300"
+		}		
+	]
+}

@@ -1,0 +1,469 @@
+
+{
+	"title": "IETF115-V6OPS-20221111-0930",
+	"filename": "IETF115-V6OPS-20221111-0930",
+	"start": 0,
+	"end": 8028000,
+	"start_datetime": "2022-11-11T09:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "R3gXMMtnuZU",
+    "start": 0,
+    "end": "8028000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "jabber",
+    "dtime": 205000,
+    "ptime": 205000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Wondering whether this use case (chained IPv4aaS) is frequent</p>",
+    "topic": "jabber",
+    "dtime": 1030000,
+    "ptime": 1030000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>For sure, the chain of XLAT translator does not exsts now in the real world. Transit and destination Carriers are using DualStack.<br>\nWould such XLAT chain be adopted in the future – it is a big question. Carriers may still use DualStack on backbones.</p>",
+    "topic": "jabber",
+    "dtime": 1212000,
+    "ptime": 1212000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>If the AS receives v4 traffic, does that not transit using v4 to the next AS?</p>",
+    "topic": "jabber",
+    "dtime": 1214000,
+    "ptime": 1214000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>(I may need some help taking notes in discussion...!)</p>",
+    "topic": "jabber",
+    "dtime": 1266000,
+    "ptime": 1266000
+  },
+  {
+    "author": "Daniel Bernier",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"209\">@Éric Vyncke</span> not to my knowledge. most of the time for RFC1918 based IPV4 addresses we would send to overlay. For registered IPv4 I believe RFC 8950 would be leveraged</p>",
+    "topic": "jabber",
+    "dtime": 1785000,
+    "ptime": 1785000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>I would suggest to ask BMWG feedback on that.</p>",
+    "topic": "jabber",
+    "dtime": 1819000,
+    "ptime": 1819000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Alas, Alexa service is stopped now <a href=\"https://www.alexa.com/\">https://www.alexa.com/</a></p>",
+    "topic": "jabber",
+    "dtime": 1958000,
+    "ptime": 1958000
+  },
+  {
+    "author": "Yasunobu Toyota",
+    "text": "<p>Is it possible to increase the volume of the microphone at the stage?</p>",
+    "topic": "jabber",
+    "dtime": 4102000,
+    "ptime": 4102000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Meetecho: the volume of the microphone used by presenters is too low.  Could that be tweaked?</p>",
+    "topic": "jabber",
+    "dtime": 4156000,
+    "ptime": 4156000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>the volume is fine me.</p>",
+    "topic": "jabber",
+    "dtime": 4179000,
+    "ptime": 4179000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@meetecho please increase the volume for the presenter mike a bit</p>",
+    "topic": "jabber",
+    "dtime": 4217000,
+    "ptime": 4217000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Do you mean for local attendees or remote?</p>",
+    "topic": "jabber",
+    "dtime": 4250000,
+    "ptime": 4250000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Remote, in my case.</p>",
+    "topic": "jabber",
+    "dtime": 4279000,
+    "ptime": 4279000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@Lorenzo - for remote pls</p>",
+    "topic": "jabber",
+    "dtime": 4285000,
+    "ptime": 4285000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>(Hi Lorenzo!)</p>",
+    "topic": "jabber",
+    "dtime": 4285000,
+    "ptime": 4285000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We've just raised a bit, is it better?</p>",
+    "topic": "jabber",
+    "dtime": 4616000,
+    "ptime": 4616000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>(hi Juliusz :) )</p>",
+    "topic": "jabber",
+    "dtime": 4655000,
+    "ptime": 4655000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>yes, better. Thank you!</p>",
+    "topic": "jabber",
+    "dtime": 4661000,
+    "ptime": 4661000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I don't understand David's point.  How can this be used in  a pure v6 network?</p>",
+    "topic": "jabber",
+    "dtime": 5028000,
+    "ptime": 5028000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>Juliusz: my \"extreme example\" was that the network is mostly v6-only, but the DNS cache has access to a NAT64 service</p>",
+    "topic": "jabber",
+    "dtime": 5129000,
+    "ptime": 5129000
+  },
+  {
+    "author": "Yasunobu Toyota",
+    "text": "<p>This mechanism is not fundamentally dependent on DNS64; only IPv4 Internet reachability via NAT64 is required.</p>",
+    "topic": "jabber",
+    "dtime": 5251000,
+    "ptime": 5251000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Okay, clear.  Thanks to both of you.  (I'd argue it's a somewhat exotic sceniario, though -- you're also assuming the v6-only hosts need to access a distant host that has v6 but is not advertised over DNS over v6.)</p>",
+    "topic": "jabber",
+    "dtime": 5322000,
+    "ptime": 5322000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Is Jen arguing that routing tables are as easy to scale as ND cached?</p>",
+    "topic": "jabber",
+    "dtime": 5377000,
+    "ptime": 5377000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>*caches.</p>",
+    "topic": "jabber",
+    "dtime": 5403000,
+    "ptime": 5403000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>No she is saying you can replace network keeping track of each address a host has assigned, by a single route to a host. (Could of course be used to assign a prefix of 8 addresses instead of 2^64 number of addresses)</p>",
+    "topic": "jabber",
+    "dtime": 5484000,
+    "ptime": 5484000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Ah, ok.  Thanks.</p>",
+    "topic": "jabber",
+    "dtime": 5523000,
+    "ptime": 5523000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>very low sound  on remote side</p>",
+    "topic": "jabber",
+    "dtime": 5574000,
+    "ptime": 5574000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>The draft that has \"MUST\" in the text is probably for 6man. Right?</p>",
+    "topic": "jabber",
+    "dtime": 5628000,
+    "ptime": 5628000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"240\">@Warren Kumari</span>  i think you need a better router at home :D</p>",
+    "topic": "jabber",
+    "dtime": 5747000,
+    "ptime": 5747000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>... but this one came in a pretty purple box...</p>",
+    "topic": "jabber",
+    "dtime": 5841000,
+    "ptime": 5841000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>It sill allows finding out that two IPs belong to the same client.</p>",
+    "topic": "jabber",
+    "dtime": 5842000,
+    "ptime": 5842000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>(Even if you do PD refresh.)</p>",
+    "topic": "jabber",
+    "dtime": 5850000,
+    "ptime": 5850000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>Lots of people have a /60 at home. So now they are restricted to 16 hosts at home. :-D</p>",
+    "topic": "jabber",
+    "dtime": 5937000,
+    "ptime": 5937000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"37\">@Ole Trøan</span>  i was about to observe the exact same issue</p>",
+    "topic": "jabber",
+    "dtime": 5954000,
+    "ptime": 5954000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>I have a /56 so more hosts that you :-P</p>",
+    "topic": "jabber",
+    "dtime": 5956000,
+    "ptime": 5956000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>only 256 instead</p>",
+    "topic": "jabber",
+    "dtime": 5968000,
+    "ptime": 5968000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>Actually my example wasn't strictly true - it's a dumb layer 2 switch, and the MAC TCAM holds a maximum of 32 entries - 4 per port... guess how I found this :-)</p>",
+    "topic": "jabber",
+    "dtime": 5975000,
+    "ptime": 5975000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>But i'm sure that there are similar v6 implementations because cheaper is better...</p>",
+    "topic": "jabber",
+    "dtime": 6014000,
+    "ptime": 6014000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>My IPv6 machines at home runs very happily with 1 GUA here.</p>",
+    "topic": "jabber",
+    "dtime": 6014000,
+    "ptime": 6014000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>My home provider does DHCP-PD... and they give me one (1) /64. Win!</p>",
+    "topic": "jabber",
+    "dtime": 6055000,
+    "ptime": 6055000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>WRT docker use-case; so we don't want a laptop to turn in-to a dumb L2 switch to the docker instances? I mean, it's not <em>nice</em> but that's not bad either. I think...?</p>",
+    "topic": "jabber",
+    "dtime": 6102000,
+    "ptime": 6102000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I wanted to +1 Eric’s concern on privacy, and express my concern that in the long term, if we recommend assigning a /64 to hosts, practically speaking we will restrict ipv6 to 64 bits and leave the last 64 bits as alternative to port number / service id / others</p>",
+    "topic": "jabber",
+    "dtime": 6105000,
+    "ptime": 6105000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Strange.  I was under the impression that all the cheap (and not so cheap) switches use one of a set of just three bridge chips, and I was under the impression that the cheap chips support 256 entries shared between all ports.</p>",
+    "topic": "jabber",
+    "dtime": 6112000,
+    "ptime": 6112000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>It's awesome, I can split that up into N networks, as long as N == 1</p>",
+    "topic": "jabber",
+    "dtime": 6115000,
+    "ptime": 6115000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I've got a /60, but no PD — static routes in the web interface :-/</p>",
+    "topic": "jabber",
+    "dtime": 6151000,
+    "ptime": 6151000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Used Mythic Beasts for the JAMES draft with IPv6-only, really cool ;-)</p>",
+    "topic": "jabber",
+    "dtime": 6169000,
+    "ptime": 6169000
+  },
+  {
+    "author": "Warren Kumari",
+    "text": "<p>@Juliusz -- I'll crack it open when I get home and see what chipset it uses. I had looked it up once before and found the datasheet, but don't think I have the photos on my laptop</p>",
+    "topic": "jabber",
+    "dtime": 6217000,
+    "ptime": 6217000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"240\">@Warren Kumari</span> when your d-link gets old you definitely want a Turris Omnia ;-)</p>",
+    "topic": "jabber",
+    "dtime": 6352000,
+    "ptime": 6352000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>For any of the &lt;prefix&gt; to the host proposals you don't need to do address discovery, just like the presenter says</p>",
+    "topic": "jabber",
+    "dtime": 6465000,
+    "ptime": 6465000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>Of course MAC randomization makes the host look very much like an attack vector again. ;-)</p>",
+    "topic": "jabber",
+    "dtime": 6530000,
+    "ptime": 6530000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Doesn't MAC randomisation only happen when you join the network?</p>",
+    "topic": "jabber",
+    "dtime": 6570000,
+    "ptime": 6570000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>That's a usable quote.  « 6 months migration plan started in 2017, due to end in 2022 »</p>",
+    "topic": "jabber",
+    "dtime": 6652000,
+    "ptime": 6652000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@Juliusz check MADINAS documents, answer is \"it varies\" ;-)</p>",
+    "topic": "jabber",
+    "dtime": 6753000,
+    "ptime": 6753000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Will do, thanks.</p>",
+    "topic": "jabber",
+    "dtime": 6775000,
+    "ptime": 6775000
+  },
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>we can be happy to have had IETF without anybody stealing the RPI4 on our projectors, given how they're actually NOT available now</p>",
+    "topic": "jabber",
+    "dtime": 6909000,
+    "ptime": 6909000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>(...except in France.  For administrative reasons, it's illegal for us to buy RPI for teaching — we need to buy some weird board made by Asus.  For the record, I'm not claiming that money has exchanged hands in order to make that regulation.)</p>",
+    "topic": "jabber",
+    "dtime": 7217000,
+    "ptime": 7217000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>sounds like an extension for SLAAC to send netboot options would be cool</p>",
+    "topic": "jabber",
+    "dtime": 7781000,
+    "ptime": 7781000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>I tried having a simple way to add options to RAs, but someone near the microphone blocked it. ;-)</p>",
+    "topic": "jabber",
+    "dtime": 7826000,
+    "ptime": 7826000
+  },
+  {
+    "author": "Ryo Yanagida",
+    "text": "<p>we have name server in RA... surely NAT64 is... a potentially sensible option?</p>",
+    "topic": "jabber",
+    "dtime": 7871000,
+    "ptime": 7871000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Problem is, unless the RA options are exhaustive enough to allow you to get rid of DHCPv6 completely, they're just duplication of effort.  I'm afrait this particular ship has sailed, we're stuck with DHCPv6 for the foreseeable future.</p>",
+    "topic": "jabber",
+    "dtime": 7939000,
+    "ptime": 7939000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>(Lorenzo's efforts notwithstanding.)</p>",
+    "topic": "jabber",
+    "dtime": 7990000,
+    "ptime": 7990000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-V6OPS-20221111-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/v6ops"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-V6OPS-20221111-0930"
+		}		
+	]
+}

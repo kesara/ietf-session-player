@@ -1,0 +1,91 @@
+
+{
+	"title": "IETF118-OPSAWG-20231106-1200",
+	"filename": "IETF118-OPSAWG-20231106-1200",
+	"start": 0,
+	"end": 6543000,
+	"start_datetime": "2023-11-06T12:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "nmFeOG6AZq0",
+    "start": 0,
+    "end": "6543000"
+  }
+],
+	"messages": [
+  {
+    "author": "Robert Wilton",
+    "text": "<p>It looks like the notes might need to be initialized, or otherwise I'll looking at the wrong version</p>",
+    "topic": "ietf-118",
+    "dtime": 343000,
+    "ptime": 343000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Joe, the rationale for the change of the id to string can be seen at: <a href=\"https://github.com/boucadair/policy-based-network-acl/issues/8\">https://github.com/boucadair/policy-based-network-acl/issues/8</a>. I think we need to have some text about this echoed in the spec.</p>",
+    "topic": "ietf-118",
+    "dtime": 1733000,
+    "ptime": 1733000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Yes.  The hierarchy sounds interesting, but there is no text to that effect.</p>",
+    "topic": "ietf-118",
+    "dtime": 1754000,
+    "ptime": 1754000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Added an issue for this point: <a href=\"https://github.com/boucadair/policy-based-network-acl/issues/33\">https://github.com/boucadair/policy-based-network-acl/issues/33</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1904000,
+    "ptime": 1904000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>@benoit, you still in the queue?</p>",
+    "topic": "ietf-118",
+    "dtime": 3780000,
+    "ptime": 3780000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Nevermind</p>",
+    "topic": "ietf-118",
+    "dtime": 3783000,
+    "ptime": 3783000
+  },
+  {
+    "author": "Benoît Claise",
+    "text": "<p>YANG (streaming telemetry) in TSDB is necessary next step for the industry. Thanks Kristian.</p>",
+    "topic": "ietf-118",
+    "dtime": 6034000,
+    "ptime": 6034000
+  },
+  {
+    "author": "Pavel Odintsov",
+    "text": "<p>I can see that Clickhouse clearly can address many limitations of other TSDB databases and clearly will scale on billions of metrics</p>",
+    "topic": "ietf-118",
+    "dtime": 6127000,
+    "ptime": 6127000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-OPSAWG-20231106-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/opsawg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-OPSAWG-20231106-1200"
+		}		
+	]
+}

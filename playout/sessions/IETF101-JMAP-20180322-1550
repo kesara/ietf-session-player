@@ -1,0 +1,420 @@
+{
+  "title": "IETF101-JMAP-20180322-1550",
+  "filename": "IETF101-JMAP-20180322-1550",
+  "start": 0,
+  "end": 3869000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "XdcGFZV-Wm0",
+      "start": 0.0,
+      "end": 3869000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 145000.0,
+      "dtime": 676000.0
+    },
+    {
+      "text": "using a domain gets...ugly",
+      "ptime": 722000.0,
+      "dtime": 1253000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "because domain ownership changes",
+      "ptime": 729000.0,
+      "dtime": 1260000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "iSCSI naming of targets includes a year",
+      "ptime": 754000.0,
+      "dtime": 1285000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "to avoid this",
+      "ptime": 760000.0,
+      "dtime": 1291000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Barry Leiba: ^",
+      "ptime": 771000.0,
+      "dtime": 1302000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "***Danny Mayer just joined the room",
+      "ptime": 794000.0,
+      "dtime": 1325000.0
+    },
+    {
+      "text": "is anyone reading jabber?",
+      "ptime": 846000.0,
+      "dtime": 1377000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Yes",
+      "ptime": 851000.0,
+      "dtime": 1382000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "ok",
+      "ptime": 853000.0,
+      "dtime": 1384000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "***Danny Mayer just left the room",
+      "ptime": 914000.0,
+      "dtime": 1445000.0
+    },
+    {
+      "text": "https://tools.ietf.org/html/rfc3721#section-1.1",
+      "ptime": 927000.0,
+      "dtime": 1458000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "turns out it\u0027s an RFC",
+      "ptime": 930000.0,
+      "dtime": 1461000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "iSCSI ?",
+      "ptime": 1047000.0,
+      "dtime": 1578000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "yep",
+      "ptime": 1052000.0,
+      "dtime": 1583000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "they need to name targets",
+      "ptime": 1065000.0,
+      "dtime": 1596000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "and they use a URN style - see link",
+      "ptime": 1077000.0,
+      "dtime": 1608000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Ah, right, yes.  Missed your earlier message.",
+      "ptime": 1084000.0,
+      "dtime": 1615000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "I have some thoughts on URN, I guess will bring up to mailing list. Basically urn:ietf:params:jmap:... is good. The IETF params registry can/should also have a sub-registry for JMAP \u0026 capabilities.",
+      "ptime": 1438000.0,
+      "dtime": 1969000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "urn: ietf : params : jmap : ... (no emoji)",
+      "ptime": 1452000.0,
+      "dtime": 1983000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "will bring up to mailing list, topic already passed in discussion",
+      "ptime": 1465000.0,
+      "dtime": 1996000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "no emoji? that sounds so 90\u0027s ;)",
+      "ptime": 1468000.0,
+      "dtime": 1999000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "sounds good",
+      "ptime": 1471000.0,
+      "dtime": 2002000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "emoji can be in URNs but have to be % encoded :-P",
+      "ptime": 1489000.0,
+      "dtime": 2020000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I guess there should be a vendor URN \"prefix\"",
+      "ptime": 1565000.0,
+      "dtime": 2096000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Yeh, I think it\u0027d be? a poor idea? to put non-ASCII characters in the URNs.  They\u0027re protocol elements, not meant to be presented to humans nor internationalized.",
+      "ptime": 1881000.0,
+      "dtime": 2412000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "Jeff, would you want the IETF to manage the vendor namespace?",
+      "ptime": 1909000.0,
+      "dtime": 2440000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "I\u0027m thinking something more like the METADATA vendor prefix",
+      "ptime": 1940000.0,
+      "dtime": 2471000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "I\u0027m dubious anyone actually uses inline font objects and expects them to work.",
+      "ptime": 1944000.0,
+      "dtime": 2475000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "I don\u0027t know if that means that we should register the prefix with IETF",
+      "ptime": 1970000.0,
+      "dtime": 2501000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "not sure what the point of a \"Vendor\" namespace would be. first of all, anyone can register URNs, and anyone can mint URNs. As a matter of protocol slots, you could just use a URI in the capabilities protocol slot, if you are that...uh...lazy.",
+      "ptime": 1983000.0,
+      "dtime": 2514000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I\u0027m with Sean on that.",
+      "ptime": 2004000.0,
+      "dtime": 2535000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "for example if you just want a random urn you can mint urn:uuid:aaaa-......ffff",
+      "ptime": 2008000.0,
+      "dtime": 2539000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "ok",
+      "ptime": 2020000.0,
+      "dtime": 2551000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "fair enough",
+      "ptime": 2022000.0,
+      "dtime": 2553000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "A reasonable thing for non-standardized extensions would be to publish the spec for your extension at, say, \u003chttp://banana.example.com/myJMAPext\u003e, and then use that URI as the protocol string.",
+      "ptime": 2104000.0,
+      "dtime": 2635000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "That serves both to create the necessary protocol element and to show people where the doc is.",
+      "ptime": 2126000.0,
+      "dtime": 2657000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "in general, I don\u0027t like using URLs for specs/DTDs/etc.",
+      "ptime": 2139000.0,
+      "dtime": 2670000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "In general, I agree, and we wouldn\u0027t standardize that.  But for non-standard stuff, it\u0027d be OK.",
+      "ptime": 2162000.0,
+      "dtime": 2693000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "yep",
+      "ptime": 2172000.0,
+      "dtime": 2703000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "doing the simple html thing as an extension sounds nice",
+      "ptime": 2289000.0,
+      "dtime": 2820000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "and it\u0027ll nicely demonstrate how extensions are done :)",
+      "ptime": 2318000.0,
+      "dtime": 2849000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "@jeffpc and barry: yes, I agree. Vendors can have their specific ones not in urn:ietf:params:jmap. And if a vendor wants a stable one, there are a plethora of URI options to choose from, including their own HTTP/HTTPS URL, tag: URI [RFC4151], and certain urn: categories like oid, uuid, etc.",
+      "ptime": 2531000.0,
+      "dtime": 3062000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Or, my fave, ni:   (RFC 6920)",
+      "ptime": 2737000.0,
+      "dtime": 3268000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "nope",
+      "ptime": 2782000.0,
+      "dtime": 3313000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "nope",
+      "ptime": 2787000.0,
+      "dtime": 3318000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "nope",
+      "ptime": 2796000.0,
+      "dtime": 3327000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I\u0027m willing to author/coauthor the draft",
+      "ptime": 2906000.0,
+      "dtime": 3437000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Sort of.",
+      "ptime": 2943000.0,
+      "dtime": 3474000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Ned, which draft are you volunteering for?",
+      "ptime": 2956000.0,
+      "dtime": 3487000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "The one Chris is talking about now?",
+      "ptime": 2971000.0,
+      "dtime": 3502000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "http://www.postfix.org/XCLIENT_README.html",
+      "ptime": 2978000.0,
+      "dtime": 3509000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Righto.",
+      "ptime": 2984000.0,
+      "dtime": 3515000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "We implement it.",
+      "ptime": 2986000.0,
+      "dtime": 3517000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "kewl",
+      "ptime": 2990000.0,
+      "dtime": 3521000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "Also critical for logging information like client IP.",
+      "ptime": 3022000.0,
+      "dtime": 3553000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "SMTP extensions have to be standards track",
+      "ptime": 3153000.0,
+      "dtime": 3684000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "FastMail implements and uses it too",
+      "ptime": 3154000.0,
+      "dtime": 3685000.0,
+      "author": "brong"
+    },
+    {
+      "text": "Mic: Is there an OpenAPI/Swagger for this ?",
+      "ptime": 3180000.0,
+      "dtime": 3711000.0,
+      "author": "Jason Polis"
+    },
+    {
+      "text": "jmap isn\u0027t REST-ful",
+      "ptime": 3253000.0,
+      "dtime": 3784000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "And PROXY only addresses the need to get the client IP.",
+      "ptime": 3284000.0,
+      "dtime": 3815000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "thanks.",
+      "ptime": 3313000.0,
+      "dtime": 3844000.0,
+      "author": "Jason Polis"
+    },
+    {
+      "text": "Either way works for me.",
+      "ptime": 3469000.0,
+      "dtime": 4000000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "***Ken Murchison just left the room",
+      "ptime": 3848000.0,
+      "dtime": 4379000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 3868000.0,
+      "dtime": 4399000.0
+    },
+    {
+      "text": "***Dave Crocker just left the room",
+      "ptime": 3868000.0,
+      "dtime": 4399000.0
+    },
+    {
+      "text": "***Jason Polis just left the room",
+      "ptime": 3868000.0,
+      "dtime": 4399000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-JMAP-20180322-1550"
+    }
+  ]
+}

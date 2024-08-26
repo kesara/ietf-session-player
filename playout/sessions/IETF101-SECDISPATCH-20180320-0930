@@ -1,0 +1,512 @@
+{
+  "title": "IETF101-SECDISPATCH-20180320-0930",
+  "filename": "IETF101-SECDISPATCH-20180320-0930",
+  "start": 0,
+  "end": 8156000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "rZifKDBKtMM",
+      "start": 0.0,
+      "end": 8156000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Alissa Cooper just joined the room",
+      "ptime": 106000.0,
+      "dtime": 1090000.0
+    },
+    {
+      "text": "***Rolf Sommerhalder just joined the room",
+      "ptime": 209000.0,
+      "dtime": 1193000.0
+    },
+    {
+      "text": "***Alissa Cooper just left the room",
+      "ptime": 222000.0,
+      "dtime": 1206000.0
+    },
+    {
+      "text": "***Alissa Cooper just joined the room",
+      "ptime": 224000.0,
+      "dtime": 1208000.0
+    },
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 449000.0,
+      "dtime": 1433000.0
+    },
+    {
+      "text": "***Alan Ford just joined the room",
+      "ptime": 553000.0,
+      "dtime": 1537000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 570000.0,
+      "dtime": 1554000.0
+    },
+    {
+      "text": "***John Border just joined the room",
+      "ptime": 576000.0,
+      "dtime": 1560000.0
+    },
+    {
+      "text": "***Alan Ford just left the room",
+      "ptime": 805000.0,
+      "dtime": 1789000.0
+    },
+    {
+      "text": "***Alan Ford just joined the room",
+      "ptime": 822000.0,
+      "dtime": 1806000.0
+    },
+    {
+      "text": "***al winky just joined the room",
+      "ptime": 901000.0,
+      "dtime": 1885000.0
+    },
+    {
+      "text": "***al winky just left the room",
+      "ptime": 966000.0,
+      "dtime": 1950000.0
+    },
+    {
+      "text": "fwiw, +1 to mnot\u0027s comment about AD sponsored being suitable for this",
+      "ptime": 1052000.0,
+      "dtime": 2036000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "the format is technically machinable readable since it uses mail headers like fields",
+      "ptime": 1121000.0,
+      "dtime": 2105000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "Reminder: if you would like something reflect to the room, preface it with mic:",
+      "ptime": 1178000.0,
+      "dtime": 2162000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "It looks like tag-colon-ws*-value.  Easily readable by both humans and machines.",
+      "ptime": 1205000.0,
+      "dtime": 2189000.0,
+      "author": "synp"
+    },
+    {
+      "text": "MIC: it is machinable readable since it uses mailing field like conventions",
+      "ptime": 1279000.0,
+      "dtime": 2263000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "I don\u0027t know if this is a good thing or a bad thing, but this format is infinitely extensible",
+      "ptime": 1378000.0,
+      "dtime": 2362000.0,
+      "author": "synp"
+    },
+    {
+      "text": "richard needs to eat the mic a bit more (from the back of the room audio perspective)",
+      "ptime": 1383000.0,
+      "dtime": 2367000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "@synp - IANA registry does require expert review, so it s not entirely a free for all",
+      "ptime": 1436000.0,
+      "dtime": 2420000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "i was waiting for someone to suggest DNSsec.",
+      "ptime": 1460000.0,
+      "dtime": 2444000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "it appears fixed",
+      "ptime": 1500000.0,
+      "dtime": 2484000.0,
+      "author": "Thom Peterson"
+    },
+    {
+      "text": "that\u0027s an known issue for robots.txt also",
+      "ptime": 1792000.0,
+      "dtime": 2776000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "you don\u0027t",
+      "ptime": 1794000.0,
+      "dtime": 2778000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "MIC: there is extensiblity in the draft with an IANA registry FYI",
+      "ptime": 1861000.0,
+      "dtime": 2845000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "and expert review",
+      "ptime": 1869000.0,
+      "dtime": 2853000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "thank you!",
+      "ptime": 1955000.0,
+      "dtime": 2939000.0,
+      "author": "Yakov Shafranovich"
+    },
+    {
+      "text": "ahh, the shame of having just voted",
+      "ptime": 1962000.0,
+      "dtime": 2946000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "the right outcome though, at least in my opinion",
+      "ptime": 1972000.0,
+      "dtime": 2956000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "if the people who wanted a working group felt strongly about that, they should make sure the ADs understand why.",
+      "ptime": 2031000.0,
+      "dtime": 3015000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 2052000.0,
+      "dtime": 3036000.0
+    },
+    {
+      "text": "***Alissa Cooper just left the room",
+      "ptime": 2056000.0,
+      "dtime": 3040000.0
+    },
+    {
+      "text": "I\u0027m quite sure we didn\u0027t adequately address the issue Paul raised.",
+      "ptime": 2088000.0,
+      "dtime": 3072000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "But I\u0027m also sure that Paul can bring it up again during Last Call.",
+      "ptime": 2105000.0,
+      "dtime": 3089000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "***Yakov Shafranovich just left the room",
+      "ptime": 2121000.0,
+      "dtime": 3105000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 2141000.0,
+      "dtime": 3125000.0
+    },
+    {
+      "text": "If this is for humans and not internationalized, then I believe instructions to the expert that extensions should be to make sure they do not require specific human language understanding.  But I\u0027m happy to make that as a last call comment.",
+      "ptime": 2175000.0,
+      "dtime": 3159000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Alfred Berg just left the room",
+      "ptime": 2187000.0,
+      "dtime": 3171000.0
+    },
+    {
+      "text": "Indeed; good approach.",
+      "ptime": 2204000.0,
+      "dtime": 3188000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "What\u0027s a clarifying question again?",
+      "ptime": 2565000.0,
+      "dtime": 3549000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "***Rolf Sommerhalder just left the room",
+      "ptime": 2667000.0,
+      "dtime": 3651000.0
+    },
+    {
+      "text": "***Yakov Shafranovich just joined the room",
+      "ptime": 2877000.0,
+      "dtime": 3861000.0
+    },
+    {
+      "text": "this doesn\u0027t need a document here",
+      "ptime": 3364000.0,
+      "dtime": 4348000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "CABF can change their rules, that\u0027s all that needs to happen",
+      "ptime": 3433000.0,
+      "dtime": 4417000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 3527000.0,
+      "dtime": 4511000.0
+    },
+    {
+      "text": "***David Dolson just joined the room",
+      "ptime": 3685000.0,
+      "dtime": 4669000.0
+    },
+    {
+      "text": "***David Dolson just left the room",
+      "ptime": 3737000.0,
+      "dtime": 4721000.0
+    },
+    {
+      "text": "***Alan Ford just left the room",
+      "ptime": 3752000.0,
+      "dtime": 4736000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 3905000.0,
+      "dtime": 4889000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 3970000.0,
+      "dtime": 4954000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 3998000.0,
+      "dtime": 4982000.0
+    },
+    {
+      "text": "Sleevi says the CABF has declined to allow short-lived certs to omit the OCSP responder in the past. Of course that doesn\u0027t prevent them from allowing it in the future.",
+      "ptime": 4081000.0,
+      "dtime": 5065000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "***Yakov Shafranovich just left the room",
+      "ptime": 4537000.0,
+      "dtime": 5521000.0
+    },
+    {
+      "text": "I\u0027m not sure I\u0027d go forward under the assumption that CA/B Forum is likely to change much.  The pendulum will swing at some point but they\u0027ve been tending to become more restrictive rather than less.  At any rate the draft contains some language about CAs that in reality just isn\u0027t going to change - logging certificate issuance, etc.",
+      "ptime": 5136000.0,
+      "dtime": 6120000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "***Mustapha SABA just joined the room",
+      "ptime": 5322000.0,
+      "dtime": 6306000.0
+    },
+    {
+      "text": "Australians can make anything dirty.",
+      "ptime": 5494000.0,
+      "dtime": 6478000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "***al winky just joined the room",
+      "ptime": 5500000.0,
+      "dtime": 6484000.0
+    },
+    {
+      "text": "RFC 1751 has an earlier version of trust words. I once got this string from it: HERO JAKE LAID JAIL BAIT GLAD",
+      "ptime": 5546000.0,
+      "dtime": 6530000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***al winky just left the room",
+      "ptime": 5562000.0,
+      "dtime": 6546000.0
+    },
+    {
+      "text": "RFC 1751 had only 1024 words",
+      "ptime": 5794000.0,
+      "dtime": 6778000.0,
+      "author": "synp"
+    },
+    {
+      "text": "The spec I referenced: https://xmpp.org/extensions/xep-0163.html",
+      "ptime": 5890000.0,
+      "dtime": 6874000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "How severe a problem is it to have different numbers of words per language?",
+      "ptime": 5902000.0,
+      "dtime": 6886000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "Cluster 238 laughs at your eyechart.",
+      "ptime": 5987000.0,
+      "dtime": 6971000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Not too severe. It would mean more words in some languages than others.",
+      "ptime": 5998000.0,
+      "dtime": 6982000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Sorry. That wasn\u0027t clear - if a language has less trustwords, then the fingerprint would have to contain more words",
+      "ptime": 6035000.0,
+      "dtime": 7019000.0,
+      "author": "synp"
+    },
+    {
+      "text": "that is not the problem, it is the solve of the problem",
+      "ptime": 6052000.0,
+      "dtime": 7036000.0,
+      "author": "Mustapha SABA"
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 6118000.0,
+      "dtime": 7102000.0
+    },
+    {
+      "text": "synp: Yep. Code complexity goes up a bit, but it\u0027s probably ok.",
+      "ptime": 6195000.0,
+      "dtime": 7179000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "has PHB heard of identicons?",
+      "ptime": 6287000.0,
+      "dtime": 7271000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Is that what github uses?",
+      "ptime": 6300000.0,
+      "dtime": 7284000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "yeah, though those are low entropy images",
+      "ptime": 6312000.0,
+      "dtime": 7296000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "demo: https://jdenticon.com/",
+      "ptime": 6329000.0,
+      "dtime": 7313000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Mustapha SABA just left the room",
+      "ptime": 6393000.0,
+      "dtime": 7377000.0
+    },
+    {
+      "text": "***John Klensin just joined the room",
+      "ptime": 6608000.0,
+      "dtime": 7592000.0
+    },
+    {
+      "text": "Was this taken to TLS originally?",
+      "ptime": 7090000.0,
+      "dtime": 8074000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "It was floated there.",
+      "ptime": 7099000.0,
+      "dtime": 8083000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Mustapha SABA just joined the room",
+      "ptime": 7101000.0,
+      "dtime": 8085000.0
+    },
+    {
+      "text": "But I think the general consensus is it was out of scope there",
+      "ptime": 7108000.0,
+      "dtime": 8092000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "I\u0027ll go look for the thread to see why, because it seems like it would be in scope, just to get the analysis done that Stephen suggested for yesterday\u0027s proposal.",
+      "ptime": 7154000.0,
+      "dtime": 8138000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Thanks for the pointer",
+      "ptime": 7170000.0,
+      "dtime": 8154000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Hmm?. This seems oretty different",
+      "ptime": 7190000.0,
+      "dtime": 8174000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Matt Farmer just joined the room",
+      "ptime": 7346000.0,
+      "dtime": 8330000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 7443000.0,
+      "dtime": 8427000.0
+    },
+    {
+      "text": "***amontville just joined the room",
+      "ptime": 7608000.0,
+      "dtime": 8592000.0
+    },
+    {
+      "text": "***Mustapha SABA just left the room",
+      "ptime": 8139000.0,
+      "dtime": 9123000.0
+    },
+    {
+      "text": "***Annastasia Shipepe just left the room",
+      "ptime": 8155000.0,
+      "dtime": 9139000.0
+    },
+    {
+      "text": "***John Klensin just left the room",
+      "ptime": 8155000.0,
+      "dtime": 9139000.0
+    },
+    {
+      "text": "***Matt Farmer just left the room",
+      "ptime": 8155000.0,
+      "dtime": 9139000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-SECDISPATCH-20180320-0930"
+    }
+  ]
+}

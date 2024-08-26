@@ -1,0 +1,329 @@
+
+{
+	"title": "IETF-WIMSE-20240522-1430",
+	"filename": "IETF-WIMSE-20240522-1430",
+	"start": 0,
+	"end": 3069000,
+	"start_datetime": "2024-05-22T14:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "4p452-kWA80",
+    "start": 0,
+    "end": "3069000"
+  }
+],
+	"messages": [
+  {
+    "author": "Brian Campbell",
+    "text": "<p>\"sooner than you think\" - Justin</p>",
+    "topic": "ietf-interim",
+    "dtime": 240000,
+    "ptime": 240000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>100%</p>",
+    "topic": "ietf-interim",
+    "dtime": 244000,
+    "ptime": 244000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p><a href=\"https://docs.google.com/presentation/d/1oFL_96mIXiBuxKugQXyisURF5t8cX0LZQXYv7DZ76xM/edit#slide=id.g271b75292d4_0_18\">https://docs.google.com/presentation/d/1oFL_96mIXiBuxKugQXyisURF5t8cX0LZQXYv7DZ76xM/edit#slide=id.g271b75292d4_0_18</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 346000,
+    "ptime": 346000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>The chairs humbly request a bit more lead time for slides in the future :P</p>",
+    "topic": "ietf-interim",
+    "dtime": 464000,
+    "ptime": 464000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p>Absolutely, thank you chairs for accommodating our shortcomings...</p>",
+    "topic": "ietf-interim",
+    "dtime": 557000,
+    "ptime": 557000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>No worries, I'm glad we were able to get it all together in time. :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 606000,
+    "ptime": 606000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>oh... this could/would be usable as the identity token regardless of DPoP ish or sigs</p>",
+    "topic": "ietf-interim",
+    "dtime": 872000,
+    "ptime": 872000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@Brian - I'm also seeing some separable pieces here to be considered</p>",
+    "topic": "ietf-interim",
+    "dtime": 922000,
+    "ptime": 922000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>DPOP sounds like you reimplement half of message signatures anyway to get the binding</p>",
+    "topic": "ietf-interim",
+    "dtime": 954000,
+    "ptime": 954000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@Watson they're pretty different schemes underneath, even though they both wind up with \"make a string and sign it\" as key features</p>",
+    "topic": "ietf-interim",
+    "dtime": 1010000,
+    "ptime": 1010000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>same same but different</p>",
+    "topic": "ietf-interim",
+    "dtime": 1041000,
+    "ptime": 1041000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>I think there should be a discussion around what needs to be protected by such a sig and what can or should be elided</p>",
+    "topic": "ietf-interim",
+    "dtime": 1041000,
+    "ptime": 1041000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>+1 on replay and theft protection properties.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1256000,
+    "ptime": 1256000
+  },
+  {
+    "author": "Dapeng Liu",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-liu-wimse-secure-service-to-service-traffic-00.txt\">https://www.ietf.org/archive/id/draft-liu-wimse-secure-service-to-service-traffic-00.txt</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 1333000,
+    "ptime": 1333000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@Brian you were on the queue</p>",
+    "topic": "ietf-interim",
+    "dtime": 1545000,
+    "ptime": 1545000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>i was</p>",
+    "topic": "ietf-interim",
+    "dtime": 1571000,
+    "ptime": 1571000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p>And not a bearer token, to be clear.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1663000,
+    "ptime": 1663000
+  },
+  {
+    "author": "Joseph Salowey",
+    "text": "<p>Correct the identity tken is common to both proof mechanisms</p>",
+    "topic": "ietf-interim",
+    "dtime": 1669000,
+    "ptime": 1669000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>yeup</p>",
+    "topic": "ietf-interim",
+    "dtime": 1777000,
+    "ptime": 1777000
+  },
+  {
+    "author": "Kai Lehmann",
+    "text": "<p>Has sending the workload identity token within the Authorization request header be considered as an alternative to a new header?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1850000,
+    "ptime": 1850000
+  },
+  {
+    "author": "Daniel Feldman",
+    "text": "<p>Kai - I don't think we have specifically considered that yet</p>",
+    "topic": "ietf-interim",
+    "dtime": 1897000,
+    "ptime": 1897000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>i've been thinking that we don't want to \"use up\" the Authorization header</p>",
+    "topic": "ietf-interim",
+    "dtime": 1929000,
+    "ptime": 1929000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>there can only be one</p>",
+    "topic": "ietf-interim",
+    "dtime": 1945000,
+    "ptime": 1945000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>It may that some (or most) use cases will already have an Authorization token and this is in addition</p>",
+    "topic": "ietf-interim",
+    "dtime": 1949000,
+    "ptime": 1949000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>what George said :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2015000,
+    "ptime": 2015000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>i have questions about the meaning of \"the same\" for tokens now</p>",
+    "topic": "ietf-interim",
+    "dtime": 2133000,
+    "ptime": 2133000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>^-- someone please capture that question and answer in the notes</p>",
+    "topic": "ietf-interim",
+    "dtime": 2155000,
+    "ptime": 2155000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 2234000,
+    "ptime": 2234000
+  },
+  {
+    "author": "John Kemp",
+    "text": "<ol>\n<li>If there is already an Authorization HTTP header, what are the semantics related to _also_ having a WIMSE token elsewhere?</li>\n<li>If there is no Authorization HTTP header, would it make sense to have the WIMSE token appear there?</li>\n</ol>",
+    "topic": "ietf-interim",
+    "dtime": 2288000,
+    "ptime": 2288000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>We already or leveraging multiple HTTP headers (e.g. DPoP) so I don't think that should be a big issue.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2390000,
+    "ptime": 2390000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>Can we be opinionated if one of the use cases is format change?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2512000,
+    "ptime": 2512000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>that's one opinion :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2536000,
+    "ptime": 2536000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>I suspect a binary format may be necessary for some deployments</p>",
+    "topic": "ietf-interim",
+    "dtime": 2600000,
+    "ptime": 2600000
+  },
+  {
+    "author": "Yaron Sheffer",
+    "text": "<p>All well and good with \"legacy\" systems and cross-domain, but IMO WimSE should recommend a single format for service-to-service traffic.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2812000,
+    "ptime": 2812000
+  },
+  {
+    "author": "John Kemp",
+    "text": "<p>Thanks for asking @pieter</p>",
+    "topic": "ietf-interim",
+    "dtime": 2900000,
+    "ptime": 2900000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>+1 to that. Also need to make sure key material is not reused across formats without analysis: it's very thorny issue</p>",
+    "topic": "ietf-interim",
+    "dtime": 2908000,
+    "ptime": 2908000
+  },
+  {
+    "author": "Dmitry Izumskiy",
+    "text": "<p>One part of thought process was to cover broad set of use cases for token exchange that can help with future adoption.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3010000,
+    "ptime": 3010000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>Thanks everyone</p>",
+    "topic": "ietf-interim",
+    "dtime": 3030000,
+    "ptime": 3030000
+  },
+  {
+    "author": "John Kemp",
+    "text": "<p>Thanks all</p>",
+    "topic": "ietf-interim",
+    "dtime": 3045000,
+    "ptime": 3045000
+  },
+  {
+    "author": "Lucía Rodríguez",
+    "text": "<p>Thanks everyone</p>",
+    "topic": "ietf-interim",
+    "dtime": 3055000,
+    "ptime": 3055000
+  },
+  {
+    "author": "Daniel Feldman",
+    "text": "<p>Also #wimse on IETF slack</p>",
+    "topic": "ietf-interim",
+    "dtime": 3060000,
+    "ptime": 3060000
+  },
+  {
+    "author": "Ibrahim Onogu",
+    "text": "<p>Thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 3066000,
+    "ptime": 3066000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-WIMSE-20240522-1430"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-wimse-01/session/wimse"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-WIMSE-20240522-1430"
+		}
+	]
+}

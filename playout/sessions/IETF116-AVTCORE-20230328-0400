@@ -1,0 +1,231 @@
+
+{
+	"title": "IETF116-AVTCORE-20230328-0400",
+	"filename": "IETF116-AVTCORE-20230328-0400",
+	"start": 0,
+	"end": 7358000,
+	"start_datetime": "2023-03-28T03:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "fPapHXe7WSQ",
+    "start": 0,
+    "end": "7358000"
+  }
+],
+	"messages": [
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>Should I minute this conversation as \"10 minutes spent repeating previous conversation\"?</p>",
+    "topic": "ietf-116",
+    "dtime": 1552000,
+    "ptime": 1552000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Has it only been 10?</p>",
+    "topic": "ietf-116",
+    "dtime": 1582000,
+    "ptime": 1582000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>just feels longer.....</p>",
+    "topic": "ietf-116",
+    "dtime": 1640000,
+    "ptime": 1640000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>is meetecho responsible for room audio? The audio levels in the room are super messed up and every speaker is constantly clipping</p>",
+    "topic": "ietf-116",
+    "dtime": 1681000,
+    "ptime": 1681000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>Don't know if you can invoke meetecho by @meetecho</p>",
+    "topic": "ietf-116",
+    "dtime": 1784000,
+    "ptime": 1784000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Matt: do you mean remote speakers?</p>",
+    "topic": "ietf-116",
+    "dtime": 1817000,
+    "ptime": 1817000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>And is audio bad in the venue or the Meetecho room?</p>",
+    "topic": "ietf-116",
+    "dtime": 1833000,
+    "ptime": 1833000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Apparently remote speakers' audio is overly loud in the venue.</p>",
+    "topic": "ietf-116",
+    "dtime": 1914000,
+    "ptime": 1914000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, checking</p>",
+    "topic": "ietf-116",
+    "dtime": 1959000,
+    "ptime": 1959000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We lowered the level of remote audio in the venue, please let us know if it's better</p>",
+    "topic": "ietf-116",
+    "dtime": 2016000,
+    "ptime": 2016000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>Thank you, improvement.</p>",
+    "topic": "ietf-116",
+    "dtime": 2185000,
+    "ptime": 2185000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>was there a conclusion to record on SCIP?</p>",
+    "topic": "ietf-116",
+    "dtime": 2223000,
+    "ptime": 2223000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Authors will publish the new draft revision and wait for IESG feedback</p>",
+    "topic": "ietf-116",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>\"frame\" is seriously overloaded here, given the competing QUIC usage.</p>",
+    "topic": "ietf-116",
+    "dtime": 3478000,
+    "ptime": 3478000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>So is \"stream\" unfortunately</p>",
+    "topic": "ietf-116",
+    "dtime": 3527000,
+    "ptime": 3527000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Indeed.</p>",
+    "topic": "ietf-116",
+    "dtime": 3579000,
+    "ptime": 3579000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1718\">@Peter Thatcher</span> did you just say if there is &gt; 1 frame in a stream, receiving a STOP_SENDING means the sender can resend some frames on another stream.  But a STOP_SENDING doesn't include an offset - how will the sender know which ones the receiver didn't want</p>",
+    "topic": "ietf-116",
+    "dtime": 3786000,
+    "ptime": 3786000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 3860000,
+    "ptime": 3860000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I'm not sure that's an issue.  It can't not send anything already sent; it has to stop sending on the current object.</p>",
+    "topic": "ietf-116",
+    "dtime": 3875000,
+    "ptime": 3875000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>The question is whether it means \"stop where you are\" or \"stop after this\", and I think the current semantics are the first.</p>",
+    "topic": "ietf-116",
+    "dtime": 3922000,
+    "ptime": 3922000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>+1 to describing in the draft what to do with a STOP_SENDING, because the receiver can send it</p>",
+    "topic": "ietf-116",
+    "dtime": 3943000,
+    "ptime": 3943000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>TBH the QUIC stack has probably made some of thst decisions itself</p>",
+    "topic": "ietf-116",
+    "dtime": 3957000,
+    "ptime": 3957000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>If you start over on a new stream, as Peter suggests, you would have to assume that the current object isn't wanted, but the sender could also choose to send something later (skipping more).</p>",
+    "topic": "ietf-116",
+    "dtime": 3976000,
+    "ptime": 3976000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>But if you're sending multiple frames on a stream, what is the \"current object\"?</p>",
+    "topic": "ietf-116",
+    "dtime": 4002000,
+    "ptime": 4002000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>There's a strange parallel with the RELIABLE_RESET_STREAM proposal in QUIC.  This could be a use case for an new partial reliability surface in QUIC.  I'm not saying we should build either though.</p>",
+    "topic": "ietf-116",
+    "dtime": 4097000,
+    "ptime": 4097000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Jonathan--it means stop sending <em>more</em>.  So you stop wherever you are.</p>",
+    "topic": "ietf-116",
+    "dtime": 4101000,
+    "ptime": 4101000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>It's app specific if you would start sending other things on a new stream.</p>",
+    "topic": "ietf-116",
+    "dtime": 4125000,
+    "ptime": 4125000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>CANCEL_PUSH frame <a href=\"https://datatracker.ietf.org/doc/html/rfc9114#section-7.2.3\">https://datatracker.ietf.org/doc/html/rfc9114#section-7.2.3</a></p>",
+    "topic": "ietf-116",
+    "dtime": 4331000,
+    "ptime": 4331000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-AVTCORE-20230328-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/avtcore"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-AVTCORE-20230328-0400"
+		}		
+	]
+}

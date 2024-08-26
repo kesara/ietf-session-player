@@ -1,0 +1,337 @@
+{
+  "title": "IETF101-EXTRA-20180322-0930",
+  "filename": "IETF101-EXTRA-20180322-0930",
+  "start": 0,
+  "end": 5253000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "eAWs1IOZjbo",
+      "start": 0.0,
+      "end": 5253000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "good morning",
+      "ptime": 26000.0,
+      "dtime": 701000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "I have at least one draft incoming still, once my others are in last call.",
+      "ptime": 198000.0,
+      "dtime": 873000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 268000.0,
+      "dtime": 943000.0
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 601000.0,
+      "dtime": 1276000.0
+    },
+    {
+      "text": "***Sean Leonard just joined the room",
+      "ptime": 603000.0,
+      "dtime": 1278000.0
+    },
+    {
+      "text": "***Jason Polis just joined the room",
+      "ptime": 666000.0,
+      "dtime": 1341000.0
+    },
+    {
+      "text": "***Jason Polis just left the room",
+      "ptime": 913000.0,
+      "dtime": 1588000.0
+    },
+    {
+      "text": "dovecot supports 64-bit internally",
+      "ptime": 1380000.0,
+      "dtime": 2055000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Mic: I don\u0027t think 64-bit should be parked. Reason is",
+      "ptime": 1394000.0,
+      "dtime": 2069000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "jeff already did",
+      "ptime": 1401000.0,
+      "dtime": 2076000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "I myself am not sure",
+      "ptime": 1407000.0,
+      "dtime": 2082000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "because if the implementation tail is long, at least by having this option out there,",
+      "ptime": 1416000.0,
+      "dtime": 2091000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "it gives developers time to prepare",
+      "ptime": 1427000.0,
+      "dtime": 2102000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I don\u0027t know. jeff might",
+      "ptime": 1490000.0,
+      "dtime": 2165000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "in most code I\u0027ve seen it\u0027s uoff_t, which should be ok",
+      "ptime": 1521000.0,
+      "dtime": 2196000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "in dovecot: uids are 32bit, but message sizes are 64bit",
+      "ptime": 1529000.0,
+      "dtime": 2204000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "obviously we don\u0027t send 64bit sizes over IMAP",
+      "ptime": 1564000.0,
+      "dtime": 2239000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "(correction: it looks like we return the 64bit size for RFC822.SIZE)",
+      "ptime": 1776000.0,
+      "dtime": 2451000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 2551000.0,
+      "dtime": 3226000.0
+    },
+    {
+      "text": "rfc 3501 restricts it to a number even, it seems",
+      "ptime": 3105000.0,
+      "dtime": 3780000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "status-att SP number",
+      "ptime": 3130000.0,
+      "dtime": 3805000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "yep, sane",
+      "ptime": 3185000.0,
+      "dtime": 3860000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "no objection",
+      "ptime": 3438000.0,
+      "dtime": 4113000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "no objection",
+      "ptime": 3448000.0,
+      "dtime": 4123000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "read IMAP4rev2 long ago.. wonder what -- if anything -- changed.",
+      "ptime": 3497000.0,
+      "dtime": 4172000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "***Dave Cridland just joined the room",
+      "ptime": 3934000.0,
+      "dtime": 4609000.0
+    },
+    {
+      "text": "FYI for anyone remote who may not have heard, we are intentionally continuing into the 30m break before calext to discuss the cleanup proposal.",
+      "ptime": 3993000.0,
+      "dtime": 4668000.0,
+      "author": "Kurt Andersen"
+    },
+    {
+      "text": "I agree with Alexey",
+      "ptime": 4060000.0,
+      "dtime": 4735000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "yeah, make it clean",
+      "ptime": 4066000.0,
+      "dtime": 4741000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "I agree with making it clean",
+      "ptime": 4076000.0,
+      "dtime": 4751000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "backwards-compatibility also deserves a nod. Not fully aware of all of the implementation headaches to declare a winner, though.",
+      "ptime": 4100000.0,
+      "dtime": 4775000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Mic: I definitely think that BINARY body encoding [RFC3516] should be included in IMAP4rev2. I also want to take the opportunity to have the ABNF checked and (if necessary) corrected. Has the ABNF in this draft been given much formal analysis yet?",
+      "ptime": 4160000.0,
+      "dtime": 4835000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "that was about utf8",
+      "ptime": 4271000.0,
+      "dtime": 4946000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "\u003c-- Leonard :) thanks",
+      "ptime": 4352000.0,
+      "dtime": 5027000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "is there a more recent version than the nov 2017 draft-06?",
+      "ptime": 4555000.0,
+      "dtime": 5230000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "stephan - there is draft-07 I believe",
+      "ptime": 4576000.0,
+      "dtime": 5251000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "FWIW, zfs has a config knob",
+      "ptime": 4636000.0,
+      "dtime": 5311000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "oh weird, it wasn\u0027t listen",
+      "ptime": 4637000.0,
+      "dtime": 5312000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "it\u0027s a pile of bugs \u0026 headaches",
+      "ptime": 4646000.0,
+      "dtime": 5321000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "zfs supports: form C, D, KC, KD",
+      "ptime": 4742000.0,
+      "dtime": 5417000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "I agree it\u0027s interesting (return UID immediately)",
+      "ptime": 4747000.0,
+      "dtime": 5422000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "+1 to barry\u0027s comment about EAI incorporation",
+      "ptime": 4917000.0,
+      "dtime": 5592000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "no objection here",
+      "ptime": 4960000.0,
+      "dtime": 5635000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "+1 to UNAUTHENTICATE",
+      "ptime": 5037000.0,
+      "dtime": 5712000.0,
+      "author": "Ken Murchison"
+    },
+    {
+      "text": "Also applies to SMTP, do we want to do that?",
+      "ptime": 5055000.0,
+      "dtime": 5730000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "BTW, ManageSieve already has UNAUTHENTICATE",
+      "ptime": 5099000.0,
+      "dtime": 5774000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "we don\u0027t implement it (yet) though",
+      "ptime": 5111000.0,
+      "dtime": 5786000.0,
+      "author": "Stephan Bosch"
+    },
+    {
+      "text": "FWIW, we implement UNAUTHENTICATE in both SMTP and managesieve.",
+      "ptime": 5152000.0,
+      "dtime": 5827000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Okay, I\u0027m ok with that",
+      "ptime": 5184000.0,
+      "dtime": 5859000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Ken Murchison just left the room",
+      "ptime": 5249000.0,
+      "dtime": 5924000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 5253000.0,
+      "dtime": 5928000.0
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 5253000.0,
+      "dtime": 5928000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 5253000.0,
+      "dtime": 5928000.0
+    },
+    {
+      "text": "***Stephan Bosch just left the room",
+      "ptime": 5253000.0,
+      "dtime": 5928000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-EXTRA-20180322-0930"
+    }
+  ]
+}

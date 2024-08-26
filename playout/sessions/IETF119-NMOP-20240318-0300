@@ -1,0 +1,147 @@
+
+{
+	"title": "IETF119-NMOP-20240318-0300",
+	"filename": "IETF119-NMOP-20240318-0300",
+	"start": 0,
+	"end": 7327000,
+	"start_datetime": "2024-03-18T02:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "bSgzfR3dE50",
+    "start": 0,
+    "end": "7327000"
+  }
+],
+	"messages": [
+  {
+    "author": "James Cumming",
+    "text": "<p>Welcome all</p>",
+    "topic": "ietf-119",
+    "dtime": 567000,
+    "ptime": 567000
+  },
+  {
+    "author": "Benoît Claise",
+    "text": "<p>Minutes are taken here: <a href=\"https://notes.ietf.org/notes-ietf-119-nmop\">https://notes.ietf.org/notes-ietf-119-nmop#</a><br>\nPlease feel free to support note taking</p>",
+    "topic": "ietf-119",
+    "dtime": 670000,
+    "ptime": 670000
+  },
+  {
+    "author": "Andy Bierman",
+    "text": "<p>Does this work need to be implementation-specific to Apache2?<br>\nIs it possible to extend to other message brokers like ZeroMQ?</p>",
+    "topic": "ietf-119",
+    "dtime": 1546000,
+    "ptime": 1546000
+  },
+  {
+    "author": "Robert Wilton",
+    "text": "<p>@Andy, my understanding is that it is an Apache message broker that is being targeted, but I believe that the changes being proposed to the protocols are effectively generic and would work with any message broker.</p>",
+    "topic": "ietf-119",
+    "dtime": 1715000,
+    "ptime": 1715000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>@meetecho - can you pls increase presenter mike's sound level for remote participants?</p>",
+    "topic": "ietf-119",
+    "dtime": 1741000,
+    "ptime": 1741000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Boris: Is it better now?</p>",
+    "topic": "ietf-119",
+    "dtime": 1803000,
+    "ptime": 1803000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Thanks @meetecho perfect</p>",
+    "topic": "ietf-119",
+    "dtime": 1811000,
+    "ptime": 1811000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>Thansk, indeed!</p>",
+    "topic": "ietf-119",
+    "dtime": 1826000,
+    "ptime": 1826000
+  },
+  {
+    "author": "Kent Watsen",
+    "text": "<p>+1 to Andy’s comment.  The doc should refer to brokers in general, using Kafka as an example.</p>",
+    "topic": "ietf-119",
+    "dtime": 2615000,
+    "ptime": 2615000
+  },
+  {
+    "author": "Alex Huang Feng",
+    "text": "<p>I agree that it can be generalised. The thing of applying all this YANG-push collection to an actual broker (in this case Apache Kafka) is finding specification gaps that need to be fixed so that the data collection pipeline work end-to-end. Once the gaps are fixed, I don't see why this cannot be applied to any other broker.</p>",
+    "topic": "ietf-119",
+    "dtime": 3037000,
+    "ptime": 3037000
+  },
+  {
+    "author": "Alex Huang Feng",
+    "text": "<p>I support this document and having these definitions in a single document separately so that other documents can reference this one.</p>",
+    "topic": "ietf-119",
+    "dtime": 3630000,
+    "ptime": 3630000
+  },
+  {
+    "author": "Vishnu Beeram",
+    "text": "<p>RFC8795 .. though it says TE topology model, it is in essence a TE aware topology..</p>",
+    "topic": "ietf-119",
+    "dtime": 5728000,
+    "ptime": 5728000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Joe, some of your the points you mentioned are related to these issues we have here: <a href=\"https://github.com/boucadair/rfc3535-20years-later/issues\">https://github.com/boucadair/rfc3535-20years-later/issues</a></p>",
+    "topic": "ietf-119",
+    "dtime": 6666000,
+    "ptime": 6666000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Please fee free to add your inputs there.</p>",
+    "topic": "ietf-119",
+    "dtime": 6681000,
+    "ptime": 6681000
+  },
+  {
+    "author": "Joe Clarke",
+    "text": "<p>Thanks, Med.</p>",
+    "topic": "ietf-119",
+    "dtime": 6864000,
+    "ptime": 6864000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>One more option could be to propose a new IAB workshop on this topic!</p>",
+    "topic": "ietf-119",
+    "dtime": 7105000,
+    "ptime": 7105000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-NMOP-20240318-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/nmop"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-NMOP-20240318-0300"
+		}		
+	]
+}

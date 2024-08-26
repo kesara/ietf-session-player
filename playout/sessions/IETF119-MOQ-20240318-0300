@@ -1,0 +1,1491 @@
+
+{
+	"title": "IETF119-MOQ-20240318-0300",
+	"filename": "IETF119-MOQ-20240318-0300",
+	"start": 0,
+	"end": 7338000,
+	"start_datetime": "2024-03-18T03:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "BBfjFdM4YgU",
+    "start": 0,
+    "end": "7338000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Good evening everybody!</p>",
+    "topic": "ietf-119",
+    "dtime": 296000,
+    "ptime": 296000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>the newborn is crying atm</p>",
+    "topic": "ietf-119",
+    "dtime": 389000,
+    "ptime": 389000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>feels bad</p>",
+    "topic": "ietf-119",
+    "dtime": 411000,
+    "ptime": 411000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>good luck, Luke</p>",
+    "topic": "ietf-119",
+    "dtime": 431000,
+    "ptime": 431000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Luke, I spent my afternoon at a first birthday party for a friend's daughter. It gets better. Please tell the newborn that. <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 524000,
+    "ptime": 524000
+  },
+  {
+    "author": "Zaheduzzaman Sarker",
+    "text": "<p>notified to fix the mic</p>",
+    "topic": "ietf-119",
+    "dtime": 613000,
+    "ptime": 613000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Last is the one just before current in the picture, but it may be way before if something prevented complete reception of the groups in between.</p>",
+    "topic": "ietf-119",
+    "dtime": 763000,
+    "ptime": 763000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>We may solve some form of this with \"NACK objects\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1403000,
+    "ptime": 1403000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Youngest IETF attendee's opinions are always welcome. :)</p>",
+    "topic": "ietf-119",
+    "dtime": 1463000,
+    "ptime": 1463000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah, I'd like GROUP_DROPPED in both FETCH/SUBSCRIBE</p>",
+    "topic": "ietf-119",
+    "dtime": 1481000,
+    "ptime": 1481000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>or similar</p>",
+    "topic": "ietf-119",
+    "dtime": 1487000,
+    "ptime": 1487000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>Dropped where?</p>",
+    "topic": "ietf-119",
+    "dtime": 1506000,
+    "ptime": 1506000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>or RELIABLE_RESET_STREAM after the object header...</p>",
+    "topic": "ietf-119",
+    "dtime": 1507000,
+    "ptime": 1507000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Note that this means a simple design with a single group for the track cannot meet that requirement.</p>",
+    "topic": "ietf-119",
+    "dtime": 1515000,
+    "ptime": 1515000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>what dp you mean by Group dropped?</p>",
+    "topic": "ietf-119",
+    "dtime": 1521000,
+    "ptime": 1521000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>I like that idea of something like that <br>\n if it comes all the way from the publisher.  But should it be \"you will not get X\" or should it be \"you should have gotten A-Z.  If you didn't something is missing\"?  Or do we just assume there are no gaps in object IDs and group IDs?</p>",
+    "topic": "ietf-119",
+    "dtime": 1561000,
+    "ptime": 1561000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@kirill publisher decides, could be due to a TTL expiring due to massive congestion</p>",
+    "topic": "ietf-119",
+    "dtime": 1578000,
+    "ptime": 1578000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>relay would propagate, potentially retry in the future if it's 404 vs 409</p>",
+    "topic": "ietf-119",
+    "dtime": 1602000,
+    "ptime": 1602000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>Groups are not sequential always .. Using it for gap detection is error prone ..</p>",
+    "topic": "ietf-119",
+    "dtime": 1604000,
+    "ptime": 1604000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>If that's any kind of bandwidth limitation upstream of the relay there will be things you don't get.</p>",
+    "topic": "ietf-119",
+    "dtime": 1613000,
+    "ptime": 1613000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah, assume a mobile phone only has RAM for a few seconds of buffer, SOMETHING will be permanently dropped</p>",
+    "topic": "ietf-119",
+    "dtime": 1639000,
+    "ptime": 1639000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>Knowing that something has never been sent by publisher and not going to be is useful, agree</p>",
+    "topic": "ietf-119",
+    "dtime": 1650000,
+    "ptime": 1650000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I like this but I am going to have to change so much code</p>",
+    "topic": "ietf-119",
+    "dtime": 1676000,
+    "ptime": 1676000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah, right now groups only have two states: Unknown or Received</p>",
+    "topic": "ietf-119",
+    "dtime": 1677000,
+    "ptime": 1677000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>things can be  dropped in transit too</p>",
+    "topic": "ietf-119",
+    "dtime": 1678000,
+    "ptime": 1678000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I'd like to add a Missing/Dropped state</p>",
+    "topic": "ietf-119",
+    "dtime": 1707000,
+    "ptime": 1707000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>But you want to make sure you don't use up a whole lot of bandwidth saying you've dropped things to save bandwidth.</p>",
+    "topic": "ietf-119",
+    "dtime": 1710000,
+    "ptime": 1710000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>in original quicr, we used marker groups t indicate if there was an intentional drop</p>",
+    "topic": "ietf-119",
+    "dtime": 1711000,
+    "ptime": 1711000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Audio objects could be similar in size to the drop message.</p>",
+    "topic": "ietf-119",
+    "dtime": 1743000,
+    "ptime": 1743000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>Why not use a masking field like we do in some RTP payload headers?</p>",
+    "topic": "ietf-119",
+    "dtime": 1781000,
+    "ptime": 1781000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@jonathan something like NACK with ranges if you really want to optimize</p>",
+    "topic": "ietf-119",
+    "dtime": 1783000,
+    "ptime": 1783000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Maybe Victor's idea from the interim is a nice optimization here - SUBSCRIBE_AND_FETCH, where you get a FETCH up to the live head and subscribe starting from there?</p>",
+    "topic": "ietf-119",
+    "dtime": 1829000,
+    "ptime": 1829000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>If they are sent in a reliable stream, QUIC can do a pretty good job of piggy backing the bits other streams if there are any.</p>",
+    "topic": "ietf-119",
+    "dtime": 1848000,
+    "ptime": 1848000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>But the reliability is only hop-by-hop.  If the relay gets an \"object NACK\" form the publisher, what does it forward?  I guess it could indicate where it was dropped, by the publisher or by the relay.</p>",
+    "topic": "ietf-119",
+    "dtime": 1914000,
+    "ptime": 1914000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Please remember to say your name when you reach the mic</p>",
+    "topic": "ietf-119",
+    "dtime": 1944000,
+    "ptime": 1944000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I believe the main value of \"object NACK\" is that it is fully propagated downstream</p>",
+    "topic": "ietf-119",
+    "dtime": 1969000,
+    "ptime": 1969000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>PEEK</p>",
+    "topic": "ietf-119",
+    "dtime": 2034000,
+    "ptime": 2034000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Note as well that we may have media that is not inherently serial (like the 3d media where the adjacent blocks are the likely targets of next selectioins).   So we should check our design against that style of media to make sure it still works.  I think those end up being Fetch-heavy but still work.</p>",
+    "topic": "ietf-119",
+    "dtime": 2124000,
+    "ptime": 2124000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I mean, what Martin describe is something like the classic \"peek\": get dta but not change the state. So \"peek\" would return the ID of the current, last, etc.</p>",
+    "topic": "ietf-119",
+    "dtime": 2146000,
+    "ptime": 2146000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>It's tricky making sure something can be propagated downstream reliably.  What if the relay dies and a subscriber connects to a new relay?  Will it be able to know what it missed during the failover?</p>",
+    "topic": "ietf-119",
+    "dtime": 2152000,
+    "ptime": 2152000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>A subcribe is not just a range filter.  It also expresses the desire that the relay also subscribe upstream.</p>",
+    "topic": "ietf-119",
+    "dtime": 2347000,
+    "ptime": 2347000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>I'm fine with a world where fetch+subscribe end up being a single verb on the wire. I think describing them as conceptually separate just makes it easier to describe expected behavior of all the different permutations.</p>",
+    "topic": "ietf-119",
+    "dtime": 2356000,
+    "ptime": 2356000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Luke -- is your Subscribe semantically similar to our Fetch (in the proposal today)?</p>",
+    "topic": "ietf-119",
+    "dtime": 2361000,
+    "ptime": 2361000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@jana pretty much, except without the race conditions involved with fetch can only serve old stuff, and subscribe can only serve new stuff</p>",
+    "topic": "ietf-119",
+    "dtime": 2406000,
+    "ptime": 2406000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>the main victim of FETCH is the HLS/DASH use-case</p>",
+    "topic": "ietf-119",
+    "dtime": 2466000,
+    "ptime": 2466000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>Could you do what you want to do with the following:</p>\n<ol>\n<li>Subscribe (get the current group number)</li>\n<li>Fetch from group 0 to current</li>\n<li>Prioritize as you want</li>\n</ol>",
+    "topic": "ietf-119",
+    "dtime": 2487000,
+    "ptime": 2487000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Luke I don't think anyone is suggesting FETCH replaces SUBSCRIBE</p>",
+    "topic": "ietf-119",
+    "dtime": 2494000,
+    "ptime": 2494000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@ted SUBSCRIBE can't do relative offsets with this proposal</p>",
+    "topic": "ietf-119",
+    "dtime": 2534000,
+    "ptime": 2534000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>so if I want to start a few groups back, like HLS/DASH, then I have to use FETCH first</p>",
+    "topic": "ietf-119",
+    "dtime": 2550000,
+    "ptime": 2550000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@luke there is last for that ..</p>",
+    "topic": "ietf-119",
+    "dtime": 2555000,
+    "ptime": 2555000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Jana, while I am fetching from 0 to current, current changes, how do I continue?</p>",
+    "topic": "ietf-119",
+    "dtime": 2559000,
+    "ptime": 2559000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>and I somehow need to advertise the absolute group IDs to the player prior to playback</p>",
+    "topic": "ietf-119",
+    "dtime": 2575000,
+    "ptime": 2575000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@suhas only serving the latest group means a random jitter buffer between 0.1s and 2s</p>",
+    "topic": "ietf-119",
+    "dtime": 2595000,
+    "ptime": 2595000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Luke, okay, I see the point now.  I thought you were worried that you'd have to repeat the fetch many times to get the data.</p>",
+    "topic": "ietf-119",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@luke i meant last , not the latest .. from a streaming app, that would be 5-8 seconds</p>",
+    "topic": "ietf-119",
+    "dtime": 2633000,
+    "ptime": 2633000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>So I asked what current is - it's 100, I fetched 0 - 100 how do I continue? do I subscibe? or do I fetch 101 and keep fetching?</p>",
+    "topic": "ietf-119",
+    "dtime": 2647000,
+    "ptime": 2647000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Kirill: I'll clarify:</p>\n<ol>\n<li>Subscribe (get the current group number, say 15), start to receive group 15 and forward</li>\n<li>Fetch from group 0:15</li>\n<li>Prioritize as you want, so that you can decide what groups you want to receive urgently</li>\n</ol>",
+    "topic": "ietf-119",
+    "dtime": 2649000,
+    "ptime": 2649000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>3) who does priotization?</p>",
+    "topic": "ietf-119",
+    "dtime": 2678000,
+    "ptime": 2678000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 to Jana, that was my understanding on what is presented</p>",
+    "topic": "ietf-119",
+    "dtime": 2685000,
+    "ptime": 2685000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>on 3) ,  priortization needs to be discussed in detail ..</p>",
+    "topic": "ietf-119",
+    "dtime": 2712000,
+    "ptime": 2712000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>The client can/probably should, but I don't think we've solved this yet.</p>",
+    "topic": "ietf-119",
+    "dtime": 2713000,
+    "ptime": 2713000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@suhas okay a better word is probably \"prev\"</p>",
+    "topic": "ietf-119",
+    "dtime": 2727000,
+    "ptime": 2727000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>ok, that makes sense assuming that we can figure out prioritization</p>",
+    "topic": "ietf-119",
+    "dtime": 2736000,
+    "ptime": 2736000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>yup, and we HAVE to figure out prioritization, otherwise we're in trouble</p>",
+    "topic": "ietf-119",
+    "dtime": 2754000,
+    "ptime": 2754000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>yes .. we need to figure out  for anything sensible regardless of fetch/subscribe</p>",
+    "topic": "ietf-119",
+    "dtime": 2770000,
+    "ptime": 2770000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I'm not entirely sure there is a huge difference between \"give me a group in the past\" and \"give me N groups in past\"</p>",
+    "topic": "ietf-119",
+    "dtime": 2770000,
+    "ptime": 2770000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@victor .. the challenge is  relative offsets leads to lot of edge cases</p>",
+    "topic": "ietf-119",
+    "dtime": 2800000,
+    "ptime": 2800000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@victor, the edges are a bit hairy.</p>",
+    "topic": "ietf-119",
+    "dtime": 2808000,
+    "ptime": 2808000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>What if the groups are very large?  It seems like we're assuming they are small.</p>",
+    "topic": "ietf-119",
+    "dtime": 2815000,
+    "ptime": 2815000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>Are they? I think that's only the case in current draft cause we allow object-relative ones</p>",
+    "topic": "ietf-119",
+    "dtime": 2869000,
+    "ptime": 2869000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Even just \"last\" or \"current\" might be really big</p>",
+    "topic": "ietf-119",
+    "dtime": 2871000,
+    "ptime": 2871000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@peter .. in that case the application might not want to last as starting point if it is live edge case</p>",
+    "topic": "ietf-119",
+    "dtime": 2893000,
+    "ptime": 2893000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>ALso the idea of \"now\" looks  nice</p>",
+    "topic": "ietf-119",
+    "dtime": 2911000,
+    "ptime": 2911000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>I thought about that @peter... I don't think there's an assumption here about that.</p>\n<ol>\n<li>The relay SHOULD cache two groups. I expect one of the cases it can't if the group size is too large</li>\n<li>There is an expectation that the client and the content server know what they're doing... as in, the client should know what the sizes are to make sensible requests</li>\n</ol>",
+    "topic": "ietf-119",
+    "dtime": 2912000,
+    "ptime": 2912000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>I think publisher TTL solves this, so I'm happy with Cullen's answer</p>",
+    "topic": "ietf-119",
+    "dtime": 3040000,
+    "ptime": 3040000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>If feels like a follow-up should be the \"NACK object\" question</p>",
+    "topic": "ietf-119",
+    "dtime": 3086000,
+    "ptime": 3086000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I'd like to see the PR.  I'm concerned about interaction with forwarding preference, and the bit about how to know the largest object in an old group, etc.</p>",
+    "topic": "ietf-119",
+    "dtime": 3195000,
+    "ptime": 3195000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>is it me or is this mic getting softer and softer?</p>",
+    "topic": "ietf-119",
+    "dtime": 3252000,
+    "ptime": 3252000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>how do you prioritize FETCH vs SUBSCRIBE?</p>",
+    "topic": "ietf-119",
+    "dtime": 3318000,
+    "ptime": 3318000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>etc</p>",
+    "topic": "ietf-119",
+    "dtime": 3320000,
+    "ptime": 3320000
+  },
+  {
+    "author": "altanai",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"841\">@Ali Begen</span>  Agree with you ..  m continuously working on the volume up and down buttons</p>",
+    "topic": "ietf-119",
+    "dtime": 3365000,
+    "ptime": 3365000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I think FETCH vs SUBSCRIBE is same as one track vs another -- you set priorities per track or a fetch request</p>",
+    "topic": "ietf-119",
+    "dtime": 3384000,
+    "ptime": 3384000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@victor imo FETCH is meant to deliver in ascending group order, while SUBSCRIBE is based on send_order</p>",
+    "topic": "ietf-119",
+    "dtime": 3438000,
+    "ptime": 3438000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but we also need a way of performing HLS/DASH style head-of-line blocking via SUBSCRIBE</p>",
+    "topic": "ietf-119",
+    "dtime": 3450000,
+    "ptime": 3450000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>FETCH can be useful in both asc and desc order</p>",
+    "topic": "ietf-119",
+    "dtime": 3467000,
+    "ptime": 3467000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>in theory if player doesn't need to start playback asap, SUBSCRIBE would be sufficient for most cases</p>",
+    "topic": "ietf-119",
+    "dtime": 3523000,
+    "ptime": 3523000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>for Live streaming usecases, FETCH is only needed to build buffer</p>",
+    "topic": "ietf-119",
+    "dtime": 3577000,
+    "ptime": 3577000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>agree ..having a delivery preference for the order in fetch is not a bad idea ..</p>",
+    "topic": "ietf-119",
+    "dtime": 3580000,
+    "ptime": 3580000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@kiril , only if last is not sufficient enough for your playout buffer</p>",
+    "topic": "ietf-119",
+    "dtime": 3611000,
+    "ptime": 3611000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@kirill time to first frame is really important, we can't wait</p>",
+    "topic": "ietf-119",
+    "dtime": 3613000,
+    "ptime": 3613000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>it pretty much always not enough ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 3630000,
+    "ptime": 3630000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@luke, if only TTF matter than subscribe LAST solves that, right?</p>",
+    "topic": "ietf-119",
+    "dtime": 3666000,
+    "ptime": 3666000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@kiril what is your typical group size</p>",
+    "topic": "ietf-119",
+    "dtime": 3689000,
+    "ptime": 3689000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>the problem is that if your bandwidth suck and you are not going to get next group in time</p>",
+    "topic": "ietf-119",
+    "dtime": 3695000,
+    "ptime": 3695000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>SUBSCRIBE sends in send_order, which means you'll receive the live playhead before the actual start playhead</p>",
+    "topic": "ietf-119",
+    "dtime": 3698000,
+    "ptime": 3698000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>we need head-of-line blocking for SUBSCRIBE for larger jitter buffers</p>",
+    "topic": "ietf-119",
+    "dtime": 3715000,
+    "ptime": 3715000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>and I don't want to do that with a piecewise FETCH for each group like HLS/DASH</p>",
+    "topic": "ietf-119",
+    "dtime": 3747000,
+    "ptime": 3747000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@luke, hm... right...</p>",
+    "topic": "ietf-119",
+    "dtime": 3748000,
+    "ptime": 3748000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I filed a proposal to add order=ASC|DESC to SUBSCRIBE</p>",
+    "topic": "ietf-119",
+    "dtime": 3765000,
+    "ptime": 3765000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>which is half-way to FETCH</p>",
+    "topic": "ietf-119",
+    "dtime": 3776000,
+    "ptime": 3776000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>#411</p>",
+    "topic": "ietf-119",
+    "dtime": 3794000,
+    "ptime": 3794000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Suhas, remind me what we consider group? GOP?</p>",
+    "topic": "ietf-119",
+    "dtime": 3816000,
+    "ptime": 3816000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>for video , yes it is GOP</p>",
+    "topic": "ietf-119",
+    "dtime": 3833000,
+    "ptime": 3833000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>1-5s</p>",
+    "topic": "ietf-119",
+    "dtime": 3841000,
+    "ptime": 3841000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Could be a lot more than 1-5s</p>",
+    "topic": "ietf-119",
+    "dtime": 3852000,
+    "ptime": 3852000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>1s buffer may not be enough</p>",
+    "topic": "ietf-119",
+    "dtime": 3855000,
+    "ptime": 3855000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>The FETCH proposal from today said you might not get things in any particular order, right?</p>",
+    "topic": "ietf-119",
+    "dtime": 3857000,
+    "ptime": 3857000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah so SUBSCRIBE last will add startup latency, since current will be delivered first</p>",
+    "topic": "ietf-119",
+    "dtime": 3866000,
+    "ptime": 3866000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>It seems like ASC / DESC is largely what gets sent next which is the prioritization conversation. I can easily imagine us wanting to add info to sub or fetch that helped the relay decide what to send next</p>",
+    "topic": "ietf-119",
+    "dtime": 3879000,
+    "ptime": 3879000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@luke .. that's not my read ot it</p>",
+    "topic": "ietf-119",
+    "dtime": 3884000,
+    "ptime": 3884000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Peter, in practice for Live streaming, that what we've been using, you can go higher but that become not practical and you not gaining anything</p>",
+    "topic": "ietf-119",
+    "dtime": 3895000,
+    "ptime": 3895000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@suhas if SUBSCRIBE follows send_order, yes it does</p>",
+    "topic": "ietf-119",
+    "dtime": 3896000,
+    "ptime": 3896000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>unless you want to ignore the send order for the first group?</p>",
+    "topic": "ietf-119",
+    "dtime": 3911000,
+    "ptime": 3911000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>again , subscribe last , means statr from current-1 and into future</p>",
+    "topic": "ietf-119",
+    "dtime": 3933000,
+    "ptime": 3933000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>@Kirill If the app wants to have large groups, it should be up to the app.  We shouldn't bake the assumption of small groups into MoQ.</p>",
+    "topic": "ietf-119",
+    "dtime": 3947000,
+    "ptime": 3947000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>current - 1 as an example .. wtaever the last group</p>",
+    "topic": "ietf-119",
+    "dtime": 3952000,
+    "ptime": 3952000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@suhas yeah but current may have 1.9s of data, which will be delivered before last</p>",
+    "topic": "ietf-119",
+    "dtime": 3953000,
+    "ptime": 3953000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>while the player waits for last before starting playback</p>",
+    "topic": "ietf-119",
+    "dtime": 3973000,
+    "ptime": 3973000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Peter I was answering Suhas' qeustion about group size.</p>",
+    "topic": "ietf-119",
+    "dtime": 3999000,
+    "ptime": 3999000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>@Kirill.  Ah, sorry.  I misunderstood.</p>",
+    "topic": "ietf-119",
+    "dtime": 4028000,
+    "ptime": 4028000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Peter, np. But I am not sure if we not thinking about groups as somthing that is not big :D</p>",
+    "topic": "ietf-119",
+    "dtime": 4089000,
+    "ptime": 4089000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>so your point is valid</p>",
+    "topic": "ietf-119",
+    "dtime": 4101000,
+    "ptime": 4101000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@luke: I'm missing it. Why will current be delivered first if the client says \"Subscribe Last\"?</p>",
+    "topic": "ietf-119",
+    "dtime": 4194000,
+    "ptime": 4194000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@jana SUBSCRIBE start=-1 will start delivering -1 (last) and 0  (current)</p>",
+    "topic": "ietf-119",
+    "dtime": 4238000,
+    "ptime": 4238000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>and they will be transmitted according to their priority</p>",
+    "topic": "ietf-119",
+    "dtime": 4250000,
+    "ptime": 4250000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>yes</p>",
+    "topic": "ietf-119",
+    "dtime": 4257000,
+    "ptime": 4257000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>and for live, new will be higher priority</p>",
+    "topic": "ietf-119",
+    "dtime": 4283000,
+    "ptime": 4283000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>so the incomplete current group is delivered first</p>",
+    "topic": "ietf-119",
+    "dtime": 4297000,
+    "ptime": 4297000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>while the player waits for the previous group to start playback</p>",
+    "topic": "ietf-119",
+    "dtime": 4307000,
+    "ptime": 4307000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>HLS/DASH work by requesting something like 4s back, but starting playback if the first 1s has been received</p>",
+    "topic": "ietf-119",
+    "dtime": 4328000,
+    "ptime": 4328000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>So yeah, I think we need to clearly articulate what is prioritized with Subscribe.</p>",
+    "topic": "ietf-119",
+    "dtime": 4333000,
+    "ptime": 4333000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>so if we deliver 3s-4s first, then 0-1s</p>",
+    "topic": "ietf-119",
+    "dtime": 4342000,
+    "ptime": 4342000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>2-4s first, then 0-1s*</p>",
+    "topic": "ietf-119",
+    "dtime": 4349000,
+    "ptime": 4349000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>then we just increase startup time</p>",
+    "topic": "ietf-119",
+    "dtime": 4354000,
+    "ptime": 4354000
+  },
+  {
+    "author": "Zafer Gürel",
+    "text": "<p>@luke Is it not possible for the relay to set the priority of last higher than current one's as an exception?</p>",
+    "topic": "ietf-119",
+    "dtime": 4391000,
+    "ptime": 4391000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>that's one solution, gross of course, and it's not clear how FETCH interacts</p>",
+    "topic": "ietf-119",
+    "dtime": 4447000,
+    "ptime": 4447000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>It's not clear to me which should be prioritized though... if the new is higher priority for the application, does it make sense to Subscribe to Last? Is there a clear answer in your mind as to exactly what should be prioritized when the client subscribes (in the general sense) for anything other than Now?</p>",
+    "topic": "ietf-119",
+    "dtime": 4447000,
+    "ptime": 4447000
+  },
+  {
+    "author": "Zafer Gürel",
+    "text": "<p>If there is an intention for the last, then isn't it a signal to get it earlier than the current one?</p>",
+    "topic": "ietf-119",
+    "dtime": 4457000,
+    "ptime": 4457000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>But yeah -- I think the prio question is one that we can address. It's a matter of understanding exaclty what we want to express.</p>",
+    "topic": "ietf-119",
+    "dtime": 4473000,
+    "ptime": 4473000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@Jana in #411 I have a proposal for SUBSCRIBE order=ASC if you want head-of-line blocking</p>",
+    "topic": "ietf-119",
+    "dtime": 4485000,
+    "ptime": 4485000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Up till now we've considered priority as being defined by the original publisher</p>",
+    "topic": "ietf-119",
+    "dtime": 4495000,
+    "ptime": 4495000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but I want that to work for more than just -1 group</p>",
+    "topic": "ietf-119",
+    "dtime": 4501000,
+    "ptime": 4501000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah the subscriber needs the ability to specify the priority too for HLS/DASH style playback</p>",
+    "topic": "ietf-119",
+    "dtime": 4522000,
+    "ptime": 4522000
+  },
+  {
+    "author": "Zafer Gürel",
+    "text": "<p>I think relays should also have a say in setting priorities for such cases.</p>",
+    "topic": "ietf-119",
+    "dtime": 4539000,
+    "ptime": 4539000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>order=ASC if you want to buffer to avoid dropping,  order=DESC if you want to skip to keep latency low</p>",
+    "topic": "ietf-119",
+    "dtime": 4561000,
+    "ptime": 4561000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>having the client express priority makes sense to me. Luke, you proposal seems like a fine starting point</p>",
+    "topic": "ietf-119",
+    "dtime": 4609000,
+    "ptime": 4609000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>the http model is to allow client and server signalling, and place the burden on the tranmitter (relay) to figure out how best to resolve that by combining those signals with information only it knows (like local network conditions)</p>",
+    "topic": "ietf-119",
+    "dtime": 4629000,
+    "ptime": 4629000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>Sender has idea of what is important . we should be careful on anyone in the middle flipping it .. each recv may end up getting different thing on who decidees to change</p>",
+    "topic": "ietf-119",
+    "dtime": 4646000,
+    "ptime": 4646000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@luke, won't we need to change ASC to DESC as client had built buffer? :D</p>",
+    "topic": "ietf-119",
+    "dtime": 4650000,
+    "ptime": 4650000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@kirill not for HLS/DASH, they still do ASC to buffer instead of skip video</p>",
+    "topic": "ietf-119",
+    "dtime": 4674000,
+    "ptime": 4674000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I think if moq allows sender and receiver priority signals, we may need more normative guidance for how relays merge them than HTTP does</p>",
+    "topic": "ietf-119",
+    "dtime": 4687000,
+    "ptime": 4687000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Lucas -- I think we should really aspire to making this simpler.</p>",
+    "topic": "ietf-119",
+    "dtime": 4698000,
+    "ptime": 4698000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>HLS --&gt; MLS <br>\nDASH -&gt; DASM</p>",
+    "topic": "ietf-119",
+    "dtime": 4726000,
+    "ptime": 4726000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>But this is the prioritization conversation we should be having soon.</p>",
+    "topic": "ietf-119",
+    "dtime": 4742000,
+    "ptime": 4742000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1  Jana</p>",
+    "topic": "ietf-119",
+    "dtime": 4751000,
+    "ptime": 4751000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Luke, well, yeah, but they do it because they only have FETCH ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 4755000,
+    "ptime": 4755000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah, and I think FETCH is secretly about prioritization, since the goal is to deliver in order without loss</p>",
+    "topic": "ietf-119",
+    "dtime": 4768000,
+    "ptime": 4768000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I won't advocate for more complexity than needed. But the simpler the language, the biiger the risk we just build artificial constraints that will be ignored in practice</p>",
+    "topic": "ietf-119",
+    "dtime": 4779000,
+    "ptime": 4779000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>at the end of the day, I want build buffer and then do normal Subscribe-like delivery</p>",
+    "topic": "ietf-119",
+    "dtime": 4795000,
+    "ptime": 4795000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>I've started looking into adding LOC support to my implementation, too. Leaning on WebCodecs for the registry of elemental stream formats is handy. :)</p>",
+    "topic": "ietf-119",
+    "dtime": 4897000,
+    "ptime": 4897000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>FWIW, when we built RUSH it was basically LOC :D</p>",
+    "topic": "ietf-119",
+    "dtime": 4939000,
+    "ptime": 4939000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>e.g. I'm going to ignore client that are sending BS priority signals that are trying to disrupt the operation of my relay</p>",
+    "topic": "ietf-119",
+    "dtime": 4970000,
+    "ptime": 4970000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah, I think the publisher could still choose the priority, but the subscriber could override it</p>",
+    "topic": "ietf-119",
+    "dtime": 4999000,
+    "ptime": 4999000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>like order=DESC from broadcaster -&gt; origin, but order=DESC from origin -&gt; vod playback</p>",
+    "topic": "ietf-119",
+    "dtime": 5026000,
+    "ptime": 5026000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>+1 to Streaming (or \"Media\" now?) Format and Container as separately defined things</p>",
+    "topic": "ietf-119",
+    "dtime": 5032000,
+    "ptime": 5032000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@luke by susbcribe do you mean end receiver or the relay ?</p>",
+    "topic": "ietf-119",
+    "dtime": 5034000,
+    "ptime": 5034000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>that model works Luke</p>",
+    "topic": "ietf-119",
+    "dtime": 5065000,
+    "ptime": 5065000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@suhas both? I don't want to treat the last mile separately</p>",
+    "topic": "ietf-119",
+    "dtime": 5072000,
+    "ptime": 5072000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>a relay could override the publisher preferences I guess</p>",
+    "topic": "ietf-119",
+    "dtime": 5096000,
+    "ptime": 5096000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>how does the relay know to make that decision ?</p>",
+    "topic": "ietf-119",
+    "dtime": 5105000,
+    "ptime": 5105000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I think there's no need to make a \"moq-on-disc\" loc-specific</p>",
+    "topic": "ietf-119",
+    "dtime": 5108000,
+    "ptime": 5108000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>maybe we have a MoQT on disk format</p>",
+    "topic": "ietf-119",
+    "dtime": 5129000,
+    "ptime": 5129000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>We just need a file with a catalog, a way to annotate groups/objects, and an index at the end</p>",
+    "topic": "ietf-119",
+    "dtime": 5137000,
+    "ptime": 5137000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1045\">Suhas Nandakumar</span> <a href=\"#narrow/stream/304-moq/topic/ietf-119/near/107912\">said</a>:</p>\n<blockquote>\n<p>how does the relay know to make that decision ?</p>\n</blockquote>\n<p>spec guidance and operational experience</p>",
+    "topic": "ietf-119",
+    "dtime": 5186000,
+    "ptime": 5186000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>if a relay has 5 viewers who want order=ASC and 0 who want order=DESC, the relay could choose to fetch ASC from upstream</p>",
+    "topic": "ietf-119",
+    "dtime": 5237000,
+    "ptime": 5237000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>if it wants to ignore the publisher's preference for DESC and add extra complexity I guess</p>",
+    "topic": "ietf-119",
+    "dtime": 5256000,
+    "ptime": 5256000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>let's do less drafts</p>",
+    "topic": "ietf-119",
+    "dtime": 5273000,
+    "ptime": 5273000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>WARP</p>",
+    "topic": "ietf-119",
+    "dtime": 5278000,
+    "ptime": 5278000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>In the prototype that I did last year, I had a \"number of object in previous group\" as a property of the first object in the next group. Plus a control message stating the number of \"last group, last object\".</p>",
+    "topic": "ietf-119",
+    "dtime": 5670000,
+    "ptime": 5670000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I don't know if I'd make that an object property, but could see that metadata being present at the beginning of the next group stream.</p>",
+    "topic": "ietf-119",
+    "dtime": 5835000,
+    "ptime": 5835000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>+1 to Luke. If we put it in the data plane it has bad data-plane reliability guarantees</p>",
+    "topic": "ietf-119",
+    "dtime": 5885000,
+    "ptime": 5885000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I agree with Luke</p>",
+    "topic": "ietf-119",
+    "dtime": 5897000,
+    "ptime": 5897000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>I suspect 3 designs we could go down A) last object has flag B) an extra object at the end of group that is a tombstone C) info in next group that  says what the end of prev group is</p>",
+    "topic": "ietf-119",
+    "dtime": 5902000,
+    "ptime": 5902000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>The flag is a nice way to optimize the golden path. Although if we have a \"stream per group\" model, the FIN of stream also provides a signal.</p>",
+    "topic": "ietf-119",
+    "dtime": 5984000,
+    "ptime": 5984000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I like the FIN of the stream to signal the end of a group on success, but we still need a message to signal the end on failure</p>",
+    "topic": "ietf-119",
+    "dtime": 6022000,
+    "ptime": 6022000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>(unless we encode the group/object ID into RESET_STREAM...)</p>",
+    "topic": "ietf-119",
+    "dtime": 6035000,
+    "ptime": 6035000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>We need these explicit messages, no doubt . we can make it reliable on data path</p>",
+    "topic": "ietf-119",
+    "dtime": 6051000,
+    "ptime": 6051000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>+1 for use-case wise prioritization  by <span class=\"user-mention\" data-user-id=\"640\">@Mo Zanaty</span></p>",
+    "topic": "ietf-119",
+    "dtime": 6139000,
+    "ptime": 6139000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Also, think of the audio stream, one object per group, 50 objects per second. Signalling that on the control path would be very expensive.</p>",
+    "topic": "ietf-119",
+    "dtime": 6156000,
+    "ptime": 6156000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>and I do want to add that adding priority to SUBSCRIBE aligns with HTTP/3 priorities</p>",
+    "topic": "ietf-119",
+    "dtime": 6408000,
+    "ptime": 6408000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>+1 prioritization is absolutely required for MoQ</p>",
+    "topic": "ietf-119",
+    "dtime": 6612000,
+    "ptime": 6612000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I disagree it didn't matter as much for HTTP/3</p>",
+    "topic": "ietf-119",
+    "dtime": 6630000,
+    "ptime": 6630000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>you can absoultely tank the performance of web pages with bad scheduling, to the point of unacceptability</p>",
+    "topic": "ietf-119",
+    "dtime": 6649000,
+    "ptime": 6649000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@lucas let me clarify, for real-time use-cases</p>",
+    "topic": "ietf-119",
+    "dtime": 6650000,
+    "ptime": 6650000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>if you're trying to build a WebRTC alternative</p>",
+    "topic": "ietf-119",
+    "dtime": 6659000,
+    "ptime": 6659000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I think we were alway agreed luke, I was pushing back on Jana's microphone point :D</p>",
+    "topic": "ietf-119",
+    "dtime": 6734000,
+    "ptime": 6734000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Section 4.1.1 and 4.1.2 are pretty specific proposal</p>",
+    "topic": "ietf-119",
+    "dtime": 6749000,
+    "ptime": 6749000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>ah okay</p>",
+    "topic": "ietf-119",
+    "dtime": 6776000,
+    "ptime": 6776000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 . it came after lots of discussions .. we need to see why they don't work or what needs fixing</p>",
+    "topic": "ietf-119",
+    "dtime": 6787000,
+    "ptime": 6787000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Ali and Zafer have some data :)</p>",
+    "topic": "ietf-119",
+    "dtime": 6854000,
+    "ptime": 6854000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>our implementation works today on priotities (like HTTP/3) and it works pretty well</p>",
+    "topic": "ietf-119",
+    "dtime": 6887000,
+    "ptime": 6887000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>But I agree, it'd be nice to have a place to put subscriber side priority signals if we want to compare</p>",
+    "topic": "ietf-119",
+    "dtime": 6910000,
+    "ptime": 6910000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>@suhas HTTP/3 priorities are decided by the subscriber, while send_order is decided by the publisher today</p>",
+    "topic": "ietf-119",
+    "dtime": 6924000,
+    "ptime": 6924000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I don't think I personally would be able to gather any form of data before Vancouver</p>",
+    "topic": "ietf-119",
+    "dtime": 6943000,
+    "ptime": 6943000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>HTTP/3 priorities are <em>merged</em> from client and server signals</p>",
+    "topic": "ietf-119",
+    "dtime": 7064000,
+    "ptime": 7064000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>how to weight the merge can easily be tilted differently for MoQ</p>",
+    "topic": "ietf-119",
+    "dtime": 7096000,
+    "ptime": 7096000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>+1 to having discussion. Like Alan, I'm unsure if we'll have much to look at before Vancouver</p>",
+    "topic": "ietf-119",
+    "dtime": 7114000,
+    "ptime": 7114000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Mostly because I don't know if I'll have time to gather the data I'd like to have in that timeframe with other priorities</p>",
+    "topic": "ietf-119",
+    "dtime": 7167000,
+    "ptime": 7167000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-MOQ-20240318-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/moq"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-MOQ-20240318-0300"
+		}		
+	]
+}

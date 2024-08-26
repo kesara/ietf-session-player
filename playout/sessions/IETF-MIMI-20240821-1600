@@ -1,0 +1,259 @@
+
+{
+	"title": "IETF-MIMI-20240821-1600",
+	"filename": "IETF-MIMI-20240821-1600",
+	"start": 0,
+	"end": 7253000,
+	"start_datetime": "2024-08-21T15:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "QVQ4dPlmObw",
+    "start": 0,
+    "end": "7253000"
+  }
+],
+	"messages": [
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Hi All</p>",
+    "topic": "ietf-interim",
+    "dtime": 204000,
+    "ptime": 204000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>discussing the email is fine with me</p>",
+    "topic": "ietf-interim",
+    "dtime": 273000,
+    "ptime": 273000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><a href=\"https://github.com/ietf-wg-mimi/mimi-protocol/pull/83\">https://github.com/ietf-wg-mimi/mimi-protocol/pull/83</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 355000,
+    "ptime": 355000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Signal does not report plaintext messages in abuse reports, right?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1706000,
+    "ptime": 1706000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>I think you're right</p>",
+    "topic": "ietf-interim",
+    "dtime": 1940000,
+    "ptime": 1940000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Receiver of a message can report it as allegedly abusive to the Hub provider.<br>\n    Why the hub? <br>\n    Because it knows the policy of the room<br>\nBecause all messages go through the hub (see below)<br>\nSends the plaintext of the allegedly abusive message(s)<br>\n Hub can’t read the content of messages unless they are reported<br>\n Receiver can’t attribute a bogus abusive message to a sender<br>\n Sender can’t deny a message they sent<br>\n Follower servers do not learn sender of any message<br>\n Receiving client does not need to store ciphertext indefinitely to report a message<br>\n Hubs don’t need to store ciphertext to verify they received a particular message<br>\n Not especially heavy to implement for client or server. Adding extra roundtrips before sending a message would be especially painful for clients.</p>\n<ul>\n<li>May be additional requirements (Hub reporting its findings to sender’s provider)</li>\n</ul>",
+    "topic": "ietf-interim",
+    "dtime": 3298000,
+    "ptime": 3298000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<ul>\n<li>Follower servers do not learn sender of any message</li>\n<li>Receiving client does not need to store ciphertext indefinitely to report a message</li>\n<li>Hubs don’t need to store ciphertext to verify they received a particular message</li>\n<li>Not especially heavy to implement for client or server. Adding extra roundtrips before sending a message would be especially painful for clients.</li>\n</ul>",
+    "topic": "ietf-interim",
+    "dtime": 3410000,
+    "ptime": 3410000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<ul>\n<li>What are the requirements for our pseudonym-based protocol? What features and UX do we want to enable while using pseudonyms? To what degree should/must abuse reporting be possible?</li>\n<li>What assumptions do we want to make about the provider-local protocol? Can the provider connect pseudonyms to real identities and to what degree? Does it have to know which groups each of its users is a member of?</li>\n<li>What is our threat model? Should pseudonyms be per-group? To what degree do we want to consider traffic analysis?</li>\n</ul>",
+    "topic": "ietf-interim",
+    "dtime": 3462000,
+    "ptime": 3462000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Can't hear Konrad anymor</p>",
+    "topic": "ietf-interim",
+    "dtime": 3468000,
+    "ptime": 3468000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>The last message were the requirement from Konrad</p>",
+    "topic": "ietf-interim",
+    "dtime": 3479000,
+    "ptime": 3479000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>(now I can)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3482000,
+    "ptime": 3482000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Alissa, which one do you think is the common case?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4083000,
+    "ptime": 4083000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>everyone seeing the real identity?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4104000,
+    "ptime": 4104000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>The common case is the one where people want to know who they are talking to.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4105000,
+    "ptime": 4105000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>ok</p>",
+    "topic": "ietf-interim",
+    "dtime": 4111000,
+    "ptime": 4111000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>we can get to the chat roulette use cases later on ;-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4302000,
+    "ptime": 4302000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>:-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4358000,
+    "ptime": 4358000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>:)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4379000,
+    "ptime": 4379000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Verifiable credentials could be a useful consideration in looking into selective disclosure / pseudonyms. It does not achieve true anonymity / pure pseudonym use though.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4539000,
+    "ptime": 4539000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>regarding advanced selective disclosure stuff</p>",
+    "topic": "ietf-interim",
+    "dtime": 4661000,
+    "ptime": 4661000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-vasilis-bbs-per-verifier-linkability/\">https://datatracker.ietf.org/doc/draft-vasilis-bbs-per-verifier-linkability/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 4663000,
+    "ptime": 4663000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-kalos-bbs-blind-signatures/01/\">https://datatracker.ietf.org/doc/draft-kalos-bbs-blind-signatures/01/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 4678000,
+    "ptime": 4678000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>There is also: <a href=\"https://datatracker.ietf.org/doc/draft-ladd-privacypass-bbs/\">https://datatracker.ietf.org/doc/draft-ladd-privacypass-bbs/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 4721000,
+    "ptime": 4721000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>i think I mostly got it</p>",
+    "topic": "ietf-interim",
+    "dtime": 4992000,
+    "ptime": 4992000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>definitely would be easier with a slide or two</p>",
+    "topic": "ietf-interim",
+    "dtime": 5005000,
+    "ptime": 5005000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Yes, some slides would be really great</p>",
+    "topic": "ietf-interim",
+    "dtime": 5026000,
+    "ptime": 5026000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-mahy-mimi-pseudonyms-00.html\">https://www.ietf.org/archive/id/draft-mahy-mimi-pseudonyms-00.html</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 5077000,
+    "ptime": 5077000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-mahy-mimi-pseudonyms-00.html\">https://www.ietf.org/archive/id/draft-mahy-mimi-pseudonyms-00.html</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 5089000,
+    "ptime": 5089000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>hiss boo x509</p>",
+    "topic": "ietf-interim",
+    "dtime": 5862000,
+    "ptime": 5862000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>&lt;3 lol</p>",
+    "topic": "ietf-interim",
+    "dtime": 5875000,
+    "ptime": 5875000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-robert-mimi-attachments-02.html\">https://www.ietf.org/archive/id/draft-robert-mimi-attachments-02.html</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 6006000,
+    "ptime": 6006000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-ietf-mimi-content-04.html#name-external-content\">https://www.ietf.org/archive/id/draft-ietf-mimi-content-04.html#name-external-content</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 6913000,
+    "ptime": 6913000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-MIMI-20240821-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-mimi-09/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-MIMI-20240821-1600"
+		}
+	]
+}

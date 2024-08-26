@@ -1,0 +1,483 @@
+
+{
+	"title": "IETF117-OAUTH-20230728-1630",
+	"filename": "IETF117-OAUTH-20230728-1630",
+	"start": 0,
+	"end": 7434000,
+	"start_datetime": "2023-07-28T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "ABiyCBIymoQ",
+    "start": 0,
+    "end": "7434000"
+  }
+],
+	"messages": [
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>If a jwt vc can include remote attestation evidence (e.g., about device authenticity) are they a superset of entity attestation tokens (eat)?</p>",
+    "topic": "ietf-117",
+    "dtime": 2206000,
+    "ptime": 2206000
+  },
+  {
+    "author": "Paul Bastian",
+    "text": "<p>I would rather say JWT-VC is a possible format for EAT</p>",
+    "topic": "ietf-117",
+    "dtime": 2348000,
+    "ptime": 2348000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>content wise, I would say eats are a possible sub set as sd-jwt vcs can contain all kinds of claims, esp. about human users</p>",
+    "topic": "ietf-117",
+    "dtime": 2495000,
+    "ptime": 2495000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>SD-JWT-VC could also be a good substrate for UserInfo VCs <a href=\"https://openid.net/specs/openid-connect-userinfo-vc-1_0.html\">https://openid.net/specs/openid-connect-userinfo-vc-1_0.html</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2638000,
+    "ptime": 2638000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>absolutely!</p>",
+    "topic": "ietf-117",
+    "dtime": 2662000,
+    "ptime": 2662000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I think I missed why explicit typing of JWTs doesn't suffice for the media-type confusion issue</p>",
+    "topic": "ietf-117",
+    "dtime": 3022000,
+    "ptime": 3022000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Use hands tool?</p>",
+    "topic": "ietf-117",
+    "dtime": 3136000,
+    "ptime": 3136000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>@Henk Birkholz would you have hummed in the contrary to adoption?</p>",
+    "topic": "ietf-117",
+    "dtime": 3399000,
+    "ptime": 3399000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>We should have asked about remote participants and done an official poll to include the remote participants.</p>",
+    "topic": "ietf-117",
+    "dtime": 3466000,
+    "ptime": 3466000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>This is a process hiccup.  If you are remote and would have hummed no, please  bring it up</p>",
+    "topic": "ietf-117",
+    "dtime": 3500000,
+    "ptime": 3500000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>If jwt-vc isn't a profile of W3C VC and isn't compatible with W3C VC. Why call it a VC? Using the same name for different things is confusing.</p>",
+    "topic": "ietf-117",
+    "dtime": 3519000,
+    "ptime": 3519000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>I would have liked a demonstration of knowledge about (the status of) other existing work in the ietf</p>",
+    "topic": "ietf-117",
+    "dtime": 3569000,
+    "ptime": 3569000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>@Roman Danyliw I would like to understand why the W3C VC chair and others involved with W3C are in favor of adoption.</p>",
+    "topic": "ietf-117",
+    "dtime": 3627000,
+    "ptime": 3627000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>There seem to be a lot redundancies and I hope adopted work takes that into account instead of creating redundant (or slightly out-o-sync) solutions</p>",
+    "topic": "ietf-117",
+    "dtime": 3649000,
+    "ptime": 3649000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>I just spoke with chair.  After this presentation, we are going to revisit this topic.  Please come to the mic line.</p>",
+    "topic": "ietf-117",
+    "dtime": 3666000,
+    "ptime": 3666000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>@Ned: As co-author of OpenID 4 Verifiable Credentials, a VC is an assertion that is used in the issuer-holder-verifier model. To me, even an ISO mdoc is a VC. the term verifiable credential nowadays stands for a certain kind of assertion. Why using a different name and having to explain to developers they can do the same things (but simpler) as with other VC formats.</p>",
+    "topic": "ietf-117",
+    "dtime": 3783000,
+    "ptime": 3783000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>@Henk: what is redundant?</p>",
+    "topic": "ietf-117",
+    "dtime": 3821000,
+    "ptime": 3821000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>@Torsten Lodderstedt if the credential isn't verifiable, then is it a \"credential\"?</p>",
+    "topic": "ietf-117",
+    "dtime": 3980000,
+    "ptime": 3980000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>what do you mean?</p>",
+    "topic": "ietf-117",
+    "dtime": 4006000,
+    "ptime": 4006000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"192\">@Ned Smith</span> term VC is used since that seems to be the most familiar term for the purpose, but it can be revisited in the course of working on this draft.</p>",
+    "topic": "ietf-117",
+    "dtime": 4009000,
+    "ptime": 4009000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"546\">@Henk Birkholz</span> the use cases slide mentioned SCITT, Richard mentioned MIMI/MLS, this chat mentioned EAT RATS, what else are you looking for?</p>",
+    "topic": "ietf-117",
+    "dtime": 4090000,
+    "ptime": 4090000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<blockquote>\n<p>what do you mean? W3C VC coined the term to mean that a credential should contain metadata that instructs verifiers how to verify the credential. Is that the same goal of JWT-VC?</p>\n</blockquote>",
+    "topic": "ietf-117",
+    "dtime": 4170000,
+    "ptime": 4170000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>that's how the VC is defined in VCDM 1.1: A set of one or more claims made by an issuer. A verifiable credential is a tamper-evident credential that has authorship that can be cryptographically verified. Verifiable credentials can be used to build verifiable presentations, which can also be cryptographically verified. The claims in a credential can be about different subjects.</p>",
+    "topic": "ietf-117",
+    "dtime": 4267000,
+    "ptime": 4267000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>that's the goal of SD-JWT VCs, too</p>",
+    "topic": "ietf-117",
+    "dtime": 4311000,
+    "ptime": 4311000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>Part of the mediaman conversation yesterday was that we need to produce guidance around registering media types that have the same \"base subtype\" but differing suffixes.  It would not be a good user experience to have application/vc+foo and application/vc+bar that have significant semantic differences.</p>",
+    "topic": "ietf-117",
+    "dtime": 4487000,
+    "ptime": 4487000
+  },
+  {
+    "author": "Paul Bastian",
+    "text": "<p>Status list does not include historic data, which is not needed in 99% of use cases. CRL airways grows over time .</p>",
+    "topic": "ietf-117",
+    "dtime": 4495000,
+    "ptime": 4495000
+  },
+  {
+    "author": "Paolo",
+    "text": "<p>If I have understood correctly SL there might be an issue at privacy levele since the range of possible values is determined by the total size of the SL (as opposed to 2^128 for a random id), every attestation has fewer and fewer number of free indexes that it can be assigned. Is it correct to say that the privacy is continuously decreasing ?</p>",
+    "topic": "ietf-117",
+    "dtime": 4581000,
+    "ptime": 4581000
+  },
+  {
+    "author": "Paul Bastian",
+    "text": "<p>You can extend existing SL or you can start new SL, so I don't see this point</p>",
+    "topic": "ietf-117",
+    "dtime": 4744000,
+    "ptime": 4744000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>Generally we see that it becomes much harder to protect against collusion by the issuer and verifier to determine who the holder is on or after presentation. Privacypass is an example of an architecture for creating solutions there.</p>",
+    "topic": "ietf-117",
+    "dtime": 4871000,
+    "ptime": 4871000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>For abuse reporting use cases, such identification may be desirable or even required. The consistent goal is to limit the issuers knowledge of user activity when the holder and verifier are not consciously telling them.</p>",
+    "topic": "ietf-117",
+    "dtime": 4962000,
+    "ptime": 4962000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>I guess you could do the suspension as a 2 bit status, and make the rule that statuses can only go up, so you could go 00=valid, 01=suspended, 10=valid and 11=revoked. So you get one suspension per credential before the credential had to be reissued</p>",
+    "topic": "ietf-117",
+    "dtime": 5022000,
+    "ptime": 5022000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i support the formation of the JKIX working group</p>",
+    "topic": "ietf-117",
+    "dtime": 5288000,
+    "ptime": 5288000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>JWKIX</p>",
+    "topic": "ietf-117",
+    "dtime": 5294000,
+    "ptime": 5294000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>the name is to key heavy <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 5318000,
+    "ptime": 5318000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>needs a catchier acronym</p>",
+    "topic": "ietf-117",
+    "dtime": 5324000,
+    "ptime": 5324000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I don't see any value in trying to apply CRLs to this. It is a different encoding, it is a different model, it isn't even a single scheme, it is at least five separate schemes that developed over time.</p>",
+    "topic": "ietf-117",
+    "dtime": 5326000,
+    "ptime": 5326000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>Some people will want CWKIX too.</p>",
+    "topic": "ietf-117",
+    "dtime": 5333000,
+    "ptime": 5333000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>*WKIX</p>",
+    "topic": "ietf-117",
+    "dtime": 5346000,
+    "ptime": 5346000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Can take the lessons from the CRL experience. But move on from the realization</p>",
+    "topic": "ietf-117",
+    "dtime": 5363000,
+    "ptime": 5363000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<ul>\n<li>-&gt; c <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></li>\n</ul>",
+    "topic": "ietf-117",
+    "dtime": 5379000,
+    "ptime": 5379000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>CWT Revocation Lists (CRLs)</p>",
+    "topic": "ietf-117",
+    "dtime": 5396000,
+    "ptime": 5396000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>We have reached the bad-joke stage of the IETF week</p>",
+    "topic": "ietf-117",
+    "dtime": 5408000,
+    "ptime": 5408000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>JWX, pronounced “jocks”?</p>",
+    "topic": "ietf-117",
+    "dtime": 5410000,
+    "ptime": 5410000
+  },
+  {
+    "author": "Paul Bastian",
+    "text": "<p>Status list is a valuable companion to VC specification</p>",
+    "topic": "ietf-117",
+    "dtime": 5418000,
+    "ptime": 5418000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>maybe we could run a quick feedback call on SECDISPATCH?</p>",
+    "topic": "ietf-117",
+    "dtime": 5588000,
+    "ptime": 5588000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>+1 SECDISPATCH</p>",
+    "topic": "ietf-117",
+    "dtime": 5603000,
+    "ptime": 5603000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>never stop working on and progress an I-D whatever its state in the process is.</p>",
+    "topic": "ietf-117",
+    "dtime": 5606000,
+    "ptime": 5606000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span aria-label=\"rocket\" class=\"emoji emoji-1f680\" role=\"img\" title=\"rocket\">:rocket:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 5793000,
+    "ptime": 5793000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>most importantly: figure out the claims semantics, eclecticly, and stabilize them sooner than l8r</p>",
+    "topic": "ietf-117",
+    "dtime": 5831000,
+    "ptime": 5831000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>One way to help this conversation might be to explicitly describe the bounds of this collection of related work.  This would let us get a sense of whether we all agree on what \"this\" is.  This would then help manage the venue exploration and appropriate process discussions.</p>",
+    "topic": "ietf-117",
+    "dtime": 5989000,
+    "ptime": 5989000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>I agree with John Bradley that since the OAuth WG is the home of JWTs and the draft is a status list for JWTs, adopting this should already be within scope.</p>",
+    "topic": "ietf-117",
+    "dtime": 6082000,
+    "ptime": 6082000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>we care about your feelings, Henk</p>",
+    "topic": "ietf-117",
+    "dtime": 6101000,
+    "ptime": 6101000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>That's why I asked about using it with plain JWT access tokens</p>",
+    "topic": "ietf-117",
+    "dtime": 6115000,
+    "ptime": 6115000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>@Roman: sure, can share this on the list.</p>",
+    "topic": "ietf-117",
+    "dtime": 6198000,
+    "ptime": 6198000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>@Torsten: I think that would be a big help</p>",
+    "topic": "ietf-117",
+    "dtime": 6229000,
+    "ptime": 6229000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Proposed: Verifiable Credentials and Related technology (VCR) WG</p>",
+    "topic": "ietf-117",
+    "dtime": 6251000,
+    "ptime": 6251000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span aria-label=\"vhs\" class=\"emoji emoji-1f4fc\" role=\"img\" title=\"vhs\">:vhs:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 6264000,
+    "ptime": 6264000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>Sounds like it will do some blockbuster work</p>",
+    "topic": "ietf-117",
+    "dtime": 6307000,
+    "ptime": 6307000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span aria-label=\"drum\" class=\"emoji emoji-1f941\" role=\"img\" title=\"drum\">:drum:</span><span aria-label=\"boom\" class=\"emoji emoji-1f4a5\" role=\"img\" title=\"boom\">:boom:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 6326000,
+    "ptime": 6326000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>can't wait until their technology gets to beta</p>",
+    "topic": "ietf-117",
+    "dtime": 6365000,
+    "ptime": 6365000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>hold on while I backronym the status list revocation spec to be called REWIND</p>",
+    "topic": "ietf-117",
+    "dtime": 6395000,
+    "ptime": 6395000
+  },
+  {
+    "author": "Torsten Lodderstedt",
+    "text": "<p>:grinning_face_with_one_large_and_one_small_eye:</p>",
+    "topic": "ietf-117",
+    "dtime": 6414000,
+    "ptime": 6414000
+  },
+  {
+    "author": "Paul Bastian",
+    "text": "<p>client attstation works both at PAR and token endpoint</p>",
+    "topic": "ietf-117",
+    "dtime": 6915000,
+    "ptime": 6915000
+  },
+  {
+    "author": "Ned Smith",
+    "text": "<p>Does the OAUTH WG have a vocabulary / arch spec that defines \"attestation\" / \"attestations\"? I didn't find anything in the drafts that have something to do with attestation</p>",
+    "topic": "ietf-117",
+    "dtime": 7129000,
+    "ptime": 7129000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-OAUTH-20230728-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-OAUTH-20230728-1630"
+		}		
+	]
+}

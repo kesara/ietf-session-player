@@ -1,0 +1,525 @@
+
+{
+	"title": "IETF116-WEBTRANS-20230329-0400",
+	"filename": "IETF116-WEBTRANS-20230329-0400",
+	"start": 0,
+	"end": 7242000,
+	"start_datetime": "2023-03-29T03:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "FZIxZf08pAw",
+    "start": 0,
+    "end": "7242000"
+  }
+],
+	"messages": [
+  {
+    "author": "David Schinazi",
+    "text": "<p>I’m on my way</p>",
+    "topic": "ietf-116",
+    "dtime": 190000,
+    "ptime": 190000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Walking back from lunch</p>",
+    "topic": "ietf-116",
+    "dtime": 203000,
+    "ptime": 203000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>meetecho can we have the camera look at the speaker please?</p>",
+    "topic": "ietf-116",
+    "dtime": 538000,
+    "ptime": 538000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Perfect, thanks!</p>",
+    "topic": "ietf-116",
+    "dtime": 558000,
+    "ptime": 558000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>yay more borwsers</p>",
+    "topic": "ietf-116",
+    "dtime": 833000,
+    "ptime": 833000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>No no Bowser is something else Lucas</p>",
+    "topic": "ietf-116",
+    "dtime": 900000,
+    "ptime": 900000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>waaaa</p>",
+    "topic": "ietf-116",
+    "dtime": 939000,
+    "ptime": 939000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I think MT said FF sends both the draft-08 codepoint and rfc?</p>",
+    "topic": "ietf-116",
+    "dtime": 1065000,
+    "ptime": 1065000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Two of the versions are format compatible</p>",
+    "topic": "ietf-116",
+    "dtime": 1113000,
+    "ptime": 1113000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>just sandwiched in between is an incompatible one :(</p>",
+    "topic": "ietf-116",
+    "dtime": 1133000,
+    "ptime": 1133000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>an example is memory commitment of N streams multiplied by the connection-wide initial flow control limit</p>",
+    "topic": "ietf-116",
+    "dtime": 1663000,
+    "ptime": 1663000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>DoS-ing a browser is trivially easy</p>",
+    "topic": "ietf-116",
+    "dtime": 1832000,
+    "ptime": 1832000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>What does this \"limit\" actually mean?<br>\nI could very well be incorrect, but as WebTransport streams are mapped to HTTP streams, does WebTransport requesting 1000 streams to be open mean that the server has to accept up to 1000 HTTP requests at once as well?</p>",
+    "topic": "ietf-116",
+    "dtime": 1919000,
+    "ptime": 1919000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Or are WebTransport stacks restrict number of HTTP requests that would be initiated on the connection that is being shared?</p>",
+    "topic": "ietf-116",
+    "dtime": 1949000,
+    "ptime": 1949000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>This is about the other direction iiuc</p>",
+    "topic": "ietf-116",
+    "dtime": 1953000,
+    "ptime": 1953000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Yes in sense that it is an API question.</p>",
+    "topic": "ietf-116",
+    "dtime": 2001000,
+    "ptime": 2001000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>my favorite limit example is actually number of RTCPeerConnections. We discovered that stuff started going really sideways if people created 1000 of them, so we put in a limt of 500. There were people bitterly complaining that we ruined their applicaiton.</p>",
+    "topic": "ietf-116",
+    "dtime": 2036000,
+    "ptime": 2036000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I don't think a single order for all datagrams is what you want.</p>",
+    "topic": "ietf-116",
+    "dtime": 2141000,
+    "ptime": 2141000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>we still don' t have API to tell apps what number of RTCPeerConnections they can create.</p>",
+    "topic": "ietf-116",
+    "dtime": 2148000,
+    "ptime": 2148000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>Here's the point I wanted to make:<br>\nOn the browser side, the limit is not interesting in the sense of a DoS defense. For a server, it's trivial to run a DoS against a browser.<br>\nWhat we _should_ be thinking about is the cases where the limit is actually useful in preventing the browser from getting overwhelmed in a non-attack scenario (example: flow control when the client is just slow consuming the data).</p>",
+    "topic": "ietf-116",
+    "dtime": 2166000,
+    "ptime": 2166000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 2189000,
+    "ptime": 2189000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Thanks Marten, can you say this on GitHub? <a href=\"https://github.com/w3c/webtransport/issues/446\">https://github.com/w3c/webtransport/issues/446</a></p>",
+    "topic": "ietf-116",
+    "dtime": 2287000,
+    "ptime": 2287000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Does a client also send WT_MAX_SESSIONS?</p>",
+    "topic": "ietf-116",
+    "dtime": 2346000,
+    "ptime": 2346000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>Done</p>",
+    "topic": "ietf-116",
+    "dtime": 2361000,
+    "ptime": 2361000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Do we want to reset the h2 stream, or CLOSE_WEBTRANSPORT_SESSION + FIN ?</p>",
+    "topic": "ietf-116",
+    "dtime": 2427000,
+    "ptime": 2427000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> +1, we might want to open as many streams from the client as well. And the question is if we have messages for that as well as what the security implication of that is.</p>",
+    "topic": "ietf-116",
+    "dtime": 2511000,
+    "ptime": 2511000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>Not raising my hand, but there didn't <em>have</em> to be an issue in DataChannels with the number of channels; Firefox has an implementation where we could easily support 64K channels if needed.  If the application needs N streams, you either can support the application (have the memory), or you can't.     Setting a lower limit artificially can make certain applications either unimplementable, or will warp their design to fit into a smaller limit.   Other applications will simply not realize that they might go over the limit in some edge case, and fall down badly when they do (for example, when 20 people join a video chat) -- while almost certainly the application is not limited by memory from having N streams active</p>",
+    "topic": "ietf-116",
+    "dtime": 2569000,
+    "ptime": 2569000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Related to a slide way back: I just made a PR for adding estimated send rate to the web API: <a href=\"https://github.com/w3c/webtransport/pull/494\">https://github.com/w3c/webtransport/pull/494</a></p>",
+    "topic": "ietf-116",
+    "dtime": 2617000,
+    "ptime": 2617000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>I totally agree with that for a connection dedicated to WebTransport. But what if the connection is shared with other protocols, e.g., HTTP. Is it a good idea to set QUIC-level concurrency to max of the two protocols?</p>",
+    "topic": "ietf-116",
+    "dtime": 2663000,
+    "ptime": 2663000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>We have a very similar problem in WebTransport/H3. This problem occurs because we're running multiple sessions on top of a single connection (be it H2 or H3) without proper resource accounting.</p>",
+    "topic": "ietf-116",
+    "dtime": 2952000,
+    "ptime": 2952000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>The philosophy used in the Amiga OS, ages ago when ram was a LOT smaller was don't ever set artificial limits on things; have them be constrained only by memory and peformance; use dynamic lists (or dynamic tables/arrays) for everything, never static.  Maybe there's a good reason to limit things; if so let's specify it, and thus far I haven't seen memory as a limit.   Fixed limits may simply drive applications that need more to implement their own multiplexing within streams</p>",
+    "topic": "ietf-116",
+    "dtime": 2966000,
+    "ptime": 2966000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I was going to ask at the mic, did you consider a new frame other than SETTINGS?</p>",
+    "topic": "ietf-116",
+    "dtime": 3089000,
+    "ptime": 3089000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Would it be ok to require the extra RTT in the initial release of WT/H2, and then it can have a SETTINGS-based optimization in the future if that's a pain point?</p>",
+    "topic": "ietf-116",
+    "dtime": 3103000,
+    "ptime": 3103000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>On a different topic -- if you want to try WebTransport in Firefox, make sure it's a 3/28 or later Nightly; 3/28 has a bugfix where some extensions would cause WebTransport not to connect.  3/29 Nightly will have it prefed on by default</p>",
+    "topic": "ietf-116",
+    "dtime": 3106000,
+    "ptime": 3106000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Bernard - can you clarify the problems you think aren't solved by the draft</p>",
+    "topic": "ietf-116",
+    "dtime": 3626000,
+    "ptime": 3626000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>maybe we should wrap up all these required extensions into a QUIC version :P</p>",
+    "topic": "ietf-116",
+    "dtime": 3648000,
+    "ptime": 3648000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>agree with Ted</p>",
+    "topic": "ietf-116",
+    "dtime": 3844000,
+    "ptime": 3844000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Having to wait to parse the stream type before resetting it seems like another reason not to overlap H3</p>",
+    "topic": "ietf-116",
+    "dtime": 4006000,
+    "ptime": 4006000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>IANA has seen worse, for those worrying that it is ugly.</p>",
+    "topic": "ietf-116",
+    "dtime": 4089000,
+    "ptime": 4089000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I described it as \"cgroups for QUIC\" to someone earlier in the week</p>",
+    "topic": "ietf-116",
+    "dtime": 4449000,
+    "ptime": 4449000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>now we need namespaces for QUIC and then we can have docker for quic</p>",
+    "topic": "ietf-116",
+    "dtime": 4468000,
+    "ptime": 4468000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>i like it</p>",
+    "topic": "ietf-116",
+    "dtime": 4502000,
+    "ptime": 4502000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I'm also a flow control enthus</p>",
+    "topic": "ietf-116",
+    "dtime": 4804000,
+    "ptime": 4804000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>to clarify I agree it can be useful</p>",
+    "topic": "ietf-116",
+    "dtime": 4931000,
+    "ptime": 4931000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>If we wanted to do this in QUIC land, it's essentially another version of the QUIC \"stream group\" proposals</p>",
+    "topic": "ietf-116",
+    "dtime": 4967000,
+    "ptime": 4967000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>yep ^^</p>",
+    "topic": "ietf-116",
+    "dtime": 4976000,
+    "ptime": 4976000
+  },
+  {
+    "author": "Zaheduzzaman Sarker",
+    "text": "<p>On the flow control issue, I agree with MT about not dropping the ball ... but how do we capture this if there is not solution proposed till IETF117?</p>",
+    "topic": "ietf-116",
+    "dtime": 5202000,
+    "ptime": 5202000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>CONNECT doesn't say anything specific about redirects either <a href=\"https://www.rfc-editor.org/rfc/rfc9110.html#name-connect\">https://www.rfc-editor.org/rfc/rfc9110.html#name-connect</a></p>",
+    "topic": "ietf-116",
+    "dtime": 5572000,
+    "ptime": 5572000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Thanks for confirming that <span class=\"user-mention\" data-user-id=\"28\">@Lucas Pardue</span> I was looking too and also couldn't find it and wasn't sure if I was just holding the manual wrong</p>",
+    "topic": "ietf-116",
+    "dtime": 5598000,
+    "ptime": 5598000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I mean, I await mnot to hit me over the head with the manual, but AFAICT MASQUE didn't do so bad</p>",
+    "topic": "ietf-116",
+    "dtime": 5655000,
+    "ptime": 5655000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>The question is if clients are supposed to automatically follow the redirects, correct? That's not required by HTTP IIUC, it's up to each application.</p>",
+    "topic": "ietf-116",
+    "dtime": 5737000,
+    "ptime": 5737000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Yeah, and masque provides good precedent here</p>",
+    "topic": "ietf-116",
+    "dtime": 5845000,
+    "ptime": 5845000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>An H3/WT redirect could possibly end up on H2/WT, which seems like it'd be very hard for a stack to handle automatically.</p>",
+    "topic": "ietf-116",
+    "dtime": 5857000,
+    "ptime": 5857000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Ultimate precedence is CONNECT method, it does not have a URI and it's impossible to redirect IIUC.</p>",
+    "topic": "ietf-116",
+    "dtime": 5919000,
+    "ptime": 5919000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>lol CONNECT says \"Any response other than a successful response indicates that the tunnel has not yet been formed.\" while CONNECT UDP says \"If any of these requirements are not met, the client MUST treat this proxying attempt as failed and abort the request.\" so /shrug</p>",
+    "topic": "ietf-116",
+    "dtime": 5944000,
+    "ptime": 5944000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>so CONNECT considers 3xx as 1xx?</p>",
+    "topic": "ietf-116",
+    "dtime": 5985000,
+    "ptime": 5985000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>unclear to me</p>",
+    "topic": "ietf-116",
+    "dtime": 5994000,
+    "ptime": 5994000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>RFC 7231 says \"Any response other than a successful response indicates that the tunnel has not yet been formed and that the connection remains governed by HTTP\" which is clear IMO. We accidentally made it unclear in 9110.</p>",
+    "topic": "ietf-116",
+    "dtime": 6139000,
+    "ptime": 6139000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>lets hit mnot over the head with the manual!</p>",
+    "topic": "ietf-116",
+    "dtime": 6173000,
+    "ptime": 6173000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>didn't realize the difference between 3&amp;4, both work but 4 is slightly better</p>",
+    "topic": "ietf-116",
+    "dtime": 6686000,
+    "ptime": 6686000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I think 4 is a sensible option for an implementation, but the reality is 1 if you're at the app layer; you get what you get.</p>",
+    "topic": "ietf-116",
+    "dtime": 6727000,
+    "ptime": 6727000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>just to summarize: since pooling is transparent to the application, the prioritization behavior shouldn't change if pooling is supported/used</p>",
+    "topic": "ietf-116",
+    "dtime": 6810000,
+    "ptime": 6810000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>it seems awful to support pooling but not round-robin between sessions</p>",
+    "topic": "ietf-116",
+    "dtime": 6887000,
+    "ptime": 6887000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>We're still hashing things out in moq, but one idea is something like all the tracks of a video might be a webtransport session, but maybe you're pulling more than one at a time, and some might be more important than others.</p>",
+    "topic": "ietf-116",
+    "dtime": 6922000,
+    "ptime": 6922000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>eg: our FB app is playing one video and prefetching another.  Sequential priority between those might be what you want.  But you also want to prioritize audio and video within each video</p>",
+    "topic": "ietf-116",
+    "dtime": 6965000,
+    "ptime": 6965000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Or maybe have Priority extension for weighting one incremental session vs another.</p>",
+    "topic": "ietf-116",
+    "dtime": 7034000,
+    "ptime": 7034000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>IMO you can combine the prioritization domains only if two sessions (applications) agree to share</p>",
+    "topic": "ietf-116",
+    "dtime": 7055000,
+    "ptime": 7055000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but I dunno that seems weird to signal</p>",
+    "topic": "ietf-116",
+    "dtime": 7081000,
+    "ptime": 7081000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>yeah I could pull N videos over one session, but the priority is easier to express hierarchically</p>",
+    "topic": "ietf-116",
+    "dtime": 7116000,
+    "ptime": 7116000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>Thank you all! Thanks David and Bernard</p>",
+    "topic": "ietf-116",
+    "dtime": 7211000,
+    "ptime": 7211000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-WEBTRANS-20230329-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/webtrans"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-WEBTRANS-20230329-0400"
+		}		
+	]
+}

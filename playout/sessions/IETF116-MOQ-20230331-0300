@@ -1,0 +1,756 @@
+
+{
+	"title": "IETF116-MOQ-20230331-0300",
+	"filename": "IETF116-MOQ-20230331-0300",
+	"start": 0,
+	"end": 5589000,
+	"start_datetime": "2023-03-31T02:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "O67mAeqtI0w",
+    "start": 0,
+    "end": "5589000"
+  }
+],
+	"messages": [
+  {
+    "author": "Martin Duke",
+    "text": "<p>We're up against the Mariners Opener</p>",
+    "topic": "ietf-116",
+    "dtime": 53000,
+    "ptime": 53000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Chair approves period chat updates of the mariners score</p>",
+    "topic": "ietf-116",
+    "dtime": 130000,
+    "ptime": 130000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@martin: Priorities.</p>",
+    "topic": "ietf-116",
+    "dtime": 141000,
+    "ptime": 141000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>well, the chair is wondering where everybody is... seems obvious</p>",
+    "topic": "ietf-116",
+    "dtime": 295000,
+    "ptime": 295000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>like the new name - POT package of tracks</p>",
+    "topic": "ietf-116",
+    "dtime": 546000,
+    "ptime": 546000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I'd really avoid \"RFC Required\" for this registry - that encourages people to squat on the namespace. The QUIC registries are probably a better fit here</p>",
+    "topic": "ietf-116",
+    "dtime": 747000,
+    "ptime": 747000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>What rules do they follow?</p>",
+    "topic": "ietf-116",
+    "dtime": 766000,
+    "ptime": 766000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>\"IETF Review\" maybe?</p>",
+    "topic": "ietf-116",
+    "dtime": 783000,
+    "ptime": 783000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Expert Review for the majority of the space</p>",
+    "topic": "ietf-116",
+    "dtime": 804000,
+    "ptime": 804000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>\"RFC Required\" sets a mighty high bar for successful squatting.</p>",
+    "topic": "ietf-116",
+    "dtime": 812000,
+    "ptime": 812000
+  },
+  {
+    "author": "Jordi Cenzano",
+    "text": "<p>Just a joke: Can we call this catalog nested structure HLS ;-)</p>",
+    "topic": "ietf-116",
+    "dtime": 828000,
+    "ptime": 828000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Is that catalog registry a long term thing? If so, suggest you don't burn the low order numbers today because they are the ones you'll probably really want for mature standards</p>",
+    "topic": "ietf-116",
+    "dtime": 858000,
+    "ptime": 858000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>\"Expert Review\" with appropriate guidance would probably work though.</p>",
+    "topic": "ietf-116",
+    "dtime": 869000,
+    "ptime": 869000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Specification Required asks folks to clearly describe their format, but doesn't require the full process of the IETF.</p>",
+    "topic": "ietf-116",
+    "dtime": 879000,
+    "ptime": 879000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>(And it includes Expert Review, ofc.)</p>",
+    "topic": "ietf-116",
+    "dtime": 891000,
+    "ptime": 891000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>...or even any process of the IETF. :)</p>",
+    "topic": "ietf-116",
+    "dtime": 892000,
+    "ptime": 892000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Murray, what I'm saying is that if you say \"RFC Required\" people will start using codepoints without registering them (that's what I call squatting)</p>",
+    "topic": "ietf-116",
+    "dtime": 909000,
+    "ptime": 909000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Oh I see.</p>",
+    "topic": "ietf-116",
+    "dtime": 917000,
+    "ptime": 917000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Please just copy what the QUIC registries did</p>",
+    "topic": "ietf-116",
+    "dtime": 936000,
+    "ptime": 936000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Yeah we do generally prefer the most lightweight registration policy that the work can tolerate.</p>",
+    "topic": "ietf-116",
+    "dtime": 946000,
+    "ptime": 946000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Specification Required also encourages squatting, not everyone has the time to write specs</p>",
+    "topic": "ietf-116",
+    "dtime": 957000,
+    "ptime": 957000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>QUIC has a nice model where you need Standards Action or IESG Approval for low codepoints but a very low bar everywhere else</p>",
+    "topic": "ietf-116",
+    "dtime": 992000,
+    "ptime": 992000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Also, Specification Required doesn't provide access to provisional allocation while the spec is developed if you aren't doing so via the IETF process.</p>",
+    "topic": "ietf-116",
+    "dtime": 1004000,
+    "ptime": 1004000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Raise the barrier for the most attractive codepoints, then next to no work for the upper ranges</p>",
+    "topic": "ietf-116",
+    "dtime": 1011000,
+    "ptime": 1011000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>So yeah, it creates squatting problems as well.</p>",
+    "topic": "ietf-116",
+    "dtime": 1020000,
+    "ptime": 1020000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>(for context, this is due to QUIC's variable-length integers: the one-byte encoding requires review, the 8-byte one has almost no review)</p>",
+    "topic": "ietf-116",
+    "dtime": 1048000,
+    "ptime": 1048000
+  },
+  {
+    "author": "Jordi Cenzano",
+    "text": "<p>IMHO: At 1st glance I really like this catalog approach, it is simple and easy to understand and that I think it is a good thing.</p>",
+    "topic": "ietf-116",
+    "dtime": 1071000,
+    "ptime": 1071000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@David: That's a nice model actually.</p>",
+    "topic": "ietf-116",
+    "dtime": 1087000,
+    "ptime": 1087000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I think relays might need different caching rules for catalog tracks than for media tracks.</p>",
+    "topic": "ietf-116",
+    "dtime": 1088000,
+    "ptime": 1088000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>What if you start with an 8-byte one and it takes off?  Do implementers tend to seek \"upgrades\" to the one-byte ones later?</p>",
+    "topic": "ietf-116",
+    "dtime": 1120000,
+    "ptime": 1120000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Yes Murray</p>",
+    "topic": "ietf-116",
+    "dtime": 1131000,
+    "ptime": 1131000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Could be an ugly migration in some cases</p>",
+    "topic": "ietf-116",
+    "dtime": 1161000,
+    "ptime": 1161000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Has that ever happened? The migration costs of changing the codepoint later seem prohibitive most of the time.</p>",
+    "topic": "ietf-116",
+    "dtime": 1164000,
+    "ptime": 1164000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>That's what I was thinking.</p>",
+    "topic": "ietf-116",
+    "dtime": 1172000,
+    "ptime": 1172000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Not hard in my experience</p>",
+    "topic": "ietf-116",
+    "dtime": 1187000,
+    "ptime": 1187000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>I don't see any MOQ AD around?</p>",
+    "topic": "ietf-116",
+    "dtime": 1219000,
+    "ptime": 1219000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>He's here.</p>",
+    "topic": "ietf-116",
+    "dtime": 1235000,
+    "ptime": 1235000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Someplace.</p>",
+    "topic": "ietf-116",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>The AD is watching <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 1276000,
+    "ptime": 1276000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>I got it, thanks</p>",
+    "topic": "ietf-116",
+    "dtime": 1324000,
+    "ptime": 1324000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>If we don't want the relys to read it, it should be encrypted!</p>",
+    "topic": "ietf-116",
+    "dtime": 1339000,
+    "ptime": 1339000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Behcet: Did you need something?</p>",
+    "topic": "ietf-116",
+    "dtime": 1410000,
+    "ptime": 1410000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I'm curious why the type is an unencrypted piece of the payload, rather than in the metadata?</p>",
+    "topic": "ietf-116",
+    "dtime": 1418000,
+    "ptime": 1418000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>those on mic should say their name</p>",
+    "topic": "ietf-116",
+    "dtime": 1491000,
+    "ptime": 1491000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@chairs ^^</p>",
+    "topic": "ietf-116",
+    "dtime": 1523000,
+    "ptime": 1523000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Indeed they should, though if people are also properly using the queueing tool you can see their names at the top of the participant list</p>",
+    "topic": "ietf-116",
+    "dtime": 1542000,
+    "ptime": 1542000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>That's also true, and so far people in here have been doing it properly.</p>",
+    "topic": "ietf-116",
+    "dtime": 1560000,
+    "ptime": 1560000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>good reminder .. I forgot to mention my name ..</p>",
+    "topic": "ietf-116",
+    "dtime": 1581000,
+    "ptime": 1581000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>+1 to robust handshakes</p>",
+    "topic": "ietf-116",
+    "dtime": 1649000,
+    "ptime": 1649000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Victor, please don't call \"parameter type\" a \"key\" -- that's confusing with some kind of crypto!</p>",
+    "topic": "ietf-116",
+    "dtime": 1766000,
+    "ptime": 1766000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Suhas, you're still in the queue.</p>",
+    "topic": "ietf-116",
+    "dtime": 1792000,
+    "ptime": 1792000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>thanks Murray .. this time i told my name, but forgot to get out of the Q .. hmm, I need coffee</p>",
+    "topic": "ietf-116",
+    "dtime": 1823000,
+    "ptime": 1823000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>is there anything in TLS or WebTransport that we could use to negotiate version?</p>",
+    "topic": "ietf-116",
+    "dtime": 1827000,
+    "ptime": 1827000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>You can't send a subscribe until you get a catalog anyway, can you?</p>",
+    "topic": "ietf-116",
+    "dtime": 1863000,
+    "ptime": 1863000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>You could also send the first messages with N versions all at once.  At least if N isn't too big.</p>",
+    "topic": "ietf-116",
+    "dtime": 1883000,
+    "ptime": 1883000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@jonathan , you may if you know out of band the name of the track</p>",
+    "topic": "ietf-116",
+    "dtime": 1898000,
+    "ptime": 1898000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>since there is some out of band mechanism that will give the authz token and stuff</p>",
+    "topic": "ietf-116",
+    "dtime": 1929000,
+    "ptime": 1929000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>we can reduce the RTTs at a later point when we have more invariants</p>",
+    "topic": "ietf-116",
+    "dtime": 1933000,
+    "ptime": 1933000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>In that case if your subscribe formats are bit-compatible for the versions you support presumably you can send it optimistically, which hopefully should be the case once we converge on a final version.</p>",
+    "topic": "ietf-116",
+    "dtime": 1939000,
+    "ptime": 1939000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>at Meta we do care about startup latency, but I think we could also mitigate that somehow out of band...</p>",
+    "topic": "ietf-116",
+    "dtime": 1945000,
+    "ptime": 1945000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>having subscribe and publish per track make sense to me</p>",
+    "topic": "ietf-116",
+    "dtime": 2110000,
+    "ptime": 2110000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>I am not sure what \"authorization scope for its namespace\" means...</p>",
+    "topic": "ietf-116",
+    "dtime": 2131000,
+    "ptime": 2131000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>but we do need to prioritization among tracks</p>",
+    "topic": "ietf-116",
+    "dtime": 2164000,
+    "ptime": 2164000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 to Will and Ted</p>",
+    "topic": "ietf-116",
+    "dtime": 2810000,
+    "ptime": 2810000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>agree that we need to define exactly what the name is representing ..</p>",
+    "topic": "ietf-116",
+    "dtime": 2974000,
+    "ptime": 2974000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>+1 to Christian</p>",
+    "topic": "ietf-116",
+    "dtime": 2987000,
+    "ptime": 2987000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>While it may complicate things, I think you will have different groupings sooner or later.  Single priority domain and different authorization domains will be common, to take an example.</p>",
+    "topic": "ietf-116",
+    "dtime": 3098000,
+    "ptime": 3098000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Track are application layer concept. The pooling or not in the transport is performance optimization and may vary by relay implementers</p>",
+    "topic": "ietf-116",
+    "dtime": 3133000,
+    "ptime": 3133000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Victor is absolutely right wrt authority</p>",
+    "topic": "ietf-116",
+    "dtime": 3134000,
+    "ptime": 3134000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>HTTP connection coalescing allows multiple authorities in a single connection, provided that other criteria are satisfied.</p>",
+    "topic": "ietf-116",
+    "dtime": 3220000,
+    "ptime": 3220000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1 Harald -- don't use properties to build names!</p>",
+    "topic": "ietf-116",
+    "dtime": 3422000,
+    "ptime": 3422000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>+1 to Harald</p>",
+    "topic": "ietf-116",
+    "dtime": 3441000,
+    "ptime": 3441000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 to Harald</p>",
+    "topic": "ietf-116",
+    "dtime": 3472000,
+    "ptime": 3472000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1 Cullen</p>",
+    "topic": "ietf-116",
+    "dtime": 3606000,
+    "ptime": 3606000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>am I missing something, but current object model basically does what Cullen just said? Track has field called \"bundle id \" - which is basically prioritization domain</p>",
+    "topic": "ietf-116",
+    "dtime": 3642000,
+    "ptime": 3642000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>It seems to me like if you have a URL for a bundle or a catalog and want to be able to get to a URL for a track in a brief, efficient way, we have a good concept for that - the relative URL.</p>",
+    "topic": "ietf-116",
+    "dtime": 3654000,
+    "ptime": 3654000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>+1 to Cullen</p>",
+    "topic": "ietf-116",
+    "dtime": 3700000,
+    "ptime": 3700000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>relative URL constrains the way in which you construct URLs; they only work when the IDs are hierarchical, and your desired navigation follows the hierarchy.</p>",
+    "topic": "ietf-116",
+    "dtime": 3728000,
+    "ptime": 3728000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>You can always use an absolute URL when that's not applicable.</p>",
+    "topic": "ietf-116",
+    "dtime": 3750000,
+    "ptime": 3750000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Priority scheme is complex, let us do more expriement. Keep it flexible pls.</p>",
+    "topic": "ietf-116",
+    "dtime": 3752000,
+    "ptime": 3752000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>agree .. also when someone collapses WT sessions onto one or more, one looses the original context .. so carrying the full qualified track identifiers, works regarldess of collapse happens or not</p>",
+    "topic": "ietf-116",
+    "dtime": 3806000,
+    "ptime": 3806000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>These all look like the spiderman meme</p>",
+    "topic": "ietf-116",
+    "dtime": 3869000,
+    "ptime": 3869000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>this is too funny ..</p>",
+    "topic": "ietf-116",
+    "dtime": 3905000,
+    "ptime": 3905000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Now Draw the Rest of the Owl</p>",
+    "topic": "ietf-116",
+    "dtime": 4075000,
+    "ptime": 4075000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Now draw a camel</p>",
+    "topic": "ietf-116",
+    "dtime": 4176000,
+    "ptime": 4176000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Lucas you want to build this on the DNS, all of a sudden?</p>",
+    "topic": "ietf-116",
+    "dtime": 4202000,
+    "ptime": 4202000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p><span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 4245000,
+    "ptime": 4245000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Save us Obi-Wan</p>",
+    "topic": "ietf-116",
+    "dtime": 4388000,
+    "ptime": 4388000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Do NOT use a Google doc. Some of us do not have a Google ID and do not want one...</p>",
+    "topic": "ietf-116",
+    "dtime": 4514000,
+    "ptime": 4514000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Did they say Wiki or Wookie?</p>",
+    "topic": "ietf-116",
+    "dtime": 4541000,
+    "ptime": 4541000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Let the Wiki win.</p>",
+    "topic": "ietf-116",
+    "dtime": 4551000,
+    "ptime": 4551000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Ali, what is the name of conference?</p>",
+    "topic": "ietf-116",
+    "dtime": 4578000,
+    "ptime": 4578000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Ted: IESG spies are still here</p>",
+    "topic": "ietf-116",
+    "dtime": 4634000,
+    "ptime": 4634000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I just wanna say I like saying \"MOQ POC\".</p>",
+    "topic": "ietf-116",
+    "dtime": 4665000,
+    "ptime": 4665000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>@Kirill Mile High Video</p>",
+    "topic": "ietf-116",
+    "dtime": 4677000,
+    "ptime": 4677000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"52\">Martin Duke</span> <a href=\"#narrow/stream/304-moq/topic/ietf-116/near/73161\">said</a>:</p>\n<blockquote>\n<p>Ted: IESG spies are still here</p>\n</blockquote>\n<p>True, but are they AWAKE?</p>",
+    "topic": "ietf-116",
+    "dtime": 4689000,
+    "ptime": 4689000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Can I replace the webtranport in the demo with other transport such as raw QUIC?</p>",
+    "topic": "ietf-116",
+    "dtime": 5072000,
+    "ptime": 5072000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>That's very good latency for this link and highlights the wide range of applications MoQ is going to be able to work for with latencies like this.</p>",
+    "topic": "ietf-116",
+    "dtime": 5091000,
+    "ptime": 5091000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>E2E is glass to glass?</p>",
+    "topic": "ietf-116",
+    "dtime": 5243000,
+    "ptime": 5243000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I hope the terminology draft captures that distinction ^^</p>",
+    "topic": "ietf-116",
+    "dtime": 5299000,
+    "ptime": 5299000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"71\">Cullen Jennings</span> <a href=\"#narrow/stream/304-moq/topic/ietf-116/near/73169\">said</a>:</p>\n<blockquote>\n<p>That's very good latency for this link and highlights the wide range of applications MoQ is going to be able to work for with latencies like this.</p>\n</blockquote>\n<p>Yes, and I'm glad <a href=\"https://datatracker.ietf.org/doc/html/draft-nandakumar-moq-scenarios-00#section-5\">https://datatracker.ietf.org/doc/html/draft-nandakumar-moq-scenarios-00#section-5</a> talks about high LOSS networks - that's my reminder to think about high LATENCY paths, and paths with lower bandwidfth than we would like to see.</p>",
+    "topic": "ietf-116",
+    "dtime": 5313000,
+    "ptime": 5313000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Great demo. Just needs more BBB</p>",
+    "topic": "ietf-116",
+    "dtime": 5494000,
+    "ptime": 5494000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 5544000,
+    "ptime": 5544000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-MOQ-20230331-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/moq"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-MOQ-20230331-0300"
+		}		
+	]
+}

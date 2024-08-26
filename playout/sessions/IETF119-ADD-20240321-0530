@@ -1,0 +1,616 @@
+
+{
+	"title": "IETF119-ADD-20240321-0530",
+	"filename": "IETF119-ADD-20240321-0530",
+	"start": 0,
+	"end": 4494000,
+	"start_datetime": "2024-03-21T05:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "yl7_2dD27_w",
+    "start": 0,
+    "end": "4494000"
+  }
+],
+	"messages": [
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>\"redesignation\"</p>",
+    "topic": "ietf-119",
+    "dtime": 942000,
+    "ptime": 942000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>\"Extending DDR for Selecting Resolvers\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1240000,
+    "ptime": 1240000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>A fun wrinkle: if a resolver has N IPs in its certificate, it has no way to know which one a client might be relying on, so it can only \"redirect\" to another server whose certificate covers _all_ of them.</p>",
+    "topic": "ietf-119",
+    "dtime": 1710000,
+    "ptime": 1710000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>A formal call for adoption MUST indeed be done.</p>",
+    "topic": "ietf-119",
+    "dtime": 1782000,
+    "ptime": 1782000
+  },
+  {
+    "author": "Kazunori Fujiwara",
+    "text": "<p>Does the CPE decrypt \"encrypted DNS\" message from clients ?</p>",
+    "topic": "ietf-119",
+    "dtime": 2013000,
+    "ptime": 2013000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Name constraints is RFC 5280 btw.   And yes, CA Browser Forum not form</p>",
+    "topic": "ietf-119",
+    "dtime": 2175000,
+    "ptime": 2175000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Yes, that is the idea, so that the CPE can provide answers from local names, can cache, provide malware control, MUD enforcement, etc.</p>",
+    "topic": "ietf-119",
+    "dtime": 2177000,
+    "ptime": 2177000
+  },
+  {
+    "author": "Shumon Huque",
+    "text": "<p>Shoud that slide have said RFC 5280 (Name Constraints) and not RFC 8280 - the latter is about human rights and protocols.</p>",
+    "topic": "ietf-119",
+    "dtime": 2187000,
+    "ptime": 2187000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>(I was answering Kazunori above)</p>",
+    "topic": "ietf-119",
+    "dtime": 2195000,
+    "ptime": 2195000
+  },
+  {
+    "author": "Shumon Huque",
+    "text": "<p>Oh, sorry, I just saw Tale's note :)</p>",
+    "topic": "ietf-119",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>mic: It seems that a large part of the motivation for this work was the lack of client support for Opportunistic DDR.  If anyone has insights into why that is not as widely implemented or was not reliable in practice, I would like to hear about that.</p>",
+    "topic": "ietf-119",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Would you, though?</p>",
+    "topic": "ietf-119",
+    "dtime": 2387000,
+    "ptime": 2387000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I'm looking at you Tommy</p>",
+    "topic": "ietf-119",
+    "dtime": 2402000,
+    "ptime": 2402000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>(that was a fun topic back in the day)</p>",
+    "topic": "ietf-119",
+    "dtime": 2402000,
+    "ptime": 2402000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I'll look at your handle in return since you're not here :(</p>",
+    "topic": "ietf-119",
+    "dtime": 2432000,
+    "ptime": 2432000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>*Tommys</p>",
+    "topic": "ietf-119",
+    "dtime": 2439000,
+    "ptime": 2439000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Was not expecting to walk into a homenet meeting....</p>",
+    "topic": "ietf-119",
+    "dtime": 2480000,
+    "ptime": 2480000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>+1 Mike</p>",
+    "topic": "ietf-119",
+    "dtime": 2531000,
+    "ptime": 2531000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Right now, AFAIK the most common DDR implementations are Windows and iOS/macOS.  Do they do opportunistic?  Do they do it in a way that somehow failed interop in Tiru's use case?</p>",
+    "topic": "ietf-119",
+    "dtime": 2613000,
+    "ptime": 2613000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>NO NO no more homenet</p>",
+    "topic": "ietf-119",
+    "dtime": 2616000,
+    "ptime": 2616000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I think that's where we are. Securely connecting to local devices seems outside the scope of ADD, at the least.</p>",
+    "topic": "ietf-119",
+    "dtime": 2728000,
+    "ptime": 2728000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>@Tommy: Wait, you require it to have a valid certificate even though you have no name anchor to validate against?</p>",
+    "topic": "ietf-119",
+    "dtime": 2754000,
+    "ptime": 2754000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@Mike: my feeling as well. EXCEPT if there is a specific problem for ADD</p>",
+    "topic": "ietf-119",
+    "dtime": 2757000,
+    "ptime": 2757000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>An approach would be to document the problem +  list potential solutions without making any reco</p>",
+    "topic": "ietf-119",
+    "dtime": 2759000,
+    "ptime": 2759000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>@Tommy: Wait, you require it to have a valid certificate even though you have no name anchor to validate against?</p>\n</blockquote>",
+    "topic": "ietf-119",
+    "dtime": 2772000,
+    "ptime": 2772000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>^+1 what does that mean, other Tommy?</p>",
+    "topic": "ietf-119",
+    "dtime": 2781000,
+    "ptime": 2781000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@Med could be an approach indeed for a next step.</p>",
+    "topic": "ietf-119",
+    "dtime": 2782000,
+    "ptime": 2782000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Other Tommy</p>",
+    "topic": "ietf-119",
+    "dtime": 2788000,
+    "ptime": 2788000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>He's the one saying there's some other check to do. From my side, opportunistic means \"whatever the cert is it's fine\" which we don't support yet AFAIK.</p>",
+    "topic": "ietf-119",
+    "dtime": 2848000,
+    "ptime": 2848000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>We validate that it is a trusted non-expired cert</p>",
+    "topic": "ietf-119",
+    "dtime": 2851000,
+    "ptime": 2851000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>We just don't care about the name</p>",
+    "topic": "ietf-119",
+    "dtime": 2856000,
+    "ptime": 2856000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Trusted as in signed by something in your root store?</p>",
+    "topic": "ietf-119",
+    "dtime": 2868000,
+    "ptime": 2868000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-119",
+    "dtime": 2871000,
+    "ptime": 2871000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Why?</p>",
+    "topic": "ietf-119",
+    "dtime": 2878000,
+    "ptime": 2878000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>DANE enters the chat</p>",
+    "topic": "ietf-119",
+    "dtime": 2881000,
+    "ptime": 2881000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I mean... kinda makes it less than opportunistic</p>",
+    "topic": "ietf-119",
+    "dtime": 2887000,
+    "ptime": 2887000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>This doesn't accomplish any security goal that I can see.</p>",
+    "topic": "ietf-119",
+    "dtime": 2898000,
+    "ptime": 2898000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>\"however, even if clients choose to perform some certificate validation checks, they will not be able to validate the names presented in the SubjectAltName (SAN) field of the certificate for private and local IP addresses.\"</p>\n<p>From DDR. That's the \"some certificate validation checks\"</p>",
+    "topic": "ietf-119",
+    "dtime": 2944000,
+    "ptime": 2944000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Yes, it's permitted, but it's not a good idea.</p>",
+    "topic": "ietf-119",
+    "dtime": 2967000,
+    "ptime": 2967000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I mean, yes, you <em>can</em> choose to, I'm just surprised that you did.</p>",
+    "topic": "ietf-119",
+    "dtime": 2970000,
+    "ptime": 2970000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>We only do it if the resolved address is a private use address</p>",
+    "topic": "ietf-119",
+    "dtime": 2986000,
+    "ptime": 2986000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Med, \"document the problem + list potential solutions\" seems like a cop-out. Explaining why the potential solutions are unlilkely to work would be a better outcome IMO. So would saying \"this problem is intractable. we give up\".</p>",
+    "topic": "ietf-119",
+    "dtime": 2996000,
+    "ptime": 2996000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>But I don't see why would arbitrarily allow expired certs, etc.</p>",
+    "topic": "ietf-119",
+    "dtime": 3004000,
+    "ptime": 3004000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I would need to think through some edge cases, but I clearly remember agreeing to this text thinking \"well, if we're on an L3 attack, the verification would fail anyway so whatever\"</p>",
+    "topic": "ietf-119",
+    "dtime": 3005000,
+    "ptime": 3005000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>If it's a private use address, this check reduces interop (as in this case) without enhancing security in any discernible way.</p>",
+    "topic": "ietf-119",
+    "dtime": 3028000,
+    "ptime": 3028000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Tommy, what about \"I run a pihole with a self signed cert\"?</p>",
+    "topic": "ietf-119",
+    "dtime": 3039000,
+    "ptime": 3039000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>If you want to install a root CA to trust your pihole, great</p>",
+    "topic": "ietf-119",
+    "dtime": 3059000,
+    "ptime": 3059000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>That's might be an outcome indeed, @Jim but we definitely document this</p>",
+    "topic": "ietf-119",
+    "dtime": 3061000,
+    "ptime": 3061000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>An attacker can acquire a valid certificate so this only breaks this use case without defeating any attacks.</p>",
+    "topic": "ietf-119",
+    "dtime": 3097000,
+    "ptime": 3097000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>I agree 100% on documenting something Med.</p>",
+    "topic": "ietf-119",
+    "dtime": 3121000,
+    "ptime": 3121000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>And yet we're arguing it is too hard for CPEs to get this?</p>",
+    "topic": "ietf-119",
+    "dtime": 3133000,
+    "ptime": 3133000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I get not allowing opportunistic (our current position), but requiring parenting makes it seem like we're gatekeeping opportunistic to people who are savvy/capable of getting a CA cert which, without name checks, doesn't mean anything (granted cert for jdfwoiwreo8uwo8.evil.example)</p>",
+    "topic": "ietf-119",
+    "dtime": 3161000,
+    "ptime": 3161000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yes, the attacker only needs to acquire a valid cert and also be running on the same IP as the original resolver.</p>",
+    "topic": "ietf-119",
+    "dtime": 3166000,
+    "ptime": 3166000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Once it was running on the original resolver, it may as well drop DDR queries and force us into 53 fallback</p>",
+    "topic": "ietf-119",
+    "dtime": 3191000,
+    "ptime": 3191000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>CPEs could make themselves iOS compatible by acquiring a single cert and replicating the private key across all their devices ... until it leaks and gets revoked, killing the whole fleet.</p>",
+    "topic": "ietf-119",
+    "dtime": 3230000,
+    "ptime": 3230000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Correct, they could do that</p>",
+    "topic": "ietf-119",
+    "dtime": 3284000,
+    "ptime": 3284000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>And work with all iOS/macOS</p>",
+    "topic": "ietf-119",
+    "dtime": 3290000,
+    "ptime": 3290000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>(CAs usually will not let you have an unrevoked certificate with a publicly known private key.)</p>",
+    "topic": "ietf-119",
+    "dtime": 3292000,
+    "ptime": 3292000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Indeed</p>",
+    "topic": "ietf-119",
+    "dtime": 3304000,
+    "ptime": 3304000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>This strikes me as fairly absurd.</p>",
+    "topic": "ietf-119",
+    "dtime": 3313000,
+    "ptime": 3313000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>ok sorry, I rat holed a lot on Apple's implementation choice (which is RFC sanctioned) -- speaking for myself, we don't intend to support the MAY for opportunistic at scale by default at this time.</p>",
+    "topic": "ietf-119",
+    "dtime": 3316000,
+    "ptime": 3316000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Where's Lorenzo when we need him</p>",
+    "topic": "ietf-119",
+    "dtime": 3343000,
+    "ptime": 3343000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>What strikes you as absured, Ben?</p>",
+    "topic": "ietf-119",
+    "dtime": 3349000,
+    "ptime": 3349000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I'm reminded by the Plex model. Each server has a unique ID, and gets a cert issued from their server for <em>.&lt;ID&gt;.plex.direct. Then their DNS server will resolve &lt;IP&gt;.</em>.plex.direct to the IP embedded in the hostname. So you wind up with a valid TLS cert for the hostname &lt;IP&gt;.&lt;ID&gt;.plex.direct that can be used for HTTPS.</p>",
+    "topic": "ietf-119",
+    "dtime": 3377000,
+    "ptime": 3377000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Lorenzo was in the room earlier.  Hmm</p>",
+    "topic": "ietf-119",
+    "dtime": 3377000,
+    "ptime": 3377000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Again repeating what I said this morning: my Fritz!Box CPE has its own LE cert renewed every 3 months or so.</p>",
+    "topic": "ietf-119",
+    "dtime": 3388000,
+    "ptime": 3388000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Bah, Meetecho ate the \\*s.</p>",
+    "topic": "ietf-119",
+    "dtime": 3397000,
+    "ptime": 3397000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>@Tommy Jensen: I'd love to know why on that front too.  I think it's unfortunate but it's not as bewildering.</p>",
+    "topic": "ietf-119",
+    "dtime": 3398000,
+    "ptime": 3398000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>(1) it's a MAY, (2) DNR is a better option, (3) I'm worried DNR adoption will be chilled if opportunistic DDR is a crutch to lean on</p>",
+    "topic": "ietf-119",
+    "dtime": 3458000,
+    "ptime": 3458000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>And the Plex certs are issued by LE, presumably on the basis of DNS control.</p>",
+    "topic": "ietf-119",
+    "dtime": 3460000,
+    "ptime": 3460000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>(yes, I know DNR leads up back here, but still, better than no verification)</p>",
+    "topic": "ietf-119",
+    "dtime": 3559000,
+    "ptime": 3559000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>DNR clearly a better solution for home networks than opportunistic DDR. As long as you have the certs.</p>",
+    "topic": "ietf-119",
+    "dtime": 3583000,
+    "ptime": 3583000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>One thing that does confuse me is whether you need the CPE to be internet accessible</p>",
+    "topic": "ietf-119",
+    "dtime": 3583000,
+    "ptime": 3583000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>So ^ note that I support this work, but I don't have a qualified opinion about how it can be done (bit far from my expertise)</p>",
+    "topic": "ietf-119",
+    "dtime": 3584000,
+    "ptime": 3584000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>@David: iOS doesn't support opportunistic security in the standard way TLS does this (self-signed certs).  Instead, it does this in a way that effectively encourages bad/odd behavior but doesn't improve security.</p>",
+    "topic": "ietf-119",
+    "dtime": 3626000,
+    "ptime": 3626000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>As long as you have the certs.</p>\n</blockquote>\n<p>Exactly, not saying that's trivial, clearly. But I'd rather work on this than say \"eh, use opportunistic DDR\"</p>",
+    "topic": "ietf-119",
+    "dtime": 3629000,
+    "ptime": 3629000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Like you could presumably demonstrate control of the domain name prior to shipping the CPE and then provision it with the ACME account key and then send it out.</p>",
+    "topic": "ietf-119",
+    "dtime": 3660000,
+    "ptime": 3660000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>ekr, I like that. I think Tiru's point (that the room doesn't seem to buy) is that this scales expensively?</p>",
+    "topic": "ietf-119",
+    "dtime": 3972000,
+    "ptime": 3972000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I don't know if e.g., LE re-validates</p>",
+    "topic": "ietf-119",
+    "dtime": 3992000,
+    "ptime": 3992000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Security theatre?  :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 4110000,
+    "ptime": 4110000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>If I understand the design Bishop is proposing, it's a way to allow the manufacturer and the device to jointly establish control of the namespace</p>",
+    "topic": "ietf-119",
+    "dtime": 4416000,
+    "ptime": 4416000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>yes, basically</p>",
+    "topic": "ietf-119",
+    "dtime": 4442000,
+    "ptime": 4442000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Thank you, Meetecho.  We're done.</p>",
+    "topic": "ietf-119",
+    "dtime": 4444000,
+    "ptime": 4444000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-ADD-20240321-0530"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/add"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-ADD-20240321-0530"
+		}		
+	]
+}

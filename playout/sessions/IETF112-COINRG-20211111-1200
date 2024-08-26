@@ -1,0 +1,952 @@
+{
+  "title": "IETF112-COINRG-20211111-1200",
+  "filename": "IETF112-COINRG-20211111-1200",
+  "start": 0,
+  "end": 7358000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "H4vPRkqyXYo",
+      "start": 0,
+      "end": "7358000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 7000,
+      "ptime": 7000,
+      "author": "Lou Berger",
+      "text": "hello all...<br/>"
+    },
+    {
+      "dtime": 70000,
+      "ptime": 70000,
+      "author": "Luigi Iannone",
+      "text": "I can hear Eve<br/>"
+    },
+    {
+      "dtime": 73000,
+      "ptime": 73000,
+      "author": "Ike Kunze",
+      "text": "I can hear you Eve<br/>"
+    },
+    {
+      "dtime": 104000,
+      "ptime": 104000,
+      "author": "Adrian Farrel",
+      "text": "I hear you<br/>"
+    },
+    {
+      "dtime": 419000,
+      "ptime": 419000,
+      "author": "Abdussalam Baryun",
+      "text": "hello All<br/>"
+    },
+    {
+      "dtime": 894000,
+      "ptime": 894000,
+      "author": "Dirk Kutscher",
+      "text": "To some extent, QUIC and MASQUE are looking a whole lot like L3.5 already.<br/>"
+    },
+    {
+      "dtime": 1006000,
+      "ptime": 1006000,
+      "author": "Adrian Farrel",
+      "text": "But isn't QUIC sort of Layer 4.2?<br/>"
+    },
+    {
+      "dtime": 1074000,
+      "ptime": 1074000,
+      "author": "Adrian Farrel",
+      "text": "And that leads me to a question for Scott about whether transport protocols are being run end-to-end or between SNs. In that case, isn't he talking about something above L4 (possibly L5)?<br/>"
+    },
+    {
+      "dtime": 1094000,
+      "ptime": 1094000,
+      "author": "Dirk Kutscher",
+      "text": "Yeah, the mapping is not perfect, but MASQUE is about different services types within QUIC connections, with support for intermediaries.<br/>"
+    },
+    {
+      "dtime": 1095000,
+      "ptime": 1095000,
+      "author": "David Oran",
+      "text": "q: what's the model for composing multiple services? is this like the existing service chaining and/or VNFs?<br/>"
+    },
+    {
+      "dtime": 1098000,
+      "ptime": 1098000,
+      "author": "Spencer Dawkins",
+      "text": "When we chartered QUIC, the IAB had been talking about a \"UDP-based layer 3.5\" UNDER QUIC. That was SPUD/PLUS.<br/>"
+    },
+    {
+      "dtime": 1133000,
+      "ptime": 1133000,
+      "author": "Spencer Dawkins",
+      "text": "We didn't charter that work, so the layer 3.5 got wrapped into QUIC.<br/>"
+    },
+    {
+      "dtime": 1164000,
+      "ptime": 1164000,
+      "author": "Lou Berger",
+      "text": "netflix openconnect seems like a customized version of 3.5 more than quic<br/>"
+    },
+    {
+      "dtime": 1234000,
+      "ptime": 1234000,
+      "author": "Dirk Trossen",
+      "text": "Q: If SN is a L3.5 service overlay, why demanding that a single SN must run 'agreed' public services? Isn't that a barrier to entry by party X to roll out edge-based SNs with a new service?<br/>"
+    },
+    {
+      "dtime": 1261000,
+      "ptime": 1261000,
+      "author": "Dirk Trossen",
+      "text": "meaning, may we just embolden the 'big player' market as of now by demanding 'big SNs'?<br/>"
+    },
+    {
+      "dtime": 1284000,
+      "ptime": 1284000,
+      "author": "Colin Perkins",
+      "text": "And how does/should this programmable service node model be pushed down into lower layers?<br/>"
+    },
+    {
+      "dtime": 1384000,
+      "ptime": 1384000,
+      "author": "Cedric Westphal",
+      "text": "what are the incentives to deploy this? Hyperscalers do it as part of their business model. But how running these SNs is monetized? How bears the cost?<br/>"
+    },
+    {
+      "dtime": 1395000,
+      "ptime": 1395000,
+      "author": "Cedric Westphal",
+      "text": "*Who bears the cost<br/>"
+    },
+    {
+      "dtime": 1407000,
+      "ptime": 1407000,
+      "author": "Joerg Ott",
+      "text": "Right, how to best benefit from L2/L3 capabilities e.g. for efficiency rather than just running all as p2p overlay? Fan-out for pub/sub, for example<br/>"
+    },
+    {
+      "dtime": 1431000,
+      "ptime": 1431000,
+      "author": "David Oliver",
+      "text": "open source with reproducible builds on the Sys provides a trust model I would think<br/>"
+    },
+    {
+      "dtime": 1476000,
+      "ptime": 1476000,
+      "author": "Cheng Li",
+      "text": "good question<br/>"
+    },
+    {
+      "dtime": 1512000,
+      "ptime": 1512000,
+      "author": "Dirk Kutscher",
+      "text": "What if shrinking the Internet is the economically reasonable way to go for hyperscalers seeking to establish/defend monopolies? What are the incentives for a disruptive change like this?<br/>"
+    },
+    {
+      "dtime": 1519000,
+      "ptime": 1519000,
+      "author": "Dirk Trossen",
+      "text": "@cedric connects to my question since if the barrier is to do all public services, who can afford it?<br/>"
+    },
+    {
+      "dtime": 1565000,
+      "ptime": 1565000,
+      "author": "Joerg Ott",
+      "text": "Or, in more general terms, when we find that E-SN-SN-E isn’t quite enough, would we move towards multiple SNs in the end?<br/>"
+    },
+    {
+      "dtime": 1572000,
+      "ptime": 1572000,
+      "author": "Dirk Trossen",
+      "text": "@DirkK getting my novel service out quickly may be an incentive but I'm struggling with the \"SN/public services\" model<br/>"
+    },
+    {
+      "dtime": 1696000,
+      "ptime": 1696000,
+      "author": "David Oliver",
+      "text": "SNs that do not run \"the common services\" encourages more balkanization, doesn't it?<br/>"
+    },
+    {
+      "dtime": 1736000,
+      "ptime": 1736000,
+      "author": "David Oliver",
+      "text": "SNs with common services, running open source software with reproducible builds provides an access point trust model<br/>"
+    },
+    {
+      "dtime": 1741000,
+      "ptime": 1741000,
+      "author": "Stewart Bryant",
+      "text": "By definition you cannot make it uniform. because as soon as it is deployed someone will need to add a new feature<br/>"
+    },
+    {
+      "dtime": 1814000,
+      "ptime": 1814000,
+      "author": "Stewart Bryant",
+      "text": "What happens when you hit a hardware limit<br/>"
+    },
+    {
+      "dtime": 1855000,
+      "ptime": 1855000,
+      "author": "Luigi Iannone",
+      "text": "running open source software does not prevent customization which prevents trust based solely on which software is used<br/>"
+    },
+    {
+      "dtime": 1875000,
+      "ptime": 1875000,
+      "author": "Dirk Trossen",
+      "text": "@David but it goes back to DirkK's question on the incentive for deploying SNs. Wouldn't run my own 'balkanized SN' be much better for an existing monopolist?<br/>"
+    },
+    {
+      "dtime": 1933000,
+      "ptime": 1933000,
+      "author": "Dirk Trossen",
+      "text": "Similar to the previous occasion of Scott's talk, I think the struggle here is about the economic incentive model that would make this work to counter the centralization we observe today<br/>"
+    },
+    {
+      "dtime": 1962000,
+      "ptime": 1962000,
+      "author": "David Oliver",
+      "text": "@dirk \"the problem of centralization\" - often discussed here at IETF - is certainly a problem since HyperScaler A can just say \"you guys wanna be on MY version of the Internet\"<br/>"
+    },
+    {
+      "dtime": 2050000,
+      "ptime": 2050000,
+      "author": "Dirk Trossen",
+      "text": "@david My point exactly. So how can you force a hyperscaler to effectively open up their \"SNs\" today to the agreed public services? It sounds like a governance/regulation issue more than a technical one.<br/>"
+    },
+    {
+      "dtime": 2058000,
+      "ptime": 2058000,
+      "author": "David Oliver",
+      "text": "@dirk&nbsp;&nbsp;possible answer: I think we are going to struggle in the future with the balkanization of the Internet by NATION STATES.&nbsp;&nbsp;\"governments vs companies\" might provide that economic incentive.&nbsp;&nbsp;That is the companies will want to live in the most places possible, so if this L3.5 promises that, it's better<br/>"
+    },
+    {
+      "dtime": 2199000,
+      "ptime": 2199000,
+      "author": "Spencer Dawkins",
+      "text": "This seems like a REALLY important discussion to have on a mailing list. This is fundamental enough to justify more public conversation.<br/>"
+    },
+    {
+      "dtime": 2209000,
+      "ptime": 2209000,
+      "author": "Dirk Trossen",
+      "text": "Hmm, listening to Geoff Huston's talk yesterday, I was not under the impression that nation states are the problem really. Saw \"CDN\" on his slides<br/>"
+    },
+    {
+      "dtime": 2254000,
+      "ptime": 2254000,
+      "author": "Dirk Trossen",
+      "text": "@Spencer +1 on the need for a forum for this kind of work<br/>"
+    },
+    {
+      "dtime": 2353000,
+      "ptime": 2353000,
+      "author": "Spencer Dawkins",
+      "text": "@Dirk - it's certainly relevant to COINRG, but not limited to COINRG. Is it reasonable to start that discussion in COINRG, and see where it goes?<br/>"
+    },
+    {
+      "dtime": 2379000,
+      "ptime": 2379000,
+      "author": "Marie-Jose Montpetit",
+      "text": "@Scott good idea :)<br/>"
+    },
+    {
+      "dtime": 2419000,
+      "ptime": 2419000,
+      "author": "Marie-Jose Montpetit",
+      "text": "@Spencer ok to start the discussion<br/>"
+    },
+    {
+      "dtime": 2430000,
+      "ptime": 2430000,
+      "author": "Luigi Iannone",
+      "text": "After the first presentation Scott made there was some exchange on <a href=\"https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH\" rel=\"nofollow\">https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH</a><br/>"
+    },
+    {
+      "dtime": 2476000,
+      "ptime": 2476000,
+      "author": "Luigi Iannone",
+      "text": "But that is an external ML<br/>"
+    },
+    {
+      "dtime": 2511000,
+      "ptime": 2511000,
+      "author": "Scott Shenker",
+      "text": "Chat is not a great place to fully describe the incentives, but here is one case. Currently the clouds spend $$$ for the large user-facing networks, and the edge nodes deploy largely generic services. Why wouldn't they want a common infrastructure that deployed these generic services at the edge, and focus on the more proprietary backend services? In addition, once this becomes he overall architecture, hosts can select services, which enables a much wider spectrum of in-network services.<br/>"
+    },
+    {
+      "dtime": 2572000,
+      "ptime": 2572000,
+      "author": "Scott Shenker",
+      "text": "We've talked to people at all the major clouds, and they think such a story makes sense.<br/>"
+    },
+    {
+      "dtime": 2618000,
+      "ptime": 2618000,
+      "author": "Colin Perkins",
+      "text": "This RG has a mailing list, that seems like a reasonable venue to continue discussion<br/>"
+    },
+    {
+      "dtime": 2623000,
+      "ptime": 2623000,
+      "author": "Dirk Kutscher",
+      "text": "Many hyperscalers have their overlays from the provider edge to their regional data centers. I am not sure, they urgently need something else.<br/>"
+    },
+    {
+      "dtime": 2730000,
+      "ptime": 2730000,
+      "author": "Scott Shenker",
+      "text": "They don't need it \"urgently\" but (i) they'd save money and (ii) this opens the door to a much wider array of in-network services that would improve security, privacy, and application performance.<br/>"
+    },
+    {
+      "dtime": 2734000,
+      "ptime": 2734000,
+      "author": "Dirk Kutscher",
+      "text": "... although it would clearly be desirable for any newcomers that want to deploy their service in similar ways...<br/>"
+    },
+    {
+      "dtime": 2745000,
+      "ptime": 2745000,
+      "author": "Spencer Dawkins",
+      "text": "@Scott - is there an obvious community that we could invite to participate in a discussion on the COINRG mailing list? It's probably best that we don't Balkanize discussion of ways to respond to Balkanization, I think. :grinning:<br/>"
+    },
+    {
+      "dtime": 2767000,
+      "ptime": 2767000,
+      "author": "Dirk Kutscher",
+      "text": "Yes, agree<br/>"
+    },
+    {
+      "dtime": 2826000,
+      "ptime": 2826000,
+      "author": "Scott Shenker",
+      "text": "I don't know what the right communities are, but that's a good thought.<br/>"
+    },
+    {
+      "dtime": 2869000,
+      "ptime": 2869000,
+      "author": "Dirk Trossen",
+      "text": "@DirkK if as a newcomer, I will need to support the public services, isn't that a burden?<br/>"
+    },
+    {
+      "dtime": 3000000,
+      "ptime": 3000000,
+      "author": "Dirk Kutscher",
+      "text": "Depends on the specific design, but you could imagine that your service needs a special in-network-computing system on-top of the network of execution environments, and that EI would enable you to roll out your \"slice\".<br/>"
+    },
+    {
+      "dtime": 3106000,
+      "ptime": 3106000,
+      "author": "Dirk Trossen",
+      "text": "Right, but this is more about a general execution environment, which I agree with. But the need to provide a defined set of public services as part of your roll-out sounds like an investment to be done as part of your market entry.<br/>"
+    },
+    {
+      "dtime": 3345000,
+      "ptime": 3345000,
+      "author": "Cedric Westphal",
+      "text": "@DirkT: you need to roll out a box, and you also need some critical mass of SN so that src-SN-SN-dest path can deliver the service.<br/>"
+    },
+    {
+      "dtime": 3360000,
+      "ptime": 3360000,
+      "author": "David Oran",
+      "text": "@Dirk - i think there's a high level conceptual disconnect here - I don't think the goal is to enable individual parties to innovate by providing clever services that can differentiate them, but rather to carefully extend the Internet service model from the current best effort single packet delivery to a reasonably small set of richer services that can be provided *everywhere* and depended on by all internet users.<br/>"
+    },
+    {
+      "dtime": 3557000,
+      "ptime": 3557000,
+      "author": "Dirk Trossen",
+      "text": "@David got it, had looked at EI in the hope that the current economic and technical centralization could be overcome with an SN model. But it seems to boil down to commoditize GAFA in-network services without much breathing space for others to get in edge-ways. From that perspective, I can understand the support from cloud players that Scott mentioned.<br/>"
+    },
+    {
+      "dtime": 3699000,
+      "ptime": 3699000,
+      "author": "David Oran",
+      "text": "Well, just like today, one would hope/expect that there aren't any significant barriers to innovating *on top of* the globally supported services.<br/>"
+    },
+    {
+      "dtime": 3805000,
+      "ptime": 3805000,
+      "author": "David Oran",
+      "text": "...and just like today with peering and access economics, there are \"interesting\" cost shifting, arbitrage and phenomena that may or may not change the power relationships among users, ISPs. hyperscalers, and enterprises...<br/>"
+    },
+    {
+      "dtime": 3898000,
+      "ptime": 3898000,
+      "author": "David Oran",
+      "text": "...it's likely that the biggest obstacles to overcome is the cost sharing model for power and rack space in enough POPs globally<br/>"
+    },
+    {
+      "dtime": 4543000,
+      "ptime": 4543000,
+      "author": "Jari Arkko",
+      "text": "Dirk: Very interesting. Thanks for this.<br/>"
+    },
+    {
+      "dtime": 4560000,
+      "ptime": 4560000,
+      "author": "Dirk Kutscher",
+      "text": "Thanks!<br/>"
+    },
+    {
+      "dtime": 4603000,
+      "ptime": 4603000,
+      "author": "Daniel Bernier",
+      "text": "Agreed<br/>"
+    },
+    {
+      "dtime": 4630000,
+      "ptime": 4630000,
+      "author": "Steven Hartley",
+      "text": "Share your whole screen and put slides covering your whole screen<br/>"
+    },
+    {
+      "dtime": 4640000,
+      "ptime": 4640000,
+      "author": "Anna Brunstrom",
+      "text": "You can share directly from meetecho perhaps?<br/>"
+    },
+    {
+      "dtime": 4660000,
+      "ptime": 4660000,
+      "author": "Colin Perkins",
+      "text": "Chairs can upload the slides as PDF to MeetEcho, and share directly from there.<br/>"
+    },
+    {
+      "dtime": 4841000,
+      "ptime": 4841000,
+      "author": "Eve Schooler",
+      "text": "meetecho not working properly for some reason; we have all the slides up on datatracker, but&nbsp;&nbsp;meetecho only recognizes one slide deck. go figure.<br/>"
+    },
+    {
+      "dtime": 4882000,
+      "ptime": 4882000,
+      "author": "Colin Perkins",
+      "text": "Press the \"settings” icon (top right, next to exit), then “manage slides” to convert the slides for MeetEcho. Once the slides are in MeetEcho, speakers can then share using the “Ask to share slides” button, which is next to the share screen. Slides don’t automatically flow from the datatracker to MeetEcho.<br/>"
+    },
+    {
+      "dtime": 4918000,
+      "ptime": 4918000,
+      "author": "Colin Perkins",
+      "text": "The UI is not obvious – I've seen it catch lots of groups out this week<br/>"
+    },
+    {
+      "dtime": 4990000,
+      "ptime": 4990000,
+      "author": "alexamirante",
+      "text": "what Colin said, plus if you don't see all decks in the \"manage slides\" window there's a refresh button to fatch them again from the datatracker, in case they have been uploaded there after you joined the session<br/>"
+    },
+    {
+      "dtime": 5006000,
+      "ptime": 5006000,
+      "author": "alexamirante",
+      "text": "*fetch<br/>"
+    },
+    {
+      "dtime": 5023000,
+      "ptime": 5023000,
+      "author": "Eve Schooler",
+      "text": "all there befroe the session began, just not recognized<br/>"
+    },
+    {
+      "dtime": 5026000,
+      "ptime": 5026000,
+      "author": "Eve Schooler",
+      "text": "by meetecho<br/>"
+    },
+    {
+      "dtime": 5045000,
+      "ptime": 5045000,
+      "author": "alexamirante",
+      "text": "I just checked and all of them are recognized<br/>"
+    },
+    {
+      "dtime": 5048000,
+      "ptime": 5048000,
+      "author": "Daniel King",
+      "text": "Is there a link to the MODA website, or paper? There are no links, papers or project websites in the slides, and various search engines have many projects with similar names.<br/>"
+    },
+    {
+      "dtime": 5064000,
+      "ptime": 5064000,
+      "author": "Jari Arkko",
+      "text": "I need to leave but had a comment on draft-fink-coin-sec-priv. The draft is interesting and of course addresses some relevant questions, such as how COIN and edge systems can assist for instance IOT devices in various security tasks. Thanks for writing it! The comment that I had was that for me at least it would also be useful to discuss how applications can trust the edge and COIN systems, and what mechanisms might be needed to support/enforce that trust. It could of course be that such discussion is in some other document... Anyway, the situation seems like a two-way street in many ways: what do we need in the devices and the network and compute elements to achieve a particular goal?<br/>"
+    },
+    {
+      "dtime": 5349000,
+      "ptime": 5349000,
+      "author": "Daniel Bernier",
+      "text": "would be interesting to see the diffs between the MODA approach versus other initiatives like Caladan or LegoOS, etc<br/>"
+    },
+    {
+      "dtime": 5368000,
+      "ptime": 5368000,
+      "author": "Eve Schooler",
+      "text": "THANKS Colin for the Meetecho guidance<br/>"
+    },
+    {
+      "dtime": 5633000,
+      "ptime": 5633000,
+      "author": "Dirk Kutscher",
+      "text": "Sorry for letting it expire -- there are many ideas for updating the draft -- just had too many things going on.<br/>"
+    },
+    {
+      "dtime": 5653000,
+      "ptime": 5653000,
+      "author": "Hannes Tschofenig",
+      "text": "What is the name of the draft being presented?<br/>"
+    },
+    {
+      "dtime": 5675000,
+      "ptime": 5675000,
+      "author": "Dirk Kutscher",
+      "text": "<a href=\"https://datatracker.ietf.org/doc/html/draft-irtf-coinrg-use-cases-01\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-irtf-coinrg-use-cases-01</a><br/>"
+    },
+    {
+      "dtime": 5710000,
+      "ptime": 5710000,
+      "author": "Adrian Farrel",
+      "text": "Is MODA a research project (perhaps currently applying for funding), an open source project (being established prior to full set up), a commercial consortium, or what?<br/>"
+    },
+    {
+      "dtime": 5732000,
+      "ptime": 5732000,
+      "author": "Hannes Tschofenig",
+      "text": "What happened actually to LegoOS?<br/>"
+    },
+    {
+      "dtime": 5839000,
+      "ptime": 5839000,
+      "author": "Marie-Jose Montpetit",
+      "text": "@Daniel: happy to talk<br/>"
+    },
+    {
+      "dtime": 5870000,
+      "ptime": 5870000,
+      "author": "Marie-Jose Montpetit",
+      "text": "@Adrian: applying for funding - but may morph<br/>"
+    },
+    {
+      "dtime": 5908000,
+      "ptime": 5908000,
+      "author": "Marie-Jose Montpetit",
+      "text": "Related to the current presentation - a paper in Hotnets today: <br/>TCP is Harmful to In-Network Computing: Designing a Message Transport Protocol (MTP) <br/>Brent E. Stephens (University of Utah); Darius Grassi and Hamidreza Almasi (University of Illinois at Chicago (UIC)); Tao Ji (UT Austin); Balajee Vamanan (University of Illinois at Chicago (UIC)); Aditya Akella (UT Austin)<br/>"
+    },
+    {
+      "dtime": 5928000,
+      "ptime": 5928000,
+      "author": "Dirk Kutscher",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 5928000,
+      "ptime": 5928000,
+      "author": "Adrian Farrel",
+      "text": "Thanks MJM, that's helpful<br/>"
+    },
+    {
+      "dtime": 5953000,
+      "ptime": 5953000,
+      "author": "Adrian Farrel",
+      "text": "@hannes. LegoOS git repo seemed to go quiet some time ago<br/>"
+    },
+    {
+      "dtime": 5959000,
+      "ptime": 5959000,
+      "author": "Ike Kunze",
+      "text": "@DirkK: No worries. We just wondered where it might be best to collect the terminology.<br/>"
+    },
+    {
+      "dtime": 6012000,
+      "ptime": 6012000,
+      "author": "Marie-Jose Montpetit",
+      "text": "@Adrian: we plan to write some architecture paper somewhere once we get our heads outside the water<br/>"
+    },
+    {
+      "dtime": 6057000,
+      "ptime": 6057000,
+      "author": "Hannes Tschofenig",
+      "text": "Thanks, Adrian. That's too bad<br/>"
+    },
+    {
+      "dtime": 6234000,
+      "ptime": 6234000,
+      "author": "Spencer Dawkins",
+      "text": "Is there a github repo for the transport draft?<br/>"
+    },
+    {
+      "dtime": 6310000,
+      "ptime": 6310000,
+      "author": "Ike Kunze",
+      "text": "@Spencer: for a previous version, yes. I think we have not pushed the current version, but can do that. <br/><a href=\"https://github.com/ike-kunze/transport-issues\" rel=\"nofollow\">https://github.com/ike-kunze/transport-issues</a><br/>"
+    },
+    {
+      "dtime": 6510000,
+      "ptime": 6510000,
+      "author": "Lou Berger",
+      "text": "anyone else having audio issues?<br/>"
+    },
+    {
+      "dtime": 6511000,
+      "ptime": 6511000,
+      "author": "Luigi Iannone",
+      "text": "Audio is very bad<br/>"
+    },
+    {
+      "dtime": 6513000,
+      "ptime": 6513000,
+      "author": "Steven Hartley",
+      "text": "Audio is choppy<br/>"
+    },
+    {
+      "dtime": 6515000,
+      "ptime": 6515000,
+      "author": "Ike Kunze",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 6525000,
+      "ptime": 6525000,
+      "author": "Adam Wiethuechter",
+      "text": "Same, had to leave and rejoin earlier<br/>"
+    },
+    {
+      "dtime": 6531000,
+      "ptime": 6531000,
+      "author": "Tianji Jiang",
+      "text": "voice broken<br/>"
+    },
+    {
+      "dtime": 6532000,
+      "ptime": 6532000,
+      "author": "Spencer Dawkins",
+      "text": "Other people have done better turning off video<br/>"
+    },
+    {
+      "dtime": 6541000,
+      "ptime": 6541000,
+      "author": "Spencer Dawkins",
+      "text": "(other speakers)<br/>"
+    },
+    {
+      "dtime": 6550000,
+      "ptime": 6550000,
+      "author": "Dirk Kutscher",
+      "text": "BTW, the PPM work that is behind the \"priv\" BOF (<a href=\"https://datatracker.ietf.org/meeting/112/materials/agenda-112-priv-02\" rel=\"nofollow\">https://datatracker.ietf.org/meeting/112/materials/agenda-112-priv-02</a>) is a secure MPC approach to privacy-preserving in-network computing (for data collection)<br/>"
+    },
+    {
+      "dtime": 6560000,
+      "ptime": 6560000,
+      "author": "Eve Schooler",
+      "text": "Audio difficulties<br/>"
+    },
+    {
+      "dtime": 6562000,
+      "ptime": 6562000,
+      "author": "Eve Schooler",
+      "text": "?<br/>"
+    },
+    {
+      "dtime": 6566000,
+      "ptime": 6566000,
+      "author": "Eve Schooler",
+      "text": "Just me or others?<br/>"
+    },
+    {
+      "dtime": 6571000,
+      "ptime": 6571000,
+      "author": "Dirk Kutscher",
+      "text": "Same here<br/>"
+    },
+    {
+      "dtime": 6580000,
+      "ptime": 6580000,
+      "author": "Bastiaan Wissingh",
+      "text": "same here<br/>"
+    },
+    {
+      "dtime": 6581000,
+      "ptime": 6581000,
+      "author": "Takuya Miyasaka",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 6581000,
+      "ptime": 6581000,
+      "author": "Joerg Ott",
+      "text": "yepp, secured<br/>"
+    },
+    {
+      "dtime": 6582000,
+      "ptime": 6582000,
+      "author": "Adam Wiethuechter",
+      "text": "Audio issues here as well<br/>"
+    },
+    {
+      "dtime": 6587000,
+      "ptime": 6587000,
+      "author": "Dirk Kutscher",
+      "text": "Likely on Ina's side<br/>"
+    },
+    {
+      "dtime": 6590000,
+      "ptime": 6590000,
+      "author": "Lou Berger",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 6600000,
+      "ptime": 6600000,
+      "author": "Lou Berger",
+      "text": "maybe stop screen share<br/>"
+    },
+    {
+      "dtime": 6607000,
+      "ptime": 6607000,
+      "author": "Adam Wiethuechter",
+      "text": "Now it's gone ...<br/>"
+    },
+    {
+      "dtime": 6619000,
+      "ptime": 6619000,
+      "author": "Luigi Iannone",
+      "text": "now is gone<br/>"
+    },
+    {
+      "dtime": 6621000,
+      "ptime": 6621000,
+      "author": "Hannes Tschofenig",
+      "text": "but now her voice was good<br/>"
+    },
+    {
+      "dtime": 6632000,
+      "ptime": 6632000,
+      "author": "Hannes Tschofenig",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 6664000,
+      "ptime": 6664000,
+      "author": "Joerg Ott",
+      "text": "buffering issue when speaking too long? It always seemed fine after a short break<br/>"
+    },
+    {
+      "dtime": 6667000,
+      "ptime": 6667000,
+      "author": "Joerg Ott",
+      "text": "for a moment<br/>"
+    },
+    {
+      "dtime": 6679000,
+      "ptime": 6679000,
+      "author": "Hannes Tschofenig",
+      "text": "It is kind of unfair to say (a) repeat your talk again, and (b) we are short on time<br/>"
+    },
+    {
+      "dtime": 6683000,
+      "ptime": 6683000,
+      "author": "Lou Berger",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 6684000,
+      "ptime": 6684000,
+      "author": "Joerg Ott",
+      "text": "there we go again<br/>"
+    },
+    {
+      "dtime": 6686000,
+      "ptime": 6686000,
+      "author": "Luigi Iannone",
+      "text": "bad again<br/>"
+    },
+    {
+      "dtime": 6691000,
+      "ptime": 6691000,
+      "author": "Steven Hartley",
+      "text": ":-(<br/>"
+    },
+    {
+      "dtime": 6701000,
+      "ptime": 6701000,
+      "author": "Tianji Jiang",
+      "text": "again :-(<br/>"
+    },
+    {
+      "dtime": 6707000,
+      "ptime": 6707000,
+      "author": "Dirk Kutscher",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 6711000,
+      "ptime": 6711000,
+      "author": "Hannes Tschofenig",
+      "text": "We don't need a new Internet -- we just need working VoIP<br/>"
+    },
+    {
+      "dtime": 6723000,
+      "ptime": 6723000,
+      "author": "Kehan Yao",
+      "text": "LoL<br/>"
+    },
+    {
+      "dtime": 6724000,
+      "ptime": 6724000,
+      "author": "Marie-Jose Montpetit",
+      "text": ":)<br/>"
+    },
+    {
+      "dtime": 6735000,
+      "ptime": 6735000,
+      "author": "Adam Wiethuechter",
+      "text": "Last presentation at the end all audio went garbled... For all participants at least for me<br/>"
+    },
+    {
+      "dtime": 6742000,
+      "ptime": 6742000,
+      "author": "Dirk Kutscher",
+      "text": "Meetecho needs a PSTN dial-in function ;-)<br/>"
+    },
+    {
+      "dtime": 6745000,
+      "ptime": 6745000,
+      "author": "Tianji Jiang",
+      "text": "like her voice got 'encrypted' :-)<br/>"
+    },
+    {
+      "dtime": 6753000,
+      "ptime": 6753000,
+      "author": "Takuya Miyasaka",
+      "text": "Network Monitoring is really required :)<br/>"
+    },
+    {
+      "dtime": 6753000,
+      "ptime": 6753000,
+      "author": "Adam Wiethuechter",
+      "text": "It's gone back to garbled for me again<br/>"
+    },
+    {
+      "dtime": 6762000,
+      "ptime": 6762000,
+      "author": "Tianji Jiang",
+      "text": "to echo the purpose of the talk 'security'<br/>"
+    },
+    {
+      "dtime": 6764000,
+      "ptime": 6764000,
+      "author": "Hannes Tschofenig",
+      "text": "Too bad - I really wanted to hear this<br/>"
+    },
+    {
+      "dtime": 6788000,
+      "ptime": 6788000,
+      "author": "Dirk Kutscher",
+      "text": "This is often an overload problem on the computer<br/>"
+    },
+    {
+      "dtime": 6797000,
+      "ptime": 6797000,
+      "author": "Dirk Kutscher",
+      "text": "specifically the browser<br/>"
+    },
+    {
+      "dtime": 6814000,
+      "ptime": 6814000,
+      "author": "Dirk Kutscher",
+      "text": "restart browser?<br/>"
+    },
+    {
+      "dtime": 6835000,
+      "ptime": 6835000,
+      "author": "Adrian Farrel",
+      "text": "This is sad. We all wanted to hear this. Also to pull up Jari's question from earlier in the chat<br/>"
+    },
+    {
+      "dtime": 6869000,
+      "ptime": 6869000,
+      "author": "Joerg Ott",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 6873000,
+      "ptime": 6873000,
+      "author": "Adam Wiethuechter",
+      "text": "Also another thing I noticed was when she has meetecho as an active window there wasn't issues...<br/>"
+    },
+    {
+      "dtime": 6874000,
+      "ptime": 6874000,
+      "author": "Luigi Iannone",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 6897000,
+      "ptime": 6897000,
+      "author": "Hannes Tschofenig",
+      "text": "Ina might feel that this is a test.<br/>"
+    },
+    {
+      "dtime": 6935000,
+      "ptime": 6935000,
+      "author": "Adam Wiethuechter",
+      "text": "Kind of like the browser or tab was buffering and trying to go to sleep cause it was in the background on her system<br/>"
+    },
+    {
+      "dtime": 7043000,
+      "ptime": 7043000,
+      "author": "Adam Wiethuechter",
+      "text": "@Hannes to get VoIP to work we may need a new internet ;-p<br/>"
+    },
+    {
+      "dtime": 7183000,
+      "ptime": 7183000,
+      "author": "Dirk Kutscher",
+      "text": "Jari's previous comment: I need to leave but had a comment on draft-fink-coin-sec-priv. The draft is interesting and of course addresses some relevant questions, such as how COIN and edge systems can assist for instance IOT devices in various security tasks. Thanks for writing it! The comment that I had was that for me at least it would also be useful to discuss how applications can trust the edge and COIN systems, and what mechanisms might be needed to support/enforce that trust. It could of course be that such discussion is in some other document... Anyway, the situation seems like a two-way street in many ways: what do we need in the devices and the network and compute elements to achieve a particular goal?<br/>"
+    },
+    {
+      "dtime": 7280000,
+      "ptime": 7280000,
+      "author": "Colin Perkins",
+      "text": "Chat is archived at <a href=\"https://jabber.ietf.org/jabber/logs/coinrg/2021-11-11.html\" rel=\"nofollow\">https://jabber.ietf.org/jabber/logs/coinrg/2021-11-11.html</a><br/>"
+    },
+    {
+      "dtime": 7294000,
+      "ptime": 7294000,
+      "author": "Hannes Tschofenig",
+      "text": "Thanks<br/>"
+    },
+    {
+      "dtime": 7306000,
+      "ptime": 7306000,
+      "author": "Dirk Kutscher",
+      "text": "Thanks!<br/>"
+    },
+    {
+      "dtime": 7310000,
+      "ptime": 7310000,
+      "author": "Ike Kunze",
+      "text": "Thanks all, bye<br/>"
+    },
+    {
+      "dtime": 7316000,
+      "ptime": 7316000,
+      "author": "Dirk Trossen",
+      "text": "Thanks!<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-COINRG-20211111-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/coinrg"
+    }
+  ]
+}

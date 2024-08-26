@@ -1,0 +1,665 @@
+
+{
+	"title": "IETF-MIMI-20240522-1600",
+	"filename": "IETF-MIMI-20240522-1600",
+	"start": 0,
+	"end": 6823000,
+	"start_datetime": "2024-05-22T16:01:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "LGGxDaLlKAk",
+    "start": 0,
+    "end": "6823000"
+  }
+],
+	"messages": [
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>PSI and CPI!</p>",
+    "topic": "ietf-interim",
+    "dtime": 614000,
+    "ptime": 614000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>+1 to Pounds per Square Inch ;) </p>\n<p>(not a real concern)</p>",
+    "topic": "ietf-interim",
+    "dtime": 619000,
+    "ptime": 619000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@Jon:<br>\nLocal-Provider Identifier vs.</p>\n<p>Cross-Provider Identifier OR<br>\n Global Identifier?</p>",
+    "topic": "ietf-interim",
+    "dtime": 621000,
+    "ptime": 621000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>IETF is firmly a Système International organisation and uses kPa for pressure so there's no conflict</p>",
+    "topic": "ietf-interim",
+    "dtime": 653000,
+    "ptime": 653000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>why are the platforms the ones deciding who to trust, rather than the endpoints?</p>",
+    "topic": "ietf-interim",
+    "dtime": 733000,
+    "ptime": 733000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@DKG: I agree with you about endpoints in principle, but in practice aren't these largely the same?</p>",
+    "topic": "ietf-interim",
+    "dtime": 778000,
+    "ptime": 778000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>not for me -- my goal for e2e comms is that the endpoint can't be abused by their platform provider</p>",
+    "topic": "ietf-interim",
+    "dtime": 885000,
+    "ptime": 885000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I more meant that for most people the endpoint is supplied by their platform provider. I agree not always, hence \"largely\" above</p>",
+    "topic": "ietf-interim",
+    "dtime": 969000,
+    "ptime": 969000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@dkg<br>\nOnce you have the address of a target user on a specific provider, the endpoints are the ones responsible for the trust. I'd like the workflow to make that the trivial default. Many of the folks on this call think that consumers will continue to use a phone number (and occasionally an email address) to find users. The goal of Jon's work is that platforms can demonstrate how they verified the user on provider was in possession of that phone number or email address.</p>",
+    "topic": "ietf-interim",
+    "dtime": 996000,
+    "ptime": 996000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>please let's not bake that assumption into the architecture.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1003000,
+    "ptime": 1003000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>we should be aiming for something where i can use client X with provider Y.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1034000,
+    "ptime": 1034000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(where X and Y are mutually distrusting parties)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1050000,
+    "ptime": 1050000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>agreed. and the mimi-protocol draft assumes that, provided you use a handle provided by the user for their provider (or an equivalent link or QR code)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1122000,
+    "ptime": 1122000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Wait, DKG, do you mean that I should be able to use client X with provider Y without provider X being involved?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1145000,
+    "ptime": 1145000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>note: in that case you don't require provider discovery</p>",
+    "topic": "ietf-interim",
+    "dtime": 1149000,
+    "ptime": 1149000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Client X may come from a third party that is not also a provider</p>",
+    "topic": "ietf-interim",
+    "dtime": 1174000,
+    "ptime": 1174000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Tim, i use a MUA that is not made by the party that operates my mail service.  that shouldn't be surprising.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1178000,
+    "ptime": 1178000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>DKG: I agree that's a good goal but I think it's out of scope of MIMI's chartered work.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1188000,
+    "ptime": 1188000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>If MIMI produces an architecture where the user must run a client that is shipped by their provider, then we haven't provided e2e protections against the provider.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1240000,
+    "ptime": 1240000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Also, restricting who can write and distribute a client looks hardly justifiable in terms of market competition, which is the stated purpose of the applicable regulation</p>",
+    "topic": "ietf-interim",
+    "dtime": 1288000,
+    "ptime": 1288000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Vittorio++</p>",
+    "topic": "ietf-interim",
+    "dtime": 1300000,
+    "ptime": 1300000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/118978\">said</a>:</p>\n<blockquote>\n<p>If MIMI produces an architecture where the user must run a client that is shipped by their provider, then we haven't provided e2e protections against the provider.</p>\n</blockquote>\n<p>I'm not sure this is actually true.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1301000,
+    "ptime": 1301000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/118981\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/118978\">said</a>:</p>\n<blockquote>\n<p>If MIMI produces an architecture where the user must run a client that is shipped by their provider, then we haven't provided e2e protections against the provider.</p>\n</blockquote>\n<p>I'm not sure this is actually true.</p>\n</blockquote>\n<p>&lt;insert vigorous handwaving about binary transparency, open source, etc&gt;</p>",
+    "topic": "ietf-interim",
+    "dtime": 1334000,
+    "ptime": 1334000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>no?  if i ship my client to you and you have no choice but to run it, then all the cryptography in the world doesn't protect message confidentiality or authenticity</p>",
+    "topic": "ietf-interim",
+    "dtime": 1337000,
+    "ptime": 1337000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm all for binary transparency and source visibility, but if it doesn't come with software freedom (the ability to actually use clients modified in ways that the provider disagrees with) then there's no protection.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1400000,
+    "ptime": 1400000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I think at some level you need to rely on legal mechanisms rather than technical ones (if you claim you're providing e2e security and you're not, that's consumer fraud).</p>",
+    "topic": "ietf-interim",
+    "dtime": 1401000,
+    "ptime": 1401000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>and i don't think MIMI is chartered to mandate software freedom</p>",
+    "topic": "ietf-interim",
+    "dtime": 1463000,
+    "ptime": 1463000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/118984\">said</a>:</p>\n<blockquote>\n<p>i'm all for binary transparency and source visibility, but if it doesn't come with software freedom (the ability to actually use clients modified in ways that the provider disagrees with) then there's no protection.</p>\n</blockquote>\n<p>I don't think I agree with that technically, though maybe as a matter of political economy. However, maybe this is a topic for a different discussion</p>",
+    "topic": "ietf-interim",
+    "dtime": 1590000,
+    "ptime": 1590000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Too many Jonathans in the IETF</p>",
+    "topic": "ietf-interim",
+    "dtime": 1795000,
+    "ptime": 1795000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"768\">Vittorio Bertola</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/118979\">said</a>:</p>\n<blockquote>\n<p>Also, restricting who can write and distribute a client looks hardly justifiable in terms of market competition, which is the stated purpose of the applicable regulation</p>\n</blockquote>\n<p>Without debating the wisdom of this particular decision by the EC, allowing folks to build their own clients is neither consistent with the spirit, nor the letter of the DMA article 7. The article deals with European providers having the ability to interoperate with gatekeeper providers. That's all.</p>\n<p>We are chartered in MIMI for a provider to provider interface and to specify the e2e encryption and encrypted content for the clients. We are not chartered to specify client to (other) provider behavior.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1996000,
+    "ptime": 1996000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I agree with Rohan about the state of play. I would prefer a completely open system, but the EC requirements don't mandate that</p>",
+    "topic": "ietf-interim",
+    "dtime": 2126000,
+    "ptime": 2126000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>do the interoperability requirements say anything at all about e2ee?  i think we are emphasizing the e2ee angle, rightly, because <em>we know</em> that those properties are important to preserve.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2222000,
+    "ptime": 2222000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I believe the interoperability requirements say that you must have all features that the platform provides, and the platforms currently provide e2ee.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2271000,
+    "ptime": 2271000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/118994\">said</a>:</p>\n<blockquote>\n<p>do the interoperability requirements say anything at all about e2ee?  i think we are emphasizing the e2ee angle, rightly, because <em>we know</em> that those properties are important to preserve.</p>\n</blockquote>\n<p>YES! But they are pretty vague. The legislation says that e2e encryption needs to be preserved <em>to the extent it is provided among the gatekeeper's own users</em>.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2351000,
+    "ptime": 2351000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Fortunately, 100% of the current article 7 gatekeepers (WhatsApp) have pretty reasonable e2e encryption among their own users (including KT at the moment).</p>",
+    "topic": "ietf-interim",
+    "dtime": 2432000,
+    "ptime": 2432000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>@Rohan, there is a lot of discussion here on whether the law allows the Commission to mandate the use of an open protocol as opposed to accepting whatever API each gatekeeper comes up with. The EC has the right to challenge whatever technical remedy the gatekeepers come up with, claim that it does not meet the letter and spirit of the law, and require further technical changes. The gatekeeper can then bring that challenge to a court. Whether that will happen, nobody knows.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2540000,
+    "ptime": 2540000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>At the same time, it's weird for an IETF working group to build a restrictive protocol by design.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2574000,
+    "ptime": 2574000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Why should this be any different from email?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"768\">Vittorio Bertola</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119007\">said</a>:</p>\n<blockquote>\n<p>Why should this be any different from email?</p>\n</blockquote>\n<p>Well, e-mail in fact does permit closed client-&gt;mail server protocols. That's what WebMail is</p>",
+    "topic": "ietf-interim",
+    "dtime": 2642000,
+    "ptime": 2642000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>That's a deployment, not the mail protocol itself.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2668000,
+    "ptime": 2668000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"768\">Vittorio Bertola</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119009\">said</a>:</p>\n<blockquote>\n<p>That's a deployment, not the mail protocol itself.</p>\n</blockquote>\n<p>There are two protocols. One server-&gt;server (SMTP) and one client-&gt;server (WebMail)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2693000,
+    "ptime": 2693000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i think ekr's point is that SMTP doesn't specify client→server interaction at all</p>",
+    "topic": "ietf-interim",
+    "dtime": 2694000,
+    "ptime": 2694000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Yes, but also it does not assume in the architectural design that only people running a server can provide a client.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2726000,
+    "ptime": 2726000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"768\">Vittorio Bertola</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119012\">said</a>:</p>\n<blockquote>\n<p>Yes, but also it does not assume in the architectural design that only people running a server can provide a client.</p>\n</blockquote>\n<p>Yes, and I don't see architectural proposals here which require that</p>",
+    "topic": "ietf-interim",
+    "dtime": 2761000,
+    "ptime": 2761000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>That seemed to be an assumption in the discovery architecture 20 minutes ago.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2799000,
+    "ptime": 2799000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"768\">Vittorio Bertola</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119014\">said</a>:</p>\n<blockquote>\n<p>That seemed to be an assumption in the discovery architecture 20 minutes ago.</p>\n</blockquote>\n<p>Certainly not mine.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2902000,
+    "ptime": 2902000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>The user's device can insert an OTP automatically</p>",
+    "topic": "ietf-interim",
+    "dtime": 2962000,
+    "ptime": 2962000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"768\">Vittorio Bertola</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119006\">said</a>:</p>\n<blockquote>\n<p>At the same time, it's weird for an IETF working group to build a restrictive protocol by design.</p>\n</blockquote>\n<p>The IETF already built two complete Instant Messaging protocol stacks, both of which were implemented widely (SIMPLE—implemented in 3GPP, and XMPP—implemented widely by all the major tech vendors in the early 2000s). We are chartered to develop a provider to provider interface <em>because</em> the IETF believes there is demand for that among existing implementors, while there is very little demand by existing implementors to completely replace their client to provider protocols. If we are successful, vendors may decide that a new clean client to provider protocol which takes advantage of the server-to-server protocol semantics, but we are not there right now.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2965000,
+    "ptime": 2965000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"768\">Vittorio Bertola</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119014\">said</a>:</p>\n<blockquote>\n<p>That seemed to be an assumption in the discovery architecture 20 minutes ago.</p>\n</blockquote>\n<p>as I have been trying to say, discovery is not a mandatory part of MIM and isn't even part of the \"mimi-protocol\". Personally I hope nobody ever uses the discovery protocol. If someone wants to build and deploy a MIMI provider that has an open client-server protocol and allow multiple clients, great.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3173000,
+    "ptime": 3173000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>100% agree with Femi that the question of protecting privacy around the <em>fact of the query</em> is an entirely different question than protecting privacy of the  <em>binding between the CPI and an MSP</em></p>",
+    "topic": "ietf-interim",
+    "dtime": 3415000,
+    "ptime": 3415000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>I got a spam robocall literally while Jon P. was discussing the widespread spam robocall problem. MIMI discussions are manifesting into the real world.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3543000,
+    "ptime": 3543000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1147\">Tim Geoghegan</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119037\">said</a>:</p>\n<blockquote>\n<p>I got a spam robocall literally while Jon P. was discussing the widespread spam robocall problem. MIMI discussions are manifesting into the real world.</p>\n</blockquote>\n<p>That was just me calling, actually :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3576000,
+    "ptime": 3576000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>IMO: Making it possible for someone to find that Rohan has an account of MumbleMessenger is a privacy issue, but one that I could allow or deny globally (\"Allow people who have my number to find my account on MumbleMessenger\").</p>\n<p>I also agree that details about a query is more sensitive personal information because it reveals part of a social graph over time.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3642000,
+    "ptime": 3642000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm not arguing for PIR, fwiw</p>",
+    "topic": "ietf-interim",
+    "dtime": 4283000,
+    "ptime": 4283000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>anonymized queries would be fine with me</p>",
+    "topic": "ietf-interim",
+    "dtime": 4300000,
+    "ptime": 4300000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>Agree with your point on protecting the social graph edge.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4327000,
+    "ptime": 4327000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>That's great to hear about the keying material</p>",
+    "topic": "ietf-interim",
+    "dtime": 4394000,
+    "ptime": 4394000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i appreciate Giles' point that you could defend both the mapping and the edges of the social graph using IP blinding with anonymous credentials for rate limiting.  In practice, the folks who are doing the rate limiting are going to be tempted to ignore any requirement for anonymous credentials, because they would be happy to learn the social graph edge during queries.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4515000,
+    "ptime": 4515000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Anonymous credentials sounds like Privacy Pass, which is _yet another_ independent trusted party in the mix</p>",
+    "topic": "ietf-interim",
+    "dtime": 4566000,
+    "ptime": 4566000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>It doesn't have to be independent or trusted in this case necessarily</p>",
+    "topic": "ietf-interim",
+    "dtime": 4584000,
+    "ptime": 4584000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>Yes - protecting the querier's identity cannot be done without some trusted parties</p>",
+    "topic": "ietf-interim",
+    "dtime": 4598000,
+    "ptime": 4598000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p>Right; it does not have to be independent.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4603000,
+    "ptime": 4603000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119044\">said</a>:</p>\n<blockquote>\n<p>i appreciate Giles' point that you could defend both the mapping and the edges of the social graph using IP blinding with anonymous credentials for rate limiting.  In practice, the folks who are doing the rate limiting are going to be tempted to ignore any requirement for anonymous credentials, because they would be happy to learn the social graph edge during queries.</p>\n</blockquote>\n<p>+1</p>",
+    "topic": "ietf-interim",
+    "dtime": 4615000,
+    "ptime": 4615000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>So, like in this case, my MSP just gives me an anonymous credential</p>",
+    "topic": "ietf-interim",
+    "dtime": 4619000,
+    "ptime": 4619000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>and I can verity it's anonymous</p>",
+    "topic": "ietf-interim",
+    "dtime": 4625000,
+    "ptime": 4625000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Oh, yes, I see</p>",
+    "topic": "ietf-interim",
+    "dtime": 4631000,
+    "ptime": 4631000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Is there an idea that the MSP might not ever know the CPI of the person you're messaging, only the PSI?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4644000,
+    "ptime": 4644000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Giles: you can defend the querier's identity if you just publish the whole mapping database</p>",
+    "topic": "ietf-interim",
+    "dtime": 4651000,
+    "ptime": 4651000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I.e. it knows I'm talking to <a href=\"mailto:uuid@apple.com\">uuid@apple.com</a>, but not know that that's +12125551212?</p>",
+    "topic": "ietf-interim",
+    "dtime": 4667000,
+    "ptime": 4667000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>jonathan, we should absolutely support that use case.  there should be no requirement for involving a CPI in any messaging.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4700000,
+    "ptime": 4700000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>Dkg - true but that's a huge tradeoff.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4707000,
+    "ptime": 4707000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>right, but it's a simple one that everyone knows how to implement ☺</p>",
+    "topic": "ietf-interim",
+    "dtime": 4728000,
+    "ptime": 4728000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-interim/near/119055\">said</a>:</p>\n<blockquote>\n<p>I.e. it knows I'm talking to <a href=\"mailto:uuid@apple.com\">uuid@apple.com</a>, but not know that that's +12125551212?</p>\n</blockquote>\n<p>Indeed</p>",
+    "topic": "ietf-interim",
+    "dtime": 4747000,
+    "ptime": 4747000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>and if we are admitting that the mapping between CSI and MSP isn't actually sensitive, it is a lot simpler.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4760000,
+    "ptime": 4760000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>100% agreed that the UX needs to be simple</p>",
+    "topic": "ietf-interim",
+    "dtime": 5338000,
+    "ptime": 5338000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>but that doesn't mean there can't be a signature.  we just need better tooling.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5432000,
+    "ptime": 5432000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the problem here is that the legacy CPI namespaces don't have cryptographic bindings.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6142000,
+    "ptime": 6142000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>if they did, then we could just rely on those and not need an idprover</p>",
+    "topic": "ietf-interim",
+    "dtime": 6211000,
+    "ptime": 6211000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 6242000,
+    "ptime": 6242000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the more i look at this the more i find myself appreciating Rohan's perspective, of just wanting to blow past this discovery process, and ignoring the legacy CPI namespaces entirely ☹</p>",
+    "topic": "ietf-interim",
+    "dtime": 6327000,
+    "ptime": 6327000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>The incentives here might also be out of alignment — the gatekeeper MSPs are not incentivized to have their users be discoverable, while the competitor MSPs do, and those competitor MSPs are the ones that need an independent idprover to exist the most (maybe?).</p>",
+    "topic": "ietf-interim",
+    "dtime": 6478000,
+    "ptime": 6478000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Interims will continue until morale improves</p>",
+    "topic": "ietf-interim",
+    "dtime": 6579000,
+    "ptime": 6579000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>@dkg I also think that adopting completely new CPIs may be more productive, though some clear migration path may be necessary</p>",
+    "topic": "ietf-interim",
+    "dtime": 6636000,
+    "ptime": 6636000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>I'm glad that Jon got through his slides too.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6689000,
+    "ptime": 6689000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>srsly</p>",
+    "topic": "ietf-interim",
+    "dtime": 6698000,
+    "ptime": 6698000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Alissa's point about incentives is really valuable.  please include that in any operational considerations.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6718000,
+    "ptime": 6718000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p><span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 6736000,
+    "ptime": 6736000
+  },
+  {
+    "author": "Femi Olumofin",
+    "text": "<p><span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 6796000,
+    "ptime": 6796000
+  },
+  {
+    "author": "Giles Hogben",
+    "text": "<p>@rohan - we should pull in Basel from Google side on external commits</p>",
+    "topic": "ietf-interim",
+    "dtime": 6803000,
+    "ptime": 6803000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>bye</p>",
+    "topic": "ietf-interim",
+    "dtime": 6821000,
+    "ptime": 6821000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-MIMI-20240522-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-mimi-04/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-MIMI-20240522-1600"
+		}
+	]
+}

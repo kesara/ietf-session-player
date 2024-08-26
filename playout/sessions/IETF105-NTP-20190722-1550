@@ -1,0 +1,1031 @@
+{
+  "title": "IETF105-NTP-20190722-1550",
+  "filename": "IETF105-NTP-20190722-1550",
+  "start": 0,
+  "end": 4182000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "-KkSQhODJVg",
+      "start": 0.0,
+      "end": 4182000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Christer Weinigel just left the room",
+      "ptime": 74000.0,
+      "dtime": 697000.0
+    },
+    {
+      "text": "***Christer Weinigel just joined the room",
+      "ptime": 76000.0,
+      "dtime": 699000.0
+    },
+    {
+      "text": "tanya verma, also from cloudflare is on the meeting with me. i might hand over the laptop",
+      "ptime": 99000.0,
+      "dtime": 722000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "***Andy Fidler just joined the room",
+      "ptime": 115000.0,
+      "dtime": 738000.0
+    },
+    {
+      "text": "***Christer Weinigel just left the room",
+      "ptime": 116000.0,
+      "dtime": 739000.0
+    },
+    {
+      "text": "***Christer Weinigel just joined the room",
+      "ptime": 118000.0,
+      "dtime": 741000.0
+    },
+    {
+      "text": "I still can\u0027t figure out how to put my microphone on mute",
+      "ptime": 167000.0,
+      "dtime": 790000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "Problem with audio? (Was receiving ok..now silence)",
+      "ptime": 180000.0,
+      "dtime": 803000.0,
+      "author": "Fernando Gont"
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 188000.0,
+      "dtime": 811000.0
+    },
+    {
+      "text": "no, I can hear fine",
+      "ptime": 198000.0,
+      "dtime": 821000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "***Tanya Verma just joined the room",
+      "ptime": 207000.0,
+      "dtime": 830000.0
+    },
+    {
+      "text": "perfect here",
+      "ptime": 209000.0,
+      "dtime": 832000.0,
+      "author": "Martin Langer"
+    },
+    {
+      "text": "Now ok",
+      "ptime": 217000.0,
+      "dtime": 840000.0,
+      "author": "Fernando Gont"
+    },
+    {
+      "text": "***Steve Guendert just joined the room",
+      "ptime": 228000.0,
+      "dtime": 851000.0
+    },
+    {
+      "text": "***Andy Fidler just left the room",
+      "ptime": 233000.0,
+      "dtime": 856000.0
+    },
+    {
+      "text": "I\u0027m jabber scribe, if you want anything said at the mic ping me or put MIC at the start of your message",
+      "ptime": 309000.0,
+      "dtime": 932000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Fernando Gont just left the room",
+      "ptime": 353000.0,
+      "dtime": 976000.0
+    },
+    {
+      "text": "Doug Arnold at mic",
+      "ptime": 398000.0,
+      "dtime": 1021000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "title page",
+      "ptime": 406000.0,
+      "dtime": 1029000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "\"agenda\" page",
+      "ptime": 420000.0,
+      "dtime": 1043000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Tanya Verma just left the room",
+      "ptime": 448000.0,
+      "dtime": 1071000.0
+    },
+    {
+      "text": "***Fernando Gont just joined the room",
+      "ptime": 505000.0,
+      "dtime": 1128000.0
+    },
+    {
+      "text": "\"Secure enterprise data center profile for ieee 1588 precision time protocol\"",
+      "ptime": 515000.0,
+      "dtime": 1138000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "\"financial regulations driving ptp adoption\"",
+      "ptime": 570000.0,
+      "dtime": 1193000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Why PTP if you only need 50ms precision?",
+      "ptime": 602000.0,
+      "dtime": 1225000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "question for the mic?",
+      "ptime": 614000.0,
+      "dtime": 1237000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "It is the complaince requirement",
+      "ptime": 626000.0,
+      "dtime": 1249000.0,
+      "author": "dsibold01"
+    },
+    {
+      "text": "\"data center\"",
+      "ptime": 643000.0,
+      "dtime": 1266000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "if you only need 50ms, that\u0027s easily in reach for NTP, which being a two-way protocol is much easier to secure.",
+      "ptime": 663000.0,
+      "dtime": 1286000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "***Tal Mizrahi just joined the room",
+      "ptime": 693000.0,
+      "dtime": 1316000.0
+    },
+    {
+      "text": "\"ieee 1588 ptp and security to date\"",
+      "ptime": 710000.0,
+      "dtime": 1333000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "But in europe it is 100 microseconds. That is hard for NTP.",
+      "ptime": 732000.0,
+      "dtime": 1355000.0,
+      "author": "dsibold01"
+    },
+    {
+      "text": "\"the problem with this approach\"",
+      "ptime": 785000.0,
+      "dtime": 1408000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Marcus Dansarie just joined the room",
+      "ptime": 818000.0,
+      "dtime": 1441000.0
+    },
+    {
+      "text": "100 microseconds is still easy with NTP if you share a LAN with your source, and that\u0027s the only deployment environment where PTP is practical.",
+      "ptime": 824000.0,
+      "dtime": 1447000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "1 microsecond would be a different discussion.",
+      "ptime": 838000.0,
+      "dtime": 1461000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "***Steve Sullivan just joined the room",
+      "ptime": 838000.0,
+      "dtime": 1461000.0
+    },
+    {
+      "text": "\"additional data center requirements\"",
+      "ptime": 839000.0,
+      "dtime": 1462000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "correct",
+      "ptime": 845000.0,
+      "dtime": 1468000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "sounds like they want NTS which uses tls... shouldn\u0027t be that bad",
+      "ptime": 880000.0,
+      "dtime": 1503000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "\"ptp secure enterprise data center profile\"",
+      "ptime": 916000.0,
+      "dtime": 1539000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "you mean the NTS-KE for PTP?",
+      "ptime": 926000.0,
+      "dtime": 1549000.0,
+      "author": "Martin Langer"
+    },
+    {
+      "text": "we originally envisioned having the same solution for NTP and PTP? and the communities are different?",
+      "ptime": 926000.0,
+      "dtime": 1549000.0,
+      "author": "Karen O\u0027Donoghue"
+    },
+    {
+      "text": "martin is exactly right",
+      "ptime": 947000.0,
+      "dtime": 1570000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "***Lars-Johan Liman just joined the room",
+      "ptime": 959000.0,
+      "dtime": 1582000.0
+    },
+    {
+      "text": "two step \u003d query/response?",
+      "ptime": 988000.0,
+      "dtime": 1611000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "***Peter Jones just left the room",
+      "ptime": 1013000.0,
+      "dtime": 1636000.0
+    },
+    {
+      "text": "no? two step is synch and followup? so a correction is sent after the original",
+      "ptime": 1028000.0,
+      "dtime": 1651000.0,
+      "author": "Karen O\u0027Donoghue"
+    },
+    {
+      "text": "\"please contact the authors ...\"",
+      "ptime": 1031000.0,
+      "dtime": 1654000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "interleave?",
+      "ptime": 1045000.0,
+      "dtime": 1668000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "well? the PTP version of that",
+      "ptime": 1058000.0,
+      "dtime": 1681000.0,
+      "author": "Karen O\u0027Donoghue"
+    },
+    {
+      "text": "I already had some talk about this topic, but still no concrete process",
+      "ptime": 1060000.0,
+      "dtime": 1683000.0,
+      "author": "Martin Langer"
+    },
+    {
+      "text": "tal mizrahi",
+      "ptime": 1072000.0,
+      "dtime": 1695000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "I continue to maintain that trying to cryptographically secure a one-way (i.e. broadcast) time protocol is a doomed enterprise.",
+      "ptime": 1080000.0,
+      "dtime": 1703000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "There\u0027s no getting around delay attacks.",
+      "ptime": 1102000.0,
+      "dtime": 1725000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "if you don\u0027t get in the virtual queue you can put a question here by prepending it with MIC\"",
+      "ptime": 1120000.0,
+      "dtime": 1743000.0,
+      "author": "Karen O\u0027Donoghue"
+    },
+    {
+      "text": "That goes for both PTP and broadcast-mode NTP.",
+      "ptime": 1130000.0,
+      "dtime": 1753000.0,
+      "author": "Daniel Franke"
+    },
+    {
+      "text": "stu card",
+      "ptime": 1134000.0,
+      "dtime": 1757000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "white rabbit?",
+      "ptime": 1153000.0,
+      "dtime": 1776000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "CERN ptp",
+      "ptime": 1160000.0,
+      "dtime": 1783000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "gets to nanoseconds",
+      "ptime": 1163000.0,
+      "dtime": 1786000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "stu card",
+      "ptime": 1235000.0,
+      "dtime": 1858000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "White Rabbit \u003d https://www.ohwr.org/project/white-rabbit/wikis/synchronization",
+      "ptime": 1248000.0,
+      "dtime": 1871000.0,
+      "author": "Denis Reilly"
+    },
+    {
+      "text": "wireless\u003duse the PHY layer!",
+      "ptime": 1260000.0,
+      "dtime": 1883000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "WR is really cool, and open source/open hardware, check it out!",
+      "ptime": 1275000.0,
+      "dtime": 1898000.0,
+      "author": "ragge@kth.se"
+    },
+    {
+      "text": "https://tf.nist.gov/time/twoway.htm",
+      "ptime": 1289000.0,
+      "dtime": 1912000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "***David Barry just joined the room",
+      "ptime": 1317000.0,
+      "dtime": 1940000.0
+    },
+    {
+      "text": "authentication vs. encryption",
+      "ptime": 1467000.0,
+      "dtime": 2090000.0,
+      "author": "Steve Guendert"
+    },
+    {
+      "text": "***Harlan Stenn just joined the room",
+      "ptime": 1470000.0,
+      "dtime": 2093000.0
+    },
+    {
+      "text": "if you need that level of accuracy then you probably need an atomic clock today.",
+      "ptime": 1563000.0,
+      "dtime": 2186000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "Hi, you can see to our proposition:  https://datatracker.ietf.org/doc/draft-alavarez-hamelin-tictoc-sic/",
+      "ptime": 1595000.0,
+      "dtime": 2218000.0,
+      "author": "J. Ignacio Alvarez-Hamelin"
+    },
+    {
+      "text": "as hardware and software gets better NTP might be possible",
+      "ptime": 1612000.0,
+      "dtime": 2235000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "it is secure",
+      "ptime": 1614000.0,
+      "dtime": 2237000.0,
+      "author": "J. Ignacio Alvarez-Hamelin"
+    },
+    {
+      "text": "***Tanya Verma just joined the room",
+      "ptime": 1724000.0,
+      "dtime": 2347000.0
+    },
+    {
+      "text": "here it is our implentation",
+      "ptime": 1725000.0,
+      "dtime": 2348000.0,
+      "author": "J. Ignacio Alvarez-Hamelin"
+    },
+    {
+      "text": "why not a better estimator for NTP+NTS?",
+      "ptime": 1743000.0,
+      "dtime": 2366000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "define estimator?",
+      "ptime": 1771000.0,
+      "dtime": 2394000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "the estimator computes the phase and frequency differences from the measurements. sorry, i think in control theory sometimes.",
+      "ptime": 1806000.0,
+      "dtime": 2429000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "One of the problem of NTP is the traffic in the network",
+      "ptime": 1823000.0,
+      "dtime": 2446000.0,
+      "author": "J. Ignacio Alvarez-Hamelin"
+    },
+    {
+      "text": "yep",
+      "ptime": 1831000.0,
+      "dtime": 2454000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "And the filtering  of NTP has some drawbacks",
+      "ptime": 1879000.0,
+      "dtime": 2502000.0,
+      "author": "J. Ignacio Alvarez-Hamelin"
+    },
+    {
+      "text": "i\u0027ll take a look, but it\u0027s not clear that sic avoids the other traffic",
+      "ptime": 1887000.0,
+      "dtime": 2510000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "Our proposition attacks this subject",
+      "ptime": 1895000.0,
+      "dtime": 2518000.0,
+      "author": "J. Ignacio Alvarez-Hamelin"
+    },
+    {
+      "text": "chister ?",
+      "ptime": 1986000.0,
+      "dtime": 2609000.0,
+      "author": "Karen O\u0027Donoghue"
+    },
+    {
+      "text": "your tictoc draft?",
+      "ptime": 2000000.0,
+      "dtime": 2623000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "yes",
+      "ptime": 2010000.0,
+      "dtime": 2633000.0,
+      "author": "J. Ignacio Alvarez-Hamelin"
+    },
+    {
+      "text": "I don\u0027t seem to be able to get onto the queue.",
+      "ptime": 2016000.0,
+      "dtime": 2639000.0,
+      "author": "Christer Weinigel"
+    },
+    {
+      "text": "ok?",
+      "ptime": 2023000.0,
+      "dtime": 2646000.0,
+      "author": "Karen O\u0027Donoghue"
+    },
+    {
+      "text": "You might have signed on as an \"observer\" and not a \"participant\"",
+      "ptime": 2040000.0,
+      "dtime": 2663000.0,
+      "author": "Denis Reilly"
+    },
+    {
+      "text": "I didn\u0027t prepare any talk though.  If you want to you can just show the google document.",
+      "ptime": 2041000.0,
+      "dtime": 2664000.0,
+      "author": "Christer Weinigel"
+    },
+    {
+      "text": "ok?",
+      "ptime": 2052000.0,
+      "dtime": 2675000.0,
+      "author": "Karen O\u0027Donoghue"
+    },
+    {
+      "text": "Yang Model, Druv presenting.  p2 \"Recent Changes\"",
+      "ptime": 2053000.0,
+      "dtime": 2676000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2 Recent Changes",
+      "ptime": 2072000.0,
+      "dtime": 2695000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "I have no working mic right now... so I can\u0027t talk either",
+      "ptime": 2120000.0,
+      "dtime": 2743000.0,
+      "author": "Martin Langer"
+    },
+    {
+      "text": "Suresh at mic",
+      "ptime": 2159000.0,
+      "dtime": 2782000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "pg 3 Next Step",
+      "ptime": 2261000.0,
+      "dtime": 2884000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Harlan via MeetEcho",
+      "ptime": 2271000.0,
+      "dtime": 2894000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Christer Weinigel just left the room",
+      "ptime": 2367000.0,
+      "dtime": 2990000.0
+    },
+    {
+      "text": "***Christer Weinigel just joined the room",
+      "ptime": 2370000.0,
+      "dtime": 2993000.0
+    },
+    {
+      "text": "Fernando, remote, on Port Randomization",
+      "ptime": 2399000.0,
+      "dtime": 3022000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2 Introduction",
+      "ptime": 2426000.0,
+      "dtime": 3049000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "I cannot hear him",
+      "ptime": 2437000.0,
+      "dtime": 3060000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "audio garbled",
+      "ptime": 2439000.0,
+      "dtime": 3062000.0,
+      "author": "Watson Ladd"
+    },
+    {
+      "text": "very garbled here too",
+      "ptime": 2447000.0,
+      "dtime": 3070000.0,
+      "author": "Steve Sullivan"
+    },
+    {
+      "text": "RFC5905 predates BCP 156",
+      "ptime": 2470000.0,
+      "dtime": 3093000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "draft-gont-ntp-port-randomization",
+      "ptime": 2556000.0,
+      "dtime": 3179000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "the recommendation must clearly be that *client*port randomization is recommeneded.",
+      "ptime": 2591000.0,
+      "dtime": 3214000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "pg, moving forward",
+      "ptime": 2594000.0,
+      "dtime": 3217000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "not good enough if you are concerned with authentication",
+      "ptime": 2598000.0,
+      "dtime": 3221000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "reminder: say \"mic\" if you want me to relay",
+      "ptime": 2612000.0,
+      "dtime": 3235000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "sorry security",
+      "ptime": 2618000.0,
+      "dtime": 3241000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "***Christer Weinigel just left the room",
+      "ptime": 2632000.0,
+      "dtime": 3255000.0
+    },
+    {
+      "text": "***Christer Weinigel just joined the room",
+      "ptime": 2634000.0,
+      "dtime": 3257000.0
+    },
+    {
+      "text": "***Christer Weinigel just left the room",
+      "ptime": 2665000.0,
+      "dtime": 3288000.0
+    },
+    {
+      "text": "***Christer Weinigel just joined the room",
+      "ptime": 2667000.0,
+      "dtime": 3290000.0
+    },
+    {
+      "text": "not really",
+      "ptime": 2675000.0,
+      "dtime": 3298000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "against as it stands",
+      "ptime": 2736000.0,
+      "dtime": 3359000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "I\u0027m fine discussing this more.",
+      "ptime": 2737000.0,
+      "dtime": 3360000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "***Christer Weinigel just left the room",
+      "ptime": 2749000.0,
+      "dtime": 3372000.0
+    },
+    {
+      "text": "***Christer Weinigel just joined the room",
+      "ptime": 2751000.0,
+      "dtime": 3374000.0
+    },
+    {
+      "text": "thanks :)",
+      "ptime": 2763000.0,
+      "dtime": 3386000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": ":)",
+      "ptime": 2769000.0,
+      "dtime": 3392000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Thanks all!",
+      "ptime": 2788000.0,
+      "dtime": 3411000.0,
+      "author": "Fernando Gont"
+    },
+    {
+      "text": "aanchal presenting \"on implementing time\"  no slides",
+      "ptime": 2933000.0,
+      "dtime": 3556000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "aanchal presenting on \"roughtime\" no slides",
+      "ptime": 3019000.0,
+      "dtime": 3642000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Thats ok! :)",
+      "ptime": 3064000.0,
+      "dtime": 3687000.0,
+      "author": "Marcus Dansarie"
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 3139000.0,
+      "dtime": 3762000.0
+    },
+    {
+      "text": "Neta Rozen Schiff presetinging \"A secure selection and filtering mechanism for NTP v4\"",
+      "ptime": 3220000.0,
+      "dtime": 3843000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p2 Reminder: threat model",
+      "ptime": 3230000.0,
+      "dtime": 3853000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Christer Weinigel just left the room",
+      "ptime": 3238000.0,
+      "dtime": 3861000.0
+    },
+    {
+      "text": "***Christer Weinigel just joined the room",
+      "ptime": 3239000.0,
+      "dtime": 3862000.0
+    },
+    {
+      "text": "p3 Reminder Chronos Architecture",
+      "ptime": 3260000.0,
+      "dtime": 3883000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "p4 Comments for Chronos",
+      "ptime": 3297000.0,
+      "dtime": 3920000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Steve Guendert just left the room",
+      "ptime": 3298000.0,
+      "dtime": 3921000.0
+    },
+    {
+      "text": "***Steve Sullivan just left the room",
+      "ptime": 3364000.0,
+      "dtime": 3987000.0
+    },
+    {
+      "text": "p4 Next Steps",
+      "ptime": 3380000.0,
+      "dtime": 4003000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "mic (at the appropriate time): Is this an issue for authenticated time or only for unauthenticated time?",
+      "ptime": 3383000.0,
+      "dtime": 4006000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "got it",
+      "ptime": 3390000.0,
+      "dtime": 4013000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "yhx",
+      "ptime": 3397000.0,
+      "dtime": 4020000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "Test involved virtual servers so it is not clear what was really being measured",
+      "ptime": 3407000.0,
+      "dtime": 4030000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "mic: how is this threat model effective against authenticated packets?",
+      "ptime": 3437000.0,
+      "dtime": 4060000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "miv: that\u0027s a ptryyu niog asusmpytoin",
+      "ptime": 3487000.0,
+      "dtime": 4110000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "ptryyy big",
+      "ptime": 3493000.0,
+      "dtime": 4116000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "***Steve Sullivan just joined the room",
+      "ptime": 3500000.0,
+      "dtime": 4123000.0
+    },
+    {
+      "text": "I can\u0027t type",
+      "ptime": 3501000.0,
+      "dtime": 4124000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "mic: over LOTS of servers",
+      "ptime": 3516000.0,
+      "dtime": 4139000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "so worried about nation-scale attackers",
+      "ptime": 3541000.0,
+      "dtime": 4164000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "mic: might be useful if ganged with an NTP server",
+      "ptime": 3606000.0,
+      "dtime": 4229000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "k",
+      "ptime": 3622000.0,
+      "dtime": 4245000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "hard to explain",
+      "ptime": 3683000.0,
+      "dtime": 4306000.0,
+      "author": "danny mayer"
+    },
+    {
+      "text": "mic: should be readytoi go",
+      "ptime": 3832000.0,
+      "dtime": 4455000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "any other business?",
+      "ptime": 3863000.0,
+      "dtime": 4486000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "aanchal at the mic",
+      "ptime": 3904000.0,
+      "dtime": 4527000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "mic: I don\u0027t believe I\u0027ve received any responses to my objectobns  to the minimization draft",
+      "ptime": 3943000.0,
+      "dtime": 4566000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "Worth a review for sure",
+      "ptime": 4029000.0,
+      "dtime": 4652000.0,
+      "author": "Steve Sullivan"
+    },
+    {
+      "text": "? okay, so you at to-be-scheduled virtual and in singapore!",
+      "ptime": 4129000.0,
+      "dtime": 4752000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "thanks fols!",
+      "ptime": 4131000.0,
+      "dtime": 4754000.0,
+      "author": "Harlan Stenn"
+    },
+    {
+      "text": "***Harlan Stenn just left the room",
+      "ptime": 4139000.0,
+      "dtime": 4762000.0
+    },
+    {
+      "text": "done for now",
+      "ptime": 4143000.0,
+      "dtime": 4766000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Thanks all!",
+      "ptime": 4145000.0,
+      "dtime": 4768000.0,
+      "author": "ragge@kth.se"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 4170000.0,
+      "dtime": 4793000.0
+    },
+    {
+      "text": "***danny mayer just left the room",
+      "ptime": 4174000.0,
+      "dtime": 4797000.0
+    },
+    {
+      "text": "***Denis Reilly just left the room",
+      "ptime": 4174000.0,
+      "dtime": 4797000.0
+    },
+    {
+      "text": "yes thanks.",
+      "ptime": 4175000.0,
+      "dtime": 4798000.0,
+      "author": "Steve Sullivan"
+    },
+    {
+      "text": "***Kristof Teichel just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Martin Langer just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Watson Ladd just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Marcus Dansarie just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Tal Mizrahi just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***David Barry just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Daniel Franke just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Tanya Verma just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Lars-Johan Liman just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***J. Ignacio Alvarez-Hamelin just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Ragnar Sundblad just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    },
+    {
+      "text": "***Fernando Gont just left the room",
+      "ptime": 4181000.0,
+      "dtime": 4804000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF105-NTP-20190722-1550"
+    }
+  ]
+}

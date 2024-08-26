@@ -1,0 +1,910 @@
+
+{
+	"title": "IETF116-SML-20230328-0030",
+	"filename": "IETF116-SML-20230328-0030",
+	"start": 0,
+	"end": 7401000,
+	"start_datetime": "2023-03-28T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Wv5tfwoHAbk",
+    "start": 0,
+    "end": "7401000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jim Fenton",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2537\">@Conny Junghans</span> Have you gotten audio?</p>",
+    "topic": "ietf-116",
+    "dtime": 24000,
+    "ptime": 24000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p>Headset might be sleepy at 2:30am here ;)</p>",
+    "topic": "ietf-116",
+    "dtime": 29000,
+    "ptime": 29000
+  },
+  {
+    "author": "Marc Laporte",
+    "text": "<p>Greetings</p>",
+    "topic": "ietf-116",
+    "dtime": 511000,
+    "ptime": 511000
+  },
+  {
+    "author": "Marc Laporte",
+    "text": "<p>Audio is very good. Current topic is explaining how emails could be machine-readable.</p>",
+    "topic": "ietf-116",
+    "dtime": 1154000,
+    "ptime": 1154000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p>I got everything working by now, thank you for the feedback :)</p>",
+    "topic": "ietf-116",
+    "dtime": 1213000,
+    "ptime": 1213000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Okay, that's not typically what data sovereignty means in my world. In  my world it's about requirements to store data in country.  So this might need a different term.</p>",
+    "topic": "ietf-116",
+    "dtime": 1225000,
+    "ptime": 1225000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Ted: noted</p>",
+    "topic": "ietf-116",
+    "dtime": 1292000,
+    "ptime": 1292000
+  },
+  {
+    "author": "Marc Laporte",
+    "text": "<p>I am following slides here: <a href=\"https://datatracker.ietf.org/meeting/116/materials/slides-116-sml-background-and-problem-statement-01.pdf\">https://datatracker.ietf.org/meeting/116/materials/slides-116-sml-background-and-problem-statement-01.pdf</a></p>",
+    "topic": "ietf-116",
+    "dtime": 1303000,
+    "ptime": 1303000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p>@Ted: I think it might have been referring to the Solid project.</p>",
+    "topic": "ietf-116",
+    "dtime": 1309000,
+    "ptime": 1309000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I'm not hearing anything here that sounds like it touches the email protocol set; it sounds more like \"structured data in MIME types commonly used in email\".    Am I missing something?</p>",
+    "topic": "ietf-116",
+    "dtime": 1549000,
+    "ptime": 1549000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Ted, based on discussions on the mailing list a few weeks ago, no, you aren't</p>",
+    "topic": "ietf-116",
+    "dtime": 1584000,
+    "ptime": 1584000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Or maybe new MIME types or a new parameter or two....</p>",
+    "topic": "ietf-116",
+    "dtime": 1613000,
+    "ptime": 1613000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Ted: SML doesn't propose any changes to email protocols. It is mostly about new header fields and handling of specific MIME types</p>",
+    "topic": "ietf-116",
+    "dtime": 1619000,
+    "ptime": 1619000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I see; I'm  not on the mailing list, so apologies for going over old ground.</p>",
+    "topic": "ietf-116",
+    "dtime": 1640000,
+    "ptime": 1640000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>So no, you are not missing anything so far.</p>",
+    "topic": "ietf-116",
+    "dtime": 1641000,
+    "ptime": 1641000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>And even new header fields is questionable -- this seems to be to be entirely within a structured (sic) body part</p>",
+    "topic": "ietf-116",
+    "dtime": 1703000,
+    "ptime": 1703000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@John: some things like attachment hiding (you will see later) needs new header fields (or extension to existing ones)</p>",
+    "topic": "ietf-116",
+    "dtime": 1763000,
+    "ptime": 1763000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Ted, it has been really easy from some of the discussions that there is more going on here, but I think most of us who have been around email for a while are convinced that there is not.</p>",
+    "topic": "ietf-116",
+    "dtime": 1769000,
+    "ptime": 1769000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>But mostly this is about <a href=\"http://Schema.org\">Schema.org</a>. IMHO</p>",
+    "topic": "ietf-116",
+    "dtime": 1800000,
+    "ptime": 1800000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Sounds like we have our first mic topic.</p>",
+    "topic": "ietf-116",
+    "dtime": 1831000,
+    "ptime": 1831000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Alexey: multipart/weird and hiding anything one likes in special body parts ??</p>",
+    "topic": "ietf-116",
+    "dtime": 1839000,
+    "ptime": 1839000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>(brb, registering \"multipart/weird\")</p>",
+    "topic": "ietf-116",
+    "dtime": 1856000,
+    "ptime": 1856000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@John: possibly. Anything is on the table, at the moment</p>",
+    "topic": "ietf-116",
+    "dtime": 1872000,
+    "ptime": 1872000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Similar problem to HTML support in email clients a few years ago?</p>",
+    "topic": "ietf-116",
+    "dtime": 1913000,
+    "ptime": 1913000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Jim: yeah</p>",
+    "topic": "ietf-116",
+    "dtime": 1956000,
+    "ptime": 1956000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Jim, IMO a potentially a bit more complex but, in the sense of a new content type and maybe a trick multipart type, probably</p>",
+    "topic": "ietf-116",
+    "dtime": 1981000,
+    "ptime": 1981000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p><a href=\"http://schema.org\">schema.org</a> is just used to structure data. It's convenient that <a href=\"http://schema.org\">schema.org</a> is already standardized, otherwise something else could be used in it's place as well.</p>",
+    "topic": "ietf-116",
+    "dtime": 2012000,
+    "ptime": 2012000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I have a haunting suspicion that many of the semantic extraction mechanisms in modern use are based on free-text search and ML models.  As someone who still remembers Harvest template types for search, I really wonder how much of the ground this work would cover if it gets taken on.</p>",
+    "topic": "ietf-116",
+    "dtime": 2111000,
+    "ptime": 2111000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Ted Yes, I use Tripit for travel organization, and it seems to be more of an ML based tool</p>",
+    "topic": "ietf-116",
+    "dtime": 2160000,
+    "ptime": 2160000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>If there's already an established body of work based on free-text search and ML models, and it's generally working, is there a need for something structured?</p>",
+    "topic": "ietf-116",
+    "dtime": 2171000,
+    "ptime": 2171000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Murray Potentially this would be more reliable/deterministic than an ML based approach</p>",
+    "topic": "ietf-116",
+    "dtime": 2210000,
+    "ptime": 2210000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>+1 to Jim</p>",
+    "topic": "ietf-116",
+    "dtime": 2227000,
+    "ptime": 2227000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p>Murray: I'll touch on that in a few minutes. I think yes, something structured is needed, or at least advantageous.</p>",
+    "topic": "ietf-116",
+    "dtime": 2228000,
+    "ptime": 2228000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Jim one of the reasons the template types didn't catch on is that people lied in them.  That might not be an issue here, but it is not off the table either.</p>",
+    "topic": "ietf-116",
+    "dtime": 2243000,
+    "ptime": 2243000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Jim (meaning things for search, like the SOIF template types)</p>",
+    "topic": "ietf-116",
+    "dtime": 2273000,
+    "ptime": 2273000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Oh it's more deterministic, I'm sure.  I just wonder if it might run into \"Yeah what we have is complex and not perfect, but it's working.\"</p>",
+    "topic": "ietf-116",
+    "dtime": 2286000,
+    "ptime": 2286000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Ted I'm not sure the same motivations to lie exist here, but need to watch for that</p>",
+    "topic": "ietf-116",
+    "dtime": 2318000,
+    "ptime": 2318000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p>To get the senders on board, deterministic is key.</p>",
+    "topic": "ietf-116",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Even if people don't lie, you have to have common practice on what things mean; the  means a fairly well-agreed ontology, which is not exactly the IETF's home court.</p>",
+    "topic": "ietf-116",
+    "dtime": 2366000,
+    "ptime": 2366000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>JSON/XML schemas</p>",
+    "topic": "ietf-116",
+    "dtime": 2382000,
+    "ptime": 2382000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>yeah, this is already the case with Calendar events</p>",
+    "topic": "ietf-116",
+    "dtime": 2667000,
+    "ptime": 2667000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>you can have HTML which says something other than the attached ICS</p>",
+    "topic": "ietf-116",
+    "dtime": 2683000,
+    "ptime": 2683000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I've had exactly what Ted says with Tripit scrapping emails, and getting things wrong. No malice intended, but tripit got the time zones of my train trip wrong.</p>",
+    "topic": "ietf-116",
+    "dtime": 2709000,
+    "ptime": 2709000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I don't think that multipart/alternative is the same problem, honestly.</p>",
+    "topic": "ietf-116",
+    "dtime": 2793000,
+    "ptime": 2793000
+  },
+  {
+    "author": "Magnus Melin",
+    "text": "<p>E.g. gmail will display the structured data in the way it sees fit. Of course the data can be a lie, but you would be able to see what the data was.</p>",
+    "topic": "ietf-116",
+    "dtime": 2795000,
+    "ptime": 2795000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Bron's example is a better example, especially if the calendaring app is set to auto-process the .ics files.</p>",
+    "topic": "ietf-116",
+    "dtime": 2864000,
+    "ptime": 2864000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>@Ted: Fastmail displays the parsed ICS content (including: if it's an update, the diff against the previous version) at the top, and the HTML content below</p>",
+    "topic": "ietf-116",
+    "dtime": 3047000,
+    "ptime": 3047000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Bron Thanks for the additional color.</p>",
+    "topic": "ietf-116",
+    "dtime": 3275000,
+    "ptime": 3275000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>The sender will still be able to show the presentation they expect, this is just an adjunct of machine-parsable info</p>",
+    "topic": "ietf-116",
+    "dtime": 3507000,
+    "ptime": 3507000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>And then there are reprobates like me, that don't render the text/html :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 3527000,
+    "ptime": 3527000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>Microsoft addresses this Actionable messages by providing the structured content along with a \"adaptive card\" UI <a href=\"https://github.com/microsoft/AdaptiveCards/\">https://github.com/microsoft/AdaptiveCards/</a> that provides a way for clients to render the structured content in the way the sender wants.</p>",
+    "topic": "ietf-116",
+    "dtime": 3561000,
+    "ptime": 3561000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>See my recent message to Old Pharts. :).  ASCII MUA here fo sho</p>",
+    "topic": "ietf-116",
+    "dtime": 3570000,
+    "ptime": 3570000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Bier und wurst</p>",
+    "topic": "ietf-116",
+    "dtime": 3585000,
+    "ptime": 3585000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@mcr: Still use pine?</p>",
+    "topic": "ietf-116",
+    "dtime": 3596000,
+    "ptime": 3596000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Emacs.</p>",
+    "topic": "ietf-116",
+    "dtime": 3633000,
+    "ptime": 3633000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>VM in Emacs here too</p>",
+    "topic": "ietf-116",
+    "dtime": 3641000,
+    "ptime": 3641000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Hard core.</p>",
+    "topic": "ietf-116",
+    "dtime": 3645000,
+    "ptime": 3645000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I can render text/html, but I don't.</p>",
+    "topic": "ietf-116",
+    "dtime": 3646000,
+    "ptime": 3646000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Michael: yep.  Me too.,  Render only if necessary</p>",
+    "topic": "ietf-116",
+    "dtime": 3671000,
+    "ptime": 3671000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Exactly.</p>",
+    "topic": "ietf-116",
+    "dtime": 3674000,
+    "ptime": 3674000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@mcr: <a href=\"https://imgflip.com/i/7g3939\">https://imgflip.com/i/7g3939</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3719000,
+    "ptime": 3719000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>As I think I said on the mailing list, it is likely that the only real solutions to this problem are end-to-end authentication and encryption , along the lines of S/MIME.  And we know how far we've gotten with deploying that globally and/or getting globally trusted certs.</p>",
+    "topic": "ietf-116",
+    "dtime": 3865000,
+    "ptime": 3865000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@John, authentication via DKIM is pretty much working.  It would be nice to upgrade to SMIME authentication though.</p>",
+    "topic": "ietf-116",
+    "dtime": 3936000,
+    "ptime": 3936000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Authentication via DKIM is pretty much useless against a serious attack in a multihop situation.  So I agree with you but only for a collection of special cases.</p>",
+    "topic": "ietf-116",
+    "dtime": 4027000,
+    "ptime": 4027000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Because DKIM would break in that scenario?</p>",
+    "topic": "ietf-116",
+    "dtime": 4128000,
+    "ptime": 4128000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>And OpenPGP (and PGP itself) are pretty useless for authentication except among circles of friends and/or prior agreement.  So, again, great for special cases.</p>",
+    "topic": "ietf-116",
+    "dtime": 4212000,
+    "ptime": 4212000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Murray: more or less.  Too many well-known attack mechanisms, especially if one has no reason to trust the domain administrator.</p>",
+    "topic": "ietf-116",
+    "dtime": 4280000,
+    "ptime": 4280000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@John: S/MIME will have similar issues to some extend. Maybe not for keys themselves, but the rest of use cases seem to apply as well.</p>",
+    "topic": "ietf-116",
+    "dtime": 4315000,
+    "ptime": 4315000
+  },
+  {
+    "author": "Daniel Huigens",
+    "text": "<p>There is some work happening on OpenPGP key distribution, with WKD (fetching keys from the sender's domain), and <a href=\"http://keys.openpgp.org\">keys.openpgp.org</a> (some MUAs automatically upload keys there now)</p>",
+    "topic": "ietf-116",
+    "dtime": 4377000,
+    "ptime": 4377000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Alexey, I sort of agree, but mostly because of the non-technical problem of having a global collection of CAs that everyone trusts.</p>",
+    "topic": "ietf-116",
+    "dtime": 4396000,
+    "ptime": 4396000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>keyreset by email. Interesting to me.  I think I re-invented it last month, but didn't finish.</p>",
+    "topic": "ietf-116",
+    "dtime": 4457000,
+    "ptime": 4457000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>And, for this particular purpose, I'm far more concerned about high-quality sender-level authentication than about encryption or authorization to send.</p>",
+    "topic": "ietf-116",
+    "dtime": 4461000,
+    "ptime": 4461000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Should be shown, because there are bearer tokens that we don't want visible?</p>",
+    "topic": "ietf-116",
+    "dtime": 4565000,
+    "ptime": 4565000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Shouldn't.</p>",
+    "topic": "ietf-116",
+    "dtime": 4579000,
+    "ptime": 4579000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Because showing them might confuse some users</p>",
+    "topic": "ietf-116",
+    "dtime": 4597000,
+    "ptime": 4597000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>in the same way that you don't show the TLS handshake when somebody views a webpage</p>",
+    "topic": "ietf-116",
+    "dtime": 4617000,
+    "ptime": 4617000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>This list feels a lot like parameters on body part headers... as long as one can make them tamper-proof</p>",
+    "topic": "ietf-116",
+    "dtime": 4621000,
+    "ptime": 4621000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>they're background setup messages</p>",
+    "topic": "ietf-116",
+    "dtime": 4622000,
+    "ptime": 4622000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>so ideally you'd maybe file them directly into a folder where people can refer if necessary, but certainly not pop into the Inbox</p>",
+    "topic": "ietf-116",
+    "dtime": 4655000,
+    "ptime": 4655000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Yeah, I get confusion, but is there is an issue where you just don't want the content on a screen that might be part of a teleconference, etc.</p>",
+    "topic": "ietf-116",
+    "dtime": 4658000,
+    "ptime": 4658000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>for sure at Fastmail we'd probably make such messages auto-file into a folder when they came in</p>",
+    "topic": "ietf-116",
+    "dtime": 4749000,
+    "ptime": 4749000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>at least for that kind of thing (don't show) the risks are pretty low - spammers don't usually want a message not showed!  So long as they can't have a side effect of adding some hidden trust property that the user isn't expecting</p>",
+    "topic": "ietf-116",
+    "dtime": 4800000,
+    "ptime": 4800000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>\"Dear boss, I just want to go on record as saying that X is a bad idea\" (auto-file to not-inbox)</p>",
+    "topic": "ietf-116",
+    "dtime": 4853000,
+    "ptime": 4853000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>meh.  Not sure what side effect you're expecting to get from that, but if it's \"legal protection\" then your affirmative attempt to have your message not seen will count against you</p>",
+    "topic": "ietf-116",
+    "dtime": 4948000,
+    "ptime": 4948000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Bron.   Yep.  I am also having visions of all of the people who think that the best way to help me with a problem is to give them remote control of my desktop machine... and how they would love to automate that via some structured email message.   All to help the user, of course.</p>",
+    "topic": "ietf-116",
+    "dtime": 5063000,
+    "ptime": 5063000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>@John that seems a fantasy that's not very reflective of the use cases that anybody is suggesting here, I very much doubt anybody would implement that</p>",
+    "topic": "ietf-116",
+    "dtime": 5149000,
+    "ptime": 5149000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>I would hope not, but I see a slippery slope from what has been proposed that ends up near that... and how to design an MUA that would know what to allow and what to prohibit would be challenging.</p>",
+    "topic": "ietf-116",
+    "dtime": 5218000,
+    "ptime": 5218000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Too bad people have been messing up multipart/alternative for decades.</p>",
+    "topic": "ietf-116",
+    "dtime": 5335000,
+    "ptime": 5335000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Almost certainly unwise to use multipart/alternative for this -- wrong semantics  and problems if an MUA does not do very clever lookahead.</p>",
+    "topic": "ietf-116",
+    "dtime": 5377000,
+    "ptime": 5377000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@David: that was a \"yes\" :-(</p>",
+    "topic": "ietf-116",
+    "dtime": 5397000,
+    "ptime": 5397000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>@John what would you propose instead?  Entirely in headers?</p>",
+    "topic": "ietf-116",
+    "dtime": 5438000,
+    "ptime": 5438000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>One of the biggest problems is different parts that are supposed to be semantically similar possibly being very different (either on purpose or by accident)</p>",
+    "topic": "ietf-116",
+    "dtime": 5478000,
+    "ptime": 5478000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>I think multipart/alternative is fine as specified, but happy to discuss this on the mailing list. (No need to get into this in the BoF_</p>",
+    "topic": "ietf-116",
+    "dtime": 5485000,
+    "ptime": 5485000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>multipart/alternative makes totally fine sense on a rational engineering level.  it goes badly sideways with actual use.</p>",
+    "topic": "ietf-116",
+    "dtime": 5563000,
+    "ptime": 5563000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Tale He did say \"as specified\".</p>",
+    "topic": "ietf-116",
+    "dtime": 5581000,
+    "ptime": 5581000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Bron Still not sure I understand all of the issues here, but I'd lean toward specifying a new multipart type that could be sensitive to some of the seeming requirements -- maybe ordering, maybe doing some very specific things about body parts that are expected to be displayed and which ones are expected to  be processed in some way.  Devil is the details, but...</p>",
+    "topic": "ietf-116",
+    "dtime": 5590000,
+    "ptime": 5590000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Truth</p>",
+    "topic": "ietf-116",
+    "dtime": 5605000,
+    "ptime": 5605000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>If people could stop phoning me to tell me that their emails to me might be delayed, that would be great.</p>",
+    "topic": "ietf-116",
+    "dtime": 5730000,
+    "ptime": 5730000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>As soon as the immediately subsidiary body parts are anything but equal with preferences being a matter of user choice or local configuration, multipart/alternative gets into trouble.. even before serious abuse of it sets in</p>",
+    "topic": "ietf-116",
+    "dtime": 5740000,
+    "ptime": 5740000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>content-disposition.....</p>",
+    "topic": "ietf-116",
+    "dtime": 5764000,
+    "ptime": 5764000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Right.</p>",
+    "topic": "ietf-116",
+    "dtime": 5798000,
+    "ptime": 5798000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Harald: Yep</p>",
+    "topic": "ietf-116",
+    "dtime": 5803000,
+    "ptime": 5803000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Existing clients will ignore the \"don't show to the user\" directive. Will have a bunch of creepy empty-appearing messages</p>",
+    "topic": "ietf-116",
+    "dtime": 5839000,
+    "ptime": 5839000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p><a href=\"https://www.iana.org/assignments/cont-disp/cont-disp.xhtml\">https://www.iana.org/assignments/cont-disp/cont-disp.xhtml</a></p>",
+    "topic": "ietf-116",
+    "dtime": 5864000,
+    "ptime": 5864000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>ooooh let's relive the Expires discussion</p>",
+    "topic": "ietf-116",
+    "dtime": 5869000,
+    "ptime": 5869000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Tale  Will there be cake?  And tea?  Or....</p>",
+    "topic": "ietf-116",
+    "dtime": 5905000,
+    "ptime": 5905000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Crumpets!</p>",
+    "topic": "ietf-116",
+    "dtime": 5944000,
+    "ptime": 5944000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>\"Supersedes\" header field is already defined</p>",
+    "topic": "ietf-116",
+    "dtime": 5949000,
+    "ptime": 5949000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>And that is part of the rationale for one or more new content-types -- at least the existing clients would get a clue that they are in trouble.</p>",
+    "topic": "ietf-116",
+    "dtime": 5977000,
+    "ptime": 5977000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Will the Queen of Hearts come to the party?</p>",
+    "topic": "ietf-116",
+    "dtime": 5994000,
+    "ptime": 5994000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>sounds like we have an offer to reopen approx 17 different attempts to attach more semantics to email bodies.</p>",
+    "topic": "ietf-116",
+    "dtime": 6322000,
+    "ptime": 6322000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Just use \"Limited\" as the first word of the working group name. That should make sure it's not used for lots of things.</p>",
+    "topic": "ietf-116",
+    "dtime": 6398000,
+    "ptime": 6398000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>ha.</p>",
+    "topic": "ietf-116",
+    "dtime": 6502000,
+    "ptime": 6502000
+  },
+  {
+    "author": "Marc Laporte",
+    "text": "<p>Yes!</p>",
+    "topic": "ietf-116",
+    "dtime": 6513000,
+    "ptime": 6513000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Harald I thought I counted more than 17 :-(</p>",
+    "topic": "ietf-116",
+    "dtime": 6537000,
+    "ptime": 6537000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Carefully Limited Automated Mail Processing (CLAMP)?</p>",
+    "topic": "ietf-116",
+    "dtime": 6652000,
+    "ptime": 6652000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Love it :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 6702000,
+    "ptime": 6702000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Note:  bike shedding the name does not indicate support for the chartering of this group.</p>",
+    "topic": "ietf-116",
+    "dtime": 6708000,
+    "ptime": 6708000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Vigorous nodding about scope and ocean-boiling.</p>",
+    "topic": "ietf-116",
+    "dtime": 6880000,
+    "ptime": 6880000
+  },
+  {
+    "author": "Arnt Gulbrandsen",
+    "text": "<p>Whoever was speaking just now spoke for me: This is great and I want to work on it, but with a limited scope.</p>",
+    "topic": "ietf-116",
+    "dtime": 7020000,
+    "ptime": 7020000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>That was DKG</p>",
+    "topic": "ietf-116",
+    "dtime": 7265000,
+    "ptime": 7265000
+  },
+  {
+    "author": "Marc Laporte",
+    "text": "<p>Thank you very much for organizing this meeting!</p>",
+    "topic": "ietf-116",
+    "dtime": 7289000,
+    "ptime": 7289000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Thanks.  Happy lunch</p>",
+    "topic": "ietf-116",
+    "dtime": 7360000,
+    "ptime": 7360000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p>Thank you all</p>",
+    "topic": "ietf-116",
+    "dtime": 7363000,
+    "ptime": 7363000
+  },
+  {
+    "author": "Conny Junghans",
+    "text": "<p>Goodnight ;)</p>",
+    "topic": "ietf-116",
+    "dtime": 7370000,
+    "ptime": 7370000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-SML-20230328-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/sml"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-SML-20230328-0030"
+		}		
+	]
+}

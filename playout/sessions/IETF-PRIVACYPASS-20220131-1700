@@ -1,0 +1,275 @@
+
+{
+	"title": "IETF-PRIVACYPASS-20220131-1700",
+	"filename": "IETF-PRIVACYPASS-20220131-1700",
+	"start": 0,
+	"end": 5177000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "AhYKSFvkjvM",
+    "start": 0,
+    "end": "5177000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 207000,
+    "ptime": 207000,
+    "author": "Francesca Palombini",
+    "text": "yes it is recorded and it will be uploaded to youtube<br/>"
+  },
+  {
+    "dtime": 251000,
+    "ptime": 251000,
+    "author": "Jana Iyengar",
+    "text": "Thanks Francesca<br/>"
+  },
+  {
+    "dtime": 344000,
+    "ptime": 344000,
+    "author": "Matthew Finkel",
+    "text": "I can take notes<br/>"
+  },
+  {
+    "dtime": 345000,
+    "ptime": 345000,
+    "author": "Jana Iyengar",
+    "text": "Ben -- draft someone :-)<br/>"
+  },
+  {
+    "dtime": 656000,
+    "ptime": 656000,
+    "author": "Lucas Pardue",
+    "text": "nice dog<br/>"
+  },
+  {
+    "dtime": 982000,
+    "ptime": 982000,
+    "author": "npd",
+    "text": "I assume this will be explained, but I hope we'll see why the issuer and the attester should be separate entities<br/>"
+  },
+  {
+    "dtime": 1011000,
+    "ptime": 1011000,
+    "author": "Tommy Pauly",
+    "text": "@npd they don't need to be separate entities, we're just saying they can be in some scenarios<br/>"
+  },
+  {
+    "dtime": 1015000,
+    "ptime": 1015000,
+    "author": "Christopher Wood",
+    "text": "They _can_ be separate entities<br/>"
+  },
+  {
+    "dtime": 1068000,
+    "ptime": 1068000,
+    "author": "npd",
+    "text": "yes, sorry, I understood that distinction. but presumably there is a significant advantage to them sometimes being separate entities (otherwise we wouldn't make the architecture more complex)<br/>"
+  },
+  {
+    "dtime": 1111000,
+    "ptime": 1111000,
+    "author": "npd",
+    "text": "thanks<br/>"
+  },
+  {
+    "dtime": 1237000,
+    "ptime": 1237000,
+    "author": "Tommy Pauly",
+    "text": "The main reasons in my mind are:- The origin server needs to trust the issuer, but it may be good to avoid centralization for the issuer to trust multiple attesters. (i.e., don't have websites bake in something that only ends up trusting one service to attest clients)- Clients may be able to use better attester functions that are more client-chosen. Like an iOS device can do some hardware attestation that can play into things to avoid needing to solve an actual captcha, and an issuer could decide to accept that.- Some extensions, like enforcing rate limiting, need a split in order to avoid letting issuers track users.<br/>"
+  },
+  {
+    "dtime": 1458000,
+    "ptime": 1458000,
+    "author": "Matthew Finkel",
+    "text": "Ben, I lost your question, can you type it?<br/>"
+  },
+  {
+    "dtime": 1483000,
+    "ptime": 1483000,
+    "author": "Christopher Wood",
+    "text": "What interactions need to be standardized, and which are deployment-specific? (As I understood it.)<br/>"
+  },
+  {
+    "dtime": 1501000,
+    "ptime": 1501000,
+    "author": "Benjamin Schwartz",
+    "text": "I'm hearing dropouts from Tommy?<br/>"
+  },
+  {
+    "dtime": 1506000,
+    "ptime": 1506000,
+    "author": "npd",
+    "text": "(choppy audio)<br/>"
+  },
+  {
+    "dtime": 1519000,
+    "ptime": 1519000,
+    "author": "Matthew Finkel",
+    "text": "Thanks Chris<br/>"
+  },
+  {
+    "dtime": 1638000,
+    "ptime": 1638000,
+    "author": "Tommy Pauly",
+    "text": "Oops, sorry about the choppy audio<br/>"
+  },
+  {
+    "dtime": 1650000,
+    "ptime": 1650000,
+    "author": "Christopher Wood",
+    "text": "It's better now<br/>"
+  },
+  {
+    "dtime": 1652000,
+    "ptime": 1652000,
+    "author": "Jana Iyengar",
+    "text": "better now<br/>"
+  },
+  {
+    "dtime": 1940000,
+    "ptime": 1940000,
+    "author": "npd",
+    "text": "is there a tragedy of the commons if challenges use up tokens from a communal pool?<br/>"
+  },
+  {
+    "dtime": 2022000,
+    "ptime": 2022000,
+    "author": "Christopher Wood",
+    "text": "Hmm, I'm not sure I follow. Can you please rephrase?<br/>"
+  },
+  {
+    "dtime": 2167000,
+    "ptime": 2167000,
+    "author": "npd",
+    "text": "(doesn't require immediate reply. if the tokens are shared communally, then there might be too little cost to a server to issue a challenge, because the user isn't needing to complete a captcha on that particular request. if every server can without cost issue a challenge, then servers might be incentivized to issue more challenges, which leads to users being more often challenged without being clear who is forcing them to.)<br/>"
+  },
+  {
+    "dtime": 2254000,
+    "ptime": 2254000,
+    "author": "Jana Iyengar",
+    "text": "npd -- where do you see the tragedy in that eventual end state?<br/>"
+  },
+  {
+    "dtime": 2260000,
+    "ptime": 2260000,
+    "author": "Christopher Wood",
+    "text": "I'm not sure what you mean by \"tokens are shared communally,\" but there is language in the specs which says that challenges are limited to one per request (or user action).<br/>"
+  },
+  {
+    "dtime": 2389000,
+    "ptime": 2389000,
+    "author": "npd",
+    "text": "the tragedy would be if each individual server over-challenged (rather than using other mechanisms to protect resources, or accepting some risk), leading the user to have to prove themselves more often<br/>"
+  },
+  {
+    "dtime": 2525000,
+    "ptime": 2525000,
+    "author": "Jana Iyengar",
+    "text": "There is cost -- there's crypto and potentially an RTT cost at the origin.<br/>"
+  },
+  {
+    "dtime": 2536000,
+    "ptime": 2536000,
+    "author": "Steven Valdez",
+    "text": "If the server is blocking every action/resource on a token, then they're going to end up having a bad UX from the latency/challenge cost?<br/>"
+  },
+  {
+    "dtime": 2545000,
+    "ptime": 2545000,
+    "author": "Scott Hendrickson",
+    "text": "If there was a concern about this happening for a particular type of token, adding per-origin rate limiting would fix that, and is supported by the proposal here.<br/>"
+  },
+  {
+    "dtime": 2583000,
+    "ptime": 2583000,
+    "author": "Jana Iyengar",
+    "text": "Specifically npd<br/>"
+  },
+  {
+    "dtime": 2607000,
+    "ptime": 2607000,
+    "author": "Jana Iyengar",
+    "text": "'s point applies to cross-origin tokens, so yeah, per-origin ones should not have this problem<br/>"
+  },
+  {
+    "dtime": 2783000,
+    "ptime": 2783000,
+    "author": "npd",
+    "text": "right, if scoped to origin, then the origin faces the 'cost' (in terms of how often their users specifically experience a new attestation proof), but if shared (\"the commons\"), then exhausting the proof tokens has a cost shared by all sites.<br/>"
+  },
+  {
+    "dtime": 2794000,
+    "ptime": 2794000,
+    "author": "npd",
+    "text": "I'll try to read more on the scoping/rate-limiting<br/>"
+  },
+  {
+    "dtime": 3219000,
+    "ptime": 3219000,
+    "author": "Alex Davidson",
+    "text": "To clarify for my own understanding, would we expect the redemption doc to state advisable settings for the max-age parameter for interactive challenges? I ask because it seems to have a similar impact as the length of key rotation cycles on anonymity set size, which had explicit lengths advised in at least a previous version of the doc?<br/>"
+  },
+  {
+    "dtime": 3380000,
+    "ptime": 3380000,
+    "author": "Tommy Pauly",
+    "text": "@Alex I think it would make sense to have some advice for max age in general, but I would also expect specific issuance protocols to give advice on how to tune the challenge/redemption appropriately<br/>"
+  },
+  {
+    "dtime": 4101000,
+    "ptime": 4101000,
+    "author": "Christopher Wood",
+    "text": "^^<br/>"
+  },
+  {
+    "dtime": 4448000,
+    "ptime": 4448000,
+    "author": "Steven Valdez",
+    "text": "If not now, with IETF 113 coming up, might that be a good deadline to adopt?<br/>"
+  },
+  {
+    "dtime": 4947000,
+    "ptime": 4947000,
+    "author": "Tommy Pauly",
+    "text": "I think we just merge the other docs, I publish auth scheme soon, and then we call for adoption between now and 113?<br/>"
+  },
+  {
+    "dtime": 5107000,
+    "ptime": 5107000,
+    "author": "Christopher Wood",
+    "text": "Implementation here: <a href=\"https://github.com/cloudflare/pat-app\" rel=\"nofollow\">https://github.com/cloudflare/pat-app</a><br/>"
+  },
+  {
+    "dtime": 5147000,
+    "ptime": 5147000,
+    "author": "Christopher Wood",
+    "text": "Thanks, all!<br/>"
+  },
+  {
+    "dtime": 5155000,
+    "ptime": 5155000,
+    "author": "Jana Iyengar",
+    "text": "thank you, folks<br/>"
+  },
+  {
+    "dtime": 5163000,
+    "ptime": 5163000,
+    "author": "Tommy Pauly",
+    "text": "Thanks!<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-PRIVACYPASS-20220131-1700"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-privacypass-01/session/privacypass"
+		}
+	]
+}

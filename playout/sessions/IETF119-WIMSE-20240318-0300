@@ -1,0 +1,693 @@
+
+{
+	"title": "IETF119-WIMSE-20240318-0300",
+	"filename": "IETF119-WIMSE-20240318-0300",
+	"start": 0,
+	"end": 7328000,
+	"start_datetime": "2024-03-18T02:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Ue7L-PAsyDQ",
+    "start": 0,
+    "end": "7328000"
+  }
+],
+	"messages": [
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I didn't hear a hum.</p>",
+    "topic": "ietf-119",
+    "dtime": 140000,
+    "ptime": 140000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Hmm?</p>",
+    "topic": "ietf-119",
+    "dtime": 207000,
+    "ptime": 207000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Hmm.</p>",
+    "topic": "ietf-119",
+    "dtime": 219000,
+    "ptime": 219000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>that \"we will get along just fine\" sounded a little threatening</p>",
+    "topic": "ietf-119",
+    "dtime": 225000,
+    "ptime": 225000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Pete is naming working groups again.</p>",
+    "topic": "ietf-119",
+    "dtime": 301000,
+    "ptime": 301000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>Congratulations!</p>",
+    "topic": "ietf-119",
+    "dtime": 334000,
+    "ptime": 334000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>/vimsə/</p>",
+    "topic": "ietf-119",
+    "dtime": 342000,
+    "ptime": 342000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>How is the definition of workload different from service?</p>",
+    "topic": "ietf-119",
+    "dtime": 542000,
+    "ptime": 542000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Process: a program in execution</p>",
+    "topic": "ietf-119",
+    "dtime": 544000,
+    "ptime": 544000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>knitting the monolith back together</p>",
+    "topic": "ietf-119",
+    "dtime": 595000,
+    "ptime": 595000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Paul Wouters (SEC AD) is your Tech Advisor, as noted on your data tracker page: <a href=\"https://datatracker.ietf.org/group/wimse/about/\">https://datatracker.ietf.org/group/wimse/about/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 809000,
+    "ptime": 809000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>This is a semantics games but a service can be a logical bundling of n&gt;1 workloads in a service? I can have an \"Awesome Sauce Service\" with 10-100 workloads such that a client asking for a result combines processing and information from n/100 workloads, but the client only sees a single result and doesn't need to know anything about the specific n/100 workloads. Am I off-base? Does that make sense, Muhammad?</p>",
+    "topic": "ietf-119",
+    "dtime": 843000,
+    "ptime": 843000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>(This has been my interpretation so I hope I am not wrong at this point.)</p>",
+    "topic": "ietf-119",
+    "dtime": 852000,
+    "ptime": 852000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Some napkin diagrams would be a good start. There are some in the meeting material</p>",
+    "topic": "ietf-119",
+    "dtime": 917000,
+    "ptime": 917000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i don't think it's all that helpful to overanalyze what \"workload\" means.  in this group, it seems like \"something you want to identify\" is sufficient</p>",
+    "topic": "ietf-119",
+    "dtime": 983000,
+    "ptime": 983000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Don't know if secretariat is listening here, but the left-hand projector is having issues.</p>",
+    "topic": "ietf-119",
+    "dtime": 1150000,
+    "ptime": 1150000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(Do we need to email <a href=\"mailto:support@ietf.org\">support@ietf.org</a>?)</p>",
+    "topic": "ietf-119",
+    "dtime": 1172000,
+    "ptime": 1172000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>System boundaries help to understand context, though</p>",
+    "topic": "ietf-119",
+    "dtime": 1187000,
+    "ptime": 1187000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Feel free to borrow some of the GitHub WG setup stuff from Key Trans or other IETF WGs on GitHub, if its useful to you: <a href=\"https://github.com/ietf-wg-keytrans\">https://github.com/ietf-wg-keytrans</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1237000,
+    "ptime": 1237000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>(such as profile, mailing list links, etc)</p>",
+    "topic": "ietf-119",
+    "dtime": 1267000,
+    "ptime": 1267000
+  },
+  {
+    "author": "Christopher Inacio",
+    "text": "<p>@meetecho can we ask meetecho bot about problems with the left hand projector in room M4?</p>",
+    "topic": "ietf-119",
+    "dtime": 1279000,
+    "ptime": 1279000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Pete: I sent a message 8 minutes ago...</p>",
+    "topic": "ietf-119",
+    "dtime": 1290000,
+    "ptime": 1290000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>There's a standard template for GitHub setup for WGs, isn't there? I think Martin Thomson did it.</p>",
+    "topic": "ietf-119",
+    "dtime": 1290000,
+    "ptime": 1290000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@mark did you still want to get to the mic? I'm sorry if I accidentally cut you off there.</p>",
+    "topic": "ietf-119",
+    "dtime": 1334000,
+    "ptime": 1334000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@Jim yes we intend to use the WG template.</p>",
+    "topic": "ietf-119",
+    "dtime": 1347000,
+    "ptime": 1347000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>I feel it is important to be consistent in terminology: workload vs. service vs. micro-service.</p>",
+    "topic": "ietf-119",
+    "dtime": 1415000,
+    "ptime": 1415000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p><a href=\"https://github.com/martinthomson/i-d-template\">https://github.com/martinthomson/i-d-template</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1418000,
+    "ptime": 1418000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/rfc8875/\">https://datatracker.ietf.org/doc/rfc8875/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1466000,
+    "ptime": 1466000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1195\">@Christopher Inacio</span> what problem are you experiencing with the projector?</p>",
+    "topic": "ietf-119",
+    "dtime": 1479000,
+    "ptime": 1479000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>The template sets up individual repos well, I do not think there is GitHub template repos or infrastructure for work-group level setup. Do others know of any? Is that actually useful? I can direct this musing somewhere else, I thought that is beyond the practical needs of people setting up WGs on GitHub.</p>",
+    "topic": "ietf-119",
+    "dtime": 1497000,
+    "ptime": 1497000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>AJ, see rfc above</p>",
+    "topic": "ietf-119",
+    "dtime": 1521000,
+    "ptime": 1521000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@AJ, Henk - thanks, the chairs intend to follow the current best practice :)</p>",
+    "topic": "ietf-119",
+    "dtime": 1555000,
+    "ptime": 1555000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>Sorry I typed as you replied, that is great stuff, Henk! I intend to read it later. I look forward to reading more of that then. :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 1555000,
+    "ptime": 1555000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1238\">@Lorenzo Colitti</span> It's occasionally flashing solid yellow. Looks like a poor connection.</p>",
+    "topic": "ietf-119",
+    "dtime": 1621000,
+    "ptime": 1621000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>I've seen this pattern applied in non-OAuth stacks too</p>",
+    "topic": "ietf-119",
+    "dtime": 1653000,
+    "ptime": 1653000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>Can you please repeat the question?</p>",
+    "topic": "ietf-119",
+    "dtime": 1691000,
+    "ptime": 1691000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Huh?  I closed that WG.</p>",
+    "topic": "ietf-119",
+    "dtime": 1798000,
+    "ptime": 1798000
+  },
+  {
+    "author": "Christopher Inacio",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"139\">Pete Resnick</span> <a href=\"#narrow/stream/381-wimse/topic/ietf-119/near/107383\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1238\">Lorenzo Colitti</span> It's occasionally flashing solid yellow. Looks like a poor connection.</p>\n</blockquote>\n<p>thanks for following up for Pete while I was busy with something else.</p>",
+    "topic": "ietf-119",
+    "dtime": 1970000,
+    "ptime": 1970000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We notified the AV team, someone should be there to address it soon</p>",
+    "topic": "ietf-119",
+    "dtime": 2018000,
+    "ptime": 2018000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>AV has replaced the cable, things should be better now</p>",
+    "topic": "ietf-119",
+    "dtime": 2041000,
+    "ptime": 2041000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Shout out to the AV team if it keeps happening</p>",
+    "topic": "ietf-119",
+    "dtime": 2078000,
+    "ptime": 2078000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, please do let me know if it's still a problem and I'll ping them</p>",
+    "topic": "ietf-119",
+    "dtime": 2101000,
+    "ptime": 2101000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>Appendix B.2 is nice because it doesn't require ~untrusted workloads in domain A to communicate with AS in domain B</p>",
+    "topic": "ietf-119",
+    "dtime": 2243000,
+    "ptime": 2243000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Did we deliberately skip the  \"Token Delivery BCP\" slot that's on the agenda?</p>",
+    "topic": "ietf-119",
+    "dtime": 2575000,
+    "ptime": 2575000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Justin ^^^</p>",
+    "topic": "ietf-119",
+    "dtime": 2581000,
+    "ptime": 2581000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@Richard my mistake, we'll do that next. The slides were uploaded out of order.</p>",
+    "topic": "ietf-119",
+    "dtime": 2635000,
+    "ptime": 2635000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>What is the spiffie group?</p>",
+    "topic": "ietf-119",
+    "dtime": 2785000,
+    "ptime": 2785000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p><a href=\"https://spiffe.io/\">https://spiffe.io/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2810000,
+    "ptime": 2810000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>SPIFFE -&gt; Secure Production Identity Framework For Everyone</p>",
+    "topic": "ietf-119",
+    "dtime": 2839000,
+    "ptime": 2839000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>project from the cloud native computing foundation, non-IETF</p>",
+    "topic": "ietf-119",
+    "dtime": 2853000,
+    "ptime": 2853000
+  },
+  {
+    "author": "Dmitry Izumskiy",
+    "text": "<p>CNCF project</p>",
+    "topic": "ietf-119",
+    "dtime": 2861000,
+    "ptime": 2861000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>part of the CNCF - Cloud NAtive Compute Foundation.</p>",
+    "topic": "ietf-119",
+    "dtime": 2865000,
+    "ptime": 2865000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Ah cncf! Thx</p>",
+    "topic": "ietf-119",
+    "dtime": 2882000,
+    "ptime": 2882000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>That is a quite specific highlight there</p>",
+    "topic": "ietf-119",
+    "dtime": 2913000,
+    "ptime": 2913000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>This KBS? <a href=\"https://github.com/CCC-Attestation/governance/issues/13\">https://github.com/CCC-Attestation/governance/issues/13</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3182000,
+    "ptime": 3182000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>CoCo KBS <a href=\"https://github.com/confidential-containers/trustee\">https://github.com/confidential-containers/trustee</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3251000,
+    "ptime": 3251000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>KBS protocol: <a href=\"https://github.com/confidential-containers/trustee/blob/main/kbs/docs/kbs_attestation_protocol.md\">https://github.com/confidential-containers/trustee/blob/main/kbs/docs/kbs_attestation_protocol.md</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3270000,
+    "ptime": 3270000
+  },
+  {
+    "author": "Muhammad Sardar",
+    "text": "<p>@ Orie: yes, that's right. We will work in CCC attestation SIG in collaboration with CoCo community.</p>",
+    "topic": "ietf-119",
+    "dtime": 3320000,
+    "ptime": 3320000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>I think I brought up the idea around capturing various local delivery/issuance patterns , and agree that perhaps it makes more sense in architecture doc</p>",
+    "topic": "ietf-119",
+    "dtime": 3661000,
+    "ptime": 3661000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Process geekery: It actually sounds like it is better as a standards track \"Applicability Statement\" (see RFC 2026) rather than a BCP.</p>",
+    "topic": "ietf-119",
+    "dtime": 3809000,
+    "ptime": 3809000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Pete that is such a terrible name.</p>",
+    "topic": "ietf-119",
+    "dtime": 3874000,
+    "ptime": 3874000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> I can't disagree, but that's what it got called at the time.</p>",
+    "topic": "ietf-119",
+    "dtime": 3910000,
+    "ptime": 3910000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>doesn't mean we need to use it :)</p>",
+    "topic": "ietf-119",
+    "dtime": 3940000,
+    "ptime": 3940000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Either way, it's OK to make such things on the standards track. BCPs procedurally are not a good fit for this.</p>",
+    "topic": "ietf-119",
+    "dtime": 3965000,
+    "ptime": 3965000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>tbh i don't think 2026 articulates a clear distinction between AS and BCP</p>",
+    "topic": "ietf-119",
+    "dtime": 3997000,
+    "ptime": 3997000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>Thanks Hannes</p>",
+    "topic": "ietf-119",
+    "dtime": 4029000,
+    "ptime": 4029000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>Could the people coming to the mic in the room please stand closer to the mic?</p>",
+    "topic": "ietf-119",
+    "dtime": 4050000,
+    "ptime": 4050000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1219\">@Atul Tulshibagwale</span> Sorry about that.</p>",
+    "topic": "ietf-119",
+    "dtime": 4184000,
+    "ptime": 4184000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I should know better.</p>",
+    "topic": "ietf-119",
+    "dtime": 4197000,
+    "ptime": 4197000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>no worries, thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 4209000,
+    "ptime": 4209000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Great comment: \"Predictions are hard...especially about the future.\" :)</p>",
+    "topic": "ietf-119",
+    "dtime": 4824000,
+    "ptime": 4824000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 4834000,
+    "ptime": 4834000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Hands tool here for id</p>",
+    "topic": "ietf-119",
+    "dtime": 5187000,
+    "ptime": 5187000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>Sentiment for the room: wimse-cal.</p>",
+    "topic": "ietf-119",
+    "dtime": 5213000,
+    "ptime": 5213000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>:)</p>",
+    "topic": "ietf-119",
+    "dtime": 5271000,
+    "ptime": 5271000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>I read the doc but wasn't present in the room to raise my hand :)</p>",
+    "topic": "ietf-119",
+    "dtime": 5335000,
+    "ptime": 5335000
+  },
+  {
+    "author": "avri doria",
+    "text": "<p>you did not count online people who may have read it.</p>",
+    "topic": "ietf-119",
+    "dtime": 5345000,
+    "ptime": 5345000
+  },
+  {
+    "author": "Paul Grehan",
+    "text": "<p>10 in hte room..</p>",
+    "topic": "ietf-119",
+    "dtime": 5346000,
+    "ptime": 5346000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>there's no rule that says that people have to have read the doc to support its adoption</p>",
+    "topic": "ietf-119",
+    "dtime": 5359000,
+    "ptime": 5359000
+  },
+  {
+    "author": "Dmitry Izumskiy",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 5424000,
+    "ptime": 5424000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>+1 on Yaron's comment</p>",
+    "topic": "ietf-119",
+    "dtime": 5717000,
+    "ptime": 5717000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>+1 on scope comment</p>",
+    "topic": "ietf-119",
+    "dtime": 5943000,
+    "ptime": 5943000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>Can someone remind me what problem this solves please?</p>",
+    "topic": "ietf-119",
+    "dtime": 6111000,
+    "ptime": 6111000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>Better (documented) interop between OAuth and SPIFFE was one of the concrete use cases that gave rise to this deliverable, if my memory serves me correctly.</p>",
+    "topic": "ietf-119",
+    "dtime": 6248000,
+    "ptime": 6248000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>As I understand, this document \"Token Exchange\" is about getting an access token for one domain, when you have one in another domain.</p>",
+    "topic": "ietf-119",
+    "dtime": 6249000,
+    "ptime": 6249000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>but its possible I am just quoting the OAuth document from the earlier presentation, and assuming it is a solved problem based on that draft.</p>",
+    "topic": "ietf-119",
+    "dtime": 6292000,
+    "ptime": 6292000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>Thx. I believe the slide should rather focus on that than on a \"possible solution\".</p>",
+    "topic": "ietf-119",
+    "dtime": 6311000,
+    "ptime": 6311000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>sounds like the key distinction with oauth is perhapse, token format, maybe not conceptual use case.</p>",
+    "topic": "ietf-119",
+    "dtime": 6362000,
+    "ptime": 6362000
+  },
+  {
+    "author": "Arndt Schwenkschuster",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 6468000,
+    "ptime": 6468000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>The OIDC-centric token exchange that cloud providers do with non-OAuth JWTs also comes to mind</p>",
+    "topic": "ietf-119",
+    "dtime": 6494000,
+    "ptime": 6494000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>For folks interested in design teams: <a href=\"https://datatracker.ietf.org/doc/statement-iesg-on-design-teams-20011221/\">https://datatracker.ietf.org/doc/statement-iesg-on-design-teams-20011221/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 6533000,
+    "ptime": 6533000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>My feeling is that there might be some overlap between this deliverable and local issuance one.</p>",
+    "topic": "ietf-119",
+    "dtime": 6683000,
+    "ptime": 6683000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>I would</p>",
+    "topic": "ietf-119",
+    "dtime": 6744000,
+    "ptime": 6744000
+  },
+  {
+    "author": "Evan Gilman",
+    "text": "<p>That is interesting</p>",
+    "topic": "ietf-119",
+    "dtime": 7146000,
+    "ptime": 7146000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-WIMSE-20240318-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/wimse"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-WIMSE-20240318-0300"
+		}		
+	]
+}

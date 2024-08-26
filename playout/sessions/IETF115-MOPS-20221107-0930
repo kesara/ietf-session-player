@@ -1,0 +1,392 @@
+
+{
+	"title": "IETF115-MOPS-20221107-0930",
+	"filename": "IETF115-MOPS-20221107-0930",
+	"start": 0,
+	"end": 5596000,
+	"start_datetime": "2022-11-07T09:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "bs9g8zUpF2g",
+    "start": 0,
+    "end": "5596000"
+  }
+],
+	"messages": [
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Any volunteer <a href=\"https://notes.ietf.org/notes-ietf-115-mops?both\">https://notes.ietf.org/notes-ietf-115-mops?both</a> ?</p>",
+    "topic": "jabber",
+    "dtime": 314000,
+    "ptime": 314000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Thank you, Warren</p>",
+    "topic": "jabber",
+    "dtime": 339000,
+    "ptime": 339000
+  },
+  {
+    "author": "Giles Heron",
+    "text": "<p>seems odd that delay budget is under 1 ms when video is 120 fps (i.e. 8ms per frame)</p>",
+    "topic": "jabber",
+    "dtime": 980000,
+    "ptime": 980000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>indeed</p>",
+    "topic": "jabber",
+    "dtime": 1043000,
+    "ptime": 1043000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Q to be asked on the mic ?</p>",
+    "topic": "jabber",
+    "dtime": 1057000,
+    "ptime": 1057000
+  },
+  {
+    "author": "Giles Heron",
+    "text": "<p>I'm remote, but can do</p>",
+    "topic": "jabber",
+    "dtime": 1081000,
+    "ptime": 1081000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>what is the reason for uncompressed video? is it driven by latency reqs?</p>",
+    "topic": "jabber",
+    "dtime": 1179000,
+    "ptime": 1179000
+  },
+  {
+    "author": "Giles Heron",
+    "text": "<p>I suspect so...</p>",
+    "topic": "jabber",
+    "dtime": 1197000,
+    "ptime": 1197000
+  },
+  {
+    "author": "Jorge Ferret",
+    "text": "<p>I think people already mentioned that: but why not use I frame compression (it can range from loseless to high compression), some broadcast contribuition equipment uses that schema (ex: JPEG XS)</p>",
+    "topic": "jabber",
+    "dtime": 1455000,
+    "ptime": 1455000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>but even the newer jpeg codecs (just compressing each frame independently) gets a lot of mileage in terms of bw reduction w/o much delay.</p>",
+    "topic": "jabber",
+    "dtime": 1469000,
+    "ptime": 1469000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>agree with @Jorge and @Ali, I am having trouble to see how this can be used in more than a lab with &gt; 7.5 Gbps requirements :D</p>",
+    "topic": "jabber",
+    "dtime": 1531000,
+    "ptime": 1531000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>For certain applications (like surgery) you probably want to avoid the possibility of artifacts, e.g., from motion compensation. But you can probably avoid that even with some level of lossy compression.</p>",
+    "topic": "jabber",
+    "dtime": 1533000,
+    "ptime": 1533000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>I'm not smart about this, but I also suggest that some use cases are difficult to rely compressed video (especially remote surgery in a lawsuit-rich environment). Alternatively, in MOQ converstions with Cullen, he's told me \"but people are using TCP-based media in some parts of the world for remote surgery, because that's what they've got\".</p>",
+    "topic": "jabber",
+    "dtime": 1554000,
+    "ptime": 1554000
+  },
+  {
+    "author": "Giles Heron",
+    "text": "<p>agreed - and as I say, I suspect having a 0.75ms RTT latency budget is a bit extreme when you only have one video frame every 8.3ms...</p>",
+    "topic": "jabber",
+    "dtime": 1615000,
+    "ptime": 1615000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>surgeons wont react in less than a ms anyway :)</p>",
+    "topic": "jabber",
+    "dtime": 1648000,
+    "ptime": 1648000
+  },
+  {
+    "author": "Giles Heron",
+    "text": "<p>exactly - human perception is a hard limit.    IIRC you get false started in track &amp; field if you move within 100ms of the gun</p>",
+    "topic": "jabber",
+    "dtime": 1723000,
+    "ptime": 1723000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Does JPEG do any better these days with high-contrast, high-detail images? Like anything with text? If not, that might not be the best choice for something requiring detailed work.</p>",
+    "topic": "jabber",
+    "dtime": 1731000,
+    "ptime": 1731000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>jpeg works wonders nowadays, but then the image profile for hevc and vvc does even better.</p>",
+    "topic": "jabber",
+    "dtime": 1811000,
+    "ptime": 1811000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>any chance to turn off A/C in the room?</p>",
+    "topic": "jabber",
+    "dtime": 2308000,
+    "ptime": 2308000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>I'd rather they didn't. You don't want me to have to take off any more clothes.</p>",
+    "topic": "jabber",
+    "dtime": 2366000,
+    "ptime": 2366000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>:satisfied:</p>",
+    "topic": "jabber",
+    "dtime": 2386000,
+    "ptime": 2386000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>:-o</p>",
+    "topic": "jabber",
+    "dtime": 2745000,
+    "ptime": 2745000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@Luis: Thanks for sharing this. For next steps, it would be helpful to separate items that are specific to the engineering choices you made for integrating ALTO vs. items that require some protocol specific work. If no protocol extension is required, that's useful to share as well.</p>",
+    "topic": "jabber",
+    "dtime": 3033000,
+    "ptime": 3033000
+  },
+  {
+    "author": "Jorge Ferret",
+    "text": "<p>Using MCAST could have great BW savings, but I guess you are converitng reliable connections to UNreliable ones, are treeCDN adding a requirement to receivers to suport auto-recovering to dataloss?</p>",
+    "topic": "jabber",
+    "dtime": 4129000,
+    "ptime": 4129000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>I am more concerned about MTU mismatch (video is rather resilient wrt packet loss)</p>",
+    "topic": "jabber",
+    "dtime": 4181000,
+    "ptime": 4181000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>live streaming is the only niche for MCAST. Important, but still a niche</p>",
+    "topic": "jabber",
+    "dtime": 4200000,
+    "ptime": 4200000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1051\">Jorge Ferret</span> <a href=\"#narrow/stream/115-mops/topic/jabber/near/47952\">said</a>:</p>\n<blockquote>\n<p>Using MCAST could have great BW savings, but I guess you are converitng reliable connections to UNreliable ones, are treeCDN adding a requirement to receivers to suport auto-recovering to dataloss?</p>\n</blockquote>\n<p>You can still do unicast repair (as we do in iptv).</p>",
+    "topic": "jabber",
+    "dtime": 4233000,
+    "ptime": 4233000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Not really. Large file downloads are also a good use case for multicast, like Windows updates and whatnot.</p>",
+    "topic": "jabber",
+    "dtime": 4248000,
+    "ptime": 4248000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>IMO, there are more potential use cases than it initially seems</p>",
+    "topic": "jabber",
+    "dtime": 4267000,
+    "ptime": 4267000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>not everybody gets the updates at the same time <span class=\"user-mention\" data-user-id=\"1058\">@Kyle Rose</span></p>",
+    "topic": "jabber",
+    "dtime": 4304000,
+    "ptime": 4304000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>OTOH Windows Updates are not done simultaneously (AFAIK and this could be changed)</p>",
+    "topic": "jabber",
+    "dtime": 4322000,
+    "ptime": 4322000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>Current provider multicast networks are not designed for software downloads.</p>",
+    "topic": "jabber",
+    "dtime": 4327000,
+    "ptime": 4327000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>They don't, Ali, but you can naively multicast a file in round robin fashion and receivers will just download a suffix and then a prefix rather than getting 0-&lt;file size&gt; in order.</p>",
+    "topic": "jabber",
+    "dtime": 4414000,
+    "ptime": 4414000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Jake explained to me that there are even more efficient ways of doing this, but that gets the point across conceptually</p>",
+    "topic": "jabber",
+    "dtime": 4442000,
+    "ptime": 4442000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>my bigger issue is the games. they are enormous (&gt;50 GB)</p>",
+    "topic": "jabber",
+    "dtime": 4474000,
+    "ptime": 4474000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Same deal</p>",
+    "topic": "jabber",
+    "dtime": 4494000,
+    "ptime": 4494000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>What protocol would you use for reliable MCast transport?</p>",
+    "topic": "jabber",
+    "dtime": 4556000,
+    "ptime": 4556000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>yes carouseling is an old idea that works quite well but there has to be enough concurrency for the tradeoff to make sense. Otherwise, caching like HTTP is just fine and getting to the edge (via multicast if you like) and then simple unicast gets the job done.</p>",
+    "topic": "jabber",
+    "dtime": 4588000,
+    "ptime": 4588000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>existing CDNs use HTTP pretty much e2e - would MCAST work with HTTP?</p>",
+    "topic": "jabber",
+    "dtime": 4621000,
+    "ptime": 4621000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1546\">Wolfgang Beck</span> <a href=\"#narrow/stream/115-mops/topic/jabber/near/47978\">said</a>:</p>\n<blockquote>\n<p>What protocol would you use for reliable MCast transport?</p>\n</blockquote>\n<p>If you are missing a portion of a media segment, you can do http-based repair (byte range request) like 3gpp does.</p>",
+    "topic": "jabber",
+    "dtime": 4638000,
+    "ptime": 4638000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<ul>\n<li>Democratizes content: there are owners with rights</li>\n<li>Novel attack surface when you have replication as a service</li>\n<li>Doesn't eliminate the key management issue: it just pushes it to another layer</li>\n<li>How to handle privacy?</li>\n</ul>",
+    "topic": "jabber",
+    "dtime": 4798000,
+    "ptime": 4798000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>I know re are mechanisms for media, but for game downloads you'd probably need something different</p>",
+    "topic": "jabber",
+    "dtime": 4837000,
+    "ptime": 4837000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>re \"owners with rights\": wouldn't DRM solve this?</p>",
+    "topic": "jabber",
+    "dtime": 4838000,
+    "ptime": 4838000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>Where it can be implemented, maybe.</p>",
+    "topic": "jabber",
+    "dtime": 4937000,
+    "ptime": 4937000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>You can do something like NORM. You need a transport for multicast, whatever it is it will allow you to identify the packets and recover them thru retransmissions or FEC (like FLUTE, etc.)</p>",
+    "topic": "jabber",
+    "dtime": 4955000,
+    "ptime": 4955000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>DRM involves a lot of things, but I can't think of a model in which it doesn't imply the need for a relationship between every viewer and the content provider.</p>",
+    "topic": "jabber",
+    "dtime": 4975000,
+    "ptime": 4975000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>yeah, decryption keys needs to obtain by every viewer - comparing to media traffic that probably not much of problem?</p>",
+    "topic": "jabber",
+    "dtime": 5100000,
+    "ptime": 5100000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Good point, Eric. I can expand and maybe make my questions/comments more coherent by sending them to the list. Why didn't I think of that? ;-)</p>",
+    "topic": "jabber",
+    "dtime": 5111000,
+    "ptime": 5111000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>;-)</p>",
+    "topic": "jabber",
+    "dtime": 5267000,
+    "ptime": 5267000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>We should also ask who wants to work on this in MOPS (at least on the mailing list)</p>",
+    "topic": "jabber",
+    "dtime": 5501000,
+    "ptime": 5501000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>thanks to the chairs</p>",
+    "topic": "jabber",
+    "dtime": 5504000,
+    "ptime": 5504000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-MOPS-20221107-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/mops"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-MOPS-20221107-0930"
+		}		
+	]
+}

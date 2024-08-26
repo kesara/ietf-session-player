@@ -1,0 +1,287 @@
+
+{
+	"title": "IETF120-LAMPS-20240726-2000",
+	"filename": "IETF120-LAMPS-20240726-2000",
+	"start": 0,
+	"end": 4462000,
+	"start_datetime": "2024-07-26T19:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "rY0zdm74yQs",
+    "start": 0,
+    "end": "4462000"
+  }
+],
+	"messages": [
+  {
+    "author": "Yoav Nir",
+    "text": "<p>How long before some participants have no idea what those \"blue sheets\" we keep mentioning are?</p>",
+    "topic": "ietf-120",
+    "dtime": 122000,
+    "ptime": 122000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I would be shocked if composite sigs has NO discussion.</p>",
+    "topic": "ietf-120",
+    "dtime": 216000,
+    "ptime": 216000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Some of the people who might want to discuss are on planes right now.</p>",
+    "topic": "ietf-120",
+    "dtime": 310000,
+    "ptime": 310000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Level 1 / 2: does LAMPS care about the embedded things of the world?</p>",
+    "topic": "ietf-120",
+    "dtime": 550000,
+    "ptime": 550000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>\"embedded\" can be a car with 4 GB of RAM, or a lightbulb with 100 KB.</p>",
+    "topic": "ietf-120",
+    "dtime": 633000,
+    "ptime": 633000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Quynh's position is compatible with CNSA 2.0:</p>\n<blockquote>\n<p>CRYSTALS-Kyber: Use Level V parameters for all classification levels.<br>\nCRYSTALS-Dilithium: Use Level V parameters for all classification levels.</p>\n</blockquote>",
+    "topic": "ietf-120",
+    "dtime": 910000,
+    "ptime": 910000
+  },
+  {
+    "author": "Russ Housley",
+    "text": "<p>Mike: Please mute when you are not talking</p>",
+    "topic": "ietf-120",
+    "dtime": 997000,
+    "ptime": 997000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I want to make sure Tim's point makes it into the notes:<br>\nThe whole reason for having RSA hybrids is to help people with implementations so ancient that they never implemented ECC in order to help them bridge to PQ. Being over-prescriptive here to the point that these ancient can't use them is counter-productive.</p>",
+    "topic": "ietf-120",
+    "dtime": 1044000,
+    "ptime": 1044000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>RE: Brainpool. Stavros expressed his very great support for having them (comment on-list al least a year ago)</p>",
+    "topic": "ietf-120",
+    "dtime": 1073000,
+    "ptime": 1073000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>But we can talk to BSI folks again.</p>",
+    "topic": "ietf-120",
+    "dtime": 1086000,
+    "ptime": 1086000
+  },
+  {
+    "author": "Kris Kwiatkowski",
+    "text": "<p>As far as I remember BSI really likes composites, so that's why brainpools are there, isn't it?</p>",
+    "topic": "ietf-120",
+    "dtime": 1089000,
+    "ptime": 1089000
+  },
+  {
+    "author": "Jan Klaußner",
+    "text": "<p>brainpool: yes, BSi position has not changed here</p>",
+    "topic": "ietf-120",
+    "dtime": 1109000,
+    "ptime": 1109000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"4067\">Jan Klaußner</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-120/near/131524\">said</a>:</p>\n<blockquote>\n<p>brainpool: yes, BSi position has not changed here</p>\n</blockquote>\n<p>Jan, do you think you could bring us an authoritative opinion from BSI about the minimum set of brainpool combinations that BSI would like?</p>",
+    "topic": "ietf-120",
+    "dtime": 1204000,
+    "ptime": 1204000
+  },
+  {
+    "author": "Jan Klaußner",
+    "text": "<p>@mike: i think I can do this</p>",
+    "topic": "ietf-120",
+    "dtime": 1288000,
+    "ptime": 1288000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>Thanks Jan, that would be very helpful</p>",
+    "topic": "ietf-120",
+    "dtime": 1322000,
+    "ptime": 1322000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I would leave HKDF-SHA2 as optional.</p>",
+    "topic": "ietf-120",
+    "dtime": 1330000,
+    "ptime": 1330000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<blockquote>\n<p>MTI: KMAC<br>\nOptional: HKDF-SHA2</p>\n</blockquote>\n<p>probably better. And yes, we had better make sure both are FIPS-compliant.</p>",
+    "topic": "ietf-120",
+    "dtime": 1489000,
+    "ptime": 1489000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Ugg, backwards.</p>\n<blockquote>\n<p>MTI: HKDF-SHA2<br>\nOptional-but-preferred: HKDF-SHA2</p>\n</blockquote>\n<p>probably better. And yes, we had better make sure both are FIPS-compliant.</p>",
+    "topic": "ietf-120",
+    "dtime": 1540000,
+    "ptime": 1540000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>OMG. 3rd try.</p>\n<blockquote>\n<p>MTI: HKDF-SHA2<br>\nOptional-but-preferred: KMAC</p>\n</blockquote>\n<p>probably better. And yes, we had better make sure both are FIPS-compliant.</p>",
+    "topic": "ietf-120",
+    "dtime": 1620000,
+    "ptime": 1620000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I could imagine situations where a malicious client submits a CSR containing a KEM key which has been contrived to be able to later perform some kind of \"bait&amp;switch\" re-encapsulation attacks where an honest party is no longer encrypting for the entity that they think they are.</p>",
+    "topic": "ietf-120",
+    "dtime": 1851000,
+    "ptime": 1851000
+  },
+  {
+    "author": "John Gray",
+    "text": "<p>Thanks Jan.  That would be very helpful to get a statement from BSI on which brainpool curves we have to use...</p>",
+    "topic": "ietf-120",
+    "dtime": 1882000,
+    "ptime": 1882000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span> <br>\nCan these re-encapsulation attacks allow for self-backdooring your public key so that a 3rd party monitoring agent can decrypt, but has also claim that they don't have a copy of the client's private key? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span>. I may have a business proposition...</p>",
+    "topic": "ietf-120",
+    "dtime": 2011000,
+    "ptime": 2011000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p>\"MTI: HKDF-SHA2<br>\nOptional-but-preferred: KMAC\"<br>\nMTI but something else is preferred is a little odd isn't it?</p>",
+    "topic": "ietf-120",
+    "dtime": 2126000,
+    "ptime": 2126000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> Well, that is certainly <em>one</em> approach, i.e., self licensing a backdoor on your own security... at least you get paid for someone attacking you. <span aria-label=\"smirk\" class=\"emoji emoji-1f60f\" role=\"img\" title=\"smirk\">:smirk:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 2267000,
+    "ptime": 2267000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>is outputbits part of the mixin for the KDF? or just an input to the LTRIM?</p>",
+    "topic": "ietf-120",
+    "dtime": 2404000,
+    "ptime": 2404000
+  },
+  {
+    "author": "Kris Kwiatkowski",
+    "text": "<p>+1</p>",
+    "topic": "ietf-120",
+    "dtime": 2455000,
+    "ptime": 2455000
+  },
+  {
+    "author": "Sophie Schmieg",
+    "text": "<p>It's a sad thing</p>",
+    "topic": "ietf-120",
+    "dtime": 2459000,
+    "ptime": 2459000
+  },
+  {
+    "author": "Sophie Schmieg",
+    "text": "<p>Note that this would not meet the leak misbinding property, whatever that implies</p>",
+    "topic": "ietf-120",
+    "dtime": 2743000,
+    "ptime": 2743000
+  },
+  {
+    "author": "Peter Campbell",
+    "text": "<p>Please don't call <em>this</em> DHKEM.  It's not 9180's DHKEM.</p>",
+    "topic": "ietf-120",
+    "dtime": 2756000,
+    "ptime": 2756000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p>DHKEM-</p>",
+    "topic": "ietf-120",
+    "dtime": 2815000,
+    "ptime": 2815000
+  },
+  {
+    "author": "Peter Campbell",
+    "text": "<p>It might be onfusing to call it the same thing.</p>",
+    "topic": "ietf-120",
+    "dtime": 2817000,
+    "ptime": 2817000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p>minus</p>",
+    "topic": "ietf-120",
+    "dtime": 2822000,
+    "ptime": 2822000
+  },
+  {
+    "author": "Kris Kwiatkowski",
+    "text": "<p>KEMDH</p>",
+    "topic": "ietf-120",
+    "dtime": 2832000,
+    "ptime": 2832000
+  },
+  {
+    "author": "Sophie Schmieg",
+    "text": "<p>ECIES</p>",
+    "topic": "ietf-120",
+    "dtime": 2844000,
+    "ptime": 2844000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p>aren't you a smartcard vendor?</p>",
+    "topic": "ietf-120",
+    "dtime": 3064000,
+    "ptime": 3064000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Did Russ say \"More time to argue about Composites\" ?</p>",
+    "topic": "ietf-120",
+    "dtime": 4335000,
+    "ptime": 4335000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-LAMPS-20240726-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/lamps"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-LAMPS-20240726-2000"
+		}		
+	]
+}

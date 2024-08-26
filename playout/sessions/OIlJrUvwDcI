@@ -1,0 +1,828 @@
+
+{
+	"title": "IETF112-IOTOPS-20211112-1600",
+	"filename": "IETF112-IOTOPS-20211112-1600",
+	"start": 0,
+	"end": 3727000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "OIlJrUvwDcI",
+    "start": 0,
+    "end": "3727000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 50000,
+    "ptime": 50000,
+    "author": "mcr",
+    "text": "wait... IOTOPS has never met in person.<br/>"
+  },
+  {
+    "dtime": 188000,
+    "ptime": 188000,
+    "author": "mcr",
+    "text": "I can watch jabber.<br/>"
+  },
+  {
+    "dtime": 200000,
+    "ptime": 200000,
+    "author": "Alexey Melnikov",
+    "text": "I will watch Jabber as well<br/>"
+  },
+  {
+    "dtime": 372000,
+    "ptime": 372000,
+    "author": "Bob Moskowitz",
+    "text": "Perhaps this can be used for bluetooth hardware authentication:&nbsp;&nbsp;<a href=\"https://spectrum.ieee.org/bluetooth-security\" rel=\"nofollow\">https://spectrum.ieee.org/bluetooth-security</a><br/>"
+  },
+  {
+    "dtime": 808000,
+    "ptime": 808000,
+    "author": "BEHCET SARIKAYA",
+    "text": "@Bob but IEEE 802.15 not working on this<br/>"
+  },
+  {
+    "dtime": 857000,
+    "ptime": 857000,
+    "author": "Bob Moskowitz",
+    "text": "Oh course not!&nbsp;&nbsp;This is an implementation flaw that is being exploited.&nbsp;&nbsp;It kind of points both to perhaps how to design such a feature in and also the risk in doing so.<br/>"
+  },
+  {
+    "dtime": 887000,
+    "ptime": 887000,
+    "author": "Bob Moskowitz",
+    "text": "And 802.15 has not worked on Bluetooth since 802.15.1...<br/>"
+  },
+  {
+    "dtime": 1422000,
+    "ptime": 1422000,
+    "author": "BEHCET SARIKAYA",
+    "text": "@mcr I just checked, the minutes on my talk are good :)<br/>"
+  },
+  {
+    "dtime": 1641000,
+    "ptime": 1641000,
+    "author": "mcr",
+    "text": ":-)<br/>"
+  },
+  {
+    "dtime": 1730000,
+    "ptime": 1730000,
+    "author": "Dave Thaler",
+    "text": "how do you pronounce suib?<br/>"
+  },
+  {
+    "dtime": 1752000,
+    "ptime": 1752000,
+    "author": "mcr",
+    "text": "meh. SOO EEE BBB.<br/>"
+  },
+  {
+    "dtime": 1756000,
+    "ptime": 1756000,
+    "author": "mcr",
+    "text": "soeb.<br/>"
+  },
+  {
+    "dtime": 1765000,
+    "ptime": 1765000,
+    "author": "Dave Thaler",
+    "text": "like a squib but without the q?<br/>"
+  },
+  {
+    "dtime": 1765000,
+    "ptime": 1765000,
+    "author": "Eliot Lear",
+    "text": "@Dave, it's clearly welsh.<br/>"
+  },
+  {
+    "dtime": 1770000,
+    "ptime": 1770000,
+    "author": "Eliot Lear",
+    "text": ";-)<br/>"
+  },
+  {
+    "dtime": 1775000,
+    "ptime": 1775000,
+    "author": "Christian Amsüss",
+    "text": ":-D<br/>"
+  },
+  {
+    "dtime": 1788000,
+    "ptime": 1788000,
+    "author": "mcr",
+    "text": "suib game.<br/>"
+  },
+  {
+    "dtime": 1799000,
+    "ptime": 1799000,
+    "author": "Bob Moskowitz",
+    "text": "DANCE could be used here.<br/>"
+  },
+  {
+    "dtime": 1821000,
+    "ptime": 1821000,
+    "author": "Dave Thaler",
+    "text": "then we need SONG to go with DANCE<br/>"
+  },
+  {
+    "dtime": 1832000,
+    "ptime": 1832000,
+    "author": "BEHCET SARIKAYA",
+    "text": "squid game :)<br/>"
+  },
+  {
+    "dtime": 1845000,
+    "ptime": 1845000,
+    "author": "mcr",
+    "text": "@Bob, yes, we have actually been discussing exactly that... and we don't even need client-names in TLS.... only browser don't speak DTLS.<br/>"
+  },
+  {
+    "dtime": 1852000,
+    "ptime": 1852000,
+    "author": "mcr",
+    "text": "er, don't speak TLSA.<br/>"
+  },
+  {
+    "dtime": 1859000,
+    "ptime": 1859000,
+    "author": "mcr",
+    "text": "(TLA overload)<br/>"
+  },
+  {
+    "dtime": 1861000,
+    "ptime": 1861000,
+    "author": "Christian Amsüss",
+    "text": "wouldn't DANCE require DNSSEC, moving this just to how to trust the local DNS?<br/>"
+  },
+  {
+    "dtime": 1924000,
+    "ptime": 1924000,
+    "author": "Christian Amsüss",
+    "text": "ad unusable: ... and we really don't want to train users to do that<br/>"
+  },
+  {
+    "dtime": 1960000,
+    "ptime": 1960000,
+    "author": "Carsten Bormann",
+    "text": "So why don't we give the thing a name and a cert?<br/>"
+  },
+  {
+    "dtime": 1975000,
+    "ptime": 1975000,
+    "author": "mcr",
+    "text": "what's the name?<br/>"
+  },
+  {
+    "dtime": 1990000,
+    "ptime": 1990000,
+    "author": "Carsten Bormann",
+    "text": "foo.bar.baz.de<br/>"
+  },
+  {
+    "dtime": 1993000,
+    "ptime": 1993000,
+    "author": "mcr",
+    "text": "can we convince the browser community to accept&nbsp;&nbsp;a new set of anchors for those names?<br/>"
+  },
+  {
+    "dtime": 1994000,
+    "ptime": 1994000,
+    "author": "Bob Moskowitz",
+    "text": "802.1AR everywhere?<br/>"
+  },
+  {
+    "dtime": 1999000,
+    "ptime": 1999000,
+    "author": "Carsten Bormann",
+    "text": "Nothing new needed.<br/>"
+  },
+  {
+    "dtime": 2001000,
+    "ptime": 2001000,
+    "author": "Dave Thaler",
+    "text": "seruialnumber.philips-hue.local ?<br/>"
+  },
+  {
+    "dtime": 2018000,
+    "ptime": 2018000,
+    "author": "Carsten Bormann",
+    "text": "Not that great, as .local is a special name.<br/>"
+  },
+  {
+    "dtime": 2036000,
+    "ptime": 2036000,
+    "author": "Eduard V",
+    "text": "Enterprises do not manage certificates for users because it is a big additional job. Never to say about IoT.<br/>"
+  },
+  {
+    "dtime": 2041000,
+    "ptime": 2041000,
+    "author": "Bob Moskowitz",
+    "text": "@Dave, close to what is in the IdevID.<br/>"
+  },
+  {
+    "dtime": 2050000,
+    "ptime": 2050000,
+    "author": "mcr",
+    "text": "we actually have a proposal that does exactly that @Dave, but it requires a wildcard certificate, since the device has a ULA or RFC1918 address, so we have to convince seruialnumber.philips-hue.com to answer with that name.<br/>"
+  },
+  {
+    "dtime": 2060000,
+    "ptime": 2060000,
+    "author": "mcr",
+    "text": "CABforum won't trust names ending in .local<br/>"
+  },
+  {
+    "dtime": 2076000,
+    "ptime": 2076000,
+    "author": "Carsten Bormann",
+    "text": "So don't use them.&nbsp;&nbsp;What good is .local?<br/>"
+  },
+  {
+    "dtime": 2077000,
+    "ptime": 2077000,
+    "author": "mcr",
+    "text": "I think it's later in the slides.<br/>"
+  },
+  {
+    "dtime": 2119000,
+    "ptime": 2119000,
+    "author": "Eliot Lear",
+    "text": "First problem.&nbsp;&nbsp;Fix the name of the project ;-)<br/>"
+  },
+  {
+    "dtime": 2137000,
+    "ptime": 2137000,
+    "author": "Eliot Lear",
+    "text": "A perfect bikeshedding opportunity<br/>"
+  },
+  {
+    "dtime": 2154000,
+    "ptime": 2154000,
+    "author": "BEHCET SARIKAYA",
+    "text": "@Eliot agreed<br/>"
+  },
+  {
+    "dtime": 2155000,
+    "ptime": 2155000,
+    "author": "Kohei Isobe",
+    "text": "Is this related work ?<br/><a href=\"https://www.w3.org/community/httpslocal/\" rel=\"nofollow\">https://www.w3.org/community/httpslocal/</a><br/>"
+  },
+  {
+    "dtime": 2181000,
+    "ptime": 2181000,
+    "author": "Carsten Bormann",
+    "text": "You can try to change the browsers.&nbsp;&nbsp;It is easier to use them as they are.<br/>"
+  },
+  {
+    "dtime": 2215000,
+    "ptime": 2215000,
+    "author": "Carsten Bormann",
+    "text": "what is \"root signed\"?<br/>"
+  },
+  {
+    "dtime": 2217000,
+    "ptime": 2217000,
+    "author": "Christian Amsüss",
+    "text": "Kohei: yes, it just stopped dead at somepoint<br/>"
+  },
+  {
+    "dtime": 2236000,
+    "ptime": 2236000,
+    "author": "Christian Amsüss",
+    "text": "Carsten: \"signed by something that traces back to CA Browser Forum\"<br/>"
+  },
+  {
+    "dtime": 2243000,
+    "ptime": 2243000,
+    "author": "Dave Thaler",
+    "text": "I think OCF \"solves\" this by not using the browser<br/>"
+  },
+  {
+    "dtime": 2261000,
+    "ptime": 2261000,
+    "author": "Carsten Bormann",
+    "text": "OK, an actual Web PKI cert.<br/>"
+  },
+  {
+    "dtime": 2269000,
+    "ptime": 2269000,
+    "author": "mcr",
+    "text": "Yes, OCF solves it that way, as does MATTER. MATTER also issues a local certificate, which still isn't useable to browsers.<br/>"
+  },
+  {
+    "dtime": 2272000,
+    "ptime": 2272000,
+    "author": "Carsten Bormann",
+    "text": "ACME can give you that (letsencrypt).<br/>"
+  },
+  {
+    "dtime": 2304000,
+    "ptime": 2304000,
+    "author": "Christian Amsüss",
+    "text": "Carsten: Almost. It still needs to communicate with the key holder.<br/>"
+  },
+  {
+    "dtime": 2307000,
+    "ptime": 2307000,
+    "author": "Eliot Lear",
+    "text": "This should be married to something like DPP.<br/>"
+  },
+  {
+    "dtime": 2321000,
+    "ptime": 2321000,
+    "author": "Carsten Bormann",
+    "text": "Christian: Sure.&nbsp;&nbsp;So you need a helper in the Internet.<br/>"
+  },
+  {
+    "dtime": 2330000,
+    "ptime": 2330000,
+    "author": "Christian Amsüss",
+    "text": "That's pretty much the current proposal, yes.<br/>"
+  },
+  {
+    "dtime": 2355000,
+    "ptime": 2355000,
+    "author": "Eliot Lear",
+    "text": "@Christian who were you replying to?<br/>"
+  },
+  {
+    "dtime": 2372000,
+    "ptime": 2372000,
+    "author": "Carsten Bormann",
+    "text": "I'm confused because the students set this all up here.&nbsp;&nbsp;They just didn't know it couldn't be done.<br/>"
+  },
+  {
+    "dtime": 2385000,
+    "ptime": 2385000,
+    "author": "Dave Thaler",
+    "text": "assuming internet connectivity will work for some iot scenarios and won't work for some iot scenarios<br/>"
+  },
+  {
+    "dtime": 2393000,
+    "ptime": 2393000,
+    "author": "Tadahiko Ito",
+    "text": "If it were about local https, I can imagine that browser would say that they have responsibility to provide secure service.&nbsp;&nbsp;If it were about unique name, we should discuss about dns validation.<br/>"
+  },
+  {
+    "dtime": 2396000,
+    "ptime": 2396000,
+    "author": "Christian Amsüss",
+    "text": "My \"current proposal\" was related to \"you need a helper\"<br/>"
+  },
+  {
+    "dtime": 2399000,
+    "ptime": 2399000,
+    "author": "mcr",
+    "text": "PLEX basically has a url like: <a href=\"https://192-168-1-2.deviceserial.devices.example/,\" rel=\"nofollow\">https://192-168-1-2.deviceserial.devices.example/,</a> and device has wildcard cert: *.deviceserial.devices.example, and DNS server constructs answer \"IN A 192.168.1.1\" for 192-168-1-2.deviceserial.devices.example.<br/>"
+  },
+  {
+    "dtime": 2401000,
+    "ptime": 2401000,
+    "author": "Carsten Bormann",
+    "text": "You need the Internet to get a cert.<br/>"
+  },
+  {
+    "dtime": 2423000,
+    "ptime": 2423000,
+    "author": "Dave Thaler",
+    "text": "you don't need the internet to get a cert.<br/>"
+  },
+  {
+    "dtime": 2434000,
+    "ptime": 2434000,
+    "author": "Carsten Bormann",
+    "text": "Why do you need the address in the cert?&nbsp;&nbsp;Facebook works without that.<br/>"
+  },
+  {
+    "dtime": 2440000,
+    "ptime": 2440000,
+    "author": "Christian Amsüss",
+    "text": "Dave: At least with the ACME providers we found you do.<br/>"
+  },
+  {
+    "dtime": 2452000,
+    "ptime": 2452000,
+    "author": "Dave Thaler",
+    "text": "maybe an ACME limitation then<br/>"
+  },
+  {
+    "dtime": 2453000,
+    "ptime": 2453000,
+    "author": "Eliot Lear",
+    "text": "Who are you getting the cert from?<br/>"
+  },
+  {
+    "dtime": 2461000,
+    "ptime": 2461000,
+    "author": "Dave Thaler",
+    "text": "who is you?<br/>"
+  },
+  {
+    "dtime": 2461000,
+    "ptime": 2461000,
+    "author": "Carsten Bormann",
+    "text": "letsencrypt<br/>"
+  },
+  {
+    "dtime": 2466000,
+    "ptime": 2466000,
+    "author": "Dave Thaler",
+    "text": "(to eliot)<br/>"
+  },
+  {
+    "dtime": 2468000,
+    "ptime": 2468000,
+    "author": "mcr",
+    "text": "Carsten, facebook.com has a DNS server with it's addresses.<br/>"
+  },
+  {
+    "dtime": 2478000,
+    "ptime": 2478000,
+    "author": "Carsten Bormann",
+    "text": "Yes.<br/>"
+  },
+  {
+    "dtime": 2488000,
+    "ptime": 2488000,
+    "author": "Eliot Lear",
+    "text": "That is, if a device is registering, who should it contact for a certificate/<br/>"
+  },
+  {
+    "dtime": 2491000,
+    "ptime": 2491000,
+    "author": "Eliot Lear",
+    "text": "?<br/>"
+  },
+  {
+    "dtime": 2501000,
+    "ptime": 2501000,
+    "author": "Carsten Bormann",
+    "text": "You need a DNS server and a node that talks to letsencrypt.<br/>"
+  },
+  {
+    "dtime": 2530000,
+    "ptime": 2530000,
+    "author": "Christian Amsüss",
+    "text": "Ad \"why address\": It works without too, but then it's dyndns and needs even more device online-ness.<br/>"
+  },
+  {
+    "dtime": 2532000,
+    "ptime": 2532000,
+    "author": "Dave Thaler",
+    "text": "some devices have a certificate from the manufacturer.&nbsp;&nbsp;If you mean from the network owner, then you get it from the network owner.<br/>"
+  },
+  {
+    "dtime": 2535000,
+    "ptime": 2535000,
+    "author": "mcr",
+    "text": "@Eliot, some solutions have a pre-provisioned name that gets the IP address mapping added afterwards, or derived.<br/>"
+  },
+  {
+    "dtime": 2556000,
+    "ptime": 2556000,
+    "author": "Christian Amsüss",
+    "text": "(Ideally I'd like to have this work fully offline, or at least when the commissioning borwser has Internet access but the device does not)<br/>"
+  },
+  {
+    "dtime": 2582000,
+    "ptime": 2582000,
+    "author": "Christian Amsüss",
+    "text": "Dave: Browser certificate lifetimes are now shorter than device shelf lives.<br/>"
+  },
+  {
+    "dtime": 2583000,
+    "ptime": 2583000,
+    "author": "BEHCET SARIKAYA",
+    "text": "@mcr yes, recent Facebook crash was because of that<br/>"
+  },
+  {
+    "dtime": 2586000,
+    "ptime": 2586000,
+    "author": "Dave Thaler",
+    "text": "Right Christian.&nbsp;&nbsp; OCF-style solutions do not require any internet connectivity.&nbsp;&nbsp; EVen a browser based one need not necessarily<br/>"
+  },
+  {
+    "dtime": 2590000,
+    "ptime": 2590000,
+    "author": "Carsten Bormann",
+    "text": "You need Internet access to talk to letsencrypt.&nbsp;&nbsp;Every three months or so.<br/>"
+  },
+  {
+    "dtime": 2598000,
+    "ptime": 2598000,
+    "author": "Eliot Lear",
+    "text": "@dave- the premise is that the manufacturer cert trust anchor is not in the browser.<br/>"
+  },
+  {
+    "dtime": 2616000,
+    "ptime": 2616000,
+    "author": "mcr",
+    "text": "@behcet, all of us have indirection from name-in-certificate and DNS-to-resolve name ,right?<br/>"
+  },
+  {
+    "dtime": 2676000,
+    "ptime": 2676000,
+    "author": "Eliot Lear",
+    "text": "But if you start from the basis that the manufacture cert IS in the browser or is x-signed by someone well known, then you don't need the Internet.<br/>"
+  },
+  {
+    "dtime": 2700000,
+    "ptime": 2700000,
+    "author": "Carsten Bormann",
+    "text": "I don't know how to get this into my iPhone.<br/>"
+  },
+  {
+    "dtime": 2718000,
+    "ptime": 2718000,
+    "author": "Dave Thaler",
+    "text": "right (x-signed by someone well known like the owner or network admin of the network it's being onboarded to)<br/>"
+  },
+  {
+    "dtime": 2732000,
+    "ptime": 2732000,
+    "author": "Eliot Lear",
+    "text": "in a consumer space, that's hard.<br/>"
+  },
+  {
+    "dtime": 2739000,
+    "ptime": 2739000,
+    "author": "Eliot Lear",
+    "text": "for the moment<br/>"
+  },
+  {
+    "dtime": 2749000,
+    "ptime": 2749000,
+    "author": "J Ignacio Alvarez-Hamelin",
+    "text": "The problem is that to verify a certificate you also need Internet. If not, every IoT device could bring its certificate.<br/>"
+  },
+  {
+    "dtime": 2770000,
+    "ptime": 2770000,
+    "author": "mcr",
+    "text": "@Carsten, you basically can't. And Apple and Google really don't want new anchors to be added by users...because apps might convince users to do that... and then total on-path attack.<br/>"
+  },
+  {
+    "dtime": 2787000,
+    "ptime": 2787000,
+    "author": "Carsten Bormann",
+    "text": "OK, I'm talking about browser to device.&nbsp;&nbsp;Devices can be more intelligent about this.<br/>"
+  },
+  {
+    "dtime": 2796000,
+    "ptime": 2796000,
+    "author": "Dave Thaler",
+    "text": "in the consumer space you generally have internet (at least at some point).&nbsp;&nbsp;But the problem of browsing local web resources in a secure usable manner (title of preso) is not only about the normal consumer case, from my understanding anyway.&nbsp;&nbsp; Hence my agreement with Christian's statement.<br/>"
+  },
+  {
+    "dtime": 2815000,
+    "ptime": 2815000,
+    "author": "Carsten Bormann",
+    "text": "mcr, it is good to know that the students couldn't have done it...<br/>"
+  },
+  {
+    "dtime": 2851000,
+    "ptime": 2851000,
+    "author": "Roy Williams",
+    "text": "In the consumer space, the buying of a lightbulb to put on the shelf for later is engrained.<br/>"
+  },
+  {
+    "dtime": 2867000,
+    "ptime": 2867000,
+    "author": "Carsten Bormann",
+    "text": "Dave, so get some data mules every three months :-)<br/>"
+  },
+  {
+    "dtime": 2871000,
+    "ptime": 2871000,
+    "author": "Roy Williams",
+    "text": "The technology we come up with needs to deal with 1 year or multiyear devices.<br/>"
+  },
+  {
+    "dtime": 2918000,
+    "ptime": 2918000,
+    "author": "Carsten Bormann",
+    "text": "(Eliot: Is this about IOT, i.e., involuntary ownership transfer?)<br/>"
+  },
+  {
+    "dtime": 2928000,
+    "ptime": 2928000,
+    "author": "Dave Thaler",
+    "text": "@Carsten that's basically what ZebraNet is (mentioned in some ietf plenary some years ago).&nbsp;&nbsp;same for busses in africa someplace<br/>"
+  },
+  {
+    "dtime": 2938000,
+    "ptime": 2938000,
+    "author": "mcr",
+    "text": "I think he is covering the same space, but with a smaller focus.<br/>"
+  },
+  {
+    "dtime": 2941000,
+    "ptime": 2941000,
+    "author": "Warren Kumari",
+    "text": "\"jumping\"<br/>"
+  },
+  {
+    "dtime": 2961000,
+    "ptime": 2961000,
+    "author": "mcr",
+    "text": "I had a long email thread with Henning about IOT stuff after his RIOT-Summit presentation.<br/>"
+  },
+  {
+    "dtime": 3100000,
+    "ptime": 3100000,
+    "author": "Carsten Bormann",
+    "text": "I still think that the cloudless browser access to home IoT resources is easily solvable.<br/>"
+  },
+  {
+    "dtime": 3106000,
+    "ptime": 3106000,
+    "author": "BEHCET SARIKAYA",
+    "text": "@mcr Really?<br/>"
+  },
+  {
+    "dtime": 3110000,
+    "ptime": 3110000,
+    "author": "Nicholas Allott",
+    "text": "RE: SUIB just catching up on questions: in general there may be two classes of solutions - ones that assume internet access&nbsp;&nbsp;and ones that dont (much harder sub problem - but very real use case). In addition (imho) some legacy guidelines need creating to clarify what browser should do when they hit the millions of devices already out there<br/>"
+  },
+  {
+    "dtime": 3132000,
+    "ptime": 3132000,
+    "author": "Dave Thaler",
+    "text": "good topic, this is the Involuntary Ownership Transfer OPS WG after all :)<br/>"
+  },
+  {
+    "dtime": 3146000,
+    "ptime": 3146000,
+    "author": "BEHCET SARIKAYA",
+    "text": "He was a SIP guy in IETF<br/>"
+  },
+  {
+    "dtime": 3184000,
+    "ptime": 3184000,
+    "author": "Bob Moskowitz",
+    "text": "Rows and flows of angels hair. - For control of IoT.<br/>"
+  },
+  {
+    "dtime": 3226000,
+    "ptime": 3226000,
+    "author": "Nicholas Allott",
+    "text": "@carsten: please if you have a solution - would be great<br/>"
+  },
+  {
+    "dtime": 3256000,
+    "ptime": 3256000,
+    "author": "Carsten Bormann",
+    "text": "Nicholas: I need to get the students to write it up...<br/>"
+  },
+  {
+    "dtime": 3308000,
+    "ptime": 3308000,
+    "author": "Warren Kumari",
+    "text": "Cycle power N times in M seconds -&gt; reset.... what could go wrong :-P<br/>"
+  },
+  {
+    "dtime": 3324000,
+    "ptime": 3324000,
+    "author": "Bob Moskowitz",
+    "text": "the power button breaks.<br/>"
+  },
+  {
+    "dtime": 3380000,
+    "ptime": 3380000,
+    "author": "BEHCET SARIKAYA",
+    "text": "@Nordmark your camera mispointing<br/>"
+  },
+  {
+    "dtime": 3403000,
+    "ptime": 3403000,
+    "author": "Bob Moskowitz",
+    "text": "Got one of those on my desk right now.&nbsp;&nbsp;Thinking about where I can get a new switch and how to do the surface mount soldering.<br/>"
+  },
+  {
+    "dtime": 3415000,
+    "ptime": 3415000,
+    "author": "Alexey Melnikov",
+    "text": "His camera doesn't think it belongs to him ;-)<br/>"
+  },
+  {
+    "dtime": 3426000,
+    "ptime": 3426000,
+    "author": "J Ignacio Alvarez-Hamelin",
+    "text": "You need always a reset!<br/>"
+  },
+  {
+    "dtime": 3455000,
+    "ptime": 3455000,
+    "author": "mcr",
+    "text": "@Eliot was there a draft associated with this?<br/>"
+  },
+  {
+    "dtime": 3495000,
+    "ptime": 3495000,
+    "author": "Dave Thaler",
+    "text": "Wes asks kids to tattle on each other<br/>"
+  },
+  {
+    "dtime": 3500000,
+    "ptime": 3500000,
+    "author": "Dave Thaler",
+    "text": ":)<br/>"
+  },
+  {
+    "dtime": 3635000,
+    "ptime": 3635000,
+    "author": "Eliot Lear",
+    "text": "nope<br/>"
+  },
+  {
+    "dtime": 3640000,
+    "ptime": 3640000,
+    "author": "Alexey Melnikov",
+    "text": "Eliot: sounds like a plan (just me personally, of course)<br/>"
+  },
+  {
+    "dtime": 3662000,
+    "ptime": 3662000,
+    "author": "mcr",
+    "text": "@Eliot, so let's use my draft.&nbsp;&nbsp;I want to look Behcet and Henning in as co-authors.<br/>"
+  },
+  {
+    "dtime": 3663000,
+    "ptime": 3663000,
+    "author": "Eliot Lear",
+    "text": "help wanted!<br/>"
+  },
+  {
+    "dtime": 3666000,
+    "ptime": 3666000,
+    "author": "mcr",
+    "text": "s/look/loop/<br/>"
+  },
+  {
+    "dtime": 3667000,
+    "ptime": 3667000,
+    "author": "Eliot Lear",
+    "text": "ok<br/>"
+  },
+  {
+    "dtime": 3681000,
+    "ptime": 3681000,
+    "author": "Carsten Bormann",
+    "text": "Please fix the notes <a href=\"https://notes.ietf.org/notes-ietf-112-iotops?edit\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-112-iotops?edit</a><br/>"
+  },
+  {
+    "dtime": 3685000,
+    "ptime": 3685000,
+    "author": "Carsten Bormann",
+    "text": "before going home<br/>"
+  },
+  {
+    "dtime": 3687000,
+    "ptime": 3687000,
+    "author": "BEHCET SARIKAYA",
+    "text": "wrapping up<br/>"
+  },
+  {
+    "dtime": 3700000,
+    "ptime": 3700000,
+    "author": "Juhamatti Kuusisaari",
+    "text": "thanks! great presentations!<br/>"
+  },
+  {
+    "dtime": 3700000,
+    "ptime": 3700000,
+    "author": "Eliot Lear",
+    "text": "thanks henk<br/>"
+  },
+  {
+    "dtime": 3704000,
+    "ptime": 3704000,
+    "author": "mcr",
+    "text": "Yes, please correct my mis-understandings!<br/>"
+  },
+  {
+    "dtime": 3707000,
+    "ptime": 3707000,
+    "author": "Eliot Lear",
+    "text": "thanks alexey<br/>"
+  },
+  {
+    "dtime": 3717000,
+    "ptime": 3717000,
+    "author": "Alexey Melnikov",
+    "text": "Thank you all<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-IOTOPS-20211112-1600"
+		}
+	]
+}

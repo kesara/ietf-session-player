@@ -1,0 +1,595 @@
+
+{
+	"title": "IETF118-INTAREA-20231109-1400",
+	"filename": "IETF118-INTAREA-20231109-1400",
+	"start": 0,
+	"end": 5729000,
+	"start_datetime": "2023-11-09T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "w7K_BT1UB1Q",
+    "start": 0,
+    "end": "5729000"
+  }
+],
+	"messages": [
+  {
+    "author": "Josh Cohen",
+    "text": "<p>WPAD origins Email: <a href=\"https://mailarchive.ietf.org/arch/msg/int-area/IHzF0V7nPNlfgQjiU7utUo85ngU/\">https://mailarchive.ietf.org/arch/msg/int-area/IHzF0V7nPNlfgQjiU7utUo85ngU/</a><br>\nPDF: <a href=\"https://mailarchive.ietf.org/arch/msg/int-area/IHzF0V7nPNlfgQjiU7utUo85ngU/2/\">https://mailarchive.ietf.org/arch/msg/int-area/IHzF0V7nPNlfgQjiU7utUo85ngU/2/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1247000,
+    "ptime": 1247000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Josh!  Glad to hear you at the IETF again!</p>",
+    "topic": "ietf-118",
+    "dtime": 1252000,
+    "ptime": 1252000
+  },
+  {
+    "author": "Josh Cohen",
+    "text": "<p>Thanks Ted! Happy to back</p>",
+    "topic": "ietf-118",
+    "dtime": 1401000,
+    "ptime": 1401000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>i guess deploying a ne ethertype requires changing some things in silicon</p>",
+    "topic": "ietf-118",
+    "dtime": 1680000,
+    "ptime": 1680000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1746\">Antoine Fressancourt</span> <a href=\"#narrow/stream/231-intarea/topic/ietf-118/near/100217\">said</a>:</p>\n<blockquote>\n<p>i guess deploying a ne ethertype requires changing some things in silicon</p>\n</blockquote>\n<p>not for processing</p>\n<p>perhaps a (relatively) trivial firmware update to reference a new ethertype code</p>",
+    "topic": "ietf-118",
+    "dtime": 1732000,
+    "ptime": 1732000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Agreed, it is usually a firmware change (or even simpler), and not a hardware change.</p>",
+    "topic": "ietf-118",
+    "dtime": 1773000,
+    "ptime": 1773000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>How trivial compared t filtering ingress SRH option on bordr routers ?</p>",
+    "topic": "ietf-118",
+    "dtime": 1776000,
+    "ptime": 1776000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Also changing the Ethertype from a programmable NIC is trivial</p>",
+    "topic": "ietf-118",
+    "dtime": 1894000,
+    "ptime": 1894000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>At which IPv6 option are we making the cut for introducing new Ethertypes ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2016000,
+    "ptime": 2016000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>ESP header ==&gt; New ethertype ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2050000,
+    "ptime": 2050000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>so if understand correctly - and to think this through for a second</p>\n<p>an operator can enable a flag on their routers in global mode, to enforce the ethertype requirement so that if enabled , it will not process any SRv6 headers unless its using the proper ethertype</p>\n<p>and then further granularly \"allowed\" on incoming interfaces?</p>",
+    "topic": "ietf-118",
+    "dtime": 2082000,
+    "ptime": 2082000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Antoine Fressancourt  At the moment, the line is at the use of SRv6.  It is not at the use of SRH.  Nor is it at the use of Routing Headers.</p>",
+    "topic": "ietf-118",
+    "dtime": 2087000,
+    "ptime": 2087000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>There is probably some silicon out there somewhere that cannot be fixed with a firmware upgrade...</p>",
+    "topic": "ietf-118",
+    "dtime": 2145000,
+    "ptime": 2145000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"248\">Tony Li</span> <a href=\"#narrow/stream/231-intarea/topic/ietf-118/near/100256\">said</a>:</p>\n<blockquote>\n<p>There is probably some silicon out there somewhere that cannot be fixed with a firmware upgrade...</p>\n</blockquote>\n<p>and that can do SRv6?</p>",
+    "topic": "ietf-118",
+    "dtime": 2174000,
+    "ptime": 2174000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Possibly. Making things programmable need not be uniformly done.</p>",
+    "topic": "ietf-118",
+    "dtime": 2208000,
+    "ptime": 2208000
+  },
+  {
+    "author": "John Border",
+    "text": "<p>Is it incremental?</p>",
+    "topic": "ietf-118",
+    "dtime": 2221000,
+    "ptime": 2221000
+  },
+  {
+    "author": "Justin Iurman",
+    "text": "<p>\"It is optional\" -&gt; sure, but still, what's the limit then? We'll end up with some messed up stacks, with some things all over the place in different layers</p>",
+    "topic": "ietf-118",
+    "dtime": 2443000,
+    "ptime": 2443000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>just help me understand, \"this is optional\" is this not a vendor implementation thing to make it \"optional\"? Basically the IETF is telling \"vendor make this optional in you implementation, but you MUST implement this\" so the user can chose ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2475000,
+    "ptime": 2475000
+  },
+  {
+    "author": "Ian Dickinson",
+    "text": "<p>i hope so</p>",
+    "topic": "ietf-118",
+    "dtime": 2497000,
+    "ptime": 2497000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>The threat model has to come before the solution; that's pretty basic.</p>",
+    "topic": "ietf-118",
+    "dtime": 2588000,
+    "ptime": 2588000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I agree with Eric on the Threat analysis / Solution sequence comment</p>",
+    "topic": "ietf-118",
+    "dtime": 2598000,
+    "ptime": 2598000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Argg IPv4 example</p>",
+    "topic": "ietf-118",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>isn't this more appropriate for IPPM?</p>",
+    "topic": "ietf-118",
+    "dtime": 2927000,
+    "ptime": 2927000
+  },
+  {
+    "author": "Martin Horneffer",
+    "text": "<p>Since the queue got cut off before I could raise hand  - a reply to Jan's comment: \"SRv6 is not IPv6\" - that  sounds like a philosophical statement to me rather than a pragmatic one. as an operator, I do more care about actual use-cases and running code than philosophy. I strongly believe there are use cases for both option. Thus yes, please let's indeed stay with the requirement for implementations to make the trusted domain mechanism optional!</p>",
+    "topic": "ietf-118",
+    "dtime": 2943000,
+    "ptime": 2943000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>which devices actually behaved correctly - the routers that forwarded or the routers that filtered?</p>",
+    "topic": "ietf-118",
+    "dtime": 3120000,
+    "ptime": 3120000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>'correctly' in this case is Reflective.</p>",
+    "topic": "ietf-118",
+    "dtime": 3226000,
+    "ptime": 3226000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>is there a Denial of Service concern potentially?</p>",
+    "topic": "ietf-118",
+    "dtime": 3420000,
+    "ptime": 3420000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>They say going to Mars is not a good idea<br>\nso this draft is based on an old assumption, I think</p>",
+    "topic": "ietf-118",
+    "dtime": 3839000,
+    "ptime": 3839000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>many wrong ones</p>",
+    "topic": "ietf-118",
+    "dtime": 3855000,
+    "ptime": 3855000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@behcet I do not think that this is about crewed missions</p>",
+    "topic": "ietf-118",
+    "dtime": 3890000,
+    "ptime": 3890000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>even for robotics</p>",
+    "topic": "ietf-118",
+    "dtime": 3907000,
+    "ptime": 3907000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>But it can make up a fantastic VPN endpoint for anyone using a GeoIP database  :)  @Behcet</p>",
+    "topic": "ietf-118",
+    "dtime": 3999000,
+    "ptime": 3999000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Not our call whether missions will be sent.  Being able to answer the quesiton as to whether, if such missions take place, there is a sensible way to run IP is our call.</p>",
+    "topic": "ietf-118",
+    "dtime": 4003000,
+    "ptime": 4003000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>+1, Joel (and interesting)</p>",
+    "topic": "ietf-118",
+    "dtime": 4043000,
+    "ptime": 4043000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>www over email service were a thing once</p>",
+    "topic": "ietf-118",
+    "dtime": 4252000,
+    "ptime": 4252000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>I remember doing FTP over email when INternet was only in USA... with some email gateways. 30+ years ago</p>",
+    "topic": "ietf-118",
+    "dtime": 4337000,
+    "ptime": 4337000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Yes, there was FTP over email.  But I am not sure there was ever a time when the Internet was only in the US.  Even in the first few years of the ARPANET, there were international nodes.</p>",
+    "topic": "ietf-118",
+    "dtime": 4386000,
+    "ptime": 4386000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Vouch. I used SATnet to reach London in 1975.</p>",
+    "topic": "ietf-118",
+    "dtime": 4435000,
+    "ptime": 4435000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@Joel, oversimplification of mine: no Internet in my home country</p>",
+    "topic": "ietf-118",
+    "dtime": 4457000,
+    "ptime": 4457000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I did WAP over SMS with colleagues, when mobile development was J2ME on some devices</p>",
+    "topic": "ietf-118",
+    "dtime": 4474000,
+    "ptime": 4474000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Deepspace-like delays during holiday season</p>",
+    "topic": "ietf-118",
+    "dtime": 4527000,
+    "ptime": 4527000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>BBN</p>",
+    "topic": "ietf-118",
+    "dtime": 4534000,
+    "ptime": 4534000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>BTW there is a substantial body of work about application development in this environment</p>",
+    "topic": "ietf-118",
+    "dtime": 4572000,
+    "ptime": 4572000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Missed the queue, but wanted to comment if we are using the term ”assesment” properly or not. For the time being more rigorous testing and technical arguments instead of opinnions. If not we should maybe change the name? If we do not do assesment but rather use opinnion from position of authority, if we try to update the deepspace ip view instead of replace with another opinnion?</p>",
+    "topic": "ietf-118",
+    "dtime": 4643000,
+    "ptime": 4643000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>I think IP for moon to earth communication would be realistic</p>",
+    "topic": "ietf-118",
+    "dtime": 4669000,
+    "ptime": 4669000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>if you had only uucp at home, www/ftp by email was the only option</p>",
+    "topic": "ietf-118",
+    "dtime": 4684000,
+    "ptime": 4684000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>To be clear: the question is the transport protocols. IP just works.</p>",
+    "topic": "ietf-118",
+    "dtime": 4712000,
+    "ptime": 4712000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>uucp required bidirectional links</p>",
+    "topic": "ietf-118",
+    "dtime": 4719000,
+    "ptime": 4719000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>you may not have that in space at some times</p>",
+    "topic": "ietf-118",
+    "dtime": 4732000,
+    "ptime": 4732000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>he has completely dropped off</p>",
+    "topic": "ietf-118",
+    "dtime": 4740000,
+    "ptime": 4740000
+  },
+  {
+    "author": "Alexander Pelov",
+    "text": "<p>In IOT research for years the work was on WSN (wireless sensor networks) and IP was completely ignored. Lots of algorithms and addressing schemes were invented, because it seemed IP is too heavy and cumbersome</p>",
+    "topic": "ietf-118",
+    "dtime": 4779000,
+    "ptime": 4779000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>i am certainly not proposing uucp for space comms :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4804000,
+    "ptime": 4804000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>LOL</p>",
+    "topic": "ietf-118",
+    "dtime": 4816000,
+    "ptime": 4816000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p><a href=\"http://uunet.space\">uunet.space</a></p>",
+    "topic": "ietf-118",
+    "dtime": 4835000,
+    "ptime": 4835000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>I think a modified stack of QUIC store and forward on the longest latency links (e.g., Earth-to-Mars) could make some sense.  But for general usage _of_ such a proxy I think app not used to HTTP-proxy semantics would inevitably need reworking</p>",
+    "topic": "ietf-118",
+    "dtime": 4838000,
+    "ptime": 4838000
+  },
+  {
+    "author": "Alexander Pelov",
+    "text": "<p>Today I hope there is no more doubt that IP is the only \"reasonable\" way to build WSN</p>",
+    "topic": "ietf-118",
+    "dtime": 4845000,
+    "ptime": 4845000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>the question is not about protocols but overall architecture of a space network</p>",
+    "topic": "ietf-118",
+    "dtime": 4876000,
+    "ptime": 4876000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>tweaking protocols will not suffice</p>",
+    "topic": "ietf-118",
+    "dtime": 4885000,
+    "ptime": 4885000
+  },
+  {
+    "author": "Alexander Pelov",
+    "text": "<p>I think this may be the way it could go forward with deepspace comms as well</p>",
+    "topic": "ietf-118",
+    "dtime": 4895000,
+    "ptime": 4895000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>there are several papers that adress the question \"why just not use IP\" google is your friend ...</p>",
+    "topic": "ietf-118",
+    "dtime": 4952000,
+    "ptime": 4952000
+  },
+  {
+    "author": "Alexander Pelov",
+    "text": "<p>We are definitely expanding the Internet  in domains which are \"stranger\" than what we are used to</p>",
+    "topic": "ietf-118",
+    "dtime": 4955000,
+    "ptime": 4955000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>got to go... meeting</p>",
+    "topic": "ietf-118",
+    "dtime": 4973000,
+    "ptime": 4973000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>its yrou meetiecho window</p>",
+    "topic": "ietf-118",
+    "dtime": 5003000,
+    "ptime": 5003000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>stop/start again</p>",
+    "topic": "ietf-118",
+    "dtime": 5028000,
+    "ptime": 5028000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We just imported all the decks from the datatracker</p>",
+    "topic": "ietf-118",
+    "dtime": 5092000,
+    "ptime": 5092000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>So if the problem was missing slides there, it should be fixed</p>",
+    "topic": "ietf-118",
+    "dtime": 5100000,
+    "ptime": 5100000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Getting some echo from the room...</p>",
+    "topic": "ietf-118",
+    "dtime": 5163000,
+    "ptime": 5163000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>just me or does everyone hear echo ?</p>",
+    "topic": "ietf-118",
+    "dtime": 5166000,
+    "ptime": 5166000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@lorenzo normal attendees do not see them on the ME full client</p>",
+    "topic": "ietf-118",
+    "dtime": 5173000,
+    "ptime": 5173000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>hearing echo from the room back into remote</p>",
+    "topic": "ietf-118",
+    "dtime": 5184000,
+    "ptime": 5184000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>there is also some echo (room ? or Fred's setting ?)</p>",
+    "topic": "ietf-118",
+    "dtime": 5212000,
+    "ptime": 5212000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Eric: what do you mean? The materials tab?</p>",
+    "topic": "ietf-118",
+    "dtime": 5212000,
+    "ptime": 5212000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@lorenzo: yes, even after clicing \"refresh documents\"</p>",
+    "topic": "ietf-118",
+    "dtime": 5234000,
+    "ptime": 5234000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>and the slides appears on the data tracker</p>",
+    "topic": "ietf-118",
+    "dtime": 5259000,
+    "ptime": 5259000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>feedback loop + webrtc's echo cancellation struggling to keep up with each other !</p>",
+    "topic": "ietf-118",
+    "dtime": 5310000,
+    "ptime": 5310000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Eric: mh, there may be something broken there; we verified we see all 8 documents if we rejoin, though, so there might be an issue there when just refreshing. Thanks for the heads up!</p>",
+    "topic": "ietf-118",
+    "dtime": 5461000,
+    "ptime": 5461000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>I can confirm that I was not seeing the same list of pre-shared slides than my co-chair</p>",
+    "topic": "ietf-118",
+    "dtime": 5537000,
+    "ptime": 5537000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>I did not try refreshing my browser though, only refreshing with the meeting materials Refresh Documents</p>",
+    "topic": "ietf-118",
+    "dtime": 5606000,
+    "ptime": 5606000
+  },
+  {
+    "author": "Juan-Carlos Zúñiga",
+    "text": "<p>I was seeing less than Wassim</p>",
+    "topic": "ietf-118",
+    "dtime": 5619000,
+    "ptime": 5619000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>thanks to all and chairs</p>",
+    "topic": "ietf-118",
+    "dtime": 5701000,
+    "ptime": 5701000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-INTAREA-20231109-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/intarea"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-INTAREA-20231109-1400"
+		}		
+	]
+}

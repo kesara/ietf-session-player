@@ -1,0 +1,511 @@
+
+{
+	"title": "IETF115-ADD-20221108-1300",
+	"filename": "IETF115-ADD-20221108-1300",
+	"start": 0,
+	"end": 4856000,
+	"start_datetime": "2022-11-08T13:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "SF4a8EiEHys",
+    "start": 0,
+    "end": "4856000"
+  }
+],
+	"messages": [
+  {
+    "author": "Andrew Campling",
+    "text": "<p>AD to send chairs on remedial Meetecho training? ;-)</p>",
+    "topic": "jabber",
+    "dtime": 313000,
+    "ptime": 313000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Good idea !</p>",
+    "topic": "jabber",
+    "dtime": 325000,
+    "ptime": 325000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>;-)</p>",
+    "topic": "jabber",
+    "dtime": 329000,
+    "ptime": 329000
+  },
+  {
+    "author": "Peter van Dijk",
+    "text": "<p>PowerDNS, as mentioned in our blog post about the implementation, also is more to the spirit than to the letter of the draft</p>",
+    "topic": "jabber",
+    "dtime": 513000,
+    "ptime": 513000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>thanks Peter</p>",
+    "topic": "jabber",
+    "dtime": 633000,
+    "ptime": 633000
+  },
+  {
+    "author": "Peter van Dijk",
+    "text": "<p>( <a href=\"https://blog.powerdns.com/2022/06/13/probing-dot-support-of-authoritative-servers-just-try-it/\">https://blog.powerdns.com/2022/06/13/probing-dot-support-of-authoritative-servers-just-try-it/</a> )</p>",
+    "topic": "jabber",
+    "dtime": 676000,
+    "ptime": 676000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Why is doh-sydney a DoT server? =)</p>",
+    "topic": "jabber",
+    "dtime": 1952000,
+    "ptime": 1952000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>I was wondering the same ;-)</p>",
+    "topic": "jabber",
+    "dtime": 1964000,
+    "ptime": 1964000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>I'm more wondering why the server feels so sure about the geolocation of the client</p>",
+    "topic": "jabber",
+    "dtime": 1971000,
+    "ptime": 1971000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>:)</p>",
+    "topic": "jabber",
+    "dtime": 1979000,
+    "ptime": 1979000
+  },
+  {
+    "author": "Ray Bellis",
+    "text": "<p>.arpa is signed - doesn't this need an unsigned delegation to a name one level below <a href=\"http://resolver.arpa\">resolver.arpa</a>?</p>",
+    "topic": "jabber",
+    "dtime": 2133000,
+    "ptime": 2133000
+  },
+  {
+    "author": "Hazel Smith",
+    "text": "<p>Ben Schwartz - your audio is better now, but was <em>very</em> loud at first, and is still occasionally clipping a little</p>",
+    "topic": "jabber",
+    "dtime": 2220000,
+    "ptime": 2220000
+  },
+  {
+    "author": "Vicky Risk",
+    "text": "<p>Maybe it was intentional that the DOT server in Sydney is redirected to a DOH server in Paris????</p>",
+    "topic": "jabber",
+    "dtime": 2234000,
+    "ptime": 2234000
+  },
+  {
+    "author": "Vicky Risk",
+    "text": "<p>oh forget it, looks like a typo</p>",
+    "topic": "jabber",
+    "dtime": 2269000,
+    "ptime": 2269000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Or a test to see who's paying attention. :-)</p>",
+    "topic": "jabber",
+    "dtime": 2303000,
+    "ptime": 2303000
+  },
+  {
+    "author": "Vicky Risk",
+    "text": "<p>presumably it is clear in the actual draft</p>",
+    "topic": "jabber",
+    "dtime": 2464000,
+    "ptime": 2464000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Unstable meetecho connection :(</p>",
+    "topic": "jabber",
+    "dtime": 2563000,
+    "ptime": 2563000
+  },
+  {
+    "author": "Ray Bellis",
+    "text": "<p>w.r.t. .arpa, I'd also like to remind people of draft-jabley-sink-arpa and draft-bellis-dns-recursive-discovery, both from 2009.    I'd rather see an unsigned delegation to a subdomain of .arpa (with a registry of the entries therein) than a proliferation of \"special\" entries directly inside .arpa</p>",
+    "topic": "jabber",
+    "dtime": 2625000,
+    "ptime": 2625000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Load shedding was the other example given. That's a server decision</p>",
+    "topic": "jabber",
+    "dtime": 2650000,
+    "ptime": 2650000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@David  agree with load shedding as a different reason, but a message from the server to re-seek accomplishes the same thing if there an alternate, without the same control surface.  Think Go_Away or enhance your calm.</p>",
+    "topic": "jabber",
+    "dtime": 2930000,
+    "ptime": 2930000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>+1 to Tommy Pauly</p>",
+    "topic": "jabber",
+    "dtime": 2948000,
+    "ptime": 2948000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>The difference is that it doesn't change the TLS SNI</p>",
+    "topic": "jabber",
+    "dtime": 2980000,
+    "ptime": 2980000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>What would trigger a new lookup?</p>",
+    "topic": "jabber",
+    "dtime": 3034000,
+    "ptime": 3034000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>Oh I see, nm</p>",
+    "topic": "jabber",
+    "dtime": 3076000,
+    "ptime": 3076000
+  },
+  {
+    "author": "Ray Bellis",
+    "text": "<p>ok, I see the draft does actually specify <a href=\"http://_dns.resolver.arpa\">_dns.resolver.arpa</a>, per the DDR spec.</p>",
+    "topic": "jabber",
+    "dtime": 3082000,
+    "ptime": 3082000
+  },
+  {
+    "author": "Vicky Risk",
+    "text": "<p>I think John is addressing what I was wondering about - whether the filtering policy of the new server might be different</p>",
+    "topic": "jabber",
+    "dtime": 3136000,
+    "ptime": 3136000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Good point from Vittorio about needing to consider whether the query is being moved outside of the client's jurisdiction</p>",
+    "topic": "jabber",
+    "dtime": 3144000,
+    "ptime": 3144000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I'll also point out that if you just message to the client to re-run their config process, that they are not going to have any risk of looping.</p>",
+    "topic": "jabber",
+    "dtime": 3204000,
+    "ptime": 3204000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Redirection would be for the resolving server. Which might well be in a very different location from the originating stub resolver.</p>",
+    "topic": "jabber",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Different SVCB-based drafts handling SNI and TLS certs/validation differently is going to be an interesting challenge to keep an eye on, especially in libraries for SVCB.</p>",
+    "topic": "jabber",
+    "dtime": 3386000,
+    "ptime": 3386000
+  },
+  {
+    "author": "Peter Lowe",
+    "text": "<p>Are there going to be different types of redirects? Like with HTTP redirects, where there's 301 and 302? Are permanent redirects going to be used for decommissioned servers, that sort of thing?</p>",
+    "topic": "jabber",
+    "dtime": 3392000,
+    "ptime": 3392000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>(Although I think we have that, being different SNI/cert usage, already for some other SVBC cases.)</p>",
+    "topic": "jabber",
+    "dtime": 3456000,
+    "ptime": 3456000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Agree with Ben we should document bootstrap</p>",
+    "topic": "jabber",
+    "dtime": 3536000,
+    "ptime": 3536000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<ul>\n<li>1 to Ben on insecure</li>\n</ul>",
+    "topic": "jabber",
+    "dtime": 3540000,
+    "ptime": 3540000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Also +1 that we should talk about bootstrap</p>",
+    "topic": "jabber",
+    "dtime": 3550000,
+    "ptime": 3550000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>In a secure way, of course</p>",
+    "topic": "jabber",
+    "dtime": 3565000,
+    "ptime": 3565000
+  },
+  {
+    "author": "David Lawrence",
+    "text": "<p>That message is encrypted tho, right?</p>",
+    "topic": "jabber",
+    "dtime": 3601000,
+    "ptime": 3601000
+  },
+  {
+    "author": "Daniel Migault",
+    "text": "<p>This is my impression and I also have the impression doh-sydney is trusted.</p>",
+    "topic": "jabber",
+    "dtime": 3744000,
+    "ptime": 3744000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>@Tommy Jensen: The difference is that in DDR Section 5, the attacker can't change the validation name, so TLS still defeats the attack.</p>",
+    "topic": "jabber",
+    "dtime": 3822000,
+    "ptime": 3822000
+  },
+  {
+    "author": "Daniel Migault",
+    "text": "<p>@ben Th edifference I see is that with DDR we do have an untrusted DNS exchange, but in Toiommy's case the server is trusted as per DDR's procedure. Am I missing anything ?</p>",
+    "topic": "jabber",
+    "dtime": 3962000,
+    "ptime": 3962000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Can someone post the draft name for this presentation please?</p>",
+    "topic": "jabber",
+    "dtime": 3979000,
+    "ptime": 3979000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>It's at the bottom of the slide...</p>",
+    "topic": "jabber",
+    "dtime": 3995000,
+    "ptime": 3995000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>That's not visible in the room</p>",
+    "topic": "jabber",
+    "dtime": 4006000,
+    "ptime": 4006000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>draft-wing-opsawg-authenticating-network-01</p>",
+    "topic": "jabber",
+    "dtime": 4021000,
+    "ptime": 4021000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Thank you!</p>",
+    "topic": "jabber",
+    "dtime": 4029000,
+    "ptime": 4029000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>That's fair, Ben. So then this really turns into \"enabling multi-name redirection\" versus \"must stay on same name for security\" trade-off. Would love more server operators to weigh in on that as they're the ones who have to deploy the many-to-many name claims for that to work.</p>",
+    "topic": "jabber",
+    "dtime": 4054000,
+    "ptime": 4054000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Tommy: There are a lot of \"names\" involved here though.  You can use lots of DNS names to hold various RRsets, but changing the authentication name used for TLS is a different story.</p>",
+    "topic": "jabber",
+    "dtime": 4131000,
+    "ptime": 4131000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>David, yes this only ever starts from an existing encrypted DNS connection, so a transient attack is far less common than in the plain-text bootstrap case DDR tackles. I think Erik pointed out (or someone else) that this makes it comparable to HTTPS redirects and could learn from them</p>",
+    "topic": "jabber",
+    "dtime": 4137000,
+    "ptime": 4137000
+  },
+  {
+    "author": "Daniel Migault",
+    "text": "<p>agree with the similarity of HTTPS redirect.</p>",
+    "topic": "jabber",
+    "dtime": 4224000,
+    "ptime": 4224000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>unless my memory fails me that actual ssid is 2-32 characters long, so you'd have to link the SSID to the local network name to try to match it to the SAN.</p>",
+    "topic": "jabber",
+    "dtime": 4266000,
+    "ptime": 4266000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Ben, I think there's a different of POV here. The auth name used for TLS isn't changing for the destination server. Remember: this isn't intended to be a black-box-identical replacement for a server, it's a disclosed redirection _to another server_ much like HTTPS redirection. Checking for anything other than the name of the destination seems weird to me.</p>",
+    "topic": "jabber",
+    "dtime": 4267000,
+    "ptime": 4267000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>(Slide 7)</p>",
+    "topic": "jabber",
+    "dtime": 4273000,
+    "ptime": 4273000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Tommy: A disclosed redirect is definitely a different story ... but I'm not excited about writing the UI to notify the user whether about a suggested change to the DNS server.  (Change the what?)</p>",
+    "topic": "jabber",
+    "dtime": 4398000,
+    "ptime": 4398000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I'm not either, but I think if we don't allow that we rule out any case for redirection from one server to another hosted on different infra. Again, that's where we need operators to say whether that's a real challenge or not (my understanding is that it is).</p>",
+    "topic": "jabber",
+    "dtime": 4483000,
+    "ptime": 4483000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I disagree that experimental RFCs cost nothing, as our esteemed and honored IESG members only have so much time to review our illustrious documents :-)</p>",
+    "topic": "jabber",
+    "dtime": 4576000,
+    "ptime": 4576000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 4589000,
+    "ptime": 4589000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>+1 to David, gaining a lot of appreciation for that trying to publish DDR/DNR</p>",
+    "topic": "jabber",
+    "dtime": 4600000,
+    "ptime": 4600000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>that = IESG support</p>",
+    "topic": "jabber",
+    "dtime": 4619000,
+    "ptime": 4619000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Yeah I learned it the hard way, repeatedly :-)</p>",
+    "topic": "jabber",
+    "dtime": 4631000,
+    "ptime": 4631000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@David It does avoid boredom, keep them out of mischief :-)</p>",
+    "topic": "jabber",
+    "dtime": 4651000,
+    "ptime": 4651000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>thanks to the chairs and everyone for participating !</p>",
+    "topic": "jabber",
+    "dtime": 4680000,
+    "ptime": 4680000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@andrew -1 ;-)</p>",
+    "topic": "jabber",
+    "dtime": 4687000,
+    "ptime": 4687000
+  },
+  {
+    "author": "Hazel Smith",
+    "text": "<p>Do remote attendees need to do anything special to have our attendance counted?</p>",
+    "topic": "jabber",
+    "dtime": 4727000,
+    "ptime": 4727000
+  },
+  {
+    "author": "Hazel Smith",
+    "text": "<p>or is being in this Meetecho call enough?</p>",
+    "topic": "jabber",
+    "dtime": 4740000,
+    "ptime": 4740000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>It's enough. You're counted.</p>",
+    "topic": "jabber",
+    "dtime": 4750000,
+    "ptime": 4750000
+  },
+  {
+    "author": "Hazel Smith",
+    "text": "<p>Super, thanks! :)</p>",
+    "topic": "jabber",
+    "dtime": 4758000,
+    "ptime": 4758000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>No Hazel. Being in meetecho is all you have to do.</p>",
+    "topic": "jabber",
+    "dtime": 4764000,
+    "ptime": 4764000
+  },
+  {
+    "author": "Hazel Smith",
+    "text": "<p>Great, thanks, I just wasn't sure if I'd missed something</p>",
+    "topic": "jabber",
+    "dtime": 4782000,
+    "ptime": 4782000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-ADD-20221108-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/add"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-ADD-20221108-1300"
+		}		
+	]
+}

@@ -1,0 +1,732 @@
+{
+  "title": "IETF100-ACE-20171114-0930",
+  "filename": "IETF100-ACE-20171114-0930",
+  "start": 0,
+  "end": 9218000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "-1bH32Fb61Y",
+      "start": 0.0,
+      "end": 9218000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Ann Krieger just joined the room",
+      "ptime": 90000.0,
+      "dtime": 1858000.0
+    },
+    {
+      "text": "***Patrick Kinney just joined the room",
+      "ptime": 112000.0,
+      "dtime": 1880000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 177000.0,
+      "dtime": 1945000.0
+    },
+    {
+      "text": "I can hear you guys fine",
+      "ptime": 208000.0,
+      "dtime": 1976000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "i can hear you",
+      "ptime": 209000.0,
+      "dtime": 1977000.0,
+      "author": "max pritikin"
+    },
+    {
+      "text": "remote participants: What detail of jabber scribing would you like?",
+      "ptime": 236000.0,
+      "dtime": 2004000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "***Michel Veillette just joined the room",
+      "ptime": 287000.0,
+      "dtime": 2055000.0
+    },
+    {
+      "text": "the agenda declines to be bashed.",
+      "ptime": 293000.0,
+      "dtime": 2061000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "I\u0027m hearing the live stream, so minimal for me is ok",
+      "ptime": 306000.0,
+      "dtime": 2074000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "chairs introduce themselves.  the room responds, as though this is a 12-step meeting.",
+      "ptime": 329000.0,
+      "dtime": 2097000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "***Matthew Gillmore just joined the room",
+      "ptime": 333000.0,
+      "dtime": 2101000.0
+    },
+    {
+      "text": "i agree with ludwig to such an extent i wasn\u0027t even monitoring the chat session",
+      "ptime": 756000.0,
+      "dtime": 2524000.0,
+      "author": "max pritikin"
+    },
+    {
+      "text": "***Michael Koster just joined the room",
+      "ptime": 892000.0,
+      "dtime": 2660000.0
+    },
+    {
+      "text": "***Darshak Thakore just joined the room",
+      "ptime": 951000.0,
+      "dtime": 2719000.0
+    },
+    {
+      "text": "***Bin Da just left the room",
+      "ptime": 1084000.0,
+      "dtime": 2852000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 1086000.0,
+      "dtime": 2854000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 1089000.0,
+      "dtime": 2857000.0
+    },
+    {
+      "text": "***Bin Da just joined the room",
+      "ptime": 1110000.0,
+      "dtime": 2878000.0
+    },
+    {
+      "text": "***Darshak Thakore just left the room",
+      "ptime": 2069000.0,
+      "dtime": 3837000.0
+    },
+    {
+      "text": "***Panos Kamapanakis just joined the room",
+      "ptime": 2492000.0,
+      "dtime": 4260000.0
+    },
+    {
+      "text": "***Panos Kamapanakis just left the room",
+      "ptime": 2689000.0,
+      "dtime": 4457000.0
+    },
+    {
+      "text": "***Panos Kamapanakis just joined the room",
+      "ptime": 2729000.0,
+      "dtime": 4497000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 2774000.0,
+      "dtime": 4542000.0
+    },
+    {
+      "text": "Note that psk_identity is not in the ClientHello (not for mic)",
+      "ptime": 3240000.0,
+      "dtime": 5008000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 3500000.0,
+      "dtime": 5268000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 3569000.0,
+      "dtime": 5337000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 3575000.0,
+      "dtime": 5343000.0
+    },
+    {
+      "text": "***Hajime Watanabe just joined the room",
+      "ptime": 3593000.0,
+      "dtime": 5361000.0
+    },
+    {
+      "text": "It should be implicit from what you get from the AS",
+      "ptime": 3809000.0,
+      "dtime": 5577000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "... what Jim said ...",
+      "ptime": 3827000.0,
+      "dtime": 5595000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "what I meant is that an AS implementing this wrong could then create a problem in the Client that doesn\u0027t know what to use (I know it should not happen if the specifications are followed but...)",
+      "ptime": 3990000.0,
+      "dtime": 5758000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "if you specify a different label/profile for each \"mode\" then you can specify errors on the client side if what he gets is not what the label specifies",
+      "ptime": 4041000.0,
+      "dtime": 5809000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "***Bin Da just left the room",
+      "ptime": 4048000.0,
+      "dtime": 5816000.0
+    },
+    {
+      "text": "in the case you do not specify, how would the client react on a \"malformed\" response from the AS?",
+      "ptime": 4088000.0,
+      "dtime": 5856000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "i will.",
+      "ptime": 4096000.0,
+      "dtime": 5864000.0,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "I have",
+      "ptime": 4111000.0,
+      "dtime": 5879000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "Michael you will implement?",
+      "ptime": 4133000.0,
+      "dtime": 5901000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "I will review. I don\u0027t know if I need to implement.",
+      "ptime": 4145000.0,
+      "dtime": 5913000.0,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "we are talking about draft-ietf-ace-dtls-authorize, right...",
+      "ptime": 4169000.0,
+      "dtime": 5937000.0,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "yes, the dtls profile",
+      "ptime": 4183000.0,
+      "dtime": 5951000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Sorry for getting on this late, but it seems the remote volunteers have not been relayed into the meeting.  Who is the jabber scribe?",
+      "ptime": 4378000.0,
+      "dtime": 6146000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "Aren\u0027t we using the usual convention of prefacing comments with \"mic:\" if we want them relayed?",
+      "ptime": 4431000.0,
+      "dtime": 6199000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "I\u0027m talking about polls for interest, the summary might have helped for questions on documents where interest was being gauged.",
+      "ptime": 4495000.0,
+      "dtime": 6263000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "sorry, yes, me.  But I was assuming those who wanted things relayed would specifically ask.",
+      "ptime": 4496000.0,
+      "dtime": 6264000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "I think polls are a little different, thanks!",
+      "ptime": 4517000.0,
+      "dtime": 6285000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "1 person, 3 people, etc",
+      "ptime": 4535000.0,
+      "dtime": 6303000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "It helps the remote experience",
+      "ptime": 4567000.0,
+      "dtime": 6335000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "OK, so it winds up in the overall, but impressions leaving the room could vary from the actual end result and cause confusion.  I\u0027ve been thinking a bit about the remote problem, having had to be remote for a couple of meetings :-)",
+      "ptime": 4666000.0,
+      "dtime": 6434000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "***Mingliang Pei just joined the room",
+      "ptime": 4673000.0,
+      "dtime": 6441000.0
+    },
+    {
+      "text": "(I will report Michael reviewing the dtls profile in the etherpad, in that specific case it didn\u0027t get in the ehterpad)",
+      "ptime": 4729000.0,
+      "dtime": 6497000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "thank you",
+      "ptime": 4756000.0,
+      "dtime": 6524000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "***Patrick Kinney just left the room",
+      "ptime": 5267000.0,
+      "dtime": 7035000.0
+    },
+    {
+      "text": "i will also review",
+      "ptime": 5342000.0,
+      "dtime": 7110000.0,
+      "author": "max pritikin"
+    },
+    {
+      "text": "***Michael Koster just left the room",
+      "ptime": 5471000.0,
+      "dtime": 7239000.0
+    },
+    {
+      "text": "***Michael Koster just joined the room",
+      "ptime": 5473000.0,
+      "dtime": 7241000.0
+    },
+    {
+      "text": "***Henk Birkholz just joined the room",
+      "ptime": 6020000.0,
+      "dtime": 7788000.0
+    },
+    {
+      "text": "***Henk Birkholz just left the room",
+      "ptime": 6255000.0,
+      "dtime": 8023000.0
+    },
+    {
+      "text": "The segmentation of application vs. transport is part of the pub/sub profile with 2 AS instances",
+      "ptime": 6282000.0,
+      "dtime": 8050000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "One AS is used to get transfer layer keys",
+      "ptime": 6338000.0,
+      "dtime": 8106000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "the second AS is used to establish application layer keys for the data which is sent",
+      "ptime": 6360000.0,
+      "dtime": 8128000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "(for relay?)",
+      "ptime": 6368000.0,
+      "dtime": 8136000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "***Kaoru Maeda just joined the room",
+      "ptime": 6400000.0,
+      "dtime": 8168000.0
+    },
+    {
+      "text": "in the pubsub profile, one AS is used to gain access to the broker",
+      "ptime": 6450000.0,
+      "dtime": 8218000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "the second (app layer) AS is used to gain access to the topics (the data exchanged between publisher and supplier)",
+      "ptime": 6483000.0,
+      "dtime": 8251000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "***Henk Birkholz just joined the room",
+      "ptime": 6502000.0,
+      "dtime": 8270000.0
+    },
+    {
+      "text": "The publisher-subscriber key may encrypt the payload",
+      "ptime": 6515000.0,
+      "dtime": 8283000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "(we also have Meetecho on a second projector/screen - raising your hand in meetecho can get you the floor, complete with optional video?)",
+      "ptime": 6570000.0,
+      "dtime": 8338000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "***Henk Birkholz just left the room",
+      "ptime": 6574000.0,
+      "dtime": 8342000.0
+    },
+    {
+      "text": "(I am going to report Michael Koster in the etherpad)",
+      "ptime": 7095000.0,
+      "dtime": 8863000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "is there a link for the slides that are up there?",
+      "ptime": 7559000.0,
+      "dtime": 9327000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "nevermind - found it",
+      "ptime": 7597000.0,
+      "dtime": 9365000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/100/materials/slides-100-ace-chair-slides/",
+      "ptime": 7618000.0,
+      "dtime": 9386000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "slide 8",
+      "ptime": 7620000.0,
+      "dtime": 9388000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "yep, thx",
+      "ptime": 7629000.0,
+      "dtime": 9397000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "+3 to what MST said.",
+      "ptime": 7664000.0,
+      "dtime": 9432000.0,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "MSJ, you mean?",
+      "ptime": 7739000.0,
+      "dtime": 9507000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "(there are other SDOs?)",
+      "ptime": 7765000.0,
+      "dtime": 9533000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "+1 to what MSJ said",
+      "ptime": 7783000.0,
+      "dtime": 9551000.0,
+      "author": "Matthew Gillmore"
+    },
+    {
+      "text": "Specifically, a DSA type architecture can have a private key per publisher",
+      "ptime": 7866000.0,
+      "dtime": 9634000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "Specifically, a DSA type architecture can have a private key per publisher",
+      "ptime": 7866000.0,
+      "dtime": 9634000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "I guess DSA \u003d\u003d symmetric?",
+      "ptime": 7930000.0,
+      "dtime": 9698000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "\u003d\u003d low security",
+      "ptime": 7950000.0,
+      "dtime": 9718000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "no, DSA \u003d\u003d assymetric.",
+      "ptime": 7950000.0,
+      "dtime": 9718000.0,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "but if there is a separate private key per publisher is there the same issue?",
+      "ptime": 7989000.0,
+      "dtime": 9757000.0,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "yes, s/MST/MSJ/",
+      "ptime": 7997000.0,
+      "dtime": 9765000.0,
+      "author": "mcr/soho"
+    },
+    {
+      "text": "***Hajime Watanabe just left the room",
+      "ptime": 8024000.0,
+      "dtime": 9792000.0
+    },
+    {
+      "text": "is there an agreed method of \"humming\" over meetecho?",
+      "ptime": 8336000.0,
+      "dtime": 1.0104E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "hum here.",
+      "ptime": 8352000.0,
+      "dtime": 1.012E7,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "max pritikin: apart from writing \"humm\" on jabber, I\u0027m afraid not :)",
+      "ptime": 8360000.0,
+      "dtime": 1.0128E7,
+      "author": "meetecho"
+    },
+    {
+      "text": "the chairs are \"listening\"",
+      "ptime": 8360000.0,
+      "dtime": 1.0128E7,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "thx",
+      "ptime": 8370000.0,
+      "dtime": 1.0138E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "my hum: Yes, we should consider this problem in general. (not humming on specific how questions).",
+      "ptime": 8403000.0,
+      "dtime": 1.0171E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "\"in the low security case, all devices have the same priviledge\"",
+      "ptime": 8625000.0,
+      "dtime": 1.0393E7,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "***Matthew Gillmore just left the room",
+      "ptime": 8655000.0,
+      "dtime": 1.0423E7
+    },
+    {
+      "text": "I disagree with the definitions. A \"low security\" case is one in which specific identified security breaches result in acceptable losses.",
+      "ptime": 8707000.0,
+      "dtime": 1.0475E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "i like the bullet as shown.",
+      "ptime": 8740000.0,
+      "dtime": 1.0508E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "***Panos Kamapanakis just left the room",
+      "ptime": 8750000.0,
+      "dtime": 1.0518E7
+    },
+    {
+      "text": "humming yes",
+      "ptime": 8768000.0,
+      "dtime": 1.0536E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "max, I actually think that if here is any \"losses\", (whether acceptable or not), is middle.",
+      "ptime": 8769000.0,
+      "dtime": 1.0537E7,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "hmmm",
+      "ptime": 8808000.0,
+      "dtime": 1.0576E7,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "(yes)",
+      "ptime": 8816000.0,
+      "dtime": 1.0584E7,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "i think that is a similar state: losses are minimal (to non-existent)",
+      "ptime": 8817000.0,
+      "dtime": 1.0585E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "therefore: i hum yes.",
+      "ptime": 8829000.0,
+      "dtime": 1.0597E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "I\u0027m okay with this definition, and with dealing with it.  I think that was the Yes hum.",
+      "ptime": 8835000.0,
+      "dtime": 1.0603E7,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "sorry could you say on what point? 1. 2. 3?",
+      "ptime": 8875000.0,
+      "dtime": 1.0643E7,
+      "author": "francesca"
+    },
+    {
+      "text": "i hummed yes for 1 \u0026 2",
+      "ptime": 8891000.0,
+      "dtime": 1.0659E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "3",
+      "ptime": 8891000.0,
+      "dtime": 1.0659E7,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "hmmm (no)",
+      "ptime": 8897000.0,
+      "dtime": 1.0665E7,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "i am *not* humming for (3). (silence from me)",
+      "ptime": 8905000.0,
+      "dtime": 1.0673E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "ok thanks",
+      "ptime": 8907000.0,
+      "dtime": 1.0675E7,
+      "author": "francesca"
+    },
+    {
+      "text": "I couldn\u0027t understand the questions in the end. I hope that they will clearly posted to the list.",
+      "ptime": 8926000.0,
+      "dtime": 1.0694E7,
+      "author": "Michael Richardson"
+    },
+    {
+      "text": "***Ann Krieger just left the room",
+      "ptime": 9115000.0,
+      "dtime": 1.0883E7
+    },
+    {
+      "text": "I guess the choices are a \"group\" model which is symmetric, and a \"multicast\" model which is asymmetric?",
+      "ptime": 9172000.0,
+      "dtime": 1.094E7,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "I understood 2 of the 4 questions clearly enough :)",
+      "ptime": 9181000.0,
+      "dtime": 1.0949E7,
+      "author": "Dave Thaler"
+    },
+    {
+      "text": "Does asymmetric imply DSA architecture and source auth?",
+      "ptime": 9207000.0,
+      "dtime": 1.0975E7,
+      "author": "Michael Koster"
+    },
+    {
+      "text": "wave",
+      "ptime": 9216000.0,
+      "dtime": 1.0984E7,
+      "author": "max pritikin"
+    },
+    {
+      "text": "***Ludwig Seitz just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Michael Koster just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Anthony Kirby just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Michael Richardson just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    },
+    {
+      "text": "***Mingliang Pei just left the room",
+      "ptime": 9217000.0,
+      "dtime": 1.0985E7
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF100-ACE-20171114-0930"
+    }
+  ]
+}

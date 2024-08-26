@@ -1,0 +1,390 @@
+{
+  "title": "IETF102-HOMENET-20180718-1520",
+  "filename": "IETF102-HOMENET-20180718-1520",
+  "start": 0,
+  "end": 5384000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "SWv7aUVAQb8",
+      "start": 0.0,
+      "end": 5384000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Denis Ovsienko just joined the room",
+      "ptime": 8000.0,
+      "dtime": 610000.0
+    },
+    {
+      "text": "***Juan P. Cerezo just joined the room",
+      "ptime": 64000.0,
+      "dtime": 666000.0
+    },
+    {
+      "text": "***99rst just joined the room",
+      "ptime": 72000.0,
+      "dtime": 674000.0
+    },
+    {
+      "text": "***Lucas Pardue just joined the room",
+      "ptime": 294000.0,
+      "dtime": 896000.0
+    },
+    {
+      "text": "thanks Dave",
+      "ptime": 420000.0,
+      "dtime": 1022000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***John Border just joined the room",
+      "ptime": 465000.0,
+      "dtime": 1067000.0
+    },
+    {
+      "text": "***Ana Laura Diedrichs just joined the room",
+      "ptime": 864000.0,
+      "dtime": 1466000.0
+    },
+    {
+      "text": "meetecho: remote audio is crackly",
+      "ptime": 1215000.0,
+      "dtime": 1817000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "He\u0027s like that in Meetecho as well, may be a local mic issue",
+      "ptime": 1305000.0,
+      "dtime": 1907000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "Doesn\u0027t sound like a packet loss problem",
+      "ptime": 1314000.0,
+      "dtime": 1916000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "thanks",
+      "ptime": 1316000.0,
+      "dtime": 1918000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Juliusz Chroboczek just joined the room",
+      "ptime": 1328000.0,
+      "dtime": 1930000.0
+    },
+    {
+      "text": "@juliusz you\u0027re going muted every time you lean back",
+      "ptime": 1584000.0,
+      "dtime": 2186000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "it scales much better, period",
+      "ptime": 1922000.0,
+      "dtime": 2524000.0,
+      "author": "Denis Ovsienko"
+    },
+    {
+      "text": "Hand!",
+      "ptime": 1966000.0,
+      "dtime": 2568000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "not that a typical home network needs it, but notwithstanding the fact",
+      "ptime": 1977000.0,
+      "dtime": 2579000.0,
+      "author": "Denis Ovsienko"
+    },
+    {
+      "text": "Denis, agreed.",
+      "ptime": 1990000.0,
+      "dtime": 2592000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "mic: yes, October.",
+      "ptime": 2204000.0,
+      "dtime": 2806000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "***Bernie Volz just joined the room",
+      "ptime": 2215000.0,
+      "dtime": 2817000.0
+    },
+    {
+      "text": "It has occurred to me that it would be possible to do this service discovery via a .arpa name with an SRV, rather the way pref64 for DNS64 and so on do this.",
+      "ptime": 2585000.0,
+      "dtime": 3187000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "(i.e. to discover the global name)",
+      "ptime": 2627000.0,
+      "dtime": 3229000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "No mic.  Just a side comment.  It\u0027s not a proposal, just a dumb idea",
+      "ptime": 2662000.0,
+      "dtime": 3264000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "and andrew\u0027s even here now:-)",
+      "ptime": 2674000.0,
+      "dtime": 3276000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Robin",
+      "ptime": 2800000.0,
+      "dtime": 3402000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Lucas Pardue just left the room",
+      "ptime": 2819000.0,
+      "dtime": 3421000.0
+    },
+    {
+      "text": "Which merely indicates that DNS is the wrong place to do routing optimisation.  (Not for mic.)",
+      "ptime": 2902000.0,
+      "dtime": 3504000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "Ok, but I fear that horse has sailed, ship left the barn, and so on.",
+      "ptime": 2933000.0,
+      "dtime": 3535000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "Grumble.",
+      "ptime": 2973000.0,
+      "dtime": 3575000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "Me too :)",
+      "ptime": 2984000.0,
+      "dtime": 3586000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "@ajs the discussed draft uses the services.arpa domain for constrained devices.",
+      "ptime": 3010000.0,
+      "dtime": 3612000.0,
+      "author": "Daniel Kaiser"
+    },
+    {
+      "text": "Interesting.  I missed that part somehow",
+      "ptime": 3042000.0,
+      "dtime": 3644000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "(Well, probably forgot it.  I should reread.  Thanks.)",
+      "ptime": 3060000.0,
+      "dtime": 3662000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "Section 2 conains an overview.",
+      "ptime": 3084000.0,
+      "dtime": 3686000.0,
+      "author": "Daniel Kaiser"
+    },
+    {
+      "text": "*contains",
+      "ptime": 3093000.0,
+      "dtime": 3695000.0,
+      "author": "Daniel Kaiser"
+    },
+    {
+      "text": "Ther\u0027s ICMP node queries, which play the same role and are end-to-end.  (not for mic)",
+      "ptime": 3322000.0,
+      "dtime": 3924000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "@ajs The service.arpa domain is only part of the latest version of the draft which was just published on 14/07",
+      "ptime": 3368000.0,
+      "dtime": 3970000.0,
+      "author": "Daniel Kaiser"
+    },
+    {
+      "text": "I guess somebody should implement them in OpenWRT.",
+      "ptime": 3462000.0,
+      "dtime": 4064000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "Wow, David sounds really authoritative ;-)  (Not for mic.)",
+      "ptime": 3673000.0,
+      "dtime": 4275000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": ":D",
+      "ptime": 3735000.0,
+      "dtime": 4337000.0,
+      "author": "Daniel Kaiser"
+    },
+    {
+      "text": "***Ana Laura Diedrichs just left the room",
+      "ptime": 3829000.0,
+      "dtime": 4431000.0
+    },
+    {
+      "text": "I really hate the idea of overloading that search list.",
+      "ptime": 4156000.0,
+      "dtime": 4758000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "it sucks, but re-using it sucks harder",
+      "ptime": 4165000.0,
+      "dtime": 4767000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "ajs, me too.",
+      "ptime": 4173000.0,
+      "dtime": 4775000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": ":D",
+      "ptime": 4475000.0,
+      "dtime": 5077000.0,
+      "author": "Daniel Kaiser"
+    },
+    {
+      "text": "Do you want to say it in jabber?",
+      "ptime": 4490000.0,
+      "dtime": 5092000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "mic:",
+      "ptime": 4495000.0,
+      "dtime": 5097000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "We need a prototype to play with all of these ideas.  What\u0027s the implementation status, can we have an implementation to play with?",
+      "ptime": 4517000.0,
+      "dtime": 5119000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "ty",
+      "ptime": 4584000.0,
+      "dtime": 5186000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "***Juan P. Cerezo just left the room",
+      "ptime": 4674000.0,
+      "dtime": 5276000.0
+    },
+    {
+      "text": "***Juan P. Cerezo just joined the room",
+      "ptime": 4846000.0,
+      "dtime": 5448000.0
+    },
+    {
+      "text": "mic: that\u0027s supposed to be fixed by ULA.",
+      "ptime": 5203000.0,
+      "dtime": 5805000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "Meetecho, I cannot hear the speaker.",
+      "ptime": 5213000.0,
+      "dtime": 5815000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "Sounds fine here",
+      "ptime": 5277000.0,
+      "dtime": 5879000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "Or did you mean someone in the mic lines?",
+      "ptime": 5291000.0,
+      "dtime": 5893000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "The mi line, wondering if something\u0027s wrong.",
+      "ptime": 5306000.0,
+      "dtime": 5908000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "Never mind.",
+      "ptime": 5311000.0,
+      "dtime": 5913000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "Thanks to the chairs.",
+      "ptime": 5354000.0,
+      "dtime": 5956000.0,
+      "author": "Juliusz Chroboczek"
+    },
+    {
+      "text": "***Juliusz Chroboczek just left the room",
+      "ptime": 5383000.0,
+      "dtime": 5985000.0
+    },
+    {
+      "text": "***Denis Ovsienko just left the room",
+      "ptime": 5383000.0,
+      "dtime": 5985000.0
+    },
+    {
+      "text": "***David Millman just left the room",
+      "ptime": 5383000.0,
+      "dtime": 5985000.0
+    },
+    {
+      "text": "***Juan P. Cerezo just left the room",
+      "ptime": 5383000.0,
+      "dtime": 5985000.0
+    },
+    {
+      "text": "***Bernie Volz just left the room",
+      "ptime": 5383000.0,
+      "dtime": 5985000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 5383000.0,
+      "dtime": 5985000.0
+    },
+    {
+      "text": "***Daniel Kaiser just left the room",
+      "ptime": 5383000.0,
+      "dtime": 5985000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF102-HOMENET-20180718-1520"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+
+{
+	"title": "IETF120-IPSECME-20240723-2230",
+	"filename": "IETF120-IPSECME-20240723-2230",
+	"start": 0,
+	"end": 5427000,
+	"start_datetime": "2024-07-23T22:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "EOHZLEGj8gE",
+    "start": 0,
+    "end": "5427000"
+  }
+],
+	"messages": [
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I can't be the only one in the chat room, right?  Anyway, if you want something echoed to the room, just indicate that by prefixing it with \"mic:\"</p>",
+    "topic": "ietf-120",
+    "dtime": 485000,
+    "ptime": 485000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I'm in the chat now.</p>",
+    "topic": "ietf-120",
+    "dtime": 757000,
+    "ptime": 757000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>The reason that encrypted ESP PING is not useful is because after it does not work, you call IT, and they attempt to debug, but they can't debug, because they don't have your IPsec credential.</p>",
+    "topic": "ietf-120",
+    "dtime": 1773000,
+    "ptime": 1773000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>My proposal was to establish IPsec SA with UDP encapsulation - it MUST work in most cases, but immediately start encrypted ESP ping w/o UDP encapsulation to check whether a plain ESP works. If it waorks then use it on the established ESP SA instead of UDP encapsulation. Thus we avoid any delay.</p>",
+    "topic": "ietf-120",
+    "dtime": 1935000,
+    "ptime": 1935000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Unencrypted ping also detects ESP blocked.</p>",
+    "topic": "ietf-120",
+    "dtime": 1988000,
+    "ptime": 1988000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>Unless firewalls treat specific SPIs differently</p>",
+    "topic": "ietf-120",
+    "dtime": 2026000,
+    "ptime": 2026000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Sure. If we hard-code the SPI, some firewall policy is going to either block it, or let it pass while other ESP is bloked.</p>",
+    "topic": "ietf-120",
+    "dtime": 2075000,
+    "ptime": 2075000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>The audio has gone quiet</p>",
+    "topic": "ietf-120",
+    "dtime": 2217000,
+    "ptime": 2217000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>At least, remotely.</p>",
+    "topic": "ietf-120",
+    "dtime": 2227000,
+    "ptime": 2227000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>Not for me</p>",
+    "topic": "ietf-120",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Weird. I'm hearing the room audio only when I turn on my mic</p>",
+    "topic": "ietf-120",
+    "dtime": 2315000,
+    "ptime": 2315000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I think that encrypted PING has many parameters which would be a problem if unencrypted.</p>",
+    "topic": "ietf-120",
+    "dtime": 2505000,
+    "ptime": 2505000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"110\">Valery Smyslov</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-120/near/125648\">said</a>:</p>\n<blockquote>\n<p>My proposal was to establish IPsec SA with UDP encapsulation - it MUST work in most cases, but immediately start encrypted ESP ping w/o UDP encapsulation to check whether a plain ESP works. If it waorks then use it on the established ESP SA instead of UDP encapsulation. Thus we avoid any delay.</p>\n</blockquote>\n<p>Network admins won't be able to use this.</p>",
+    "topic": "ietf-120",
+    "dtime": 2554000,
+    "ptime": 2554000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>They can use ESP ping manually, no problem.</p>",
+    "topic": "ietf-120",
+    "dtime": 2736000,
+    "ptime": 2736000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>I agree with Yoav</p>",
+    "topic": "ietf-120",
+    "dtime": 2884000,
+    "ptime": 2884000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>what Paul said.</p>",
+    "topic": "ietf-120",
+    "dtime": 3127000,
+    "ptime": 3127000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"110\">Valery Smyslov</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-120/near/125699\">said</a>:</p>\n<blockquote>\n<p>They can use ESP ping manually, no problem.</p>\n</blockquote>\n<p>How does an IT administrator use encrypted ESP PING to test a path to a remote IPsec gateway for which they have no credentials?</p>",
+    "topic": "ietf-120",
+    "dtime": 3192000,
+    "ptime": 3192000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>I meant unencrypted ESP ping :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 3227000,
+    "ptime": 3227000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I'm pretty sure there is precedent for AD-sponsored documents with existing working groups.</p>",
+    "topic": "ietf-120",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>As a manual tool</p>",
+    "topic": "ietf-120",
+    "dtime": 3247000,
+    "ptime": 3247000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>why would we do that?</p>",
+    "topic": "ietf-120",
+    "dtime": 3265000,
+    "ptime": 3265000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>If the working group doesn't believe it is useful work, then why?</p>",
+    "topic": "ietf-120",
+    "dtime": 3285000,
+    "ptime": 3285000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>In some cases working group does not think the work is part of the charter, and then it would be ok for AD to sponsor a document.</p>",
+    "topic": "ietf-120",
+    "dtime": 3326000,
+    "ptime": 3326000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>That the working group is not taking it up is not the same as that it is not worth taking up.</p>",
+    "topic": "ietf-120",
+    "dtime": 3338000,
+    "ptime": 3338000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>Sometimes the draft is really useful, but for a small use cases, so WG doesn't want to work on it.</p>",
+    "topic": "ietf-120",
+    "dtime": 3357000,
+    "ptime": 3357000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-120/near/125733\">said</a>:</p>\n<blockquote>\n<p>I'm pretty sure there is precedent for AD-sponsored documents with existing working groups.</p>\n</blockquote>\n<p>usually, it's because some document falls outside of any WG's scope, but it sometimes takes a long discussion to establish that it's really the case.    I think that in many cases, in the past, it was a mistake, or there were extenuating circumstances. Sometimes, it's because it's gonna be a Historic/Informational RFC describing something that won't really have IETF change control, but which we need to reference.</p>",
+    "topic": "ietf-120",
+    "dtime": 3365000,
+    "ptime": 3365000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>RFC 7791 was AD sponsored, for example</p>",
+    "topic": "ietf-120",
+    "dtime": 3404000,
+    "ptime": 3404000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>It failed to get adopted by ipsecme WG, but Kathleen agreed that the draft has value to sponsor it</p>",
+    "topic": "ietf-120",
+    "dtime": 3450000,
+    "ptime": 3450000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>IIRC, so was 6023</p>",
+    "topic": "ietf-120",
+    "dtime": 3540000,
+    "ptime": 3540000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>v4</p>",
+    "topic": "ietf-120",
+    "dtime": 3846000,
+    "ptime": 3846000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>You don't need an attacker. If there are different classes of traffic in the tunnel, copying it to the outer packet can lead to re-ordering, which leads to exceeding the replay window.</p>",
+    "topic": "ietf-120",
+    "dtime": 4520000,
+    "ptime": 4520000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/237-ipsecme/topic/ietf-120/near/125835\">said</a>:</p>\n<blockquote>\n<p>You don't need an attacker. If there are different classes of traffic in the tunnel, copying it to the outer packet can lead to re-ordering, which leads to exceeding the replay window.</p>\n</blockquote>\n<p>Yeah, In general, I think that the tunnel probably should have a single DSCP that the gateway sets.  If you want multiple classes of service for inside traffic, I prefer multiple tunnels, but that isn't popular with some.</p>",
+    "topic": "ietf-120",
+    "dtime": 4743000,
+    "ptime": 4743000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>(I'm talking about copying DSCP from outer tunnel to inside on decap.  I think that's silly. But, copying ECN makes sense to me)</p>",
+    "topic": "ietf-120",
+    "dtime": 4775000,
+    "ptime": 4775000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-IPSECME-20240723-2230"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/ipsecme"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-IPSECME-20240723-2230"
+		}		
+	]
+}

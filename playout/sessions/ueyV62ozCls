@@ -1,0 +1,840 @@
+
+{
+	"title": "IETF-HTTPBIS-20221005-2100",
+	"filename": "IETF-HTTPBIS-20221005-2100",
+	"start": 0,
+	"end": 5870000,
+	"start_datetime": "2022-10-05T21:00:52Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "ueyV62ozCls",
+    "start": 0,
+    "end": "5870000"
+  }
+],
+	"messages": [
+  {
+    "author": "Julian Reschke",
+    "text": "<p>si</p>",
+    "topic": "jabber",
+    "dtime": 49000,
+    "ptime": 49000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Indeed we can.</p>",
+    "topic": "jabber",
+    "dtime": 49000,
+    "ptime": 49000
+  },
+  {
+    "author": "Daniel Stenberg",
+    "text": "<p>can hear</p>",
+    "topic": "jabber",
+    "dtime": 52000,
+    "ptime": 52000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I am on codimd scribing now.</p>",
+    "topic": "jabber",
+    "dtime": 214000,
+    "ptime": 214000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-httpbis-22-10\">https://notes.ietf.org/notes-httpbis-22-10</a></p>",
+    "topic": "jabber",
+    "dtime": 234000,
+    "ptime": 234000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>For people to get to the notes</p>",
+    "topic": "jabber",
+    "dtime": 240000,
+    "ptime": 240000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I will do it.</p>",
+    "topic": "jabber",
+    "dtime": 243000,
+    "ptime": 243000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I can help with patch and edits if we're doing it in hedgedoc</p>",
+    "topic": "jabber",
+    "dtime": 258000,
+    "ptime": 258000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>There are two places.  I started from the minutes.</p>",
+    "topic": "jabber",
+    "dtime": 278000,
+    "ptime": 278000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>We're getting crackling sounds from you mnot, from memory mute/unmute fixes it</p>",
+    "topic": "jabber",
+    "dtime": 282000,
+    "ptime": 282000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Have you tried turning it off and on again.</p>",
+    "topic": "jabber",
+    "dtime": 335000,
+    "ptime": 335000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>its just the oz gov tapping in</p>",
+    "topic": "jabber",
+    "dtime": 349000,
+    "ptime": 349000
+  },
+  {
+    "author": "Daniel Stenberg",
+    "text": "<p>fixed</p>",
+    "topic": "jabber",
+    "dtime": 354000,
+    "ptime": 354000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>better</p>",
+    "topic": "jabber",
+    "dtime": 355000,
+    "ptime": 355000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That is Mark Nottingham's screen.</p>",
+    "topic": "jabber",
+    "dtime": 379000,
+    "ptime": 379000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>oz gov gave permission <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "jabber",
+    "dtime": 407000,
+    "ptime": 407000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Perhaps you can give the presenter the ball.</p>",
+    "topic": "jabber",
+    "dtime": 413000,
+    "ptime": 413000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Oh, you can't because you didn't upload them.</p>",
+    "topic": "jabber",
+    "dtime": 437000,
+    "ptime": 437000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>fullscreen the slides please?</p>",
+    "topic": "jabber",
+    "dtime": 442000,
+    "ptime": 442000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>Justin: click 'expand video'  (arrow icon next to the bitrate at the top left)</p>",
+    "topic": "jabber",
+    "dtime": 645000,
+    "ptime": 645000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>with 1xx, this round trip is in parallel to the upload</p>",
+    "topic": "jabber",
+    "dtime": 928000,
+    "ptime": 928000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Why can't the initial request starting to stream the payload as well?</p>",
+    "topic": "jabber",
+    "dtime": 935000,
+    "ptime": 935000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>@Julian: my point exactly</p>",
+    "topic": "jabber",
+    "dtime": 950000,
+    "ptime": 950000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Right, the token can be used if the client needs to resume that particular upload.</p>",
+    "topic": "jabber",
+    "dtime": 977000,
+    "ptime": 977000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>My read of the doc was that the initial req, the create, was also attempting to upload just in case the server doesn't support it, so I'm with everyone else (the \"extra\" RTT is nbd)</p>",
+    "topic": "jabber",
+    "dtime": 999000,
+    "ptime": 999000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>yep, it is only needed if the initial request fails/is aborted</p>",
+    "topic": "jabber",
+    "dtime": 1005000,
+    "ptime": 1005000
+  },
+  {
+    "author": "Roy Fielding",
+    "text": "<p>The problem with the identifier in the header is that scalable systems partition on the request line, not on the content of the header fields. Likewise, this notion of \"the server\" being a single process on a single machine that the client reliably talks to after the first request fails is problematic.</p>",
+    "topic": "jabber",
+    "dtime": 1037000,
+    "ptime": 1037000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>mnot goes straight for the porque no los dos?</p>",
+    "topic": "jabber",
+    "dtime": 1152000,
+    "ptime": 1152000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>He ran out of coins to flip</p>",
+    "topic": "jabber",
+    "dtime": 1175000,
+    "ptime": 1175000
+  },
+  {
+    "author": "Austin Wright",
+    "text": "<p>I think there are multiple use cases that may need multiple different (or modular) solutions. A client that needs to resume a POST request isn't exactly the same thing as a client that is appending to a file (like an audio file) in real time.</p>",
+    "topic": "jabber",
+    "dtime": 1191000,
+    "ptime": 1191000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>fair point mt</p>",
+    "topic": "jabber",
+    "dtime": 1323000,
+    "ptime": 1323000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Is it important enough to resume small files? Is it worth building that infrastructure?</p>",
+    "topic": "jabber",
+    "dtime": 1391000,
+    "ptime": 1391000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>if the image is small, why do you need resume in the first place?</p>",
+    "topic": "jabber",
+    "dtime": 1393000,
+    "ptime": 1393000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Yeah, what he said. :)</p>",
+    "topic": "jabber",
+    "dtime": 1402000,
+    "ptime": 1402000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>If the server sends back an ID the client can use on subsequent requests, where is the extra RTT? Basically, the create can be ID-less until the server decides it needs one</p>",
+    "topic": "jabber",
+    "dtime": 1409000,
+    "ptime": 1409000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>unless* the server</p>",
+    "topic": "jabber",
+    "dtime": 1418000,
+    "ptime": 1418000
+  },
+  {
+    "author": "Guoye Zhang",
+    "text": "<p>We have a desire to support it in the HTTP client library itself, transparently upgrading all uploads into resumable uploads. We hope that it adds no overhead and requires no opting-in so we can do it for all uploads.</p>",
+    "topic": "jabber",
+    "dtime": 1516000,
+    "ptime": 1516000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>that would be nice, though I believe that you would need to make some changes in Fetch to define how that works</p>",
+    "topic": "jabber",
+    "dtime": 1578000,
+    "ptime": 1578000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>If it's not completely transparent, a link relation could be interesting</p>",
+    "topic": "jabber",
+    "dtime": 1590000,
+    "ptime": 1590000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>are you assuming server-defined upload targets @mnot?</p>",
+    "topic": "jabber",
+    "dtime": 1640000,
+    "ptime": 1640000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>y - including using a template</p>",
+    "topic": "jabber",
+    "dtime": 1705000,
+    "ptime": 1705000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Anne is great, so you should have no real problem</p>",
+    "topic": "jabber",
+    "dtime": 2041000,
+    "ptime": 2041000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>It isn't impossible, but I'm not sure why 104 is worth the effort if some of the other alternatives listed in the spec will suffice (even the presence of the Upload-Offset header on the creation response serves to inform the client resumable uploads are supported, no?)</p>",
+    "topic": "jabber",
+    "dtime": 2117000,
+    "ptime": 2117000
+  },
+  {
+    "author": "Jonathan Flat",
+    "text": "<p>On top of what Guoye says, it might be hard for a single client API to decide where the cutoff would be for small vs large files since this could depend on internet speed. Resuming a \"small\" file could be useful for those on slower internets, and being able to automatically start a resumable upload regardless of file size is nice</p>",
+    "topic": "jabber",
+    "dtime": 2130000,
+    "ptime": 2130000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Well, it's a lot less important to decide what constitutes a \"small\" file if you're not paying a round-trip cost.</p>",
+    "topic": "jabber",
+    "dtime": 2185000,
+    "ptime": 2185000
+  },
+  {
+    "author": "Austin Wright",
+    "text": "<p>Comment: Could this overlap with Idempotency-Key somewhat (at the HTTP APIs WG)? That is, if your \"idempotent\" POST request is interrupted, you could make a RESUME request with the same URI and Idempotency-Key fields. And the server could also use 1xx to assign the request an Idempotency-Key, for clients that choose not to send one for whatever reason, or to confirm that the server will honor the Idempotency-Key for resumption.</p>",
+    "topic": "jabber",
+    "dtime": 2282000,
+    "ptime": 2282000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>would be good to collect information about 1xx support in client libraries</p>",
+    "topic": "jabber",
+    "dtime": 2314000,
+    "ptime": 2314000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(on the wiki)</p>",
+    "topic": "jabber",
+    "dtime": 2325000,
+    "ptime": 2325000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>also for 103...</p>",
+    "topic": "jabber",
+    "dtime": 2352000,
+    "ptime": 2352000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>and servers (+ frameworks)</p>",
+    "topic": "jabber",
+    "dtime": 2358000,
+    "ptime": 2358000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>indeed</p>",
+    "topic": "jabber",
+    "dtime": 2375000,
+    "ptime": 2375000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>103 is getting better support in browsers still</p>",
+    "topic": "jabber",
+    "dtime": 2392000,
+    "ptime": 2392000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>We have started collecting information about support for 1XX in <a href=\"https://github.com/httpwg/http-extensions/issues/2240\">https://github.com/httpwg/http-extensions/issues/2240</a>.</p>",
+    "topic": "jabber",
+    "dtime": 2408000,
+    "ptime": 2408000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>Of course, it is not complete and not in a very accessible way yet.</p>",
+    "topic": "jabber",
+    "dtime": 2434000,
+    "ptime": 2434000
+  },
+  {
+    "author": "Marius Kleidl",
+    "text": "<p>If there are additional resources, please let us know</p>",
+    "topic": "jabber",
+    "dtime": 2479000,
+    "ptime": 2479000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>I don't think secdir qualifies as a proper security analysis of this document.</p>",
+    "topic": "jabber",
+    "dtime": 2651000,
+    "ptime": 2651000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Happy to engage on that meta discussion, too.</p>",
+    "topic": "jabber",
+    "dtime": 2956000,
+    "ptime": 2956000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>maybe , generally, the early secdir review could advise on the level of formal analysis that might be needed</p>",
+    "topic": "jabber",
+    "dtime": 2978000,
+    "ptime": 2978000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>^^ is a good idea</p>",
+    "topic": "jabber",
+    "dtime": 2988000,
+    "ptime": 2988000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>cookies, nom nom nom</p>",
+    "topic": "jabber",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I love the fact that the title of this window is what appears to be a UUID</p>",
+    "topic": "jabber",
+    "dtime": 3301000,
+    "ptime": 3301000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>It is a very unique meeting.</p>",
+    "topic": "jabber",
+    "dtime": 3416000,
+    "ptime": 3416000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>is it? can you prove that?</p>",
+    "topic": "jabber",
+    "dtime": 3434000,
+    "ptime": 3434000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>sorry, audio problems</p>",
+    "topic": "jabber",
+    "dtime": 3540000,
+    "ptime": 3540000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>That raises existential questions outside the charter of this WG. :D</p>",
+    "topic": "jabber",
+    "dtime": 3556000,
+    "ptime": 3556000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>was the redirect breakage in all samesite cases, or mostly in the \"lax by default\" case?</p>",
+    "topic": "jabber",
+    "dtime": 3574000,
+    "ptime": 3574000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>fwiw mozilla is considering NOT implementing the \"lax by default\" part of the spec because of breakage and because partitioning proposals kind of mitigate the issue anyway</p>",
+    "topic": "jabber",
+    "dtime": 3686000,
+    "ptime": 3686000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>(not shipping, I should say -- we've implemented it)</p>",
+    "topic": "jabber",
+    "dtime": 3715000,
+    "ptime": 3715000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>will do</p>",
+    "topic": "jabber",
+    "dtime": 3725000,
+    "ptime": 3725000
+  },
+  {
+    "author": "Johann Hofmann",
+    "text": "<p>Partitioning doesn't mitigate it to be pedantic :)</p>",
+    "topic": "jabber",
+    "dtime": 3726000,
+    "ptime": 3726000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>the problem there is that the bustage problem is pretty significant</p>",
+    "topic": "jabber",
+    "dtime": 3764000,
+    "ptime": 3764000
+  },
+  {
+    "author": "Johann Hofmann",
+    "text": "<p>Yeah there's already quite a lot of discussion on the GitHub threat, I made a suggestion recently and I think Freddy was also going to look into that</p>",
+    "topic": "jabber",
+    "dtime": 3800000,
+    "ptime": 3800000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>... and if you fix the bustage by not enforcing the redirects then you've reopened the CSRF potential the feature was designed to solve</p>",
+    "topic": "jabber",
+    "dtime": 3807000,
+    "ptime": 3807000
+  },
+  {
+    "author": "Johann Hofmann",
+    "text": "<p>(who's not in this meeting, wisely given timezones)</p>",
+    "topic": "jabber",
+    "dtime": 3811000,
+    "ptime": 3811000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>The crackling is starting up again, time for another mute/unmute Mark</p>",
+    "topic": "jabber",
+    "dtime": 3818000,
+    "ptime": 3818000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>1am in a hotel room on vacation...</p>",
+    "topic": "jabber",
+    "dtime": 3822000,
+    "ptime": 3822000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Freddy did look at it - which is what Dan is passing on here</p>",
+    "topic": "jabber",
+    "dtime": 3825000,
+    "ptime": 3825000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@mnot, your mic static is back.</p>",
+    "topic": "jabber",
+    "dtime": 3849000,
+    "ptime": 3849000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>much better</p>",
+    "topic": "jabber",
+    "dtime": 3895000,
+    "ptime": 3895000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 3901000,
+    "ptime": 3901000
+  },
+  {
+    "author": "Johann Hofmann",
+    "text": "<p>I see! I suppose the question is how do we move forward then? If browsers won't ship the arguably insecure version then shouldn't the spec document that?</p>",
+    "topic": "jabber",
+    "dtime": 3909000,
+    "ptime": 3909000
+  },
+  {
+    "author": "Johann Hofmann",
+    "text": "<p>But yeah we could continue on GH for better visibility :)</p>",
+    "topic": "jabber",
+    "dtime": 3936000,
+    "ptime": 3936000
+  },
+  {
+    "author": "Daniel Veditz",
+    "text": "<p>agreed -- back to GH, and on to other topics here</p>",
+    "topic": "jabber",
+    "dtime": 3955000,
+    "ptime": 3955000
+  },
+  {
+    "author": "Steven Bingler",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 3972000,
+    "ptime": 3972000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Brian: you are cutting out a little</p>",
+    "topic": "jabber",
+    "dtime": 3976000,
+    "ptime": 3976000
+  },
+  {
+    "author": "Johann Hofmann",
+    "text": "<p>Thanks Dan! :thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 3977000,
+    "ptime": 3977000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yes, I'm backing you up Brian.  This isn't worth fixing, though it might be worth explaining.</p>",
+    "topic": "jabber",
+    "dtime": 4104000,
+    "ptime": 4104000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>+1.  The client successfully presented a certificate, and the authenticated identity doesn't give it access to the resource.</p>",
+    "topic": "jabber",
+    "dtime": 4178000,
+    "ptime": 4178000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><a href=\"https://github.com/httpwg/http-extensions/pull/2257#issuecomment-1269033561\">https://github.com/httpwg/http-extensions/pull/2257#issuecomment-1269033561</a></p>",
+    "topic": "jabber",
+    "dtime": 4379000,
+    "ptime": 4379000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It's one sentence.</p>",
+    "topic": "jabber",
+    "dtime": 4396000,
+    "ptime": 4396000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Right; IIRC, the client can assume the proxy has certain certificates needed to build the chain.</p>",
+    "topic": "jabber",
+    "dtime": 4594000,
+    "ptime": 4594000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yeah, I can imagine cases where the proxy has an intermediate certificate and the origin server doesn't</p>",
+    "topic": "jabber",
+    "dtime": 4891000,
+    "ptime": 4891000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>what I'm suggesting avoids answering some of those questions, I think</p>",
+    "topic": "jabber",
+    "dtime": 4947000,
+    "ptime": 4947000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Lucas did someone beat you up using your microphone?</p>",
+    "topic": "jabber",
+    "dtime": 5034000,
+    "ptime": 5034000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>it has been getting worse over time</p>",
+    "topic": "jabber",
+    "dtime": 5095000,
+    "ptime": 5095000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Akamai does as well. The trouble is getting that header replaced with the \"new\" one, particularly if you can't phase out the old one.</p>",
+    "topic": "jabber",
+    "dtime": 5096000,
+    "ptime": 5096000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>yep</p>",
+    "topic": "jabber",
+    "dtime": 5111000,
+    "ptime": 5111000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>we have a plan to meet to discuss a plan</p>",
+    "topic": "jabber",
+    "dtime": 5248000,
+    "ptime": 5248000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>can the WG grant honory titles like \"keeper of the books\"?</p>",
+    "topic": "jabber",
+    "dtime": 5495000,
+    "ptime": 5495000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>see <a href=\"https://en.wikipedia.org/wiki/Warden_of_the_Swans\">https://en.wikipedia.org/wiki/Warden_of_the_Swans</a></p>",
+    "topic": "jabber",
+    "dtime": 5539000,
+    "ptime": 5539000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>-1 to removing the ABNF</p>",
+    "topic": "jabber",
+    "dtime": 5558000,
+    "ptime": 5558000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>(if we go that far)</p>",
+    "topic": "jabber",
+    "dtime": 5562000,
+    "ptime": 5562000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I'm not inclined to re-open the draft. Update it if you want a clear linkage between them.</p>",
+    "topic": "jabber",
+    "dtime": 5594000,
+    "ptime": 5594000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>+1 to keeping the structured fields spec as one thing. Updating is better than spinning off a new draft.</p>",
+    "topic": "jabber",
+    "dtime": 5645000,
+    "ptime": 5645000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>If we write it later, there may be other extensions that also get rolled up.</p>",
+    "topic": "jabber",
+    "dtime": 5759000,
+    "ptime": 5759000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>+1 to keeping scope in check</p>",
+    "topic": "jabber",
+    "dtime": 5777000,
+    "ptime": 5777000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>+1 to tight scope however this goes</p>",
+    "topic": "jabber",
+    "dtime": 5790000,
+    "ptime": 5790000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>We did that with h2bis and it took a year, but that had some real issues.  This can be better.</p>",
+    "topic": "jabber",
+    "dtime": 5797000,
+    "ptime": 5797000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Sounds good</p>",
+    "topic": "jabber",
+    "dtime": 5798000,
+    "ptime": 5798000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 5811000,
+    "ptime": 5811000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"it's alive!\"</p>",
+    "topic": "jabber",
+    "dtime": 5819000,
+    "ptime": 5819000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>a LIVING specification, that's HERESY Mark</p>",
+    "topic": "jabber",
+    "dtime": 5824000,
+    "ptime": 5824000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>\"HTTP, whatever that means today\"</p>",
+    "topic": "jabber",
+    "dtime": 5831000,
+    "ptime": 5831000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>\"Le HTTP du jour\"</p>",
+    "topic": "jabber",
+    "dtime": 5841000,
+    "ptime": 5841000
+  },
+  {
+    "author": "Daniel Stenberg",
+    "text": "<p>\\o</p>",
+    "topic": "jabber",
+    "dtime": 5860000,
+    "ptime": 5860000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-HTTPBIS-20221005-2100"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-httpbis-04/session/httpbis"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-HTTPBIS-20221005-2100"
+		}
+	]
+}

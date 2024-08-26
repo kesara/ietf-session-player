@@ -1,0 +1,98 @@
+
+{
+	"title": "IETF115-UUIDREV-20221108-1630",
+	"filename": "IETF115-UUIDREV-20221108-1630",
+	"start": 0,
+	"end": 2889000,
+	"start_datetime": "2022-11-08T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "JGFl2PFY2RE",
+    "start": 0,
+    "end": "2889000"
+  }
+],
+	"messages": [
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>When you enable your mic, a different bidirectional connection is created, so if you don't hear audio when you unmute that connection may be broken somehow. Have you tried reloading to see if that helps?</p>",
+    "topic": "jabber",
+    "dtime": 30000,
+    "ptime": 30000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>I think the problem is fixed</p>",
+    "topic": "jabber",
+    "dtime": 55000,
+    "ptime": 55000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, sorry for the noise!</p>",
+    "topic": "jabber",
+    "dtime": 71000,
+    "ptime": 71000
+  },
+  {
+    "author": "Kyzer Davis",
+    "text": "<p>Fixed, swapped some outputs on my side. :)</p>",
+    "topic": "jabber",
+    "dtime": 89000,
+    "ptime": 89000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>2hexOctet should be 2*hexOctet, and hexOctet needs to be defined someplace (it's not in ABNF itself)</p>",
+    "topic": "jabber",
+    "dtime": 1031000,
+    "ptime": 1031000
+  },
+  {
+    "author": "Kyzer Davis",
+    "text": "<p>Yup, I see the problem, Thanks @Murray</p>",
+    "topic": "jabber",
+    "dtime": 1156000,
+    "ptime": 1156000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Oh sorry, hexOctet is defined right below where you're using it.  I just needed to read a bit further.  So what's missing is the \"*\".</p>",
+    "topic": "jabber",
+    "dtime": 1268000,
+    "ptime": 1268000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><a href=\"https://mailarchive.ietf.org/arch/msg/uuidrev/98VKWVs4HjTow9rRNHv81EFfWGk/\">https://mailarchive.ietf.org/arch/msg/uuidrev/98VKWVs4HjTow9rRNHv81EFfWGk/</a>  Poll for future virtual interim meetings.</p>",
+    "topic": "jabber",
+    "dtime": 1672000,
+    "ptime": 1672000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: please fill in the poll.</p>",
+    "topic": "jabber",
+    "dtime": 1708000,
+    "ptime": 1708000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-UUIDREV-20221108-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/uuidrev"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-UUIDREV-20221108-1630"
+		}		
+	]
+}

@@ -1,0 +1,399 @@
+
+{
+	"title": "IETF117-COSE-20230724-2000",
+	"filename": "IETF117-COSE-20230724-2000",
+	"start": 0,
+	"end": 7393000,
+	"start_datetime": "2023-07-24T19:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "zXkmV4s7Qag",
+    "start": 0,
+    "end": "7393000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christopher Allen",
+    "text": "<p>Good afternoon everyone!</p>",
+    "topic": "ietf-117",
+    "dtime": 388000,
+    "ptime": 388000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Henk is delayed. Please skip Henk's agenda items until he will be in the room</p>",
+    "topic": "ietf-117",
+    "dtime": 494000,
+    "ptime": 494000
+  },
+  {
+    "author": "Ivaylo Petrov",
+    "text": "<p>ack</p>",
+    "topic": "ietf-117",
+    "dtime": 547000,
+    "ptime": 547000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>meetecho: room audio doesn't seem to work well</p>",
+    "topic": "ietf-117",
+    "dtime": 627000,
+    "ptime": 627000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p><a href=\"https://datatracker.ietf.org/wg/pquip/\">https://datatracker.ietf.org/wg/pquip/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 687000,
+    "ptime": 687000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Carsten: any mic in particular?</p>",
+    "topic": "ietf-117",
+    "dtime": 861000,
+    "ptime": 861000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>The speaker sounds fine right now</p>",
+    "topic": "ietf-117",
+    "dtime": 866000,
+    "ptime": 866000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I think you should be careful with everything at this point. None of the algorithms are even standardized. PoC only....</p>",
+    "topic": "ietf-117",
+    "dtime": 998000,
+    "ptime": 998000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I think COSE should add everything NIST standardizes.</p>",
+    "topic": "ietf-117",
+    "dtime": 1252000,
+    "ptime": 1252000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Lorenzo: Sorry, I can't debug this from here....</p>",
+    "topic": "ietf-117",
+    "dtime": 1390000,
+    "ptime": 1390000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>I think it would be really good to see something about how this aligns with the LAMPS and JOSE drafts in PQUIP.  That would get more eyes on the cross-cutting parts, and would also help writers incorporating PQ sigs into other protocols.</p>",
+    "topic": "ietf-117",
+    "dtime": 1431000,
+    "ptime": 1431000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Two different parameters sounds like it</p>",
+    "topic": "ietf-117",
+    "dtime": 1847000,
+    "ptime": 1847000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>If your library can't do that, bracket with 9f and ff</p>",
+    "topic": "ietf-117",
+    "dtime": 2138000,
+    "ptime": 2138000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Question: CBOR-encoded-certs is still fundamentally RFC5280 certs, just encoded in CBOR rather than DER, right?<br>\nIE this is distinct from <em>\"Let's define a new cert format with a reduced set of claims and get rid of X.500 DNs, etc\"</em>, right?</p>",
+    "topic": "ietf-117",
+    "dtime": 2339000,
+    "ptime": 2339000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(Please read <a href=\"https://www.ietf.org/archive/id/draft-ietf-cbor-edn-literals-02.html#name-edn-and-cddl\">https://www.ietf.org/archive/id/draft-ietf-cbor-edn-literals-02.html#name-edn-and-cddl</a> when confused about CDDL and examples.)</p>",
+    "topic": "ietf-117",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>+1</p>",
+    "topic": "ietf-117",
+    "dtime": 3054000,
+    "ptime": 3054000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I think it could make sense to send thumbprints of a CCS (CWT Claims Set) and CWT (CBOR Web Token) with cnf instead. CCS is a superset of COSE key and CWT is a superset of CCS. Agree with Brendan that supporting symmetric would be good. I think SUIT can profile away symmetric.</p>",
+    "topic": "ietf-117",
+    "dtime": 3780000,
+    "ptime": 3780000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I liked the presentation until Orie mentioned NSSS</p>",
+    "topic": "ietf-117",
+    "dtime": 4084000,
+    "ptime": 4084000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>It's completely independent of multiple structured suffixes</p>",
+    "topic": "ietf-117",
+    "dtime": 4240000,
+    "ptime": 4240000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>You can use any registered media type or COAP number</p>",
+    "topic": "ietf-117",
+    "dtime": 4285000,
+    "ptime": 4285000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Yes.  I just don't want the impression they are married</p>",
+    "topic": "ietf-117",
+    "dtime": 4343000,
+    "ptime": 4343000
+  },
+  {
+    "author": "Matthew Gillmore",
+    "text": "<p>context of what is signed is important</p>",
+    "topic": "ietf-117",
+    "dtime": 4474000,
+    "ptime": 4474000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>Hi all</p>",
+    "topic": "greetings",
+    "dtime": 4544000,
+    "ptime": 4544000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>hi :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 4566000,
+    "ptime": 4566000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I couldn't quite follow Ivo's audio</p>",
+    "topic": "ietf-117",
+    "dtime": 4594000,
+    "ptime": 4594000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>The transcript from Ivo was great. It talked about COVID</p>",
+    "topic": "ietf-117",
+    "dtime": 4655000,
+    "ptime": 4655000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<ul>\n<li>gets popcorn ready*</li>\n</ul>",
+    "topic": "ietf-117",
+    "dtime": 4674000,
+    "ptime": 4674000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>I think that Ivo said that we should discuss the draft on the list and if it looks like there's support, we could consider working group adoption.  (Correct me if I'm wrong, Ivo.)</p>",
+    "topic": "ietf-117",
+    "dtime": 4701000,
+    "ptime": 4701000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 4782000,
+    "ptime": 4782000
+  },
+  {
+    "author": "Ivaylo Petrov",
+    "text": "<p>Yes, there were a few questions that I think should be followed up on the mailing list.</p>",
+    "topic": "ietf-117",
+    "dtime": 4785000,
+    "ptime": 4785000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>hi ! :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 4834000,
+    "ptime": 4834000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>+1 for HPKE \"ciphersuites\".<br>\nIMO COSE WG should make opinionated choices about \"good combinations\".<br>\nReference: DKG's \"rake factory\" comment from LAMPS 116 in reference to generic composite hybrid signatures.</p>",
+    "topic": "ietf-117",
+    "dtime": 5028000,
+    "ptime": 5028000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>I've just realized that I forgot to put in my presentation the link of my draft , I share it here with the hope to geet it in the minutes<br>\n<a href=\"https://github.com/peppelinux/draft-demarco-cose-header-federation-trust-chain\">https://github.com/peppelinux/draft-demarco-cose-header-federation-trust-chain</a></p>\n<p>thank you</p>",
+    "topic": "ietf-117",
+    "dtime": 5050000,
+    "ptime": 5050000
+  },
+  {
+    "author": "Ivaylo Petrov",
+    "text": "<p>Giuseppe, do you have slides?</p>",
+    "topic": "ietf-117",
+    "dtime": 5110000,
+    "ptime": 5110000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>YEs, I've uploaded in the datatracker and I can share them als here<br>\n<a href=\"/user_uploads/2/52/n1m_hpFCIQzFEb6UIDryN5Y_/COSE-Header-Parameter-for-Carrying-OpenID-Connect-Federation-Trust-Chains.pdf\">COSE-Header-Parameter-for-Carrying-OpenID-Connect-Federation-Trust-Chains.pdf</a></p>",
+    "topic": "ietf-117",
+    "dtime": 5245000,
+    "ptime": 5245000
+  },
+  {
+    "author": "Uri Blumenthal",
+    "text": "<p>+1 for \"ciphersuites\".</p>",
+    "topic": "ietf-117",
+    "dtime": 5309000,
+    "ptime": 5309000
+  },
+  {
+    "author": "Ivaylo Petrov",
+    "text": "<p>Giuseppe, I saw it and made sure it's imported, so it should be all fine for you to present it</p>",
+    "topic": "ietf-117",
+    "dtime": 5415000,
+    "ptime": 5415000
+  },
+  {
+    "author": "Matthew Gillmore",
+    "text": "<p>+1 for proposal 2</p>",
+    "topic": "ietf-117",
+    "dtime": 5439000,
+    "ptime": 5439000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Orie made the example that you have some vendor with some proprietary reason to need a weird combination of KEM + KDF + AEAD.<br>\nIsn't that the definition of \"non-standard\". Register your own \"ciphersuite\". Don't claim IETF approval. Done.</p>",
+    "topic": "ietf-117",
+    "dtime": 5499000,
+    "ptime": 5499000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Ciphersuites make interop testing NOT become a combinatorial problem (which I think is exactly Christopher Allan's point).</p>",
+    "topic": "ietf-117",
+    "dtime": 5538000,
+    "ptime": 5538000
+  },
+  {
+    "author": "John Gray",
+    "text": "<p>I would select the 2nd option (Ciphersuites option).   It seems like it is more compact, and clients would be able to cache the meaning of the entry.  Since I think the entire premise of CBOR is a more compact encoding, shouldn't that be the over riding design decision?</p>",
+    "topic": "ietf-117",
+    "dtime": 5591000,
+    "ptime": 5591000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Designated experts have to do a \"proof by lack of imagination\" to refuse registration of a specific combination.</p>",
+    "topic": "ietf-117",
+    "dtime": 5735000,
+    "ptime": 5735000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"115\">@Carsten Bormann</span>  but the output of a KEM is not necessarily a public key -- it just happens to be for DHKEM.</p>",
+    "topic": "ietf-117",
+    "dtime": 6526000,
+    "ptime": 6526000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>so may have to define new kty.</p>",
+    "topic": "ietf-117",
+    "dtime": 6562000,
+    "ptime": 6562000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>For example the output of Kyber will just be a ciphertext blob with no structure. does that deserve a kty?</p>",
+    "topic": "ietf-117",
+    "dtime": 6602000,
+    "ptime": 6602000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>If that will be used by other Kyber applications in COSE, sure!</p>",
+    "topic": "ietf-117",
+    "dtime": 6642000,
+    "ptime": 6642000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Maybe I'm missing something. Isn't kty \"key type\"? Why would you label a ciphertext blob with a kty?</p>",
+    "topic": "ietf-117",
+    "dtime": 6682000,
+    "ptime": 6682000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>OK, indeed, in this case we don't need a kty.</p>",
+    "topic": "ietf-117",
+    "dtime": 6759000,
+    "ptime": 6759000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>The confusion point, I think, is that in DHKEM, the \"ciphertext\" happens to be the sender's ephemeral public key. That's just a coincidence of jamming DH into a KEM API. With real KEMs the \"ciphertext\" will be an actual ciphertext.<br>\n(but HPKE is choosing to call it \"enc\" (encapsulated value) rather than \"ciphertext\")</p>",
+    "topic": "ietf-117",
+    "dtime": 6869000,
+    "ptime": 6869000
+  },
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>Hi, this is the link where my presetation of \"COSE Header Parameter for Carrying OpenID Federation 1.0 Trust Chains\" is available for download:<br>\n<a href=\"https://drive.google.com/file/d/1JGFgqlbW_fscud33gHW-x-5ptD8YtVvg/view?usp=sharing\">https://drive.google.com/file/d/1JGFgqlbW_fscud33gHW-x-5ptD8YtVvg/view?usp=sharing</a></p>",
+    "topic": "ietf-117",
+    "dtime": 7222000,
+    "ptime": 7222000
+  },
+  {
+    "author": "Matthew Gillmore",
+    "text": "<p>Why cannot the API be defined in a swagger like manner</p>",
+    "topic": "ietf-117",
+    "dtime": 7287000,
+    "ptime": 7287000
+  },
+  {
+    "author": "Ivaylo Petrov",
+    "text": "<p>thank you!</p>",
+    "topic": "ietf-117",
+    "dtime": 7342000,
+    "ptime": 7342000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-COSE-20230724-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/cose"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-COSE-20230724-2000"
+		}		
+	]
+}

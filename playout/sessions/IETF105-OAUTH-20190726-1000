@@ -1,0 +1,277 @@
+{
+  "title": "IETF105-OAUTH-20190726-1000",
+  "filename": "IETF105-OAUTH-20190726-1000",
+  "start": 0,
+  "end": 7376000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "tUmT5qqlKik",
+      "start": 0.0,
+      "end": 7376000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Torsten Lodderstedt just joined the room",
+      "ptime": 24000.0,
+      "dtime": 1039000.0
+    },
+    {
+      "text": "***Brian Campbell just joined the room",
+      "ptime": 167000.0,
+      "dtime": 1182000.0
+    },
+    {
+      "text": "I\"m going to be jabber proxy to the room here in Canada",
+      "ptime": 225000.0,
+      "dtime": 1240000.0,
+      "author": "Brian Campbell"
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 268000.0,
+      "dtime": 1283000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 299000.0,
+      "dtime": 1314000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 300000.0,
+      "dtime": 1315000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 314000.0,
+      "dtime": 1329000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 315000.0,
+      "dtime": 1330000.0
+    },
+    {
+      "text": "Can you please explain, why a RS needs to distinguish whether the sub is a user or an app?",
+      "ptime": 872000.0,
+      "dtime": 1887000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "***Josh Cain just joined the room",
+      "ptime": 888000.0,
+      "dtime": 1903000.0
+    },
+    {
+      "text": "draft-ietf-secevent-subject-identifiers-05 is the SECEVENT draft just mentioned",
+      "ptime": 1159000.0,
+      "dtime": 2174000.0,
+      "author": "roman"
+    },
+    {
+      "text": "does Annabel\u0027s question cover yours Dr.  Lodderstedt?",
+      "ptime": 1340000.0,
+      "dtime": 2355000.0,
+      "author": "Brian Campbell"
+    },
+    {
+      "text": "it does.",
+      "ptime": 1355000.0,
+      "dtime": 2370000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "OIDC\u0027s refresh token + id token behaviour agrees here, even after refreshing the newly issued id token is supposed to have the original auth_time, acr and amr",
+      "ptime": 1750000.0,
+      "dtime": 2765000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "deviating the behaviour for an issued JWT AT is confusing me",
+      "ptime": 1798000.0,
+      "dtime": 2813000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "sorry Filip, time got cut off",
+      "ptime": 1948000.0,
+      "dtime": 2963000.0,
+      "author": "Brian Campbell"
+    },
+    {
+      "text": "np ;) i\u0027ll speak my mind on the list when it comes up",
+      "ptime": 1972000.0,
+      "dtime": 2987000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "***Filip Skokan just left the room",
+      "ptime": 2172000.0,
+      "dtime": 3187000.0
+    },
+    {
+      "text": "i copied and sent it cc you in an email to Vittorio fwiw",
+      "ptime": 2173000.0,
+      "dtime": 3188000.0,
+      "author": "Brian Campbell"
+    },
+    {
+      "text": "***Filip Skokan just joined the room",
+      "ptime": 2173000.0,
+      "dtime": 3188000.0
+    },
+    {
+      "text": "***Filip Skokan just left the room",
+      "ptime": 2222000.0,
+      "dtime": 3237000.0
+    },
+    {
+      "text": "***Filip Skokan just joined the room",
+      "ptime": 2224000.0,
+      "dtime": 3239000.0
+    },
+    {
+      "text": "I think Same-Domain Applications do not belong into this BCP, if you want to describe this pattern, write up another ID",
+      "ptime": 2321000.0,
+      "dtime": 3336000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "does",
+      "ptime": 2329000.0,
+      "dtime": 3344000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "We either need to describe it with all the consequences (including threat analysis and security recommandations).",
+      "ptime": 2542000.0,
+      "dtime": 3557000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "leave it out or ref, BCP covers it",
+      "ptime": 2796000.0,
+      "dtime": 3811000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "+1",
+      "ptime": 2891000.0,
+      "dtime": 3906000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "+100",
+      "ptime": 2896000.0,
+      "dtime": 3911000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "I don\u0027t believe this is a good idea w/o sender constraining",
+      "ptime": 3108000.0,
+      "dtime": 4123000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "Why using a backend, if you in the end send the AT to the browser?",
+      "ptime": 3302000.0,
+      "dtime": 4317000.0,
+      "author": "Torsten Lodderstedt"
+    },
+    {
+      "text": "SPAs need a way to get fresh access tokens or access tokens for another RS (using resource indicators). Without Refresh Tokens, whats a reliable way to get those? Iframes rely on 3rd party cookie access which is in the crosshairs of pretty much every browser vendor nowadays, constantly redirecting blows UX, so does pop up since it requires end-user interaction. Either we put forth restrictions on the AS and Client to be able to get Refresh Tokens (e.g. using DPoP / sender constraining, rotating on every use, smth else...) or get searching for a completely new mechanism.",
+      "ptime": 3539000.0,
+      "dtime": 4554000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "no need to proxy Brian, Aaron is on the same though track",
+      "ptime": 3636000.0,
+      "dtime": 4651000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": ":D",
+      "ptime": 3697000.0,
+      "dtime": 4712000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "hehe yeah",
+      "ptime": 3725000.0,
+      "dtime": 4740000.0,
+      "author": "Brian Campbell"
+    },
+    {
+      "text": "***Josh Cain just left the room",
+      "ptime": 6225000.0,
+      "dtime": 7240000.0
+    },
+    {
+      "text": "hummmm",
+      "ptime": 6292000.0,
+      "dtime": 7307000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "(to bring it)",
+      "ptime": 6366000.0,
+      "dtime": 7381000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "where is the current draft?",
+      "ptime": 6415000.0,
+      "dtime": 7430000.0,
+      "author": "aaronpk"
+    },
+    {
+      "text": "https://bitbucket.org/openid/fapi/src/master/Financial_API_Pushed_Request_Object.md",
+      "ptime": 6427000.0,
+      "dtime": 7442000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "thanks",
+      "ptime": 6446000.0,
+      "dtime": 7461000.0,
+      "author": "aaronpk"
+    },
+    {
+      "text": "***Brian Campbell just left the room",
+      "ptime": 7300000.0,
+      "dtime": 8315000.0
+    },
+    {
+      "text": "***Petteri Stenius just left the room",
+      "ptime": 7343000.0,
+      "dtime": 8358000.0
+    },
+    {
+      "text": "***Torsten Lodderstedt just left the room",
+      "ptime": 7347000.0,
+      "dtime": 8362000.0
+    },
+    {
+      "text": "***Filip Skokan just left the room",
+      "ptime": 7361000.0,
+      "dtime": 8376000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 7375000.0,
+      "dtime": 8390000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF105-OAUTH-20190726-1000"
+    }
+  ]
+}

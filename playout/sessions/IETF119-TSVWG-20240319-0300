@@ -1,0 +1,140 @@
+
+{
+	"title": "IETF119-TSVWG-20240319-0300",
+	"filename": "IETF119-TSVWG-20240319-0300",
+	"start": 0,
+	"end": 7499000,
+	"start_datetime": "2024-03-19T03:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "aNG6ianvgEw",
+    "start": 0,
+    "end": "7499000"
+  }
+],
+	"messages": [
+  {
+    "author": "Victor Pascual",
+    "text": "<p>I assume more than one solution means 2?</p>",
+    "topic": "ietf-119",
+    "dtime": 4390000,
+    "ptime": 4390000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>More than one solution very likely means B and C</p>",
+    "topic": "ietf-119",
+    "dtime": 5154000,
+    "ptime": 5154000
+  },
+  {
+    "author": "Jörg Deutschmann",
+    "text": "<p>quiche implementation was done by Ana Custura <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 5445000,
+    "ptime": 5445000
+  },
+  {
+    "author": "Jörg Deutschmann",
+    "text": "<p>picoquic implementation is here <br>\n<a href=\"https://github.com/hfstco/picoquic/tree/careful_resume\">https://github.com/hfstco/picoquic/tree/careful_resume</a><br>\ndone by Matthias H.</p>",
+    "topic": "ietf-119",
+    "dtime": 5615000,
+    "ptime": 5615000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>My problem is that these state transitions assume a RENO-like congestion control. This would not necessarily match other CC algorithms, like BBR.</p>",
+    "topic": "ietf-119",
+    "dtime": 5618000,
+    "ptime": 5618000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>But really, the specification should be in the scope of the congestion algorithm, not generic for the transport.</p>",
+    "topic": "ietf-119",
+    "dtime": 5656000,
+    "ptime": 5656000
+  },
+  {
+    "author": "Jörg Deutschmann",
+    "text": "<p>@Christian Could you open a issue on the tsvwg GitHub to discuss this?</p>",
+    "topic": "ietf-119",
+    "dtime": 5680000,
+    "ptime": 5680000
+  },
+  {
+    "author": "Jörg Deutschmann",
+    "text": "<p><a href=\"https://github.com/tsvwg/careful-resume\">https://github.com/tsvwg/careful-resume</a></p>",
+    "topic": "ietf-119",
+    "dtime": 5808000,
+    "ptime": 5808000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>How might this be affected when streamers move to less bursty &amp; more consistent chunk downloads? I think there was an IRTF paper at 118 where Netflix was experimenting with that.</p>",
+    "topic": "ietf-119",
+    "dtime": 6064000,
+    "ptime": 6064000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>I did believe that \"pacing\" was already widely adopted. Hence, no bursts.</p>",
+    "topic": "ietf-119",
+    "dtime": 6331000,
+    "ptime": 6331000
+  },
+  {
+    "author": "Tom Herbert",
+    "text": "<p>DSCP-like is a good something we've seen in several proposals liek this. IMO, this motivates a common solution</p>",
+    "topic": "ietf-119",
+    "dtime": 6343000,
+    "ptime": 6343000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>hm... tolerance to delay is not necessarily sender decision...</p>",
+    "topic": "ietf-119",
+    "dtime": 6871000,
+    "ptime": 6871000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>I'd be interested on understanding if we can pull-out some general principles for this type of interaction...</p>",
+    "topic": "ietf-119",
+    "dtime": 7043000,
+    "ptime": 7043000
+  },
+  {
+    "author": "Tom Herbert",
+    "text": "<p>@Gorry, IMO yes. We can describe the base requirements of host to network signaling. At the highest level  we can described the carrier and content of  signals hopefully independently.</p>",
+    "topic": "ietf-119",
+    "dtime": 7221000,
+    "ptime": 7221000
+  },
+  {
+    "author": "Tom Herbert",
+    "text": "<p>See draft-herbert-host2netsig for attempt to define requirements for host to network signaling</p>",
+    "topic": "ietf-119",
+    "dtime": 7312000,
+    "ptime": 7312000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-TSVWG-20240319-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/tsvwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-TSVWG-20240319-0300"
+		}		
+	]
+}

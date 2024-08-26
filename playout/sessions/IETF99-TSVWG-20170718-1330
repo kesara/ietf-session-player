@@ -1,0 +1,231 @@
+{
+  "title": "IETF99-TSVWG-20170718-1330",
+  "filename": "IETF99-TSVWG-20170718-1330",
+  "start": 0,
+  "end": 6786000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "Ag0URLNwzXE",
+      "start": 0.0,
+      "end": 6786000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Hi I\u0027ll be your jabber scribe today :)",
+      "ptime": 61000.0,
+      "dtime": 914000.0,
+      "author": "ihlar"
+    },
+    {
+      "text": "***xu hao just joined the room",
+      "ptime": 87000.0,
+      "dtime": 940000.0
+    },
+    {
+      "text": "***Randell Jesup just joined the room",
+      "ptime": 97000.0,
+      "dtime": 950000.0
+    },
+    {
+      "text": "***John Border just joined the room",
+      "ptime": 170000.0,
+      "dtime": 1023000.0
+    },
+    {
+      "text": "***xu hao just left the room",
+      "ptime": 278000.0,
+      "dtime": 1131000.0
+    },
+    {
+      "text": "***Daniel Kaiser just joined the room",
+      "ptime": 500000.0,
+      "dtime": 1353000.0
+    },
+    {
+      "text": "***John Leslie just joined the room",
+      "ptime": 649000.0,
+      "dtime": 1502000.0
+    },
+    {
+      "text": "meetecho: fyi, I have some trace logs running in Firefox (56, Nightly).  I\u0027m seeing periodic logs of \"[Socket Thread]: D/webrtc_trace (sdes.cc:103): Unexpected end of packet while reading chunk #1. Expected to find text of size\".  Looks like a truncated or malformed SDES RTCP item.  Running firefox with the decrypted packet tracing log setting will save log data that can be fed into wireshark to see what\u0027s happening.  I presume that would happen in every call, so you can look at this at your leisure; everything is working quite well :-)",
+      "ptime": 665000.0,
+      "dtime": 1518000.0,
+      "author": "Randell Jesup"
+    },
+    {
+      "text": "Randell Jesup: that would be very helpful, thanks for the heads up!",
+      "ptime": 713000.0,
+      "dtime": 1566000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***Wolfgang Beck just joined the room",
+      "ptime": 733000.0,
+      "dtime": 1586000.0
+    },
+    {
+      "text": "***xu hao just joined the room",
+      "ptime": 745000.0,
+      "dtime": 1598000.0
+    },
+    {
+      "text": "meetecho: https://blog.mozilla.org/webrtc/debugging-encrypted-rtp-is-more-fun-than-it-used-to-be/ is how to do it",
+      "ptime": 779000.0,
+      "dtime": 1632000.0,
+      "author": "Randell Jesup"
+    },
+    {
+      "text": "Amazing, thanks for sharing, I was not aware of this! (y)",
+      "ptime": 820000.0,
+      "dtime": 1673000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "decrypts RTCP and the first N bytes of RTP (enough to cover the header and a few bytes of payload)",
+      "ptime": 841000.0,
+      "dtime": 1694000.0,
+      "author": "Randell Jesup"
+    },
+    {
+      "text": "uses the same wireshark-log-via-text-log trick we use for DataChannels/SCTP logging (that\u0027s SCTP:5 logging; transform command is the same except for the identifier)",
+      "ptime": 919000.0,
+      "dtime": 1772000.0,
+      "author": "Randell Jesup"
+    },
+    {
+      "text": "That\u0027s really cool! Allows me to avoid tricks like forwarding the unencrypted traffic somewhere else before feeding browsers with the encrypted traffic instead :)",
+      "ptime": 977000.0,
+      "dtime": 1830000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "omg, where did that data come from",
+      "ptime": 1258000.0,
+      "dtime": 2111000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "sorry for the topic set",
+      "ptime": 1278000.0,
+      "dtime": 2131000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "***Shirley Shi just joined the room",
+      "ptime": 1422000.0,
+      "dtime": 2275000.0
+    },
+    {
+      "text": "***Weiguang Wang just joined the room",
+      "ptime": 1522000.0,
+      "dtime": 2375000.0
+    },
+    {
+      "text": "***Lorenzo Miniero just joined the room",
+      "ptime": 1817000.0,
+      "dtime": 2670000.0
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 1904000.0,
+      "dtime": 2757000.0
+    },
+    {
+      "text": "***Paul Cosgrove just joined the room",
+      "ptime": 2064000.0,
+      "dtime": 2917000.0
+    },
+    {
+      "text": "***Tal Mizrahi just joined the room",
+      "ptime": 2213000.0,
+      "dtime": 3066000.0
+    },
+    {
+      "text": "***Randell Jesup just left the room",
+      "ptime": 3628000.0,
+      "dtime": 4481000.0
+    },
+    {
+      "text": "Working on the missing video feeds...",
+      "ptime": 4515000.0,
+      "dtime": 5368000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***Wolfgang Beck just left the room",
+      "ptime": 4578000.0,
+      "dtime": 5431000.0
+    },
+    {
+      "text": "***Paul Cosgrove just left the room",
+      "ptime": 4583000.0,
+      "dtime": 5436000.0
+    },
+    {
+      "text": "***Paul Cosgrove just joined the room",
+      "ptime": 4584000.0,
+      "dtime": 5437000.0
+    },
+    {
+      "text": "***Scott Brim just joined the room",
+      "ptime": 4813000.0,
+      "dtime": 5666000.0
+    },
+    {
+      "text": "***Paul Cosgrove just joined the room",
+      "ptime": 4840000.0,
+      "dtime": 5693000.0
+    },
+    {
+      "text": "***Tal Mizrahi just left the room",
+      "ptime": 4959000.0,
+      "dtime": 5812000.0
+    },
+    {
+      "text": "***Wolfgang Beck just joined the room",
+      "ptime": 5278000.0,
+      "dtime": 6131000.0
+    },
+    {
+      "text": "***ken Carlberg just joined the room",
+      "ptime": 5708000.0,
+      "dtime": 6561000.0
+    },
+    {
+      "text": "***ken Carlberg just left the room",
+      "ptime": 5880000.0,
+      "dtime": 6733000.0
+    },
+    {
+      "text": "***ken carlberg just joined the room",
+      "ptime": 5883000.0,
+      "dtime": 6736000.0
+    },
+    {
+      "text": "***Marcelo Leitner just left the room",
+      "ptime": 6714000.0,
+      "dtime": 7567000.0
+    },
+    {
+      "text": "***John Leslie just left the room",
+      "ptime": 6728000.0,
+      "dtime": 7581000.0
+    },
+    {
+      "text": "***Scott Brim just left the room",
+      "ptime": 6779000.0,
+      "dtime": 7632000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-TSVWG-20170718-1330"
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "title": "IETF105-HTTPBIS-20190725-1550",
+  "filename": "IETF105-HTTPBIS-20190725-1550",
+  "start": 0,
+  "end": 5511000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "8eGtTSHxTtA",
+      "start": 0.0,
+      "end": 5511000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Roy Fielding just left the room",
+      "ptime": 20000.0,
+      "dtime": 615000.0
+    },
+    {
+      "text": "***Roy Fielding just joined the room",
+      "ptime": 22000.0,
+      "dtime": 617000.0
+    },
+    {
+      "text": "***Gabriel Montenegro just joined the room",
+      "ptime": 35000.0,
+      "dtime": 630000.0
+    },
+    {
+      "text": "***Eric Portis just left the room",
+      "ptime": 122000.0,
+      "dtime": 717000.0
+    },
+    {
+      "text": "***Eric Portis just joined the room",
+      "ptime": 123000.0,
+      "dtime": 718000.0
+    },
+    {
+      "text": "***Luca Niccolini just joined the room",
+      "ptime": 149000.0,
+      "dtime": 744000.0
+    },
+    {
+      "text": "***Thomas Peterson just joined the room",
+      "ptime": 279000.0,
+      "dtime": 874000.0
+    },
+    {
+      "text": "***alficles just joined the room",
+      "ptime": 297000.0,
+      "dtime": 892000.0
+    },
+    {
+      "text": "I will be your friendly neighbourhood jabber scribe. Go ahead and prefix your comments with \"mic: \" if you\u0027d like it voiced at the mic line.",
+      "ptime": 357000.0,
+      "dtime": 952000.0,
+      "author": "alficles"
+    },
+    {
+      "text": "good audio on remote",
+      "ptime": 378000.0,
+      "dtime": 973000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "concur.",
+      "ptime": 399000.0,
+      "dtime": 994000.0,
+      "author": "Colin Bendell"
+    },
+    {
+      "text": "***Thomas Paul just joined the room",
+      "ptime": 701000.0,
+      "dtime": 1296000.0
+    },
+    {
+      "text": "***Erik Anderson just joined the room",
+      "ptime": 746000.0,
+      "dtime": 1341000.0
+    },
+    {
+      "text": "anyone, what is the current status of ESNI at IETF?",
+      "ptime": 856000.0,
+      "dtime": 1451000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "Good question. I don\u0027t know. I can ask at the mic if nobody on Jabber pops in.",
+      "ptime": 896000.0,
+      "dtime": 1491000.0,
+      "author": "alficles"
+    },
+    {
+      "text": "[slack] \u003cTommy Pauly\u003e See https://datatracker.ietf.org/meeting/105/materials/slides-105-tls-sessa-esni-00",
+      "ptime": 942000.0,
+      "dtime": 1537000.0,
+      "author": "bridgebot"
+    },
+    {
+      "text": "[slack] \u003cTommy Pauly\u003e Heading to last call",
+      "ptime": 948000.0,
+      "dtime": 1543000.0,
+      "author": "bridgebot"
+    },
+    {
+      "text": "Thanks, Tommy.",
+      "ptime": 965000.0,
+      "dtime": 1560000.0,
+      "author": "alficles"
+    },
+    {
+      "text": "***Zaheduzzaman Sarker just joined the room",
+      "ptime": 1401000.0,
+      "dtime": 1996000.0
+    },
+    {
+      "text": "I think that combining ESNI for privacy and Alt-Svc for extensibility is the first time that makes service records worth implementing for HTTP.",
+      "ptime": 1473000.0,
+      "dtime": 2068000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "You want that at the mic?",
+      "ptime": 1487000.0,
+      "dtime": 2082000.0,
+      "author": "alficles"
+    },
+    {
+      "text": "(only if it is easy)",
+      "ptime": 1499000.0,
+      "dtime": 2094000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***Eric Portis just left the room",
+      "ptime": 1551000.0,
+      "dtime": 2146000.0
+    },
+    {
+      "text": "***Eric Portis just joined the room",
+      "ptime": 1552000.0,
+      "dtime": 2147000.0
+    },
+    {
+      "text": "If we used both mics would we have H2 priority trees?",
+      "ptime": 1740000.0,
+      "dtime": 2335000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "Who;s at the mic?",
+      "ptime": 1810000.0,
+      "dtime": 2405000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "Roberto Peon",
+      "ptime": 1825000.0,
+      "dtime": 2420000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "Merci",
+      "ptime": 1830000.0,
+      "dtime": 2425000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "[slack] \u003cTommy Pauly\u003e Roberto Peon",
+      "ptime": 1831000.0,
+      "dtime": 2426000.0,
+      "author": "bridgebot"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 1916000.0,
+      "dtime": 2511000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 1916000.0,
+      "dtime": 2511000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 1918000.0,
+      "dtime": 2513000.0
+    },
+    {
+      "text": "***Thomas Paul just left the room",
+      "ptime": 2022000.0,
+      "dtime": 2617000.0
+    },
+    {
+      "text": "***Thomas Paul just joined the room",
+      "ptime": 2023000.0,
+      "dtime": 2618000.0
+    },
+    {
+      "text": "[slack] \u003cTommy Pauly\u003e Roy you\u0027ll be up after this next comment from Mike",
+      "ptime": 2099000.0,
+      "dtime": 2694000.0,
+      "author": "bridgebot"
+    },
+    {
+      "text": "Roy Fielding: ?I couldn\u0027t quite parse that, can you add to etherpad?",
+      "ptime": 2291000.0,
+      "dtime": 2886000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "appreciated",
+      "ptime": 2405000.0,
+      "dtime": 3000000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "chairs chat: It sounds like there is some sort of loop in the room for sound when I speak on meetecho (even though I am using a closed headset here). Is that a room issue? Should I stick to jabber?",
+      "ptime": 3297000.0,
+      "dtime": 3892000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "Roy Fielding: a bit of echo is always possible, as you\u0027re played out loud in the room, and then captured by local mics",
+      "ptime": 3323000.0,
+      "dtime": 3918000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "We do have echo cancellation but it can be challenging at times",
+      "ptime": 3335000.0,
+      "dtime": 3930000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "hand",
+      "ptime": 3340000.0,
+      "dtime": 3935000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***Julian Reschke just left the room",
+      "ptime": 3354000.0,
+      "dtime": 3949000.0
+    },
+    {
+      "text": "***Julian Reschke just joined the room",
+      "ptime": 3378000.0,
+      "dtime": 3973000.0
+    },
+    {
+      "text": "hand",
+      "ptime": 3396000.0,
+      "dtime": 3991000.0,
+      "author": "Colin Bendell"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 3450000.0,
+      "dtime": 4045000.0
+    },
+    {
+      "text": "mic: I still expect http-core to finish at least a week before quic ;)",
+      "ptime": 3466000.0,
+      "dtime": 4061000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "Thank you agian Roy",
+      "ptime": 3467000.0,
+      "dtime": 4062000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "***Gabriel Montenegro just left the room",
+      "ptime": 3605000.0,
+      "dtime": 4200000.0
+    },
+    {
+      "text": "+1 on fulfill it (I guess)",
+      "ptime": 3625000.0,
+      "dtime": 4220000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "+1",
+      "ptime": 3634000.0,
+      "dtime": 4229000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "***Thomas Paul just left the room",
+      "ptime": 3640000.0,
+      "dtime": 4235000.0
+    },
+    {
+      "text": "no memory of that one",
+      "ptime": 3647000.0,
+      "dtime": 4242000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***alficles just joined the room",
+      "ptime": 3669000.0,
+      "dtime": 4264000.0
+    },
+    {
+      "text": "literally anything could cause a 403. 401 is more specific.",
+      "ptime": 3685000.0,
+      "dtime": 4280000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "The sun could be in the wrong quadrant and result in 403.",
+      "ptime": 3727000.0,
+      "dtime": 4322000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 3801000.0,
+      "dtime": 4396000.0
+    },
+    {
+      "text": "+1",
+      "ptime": 3883000.0,
+      "dtime": 4478000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "(too late for mic) Some browsers allow more charaters received. That doesn\u0027t mean all clients can receive, nor what is interoperable to send.",
+      "ptime": 3884000.0,
+      "dtime": 4479000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***Aman Sharma just joined the room",
+      "ptime": 3965000.0,
+      "dtime": 4560000.0
+    },
+    {
+      "text": "+1",
+      "ptime": 3987000.0,
+      "dtime": 4582000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "+1 at this point on bringing in 281",
+      "ptime": 4173000.0,
+      "dtime": 4768000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "+1 at this point on bringing in 2818",
+      "ptime": 4179000.0,
+      "dtime": 4774000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "mic: the https URI scheme semantics are already in 7230",
+      "ptime": 4354000.0,
+      "dtime": 4949000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "***Aman Sharma just left the room",
+      "ptime": 4395000.0,
+      "dtime": 4990000.0
+    },
+    {
+      "text": "mic: I think I understand what to include for establishing authority and can probably make an attempt at obsoleting the rest of 2818; assign to me?",
+      "ptime": 4406000.0,
+      "dtime": 5001000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "+1",
+      "ptime": 4443000.0,
+      "dtime": 5038000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "+1 out of scope",
+      "ptime": 4519000.0,
+      "dtime": 5114000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "+1 too",
+      "ptime": 4532000.0,
+      "dtime": 5127000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***Colin Bendell just left the room",
+      "ptime": 4675000.0,
+      "dtime": 5270000.0
+    },
+    {
+      "text": "***Zaheduzzaman Sarker just left the room",
+      "ptime": 4695000.0,
+      "dtime": 5290000.0
+    },
+    {
+      "text": "+1",
+      "ptime": 4712000.0,
+      "dtime": 5307000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "link?",
+      "ptime": 4890000.0,
+      "dtime": 5485000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "[slack] \u003cTommy Pauly\u003e https://braid.news",
+      "ptime": 4930000.0,
+      "dtime": 5525000.0,
+      "author": "bridgebot"
+    },
+    {
+      "text": "https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2003/aa143117(v\u003dexchg.65)",
+      "ptime": 5172000.0,
+      "dtime": 5767000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "SUBSCRIBE in MS Exchange",
+      "ptime": 5195000.0,
+      "dtime": 5790000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "https://tools.ietf.org/html/draft-toomim-braid-00#section-4",
+      "ptime": 5311000.0,
+      "dtime": 5906000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "Thank you all, we are adjourned.",
+      "ptime": 5484000.0,
+      "dtime": 6079000.0,
+      "author": "alficles"
+    },
+    {
+      "text": ":p:p:p",
+      "ptime": 5486000.0,
+      "dtime": 6081000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***Felix Handte just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Nicholas Banks just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Eric Portis just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Roy Fielding just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Rainer Schoenen just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Julian Reschke just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Luca Niccolini just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Dmitri Tikhonov just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    },
+    {
+      "text": "***Erik Anderson just left the room",
+      "ptime": 5510000.0,
+      "dtime": 6105000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF105-HTTPBIS-20190725-1550"
+    }
+  ]
+}

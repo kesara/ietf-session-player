@@ -1,0 +1,217 @@
+
+{
+	"title": "IETF116-SCIM-20230328-0800",
+	"filename": "IETF116-SCIM-20230328-0800",
+	"start": 0,
+	"end": 3501000,
+	"start_datetime": "2023-03-28T07:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "yEGhUclcb-0",
+    "start": 0,
+    "end": "3501000"
+  }
+],
+	"messages": [
+  {
+    "author": "Danny Zollner",
+    "text": "<p>I can help with 2/3rds..</p>",
+    "topic": "ietf-116",
+    "dtime": 43000,
+    "ptime": 43000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>just not so much on the 20 mins I've got :)</p>",
+    "topic": "ietf-116",
+    "dtime": 50000,
+    "ptime": 50000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-116",
+    "dtime": 79000,
+    "ptime": 79000
+  },
+  {
+    "author": "Nancy Cam-Winget",
+    "text": "<p>Of course, we will basically tag team</p>",
+    "topic": "ietf-116",
+    "dtime": 84000,
+    "ptime": 84000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>Hello!</p>",
+    "topic": "ietf-116",
+    "dtime": 281000,
+    "ptime": 281000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>What happened to the sso trigger?</p>",
+    "topic": "ietf-116",
+    "dtime": 1023000,
+    "ptime": 1023000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>As far as I understood the use cases are less concrete than in rfc7642. So it does not contain any notion of specific use cases like SSO triggers?</p>",
+    "topic": "ietf-116",
+    "dtime": 1238000,
+    "ptime": 1238000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Worried about direction of the updates as we made 7642 very specific</p>",
+    "topic": "ietf-116",
+    "dtime": 1357000,
+    "ptime": 1357000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Why is alg=none supported as there are hacking issues associated with this</p>",
+    "topic": "ietf-116",
+    "dtime": 1614000,
+    "ptime": 1614000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Suggest the registry just be documented in the spec</p>",
+    "topic": "ietf-116",
+    "dtime": 1729000,
+    "ptime": 1729000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Mic not working</p>",
+    "topic": "ietf-116",
+    "dtime": 1873000,
+    "ptime": 1873000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>I don't understand why statefull is not required ?</p>",
+    "topic": "ietf-116",
+    "dtime": 2162000,
+    "ptime": 2162000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>It's going still caus security issues with DoS</p>",
+    "topic": "ietf-116",
+    "dtime": 2248000,
+    "ptime": 2248000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Alternative mechanism should not mean less  security</p>",
+    "topic": "ietf-116",
+    "dtime": 2690000,
+    "ptime": 2690000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> Hi Tony!</p>",
+    "topic": "ietf-116",
+    "dtime": 2713000,
+    "ptime": 2713000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1268\">Phillip Hunt</span> <a href=\"#narrow/stream/182-scim/topic/ietf-116/near/67809\">said</a>:</p>\n<blockquote>\n<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> Hi Tony!</p>\n</blockquote>\n<p><span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 2809000,
+    "ptime": 2809000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Anthony - the intent of not requiring stateful attribute-level snapshots of resources is to reduce the compute resource (so.. memory) footprint required there. Snapshot at the resource level of what resources need to be returned, not at the attribute level.</p>",
+    "topic": "ietf-116",
+    "dtime": 2891000,
+    "ptime": 2891000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>I don't think those of us who've been working on the draft recently have identified any security concerns with it - we should have a new version out of the draft next week, so perhaps once we publish that if you still believe there to be security concerns could you call them out and explain on the mailing list?</p>",
+    "topic": "ietf-116",
+    "dtime": 2961000,
+    "ptime": 2961000
+  },
+  {
+    "author": "Anthony Nadalin",
+    "text": "<p>Danny the result has to be stateful</p>",
+    "topic": "ietf-116",
+    "dtime": 2992000,
+    "ptime": 2992000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>For events, alg=none is really intended for internal cluster (e.g., k8s) or secure network communications in a data center.  The spec still requires transfer over TLS.  We could add more commentary in security considerations (or drop it).</p>",
+    "topic": "ietf-116",
+    "dtime": 3011000,
+    "ptime": 3011000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>I don't think \"intent\" of the scim programmer carries much weight if the database being used only does stateful or locking cursors.</p>",
+    "topic": "ietf-116",
+    "dtime": 3054000,
+    "ptime": 3054000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>sure</p>",
+    "topic": "ietf-116",
+    "dtime": 3247000,
+    "ptime": 3247000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>thanks all</p>",
+    "topic": "ietf-116",
+    "dtime": 3442000,
+    "ptime": 3442000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Thanks everyone</p>",
+    "topic": "ietf-116",
+    "dtime": 3447000,
+    "ptime": 3447000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>zzz</p>",
+    "topic": "ietf-116",
+    "dtime": 3454000,
+    "ptime": 3454000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>Thanks everyone!</p>",
+    "topic": "ietf-116",
+    "dtime": 3457000,
+    "ptime": 3457000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-SCIM-20230328-0800"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/scim"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-SCIM-20230328-0800"
+		}		
+	]
+}

@@ -1,0 +1,977 @@
+
+{
+	"title": "IETF114-MSR6-20220726-1900",
+	"filename": "IETF114-MSR6-20220726-1900",
+	"start": 0,
+	"end": 7288000,
+	"start_datetime": "2022-07-26T18:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "9tIlS7Rukhk",
+    "start": 0,
+    "end": "7288000"
+  }
+],
+	"messages": [
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>looks like meeting was moved from Liberty C to Liberty D?</p>",
+    "dtime": 266000,
+    "ptime": 266000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>it is listes as Libery D in the agenda</p>",
+    "dtime": 337000,
+    "ptime": 337000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>@meetecho - can you move the  video to the speaker in the room</p>",
+    "dtime": 364000,
+    "ptime": 364000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Thanks!</p>",
+    "dtime": 389000,
+    "ptime": 389000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"720\">Jen Linkova</span> <a href=\"#narrow/stream/306-msr6/topic/jabber/near/23904\">said</a>:</p>\n<blockquote>\n<p>it is listes as Libery D in the agenda</p>\n</blockquote>\n<p>yes my original cal said Lib C though so, so maybe a semi-last minute change - for others also nearly caught out</p>",
+    "dtime": 421000,
+    "ptime": 421000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>why is this proposal called msr6 when I haven't heard one word about source-routing or segment-routing?</p>",
+    "dtime": 1151000,
+    "ptime": 1151000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>the slides should not refer to SD-WAN, SD-WAN is an industry term of proprietary overlays</p>",
+    "dtime": 1331000,
+    "ptime": 1331000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>if you have referring to overlays developed by the IETF, then use the names the IETF has chosen</p>",
+    "dtime": 1352000,
+    "ptime": 1352000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>rings have unnecessary latency</p>",
+    "dtime": 1416000,
+    "ptime": 1416000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>the solution MUST build an acyclic distribution tree</p>",
+    "dtime": 1452000,
+    "ptime": 1452000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>Thank you Dino. SD WAN in the slides just refer to overlays</p>",
+    "dtime": 1514000,
+    "ptime": 1514000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>are you building a new overlay architecture or using existing IETF overlays?</p>",
+    "dtime": 1550000,
+    "ptime": 1550000
+  },
+  {
+    "author": "Feng Yang",
+    "text": "<p>SD-WAN is overlay network, in overlay/underlay point of view, it is limited domain.</p>",
+    "dtime": 1767000,
+    "ptime": 1767000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I'm a little confused.  On slide 2, the speaker mentioned IPsec.  That's a concrete technology, right?  Is it therefore not part of the solution domain rather than the problem statement?</p>",
+    "dtime": 1842000,
+    "ptime": 1842000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>@Dino: as we are late, would you mind if your question is answered on the chat?</p>",
+    "dtime": 1858000,
+    "ptime": 1858000
+  },
+  {
+    "author": "Zhenbin Li",
+    "text": "<p>@Dina SDWAN is one usecase of MSR6. MSR6 is ont only for overlay.</p>",
+    "dtime": 1884000,
+    "ptime": 1884000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>no prob Jen, answering inline here is fine with me</p>",
+    "dtime": 1967000,
+    "ptime": 1967000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@shenbin, its not a use-case, its a mechanim/solution</p>",
+    "dtime": 2026000,
+    "ptime": 2026000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>so you seem to imply you are going to have both native and overlay solutions?</p>",
+    "dtime": 2040000,
+    "ptime": 2040000
+  },
+  {
+    "author": "Zhenbin Li",
+    "text": "<p>Yes. It is.</p>",
+    "dtime": 2072000,
+    "ptime": 2072000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>please request speakers to speak louder - its quiet even in the room</p>",
+    "dtime": 2123000,
+    "ptime": 2123000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>or at least speak properly into the mic, thanks</p>",
+    "dtime": 2139000,
+    "ptime": 2139000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>the volume is low,please keep closer to the mike</p>",
+    "dtime": 2160000,
+    "ptime": 2160000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>Hi, I am Aijun Wang from China Telecom. Here I want to give another example for multicast services existing within the network: currently, the live stream exist not only within the 5G transport network, It will also span multidomain, which are under the control of one service provider, also in limited-domain. In such scenario, the mulitcast source will locate in one Metro network, and the receivers will located in another Metro networks. The multicast traffic needs to span multiple domains, and there are aslo numberous live stream servies, and thousands/ten thousnds of receivers.</p>\n<p>Currently such live streams services are provided by CDN, we think the service provider should and can provide such multicast services to the customers</p>",
+    "dtime": 2280000,
+    "ptime": 2280000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>I am overwhelmed by this slide!</p>",
+    "dtime": 2298000,
+    "ptime": 2298000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>it proves, we have develop something very wrong</p>",
+    "dtime": 2311000,
+    "ptime": 2311000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@Dino: I think this the \"Before\" slide :)</p>",
+    "dtime": 2382000,
+    "ptime": 2382000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>how one of the goals of this BOF is to develop the simpliest solution so there can be reliable deployment. That means, what Shep said, what are the requirements that today's solution cannot do</p>",
+    "dtime": 2397000,
+    "ptime": 2397000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@suresh, thank goodness</p>",
+    "dtime": 2409000,
+    "ptime": 2409000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Simplifying this architectural complexity by treating some protocols as overlay was a point in DT’s Terrastream architecture</p>",
+    "dtime": 2421000,
+    "ptime": 2421000
+  },
+  {
+    "author": "Zhenbin Li",
+    "text": "<p>It proves we have to segment the network domain because of scale, at the same time we must make a easy way to crross multi-domains. @Dina</p>",
+    "dtime": 2446000,
+    "ptime": 2446000
+  },
+  {
+    "author": "Zhenbin Li",
+    "text": "<p>@Dino</p>",
+    "dtime": 2453000,
+    "ptime": 2453000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@zhenbin, what if you have 100K receivers across 6 continents, segmentation doesn't help you</p>",
+    "dtime": 2502000,
+    "ptime": 2502000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>where the Internet is now in its revolution and if you want multicast packets to travel across continents or across service providers, you have to use overlays</p>",
+    "dtime": 2578000,
+    "ptime": 2578000
+  },
+  {
+    "author": "Zhenbin Li",
+    "text": "<p>This is the usecase beyond MSR6 in my opinon. How to create a Internet-based multicast.</p>",
+    "dtime": 2592000,
+    "ptime": 2592000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>s/revolution/evolution</p>",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@zhenbin, can you succinctly describe the MSR6 use-case, just pick one (not all you think would want) that is simple to explain</p>",
+    "dtime": 2679000,
+    "ptime": 2679000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>MSR6 focus on the solutions on limited domain</p>",
+    "dtime": 2711000,
+    "ptime": 2711000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>@Dino, please see my additional example</p>",
+    "dtime": 2730000,
+    "ptime": 2730000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@Dino, the use cases for MSR6 are classified into 3 types: underlay multicast in large scale network, overlay multicast and host initiated multicast</p>",
+    "dtime": 2843000,
+    "ptime": 2843000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>Most data centers are moving to SRv6???</p>",
+    "dtime": 2926000,
+    "ptime": 2926000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>if you think SD-WAN can solve this problem, and other overlays, you should have added LISP to the list</p>",
+    "dtime": 2943000,
+    "ptime": 2943000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@aijun, your answer lacks any useful detail</p>",
+    "dtime": 2976000,
+    "ptime": 2976000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@xuesong, I understand, but why? We have those 3 types of solutions (not use-cases) today</p>",
+    "dtime": 3040000,
+    "ptime": 3040000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>I guess \"zero delay\" means \"no switchover time\" (e.g., from primary to backup</p>",
+    "dtime": 3060000,
+    "ptime": 3060000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Jeff: re SRv6, do you mean that you're surprised to learn that or that you know that is not the case?  Genuinely trying to learn.</p>",
+    "dtime": 3073000,
+    "ptime": 3073000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@juliusz, there is no way to solve that unless you replicated to both and have one drop</p>",
+    "dtime": 3094000,
+    "ptime": 3094000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>and you need signaling to tell the multiple places on who drops and who forwards</p>",
+    "dtime": 3114000,
+    "ptime": 3114000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>My question was about SR.  Is it not actually being used?</p>",
+    "dtime": 3128000,
+    "ptime": 3128000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>see draft-ietf-lisp-predictive-rlocs for details on zero-loss switchover for mobility</p>",
+    "dtime": 3135000,
+    "ptime": 3135000
+  },
+  {
+    "author": "Jingrong Xie",
+    "text": "<p>For 100k receivers across 6 continents, it may need a hierarchy stateless multicast in overlay -- first replicate to 100 rigions across 6 continents, then 100<em>10 to relays(SFUs), and lasty 100</em>10*100 hosts.   will that make sense @dino</p>",
+    "dtime": 3145000,
+    "ptime": 3145000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>right @jingrong, so only use one solution, you build for the scale, and for the smaller cases, you use that SAME solution to scale down</p>",
+    "dtime": 3188000,
+    "ptime": 3188000
+  },
+  {
+    "author": "Jingrong Xie",
+    "text": "<p>yes, I think it is <em>one</em> solution for different use cases</p>",
+    "dtime": 3221000,
+    "ptime": 3221000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Who is Greg with the tie-died t-shirt?</p>",
+    "dtime": 3221000,
+    "ptime": 3221000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>that is Shep, a multi-decade multicast deployment engineer</p>",
+    "dtime": 3245000,
+    "ptime": 3245000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>aka Greg Shepherd</p>",
+    "dtime": 3267000,
+    "ptime": 3267000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>we need people to state the name and company before speaking, hard to write the minutes.</p>",
+    "dtime": 3268000,
+    "ptime": 3268000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Thanks, Adrian.</p>",
+    "dtime": 3287000,
+    "ptime": 3287000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>BIER requires hardware changes in underlay routers</p>",
+    "dtime": 3319000,
+    "ptime": 3319000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>BIER belongs in the core to get the best benefit, and its a great benefit to avoid the RPF switchover problem which many implementors struggle with</p>",
+    "dtime": 3377000,
+    "ptime": 3377000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>he left out DVMRP in the list of [MOSPF, DMVPN, ...]</p>",
+    "dtime": 3475000,
+    "ptime": 3475000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>@Dino, here is some detail information: The service provider has about hundreds of Metro Networks that connected by the backbone. There may be hundreds devices in each Metro domains. The receives may locates in any of these Metro network.</p>\n<p>The multicast service/live stream should start from one access point of the Metro Network, via the backbone  and to the receivers in any of the Metro Networks.</p>\n<p>The multicast packets should reach ten thousands of the access devices that located in the hundreds of the Metro Network.</p>\n<p>There are ten thousannds of the live strems at the same time</p>",
+    "dtime": 3496000,
+    "ptime": 3496000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@Dina, there are existing solutions but with limitations respectively in different aspects, for example: maintaining multicast status in intermediate nodes which doesn't scale to the number of multicast services or not scale to the network size which requests bit position for each egress nodes</p>",
+    "dtime": 3497000,
+    "ptime": 3497000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>DVMRP more relevant because not vendor specific (DMVPN is cisco)</p>",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@aijun, the topology doesn't matter, its the number of sources and receivers for a group that is the challenge to meet</p>",
+    "dtime": 3566000,
+    "ptime": 3566000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>but thank you for specifying receiver size</p>",
+    "dtime": 3606000,
+    "ptime": 3606000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@xuesong, that is why you have to have overlays with engineered distribution branches</p>",
+    "dtime": 3663000,
+    "ptime": 3663000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>That is motivation of source routing; also it will benefit host-initiated, because the multicast tree could be encoded in the source host</p>",
+    "dtime": 3665000,
+    "ptime": 3665000
+  },
+  {
+    "author": "Donald Eastlake",
+    "text": "<p>The V1.0 slides are being presented. There are V1.1 slides!</p>",
+    "dtime": 3671000,
+    "ptime": 3671000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>meaning, you don't have to use ALL the solutions Toerless just outlined but the right ones</p>",
+    "dtime": 3695000,
+    "ptime": 3695000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>simple, less is better</p>",
+    "dtime": 3700000,
+    "ptime": 3700000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>@Dino the topology size affects the overhead of  stateless multicast solution</p>",
+    "dtime": 3790000,
+    "ptime": 3790000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>this diagram certainly looks like hop-by-hop, how long do you want to take to deploy this, 10 years?</p>",
+    "dtime": 3792000,
+    "ptime": 3792000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>@Dino, Topology has also influence to the solution. We all know that there are no simple solution for the inter-domain multicast services now</p>",
+    "dtime": 3878000,
+    "ptime": 3878000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@Dino, yes..the simple and unified solution for this why we try to introduce msr6 to cover these requirements</p>",
+    "dtime": 3888000,
+    "ptime": 3888000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@aijun, do you want the receivers and sources to move while they are receiving/sending to the group?</p>",
+    "dtime": 3940000,
+    "ptime": 3940000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@xuesong, you have to prove that, not just state it</p>",
+    "dtime": 3969000,
+    "ptime": 3969000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>firstly, we will focus on the non-moving scenarios, but in limited inter-domain solution. I think the move of receivers can be easily solved, what they need do is just the join/leave the access points.  The move of the source has to study more carefully, for example, the path should be recalculated</p>",
+    "dtime": 4158000,
+    "ptime": 4158000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>then the topology doesn't matter</p>",
+    "dtime": 4191000,
+    "ptime": 4191000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>@Dino per-flow state solution may be not affected by topology, but the source and the group number affects the overhead of per-flow state solutions. so we want a simple solution to solve all of these problems and also in native IPv6 network.</p>",
+    "dtime": 4192000,
+    "ptime": 4192000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@yisong, yes, agree, and that is what the solution should focus on</p>",
+    "dtime": 4279000,
+    "ptime": 4279000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>For topology, what we want to emphasize is that the size of the network and intra- or inter-domain</p>",
+    "dtime": 4327000,
+    "ptime": 4327000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@Dino,  I think the solution is quite straight forward to show how these requirements are satisfied. Just like segment routing for unicast, similar functionalities could be provided in MSR6</p>",
+    "dtime": 4391000,
+    "ptime": 4391000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>it is not clear how much header space you will use with SR6</p>",
+    "dtime": 4466000,
+    "ptime": 4466000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>there is a lot of overhead</p>",
+    "dtime": 4471000,
+    "ptime": 4471000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>and if you don't think that is true, ask the authors of SRv6, who are now working on header compression, that is an admission of large headers</p>",
+    "dtime": 4497000,
+    "ptime": 4497000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>it depends on the scenario</p>",
+    "dtime": 4512000,
+    "ptime": 4512000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Can we please not call others disingenuous</p>",
+    "dtime": 4526000,
+    "ptime": 4526000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@xuesong, wrong answer, because if it is large headers at all, then its a non-starter for one of your scenarios</p>",
+    "dtime": 4546000,
+    "ptime": 4546000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>hardly more overhead than most encapsulation mechanisms used to solve part of the problem space punctually</p>",
+    "dtime": 4547000,
+    "ptime": 4547000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>if you have a very large network with a multiple sparse multicast trees</p>",
+    "dtime": 4570000,
+    "ptime": 4570000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>it show the benefits</p>",
+    "dtime": 4583000,
+    "ptime": 4583000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@adrian, I don't know if that was directed to me, but I did no such thing, you may have interpreted it that way, but was not the sender's intent</p>",
+    "dtime": 4588000,
+    "ptime": 4588000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Dino, I noticed the comment too, and it wasn't you.</p>",
+    "dtime": 4618000,
+    "ptime": 4618000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@Dino. It was GregS at the mic. And unacceptable</p>",
+    "dtime": 4654000,
+    "ptime": 4654000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>It was an unrelated comment at the mike.</p>",
+    "dtime": 4667000,
+    "ptime": 4667000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"179\">@Adrian Farrel</span> agreed</p>",
+    "dtime": 4672000,
+    "ptime": 4672000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@andrian, ack</p>",
+    "dtime": 4740000,
+    "ptime": 4740000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>if toerless thinks this is just IPv6, then there is no new solution that needs to be proposed, right?</p>",
+    "dtime": 5000000,
+    "ptime": 5000000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>if the authors, can say what they want to ADD, then it would be more clear what's new</p>",
+    "dtime": 5035000,
+    "ptime": 5035000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i still have no understanding of what the gaps and problems are - no one has attempted to address this</p>",
+    "dtime": 5144000,
+    "ptime": 5144000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@anthony, agree as well</p>",
+    "dtime": 5211000,
+    "ptime": 5211000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Who's the person at the mike?</p>",
+    "dtime": 5250000,
+    "ptime": 5250000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Tom Hill</p>",
+    "dtime": 5269000,
+    "ptime": 5269000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>ty</p>",
+    "dtime": 5273000,
+    "ptime": 5273000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>I think DT</p>",
+    "dtime": 5278000,
+    "ptime": 5278000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>BT</p>",
+    "dtime": 5292000,
+    "ptime": 5292000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@anthony, stand correct, thanks</p>",
+    "dtime": 5340000,
+    "ptime": 5340000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>@anthony, @dino. the gap is that the current solutions can't meet the three core use cases at the same time</p>",
+    "dtime": 5391000,
+    "ptime": 5391000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>There are 3 main gaps, which I think is clearly pointed out in the 1st presentation: 1. scalability for both network scale and number of services; 2. Host-initiated multicast with no state in the intermediate nodes; 3. P2MP security in some overly cases</p>",
+    "dtime": 5394000,
+    "ptime": 5394000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@aijun, you have to deep dive what you mean, stating it in a binary fashion (either it works or doesn't work) isn't useful to explain your position</p>",
+    "dtime": 5466000,
+    "ptime": 5466000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>I think the SRv6 is unreleated topic? it looks to me it is about IPv6 based, not SRv6 based. No sure</p>",
+    "dtime": 5470000,
+    "ptime": 5470000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Okay, that's the second time this point is being made by apparently knowledgeable people.  Could somebody please, please point me at an article that describes the problems with SR?</p>",
+    "dtime": 5472000,
+    "ptime": 5472000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>If you use existing overlays in the hosts (i.e. LISP) you will solve all 3 problems with one solution, which means you head-end-replicate to L3 replication points in the network and native multicast at the edges (on the RAN)</p>",
+    "dtime": 5539000,
+    "ptime": 5539000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>I think we pay too much attention on IPv6/SRv6, which is just treated as a container which supports extension capability for flexible encoding with new type of Routing Header</p>",
+    "dtime": 5542000,
+    "ptime": 5542000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>have you guys read the LISP multicast documents?</p>",
+    "dtime": 5568000,
+    "ptime": 5568000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>we have spent a lot of time on it post native multicast years</p>",
+    "dtime": 5580000,
+    "ptime": 5580000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>so we have learned of the problems and attempted to fix them</p>",
+    "dtime": 5591000,
+    "ptime": 5591000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>we deprecated IPv4 source-routing because we could only get 14 hops, that bug turned out to be a feature, or we would have wasted more header space LOL</p>",
+    "dtime": 5642000,
+    "ptime": 5642000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@meetecho: small issue with the queue</p>",
+    "dtime": 5707000,
+    "ptime": 5707000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>The room network was a bit unstable</p>",
+    "dtime": 5717000,
+    "ptime": 5717000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>What's wrong?</p>",
+    "dtime": 5721000,
+    "ptime": 5721000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>and the queue got reordered</p>",
+    "dtime": 5722000,
+    "ptime": 5722000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>The in room person at the top of the queue got bumped to the bottom</p>",
+    "dtime": 5735000,
+    "ptime": 5735000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>behind all the remote participants who were in line after him</p>",
+    "dtime": 5750000,
+    "ptime": 5750000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>The queue probably needs a hold down timer to prevent flapping.</p>",
+    "dtime": 5823000,
+    "ptime": 5823000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>many people in the online queue, it may be good to hear people from online as well.</p>",
+    "dtime": 5823000,
+    "ptime": 5823000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We'll check what's wrong, thanks for the heads up!</p>",
+    "dtime": 5838000,
+    "ptime": 5838000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@Cheng Li we have a unified queue</p>",
+    "dtime": 5848000,
+    "ptime": 5848000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>thank you @suresh</p>",
+    "dtime": 5861000,
+    "ptime": 5861000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@Dino, please join the queue</p>",
+    "dtime": 5947000,
+    "ptime": 5947000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>we reopened it</p>",
+    "dtime": 5951000,
+    "ptime": 5951000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>why does multicast scale? because receiver state is not tracked, if you require the source to know about receivers, its a non-starter, look at ST2 from the mid-80s where source initiated trees failed</p>",
+    "dtime": 5995000,
+    "ptime": 5995000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i do think the tiktok/instagram use is flawed - those networks are pretty much purely on demand, its not live TV - multicast wouldn't work here at all</p>",
+    "dtime": 6116000,
+    "ptime": 6116000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: tiktok has live events, or wants to, from what I understand.</p>",
+    "dtime": 6189000,
+    "ptime": 6189000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>live events needs multicast actually</p>",
+    "dtime": 6204000,
+    "ptime": 6204000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@Anthony They are 2 different cases, live channel and on-demand short video</p>",
+    "dtime": 6204000,
+    "ptime": 6204000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>live yes - but the huge bulk of those services are on demand and viewed at different times by different people</p>",
+    "dtime": 6240000,
+    "ptime": 6240000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>Multicast is just for the live channel</p>",
+    "dtime": 6240000,
+    "ptime": 6240000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>@anthony I have teen kids :) Tiktok  etc  do have a live broadcast modes.</p>",
+    "dtime": 6245000,
+    "ptime": 6245000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i'd be curious to understand how huge providers like Youtube solve this problem today in the  live mode</p>",
+    "dtime": 6292000,
+    "ptime": 6292000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>It may be crazy for some people that some live event may has over 1 Billion watchers....</p>",
+    "dtime": 6302000,
+    "ptime": 6302000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@Anthony: The OTT providers will most likely use only unicast</p>",
+    "dtime": 6329000,
+    "ptime": 6329000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Anthony: HLS + massive CDNs, and pretend that 5s latency is live streaming?</p>",
+    "dtime": 6370000,
+    "ptime": 6370000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>thats my point...</p>\n<p>I'm just trying to get to a point where we actually have something to match the first point of the bof goals:</p>\n<p>\" there is a problem that needs solving\"</p>\n<p>from what i can see there are problems that can already be solved by existing technologies - i am not seeing anything that demonstrates where something is missing in existing technologies/standards</p>",
+    "dtime": 6469000,
+    "ptime": 6469000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>@anthony short live video live like tiktok, only provide low bitrate  video if using unicast in network and the number of users is limited. but if using multicast the video quality can be improved and the users number can be unlimited.</p>",
+    "dtime": 6477000,
+    "ptime": 6477000
+  },
+  {
+    "author": "Jingrong Xie",
+    "text": "<p>I have read LISP and LISP-bis, but have not read LISP multicast yet but will like to read.</p>",
+    "dtime": 6510000,
+    "ptime": 6510000
+  },
+  {
+    "author": "Dino Farinacci",
+    "text": "<p>@jingrong, please send you reactions/comments to <a href=\"mailto:lisp@ietf.org\">lisp@ietf.org</a> and we will respond quickly</p>",
+    "dtime": 6610000,
+    "ptime": 6610000
+  },
+  {
+    "author": "Jingrong Xie",
+    "text": "<p>sure thanks Dino</p>",
+    "dtime": 6641000,
+    "ptime": 6641000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>Disclaimer - I didn’t read the solution drafts </p>\n<p>is the idea of “multicast source routing for ipv6” to encode the entire multicast tree in an Ipv6 header so a multicast source sends a single packet for all receivers without adding any tree state to the network?</p>\n<p>Please forgive the ignorance.</p>",
+    "dtime": 6666000,
+    "ptime": 6666000
+  },
+  {
+    "author": "Jingrong Xie",
+    "text": "<p>optionally the path of the entire multicast tree. not \"all receivers\" but may part of receivers.</p>",
+    "dtime": 6749000,
+    "ptime": 6749000
+  },
+  {
+    "author": "Jingrong Xie",
+    "text": "<p>you can send 10 packets with each 1/10 of the receivers. @Darren</p>",
+    "dtime": 6792000,
+    "ptime": 6792000
+  },
+  {
+    "author": "Gyan Mishra",
+    "text": "<p>@Janos yes zero delay means no switchover time</p>",
+    "dtime": 7004000,
+    "ptime": 7004000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>@jingrong So a combination of source replication and strict source routing for the stateless network.</p>",
+    "dtime": 7053000,
+    "ptime": 7053000
+  },
+  {
+    "author": "Gyan Mishra",
+    "text": "<p>In the slide de</p>",
+    "dtime": 7079000,
+    "ptime": 7079000
+  },
+  {
+    "author": "Wim Henderickx",
+    "text": "<p>There seems to be some history here + i have not read all the solution draft. Mea culpa. I have a fundamental q. Lets forget the encapsulation. If you look at the bier forwarding mechanism is there something new proposed here? In other words is this the bier fundamental framework encapsulated in a different way ?</p>",
+    "dtime": 7152000,
+    "ptime": 7152000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>there needs to actually be a problem statement defined - not just use cases</p>",
+    "dtime": 7167000,
+    "ptime": 7167000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-MSR6-20220726-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/msr6"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-MSR6-20220726-1900"
+		}		
+	]
+}

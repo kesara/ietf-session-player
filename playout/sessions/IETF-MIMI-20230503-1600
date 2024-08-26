@@ -1,0 +1,1561 @@
+
+{
+	"title": "IETF-MIMI-20230503-1600",
+	"filename": "IETF-MIMI-20230503-1600",
+	"start": 0,
+	"end": 7264000,
+	"start_datetime": "2023-05-03T16:00:12Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "7q1lNW5zVgg",
+    "start": 0,
+    "end": "7264000"
+  }
+],
+	"messages": [
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>I can take notes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 89000,
+    "ptime": 89000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-interim",
+    "dtime": 97000,
+    "ptime": 97000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>/me waves</p>",
+    "topic": "ietf-interim",
+    "dtime": 250000,
+    "ptime": 250000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>is this the right chat for the interim, or is there a parallel XMPP MUC or something?</p>",
+    "topic": "ietf-interim",
+    "dtime": 310000,
+    "ptime": 310000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>this is the right chat</p>",
+    "topic": "ietf-interim",
+    "dtime": 319000,
+    "ptime": 319000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I know that iMessage/SMS and Signal do (1)</p>",
+    "topic": "ietf-interim",
+    "dtime": 576000,
+    "ptime": 576000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Awesome shirt, Matthew</p>",
+    "topic": "ietf-interim",
+    "dtime": 691000,
+    "ptime": 691000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Yep, what Matthew said.</p>",
+    "topic": "ietf-interim",
+    "dtime": 723000,
+    "ptime": 723000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>If you reverse this into \"receive\" rather than send, I think what Matthew and Pete are saying makes clearer sense.</p>",
+    "topic": "ietf-interim",
+    "dtime": 748000,
+    "ptime": 748000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>*this slide's text</p>",
+    "topic": "ietf-interim",
+    "dtime": 759000,
+    "ptime": 759000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>1) Alice can receive messages from Bob immediately, 2) etc.</p>",
+    "topic": "ietf-interim",
+    "dtime": 808000,
+    "ptime": 808000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"666\">@Mallory Knodel</span> : \"Can\" does a bunch of work in that sentence.</p>",
+    "topic": "ietf-interim",
+    "dtime": 845000,
+    "ptime": 845000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Fiar</p>",
+    "topic": "ietf-interim",
+    "dtime": 866000,
+    "ptime": 866000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Fair</p>",
+    "topic": "ietf-interim",
+    "dtime": 867000,
+    "ptime": 867000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>Matrix for instance does (2) at the protocol layer, but some clients just go and autoaccept (particularly if they have some out-of-band evidence that the user is trusted), at which point it falls back to (1)</p>",
+    "topic": "ietf-interim",
+    "dtime": 888000,
+    "ptime": 888000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Q: When this slide asks which modes we \"support\", are we just asking about the UI requirement, or the protocol requirement?</p>",
+    "topic": "ietf-interim",
+    "dtime": 947000,
+    "ptime": 947000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i get that it's a requirements question in some ways, but i don't think the protocol should be adjudicating on the UI used for antiabuse (e.g. hiding inbound messages from untrusted users).</p>",
+    "topic": "ietf-interim",
+    "dtime": 982000,
+    "ptime": 982000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>the point is to identify the protocol requirements, and the space of possibilities of what can or cannot be handled in UI</p>",
+    "topic": "ietf-interim",
+    "dtime": 1009000,
+    "ptime": 1009000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>I was going to say exactly what @Tim pointed out. Both Signal and iMessage (even though they are right now walled) differentiate unknown senders (iMessage) and senders one has not yet trusted (Signal)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1058000,
+    "ptime": 1058000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>+1 Joël</p>",
+    "topic": "ietf-interim",
+    "dtime": 1060000,
+    "ptime": 1060000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>there's an adjacent security concern (which has been a major pain for Matrix) which is: how much user data do you expose on an 'invite' - even if you quarantine the message. Do you show that user's avatar? name? conversation topic? whether it's a 1:1 or a group chat? etc</p>",
+    "topic": "ietf-interim",
+    "dtime": 1155000,
+    "ptime": 1155000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>given scope for invite-spam abuse (e.g. long user names in invite spam being used to spam URLs, or people putting spam/abuse content into their avatars)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1245000,
+    "ptime": 1245000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>It's useful to see the message to determine if its spam.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1304000,
+    "ptime": 1304000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>What EKR just described seems right.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1384000,
+    "ptime": 1384000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>yup. and Matrix currently prohibits that (until you accept the invite), which causes significant pain from people who want to be able to 'peek' to gauge whether to accept or not. (which is a Matrix-specific thinko, but one to learn from here :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1390000,
+    "ptime": 1390000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Also agree with ekr, let's move forward!</p>",
+    "topic": "ietf-interim",
+    "dtime": 1406000,
+    "ptime": 1406000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I <em>don't</em> think, btw, that we should require consent to joining groups</p>",
+    "topic": "ietf-interim",
+    "dtime": 1425000,
+    "ptime": 1425000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And that would need to be a new mechanism</p>",
+    "topic": "ietf-interim",
+    "dtime": 1430000,
+    "ptime": 1430000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yeah, the phone number has to be in the <em>target's</em> address book</p>",
+    "topic": "ietf-interim",
+    "dtime": 1473000,
+    "ptime": 1473000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"793\">@Rohan Mahy</span> : Distinction without a difference between WhatsApp and Apple.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1507000,
+    "ptime": 1507000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Disagree, the DMA doesn't say anything about this level of user behaviour.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1508000,
+    "ptime": 1508000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>I think his point is that the GKs might change which behaviors they support based on having to comply with the DMA.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1546000,
+    "ptime": 1546000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(travis sends his regrets, btw, but is running tech support for some enormous canadian tech conference)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1671000,
+    "ptime": 1671000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>(@AC-- Right-- and I think what I was reacting to is that compliance with the DMA sh/wouldn't precipitate those sorts of fine grained changes, but it's a side point.)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1785000,
+    "ptime": 1785000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Ad-hoc groups can be done as named groups so long as the \"add\" and \"leave\" functions can return \"sorry, nope\".</p>",
+    "topic": "ietf-interim",
+    "dtime": 1828000,
+    "ptime": 1828000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I am in queue to basically say \"I agree with what Pete just said\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1848000,
+    "ptime": 1848000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Not only is the behavior inconsistent across deployed services, in some cases it is straight up broken.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1871000,
+    "ptime": 1871000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yeah, there were some funny bugs</p>",
+    "topic": "ietf-interim",
+    "dtime": 1931000,
+    "ptime": 1931000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the challenge with doing only groups is how you do the uniqueness properties for 1:1 / group DMs</p>",
+    "topic": "ietf-interim",
+    "dtime": 1968000,
+    "ptime": 1968000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>... in a distributed setting</p>",
+    "topic": "ietf-interim",
+    "dtime": 1973000,
+    "ptime": 1973000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>It's hard to separate the UI experience of \"thread\" with \"group\".</p>",
+    "topic": "ietf-interim",
+    "dtime": 1979000,
+    "ptime": 1979000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>s/with/from</p>",
+    "topic": "ietf-interim",
+    "dtime": 1988000,
+    "ptime": 1988000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Pete threads are a whole different thing.  they are internal to a group</p>",
+    "topic": "ietf-interim",
+    "dtime": 2001000,
+    "ptime": 2001000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>not sure why you cannot hear me</p>",
+    "topic": "ietf-interim",
+    "dtime": 2010000,
+    "ptime": 2010000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>MeetEcho is awesome</p>",
+    "topic": "ietf-interim",
+    "dtime": 2017000,
+    "ptime": 2017000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Sorry about that Jonathan, please feel free to re-join the queue</p>",
+    "topic": "ietf-interim",
+    "dtime": 2037000,
+    "ptime": 2037000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> Agreed, but in e.g. SMS UIs, they are relatively indistinguishable.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2066000,
+    "ptime": 2066000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Happy to have new terms. I didn</p>",
+    "topic": "ietf-interim",
+    "dtime": 2111000,
+    "ptime": 2111000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>t update these since Travis</p>",
+    "topic": "ietf-interim",
+    "dtime": 2115000,
+    "ptime": 2115000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>s doc</p>",
+    "topic": "ietf-interim",
+    "dtime": 2119000,
+    "ptime": 2119000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>I wonder if one of the iMessage conversations involved phone numbers and the other involves emails. Apple ID historically gets ... confused about those.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2214000,
+    "ptime": 2214000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i have a feeling iMessage might have changed protocol big-time underneath in the last few years then</p>",
+    "topic": "ietf-interim",
+    "dtime": 2264000,
+    "ptime": 2264000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Q: Does someone think that if we do only named groups that you can't implement a particular model that exists now?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2280000,
+    "ptime": 2280000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>If you want a Slack-like group DM in a distributed setting, you would need to enforce uniqueness of a group DM for a given set of participants, which could be challenging</p>",
+    "topic": "ietf-interim",
+    "dtime": 2335000,
+    "ptime": 2335000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>not acceptable imho</p>",
+    "topic": "ietf-interim",
+    "dtime": 2339000,
+    "ptime": 2339000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(And no, I don't know why I started questions with \"Q:\". I will now stop.)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2342000,
+    "ptime": 2342000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>just doing named groups (and then 1:1 and adhoc are subsets) sgtm, although you might need to special case 1:1 a bit so you can easily get uniqueness semantics</p>",
+    "topic": "ietf-interim",
+    "dtime": 2344000,
+    "ptime": 2344000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>oh, what richard said.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2348000,
+    "ptime": 2348000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(except for 1:1)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2356000,
+    "ptime": 2356000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>I think the UX should be able to help the users pick the old group if they want the old group but not prevent creation of a new group that is different. I can see the opposite behaviour having real consequences. This scenario just feels inconvenient and messy (acceptable imo)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2377000,
+    "ptime": 2377000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i actually think the uniqueness problem is more tractable for 1:1, which seems to argue for handling 1:1 as named groups</p>",
+    "topic": "ietf-interim",
+    "dtime": 2392000,
+    "ptime": 2392000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Agreed that we need to agree on 1:1 vs groups</p>",
+    "topic": "ietf-interim",
+    "dtime": 2398000,
+    "ptime": 2398000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I think the question is not so much whether you can implement a specific model, but whether different implementers will implement that model in a way that presents in a comprehensible way to users.  So I think there will need to be some specification of how the various models map onto the group concept.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2400000,
+    "ptime": 2400000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>@joel we would not solve this at the MLS layer.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2455000,
+    "ptime": 2455000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> If we need to write an Informational document about UI expectations, so be it. We shouldn't try to force UIs with protocol cudgels.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2496000,
+    "ptime": 2496000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Doesn't 1:1 boil down to just an access control problem?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2535000,
+    "ptime": 2535000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>It's not so much UIs, as if I create what I intend to be a 1-1 conversation, I don't want you (on a different system) to see it as an invite to the named group UUID-ADHOC-GROUP-Pete-and-Jonathan</p>",
+    "topic": "ietf-interim",
+    "dtime": 2560000,
+    "ptime": 2560000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>arrggghhhh</p>",
+    "topic": "ietf-interim",
+    "dtime": 2561000,
+    "ptime": 2561000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Maybe JDR needs to get permission to tallk</p>",
+    "topic": "ietf-interim",
+    "dtime": 2562000,
+    "ptime": 2562000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>I don't see any admin buttons for me to press to grant permission, I'm not sure what's wrong</p>",
+    "topic": "ietf-interim",
+    "dtime": 2583000,
+    "ptime": 2583000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>it was a joke</p>",
+    "topic": "ietf-interim",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Like he is in mode (3</p>",
+    "topic": "ietf-interim",
+    "dtime": 2600000,
+    "ptime": 2600000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>it seems like a device seleection problem for me</p>",
+    "topic": "ietf-interim",
+    "dtime": 2602000,
+    "ptime": 2602000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>i thought it switcehd it but it reverted - i think? it sticked this time</p>",
+    "topic": "ietf-interim",
+    "dtime": 2613000,
+    "ptime": 2613000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>i would like to try one more time.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2619000,
+    "ptime": 2619000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> Why not (as a matter of protocol)?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2629000,
+    "ptime": 2629000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I don't care if the protocol thinks that, but the user shouldn't see it.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2650000,
+    "ptime": 2650000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Sure jdr, let's give it a try after Rohan</p>",
+    "topic": "ietf-interim",
+    "dtime": 2651000,
+    "ptime": 2651000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>They're different user experience semantics.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2665000,
+    "ptime": 2665000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> But that <em>does</em> make it a UI issue.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2673000,
+    "ptime": 2673000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Well, UX, not UI - it's the semantics of the experience, not the presentation of it that the systems need to agree on.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2774000,
+    "ptime": 2774000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(we haven't fixed the uniqueness problem for matrix yet - <a href=\"https://github.com/matrix-org/matrix-spec-proposals/blob/travis/msc/immutable-dms/proposals/2199-canonical-dms.md\">https://github.com/matrix-org/matrix-spec-proposals/blob/travis/msc/immutable-dms/proposals/2199-canonical-dms.md</a> is the surprisingly big proposed solution - and that's just for DMs)</p>",
+    "topic": "ietf-interim",
+    "dtime": 2868000,
+    "ptime": 2868000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>The hard part of uniqueness is that the group may already exist in different providers</p>",
+    "topic": "ietf-interim",
+    "dtime": 2869000,
+    "ptime": 2869000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> Fair enough</p>",
+    "topic": "ietf-interim",
+    "dtime": 2893000,
+    "ptime": 2893000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>so if a group with A,B,C exists on provider one, and then a group with A,B exists on provider 2, and a user on provider 2 adds C, then we have a <em>hard</em> problem</p>",
+    "topic": "ietf-interim",
+    "dtime": 2901000,
+    "ptime": 2901000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>this problem also exists for the 1-1 case, i call it out in my doc there is no easy solution i dont think</p>",
+    "topic": "ietf-interim",
+    "dtime": 2942000,
+    "ptime": 2942000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Matthew - Have you solved uniqueness for 1:1?  or are 1:1 messages a different special thing?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2951000,
+    "ptime": 2951000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>It's only hard if you are forcing A, B, C to only talk in one group. I think having two groups in your scenario is a feature, not a bug.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span>: haven't solved uniqueness for 1:1, beyond MSC2199 (linked above). 1:1 isn't special at all; it's just a room with 2 people and no name.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3024000,
+    "ptime": 3024000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(actually, i lie: MSC2199 supports unique group-DMs as well as 1:1s)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3112000,
+    "ptime": 3112000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I dont think this can be solved entirely at the MLS layer.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3141000,
+    "ptime": 3141000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>An explicit modality would work for me, if we can agree on all the modalities to support.  (It raises the question of whether everyone needs to support all modalities, or whether there needs to be negotiation of them?)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3173000,
+    "ptime": 3173000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>i dont hear ekr</p>",
+    "topic": "ietf-interim",
+    "dtime": 3173000,
+    "ptime": 3173000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>I might remember wrong, but isn't this question excluded by the charter?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3380000,
+    "ptime": 3380000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Raphael, that's what I'm claiming</p>",
+    "topic": "ietf-interim",
+    "dtime": 3413000,
+    "ptime": 3413000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>But the point was to bring this out</p>",
+    "topic": "ietf-interim",
+    "dtime": 3424000,
+    "ptime": 3424000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Note that the <em>next</em> slide is about room portability</p>",
+    "topic": "ietf-interim",
+    "dtime": 3438000,
+    "ptime": 3438000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>This is what the charter says is out of scope: \"Interoperable mechanisms for group administration or moderation across systems\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3482000,
+    "ptime": 3482000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3507000,
+    "ptime": 3507000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>hum, i totally missed that in the charter - i saw the word 'moderation' (where i totally agree that moderation mechanisms should be out of scope).</p>",
+    "topic": "ietf-interim",
+    "dtime": 3545000,
+    "ptime": 3545000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>\"across systems\" seems to be the key bit, no?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3570000,
+    "ptime": 3570000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>but if I (say) want to ban a user from a conversation across systems, <strong>surely</strong> we have to define a protocol for doing so?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3582000,
+    "ptime": 3582000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i think i agree with rohan's assertion that we need to define minimal viable semantics that match the GKs</p>",
+    "topic": "ietf-interim",
+    "dtime": 3614000,
+    "ptime": 3614000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>administration is very wide. could include adding and naming groups.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3628000,
+    "ptime": 3628000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I think, @rohan is agreeing with the point I just made?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3686000,
+    "ptime": 3686000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>mallory: i'd also expect to be able to (re)name a group from (say) WhatsApp even if the conversation hub happens to be on iMessage or whatever</p>",
+    "topic": "ietf-interim",
+    "dtime": 3693000,
+    "ptime": 3693000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>and feel super frustrated if it... just errored if i tried? (but if the group was created on WhatsApp, it happened to work)?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3723000,
+    "ptime": 3723000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>agree. so what is administrative but clearly out of scope</p>",
+    "topic": "ietf-interim",
+    "dtime": 3724000,
+    "ptime": 3724000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>moderation agree-- no question that's not in scope. but admin is useful.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3759000,
+    "ptime": 3759000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>There's also the question of what needs to be in the core protocol for an MVP and what can be in a future extension</p>",
+    "topic": "ietf-interim",
+    "dtime": 3771000,
+    "ptime": 3771000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>ISTM that the fundamental operations here are closed groups and member eviction</p>",
+    "topic": "ietf-interim",
+    "dtime": 3778000,
+    "ptime": 3778000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I.e., if you're going to have anything</p>",
+    "topic": "ietf-interim",
+    "dtime": 3831000,
+    "ptime": 3831000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>DMA doesn't require group interop until 2026 iirc</p>",
+    "topic": "ietf-interim",
+    "dtime": 3838000,
+    "ptime": 3838000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>so that could be an argument in favour of just ditching access control semantics for now</p>",
+    "topic": "ietf-interim",
+    "dtime": 3853000,
+    "ptime": 3853000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>or \"group administration\", whatever that is :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3871000,
+    "ptime": 3871000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I dont think naming should be out of scope..</p>",
+    "topic": "ietf-interim",
+    "dtime": 3948000,
+    "ptime": 3948000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>I've gotta go drive to the airport</p>",
+    "topic": "ietf-interim",
+    "dtime": 3959000,
+    "ptime": 3959000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>may drop</p>",
+    "topic": "ietf-interim",
+    "dtime": 3966000,
+    "ptime": 3966000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>also me, i'm out-- see you next time</p>",
+    "topic": "ietf-interim",
+    "dtime": 3971000,
+    "ptime": 3971000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>my answer is: protocol has a primitive to set the name. as a user outside of the group, i may or may not have such permissions - and i wont easily nbe able to know. But, if i try ot rename, and the owning provider doesnt authorize me, i get rejected and then i know</p>",
+    "topic": "ietf-interim",
+    "dtime": 4002000,
+    "ptime": 4002000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>that is what i was trying to say</p>",
+    "topic": "ietf-interim",
+    "dtime": 4007000,
+    "ptime": 4007000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>the protocol should provide a set of primitive operations that a remote user can do, and the protocol supports error messages if their request is rejected</p>",
+    "topic": "ietf-interim",
+    "dtime": 4030000,
+    "ptime": 4030000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>jonathan: that's horrible though if the owning servers do different things (i.e. there's no protocol to coordinate them)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4051000,
+    "ptime": 4051000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I am opposed to trying to support portability at this time. we can consider it in the future.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4164000,
+    "ptime": 4164000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@JDR can you say that live</p>",
+    "topic": "ietf-interim",
+    "dtime": 4187000,
+    "ptime": 4187000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>it would be good to have someone do an inventory of the existing access control mechanisms implemented acorss the known gatekeepers and document it - it would make this discusion a lot less meta</p>",
+    "topic": "ietf-interim",
+    "dtime": 4578000,
+    "ptime": 4578000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>yeah, big time</p>",
+    "topic": "ietf-interim",
+    "dtime": 4593000,
+    "ptime": 4593000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>also depends on who you include in scope...</p>",
+    "topic": "ietf-interim",
+    "dtime": 4616000,
+    "ptime": 4616000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i kinda feel like most of the discussions so far boil down to taking the biggest N providers and looking what they do (e.g. for access control, or for 1:1 v group semantics or whatever)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4631000,
+    "ptime": 4631000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i can do a bunch of grids as well as the access control one :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4668000,
+    "ptime": 4668000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>and yup, ekr speaks the truth</p>",
+    "topic": "ietf-interim",
+    "dtime": 4681000,
+    "ptime": 4681000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Thank you, Matthew</p>",
+    "topic": "ietf-interim",
+    "dtime": 4693000,
+    "ptime": 4693000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>great, let's record that as your action item, thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 4695000,
+    "ptime": 4695000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(i guess i get to be guardian of \"gah no that will design out hub portability\")</p>",
+    "topic": "ietf-interim",
+    "dtime": 4698000,
+    "ptime": 4698000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(n.b. this isn't portable conversations, but simply \"if the hub goes bang, can the conversation continue\"?)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4724000,
+    "ptime": 4724000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>if you already know how the other services do both of those things, listing them out can't hurt. but I think the latter is more pressing, yes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4793000,
+    "ptime": 4793000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>in MLS i thought the commits were signed by the participant who sent them, do i have that wrong? (sorry not as deep on mls as folks here)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4947000,
+    "ptime": 4947000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(are ekr's slides available online somewhere? i need to flip back &amp; forth a bit)</p>",
+    "topic": "ietf-interim",
+    "dtime": 4971000,
+    "ptime": 4971000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p><a href=\"https://datatracker.ietf.org/meeting/interim-2023-mimi-01/materials/slides-interim-2023-mimi-01-sessa-mimi-transport-requirements-00.pdf\">https://datatracker.ietf.org/meeting/interim-2023-mimi-01/materials/slides-interim-2023-mimi-01-sessa-mimi-transport-requirements-00.pdf</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 4988000,
+    "ptime": 4988000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>dankon</p>",
+    "topic": "ietf-interim",
+    "dtime": 4994000,
+    "ptime": 4994000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>ah ok - well i would think that, the only viable rule is , \"i accept a commit from any member currently in the group, and not from anyone outside\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 5002000,
+    "ptime": 5002000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>So I think this implies that we need an MLS ACL languge</p>",
+    "topic": "ietf-interim",
+    "dtime": 5175000,
+    "ptime": 5175000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>this is the same problem as server-controlled access control (\"does bob have permission to set the room name to be Foo\") imo - just as we need a common simple ACL semantic there, you need a similar one to control group membership</p>",
+    "topic": "ietf-interim",
+    "dtime": 5374000,
+    "ptime": 5374000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i think language is too strong a term though</p>",
+    "topic": "ietf-interim",
+    "dtime": 5378000,
+    "ptime": 5378000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>it could literally be \"what seniority do you need to be able to invite\"?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5443000,
+    "ptime": 5443000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>i understand that the acl is not enforced by the user. but, if the acl is not shown to and approved by the user, what prevents a malicious acl - one which allows anyone - to be introduced?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5462000,
+    "ptime": 5462000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(and tough if you want to do weird access control decisions like \"only users with M in their name are allowed to invite\")</p>",
+    "topic": "ietf-interim",
+    "dtime": 5463000,
+    "ptime": 5463000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>jonathan: you'd absolutely show it to the user</p>",
+    "topic": "ietf-interim",
+    "dtime": 5474000,
+    "ptime": 5474000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>\"anyone can invite to this group\" versus \"only admins can invite to this group\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 5502000,
+    "ptime": 5502000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>I have to drop off - thank you everyone for helping push this effort forward.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5621000,
+    "ptime": 5621000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>what is the point of an ACL if it's hardcoded for everyone in the protocol?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5696000,
+    "ptime": 5696000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>I agree with Joel</p>",
+    "topic": "ietf-interim",
+    "dtime": 5718000,
+    "ptime": 5718000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i think we might have different definitions of ACL then</p>",
+    "topic": "ietf-interim",
+    "dtime": 5729000,
+    "ptime": 5729000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>in that this sounds like a \"meta-ACL\" almost?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5742000,
+    "ptime": 5742000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i.e. a framework for defining ACLs?</p>",
+    "topic": "ietf-interim",
+    "dtime": 5748000,
+    "ptime": 5748000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>this also does intersect with the discussion we just had on flexible room moderation rules... if we support complex room moderation do we need such moderation rules expressed as mls acls???</p>",
+    "topic": "ietf-interim",
+    "dtime": 5761000,
+    "ptime": 5761000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>jonathan: i was assuming the answer is 'yes' :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 5782000,
+    "ptime": 5782000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>+1000 to EKR</p>",
+    "topic": "ietf-interim",
+    "dtime": 5813000,
+    "ptime": 5813000
+  },
+  {
+    "author": "Joel",
+    "text": "<p>i see. no, you're right. i was confused for as second there. </p>\n<p>I also mean not only is there one \"meta-ACL\" but we also agree on the actual ACL.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5814000,
+    "ptime": 5814000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>@Raphael: 100% agreed</p>",
+    "topic": "ietf-interim",
+    "dtime": 5857000,
+    "ptime": 5857000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>so i love the idea of MLS asserting the ACL rules via a single MIMI ACL extension. But different rooms would have different (simple) rules</p>",
+    "topic": "ietf-interim",
+    "dtime": 5861000,
+    "ptime": 5861000
+  },
+  {
+    "author": "Joel",
+    "text": "<p>So for e.g. the list of current moderators in a room is part of what ends up getting fed into the cryptographic key for the room. Also we all agree on what a moderator can do.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5864000,
+    "ptime": 5864000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm just saying we need to have a way to make sure everyone knows what the group rule is</p>",
+    "topic": "ietf-interim",
+    "dtime": 5869000,
+    "ptime": 5869000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>it is still not clear to me, how the acl would be constructed in a real system except for - the user mucking around with some UI and APIs exposed on the server, and then the server emits the acl... which introduces a risk of server attack sending wrong acl</p>",
+    "topic": "ietf-interim",
+    "dtime": 5943000,
+    "ptime": 5943000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>jonathan: surely if you have a basic protocol for defining ACLs, then the client can just emit it.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5971000,
+    "ptime": 5971000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>It's baked into the authorization policy language which is included in the MLS group</p>",
+    "topic": "ietf-interim",
+    "dtime": 5973000,
+    "ptime": 5973000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>giving the server the ability to go wild on auth policies is a disaster in the making, imo</p>",
+    "topic": "ietf-interim",
+    "dtime": 5989000,
+    "ptime": 5989000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>You specify a profile of what is mandatory to implements and other options have well-defined semantics which is optional behavior</p>",
+    "topic": "ietf-interim",
+    "dtime": 6014000,
+    "ptime": 6014000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(just as different hubs implementing different auth policies would be)</p>",
+    "topic": "ietf-interim",
+    "dtime": 6014000,
+    "ptime": 6014000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>Matrix today already effectively lets you define the ACLs on the client (given the server can be embedded in the client): these are then signed and authorised by consistent rules by the other instances. You don't have to trust a centralised server.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6349000,
+    "ptime": 6349000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>@Matthew but surely that is not how it works</p>",
+    "topic": "ietf-interim",
+    "dtime": 6366000,
+    "ptime": 6366000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>so to grandfather existing stuff, the clients will have to sign their ACL rules</p>",
+    "topic": "ietf-interim",
+    "dtime": 6404000,
+    "ptime": 6404000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>just like they'll have to speak MLS as a whole</p>",
+    "topic": "ietf-interim",
+    "dtime": 6414000,
+    "ptime": 6414000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>MLS is Greenfield for all the gatekeepers.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6426000,
+    "ptime": 6426000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Translating their existing policy rules into this policy language should just work</p>",
+    "topic": "ietf-interim",
+    "dtime": 6442000,
+    "ptime": 6442000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>should just work</p>",
+    "topic": "ietf-interim",
+    "dtime": 6442000,
+    "ptime": 6442000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>precisely ^</p>",
+    "topic": "ietf-interim",
+    "dtime": 6450000,
+    "ptime": 6450000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>IIUC the debate here is about whether the ACLs are expressed cryptographically at the MLS layer, or just as policy evaluated in software above MLS. That seems orthogonal to whether the server gets to push ACLs onto clients (though that remains a significant concern).</p>",
+    "topic": "ietf-interim",
+    "dtime": 6522000,
+    "ptime": 6522000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>if they're expressed cryptographically at the MLS layer, the server can't push, as the server isn't an MLS peer, no?</p>",
+    "topic": "ietf-interim",
+    "dtime": 6557000,
+    "ptime": 6557000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(so it's not orthogonal, alas)</p>",
+    "topic": "ietf-interim",
+    "dtime": 6576000,
+    "ptime": 6576000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Ah, that makes sense, thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 6596000,
+    "ptime": 6596000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>in terms of jonathan's security problem: if you grandfather an existing non-MIMI chat into MIMI, then yes, you have to trust the legacy server-controlled-access-control system from lying about whether a given chat was private or not. But once it's been made MIMIfied, any further ACL will need to be client-generated, no?</p>",
+    "topic": "ietf-interim",
+    "dtime": 6771000,
+    "ptime": 6771000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I dont think ekrs comments address my concern but i also feel like this is going in circles and its possible i am just misunderstanding something here.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6973000,
+    "ptime": 6973000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>so basically i agree with alissa - a diagram/doc is needed</p>",
+    "topic": "ietf-interim",
+    "dtime": 6986000,
+    "ptime": 6986000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'd be happy to try to do a draft, I suppose</p>",
+    "topic": "ietf-interim",
+    "dtime": 7004000,
+    "ptime": 7004000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>i could propose a mini-language too (which would basically the matrix auth rule system, predictably)</p>",
+    "topic": "ietf-interim",
+    "dtime": 7047000,
+    "ptime": 7047000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Sorry, who just volunteered?</p>",
+    "topic": "ietf-interim",
+    "dtime": 7064000,
+    "ptime": 7064000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>Eric Rescolra</p>",
+    "topic": "ietf-interim",
+    "dtime": 7075000,
+    "ptime": 7075000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-interim",
+    "dtime": 7081000,
+    "ptime": 7081000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>or ekr: we could do it joint if you want</p>",
+    "topic": "ietf-interim",
+    "dtime": 7083000,
+    "ptime": 7083000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Happy to present next time</p>",
+    "topic": "ietf-interim",
+    "dtime": 7093000,
+    "ptime": 7093000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>i think this helped to make progress</p>",
+    "topic": "ietf-interim",
+    "dtime": 7111000,
+    "ptime": 7111000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Not sure we need weekly – biweekly should be enough</p>",
+    "topic": "ietf-interim",
+    "dtime": 7129000,
+    "ptime": 7129000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>i think weekly may be too frequent, not enough time perhaps to write something up as followups as needed. but dont feel that strongly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7144000,
+    "ptime": 7144000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>But generally agree on more interims</p>",
+    "topic": "ietf-interim",
+    "dtime": 7148000,
+    "ptime": 7148000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>biweekly wfm</p>",
+    "topic": "ietf-interim",
+    "dtime": 7150000,
+    "ptime": 7150000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Biweekly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7153000,
+    "ptime": 7153000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>biweekly &gt; weekly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7154000,
+    "ptime": 7154000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Biweekly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7154000,
+    "ptime": 7154000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>so biweekly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7157000,
+    "ptime": 7157000
+  },
+  {
+    "author": "Joel",
+    "text": "<p>biweekly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7162000,
+    "ptime": 7162000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(is biweekly twice a week or every 2 weeks? O:-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 7167000,
+    "ptime": 7167000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Sorry. Every 2 weeks</p>",
+    "topic": "ietf-interim",
+    "dtime": 7170000,
+    "ptime": 7170000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i assume \"biweekly is every two weeks\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 7174000,
+    "ptime": 7174000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>diweekly ;P</p>",
+    "topic": "ietf-interim",
+    "dtime": 7180000,
+    "ptime": 7180000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Bi-weekly means twice a week</p>",
+    "topic": "ietf-interim",
+    "dtime": 7180000,
+    "ptime": 7180000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>every two weeks, NOT twice a week ;)</p>",
+    "topic": "ietf-interim",
+    "dtime": 7182000,
+    "ptime": 7182000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>@matthew every fortnight</p>",
+    "topic": "ietf-interim",
+    "dtime": 7183000,
+    "ptime": 7183000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>semiweekly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7188000,
+    "ptime": 7188000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 7195000,
+    "ptime": 7195000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yes @Raphael ,fortnightly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7199000,
+    "ptime": 7199000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>(demiweekly)</p>",
+    "topic": "ietf-interim",
+    "dtime": 7208000,
+    "ptime": 7208000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>thanks everyone</p>",
+    "topic": "ietf-interim",
+    "dtime": 7211000,
+    "ptime": 7211000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>thanks all :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 7212000,
+    "ptime": 7212000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>hemisemdemiweekly</p>",
+    "topic": "ietf-interim",
+    "dtime": 7215000,
+    "ptime": 7215000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Will do.</p>",
+    "topic": "ietf-interim",
+    "dtime": 7232000,
+    "ptime": 7232000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>No worries.</p>",
+    "topic": "ietf-interim",
+    "dtime": 7234000,
+    "ptime": 7234000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2023-mimi-01-mimi\">https://notes.ietf.org/notes-ietf-interim-2023-mimi-01-mimi#</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 7234000,
+    "ptime": 7234000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-MIMI-20230503-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-mimi-01/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-MIMI-20230503-1600"
+		}
+	]
+}

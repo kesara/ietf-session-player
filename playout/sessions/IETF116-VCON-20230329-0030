@@ -1,0 +1,287 @@
+
+{
+	"title": "IETF116-VCON-20230329-0030",
+	"filename": "IETF116-VCON-20230329-0030",
+	"start": 0,
+	"end": 6586000,
+	"start_datetime": "2023-03-29T00:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "EF2OMbo6Qj4",
+    "start": 0,
+    "end": "6586000"
+  }
+],
+	"messages": [
+  {
+    "author": "Robert Moskowitz",
+    "text": "<p>Good evening all.  I hope this is going to be useful.  Looking forward to hearing what is intended for this work.  Or I should have gone to bed...</p>",
+    "topic": "ietf-116",
+    "dtime": 34000,
+    "ptime": 34000
+  },
+  {
+    "author": "Robert Moskowitz",
+    "text": "<p>I am too tired to take meaningful minutes.  But then even awake my minute taking always leaves a lot to be desired.  :(</p>",
+    "topic": "ietf-116",
+    "dtime": 157000,
+    "ptime": 157000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>Identifying yourself is also helpful for the closed captions :)</p>",
+    "topic": "ietf-116",
+    "dtime": 566000,
+    "ptime": 566000
+  },
+  {
+    "author": "Robert Moskowitz",
+    "text": "<p>I am not seeing the slides to download so I can get the URLs that Spenser had up.</p>",
+    "topic": "ietf-116",
+    "dtime": 825000,
+    "ptime": 825000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p><a href=\"https://datatracker.ietf.org/meeting/116/materials/slides-116-vcon-complete-slide-deck-for-vcon-bof-01\">https://datatracker.ietf.org/meeting/116/materials/slides-116-vcon-complete-slide-deck-for-vcon-bof-01</a></p>",
+    "topic": "ietf-116",
+    "dtime": 881000,
+    "ptime": 881000
+  },
+  {
+    "author": "Barry Leiba",
+    "text": "<p>Silo Killer… qu’est-que c’est…</p>",
+    "topic": "ietf-116",
+    "dtime": 888000,
+    "ptime": 888000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>I do not quite understand the issue in the migration case. If I want to move data between two devices I own, I did not quite understand what vCon would add here, that i currently missing</p>",
+    "topic": "ietf-116",
+    "dtime": 1659000,
+    "ptime": 1659000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"72\">@Hans-Jörg Happel</span>  If I understand correctly: The applications on the two devices, and more importantly the online services that each of the apps might use, might have no a priori relationship. It would be good if passing data between the two devices doesn't expose all of that data to intermediaries.</p>",
+    "topic": "ietf-116",
+    "dtime": 1927000,
+    "ptime": 1927000
+  },
+  {
+    "author": "Robert Moskowitz",
+    "text": "<p>If I am groking this, it has many uses in aviation.  Depending on where things are going, I will see how to get interest for participation.</p>",
+    "topic": "ietf-116",
+    "dtime": 2186000,
+    "ptime": 2186000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Pete Resnick Well, moving data will either require a trusted intermediary, direct API access vendor2vendor (which I understand is not what vCon is about?) or data import/export (via a shared format).So I guess we talk about the latter here? If so, I then wonder if that's not something developed in MIMI? (as this came from Rohan, it would be interesting to clarify the interrelation vCon vs MIMI?)</p>",
+    "topic": "ietf-116",
+    "dtime": 2266000,
+    "ptime": 2266000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I'm not clear that he's understanding Mallory's question. Someone may wish to help.</p>",
+    "topic": "ietf-116",
+    "dtime": 2358000,
+    "ptime": 2358000
+  },
+  {
+    "author": "Sebastian Benthall",
+    "text": "<p>How does one get on the queue to comment?</p>",
+    "topic": "ietf-116",
+    "dtime": 2395000,
+    "ptime": 2395000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Sebastian: click raise hand icon in Meetecho</p>",
+    "topic": "ietf-116",
+    "dtime": 2424000,
+    "ptime": 2424000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>In the Meetecho tool, raise your hand. If you're in the room: <a href=\"https://meetecho.ietf.org/conference/lite-agent.html?group=vcon\">https://meetecho.ietf.org/conference/lite-agent.html?group=vcon</a></p>",
+    "topic": "ietf-116",
+    "dtime": 2428000,
+    "ptime": 2428000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>I mean if you have any req for integrity, you will be deep in the keys / crypto anyway</p>",
+    "topic": "ietf-116",
+    "dtime": 2428000,
+    "ptime": 2428000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>... so you're going to provide that chain of custody w/o integrity</p>",
+    "topic": "ietf-116",
+    "dtime": 2559000,
+    "ptime": 2559000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>+1 to Jonathan's comment: The use cases need some \"combing\" to separate the IETF work items (interoperability needs) from the other stuff (internal vendor stuff). There's IETF work here (I think), but it definitely needs some clarification.</p>",
+    "topic": "ietf-116",
+    "dtime": 2737000,
+    "ptime": 2737000
+  },
+  {
+    "author": "Robert Moskowitz",
+    "text": "<p>I can see IETF work here.  But I am falling asleep.  Too much energy spent in meetings today.  I raise my hand for a wg and will participate and try to get others in aviation interested,  Hopefully see you at the plenary.  Bye.</p>",
+    "topic": "ietf-116",
+    "dtime": 2955000,
+    "ptime": 2955000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I think Jonathan just volunteered for charter writing help. <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 3087000,
+    "ptime": 3087000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>The VCON format will support encryption of the objects enclosed within it, in order to provide confidentality of the data independent of transport. The keying is out of scope.</p>",
+    "topic": "ietf-116",
+    "dtime": 3449000,
+    "ptime": 3449000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>+1 JDR</p>",
+    "topic": "ietf-116",
+    "dtime": 3543000,
+    "ptime": 3543000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>I did want to get the idea that different data could be secured with different keys to control  access.</p>",
+    "topic": "ietf-116",
+    "dtime": 3592000,
+    "ptime": 3592000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p><a href=\"https://en.wikipedia.org/wiki/XACML\">https://en.wikipedia.org/wiki/XACML</a> is at least part of this somehow I feel</p>",
+    "topic": "ietf-116",
+    "dtime": 3736000,
+    "ptime": 3736000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>Suggested text (which I will also send to the list): </p>\n<p>Use Case 1: Privacy and Cutomer Data Protection</p>\n<p>Vendors and services which record conversations (such as contact centers), have a requirement to convey access logs to other vendor applications which analyze those access logs. By access logs, we refer to information about who accessed the recording, when they accessed it, and for what purposed it was accessed. Examples of \"purposes\" include - listening to a recording for purposes of quality assurance for a contact center call, or transcription of a recording to generate a text transcript.</p>",
+    "topic": "ietf-116",
+    "dtime": 3918000,
+    "ptime": 3918000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>If we are only about data elements and structures - use CDDL and then let implementors choose JSON or CBOR or whatever</p>",
+    "topic": "ietf-116",
+    "dtime": 4270000,
+    "ptime": 4270000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>Use Case 2: Recording Exchange</p>\n<p>Another target use case is for exchange of recordings between different vendors. Today, it is common for vendors of contact center software, to send call recordings to third party services for the purposes of \"quality management\". In quality management, a human listens to the recording and rates the performance of the contact center agent. Today, the exchange of these recordings between vendors is done through raw audio files, with meta-data (such as time of the call and identity of the agent) exchanged out of bands. The goal with VCON is to enable a standardized exchange format between these vendors.</p>",
+    "topic": "ietf-116",
+    "dtime": 4660000,
+    "ptime": 4660000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>Jari clarifying question?</p>",
+    "topic": "ietf-116",
+    "dtime": 4906000,
+    "ptime": 4906000
+  },
+  {
+    "author": "Jaime Jimenez",
+    "text": "<p>I do not know if this is a valid use case but there are many APIs out there that allow to \"retrieve conversations\", it would be good to know how can vCON be applied on them to, for example, offer to the API consumer some insights about where was the conversation shared, proof of deletion, etc.</p>",
+    "topic": "ietf-116",
+    "dtime": 5117000,
+    "ptime": 5117000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I think you got the answer to \"what else would make it well-defined\" from Jari.</p>",
+    "topic": "ietf-116",
+    "dtime": 5192000,
+    "ptime": 5192000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>It would be good to hear from the people who said \"no\" on the third question if they haven't said their piece before.</p>",
+    "topic": "ietf-116",
+    "dtime": 5400000,
+    "ptime": 5400000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>I couldn’t find any visibility for the work in w3c fwiw. Plenty of reasons I would have missed it but still</p>",
+    "topic": "ietf-116",
+    "dtime": 5456000,
+    "ptime": 5456000
+  },
+  {
+    "author": "Alistair Woodman",
+    "text": "<p>Too much uncertainty to determine whether the direction is good or not</p>",
+    "topic": "ietf-116",
+    "dtime": 5881000,
+    "ptime": 5881000
+  },
+  {
+    "author": "Alistair Woodman",
+    "text": "<p>Too early to tell</p>",
+    "topic": "ietf-116",
+    "dtime": 5950000,
+    "ptime": 5950000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1794\">@Alistair Woodman</span> +1, with the amendment that I suspect it will get to a reasonable place.</p>",
+    "topic": "ietf-116",
+    "dtime": 5950000,
+    "ptime": 5950000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Bob Moskowitz also mentioned earlier that he saw good use in the aviation industry for this.</p>",
+    "topic": "ietf-116",
+    "dtime": 6162000,
+    "ptime": 6162000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>Thank you Spencer for a very nicely run BoF!</p>",
+    "topic": "ietf-116",
+    "dtime": 6551000,
+    "ptime": 6551000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-VCON-20230329-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/vcon"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-VCON-20230329-0030"
+		}		
+	]
+}

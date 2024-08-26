@@ -1,0 +1,350 @@
+
+{
+	"title": "IETF117-WEBTRANS-20230727-2000",
+	"filename": "IETF117-WEBTRANS-20230727-2000",
+	"start": 0,
+	"end": 6790000,
+	"start_datetime": "2023-07-27T20:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "7gWKZg59GHE",
+    "start": 0,
+    "end": "6790000"
+  }
+],
+	"messages": [
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Native English speakers “communicating clearly, including speaking slowly<br>\nand limiting the use of slang”</p>",
+    "topic": "ietf-117",
+    "dtime": 566000,
+    "ptime": 566000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I'm in favour :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 572000,
+    "ptime": 572000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>So devious.</p>",
+    "topic": "ietf-117",
+    "dtime": 722000,
+    "ptime": 722000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p><a href=\"https://docs.rs/webtransport-quinn/latest/webtransport_quinn/\">https://docs.rs/webtransport-quinn/latest/webtransport_quinn/</a></p>",
+    "topic": "ietf-116",
+    "dtime": 791000,
+    "ptime": 791000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>oops there's an ietf-116 channel</p>",
+    "topic": "ietf-116",
+    "dtime": 821000,
+    "ptime": 821000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p><a href=\"https://docs.rs/webtransport-quinn/latest/webtransport_quinn/\">https://docs.rs/webtransport-quinn/latest/webtransport_quinn/</a> if anybody is interested</p>",
+    "topic": "ietf-117",
+    "dtime": 853000,
+    "ptime": 853000
+  },
+  {
+    "author": "Kenichi Ishibashi",
+    "text": "<p>Luke, I sent a PR to fix your server sending :protocol</p>",
+    "topic": "ietf-117",
+    "dtime": 926000,
+    "ptime": 926000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Congrats to FF</p>",
+    "topic": "ietf-117",
+    "dtime": 1119000,
+    "ptime": 1119000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Which draft version(s) does FF support?</p>",
+    "topic": "ietf-117",
+    "dtime": 1140000,
+    "ptime": 1140000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Yeah, it's pretty cool.  Is there a webpage that summarises the server-side implementations?</p>",
+    "topic": "ietf-117",
+    "dtime": 1153000,
+    "ptime": 1153000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Or at least one server-side implementation that people recommend.</p>",
+    "topic": "ietf-117",
+    "dtime": 1258000,
+    "ptime": 1258000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>+1 for #2 time window when retransmission is high priority when the data is needed for interactive purposes but the falls down to lower priority when its just about archival for other post session use-cases</p>",
+    "topic": "ietf-117",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Listen to Cullen!</p>",
+    "topic": "ietf-117",
+    "dtime": 2280000,
+    "ptime": 2280000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>The flow control argument is compelling</p>",
+    "topic": "ietf-117",
+    "dtime": 2330000,
+    "ptime": 2330000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Disagree with the last speaker, he's assuming the link is uncongested.</p>",
+    "topic": "ietf-117",
+    "dtime": 2338000,
+    "ptime": 2338000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Starving a rtx indefinitely is potentially risky, the application can create a deadlock</p>",
+    "topic": "ietf-117",
+    "dtime": 2427000,
+    "ptime": 2427000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Point taken.</p>",
+    "topic": "ietf-117",
+    "dtime": 2453000,
+    "ptime": 2453000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>Exactly!</p>",
+    "topic": "ietf-117",
+    "dtime": 2456000,
+    "ptime": 2456000
+  },
+  {
+    "author": "Dragana Damjanovic",
+    "text": "<p>agree with Alan.</p>",
+    "topic": "ietf-117",
+    "dtime": 2493000,
+    "ptime": 2493000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>More seriously, where are these datagram unenthusiasts?</p>",
+    "topic": "ietf-117",
+    "dtime": 2494000,
+    "ptime": 2494000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I'd love to understand their concerns</p>",
+    "topic": "ietf-117",
+    "dtime": 2508000,
+    "ptime": 2508000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I'm a stream enthusiast</p>",
+    "topic": "ietf-117",
+    "dtime": 2517000,
+    "ptime": 2517000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>You can be enthusiastic about both.</p>",
+    "topic": "ietf-117",
+    "dtime": 2541000,
+    "ptime": 2541000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>WWHTTP2D?</p>",
+    "topic": "ietf-117",
+    "dtime": 2718000,
+    "ptime": 2718000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Why would SRTP need the keyin material, rather than leveraging the authentified WebTransport channel in order to perform an ECDH exchange?</p>",
+    "topic": "ietf-117",
+    "dtime": 3502000,
+    "ptime": 3502000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>(or your favourite post-quantum key exchange.)</p>",
+    "topic": "ietf-117",
+    "dtime": 3527000,
+    "ptime": 3527000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Because the WebTransport channel has already done the ECDH and/or PQ key exchange, so it's a lot cheaper to do a key derivation than a whole new assymetric crypto?</p>",
+    "topic": "ietf-117",
+    "dtime": 3596000,
+    "ptime": 3596000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>Ah, okay, I see the tradeoff.  Still not convinced it's worth adding an API in order to shave off a few dozen microseconds of CPU time, but I see your point.</p>",
+    "topic": "ietf-117",
+    "dtime": 3671000,
+    "ptime": 3671000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p><code>max(max(client), max(server))</code>? That doesn't seem right to me.</p>",
+    "topic": "ietf-117",
+    "dtime": 3675000,
+    "ptime": 3675000
+  },
+  {
+    "author": "Nils Ohlmeier",
+    "text": "<p>But the existing API's in browsers don't allow you to set any keys. So it's not like an web app could actually use the keys.</p>",
+    "topic": "ietf-117",
+    "dtime": 3698000,
+    "ptime": 3698000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I've only just realised that Cullen and Fluffy are the same person :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 4204000,
+    "ptime": 4204000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p><code>max(client ∩ server)</code> makes so much more sense. Yay.</p>",
+    "topic": "ietf-117",
+    "dtime": 4244000,
+    "ptime": 4244000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Does MAX_WT_SESSIONS &gt; 1 imply F/C support then?</p>",
+    "topic": "ietf-117",
+    "dtime": 4941000,
+    "ptime": 4941000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Cullen: What's Juliusz talking about?</p>",
+    "topic": "ietf-117",
+    "dtime": 4947000,
+    "ptime": 4947000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"73\">@Bernard Aboba</span> - Bernard, should I be worried about how this discussion maps into Roc?</p>",
+    "topic": "ietf-117",
+    "dtime": 5378000,
+    "ptime": 5378000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I don't know if Dragana remembers better than I, but I believe that we had to do extra work to turn pooling off.  That said, we were aware of a few of these issues (flow control in particular) that we didn't want to think about right then.</p>",
+    "topic": "ietf-117",
+    "dtime": 5661000,
+    "ptime": 5661000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>stream group = connection</p>",
+    "topic": "ietf-117",
+    "dtime": 5695000,
+    "ptime": 5695000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>I'm a little confused.  Are people expecting that a set of dedicated connections behaves exactly the same as a multiplexed connection?  I don't think our CC technlogy is mature enough to ensure that.</p>",
+    "topic": "ietf-117",
+    "dtime": 5809000,
+    "ptime": 5809000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>two concurrent connections only equalize congestion windows if they are equally busy</p>",
+    "topic": "ietf-117",
+    "dtime": 5809000,
+    "ptime": 5809000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>If you toss priorities into the mix it gets even more fun</p>",
+    "topic": "ietf-117",
+    "dtime": 5920000,
+    "ptime": 5920000
+  },
+  {
+    "author": "Juliusz Chroboczek",
+    "text": "<p>FWIW, the WebRTC API gives the JavaScript programmer explicit control over pooling.</p>",
+    "topic": "ietf-117",
+    "dtime": 5945000,
+    "ptime": 5945000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Mo might have misinterpreted me.  I want to be lazy and not implement the optionality.  There is a good chance that we'll also be lazy and also set a very large limit, but we'll see.</p>",
+    "topic": "ietf-117",
+    "dtime": 6024000,
+    "ptime": 6024000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>To echo back to an earlier comment, the discussion of pooled sessions makes me wonder what happens if two pooled sessions both export keys...</p>",
+    "topic": "ietf-117",
+    "dtime": 6172000,
+    "ptime": 6172000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>I think this can be an optional feature of webtrans.<br>\nEach endpoint can reject pooling, then the question is what is the point of requiring the peer to do the \"receive side of\" flow control, even when they might be rejecting pooling?</p>",
+    "topic": "ietf-117",
+    "dtime": 6176000,
+    "ptime": 6176000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2425\">Kenichi Ishibashi</span> <a href=\"#narrow/stream/132-webtrans/topic/ietf-117/near/85447\">said</a>:</p>\n<blockquote>\n<p>Luke, I sent a PR to fix your server sending :protocol</p>\n</blockquote>\n<p>heh thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 6765000,
+    "ptime": 6765000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-WEBTRANS-20230727-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/webtrans"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-WEBTRANS-20230727-2000"
+		}		
+	]
+}

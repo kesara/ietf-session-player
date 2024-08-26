@@ -1,0 +1,299 @@
+{
+  "title": "IETF104-OAUTH-20190328-0900",
+  "filename": "IETF104-OAUTH-20190328-0900",
+  "start": 0,
+  "end": 5627000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "zl9I8AvAwZo",
+      "start": 0.0,
+      "end": 5627000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 50000.0,
+      "dtime": 904000.0
+    },
+    {
+      "text": "***Brian Campbell just joined the room",
+      "ptime": 62000.0,
+      "dtime": 916000.0
+    },
+    {
+      "text": "Hello, I\u0027m going to be your Jabber scribe. If you want me to relay your comments to the microphone please prefix them with \"mic:\"",
+      "ptime": 183000.0,
+      "dtime": 1037000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "***Brian Campbell just left the room",
+      "ptime": 737000.0,
+      "dtime": 1591000.0
+    },
+    {
+      "text": "***Brian Campbell just joined the room",
+      "ptime": 739000.0,
+      "dtime": 1593000.0
+    },
+    {
+      "text": "mic: We should mention things like SPA-with-proxy-backend apps and generally put them out of scope. Specifically, this draft should only deal with things that see the OAuth tokens inside the browser, but we can\u0027t ignore that people follow other patterns, and we want to steer them in the right direction.",
+      "ptime": 940000.0,
+      "dtime": 1794000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "Namely, those should usually use cookies between the browser and backend, and not OAuth in the browser.",
+      "ptime": 997000.0,
+      "dtime": 1851000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "mic: Torsten and I don\u0027t actually disagree I think -- I\u0027m saying talk about it and put it in the right scope. \"Not Covering It\" and \"Not Mentioning It At All\" are two different things. I think we should mention it and not cover it -- like what John is saying.",
+      "ptime": 1229000.0,
+      "dtime": 2083000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "people in the room need to use the mic",
+      "ptime": 1384000.0,
+      "dtime": 2238000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "John was just wondering whether you really agreed with him",
+      "ptime": 1422000.0,
+      "dtime": 2276000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "Ah. Yeah, for the most part, I think. It\u0027s hard to follow at 4am :P",
+      "ptime": 1457000.0,
+      "dtime": 2311000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "He seemed incredoulus at the concept of you agreeing with him",
+      "ptime": 1492000.0,
+      "dtime": 2346000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "????",
+      "ptime": 1542000.0,
+      "dtime": 2396000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "+1",
+      "ptime": 1800000.0,
+      "dtime": 2654000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "@kaduk will try to do so",
+      "ptime": 1822000.0,
+      "dtime": 2676000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "I can do that, that\u0027s the topic I\u0027m here for",
+      "ptime": 1842000.0,
+      "dtime": 2696000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "***Brian Campbell just left the room",
+      "ptime": 1864000.0,
+      "dtime": 2718000.0
+    },
+    {
+      "text": "***Brian Campbell just joined the room",
+      "ptime": 1867000.0,
+      "dtime": 2721000.0
+    },
+    {
+      "text": "mic: I don\u0027t remember someone saying that in the session but I think they\u0027re wrong.",
+      "ptime": 1926000.0,
+      "dtime": 2780000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Brian Campbell just left the room",
+      "ptime": 1955000.0,
+      "dtime": 2809000.0
+    },
+    {
+      "text": "***Brian Campbell just joined the room",
+      "ptime": 1958000.0,
+      "dtime": 2812000.0
+    },
+    {
+      "text": "+1",
+      "ptime": 2045000.0,
+      "dtime": 2899000.0,
+      "author": "Bjorn Hjelm"
+    },
+    {
+      "text": "Thanks, Ludwig :)",
+      "ptime": 2065000.0,
+      "dtime": 2919000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Masaki Kase just joined the room",
+      "ptime": 2201000.0,
+      "dtime": 3055000.0
+    },
+    {
+      "text": "mic: Yes. Burn it.",
+      "ptime": 2434000.0,
+      "dtime": 3288000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Jarom?r Tal?? just joined the room",
+      "ptime": 2602000.0,
+      "dtime": 3456000.0
+    },
+    {
+      "text": "PoP is up",
+      "ptime": 2815000.0,
+      "dtime": 3669000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "@Ben we\u0027re talking PoP now",
+      "ptime": 2830000.0,
+      "dtime": 3684000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "mic: This draft is only a half-solution. It doesn\u0027t do us any good without a presentation mechanism, like the HTTP Signing draft that this group has never had an appetite for (apart from Mike\u0027s recent review, thanks for that btw)",
+      "ptime": 3090000.0,
+      "dtime": 3944000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Ludwig just joined the room",
+      "ptime": 3152000.0,
+      "dtime": 4006000.0
+    },
+    {
+      "text": "I\u0027ve been following that, yes. That\u0027s only good for signing the body if the body is JSON -- doesn\u0027t help with GET/DELETE or protecting the URLs.",
+      "ptime": 3257000.0,
+      "dtime": 4111000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "or form posts or XML or ....",
+      "ptime": 3269000.0,
+      "dtime": 4123000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "Unless I missed something there?",
+      "ptime": 3294000.0,
+      "dtime": 4148000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Ludwig just joined the room",
+      "ptime": 3334000.0,
+      "dtime": 4188000.0
+    },
+    {
+      "text": "+1 to annabelle",
+      "ptime": 3454000.0,
+      "dtime": 4308000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "mic: isn\u0027t that enabling a man-in-the-middle that we can\u0027t prove? And do we want to do that?",
+      "ptime": 3699000.0,
+      "dtime": 4553000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Elias Summermatter just joined the room",
+      "ptime": 3964000.0,
+      "dtime": 4818000.0
+    },
+    {
+      "text": "***Brian Campbell just left the room",
+      "ptime": 4845000.0,
+      "dtime": 5699000.0
+    },
+    {
+      "text": "***Brian Campbell just joined the room",
+      "ptime": 4852000.0,
+      "dtime": 5706000.0
+    },
+    {
+      "text": "***Brian Campbell just left the room",
+      "ptime": 4912000.0,
+      "dtime": 5766000.0
+    },
+    {
+      "text": "***Brian Campbell just joined the room",
+      "ptime": 4914000.0,
+      "dtime": 5768000.0
+    },
+    {
+      "text": "***Petteri Stenius just left the room",
+      "ptime": 5377000.0,
+      "dtime": 6231000.0
+    },
+    {
+      "text": "***Petteri Stenius just joined the room",
+      "ptime": 5488000.0,
+      "dtime": 6342000.0
+    },
+    {
+      "text": "***Brian Campbell just left the room",
+      "ptime": 5619000.0,
+      "dtime": 6473000.0
+    },
+    {
+      "text": "***Jarom?r Tal?? just left the room",
+      "ptime": 5626000.0,
+      "dtime": 6480000.0
+    },
+    {
+      "text": "***Petteri Stenius just left the room",
+      "ptime": 5626000.0,
+      "dtime": 6480000.0
+    },
+    {
+      "text": "***Justin Richer just left the room",
+      "ptime": 5626000.0,
+      "dtime": 6480000.0
+    },
+    {
+      "text": "***Elias Summermatter just left the room",
+      "ptime": 5626000.0,
+      "dtime": 6480000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 5626000.0,
+      "dtime": 6480000.0
+    },
+    {
+      "text": "***Masaki Kase just left the room",
+      "ptime": 5626000.0,
+      "dtime": 6480000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-OAUTH-20190328-0900"
+    }
+  ]
+}

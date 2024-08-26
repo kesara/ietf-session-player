@@ -1,0 +1,819 @@
+
+{
+	"title": "IETF118-HTTPBIS-20231109-1400",
+	"filename": "IETF118-HTTPBIS-20231109-1400",
+	"start": 0,
+	"end": 5304000,
+	"start_datetime": "2023-11-09T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "TnTrgXTwq0U",
+    "start": 0,
+    "end": "5304000"
+  }
+],
+	"messages": [
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>Hi all!</p>",
+    "topic": "ietf-118",
+    "dtime": 83000,
+    "ptime": 83000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>note well: <a href=\"https://www.ietf.org/about/note-well/\">https://www.ietf.org/about/note-well/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 128000,
+    "ptime": 128000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>match-search isn't great; the URI component is called \"query\", so let's use that.</p>",
+    "topic": "ietf-118",
+    "dtime": 538000,
+    "ptime": 538000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>It makes me happy that I can hear a dog barking during an IETF meeting. My wife would be even happier ...</p>",
+    "topic": "ietf-118",
+    "dtime": 624000,
+    "ptime": 624000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Has Patrick's dog read the note well?</p>",
+    "topic": "ietf-118",
+    "dtime": 661000,
+    "ptime": 661000
+  },
+  {
+    "author": "Samuel Weiler",
+    "text": "<p>It's far better than having the participants in the room barking, which I've seen before.</p>",
+    "topic": "ietf-118",
+    "dtime": 664000,
+    "ptime": 664000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>The transcription appears to be encoding barks as \"Whoa\" which amuses me.</p>",
+    "topic": "ietf-118",
+    "dtime": 709000,
+    "ptime": 709000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>Sorry, seem to have trouble unmuting the mic.</p>",
+    "topic": "ietf-118",
+    "dtime": 724000,
+    "ptime": 724000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Press the icon that looks like a microphone that's greyed out</p>",
+    "topic": "ietf-118",
+    "dtime": 747000,
+    "ptime": 747000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>Right, I pressed it, and it didn't do anything.</p>",
+    "topic": "ietf-118",
+    "dtime": 763000,
+    "ptime": 763000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>It worked in an earlier session. Not sure what changed.</p>",
+    "topic": "ietf-118",
+    "dtime": 772000,
+    "ptime": 772000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Maybe type your message here and we can relay it at the mic</p>",
+    "topic": "ietf-118",
+    "dtime": 777000,
+    "ptime": 777000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>I had two questions: (1) I don't see a lot of details in the draft about how the dictionary is used by the different algorithms. Maybe this is \"obvious\" but it might be helpful to at least have reference(s).</p>",
+    "topic": "ietf-118",
+    "dtime": 864000,
+    "ptime": 864000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>ok I've gotten in queue, I'll ask them for you</p>",
+    "topic": "ietf-118",
+    "dtime": 879000,
+    "ptime": 879000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>(2) The motivation for that question is that one of the things I found very helpful for SDP compression with gzip (for WebRTC) was to truncate the original message at some cutoff shorter than the maximum window size. Making sure the start of the document is inside the window helps avoid re-sending some headers that only appear once, and leaving a little bit of extra room makes sending the same SDP with only minor changes work much better. Have you considered being able to specify a limit on the amount of the document used for the dictionary?</p>",
+    "topic": "ietf-118",
+    "dtime": 1063000,
+    "ptime": 1063000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(somebody's mic is making noises)</p>",
+    "topic": "ietf-118",
+    "dtime": 1267000,
+    "ptime": 1267000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>If we have Etag, we'd be inclined to skip comparing SHA256...</p>",
+    "topic": "ietf-118",
+    "dtime": 1366000,
+    "ptime": 1366000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>\"The dictionary is passed as <code>foo</code> to the process in Section 5.3.1 of [BLAH]....\"</p>",
+    "topic": "ietf-118",
+    "dtime": 1420000,
+    "ptime": 1420000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>For gzip, you are limited to a bit less than 32 kB as a dictionary.</p>",
+    "topic": "ietf-118",
+    "dtime": 1491000,
+    "ptime": 1491000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100157\">said</a>:</p>\n<blockquote>\n<p>The transcription appears to be encoding barks as \"Whoa\" which amuses me.</p>\n</blockquote>\n<p>We did have a newcomer ask \"where are the hums I was told about?\" yesterday. Maybe this is an opportunity to add \"hum for Yes, woof for no\" to IETF culture ... <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 1493000,
+    "ptime": 1493000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>If you specify the whole response, you will just get the last ~32 kB.</p>",
+    "topic": "ietf-118",
+    "dtime": 1513000,
+    "ptime": 1513000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Using first 32KB is more than sufficient I believe for the traditional compression methods</p>",
+    "topic": "ietf-118",
+    "dtime": 1513000,
+    "ptime": 1513000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>What I am saying is that being able to specify a limit means you can get the _first_ ~32 kB.</p>",
+    "topic": "ietf-118",
+    "dtime": 1563000,
+    "ptime": 1563000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>_Tommy Policy has entered the room_</p>",
+    "topic": "ietf-118",
+    "dtime": 1572000,
+    "ptime": 1572000
+  },
+  {
+    "author": "Rory Hewitt",
+    "text": "<p>Shhhh</p>",
+    "topic": "ietf-118",
+    "dtime": 1673000,
+    "ptime": 1673000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>And you actually want slightly less than the maximum.</p>",
+    "topic": "ietf-118",
+    "dtime": 1675000,
+    "ptime": 1675000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><a href=\"/user_uploads/2/19/wGa_OUWBEUdPIhLLDOE_Pjzo/IMG_20231109_150100.jpg\">IMG_20231109_150100.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/19/wGa_OUWBEUdPIhLLDOE_Pjzo/IMG_20231109_150100.jpg\" title=\"IMG_20231109_150100.jpg\"><img src=\"/user_uploads/2/19/wGa_OUWBEUdPIhLLDOE_Pjzo/IMG_20231109_150100.jpg\"></a></div>",
+    "topic": "ietf-118",
+    "dtime": 1689000,
+    "ptime": 1689000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>Imagine you send a document with one character inserted.</p>",
+    "topic": "ietf-118",
+    "dtime": 1701000,
+    "ptime": 1701000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I thought we just _had_ cookies [at the snack break]</p>",
+    "topic": "ietf-118",
+    "dtime": 1732000,
+    "ptime": 1732000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>If your dictionary is the maximum window size, after sending that one inserted character, for every byte after that it will expire from the window right before you wanted to use it.</p>",
+    "topic": "ietf-118",
+    "dtime": 1752000,
+    "ptime": 1752000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Yeah first few kilos will be more than enough to capture common pattern found in JavaScript or CSS or whatever</p>",
+    "topic": "ietf-118",
+    "dtime": 1756000,
+    "ptime": 1756000
+  },
+  {
+    "author": "Patrick Meenan",
+    "text": "<p>At least for now, gzip dictionary support isn't a target for the compression dictionary support. It certainly could be but it sounds like it would be pretty limited relative to the use cases that are currently being targeted for zstd and br-based dictionaries.</p>\n<p>e.g. delta-updates of a 50MB wasm file or a dictionary with the common HTML template code from a given site</p>",
+    "topic": "ietf-118",
+    "dtime": 1905000,
+    "ptime": 1905000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>I wonder if clients are going to have size limit on the files that they will consider as dictionaries. Like, if the server sends 10MB js, is the client going to compress that to create a dictionary?</p>",
+    "topic": "ietf-118",
+    "dtime": 1936000,
+    "ptime": 1936000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@meetecho, can we repoint the speaker camera?</p>",
+    "topic": "ietf-118",
+    "dtime": 1988000,
+    "ptime": 1988000
+  },
+  {
+    "author": "Patrick Meenan",
+    "text": "<p>If the size of the dictionary exceeds what the client supports then the client just doesn't advertise the Available-Dictionary for future requests (fails to get used but fails safely)</p>",
+    "topic": "ietf-118",
+    "dtime": 1997000,
+    "ptime": 1997000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Mike: done, thanks for the heads up!</p>",
+    "topic": "ietf-118",
+    "dtime": 2015000,
+    "ptime": 2015000
+  },
+  {
+    "author": "Patrick Meenan",
+    "text": "<p>Same happens if the total size of dictionaries blows some out of the client cache</p>",
+    "topic": "ietf-118",
+    "dtime": 2017000,
+    "ptime": 2017000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2024000,
+    "ptime": 2024000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Right, so the server cannot use a huge file as a dictionary, unless it can specify how many bytes should be used to construct the dictionary.</p>",
+    "topic": "ietf-118",
+    "dtime": 2056000,
+    "ptime": 2056000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>That would be sad (or concerning) for websites having jquery.js or whatever a common javascript file that could be a bit on the larger side.</p>",
+    "topic": "ietf-118",
+    "dtime": 2090000,
+    "ptime": 2090000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Grump grump grump. It's a channel binding, not a nonce.</p>",
+    "topic": "ietf-118",
+    "dtime": 2107000,
+    "ptime": 2107000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>This decision makes me sad, but I understand the reasons.</p>",
+    "topic": "ietf-118",
+    "dtime": 2166000,
+    "ptime": 2166000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>My use case might not be the highest-priority or most sophisticated, but being able to specify a limit addresses my issue and also seems to have some more general usefulness.</p>",
+    "topic": "ietf-118",
+    "dtime": 2230000,
+    "ptime": 2230000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Chairs: I have no news about QUERY right now, but I <em>did</em> review the open issues, and I still think that a focused design team telco could speed things up.</p>",
+    "topic": "ietf-118",
+    "dtime": 2287000,
+    "ptime": 2287000
+  },
+  {
+    "author": "Patrick Meenan",
+    "text": "<p>On the limit, does that differ significantly from being able to load a 32kb dictionary that was specifically constructed? </p>\n<p>Requiring clients to support extracting a range out of a response to use as a dictionary is certainly doable but feels like a fair bit of additional complexity.</p>",
+    "topic": "ietf-118",
+    "dtime": 2521000,
+    "ptime": 2521000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>Tommy, we have not used our implementation in practical tests</p>",
+    "topic": "ietf-118",
+    "dtime": 2643000,
+    "ptime": 2643000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>So, if you're not familiar with SDP in WebRTC, the way it gets used is there is an offer/answer negotiation where the same SDP gets sent back and forth between two parties with minor edits.</p>",
+    "topic": "ietf-118",
+    "dtime": 2665000,
+    "ptime": 2665000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>We have only prepared for IETF interop on the protocol definition</p>",
+    "topic": "ietf-118",
+    "dtime": 2669000,
+    "ptime": 2669000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>With a lot of participants in a conference, it can get quite large (well over 32 kB).</p>",
+    "topic": "ietf-118",
+    "dtime": 2705000,
+    "ptime": 2705000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>But simply using the (start of) the previous version of the SDP as a dictionary can get that down from ~300 kB to under 1.5kB (so it fits in an MTU).</p>",
+    "topic": "ietf-118",
+    "dtime": 2763000,
+    "ptime": 2763000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(see msg above)</p>",
+    "topic": "ietf-118",
+    "dtime": 2780000,
+    "ptime": 2780000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Proposal: I'll send out a summary during next week.</p>",
+    "topic": "ietf-118",
+    "dtime": 2805000,
+    "ptime": 2805000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>You could send a fixed dictionary out of band, and that would probably provide some benefit, but using the data you already sent saves a lot.</p>",
+    "topic": "ietf-118",
+    "dtime": 2805000,
+    "ptime": 2805000
+  },
+  {
+    "author": "Patrick Meenan",
+    "text": "<p>I'll read up on SDP first and touch base. Mind opening an issue in the github repository and tagging compression-dictionary? <a href=\"https://github.com/httpwg/http-extensions/issues\">https://github.com/httpwg/http-extensions/issues</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2885000,
+    "ptime": 2885000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>this is a dispack</p>",
+    "topic": "ietf-118",
+    "dtime": 3176000,
+    "ptime": 3176000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3208000,
+    "ptime": 3208000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>would be nice to have the same mechanism for H2, no?</p>",
+    "topic": "ietf-118",
+    "dtime": 3471000,
+    "ptime": 3471000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>This feels like it should either be an h3.1 ALPN (if we don't need to do this very often) or we revive ALPS. Lifting QPACK all the way to TLS seems a bit much.</p>",
+    "topic": "ietf-118",
+    "dtime": 3476000,
+    "ptime": 3476000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Isn't this just a subset of what ALPS was supposed to provide? Why not just bring back ALPS?</p>",
+    "topic": "ietf-118",
+    "dtime": 3520000,
+    "ptime": 3520000
+  },
+  {
+    "author": "Nick Banks",
+    "text": "<p>Why don't we expose a way for apps to leverage the QUIC transport parameters instead?</p>",
+    "topic": "ietf-118",
+    "dtime": 3537000,
+    "ptime": 3537000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>That's definitely one of the open points of discussion.  There's no reason this couldn't be a setting, except that it <em>has</em> to be processed before any requests are encoded.</p>",
+    "topic": "ietf-118",
+    "dtime": 3544000,
+    "ptime": 3544000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>(I have no opinion about ALPN vs ALPS here.)</p>",
+    "topic": "ietf-118",
+    "dtime": 3572000,
+    "ptime": 3572000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I think the technical details would differ for H2; the feature of allow static table agility should not be version restricted IMO</p>",
+    "topic": "ietf-118",
+    "dtime": 3580000,
+    "ptime": 3580000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"147\">Mike Bishop</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100351\">said</a>:</p>\n<blockquote>\n<p>That's definitely one of the open points of discussion.  There's no reason this couldn't be a setting, except that it <em>has</em> to be processed before any requests are encoded.</p>\n</blockquote>\n<p>Right, that's precisely the scenario ALPS was designed for.</p>",
+    "topic": "ietf-118",
+    "dtime": 3592000,
+    "ptime": 3592000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I think I agree with davidben on ALPN vs ALPS, I just think \"not a special thing just for QPACK\"</p>",
+    "topic": "ietf-118",
+    "dtime": 3736000,
+    "ptime": 3736000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Wouldn't we need additional attributes in ALPS in the client hello?  (Rather than just a list of ALPNs that support ALPS?)</p>",
+    "topic": "ietf-118",
+    "dtime": 3770000,
+    "ptime": 3770000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>But why did people object to ALPS? What would the likely objection be if we brought it back for this?</p>",
+    "topic": "ietf-118",
+    "dtime": 3828000,
+    "ptime": 3828000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100360\">said</a>:</p>\n<blockquote>\n<p>Wouldn't we need additional attributes in ALPS in the client hello?  (Rather than just a list of ALPNs that support ALPS?)</p>\n</blockquote>\n<p>ALPS is just an ALPN-specific byte string, so the ALPN protocol can decide what goes in there. For h2 and h3 we just said they were a sequence of frames, since that seemed most natural. So we'd just make a frame or SETTING and move on.</p>",
+    "topic": "ietf-118",
+    "dtime": 3860000,
+    "ptime": 3860000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>From memory, I think MT's objection to ALPS was that we didn't have enough of a use-case to justify the complexity</p>",
+    "topic": "ietf-118",
+    "dtime": 3881000,
+    "ptime": 3881000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>ALPS would let you fix this with more settings frames / new HTTP frame types once it's in. It's not a complete solution, unless you want to use the dynamic table.</p>",
+    "topic": "ietf-118",
+    "dtime": 3881000,
+    "ptime": 3881000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Eric, the flow is weird for a TLS extension.  If you put the client stuff in the ClientHello, it goes in the clear (modulo ECH), so ALPS doesn't -- it puts it later in the handshake.</p>",
+    "topic": "ietf-118",
+    "dtime": 3886000,
+    "ptime": 3886000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> isn't that only a concern until we do ECH?</p>",
+    "topic": "ietf-118",
+    "dtime": 3921000,
+    "ptime": 3921000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Hence \"modulo ECH\". :-)</p>",
+    "topic": "ietf-118",
+    "dtime": 3945000,
+    "ptime": 3945000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>ECH will never be applied to 100% of TLS connection</p>",
+    "topic": "ietf-118",
+    "dtime": 3946000,
+    "ptime": 3946000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>I believe another objection was an attempt to use TLS 1.3 half-RTT data, but half-RTT data is kinda weird and doesn't quite work. It especially doesn't work when you have a strong ordering requirement with the first request.</p>",
+    "topic": "ietf-118",
+    "dtime": 3969000,
+    "ptime": 3969000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>(I wrote draft-davidben-tls-alps-half-rtt discussing why half-RTT does not work well.)</p>",
+    "topic": "ietf-118",
+    "dtime": 3989000,
+    "ptime": 3989000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>There seems to be a substantial overlap with what is needed here and how a client might signal support for Martin's proposal for controlling concurrent streams with the same model as quic.</p>",
+    "topic": "ietf-118",
+    "dtime": 3990000,
+    "ptime": 3990000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> oops, should have read the parenthetical :)</p>",
+    "topic": "ietf-118",
+    "dtime": 3995000,
+    "ptime": 3995000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Disabling the static table altogether (and maybe huffman) would make H3 coding much simpler for folks who don't care about perf</p>",
+    "topic": "ietf-118",
+    "dtime": 4098000,
+    "ptime": 4098000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>yep^^</p>",
+    "topic": "ietf-118",
+    "dtime": 4110000,
+    "ptime": 4110000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100378\">said</a>:</p>\n<blockquote>\n<p>There seems to be a substantial overlap with what is needed here and how a client might signal support for Martin's proposal for controlling concurrent streams with the same model as quic.</p>\n</blockquote>\n<p>Right, feature and protocol negotiation are all just variations on \"I need a fixed connection-level property\". Which is basically the versioning (ALPN) vs independent extensions (ALPS) question.</p>",
+    "topic": "ietf-118",
+    "dtime": 4117000,
+    "ptime": 4117000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Looking at you, webtrans haters</p>",
+    "topic": "ietf-118",
+    "dtime": 4118000,
+    "ptime": 4118000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>No offense taken!</p>",
+    "topic": "ietf-118",
+    "dtime": 4167000,
+    "ptime": 4167000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1495\">Alan Frindell</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100386\">said</a>:</p>\n<blockquote>\n<p>Disabling the static table altogether (and maybe huffman) would make H3 coding much simpler for folks who don't care about perf</p>\n</blockquote>\n<p>IIRC that was also explicitly a use case for ALPS.</p>",
+    "topic": "ietf-118",
+    "dtime": 4189000,
+    "ptime": 4189000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Mike, do you remember the static table cut points for 2, 3 bytes?</p>",
+    "topic": "ietf-118",
+    "dtime": 4189000,
+    "ptime": 4189000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>WebTrans haters!? Where??? We're all enthusiasts here</p>",
+    "topic": "ietf-118",
+    "dtime": 4193000,
+    "ptime": 4193000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>I guess TLS flags might be an option for some of these, but might not scale in the long-term.<br>\n(And/or has fingerprinting issues)</p>",
+    "topic": "ietf-118",
+    "dtime": 4202000,
+    "ptime": 4202000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"29\">David Schinazi</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100399\">said</a>:</p>\n<blockquote>\n<p>WebTrans haters!? Where??? We're all enthusiasts here</p>\n</blockquote>\n<p>See you in moq</p>",
+    "topic": "ietf-118",
+    "dtime": 4206000,
+    "ptime": 4206000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100400\">said</a>:</p>\n<blockquote>\n<p>I guess TLS flags might be an option for some of these, but might not scale in the long-term.<br>\n(And/or has fingerprinting issues)</p>\n</blockquote>\n<p>No. Please let's not litter the TLS codepoint space with random individual h2 and h3 features. The whole point of designs like ALPN and ALPS is to give a clear separation here.</p>",
+    "topic": "ietf-118",
+    "dtime": 4249000,
+    "ptime": 4249000
+  },
+  {
+    "author": "Michael Toomim",
+    "text": "<p>At the point where we are updating the <strong>static table</strong> over time, that sure sounds like a <strong>dynamic table</strong>.</p>",
+    "topic": "ietf-118",
+    "dtime": 4261000,
+    "ptime": 4261000
+  },
+  {
+    "author": "Michael Toomim",
+    "text": "<p>Maybe we need better dynamic tables.</p>",
+    "topic": "ietf-118",
+    "dtime": 4290000,
+    "ptime": 4290000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>\"Dynamic\" here refers to stuff discovered over the course of a connection. What they're trying to solve here is pre-shared information.</p>",
+    "topic": "ietf-118",
+    "dtime": 4312000,
+    "ptime": 4312000
+  },
+  {
+    "author": "Michael Toomim",
+    "text": "<p>Understood, but maybe we are now noticing that this model of \"static\" and \"dynamic\" isn't quite holding up with practice.</p>",
+    "topic": "ietf-118",
+    "dtime": 4340000,
+    "ptime": 4340000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I wonder if the name \"static table\" should have been \"initial table\"?</p>",
+    "topic": "ietf-118",
+    "dtime": 4348000,
+    "ptime": 4348000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2908\">Michael Toomim</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100408\">said</a>:</p>\n<blockquote>\n<p>At the point where we are updating the <strong>static table</strong> over time, that sure sounds like a <strong>dynamic table</strong>.</p>\n</blockquote>\n<p>There's potential perf benefits. Referencing the static table is faster from a CPU perspective than mucking with the dynamic table</p>",
+    "topic": "ietf-118",
+    "dtime": 4366000,
+    "ptime": 4366000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Yeah, I think this is just possibly awkward terminology, not an issue with the model itself.</p>",
+    "topic": "ietf-118",
+    "dtime": 4383000,
+    "ptime": 4383000
+  },
+  {
+    "author": "Michael Toomim",
+    "text": "<p>Perhaps we could refer to an \"initial table\" via a URL, rather than via IANA.</p>",
+    "topic": "ietf-118",
+    "dtime": 4405000,
+    "ptime": 4405000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>sounds like ... dictionaries...</p>",
+    "topic": "ietf-118",
+    "dtime": 4415000,
+    "ptime": 4415000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>\"Less dynamic than the dynamic table table\"</p>",
+    "topic": "ietf-118",
+    "dtime": 4419000,
+    "ptime": 4419000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Although if ALPS doesn't provide enough information for the server to make an ALPN decision then there may still be tension for having a small number of per-ALPN flags in the client hello.</p>",
+    "topic": "ietf-118",
+    "dtime": 4425000,
+    "ptime": 4425000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100424\">said</a>:</p>\n<blockquote>\n<p>Although if ALPS doesn't provide enough information for the server to make an ALPN decision then there may still be tension for having a small number of per-ALPN flags in the client hello.</p>\n</blockquote>\n<p>Huh? ALPS is decided after ALPN. Can you clarify what the concern is here? I don't see why this use case would need to feed into an ALPN decision.</p>",
+    "topic": "ietf-118",
+    "dtime": 4463000,
+    "ptime": 4463000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Maybe we need http-ops?</p>",
+    "topic": "ietf-118",
+    "dtime": 4485000,
+    "ptime": 4485000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>No, the static table is not an initial table -- it's a distinct table that always stays in range, while dynamic entries roll off as the table filles up.</p>",
+    "topic": "ietf-118",
+    "dtime": 4489000,
+    "ptime": 4489000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>H2 cut points are slightly different so you might organize the same set of headers differently?</p>",
+    "topic": "ietf-118",
+    "dtime": 4496000,
+    "ptime": 4496000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Alan, I don't remember the cut-points off the top of my head, but it should be easy enough to reconstruct them.</p>",
+    "topic": "ietf-118",
+    "dtime": 4538000,
+    "ptime": 4538000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>14 comes to mind and then ... shrug</p>",
+    "topic": "ietf-118",
+    "dtime": 4560000,
+    "ptime": 4560000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I think \"whose performance data\" is an interesting question.  Different tables will impact different client/server pairs differrently</p>",
+    "topic": "ietf-118",
+    "dtime": 4624000,
+    "ptime": 4624000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Not this case, but for the \"I support the quic style concurrent streams model for h2\" (which might feed into whether a server selects h2 or http/1.1).  But maybe that's where alpn \"h2.1\" ends up showing up.</p>",
+    "topic": "ietf-118",
+    "dtime": 4628000,
+    "ptime": 4628000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"829\">David Benjamin</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100428\">said</a>:</p>\n<blockquote>\n<p>Huh? ALPS is decided after ALPN. Can you clarify what the concern is here? I don't see why this use case would need to feed into an ALPN decision.</p>\n</blockquote>\n<p>I found the diagram at <a href=\"https://datatracker.ietf.org/doc/html/draft-vvv-tls-alps-01#name-wire-protocol\">https://datatracker.ietf.org/doc/html/draft-vvv-tls-alps-01#name-wire-protocol</a> helpful</p>",
+    "topic": "ietf-118",
+    "dtime": 4715000,
+    "ptime": 4715000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/225-httpbis/topic/ietf-118/near/100444\">said</a>:</p>\n<blockquote>\n<p>Not this case, but for the \"I support the quic style concurrent streams model for h2\" (which might feed into whether a server selects h2 or http/1.1).  But maybe that's where alpn \"h2.1\" ends up showing up.</p>\n</blockquote>\n<p>Yeah, that sounds solidly like an \"h2.1\" thing. This is the usual tradeoff between ordered versions and independent a la carte extensions. I haven't been following the streams issue as carefully, but since it sounds like a \"oops, we goofed and got this wrong\" situation, versioning sounds better.</p>",
+    "topic": "ietf-118",
+    "dtime": 4831000,
+    "ptime": 4831000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>(To that end, the reason I said the QPACK table could be ALPN or ALPS is that if we just do this very infrequently and just add to the list, updating the table every several years when we want a minor rev of the protocol is perfectly fine.)</p>",
+    "topic": "ietf-118",
+    "dtime": 4978000,
+    "ptime": 4978000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<blockquote>\n<p>If you work on a browser, you will often hear remarks like, Why don't you just put [popular framework] in the browser?</p>\n</blockquote>\n<blockquote>\n<p>This is a good question — or at least it illuminates how browser teams think about tradeoffs. Spoiler: it's gnarly.</p>\n</blockquote>\n<p><a href=\"https://infrequently.org/2022/03/cache-and-prizes/\">https://infrequently.org/2022/03/cache-and-prizes/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 5042000,
+    "ptime": 5042000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-HTTPBIS-20231109-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/httpbis"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-HTTPBIS-20231109-1400"
+		}		
+	]
+}

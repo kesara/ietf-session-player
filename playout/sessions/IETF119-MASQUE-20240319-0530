@@ -1,0 +1,1001 @@
+
+{
+	"title": "IETF119-MASQUE-20240319-0530",
+	"filename": "IETF119-MASQUE-20240319-0530",
+	"start": 0,
+	"end": 5589000,
+	"start_datetime": "2024-03-19T05:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "pj6ufE9r3Hc",
+    "start": 0,
+    "end": "5589000"
+  }
+],
+	"messages": [
+  {
+    "author": "Brian Trammell",
+    "text": "<p>i can do backup notes</p>",
+    "topic": "ietf-119",
+    "dtime": 362000,
+    "ptime": 362000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>(remote though)</p>",
+    "topic": "ietf-119",
+    "dtime": 364000,
+    "ptime": 364000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>wait, did y'all just port TAPS framers into MASQUE? neat.</p>",
+    "topic": "ietf-119",
+    "dtime": 837000,
+    "ptime": 837000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>What is a TAPS framer?</p>",
+    "topic": "ietf-119",
+    "dtime": 876000,
+    "ptime": 876000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>basically a transform, but shimmed between the API and the wire.</p>",
+    "topic": "ietf-119",
+    "dtime": 926000,
+    "ptime": 926000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>TAPS as in <a href=\"https://datatracker.ietf.org/wg/taps/\">https://datatracker.ietf.org/wg/taps/</a> or is this a name conflict?</p>",
+    "topic": "ietf-119",
+    "dtime": 1062000,
+    "ptime": 1062000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Brian Trammelll -- coming to you over AM radio</p>",
+    "topic": "ietf-119",
+    "dtime": 1075000,
+    "ptime": 1075000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>yes that taps</p>",
+    "topic": "ietf-119",
+    "dtime": 1107000,
+    "ptime": 1107000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>(disregard the taps refs though, I'm mainly just trolling David. :) )</p>",
+    "topic": "ietf-119",
+    "dtime": 1121000,
+    "ptime": 1121000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Brian that's too much TAPS</p>",
+    "topic": "ietf-119",
+    "dtime": 1125000,
+    "ptime": 1125000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>lol</p>",
+    "topic": "ietf-119",
+    "dtime": 1129000,
+    "ptime": 1129000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>mission accomplished :D</p>",
+    "topic": "ietf-119",
+    "dtime": 1134000,
+    "ptime": 1134000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>what happens if I specify <code>transform=identity.identity,identity,identity,identity,identity,identity,identity,identity</code> ?</p>",
+    "topic": "ietf-119",
+    "dtime": 1137000,
+    "ptime": 1137000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Can you repeat transforms?</p>",
+    "topic": "ietf-119",
+    "dtime": 1166000,
+    "ptime": 1166000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>you get back buffalo,buffalo,buffalo,buffalo,buffalo,buffalo,buffalo,buffalo,</p>",
+    "topic": "ietf-119",
+    "dtime": 1170000,
+    "ptime": 1170000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>You can think of composed transform</p>",
+    "topic": "ietf-119",
+    "dtime": 1248000,
+    "ptime": 1248000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>ROT-13 twice?</p>",
+    "topic": "ietf-119",
+    "dtime": 1271000,
+    "ptime": 1271000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>If we learned anything from TLS ciphersuites, we learned to keep the menu of sensible options small.</p>",
+    "topic": "ietf-119",
+    "dtime": 1299000,
+    "ptime": 1299000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>These are bytes, so we'd have to rot-128</p>",
+    "topic": "ietf-119",
+    "dtime": 1301000,
+    "ptime": 1301000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>(But the security aspect of the composition is not something we commit to)</p>",
+    "topic": "ietf-119",
+    "dtime": 1324000,
+    "ptime": 1324000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>Maybe rename \"null\" transform to \"passive-aggressive-compression\", as in, \"I don't think there's any new information anyway\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1342000,
+    "ptime": 1342000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>It is now an identity transform anyway</p>",
+    "topic": "ietf-119",
+    "dtime": 1376000,
+    "ptime": 1376000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>(AM radio: switching to the pandemic-era podcast rig now. was on headphones to let the family sleep but it's morning now)</p>",
+    "topic": "ietf-119",
+    "dtime": 1445000,
+    "ptime": 1445000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>tossed-salad-and-scrambled</p>",
+    "topic": "ietf-119",
+    "dtime": 1477000,
+    "ptime": 1477000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>(Still morning for 30 minutes here)</p>",
+    "topic": "ietf-119",
+    "dtime": 1494000,
+    "ptime": 1494000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Brian -- turn on the speakers, maybe we can collectively wake them up</p>",
+    "topic": "ietf-119",
+    "dtime": 1545000,
+    "ptime": 1545000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>BTW, there are some great bikeshed questions about which transforms, if any, are MTI (for either party), and whether there is a default.</p>",
+    "topic": "ietf-119",
+    "dtime": 1575000,
+    "ptime": 1575000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>Are transforms required to be supported?</p>",
+    "topic": "ietf-119",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>transform=scramble should be the default</p>",
+    "topic": "ietf-119",
+    "dtime": 1619000,
+    "ptime": 1619000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>MTI</p>",
+    "topic": "ietf-119",
+    "dtime": 1624000,
+    "ptime": 1624000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I agree with Martin on this</p>",
+    "topic": "ietf-119",
+    "dtime": 1640000,
+    "ptime": 1640000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 1661000,
+    "ptime": 1661000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>There is currently no default.  <a href=\"https://github.com/ietf-wg-masque/draft-ietf-masque-quic-proxy/pull/99/files#diff-15989da260773d143aa26dfcede63dff650a8d3c2f684cd01cc97adf9e9cf53cR474\">https://github.com/ietf-wg-masque/draft-ietf-masque-quic-proxy/pull/99/files#diff-15989da260773d143aa26dfcede63dff650a8d3c2f684cd01cc97adf9e9cf53cR474</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1667000,
+    "ptime": 1667000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Identity should also be MTI but I agree Scramble should be default</p>",
+    "topic": "ietf-119",
+    "dtime": 1687000,
+    "ptime": 1687000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Isn't \"identity\" an implied default if you don't specify one?</p>",
+    "topic": "ietf-119",
+    "dtime": 1689000,
+    "ptime": 1689000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I agree that there should be at least one MTI.</p>",
+    "topic": "ietf-119",
+    "dtime": 1695000,
+    "ptime": 1695000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>+1 Antoine</p>",
+    "topic": "ietf-119",
+    "dtime": 1697000,
+    "ptime": 1697000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Oh, let me reconsider: if we require scramble, then we don't need to have identity as MTI</p>",
+    "topic": "ietf-119",
+    "dtime": 1718000,
+    "ptime": 1718000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>And it seems like scramble (and identity) make sense.</p>",
+    "topic": "ietf-119",
+    "dtime": 1721000,
+    "ptime": 1721000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/99-masque/topic/ietf-119/near/110885\">said</a>:</p>\n<blockquote>\n<p>Isn't \"identity\" an implied default if you don't specify one?</p>\n</blockquote>\n<p>Nope, not specifying one is (implicitly) a protocol error.</p>",
+    "topic": "ietf-119",
+    "dtime": 1729000,
+    "ptime": 1729000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Then, if you want identity, both client and proxy have to support and advertise (and maybe prefer) identity.</p>",
+    "topic": "ietf-119",
+    "dtime": 1748000,
+    "ptime": 1748000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I think Identity should be MTI if, for some reason, we have proxies that are weak and can't handle scramble for some reason, even if I am convinced the scramble transform does not put a strong computing burden</p>",
+    "topic": "ietf-119",
+    "dtime": 1816000,
+    "ptime": 1816000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That smells like a MTI HTTP (not HTTPS) argument.</p>",
+    "topic": "ietf-119",
+    "dtime": 1850000,
+    "ptime": 1850000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Martin Indeed, the difference being that the packet content's confidentiality is protected by the proxied QUIC connection</p>",
+    "topic": "ietf-119",
+    "dtime": 1927000,
+    "ptime": 1927000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>But I agree it makes a downgrade that harms privacy MTI</p>",
+    "topic": "ietf-119",
+    "dtime": 1963000,
+    "ptime": 1963000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Is there any more detail about what crypto mode scramble is?</p>",
+    "topic": "ietf-119",
+    "dtime": 2113000,
+    "ptime": 2113000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>basically ctr</p>",
+    "topic": "ietf-119",
+    "dtime": 2144000,
+    "ptime": 2144000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>maybe fix the problem properly then?</p>",
+    "topic": "ietf-119",
+    "dtime": 2179000,
+    "ptime": 2179000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>this is all very troubling</p>",
+    "topic": "ietf-119",
+    "dtime": 2205000,
+    "ptime": 2205000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>and all because we wanted to save some extra RTTs to the proxy</p>",
+    "topic": "ietf-119",
+    "dtime": 2216000,
+    "ptime": 2216000
+  },
+  {
+    "author": "Dennis Jackson",
+    "text": "<p>Design team output: <a href=\"https://github.com/ietf-wg-masque/draft-ietf-masque-quic-proxy/pull/99/files\">https://github.com/ietf-wg-masque/draft-ietf-masque-quic-proxy/pull/99/files</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2218000,
+    "ptime": 2218000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Would it help to let the proxy choose the client CIDs as sent to the target?</p>",
+    "topic": "ietf-119",
+    "dtime": 2297000,
+    "ptime": 2297000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Infinite is just 2^64 now?</p>",
+    "topic": "ietf-119",
+    "dtime": 2425000,
+    "ptime": 2425000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>practically infinite</p>",
+    "topic": "ietf-119",
+    "dtime": 2457000,
+    "ptime": 2457000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>you get one infinity per locally-routable v6 prefix, seems legit</p>",
+    "topic": "ietf-119",
+    "dtime": 2476000,
+    "ptime": 2476000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>2^62</p>",
+    "topic": "ietf-119",
+    "dtime": 2477000,
+    "ptime": 2477000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Just like how our computers are not real turing machines (no infinite tape), effectively infinite rules our world :)</p>",
+    "topic": "ietf-119",
+    "dtime": 2491000,
+    "ptime": 2491000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>2^62 == Infinity</p>",
+    "topic": "ietf-119",
+    "dtime": 2500000,
+    "ptime": 2500000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>#define MIN_INFINITY 2**62<br>\n#define MAX_INFINITY <br>\n2**64</p>",
+    "topic": "ietf-119",
+    "dtime": 2530000,
+    "ptime": 2530000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>The captioning seems to think I am Abhi.</p>",
+    "topic": "ietf-119",
+    "dtime": 2655000,
+    "ptime": 2655000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Nobody needs more than 64^k of memory (k = 10)</p>",
+    "topic": "ietf-119",
+    "dtime": 2660000,
+    "ptime": 2660000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>You're an imposter!</p>",
+    "topic": "ietf-119",
+    "dtime": 2672000,
+    "ptime": 2672000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>MAX_INFINITY needs to be (1&lt;&lt;64) - 1</p>",
+    "topic": "ietf-119",
+    "dtime": 2696000,
+    "ptime": 2696000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>but what about SIGNED_INFINITY?</p>",
+    "topic": "ietf-119",
+    "dtime": 2718000,
+    "ptime": 2718000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>Or should I say that Abhi is me?</p>",
+    "topic": "ietf-119",
+    "dtime": 2722000,
+    "ptime": 2722000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@Tommy Pauly but isn't it the origin that is sending this header field?</p>",
+    "topic": "ietf-119",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>maybe that comment applies to other parameters of proxy-status, though</p>",
+    "topic": "ietf-119",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>A completely new address is not useful.  You get more privacy if you get an address that has already been used.</p>",
+    "topic": "ietf-119",
+    "dtime": 2796000,
+    "ptime": 2796000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Why sf-dict and not just sf-list? That way you can have as many or few v4/v6 addresses?</p>",
+    "topic": "ietf-119",
+    "dtime": 2860000,
+    "ptime": 2860000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>send links to PR here?</p>",
+    "topic": "ietf-119",
+    "dtime": 2887000,
+    "ptime": 2887000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>+1 to sf-list; you do not want to handle the case of type being \"v6\" and the address being v4 or vice versa</p>",
+    "topic": "ietf-119",
+    "dtime": 2905000,
+    "ptime": 2905000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>That setup enables running a server from the home, and other similar scenarios. If you want to do that scenario and use private addresses, you will need quite a bit of work</p>",
+    "topic": "ietf-119",
+    "dtime": 2922000,
+    "ptime": 2922000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p><a href=\"https://github.com/ietf-wg-masque/draft-ietf-masque-connect-udp-listen/pull/18\">https://github.com/ietf-wg-masque/draft-ietf-masque-connect-udp-listen/pull/18</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2935000,
+    "ptime": 2935000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Looks like <a href=\"https://github.com/ietf-wg-masque/draft-ietf-masque-connect-udp-listen/pull/18\">https://github.com/ietf-wg-masque/draft-ietf-masque-connect-udp-listen/pull/18</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2937000,
+    "ptime": 2937000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I'm attending the meeting to learn what's going on, so if the slides don't contain links to the PRs that makes it hard to follow</p>",
+    "topic": "ietf-119",
+    "dtime": 2945000,
+    "ptime": 2945000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>and compression (currently being discussed) is <a href=\"https://github.com/ietf-wg-masque/draft-ietf-masque-connect-udp-listen/pull/19\">https://github.com/ietf-wg-masque/draft-ietf-masque-connect-udp-listen/pull/19</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2994000,
+    "ptime": 2994000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Can I add a QUIC connection ID to that list?</p>",
+    "topic": "ietf-119",
+    "dtime": 3001000,
+    "ptime": 3001000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Thanks Alex</p>",
+    "topic": "ietf-119",
+    "dtime": 3011000,
+    "ptime": 3011000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It would be really nice if I could compress out a QUIC cid for outbound packets.</p>",
+    "topic": "ietf-119",
+    "dtime": 3026000,
+    "ptime": 3026000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I wonder whether a name based solution would also work. \"The proxy assigned you <code>proxy.example.net:3456</code>\"</p>",
+    "topic": "ietf-119",
+    "dtime": 3089000,
+    "ptime": 3089000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>David Schinazi: do you have a cap on the number of contexts?</p>",
+    "topic": "ietf-119",
+    "dtime": 3491000,
+    "ptime": 3491000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>You can open as many as you want but you can't use them until the other side accepts it</p>",
+    "topic": "ietf-119",
+    "dtime": 3523000,
+    "ptime": 3523000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>So one side can decide to not spend resources</p>",
+    "topic": "ietf-119",
+    "dtime": 3536000,
+    "ptime": 3536000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>So you can close before you accept?</p>",
+    "topic": "ietf-119",
+    "dtime": 3545000,
+    "ptime": 3545000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>yeah</p>",
+    "topic": "ietf-119",
+    "dtime": 3553000,
+    "ptime": 3553000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Queue is closed so I’ll say it here: I don’t love COMPRESSION_CLOSE meaning three different things depending on context. Are capsule numbers scarce?</p>",
+    "topic": "ietf-119",
+    "dtime": 3560000,
+    "ptime": 3560000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>In general capsules' error handling is woefully underspecified and we're just hoping they don't fail</p>",
+    "topic": "ietf-119",
+    "dtime": 3572000,
+    "ptime": 3572000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Ben, I think what you're saying is that you should always be able to re-open the wide-open context?</p>",
+    "topic": "ietf-119",
+    "dtime": 3584000,
+    "ptime": 3584000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>+1 to <span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> , we had that ambiguity in CONNECT-IP and we ended up adding sequence numbers to distinguish request/response capsules, since ADDRESS_ASSIGN could be sent unprompted.</p>",
+    "topic": "ietf-119",
+    "dtime": 3632000,
+    "ptime": 3632000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> Yes, and in general the state machine should be reversible back to any prior state.  \"Close means block\" seems like it creates a kind of ratchet that strikes me as undesirable.</p>",
+    "topic": "ietf-119",
+    "dtime": 3644000,
+    "ptime": 3644000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>If you get the logic wrong about which COMPRESSION_CLOSEs you echo, you could end up with an infinite ping-pong of them.</p>",
+    "topic": "ietf-119",
+    "dtime": 3740000,
+    "ptime": 3740000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>PRO TIP: DO NOT TAKE NOTES IN THE EMBEDDED HEDGEDOC FRAME.  Everything moves around all the time.</p>",
+    "topic": "ietf-119",
+    "dtime": 3755000,
+    "ptime": 3755000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>There are lots of ways to spell this, like maybe a COMPRESSION_SILENCE capsule that reversibly silences a context.</p>",
+    "topic": "ietf-119",
+    "dtime": 3769000,
+    "ptime": 3769000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>The design with just two capsules was intended to try to make the smallest possible solution. If we find cases that can't be handled then it makes sense to add more fields or capsules</p>",
+    "topic": "ietf-119",
+    "dtime": 3815000,
+    "ptime": 3815000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>We didn't really design capsules to have fields added to them later, though?</p>",
+    "topic": "ietf-119",
+    "dtime": 3839000,
+    "ptime": 3839000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>no I meant in this PR</p>",
+    "topic": "ietf-119",
+    "dtime": 3850000,
+    "ptime": 3850000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Ah, that makes more sense.</p>",
+    "topic": "ietf-119",
+    "dtime": 3859000,
+    "ptime": 3859000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Ben, I'm not sure I agree that the ratchet is bad.  If you've closed yourself down to incoming packets, you can just make a new CONNECT request to start listening again. The main drawback is that you're not guaranteed to get the same remote port as you did previously.</p>",
+    "topic": "ietf-119",
+    "dtime": 3948000,
+    "ptime": 3948000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I’d say in fact you’re guaranteed not to, I hope?</p>",
+    "topic": "ietf-119",
+    "dtime": 3994000,
+    "ptime": 3994000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> Imagine a long-lived WebRTC connection where my peer is regularly moving, and I open a compression context for each new peer IP.  If I don't close the compression contexts, I build up an unbounded number of contexts.  If I do close them, I kill the connection if the peer ever returns to a prior address.  This is bad.</p>",
+    "topic": "ietf-119",
+    "dtime": 4053000,
+    "ptime": 4053000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Doesn't switching to streams create weird performance discontinuities?</p>",
+    "topic": "ietf-119",
+    "dtime": 4198000,
+    "ptime": 4198000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Ben, how are you discovering that the peer has moved? It seems that supporting that scenario entails leaving the wide-open context open for the lifetime of the session.</p>",
+    "topic": "ietf-119",
+    "dtime": 4241000,
+    "ptime": 4241000
+  },
+  {
+    "author": "Ziyang Xing",
+    "text": "<p>what will happen in non-IP /ICN</p>",
+    "topic": "ietf-119",
+    "dtime": 4269000,
+    "ptime": 4269000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>(In which case, nothing fails, it just comes in uncompressed.)</p>",
+    "topic": "ietf-119",
+    "dtime": 4271000,
+    "ptime": 4271000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> Correct, the wide-open context is always open in this case.  But IIUC this PR imagines that you can leave that context open while imposing targeted blocks by closing specific contexts.</p>",
+    "topic": "ietf-119",
+    "dtime": 4335000,
+    "ptime": 4335000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'd be happier dropping the proposal than the packet :p</p>",
+    "topic": "ietf-119",
+    "dtime": 4352000,
+    "ptime": 4352000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>No, I think the proposal is the reverse -- once you've opened specific contexts and you've received all the incoming connections you were expecting, you can close the wide one and only receive from addresses you have contexts for.</p>",
+    "topic": "ietf-119",
+    "dtime": 4395000,
+    "ptime": 4395000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Christian: but that is fragmentation and reassembly!</p>",
+    "topic": "ietf-119",
+    "dtime": 4434000,
+    "ptime": 4434000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Christian, that seems like we'd be saying put it as a capsule on the stream (enforces ordering) or create a way to stick each big packet  on a unidirectional stream.</p>",
+    "topic": "ietf-119",
+    "dtime": 4500000,
+    "ptime": 4500000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Nah we could make it work with unidirectional streams. Not a great idea though</p>",
+    "topic": "ietf-119",
+    "dtime": 4548000,
+    "ptime": 4548000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>You can define unidirectional stream types in HTTP/3, it's just an interface pain.</p>",
+    "topic": "ietf-119",
+    "dtime": 4568000,
+    "ptime": 4568000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Not really any worse than adding Datagrams, though?</p>",
+    "topic": "ietf-119",
+    "dtime": 4577000,
+    "ptime": 4577000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>all modern routers support bigger MTU. You could just assume that tunnel could accommodate overhead.</p>",
+    "topic": "ietf-119",
+    "dtime": 4605000,
+    "ptime": 4605000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Yeah I've been toying with the idea of a unidirectional stream type that means DATAGRAM. (Or uplevel one layer and have it mean CAPSULE)</p>",
+    "topic": "ietf-119",
+    "dtime": 4627000,
+    "ptime": 4627000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>The problem is not the ethernet MTU on the routers; the problem is you may not control the MTU of the destination network you are connecting to.</p>",
+    "topic": "ietf-119",
+    "dtime": 4647000,
+    "ptime": 4647000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I disagree somewhat with Yaroslav: we have privacy requirements on MAC allocation</p>",
+    "topic": "ietf-119",
+    "dtime": 4681000,
+    "ptime": 4681000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Given that discussion, I am tempted to do \"Masque over web transport\"...</p>",
+    "topic": "ietf-119",
+    "dtime": 4689000,
+    "ptime": 4689000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>it is the same problem when you try to bridge 2 802.3 broadcast domains. IMHO: it is not your problem. Configuration error.</p>",
+    "topic": "ietf-119",
+    "dtime": 4719000,
+    "ptime": 4719000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"147\">Mike Bishop</span> <a href=\"#narrow/stream/99-masque/topic/ietf-119/near/111067\">said</a>:</p>\n<blockquote>\n<p>No, I think the proposal is the reverse -- once you've opened specific contexts and you've received all the incoming connections you were expecting, you can close the wide one and only receive from addresses you have contexts for.</p>\n</blockquote>\n<p>That doesn't match what I heard in the presentation, but it does seem to match the PR.  I must have misunderstood the presentation.  The PR doesn't seem to support targeted blocks.  That's fine with me and avoids the ratchet issue.</p>",
+    "topic": "ietf-119",
+    "dtime": 4741000,
+    "ptime": 4741000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"486\">@Eduard V</span> yes, by definition, that is what we are trying to do. But the goal is to not have a forced-error in the default mode where everyone's configuration is sad. Consider the typical home network, which could be a CONNECT-ETHERNET target. Are you going to lower the ethernet MTU of all connected devices to account for CONNECT-ETHERNET encapsulation overhead?</p>",
+    "topic": "ietf-119",
+    "dtime": 4800000,
+    "ptime": 4800000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> the issue in MoQ are pretty similar: pass media frames of various sizes, maintain low latency. The solutions do entail resetting unidir streams that have waited too long. or datagrams, but only if the whole frame fits in a datagram.</p>",
+    "topic": "ietf-119",
+    "dtime": 4823000,
+    "ptime": 4823000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>maybe we need a QUIC JUMBOGRAM frame?</p>",
+    "topic": "ietf-119",
+    "dtime": 4861000,
+    "ptime": 4861000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Christian: MoQ has a pretty clear understanding of the application domain (even if it is big).  That doesn't apply here.</p>",
+    "topic": "ietf-119",
+    "dtime": 4900000,
+    "ptime": 4900000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>@Alex, this is invented problem. It does not exist in reality. Every home has 1500B but every DC has 9000B. So what? Any bridging would not work.</p>",
+    "topic": "ietf-119",
+    "dtime": 4904000,
+    "ptime": 4904000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Every DC has 9000B, and MSS clamps when egressing to the outside world. This is <em>not</em> an invented problem.</p>",
+    "topic": "ietf-119",
+    "dtime": 4927000,
+    "ptime": 4927000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Lucas: How is that different from a stream that’s immediately reset?</p>",
+    "topic": "ietf-119",
+    "dtime": 4932000,
+    "ptime": 4932000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>@Alex, tunneling would not make this problem worser.</p>",
+    "topic": "ietf-119",
+    "dtime": 4956000,
+    "ptime": 4956000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> The time has come for an MSS clamping RFC <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 4977000,
+    "ptime": 4977000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>it would provide an interface to apps to send a message and ignore any matters to do with streams, including flow control and reset timings</p>",
+    "topic": "ietf-119",
+    "dtime": 4982000,
+    "ptime": 4982000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>If 2 segments is not possible to connect because of MTU then it does not matter: direct connenction, VxLAN, or any other tunneling.</p>",
+    "topic": "ietf-119",
+    "dtime": 5053000,
+    "ptime": 5053000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>Do not try to solve all problems in the Universe.</p>",
+    "topic": "ietf-119",
+    "dtime": 5073000,
+    "ptime": 5073000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"486\">@Eduard V</span> tunneling <em>necessitates</em> a solution, either with every other participant of the broadcast domain clamping, or the tunnel endpoint being \"smart\", or us being OK with dropping on MTU mismatch.</p>",
+    "topic": "ietf-119",
+    "dtime": 5074000,
+    "ptime": 5074000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Link: &lt;/dns&gt;; rel=doh</p>",
+    "topic": "ietf-119",
+    "dtime": 5092000,
+    "ptime": 5092000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> perhaps? What would we say? What wg would we take it to?</p>",
+    "topic": "ietf-119",
+    "dtime": 5121000,
+    "ptime": 5121000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Probably TSVWG.  It would say \"MSS clamping is a thing and it's OK\".</p>",
+    "topic": "ietf-119",
+    "dtime": 5166000,
+    "ptime": 5166000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I would be in support of that. It's basically an open secret everyone does it.</p>",
+    "topic": "ietf-119",
+    "dtime": 5184000,
+    "ptime": 5184000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Closing the queue momentarily</p>",
+    "topic": "ietf-119",
+    "dtime": 5247000,
+    "ptime": 5247000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>bye all</p>",
+    "topic": "ietf-119",
+    "dtime": 5502000,
+    "ptime": 5502000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-MASQUE-20240319-0530"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/masque"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-MASQUE-20240319-0530"
+		}		
+	]
+}

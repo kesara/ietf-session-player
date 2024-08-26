@@ -1,0 +1,830 @@
+{
+  "title": "IETF101-CBOR-20180320-1330",
+  "filename": "IETF101-CBOR-20180320-1330",
+  "start": 0,
+  "end": 6919000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "FrVinVcs-P0",
+      "start": 0.0,
+      "end": 6919000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Edward Lewis just joined the room",
+      "ptime": 27000.0,
+      "dtime": 909000.0
+    },
+    {
+      "text": "***Thiago Macieira just joined the room",
+      "ptime": 59000.0,
+      "dtime": 941000.0
+    },
+    {
+      "text": "Do you need support from the AV team there?",
+      "ptime": 260000.0,
+      "dtime": 1142000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "We see chairs tinkering with the projector",
+      "ptime": 270000.0,
+      "dtime": 1152000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "Ok, looks like they sorted it out",
+      "ptime": 331000.0,
+      "dtime": 1213000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Thiago Macieira just left the room",
+      "ptime": 362000.0,
+      "dtime": 1244000.0
+    },
+    {
+      "text": "***zyxbac just joined the room",
+      "ptime": 395000.0,
+      "dtime": 1277000.0
+    },
+    {
+      "text": "carsten\u0027s USB-C to HDMI converter was bad, but someone else had one.",
+      "ptime": 452000.0,
+      "dtime": 1334000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "meetecho: The plain hdmi plug did not seem to work correclty",
+      "ptime": 454000.0,
+      "dtime": 1336000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "jimsch1: got it (y)",
+      "ptime": 470000.0,
+      "dtime": 1352000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "If you want comments relayed to the mic, please be explicit by doing something like MIC: ....",
+      "ptime": 497000.0,
+      "dtime": 1379000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "hildjj: thanks for the clarification!",
+      "ptime": 500000.0,
+      "dtime": 1382000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Michel Veillette just joined the room",
+      "ptime": 501000.0,
+      "dtime": 1383000.0
+    },
+    {
+      "text": "***zyxbac just joined the room",
+      "ptime": 537000.0,
+      "dtime": 1419000.0
+    },
+    {
+      "text": "***Thiago Macieira just joined the room",
+      "ptime": 760000.0,
+      "dtime": 1642000.0
+    },
+    {
+      "text": "***Thiago Macieira just left the room",
+      "ptime": 762000.0,
+      "dtime": 1644000.0
+    },
+    {
+      "text": "***Thiago Macieira just joined the room",
+      "ptime": 767000.0,
+      "dtime": 1649000.0
+    },
+    {
+      "text": "***Thiago Macieira just left the room",
+      "ptime": 889000.0,
+      "dtime": 1771000.0
+    },
+    {
+      "text": "***Thiago Macieira just joined the room",
+      "ptime": 899000.0,
+      "dtime": 1781000.0
+    },
+    {
+      "text": "carsten said \"it won\u0027t be shakespeare\".  See RFC 6120 and 6121 for RFCs that *are* shakespeare.",
+      "ptime": 903000.0,
+      "dtime": 1785000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "***Thiago Macieira just left the room",
+      "ptime": 1017000.0,
+      "dtime": 1899000.0
+    },
+    {
+      "text": "***Thiago Macieira just joined the room",
+      "ptime": 1026000.0,
+      "dtime": 1908000.0
+    },
+    {
+      "text": "MIC: I want to express that I am opposed to introducing \"cuts\" into CDDL v1.0. Cuts transform a context-free grammar into a context-sensitive one. An alternative, \"subsets\" or \"constraints\", was sketched out in Singapore. From an editorial point, this is introducing new matter at the last minute when it needs to be fleshed out more over the coming months, i.e., after we get this version of CDDL out. (So basically it is similar to Jeffrey Yaskin\u0027s point: not well specified and also trying to do too much.)",
+      "ptime": 1229000.0,
+      "dtime": 2111000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Are we supposed to see any slides?",
+      "ptime": 1303000.0,
+      "dtime": 2185000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "Thiago yes, you don\u0027t see them? are you in meetecho?",
+      "ptime": 1365000.0,
+      "dtime": 2247000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Slides should be up and running",
+      "ptime": 1393000.0,
+      "dtime": 2275000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "(we are on slide 10 of https://datatracker.ietf.org/meeting/101/materials/slides-101-cbor-consolidated-00.pdf)",
+      "ptime": 1419000.0,
+      "dtime": 2301000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Thiago Macieira: I don\u0027t see any connection from you to get slides and video feed, only the audio connection, can you try rejoining?",
+      "ptime": 1454000.0,
+      "dtime": 2336000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 1464000.0,
+      "dtime": 2346000.0
+    },
+    {
+      "text": "***Sean Leonard just joined the room",
+      "ptime": 1469000.0,
+      "dtime": 2351000.0
+    },
+    {
+      "text": "Mic: So the point is that you want to say \"4 is text only, all other uints are anything else\", right? So the slide says \"* unit\" and that means \"* all uints except 4\", right? What happens when later you want to say 5 is only a byte string? You have to put ? 5 : at the top, but you can\u0027t put it at the top, you are supposed to be putting it at the bottom...",
+      "ptime": 1582000.0,
+      "dtime": 2464000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "What\u0027s the efficiency of the CDDL parser? O(#group-entries^2)? O(2^#group-entries)?",
+      "ptime": 1601000.0,
+      "dtime": 2483000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "And do we care?",
+      "ptime": 1604000.0,
+      "dtime": 2486000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "Sean: I don\u0027t understand \"supposed to ber putting it at the bottom\"",
+      "ptime": 1655000.0,
+      "dtime": 2537000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "...when you expand in subsequent revisions of the spec",
+      "ptime": 1658000.0,
+      "dtime": 2540000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "by extending the group",
+      "ptime": 1666000.0,
+      "dtime": 2548000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "(yeah, what jim schaad is saying)",
+      "ptime": 1685000.0,
+      "dtime": 2567000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Ah",
+      "ptime": 1687000.0,
+      "dtime": 2569000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "(you can mic that)",
+      "ptime": 1690000.0,
+      "dtime": 2572000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Did I get the same as what you said",
+      "ptime": 1727000.0,
+      "dtime": 2609000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "pretty much, jimsch. thanks!",
+      "ptime": 1736000.0,
+      "dtime": 2618000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "the way that \"constraints\" work is that you say, with appropriate syntax: * unit -\u003e any FIRST. Then in the subsequent parts of the spec, you identify specific instances of *uint \u003d\u003e any. For example: \"when uint is 4: text\". \"When uint is 5: byte string\". (this is discussed in draft-seantek-constrained-abnf, for ABNF.)",
+      "ptime": 1803000.0,
+      "dtime": 2685000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "is that mic, Sean?",
+      "ptime": 1833000.0,
+      "dtime": 2715000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "yes, you can mic that",
+      "ptime": 1841000.0,
+      "dtime": 2723000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "so MIC: [previous text]",
+      "ptime": 1850000.0,
+      "dtime": 2732000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "the precise nature of the syntax requires a bit more fleshing out though",
+      "ptime": 1863000.0,
+      "dtime": 2745000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Ok, half an hour later, after erloading, I see slides and video.",
+      "ptime": 2325000.0,
+      "dtime": 3207000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "No, I wasn\u0027t seeing any slides. Or replies.",
+      "ptime": 2341000.0,
+      "dtime": 3223000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "sorry Thiago :/ we are still into CDDL, CBOR is coming in a couple of slides",
+      "ptime": 2406000.0,
+      "dtime": 3288000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "***Michael Breuer just joined the room",
+      "ptime": 2584000.0,
+      "dtime": 3466000.0
+    },
+    {
+      "text": "***gianluca capitani just joined the room",
+      "ptime": 2709000.0,
+      "dtime": 3591000.0
+    },
+    {
+      "text": "MIC: I appreciate jyasskin\u0027s view on Appendix C vs the main document, but I see it the other way: since this is CDDL v1.0, it\u0027s better as-is. More formalism can come after we get something out there. So I agree more with Carsten on this point.",
+      "ptime": 2745000.0,
+      "dtime": 3627000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Mic: (Mainly, get something out, keep it informal, and point out that CDDL is subject to change in future revisions.)",
+      "ptime": 2792000.0,
+      "dtime": 3674000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***gianluca capitani just left the room",
+      "ptime": 2833000.0,
+      "dtime": 3715000.0
+    },
+    {
+      "text": "Mic: what work?",
+      "ptime": 2957000.0,
+      "dtime": 3839000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "(specifically what work, is what i\u0027m asking)",
+      "ptime": 2973000.0,
+      "dtime": 3855000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "(nevermind)",
+      "ptime": 3003000.0,
+      "dtime": 3885000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Sean: we mostly ended up agreeing with you.  publish a 1.0, then start working on a -bis immediately that could incorporate a structural change.  carsten will at least make sure anything that isn\u0027t clear is made clear.",
+      "ptime": 3077000.0,
+      "dtime": 3959000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "ok",
+      "ptime": 3087000.0,
+      "dtime": 3969000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Thiago Macieira just left the room",
+      "ptime": 3093000.0,
+      "dtime": 3975000.0
+    },
+    {
+      "text": "(not mic) It is worth adding explicit text to this cddl document that this is the \"first iteration\" or \"first sketch\" of this language, and that further revisions are expected to refine the language.",
+      "ptime": 3102000.0,
+      "dtime": 3984000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I doubt it, that is generally understood and normal processing.",
+      "ptime": 3126000.0,
+      "dtime": 4008000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "***Thiago Macieira just joined the room",
+      "ptime": 3171000.0,
+      "dtime": 4053000.0
+    },
+    {
+      "text": "It is worth pointing out that the integer vs. floating point issue has JavaScript/JSON implications",
+      "ptime": 3414000.0,
+      "dtime": 4296000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Sean: I *think* the draft points that out, but if not, I think \u0027yes\u0027.",
+      "ptime": 3430000.0,
+      "dtime": 4312000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "This is definitely done for JSON.  The JavaScript implication is what they are talking about now.",
+      "ptime": 3504000.0,
+      "dtime": 4386000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "ok. Actually, I surmise that all JSON map items are strings, so 1 vs 1.0 isn\u0027t even a thing, they are all \"1\"",
+      "ptime": 3514000.0,
+      "dtime": 4396000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "(map keys, not referring to values)",
+      "ptime": 3533000.0,
+      "dtime": 4415000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Yes but then the world of 1 vs \"1\" becomes fun.",
+      "ptime": 3540000.0,
+      "dtime": 4422000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "Tried speaking but didn\u0027t get any reaction, so writing here:",
+      "ptime": 3834000.0,
+      "dtime": 4716000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "bignums: kind of Pythonic?",
+      "ptime": 3836000.0,
+      "dtime": 4718000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "bignums may have a long encoding on purpose",
+      "ptime": 3843000.0,
+      "dtime": 4725000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "leading zeroes",
+      "ptime": 3845000.0,
+      "dtime": 4727000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "mic: leading zeroes (please mic Thiago\u0027s point)",
+      "ptime": 3874000.0,
+      "dtime": 4756000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Thiago didn\u0027t see anything happen in Meetecho",
+      "ptime": 3933000.0,
+      "dtime": 4815000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Mic (Sean): I guess the point is, to what extent is CBOR type \u0026 tag information supposed to be preserved when serializing between different implementations?",
+      "ptime": 3964000.0,
+      "dtime": 4846000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Thiago Macieira: if you want to speak, you need to get in the virtual queue. There\u0027s a hand icon next to your name, if you joined as a participant. If observer, you need to switch to participant first.",
+      "ptime": 3979000.0,
+      "dtime": 4861000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "i see you now thiago, i\u0027ll let you speak after joe :)",
+      "ptime": 4134000.0,
+      "dtime": 5016000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "...I feel that the way forward with bignums specifically, is to say that the length of the bignum is material, whereas the length of a major type 0 or 1 (integers) is not material",
+      "ptime": 4176000.0,
+      "dtime": 5058000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "material \u003d cannot canonicalize it to something that omits the material information.",
+      "ptime": 4228000.0,
+      "dtime": 5110000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "jim are you relaying from Sean?",
+      "ptime": 4351000.0,
+      "dtime": 5233000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Not prefixed with mic:",
+      "ptime": 4388000.0,
+      "dtime": 5270000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "see one message though:",
+      "ptime": 4417000.0,
+      "dtime": 5299000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "a previous point was I think",
+      "ptime": 4418000.0,
+      "dtime": 5300000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Mic (Sean): I guess the point is, to what extent is CBOR type \u0026 tag information supposed to be preserved when serializing between different implementations?",
+      "ptime": 4425000.0,
+      "dtime": 5307000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "sorry - missed that one",
+      "ptime": 4429000.0,
+      "dtime": 5311000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "Mic: I think that is worth a separate document, which also may define c14ns. (But I agree with joe hildebrand, that an option is just to say no c14n)",
+      "ptime": 4479000.0,
+      "dtime": 5361000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Sean: the length of the bignum is *sometimes* material. Which is why I like having each specification that uses CBOR specify its own canonicalization.",
+      "ptime": 4541000.0,
+      "dtime": 5423000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "I have no opinion about doing this in a separate document.",
+      "ptime": 4564000.0,
+      "dtime": 5446000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "FYI, my implementation of CBOR in Qt will decode a tag 1 (Unix time_t) to tag 0 (ISO date/time).",
+      "ptime": 4564000.0,
+      "dtime": 5446000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "Thiago: And the extended generic data model now gives you permission to do that. ?",
+      "ptime": 4599000.0,
+      "dtime": 5481000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "I wonder if crypto bignums should avoid the current bignum tag, for this reason.",
+      "ptime": 4622000.0,
+      "dtime": 5504000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "Not sure, I don\u0027t remember how bignums are defined, but I thought it was tag(binary string) - that sounds exactly like what we want.",
+      "ptime": 4747000.0,
+      "dtime": 5629000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "Thiago, I\u0027ll let you speak after Jeffrey",
+      "ptime": 4767000.0,
+      "dtime": 5649000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Mic: my first impression about this is that there is a big distinction between equivalence of data of major types (int 0x01 vs int 0x0001), and equivalence of data of tagged types (bignum h\u002701\u0027 !\u003d\u003d int 0x01 due to bignum tag",
+      "ptime": 4859000.0,
+      "dtime": 5741000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Yeah, but Carstean does not believe that at all.  That is exactlky what I said.",
+      "ptime": 4890000.0,
+      "dtime": 5772000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "I know, jim, I know",
+      "ptime": 4901000.0,
+      "dtime": 5783000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I do believe that the most \"generic\" encoders and decoders, should not have to delve into the semantics of major type 6 tags.",
+      "ptime": 4939000.0,
+      "dtime": 5821000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "in contrast, the major generic encoders and decoders do have the major types (untagged) within their purview, such as, for example, the proper formatting of text strings (UTF-8)",
+      "ptime": 4999000.0,
+      "dtime": 5881000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "UTF - 8",
+      "ptime": 5004000.0,
+      "dtime": 5886000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I would completely agree with that point of view.",
+      "ptime": 5084000.0,
+      "dtime": 5966000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "***Renzo Navas just left the room",
+      "ptime": 5197000.0,
+      "dtime": 6079000.0
+    },
+    {
+      "text": "how about a separate document: \"The Challenges of Canonicalization: Some Guideposts for CBOR\"?",
+      "ptime": 5303000.0,
+      "dtime": 6185000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "s/Challenges/Extreme Peril/?",
+      "ptime": 5349000.0,
+      "dtime": 6231000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "Trying to not be too judgmental ;-)",
+      "ptime": 5373000.0,
+      "dtime": 6255000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "...in the title anyway",
+      "ptime": 5391000.0,
+      "dtime": 6273000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Can we move the guideposts?",
+      "ptime": 5561000.0,
+      "dtime": 6443000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "Thiago: for what?",
+      "ptime": 5603000.0,
+      "dtime": 6485000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "why not, it makes the game more challenging :D",
+      "ptime": 5610000.0,
+      "dtime": 6492000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "As mentioned by email to Carsten and a few others: the *rows* may need work. I\u0027ll re-send to the list.",
+      "ptime": 5700000.0,
+      "dtime": 6582000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "***Ricardo Andreasen just left the room",
+      "ptime": 5703000.0,
+      "dtime": 6585000.0
+    },
+    {
+      "text": "You may want to have a separtae tag for char, unsigned char and signed char.",
+      "ptime": 5902000.0,
+      "dtime": 6784000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "Why would you not use ints for that?",
+      "ptime": 5922000.0,
+      "dtime": 6804000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "THiago: why \"char\"? why not just two types: signed char and unsigned char?",
+      "ptime": 5938000.0,
+      "dtime": 6820000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "also, I think int8 \u003d\u003d\u003d char",
+      "ptime": 5955000.0,
+      "dtime": 6837000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Because char can be unsigned on some architectures.",
+      "ptime": 5996000.0,
+      "dtime": 6878000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "For some reason I don\u0027t know, the C standard left that undefined.",
+      "ptime": 6004000.0,
+      "dtime": 6886000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "Thiago: I would be sad if CBOR repeated C\u0027s mistake there.",
+      "ptime": 6200000.0,
+      "dtime": 7082000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "+1 to jyasskin",
+      "ptime": 6212000.0,
+      "dtime": 7094000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Fair enough.",
+      "ptime": 6222000.0,
+      "dtime": 7104000.0,
+      "author": "Thiago Macieira"
+    },
+    {
+      "text": "CBOR does not have anything called a char.  It uses UTF-8 for characters, so the length is not set.",
+      "ptime": 6248000.0,
+      "dtime": 7130000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "Mic (or Chairs): What is the pending IANA registration?",
+      "ptime": 6258000.0,
+      "dtime": 7140000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "The semantics would have to be that the signedness of the \u0027char\u0027 type depended on the parser, which isn\u0027t reasonable for a serialization format.",
+      "ptime": 6301000.0,
+      "dtime": 7183000.0,
+      "author": "jyasskin"
+    },
+    {
+      "text": "Mic: +1 to jimsch1\u0027s comment. Prefer 3-byte space. The technical question is: do we expect jroatch-tags to expand beyond the current tag registrations, such as 128-bit, 256-bit, etc.?",
+      "ptime": 6387000.0,
+      "dtime": 7269000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "sean, if it did then a new tag range would be needed",
+      "ptime": 6449000.0,
+      "dtime": 7331000.0,
+      "author": "jimsch1"
+    },
+    {
+      "text": "If the answer is yes, 3+ -byte is obvious. if no, it\u0027s a bit more bikeshedding, I suppose...but still slightly in favor of 3-byte (from here)",
+      "ptime": 6479000.0,
+      "dtime": 7361000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "jimsch1: yes, a new range, or just pre-register/reserve a larger tag range",
+      "ptime": 6505000.0,
+      "dtime": 7387000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Pavan Yadav just joined the room",
+      "ptime": 6598000.0,
+      "dtime": 7480000.0
+    },
+    {
+      "text": "can I respond to the RGB?",
+      "ptime": 6673000.0,
+      "dtime": 7555000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "y",
+      "ptime": 6676000.0,
+      "dtime": 7558000.0,
+      "author": "hildjj"
+    },
+    {
+      "text": "Mic: about RGB. it\u0027s interesting, but I was recently thinking about High Dynamic Range (HDR). I think RGB is a bit more complicated in this day of 4K, HDR10, Dolby Vision, all that...probably needs some specialized data type(s)",
+      "ptime": 6709000.0,
+      "dtime": 7591000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "which is to say, probably outside the purview of jroatch typed arrays",
+      "ptime": 6723000.0,
+      "dtime": 7605000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "I agree that typed arrays should be worked on by the WG",
+      "ptime": 6733000.0,
+      "dtime": 7615000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "***Michael Breuer just left the room",
+      "ptime": 6903000.0,
+      "dtime": 7785000.0
+    },
+    {
+      "text": "***Thiago Macieira just left the room",
+      "ptime": 6907000.0,
+      "dtime": 7789000.0
+    },
+    {
+      "text": "***Pavan Yadav just left the room",
+      "ptime": 6918000.0,
+      "dtime": 7800000.0
+    },
+    {
+      "text": "***Michel Veillette just left the room",
+      "ptime": 6918000.0,
+      "dtime": 7800000.0
+    },
+    {
+      "text": "***Sean Leonard just left the room",
+      "ptime": 6918000.0,
+      "dtime": 7800000.0
+    },
+    {
+      "text": "***Edward Lewis just left the room",
+      "ptime": 6918000.0,
+      "dtime": 7800000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-CBOR-20180320-1330"
+    }
+  ]
+}

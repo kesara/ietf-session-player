@@ -1,0 +1,777 @@
+
+{
+	"title": "IETF120-MIMI-20240723-2000",
+	"filename": "IETF120-MIMI-20240723-2000",
+	"start": 0,
+	"end": 7479000,
+	"start_datetime": "2024-07-23T19:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "iDaboIqNZbs",
+    "start": 0,
+    "end": "7479000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Tim, can you check your gain?  You're very loud.</p>",
+    "topic": "ietf-120",
+    "dtime": 12000,
+    "ptime": 12000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>coming through okay for me</p>",
+    "topic": "ietf-120",
+    "dtime": 27000,
+    "ptime": 27000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>I lowered the gain, should be better now</p>",
+    "topic": "ietf-120",
+    "dtime": 47000,
+    "ptime": 47000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Much better, thanks.</p>",
+    "topic": "ietf-120",
+    "dtime": 148000,
+    "ptime": 148000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Would the encrypted file bytes be committed to by the sender?</p>",
+    "topic": "ietf-120",
+    "dtime": 1693000,
+    "ptime": 1693000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>in mimi-attachments there is acommit hash for that</p>",
+    "topic": "ietf-120",
+    "dtime": 1905000,
+    "ptime": 1905000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-robert-mimi-attachments-02.html\">https://www.ietf.org/archive/id/draft-robert-mimi-attachments-02.html</a></p>",
+    "topic": "ietf-120",
+    "dtime": 1952000,
+    "ptime": 1952000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>thanks raphael!</p>",
+    "topic": "ietf-120",
+    "dtime": 2020000,
+    "ptime": 2020000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I could see someone creating a bot service or something that only ever joins existing rooms, rather than creating them.</p>",
+    "topic": "ietf-120",
+    "dtime": 2109000,
+    "ptime": 2109000
+  },
+  {
+    "author": "Kevin Cox",
+    "text": "<p>It is worth considering the case where a small provider creates a room that ends up having many thousands of participants. How will that scale? Do we need this to scale?</p>",
+    "topic": "ietf-120",
+    "dtime": 2192000,
+    "ptime": 2192000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Providers can always limit the size of groups that their users can either create or join</p>",
+    "topic": "ietf-120",
+    "dtime": 2280000,
+    "ptime": 2280000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>handling a room with thousands of users shouldn't be much of an issue, even on a relatively small server.</p>",
+    "topic": "ietf-120",
+    "dtime": 2292000,
+    "ptime": 2292000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>It may depend on the size of the providers involved. If the provider feels the room is getting too big, maybe it transfers its hub role to another provider (if we imagine a mechanism to do so)</p>",
+    "topic": "ietf-120",
+    "dtime": 2316000,
+    "ptime": 2316000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i think we should lean on the hub (and oblige the client servers to act as proxies) -- otherwise there are two distinct modes of attachment fetching which leak metadata to two different parties.</p>",
+    "topic": "ietf-120",
+    "dtime": 2318000,
+    "ptime": 2318000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 to bengo: we should indeed oblige the sending client to commit to the ciphertext (not to the cleartext)</p>",
+    "topic": "ietf-120",
+    "dtime": 2368000,
+    "ptime": 2368000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I missed that last comment, was it a commitment to the ciphertext or the plaintext?</p>",
+    "topic": "ietf-120",
+    "dtime": 2377000,
+    "ptime": 2377000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>I think migrating was out-of-scope at some point, but there is a draft nonetheless: <a href=\"https://www.ietf.org/archive/id/draft-kohbrok-mimi-portability-02.html\">https://www.ietf.org/archive/id/draft-kohbrok-mimi-portability-02.html</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2392000,
+    "ptime": 2392000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Plaintext seems right, as dkg says.</p>",
+    "topic": "ietf-120",
+    "dtime": 2396000,
+    "ptime": 2396000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it should be a commitment to the ciphertext, not the plaintext</p>",
+    "topic": "ietf-120",
+    "dtime": 2404000,
+    "ptime": 2404000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>The rule could just be \"this must be specified in the room policy, and the room policy must be sensible\"</p>",
+    "topic": "ietf-120",
+    "dtime": 2407000,
+    "ptime": 2407000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>dkg: why ciphertext?</p>",
+    "topic": "ietf-120",
+    "dtime": 2413000,
+    "ptime": 2413000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>the download proxy (whether in the app or via something like OHTTP) should prevent leaking the IP addresses, etc. regardless where the file is stored</p>",
+    "topic": "ietf-120",
+    "dtime": 2423000,
+    "ptime": 2423000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Are you concerned that stuff won't be encrypted?</p>",
+    "topic": "ietf-120",
+    "dtime": 2437000,
+    "ptime": 2437000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>because if i happen to know the cleartext, and the commitment is visible to a third party, then i can match it to the cleartext</p>",
+    "topic": "ietf-120",
+    "dtime": 2454000,
+    "ptime": 2454000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Are you concerned that multiple versions of the same plaintext might be created to do &lt;insert attack&gt;?</p>",
+    "topic": "ietf-120",
+    "dtime": 2461000,
+    "ptime": 2461000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>how is the commitment visible to a third party?  it is inside an e2e messagE</p>",
+    "topic": "ietf-120",
+    "dtime": 2480000,
+    "ptime": 2480000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>The commitment principle is in some tension with the suggestion that uploads should be streamable, since you can't commit to something that's incomplete without some sort of chunking mechanism.</p>",
+    "topic": "ietf-120",
+    "dtime": 2486000,
+    "ptime": 2486000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Why would the third party need to see the commitment?  Why would a third party see the commitment?</p>",
+    "topic": "ietf-120",
+    "dtime": 2488000,
+    "ptime": 2488000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>ok, that might not be so bad, if the commitment isn't visible to the third party -- that just means you can't  use content-addressible storage, though</p>",
+    "topic": "ietf-120",
+    "dtime": 2506000,
+    "ptime": 2506000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>My understanding was that the message (and therefore the commitment) was confidential to the group.</p>",
+    "topic": "ietf-120",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>^ thats my understanding as well</p>",
+    "topic": "ietf-120",
+    "dtime": 2544000,
+    "ptime": 2544000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>simplest approach (maybe my brain is broken) is that the storage mechanism is content-addressable, and the URL contains the hash.</p>",
+    "topic": "ietf-120",
+    "dtime": 2564000,
+    "ptime": 2564000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yeah, content-addressable storage would need a separate hash, likely.</p>",
+    "topic": "ietf-120",
+    "dtime": 2569000,
+    "ptime": 2569000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>my observation is that the URL for the attachment <em>will</em> leak</p>",
+    "topic": "ietf-120",
+    "dtime": 2575000,
+    "ptime": 2575000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>It would be nice to be able to start uploading, and downloading, a file without having to finish encrypting it first.</p>",
+    "topic": "ietf-120",
+    "dtime": 2598000,
+    "ptime": 2598000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so the simplest thing is to mandate content-addressible storage, so people don't have to choose a filename</p>",
+    "topic": "ietf-120",
+    "dtime": 2616000,
+    "ptime": 2616000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>no reason you could not</p>",
+    "topic": "ietf-120",
+    "dtime": 2618000,
+    "ptime": 2618000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yeah, so...  3 things... There is a key that is confidential (to the group, to the recipient).  There is a commitment to the plaintext that is put in the message.  There is a means (or several means) of obtaining the ciphertext.</p>",
+    "topic": "ietf-120",
+    "dtime": 2631000,
+    "ptime": 2631000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@benjamin</p>",
+    "topic": "ietf-120",
+    "dtime": 2636000,
+    "ptime": 2636000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The means would be (say) a URL.  Separate from the commitment hash.</p>",
+    "topic": "ietf-120",
+    "dtime": 2649000,
+    "ptime": 2649000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Ben-- as long as you don't need to know the name of the file during upload time, that's fine.</p>",
+    "topic": "ietf-120",
+    "dtime": 2650000,
+    "ptime": 2650000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Benjamin: or potentially even without finishing <em>generating</em> it first, e.g. a video (which implies it's not hashable yet).</p>",
+    "topic": "ietf-120",
+    "dtime": 2651000,
+    "ptime": 2651000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Jonathan: that might not be a great idea from a security perspective.</p>",
+    "topic": "ietf-120",
+    "dtime": 2677000,
+    "ptime": 2677000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Agreed, there's a tension here.</p>",
+    "topic": "ietf-120",
+    "dtime": 2698000,
+    "ptime": 2698000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Then you have an attachment that could be different for different people.</p>",
+    "topic": "ietf-120",
+    "dtime": 2701000,
+    "ptime": 2701000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>My point is that the filename can't be a hash of the ciphertext for that to work.</p>",
+    "topic": "ietf-120",
+    "dtime": 2710000,
+    "ptime": 2710000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Ben, sure it could.  during upload, you don't know the filename.  upload completes, and you learn the filename, which is a hash of the ciphertext</p>",
+    "topic": "ietf-120",
+    "dtime": 2740000,
+    "ptime": 2740000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Ben: I agree, not having to finish encryption is fine.  Not having a commitment to the plaintext is not.</p>",
+    "topic": "ietf-120",
+    "dtime": 2743000,
+    "ptime": 2743000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>then you stuff that in the message you send</p>",
+    "topic": "ietf-120",
+    "dtime": 2751000,
+    "ptime": 2751000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-120/near/125218\">said</a>:</p>\n<blockquote>\n<p>Then you have an attachment that could be different for different people.</p>\n</blockquote>\n<p>Not necessarily.  You could commit to the hash after the upload has completed, and wait for that before declaring the downloads complete.</p>",
+    "topic": "ietf-120",
+    "dtime": 2768000,
+    "ptime": 2768000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i think we should be clear that we are <em>not</em> designing a system for streaming \"attachments\"</p>",
+    "topic": "ietf-120",
+    "dtime": 2800000,
+    "ptime": 2800000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2424\">@Benjamin Schwartz</span> I'm not sure that that is safe.</p>",
+    "topic": "ietf-120",
+    "dtime": 2815000,
+    "ptime": 2815000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>...and you might as well wait for the commitment before sending the attachment.</p>",
+    "topic": "ietf-120",
+    "dtime": 2837000,
+    "ptime": 2837000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-120/near/125240\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2424\">Benjamin Schwartz</span> I'm not sure that that is safe.</p>\n</blockquote>\n<p>It means my download hangs until I see an \"upload finished\" message to the group that contains a MAC.</p>",
+    "topic": "ietf-120",
+    "dtime": 2858000,
+    "ptime": 2858000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Re: Hecate: <a href=\"https://eprint.iacr.org/2021/1686\">https://eprint.iacr.org/2021/1686</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2924000,
+    "ptime": 2924000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Also published at USENIX Security 2022 i think</p>",
+    "topic": "ietf-120",
+    "dtime": 2933000,
+    "ptime": 2933000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>@Deirdre do you mind sending references to the mailing list?</p>",
+    "topic": "ietf-120",
+    "dtime": 2961000,
+    "ptime": 2961000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Sure</p>",
+    "topic": "ietf-120",
+    "dtime": 2974000,
+    "ptime": 2974000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>thanks</p>",
+    "topic": "ietf-120",
+    "dtime": 2979000,
+    "ptime": 2979000
+  },
+  {
+    "author": "Kyle Hogan",
+    "text": "<p>Yeah here's the usenix link with the talk: <a href=\"https://www.usenix.org/conference/usenixsecurity22/presentation/issa\">https://www.usenix.org/conference/usenixsecurity22/presentation/issa</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2994000,
+    "ptime": 2994000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> is there a draft you are sketching up for franking?</p>",
+    "topic": "ietf-120",
+    "dtime": 3026000,
+    "ptime": 3026000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>We keep saying hash, but actually, given that we do have agreed upon keys, it could be a MAC if that's helpful?</p>",
+    "topic": "ietf-120",
+    "dtime": 3041000,
+    "ptime": 3041000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>definitely could be a mac</p>",
+    "topic": "ietf-120",
+    "dtime": 3055000,
+    "ptime": 3055000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>@Deidre: franking is in early discussion at <a href=\"https://github.com/ietf-wg-mimi/mimi-protocol/pull/83\">https://github.com/ietf-wg-mimi/mimi-protocol/pull/83</a></p>",
+    "topic": "ietf-120",
+    "dtime": 3071000,
+    "ptime": 3071000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Gracias</p>",
+    "topic": "ietf-120",
+    "dtime": 3078000,
+    "ptime": 3078000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>ha ha the transcription renders my handle as \"DickoG\"</p>",
+    "topic": "ietf-120",
+    "dtime": 3742000,
+    "ptime": 3742000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>could be my accent</p>",
+    "topic": "ietf-120",
+    "dtime": 3782000,
+    "ptime": 3782000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>you made sense to me, Raphael ☺</p>",
+    "topic": "ietf-120",
+    "dtime": 3815000,
+    "ptime": 3815000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>I think this is really cool.</p>",
+    "topic": "ietf-120",
+    "dtime": 5318000,
+    "ptime": 5318000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>It's like what blockchains do, but social</p>",
+    "topic": "ietf-120",
+    "dtime": 5328000,
+    "ptime": 5328000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>it's vooza updated for the blockchain era <a href=\"https://vooza.com/\">https://vooza.com/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 5452000,
+    "ptime": 5452000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>client named epoch boxes?</p>",
+    "topic": "ietf-120",
+    "dtime": 5758000,
+    "ptime": 5758000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>clarification: pseudonyms are per-group</p>",
+    "topic": "ietf-120",
+    "dtime": 5879000,
+    "ptime": 5879000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>why do we need external join? which use cases does it support / how does it manifest in UX?</p>",
+    "topic": "ietf-120",
+    "dtime": 6210000,
+    "ptime": 6210000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>For clarification, the feature list Konrad is referencing was compiled before the DMA gatekeepers were actually designated, so most of them are not actually gatekeepers (but the feature list is still very relevant).</p>",
+    "topic": "ietf-120",
+    "dtime": 6280000,
+    "ptime": 6280000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>@Christopher: external joins are useful for multi-client scenarios (onboarding a new device) and to resync existing clients that went out of sync</p>",
+    "topic": "ietf-120",
+    "dtime": 6301000,
+    "ptime": 6301000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Being able to block another provider's users appears to be contemplated, at least in <a href=\"https://developers.facebook.com/m/messaging-interoperability/\">https://developers.facebook.com/m/messaging-interoperability/</a></p>",
+    "topic": "ietf-120",
+    "dtime": 6599000,
+    "ptime": 6599000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>Why / how can the hub correlate a \"foreign provider user\" across other rooms?</p>",
+    "topic": "ietf-120",
+    "dtime": 6663000,
+    "ptime": 6663000
+  },
+  {
+    "author": "Bryan Newbold",
+    "text": "<p>here is a URL for the spreadsheet linked at bottom of slide:<br>\n<a href=\"https://docs.google.com/spreadsheets/d/1FiR4yhU5BpLtoeFFda5ORr86qwT33fYZowY_bWDlPas/edit?gid=1722388534#gid=1722388534\">https://docs.google.com/spreadsheets/d/1FiR4yhU5BpLtoeFFda5ORr86qwT33fYZowY_bWDlPas/edit?gid=1722388534#gid=1722388534</a></p>",
+    "topic": "ietf-120",
+    "dtime": 6669000,
+    "ptime": 6669000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>also, you don't have to have an opinion about <em>every</em> foreign user, just the ones you don't like</p>",
+    "topic": "ietf-120",
+    "dtime": 6696000,
+    "ptime": 6696000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>and you don't know if they are the same entity or not right?</p>",
+    "topic": "ietf-120",
+    "dtime": 6724000,
+    "ptime": 6724000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>maybe not technically, but socially it may be more obvious.</p>",
+    "topic": "ietf-120",
+    "dtime": 6748000,
+    "ptime": 6748000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>future boxes should include Y and N, not just colors please.  red and green are particularly touch choices for some of us.</p>",
+    "topic": "ietf-120",
+    "dtime": 6785000,
+    "ptime": 6785000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@orie, the hub can't correlate two pseudonynms from the same provider, but most providers are going to have SLAs about how to handle abuse.</p>",
+    "topic": "ietf-120",
+    "dtime": 6789000,
+    "ptime": 6789000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>maybe you could implement ban by having the hub tell the follower \"whoever this person is, never let them talk to me again\"</p>",
+    "topic": "ietf-120",
+    "dtime": 6836000,
+    "ptime": 6836000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@dkg<br>\nNo's are Ban for both columns and invite/3rd part access for Encrypted</p>",
+    "topic": "ietf-120",
+    "dtime": 6843000,
+    "ptime": 6843000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(cooperative ban)</p>",
+    "topic": "ietf-120",
+    "dtime": 6846000,
+    "ptime": 6846000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>on this slide<br>\nNo's on the right column for rows 1,3,5,6</p>",
+    "topic": "ietf-120",
+    "dtime": 6877000,
+    "ptime": 6877000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>&lt;slaps roof&gt; this baby can hold so many identifiers</p>",
+    "topic": "ietf-120",
+    "dtime": 6894000,
+    "ptime": 6894000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>mimi = more identifiers more identitites ?</p>",
+    "topic": "ietf-120",
+    "dtime": 6927000,
+    "ptime": 6927000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>lol!</p>",
+    "topic": "ietf-120",
+    "dtime": 6935000,
+    "ptime": 6935000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>more identifiers more identities metadata information</p>",
+    "topic": "ietf-120",
+    "dtime": 6953000,
+    "ptime": 6953000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>there can be some subtelty in what happens based on how serious a policy violation  is involved</p>",
+    "topic": "ietf-120",
+    "dtime": 7010000,
+    "ptime": 7010000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>accidentally swearing in a   room with that policy vs. graphic violent assination threats</p>",
+    "topic": "ietf-120",
+    "dtime": 7044000,
+    "ptime": 7044000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>why not baseline mode with pseudonyms, and advanced mode with encrypted HS?</p>",
+    "topic": "ietf-120",
+    "dtime": 7073000,
+    "ptime": 7073000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>I don't think we can meet our requirements with encrypted HS</p>",
+    "topic": "ietf-120",
+    "dtime": 7105000,
+    "ptime": 7105000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>I don't think signal is the baseline</p>",
+    "topic": "ietf-120",
+    "dtime": 7118000,
+    "ptime": 7118000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>How much group metadata is being kept around that is opaque to the server/ hub/ non-members? Can we add stuff like block lists and other policy things ?</p>",
+    "topic": "ietf-120",
+    "dtime": 7129000,
+    "ptime": 7129000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>(Quick greps of -mimi-protocol isn't getting me much but maybe i'm looking in the wrong place)</p>",
+    "topic": "ietf-120",
+    "dtime": 7154000,
+    "ptime": 7154000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>Arbitrary state isn't yet possible, but it's a dream of mine that it could be. Policy specifics I believe are more for Thursday's discussion</p>",
+    "topic": "ietf-120",
+    "dtime": 7230000,
+    "ptime": 7230000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>This is basically how Signal private groups solves stuff in like this</p>",
+    "topic": "ietf-120",
+    "dtime": 7399000,
+    "ptime": 7399000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'm very wary of punting the decision \"to the user\", especially if it's a frequent decision that they can't understand.</p>",
+    "topic": "ietf-120",
+    "dtime": 7411000,
+    "ptime": 7411000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Thanks everyone!</p>",
+    "topic": "ietf-120",
+    "dtime": 7416000,
+    "ptime": 7416000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Private to and enforced by the members of the group</p>",
+    "topic": "ietf-120",
+    "dtime": 7417000,
+    "ptime": 7417000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>I think it's work discussing the pseudonym based approach as if it was meant to become the baseline, i.e. apply to it all the requirements we think baseline should have.</p>",
+    "topic": "ietf-120",
+    "dtime": 7446000,
+    "ptime": 7446000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Then we can still see if and where that falls short.</p>",
+    "topic": "ietf-120",
+    "dtime": 7469000,
+    "ptime": 7469000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-MIMI-20240723-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-MIMI-20240723-2000"
+		}		
+	]
+}

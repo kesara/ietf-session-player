@@ -1,0 +1,331 @@
+{
+  "title": "IETF106-OAUTH-20191121-1550",
+  "filename": "IETF106-OAUTH-20191121-1550",
+  "start": 0,
+  "end": 5777000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "hVQZR1IvS1E",
+      "start": 0.0,
+      "end": 5777000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": ":wave: moin\u0027",
+      "ptime": 3000.0,
+      "dtime": 210000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "***Ryan Kelly just joined the room",
+      "ptime": 4000.0,
+      "dtime": 211000.0
+    },
+    {
+      "text": "***Stefan Santesson just joined the room",
+      "ptime": 58000.0,
+      "dtime": 265000.0
+    },
+    {
+      "text": "***Ludwig Seitz just joined the room",
+      "ptime": 203000.0,
+      "dtime": 410000.0
+    },
+    {
+      "text": "Hello I\u0027m going to be your Jabber scribe, if you want me to relay your comments to the mic please prefix them with \"mic:\"",
+      "ptime": 253000.0,
+      "dtime": 460000.0,
+      "author": "Ludwig Seitz"
+    },
+    {
+      "text": "***Matthew de Haast just joined the room",
+      "ptime": 362000.0,
+      "dtime": 569000.0
+    },
+    {
+      "text": "***Ludwig just joined the room",
+      "ptime": 466000.0,
+      "dtime": 673000.0
+    },
+    {
+      "text": "***Ludwig Seitz just left the room",
+      "ptime": 527000.0,
+      "dtime": 734000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 527000.0,
+      "dtime": 734000.0
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 532000.0,
+      "dtime": 739000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 532000.0,
+      "dtime": 739000.0
+    },
+    {
+      "text": "***Ludwig just joined the room",
+      "ptime": 919000.0,
+      "dtime": 1126000.0
+    },
+    {
+      "text": "***Ludwig just joined the room",
+      "ptime": 1109000.0,
+      "dtime": 1316000.0
+    },
+    {
+      "text": "***Petteri Stenius just joined the room",
+      "ptime": 1564000.0,
+      "dtime": 1771000.0
+    },
+    {
+      "text": "mic: restating what i mentioned at IETF 104, the next major/minor oauth version is one that doesn\u0027t need a BCP",
+      "ptime": 1675000.0,
+      "dtime": 1882000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "Filip we are reading you as: Doesn\u0027t need the BCP because it has become part of the next version, right?",
+      "ptime": 1780000.0,
+      "dtime": 1987000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "correct",
+      "ptime": 2242000.0,
+      "dtime": 2449000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "***Kaoru Maeda just joined the room",
+      "ptime": 2271000.0,
+      "dtime": 2478000.0
+    },
+    {
+      "text": "mic: let\u0027s not forget the initial scope, the urgent need to be solved - sender-constraining SPA tokens - both access and refresh, it was not request signing.",
+      "ptime": 2534000.0,
+      "dtime": 2741000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "Thorsten just said that, ok if I skip or should I +1?",
+      "ptime": 2749000.0,
+      "dtime": 2956000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "+1 100%",
+      "ptime": 2787000.0,
+      "dtime": 2994000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "***Ludwig just joined the room",
+      "ptime": 3051000.0,
+      "dtime": 3258000.0
+    },
+    {
+      "text": "***Ludwig just joined the room",
+      "ptime": 3141000.0,
+      "dtime": 3348000.0
+    },
+    {
+      "text": "***ANDRIANISA Pascal Heriliva just joined the room",
+      "ptime": 4042000.0,
+      "dtime": 4249000.0
+    },
+    {
+      "text": "mic: Device Flow was tricky indeed, i dropped it from my AS PAR scope",
+      "ptime": 4553000.0,
+      "dtime": 4760000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "(drop it)",
+      "ptime": 4569000.0,
+      "dtime": 4776000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "due to time constraints",
+      "ptime": 4586000.0,
+      "dtime": 4793000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "ok, mic line was closed anyways",
+      "ptime": 4586000.0,
+      "dtime": 4793000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "humm +1 to adopt",
+      "ptime": 4621000.0,
+      "dtime": 4828000.0,
+      "author": "Filip Skokan"
+    },
+    {
+      "text": "+1",
+      "ptime": 4628000.0,
+      "dtime": 4835000.0,
+      "author": "Daniel Fett"
+    },
+    {
+      "text": "Time for RAR!",
+      "ptime": 4655000.0,
+      "dtime": 4862000.0,
+      "author": "Matthew de Haast"
+    },
+    {
+      "text": "*waves*",
+      "ptime": 4819000.0,
+      "dtime": 5026000.0,
+      "author": "Ryan Kelly"
+    },
+    {
+      "text": "I have read it",
+      "ptime": 4853000.0,
+      "dtime": 5060000.0,
+      "author": "Daniel Fett"
+    },
+    {
+      "text": "+1 on reading it as no author",
+      "ptime": 4859000.0,
+      "dtime": 5066000.0,
+      "author": "Matthew de Haast"
+    },
+    {
+      "text": "***ANDRIANISA Pascal Heriliva just left the room",
+      "ptime": 4877000.0,
+      "dtime": 5084000.0
+    },
+    {
+      "text": "I have read it",
+      "ptime": 4877000.0,
+      "dtime": 5084000.0,
+      "author": "Steinar Noem"
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4878000.0,
+      "dtime": 5085000.0
+    },
+    {
+      "text": "Who read the document?",
+      "ptime": 5502000.0,
+      "dtime": 5709000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "***Adrian Hope-Bailie just left the room",
+      "ptime": 5613000.0,
+      "dtime": 5820000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5613000.0,
+      "dtime": 5820000.0
+    },
+    {
+      "text": "Bye",
+      "ptime": 5631000.0,
+      "dtime": 5838000.0,
+      "author": "Ludwig"
+    },
+    {
+      "text": "***Steinar Noem just left the room",
+      "ptime": 5668000.0,
+      "dtime": 5875000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5668000.0,
+      "dtime": 5875000.0
+    },
+    {
+      "text": "***Matthew de Haast just left the room",
+      "ptime": 5718000.0,
+      "dtime": 5925000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5718000.0,
+      "dtime": 5925000.0
+    },
+    {
+      "text": "***Petteri Stenius just left the room",
+      "ptime": 5728000.0,
+      "dtime": 5935000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5728000.0,
+      "dtime": 5935000.0
+    },
+    {
+      "text": "***Daniel Fett just left the room",
+      "ptime": 5733000.0,
+      "dtime": 5940000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5733000.0,
+      "dtime": 5940000.0
+    },
+    {
+      "text": "***Filip Skokan just left the room",
+      "ptime": 5748000.0,
+      "dtime": 5955000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5748000.0,
+      "dtime": 5955000.0
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 5776000.0,
+      "dtime": 5983000.0
+    },
+    {
+      "text": "***Ryan Kelly just left the room",
+      "ptime": 5776000.0,
+      "dtime": 5983000.0
+    },
+    {
+      "text": "***Stefan Santesson just left the room",
+      "ptime": 5776000.0,
+      "dtime": 5983000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5776000.0,
+      "dtime": 5983000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5776000.0,
+      "dtime": 5983000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5776000.0,
+      "dtime": 5983000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF106-OAUTH-20191121-1550"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+
+{
+	"title": "IETF-CELLAR-20230404-1900",
+	"filename": "IETF-CELLAR-20230404-1900",
+	"start": 0,
+	"end": 3594000,
+	"start_datetime": "2023-04-04T18:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "9H0Bt3NRocg",
+    "start": 0,
+    "end": "3594000"
+  }
+],
+	"messages": [
+  {
+    "author": "Dave Rice",
+    "text": "<p>do we have a plan about BlockAddIDValue values</p>",
+    "topic": "ietf-interim",
+    "dtime": 1418000,
+    "ptime": 1418000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>I think webm started using a value of 4, but do we need to reserve others?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1436000,
+    "ptime": 1436000
+  },
+  {
+    "author": "Steve Lhomme",
+    "text": "<p>I think you're talking about <a href=\"https://github.com/ietf-wg-cellar/matroska-specification/pull/745\">https://github.com/ietf-wg-cellar/matroska-specification/pull/745</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 1535000,
+    "ptime": 1535000
+  },
+  {
+    "author": "Steve Lhomme",
+    "text": "<p>the change is in the codec document, not sure we should put it in the main one</p>",
+    "topic": "ietf-interim",
+    "dtime": 1555000,
+    "ptime": 1555000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>ah yes, just checking that everyone agreed</p>",
+    "topic": "ietf-interim",
+    "dtime": 1560000,
+    "ptime": 1560000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>as it's a mix of implementation and standards work concurrently</p>",
+    "topic": "ietf-interim",
+    "dtime": 1573000,
+    "ptime": 1573000
+  },
+  {
+    "author": "Steve Lhomme",
+    "text": "<p>given we're leaning on RECOMMENDED, there's no need to \"reserve\" the value which would be a hard limitation forever</p>",
+    "topic": "ietf-interim",
+    "dtime": 1641000,
+    "ptime": 1641000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>yay</p>",
+    "topic": "ietf-interim",
+    "dtime": 1749000,
+    "ptime": 1749000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>last meeting, i promised to send an email nudge to the working group but i hadn't done that yet</p>",
+    "topic": "ietf-interim",
+    "dtime": 1782000,
+    "ptime": 1782000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>on ffv1-v4</p>",
+    "topic": "ietf-interim",
+    "dtime": 1791000,
+    "ptime": 1791000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>sorry, no mic 0:)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1804000,
+    "ptime": 1804000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>for v4 i think we just need to stir up some discussion</p>",
+    "topic": "ietf-interim",
+    "dtime": 1829000,
+    "ptime": 1829000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>for a reminder you can see current v4 ideas/wishes at <a href=\"https://github.com/FFmpeg/FFV1/issues\">https://github.com/FFmpeg/FFV1/issues</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 1863000,
+    "ptime": 1863000
+  },
+  {
+    "author": "Steve Lhomme",
+    "text": "<p><a href=\"https://github.com/ietf-wg-cellar/ebml-specification/issues?q=is%3Aissue+label%3Aerrata-rfc8794+is%3Aclosed\">https://github.com/ietf-wg-cellar/ebml-specification/issues?q=is%3Aissue+label%3Aerrata-rfc8794+is%3Aclosed</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2243000,
+    "ptime": 2243000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>One more thing to think about is that No Time to Wait (7) is Nov 8-10 in Prague, which overlaps with IETF 118 which is Nov 4-10 and also in Prague. And ... it was in Prague at IETF 93 where the cellar working group was born (<a href=\"https://datatracker.ietf.org/meeting/93/materials/agenda-93-dispatch\">https://datatracker.ietf.org/meeting/93/materials/agenda-93-dispatch</a>).</p>",
+    "topic": "ietf-interim",
+    "dtime": 2341000,
+    "ptime": 2341000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><a href=\"https://www.rfc-editor.org/how-to-verify/\">https://www.rfc-editor.org/how-to-verify/</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2379000,
+    "ptime": 2379000
+  },
+  {
+    "author": "Steve Lhomme",
+    "text": "<p><span aria-label=\"two hearts\" class=\"emoji emoji-1f495\" role=\"img\" title=\"two hearts\">:two_hearts:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 2423000,
+    "ptime": 2423000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>Michael Niedermayer marks releases in github to correlate with the data tracker versions</p>",
+    "topic": "ietf-interim",
+    "dtime": 2972000,
+    "ptime": 2972000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>very crazy coincidence</p>",
+    "topic": "ietf-interim",
+    "dtime": 3296000,
+    "ptime": 3296000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p><a href=\"https://goo.gl/maps/bDCk96tK4vs11tx16\">https://goo.gl/maps/bDCk96tK4vs11tx16</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 3374000,
+    "ptime": 3374000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>Kino NFA Ponrepo, it's the cinema of the National Film Archive</p>",
+    "topic": "ietf-interim",
+    "dtime": 3387000,
+    "ptime": 3387000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>yes, we have no hotel</p>",
+    "topic": "ietf-interim",
+    "dtime": 3394000,
+    "ptime": 3394000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>let us know if there's any good IETF parties to crash</p>",
+    "topic": "ietf-interim",
+    "dtime": 3408000,
+    "ptime": 3408000
+  },
+  {
+    "author": "Dave Rice",
+    "text": "<p>:D</p>",
+    "topic": "ietf-interim",
+    "dtime": 3449000,
+    "ptime": 3449000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-CELLAR-20230404-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-cellar-03/session/cellar"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-CELLAR-20230404-1900"
+		}
+	]
+}

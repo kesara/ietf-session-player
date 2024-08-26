@@ -1,0 +1,168 @@
+
+{
+	"title": "IETF-SCITT-20230522-1500",
+	"filename": "IETF-SCITT-20230522-1500",
+	"start": 0,
+	"end": 3850000,
+	"start_datetime": "2023-05-22T15:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "3ie_ntQfGF8",
+    "start": 0,
+    "end": "3850000"
+  }
+],
+	"messages": [
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Hi folks</p>",
+    "topic": "ietf-interim",
+    "dtime": 283000,
+    "ptime": 283000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>OK, I'll grab better headphones</p>",
+    "topic": "ietf-interim",
+    "dtime": 316000,
+    "ptime": 316000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Do you have a pointer to the discussion on key vs SCITT  transparency?</p>",
+    "topic": "ietf-interim",
+    "dtime": 319000,
+    "ptime": 319000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Current issue: <a href=\"https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/69\">https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/69</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 665000,
+    "ptime": 665000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p><a href=\"https://docs.google.com/document/d/12NMFA0P1OYtE6_QoqP3J80tDr0z2-FEm2ZdiWeauAHE/editAdded\">https://docs.google.com/document/d/12NMFA0P1OYtE6_QoqP3J80tDr0z2-FEm2ZdiWeauAHE/editAdded</a> to the notes too</p>",
+    "topic": "ietf-interim",
+    "dtime": 732000,
+    "ptime": 732000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Jon, the link above got merged with your comment:<br>\n<a href=\"https://docs.google.com/document/d/12NMFA0P1OYtE6_QoqP3J80tDr0z2-FEm2ZdiWeauAHE/edit\">https://docs.google.com/document/d/12NMFA0P1OYtE6_QoqP3J80tDr0z2-FEm2ZdiWeauAHE/edit</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 967000,
+    "ptime": 967000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>Thanks Steve</p>",
+    "topic": "ietf-interim",
+    "dtime": 1012000,
+    "ptime": 1012000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>FYI all I'm travelling today and my network is unreliable. I keep falling off and have to leave at the bottom of the hour. Apologies.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1057000,
+    "ptime": 1057000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Vacation return overload. I have to drop at 30 past the hour. </p>\n<p>My main comment on the URL for statements to assure they're not tied to a location, so users can copy statements from one SCITT instance to another, and maintain the link to the ID, independent of the instance. <br>\nSee: Separating Identity From Location (<a href=\"https://stevelasker.blog/2021/09/24/separating-identity-from-location/\">https://stevelasker.blog/2021/09/24/separating-identity-from-location/</a>)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1228000,
+    "ptime": 1228000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>you want content id references</p>",
+    "topic": "ietf-interim",
+    "dtime": 2020000,
+    "ptime": 2020000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>where content id is a hash based identifier for binary.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2041000,
+    "ptime": 2041000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>registration policy is up the the TS, we don't control that.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2512000,
+    "ptime": 2512000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>if an operator wants to allow registrations for something, that is their choice.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2537000,
+    "ptime": 2537000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>we don't limit registration policies as part of our work.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2553000,
+    "ptime": 2553000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>we do define the shape of signed statements and transparent statments</p>",
+    "topic": "ietf-interim",
+    "dtime": 2586000,
+    "ptime": 2586000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I'm against compactness.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2869000,
+    "ptime": 2869000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I think we can have a simple machine with optional metadata that can be used for lookups. Otherwise, it becomes almost worthless pile of obscured data.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3009000,
+    "ptime": 3009000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Let me say that we definitely need to have the transparency service responsible for providing as list of entries that are associated. Or the submitter can lie about what is submitted.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3275000,
+    "ptime": 3275000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Historicity is a good word! Thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 3443000,
+    "ptime": 3443000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20230522-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-14/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20230522-1500"
+		}
+	]
+}

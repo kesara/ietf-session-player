@@ -1,0 +1,287 @@
+
+{
+	"title": "IETF114-COSE-20220726-1730",
+	"filename": "IETF114-COSE-20220726-1730",
+	"start": 0,
+	"end": 3726000,
+	"start_datetime": "2022-07-26T17:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "d0zOUQ26qt0",
+    "start": 0,
+    "end": "3726000"
+  }
+],
+	"messages": [
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>1, 2, 3, testing</p>",
+    "dtime": 176000,
+    "ptime": 176000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<p>I see carsten testing</p>",
+    "dtime": 335000,
+    "ptime": 335000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>1, 2, 3, testing</p>",
+    "dtime": 343000,
+    "ptime": 343000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>/me ducks</p>",
+    "dtime": 364000,
+    "ptime": 364000
+  },
+  {
+    "author": "Thomas Fossati",
+    "text": "<p>gnitset ,3 ,2 ,1</p>",
+    "dtime": 387000,
+    "ptime": 387000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>+1</p>",
+    "dtime": 454000,
+    "ptime": 454000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>meetecho: Please pan</p>",
+    "dtime": 722000,
+    "ptime": 722000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>So the question is basically to use the format in HPKE or the format used in COSE...</p>",
+    "dtime": 982000,
+    "ptime": 982000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>... the format in HPKE <em>libraries</em>. (That happens a lot with other primitives, where libraries only implement special encodings).</p>",
+    "dtime": 1022000,
+    "ptime": 1022000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I think this is limited to libraries. The HPKE RFC states \"   For P-256, P-384, and P-521, the SerializePublicKey() function of the<br>\n   KEM performs the uncompressed Elliptic-Curve-Point-to-Octet-String conversion according to [SECG].\"</p>",
+    "dtime": 1210000,
+    "ptime": 1210000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>\"Standard representation\" is probably not the best wording as the 65 byte SECG encoding is a much older standard and far more used.</p>",
+    "dtime": 1343000,
+    "ptime": 1343000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Not practical</p>",
+    "dtime": 1464000,
+    "ptime": 1464000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Is there nothing else protected by the AEAD?</p>",
+    "dtime": 1482000,
+    "ptime": 1482000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(in this case)</p>",
+    "dtime": 1504000,
+    "ptime": 1504000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>To be clear: It is not practical to require integrity verification prior to decryption. I'll make a comment at the mic.</p>",
+    "dtime": 1530000,
+    "ptime": 1530000
+  },
+  {
+    "author": "Göran Selander",
+    "text": "<p>We could set the \"Recommended\" column in the IANA registry to \"No\" to inidicate the caveat with encryption without integrity protection.</p>",
+    "dtime": 1626000,
+    "ptime": 1626000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Ugh, I dropped the audio connection</p>",
+    "dtime": 1677000,
+    "ptime": 1677000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Back now</p>",
+    "dtime": 1679000,
+    "ptime": 1679000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>W.r.t. Carsten's question about AAD, we also need to be careful about that, yes.  In particular, the \"alg\" parameter itself will not be authenticated, which requires some additional security considerations discussion.</p>",
+    "dtime": 1828000,
+    "ptime": 1828000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I appreciate that this is a very complex issue and that the need to ensure minimisation of foot-guns is important. Firmware update is a very special case.</p>",
+    "dtime": 1937000,
+    "ptime": 1937000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<blockquote>\n<p>alg:<br>\nThis header parameter is used to indicate the algorithm used for the security processing. This header parameter MUST be authenticated where the ability to do so exists. This support is provided by AEAD algorithms or construction (e.g., COSE_Sign and COSE_Mac0). This authentication can be done either by placing the header parameter in the protected-header-parameters bucket or as part of the externally supplied data (Section 4.3).</p>\n</blockquote>",
+    "dtime": 1986000,
+    "ptime": 1986000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>The SUIT use case may not be as special as it sounds, however, this is just a streaming decryption requirement. I would ask if it is in scope to make a streaming decryption mechanism for COSE Encrypt.</p>",
+    "dtime": 2037000,
+    "ptime": 2037000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>There <strong>is</strong> some text in 8152bis-struct about (non-)support for streaming signature processing.</p>",
+    "dtime": 2085000,
+    "ptime": 2085000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Oops, apparently I mean 8152bis-algs.</p>",
+    "dtime": 2108000,
+    "ptime": 2108000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<blockquote>\n<p>For EdDSA, the content to be signed (either the message or the prehash value) is processed twice inside of the signature algorithm. For use with COSE, only the pure EdDSA version is used. This is because it is not expected that extremely large contents are going to be needed and, based on the arrangement of the message structure, the entire message is going to need to be held in memory in order to create or verify a signature. Therefore, there does not appear to be a need to be able to do block updates of the hash, followed by eliminating the message from memory.</p>\n</blockquote>",
+    "dtime": 2165000,
+    "ptime": 2165000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/9-cose/topic/jabber/near/23630\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>For EdDSA, the content to be signed (either the message or the prehash value) is processed twice inside of the signature algorithm. For use with COSE, only the pure EdDSA version is used. This is because it is not expected that extremely large contents are going to be needed and, based on the arrangement of the message structure, the entire message is going to need to be held in memory in order to create or verify a signature. Therefore, there does not appear to be a need to be able to do block updates of the hash, followed by eliminating the message from memory.<br>\n</p>\n</blockquote>\n</blockquote>\n<p>Even then, this text is specific to EdDSA. It also provides an explicit mechanism for handling the message if it doesn't fit in EdDSA with single-pass processing.</p>",
+    "dtime": 2300000,
+    "ptime": 2300000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I don't think this is limited to SUIT at all. There are many other uses cases where IND-CPA encryption is a good choice and the integrity protection does not provide much (or nothing). One recent example is the header encryption in DTLS/QUIC, another is the the second flight in the SIGMA-I protocol (used in EDHOC), and a third example is many/most/all use cases where COSE countersign is used, e.g. Group OSCORE.</p>\n<p>The drive to move all security protocol to AEAD was very good but was like many other things driven a bit to far. IND-CPA encryption still have uses.</p>",
+    "dtime": 2319000,
+    "ptime": 2319000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>For SUIT, I think there's another possibility: block AEAD. This is either shared key, different init-vector, or shared init vector with KDF from a single key. However, I don't think that existing COSE structures would support that use.</p>",
+    "dtime": 2440000,
+    "ptime": 2440000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I'm curious how these options would fit with existing libraries.</p>",
+    "dtime": 2545000,
+    "ptime": 2545000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Applications would be free to use it, and there would be ambiguity about what the application means by doing so.</p>",
+    "dtime": 2747000,
+    "ptime": 2747000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"115\">@Carsten Bormann</span> If you're using SUIT, you have a different solution for <code>nbf</code>...</p>",
+    "dtime": 2775000,
+    "ptime": 2775000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/9-cose/topic/jabber/near/23660\">said</a>:</p>\n<blockquote>\n<p>Applications would be free to use it, and there would be ambiguity about what the application means by doing so.</p>\n</blockquote>\n<p>Granted; I think it would have to be a new algorithm because the way it's used is substantially different.</p>",
+    "dtime": 2878000,
+    "ptime": 2878000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>(for context, the \"it\" I meant was the proposed COSE header parameter that contains CWT claims)</p>",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/9-cose/topic/jabber/near/23684\">said</a>:</p>\n<blockquote>\n<p>(for context, the \"it\" I meant was the proposed COSE header parameter that contains CWT claims)</p>\n</blockquote>\n<p>Oops, sorry, I assumed the wrong thing!</p>",
+    "dtime": 2999000,
+    "ptime": 2999000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I think I was typing too fast and didn't proofread, sorry.</p>",
+    "dtime": 3030000,
+    "ptime": 3030000
+  },
+  {
+    "author": "Armando Faz-Hernández",
+    "text": "<p>none of the PQ signatures algorithms has been settled down.</p>",
+    "dtime": 3198000,
+    "ptime": 3198000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>+1 for getting the drafts started, adopted, etc, and then pause them until NIST finalizes.</p>",
+    "dtime": 3266000,
+    "ptime": 3266000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/9-cose/topic/jabber/near/23708\">said</a>:</p>\n<blockquote>\n<p>+1 for getting the drafts started, adopted, etc, and then pause them until NIST finalizes.</p>\n</blockquote>\n<p>+1</p>",
+    "dtime": 3288000,
+    "ptime": 3288000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>As long as \"starting\" the draft doesn't stop us later to apply things we have learned, +1, too</p>",
+    "dtime": 3466000,
+    "ptime": 3466000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>@John, it's not necessary for these targets: hybrid with signatures is just multiply-signed</p>",
+    "dtime": 3514000,
+    "ptime": 3514000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Or am I missing something?</p>",
+    "dtime": 3611000,
+    "ptime": 3611000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>LMS is already standardized in COSE..... is something missing?</p>",
+    "dtime": 3627000,
+    "ptime": 3627000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-COSE-20220726-1730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/cose"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-COSE-20220726-1730"
+		}		
+	]
+}

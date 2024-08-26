@@ -1,0 +1,318 @@
+{
+  "title": "IETF103-LSR-20181106-1120",
+  "filename": "IETF103-LSR-20181106-1120",
+  "start": 0,
+  "end": 3647000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "4CFEE2QtPq4",
+      "start": 0.0,
+      "end": 3647000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "depends on your stack.  much for the same reason some BGP implementations are on custom-rolled TCP and some just use a kernel service.",
+      "ptime": 11000.0,
+      "dtime": 9180000.0,
+      "author": "Jeffrey Haas"
+    },
+    {
+      "text": "jeffrey: I thought the major reason for separate TCP implementation was the TCP-AO?",
+      "ptime": 107000.0,
+      "dtime": 9276000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "no one implements (that I know of) tcp-ao yet.  security considerations are another very large discussion topic.",
+      "ptime": 143000.0,
+      "dtime": 9312000.0,
+      "author": "Jeffrey Haas"
+    },
+    {
+      "text": "jeffrey: Right, I meant \"TCP MD5\"",
+      "ptime": 157000.0,
+      "dtime": 9326000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "tcp-md5 is integrated in even linux these days",
+      "ptime": 167000.0,
+      "dtime": 9336000.0,
+      "author": "Jeffrey Haas"
+    },
+    {
+      "text": "right, but several of these decisions are 15 years old I believe.",
+      "ptime": 206000.0,
+      "dtime": 9375000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "or 2",
+      "ptime": 216000.0,
+      "dtime": 9385000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "20",
+      "ptime": 219000.0,
+      "dtime": 9388000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "I believe you\u0027ve just summarized \"why aren\u0027t we using a stream protocol to do our igp\".  old decisions that made sense at the time.",
+      "ptime": 242000.0,
+      "dtime": 9411000.0,
+      "author": "Jeffrey Haas"
+    },
+    {
+      "text": "understand why they made sense before casually changing them. :-)",
+      "ptime": 253000.0,
+      "dtime": 9422000.0,
+      "author": "Jeffrey Haas"
+    },
+    {
+      "text": "right.",
+      "ptime": 267000.0,
+      "dtime": 9436000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Another inspiration for this draft is a discussion I had in 1996 with Dave Katz. Yakov and him were working on LDP. LDP uses TCP. Dave said: \"if we had to do ISIS all over again, we\u0027d probably use TCP now\". I never forgot that. :)",
+      "ptime": 321000.0,
+      "dtime": 9490000.0,
+      "author": "Henk Smit"
+    },
+    {
+      "text": "well, the LDP choice of TCP actually has caused problems because it took longer for LDP to come up compared to ISIS, thus \"IGP-LDP-SYNC\" requirement",
+      "ptime": 365000.0,
+      "dtime": 9534000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Les Ginsberg at mic",
+      "ptime": 368000.0,
+      "dtime": 9537000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Antoni Przygienda at mic",
+      "ptime": 495000.0,
+      "dtime": 9664000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "arguably, we have similar headaches these days with BGP + BFD.  The BFD interactions are sometimes interop issues.",
+      "ptime": 496000.0,
+      "dtime": 9665000.0,
+      "author": "Jeffrey Haas"
+    },
+    {
+      "text": "Stewart Bryant at mic",
+      "ptime": 619000.0,
+      "dtime": 9788000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Les Ginsberg at mic",
+      "ptime": 671000.0,
+      "dtime": 9840000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "didn\u0027t PNNI did something like this ?",
+      "ptime": 973000.0,
+      "dtime": 1.0142E7,
+      "author": "Henk Smit"
+    },
+    {
+      "text": "Cengiz Alaettinpglu at mic",
+      "ptime": 1248000.0,
+      "dtime": 1.0417E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Cengiz Alaettinnglu at mic",
+      "ptime": 1262000.0,
+      "dtime": 1.0431E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "PNNI - something like this",
+      "ptime": 1287000.0,
+      "dtime": 1.0456E7,
+      "author": "Susan Hares"
+    },
+    {
+      "text": "Cengiz Alaettinoglu at mic",
+      "ptime": 1287000.0,
+      "dtime": 1.0456E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "sorry, the correct spelling is \"Cengiz Alaettinoglu\"",
+      "ptime": 1337000.0,
+      "dtime": 1.0506E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Jeff Tantisura at mic",
+      "ptime": 1351000.0,
+      "dtime": 1.052E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Christian Martin at mic",
+      "ptime": 1422000.0,
+      "dtime": 1.0591E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Alessandro Amirante just joined the room",
+      "ptime": 1469000.0,
+      "dtime": 1.0638E7
+    },
+    {
+      "text": "Antoni Przygienda at mic",
+      "ptime": 1505000.0,
+      "dtime": 1.0674E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Alessandro Amirante just left the room",
+      "ptime": 1517000.0,
+      "dtime": 1.0686E7
+    },
+    {
+      "text": "Christian Martin at mic",
+      "ptime": 1544000.0,
+      "dtime": 1.0713E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Alessandro Amirante just joined the room",
+      "ptime": 1544000.0,
+      "dtime": 1.0713E7
+    },
+    {
+      "text": "***Alessandro Amirante just left the room",
+      "ptime": 1612000.0,
+      "dtime": 1.0781E7
+    },
+    {
+      "text": "Les Ginsberg at mic",
+      "ptime": 1984000.0,
+      "dtime": 1.1153E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mikael Abrahamsson at mic",
+      "ptime": 2079000.0,
+      "dtime": 1.1248E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Hirochika Asai just left the room",
+      "ptime": 2123000.0,
+      "dtime": 1.1292E7
+    },
+    {
+      "text": "Antoni Przygienda at mic",
+      "ptime": 2188000.0,
+      "dtime": 1.1357E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Jeff Tantisura at mic",
+      "ptime": 2253000.0,
+      "dtime": 1.1422E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Antoni Przygienda at mic",
+      "ptime": 2296000.0,
+      "dtime": 1.1465E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Les Ginsberg at mic",
+      "ptime": 2335000.0,
+      "dtime": 1.1504E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Jeff Tantisura at mic",
+      "ptime": 2419000.0,
+      "dtime": 1.1588E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Zafar Ali at mic",
+      "ptime": 2970000.0,
+      "dtime": 1.2139E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Stanzin Takpa just joined the room",
+      "ptime": 3051000.0,
+      "dtime": 1.222E7
+    },
+    {
+      "text": "I need to head out, so jabber scribe service by me is hereby terminated",
+      "ptime": 3133000.0,
+      "dtime": 1.2302E7,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "gn all. it\u0027s 6:19 am here. sleep well.",
+      "ptime": 3561000.0,
+      "dtime": 1.273E7,
+      "author": "Henk Smit"
+    },
+    {
+      "text": "***Henk Smit just left the room",
+      "ptime": 3611000.0,
+      "dtime": 1.278E7
+    },
+    {
+      "text": "***Mikael Abrahamsson just left the room",
+      "ptime": 3646000.0,
+      "dtime": 1.2815E7
+    },
+    {
+      "text": "***Suneesh Babu just left the room",
+      "ptime": 3646000.0,
+      "dtime": 1.2815E7
+    },
+    {
+      "text": "***Stanzin Takpa just left the room",
+      "ptime": 3646000.0,
+      "dtime": 1.2815E7
+    },
+    {
+      "text": "***Aijun Wang just left the room",
+      "ptime": 3646000.0,
+      "dtime": 1.2815E7
+    },
+    {
+      "text": "***Jeffrey Haas just left the room",
+      "ptime": 3646000.0,
+      "dtime": 1.2815E7
+    },
+    {
+      "text": "***Susan Hares just left the room",
+      "ptime": 3647000.0,
+      "dtime": 1.2816E7
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF103-LSR-20181106-1120"
+    }
+  ]
+}

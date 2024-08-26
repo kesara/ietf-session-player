@@ -1,0 +1,105 @@
+
+{
+	"title": "IETF117-DHC-20230725-0030",
+	"filename": "IETF117-DHC-20230725-0030",
+	"start": 0,
+	"end": 2520000,
+	"start_datetime": "2023-07-25T00:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "MFjSPKhu4QY",
+    "start": 0,
+    "end": "2520000"
+  }
+],
+	"messages": [
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>OTOH, the switches could act as a DHCP relay</p>",
+    "topic": "ietf-117",
+    "dtime": 1081000,
+    "ptime": 1081000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>It's useful for the client to be able to give the FQDN.  Servers should probably be very skeptical about that, but if my laptop is also updating forward DNS (through nsupdate), and I'm visiting some place, it would be cool if reverse could be accurate.</p>",
+    "topic": "ietf-117",
+    "dtime": 1458000,
+    "ptime": 1458000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>I've long wanted to have my home network's IPv6 addresses to get DNS names somehow, without having to add entries to my zone files by hand.</p>",
+    "topic": "ietf-117",
+    "dtime": 1579000,
+    "ptime": 1579000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"163\">@Alejandro Sedeño</span>  this feature won't do that for you. It might update the reverse DNS.  For what you want, the front-end-naming work, which homenet did not finish might help. (Yes, I'm a co-author)</p>",
+    "topic": "ietf-117",
+    "dtime": 1796000,
+    "ptime": 1796000
+  },
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>:nod: regardless off what work get me that, I've still wanted it. :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 1849000,
+    "ptime": 1849000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@MCR your I-D sits in the RFC editor queue (if I hinted correctly the I-D), so there is still hope</p>",
+    "topic": "ietf-117",
+    "dtime": 1962000,
+    "ptime": 1962000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"209\">Éric Vyncke</span> <a href=\"#narrow/stream/71-dhc/topic/ietf-117/near/80071\">said</a>:</p>\n<blockquote>\n<p>@MCR your I-D sits in the RFC editor queue (if I hinted correctly the I-D), so there is still hope</p>\n</blockquote>\n<p>Ah, I had to stop hoping and get on with my life.</p>",
+    "topic": "ietf-117",
+    "dtime": 1996000,
+    "ptime": 1996000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Eric Vyncke, maybe you can answer the downref vs IS question here.</p>",
+    "topic": "ietf-117",
+    "dtime": 2056000,
+    "ptime": 2056000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>So, they are informational for the person implementing a DHCPv6-PD client ONLY, but normative for the SNAC-types that want downstream PD. Since the second part is not in scope for 8415bis, I think that an <em>informative</em> reference to something that speaks about downstream PD would be ideal!</p>",
+    "topic": "ietf-117",
+    "dtime": 2371000,
+    "ptime": 2371000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1238\">@Lorenzo Colitti</span> the answer is to invoke Cunningham's Law.</p>",
+    "topic": "ietf-117",
+    "dtime": 2447000,
+    "ptime": 2447000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-DHC-20230725-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/dhc"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-DHC-20230725-0030"
+		}		
+	]
+}

@@ -1,0 +1,172 @@
+{
+  "title": "IETF113-ICNRG-20220325-1130",
+  "filename": "IETF113-ICNRG-20220325-1130",
+  "start": 0,
+  "end": 7466000,
+  "start_datetime": "2022-03-25T11:30:00Z",
+  "videos": [
+    {
+      "type": 2,
+      "src": "kMHAA5NUy1k",
+      "start": 0,
+      "end": "7466000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 723000,
+      "ptime": 723000,
+      "author": "David Oran",
+      "text": "My Safari decided to go CPU bond - i had to kill it, switch to Chrome, and rejoin.<br/>"
+    },
+    {
+      "dtime": 2001000,
+      "ptime": 2001000,
+      "author": "Dirk Kutscher",
+      "text": "Slides: <a href=\"https://datatracker.ietf.org/meeting/113/materials/slides-113-icnrg-ndn-for-data-intensive-science-experiments-n-dise-edmund-yeh-00\" rel=\"nofollow\">https://datatracker.ietf.org/meeting/113/materials/slides-113-icnrg-ndn-for-data-intensive-science-experiments-n-dise-edmund-yeh-00</a><br/>"
+    },
+    {
+      "dtime": 3702000,
+      "ptime": 3702000,
+      "author": "Edmund Yeh",
+      "text": "Need to go teach.&nbsp;&nbsp;Thanks for opportunity to present.&nbsp;&nbsp;Happy to answer questions offline.&nbsp;&nbsp;Edmund<br/>"
+    },
+    {
+      "dtime": 3715000,
+      "ptime": 3715000,
+      "author": "Dirk Kutscher",
+      "text": "Thanks Edmund!<br/>"
+    },
+    {
+      "dtime": 4433000,
+      "ptime": 4433000,
+      "author": "Marie-Jose Montpetit",
+      "text": "Edmund what is the name of your students<br/>"
+    },
+    {
+      "dtime": 4442000,
+      "ptime": 4442000,
+      "author": "Colin Perkins",
+      "text": "okay – makes sense<br/>"
+    },
+    {
+      "dtime": 4554000,
+      "ptime": 4554000,
+      "author": "Matthias Wählisch",
+      "text": "@Marie-Jose, i suppose Yuanhao Wu<br/>"
+    },
+    {
+      "dtime": 4565000,
+      "ptime": 4565000,
+      "author": "Dirk Kutscher",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 4735000,
+      "ptime": 4735000,
+      "author": "Colin Perkins",
+      "text": "Do the ICN ping and traceroute mechanisms require this?<br/>"
+    },
+    {
+      "dtime": 4745000,
+      "ptime": 4745000,
+      "author": "Dirk Kutscher",
+      "text": "no<br/>"
+    },
+    {
+      "dtime": 4761000,
+      "ptime": 4761000,
+      "author": "Dirk Kutscher",
+      "text": "MIIRC (what Dave was talking about)<br/>"
+    },
+    {
+      "dtime": 4772000,
+      "ptime": 4772000,
+      "author": "Dirk Kutscher",
+      "text": "the multipath congestion control work<br/>"
+    },
+    {
+      "dtime": 4809000,
+      "ptime": 4809000,
+      "author": "Colin Perkins",
+      "text": "ok<br/>"
+    },
+    {
+      "dtime": 4880000,
+      "ptime": 4880000,
+      "author": "Dirk Kutscher",
+      "text": "path steering is a little more invasive in terms of changing forwarder behavior<br/>"
+    },
+    {
+      "dtime": 5247000,
+      "ptime": 5247000,
+      "author": "Colin Perkins",
+      "text": "And I thought those words where \"but what about multicast?\"<br/>"
+    },
+    {
+      "dtime": 5276000,
+      "ptime": 5276000,
+      "author": "Dirk Kutscher",
+      "text": ";-)<br/>"
+    },
+    {
+      "dtime": 6128000,
+      "ptime": 6128000,
+      "author": "David Oran",
+      "text": "@thomas: this design is explicitly done to avoid reflection attacks - the Reflexive name prefix only identifies state at the consumer who issued the original interest, it isn't a regular name that can be forwarded anywhere else - it follows the breadcrumbs establishd by the initial interest<br/>"
+    },
+    {
+      "dtime": 6646000,
+      "ptime": 6646000,
+      "author": "David Oran",
+      "text": "@ken: There's still a new PIT entry created for the reflexive interest - it's just explicitly linked back to the PIT entry for the original interest, which is used to find the ingress face of that interest to use as the forwarding face for the reflexive interest.<br/>"
+    },
+    {
+      "dtime": 6685000,
+      "ptime": 6685000,
+      "author": "David Oran",
+      "text": "The tricky pat is ensuring that the OIt entry for the reflexive interest winds up in the same shard as the original interesrt, which is where the PIT token becomes critical.<br/>"
+    },
+    {
+      "dtime": 6748000,
+      "ptime": 6748000,
+      "author": "David Oran",
+      "text": "sorry for the typos: The tricky part is ensuring that the PIT entry for the reflexive interest winds up in the same shard as the original interest, which is where the PIT token becomes critical.<br/>"
+    },
+    {
+      "dtime": 7364000,
+      "ptime": 7364000,
+      "author": "Colin Perkins",
+      "text": "Thanks!<br/>"
+    },
+    {
+      "dtime": 7366000,
+      "ptime": 7366000,
+      "author": "Kenneth Calvert",
+      "text": "Thanks all!<br/>"
+    },
+    {
+      "dtime": 7366000,
+      "ptime": 7366000,
+      "author": "Kazuaki Ueda",
+      "text": "Thanks!<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF113-ICNRG-20220325-1130"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/113/session/icnrg"
+    },
+    {
+      "type": 3,
+      "title": "Show of hands",
+      "link": "polls/IETF113-ICNRG-20220325-1130"
+    }
+  ]
+}

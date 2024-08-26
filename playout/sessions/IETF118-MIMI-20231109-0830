@@ -1,0 +1,1197 @@
+
+{
+	"title": "IETF118-MIMI-20231109-0830",
+	"filename": "IETF118-MIMI-20231109-0830",
+	"start": 0,
+	"end": 7384000,
+	"start_datetime": "2023-11-09T08:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "xvxwESH9hmw",
+    "start": 0,
+    "end": "7384000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Richard is online!</p>",
+    "topic": "ietf-interim",
+    "dtime": 135000,
+    "ptime": 135000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>one thing to note is that every client  belongs to a participant, though not every participant has a client that is a member</p>",
+    "topic": "ietf-118",
+    "dtime": 372000,
+    "ptime": 372000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>in slide 5, there is no visual representation of which client belongs to which users, other than the numbers (e.g., user 2 has clients 2a and 2b).  There should be arrows connecting them to explicitly represent those relationships.</p>",
+    "topic": "ietf-118",
+    "dtime": 460000,
+    "ptime": 460000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>I think all the user-specific stuff is in the pink box</p>",
+    "topic": "ietf-118",
+    "dtime": 817000,
+    "ptime": 817000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>participant list is a superset of the MLS group</p>",
+    "topic": "ietf-118",
+    "dtime": 824000,
+    "ptime": 824000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so, add to participant before adding to MLS; remove from MLS before removing from participant.</p>",
+    "topic": "ietf-118",
+    "dtime": 845000,
+    "ptime": 845000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>but the participant can be banned but be in the MLS group while waiting for a Commit</p>",
+    "topic": "ietf-118",
+    "dtime": 877000,
+    "ptime": 877000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>So before I can be banned I have to be removed. So during removal I can rejoin?</p>",
+    "topic": "ietf-118",
+    "dtime": 882000,
+    "ptime": 882000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i think you can be banned but the ban can not have taken effect yet</p>",
+    "topic": "ietf-118",
+    "dtime": 899000,
+    "ptime": 899000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>The MLS group state can be lagging behind the participant list.</p>",
+    "topic": "ietf-118",
+    "dtime": 920000,
+    "ptime": 920000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>not for removal</p>",
+    "topic": "ietf-118",
+    "dtime": 947000,
+    "ptime": 947000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>That's because changes to the MLS group require a client to do a commit, while changes to the participant list can be made by servers.</p>",
+    "topic": "ietf-118",
+    "dtime": 952000,
+    "ptime": 952000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>that doesn't match slide 8, <span class=\"user-mention\" data-user-id=\"2069\">@Konrad Kohbrok</span></p>",
+    "topic": "ietf-118",
+    "dtime": 969000,
+    "ptime": 969000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>It's just a result of the way that MLS works. However, if the state lags behind clients MUST do a commit before they can send messages.</p>",
+    "topic": "ietf-118",
+    "dtime": 1033000,
+    "ptime": 1033000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>If you just look at the points in time where clients send application messages, it doesn't lag.</p>",
+    "topic": "ietf-118",
+    "dtime": 1057000,
+    "ptime": 1057000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so when a message comes in from a client that doesn't change the MLS state as required, what happens to that message?</p>",
+    "topic": "ietf-118",
+    "dtime": 1078000,
+    "ptime": 1078000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>It should be dropped by the Hub.</p>",
+    "topic": "ietf-118",
+    "dtime": 1122000,
+    "ptime": 1122000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>does the client know that it was dropped?  how should the client respond to that?</p>",
+    "topic": "ietf-118",
+    "dtime": 1158000,
+    "ptime": 1158000
+  },
+  {
+    "author": "Jacques Latour",
+    "text": "<p>for message transport, seems a bit similar to proposed routing intermediaries as documented in ToIP.... See section #4.  </p>\n<p><a href=\"https://www.trustoverip.org/blog/2023/08/31/mid-year-progress-report-on-the-toip-trust-spanning-protocol/\">https://www.trustoverip.org/blog/2023/08/31/mid-year-progress-report-on-the-toip-trust-spanning-protocol/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1192000,
+    "ptime": 1192000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>We haven't described the error responses, but the client should do a commit first that eliminates the lag.</p>",
+    "topic": "ietf-118",
+    "dtime": 1203000,
+    "ptime": 1203000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>how does the client know that it is obliged to commit the MLS state change before doing other things?  how does it know what state change is being forced by the server?</p>",
+    "topic": "ietf-118",
+    "dtime": 1203000,
+    "ptime": 1203000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>what are the range of MLS commits that the server can require?</p>",
+    "topic": "ietf-118",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>It's mandated by MLS. If the underlying MLS implementation is correct, it should error out.</p>",
+    "topic": "ietf-118",
+    "dtime": 1242000,
+    "ptime": 1242000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i don't understand -- MLS doesn't know anything about the participant list</p>",
+    "topic": "ietf-118",
+    "dtime": 1272000,
+    "ptime": 1272000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>or the authz policy</p>",
+    "topic": "ietf-118",
+    "dtime": 1279000,
+    "ptime": 1279000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i'll ask at the mic, because i'm assuming i'm not the only confused person</p>",
+    "topic": "ietf-118",
+    "dtime": 1318000,
+    "ptime": 1318000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>+1 on unreasonable to call for adoption on stuff that missed the deadline</p>",
+    "topic": "ietf-118",
+    "dtime": 1359000,
+    "ptime": 1359000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yeah, i don't think we intended to ask for an actual adoption call here.  a sense of the room could be nice.</p>",
+    "topic": "ietf-118",
+    "dtime": 1497000,
+    "ptime": 1497000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>also the arch doc was posted a few weeks ago and it hasn't changed much</p>",
+    "topic": "ietf-118",
+    "dtime": 1567000,
+    "ptime": 1567000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>since the prior version</p>",
+    "topic": "ietf-118",
+    "dtime": 1580000,
+    "ptime": 1580000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 <span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> -- there's no way to do this without specifying these things, if we want federated interop</p>",
+    "topic": "ietf-118",
+    "dtime": 1690000,
+    "ptime": 1690000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>regarding <span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> 's question, your client (dkg) has a copy of the policy from the green box (it is a GroupContextExtension which is shared among all members of the MLS group).  This will say which operations clients are authorized to do. A common policy is to commit pending proposals in a particular time and way.  Likewise, the client might also be permitted to originate a Commit with their own Remove proposals.</p>",
+    "topic": "ietf-118",
+    "dtime": 1721000,
+    "ptime": 1721000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>To ekr's question, draft-mahy-mimi-group-chat <strong>does</strong> actually cover all these cases and an example authorization policy</p>",
+    "topic": "ietf-118",
+    "dtime": 1764000,
+    "ptime": 1764000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>please not \"this is one way, here's another\".  the IETF has two major curses: the curse of the deployed base, and the curse of two (or more) different ways to do a thing.  MIMI is lucky because we don't currently have the curse of the deployed base, let's not embrace the other.</p>",
+    "topic": "ietf-118",
+    "dtime": 1812000,
+    "ptime": 1812000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99129\">said</a>:</p>\n<blockquote>\n<p>i don't understand -- MLS doesn't know anything about the participant list</p>\n</blockquote>\n<p>The client has the participant list and policy. that state is protected in MLS with a GCE</p>",
+    "topic": "ietf-118",
+    "dtime": 1856000,
+    "ptime": 1856000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>As Rohan says, we are extending the MLS state so that it can confirm higher-level state</p>",
+    "topic": "ietf-118",
+    "dtime": 1895000,
+    "ptime": 1895000
+  },
+  {
+    "author": "Michael B",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> , I think MIMI has some kind of deployed base, in the form of gatekeepers!</p>",
+    "topic": "ietf-118",
+    "dtime": 1903000,
+    "ptime": 1903000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"793\">Rohan Mahy</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99174\">said</a>:</p>\n<blockquote>\n<p>To ekr's question, draft-mahy-mimi-group-chat <strong>does</strong> actually cover all these cases and an example authorization policy</p>\n</blockquote>\n<p>So you'll be proposing to merge that into here?</p>",
+    "topic": "ietf-118",
+    "dtime": 1947000,
+    "ptime": 1947000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"793\">@Rohan Mahy</span> thanks, that makes it clearer to me, but the situation where ekr gets banned is such that the green box (in the GCE) got updated.  how did it get updated?</p>",
+    "topic": "ietf-118",
+    "dtime": 1955000,
+    "ptime": 1955000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>maybe all the green boxes should just pre-emptively ban ekr so we don't need to worry about this use case.</p>",
+    "topic": "ietf-118",
+    "dtime": 2131000,
+    "ptime": 2131000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Yeah, but what about \"ekr2\"?</p>",
+    "topic": "ietf-118",
+    "dtime": 2142000,
+    "ptime": 2142000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i think that guy is probably ok</p>",
+    "topic": "ietf-118",
+    "dtime": 2152000,
+    "ptime": 2152000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>ask regext for a regex</p>",
+    "topic": "ietf-118",
+    "dtime": 2158000,
+    "ptime": 2158000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>just reuse the evil bit</p>",
+    "topic": "ietf-118",
+    "dtime": 2175000,
+    "ptime": 2175000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@EKR we have been folding in pieces from -group-chat as we work up the level of detail</p>",
+    "topic": "ietf-118",
+    "dtime": 2258000,
+    "ptime": 2258000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Isn't it better to use a better AEAD?</p>",
+    "topic": "ietf-118",
+    "dtime": 2567000,
+    "ptime": 2567000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Jonathan - no, as EKR says, anyone could generate a fresh valid AEAD representation</p>",
+    "topic": "ietf-118",
+    "dtime": 2760000,
+    "ptime": 2760000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Also, this problem has been solved with proxied fetches in practice</p>",
+    "topic": "ietf-118",
+    "dtime": 2814000,
+    "ptime": 2814000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Require OHTTP?</p>",
+    "topic": "ietf-118",
+    "dtime": 2833000,
+    "ptime": 2833000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>It's just not a feature of AEAD to prevent someone who has the key from substituting the content, because the key is not bound to the content</p>",
+    "topic": "ietf-118",
+    "dtime": 2841000,
+    "ptime": 2841000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Like that's the nature of AEAD</p>",
+    "topic": "ietf-118",
+    "dtime": 2890000,
+    "ptime": 2890000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99275\">said</a>:</p>\n<blockquote>\n<p>Require OHTTP?</p>\n</blockquote>\n<p>Would be nice, but it puts small providers in a difficult position because they have to find (and pay for) some proxy server</p>",
+    "topic": "ietf-118",
+    "dtime": 3055000,
+    "ptime": 3055000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>If you're distributing the content to all the hubs, that doesn't seem that different than just making them internal content in MLS, and making it selective whether the clients download them.</p>",
+    "topic": "ietf-118",
+    "dtime": 3082000,
+    "ptime": 3082000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99278\">said</a>:</p>\n<blockquote>\n<p>It's just not a feature of AEAD to prevent someone who has the key from substituting the content, because the key is not bound to the content</p>\n</blockquote>\n<p>Hmm, I thought there were key and hash committing AEADs, but it's not my area of expertise.</p>",
+    "topic": "ietf-118",
+    "dtime": 3103000,
+    "ptime": 3103000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Not sure why you couldn't account for too large files in the client</p>",
+    "topic": "ietf-118",
+    "dtime": 3140000,
+    "ptime": 3140000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>But I think that's only one example of the problem Cullen explained</p>",
+    "topic": "ietf-118",
+    "dtime": 3151000,
+    "ptime": 3151000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99286\">said</a>:</p>\n<blockquote>\n<p>If you're distributing the content to all the hubs, that doesn't seem that different than just making them internal content in MLS, and making it selective whether the clients download them.</p>\n</blockquote>\n<p>The main issue I see with that is that we would keep N different encrypted copies of that data (if I understood you correctly)</p>",
+    "topic": "ietf-118",
+    "dtime": 3194000,
+    "ptime": 3194000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Jonathan - No, key/hash-committing AEADs prevent changing the key+content but not the AEAD tag.  No AEAD stops you changing the tag as well -- otherwise you couldn't encrypt multiple values!</p>",
+    "topic": "ietf-118",
+    "dtime": 3239000,
+    "ptime": 3239000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2083\">Benjamin Beurdouche</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99290\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99286\">said</a>:</p>\n<blockquote>\n<p>If you're distributing the content to all the hubs, that doesn't seem that different than just making them internal content in MLS, and making it selective whether the clients download them.</p>\n</blockquote>\n<p>The main issue I see with that is that we would keep N different encrypted copies of that data (if I understood you correctly)</p>\n</blockquote>\n<p>Do you mean if the content is sent in multiple chats? i.e. are you talking about dedup?</p>",
+    "topic": "ietf-118",
+    "dtime": 3268000,
+    "ptime": 3268000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>yes, sorry</p>",
+    "topic": "ietf-118",
+    "dtime": 3356000,
+    "ptime": 3356000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>only send this if you really need to? then this is not a problem for the protocol.</p>",
+    "topic": "ietf-118",
+    "dtime": 3388000,
+    "ptime": 3388000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>O-HTTP doesn't help here b/c it's the <em>fetch</em> that leaks the information, more than the IP address of the client</p>",
+    "topic": "ietf-118",
+    "dtime": 3409000,
+    "ptime": 3409000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>After all, Web bugs come from unpredicted IP addressers</p>",
+    "topic": "ietf-118",
+    "dtime": 3427000,
+    "ptime": 3427000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> web bugs leak two things: read status, and network location</p>",
+    "topic": "ietf-118",
+    "dtime": 3503000,
+    "ptime": 3503000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> No argument there.</p>",
+    "topic": "ietf-118",
+    "dtime": 3525000,
+    "ptime": 3525000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I like this proposal, and I think it would be generating a PR for it.</p>",
+    "topic": "ietf-118",
+    "dtime": 3531000,
+    "ptime": 3531000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Sorry, \"would be worth generating a PR for it\".</p>",
+    "topic": "ietf-118",
+    "dtime": 3554000,
+    "ptime": 3554000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>O-HTTP defends the network location part, but not the read part (though the server can't know  which MLS group is reading it)</p>",
+    "topic": "ietf-118",
+    "dtime": 3597000,
+    "ptime": 3597000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1025\">@Travis Ralston</span> maybe we could stub this into mimi-protocol?</p>",
+    "topic": "ietf-118",
+    "dtime": 3609000,
+    "ptime": 3609000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(this == room-associated content, fetched through MIMI)</p>",
+    "topic": "ietf-118",
+    "dtime": 3621000,
+    "ptime": 3621000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>yea, we'll need some sort of server-server API for it. It's largely been excluded while we focus on non-media message delivery first :)</p>",
+    "topic": "ietf-118",
+    "dtime": 3659000,
+    "ptime": 3659000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> One minor amendment -- you might want to not use the message encapsulation, just so you can have a little more flexibility with the encryption key</p>",
+    "topic": "ietf-118",
+    "dtime": 3679000,
+    "ptime": 3679000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>(as one of the Matrix guys responsible for federated media, I have Thoughts and Ideas)</p>",
+    "topic": "ietf-118",
+    "dtime": 3684000,
+    "ptime": 3684000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1025\">@Travis Ralston</span> server-server API is everything this group does :)</p>",
+    "topic": "ietf-118",
+    "dtime": 3697000,
+    "ptime": 3697000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>@Richard Barnes I am sure you are smarter than I am about how this would need to be done. :)</p>",
+    "topic": "ietf-118",
+    "dtime": 3708000,
+    "ptime": 3708000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>+100000 to using content hashes as IDs</p>",
+    "topic": "ietf-118",
+    "dtime": 3763000,
+    "ptime": 3763000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>we made the shift in ~2018 in Matrix due to lots of headaches caused by maliciously duplicate msg IDs</p>",
+    "topic": "ietf-118",
+    "dtime": 3797000,
+    "ptime": 3797000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>and/or maliciously mutated content</p>",
+    "topic": "ietf-118",
+    "dtime": 3825000,
+    "ptime": 3825000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>and haven't looked back.</p>",
+    "topic": "ietf-118",
+    "dtime": 3828000,
+    "ptime": 3828000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>As long as we don't put a hash of the plain text into the AAD ...</p>",
+    "topic": "ietf-118",
+    "dtime": 3828000,
+    "ptime": 3828000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>How does a duplicate message get delivered both before and after a user joins the group? If the first was sent before the second should be impossible to decrypt, no?</p>",
+    "topic": "ietf-118",
+    "dtime": 3836000,
+    "ptime": 3836000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p>Isn't the MLS layer already solving the issue of making message delivery reliable and acknowledged?</p>",
+    "topic": "ietf-118",
+    "dtime": 3836000,
+    "ptime": 3836000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>well, yes. hash of the cipher text obviously.</p>",
+    "topic": "ietf-118",
+    "dtime": 3839000,
+    "ptime": 3839000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Ah, if it was resent</p>",
+    "topic": "ietf-118",
+    "dtime": 3876000,
+    "ptime": 3876000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> <em>now</em> is the moment for key-committing AEAD!</p>",
+    "topic": "ietf-118",
+    "dtime": 3913000,
+    "ptime": 3913000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Absolutely! No to AES-GCM</p>",
+    "topic": "ietf-118",
+    "dtime": 3939000,
+    "ptime": 3939000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99341\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <em>now</em> is the moment for key-committing AEAD!</p>\n</blockquote>\n<p>I think it's always the time for that</p>",
+    "topic": "ietf-118",
+    "dtime": 3948000,
+    "ptime": 3948000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99310\">said</a>:</p>\n<blockquote>\n<p>O-HTTP defends the network location part, but not the read part (though the server can't know  which MLS group is reading it)</p>\n</blockquote>\n<p>Well doesn't the server just generate a fresh resource? That's how web bugs work normally</p>",
+    "topic": "ietf-118",
+    "dtime": 4087000,
+    "ptime": 4087000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99311\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1025\">Travis Ralston</span> maybe we could stub this into mimi-protocol?</p>\n</blockquote>\n<p>ftr, opened as issue: <a href=\"https://github.com/bifurcation/ietf-mimi-protocol/issues/24\">https://github.com/bifurcation/ietf-mimi-protocol/issues/24</a></p>",
+    "topic": "ietf-118",
+    "dtime": 4099000,
+    "ptime": 4099000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Big fan of causal order.  Wanted to do it in MLS, but we didn't get to it.</p>",
+    "topic": "ietf-118",
+    "dtime": 4159000,
+    "ptime": 4159000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> maybe learn about Special Relativity?</p>",
+    "topic": "ietf-118",
+    "dtime": 4177000,
+    "ptime": 4177000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Spooky Messaging at a Distance</p>",
+    "topic": "ietf-118",
+    "dtime": 4202000,
+    "ptime": 4202000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>consistent ordering is impossible in priniciple when you get to the UI/UX layer.</p>",
+    "topic": "ietf-118",
+    "dtime": 4217000,
+    "ptime": 4217000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>y</p>",
+    "topic": "ietf-118",
+    "dtime": 4244000,
+    "ptime": 4244000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>yeah, the only thing we can solve here is what information the protocol can provide to guide the UI/UX</p>",
+    "topic": "ietf-118",
+    "dtime": 4303000,
+    "ptime": 4303000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>personally, i think we made a mistake in Matrix by doing \"stream ordering\" (i.e. the order the msg arrived at your server in) and instead we should use \"topological order\" (i.e. causal DAG-based ordering)</p>",
+    "topic": "ietf-118",
+    "dtime": 4349000,
+    "ptime": 4349000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Fortunately we're all consistent in viewing <span class=\"user-mention\" data-user-id=\"71\">@Cullen Jennings</span> as batshit crazy</p>",
+    "topic": "ietf-118",
+    "dtime": 4360000,
+    "ptime": 4360000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>but the UX for topo ordering really ends up being exotic. plus things like read receipts end up having to be per-message rather than \"read-up-to\" markers.</p>",
+    "topic": "ietf-118",
+    "dtime": 4371000,
+    "ptime": 4371000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>But in contrast to Matrix, we can agree that the Hub does the ordering.</p>",
+    "topic": "ietf-118",
+    "dtime": 4384000,
+    "ptime": 4384000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>plus from a user perspective, a topo ordering could be completely and utterly incoherent.</p>",
+    "topic": "ietf-118",
+    "dtime": 4387000,
+    "ptime": 4387000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I feel like thinking about this in the case of about MIMI-over-DTN where one of the servers is on Mars.</p>",
+    "topic": "ietf-118",
+    "dtime": 4401000,
+    "ptime": 4401000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Seems like causal ordering + hub-provided timestamp could be best of both worlds</p>",
+    "topic": "ietf-118",
+    "dtime": 4404000,
+    "ptime": 4404000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>and yup, the hub could define the consistent ordering in MIMI to help solve this problem.</p>",
+    "topic": "ietf-118",
+    "dtime": 4404000,
+    "ptime": 4404000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> then we really will have special relativity considerations!</p>",
+    "topic": "ietf-118",
+    "dtime": 4469000,
+    "ptime": 4469000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2275\">@Matthew Hodgson</span>  So, we are not assuming that we can rely on working federation for a good UX? Because if you assume that, the \"messages pop up somewhere three days ago in the history\" goes away, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 4496000,
+    "ptime": 4496000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>What I had in mind was allowing the server to sort within the causal order</p>",
+    "topic": "ietf-118",
+    "dtime": 4515000,
+    "ptime": 4515000
+  },
+  {
+    "author": "Valentin Goșu",
+    "text": "<p>Sounds like we need a consensus algorithm to agree on the timestamps :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4584000,
+    "ptime": 4584000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>+1 DKG</p>",
+    "topic": "ietf-118",
+    "dtime": 4599000,
+    "ptime": 4599000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Maybe we could modify MLS so only one person can write at a time, like token ring</p>",
+    "topic": "ietf-118",
+    "dtime": 4638000,
+    "ptime": 4638000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Then we would have a full order</p>",
+    "topic": "ietf-118",
+    "dtime": 4643000,
+    "ptime": 4643000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Causal ordering conveniently gets you loss detection for free</p>",
+    "topic": "ietf-118",
+    "dtime": 4645000,
+    "ptime": 4645000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2083\">@Benjamin Beurdouche</span> ^^^</p>",
+    "topic": "ietf-118",
+    "dtime": 4659000,
+    "ptime": 4659000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(for cheaper than AppAck)</p>",
+    "topic": "ietf-118",
+    "dtime": 4664000,
+    "ptime": 4664000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99386\">said</a>:</p>\n<blockquote>\n<p>Causal ordering conveniently gets you loss detection for free</p>\n</blockquote>\n<p>Only partial loss detection, I think</p>",
+    "topic": "ietf-118",
+    "dtime": 4666000,
+    "ptime": 4666000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Because of tails</p>",
+    "topic": "ietf-118",
+    "dtime": 4669000,
+    "ptime": 4669000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>fair</p>",
+    "topic": "ietf-118",
+    "dtime": 4676000,
+    "ptime": 4676000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>I think AppAck covers exactly the gap causal ordering doesn't cover</p>",
+    "topic": "ietf-118",
+    "dtime": 4767000,
+    "ptime": 4767000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99201\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"793\">Rohan Mahy</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99174\">said</a>:</p>\n<blockquote>\n<p>To ekr's question, draft-mahy-mimi-group-chat <strong>does</strong> actually cover all these cases and an example authorization policy</p>\n</blockquote>\n<p>So you'll be proposing to merge that into here?</p>\n</blockquote>\n<p>As we get consensus on each piece we are merging that functionality into the protocol doc, yes</p>",
+    "topic": "ietf-118",
+    "dtime": 4871000,
+    "ptime": 4871000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>SG</p>",
+    "topic": "ietf-118",
+    "dtime": 4880000,
+    "ptime": 4880000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99375\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span>  So, we are not assuming that we can rely on working federation for a good UX? Because if you assume that, the \"messages pop up somewhere three days ago in the history\" goes away, right?</p>\n</blockquote>\n<p>relying on working federation feels quite aspirational in a heterogenous network - look at SMTP, XMPP, Matrix etc today. or even SS7.</p>",
+    "topic": "ietf-118",
+    "dtime": 4973000,
+    "ptime": 4973000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i don't think causal ordering + server-supplied timestamps alone gives you a coherent UX.  for example, it could allow the server to \"pin\" a message to the future.  you'd also need  the server to somehow commit to the timestamping in a way that would ensure all the clients see the same state.</p>",
+    "topic": "ietf-118",
+    "dtime": 4988000,
+    "ptime": 4988000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>plus i think Cullen had a point about avoidable human race conditions.</p>",
+    "topic": "ietf-118",
+    "dtime": 4995000,
+    "ptime": 4995000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>yup, the pinning problem is one of the reasons we haven't adopted topo ordering in Matrix (yet).</p>",
+    "topic": "ietf-118",
+    "dtime": 5017000,
+    "ptime": 5017000
+  },
+  {
+    "author": "Matthew Hodgson",
+    "text": "<p>ironically we have an opposite-pinning problem where people graffiti the history of rooms by injecting msgs topologically from 1970...</p>",
+    "topic": "ietf-118",
+    "dtime": 5044000,
+    "ptime": 5044000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span aria-label=\"raised hand\" class=\"emoji emoji-270b\" role=\"img\" title=\"raised hand\">:raised_hand:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 5059000,
+    "ptime": 5059000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span aria-label=\"raised hand\" class=\"emoji emoji-270b\" role=\"img\" title=\"raised hand\">:raised_hand:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 5078000,
+    "ptime": 5078000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I read the old MIMI-DS has it changed?</p>",
+    "topic": "ietf-118",
+    "dtime": 5086000,
+    "ptime": 5086000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(for protocol and DS)</p>",
+    "topic": "ietf-118",
+    "dtime": 5088000,
+    "ptime": 5088000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> yes, but mainly to clean up the interface to the protocol</p>",
+    "topic": "ietf-118",
+    "dtime": 5106000,
+    "ptime": 5106000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99416\">said</a>:</p>\n<blockquote>\n<p>I read the old MIMI-DS has it changed?</p>\n</blockquote>\n<p>As Konrad just said, some stuff was dropped and it was a bit streamlined</p>",
+    "topic": "ietf-118",
+    "dtime": 5115000,
+    "ptime": 5115000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99407\">said</a>:</p>\n<blockquote>\n<p>relying on working federation feels quite aspirational in a heterogenous network - look at SMTP, XMPP, Matrix etc today. or even SS7.</p>\n</blockquote>\n<p>Yes, but optimizing the UX for the case when things are broken seems like the wrong approach.</p>",
+    "topic": "ietf-118",
+    "dtime": 5177000,
+    "ptime": 5177000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the human-visible race conditions <br>\n<span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99411\">said</a>:</p>\n<blockquote>\n<p>ironically we have an opposite-pinning problem where people graffiti the history of rooms by injecting msgs topologically from 1970...</p>\n</blockquote>\n<p>MLS ought to be able to provide a lower temporal bound for historic graffiti based on the epoch of the key package that was used for the message.</p>",
+    "topic": "ietf-118",
+    "dtime": 5248000,
+    "ptime": 5248000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>Remove from the MLS state first</p>",
+    "topic": "ietf-118",
+    "dtime": 5424000,
+    "ptime": 5424000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>When EKR said \"yesterday in MIMI\" he meant MLS, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 5470000,
+    "ptime": 5470000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>It is probably better to have the Room be wrong and the user not being in the group anymore than the user being displayed removed but the removed member still being in the MLS group and able to decrypt messages</p>",
+    "topic": "ietf-118",
+    "dtime": 5557000,
+    "ptime": 5557000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Yes, this seems like last-in/first out type methodology would apply. I.e. the room state advertises/warns the user before a new member is added  (vs after), and keeps the room participation advertised until after a member leaves (vs before).</p>",
+    "topic": "ietf-118",
+    "dtime": 5709000,
+    "ptime": 5709000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2083\">Benjamin Beurdouche</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99446\">said</a>:</p>\n<blockquote>\n<p>It is probably better to have the Room be wrong and the user not being in the group anymore than the user being displayed removed but the removed member still being in the MLS group and able to decrypt messages</p>\n</blockquote>\n<p>Agreed. But, I hope the order of operations will prevent situations where it looks like a user still received a message because he was still in the participant list even if he was removed from the MLS group. (I assume this should be prevented by requiring a commit before new messages.)</p>",
+    "topic": "ietf-118",
+    "dtime": 5729000,
+    "ptime": 5729000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>The MLS protocol knows, but the App has to reflect that</p>",
+    "topic": "ietf-118",
+    "dtime": 5766000,
+    "ptime": 5766000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p>(at the protocol level, you always know for which epoch you send/receive and whom is in that group)</p>",
+    "topic": "ietf-118",
+    "dtime": 5819000,
+    "ptime": 5819000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it would be useful to have some of these sample workflows described explicitly.</p>",
+    "topic": "ietf-118",
+    "dtime": 5875000,
+    "ptime": 5875000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> there is a basic scenario pretty fully fleshed out in the doc</p>",
+    "topic": "ietf-118",
+    "dtime": 5902000,
+    "ptime": 5902000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i thought that was what we were going to get to in this deck, but maybe that's still to come</p>",
+    "topic": "ietf-118",
+    "dtime": 5918000,
+    "ptime": 5918000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>One difference here is between the room state in an active sense (as it appears to other members) vs an after-the-fact confirmation assured from MLS. So, basically, in a \"live\" sense, the participants should know who <em>might</em> be receiving the messages, while confirmation of add/remove/other commit ordering can be confirmed after the fact on who actually received messages.</p>",
+    "topic": "ietf-118",
+    "dtime": 5922000,
+    "ptime": 5922000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1271\">Britta Hale</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99466\">said</a>:</p>\n<blockquote>\n<p>One difference here is between the room state in an active sense (as it appears to other members) vs an after-the-fact confirmation assured from MLS. So, basically, in a \"live\" sense, the participants should know who <em>might</em> be receiving the messages, while confirmation of add/remove/other commit ordering can be confirmed after the fact on who actually received messages.</p>\n</blockquote>\n<p>Yes, the UI would have to update after the fact. Some guidance would probably be good.</p>",
+    "topic": "ietf-118",
+    "dtime": 5957000,
+    "ptime": 5957000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99338\">said</a>:</p>\n<blockquote>\n<p>well, yes. hash of the cipher text obviously.</p>\n</blockquote>\n<p>Is this a layer violation?</p>",
+    "topic": "ietf-118",
+    "dtime": 6024000,
+    "ptime": 6024000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99463\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> there is a basic scenario pretty fully fleshed out in the doc</p>\n</blockquote>\n<p><a href=\"https://www.ietf.org/archive/id/draft-ralston-mimi-protocol-01.html#name-example-protocol-flow\">https://www.ietf.org/archive/id/draft-ralston-mimi-protocol-01.html#name-example-protocol-flow</a></p>",
+    "topic": "ietf-118",
+    "dtime": 6062000,
+    "ptime": 6062000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>User add/remove has to be a well-bracketing i.e. add to auth, add client, remove client, remove from policy</p>",
+    "topic": "ietf-118",
+    "dtime": 6075000,
+    "ptime": 6075000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"793\">Rohan Mahy</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99469\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2275\">Matthew Hodgson</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99338\">said</a>:</p>\n<blockquote>\n<p>well, yes. hash of the cipher text obviously.</p>\n</blockquote>\n<p>Is this a layer violation?</p>\n</blockquote>\n<p>It might be without a key committing scheme</p>",
+    "topic": "ietf-118",
+    "dtime": 6077000,
+    "ptime": 6077000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>(or maybe not, be should really discuss key commitment)</p>",
+    "topic": "ietf-118",
+    "dtime": 6121000,
+    "ptime": 6121000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1140\">@Simon Friedberger</span> thanks for the pointer -- those examples don't show server-initiated banning.  that's the scenario i'm getting hung up on.  <span class=\"user-mention\" data-user-id=\"793\">@Rohan Mahy</span>'s observation about an external submission is useful here.</p>",
+    "topic": "ietf-118",
+    "dtime": 6152000,
+    "ptime": 6152000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Hashing ciphertext does not seem like a layering violation.  Ciphertext is exposed to the messaging layer.</p>",
+    "topic": "ietf-118",
+    "dtime": 6161000,
+    "ptime": 6161000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99372\">said</a>:</p>\n<blockquote>\n<p>Seems like causal ordering + hub-provided timestamp could be best of both worlds</p>\n</blockquote>\n<p>provided by the Hub to the clients how?  The clients don't participate in MIMI transport....</p>",
+    "topic": "ietf-118",
+    "dtime": 6225000,
+    "ptime": 6225000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>The major job of servers is to pass on information to clients <span class=\"user-mention\" data-user-id=\"793\">@Rohan Mahy</span></p>",
+    "topic": "ietf-118",
+    "dtime": 6310000,
+    "ptime": 6310000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Application events vs handshake events?</p>",
+    "topic": "ietf-118",
+    "dtime": 6503000,
+    "ptime": 6503000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>And then alerts, because you always have to have something that doesn't fit the pattern</p>",
+    "topic": "ietf-118",
+    "dtime": 6527000,
+    "ptime": 6527000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99505\">said</a>:</p>\n<blockquote>\n<p>The major job of servers is to pass on information to clients <span class=\"user-mention silent\" data-user-id=\"793\">Rohan Mahy</span></p>\n</blockquote>\n<p>but we can't tell the providers how to modify their proprietary protocols</p>",
+    "topic": "ietf-118",
+    "dtime": 6556000,
+    "ptime": 6556000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>quoth the Raven \"[ever] more\"</p>",
+    "topic": "ietf-118",
+    "dtime": 6570000,
+    "ptime": 6570000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>It seems like the only ordering that'll be ambiguous is the relative order of messages from local users on a server vs. messages from remote users received  from the hub?  Because there'll be a total order inherent in the order the hub sends the messages.</p>",
+    "topic": "ietf-118",
+    "dtime": 6927000,
+    "ptime": 6927000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99522\">said</a>:</p>\n<blockquote>\n<p>And then alerts, because you always have to have something that doesn't fit the pattern</p>\n</blockquote>\n<p>Interestingly, there are no alerts in MLS</p>",
+    "topic": "ietf-118",
+    "dtime": 6931000,
+    "ptime": 6931000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I assume submitted messages friom local users don't round-trip via the hub?  If they did there would be a complete total order.</p>",
+    "topic": "ietf-118",
+    "dtime": 6970000,
+    "ptime": 6970000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2083\">@Benjamin Beurdouche</span> <br>\nyou mentioned AppAck to have an MLS-layer notion of which messages haven't been delivered.</p>\n<p>The content format document has read receipts and delivery receipts. Is there a property we get from AppAck that we don't get from delivery receipts, or vice versa?</p>",
+    "topic": "ietf-118",
+    "dtime": 7034000,
+    "ptime": 7034000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99559\">said</a>:</p>\n<blockquote>\n<p>I assume submitted messages friom local users don't round-trip via the hub?  If they did there would be a complete total order.</p>\n</blockquote>\n<p>that's an open question, especially for Commits. I would guess that some response from the Hub that your message was queued would be equivalent/similar</p>",
+    "topic": "ietf-118",
+    "dtime": 7112000,
+    "ptime": 7112000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>In which case  it seems like there's a total order from the hub just implicit in the protocol.  (It doesn't inherently enforce the causal order, but that could be checked by clients.)</p>",
+    "topic": "ietf-118",
+    "dtime": 7202000,
+    "ptime": 7202000
+  },
+  {
+    "author": "Benjamin Beurdouche",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"793\">Rohan Mahy</span> <a href=\"#narrow/stream/354-mimi/topic/ietf-118/near/99568\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"2083\">Benjamin Beurdouche</span> <br>\nyou mentioned AppAck to have an MLS-layer notion of which messages haven't been delivered.</p>\n<p>The content format document has read receipts and delivery receipts. Is there a property we get from AppAck that we don't get from delivery receipts, or vice versa?</p>\n</blockquote>\n<p>As long as we don't miss trailing messages in application chains that get silently dropped for some reason, I don't particularly care about the technical means : ) AppAck is one way for other protocols that don't want to define their own.</p>",
+    "topic": "ietf-118",
+    "dtime": 7229000,
+    "ptime": 7229000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"2083\">@Benjamin Beurdouche</span> can you point me to details of \"AppAck\"?  is this a specific implementation or mechanism, or is it a hand-wavy term for application acknowledgement?</p>",
+    "topic": "ietf-118",
+    "dtime": 7303000,
+    "ptime": 7303000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>Thanks everyone!</p>",
+    "topic": "ietf-118",
+    "dtime": 7325000,
+    "ptime": 7325000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-MIMI-20231109-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-MIMI-20231109-0830"
+		}		
+	]
+}

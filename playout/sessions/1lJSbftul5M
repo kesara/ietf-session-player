@@ -1,0 +1,168 @@
+
+{
+	"title": "IETF115-TSVWG-20221107-1530",
+	"filename": "IETF115-TSVWG-20221107-1530",
+	"start": 0,
+	"end": 7563000,
+	"start_datetime": "2022-11-07T15:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "1lJSbftul5M",
+    "start": 0,
+    "end": "7563000"
+  }
+],
+	"messages": [
+  {
+    "author": "Alessandro Amirante",
+    "text": "<p>test</p>",
+    "topic": "jabber",
+    "dtime": 869000,
+    "ptime": 869000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>We see you ...</p>",
+    "topic": "jabber",
+    "dtime": 995000,
+    "ptime": 995000
+  },
+  {
+    "author": "Al Morton",
+    "text": "<p>Many thanks, David!!!</p>",
+    "topic": "jabber",
+    "dtime": 1092000,
+    "ptime": 1092000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>all good</p>",
+    "topic": "jabber",
+    "dtime": 1101000,
+    "ptime": 1101000
+  },
+  {
+    "author": "Anna Brunstrom",
+    "text": "<p>I am a bit confused by the discussion if multipath protocols can be standards track as we already have MPTCP as a proposed standard?</p>",
+    "topic": "jabber",
+    "dtime": 3864000,
+    "ptime": 3864000
+  },
+  {
+    "author": "Piers O'Hanlon",
+    "text": "<p>I understand that Apple have deployed MPTCP for Siri for some years now so presumably it's working ok for them? I think they also have expanded use of the MPTCP API to other apps which would also indicate its utility...</p>",
+    "topic": "jabber",
+    "dtime": 4752000,
+    "ptime": 4752000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>Yes, that is my understanding as well. Also, the 3GPP ATSSS work references MPTCP Proxy.</p>",
+    "topic": "jabber",
+    "dtime": 4898000,
+    "ptime": 4898000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>That was my question as if there are any SDOs referencing this work. If yes, then the question on moving from experimental track will be relevant.</p>",
+    "topic": "jabber",
+    "dtime": 4938000,
+    "ptime": 4938000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>My comment on relation to tunnel based multipath approaches previously standardized and this one ...is the key difference around scheduling.</p>",
+    "topic": "jabber",
+    "dtime": 5067000,
+    "ptime": 5067000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>Sorry I was not clear ..with the mask on ..</p>",
+    "topic": "jabber",
+    "dtime": 5094000,
+    "ptime": 5094000
+  },
+  {
+    "author": "Dirk Hugo",
+    "text": "<p>@Sri: at 3GPP there is currently the decision that enhanced ATSSS should support non-TCP and discussion whether MP-DCCP (and/or MPQUIC) should be included in corresponding TS</p>",
+    "topic": "jabber",
+    "dtime": 5203000,
+    "ptime": 5203000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>Dirk - That is good to hear. If this makes it, it will really make sense to  consider moving out of exp track.</p>",
+    "topic": "jabber",
+    "dtime": 5256000,
+    "ptime": 5256000
+  },
+  {
+    "author": "Dirk Hugo",
+    "text": "<p>and there it may be relevant whether the protocol is exp or std</p>",
+    "topic": "jabber",
+    "dtime": 5269000,
+    "ptime": 5269000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>I agree</p>",
+    "topic": "jabber",
+    "dtime": 5304000,
+    "ptime": 5304000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>exp, ps, std...</p>",
+    "topic": "jabber",
+    "dtime": 5314000,
+    "ptime": 5314000
+  },
+  {
+    "author": "Richard Scheffenegger",
+    "text": "<p>i think the discussion was ps vs exp; personally I am ok with ps.</p>",
+    "topic": "jabber",
+    "dtime": 5335000,
+    "ptime": 5335000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Yes ps (i.e., standards track) vs. experimental.</p>",
+    "topic": "jabber",
+    "dtime": 5364000,
+    "ptime": 5364000
+  },
+  {
+    "author": "Anna Brunstrom",
+    "text": "<p>@Sri, in relation to differences between solutions, functionality of MP-DCCP is similar to MPTCP, but without the reliability. As in MPTCP, you can use the transport protocol information for scheduling.</p>",
+    "topic": "jabber",
+    "dtime": 5494000,
+    "ptime": 5494000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>Thanks Anna for the clarification. I see the clear difference now compared to the other tunnel based approaches. I looked at the draft. Thanks</p>",
+    "topic": "jabber",
+    "dtime": 5653000,
+    "ptime": 5653000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-TSVWG-20221107-1530"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/tsvwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-TSVWG-20221107-1530"
+		}		
+	]
+}

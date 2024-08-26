@@ -1,0 +1,137 @@
+
+{
+	"title": "IETF114-EMAILCORE-20220726-1730",
+	"filename": "IETF114-EMAILCORE-20220726-1730",
+	"start": 0,
+	"end": 3864000,
+	"start_datetime": "2022-07-26T17:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Amf2WegmkgA",
+    "start": 0,
+    "end": "3864000"
+  }
+],
+	"messages": [
+  {
+    "author": "Rolf Sonneveld",
+    "text": "<p>+1 for option 3</p>",
+    "dtime": 1168000,
+    "ptime": 1168000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Consider me convinced that I should not care about whether the text is fixed or removed.</p>",
+    "dtime": 1524000,
+    "ptime": 1524000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>If the mailing list is (within error bars) silent, what would the decision be?</p>",
+    "dtime": 1610000,
+    "ptime": 1610000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>John is doing his impression of Joaquin Phoenix in Gladiator.</p>",
+    "dtime": 1968000,
+    "ptime": 1968000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Murray: ROFL</p>",
+    "dtime": 2535000,
+    "ptime": 2535000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>But the first step in getting our patterns in synch is to make our patterns absolutely clear.</p>",
+    "dtime": 2608000,
+    "ptime": 2608000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>An advanced regular expression is even worse than the ABNF</p>",
+    "dtime": 2758000,
+    "ptime": 2758000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p><a href=\"https://html.spec.whatwg.org/multipage/input.html#email-state-(type=email)\">https://html.spec.whatwg.org/multipage/input.html#email-state-(type=email)</a></p>",
+    "dtime": 2791000,
+    "ptime": 2791000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>A valid email address is a string that matches the email production of the following ABNF, the character set for which is Unicode. This ABNF implements the extensions described in RFC 1123. [ABNF] [RFC5322] [RFC1034] [RFC1123]</p>\n<p>email         = 1*( atext / \".\" ) \"@\" label *( \".\" label )<br>\nlabel         = let-dig [ [ ldh-str ] let-dig ]  ; limited to a length of 63 characters by RFC 1034 section 3.5<br>\natext         = &lt; as defined in RFC 5322 section 3.2.3 &gt;<br>\nlet-dig       = &lt; as defined in RFC 1034 section 3.5 &gt;<br>\nldh-str       = &lt; as defined in RFC 1034 section 3.5 &gt;</p>",
+    "dtime": 2810000,
+    "ptime": 2810000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>This requirement is a willful violation of RFC 5322, which defines a syntax for email addresses that is simultaneously too strict (before the \"@\" character), too vague (after the \"@\" character), and too lax (allowing comments, whitespace characters, and quoted strings in manners unfamiliar to most users) to be of practical use here.</p>",
+    "dtime": 2867000,
+    "ptime": 2867000
+  },
+  {
+    "author": "John Levine",
+    "text": "<p>The following JavaScript- and Perl-compatible regular expression is an implementation of the above definition.</p>\n<p>/^[a-zA-Z0-9.!#$%&amp;'*+\\/=?^_`{|}~-]+@<a href=\"http://?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9]\">a-zA-Z0-9</a>?(?:\\.<a href=\"http://?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9]\">a-zA-Z0-9</a>?)*$/</p>",
+    "dtime": 2888000,
+    "ptime": 2888000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Any advice beyond what Barry just described is also significantly out of scope of this WG as now defined</p>",
+    "dtime": 2973000,
+    "ptime": 2973000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>That regex for JS and Perl is better than what I expected.  It allows \"+\" at least.</p>",
+    "dtime": 3295000,
+    "ptime": 3295000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Emphatic +1 to Barry's \"ya\"</p>",
+    "dtime": 3474000,
+    "ptime": 3474000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I am always happy with <em>not</em> dealing with it.</p>",
+    "dtime": 3527000,
+    "ptime": 3527000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>That's Pete's standard NomCom feedback about me as well.</p>",
+    "dtime": 3551000,
+    "ptime": 3551000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>The IESG is happy not dealing with it. ;)</p>",
+    "dtime": 3684000,
+    "ptime": 3684000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-EMAILCORE-20220726-1730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/emailcore"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-EMAILCORE-20220726-1730"
+		}		
+	]
+}

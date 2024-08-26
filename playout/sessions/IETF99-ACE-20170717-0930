@@ -1,0 +1,325 @@
+{
+  "title": "IETF99-ACE-20170717-0930",
+  "filename": "IETF99-ACE-20170717-0930",
+  "start": 0,
+  "end": 9275000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "58Ak0BvwWeo",
+      "start": 0.0,
+      "end": 9275000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Hi all, I am your jabber scribe today, please start your comments with \"mic:\" if you want them relayed to the mic :)",
+      "ptime": 91000.0,
+      "dtime": 1085000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "OK, thanks!",
+      "ptime": 126000.0,
+      "dtime": 1120000.0,
+      "author": "Kepeng Li"
+    },
+    {
+      "text": "***Renzo Navas just joined the room",
+      "ptime": 163000.0,
+      "dtime": 1157000.0
+    },
+    {
+      "text": "Thanks Fancesca, Hi al!",
+      "ptime": 189000.0,
+      "dtime": 1183000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "***Renzo Navas just left the room",
+      "ptime": 193000.0,
+      "dtime": 1187000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 240000.0,
+      "dtime": 1234000.0
+    },
+    {
+      "text": "***Ming Pei just joined the room",
+      "ptime": 374000.0,
+      "dtime": 1368000.0
+    },
+    {
+      "text": "***Renzo Navas just joined the room",
+      "ptime": 618000.0,
+      "dtime": 1612000.0
+    },
+    {
+      "text": "***Patrick Kinney just joined the room",
+      "ptime": 835000.0,
+      "dtime": 1829000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 924000.0,
+      "dtime": 1918000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 961000.0,
+      "dtime": 1955000.0
+    },
+    {
+      "text": "***Patrick Kinney just left the room",
+      "ptime": 1129000.0,
+      "dtime": 2123000.0
+    },
+    {
+      "text": "***Shahid Raza just joined the room",
+      "ptime": 2023000.0,
+      "dtime": 3017000.0
+    },
+    {
+      "text": "***Shahid Raza just left the room",
+      "ptime": 2330000.0,
+      "dtime": 3324000.0
+    },
+    {
+      "text": "***Shahid Raza just joined the room",
+      "ptime": 2331000.0,
+      "dtime": 3325000.0
+    },
+    {
+      "text": "***gabor bajko just left the room",
+      "ptime": 2445000.0,
+      "dtime": 3439000.0
+    },
+    {
+      "text": "***Gabor Bajko just joined the room",
+      "ptime": 2457000.0,
+      "dtime": 3451000.0
+    },
+    {
+      "text": "***Samuel Erdtman just joined the room",
+      "ptime": 2539000.0,
+      "dtime": 3533000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 3182000.0,
+      "dtime": 4176000.0
+    },
+    {
+      "text": "mic: regarding nonces. we have to solve the problem of toklen expiration in the abscence of time.  (also make sure the nonces exchance is seucre). And also we should explicit the time synchronization porblem we have (iif you believe we have one)",
+      "ptime": 4038000.0,
+      "dtime": 5032000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "mic: regarding nonces. we have to solve the problem of toklen expiration in the abscence of time.  (also make sure the nonces exchance is seucre). And also we should explicit the time synchronization porblem we have (iif you believe we have one)",
+      "ptime": 4038000.0,
+      "dtime": 5032000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "(thanks!)",
+      "ptime": 4122000.0,
+      "dtime": 5116000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "(sorry for the delay)",
+      "ptime": 4124000.0,
+      "dtime": 5118000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "no problem? Francesca; for the record my \"if you believe we have one\" was addressed to the ACE WG , not only to Olaf",
+      "ptime": 4176000.0,
+      "dtime": 5170000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "yes I think that was clear, or do you want me to relay that?",
+      "ptime": 4200000.0,
+      "dtime": 5194000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "no no",
+      "ptime": 4218000.0,
+      "dtime": 5212000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "thanks",
+      "ptime": 4220000.0,
+      "dtime": 5214000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "should probably be in the minutes :)",
+      "ptime": 4222000.0,
+      "dtime": 5216000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "(Y)",
+      "ptime": 4328000.0,
+      "dtime": 5322000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "also for the minutes -clarification-: \"make sure the nonces exchange is secure\" I mean we must assure the nonces exchange achieves the properties it claims to have (e.g. assure freshness and authentication of a transaction bond to some information)",
+      "ptime": 4565000.0,
+      "dtime": 5559000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "I don\u0027t hear and see video anymore. Is this happening to everyone? Thanks",
+      "ptime": 5328000.0,
+      "dtime": 6322000.0,
+      "author": "Ming Pei"
+    },
+    {
+      "text": "in the room as well, yes",
+      "ptime": 5345000.0,
+      "dtime": 6339000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "we are having issues with the projector",
+      "ptime": 5359000.0,
+      "dtime": 6353000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "paused while trying to correct now",
+      "ptime": 5366000.0,
+      "dtime": 6360000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "but audio should be fine?",
+      "ptime": 5368000.0,
+      "dtime": 6362000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "I can hear hear, and video I can see the presenter, but not the slides",
+      "ptime": 5370000.0,
+      "dtime": 6364000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "no one is talking right now",
+      "ptime": 5383000.0,
+      "dtime": 6377000.0,
+      "author": "Olaf Bergmann"
+    },
+    {
+      "text": "(hannes on the distance)",
+      "ptime": 5397000.0,
+      "dtime": 6391000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "we are back",
+      "ptime": 5469000.0,
+      "dtime": 6463000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "all OK",
+      "ptime": 5470000.0,
+      "dtime": 6464000.0,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "***Shahid Raza just left the room",
+      "ptime": 5951000.0,
+      "dtime": 6945000.0
+    },
+    {
+      "text": "***Shahid Raza just joined the room",
+      "ptime": 5953000.0,
+      "dtime": 6947000.0
+    },
+    {
+      "text": "***Gabor Bajko just left the room",
+      "ptime": 6159000.0,
+      "dtime": 7153000.0
+    },
+    {
+      "text": "Slide to big for the window. Is this part of the projector issue?",
+      "ptime": 6295000.0,
+      "dtime": 7289000.0,
+      "author": "Bjorn Hjelm"
+    },
+    {
+      "text": "I think the resolution was changed to make the projector work",
+      "ptime": 6343000.0,
+      "dtime": 7337000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "we see it as you do from the room",
+      "ptime": 6359000.0,
+      "dtime": 7353000.0,
+      "author": "francesca"
+    },
+    {
+      "text": "Ok",
+      "ptime": 6378000.0,
+      "dtime": 7372000.0,
+      "author": "Bjorn Hjelm"
+    },
+    {
+      "text": "***Ming Pei just left the room",
+      "ptime": 6448000.0,
+      "dtime": 7442000.0
+    },
+    {
+      "text": "***Ming Pei just joined the room",
+      "ptime": 6448000.0,
+      "dtime": 7442000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 8333000.0,
+      "dtime": 9327000.0
+    },
+    {
+      "text": "and MQTT?",
+      "ptime": 9223000.0,
+      "dtime": 1.0217E7,
+      "author": "Samuel Erdtman"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 9256000.0,
+      "dtime": 1.025E7
+    },
+    {
+      "text": "thank you Francesca! bye everybody.",
+      "ptime": 9258000.0,
+      "dtime": 1.0252E7,
+      "author": "Renzo Navas"
+    },
+    {
+      "text": "***Ming Pei just left the room",
+      "ptime": 9259000.0,
+      "dtime": 1.0253E7
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-ACE-20170717-0930"
+    }
+  ]
+}

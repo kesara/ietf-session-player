@@ -1,0 +1,948 @@
+{
+  "title": "IETF103-TLS-20181107-1120",
+  "filename": "IETF103-TLS-20181107-1120",
+  "start": 0,
+  "end": 2999000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "e2puDIyWk5Q",
+      "start": 0.0,
+      "end": 2999000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Samuel Weiler just joined the room",
+      "ptime": 5000.0,
+      "dtime": 413000.0
+    },
+    {
+      "text": "Hi, I will be your Jabber scribe. If you want anything relayed at the room mic, please prefix it with \"mic:\"",
+      "ptime": 21000.0,
+      "dtime": 429000.0,
+      "author": "synp"
+    },
+    {
+      "text": "yeah the last slide is not good. i hope we dont get there",
+      "ptime": 38000.0,
+      "dtime": 446000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "***Dragana Damjanovic just joined the room",
+      "ptime": 93000.0,
+      "dtime": 501000.0
+    },
+    {
+      "text": "^",
+      "ptime": 123000.0,
+      "dtime": 531000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Sean presenting https://datatracker.ietf.org/meeting/103/materials/slides-103-tls-ietf-103-tls-wg-chair-slides-03",
+      "ptime": 201000.0,
+      "dtime": 609000.0,
+      "author": "synp"
+    },
+    {
+      "text": "HERE",
+      "ptime": 242000.0,
+      "dtime": 650000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "/me thinks that the fact that the chairs are expecting appeals is a bad, bad sign",
+      "ptime": 260000.0,
+      "dtime": 668000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "I have.",
+      "ptime": 272000.0,
+      "dtime": 680000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "I am",
+      "ptime": 309000.0,
+      "dtime": 717000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "I am",
+      "ptime": 316000.0,
+      "dtime": 724000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "FYI, I can\u0027t see the presentation in the agenda",
+      "ptime": 432000.0,
+      "dtime": 840000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "it is there",
+      "ptime": 456000.0,
+      "dtime": 864000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "NO.",
+      "ptime": 482000.0,
+      "dtime": 890000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "***Brian Dickson just left the room",
+      "ptime": 510000.0,
+      "dtime": 918000.0
+    },
+    {
+      "text": "***Brian Dickson just joined the room",
+      "ptime": 510000.0,
+      "dtime": 918000.0
+    },
+    {
+      "text": "ok, thanks, now I can see the presentation",
+      "ptime": 527000.0,
+      "dtime": 935000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Notably, he never asked who was planning on implementing and will not be because of how things unfolded",
+      "ptime": 534000.0,
+      "dtime": 942000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "Melinda: out of spite or something else?",
+      "ptime": 556000.0,
+      "dtime": 964000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "does the pinning concept make it difficult to implement, even though it\u0027s optional on the client side?",
+      "ptime": 584000.0,
+      "dtime": 992000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "teh change would be reading 2 zero bytes. its not a redesign/reimplementation that is needed :P",
+      "ptime": 593000.0,
+      "dtime": 1001000.0,
+      "author": "paulwouters"
+    },
+    {
+      "text": "No, because it\u0027s no longer relevant to what we\u0027re doing.  Thanks, guys",
+      "ptime": 654000.0,
+      "dtime": 1062000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "***TARIQ SARAJ just joined the room",
+      "ptime": 656000.0,
+      "dtime": 1064000.0
+    },
+    {
+      "text": "Melinda: what?!",
+      "ptime": 751000.0,
+      "dtime": 1159000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "that sounds like the answer for you is \"yeah, out of spite\"",
+      "ptime": 763000.0,
+      "dtime": 1171000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Job changes, etc.",
+      "ptime": 770000.0,
+      "dtime": 1178000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "that\u0027s shocking",
+      "ptime": 772000.0,
+      "dtime": 1180000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "ok, sure, job changes",
+      "ptime": 783000.0,
+      "dtime": 1191000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Allow me to remind you to keep it civil",
+      "ptime": 784000.0,
+      "dtime": 1192000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "Relay: Declaring consensus not happening for pinning is premature.",
+      "ptime": 787000.0,
+      "dtime": 1195000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "***Stefan Santesson just joined the room",
+      "ptime": 788000.0,
+      "dtime": 1196000.0
+    },
+    {
+      "text": "Paul W at the mic",
+      "ptime": 800000.0,
+      "dtime": 1208000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Melinda: I mean, it sounds a lot like you won\u0027t implement out of spite",
+      "ptime": 813000.0,
+      "dtime": 1221000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Allow me to remind you to keep it civil.",
+      "ptime": 826000.0,
+      "dtime": 1234000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "if that\u0027s not the case, please clarify",
+      "ptime": 829000.0,
+      "dtime": 1237000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "what you are doing is not exactly civil",
+      "ptime": 844000.0,
+      "dtime": 1252000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Several of us have changed jobs.",
+      "ptime": 850000.0,
+      "dtime": 1258000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "and that was because of this?",
+      "ptime": 864000.0,
+      "dtime": 1272000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "or something else?",
+      "ptime": 867000.0,
+      "dtime": 1275000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "I\u0027ll raise it again.",
+      "ptime": 886000.0,
+      "dtime": 1294000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "needless to say I\u0027d like to get a turn at the mic",
+      "ptime": 898000.0,
+      "dtime": 1306000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "This has dragged on for several years longer than it should have.  I changed jobs, Richard changed jobs, etc.",
+      "ptime": 928000.0,
+      "dtime": 1336000.0,
+      "author": "Melinda"
+    },
+    {
+      "text": "regarding number of  messages, I\u0027ve seen much bigger threads",
+      "ptime": 990000.0,
+      "dtime": 1398000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "the ones for JSON were epic",
+      "ptime": 999000.0,
+      "dtime": 1407000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Melinda: OK, well, I\u0027ve only been involved in the last few months -- I\u0027m sorry it took years, but I wasn\u0027t around for those",
+      "ptime": 1038000.0,
+      "dtime": 1446000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "***Dragana Damjanovic just left the room",
+      "ptime": 1051000.0,
+      "dtime": 1459000.0
+    },
+    {
+      "text": "Other WG\u0027s have different style and different threads.  So the fact that JSON can be a flame-fest is not relevant here.",
+      "ptime": 1144000.0,
+      "dtime": 1552000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Ben Kaduk at the mic",
+      "ptime": 1197000.0,
+      "dtime": 1605000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Paul Wouters",
+      "ptime": 1212000.0,
+      "dtime": 1620000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Valery Smyslov just joined the room",
+      "ptime": 1219000.0,
+      "dtime": 1627000.0
+    },
+    {
+      "text": "so",
+      "ptime": 1219000.0,
+      "dtime": 1627000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "can we have a consensus call on whether there is a footgun",
+      "ptime": 1230000.0,
+      "dtime": 1638000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Ben Kadud",
+      "ptime": 1263000.0,
+      "dtime": 1671000.0,
+      "author": "synp"
+    },
+    {
+      "text": "YES agreed. Publishing the consensus document is a good approach",
+      "ptime": 1266000.0,
+      "dtime": 1674000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "Kaduk",
+      "ptime": 1267000.0,
+      "dtime": 1675000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Richard Barnes",
+      "ptime": 1295000.0,
+      "dtime": 1703000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Paul Wouters",
+      "ptime": 1315000.0,
+      "dtime": 1723000.0,
+      "author": "synp"
+    },
+    {
+      "text": "BTW, I still can\u0027t find a link to the presentation",
+      "ptime": 1322000.0,
+      "dtime": 1730000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "I have the presentation, because Ben posted it here",
+      "ptime": 1330000.0,
+      "dtime": 1738000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "but in the agenda, it\u0027s not there",
+      "ptime": 1337000.0,
+      "dtime": 1745000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/103/agenda.html",
+      "ptime": 1349000.0,
+      "dtime": 1757000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/103/materials/slides-103-tls-sessb-dnssec-chain-exetnsion-01 - not this?",
+      "ptime": 1360000.0,
+      "dtime": 1768000.0,
+      "author": "synp"
+    },
+    {
+      "text": "TLS is not just for browsers.",
+      "ptime": 1366000.0,
+      "dtime": 1774000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "Relay above when timely.",
+      "ptime": 1377000.0,
+      "dtime": 1785000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "Nico from MeetEcho",
+      "ptime": 1381000.0,
+      "dtime": 1789000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Yes it is there. datatracker, wg tls, meeting materials.  session 2, slides section",
+      "ptime": 1441000.0,
+      "dtime": 1849000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "***Willem Toorop just joined the room",
+      "ptime": 1459000.0,
+      "dtime": 1867000.0
+    },
+    {
+      "text": "***Brian Dickson just left the room",
+      "ptime": 1489000.0,
+      "dtime": 1897000.0
+    },
+    {
+      "text": "it\u0027s NOT linked from the agenda page",
+      "ptime": 1500000.0,
+      "dtime": 1908000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "The use case is not just brosers either.",
+      "ptime": 1517000.0,
+      "dtime": 1925000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "@Nico: Is ?we?re not going to implement it, and the lack of this we do not think is enough of a security problem for the use case? a sufficient sign of no consensus to do so?",
+      "ptime": 1540000.0,
+      "dtime": 1948000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "geez, things are not always inked from plaintext agenda pages",
+      "ptime": 1541000.0,
+      "dtime": 1949000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "the \"presentation\" link for Wednesday in the X is a link to the agenda",
+      "ptime": 1562000.0,
+      "dtime": 1970000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "***Brian Dickson just joined the room",
+      "ptime": 1571000.0,
+      "dtime": 1979000.0
+    },
+    {
+      "text": "Paul Hoffman",
+      "ptime": 1579000.0,
+      "dtime": 1987000.0,
+      "author": "synp"
+    },
+    {
+      "text": "resnick: the feature being objected to is optional",
+      "ptime": 1606000.0,
+      "dtime": 2014000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "If so, publish it in a separate document.",
+      "ptime": 1621000.0,
+      "dtime": 2029000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "@resnick: therefore that is not a legitimate objection",
+      "ptime": 1632000.0,
+      "dtime": 2040000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Not a legitimate objection to keeping it in the base document?",
+      "ptime": 1652000.0,
+      "dtime": 2060000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "David Schinazi at the mic",
+      "ptime": 1656000.0,
+      "dtime": 2064000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Of course it is.",
+      "ptime": 1657000.0,
+      "dtime": 2065000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "kaduk: oh",
+      "ptime": 1672000.0,
+      "dtime": 2080000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "well, that sucks",
+      "ptime": 1678000.0,
+      "dtime": 2086000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "resnick: so you don\u0027t want to implement the optional feature, so don\u0027t implement the optional feature",
+      "ptime": 1708000.0,
+      "dtime": 2116000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "why can\u0027t we have it?",
+      "ptime": 1714000.0,
+      "dtime": 2122000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "You can. In a separate document.",
+      "ptime": 1722000.0,
+      "dtime": 2130000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "who is speaking at the mic?",
+      "ptime": 1723000.0,
+      "dtime": 2131000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "ekr at the mic",
+      "ptime": 1729000.0,
+      "dtime": 2137000.0,
+      "author": "synp"
+    },
+    {
+      "text": "thanks",
+      "ptime": 1741000.0,
+      "dtime": 2149000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Whether you get interest in the WG to publish that separate document is a separate question.",
+      "ptime": 1770000.0,
+      "dtime": 2178000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Victor (MeetEcho)",
+      "ptime": 1770000.0,
+      "dtime": 2178000.0,
+      "author": "synp"
+    },
+    {
+      "text": "resnick: of course",
+      "ptime": 1783000.0,
+      "dtime": 2191000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "but there is still the downgrade, limited applicability, and all the issues Viktor is listing right now",
+      "ptime": 1817000.0,
+      "dtime": 2225000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Rich Salz at the mic",
+      "ptime": 1870000.0,
+      "dtime": 2278000.0,
+      "author": "synp"
+    },
+    {
+      "text": "This is HOW DANE WORKS!",
+      "ptime": 1920000.0,
+      "dtime": 2328000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "It\u0027s definitely one of DANE\u0027s use cases",
+      "ptime": 1940000.0,
+      "dtime": 2348000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Wes at the mic",
+      "ptime": 1946000.0,
+      "dtime": 2354000.0,
+      "author": "synp"
+    },
+    {
+      "text": "I would counter comment over what the guy from google said that let the document die gracefully or ungracefully.... I am sorry, it is still a contribution and it proofed that this kind of implementation doesn\u0027t have the community consensus and lets kill it gracefully.... please highlight my comment thanks",
+      "ptime": 1959000.0,
+      "dtime": 2367000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "The TLS group does not understand DANE",
+      "ptime": 1960000.0,
+      "dtime": 2368000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "There was no education attempt.  People thought it was simple an clean, and it is increasingly clear that this is not the case.",
+      "ptime": 1991000.0,
+      "dtime": 2399000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "So some people therefore feel they were hoodwinked. Deservedly so, or not.",
+      "ptime": 2014000.0,
+      "dtime": 2422000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "+1 to Wes.",
+      "ptime": 2033000.0,
+      "dtime": 2441000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Tariq: are you remote and want your comment relayed?",
+      "ptime": 2035000.0,
+      "dtime": 2443000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Wes speaks truth",
+      "ptime": 2053000.0,
+      "dtime": 2461000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "\"The TLS group does not understand DANE\" -Rich Salz",
+      "ptime": 2054000.0,
+      "dtime": 2462000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "O agree",
+      "ptime": 2057000.0,
+      "dtime": 2465000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "I agree",
+      "ptime": 2058000.0,
+      "dtime": 2466000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "If you want to enable a DANE security model, don\u0027t try and wedge it into the implied PKI trust model.  Do a new one, such as with a new cert type.",
+      "ptime": 2065000.0,
+      "dtime": 2473000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Eric from Apple",
+      "ptime": 2085000.0,
+      "dtime": 2493000.0,
+      "author": "synp"
+    },
+    {
+      "text": "even without pinning, the Denial of Existence stuff needs to be done right",
+      "ptime": 2088000.0,
+      "dtime": 2496000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Paul Wouters again",
+      "ptime": 2092000.0,
+      "dtime": 2500000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Do the DANE part right, or not at all. That requires full validation including proofs",
+      "ptime": 2102000.0,
+      "dtime": 2510000.0,
+      "author": "Brian Dickson"
+    },
+    {
+      "text": "Rich: the \"TLS people\" and the \"DANE people\" are the same people. They\u0027re in this room right now",
+      "ptime": 2118000.0,
+      "dtime": 2526000.0,
+      "author": "synp"
+    },
+    {
+      "text": "They are mostly a non-overlapping set.",
+      "ptime": 2138000.0,
+      "dtime": 2546000.0,
+      "author": "Rich Salz"
+    },
+    {
+      "text": "Melinda: getting blamed for delays certainly doesn\u0027t feel good",
+      "ptime": 2143000.0,
+      "dtime": 2551000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "ekr",
+      "ptime": 2170000.0,
+      "dtime": 2578000.0,
+      "author": "synp"
+    },
+    {
+      "text": "@Synp yes plz if someone on my behalf can announce that",
+      "ptime": 2217000.0,
+      "dtime": 2625000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "FYI, I won\u0027t object to publication with flaws out of spite",
+      "ptime": 2272000.0,
+      "dtime": 2680000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Thank you very much",
+      "ptime": 2347000.0,
+      "dtime": 2755000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "That was Stephen Farrell. Now it\u0027s Victor",
+      "ptime": 2378000.0,
+      "dtime": 2786000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Lorenzo at the mic",
+      "ptime": 2403000.0,
+      "dtime": 2811000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 2410000.0,
+      "dtime": 2818000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 2497000.0,
+      "dtime": 2905000.0
+    },
+    {
+      "text": "lolz.... YES agreed Lorenzo",
+      "ptime": 2503000.0,
+      "dtime": 2911000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "Kathleen Moriarty",
+      "ptime": 2506000.0,
+      "dtime": 2914000.0,
+      "author": "synp"
+    },
+    {
+      "text": "I have faced the same issue at IETF 102",
+      "ptime": 2552000.0,
+      "dtime": 2960000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "David Schinazi",
+      "ptime": 2573000.0,
+      "dtime": 2981000.0,
+      "author": "synp"
+    },
+    {
+      "text": "So \"banish\" rather than \"kill\"",
+      "ptime": 2606000.0,
+      "dtime": 3014000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 2607000.0,
+      "dtime": 3015000.0
+    },
+    {
+      "text": "ekr",
+      "ptime": 2611000.0,
+      "dtime": 3019000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Rich Salz",
+      "ptime": 2646000.0,
+      "dtime": 3054000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Colin Jennings",
+      "ptime": 2751000.0,
+      "dtime": 3159000.0,
+      "author": "synp"
+    },
+    {
+      "text": "*Cullen",
+      "ptime": 2798000.0,
+      "dtime": 3206000.0,
+      "author": "synp"
+    },
+    {
+      "text": "To recap my comments about code point availability: you can get a code point right now based on an I-D by mailing the experts list. I am not one of the experts, but I would be surprised if they did not approve the code point",
+      "ptime": 2808000.0,
+      "dtime": 3216000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "No need to go to the ISE unless you want an RFC #.",
+      "ptime": 2820000.0,
+      "dtime": 3228000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Dan York",
+      "ptime": 2823000.0,
+      "dtime": 3231000.0,
+      "author": "synp"
+    },
+    {
+      "text": "As it happens, those experts are in this Jabber room right now",
+      "ptime": 2854000.0,
+      "dtime": 3262000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Lorenzo",
+      "ptime": 2859000.0,
+      "dtime": 3267000.0,
+      "author": "synp"
+    },
+    {
+      "text": "You really really really do not need to go to the ISE",
+      "ptime": 2868000.0,
+      "dtime": 3276000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "I mean, you can, obvs.",
+      "ptime": 2884000.0,
+      "dtime": 3292000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "But it isn?t necessary for code point assigment",
+      "ptime": 2891000.0,
+      "dtime": 3299000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "hum",
+      "ptime": 2899000.0,
+      "dtime": 3307000.0,
+      "author": "Nicolas Williams"
+    },
+    {
+      "text": "Yes.",
+      "ptime": 2899000.0,
+      "dtime": 3307000.0,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "YES",
+      "ptime": 2912000.0,
+      "dtime": 3320000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 2915000.0,
+      "dtime": 3323000.0
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 2947000.0,
+      "dtime": 3355000.0
+    },
+    {
+      "text": "... and we\u0027re done.",
+      "ptime": 2949000.0,
+      "dtime": 3357000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Thank you very much @Synp stay blessed",
+      "ptime": 2974000.0,
+      "dtime": 3382000.0,
+      "author": "TARIQ SARAJ"
+    },
+    {
+      "text": "***Nicolas Williams just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Brian Dickson just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Samuel Weiler just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***TARIQ SARAJ just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Stefan Santesson just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Willem Toorop just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Valery Smyslov just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Viktor Dukhovni just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Dmitri Tikhonov just left the room",
+      "ptime": 2998000.0,
+      "dtime": 3406000.0
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 2999000.0,
+      "dtime": 3407000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF103-TLS-20181107-1120"
+    }
+  ]
+}

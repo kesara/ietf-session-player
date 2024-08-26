@@ -1,0 +1,138 @@
+
+{
+	"title": "IETF112-RMCAT-20211112-1430",
+	"filename": "IETF112-RMCAT-20211112-1430",
+	"start": 0,
+	"end": 3977000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "oiIwqeP9Cwo",
+    "start": 0,
+    "end": "3977000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 175000,
+    "ptime": 175000,
+    "author": "Gorry Fairhurst",
+    "text": "I'll take notes for the rm cats ...<br/>"
+  },
+  {
+    "dtime": 264000,
+    "ptime": 264000,
+    "author": "Mirja Kühlewind",
+    "text": ":smirk_cat:<br/>"
+  },
+  {
+    "dtime": 286000,
+    "ptime": 286000,
+    "author": "Mirja Kühlewind",
+    "text": "(that's what these cat smileys are for)<br/>"
+  },
+  {
+    "dtime": 1821000,
+    "ptime": 1821000,
+    "author": "Ingemar Johansson",
+    "text": "Regarding Mo Zanaty's question, now that I understand it properly (sorry for being slow-brained). <br/>The SCReAM algorithm is not optimized specifically for uplink or downlink transmission. We use the same settings for the cloud gaming (DL) and remote control (UL) experiments.<br/>"
+  },
+  {
+    "dtime": 1869000,
+    "ptime": 1869000,
+    "author": "Gorry Fairhurst",
+    "text": "@IJ: Added that answer to the notes<br/>"
+  },
+  {
+    "dtime": 1880000,
+    "ptime": 1880000,
+    "author": "Ingemar Johansson",
+    "text": "thanks<br/>"
+  },
+  {
+    "dtime": 2497000,
+    "ptime": 2497000,
+    "author": "Michael Welzl",
+    "text": "Regarding Gorry's question, my 2 cents: patterns of changing capacities at the link layer may introduce more complexity to the whole system... but to simplify this a little bit: all SBD detection algorithms essentially look at correlations in the behavior of flows. When correlations are detected, a shared bottleneck is identified. E.g., a fluctuating-capacity link may temporarily introduce correlations, when the capacity is small - then the issue is the detection reliability and speed.<br/>"
+  },
+  {
+    "dtime": 2598000,
+    "ptime": 2598000,
+    "author": "Gorry Fairhurst",
+    "text": "@MW: Sure, I was curious, I think this sounds fair - I just wondered if we could discover a bottleneck that was eratic from the source's perspective.<br/>"
+  },
+  {
+    "dtime": 2675000,
+    "ptime": 2675000,
+    "author": "Michael Welzl",
+    "text": "I think the source couldn't reasonably distinguish such a bottleneck from other cases, e.g. a scenario where the bottleneck itself fluctuates (my access, your access, ...).<br/>"
+  },
+  {
+    "dtime": 2691000,
+    "ptime": 2691000,
+    "author": "Gorry Fairhurst",
+    "text": "ok<br/>"
+  },
+  {
+    "dtime": 3195000,
+    "ptime": 3195000,
+    "author": "David Hayes",
+    "text": "It will depend on the exact scenario. If the fluctuations are on a time scale shorter than&nbsp;&nbsp;the summary stastic time scale -- they are just part of the summary statistics -- so part of the BN Signature. If it isn't a BN, but just influences the summary statistics significantly, then it will be difficult. The correlation methods will also correlate on those fluctuations and not the BN in that scenario as well.<br/>"
+  },
+  {
+    "dtime": 3414000,
+    "ptime": 3414000,
+    "author": "Gorry Fairhurst",
+    "text": "Chairs: Are there any comments on future work?<br/>"
+  },
+  {
+    "dtime": 3615000,
+    "ptime": 3615000,
+    "author": "Joerg Ott",
+    "text": "I can certainly read it<br/>"
+  },
+  {
+    "dtime": 3637000,
+    "ptime": 3637000,
+    "author": "Joerg Ott",
+    "text": "(read it before in ealrier versions)<br/>"
+  },
+  {
+    "dtime": 3651000,
+    "ptime": 3651000,
+    "author": "Ingemar Johansson",
+    "text": "I can read it<br/>"
+  },
+  {
+    "dtime": 3702000,
+    "ptime": 3702000,
+    "author": "Mirja Kühlewind",
+    "text": "+1 to do wglc<br/>"
+  },
+  {
+    "dtime": 3879000,
+    "ptime": 3879000,
+    "author": "Jonathan Lennox",
+    "text": "+1 wglc then close<br/>"
+  },
+  {
+    "dtime": 3973000,
+    "ptime": 3973000,
+    "author": "Mirja Kühlewind",
+    "text": "thx!<br/>"
+  },
+  {
+    "dtime": 4017000,
+    "ptime": 4017000,
+    "author": "Gorry Fairhurst",
+    "text": "... Bye - check the notes if you care about the words:-)<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-RMCAT-20211112-1430"
+		}
+	]
+}

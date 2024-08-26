@@ -1,0 +1,133 @@
+
+{
+	"title": "IETF116-ICCRG-20230329-0400",
+	"filename": "IETF116-ICCRG-20230329-0400",
+	"start": 0,
+	"end": 4821000,
+	"start_datetime": "2023-03-29T04:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "oLbzahAzSHQ",
+    "start": 0,
+    "end": "4821000"
+  }
+],
+	"messages": [
+  {
+    "author": "Benson Muite",
+    "text": "<p>Can help</p>",
+    "topic": "ietf-116",
+    "dtime": 178000,
+    "ptime": 178000
+  },
+  {
+    "author": "Steffen Lindner",
+    "text": "<p>maybe the screen share works</p>",
+    "topic": "ietf-116",
+    "dtime": 304000,
+    "ptime": 304000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>Is this BBRv2?</p>",
+    "topic": "ietf-116",
+    "dtime": 1326000,
+    "ptime": 1326000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>I would be interested in seeing these results for a mix of short and long flows</p>",
+    "topic": "ietf-116",
+    "dtime": 2067000,
+    "ptime": 2067000
+  },
+  {
+    "author": "Reese Enghardt",
+    "text": "<p>Good question, would you like to enter the queue?</p>",
+    "topic": "ietf-116",
+    "dtime": 2096000,
+    "ptime": 2096000
+  },
+  {
+    "author": "Reese Enghardt",
+    "text": "<p>I can also relay to the mic</p>",
+    "topic": "ietf-116",
+    "dtime": 2112000,
+    "ptime": 2112000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>Could you relay it.</p>",
+    "topic": "ietf-116",
+    "dtime": 2115000,
+    "ptime": 2115000
+  },
+  {
+    "author": "Reese Enghardt",
+    "text": "<p>Sure!</p>",
+    "topic": "ietf-116",
+    "dtime": 2122000,
+    "ptime": 2122000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>BBR also has higher gain in slow start</p>",
+    "topic": "ietf-116",
+    "dtime": 2350000,
+    "ptime": 2350000
+  },
+  {
+    "author": "Ayush Mishra",
+    "text": "<p>@Vidhi we have done experiments with BBRv2, however, we have not completely explored what happens when there are different flow sizes - but it will definitely impact what the Nash Equilibrium distribution will look like</p>",
+    "topic": "ietf-116",
+    "dtime": 2937000,
+    "ptime": 2937000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>@ayush, you are doing great work. I have been working on Prague CC and it is something that is already available as beta for Apple QUIC stack. Would you be interested in studying CC with AQM on the bottleneck?</p>",
+    "topic": "ietf-116",
+    "dtime": 3158000,
+    "ptime": 3158000
+  },
+  {
+    "author": "Ayush Mishra",
+    "text": "<p>@Vidhi Definitely! :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3227000,
+    "ptime": 3227000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>In an ideal world, all bottlenecks would have some AQM and CC would only react to CE markings from the network. Any increase in RTT or packet loss should not be congestion related as ECN should be able to take care of both</p>",
+    "topic": "ietf-116",
+    "dtime": 3468000,
+    "ptime": 3468000
+  },
+  {
+    "author": "Ayush Mishra",
+    "text": "<p>I need to leave for another meeting now, but please feel free to get in touch via email if any of you have more questions! :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3607000,
+    "ptime": 3607000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-ICCRG-20230329-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/iccrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-ICCRG-20230329-0400"
+		}		
+	]
+}

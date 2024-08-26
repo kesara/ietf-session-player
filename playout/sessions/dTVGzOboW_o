@@ -1,0 +1,1288 @@
+
+{
+	"title": "IETF115-MASQUE-20221109-0930",
+	"filename": "IETF115-MASQUE-20221109-0930",
+	"start": 0,
+	"end": 7497000,
+	"start_datetime": "2022-11-09T09:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "dTVGzOboW_o",
+    "start": 0,
+    "end": "7497000"
+  }
+],
+	"messages": [
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I'm stuck waiting for an elevator down. This would be less problematic if I weren't early on the agenda</p>",
+    "topic": "jabber",
+    "dtime": 123000,
+    "ptime": 123000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>No worries, Alex, we'll start in a minute or two, elevators have been fun for everyone</p>",
+    "topic": "jabber",
+    "dtime": 151000,
+    "ptime": 151000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>also, taking your mask off while talking is one of the worst times to do that</p>",
+    "topic": "jabber",
+    "dtime": 462000,
+    "ptime": 462000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Indeed. While it is allowed, it shouldn't likely be encouraged.</p>",
+    "topic": "jabber",
+    "dtime": 524000,
+    "ptime": 524000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>It makes sense at the chair desk / presenter stand since that's far from folks, but yeah keeping masks on in mic line is encouraged</p>",
+    "topic": "jabber",
+    "dtime": 571000,
+    "ptime": 571000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Yeah, that's what got published, but :-\\</p>",
+    "topic": "jabber",
+    "dtime": 600000,
+    "ptime": 600000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>And they're not crashing anymore either!</p>",
+    "topic": "jabber",
+    "dtime": 600000,
+    "ptime": 600000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Which capsules is chrome sending on webtransport?  I've been trying wt interop this week and confused about what chrome is sending on the body.</p>",
+    "topic": "jabber",
+    "dtime": 1556000,
+    "ptime": 1556000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I think it's just the CLOSE_WEBTRANSPORT_SESSION capsule, which I actually haven't implemented yet</p>",
+    "topic": "jabber",
+    "dtime": 1729000,
+    "ptime": 1729000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Chrome was using the old REGISTER_DATAGRAM capsules from earlier HTTP Datagram drafts</p>",
+    "topic": "jabber",
+    "dtime": 1781000,
+    "ptime": 1781000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>NAT at the tunnel endpoint is a great design choice for several reasons</p>",
+    "topic": "jabber",
+    "dtime": 1810000,
+    "ptime": 1810000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I would like to be able to request NAT, even if it weren't the default</p>",
+    "topic": "jabber",
+    "dtime": 1837000,
+    "ptime": 1837000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Meetecho: it looks like the meetecho queue screen in the room isn't updating right now</p>",
+    "topic": "jabber",
+    "dtime": 1873000,
+    "ptime": 1873000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Meetecho: We're also not seeing the remote speaker in the room</p>",
+    "topic": "jabber",
+    "dtime": 1948000,
+    "ptime": 1948000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Laptop on the chair  desk is frozen, coming</p>",
+    "topic": "jabber",
+    "dtime": 1969000,
+    "ptime": 1969000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>This is not actually how STUN works but it's OK</p>",
+    "topic": "jabber",
+    "dtime": 2014000,
+    "ptime": 2014000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> yup</p>",
+    "topic": "jabber",
+    "dtime": 2028000,
+    "ptime": 2028000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm not sure why this is about STUN rather than TURN</p>",
+    "topic": "jabber",
+    "dtime": 2044000,
+    "ptime": 2044000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> TURN is already working.  This is about STUN.</p>",
+    "topic": "jabber",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yeah the details aren't quite right, but the need for the CONNECT-UDP layer being able to \"listen\" still stands for the WebRTC use case</p>",
+    "topic": "jabber",
+    "dtime": 2090000,
+    "ptime": 2090000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yeah, I don't think that the accuracy of the slides has any bearing on the outcome.</p>",
+    "topic": "jabber",
+    "dtime": 2112000,
+    "ptime": 2112000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Quite so</p>",
+    "topic": "jabber",
+    "dtime": 2117000,
+    "ptime": 2117000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Why not use a capsule to request this capability?</p>",
+    "topic": "jabber",
+    "dtime": 2171000,
+    "ptime": 2171000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>I'll take responsibility for that, my understanding of STUN is quite approximate</p>",
+    "topic": "jabber",
+    "dtime": 2177000,
+    "ptime": 2177000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Doesn't having multiple connect-udp streams on the same connection between client and proxy solve the problem about landing on the same server?</p>",
+    "topic": "jabber",
+    "dtime": 2183000,
+    "ptime": 2183000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Alan it doesn't because intermediaries</p>",
+    "topic": "jabber",
+    "dtime": 2198000,
+    "ptime": 2198000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>What would a capsule do?</p>",
+    "topic": "jabber",
+    "dtime": 2203000,
+    "ptime": 2203000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> Maybe not if there are layers to the server infrastructure</p>",
+    "topic": "jabber",
+    "dtime": 2213000,
+    "ptime": 2213000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Got it thanks</p>",
+    "topic": "jabber",
+    "dtime": 2224000,
+    "ptime": 2224000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> probably want to put \"-masque-\" in the draft name</p>",
+    "topic": "jabber",
+    "dtime": 2271000,
+    "ptime": 2271000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>+1 to useful.</p>",
+    "topic": "jabber",
+    "dtime": 2271000,
+    "ptime": 2271000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>+1 as useful and appropriate to fit into a recharter of this WG.  I have some ideas for further expansions/improvements of this draft, but nothing blocking that can't wait for adoption.</p>",
+    "topic": "jabber",
+    "dtime": 2412000,
+    "ptime": 2412000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>This time zone is better than European time zones...</p>",
+    "topic": "jabber",
+    "dtime": 2458000,
+    "ptime": 2458000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>+1 for recharter as well</p>",
+    "topic": "jabber",
+    "dtime": 2836000,
+    "ptime": 2836000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>+1 to reconsidering the 1:1 mapping of VCIDs to CIDs</p>",
+    "topic": "jabber",
+    "dtime": 3416000,
+    "ptime": 3416000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I wish we could model this as, like, a REST API controlling a TURN server, instead of a wacky layer-crossing thing on the HTTP/3 UDP association.</p>",
+    "topic": "jabber",
+    "dtime": 3418000,
+    "ptime": 3418000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>I think there's chance taht this proposal actually ossifies QUIC, because it assumes that an intermediary can generate CIDs.</p>",
+    "topic": "jabber",
+    "dtime": 3425000,
+    "ptime": 3425000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>CIDs are part of the invariants though</p>",
+    "topic": "jabber",
+    "dtime": 3447000,
+    "ptime": 3447000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> I don't think you can get the performance demonstrated without a layer-crossing thing</p>",
+    "topic": "jabber",
+    "dtime": 3459000,
+    "ptime": 3459000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>CC might be managed by doing some accounting, even if there is no control loop involved</p>",
+    "topic": "jabber",
+    "dtime": 3462000,
+    "ptime": 3462000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>It is my understanding that QUIC Invariants assume that CID can be generated in a version specific way that the endpoints agree.</p>",
+    "topic": "jabber",
+    "dtime": 3464000,
+    "ptime": 3464000
+  },
+  {
+    "author": "Ian Swett",
+    "text": "<p>You could use a zero-length VCID if you didn't need a CID.</p>",
+    "topic": "jabber",
+    "dtime": 3476000,
+    "ptime": 3476000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That's right Kazuho</p>",
+    "topic": "jabber",
+    "dtime": 3476000,
+    "ptime": 3476000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>What ossification would there be, if the CIDs follow the invariants?</p>",
+    "topic": "jabber",
+    "dtime": 3499000,
+    "ptime": 3499000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>An extreme example would be a QUIC version using different CID for each packet being sent.</p>",
+    "topic": "jabber",
+    "dtime": 3520000,
+    "ptime": 3520000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> I think you can, by just running the forwarder as a separate thing from the HTTP origin.  The only issue I see is the handling of long-header packets.</p>",
+    "topic": "jabber",
+    "dtime": 3537000,
+    "ptime": 3537000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>I see. The client could theoretically have capsules for each new CID =) but that could get out of hand.</p>",
+    "topic": "jabber",
+    "dtime": 3548000,
+    "ptime": 3548000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> I don't see how that's possible here; isn't part of the win bypassing the outer connection's cryptography?</p>",
+    "topic": "jabber",
+    "dtime": 3570000,
+    "ptime": 3570000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1164\">@Kazuho Oku</span> I think that what this really needs is an API where the client can request new CIDs from the proxy, which would allow this to work...mostly</p>",
+    "topic": "jabber",
+    "dtime": 3571000,
+    "ptime": 3571000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yeah, the register capsules are effectively ways to request a new CID from the proxy today, but happy to get that tweaked</p>",
+    "topic": "jabber",
+    "dtime": 3602000,
+    "ptime": 3602000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>The draft abstract says </p>\n<blockquote>\n<p>packets can be forwarded using an HTTP/3 proxy rather than  being re-encapsulated and re-encrypted</p>\n</blockquote>",
+    "topic": "jabber",
+    "dtime": 3607000,
+    "ptime": 3607000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> Yes, the forwarder is just a \"QUIC CID translator\".  My point is to remove the assumption that this forwarding function lives on the same UDP association as an HTTP/3 connection.  It's more like a separate network service that you happen to be controlling using an HTTP API.</p>",
+    "topic": "jabber",
+    "dtime": 3645000,
+    "ptime": 3645000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>At that point, why not just encapsulate using GUE...? Use H3 as the control channel and use an actual encapsulation protocol</p>",
+    "topic": "jabber",
+    "dtime": 3686000,
+    "ptime": 3686000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> Because GUE has nonzero MTU overhead.  But yes, that's my mental model.</p>",
+    "topic": "jabber",
+    "dtime": 3717000,
+    "ptime": 3717000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>QUIC-as-encap also has nonzero MTU overhead here</p>",
+    "topic": "jabber",
+    "dtime": 3731000,
+    "ptime": 3731000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Also then you don't have to use HTTP/3 as the control channel; you can use HTTP/1.1.</p>",
+    "topic": "jabber",
+    "dtime": 3733000,
+    "ptime": 3733000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Ben part of this is that the network observer sees just one QUIC connection from the client to the proxy</p>",
+    "topic": "jabber",
+    "dtime": 3737000,
+    "ptime": 3737000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> I don't see why that matters.  The observer presumably knows you are using this forwarder.</p>",
+    "topic": "jabber",
+    "dtime": 3772000,
+    "ptime": 3772000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Martin there are use cases that don't require re-encryption and don't mind the traffic analysis. For example, if the proxy isn't about privacy, but is a remote access VPN, forwarding onto an internal network works fine.</p>",
+    "topic": "jabber",
+    "dtime": 3816000,
+    "ptime": 3816000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> has anyone thought about the security considerations around this effectively turning any implementing proxy into (effectively) a UDP open relay?</p>",
+    "topic": "jabber",
+    "dtime": 3817000,
+    "ptime": 3817000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> Does it?  I believe there is no \"encapsulation\" here, and there is zero per-packet overhead.</p>",
+    "topic": "jabber",
+    "dtime": 3828000,
+    "ptime": 3828000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Also, I find the presentation of this draft very difficult to use.</p>",
+    "topic": "jabber",
+    "dtime": 3831000,
+    "ptime": 3831000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Maybe it adds overhead if the CIDs get longer...</p>",
+    "topic": "jabber",
+    "dtime": 3858000,
+    "ptime": 3858000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It talks about proxy state, but doesn't talk about what happens (i.e., Eric's slide)</p>",
+    "topic": "jabber",
+    "dtime": 3858000,
+    "ptime": 3858000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> Unless I am grossly misunderstanding this draft, there's still an outer QUIC header from client-&gt;proxy</p>",
+    "topic": "jabber",
+    "dtime": 3861000,
+    "ptime": 3861000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> Not in forwarder mode, no.  Just a CID&lt;-&gt;VCID mapping table.</p>",
+    "topic": "jabber",
+    "dtime": 3884000,
+    "ptime": 3884000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Alex there isn't any extra outer header</p>",
+    "topic": "jabber",
+    "dtime": 3885000,
+    "ptime": 3885000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> that might be fine, but people make similar arguments about integrity-only TLS all the time</p>",
+    "topic": "jabber",
+    "dtime": 3906000,
+    "ptime": 3906000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@Tommy I think one way of fixing the invariants issue might be to change this proposal to a UDP forwarding mechanism, that routes UDP packets as they are, with added prefix used for identifying connections.</p>",
+    "topic": "jabber",
+    "dtime": 3950000,
+    "ptime": 3950000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>All we need is a identifier, I am not sure if there is a reason to rewrite CID field of QUIC when we can achieve the same thing by prepending an ID to a UDP packet</p>",
+    "topic": "jabber",
+    "dtime": 3991000,
+    "ptime": 3991000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Martin I agree that integrity-only TLS isn't good. But if from a security and traffic analysis perspective, you are OK with whatever your end to end QUIC connection already has (with TLS 1.3 and QUIC encryption, etc) and you just want to bounce through a relay on the way in order to have access to some resources, or to swap your IPs, then this mode is useful. If that's not the case, just don't use the mode.</p>",
+    "topic": "jabber",
+    "dtime": 4012000,
+    "ptime": 4012000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Kazuho yeah, I like that — just append a proxy-chosen ID it can use for load balancing rather than replacing the target CID?</p>",
+    "topic": "jabber",
+    "dtime": 4054000,
+    "ptime": 4054000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@Tommy exactly</p>",
+    "topic": "jabber",
+    "dtime": 4067000,
+    "ptime": 4067000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm not thrilled with the idea of an append-only ID - it creates linkability.</p>",
+    "topic": "jabber",
+    "dtime": 4078000,
+    "ptime": 4078000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Maybe that is OK in some contexts, but it shouldn't be the default</p>",
+    "topic": "jabber",
+    "dtime": 4087000,
+    "ptime": 4087000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Hey Ben, if this is your UI, take as the most nit-picky bug report ever that IPsec is supposed to be IPsec, not IPSec (much to the chagrin of my autocorrect on anything with only two initial captial letters)</p>",
+    "topic": "jabber",
+    "dtime": 4093000,
+    "ptime": 4093000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Ah the IPsec capitalization issues... we had to fix the Apple style guide on that a few years ago</p>",
+    "topic": "jabber",
+    "dtime": 4125000,
+    "ptime": 4125000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>ah, so..., centralization ?</p>",
+    "topic": "jabber",
+    "dtime": 4138000,
+    "ptime": 4138000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@Martin I think I get the concern but we are talking about forwarding packets without reencryption, so I'm not sure if that actually matters.</p>",
+    "topic": "jabber",
+    "dtime": 4141000,
+    "ptime": 4141000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1164\">@Kazuho Oku</span> like I said, I don't think that should be a default</p>",
+    "topic": "jabber",
+    "dtime": 4166000,
+    "ptime": 4166000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Yeah maybe it's better to phrase that the linkability problem of this protocol depends on how the proxy generates and retires CIDs.</p>",
+    "topic": "jabber",
+    "dtime": 4258000,
+    "ptime": 4258000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>DISPATCH</p>",
+    "topic": "jabber",
+    "dtime": 4367000,
+    "ptime": 4367000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>+1 for DISPATCH.  Yes, I should have thought of that.</p>",
+    "topic": "jabber",
+    "dtime": 4439000,
+    "ptime": 4439000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>the masque:: scheme seems like a good idea for click-through UX, but I hope even if that is included that https:: is still supported for clients who don't implement right away (config can also be headless via remote management)</p>",
+    "topic": "jabber",
+    "dtime": 4552000,
+    "ptime": 4552000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>+1 to DISPATCH too</p>",
+    "topic": "jabber",
+    "dtime": 4584000,
+    "ptime": 4584000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>But we can have a separate app that just configures the URIs</p>",
+    "topic": "jabber",
+    "dtime": 4612000,
+    "ptime": 4612000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>(it still makes to me to consolidate config as this draft proposes even if the UI is never used, as remote ocnfig being simplified is still a good thing</p>",
+    "topic": "jabber",
+    "dtime": 4616000,
+    "ptime": 4616000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>If nothing else, easier to deploy (changes can be made at service endpoint without requiring endpoint updates)</p>",
+    "topic": "jabber",
+    "dtime": 4635000,
+    "ptime": 4635000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Right, we should be able to have many, many relay configs</p>",
+    "topic": "jabber",
+    "dtime": 4691000,
+    "ptime": 4691000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Hmm, many configs per key does make sense. Still lets single config per key exist anyway.</p>",
+    "topic": "jabber",
+    "dtime": 4764000,
+    "ptime": 4764000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm not really that concerned about CNAME cloaking in a world where we have state partitioning.</p>",
+    "topic": "jabber",
+    "dtime": 4998000,
+    "ptime": 4998000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm more concerned about getting ECH</p>",
+    "topic": "jabber",
+    "dtime": 5016000,
+    "ptime": 5016000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>for which you really do need to have the client doing the name resolution</p>",
+    "topic": "jabber",
+    "dtime": 5045000,
+    "ptime": 5045000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Why do we need the client doing the name resolution there? Are you worried about the proxy blocking the DNS queries for ECH keys?</p>",
+    "topic": "jabber",
+    "dtime": 5103000,
+    "ptime": 5103000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>This seems like an extraordinarily narrow solution</p>",
+    "topic": "jabber",
+    "dtime": 5134000,
+    "ptime": 5134000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> I'm just talking about ensuring that the client has ECH configs before it establishes a connection.</p>",
+    "topic": "jabber",
+    "dtime": 5165000,
+    "ptime": 5165000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>So would you prefer to see, e.g., masque proxies letting you tunnel DNS or DoT/DoH and the client do that?</p>",
+    "topic": "jabber",
+    "dtime": 5194000,
+    "ptime": 5194000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Why not just provide a DoH service and maybe put RRsets in some capsules.</p>",
+    "topic": "jabber",
+    "dtime": 5218000,
+    "ptime": 5218000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>I'd much rather the client did its own DNS and sent the DNS queries through the proxy.  If only we had a nifty new proxyish solution optimized for the privacy needs of DNS.  (For those unaware, I'm talking about OHTTP.)</p>",
+    "topic": "jabber",
+    "dtime": 5230000,
+    "ptime": 5230000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>I think that would make plenty of sense, even if the DoH server is just forwarding the queries to the proxy's local resolver.</p>",
+    "topic": "jabber",
+    "dtime": 5249000,
+    "ptime": 5249000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>Mapping all potential proxy status codes to DNS error (and non-error \"task failed successfully\") type answers would need to be explicitly defined right?</p>",
+    "topic": "jabber",
+    "dtime": 5252000,
+    "ptime": 5252000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>CONNECT-UDP to <a href=\"http://example.com\">example.com</a> and also make HTTPS query using DoH about <a href=\"http://example.com\">example.com</a>; you can't send the Initial until you have the ECH config</p>",
+    "topic": "jabber",
+    "dtime": 5259000,
+    "ptime": 5259000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Some late input on \"Proxying Listener UDP\"  and TURN (sorry... it's pretty early in the morning for me):  TURN has a concept of \"permissions\" where only specific remote IP addresses are allowed to send packets into the local client (See RFC 5576 sections 2.3 and 8).  If such a mechanism were added to \"Proxying Listener UDP\", then I believe it could replace TURN.   WebRTC would be able use HTTP proxies that support \"Proxying Listener UDP\" where it currently uses TURN, which would be very interesting since it will likely be easier and more common to deploy HTTP servers with \"Proxying Listener UDP\" than TURN servers.  I can add this comment to this list if this is the wrong place/time to bring it up.</p>",
+    "topic": "jabber",
+    "dtime": 5300000,
+    "ptime": 5300000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>ADD WG would be a tough sell MT; the charter there is trying to be narrowed to \"server properties\" I'm not sure they would see this as in scope</p>",
+    "topic": "jabber",
+    "dtime": 5431000,
+    "ptime": 5431000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Agree a wider solution scope should be considered tho</p>",
+    "topic": "jabber",
+    "dtime": 5445000,
+    "ptime": 5445000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"512\">@Tommy Jensen</span> yeah, DNSOP perhaps</p>",
+    "topic": "jabber",
+    "dtime": 5464000,
+    "ptime": 5464000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Now-see-me-now-you-cname</p>",
+    "topic": "jabber",
+    "dtime": 5474000,
+    "ptime": 5474000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I have no interest in a narrow design that doesn't do ECH.  CNAME cloaking isn't worth a bespoke design when we have a real need for ECH configs.</p>",
+    "topic": "jabber",
+    "dtime": 5507000,
+    "ptime": 5507000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Part of my concern with the broader DNS records is that it gets quite complex quite quickly, and I think it will take a lot of time and work to get it right. We should do it, but it will take time.</p>",
+    "topic": "jabber",
+    "dtime": 5531000,
+    "ptime": 5531000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> Can we just put the IP in <code>next-hop</code> instead?  Mixing IPs and names in this list strikes me as less than ideal.</p>",
+    "topic": "jabber",
+    "dtime": 5535000,
+    "ptime": 5535000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Ben, sure we could put the IP in next-hop and have the new parameter be CNAME only</p>",
+    "topic": "jabber",
+    "dtime": 5562000,
+    "ptime": 5562000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>All standardization takes time</p>",
+    "topic": "jabber",
+    "dtime": 5566000,
+    "ptime": 5566000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Oh, no.</p>",
+    "topic": "jabber",
+    "dtime": 5636000,
+    "ptime": 5636000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Agreed, this is not something we should rush. Anything DNS in 2022+ that only works for A/AAAA/CNAME is lacking. +1 to dnsop</p>",
+    "topic": "jabber",
+    "dtime": 5664000,
+    "ptime": 5664000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>packet numbers in cleartext!</p>",
+    "topic": "jabber",
+    "dtime": 5751000,
+    "ptime": 5751000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> Is there a performance reason to have the server do the DNS resolution rather than exposing a DoH endpoint or something?</p>",
+    "topic": "jabber",
+    "dtime": 5751000,
+    "ptime": 5751000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Alex, yes absolutely.</p>",
+    "topic": "jabber",
+    "dtime": 5784000,
+    "ptime": 5784000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>In general, it's better for the proxy to do the final name-&gt;IP resolution, whereas it's better for the client to do the HTTPS/SVCB lookup.</p>",
+    "topic": "jabber",
+    "dtime": 5799000,
+    "ptime": 5799000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Neither of those is obvious to me.</p>",
+    "topic": "jabber",
+    "dtime": 5844000,
+    "ptime": 5844000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>(In my view, we have a solution for the ECHConfigs problem in MASQUE: DoH!)</p>",
+    "topic": "jabber",
+    "dtime": 5856000,
+    "ptime": 5856000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Maybe this can be taken to the PANRG  as a counterexample: of path ignorant networking</p>",
+    "topic": "jabber",
+    "dtime": 5886000,
+    "ptime": 5886000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Having the client do HTTPS/SVCB lookups directly could leak information they may not want to share; having the proxy lookup IP is useful mostly from the proxy's network address perspective, which is why I asked about it offering a Doh endpoint</p>",
+    "topic": "jabber",
+    "dtime": 5903000,
+    "ptime": 5903000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Ben, yes the remote IP should be selected by the proxy</p>",
+    "topic": "jabber",
+    "dtime": 5906000,
+    "ptime": 5906000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> Yes, that's why you want a DoH server affiliated with the proxy.</p>",
+    "topic": "jabber",
+    "dtime": 5950000,
+    "ptime": 5950000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> yes, the proxy needs to choose which RR from the RRset to act on when it comes to establishing the flow, but the client needs to receive all the RRs (what about DNSSEC?)</p>",
+    "topic": "jabber",
+    "dtime": 5973000,
+    "ptime": 5973000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> I don't think that DoH is necessarily the right answer here, the more I think about it.</p>",
+    "topic": "jabber",
+    "dtime": 6001000,
+    "ptime": 6001000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> The DNSSEC question seems like a good example of why we shouldn't be trying to pass bits of DNS info back from the proxy to the client, and should just use DoH.</p>",
+    "topic": "jabber",
+    "dtime": 6022000,
+    "ptime": 6022000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>@Martin Yeah, giving the client the RRs would be good. I think that's the right solution for getting the full info the client, while the proxy still sets up TCP/UDP sockets</p>",
+    "topic": "jabber",
+    "dtime": 6065000,
+    "ptime": 6065000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I don't think the client has any use for RRs that it's not using.</p>",
+    "topic": "jabber",
+    "dtime": 6101000,
+    "ptime": 6101000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1164\">@Kazuho Oku</span>  the sequence number is not exposed. It’s added to the Quic tunnel between the client and proxy. Thanks inside that R2-D2 connnection</p>",
+    "topic": "jabber",
+    "dtime": 6104000,
+    "ptime": 6104000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> I think that I might disagree about DoH there.  The proxy needs to be involved in decision-making when it comes to setting up flows.</p>",
+    "topic": "jabber",
+    "dtime": 6180000,
+    "ptime": 6180000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> I would assume that any number you have reorder packet belong to different flows. That’s a problem because of head of line blocking. That’s not a problem hear because you have different datagram “stream”</p>",
+    "topic": "jabber",
+    "dtime": 6212000,
+    "ptime": 6212000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Yes.  That's why the client should give the final TargetName to the proxy for connection establishment, rather than fully resolving to A/AAAA.</p>",
+    "topic": "jabber",
+    "dtime": 6216000,
+    "ptime": 6216000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>also you can always use streams for reordering which will be the alternative for 3GPP</p>",
+    "topic": "jabber",
+    "dtime": 6243000,
+    "ptime": 6243000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>That might work.  Maybe.</p>",
+    "topic": "jabber",
+    "dtime": 6245000,
+    "ptime": 6245000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@Mirja my point is that this goes against the reasoning behind us agreeing that PN should not be exposed, because intermediaries trying to \"correct\" ordering actually decreases performance sometimes.</p>",
+    "topic": "jabber",
+    "dtime": 6246000,
+    "ptime": 6246000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>This is specified in the HTTPS/SVCB draft: <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-svcb-https-11#section-3.2\">https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-svcb-https-11#section-3.2</a></p>",
+    "topic": "jabber",
+    "dtime": 6263000,
+    "ptime": 6263000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>HTTP history has given me an allergy to the work \"prioritization\". Do we have data showing the improvement to real-world flows?</p>",
+    "topic": "jabber",
+    "dtime": 6288000,
+    "ptime": 6288000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>+1 to inside masque</p>",
+    "topic": "jabber",
+    "dtime": 6357000,
+    "ptime": 6357000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>@kazuho but it doesn't expose anything. it's what you do <em>within</em> the tunnel connection. As I just say you can also just use stream and do the same reordering.</p>",
+    "topic": "jabber",
+    "dtime": 6368000,
+    "ptime": 6368000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Meta uses H3 prioritization and has seen real world wins</p>",
+    "topic": "jabber",
+    "dtime": 6372000,
+    "ptime": 6372000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Ben the queue is in the browser between the JavaScript process and the QUIC stack</p>",
+    "topic": "jabber",
+    "dtime": 6402000,
+    "ptime": 6402000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> isn't that just local?</p>",
+    "topic": "jabber",
+    "dtime": 6413000,
+    "ptime": 6413000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> would be useful to see this shared here (if you have and I've missed it, would appreciate a pointer)</p>",
+    "topic": "jabber",
+    "dtime": 6433000,
+    "ptime": 6433000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>Priorities are certainly something WebTransport cares about; W3 will have an ask to IETF about priorities in the WebTransport WG meeting.</p>",
+    "topic": "jabber",
+    "dtime": 6501000,
+    "ptime": 6501000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p>Sorry, just trying to understand this: this is about the client telling the server about priorities, right? And not within a very specific application, where this signaling could be a part of the app itself, but for \"general\" HTTP use.  So ... what are these \"general HTTP\" cases where a client knows better than the server?</p>",
+    "topic": "jabber",
+    "dtime": 6555000,
+    "ptime": 6555000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"512\">@Tommy Jensen</span> : Some results were shared publicly last year, we've seen more wins internally since then. <br>\n<a href=\"https://lists.w3.org/Archives/Public/ietf-http-wg/2021AprJun/0068.html\">https://lists.w3.org/Archives/Public/ietf-http-wg/2021AprJun/0068.html</a></p>",
+    "topic": "jabber",
+    "dtime": 6566000,
+    "ptime": 6566000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p>inside MASQUE, I can understand, BTW, as one might want to multiplex a bunch of various things... perhaps even separate applications</p>",
+    "topic": "jabber",
+    "dtime": 6615000,
+    "ptime": 6615000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@MT yeah that queue's local. I think there's another queue in intermediaries too when present</p>",
+    "topic": "jabber",
+    "dtime": 6624000,
+    "ptime": 6624000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@Mirja The question is if we think it is a good idea for intermediaries to withhold packets to fix reordering?My recollection is that we did not think that is the case when we designed QUIC, and the question is if we should encourage middleboxes do that for UDP (mostly QUIC).</p>",
+    "topic": "jabber",
+    "dtime": 6632000,
+    "ptime": 6632000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>+1 to concentrating on CONNECT-TCP</p>",
+    "topic": "jabber",
+    "dtime": 6656000,
+    "ptime": 6656000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>useability -&gt; usability ?</p>",
+    "topic": "jabber",
+    "dtime": 6709000,
+    "ptime": 6709000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> the example you link to is specific to Instagram. I don't understand why you couldn't use an Instagram-specific signal (app layer) for this?</p>",
+    "topic": "jabber",
+    "dtime": 6803000,
+    "ptime": 6803000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"33\">@Tommy Pauly</span> <span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> FWIW the templated \"HTTP request proxy\" thing is principally motivated by enabling standardized/interchangeable OHTTP relays.  Right now, OHTTP relays effectively have to be hardcoded into the client implementation due to a lack of standardized URL mapping.</p>",
+    "topic": "jabber",
+    "dtime": 6806000,
+    "ptime": 6806000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> I deliberately didn't do that in OHTTP...</p>",
+    "topic": "jabber",
+    "dtime": 6850000,
+    "ptime": 6850000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> You want to talk about consolidation pressure ... there is literally no way for the user to change the OHTTP relay without this.</p>",
+    "topic": "jabber",
+    "dtime": 6879000,
+    "ptime": 6879000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>+1 to narrowing scope to avoid taking on all the work of the IETF</p>",
+    "topic": "jabber",
+    "dtime": 6891000,
+    "ptime": 6891000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1164\">@Kazuho Oku</span> This is a fair point. One note though is that Masque already allows you to encode datagrams over QUIC streams which could lead to packets being withheld as long as the capsule stream has gaps.</p>",
+    "topic": "jabber",
+    "dtime": 6935000,
+    "ptime": 6935000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> why?  One relay per gateway is not so bad.</p>",
+    "topic": "jabber",
+    "dtime": 6944000,
+    "ptime": 6944000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It's a pair of resources, likely a pair of servers.</p>",
+    "topic": "jabber",
+    "dtime": 6960000,
+    "ptime": 6960000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1421\">@Michael Welzl</span> : we could have used our own proprietary prioritization scheme and signaling mechanism I suppose.  The data was shared to validate the urgency/incremental model was one that can be effective.  I have a lot of thoughts on prioritization, and including that capturing the intent from the application is one of the most challenging bits.  Having a common and easy to explain API to product people, as well as a simple implementation you can live with in your transport stack are important to getting wins.</p>",
+    "topic": "jabber",
+    "dtime": 6983000,
+    "ptime": 6983000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span>  Why can't I choose Mullvad as my OHTTP Relay?</p>",
+    "topic": "jabber",
+    "dtime": 6999000,
+    "ptime": 6999000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Because the Gateway needs to have a very specific relationship with the relay.</p>",
+    "topic": "jabber",
+    "dtime": 7038000,
+    "ptime": 7038000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I think OHTTP's non-collusion guarantee is much stronger if the relay and gateway aren't affiliated</p>",
+    "topic": "jabber",
+    "dtime": 7063000,
+    "ptime": 7063000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>You are entitled to think that, yes.</p>",
+    "topic": "jabber",
+    "dtime": 7075000,
+    "ptime": 7075000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Not without a configuration mechanism!</p>",
+    "topic": "jabber",
+    "dtime": 7090000,
+    "ptime": 7090000
+  },
+  {
+    "author": "Michael Welzl",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> fair enough, I suppose; thanks for clarifying (I was only trying to understand).</p>",
+    "topic": "jabber",
+    "dtime": 7161000,
+    "ptime": 7161000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I'm a simple IETFer: I see a proposal to let a service which collects no PII for account setup act as a relay party, I upvote.</p>",
+    "topic": "jabber",
+    "dtime": 7167000,
+    "ptime": 7167000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1421\">@Michael Welzl</span> : I'm a priority enthusiast.  Come find me anytime to discuss :)</p>",
+    "topic": "jabber",
+    "dtime": 7197000,
+    "ptime": 7197000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Regarding priorities: I didn't do a good job of clearly articulating that IMO the problem is around scheduling competing flows of data when there is a bandwidth bottleneck. Assume a proxy has a fast upstream to targets and a slower downstream to clients. The bottleneck will be reflected in the congestion controller, which affects stream and datagrams equally. Multiple CONNECT-UDP streams will contend for that shared window and right now we don't have a common language for how to express the relative priorities of those things, such that sending over the bottleneck can be used most effectively.</p>",
+    "topic": "jabber",
+    "dtime": 7210000,
+    "ptime": 7210000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>@Marcus Middleboxes can certainly guess the sent order of packets and trying to recover them. There's nothing that stops them for doing that. The question is if we want to encourage such behavior (when we decided to not in QUIC v1).</p>",
+    "topic": "jabber",
+    "dtime": 7267000,
+    "ptime": 7267000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>The sender is always in control of this, and can do clever stuff. But if all it sees is opaque CONNECT information flows, its very restricted in its decision making - worse than a conventional H3 server.</p>",
+    "topic": "jabber",
+    "dtime": 7306000,
+    "ptime": 7306000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>What is the transparent modification of the proxies content?</p>",
+    "topic": "jabber",
+    "dtime": 7381000,
+    "ptime": 7381000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>A proxy can (and should) just drop datagrams that don't fit into a narrow pipe.</p>",
+    "topic": "jabber",
+    "dtime": 7385000,
+    "ptime": 7385000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"28\">@Lucas Pardue</span> I don't think your draft addresses that use case.  The client is the one that knows the relative priorities, but the proxy is the one that has to decide how to mark each datagram.  Also, this is another \"local\" case where the proxy is talking to itself.</p>",
+    "topic": "jabber",
+    "dtime": 7387000,
+    "ptime": 7387000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>+1 to an informational document that describes a MASQUE proxy. Best to do it inside the working group.</p>",
+    "topic": "jabber",
+    "dtime": 7446000,
+    "ptime": 7446000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>The other thing that sprang to mind is, since its about scheduling, we could also accomodate QUIC-aware forwarding and push down dispatch behaviour into layers below QUIC (like bpf, kernel or NIC queues etc)</p>",
+    "topic": "jabber",
+    "dtime": 7446000,
+    "ptime": 7446000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Also, the inner congestion controller(s) should solve this problem anyway.</p>",
+    "topic": "jabber",
+    "dtime": 7460000,
+    "ptime": 7460000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> : what about a sending endpoint with no CWND?</p>",
+    "topic": "jabber",
+    "dtime": 7474000,
+    "ptime": 7474000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-MASQUE-20221109-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/masque"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-MASQUE-20221109-0930"
+		}		
+	]
+}

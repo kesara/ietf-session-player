@@ -1,0 +1,112 @@
+
+{
+	"title": "IETF-MLS-20221208-1500",
+	"filename": "IETF-MLS-20221208-1500",
+	"start": 0,
+	"end": 7385000,
+	"start_datetime": "2022-12-08T15:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "6uEFYElnsWs",
+    "start": 0,
+    "end": "7385000"
+  }
+],
+	"messages": [
+  {
+    "author": "Richard Barnes",
+    "text": "<p>for those unaware, you can track Hubert's work at <a href=\"http://arewemlsyet.com/\">http://arewemlsyet.com/</a></p>",
+    "topic": "jabber",
+    "dtime": 1388000,
+    "ptime": 1388000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>No need for sign-in here since MeetEcho takes care of it.</p>",
+    "topic": "jabber",
+    "dtime": 1622000,
+    "ptime": 1622000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Initial keying material (KeyPackages) using the <code>basic</code> Credential type<br>\nis more vulnerable to replacement by a malicious or compromised DS, as<br>\nthere is no built-in cryptographic binding between the identity and the<br>\npublic key of the client.</p>\n<blockquote>\n<p><strong>RECOMMENDATION:</strong><br>\nPrefer a Credential type in KeyPackages which includes a strong<br>\ncryptographic binding between the identity and its key (for example<br>\nthe <code>x509</code> Credential type). When using the <code>basic</code> Credential type<br>\ntake extra care to verify the identity (typically out-of-band).</p>\n</blockquote>",
+    "topic": "jabber",
+    "dtime": 2189000,
+    "ptime": 2189000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><a href=\"https://github.com/mlswg/mls-architecture/pull/118/files\">https://github.com/mlswg/mls-architecture/pull/118/files</a></p>",
+    "topic": "jabber",
+    "dtime": 2200000,
+    "ptime": 2200000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Terrible idea: Make the enums varints</p>",
+    "topic": "jabber",
+    "dtime": 3465000,
+    "ptime": 3465000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>lol</p>",
+    "topic": "jabber",
+    "dtime": 3571000,
+    "ptime": 3571000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Note that revocation mechanisms typically don't let you ask \"was this revoked at time X\"</p>",
+    "topic": "jabber",
+    "dtime": 4525000,
+    "ptime": 4525000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>\"expired by otherwise valid credentials...\"</p>",
+    "topic": "jabber",
+    "dtime": 5378000,
+    "ptime": 5378000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>or \"recently expired but otherwise valid credentials...\"</p>",
+    "topic": "jabber",
+    "dtime": 5478000,
+    "ptime": 5478000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i need to drop, sorry.  thanks for the good discussion, all.</p>",
+    "topic": "jabber",
+    "dtime": 5478000,
+    "ptime": 5478000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>I have to drop. Thank you everyone!</p>",
+    "topic": "jabber",
+    "dtime": 6201000,
+    "ptime": 6201000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-MLS-20221208-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-mls-09/session/mls"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-MLS-20221208-1500"
+		}
+	]
+}

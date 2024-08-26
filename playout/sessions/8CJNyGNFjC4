@@ -1,0 +1,119 @@
+
+{
+	"title": "IETF114-PCE-20220727-1730",
+	"filename": "IETF114-PCE-20220727-1730",
+	"start": 0,
+	"end": 3508000,
+	"start_datetime": "2022-07-27T17:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "8CJNyGNFjC4",
+    "start": 0,
+    "end": "3508000"
+  }
+],
+	"messages": [
+  {
+    "author": "Tony Li",
+    "text": "<p>Folks who want to be safe aren't in Philly. :)</p>",
+    "dtime": 49000,
+    "ptime": 49000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Folks in the room: please scan QR code for meetecho lite</p>",
+    "dtime": 175000,
+    "ptime": 175000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Minutes: <br>\n<a href=\"https://notes.ietf.org/notes-ietf-114-pce\">https://notes.ietf.org/notes-ietf-114-pce</a></p>",
+    "dtime": 271000,
+    "ptime": 271000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>New Wiki -&gt; <a href=\"https://wiki.ietf.org/en/group/pce\">https://wiki.ietf.org/en/group/pce</a> (migrated from Trac)</p>",
+    "dtime": 363000,
+    "ptime": 363000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Zulip -&gt; <a href=\"#narrow/stream/253-pce\">https://zulip.ietf.org/#narrow/stream/253-pce</a></p>",
+    "dtime": 377000,
+    "ptime": 377000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>is there a math issue on the TLV info vs the diag<br>\nshould reserved not be 28bits</p>",
+    "dtime": 2693000,
+    "ptime": 2693000
+  },
+  {
+    "author": "Julien Meuric",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"219\">Anthony Somerset</span> <a href=\"#narrow/stream/253-pce/topic/jabber/near/26907\">said</a>:</p>\n<blockquote>\n<p>is there a math issue on the TLV info vs the diag<br>\nshould reserved not be 28bits</p>\n</blockquote>\n<p>The Protection field is consistent between text and figure, we may assume a math issue on the length of Reserved.</p>",
+    "dtime": 3053000,
+    "ptime": 3053000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"688\">Julien Meuric</span> <a href=\"#narrow/stream/253-pce/topic/jabber/near/26943\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"219\">Anthony Somerset</span> <a href=\"#narrow/stream/253-pce/topic/jabber/near/26907\">said</a>:</p>\n<blockquote>\n<p>is there a math issue on the TLV info vs the diag<br>\nshould reserved not be 28bits</p>\n</blockquote>\n<p>The Protection field is consistent between text and figure, we may assume a math issue on the length of Reserved.</p>\n</blockquote>\n<p>yes exactly - its same in the draft too - reserved should equal 28 bits to align properly</p>",
+    "dtime": 3130000,
+    "ptime": 3130000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>+1 to Dhruvs comment about protection tlv and distinguishing it from existing protection content like association protection.  Was sitting here wondering how the two could work (or not) with each other. Having it more distinct will also help for readers</p>",
+    "dtime": 3191000,
+    "ptime": 3191000
+  },
+  {
+    "author": "Fan Yang",
+    "text": "<p>@Anthony @Julien，thank you for reminding the maths mistake. would be fixed in later revision.</p>",
+    "dtime": 3240000,
+    "ptime": 3240000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p><a href=\"https://wiki.ietf.org/group/pce/coordination\">https://wiki.ietf.org/group/pce/coordination</a></p>",
+    "dtime": 3328000,
+    "ptime": 3328000
+  },
+  {
+    "author": "Fan Yang",
+    "text": "<p>@Andrew thank you for the suggestions. further work will be done here.</p>",
+    "dtime": 3413000,
+    "ptime": 3413000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>vey useful idea and page Dhruv</p>",
+    "dtime": 3421000,
+    "ptime": 3421000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>+1. Thanks Dhruv</p>",
+    "dtime": 3438000,
+    "ptime": 3438000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-PCE-20220727-1730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/pce"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-PCE-20220727-1730"
+		}		
+	]
+}

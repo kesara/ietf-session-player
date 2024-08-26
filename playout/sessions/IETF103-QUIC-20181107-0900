@@ -1,0 +1,774 @@
+{
+  "title": "IETF103-QUIC-20181107-0900",
+  "filename": "IETF103-QUIC-20181107-0900",
+  "start": 0,
+  "end": 7262000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "s3aiyJI1xdU",
+      "start": 0.0,
+      "end": 7262000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 60000.0,
+      "dtime": 932000.0
+    },
+    {
+      "text": "***Erik Nygren just joined the room",
+      "ptime": 181000.0,
+      "dtime": 1053000.0
+    },
+    {
+      "text": "***Victor Vasiliev just joined the room",
+      "ptime": 185000.0,
+      "dtime": 1057000.0
+    },
+    {
+      "text": "***Hirochika Asai just joined the room",
+      "ptime": 211000.0,
+      "dtime": 1083000.0
+    },
+    {
+      "text": "If you would like your point reflected to room, please put MIC: in front.",
+      "ptime": 286000.0,
+      "dtime": 1158000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***vojislav vucetic just joined the room",
+      "ptime": 392000.0,
+      "dtime": 1264000.0
+    },
+    {
+      "text": "And first, a digression about beer?.sorry, I meant an argument about beer.",
+      "ptime": 521000.0,
+      "dtime": 1393000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***dkg just joined the room",
+      "ptime": 609000.0,
+      "dtime": 1481000.0
+    },
+    {
+      "text": "For folks entering now, if you would like your point reflected to room, please put MIC: in front.",
+      "ptime": 618000.0,
+      "dtime": 1490000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***nat just joined the room",
+      "ptime": 698000.0,
+      "dtime": 1570000.0
+    },
+    {
+      "text": "***Kaoru Maeda just joined the room",
+      "ptime": 1304000.0,
+      "dtime": 2176000.0
+    },
+    {
+      "text": "disabling ACK delay might help to confirm that hypothesis",
+      "ptime": 1421000.0,
+      "dtime": 2293000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Bernard Aboba just left the room",
+      "ptime": 1655000.0,
+      "dtime": 2527000.0
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 1655000.0,
+      "dtime": 2527000.0
+    },
+    {
+      "text": "***Bernard Aboba just joined the room",
+      "ptime": 1714000.0,
+      "dtime": 2586000.0
+    },
+    {
+      "text": "Line currently at 2.",
+      "ptime": 1787000.0,
+      "dtime": 2659000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Nicholas Banks just joined the room",
+      "ptime": 1859000.0,
+      "dtime": 2731000.0
+    },
+    {
+      "text": "***Suzanne Woolf just joined the room",
+      "ptime": 1990000.0,
+      "dtime": 2862000.0
+    },
+    {
+      "text": "***Samuel Jero just joined the room",
+      "ptime": 2255000.0,
+      "dtime": 3127000.0
+    },
+    {
+      "text": "Can we bring back the slide with the beer?  Asking for a friend.",
+      "ptime": 2267000.0,
+      "dtime": 3139000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 2272000.0,
+      "dtime": 3144000.0
+    },
+    {
+      "text": "Strong hum for limit to single bit variant",
+      "ptime": 2461000.0,
+      "dtime": 3333000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 2500000.0,
+      "dtime": 3372000.0
+    },
+    {
+      "text": "Data point from the back of the room: There was a tiny little hum for other than single bit, but it was non-committal and I think the chairs confirmation of the sense of the room is still correct.",
+      "ptime": 2517000.0,
+      "dtime": 3389000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "so it wasn\u0027t you then Pete? :-)",
+      "ptime": 2569000.0,
+      "dtime": 3441000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "I sit here, eating my popcorn, humlessly.",
+      "ptime": 2595000.0,
+      "dtime": 3467000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "/me hums for \"fit for purpose\"",
+      "ptime": 2648000.0,
+      "dtime": 3520000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "Full cricketness.",
+      "ptime": 2653000.0,
+      "dtime": 3525000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "hums for \"fit for purpose\"",
+      "ptime": 2671000.0,
+      "dtime": 3543000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "It?s possible not to spin if you are a boson, but not if you are a fermion",
+      "ptime": 2728000.0,
+      "dtime": 3600000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "If this is your first time at spin club, you must spin",
+      "ptime": 2846000.0,
+      "dtime": 3718000.0,
+      "author": "Jonathan Lennox"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 2870000.0,
+      "dtime": 3742000.0
+    },
+    {
+      "text": "Dead Or Alive - You Spin Me Round (Like a Record) (Official Video ... \u003chttps://www.google.com/url?sa\u003dt\u0026rct\u003dj\u0026q\u003d\u0026esrc\u003ds\u0026source\u003dweb\u0026cd\u003d1\u0026cad\u003drja\u0026uact\u003d8\u0026ved\u003d2ahUKEwjc-Z-wosHeAhWHpo8KHT4rDccQyCkwAHoECAQQBQ\u0026url\u003dhttps%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DPGNiXGX2nLU\u0026usg\u003dAOvVaw0sIPV6jtbTZ1_xGo700gwH\u003e",
+      "ptime": 2901000.0,
+      "dtime": 3773000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 3016000.0,
+      "dtime": 3888000.0
+    },
+    {
+      "text": "I actually think Christian?s point is pretty important",
+      "ptime": 3084000.0,
+      "dtime": 3956000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "/me humms in favor of \"opt out must be possible without consequences\"",
+      "ptime": 3101000.0,
+      "dtime": 3973000.0,
+      "author": "Philipp Tiesel"
+    },
+    {
+      "text": "Or rather Marten?s",
+      "ptime": 3114000.0,
+      "dtime": 3986000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Given the proposed designs, I am not sure how to deal with Marten?s concern about differential treatment by the network",
+      "ptime": 3319000.0,
+      "dtime": 4191000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Philipp Tiesel just left the room",
+      "ptime": 3415000.0,
+      "dtime": 4287000.0
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 3488000.0,
+      "dtime": 4360000.0
+    },
+    {
+      "text": "***Vidhi Goel just joined the room",
+      "ptime": 3502000.0,
+      "dtime": 4374000.0
+    },
+    {
+      "text": "***Philipp Tiesel just joined the room",
+      "ptime": 3519000.0,
+      "dtime": 4391000.0
+    },
+    {
+      "text": "I think we?re being asked whether we?ve got enough to go forward and work on this. I don?t think we?re being asked whether it?s possible we?ll find a showstopper at some point in the future. Correct?",
+      "ptime": 3649000.0,
+      "dtime": 4521000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "I can?t quite tell.",
+      "ptime": 3664000.0,
+      "dtime": 4536000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "That?s what I was trying toa sk",
+      "ptime": 3669000.0,
+      "dtime": 4541000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Vidhi Goel just left the room",
+      "ptime": 3783000.0,
+      "dtime": 4655000.0
+    },
+    {
+      "text": "***Vidhi Goel just joined the room",
+      "ptime": 3789000.0,
+      "dtime": 4661000.0
+    },
+    {
+      "text": "@ekr: If it is the first (i.e., ?We are good to start working on this?), you?re OK with going forward?",
+      "ptime": 3809000.0,
+      "dtime": 4681000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "I tend to agree with Marcus; since the server can also opt out, it would be really, really weird for an operator to penalize folks in the presence of opt out.",
+      "ptime": 3815000.0,
+      "dtime": 4687000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "@resnick: not necessarily",
+      "ptime": 3840000.0,
+      "dtime": 4712000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Interesting.",
+      "ptime": 3847000.0,
+      "dtime": 4719000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "I really haven\u0027t seen any compelling reason for them to compel.",
+      "ptime": 3855000.0,
+      "dtime": 4727000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "@hardie: note that this is a non-technical argument, but rather an incentive argument",
+      "ptime": 3875000.0,
+      "dtime": 4747000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Consider the case where everyone is spinning. It wouldn?t be unreasonable for the operator to degrade behavior in order to disincentivize that behavior",
+      "ptime": 3915000.0,
+      "dtime": 4787000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "@ekr Sorry.  It degrades behavior to stop spinning?  Why?",
+      "ptime": 3946000.0,
+      "dtime": 4818000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Because it wants an equilibrium where everyone is spinning",
+      "ptime": 3958000.0,
+      "dtime": 4830000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "And wants to disincentive people from implementing non-spin clients",
+      "ptime": 3972000.0,
+      "dtime": 4844000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "@ekr Ah, so I misinterpreted you.  I thought you meant it was degrading spinning behavior, in order to stop it.",
+      "ptime": 4011000.0,
+      "dtime": 4883000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "as a nit: the term \"opt out\" implies defaulting to spinning which I don\u0027t think is quite whats meant",
+      "ptime": 4015000.0,
+      "dtime": 4887000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "@sftcd: that was already decided! STFU!!!!!",
+      "ptime": 4037000.0,
+      "dtime": 4909000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "I\u0027m ok with the 1st use of it, the one just added to the slide might be an issue though",
+      "ptime": 4135000.0,
+      "dtime": 5007000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4228000.0,
+      "dtime": 5100000.0
+    },
+    {
+      "text": "wow, ALPN would be a spectacularly inappropriate mechanism to use",
+      "ptime": 4372000.0,
+      "dtime": 5244000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "+1",
+      "ptime": 4404000.0,
+      "dtime": 5276000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "+1 (HQ+SPIN+FOO+UNICORN)",
+      "ptime": 4475000.0,
+      "dtime": 5347000.0,
+      "author": "Philipp Tiesel"
+    },
+    {
+      "text": "Not an invariant, so other apps could make other decisions?",
+      "ptime": 4536000.0,
+      "dtime": 5408000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "THEN MOVE ON PLEASE",
+      "ptime": 4569000.0,
+      "dtime": 5441000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Is it not possible to emulate any arbitrary RTT? If you can, then it?s presumably impossible to discriminate between true spinning and emulated spinning.",
+      "ptime": 4570000.0,
+      "dtime": 5442000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "I?m nappy to move on to the next question",
+      "ptime": 4588000.0,
+      "dtime": 5460000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "@jhoyla  You can emulate a longer one, not a shorter one.",
+      "ptime": 4588000.0,
+      "dtime": 5460000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "@jhoyla  That\u0027s why the VPN issue is there?you can",
+      "ptime": 4601000.0,
+      "dtime": 5473000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Mark asked people to get up, hence I did",
+      "ptime": 4604000.0,
+      "dtime": 5476000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "not emulate the RTT of being not behind a VPN.",
+      "ptime": 4615000.0,
+      "dtime": 5487000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "@hardie Interesting, thanks.",
+      "ptime": 4639000.0,
+      "dtime": 5511000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Praveen Balasubramanian just joined the room",
+      "ptime": 4649000.0,
+      "dtime": 5521000.0
+    },
+    {
+      "text": "@hardie: are you sure you can?t emulate a shorter one",
+      "ptime": 4658000.0,
+      "dtime": 5530000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Suppose that I have perfect knowledge of the traffic patterns (e.g., we transmit a packet every 1 ms, but the latency is 5 ms)",
+      "ptime": 4713000.0,
+      "dtime": 5585000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "So ordinarily, this would cause a flip every 5s",
+      "ptime": 4725000.0,
+      "dtime": 5597000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4746000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "Just in case people didn?t notice, when I told Stephen above to STFU, that was intended to be joking. Should have included a smiley",
+      "ptime": 4758000.0,
+      "dtime": 5630000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "I always interpret being told that with a smiley, so it\u0027s fine:-)",
+      "ptime": 4783000.0,
+      "dtime": 5655000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Confirming again: Microsoft  will deploy if included in spec",
+      "ptime": 4786000.0,
+      "dtime": 5658000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "@Praveen  Do you want that said to the MIC?",
+      "ptime": 4800000.0,
+      "dtime": 5672000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "I think Gabriel said that  just now so covered thanks",
+      "ptime": 4819000.0,
+      "dtime": 5691000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "MIC: LiteSpeed will implement in our web server and proxy as well as our client library.",
+      "ptime": 4837000.0,
+      "dtime": 5709000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 4880000.0,
+      "dtime": 5752000.0
+    },
+    {
+      "text": "(Context: I believe 3GPPP is also looking at using QUIC for infrastructure signaling.)",
+      "ptime": 4881000.0,
+      "dtime": 5753000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "@ekr @hardie If I just flip every 3 seconds, ignoring the true RTT, what does that look like on the network?",
+      "ptime": 4945000.0,
+      "dtime": 5817000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "@jhoyla, I think you would have to be a little more sophisticated, perhaps",
+      "ptime": 5008000.0,
+      "dtime": 5880000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "but yes, I think you could do that",
+      "ptime": 5013000.0,
+      "dtime": 5885000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Suzanne Woolf just left the room",
+      "ptime": 5040000.0,
+      "dtime": 5912000.0
+    },
+    {
+      "text": "@jhoyla  You can\u0027t do it quite that naively, because you have to take the echo into account.  To make this a true emulation, you need what ekr implied:  knowledge of the RTT for the device location you want to emulate.",
+      "ptime": 5066000.0,
+      "dtime": 5938000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "@hardie and if I just wanted to set an RTT that was arbitrary, i.e. not related in any way to my true RTT, rather than a specific one, would that require the same information?",
+      "ptime": 5217000.0,
+      "dtime": 6089000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "@jhoyla I think that would make you stand out much more than simply failing to spin.  Personal opinion, of course.",
+      "ptime": 5258000.0,
+      "dtime": 6130000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "hum for inclusion",
+      "ptime": 5585000.0,
+      "dtime": 6457000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "hum for including spin bit",
+      "ptime": 5585000.0,
+      "dtime": 6457000.0,
+      "author": "Nicholas Banks"
+    },
+    {
+      "text": "/me hums for inclusion",
+      "ptime": 5587000.0,
+      "dtime": 6459000.0,
+      "author": "Dmitri Tikhonov"
+    },
+    {
+      "text": "hum for inclusion",
+      "ptime": 5593000.0,
+      "dtime": 6465000.0,
+      "author": "Erik Nygren"
+    },
+    {
+      "text": "/me hums for inclusion",
+      "ptime": 5600000.0,
+      "dtime": 6472000.0,
+      "author": "Philipp Tiesel"
+    },
+    {
+      "text": "Rough consensus to include the spin bit.",
+      "ptime": 5665000.0,
+      "dtime": 6537000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Viktor Dukhovni just joined the room",
+      "ptime": 5866000.0,
+      "dtime": 6738000.0
+    },
+    {
+      "text": "+1 for not negotiating this",
+      "ptime": 5971000.0,
+      "dtime": 6843000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "humm for not negotiating this",
+      "ptime": 5992000.0,
+      "dtime": 6864000.0,
+      "author": "Erik Nygren"
+    },
+    {
+      "text": "humm for not negotiating this",
+      "ptime": 6001000.0,
+      "dtime": 6873000.0,
+      "author": "Philipp Tiesel"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 6074000.0,
+      "dtime": 6946000.0
+    },
+    {
+      "text": "+1 to Christian.  Good process around that are key.",
+      "ptime": 6085000.0,
+      "dtime": 6957000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***chi.jiun.su just joined the room",
+      "ptime": 6140000.0,
+      "dtime": 7012000.0
+    },
+    {
+      "text": "i mean, we?ll probably just have to move the deadline again, but who cares",
+      "ptime": 6320000.0,
+      "dtime": 7192000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Any discussion on removing some features to accelerate the schedule for v1?",
+      "ptime": 6351000.0,
+      "dtime": 7223000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "I don?t think that?s helpful",
+      "ptime": 6360000.0,
+      "dtime": 7232000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "ok",
+      "ptime": 6366000.0,
+      "dtime": 7238000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "Most of the stuff that?s dragging us down is not really features (except maybe migration)",
+      "ptime": 6378000.0,
+      "dtime": 7250000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "yeah that\u0027s the one I think we can live without in v1",
+      "ptime": 6397000.0,
+      "dtime": 7269000.0,
+      "author": "Praveen Balasubramanian"
+    },
+    {
+      "text": "***Giovane C. M. Moura just joined the room",
+      "ptime": 6640000.0,
+      "dtime": 7512000.0
+    },
+    {
+      "text": "I don\u0027t know that we can, but I agree that the stuff dragging us down isn\u0027t really features (and echoing the comments from the previous session about churn and the other factors influencing this)",
+      "ptime": 6670000.0,
+      "dtime": 7542000.0,
+      "author": "Eric Kinnear"
+    },
+    {
+      "text": "I think this point about handshake completion is actually wrong",
+      "ptime": 7026000.0,
+      "dtime": 7898000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Because of the design of DTLS, the handshake can be *more* aggressive than with QUIC",
+      "ptime": 7051000.0,
+      "dtime": 7923000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Nicholas Banks just left the room",
+      "ptime": 7245000.0,
+      "dtime": 8117000.0
+    },
+    {
+      "text": "***Alan Frindell just left the room",
+      "ptime": 7252000.0,
+      "dtime": 8124000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 7257000.0,
+      "dtime": 8129000.0
+    },
+    {
+      "text": "***Praveen Balasubramanian just left the room",
+      "ptime": 7257000.0,
+      "dtime": 8129000.0
+    },
+    {
+      "text": "***Philipp Tiesel just left the room",
+      "ptime": 7261000.0,
+      "dtime": 8133000.0
+    },
+    {
+      "text": "***Dragana Damjanovic just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Giovane C. M. Moura just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Viktor Dukhovni just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Erik Nygren just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Dmitri Tikhonov just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Samuel Jero just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Bernard Aboba just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Vidhi Goel just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***vojislav vucetic just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Hirochika Asai just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    },
+    {
+      "text": "***Victor Vasiliev just left the room",
+      "ptime": 7262000.0,
+      "dtime": 8134000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF103-QUIC-20181107-0900"
+    }
+  ]
+}

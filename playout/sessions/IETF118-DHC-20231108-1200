@@ -1,0 +1,63 @@
+
+{
+	"title": "IETF118-DHC-20231108-1200",
+	"filename": "IETF118-DHC-20231108-1200",
+	"start": 0,
+	"end": 3235000,
+	"start_datetime": "2023-11-08T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "3MwyEDZAM_E",
+    "start": 0,
+    "end": "3235000"
+  }
+],
+	"messages": [
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>A node requesting DHCP-PD and <em>being</em> a DHCP relay... so relaying DHCP stateful requests ?</p>",
+    "topic": "ietf-118",
+    "dtime": 1434000,
+    "ptime": 1434000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>If I'm given /64 (e.g. via PD), it feels bit weird to need to talk to someone about every IPv6 within it if I'm fronting bunch of other nodes (or have containers with lively networking life).</p>\n<p>Any auditing or whatever should be really for the /64 and not the /128s within.</p>",
+    "topic": "ietf-118",
+    "dtime": 1634000,
+    "ptime": 1634000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>LLDP ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2972000,
+    "ptime": 2972000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<ul>\n<li>netmod/SNMP dump of LLDP tables ?</li>\n</ul>",
+    "topic": "ietf-118",
+    "dtime": 3005000,
+    "ptime": 3005000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-DHC-20231108-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/dhc"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-DHC-20231108-1200"
+		}		
+	]
+}

@@ -1,0 +1,504 @@
+
+{
+	"title": "IETF116-IDR-20230330-0030",
+	"filename": "IETF116-IDR-20230330-0030",
+	"start": 0,
+	"end": 6860000,
+	"start_datetime": "2023-03-30T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "v2vF2OTFJE8",
+    "start": 0,
+    "end": "6860000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jie Dong",
+    "text": "<p>Welcome to join idr in IETF 116</p>",
+    "topic": "ietf-116",
+    "dtime": 208000,
+    "ptime": 208000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Please collaborate on the notes: <a href=\"https://notes.ietf.org/notes-ietf-116-idr\">https://notes.ietf.org/notes-ietf-116-idr</a></p>",
+    "topic": "ietf-116",
+    "dtime": 230000,
+    "ptime": 230000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"848\">@Natrajan Venkataraman</span> , a suggestion. Saying there was an interop of your CT implementation with Cisco is a misrepresentation. You are right to call it an \"experiment\" in sending CT faked as SAFI 128. Would you please care to update/clarify on this to the list and wherever this is posted?</p>",
+    "topic": "ietf-116",
+    "dtime": 2202000,
+    "ptime": 2202000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"848\">@Natrajan Venkataraman</span> , it is interesting that you choose Cisco implementation for this \"experiment\" instead of some open source implementation. Could you share your reasons behind such a choice?</p>",
+    "topic": "ietf-116",
+    "dtime": 2294000,
+    "ptime": 2294000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>if you wish, Jie can post a revised set of slides for the meeting.</p>",
+    "topic": "ietf-116",
+    "dtime": 2320000,
+    "ptime": 2320000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Jie Dong will be the shepherd for bgp-module.</p>",
+    "topic": "ietf-116",
+    "dtime": 2339000,
+    "ptime": 2339000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>Hi, Susan, Jeffrey and Keyur. It seems impossible for the IDR to put forward one unified solution for transport slices instead of two proprieties solutions?</p>",
+    "topic": "ietf-116",
+    "dtime": 2487000,
+    "ptime": 2487000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Aijun, your question deserves a longer response than we should give in ietf meeting chat.  Would you repeat it on the idr mailing list so it can be a full response?</p>",
+    "topic": "ietf-116",
+    "dtime": 2924000,
+    "ptime": 2924000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Unless the question is intended to be rhetorical.</p>",
+    "topic": "ietf-116",
+    "dtime": 2939000,
+    "ptime": 2939000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>Will try to ask to on the list later</p>",
+    "topic": "ietf-116",
+    "dtime": 3016000,
+    "ptime": 3016000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thank you, Aijun.</p>",
+    "topic": "ietf-116",
+    "dtime": 3023000,
+    "ptime": 3023000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>@Ketan Talaulikar, It is indeed mentioned as an \"interop experiment\" in the ietf \"hackathon\" where it was presented.<br>\n<a href=\"https://github.com/IETF-Hackathon/ietf115-project-presentations/blob/main/ietf-115-bgp-ct-junos-ios-xr-hackathon.pptx\">https://github.com/IETF-Hackathon/ietf115-project-presentations/blob/main/ietf-115-bgp-ct-junos-ios-xr-hackathon.pptx</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3310000,
+    "ptime": 3310000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>pls go thru the link, and demo video - where we clearly mention this is an 'interesting experiment'.<br>\nThis experiment shows how the procedures of BGP-CT can be implemented easily on another implemention, one step at a time.</p>",
+    "topic": "ietf-116",
+    "dtime": 3352000,
+    "ptime": 3352000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>Sorry for the microphone issue. My question was can you use template name instead of template ID?</p>",
+    "topic": "ietf-116",
+    "dtime": 3376000,
+    "ptime": 3376000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>partial interop (and even End-to-end intent based forwarding) can be achieved even with a device not supporting CT as one of the BNs in the forwarding path. Ofcourse this hackathon experiemnt <br>\nis done with some hacks (like using SAFI-128).</p>",
+    "topic": "ietf-116",
+    "dtime": 3378000,
+    "ptime": 3378000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>That just shows the power of re-using RFC-8277 and 4364 procedures!</p>",
+    "topic": "ietf-116",
+    "dtime": 3594000,
+    "ptime": 3594000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>For template ID draft, because there are many parameters in the SR policy, so there will be many combination of the possible policy template?</p>",
+    "topic": "ietf-116",
+    "dtime": 3603000,
+    "ptime": 3603000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>The controller and the headend need also synchronize the contents of so many policy templates?</p>",
+    "topic": "ietf-116",
+    "dtime": 3671000,
+    "ptime": 3671000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>There existing the Path ID, so what's the reason/scenario to define the segment list identifier then?</p>",
+    "topic": "ietf-116",
+    "dtime": 3760000,
+    "ptime": 3760000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>Path segment can be used in control plane I think</p>",
+    "topic": "ietf-116",
+    "dtime": 3972000,
+    "ptime": 3972000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>Btw, I think we see some drafts defining some similar terms...</p>",
+    "topic": "ietf-116",
+    "dtime": 4005000,
+    "ptime": 4005000
+  },
+  {
+    "author": "Liu Yao",
+    "text": "<p>@mengxiao we defined the sid list in draft-lp-idr-sr-path-protection you may want to check that</p>",
+    "topic": "ietf-116",
+    "dtime": 4316000,
+    "ptime": 4316000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/rfc1364\">https://datatracker.ietf.org/doc/html/rfc1364</a> - for the discussion on the current ospf / bgp presentation.</p>",
+    "topic": "ietf-116",
+    "dtime": 4323000,
+    "ptime": 4323000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>It's better to add some descriptions that why the Path ID can't be used in the the mentioned scenario.</p>",
+    "topic": "ietf-116",
+    "dtime": 4362000,
+    "ptime": 4362000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>it's a little unusual to import from bgp into igp</p>",
+    "topic": "ietf-116",
+    "dtime": 4384000,
+    "ptime": 4384000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I suspect you have good wisdom to share on this, Randy.</p>",
+    "topic": "ietf-116",
+    "dtime": 4405000,
+    "ptime": 4405000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>no wisdom, just many bad events over decades,  remember 7007 incident?</p>",
+    "topic": "ietf-116",
+    "dtime": 4437000,
+    "ptime": 4437000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>indeed.</p>",
+    "topic": "ietf-116",
+    "dtime": 4443000,
+    "ptime": 4443000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>and those events still happen :-(</p>",
+    "topic": "ietf-116",
+    "dtime": 4461000,
+    "ptime": 4461000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>nah.  i never make mistakes</p>",
+    "topic": "ietf-116",
+    "dtime": 4475000,
+    "ptime": 4475000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>RFC 1925, §2.(11)</p>",
+    "topic": "ietf-116",
+    "dtime": 4503000,
+    "ptime": 4503000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>hmm redistributing/importing bgp routes in igp and then back into bgp. Fun!!</p>",
+    "topic": "ietf-116",
+    "dtime": 4552000,
+    "ptime": 4552000
+  },
+  {
+    "author": "Haibo Wang",
+    "text": "<p>The dual-egress scenario occurs from time to time.</p>",
+    "topic": "ietf-116",
+    "dtime": 4604000,
+    "ptime": 4604000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>the engineer who redistributes bgp into igm is the one who should be egressed</p>",
+    "topic": "ietf-116",
+    "dtime": 4719000,
+    "ptime": 4719000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1320\">@Kaliraj Vairavakkalai</span> , for your information, I have gone through the hackathon material. Interesting experiment. But calling it \"interop\" is IMO a misrepresentation. Anyway, it was only a suggestion. The choice of doing this experiment with Cisco is also interesting!</p>",
+    "topic": "ietf-116",
+    "dtime": 4727000,
+    "ptime": 4727000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>*igp</p>",
+    "topic": "ietf-116",
+    "dtime": 4730000,
+    "ptime": 4730000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>@Rady - I like your comment! :)</p>",
+    "topic": "ietf-116",
+    "dtime": 4766000,
+    "ptime": 4766000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>@Randy - I like your comment!</p>",
+    "topic": "ietf-116",
+    "dtime": 4781000,
+    "ptime": 4781000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>if such mechanism exist, such guys can be saved.</p>",
+    "topic": "ietf-116",
+    "dtime": 4898000,
+    "ptime": 4898000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>\"older network engineer\"</p>",
+    "topic": "ietf-116",
+    "dtime": 4900000,
+    "ptime": 4900000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>PC language (age-enhanced engineer) (smile)</p>",
+    "topic": "ietf-116",
+    "dtime": 4968000,
+    "ptime": 4968000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>I'm sure he meant \"more experienced\". :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 4975000,
+    "ptime": 4975000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Whomever has wisdom to share, young or old.  Our \"elders\". :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 5020000,
+    "ptime": 5020000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Or youth-deficient, if it makes you feel better.</p>",
+    "topic": "ietf-116",
+    "dtime": 5056000,
+    "ptime": 5056000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Oh. I'm definitely older, but not sure my experience is so valuable</p>",
+    "topic": "ietf-116",
+    "dtime": 5077000,
+    "ptime": 5077000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Youth challenged?</p>",
+    "topic": "ietf-116",
+    "dtime": 5080000,
+    "ptime": 5080000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>^</p>",
+    "topic": "ietf-116",
+    "dtime": 5088000,
+    "ptime": 5088000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>This:)</p>",
+    "topic": "ietf-116",
+    "dtime": 5091000,
+    "ptime": 5091000
+  },
+  {
+    "author": "Changwang Lin",
+    "text": "<p>The path-seglist id is used to identify the forwarding plane, not the management plane. <br>\nIn the case that both PCE and YANG are identified by ID and name, <br>\nit is suggested that the seglist should also have the identification of the management plane. <br>\nThe application scenario is statistics reporting and configuration delivery</p>",
+    "topic": "ietf-116",
+    "dtime": 5113000,
+    "ptime": 5113000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The seglist id chat is looking interesting.  May the chairs ask that the conversation be summarized and continued on the idr mail list?</p>",
+    "topic": "ietf-116",
+    "dtime": 5195000,
+    "ptime": 5195000
+  },
+  {
+    "author": "Changwang Lin",
+    "text": "<p>OK</p>",
+    "topic": "ietf-116",
+    "dtime": 5317000,
+    "ptime": 5317000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thank you, Changwang Lin.</p>",
+    "topic": "ietf-116",
+    "dtime": 5344000,
+    "ptime": 5344000
+  },
+  {
+    "author": "KaZhang",
+    "text": "<p>@Shraddha Hegde,  I think template name may be ok, but template id is enought, and it is shorter and simple to use in this case.</p>",
+    "topic": "ietf-116",
+    "dtime": 5508000,
+    "ptime": 5508000
+  },
+  {
+    "author": "KaZhang",
+    "text": "<p>@Changwang Lin,  there is Segment List that is configured in the headnode, and Segment List that is ceated by controller, no matter which method, there may need a segment ID, then how to process the conflict?</p>",
+    "topic": "ietf-116",
+    "dtime": 5729000,
+    "ptime": 5729000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>@KaZhang names are more operationally friendly than the IDs. Also allowing a regular expression for names instead of exact names can be helpful</p>",
+    "topic": "ietf-116",
+    "dtime": 5877000,
+    "ptime": 5877000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Shraddha, Ka Zhang, may I request you summarize and continue this discussion on the mail list? This sounds like a good discussion about keeping this operationally friendly and how to best handles operations vs. on the wire encoding.</p>",
+    "topic": "ietf-116",
+    "dtime": 5956000,
+    "ptime": 5956000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>Will do Jeff</p>",
+    "topic": "ietf-116",
+    "dtime": 5993000,
+    "ptime": 5993000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>One consideration for names vs. ids is that text strings in the names introduce internationalization considerations.  That might make some forms of vendor neutral behavior challenging, even if it's a preferable operational model.</p>",
+    "topic": "ietf-116",
+    "dtime": 6023000,
+    "ptime": 6023000
+  },
+  {
+    "author": "Zhen Tan",
+    "text": "<p>@Jeffrey Haas，Hi Jeff, Is it RFC 1354 that you mentioned related to the Loop-prevention-draft?</p>",
+    "topic": "ietf-116",
+    "dtime": 6034000,
+    "ptime": 6034000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>1364, Zhen Tan.</p>",
+    "topic": "ietf-116",
+    "dtime": 6077000,
+    "ptime": 6077000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/rfc1364\">https://datatracker.ietf.org/doc/html/rfc1364</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6094000,
+    "ptime": 6094000
+  },
+  {
+    "author": "Zhen Tan",
+    "text": "<p>Thanks Jeff</p>",
+    "topic": "ietf-116",
+    "dtime": 6208000,
+    "ptime": 6208000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><a href=\"https://www.rfc-editor.org/rfc/rfc6368.html\">https://www.rfc-editor.org/rfc/rfc6368.html</a> - this is the RFC for tunneling path attributes mentioned during the second to last presentation of draft-xie-idr-mpbgp-extension-4map6</p>",
+    "topic": "ietf-116",
+    "dtime": 6281000,
+    "ptime": 6281000
+  },
+  {
+    "author": "KaZhang",
+    "text": "<p>@Shraddha Hegde will think and consider this, thank you for your comments.</p>",
+    "topic": "ietf-116",
+    "dtime": 6288000,
+    "ptime": 6288000
+  },
+  {
+    "author": "KaZhang",
+    "text": "<p>@Jeffrey Haas No problem, will summrize  and discuss on the mail list.</p>",
+    "topic": "ietf-116",
+    "dtime": 6401000,
+    "ptime": 6401000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-116",
+    "dtime": 6416000,
+    "ptime": 6416000
+  },
+  {
+    "author": "KaZhang",
+    "text": "<p>@Aijun Wang There won't be too many templates, for example,  all the primary path of the headnode may use the same template, and the backup path may use another template. And controller will use netconf/yang to synchronize the contents.</p>",
+    "topic": "ietf-116",
+    "dtime": 6723000,
+    "ptime": 6723000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-IDR-20230330-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/idr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-IDR-20230330-0030"
+		}		
+	]
+}

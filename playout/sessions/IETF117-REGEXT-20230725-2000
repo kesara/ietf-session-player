@@ -1,0 +1,182 @@
+
+{
+	"title": "IETF117-REGEXT-20230725-2000",
+	"filename": "IETF117-REGEXT-20230725-2000",
+	"start": 0,
+	"end": 5855000,
+	"start_datetime": "2023-07-25T20:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "RuJ3dfLwdco",
+    "start": 0,
+    "end": "5855000"
+  }
+],
+	"messages": [
+  {
+    "author": "James Gould",
+    "text": "<p>We need to ensure that EPP RFC 5733 can be represented at a minimum</p>",
+    "topic": "ietf-117",
+    "dtime": 2859000,
+    "ptime": 2859000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>I prefer a simple contact to meet the specific needs for RIRs and DNRs, which should be simple.  I believe that the simple contact extension can be further simplified by removing the \"masked\" member (addressed already with the redaction extension) and only include the members that are needed for the combination of RIRs and DNRs.</p>",
+    "topic": "ietf-117",
+    "dtime": 3274000,
+    "ptime": 3274000
+  },
+  {
+    "author": "James Gould",
+    "text": "<p>\"postalAddresses\" needs to support one or two and include a member for \"loc\" and \"int\" in EPP RFC 5733.</p>",
+    "topic": "ietf-117",
+    "dtime": 3355000,
+    "ptime": 3355000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>Since JSContact and Andy's SimpleContact, I've been thinking about the whole space. Given that the cost and the ugliness of JCard has been eaten up already into server and client current applications, I'm towards now to just keep the JCard. Obviously, there will be new clients and servers that will occur the JCard cost. I know this is controversial and I was before all for a new clean format, and I hate my code parsing JCard but that code is less than 50 lines. So while ugly, it is still not that bad. There are many other (and more major) uglyness in Internet protocol. So I'll vote to stay with JCard.  (now shoot me...)</p>",
+    "topic": "ietf-117",
+    "dtime": 4531000,
+    "ptime": 4531000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"318\">@Antoin Verschuren</span> if you do a poll, please make sure to have an option with \"Keep JCard\". I might be the only one voting for that one, but in case...</p>",
+    "topic": "ietf-117",
+    "dtime": 4566000,
+    "ptime": 4566000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>question to Marc: what do you think we should poll?</p>",
+    "topic": "ietf-117",
+    "dtime": 4975000,
+    "ptime": 4975000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>Here are some thoughts.</p>",
+    "topic": "ietf-117",
+    "dtime": 4981000,
+    "ptime": 4981000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>This is not a working group document, so perhaps the first thought is whether or not there is interest in the work and then perhaps interest in adoption.</p>",
+    "topic": "ietf-117",
+    "dtime": 5034000,
+    "ptime": 5034000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>Or is there something else you had in mind?</p>",
+    "topic": "ietf-117",
+    "dtime": 5040000,
+    "ptime": 5040000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>I guess we should poll so that the chairs and the wg get some direction to where to go.</p>",
+    "topic": "ietf-117",
+    "dtime": 5048000,
+    "ptime": 5048000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>Any thoughts from anyone else?</p>",
+    "topic": "ietf-117",
+    "dtime": 5050000,
+    "ptime": 5050000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>but adoption of which document?</p>",
+    "topic": "ietf-117",
+    "dtime": 5081000,
+    "ptime": 5081000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>what do you mean by \"where to go\"?  this is not a WG document.</p>",
+    "topic": "ietf-117",
+    "dtime": 5087000,
+    "ptime": 5087000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>i think asking if there's interest to continue working is fine and then let discussion on the list figure out what is interesting.</p>",
+    "topic": "ietf-117",
+    "dtime": 5147000,
+    "ptime": 5147000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>where to go: a) keep jcard or new format (simpleContact or JSContact) b) if new format, then which one</p>",
+    "topic": "ietf-117",
+    "dtime": 5156000,
+    "ptime": 5156000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>it's too soon to ask about changing the default in the RDAP docs.  it's not a WG doc.</p>",
+    "topic": "ietf-117",
+    "dtime": 5185000,
+    "ptime": 5185000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>it might not be a wg doc, but I guess there is enough conversation on the mailing list and group over I don't know 1 year or more that it warrants to not ignore it.</p>",
+    "topic": "ietf-117",
+    "dtime": 5238000,
+    "ptime": 5238000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>i think the conversation supports continuing work.  Andy can certainly use our mailing list to do that.</p>",
+    "topic": "ietf-117",
+    "dtime": 5427000,
+    "ptime": 5427000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>does the interest in the work support adoption and thus considerations of the other issues you're raising?  I think we can just take that to the mailing list.</p>",
+    "topic": "ietf-117",
+    "dtime": 5518000,
+    "ptime": 5518000
+  },
+  {
+    "author": "James Galvin",
+    "text": "<p>unfortunately we're out of time at this point for a poll.</p>",
+    "topic": "ietf-117",
+    "dtime": 5545000,
+    "ptime": 5545000
+  },
+  {
+    "author": "Mario Loffredo",
+    "text": "<p>Thanks a lot. Good night everybody :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 5844000,
+    "ptime": 5844000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-REGEXT-20230725-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/regext"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-REGEXT-20230725-2000"
+		}		
+	]
+}

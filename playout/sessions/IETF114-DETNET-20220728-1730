@@ -1,0 +1,305 @@
+
+{
+	"title": "IETF114-DETNET-20220728-1730",
+	"filename": "IETF114-DETNET-20220728-1730",
+	"start": 0,
+	"end": 7386000,
+	"start_datetime": "2022-07-28T17:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "UZnJVwT4tbI",
+    "start": 0,
+    "end": "7386000"
+  }
+],
+	"messages": [
+  {
+    "author": "Tony Li",
+    "text": "<p>Lost connection</p>",
+    "dtime": 367000,
+    "ptime": 367000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>... and back.</p>",
+    "dtime": 374000,
+    "ptime": 374000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@dhruv maybe <a href=\"https://www.ieee802.org/1/files/public/docs2018/detnet-tsn-varga-detnet-basic-concepts-1118-v01.pdf\">https://www.ieee802.org/1/files/public/docs2018/detnet-tsn-varga-detnet-basic-concepts-1118-v01.pdf</a> and <a href=\"https://www.ieee802.org/1/files/public/docs2018/detnet-tsn-varga-detnet-details-1118-v01.pdf\">https://www.ieee802.org/1/files/public/docs2018/detnet-tsn-varga-detnet-details-1118-v01.pdf</a></p>",
+    "dtime": 386000,
+    "ptime": 386000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Thanks Lou!</p>",
+    "dtime": 537000,
+    "ptime": 537000
+  },
+  {
+    "author": "Xueyan Song",
+    "text": "<p>No voice now?</p>",
+    "dtime": 884000,
+    "ptime": 884000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Works here</p>",
+    "dtime": 905000,
+    "ptime": 905000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>yes, it works</p>",
+    "dtime": 929000,
+    "ptime": 929000
+  },
+  {
+    "author": "Xueyan Song",
+    "text": "<p>Thank you, Dhruv, I try again</p>",
+    "dtime": 929000,
+    "ptime": 929000
+  },
+  {
+    "author": "Xueyan Song",
+    "text": "<p>Works now<span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "dtime": 1071000,
+    "ptime": 1071000
+  },
+  {
+    "author": "Andy Malis",
+    "text": "<p>@Lou we can hardly hear you out here</p>",
+    "dtime": 1309000,
+    "ptime": 1309000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@andy - just saw this now, sorry will \"eat\" the mic in the future</p>",
+    "dtime": 1447000,
+    "ptime": 1447000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Someone is breathing into their mic.</p>",
+    "dtime": 2680000,
+    "ptime": 2680000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>hmmm do we \"cook\" coffee?</p>",
+    "dtime": 4056000,
+    "ptime": 4056000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>i'll take it any way prepared!</p>",
+    "dtime": 4105000,
+    "ptime": 4105000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>A new IEEE 802.1 project is being started to enhance CQF: P802.1Qdv, see, e.g.: <a href=\"https://www.ieee802.org/1/files/public/docs2022/dv-PAR-0722-v01.pdf\">https://www.ieee802.org/1/files/public/docs2022/dv-PAR-0722-v01.pdf</a></p>",
+    "dtime": 4889000,
+    "ptime": 4889000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Sigh. A good way to ensure that vendors never implement anything is to keep moving the target.</p>",
+    "dtime": 5002000,
+    "ptime": 5002000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@Janos Thanks for sharing</p>",
+    "dtime": 5221000,
+    "ptime": 5221000
+  },
+  {
+    "author": "Shaofu Peng",
+    "text": "<p>The comment of CQF is similar to that of TCQF. How to solve the possible congestion on intermediate nodes ?</p>",
+    "dtime": 5938000,
+    "ptime": 5938000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@room planning to ask how many have read draft-liu-detnet-large-scale-requirements-02 - Requirements for Large-Scale Deterministic Networks</p>",
+    "dtime": 5940000,
+    "ptime": 5940000
+  },
+  {
+    "author": "Shaofu Peng",
+    "text": "<p>Although we can do admission control at the network ingress, traditionally this admission control is mainly bandwidth control. If CQF/TCQF tries to coordinate the time when multiple ingress send traffic to avoid possible congestion on the intermediate nodes of the network, it will be very challenging.</p>",
+    "dtime": 5992000,
+    "ptime": 5992000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Why not use conventional TE techniques for implementing AC?</p>",
+    "dtime": 6134000,
+    "ptime": 6134000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@shaofu，in my understanding, same as CQF does. Toerless please correct me if I'm wrong</p>",
+    "dtime": 6150000,
+    "ptime": 6150000
+  },
+  {
+    "author": "tim costello",
+    "text": "<p>I may have missed something in all of the presentations, ... where does the Metadata come from ?</p>",
+    "dtime": 6205000,
+    "ptime": 6205000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>@Tony conventional AC just provide speed limit, for example leaky bucket</p>",
+    "dtime": 6282000,
+    "ptime": 6282000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>It can also go to full flow rejection. See CAC.</p>",
+    "dtime": 6388000,
+    "ptime": 6388000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>Sure, it does, but the rule of existing flow rejection may be not enough for DetNet</p>",
+    "dtime": 6458000,
+    "ptime": 6458000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>which introduce the time dimension</p>",
+    "dtime": 6486000,
+    "ptime": 6486000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Thus my question. How does that change things?</p>",
+    "dtime": 6545000,
+    "ptime": 6545000
+  },
+  {
+    "author": "Shaofu Peng",
+    "text": "<p>@Tony, if I get your meanning, your question is that why DS-TE  is not enough ?</p>",
+    "dtime": 6635000,
+    "ptime": 6635000
+  },
+  {
+    "author": "Shaofu Peng",
+    "text": "<p>IMO, it is not enough : )</p>",
+    "dtime": 6693000,
+    "ptime": 6693000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Requirements for the protocols can be explicitly identified and listed as well</p>",
+    "dtime": 6698000,
+    "ptime": 6698000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>No.  I'm talking about flow admission using a PCE device for global flow optimization.</p>",
+    "dtime": 6699000,
+    "ptime": 6699000
+  },
+  {
+    "author": "Xuesong Geng",
+    "text": "<p>Previous rules limit the flow based on an average value of the speed, but DetNet may request to control how many bytes are allowed in a specified time slot</p>",
+    "dtime": 6757000,
+    "ptime": 6757000
+  },
+  {
+    "author": "Shaofu Peng",
+    "text": "<p>comments for draft-yzz-detnet-enhanced-data-plane</p>",
+    "dtime": 6777000,
+    "ptime": 6777000
+  },
+  {
+    "author": "Shaofu Peng",
+    "text": "<p>It is not recommended to carry requirements in data packets, but in the control protocol message. What is confusing is that these fields seem to be metadata required by a specific queue mechanism. Therefore, whether it is called metadata or requirement needs further discussion. In addition, this draft is redundant with another draft, although it redesigns some fields.<br>\nSome forwarding mechanisms require cooperation between network nodes, such as CQF and traffic damping, so the problem is that if only abstract bli information is carried in the packet, it may not work. For example, two adjacent nodes use different forwarding mechanisms, which are incompatible and cannot get the end-to-end delay target.</p>",
+    "dtime": 6788000,
+    "ptime": 6788000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@meetecho help with stuc poll</p>",
+    "dtime": 6799000,
+    "ptime": 6799000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Checking</p>",
+    "dtime": 6830000,
+    "ptime": 6830000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1095\">@Shaofu Peng</span> Thanks, got it.</p>",
+    "dtime": 6873000,
+    "ptime": 6873000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>@meetecho - not sure if you fixed, or restarting poll and closing again fix it - may be an issue with sharing a new deck while poll is open</p>",
+    "dtime": 6999000,
+    "ptime": 6999000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>(or operator error;-)</p>",
+    "dtime": 7020000,
+    "ptime": 7020000
+  },
+  {
+    "author": "Fan Yang",
+    "text": "<p>@tim, detnet specific metadata comes from RFC8938 DetNet data plane framework</p>",
+    "dtime": 7060000,
+    "ptime": 7060000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>When we checked, it looked like the poll had only been dismissed and not terminated, so that's why it was still active. When we got in to close it ourselves we found out it had been closed in the meanwhile</p>",
+    "dtime": 7064000,
+    "ptime": 7064000
+  },
+  {
+    "author": "Lou Berger",
+    "text": "<p>thank you for the help!</p>",
+    "dtime": 7090000,
+    "ptime": 7090000
+  },
+  {
+    "author": "tim costello",
+    "text": "<p>@fan, thanks for the clarification.</p>",
+    "dtime": 7158000,
+    "ptime": 7158000
+  },
+  {
+    "author": "Fan Yang",
+    "text": "<p>@peng thank you for your comments. I will take it to mailing list.</p>",
+    "dtime": 7215000,
+    "ptime": 7215000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-DETNET-20220728-1730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/detnet"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-DETNET-20220728-1730"
+		}		
+	]
+}

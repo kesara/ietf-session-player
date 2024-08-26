@@ -1,0 +1,140 @@
+
+{
+	"title": "IETF-DNSOP-20230620-1800",
+	"filename": "IETF-DNSOP-20230620-1800",
+	"start": 0,
+	"end": 3522000,
+	"start_datetime": "2023-06-20T17:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "0VwoVmBjjTY",
+    "start": 0,
+    "end": "3522000"
+  }
+],
+	"messages": [
+  {
+    "author": "Peter DeVries",
+    "text": "<p>I am unfortunately without audio in either direction where I am.    Sorry.</p>",
+    "topic": "ietf-interim",
+    "dtime": 301000,
+    "ptime": 301000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>a single document defining lame seems ....... odd</p>",
+    "topic": "ietf-interim",
+    "dtime": 616000,
+    "ptime": 616000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>proposal:  call the current defninition of lame \"flawed delegation\", and call \"lame\" to be historic</p>",
+    "topic": "ietf-interim",
+    "dtime": 769000,
+    "ptime": 769000
+  },
+  {
+    "author": "Donald Eastlake",
+    "text": "<p>or the name of the name server doesn't exist in the DNS.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1192000,
+    "ptime": 1192000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>Good call, Don. That too.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1238000,
+    "ptime": 1238000
+  },
+  {
+    "author": "Donald Eastlake",
+    "text": "<p>suggest \"broken\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1372000,
+    "ptime": 1372000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>broken is not the best word because the dns still \"works\" when it is in this \"broken\" state</p>",
+    "topic": "ietf-interim",
+    "dtime": 1411000,
+    "ptime": 1411000
+  },
+  {
+    "author": "Edward Lewis",
+    "text": "<p>In mail an hour ago, I proposed three terms as I think there are two different situations and three points of view involved</p>",
+    "topic": "ietf-interim",
+    "dtime": 1440000,
+    "ptime": 1440000
+  },
+  {
+    "author": "Donald Eastlake",
+    "text": "<p>It's the delegation that's broken, not the DNS. \"broken delegation\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1489000,
+    "ptime": 1489000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>if we dont give a replacement word, people will keep using the historic word</p>",
+    "topic": "ietf-interim",
+    "dtime": 1506000,
+    "ptime": 1506000
+  },
+  {
+    "author": "Edward Lewis",
+    "text": "<p>\"incorrect delegation\" - same as \"flawed delegation\"; \"out-of-baliwick-query\"/\"incorrect-referral\" for the case when an query hits a nameserver that has no answer for it</p>",
+    "topic": "ietf-interim",
+    "dtime": 1513000,
+    "ptime": 1513000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>I would be okay with multiple woirds as suggestions in this document - so it becomes kind of informal</p>",
+    "topic": "ietf-interim",
+    "dtime": 1554000,
+    "ptime": 1554000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>instead consider using terms such as \"flawed delegation\", \"inconsistent delegation\" or \"mismatched NS RRsets\", depending on the use case</p>",
+    "topic": "ietf-interim",
+    "dtime": 1742000,
+    "ptime": 1742000
+  },
+  {
+    "author": "Paul Wouters",
+    "text": "<p>[add \"or non-responsive nameserver\"]</p>",
+    "topic": "ietf-interim",
+    "dtime": 1767000,
+    "ptime": 1767000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>Thumbs-up to what Suzanne just said</p>",
+    "topic": "ietf-interim",
+    "dtime": 1910000,
+    "ptime": 1910000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-DNSOP-20230620-1800"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-dnsop-01/session/dnsop"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-DNSOP-20230620-1800"
+		}
+	]
+}

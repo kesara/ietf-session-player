@@ -1,0 +1,840 @@
+
+{
+	"title": "IETF117-DMARC-20230728-1900",
+	"filename": "IETF117-DMARC-20230728-1900",
+	"start": 0,
+	"end": 5553000,
+	"start_datetime": "2023-07-28T18:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "8O28ShKGRAU",
+    "start": 0,
+    "end": "5553000"
+  }
+],
+	"messages": [
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Good afternoon.</p>",
+    "topic": "ietf-117",
+    "dtime": 50000,
+    "ptime": 50000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Hi!</p>",
+    "topic": "ietf-117",
+    "dtime": 91000,
+    "ptime": 91000
+  },
+  {
+    "author": "Hector Santos",
+    "text": "<p>Hello</p>",
+    "topic": "ietf-117",
+    "dtime": 134000,
+    "ptime": 134000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>It leaves out AOL publishing p=reject</p>",
+    "topic": "ietf-117",
+    "dtime": 328000,
+    "ptime": 328000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>Perhaps he feels the later merger into Yarizon covers it.Speak no ill of the dead.</p>",
+    "topic": "ietf-117",
+    "dtime": 482000,
+    "ptime": 482000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>Microsoft is still engaged in a phased introduction of ARC features.</p>",
+    "topic": "ietf-117",
+    "dtime": 529000,
+    "ptime": 529000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>DMARC was never intended to solve those problems.</p>",
+    "topic": "ietf-117",
+    "dtime": 664000,
+    "ptime": 664000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>He didn't mention DHS requiring p=reject for US federal agencies</p>",
+    "topic": "ietf-117",
+    "dtime": 702000,
+    "ptime": 702000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>And this working group was never tasked with solving those problems.</p>",
+    "topic": "ietf-117",
+    "dtime": 712000,
+    "ptime": 712000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>What protocol is scoped to try and solve <em>all</em> impersonation-abuse problems in it's domain?</p>",
+    "topic": "ietf-117",
+    "dtime": 742000,
+    "ptime": 742000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>^ What non-PKI, non-IDM</p>",
+    "topic": "ietf-117",
+    "dtime": 792000,
+    "ptime": 792000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>OTOH, in 9 years the threat landscape has changed. If Friendly Name attacks, etc have become prominent in that time, we should consider whether the scope of DMARC is sufficient any more.</p>",
+    "topic": "ietf-117",
+    "dtime": 1376000,
+    "ptime": 1376000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>+1 Wei</p>",
+    "topic": "ietf-117",
+    "dtime": 1595000,
+    "ptime": 1595000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>Instead of saying p=reject, it should have said p=report...</p>",
+    "topic": "ietf-117",
+    "dtime": 1879000,
+    "ptime": 1879000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>?</p>",
+    "topic": "ietf-117",
+    "dtime": 1890000,
+    "ptime": 1890000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Steve: It would be wonderful if MS (or anyone really) came to us with implementation experience and a discussion of what value they think it adds.</p>",
+    "topic": "ietf-117",
+    "dtime": 2045000,
+    "ptime": 2045000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>(\"it\" = ARC)</p>",
+    "topic": "ietf-117",
+    "dtime": 2072000,
+    "ptime": 2072000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>Ack (speaking then and now as an observer, not fon behalf of MSFT)</p>",
+    "topic": "ietf-117",
+    "dtime": 2098000,
+    "ptime": 2098000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>+1 Murray but also others beyond MS.</p>",
+    "topic": "ietf-117",
+    "dtime": 2114000,
+    "ptime": 2114000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Honestly any feedback at all would be valuable.</p>",
+    "topic": "ietf-117",
+    "dtime": 2224000,
+    "ptime": 2224000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>It's dangling otherwise.</p>",
+    "topic": "ietf-117",
+    "dtime": 2259000,
+    "ptime": 2259000
+  },
+  {
+    "author": "olivier hureau",
+    "text": "<p>I think we should also take into consideration that Microsoft, from April 10th, will 'Honor the DMARC record policy' by default for their tenant.<br>\nI know that 9 years is long but should we wait the result of Microsoft's move ?</p>",
+    "topic": "ietf-117",
+    "dtime": 2440000,
+    "ptime": 2440000
+  },
+  {
+    "author": "olivier hureau",
+    "text": "<p>August*</p>",
+    "topic": "ietf-117",
+    "dtime": 2478000,
+    "ptime": 2478000
+  },
+  {
+    "author": "Nigel Hickson",
+    "text": "<p>Very interesting re MS</p>",
+    "topic": "ietf-117",
+    "dtime": 2495000,
+    "ptime": 2495000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>+1 to Jim Fenton. \"Hiding\" this information is a bad idea.</p>",
+    "topic": "ietf-117",
+    "dtime": 2533000,
+    "ptime": 2533000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I've seen Star Trek episodes like this.</p>",
+    "topic": "ietf-117",
+    "dtime": 2685000,
+    "ptime": 2685000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Olivier: If it's their tenant, isn't the mail all outbound anyway?  What's there to honor?</p>",
+    "topic": "ietf-117",
+    "dtime": 2748000,
+    "ptime": 2748000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3203\">@olivier hureau</span> April 10 which year?</p>",
+    "topic": "ietf-117",
+    "dtime": 2764000,
+    "ptime": 2764000
+  },
+  {
+    "author": "olivier hureau",
+    "text": "<p>August 10, 2023. I did a mistake</p>",
+    "topic": "ietf-117",
+    "dtime": 2776000,
+    "ptime": 2776000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>@murray MS has announced that they will be honoring p=reject on inbound mail</p>",
+    "topic": "ietf-117",
+    "dtime": 2787000,
+    "ptime": 2787000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 2806000,
+    "ptime": 2806000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Todd: OK, but that's a general thing, right?  Not specific to their tenants?</p>",
+    "topic": "ietf-117",
+    "dtime": 2808000,
+    "ptime": 2808000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>re: authentication and spam, third paragraph of the Introduction section says:</p>\n<p>\"A DMARC pass indicates only that the RFC5322.From domain has been authenticated for that message. Authentication does not carry an explicit or implicit value assertion about that message or about the Domain Owner. Furthermore, a mail-receiving organization that performs DMARC verification can choose to honor the Domain Owner's requested message handling for authentication failures, but it is not required to do so; it might choose different actions entirely.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 2817000,
+    "ptime": 2817000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(I keep hearing \"Pete equals reject\".)</p>",
+    "topic": "ietf-117",
+    "dtime": 2818000,
+    "ptime": 2818000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>@murray right</p>",
+    "topic": "ietf-117",
+    "dtime": 2825000,
+    "ptime": 2825000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Pete: I'll add that to my bio.</p>",
+    "topic": "ietf-117",
+    "dtime": 2843000,
+    "ptime": 2843000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>In publishing p=reject for the domains at my previous employer (billions of emails sent), we meant reject the ones that failed. There were no user accounts at those domains except abuse desk, customer service, etc. Nothing that went through lists.</p>",
+    "topic": "ietf-117",
+    "dtime": 3108000,
+    "ptime": 3108000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>You used it right!</p>",
+    "topic": "ietf-117",
+    "dtime": 3122000,
+    "ptime": 3122000
+  },
+  {
+    "author": "Nigel Hickson",
+    "text": "<p>Is this a private conversation or an adult meeting&gt;</p>",
+    "topic": "ietf-117",
+    "dtime": 3246000,
+    "ptime": 3246000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>That horse has bolted the barn.</p>",
+    "topic": "ietf-117",
+    "dtime": 3253000,
+    "ptime": 3253000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Nigel: ?</p>",
+    "topic": "ietf-117",
+    "dtime": 3281000,
+    "ptime": 3281000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>p=reject is not for everyone. I have no problem with us stating that.</p>",
+    "topic": "ietf-117",
+    "dtime": 3356000,
+    "ptime": 3356000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>+1</p>",
+    "topic": "ietf-117",
+    "dtime": 3365000,
+    "ptime": 3365000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I think part of the issue is operators that want to use it but can't/shouldn't.</p>",
+    "topic": "ietf-117",
+    "dtime": 3390000,
+    "ptime": 3390000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>I also recognize that there are people who will implement it differently than what we state.</p>",
+    "topic": "ietf-117",
+    "dtime": 3410000,
+    "ptime": 3410000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3207\">@Steven Jones</span> It would be nice if it were treated as informing of policy instead of causing binary choices, but we have plenty of information that implementers don't implement it that way.</p>",
+    "topic": "ietf-117",
+    "dtime": 3413000,
+    "ptime": 3413000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>@steve jones and RUF not working due to GDPR and its ilk: Fair</p>",
+    "topic": "ietf-117",
+    "dtime": 3444000,
+    "ptime": 3444000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>There are folks using RUF though private (contractual) channels because of the PII issues.</p>",
+    "topic": "ietf-117",
+    "dtime": 3491000,
+    "ptime": 3491000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>Asking the recipient to do (not telling)</p>",
+    "topic": "ietf-117",
+    "dtime": 3543000,
+    "ptime": 3543000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Neil: I wish DMARC had that advice before 2013. :)</p>",
+    "topic": "ietf-117",
+    "dtime": 3567000,
+    "ptime": 3567000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>MUST py more attention...</p>",
+    "topic": "ietf-117",
+    "dtime": 3599000,
+    "ptime": 3599000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>pay</p>",
+    "topic": "ietf-117",
+    "dtime": 3603000,
+    "ptime": 3603000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Maybe that's a way out of this.</p>",
+    "topic": "ietf-117",
+    "dtime": 3605000,
+    "ptime": 3605000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>@Murray?</p>",
+    "topic": "ietf-117",
+    "dtime": 3630000,
+    "ptime": 3630000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>+1 to Neil's point about \"I'm telling you I'm authenticating what I send out, act accordingly\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3631000,
+    "ptime": 3631000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Michael: i.e., remove from the protocol the part about signaling what the sender wants you to do.  Just leave it as signal that, as Neil said, \"I send all my stuff authenticated.  Do what you will.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3687000,
+    "ptime": 3687000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>Ah</p>",
+    "topic": "ietf-117",
+    "dtime": 3696000,
+    "ptime": 3696000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>@Murray, DMARC did have that advice/meaning, in my recollection/experience. \"I'm authenticating, I found all my sources through reporting using p=none, and I'm on top of my mail operations to keep them authenticated\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3706000,
+    "ptime": 3706000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>I'm not sure I believe that is the answer.</p>",
+    "topic": "ietf-117",
+    "dtime": 3722000,
+    "ptime": 3722000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>DKIM did it right, IMHO: \"You can't rely on the lack of a valid signature to tell you anything.  You also can't rely on the presence of a valid signature to tell you that this message is a good message.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3731000,
+    "ptime": 3731000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Tourist here but completely agree with Pete’s SHOULD vs MUST characterization.</p>",
+    "topic": "ietf-117",
+    "dtime": 3754000,
+    "ptime": 3754000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>DMARC went further by saying \"This is safe to reject\", and it's kind of blown up, because that message isn't reliable.</p>",
+    "topic": "ietf-117",
+    "dtime": 3782000,
+    "ptime": 3782000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Or people don't use it reliably.</p>",
+    "topic": "ietf-117",
+    "dtime": 3825000,
+    "ptime": 3825000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>@Murray,  in the original context of DMARC, it was/is reliable.</p>",
+    "topic": "ietf-117",
+    "dtime": 3855000,
+    "ptime": 3855000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>What's the \"original context\"?</p>",
+    "topic": "ietf-117",
+    "dtime": 3873000,
+    "ptime": 3873000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>People are publishing \"p=reject\" when they <em>don't know</em> that their users who send through forwarders are going to get rejected; they are simply told that they should use it and they do. We need to be clear to those folks.</p>",
+    "topic": "ietf-117",
+    "dtime": 3878000,
+    "ptime": 3878000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Pete: +1</p>",
+    "topic": "ietf-117",
+    "dtime": 3891000,
+    "ptime": 3891000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>@Pete: +1</p>",
+    "topic": "ietf-117",
+    "dtime": 3920000,
+    "ptime": 3920000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Murray DMARC went further than \"this is safe to reject\", it told recipients to do that. ADSP has \"discardable\" which is much closer to the declarative not imperative sense that @Neil is referring to.</p>",
+    "topic": "ietf-117",
+    "dtime": 3935000,
+    "ptime": 3935000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>Financials, other domains like greeting card companies, etc. where there is a very high risk of abuse.</p>",
+    "topic": "ietf-117",
+    "dtime": 3936000,
+    "ptime": 3936000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Jim: Yep.</p>",
+    "topic": "ietf-117",
+    "dtime": 3947000,
+    "ptime": 3947000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Michael: So \"original context\" is non-list non-user use cases?</p>",
+    "topic": "ietf-117",
+    "dtime": 3961000,
+    "ptime": 3961000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>If we put in the document, \"p=reject means that you disallow your users to subscribe to mailing lists\", fine. But we are not going to say that, because that was not the original intent.</p>",
+    "topic": "ietf-117",
+    "dtime": 3963000,
+    "ptime": 3963000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>For the original intent, there were no users subscribing to mailing lists.</p>",
+    "topic": "ietf-117",
+    "dtime": 4010000,
+    "ptime": 4010000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Pete also people are publishing p=reject because it turned into a compliance requirement</p>",
+    "topic": "ietf-117",
+    "dtime": 4017000,
+    "ptime": 4017000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Right.  So would we be fine with adding text that says \"This protocol is not to be used by any domain that might include human users that participate in mailing lists\"?</p>",
+    "topic": "ietf-117",
+    "dtime": 4050000,
+    "ptime": 4050000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Which, to me, is what Barry suggested.</p>",
+    "topic": "ietf-117",
+    "dtime": 4058000,
+    "ptime": 4058000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>@Jim, agreed. I think it turning into a compliance requirement was a bad thing and inapproprite.</p>",
+    "topic": "ietf-117",
+    "dtime": 4078000,
+    "ptime": 4078000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>If you go back, I believe the usage advice was not to use p=[quarantine|reject] for domains where regular users sent regular email, and definitely not where they were using lists. If we lost that language/advice, shame on us.</p>",
+    "topic": "ietf-117",
+    "dtime": 4087000,
+    "ptime": 4087000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Jim: Yeah, it's like pouring gas on the problem.</p>",
+    "topic": "ietf-117",
+    "dtime": 4104000,
+    "ptime": 4104000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>@Steven, +1</p>",
+    "topic": "ietf-117",
+    "dtime": 4115000,
+    "ptime": 4115000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Murray If mailing lists were the only problem. Forwarders that break authentication are another one.</p>",
+    "topic": "ietf-117",
+    "dtime": 4137000,
+    "ptime": 4137000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Steven: We may not have actually lost it, but maybe we're not pushing on it hard enough.  The pain it causes is perhaps not as front-and-center as it needs to be.</p>",
+    "topic": "ietf-117",
+    "dtime": 4147000,
+    "ptime": 4147000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Jim: True.</p>",
+    "topic": "ietf-117",
+    "dtime": 4151000,
+    "ptime": 4151000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>(I say \"usage advice\" because I can't cite language/publications interactively here, sorry)</p>",
+    "topic": "ietf-117",
+    "dtime": 4156000,
+    "ptime": 4156000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>@Neil: ... and then there's the swamp of how a million MUAs will handle the contents of the rfc5322.From header and it's components...</p>",
+    "topic": "ietf-117",
+    "dtime": 4227000,
+    "ptime": 4227000
+  },
+  {
+    "author": "Todd Herr",
+    "text": "<p>The current definitions of the values of none, quarantine, and reject are as follows:</p>\n<p>none:<br>\nThe Domain Owner offers no expression of preference.<br>\nquarantine:<br>\nThe Domain Owner considers such mail to be suspicious. It is possible the mail is valid, although the failure creates a significant concern.<br>\nreject:<br>\nThe Domain Owner considers all such failures to be a clear indication that the use of the domain name is not valid. See Section 8.3 for some discussion of SMTP rejection methods and their implications.</p>\n<p>We're kinda/sorta part of the way to what Tero has suggested</p>",
+    "topic": "ietf-117",
+    "dtime": 4239000,
+    "ptime": 4239000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>NO to using Sender. That brings back the problems of SenderID where you could game it to always get a neutral.</p>",
+    "topic": "ietf-117",
+    "dtime": 4245000,
+    "ptime": 4245000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>That adds even more complexity</p>",
+    "topic": "ietf-117",
+    "dtime": 4327000,
+    "ptime": 4327000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>@Neil: just noting that anything with MUA is daunting, not speaking against your point(s)</p>",
+    "topic": "ietf-117",
+    "dtime": 4346000,
+    "ptime": 4346000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>If you are going to argue against the idea of a tag indicating which method(s) you want receivers to use, please explain why that's a bad idea.</p>",
+    "topic": "ietf-117",
+    "dtime": 4379000,
+    "ptime": 4379000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3206\">@Michael Hammer</span> You only get back to neutral if you follow it blindly, which gets us back to the issue of following p=reject blindly.</p>",
+    "topic": "ietf-117",
+    "dtime": 4387000,
+    "ptime": 4387000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>I'm in the queue</p>",
+    "topic": "ietf-117",
+    "dtime": 4424000,
+    "ptime": 4424000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>The answer is, \"Use the protocol to say what's actually going on and then don't act blindly.\"</p>",
+    "topic": "ietf-117",
+    "dtime": 4428000,
+    "ptime": 4428000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3206\">@Michael Hammer</span> You're in the queue for the SPF discussion.</p>",
+    "topic": "ietf-117",
+    "dtime": 4473000,
+    "ptime": 4473000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Todd: Regarding \"all such failures\", maybe the audience is not sufficiently imaginative to appreciate the breadth of that failure domain.</p>",
+    "topic": "ietf-117",
+    "dtime": 4510000,
+    "ptime": 4510000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>+1 to <span class=\"user-mention\" data-user-id=\"98\">@John Levine</span></p>",
+    "topic": "ietf-117",
+    "dtime": 4556000,
+    "ptime": 4556000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I don't understand the problem with \"auth=both\" since that's what we have today.</p>",
+    "topic": "ietf-117",
+    "dtime": 4597000,
+    "ptime": 4597000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>agreeing with john here; there is a lot of noise at the tail end of things, esp. in DKIM misconfiguration, so kicking SPF might have a lot of surprise-implications for people with broken DKIM.</p>",
+    "topic": "ietf-117",
+    "dtime": 4600000,
+    "ptime": 4600000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Where's the SPF upgrade attack documented?</p>",
+    "topic": "ietf-117",
+    "dtime": 4709000,
+    "ptime": 4709000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>@Murray I just looked that up: <a href=\"https://www.valimail.com/blog/how-an-spf-upgrade-attack-spoofed-googles-blue-checkmark/\">https://www.valimail.com/blog/how-an-spf-upgrade-attack-spoofed-googles-blue-checkmark/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 4874000,
+    "ptime": 4874000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>There was consideration pre-IETF of having more of a matrix approach to policy, \"I only use SPF\" vs. \"I use both\" vs. \"I only use DKIM\" -- it was originally rejected due to concerns about complexity and misconfiguration. Should that be reconsidered 10+ years on?</p>",
+    "topic": "ietf-117",
+    "dtime": 4902000,
+    "ptime": 4902000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Steven: Seems like that's what's being proposed, yes.</p>",
+    "topic": "ietf-117",
+    "dtime": 4939000,
+    "ptime": 4939000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>@Jim: Thanks.</p>",
+    "topic": "ietf-117",
+    "dtime": 4946000,
+    "ptime": 4946000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3203\">@olivier hureau</span> can you please let me know where/how it states it wrong?</p>",
+    "topic": "ietf-117",
+    "dtime": 4996000,
+    "ptime": 4996000
+  },
+  {
+    "author": "olivier hureau",
+    "text": "<p>@Tobias France</p>",
+    "topic": "ietf-117",
+    "dtime": 5052000,
+    "ptime": 5052000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3203\">@olivier hureau</span> I am pretty sure the usenix paper does not state anything relating France to DMARC.</p>",
+    "topic": "ietf-117",
+    "dtime": 5086000,
+    "ptime": 5086000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>Implementations using SPF on the SMTP time are one of the big problem, as they do not check DKIM, they do not do DMARC, they can't be helped using ARC etc. Unfortunately we can't say anything about them in the DMARC specification, as they are not even implementing DMARC, they are doing SPF badly...</p>",
+    "topic": "ietf-117",
+    "dtime": 5107000,
+    "ptime": 5107000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>St@ckOverflow &gt; IETF</p>",
+    "topic": "ietf-117",
+    "dtime": 5109000,
+    "ptime": 5109000
+  },
+  {
+    "author": "olivier hureau",
+    "text": "<p>@Tobias I am not talking about france</p>",
+    "topic": "ietf-117",
+    "dtime": 5110000,
+    "ptime": 5110000
+  },
+  {
+    "author": "olivier hureau",
+    "text": "<p>@tobias let's go private if you want</p>",
+    "topic": "ietf-117",
+    "dtime": 5129000,
+    "ptime": 5129000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>To Mike's point re: complexity in policy statements -- the rampant mis-configuration of SPF records was top-of-mind</p>",
+    "topic": "ietf-117",
+    "dtime": 5228000,
+    "ptime": 5228000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>But the good thing is that those people who do SPF on the SMTP phase, do not care what DMARC spec says, so we can still say do not do SPF in DMARC as they are not going follow it anyways :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 5297000,
+    "ptime": 5297000
+  },
+  {
+    "author": "Michael Hammer",
+    "text": "<p>Thank you</p>",
+    "topic": "ietf-117",
+    "dtime": 5389000,
+    "ptime": 5389000
+  },
+  {
+    "author": "Steven Jones",
+    "text": "<p>Thank you, everybody!</p>",
+    "topic": "ietf-117",
+    "dtime": 5400000,
+    "ptime": 5400000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-DMARC-20230728-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/dmarc"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-DMARC-20230728-1900"
+		}		
+	]
+}

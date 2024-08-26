@@ -1,0 +1,434 @@
+
+{
+	"title": "IETF119-WEBTRANS-20240318-0530",
+	"filename": "IETF119-WEBTRANS-20240318-0530",
+	"start": 0,
+	"end": 2656000,
+	"start_datetime": "2024-03-18T05:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "FVB31bE9Kkk",
+    "start": 0,
+    "end": "2656000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>&lt;pedantry&gt;If it's September it's OK DT</p>",
+    "topic": "ietf-119",
+    "dtime": 557000,
+    "ptime": 557000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>@martin seeman - We have working WebTransport in Firefox (<a href=\"https://wpt.fyi/results/webtransport?label=experimental&amp;label=master&amp;aligned\">https://wpt.fyi/results/webtransport?label=experimental&amp;label=master&amp;aligned</a>).   Is there any help you need to get Firefox added?</p>",
+    "topic": "ietf-119",
+    "dtime": 587000,
+    "ptime": 587000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>&lt;pedantry&gt;If it's September it's PDT&lt;/pedantry&gt;</p>",
+    "topic": "ietf-119",
+    "dtime": 612000,
+    "ptime": 612000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Definitely need longer names</p>",
+    "topic": "ietf-119",
+    "dtime": 900000,
+    "ptime": 900000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>W3C is clearly beating us in the name length department</p>",
+    "topic": "ietf-119",
+    "dtime": 924000,
+    "ptime": 924000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Which is funny, really, because they have a 3 in their name to get down to 3 characters.</p>",
+    "topic": "ietf-119",
+    "dtime": 963000,
+    "ptime": 963000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1748\">@Randell Jesup</span> we probably need to deliver a docker image with a Firefox build in it</p>",
+    "topic": "ietf-119",
+    "dtime": 977000,
+    "ptime": 977000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I like the idea that we use a short label for the protocol, like \"wt\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1171000,
+    "ptime": 1171000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>pronounced \"wet\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1175000,
+    "ptime": 1175000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>or \"wat\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1217000,
+    "ptime": 1217000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>wut_transport</p>",
+    "topic": "ietf-119",
+    "dtime": 1232000,
+    "ptime": 1232000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>wot_stream</p>",
+    "topic": "ietf-119",
+    "dtime": 1243000,
+    "ptime": 1243000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>wit_session_close</p>",
+    "topic": "ietf-119",
+    "dtime": 1257000,
+    "ptime": 1257000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>wat_session_drain</p>",
+    "topic": "ietf-119",
+    "dtime": 1265000,
+    "ptime": 1265000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I prefer \"wit\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1268000,
+    "ptime": 1268000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>wet_data_blocked</p>",
+    "topic": "ietf-119",
+    "dtime": 1291000,
+    "ptime": 1291000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Woot</p>",
+    "topic": "ietf-119",
+    "dtime": 1313000,
+    "ptime": 1313000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I'm not sure zero implementations is \"good shape\", unless the Mozilla one is already done</p>",
+    "topic": "ietf-119",
+    "dtime": 1318000,
+    "ptime": 1318000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>@Randell Jesup: Here's the Chrome image: <a href=\"https://github.com/quic-interop/chrome-webtransport-interop-runner\">https://github.com/quic-interop/chrome-webtransport-interop-runner</a>. The Firefox image  can most likely reuse the JavaScript (maybe we should move it to a separate repo?), but will need to have a Firefox-specific Selenium setup</p>",
+    "topic": "ietf-119",
+    "dtime": 1359000,
+    "ptime": 1359000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"887\">@Victor Vasiliev</span> good shape might be overstating things ahead of implementation work, but we have plans for wth2</p>",
+    "topic": "ietf-119",
+    "dtime": 1441000,
+    "ptime": 1441000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>@Victor I implemented the client's check of the server SETTINGS in webtransport-go</p>",
+    "topic": "ietf-119",
+    "dtime": 1448000,
+    "ptime": 1448000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I briefly parsed \"Web Transport overview\" as parallel to \"Web Transport over H3\" and wondered what protocol \"view\" was.</p>",
+    "topic": "ietf-119",
+    "dtime": 1449000,
+    "ptime": 1449000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>@Jonathan same. I was about to start writing a \"View\" transport draft</p>",
+    "topic": "ietf-119",
+    "dtime": 1504000,
+    "ptime": 1504000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Looking for co-authors</p>",
+    "topic": "ietf-119",
+    "dtime": 1521000,
+    "ptime": 1521000
+  },
+  {
+    "author": "Randell Jesup",
+    "text": "<p>@marten seemann Thanks; I'll take a look</p>",
+    "topic": "ietf-119",
+    "dtime": 1806000,
+    "ptime": 1806000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The idea that Marten has here is pretty interesting, but I don't know if webtransport can take a dependency on it.  It's non-trivial to work through all the implications in QUIC.</p>",
+    "topic": "ietf-119",
+    "dtime": 2027000,
+    "ptime": 2027000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>And we don't use the control/session stream much in wth3, so HOLB is probably a non-issue.</p>",
+    "topic": "ietf-119",
+    "dtime": 2052000,
+    "ptime": 2052000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"887\">@Victor Vasiliev</span> this is what Marten is proposing: a generic mechanism in QUIC that would allow WT to do good things with this signaling.</p>",
+    "topic": "ietf-119",
+    "dtime": 2135000,
+    "ptime": 2135000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>Here's the issue I was asked to create: <a href=\"https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/issues/152\">https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/issues/152</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2162000,
+    "ptime": 2162000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>@MT I meant that other capsule-using protocols like MASQUE might benefit from this</p>",
+    "topic": "ietf-119",
+    "dtime": 2193000,
+    "ptime": 2193000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>@Luke: This only applies to MAX_STREAMS, but stream flow control credit is granted within the RTT during which it is consumed.</p>",
+    "topic": "ietf-119",
+    "dtime": 2214000,
+    "ptime": 2214000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I think the important thing here it remind implementations that they should prioritize control streams over WT data streams, otherwise it might lead to some really weird performance situations</p>",
+    "topic": "ietf-119",
+    "dtime": 2254000,
+    "ptime": 2254000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>if a single lost packet causes flow control to block, your flow control windows are waaay too tight</p>",
+    "topic": "ietf-119",
+    "dtime": 2275000,
+    "ptime": 2275000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>regardless of HoLB</p>",
+    "topic": "ietf-119",
+    "dtime": 2299000,
+    "ptime": 2299000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"657\">@Luke Curley</span> I can send redundant copies of those frames to safeguard against that</p>",
+    "topic": "ietf-119",
+    "dtime": 2307000,
+    "ptime": 2307000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"887\">@Victor Vasiliev</span> yeah, I get that, but it's a more complicated thing to use, so I don't want to jump on it aggressively</p>",
+    "topic": "ietf-119",
+    "dtime": 2337000,
+    "ptime": 2337000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I suppose you can send MAX_STREAM_DATA with each STREAM frame</p>",
+    "topic": "ietf-119",
+    "dtime": 2385000,
+    "ptime": 2385000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>with QUIC</p>",
+    "topic": "ietf-119",
+    "dtime": 2389000,
+    "ptime": 2389000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There are tons of way to implement looser flow control in QUIC and not be bothered...</p>",
+    "topic": "ietf-119",
+    "dtime": 2399000,
+    "ptime": 2399000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>do implementations do this? or do they use the fact that MAX_STREAM_DATA was lost and retransmit?</p>",
+    "topic": "ietf-119",
+    "dtime": 2412000,
+    "ptime": 2412000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I will note that if we didn't assume all HTTP Datagrams are datagrams being sent within the WT session, you <em>could</em> have control messages without HOLB sent using QUIC Datagrams.</p>",
+    "topic": "ietf-119",
+    "dtime": 2447000,
+    "ptime": 2447000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Take it to QUIC, definitely.</p>",
+    "topic": "ietf-119",
+    "dtime": 2448000,
+    "ptime": 2448000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>quic-go sends 5 MAX_STREAM_DATA per RTT (for a high-throughput stream)</p>",
+    "topic": "ietf-119",
+    "dtime": 2451000,
+    "ptime": 2451000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There is no rule that says that the flow control window should be just the BDP. Nothing prevents an implementation to set the limit to 4 times that...</p>",
+    "topic": "ietf-119",
+    "dtime": 2496000,
+    "ptime": 2496000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> / ＼（〇_ｏ）／</p>",
+    "topic": "ietf-119",
+    "dtime": 2501000,
+    "ptime": 2501000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>tell the QUIC layer to optimistically retransmit the control stream xd</p>",
+    "topic": "ietf-119",
+    "dtime": 2515000,
+    "ptime": 2515000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>FEC for capsules?</p>",
+    "topic": "ietf-119",
+    "dtime": 2533000,
+    "ptime": 2533000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>@Christian: Sure, but now you're commiting 4x memory. You might now want to do that for high BDP connections</p>",
+    "topic": "ietf-119",
+    "dtime": 2543000,
+    "ptime": 2543000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Or apply FEC to the control stream</p>",
+    "topic": "ietf-119",
+    "dtime": 2544000,
+    "ptime": 2544000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>heh yeah FEC for the control stream, exactly</p>",
+    "topic": "ietf-119",
+    "dtime": 2558000,
+    "ptime": 2558000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>The control stream is not high bandwidth</p>",
+    "topic": "ietf-119",
+    "dtime": 2574000,
+    "ptime": 2574000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>I'm not going to have coffee, David, but thank you for the time.</p>",
+    "topic": "ietf-119",
+    "dtime": 2584000,
+    "ptime": 2584000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>IIRC there was an experimenet with QUIC doing FEC way back when by Google and I thought it turned out to not have enough benefits?</p>",
+    "topic": "ietf-119",
+    "dtime": 2590000,
+    "ptime": 2590000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Yeah, send it once every RTT/n where n &gt; 1</p>",
+    "topic": "ietf-119",
+    "dtime": 2593000,
+    "ptime": 2593000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Maybe a virtual interop on the new flow control?</p>",
+    "topic": "ietf-119",
+    "dtime": 2627000,
+    "ptime": 2627000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p><span aria-label=\"sleeping\" class=\"emoji emoji-1f634\" role=\"img\" title=\"sleeping\">:sleeping:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 2633000,
+    "ptime": 2633000
+  },
+  {
+    "author": "Marten Seemann",
+    "text": "<p>@Christian: fair enough. I could use a large flow control window for the control stream. But that also means I have to build a separate API for that...</p>",
+    "topic": "ietf-119",
+    "dtime": 2653000,
+    "ptime": 2653000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-WEBTRANS-20240318-0530"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/webtrans"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-WEBTRANS-20240318-0530"
+		}		
+	]
+}

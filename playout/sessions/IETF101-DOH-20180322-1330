@@ -1,0 +1,1062 @@
+{
+  "title": "IETF101-DOH-20180322-1330",
+  "filename": "IETF101-DOH-20180322-1330",
+  "start": 0,
+  "end": 6105000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "tijYo6ZXGWU",
+      "start": 0.0,
+      "end": 6105000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Paul van Brouwershaven just joined the room",
+      "ptime": 0.0,
+      "dtime": 464000.0
+    },
+    {
+      "text": "***Edward Lewis just joined the room",
+      "ptime": 21000.0,
+      "dtime": 485000.0
+    },
+    {
+      "text": "***Willard Gray just joined the room",
+      "ptime": 160000.0,
+      "dtime": 624000.0
+    },
+    {
+      "text": "***Nick Sullivan just joined the room",
+      "ptime": 169000.0,
+      "dtime": 633000.0
+    },
+    {
+      "text": "***Vojislav Vucetic just joined the room",
+      "ptime": 202000.0,
+      "dtime": 666000.0
+    },
+    {
+      "text": "***Sara Dickinson just left the room",
+      "ptime": 263000.0,
+      "dtime": 727000.0
+    },
+    {
+      "text": "***Sara Dickinson just joined the room",
+      "ptime": 264000.0,
+      "dtime": 728000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 364000.0,
+      "dtime": 828000.0
+    },
+    {
+      "text": "Looks like the chairs decided to bypass the splitter: this means we won\u0027t be able to stream the slides to remote attendees, and they won\u0027t appear in the recordings either",
+      "ptime": 380000.0,
+      "dtime": 844000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Jordi Palet Martinez just joined the room",
+      "ptime": 384000.0,
+      "dtime": 848000.0
+    },
+    {
+      "text": "Hi all I\u0027ll be the jabber scribe for this session, if you want me to bring a comment to the mic please preface with MIC:",
+      "ptime": 395000.0,
+      "dtime": 859000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 399000.0,
+      "dtime": 863000.0
+    },
+    {
+      "text": "I\u0027ll try to keep URLs for the current preso in the jabber as well",
+      "ptime": 407000.0,
+      "dtime": 871000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Daniel Stenberg just joined the room",
+      "ptime": 431000.0,
+      "dtime": 895000.0
+    },
+    {
+      "text": "all of the meeting materials are linked from https://datatracker.ietf.org/meeting/materials/ under \"doh\"",
+      "ptime": 446000.0,
+      "dtime": 910000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "agenda: https://datatracker.ietf.org/meeting/101/materials/agenda-101-doh-03",
+      "ptime": 464000.0,
+      "dtime": 928000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Kal Feher just joined the room",
+      "ptime": 492000.0,
+      "dtime": 956000.0
+    },
+    {
+      "text": "speaker: Stephane Bortzmeyer",
+      "ptime": 510000.0,
+      "dtime": 974000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "slides; https://datatracker.ietf.org/meeting/101/materials/slides-101-doh-future-work-and-rechartering-00 (I think; a/v cable on the way but no slides yet)",
+      "ptime": 528000.0,
+      "dtime": 992000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "I\u0027m not sure that the microphone is working at the front.",
+      "ptime": 559000.0,
+      "dtime": 1023000.0,
+      "author": "Kal Feher"
+    },
+    {
+      "text": "actually, wrong slide deck, sorry. Hackathon slides: https://datatracker.ietf.org/meeting/101/materials/slides-101-doh-hackathon-feedback-01",
+      "ptime": 624000.0,
+      "dtime": 1088000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Paul Hoffman at the mic",
+      "ptime": 769000.0,
+      "dtime": 1233000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Mark Nottingham at the mic",
+      "ptime": 794000.0,
+      "dtime": 1258000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Tom Pusateri to the mic",
+      "ptime": 835000.0,
+      "dtime": 1299000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Patrick McManus",
+      "ptime": 891000.0,
+      "dtime": 1355000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Tom Pusateri",
+      "ptime": 948000.0,
+      "dtime": 1412000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Tony Finch at the mic",
+      "ptime": 976000.0,
+      "dtime": 1440000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "(Two A/V guys at front of the room?.always nervous-making.)",
+      "ptime": 999000.0,
+      "dtime": 1463000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "pause for A/V work to finish and Patrick\u0027s slides o status of the draft",
+      "ptime": 1037000.0,
+      "dtime": 1501000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/101/materials/slides-101-doh-draft-status-01",
+      "ptime": 1062000.0,
+      "dtime": 1526000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "slide \"Recap\"",
+      "ptime": 1116000.0,
+      "dtime": 1580000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Sara Dickinson just left the room",
+      "ptime": 1140000.0,
+      "dtime": 1604000.0
+    },
+    {
+      "text": "***Sara Dickinson just joined the room",
+      "ptime": 1140000.0,
+      "dtime": 1604000.0
+    },
+    {
+      "text": "slide \"Wait!\" (3)",
+      "ptime": 1194000.0,
+      "dtime": 1658000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "slide \"04 details\" (4)",
+      "ptime": 1258000.0,
+      "dtime": 1722000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Kal Feher just left the room",
+      "ptime": 1377000.0,
+      "dtime": 1841000.0
+    },
+    {
+      "text": "slide \"Game Plan\" (5)",
+      "ptime": 1429000.0,
+      "dtime": 1893000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Nathalie Coupet just joined the room",
+      "ptime": 1444000.0,
+      "dtime": 1908000.0
+    },
+    {
+      "text": "slide \"Issue #82\" (6)",
+      "ptime": 1488000.0,
+      "dtime": 1952000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Paul van Brouwershaven just left the room",
+      "ptime": 1523000.0,
+      "dtime": 1987000.0
+    },
+    {
+      "text": "feedback requested on this issue",
+      "ptime": 1659000.0,
+      "dtime": 2123000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Mark Nottingham at the mic",
+      "ptime": 1669000.0,
+      "dtime": 2133000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Martin Thomson",
+      "ptime": 1781000.0,
+      "dtime": 2245000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Dan Gillmor",
+      "ptime": 1825000.0,
+      "dtime": 2289000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Mark Nottingham",
+      "ptime": 1946000.0,
+      "dtime": 2410000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Martin Thomson",
+      "ptime": 2038000.0,
+      "dtime": 2502000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "slide \"issue #48\"",
+      "ptime": 2195000.0,
+      "dtime": 2659000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "related to hackathon discussion: Is there a list of the DoH implementations available anywhere?",
+      "ptime": 2208000.0,
+      "dtime": 2672000.0,
+      "author": "lucaspardue"
+    },
+    {
+      "text": "now looking for feedback on mandatory to implement",
+      "ptime": 2256000.0,
+      "dtime": 2720000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Stuart Cheshire",
+      "ptime": 2264000.0,
+      "dtime": 2728000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "lucas: I\u0027ve not seen any conveniently collected list yet...",
+      "ptime": 2303000.0,
+      "dtime": 2767000.0,
+      "author": "Daniel Stenberg"
+    },
+    {
+      "text": "Ray Bellis",
+      "ptime": 2308000.0,
+      "dtime": 2772000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "https://github.com/IETF-Hackathon/ietf101-project-presentations/tree/master/DoH",
+      "ptime": 2310000.0,
+      "dtime": 2774000.0,
+      "author": "fanf"
+    },
+    {
+      "text": "thanks tony!",
+      "ptime": 2336000.0,
+      "dtime": 2800000.0,
+      "author": "lucaspardue"
+    },
+    {
+      "text": "that was Martin Thomson, now Andrew Sullivan",
+      "ptime": 2407000.0,
+      "dtime": 2871000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Olafur Gudmundsson (apologies for misspelling)",
+      "ptime": 2589000.0,
+      "dtime": 3053000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "?lafur Gu?mundsson \u003d)",
+      "ptime": 2620000.0,
+      "dtime": 3084000.0,
+      "author": "Daniel Stenberg"
+    },
+    {
+      "text": "thanks :)",
+      "ptime": 2630000.0,
+      "dtime": 3094000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Martin Thomson at the mic",
+      "ptime": 2656000.0,
+      "dtime": 3120000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "response from Paul Hoffman (at front)",
+      "ptime": 2771000.0,
+      "dtime": 3235000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "lucaspardue: There\u0027s info about public servers listed on the Hackathon presentation page: https://github.com/IETF-Hackathon/ietf101-project-presentations/tree/master/DoH",
+      "ptime": 2863000.0,
+      "dtime": 3327000.0,
+      "author": "danyork"
+    },
+    {
+      "text": "5 public DOH servers listed",
+      "ptime": 2915000.0,
+      "dtime": 3379000.0,
+      "author": "danyork"
+    },
+    {
+      "text": "Patrick (at front): any other open issues before WGLC?",
+      "ptime": 2962000.0,
+      "dtime": 3426000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "(anyone heard current speaker\u0027s name?)",
+      "ptime": 3031000.0,
+      "dtime": 3495000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Dan Gillmor at the mic",
+      "ptime": 3077000.0,
+      "dtime": 3541000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Topic: re-chartering and new work",
+      "ptime": 3146000.0,
+      "dtime": 3610000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/101/materials/slides-101-doh-future-work-and-rechartering-00",
+      "ptime": 3152000.0,
+      "dtime": 3616000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Would the JSON media type for DNS be within the current charter ?",
+      "ptime": 3219000.0,
+      "dtime": 3683000.0,
+      "author": "Jason Polis"
+    },
+    {
+      "text": "***Pieter Lexis just joined the room",
+      "ptime": 3221000.0,
+      "dtime": 3685000.0
+    },
+    {
+      "text": "@jason is that for then mic?",
+      "ptime": 3229000.0,
+      "dtime": 3693000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "sure",
+      "ptime": 3233000.0,
+      "dtime": 3697000.0,
+      "author": "Jason Polis"
+    },
+    {
+      "text": "***Kal Feher just joined the room",
+      "ptime": 3241000.0,
+      "dtime": 3705000.0
+    },
+    {
+      "text": "apparent answer is no :)",
+      "ptime": 3283000.0,
+      "dtime": 3747000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "thanks for clarity.",
+      "ptime": 3285000.0,
+      "dtime": 3749000.0,
+      "author": "Jason Polis"
+    },
+    {
+      "text": "Adam Roach, as the Area Director, is not sure he agrees with the chair",
+      "ptime": 3310000.0,
+      "dtime": 3774000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Erik Nygren",
+      "ptime": 3323000.0,
+      "dtime": 3787000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Patrick McManus as httpbis co-chair",
+      "ptime": 3419000.0,
+      "dtime": 3883000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "?lafur Gu?mundsson",
+      "ptime": 3454000.0,
+      "dtime": 3918000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Excellent typing there. :-)",
+      "ptime": 3470000.0,
+      "dtime": 3934000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Even better cut\u0026paste :)",
+      "ptime": 3495000.0,
+      "dtime": 3959000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Chair: discovery as a possible topic for new work that people have shown interest in, e.g. bootstrapping a connection to a doh server based only on domain name or IP address",
+      "ptime": 3567000.0,
+      "dtime": 4031000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Paul Hoffman at the mic",
+      "ptime": 3580000.0,
+      "dtime": 4044000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "andrew Sullivan",
+      "ptime": 3619000.0,
+      "dtime": 4083000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Dan Gillmor",
+      "ptime": 3675000.0,
+      "dtime": 4139000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Tomek Mrugalski just joined the room",
+      "ptime": 3678000.0,
+      "dtime": 4142000.0
+    },
+    {
+      "text": "Chair: Dan Gillmor is here as our motivational speaker, since it sounds like we\u0027re done with doh",
+      "ptime": 3822000.0,
+      "dtime": 4286000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/101/materials/slides-101-doh-opportunistic-dns-00",
+      "ptime": 3844000.0,
+      "dtime": 4308000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "\"Would you accept a DNS record from this guy?\" (slide 3)",
+      "ptime": 3928000.0,
+      "dtime": 4392000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Looks like a nice enough guy to me.",
+      "ptime": 3947000.0,
+      "dtime": 4411000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Well dressed and all.",
+      "ptime": 3957000.0,
+      "dtime": 4421000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "slide 4",
+      "ptime": 3965000.0,
+      "dtime": 4429000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Willard Gray just left the room",
+      "ptime": 4008000.0,
+      "dtime": 4472000.0
+    },
+    {
+      "text": "Isn\u0027t this the way we got DNS poison?",
+      "ptime": 4024000.0,
+      "dtime": 4488000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "But *signed* DNS poison now?.?",
+      "ptime": 4056000.0,
+      "dtime": 4520000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "modern technology....",
+      "ptime": 4062000.0,
+      "dtime": 4526000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "@as: not seeing how.",
+      "ptime": 4077000.0,
+      "dtime": 4541000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Not any worse, anyway.",
+      "ptime": 4090000.0,
+      "dtime": 4554000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "slide 6",
+      "ptime": 4119000.0,
+      "dtime": 4583000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "I wouldn?t cache these if they weren?t signed.",
+      "ptime": 4124000.0,
+      "dtime": 4588000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "The problem with the opportunistic record delivery is that it assumes the private key hasn\u0027t been exposed.  Current DNS set up makes it hard to deliver falsely signed data.",
+      "ptime": 4156000.0,
+      "dtime": 4620000.0,
+      "author": "Edward Lewis"
+    },
+    {
+      "text": "Q for http people: Can you send unsolicited responses in http?",
+      "ptime": 4164000.0,
+      "dtime": 4628000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "resnick: with H2 push, yes, you can push assets that may/may not be needed",
+      "ptime": 4195000.0,
+      "dtime": 4659000.0,
+      "author": "Thom Peterson"
+    },
+    {
+      "text": "TTL?",
+      "ptime": 4215000.0,
+      "dtime": 4679000.0,
+      "author": "aaron"
+    },
+    {
+      "text": "didn\u0027t catch current speaker\u0027s name, sorry",
+      "ptime": 4232000.0,
+      "dtime": 4696000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "So I could conceivably send a DOH response even if it wasn?t asked for?",
+      "ptime": 4241000.0,
+      "dtime": 4705000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "@resnick: I wrote a individual draft that might support your case, it is imperfect but feasible - https://tools.ietf.org/html/draft-pardue-quic-http-unbound-server-push-00",
+      "ptime": 4343000.0,
+      "dtime": 4807000.0,
+      "author": "lucaspardue"
+    },
+    {
+      "text": "Dan York",
+      "ptime": 4362000.0,
+      "dtime": 4826000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "DNSSEC signed isn\u0027t enough",
+      "ptime": 4369000.0,
+      "dtime": 4833000.0,
+      "author": "Edward Lewis"
+    },
+    {
+      "text": "Andrew Sullivan",
+      "ptime": 4428000.0,
+      "dtime": 4892000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Dan Gillmor replies",
+      "ptime": 4541000.0,
+      "dtime": 5005000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Dave Lawrence",
+      "ptime": 4590000.0,
+      "dtime": 5054000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Patrick McManus",
+      "ptime": 4595000.0,
+      "dtime": 5059000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "9 folks in mic queue, including patrick m.",
+      "ptime": 4695000.0,
+      "dtime": 5159000.0,
+      "author": "\u003dJeffH"
+    },
+    {
+      "text": "But once we\u0027re doing all this HTTPS stuff, why in the world do we want the DNS involved?  There are _lots of problems_ with the DNS, and this feels to me a lot like something cool but still a bad idea",
+      "ptime": 4775000.0,
+      "dtime": 5239000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "Not clear to me that he really wants the client DNS involved.",
+      "ptime": 4811000.0,
+      "dtime": 5275000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "But the DNS wire format is also kind of wrong for this",
+      "ptime": 4830000.0,
+      "dtime": 5294000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "(didn\u0027t catch current speaker\u0027s name, sorry)",
+      "ptime": 4841000.0,
+      "dtime": 5305000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "for instance, the fact that there\u0027s no real control plane/data plane separation",
+      "ptime": 4869000.0,
+      "dtime": 5333000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "sounds like a DOS amplifier.",
+      "ptime": 4879000.0,
+      "dtime": 5343000.0,
+      "author": "Samuel Weiler"
+    },
+    {
+      "text": "This is David Schinazi",
+      "ptime": 4892000.0,
+      "dtime": 5356000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "David Schinazi at the mic",
+      "ptime": 4894000.0,
+      "dtime": 5358000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "Shane Kerr now",
+      "ptime": 4902000.0,
+      "dtime": 5366000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "which is why CNAME plus anything else doesn\u0027t work",
+      "ptime": 4904000.0,
+      "dtime": 5368000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "didn\u0027t recognize David\u0027s back, sitting in the wrong place, sorry",
+      "ptime": 4913000.0,
+      "dtime": 5377000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "and every stub behind the DOH client needs to be rewritten",
+      "ptime": 4946000.0,
+      "dtime": 5410000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "and so on",
+      "ptime": 4948000.0,
+      "dtime": 5412000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "it\u0027s basically a new protocol",
+      "ptime": 4973000.0,
+      "dtime": 5437000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "Ray Bellis",
+      "ptime": 4994000.0,
+      "dtime": 5458000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Patrick Tarpey just joined the room",
+      "ptime": 5012000.0,
+      "dtime": 5476000.0
+    },
+    {
+      "text": "@ajs: Yeah, I probably agree on that: No need for this to be DNS protocol. All you want is to get the IP addresses for the things that you would have gone to on the particular web page you just got.",
+      "ptime": 5049000.0,
+      "dtime": 5513000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "(i.e., what Bron is now saying.)",
+      "ptime": 5092000.0,
+      "dtime": 5556000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Right.  And DOH gets you the bootstrap, and what we need is a new names-and-identifiers protocol",
+      "ptime": 5107000.0,
+      "dtime": 5571000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "It\u0027s maybe \"NOH\": Names Over HTTP.",
+      "ptime": 5129000.0,
+      "dtime": 5593000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "I wish ! was a legal WG name character.",
+      "ptime": 5149000.0,
+      "dtime": 5613000.0,
+      "author": "ajs"
+    },
+    {
+      "text": "@ ajs we can charter that at the same time as \"DNS Over New Transport\" (DONT)",
+      "ptime": 5158000.0,
+      "dtime": 5622000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Warren Kumari",
+      "ptime": 5168000.0,
+      "dtime": 5632000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Jim Reid",
+      "ptime": 5228000.0,
+      "dtime": 5692000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***Vojislav Vucetic just left the room",
+      "ptime": 5233000.0,
+      "dtime": 5697000.0
+    },
+    {
+      "text": "I think what?s catching in DNS people?s throats is that he keeps saying ?using DNS? when I think he really means ?using the addresses or other items normally retrieved from DNS?",
+      "ptime": 5285000.0,
+      "dtime": 5749000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "***Kal Feher just left the room",
+      "ptime": 5348000.0,
+      "dtime": 5812000.0
+    },
+    {
+      "text": "***Vojislav Vucetic just joined the room",
+      "ptime": 5405000.0,
+      "dtime": 5869000.0
+    },
+    {
+      "text": "@presnick or the \"new names and identifiers protocol\" ajs referred to",
+      "ptime": 5432000.0,
+      "dtime": 5896000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "mic: I haven\u0027t looked into this for a while.Would this use NS records to provide the IP address of the http server being used ?",
+      "ptime": 5434000.0,
+      "dtime": 5898000.0,
+      "author": "Jason Polis"
+    },
+    {
+      "text": "Jason Polis: I understand that to be one of the open questions as discovery is undefined. This was part of the chairs quastion about whether to recharter.",
+      "ptime": 5538000.0,
+      "dtime": 6002000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "I haven?t looked into this for a while ? Are regular NS records used to lookup DOH servers ? Which party would sign the Glue records are correctly signed ?",
+      "ptime": 5561000.0,
+      "dtime": 6025000.0,
+      "author": "Jason Polis"
+    },
+    {
+      "text": "I think Jason?s point is that you might want to know where the http server that?s giving the address where *it* got the address, hence wanting the NS record.",
+      "ptime": 5622000.0,
+      "dtime": 6086000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "the poisoned happy eyebal",
+      "ptime": 5625000.0,
+      "dtime": 6089000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "HTTP to poisoned camel eyeballs?",
+      "ptime": 5635000.0,
+      "dtime": 6099000.0,
+      "author": "aaron"
+    },
+    {
+      "text": "Happy Cabals?",
+      "ptime": 5647000.0,
+      "dtime": 6111000.0,
+      "author": "aaron"
+    },
+    {
+      "text": "tis easier for the poisoned happy camel to pass through the eyeball of ... I ran out",
+      "ptime": 5656000.0,
+      "dtime": 6120000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "?",
+      "ptime": 5664000.0,
+      "dtime": 6128000.0,
+      "author": "resnick"
+    },
+    {
+      "text": ":camel:",
+      "ptime": 5672000.0,
+      "dtime": 6136000.0,
+      "author": "aaron"
+    },
+    {
+      "text": "I really like Happy Camel",
+      "ptime": 5677000.0,
+      "dtime": 6141000.0,
+      "author": "DavidSchinazi"
+    },
+    {
+      "text": "?",
+      "ptime": 5683000.0,
+      "dtime": 6147000.0,
+      "author": "m\u0026m"
+    },
+    {
+      "text": "DavidSchinazi: I didn\u0027t know you were a smoker",
+      "ptime": 5690000.0,
+      "dtime": 6154000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Now where are the combining characters for camel?",
+      "ptime": 5702000.0,
+      "dtime": 6166000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Mark Nottingham",
+      "ptime": 5730000.0,
+      "dtime": 6194000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Hmmm..... HNS - HTTPS Name Service",
+      "ptime": 5749000.0,
+      "dtime": 6213000.0,
+      "author": "danyork"
+    },
+    {
+      "text": "combine(camel, straw)",
+      "ptime": 5751000.0,
+      "dtime": 6215000.0,
+      "author": "aaron"
+    },
+    {
+      "text": "HTTP PuNS",
+      "ptime": 5779000.0,
+      "dtime": 6243000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "(pushed named service)",
+      "ptime": 5815000.0,
+      "dtime": 6279000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "/me ducks",
+      "ptime": 5819000.0,
+      "dtime": 6283000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "Mark Nottingham",
+      "ptime": 5888000.0,
+      "dtime": 6352000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "***David Schinazi just joined the room",
+      "ptime": 5895000.0,
+      "dtime": 6359000.0
+    },
+    {
+      "text": "Paul Hoffman",
+      "ptime": 5910000.0,
+      "dtime": 6374000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "Selective Poisoning Or Opportunistic Naming",
+      "ptime": 6030000.0,
+      "dtime": 6494000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "and we\u0027re?.done?..",
+      "ptime": 6032000.0,
+      "dtime": 6496000.0,
+      "author": "Suzanne (scribe)"
+    },
+    {
+      "text": "SPOON",
+      "ptime": 6033000.0,
+      "dtime": 6497000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Nathalie Coupet just left the room",
+      "ptime": 6085000.0,
+      "dtime": 6549000.0
+    },
+    {
+      "text": "***Juan Pedro Cerezo just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Vojislav Vucetic just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Sara Dickinson just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Daniel Stenberg just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Nick Sullivan just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Edward Lewis just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Patrick Tarpey just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Tomek Mrugalski just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Pieter Lexis just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 6105000.0,
+      "dtime": 6569000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF101-DOH-20180322-1330"
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+
+{
+	"title": "IETF120-DNSOP-20240726-0130",
+	"filename": "IETF120-DNSOP-20240726-0130",
+	"start": 0,
+	"end": 3777000,
+	"start_datetime": "2024-07-26T01:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "4Wuea5CKlpY",
+    "start": 0,
+    "end": "3777000"
+  }
+],
+	"messages": [
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>Good evening all - even IQUERY Roy</p>",
+    "topic": "ietf-120",
+    "dtime": 69000,
+    "ptime": 69000
+  },
+  {
+    "author": "Roy Arends",
+    "text": "<p>:-)</p>",
+    "topic": "ietf-120",
+    "dtime": 93000,
+    "ptime": 93000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>Also - from last time 2931 <em>could</em> use a refresh if it's not been put in the bin</p>",
+    "topic": "ietf-120",
+    "dtime": 227000,
+    "ptime": 227000
+  },
+  {
+    "author": "Donald Eastlake",
+    "text": "<p>MACSEC = 802.1AE</p>",
+    "topic": "ietf-120",
+    "dtime": 546000,
+    "ptime": 546000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>Am I in the wrong room? I feel like I ended up in v6ops... <span aria-label=\"yum\" class=\"emoji emoji-1f60b\" role=\"img\" title=\"yum\">:yum:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 863000,
+    "ptime": 863000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>your DNS Load Balancer sent you to the wrong room Shane</p>",
+    "topic": "ietf-120",
+    "dtime": 896000,
+    "ptime": 896000
+  },
+  {
+    "author": "Lorenzo Colitti",
+    "text": "<p>you don't need to deprecate dns64 to deprecate 7050</p>",
+    "topic": "ietf-120",
+    "dtime": 1156000,
+    "ptime": 1156000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>The fun part is we can just remove <a href=\"http://ipv4only.arpa\">ipv4only.arpa</a>. from .arpa and break all 7050 implementations worldwide</p>",
+    "topic": "ietf-120",
+    "dtime": 1205000,
+    "ptime": 1205000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>What?? All 2 of them? :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 1235000,
+    "ptime": 1235000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>Let's do that on a Friday Dave</p>",
+    "topic": "ietf-120",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>+1 to what Lorenzo --- that may be the thing to be clear about is that this is deprecating 7050 not DNS64, as lots of large mobile networks rely heavily on DNS64 and handsets out there have a long lifetime.</p>",
+    "topic": "ietf-120",
+    "dtime": 1258000,
+    "ptime": 1258000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Sounds good. we can blame it on Crowdstrike</p>",
+    "topic": "ietf-120",
+    "dtime": 1262000,
+    "ptime": 1262000
+  },
+  {
+    "author": "Q Misell",
+    "text": "<p>taking bets now on who would even notice</p>",
+    "topic": "ietf-120",
+    "dtime": 1288000,
+    "ptime": 1288000
+  },
+  {
+    "author": "Peter DeVries",
+    "text": "<p>Was the remote room for this discussion available?  I couldn't connect using the link on side meetings.  Is there a recording?</p>",
+    "topic": "ietf-120",
+    "dtime": 1293000,
+    "ptime": 1293000
+  },
+  {
+    "author": "Jessica Krynitsky",
+    "text": "<p>too soon, David :')</p>",
+    "topic": "ietf-120",
+    "dtime": 1316000,
+    "ptime": 1316000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>This is the link to the full client <a href=\"https://meetings.conf.meetecho.com/ietf120/?session=33061\">https://meetings.conf.meetecho.com/ietf120/?session=33061</a></p>",
+    "topic": "ietf-120",
+    "dtime": 1339000,
+    "ptime": 1339000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>let's call this list stupiddnstricks@...</p>",
+    "topic": "ietf-120",
+    "dtime": 1384000,
+    "ptime": 1384000
+  },
+  {
+    "author": "Peter DeVries",
+    "text": "<p>I meant the side meeting yesterday</p>",
+    "topic": "ietf-120",
+    "dtime": 1385000,
+    "ptime": 1385000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>Peter, ack.</p>",
+    "topic": "ietf-120",
+    "dtime": 1410000,
+    "ptime": 1410000
+  },
+  {
+    "author": "Jessica Krynitsky",
+    "text": "<p>I like it Jim</p>",
+    "topic": "ietf-120",
+    "dtime": 1415000,
+    "ptime": 1415000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>STUpid Dns trickS (STUDS)</p>",
+    "topic": "ietf-120",
+    "dtime": 1462000,
+    "ptime": 1462000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>there are so many stupiddnstricks, I won;t know where to start</p>",
+    "topic": "ietf-120",
+    "dtime": 1479000,
+    "ptime": 1479000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>There was a typo in the link for the webex for the side meeting yesterday. <span aria-label=\"disappointed\" class=\"emoji emoji-1f61e\" role=\"img\" title=\"disappointed\">:disappointed:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 1498000,
+    "ptime": 1498000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>@Tim, we generally start in the DNS with a mailing list. :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 1544000,
+    "ptime": 1544000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>whoops s/DNS/IETF/</p>",
+    "topic": "ietf-120",
+    "dtime": 1559000,
+    "ptime": 1559000
+  },
+  {
+    "author": "Tim Wicinski",
+    "text": "<p>I want to thank Tommy for this talk, as DNS folks are so welcoming and happy to help</p>",
+    "topic": "ietf-120",
+    "dtime": 1922000,
+    "ptime": 1922000
+  },
+  {
+    "author": "Kazunori Fujiwara",
+    "text": "<p>A research paper  proposes a DNS system that can flexible access control with TSIG key mechanism<br>\nfor each DNS updates.</p>",
+    "topic": "ietf-120",
+    "dtime": 2015000,
+    "ptime": 2015000
+  },
+  {
+    "author": "Kazunori Fujiwara",
+    "text": "<p><a href=\"https://www.jstage.jst.go.jp/article/jssst/28/4/28_4_4_97/_pdf/-char/ja\">https://www.jstage.jst.go.jp/article/jssst/28/4/28_4_4_97/_pdf/-char/ja</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2040000,
+    "ptime": 2040000
+  },
+  {
+    "author": "Kazunori Fujiwara",
+    "text": "<p>(Sorry, Japanese language)</p>",
+    "topic": "ietf-120",
+    "dtime": 2050000,
+    "ptime": 2050000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>It sounds like Ben is suggesting it should be a BCP?</p>",
+    "topic": "ietf-120",
+    "dtime": 2097000,
+    "ptime": 2097000
+  },
+  {
+    "author": "Roy Arends",
+    "text": "<p>I was trying to say the same. Looks more like suggesting a good practice.</p>",
+    "topic": "ietf-120",
+    "dtime": 2144000,
+    "ptime": 2144000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>The hat definitely gives Tom Bombadil vibes</p>",
+    "topic": "ietf-120",
+    "dtime": 2591000,
+    "ptime": 2591000
+  },
+  {
+    "author": "Evan Hunt",
+    "text": "<p>i'm a \"no opinion\" because I haven't had time to consider the alternative working groups and whether they'd be a better fit than dnsop</p>",
+    "topic": "ietf-120",
+    "dtime": 2663000,
+    "ptime": 2663000
+  },
+  {
+    "author": "Jessica Krynitsky",
+    "text": "<p>This is meant to be informational/best practice, not normative</p>",
+    "topic": "ietf-120",
+    "dtime": 2681000,
+    "ptime": 2681000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>It may be the same set of people if it is here or ADD, so getting it done somewhere is what might matter.</p>",
+    "topic": "ietf-120",
+    "dtime": 2751000,
+    "ptime": 2751000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>I want to thank Tommy for this talk, as DNS folks are so welcoming and happy to help</p>\n</blockquote>\n<p>Thanks, and seriously, this was a super productive room for talks that included auth in DNS and DNS64. go dnsop!</p>",
+    "topic": "ietf-120",
+    "dtime": 2799000,
+    "ptime": 2799000
+  },
+  {
+    "author": "Matthew Pounsett",
+    "text": "<p>ADD feels less right than DNSOP. My instinct is DNSOP or something new.</p>",
+    "topic": "ietf-120",
+    "dtime": 2820000,
+    "ptime": 2820000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>I think the mTLS thing should go to ADD</p>",
+    "topic": "ietf-120",
+    "dtime": 2824000,
+    "ptime": 2824000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>Zone walking as a \"problem\". <span aria-label=\"neutral\" class=\"emoji emoji-1f610\" role=\"img\" title=\"neutral\">:neutral:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 2871000,
+    "ptime": 2871000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>+1 Matt. Ben, if the mTLS stuff gets watered down, would you prefer the ID to be adopted in dnsop or add?</p>",
+    "topic": "ietf-120",
+    "dtime": 2883000,
+    "ptime": 2883000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>@matthew for some reason '... or something new' feels surprisingly common for tommy's drafts</p>",
+    "topic": "ietf-120",
+    "dtime": 2887000,
+    "ptime": 2887000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"645\">Jim Reid</span> <a href=\"#narrow/stream/114-dnsop/topic/ietf-120/near/130822\">said</a>:</p>\n<blockquote>\n<p>+1 Matt. Ben, if the mTLS stuff gets watered down, would you prefer the ID to be adopted in dnsop or add?</p>\n</blockquote>\n<p>I would prefer ADD.</p>",
+    "topic": "ietf-120",
+    "dtime": 2922000,
+    "ptime": 2922000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Thanks Ben. I prefer dnsop. So there! :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 2981000,
+    "ptime": 2981000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>for some reason '... or something new' feels surprisingly common for tommy's drafts</p>\n</blockquote>\n<p>m'bad...</p>",
+    "topic": "ietf-120",
+    "dtime": 3000000,
+    "ptime": 3000000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>And IBM NS1!!! We do <del>black lies</del> compact denial of existence!!!</p>",
+    "topic": "ietf-120",
+    "dtime": 3006000,
+    "ptime": 3006000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>maybe we just need a TJDNS-WG ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 3021000,
+    "ptime": 3021000
+  },
+  {
+    "author": "Jessica Krynitsky",
+    "text": "<p>^ supportive of this</p>",
+    "topic": "ietf-120",
+    "dtime": 3044000,
+    "ptime": 3044000
+  },
+  {
+    "author": "Jessica Krynitsky",
+    "text": "<p><span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 3056000,
+    "ptime": 3056000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>With a curve-based algorithm signing is not expensive on the fly.</p>",
+    "topic": "ietf-120",
+    "dtime": 3118000,
+    "ptime": 3118000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>I don't like a trade-off of not having DNSSEC confirmation of negative answers...</p>",
+    "topic": "ietf-120",
+    "dtime": 3200000,
+    "ptime": 3200000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>depends on how many on the fly signatures are needed...</p>",
+    "topic": "ietf-120",
+    "dtime": 3205000,
+    "ptime": 3205000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>Maybe call this \"rainbow lies\"</p>",
+    "topic": "ietf-120",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Too many negatives in your comment Tommy at this time of the IETF day.</p>",
+    "topic": "ietf-120",
+    "dtime": 3262000,
+    "ptime": 3262000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>This will fail hard when it runs into RFC 8198, as has already been noted and is about to be noted half a dozen times.</p>",
+    "topic": "ietf-120",
+    "dtime": 3271000,
+    "ptime": 3271000
+  },
+  {
+    "author": "Rahel Fainchtein",
+    "text": "<p>Re: Done Hopping: Wouldn't the lack of authenticated negative answers allow for injection of negative responses?</p>",
+    "topic": "ietf-120",
+    "dtime": 3273000,
+    "ptime": 3273000
+  },
+  {
+    "author": "Rahel Fainchtein",
+    "text": "<p>*zone hopping</p>",
+    "topic": "ietf-120",
+    "dtime": 3285000,
+    "ptime": 3285000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>Too many negatives in your comment Tommy at this time of the IETF day.</p>\n</blockquote>\n<p>Sorry, I was busy writing a charter for Tobias -- let's try \"I do not like this approach of only signing positive answers\"</p>",
+    "topic": "ietf-120",
+    "dtime": 3331000,
+    "ptime": 3331000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>Charter for TJDNS, you mean? ;-P</p>",
+    "topic": "ietf-120",
+    "dtime": 3364000,
+    "ptime": 3364000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>what else? :P</p>",
+    "topic": "ietf-120",
+    "dtime": 3381000,
+    "ptime": 3381000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"4705\">Rahel Fainchtein</span> <a href=\"#narrow/stream/114-dnsop/topic/ietf-120/near/130838\">said</a>:</p>\n<blockquote>\n<p>Re: Done Hopping: Wouldn't the lack of authenticated negative answers allow for injection of negative responses?</p>\n</blockquote>\n<p>True!</p>",
+    "topic": "ietf-120",
+    "dtime": 3382000,
+    "ptime": 3382000
+  },
+  {
+    "author": "Shumon Huque",
+    "text": "<p>online signing &amp; nsec3 is probably good enough today. If we want something better for precomputed signatures, NSEC5 anyone? I'll duck now :(</p>",
+    "topic": "ietf-120",
+    "dtime": 3419000,
+    "ptime": 3419000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>To be clear to the presenter (thank you for sharing!), addressing this problem is a good use of time, but I would expect to maintain signing of both positive and negative answers.</p>",
+    "topic": "ietf-120",
+    "dtime": 3515000,
+    "ptime": 3515000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Zone walking isn't a problem IMO. I'll duck  and run away too.</p>",
+    "topic": "ietf-120",
+    "dtime": 3549000,
+    "ptime": 3549000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>@jim I would agree. DNS is public data.</p>",
+    "topic": "ietf-120",
+    "dtime": 3565000,
+    "ptime": 3565000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<p>Lots of ducking going on, hope everyone is ok.</p>",
+    "topic": "ietf-120",
+    "dtime": 3584000,
+    "ptime": 3584000
+  },
+  {
+    "author": "Roy Arends",
+    "text": "<p>I removed my hand, since all my points have been made.</p>",
+    "topic": "ietf-120",
+    "dtime": 3620000,
+    "ptime": 3620000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>Evan mentioned NSEC5, so I'm outta the queue</p>",
+    "topic": "ietf-120",
+    "dtime": 3627000,
+    "ptime": 3627000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>i think the current presenter just made the same point as everyone in the queue wanted to make.</p>",
+    "topic": "ietf-120",
+    "dtime": 3635000,
+    "ptime": 3635000
+  },
+  {
+    "author": "Benno Overeinder",
+    "text": "<p>Thanks Roy and Tom.</p>",
+    "topic": "ietf-120",
+    "dtime": 3639000,
+    "ptime": 3639000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Secrets that can't be rotated aren't secrets.</p>",
+    "topic": "ietf-120",
+    "dtime": 3647000,
+    "ptime": 3647000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>Working with passive DNS, I can note that you find _a lot_</p>",
+    "topic": "ietf-120",
+    "dtime": 3657000,
+    "ptime": 3657000
+  },
+  {
+    "author": "Roy Arends",
+    "text": "<p>I can compile any zone by looking at DITL data.</p>",
+    "topic": "ietf-120",
+    "dtime": 3679000,
+    "ptime": 3679000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Access to DITL data is restricted to DNS-OARC</p>",
+    "topic": "ietf-120",
+    "dtime": 3720000,
+    "ptime": 3720000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>and it is not deterministic which names do (not) show up in passive DNS</p>",
+    "topic": "ietf-120",
+    "dtime": 3730000,
+    "ptime": 3730000
+  },
+  {
+    "author": "Tobias Fiebig",
+    "text": "<p>@jim and farsight sells it.</p>",
+    "topic": "ietf-120",
+    "dtime": 3745000,
+    "ptime": 3745000
+  },
+  {
+    "author": "Shane Kerr",
+    "text": "<p>To be fair, there is a difference between knowing one person's e-mail address and knowing the e-mail of everyone at an organization. A given DNS name being published is not exactly the same as knowing _all_ DNS names in a zone.</p>",
+    "topic": "ietf-120",
+    "dtime": 3766000,
+    "ptime": 3766000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-DNSOP-20240726-0130"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/dnsop"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-DNSOP-20240726-0130"
+		}		
+	]
+}

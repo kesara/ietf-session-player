@@ -1,0 +1,294 @@
+
+{
+	"title": "IETF118-SCIM-20231109-1400",
+	"filename": "IETF118-SCIM-20231109-1400",
+	"start": 0,
+	"end": 5296000,
+	"start_datetime": "2023-11-09T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "6IggAHaGAok",
+    "start": 0,
+    "end": "5296000"
+  }
+],
+	"messages": [
+  {
+    "author": "Nancy Cam-Winget",
+    "text": "<p>Hello SCIM participants!</p>",
+    "topic": "ietf-118",
+    "dtime": 428000,
+    "ptime": 428000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>Hello :)</p>",
+    "topic": "ietf-118",
+    "dtime": 473000,
+    "ptime": 473000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Yo! :)</p>",
+    "topic": "ietf-118",
+    "dtime": 565000,
+    "ptime": 565000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>If you aren't familiar with the acronym , RA is a resource attribute (ie an attribute in the RFCs)</p>",
+    "topic": "ietf-118",
+    "dtime": 572000,
+    "ptime": 572000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>RO is resource object, ie object in the RFCs</p>",
+    "topic": "ietf-118",
+    "dtime": 655000,
+    "ptime": 655000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>Paulo didn't mention RS - that is the Resource Subscriber, meaning data is moving to the suscriber</p>",
+    "topic": "ietf-118",
+    "dtime": 734000,
+    "ptime": 734000
+  },
+  {
+    "author": "Nancy Cam-Winget",
+    "text": "<p>@Pam: do you want to get in the queue to clarify? Or I can channel that too....</p>",
+    "topic": "ietf-118",
+    "dtime": 763000,
+    "ptime": 763000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>HTTP POST, or some kind of HTTP Long PULL?</p>",
+    "topic": "ietf-118",
+    "dtime": 803000,
+    "ptime": 803000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>As in an event? <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 879000,
+    "ptime": 879000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>this is meant to cover both events and REST calls (so hopefully the answer is yes)</p>",
+    "topic": "ietf-118",
+    "dtime": 967000,
+    "ptime": 967000
+  },
+  {
+    "author": "Mike Kiser",
+    "text": "<p>I would make a noted difference between \"authoritative for an attribute\" and  classic \"authorization\"</p>",
+    "topic": "ietf-118",
+    "dtime": 1201000,
+    "ptime": 1201000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>I appreciate the Looney Tunes-ey whistle sound I heard - sounds like someone else had the same \"This is where they drop the piano/anvil\" thought :)</p>",
+    "topic": "ietf-118",
+    "dtime": 1638000,
+    "ptime": 1638000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>(or I'm hearing things?)</p>",
+    "topic": "ietf-118",
+    "dtime": 1651000,
+    "ptime": 1651000
+  },
+  {
+    "author": "Jennifer Schreiber",
+    "text": "<p>Hi all! Joined a bit late.</p>",
+    "topic": "ietf-118",
+    "dtime": 1723000,
+    "ptime": 1723000
+  },
+  {
+    "author": "Jennifer Schreiber",
+    "text": "<p>i have a few more thoughts to bring up</p>",
+    "topic": "ietf-118",
+    "dtime": 1863000,
+    "ptime": 1863000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>I will volunteer</p>",
+    "topic": "ietf-118",
+    "dtime": 1933000,
+    "ptime": 1933000
+  },
+  {
+    "author": "Jennifer Schreiber",
+    "text": "<p>i do feel like we need to spend some more time with async bulk.</p>",
+    "topic": "ietf-118",
+    "dtime": 1947000,
+    "ptime": 1947000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>I'll review as well.</p>",
+    "topic": "ietf-118",
+    "dtime": 1968000,
+    "ptime": 1968000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>@Jennifer maybe join the queue?</p>",
+    "topic": "ietf-118",
+    "dtime": 1974000,
+    "ptime": 1974000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>If it's going into a URL, then octothorp (#) is the document anchor separator.</p>",
+    "topic": "ietf-118",
+    "dtime": 2163000,
+    "ptime": 2163000
+  },
+  {
+    "author": "Jennifer Schreiber",
+    "text": "<p>not a url ... so maybe something else?</p>",
+    "topic": "ietf-118",
+    "dtime": 2387000,
+    "ptime": 2387000
+  },
+  {
+    "author": "Mike Kiser",
+    "text": "<p>Maybe a tilde? Have to go read the spec</p>",
+    "topic": "ietf-118",
+    "dtime": 2405000,
+    "ptime": 2405000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>a colon perhaps?</p>",
+    "topic": "ietf-118",
+    "dtime": 2437000,
+    "ptime": 2437000
+  },
+  {
+    "author": "Jennifer Schreiber",
+    "text": "<p>colon could be good</p>",
+    "topic": "ietf-118",
+    "dtime": 2445000,
+    "ptime": 2445000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>Can somebody explain what \"Laura\" is?  LORA?</p>",
+    "topic": "ietf-118",
+    "dtime": 2981000,
+    "ptime": 2981000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>or did I mishear?</p>",
+    "topic": "ietf-118",
+    "dtime": 2993000,
+    "ptime": 2993000
+  },
+  {
+    "author": "Nancy Cam-Winget",
+    "text": "<p>@Pam: it's short for LoRA-WAN</p>",
+    "topic": "ietf-118",
+    "dtime": 3158000,
+    "ptime": 3158000
+  },
+  {
+    "author": "Pamela Dingle",
+    "text": "<p>we can't hear Bart online</p>",
+    "topic": "ietf-118",
+    "dtime": 3498000,
+    "ptime": 3498000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>A way to get a token as of \"now\" without returning the items?</p>",
+    "topic": "ietf-118",
+    "dtime": 4489000,
+    "ptime": 4489000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Yeah, Phil - I'm somewhere between \"open to\" and \"in favor of\" decoupling the mechanism to acquire a watermark token with actually having to retrieve the results.</p>",
+    "topic": "ietf-118",
+    "dtime": 4728000,
+    "ptime": 4728000
+  },
+  {
+    "author": "Joris Baum",
+    "text": "<p>@Paulo AFAIU the deltaToken needs to be created as soon as the request comes in to get all the data.</p>\n<p>It will be returned at the end of the get though.</p>\n<p>..maybe that helps</p>",
+    "topic": "ietf-118",
+    "dtime": 5099000,
+    "ptime": 5099000
+  },
+  {
+    "author": "Phillip Hunt",
+    "text": "<p>Is the delta token essentially just a time stamp?</p>\n<p>Also, the spec seems to imply that every field in scim needs to be timestamped.</p>",
+    "topic": "ietf-118",
+    "dtime": 5158000,
+    "ptime": 5158000
+  },
+  {
+    "author": "Jennifer Schreiber",
+    "text": "<p>thanks everyone!</p>",
+    "topic": "ietf-118",
+    "dtime": 5188000,
+    "ptime": 5188000
+  },
+  {
+    "author": "Danny Zollner",
+    "text": "<p>Phil - it's opaque so it can be whatever, a timestamp, some artifact or change log or w/e in a database..</p>",
+    "topic": "ietf-118",
+    "dtime": 5202000,
+    "ptime": 5202000
+  },
+  {
+    "author": "Mike Kiser",
+    "text": "<p>You can do delta queries with timestamps and filters today, certailnly</p>",
+    "topic": "ietf-118",
+    "dtime": 5204000,
+    "ptime": 5204000
+  },
+  {
+    "author": "Mike Kiser",
+    "text": "<p>but not everyoen has a timestamp</p>",
+    "topic": "ietf-118",
+    "dtime": 5219000,
+    "ptime": 5219000
+  },
+  {
+    "author": "Mike Kiser",
+    "text": "<p>Opacity is a key term here ;)</p>",
+    "topic": "ietf-118",
+    "dtime": 5245000,
+    "ptime": 5245000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-SCIM-20231109-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/scim"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-SCIM-20231109-1400"
+		}		
+	]
+}

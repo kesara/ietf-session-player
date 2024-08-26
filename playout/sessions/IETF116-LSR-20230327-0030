@@ -1,0 +1,539 @@
+
+{
+	"title": "IETF116-LSR-20230327-0030",
+	"filename": "IETF116-LSR-20230327-0030",
+	"start": 0,
+	"end": 7713000,
+	"start_datetime": "2023-03-27T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "bpuNFNRozpo",
+    "start": 0,
+    "end": "7713000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>There is a WG draft for per-algo adj-sid : <a href=\"https://datatracker.ietf.org/doc/draft-ietf-lsr-algorithm-related-adjacency-sid/\">https://datatracker.ietf.org/doc/draft-ietf-lsr-algorithm-related-adjacency-sid/</a> <br>\nIf we have large number of links, we are advertising many other attributes per link - so I am also missing the point of \"compressing\" only the adj-sid advertisement.</p>",
+    "topic": "ietf-116",
+    "dtime": 2379000,
+    "ptime": 2379000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>The similar solution for SRv6 is on the link: <a href=\"https://datatracker.ietf.org/doc/draft-cheng-lsr-isis-srv6-sid-block/\">https://datatracker.ietf.org/doc/draft-cheng-lsr-isis-srv6-sid-block/</a></p>",
+    "topic": "ietf-116",
+    "dtime": 2518000,
+    "ptime": 2518000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>The draft I mentioned which provide better scalability for this use case is: <a href=\"https://datatracker.ietf.org/doc/html/draft-dong-lsr-sr-enhanced-vpn-08\">https://datatracker.ietf.org/doc/html/draft-dong-lsr-sr-enhanced-vpn-08</a></p>",
+    "topic": "ietf-116",
+    "dtime": 2956000,
+    "ptime": 2956000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Why even have a DIS, in other words, right?</p>",
+    "topic": "ietf-116",
+    "dtime": 3084000,
+    "ptime": 3084000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 3123000,
+    "ptime": 3123000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>The only case would be a true L2 switch.</p>",
+    "topic": "ietf-116",
+    "dtime": 3125000,
+    "ptime": 3125000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>And you can have a switch with dissimilar port bandwidths.</p>",
+    "topic": "ietf-116",
+    "dtime": 3145000,
+    "ptime": 3145000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Shraddha. Sorry - I do not understand your point. If I am an ABR in another domain, when I receive the UPA - why would I treat it differently if it was planned vs unplanned. Can you clarify the practical use case?</p>",
+    "topic": "ietf-116",
+    "dtime": 4312000,
+    "ptime": 4312000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1076\">@Shraddha Hegde</span> For multi-domain scenario, I would expect that for BGP services on top, the operator would switch to the redundant peer using BGP attributes for planned events? So is there really the need for an indication between planned/unplanned within the IGP?</p>",
+    "topic": "ietf-116",
+    "dtime": 4354000,
+    "ptime": 4354000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>s/indication/ indication between planned/unplanned</p>",
+    "topic": "ietf-116",
+    "dtime": 4457000,
+    "ptime": 4457000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Ketan. Yes - this is exactly my point.</p>",
+    "topic": "ietf-116",
+    "dtime": 4485000,
+    "ptime": 4485000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>BGP largely just wants to know \"is this nexthop reachable\".</p>",
+    "topic": "ietf-116",
+    "dtime": 4558000,
+    "ptime": 4558000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"422\">@Jeffrey Haas</span> , correct. So if I am doing maintenance on a router, I would do like to indicate this to other BGP speakers using some BGP attribute (e.g. local pref). Similar to OVL for ISIS.  My point is that using this IGP spec for indication of planned events is does not seem like a good idea to me.</p>",
+    "topic": "ietf-116",
+    "dtime": 4878000,
+    "ptime": 4878000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>@Ketan In MPLS deployments people use underlying igp metric to shift the traffic away. With introduction of  UP indication, the same mechanism can be used where summarization is in place.</p>",
+    "topic": "ietf-116",
+    "dtime": 4888000,
+    "ptime": 4888000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>&lt;TVR chair hat: on&gt; TVR WG is going to be working on a way of distributing planned topology changes. It is my hope that we find a better mechanism than IGP flooding for this information.</p>",
+    "topic": "ietf-116",
+    "dtime": 5079000,
+    "ptime": 5079000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Shraddha - I am not objecting to using the IGP for UPA - I am asking for clarification on the practical use case for differentiating between planned/unplanned on the remote ABR. Can you please provide a real deployment case?</p>",
+    "topic": "ietf-116",
+    "dtime": 5100000,
+    "ptime": 5100000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>@tony - we already have BGP for that :)</p>",
+    "topic": "ietf-116",
+    "dtime": 5219000,
+    "ptime": 5219000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1076\">@Shraddha Hegde</span> , sure and I understand. However, I would recommend a more robust BGP based mechanism for indication of planned event for BGP services. Especially in this specific scenario. We should remember that given BGP scale, a BGP based mechanism done <em>before</em> the actual maintenance would be far better. Putting such things in this IGP spec might give a false/wrong (?) impression to some ... UPA is best used for failures (unplanned) and not for planned events.</p>",
+    "topic": "ietf-116",
+    "dtime": 5238000,
+    "ptime": 5238000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>@Jeff BGP is not a dump truck.</p>",
+    "topic": "ietf-116",
+    "dtime": 5256000,
+    "ptime": 5256000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>TVR is the new dump truck?</p>",
+    "topic": "ietf-116",
+    "dtime": 5355000,
+    "ptime": 5355000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>TVR will be using the new dump truck, I hope.</p>",
+    "topic": "ietf-116",
+    "dtime": 5410000,
+    "ptime": 5410000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>@Ketan Is there a existing BGP mechansim that you propose people to use? Can you specify the draft/RFC</p>",
+    "topic": "ietf-116",
+    "dtime": 5507000,
+    "ptime": 5507000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>@ketan - what if you need to drain a P/transport router?</p>",
+    "topic": "ietf-116",
+    "dtime": 5510000,
+    "ptime": 5510000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>@shrada GSHUT</p>",
+    "topic": "ietf-116",
+    "dtime": 5548000,
+    "ptime": 5548000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>@Les  Are you asking how does the ABR differentiate whether it should generate U bit or UP bit?</p>",
+    "topic": "ietf-116",
+    "dtime": 5560000,
+    "ptime": 5560000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"715\">@Jeff Tantsura</span> , the P/transport router is doing forwarding based on summary. So it does not need to perform any action on the UPA - at least not in the forwarding.</p>",
+    "topic": "ietf-116",
+    "dtime": 5616000,
+    "ptime": 5616000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>@peter, the final solution should depend on the LSInfinity. The usage of LSInifinity should be temporary.</p>",
+    "topic": "ietf-116",
+    "dtime": 5626000,
+    "ptime": 5626000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"393\">Ketan Talaulikar</span> <a href=\"#narrow/stream/75-lsr/topic/ietf-116/near/63634\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"422\">Jeffrey Haas</span> , correct. So if I am doing maintenance on a router, I would do like to indicate this to other BGP speakers using some BGP attribute (e.g. local pref). Similar to OVL for ISIS.  My point is that using this IGP spec for indication of planned events is does not seem like a good idea to me.</p>\n</blockquote>\n<p>I've not been strongly following the UPA work so I don't have well considered opinions on it at this point.  That said, methodologies to shift traffic from a nexthop in a network-wide graceful mechanism with a small number of events are appreciated.  </p>\n<p>Doing similar via locally attached attributes in BGP (\"drain procedures\" or similar) is certainly current practice.  However, so is dealing with potentially long convergence times when this is done.</p>",
+    "topic": "ietf-116",
+    "dtime": 5656000,
+    "ptime": 5656000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Shraddha, No. I am asking what the ABR would do differently based on the state advertised. If it was a planned event and the ABR already knew about it from some other TBD means, it would not matter of the ABR reacted to the received UPA since it would have already moved traffic away from that host anyway.</p>",
+    "topic": "ietf-116",
+    "dtime": 5657000,
+    "ptime": 5657000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>@Acee, PUA soultion prefer to  all routers to support such capabilities, but it can also be deployed incrementally, with the help of LSInfinity, or other mechanism.</p>",
+    "topic": "ietf-116",
+    "dtime": 5752000,
+    "ptime": 5752000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>you are contradicting yourself Aijun. You are saying you do not want to use unreachable metric, but then you use it to suppress the capability.</p>",
+    "topic": "ietf-116",
+    "dtime": 5877000,
+    "ptime": 5877000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"422\">@Jeffrey Haas</span> , precisely due to the long convergence time, this should be done using BGP based indication well before the actual maintenance work is done. UPA is a trigger after failure. More specifically, my concern with the explicit indication of  UPA for planned events is that it would seem to recommend this kind of usage while in fact BGP based mechanism is desirable.</p>",
+    "topic": "ietf-116",
+    "dtime": 5900000,
+    "ptime": 5900000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>we want backward compatible solution and that can only be done with unreachable metric</p>",
+    "topic": "ietf-116",
+    "dtime": 5907000,
+    "ptime": 5907000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>and we do not want capability at all</p>",
+    "topic": "ietf-116",
+    "dtime": 5916000,
+    "ptime": 5916000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>it's very simple if you thing about it</p>",
+    "topic": "ietf-116",
+    "dtime": 5938000,
+    "ptime": 5938000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>@Les Its the PE that would process the notification (U bit or UP bit)differently. The difference in processing is control plane vs data plane.</p>",
+    "topic": "ietf-116",
+    "dtime": 5950000,
+    "ptime": 5950000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Shraddha I understand the intent of the signalling. What I am asking for is a practical use case.</p>",
+    "topic": "ietf-116",
+    "dtime": 6041000,
+    "ptime": 6041000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>@peter, The usage of LSInfinity should be removed from the network, not to enhance it. Relying on the capabilities negotiation, the operator can know the support status of routers within the area</p>",
+    "topic": "ietf-116",
+    "dtime": 6057000,
+    "ptime": 6057000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"393\">Ketan Talaulikar</span> <a href=\"#narrow/stream/75-lsr/topic/ietf-116/near/63770\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"422\">Jeffrey Haas</span> , precisely due to the long convergence time, this should be done using BGP based indication well before the actual maintenance work is done. UPA is a trigger after failure. More specifically, my concern with the explicit indication of  UPA for planned events is that it would seem to recommend this kind of usage while in fact BGP based mechanism is desirable.</p>\n</blockquote>\n<p>If the network is told \"this bgp nexthop is unusable\", routers across the network can converge more quickly because each router will locally find alternate paths, if available.  If you source this solely at the point of \"maintenance\", you rely on full path hunting across the AS to finish.</p>",
+    "topic": "ietf-116",
+    "dtime": 6105000,
+    "ptime": 6105000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>Anyway, for the perfect effect of solution, all the routers within the area should support such capabilities.</p>",
+    "topic": "ietf-116",
+    "dtime": 6149000,
+    "ptime": 6149000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>@Aijun, usage of LSInfinity is allowed by the protocol spec</p>",
+    "topic": "ietf-116",
+    "dtime": 6156000,
+    "ptime": 6156000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>I think it is just one placeholder function</p>",
+    "topic": "ietf-116",
+    "dtime": 6183000,
+    "ptime": 6183000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>@Aijun, I d not agree on that requirement</p>",
+    "topic": "ietf-116",
+    "dtime": 6183000,
+    "ptime": 6183000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>we can rely on it temporarily, not definitely. we should not enhance its usage</p>",
+    "topic": "ietf-116",
+    "dtime": 6267000,
+    "ptime": 6267000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>UPA is temporary by definition</p>",
+    "topic": "ietf-116",
+    "dtime": 6297000,
+    "ptime": 6297000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>the signaling function will be used definitely in future</p>",
+    "topic": "ietf-116",
+    "dtime": 6334000,
+    "ptime": 6334000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>Who said that&gt;</p>",
+    "topic": "ietf-116",
+    "dtime": 6347000,
+    "ptime": 6347000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>there may be other usage of LSInfinity, we shouldn't mix such function with it. The sooner to detach from the LSInfinity, the better</p>",
+    "topic": "ietf-116",
+    "dtime": 6423000,
+    "ptime": 6423000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>If you're not going to somehow get the Path MTU to the end host, I don't see the point.</p>",
+    "topic": "ietf-116",
+    "dtime": 6431000,
+    "ptime": 6431000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>Usage of LSInfinity is clearly defined and can not chnage</p>",
+    "topic": "ietf-116",
+    "dtime": 6445000,
+    "ptime": 6445000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"248\">Tony Li</span> <a href=\"#narrow/stream/75-lsr/topic/ietf-116/near/63852\">said</a>:</p>\n<blockquote>\n<p>If you're not going to somehow get the Path MTU to the end host, I don't see the point.</p>\n</blockquote>\n<p>it's for ingress steered tunnels that need to calculate path mtu.</p>",
+    "topic": "ietf-116",
+    "dtime": 6462000,
+    "ptime": 6462000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>No, currently, the spec only states that the associated LSA shouldn't be used in SPF calculation</p>",
+    "topic": "ietf-116",
+    "dtime": 6512000,
+    "ptime": 6512000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>FWIW, there's work in BFD to help test mtu end to end. <br>\n<a href=\"https://datatracker.ietf.org/doc/draft-ietf-bfd-large-packets/\">https://datatracker.ietf.org/doc/draft-ietf-bfd-large-packets/</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6542000,
+    "ptime": 6542000
+  },
+  {
+    "author": "Peter Psenak",
+    "text": "<p>That's exactly what we need</p>",
+    "topic": "ietf-116",
+    "dtime": 6554000,
+    "ptime": 6554000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>@Acee Two questions: 1) For other type of LSA such as Type 5 LSA, How your solution works? 2) Your solution is the second solution in Liyan's presentation. As Liyan mentioned, it will cause statemachine changed. Is that more complicated solution than Liyan's solution, right?</p>",
+    "topic": "ietf-116",
+    "dtime": 6625000,
+    "ptime": 6625000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Jeff I think the purpose of the BFD draft is different. It is to test whether the link works. It is not for \"MTU discovery\".</p>",
+    "topic": "ietf-116",
+    "dtime": 6626000,
+    "ptime": 6626000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Regd <a href=\"https://datatracker.ietf.org/doc/draft-hu-lsr-igp-link-mtu/\">https://datatracker.ietf.org/doc/draft-hu-lsr-igp-link-mtu/</a> ... there is value for this information to be advertised as part of the topology information. Like TonyP said, there are cases of such \"self inflicted wounds\" out there. However, I don't think the IGP spec should go beyond that advertisement part. Path MTU and other aspects related to the usage of this link MTU info are better discussed separately.</p>",
+    "topic": "ietf-116",
+    "dtime": 6837000,
+    "ptime": 6837000
+  },
+  {
+    "author": "Liyan Gong",
+    "text": "<p>@Acee, About the question 1), i give you an example. <br>\nthere is a external lsa which has not been re-originated,  and the router-lsa has been re-originated（both sides are full）, the result is that the external route is still wrong although the spf is right....<br>\nthe blackhole still occurs.</p>",
+    "topic": "ietf-116",
+    "dtime": 6866000,
+    "ptime": 6866000
+  },
+  {
+    "author": "QIANG Wang",
+    "text": "<p>bypass my TTR topic ？@Christian</p>",
+    "topic": "ietf-116",
+    "dtime": 6876000,
+    "ptime": 6876000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>Huaimo - what you propose on slides 5/6 does not work since it does not support parallel links between neighbors.</p>",
+    "topic": "ietf-116",
+    "dtime": 6925000,
+    "ptime": 6925000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>if all the routers support such capabilities, we don't rely on it anymore</p>",
+    "topic": "ietf-116",
+    "dtime": 6970000,
+    "ptime": 6970000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"455\">Les Ginsberg</span> <a href=\"#narrow/stream/75-lsr/topic/ietf-116/near/63881\">said</a>:</p>\n<blockquote>\n<p>@Jeff I think the purpose of the BFD draft is different. It is to test whether the link works. It is not for \"MTU discovery\".</p>\n</blockquote>\n<p>Agreed.  I did say \"test\", not \"determine\".<br>\nPart of the headache for these MTU mismatch headaches is thinking you've done the right thing to get a particular path mtu... then finding out it doesn't actually work.</p>\n<p>The motivation for the bfd large feature are things where the path is expected to work and doesn't, especially in wan environments.</p>",
+    "topic": "ietf-116",
+    "dtime": 7063000,
+    "ptime": 7063000
+  },
+  {
+    "author": "Liyan Gong",
+    "text": "<p>@ Acee，about the problem 2), it is equivalent to abandon the action of the DD exchange, huge midification to the basic ospf protocol, and may cause extremely pressure and risk to all the routers in the network.</p>",
+    "topic": "ietf-116",
+    "dtime": 7149000,
+    "ptime": 7149000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Jeff - I have very limited enthusiasm for the MTU extensions because I think the use cases typically prove not of practical value.</p>",
+    "topic": "ietf-116",
+    "dtime": 7154000,
+    "ptime": 7154000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Once more, with feeling: the IGP is not a dump truck. Services should be advertised in the management plane.</p>",
+    "topic": "ietf-116",
+    "dtime": 7275000,
+    "ptime": 7275000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"455\">Les Ginsberg</span> <a href=\"#narrow/stream/75-lsr/topic/ietf-116/near/63985\">said</a>:</p>\n<blockquote>\n<p>@Jeff - I have very limited enthusiasm for the MTU extensions because I think the use cases typically prove not of practical value.</p>\n</blockquote>\n<p>I'm sympathetic.  But MTU issues exist and some networks can't use the one MTU to rule them all.  (And in the outage find them...)</p>",
+    "topic": "ietf-116",
+    "dtime": 7328000,
+    "ptime": 7328000
+  },
+  {
+    "author": "Liu Yao",
+    "text": "<p>@Hongyi Huang We also have a IGP service function draft trying to be consistent with BGP-LS  by advertising the SF function info as the  property of SIDs instead of routers</p>",
+    "topic": "ietf-116",
+    "dtime": 7368000,
+    "ptime": 7368000
+  },
+  {
+    "author": "Liu Yao",
+    "text": "<p>draft-lz-lsr-igp-sr-service-segments</p>",
+    "topic": "ietf-116",
+    "dtime": 7377000,
+    "ptime": 7377000
+  },
+  {
+    "author": "Les Ginsberg",
+    "text": "<p>@Jeff I don't object to the MTU draft - I just don;t have much enthusiasm for it.</p>",
+    "topic": "ietf-116",
+    "dtime": 7408000,
+    "ptime": 7408000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"485\">@Andrew Alston</span> That would be called a tunnel and making the controller an IGP speaker. Done.</p>",
+    "topic": "ietf-116",
+    "dtime": 7504000,
+    "ptime": 7504000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thank you, <span class=\"user-mention\" data-user-id=\"485\">@Andrew Alston</span> to lob that bgp-ls bomb at end of session.</p>",
+    "topic": "ietf-116",
+    "dtime": 7508000,
+    "ptime": 7508000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-idr-rfc7752bis#section-5.3.1.5\">https://datatracker.ietf.org/doc/html/draft-ietf-idr-rfc7752bis#section-5.3.1.5</a><br>\nAnd similar for link and prefix attributes ... to put IGP info \"opaquely\" into BGP-LS.</p>",
+    "topic": "ietf-116",
+    "dtime": 7589000,
+    "ptime": 7589000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-LSR-20230327-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/lsr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-LSR-20230327-0030"
+		}		
+	]
+}

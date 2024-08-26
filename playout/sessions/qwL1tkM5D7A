@@ -1,0 +1,2723 @@
+
+{
+	"title": "IETF113-MOQ-20220323-0900",
+	"filename": "IETF113-MOQ-20220323-0900",
+	"start": 0,
+	"end": 7383000,
+	"start_datetime": "2022-03-23T08:45:12Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "qwL1tkM5D7A",
+    "start": 0,
+    "end": "7383000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 599000,
+    "ptime": 599000,
+    "author": "Cullen Jennings",
+    "text": "I'm not seeing the right slide<br/>"
+  },
+  {
+    "dtime": 623000,
+    "ptime": 623000,
+    "author": "Alan Frindell",
+    "text": "which slide are you seeing?&nbsp;&nbsp;Not \"Summary of Use Cases\"<br/>"
+  },
+  {
+    "dtime": 625000,
+    "ptime": 625000,
+    "author": "Craig Taylor",
+    "text": "Same here (i think)<br/>"
+  },
+  {
+    "dtime": 625000,
+    "ptime": 625000,
+    "author": "Cullen Jennings",
+    "text": "oh, never mind - perhaps I am <br/>"
+  },
+  {
+    "dtime": 661000,
+    "ptime": 661000,
+    "author": "Alan Frindell",
+    "text": "Is it ok now?<br/>"
+  },
+  {
+    "dtime": 671000,
+    "ptime": 671000,
+    "author": "Craig Taylor",
+    "text": "yes<br/>"
+  },
+  {
+    "dtime": 777000,
+    "ptime": 777000,
+    "author": "David Schinazi",
+    "text": "For next time, please consider larger font sizes :-)<br/>"
+  },
+  {
+    "dtime": 809000,
+    "ptime": 809000,
+    "author": "Barry Leiba",
+    "text": "WDNNS large fonts!<br/>"
+  },
+  {
+    "dtime": 933000,
+    "ptime": 933000,
+    "author": "Pete Resnick",
+    "text": "Maybe the caffeine wore off at the wrong moment, but is there something about these use cases that are different than streaming that is currently going on?<br/>"
+  },
+  {
+    "dtime": 996000,
+    "ptime": 996000,
+    "author": "Pete Resnick",
+    "text": "OK.<br/>"
+  },
+  {
+    "dtime": 1006000,
+    "ptime": 1006000,
+    "author": "Kirill Pugin",
+    "text": "offline rendering/encoding/composition could be another use-case - it's kinda similar to Gaming or could be...<br/>"
+  },
+  {
+    "dtime": 1031000,
+    "ptime": 1031000,
+    "author": "Murray Kucherawy",
+    "text": "@Pete: Did you get an answer to that?<br/>"
+  },
+  {
+    "dtime": 1058000,
+    "ptime": 1058000,
+    "author": "Pete Resnick",
+    "text": "Yes, James and Mo answered at the mic.<br/>"
+  },
+  {
+    "dtime": 1076000,
+    "ptime": 1076000,
+    "author": "Craig Taylor",
+    "text": "Yes, fast switching is a distinct issue and big enough to call out<br/>"
+  },
+  {
+    "dtime": 1091000,
+    "ptime": 1091000,
+    "author": "Pete Resnick",
+    "text": "Short answer: No difference in the current stuff, but some of the later presentations will have some new use cases which are different.<br/>"
+  },
+  {
+    "dtime": 1113000,
+    "ptime": 1113000,
+    "author": "Murray Kucherawy",
+    "text": "Groovy, thanks.<br/>"
+  },
+  {
+    "dtime": 1119000,
+    "ptime": 1119000,
+    "author": "lpardue",
+    "text": "undead media<br/>"
+  },
+  {
+    "dtime": 1135000,
+    "ptime": 1135000,
+    "author": "Murray Kucherawy",
+    "text": "Undead, undead, undead.<br/>"
+  },
+  {
+    "dtime": 1157000,
+    "ptime": 1157000,
+    "author": "Suhas Nandakumar",
+    "text": "media is aLive<br/>"
+  },
+  {
+    "dtime": 1220000,
+    "ptime": 1220000,
+    "author": "lpardue",
+    "text": "ooh frankenmedia, I like it<br/>"
+  },
+  {
+    "dtime": 1254000,
+    "ptime": 1254000,
+    "author": "Stefan Holmer",
+    "text": "Is peer-to-peer distribution in scope? Imagining \"on-prem\" distribution of media to save bandwidth when a large number of viewers in the same local network want to consume the same content<br/>"
+  },
+  {
+    "dtime": 1257000,
+    "ptime": 1257000,
+    "author": "Suhas Nandakumar",
+    "text": "going back to Pete's question - agree that&nbsp;&nbsp;if we consider more modern use-cases like the one <a href=\"https://dashif.org/webRTC/report\" rel=\"nofollow\">https://dashif.org/webRTC/report</a> , where streaming and interactivity convergence, there is something more than today that might need us to thinking on to solve<br/>"
+  },
+  {
+    "dtime": 1300000,
+    "ptime": 1300000,
+    "author": "Magnus Westerlund",
+    "text": "Kirill I want you to think about your use case and see how it fit in after you seen the other presentation and if you see it still being relevant please bring it up in the discussion. <br/>"
+  },
+  {
+    "dtime": 1329000,
+    "ptime": 1329000,
+    "author": "spencerdawkins",
+    "text": "I SHOULD have also mentioned that the distinctions in the draft are mostly from James and from me, there's a github link in the draft, and we read new issues with gratitude ... <br/>"
+  },
+  {
+    "dtime": 1450000,
+    "ptime": 1450000,
+    "author": "Victor Vasiliev",
+    "text": "@Stefan well, the purpose of this meeting is to determine what things should be in scope; I've heard before from other folks they're interested in a similar scenario<br/>"
+  },
+  {
+    "dtime": 1470000,
+    "ptime": 1470000,
+    "author": "Kirill Pugin",
+    "text": "+1 to P2P<br/>"
+  },
+  {
+    "dtime": 1558000,
+    "ptime": 1558000,
+    "author": "lpardue",
+    "text": "think seriously about P2P given the fact that this is BoF is called media over QUIC and there is no standard P2P QUIC at this moment<br/>"
+  },
+  {
+    "dtime": 1599000,
+    "ptime": 1599000,
+    "author": "Juliusz Chroboczek",
+    "text": "Am I wrong in believing that WebRTC's adaptivity is an implementation choice, and in no way something that's intrinsic to the protocol suite?<br/>"
+  },
+  {
+    "dtime": 1621000,
+    "ptime": 1621000,
+    "author": "Ali Begen",
+    "text": "I corrected this in the google doc, but let me say it here because the slides still have the same error: LL-DASH does not have an extra manifest overhead. Please stop saying it does.<br/>"
+  },
+  {
+    "dtime": 1621000,
+    "ptime": 1621000,
+    "author": "Pete Resnick",
+    "text": "@Juliusz: +1. The reason I asked the earlier question is that I'm trying to get my head around why this is about QUIC in particular rather than just interesting new media cases. So for example, updating RTMP to support new codecs may be interesting, but doesn't seem to have anything to do with QUIC.<br/>"
+  },
+  {
+    "dtime": 1647000,
+    "ptime": 1647000,
+    "author": "Varun Singh",
+    "text": "Correct, WebRTC adaptivity is specific to the implementation<br/>"
+  },
+  {
+    "dtime": 1651000,
+    "ptime": 1651000,
+    "author": "Suhas Nandakumar",
+    "text": "@juliusz, that's my take on it. Its the configuration of the stack and webrtc has tools to pick one vs te other<br/>"
+  },
+  {
+    "dtime": 1658000,
+    "ptime": 1658000,
+    "author": "Mo Zanaty",
+    "text": "@Stefan, the quicr drafts explicitly consider the use case of optimizing local media distribution with CDN-like relays closer than the origin. An endpoint can also be a relay for P2P cases.<br/>"
+  },
+  {
+    "dtime": 1660000,
+    "ptime": 1660000,
+    "author": "Cullen Jennings",
+    "text": "@Juliusz - that is my view yes. Often when people say WebRTC, what they mean is \"what they can easily do from what is chome today\" <br/>"
+  },
+  {
+    "dtime": 1661000,
+    "ptime": 1661000,
+    "author": "Kirill Pugin",
+    "text": "LL-DASH has container overhead especially at low latency - 1 frame CMAF chunk<br/>"
+  },
+  {
+    "dtime": 1679000,
+    "ptime": 1679000,
+    "author": "Jonathan Lennox",
+    "text": "But if you want something you can run in the browser you're at the mercy of the browser's webrtc implementation decisions.<br/>"
+  },
+  {
+    "dtime": 1687000,
+    "ptime": 1687000,
+    "author": "Stefan Holmer",
+    "text": "@Mo, great, thanks!<br/>"
+  },
+  {
+    "dtime": 1687000,
+    "ptime": 1687000,
+    "author": "Sergio Garcia Murillo",
+    "text": "not for ingest<br/>"
+  },
+  {
+    "dtime": 1707000,
+    "ptime": 1707000,
+    "author": "Kirill Pugin",
+    "text": "@Cullen, not just in browsers :D<br/>"
+  },
+  {
+    "dtime": 1728000,
+    "ptime": 1728000,
+    "author": "Hang Shi",
+    "text": "What is wrong with SRT regarding to large scale deployment?<br/>"
+  },
+  {
+    "dtime": 1732000,
+    "ptime": 1732000,
+    "author": "Alan Frindell",
+    "text": "James' presentation and draft try to explain why quic is interesting for media, but maybe this needs to be articulated more clearly<br/>"
+  },
+  {
+    "dtime": 1737000,
+    "ptime": 1737000,
+    "author": "Sergio Garcia Murillo",
+    "text": "If you want to ingest from a mobile phone with ultra low latency, you will have to make some trade off in quality regardless the technology you use for transport<br/>"
+  },
+  {
+    "dtime": 1763000,
+    "ptime": 1763000,
+    "author": "Magnus Westerlund",
+    "text": "@Juliusz you are correct that that it is implementation, however it is also a question about a control knob that might not exist for remote control. There is an optional RTCP message that allows you to do resolution vs frame rate. Not latency vs quality.<br/>"
+  },
+  {
+    "dtime": 1776000,
+    "ptime": 1776000,
+    "author": "lpardue",
+    "text": "we could rename MoQ to LoQ - latency or quality<br/>"
+  },
+  {
+    "dtime": 1776000,
+    "ptime": 1776000,
+    "author": "Ali Begen",
+    "text": "CMAF chunk header overhead is only applicable to audio (but audio has overhead with everything). The doc says it is the manifest overhead, which is plainly wrong.<br/>"
+  },
+  {
+    "dtime": 1814000,
+    "ptime": 1814000,
+    "author": "Kirill Pugin",
+    "text": "not only audio - video as well, last time I did math overhead at low quality video was in ~~10%<br/>"
+  },
+  {
+    "dtime": 1819000,
+    "ptime": 1819000,
+    "author": "Victor Vasiliev",
+    "text": "In theory, RTP can be used to do high quality streaming, just like it can be used to do anything<br/>"
+  },
+  {
+    "dtime": 1829000,
+    "ptime": 1829000,
+    "author": "Christian Huitema",
+    "text": "Quality vs latency feel like the old QoS debate. You can do so much with signalling, but at some point you are limited by the underlying channel.<br/>"
+  },
+  {
+    "dtime": 1843000,
+    "ptime": 1843000,
+    "author": "Juliusz Chroboczek",
+    "text": "I don't see why the WebRTC API couldn't have a knob that tunes the congestion control algorithm to optimise for quality.&nbsp;&nbsp;Just add a new field to sender.setParameters.<br/>"
+  },
+  {
+    "dtime": 1863000,
+    "ptime": 1863000,
+    "author": "Victor Vasiliev",
+    "text": "In practice, the question is whether fixing problems with WebRTC makes sense compared to building on top of QUIC<br/>"
+  },
+  {
+    "dtime": 1876000,
+    "ptime": 1876000,
+    "author": "Magnus Westerlund",
+    "text": "@Hang, your question maybe something that should be asked to Ying. <br/>"
+  },
+  {
+    "dtime": 1878000,
+    "ptime": 1878000,
+    "author": "Simon Romano",
+    "text": "Agreed<br/>"
+  },
+  {
+    "dtime": 1906000,
+    "ptime": 1906000,
+    "author": "Sergio Garcia Murillo",
+    "text": "on a side note, broadcast quality ingest is not limited by bandwidth, you are only limited by bandwidth/network for user generated content<br/>"
+  },
+  {
+    "dtime": 1926000,
+    "ptime": 1926000,
+    "author": "Ali Begen",
+    "text": "Kirill, you are still missing the main point. Cntainers always come with a cost, but also benefits. that is a different discussion and dont just take the lowest quality as the general case. My comment still stands: no manifest overhead, full stop.<br/>"
+  },
+  {
+    "dtime": 1939000,
+    "ptime": 1939000,
+    "author": "Varun Singh",
+    "text": "For most large scale video conferencing they are using simulcast settings, and the SFU switches to the appropriate simulcast video, which gives them the control needed for controlling quality<br/>"
+  },
+  {
+    "dtime": 1945000,
+    "ptime": 1945000,
+    "author": "Barry Leiba",
+    "text": "We tried make that bandwidth/latency hint when we had the SPUD BoF, and got nowhere with it.<br/>"
+  },
+  {
+    "dtime": 1952000,
+    "ptime": 1952000,
+    "author": "Alan Frindell",
+    "text": "There's a lot of discussion and questions here.&nbsp;&nbsp;If you'd like your comment relayed to the mic, preface with mic:, or please join the queue<br/>"
+  },
+  {
+    "dtime": 1960000,
+    "ptime": 1960000,
+    "author": "James Gruessing",
+    "text": "Sergio: In remote operation, broadcast is definitely limited by bandwidth.<br/>"
+  },
+  {
+    "dtime": 1981000,
+    "ptime": 1981000,
+    "author": "Sergio Garcia Murillo",
+    "text": "I don't think we should prevent a new media protocol over quic even if it overlaps with webrtc. What I don't like is pointing out limitations of webrtc based on current implementations.<br/>"
+  },
+  {
+    "dtime": 2018000,
+    "ptime": 2018000,
+    "author": "Juliusz Chroboczek",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 2022000,
+    "ptime": 2022000,
+    "author": "Sergio Garcia Murillo",
+    "text": "+1 james<br/>"
+  },
+  {
+    "dtime": 2030000,
+    "ptime": 2030000,
+    "author": "Christian Huitema",
+    "text": "There is still an issue about what to do when the channel is in fact limiting. Wait or Reduce? (What Harald says)<br/>"
+  },
+  {
+    "dtime": 2082000,
+    "ptime": 2082000,
+    "author": "Sergio Garcia Murillo",
+    "text": "libwebrtc!=webrtc<br/>"
+  },
+  {
+    "dtime": 2105000,
+    "ptime": 2105000,
+    "author": "lpardue",
+    "text": "I've found the material that documents practical limits about WebRTC today very useful, especially when talking to people outside this sphere that want to use webRTC to solve any and every problem<br/>"
+  },
+  {
+    "dtime": 2133000,
+    "ptime": 2133000,
+    "author": "Luke Curley",
+    "text": "unfortunately, libwebrtc == webrtc when web support is a requirement<br/>"
+  },
+  {
+    "dtime": 2133000,
+    "ptime": 2133000,
+    "author": "Kirill Pugin",
+    "text": "I agree, conceptually, nothing in WEbRTC prevents from having the knob, however in practice I have similar experience as Ying...<br/>"
+  },
+  {
+    "dtime": 2145000,
+    "ptime": 2145000,
+    "author": "Juliusz Chroboczek",
+    "text": "Christian: obviously.&nbsp;&nbsp;But video traffic is bursty (keyframes are many times larger than deltas), so if you can afford the latency, you can spread your keyframe over a larger interval and get higher latency at a given target throughput.<br/>"
+  },
+  {
+    "dtime": 2168000,
+    "ptime": 2168000,
+    "author": "Victor Vasiliev",
+    "text": "another issue with srt is that it has only one implementation, and iirc that implemetation does not do much in terms of CC<br/>"
+  },
+  {
+    "dtime": 2233000,
+    "ptime": 2233000,
+    "author": "Simon Romano",
+    "text": "+1 to Sergio<br/>"
+  },
+  {
+    "dtime": 2291000,
+    "ptime": 2291000,
+    "author": "Sergio Garcia Murillo",
+    "text": "+100 to Stephan<br/>"
+  },
+  {
+    "dtime": 2310000,
+    "ptime": 2310000,
+    "author": "Pete Resnick",
+    "text": "Stephan hereby causes coronaries among several transport people. ;-)<br/>"
+  },
+  {
+    "dtime": 2312000,
+    "ptime": 2312000,
+    "author": "Kirill Pugin",
+    "text": "mic: did I hear don't use CC?<br/>"
+  },
+  {
+    "dtime": 2316000,
+    "ptime": 2316000,
+    "author": "Kirill Pugin",
+    "text": ":D<br/>"
+  },
+  {
+    "dtime": 2337000,
+    "ptime": 2337000,
+    "author": "Matt Joras",
+    "text": "\"networks are elastic\" <br/>\"it works just fine\"<br/>"
+  },
+  {
+    "dtime": 2340000,
+    "ptime": 2340000,
+    "author": "Varun Singh",
+    "text": "he said you can \"misuse\" the network for a \"bit longer\"<br/>"
+  },
+  {
+    "dtime": 2347000,
+    "ptime": 2347000,
+    "author": "Dirk Kutscher",
+    "text": "That just means other flows have to yield to the non-CCed traffic.<br/>"
+  },
+  {
+    "dtime": 2352000,
+    "ptime": 2352000,
+    "author": "Christian Huitema",
+    "text": "@Juliusz yes, queuing helps somewhat. But then, queues tend to be either fully empty or completely full, and when full queuing some more does not help.<br/>"
+  },
+  {
+    "dtime": 2356000,
+    "ptime": 2356000,
+    "author": "Ted Hardie",
+    "text": "@Kirill the queue is closed, but what you heard was that \"CC is overrated by this organization.\"<br/>"
+  },
+  {
+    "dtime": 2365000,
+    "ptime": 2365000,
+    "author": "Luke Curley",
+    "text": "congestion means queuing which is terrible for live media<br/>"
+  },
+  {
+    "dtime": 2372000,
+    "ptime": 2372000,
+    "author": "Victor Vasiliev",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 2374000,
+    "ptime": 2374000,
+    "author": "Luke Curley",
+    "text": "not just the network as a whole<br/>"
+  },
+  {
+    "dtime": 2376000,
+    "ptime": 2376000,
+    "author": "spencerdawkins",
+    "text": "I'm not REMOTELY responsible for any part of MOQ, but we're having awesome discussions here that should probably be more visible to the community here. Suggestions would be to either start mailing list threads on the MOQ mailing list (which is also open during the BOF) or have the scribes/chairs copy the jabber logs into the minutes, and (possibly) clean them up a bit. <br/>"
+  },
+  {
+    "dtime": 2378000,
+    "ptime": 2378000,
+    "author": "Suhas Nandakumar",
+    "text": "+1 on the latencies<br/>"
+  },
+  {
+    "dtime": 2381000,
+    "ptime": 2381000,
+    "author": "James Gruessing",
+    "text": "We already have the terminology in mops-opcons<br/>"
+  },
+  {
+    "dtime": 2424000,
+    "ptime": 2424000,
+    "author": "Justin Uberti",
+    "text": "I liked the ULL50, ULL250 terminology in James' draft<br/>"
+  },
+  {
+    "dtime": 2432000,
+    "ptime": 2432000,
+    "author": "lpardue",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 2442000,
+    "ptime": 2442000,
+    "author": "Murray Kucherawy",
+    "text": "+1 to Spencer.<br/>"
+  },
+  {
+    "dtime": 2444000,
+    "ptime": 2444000,
+    "author": "Jake Holland",
+    "text": "yes, ull50 is a good trm<br/>"
+  },
+  {
+    "dtime": 2451000,
+    "ptime": 2451000,
+    "author": "hta",
+    "text": "Ultra low latency is when musicians can play together, which is less than 20 ms - preferably less than 5.<br/>"
+  },
+  {
+    "dtime": 2455000,
+    "ptime": 2455000,
+    "author": "Sergio Garcia Murillo",
+    "text": "I agree with spencer, most of the \"issues\" pointed out with webrtc are going to happen with any low latency implementation protocol<br/>"
+  },
+  {
+    "dtime": 2472000,
+    "ptime": 2472000,
+    "author": "Juliusz Chroboczek",
+    "text": "hta: drummers or violinists?<br/>"
+  },
+  {
+    "dtime": 2475000,
+    "ptime": 2475000,
+    "author": "Jake Holland",
+    "text": "ull10 is about where musicians can play together<br/>"
+  },
+  {
+    "dtime": 2495000,
+    "ptime": 2495000,
+    "author": "Justin Uberti",
+    "text": "it depends a lot on the instrument and type of music<br/>"
+  },
+  {
+    "dtime": 2511000,
+    "ptime": 2511000,
+    "author": "Pete Resnick",
+    "text": "You could remove the \"ul\" part. l10 vs l50 vs l100000000...<br/>"
+  },
+  {
+    "dtime": 2512000,
+    "ptime": 2512000,
+    "author": "Jake Holland",
+    "text": "sure. but does anything over 10 work?<br/>"
+  },
+  {
+    "dtime": 2516000,
+    "ptime": 2516000,
+    "author": "Lars Eggert",
+    "text": "+1 to cullen. make cc pluggable and factor our the problem<br/>"
+  },
+  {
+    "dtime": 2517000,
+    "ptime": 2517000,
+    "author": "Massimo Nilo",
+    "text": "+1 to Spencer \"copy the jabber logs into the minutes\"<br/>"
+  },
+  {
+    "dtime": 2518000,
+    "ptime": 2518000,
+    "author": "hta",
+    "text": "@juliusz both. The size of a symphony orchestray is chiefly set by the audio propagation delay between the 1st violin and the cellos.<br/>"
+  },
+  {
+    "dtime": 2519000,
+    "ptime": 2519000,
+    "author": "Matt Joras",
+    "text": "I find the discussion around QUIC congestion control confusing. The only documented \"QUIC congestion control\" is based on Reno. The QUIC WG is not chartered to work on congestion control.<br/>"
+  },
+  {
+    "dtime": 2532000,
+    "ptime": 2532000,
+    "author": "lpardue",
+    "text": "+1 to remove \"ul\"<br/>"
+  },
+  {
+    "dtime": 2567000,
+    "ptime": 2567000,
+    "author": "Chris Lemmons",
+    "text": "Can we not have a number that starts with a lower-case l, too? :)<br/>"
+  },
+  {
+    "dtime": 2567000,
+    "ptime": 2567000,
+    "author": "Jake Holland",
+    "text": "capitalize to disambiguate from a leading one is also nice<br/>"
+  },
+  {
+    "dtime": 2569000,
+    "ptime": 2569000,
+    "author": "Jake Holland",
+    "text": "L20<br/>"
+  },
+  {
+    "dtime": 2572000,
+    "ptime": 2572000,
+    "author": "Jake Holland",
+    "text": "L15<br/>"
+  },
+  {
+    "dtime": 2573000,
+    "ptime": 2573000,
+    "author": "hta",
+    "text": "+1 to L5.<br/>"
+  },
+  {
+    "dtime": 2576000,
+    "ptime": 2576000,
+    "author": "Maxim Sharabayko",
+    "text": "@Hang &gt; What is wrong with SRT regarding to large scale deployment?The main blocker Ying was talking about is that CDNs don't know they get SRT, but this of it as of some UDP traffic without any connection ID to understand how to route it.And for that putting SRT on top of QUIC instead of CDNs learning SRT is a possible way to go.<br/>"
+  },
+  {
+    "dtime": 2581000,
+    "ptime": 2581000,
+    "author": "Suhas Nandakumar",
+    "text": "i like what was suggested, don't use adjectives, just call them as they are latency &lt; 50, latency 50-250 and so on<br/>"
+  },
+  {
+    "dtime": 2598000,
+    "ptime": 2598000,
+    "author": "Pete Resnick",
+    "text": "(I love a good bikeshed.)<br/>"
+  },
+  {
+    "dtime": 2600000,
+    "ptime": 2600000,
+    "author": "Jana Iyengar",
+    "text": "Yeah, what Cullen and Matt said. Let's not talk about CC here, that is not productive.<br/>"
+  },
+  {
+    "dtime": 2606000,
+    "ptime": 2606000,
+    "author": "Barry Leiba",
+    "text": "hta: That effect is why I hate when musicians get the audience to clap along with the music.&nbsp;&nbsp;It's not \"along with\" anything as the audience hears it.<br/>"
+  },
+  {
+    "dtime": 2608000,
+    "ptime": 2608000,
+    "author": "Juliusz Chroboczek",
+    "text": "(The pandemic appears to have had the consequence of making the chat more interesting than the room.)<br/>"
+  },
+  {
+    "dtime": 2629000,
+    "ptime": 2629000,
+    "author": "Sergio Garcia Murillo",
+    "text": "but CC is the main source of all quality/latency issues with low latency streaming<br/>"
+  },
+  {
+    "dtime": 2644000,
+    "ptime": 2644000,
+    "author": "Justin Uberti",
+    "text": "We had the discussion about music latency in the previous session. Marching bands typically have to deal with &gt;50ms latency between the drumline and other instruments.<br/>"
+  },
+  {
+    "dtime": 2653000,
+    "ptime": 2653000,
+    "author": "Cullen Jennings",
+    "text": "The chat was always more interesting than the mic line :-)<br/>"
+  },
+  {
+    "dtime": 2662000,
+    "ptime": 2662000,
+    "author": "Christian Huitema",
+    "text": "WebRTC looks a bit like a baroque cathedral. Some more ornaments would certainly be even more so<br/>"
+  },
+  {
+    "dtime": 2672000,
+    "ptime": 2672000,
+    "author": "David Schinazi",
+    "text": "The brakes on my car are the main source of me slowing down, but I'd rather not remove them...<br/>"
+  },
+  {
+    "dtime": 2674000,
+    "ptime": 2674000,
+    "author": "Hang Shi",
+    "text": "@Maxim So you are saying anything other than QUIC(UDP with connection ID) is hard to deploy, is that right?<br/>"
+  },
+  {
+    "dtime": 2686000,
+    "ptime": 2686000,
+    "author": "Craig Taylor",
+    "text": "@Luke ...I love the slides tbh<br/>"
+  },
+  {
+    "dtime": 2688000,
+    "ptime": 2688000,
+    "author": "Suhas Nandakumar",
+    "text": "+1 on tak CC discussions elsewhere where we can focus on the specific adjustments needs to be done<br/>"
+  },
+  {
+    "dtime": 2733000,
+    "ptime": 2733000,
+    "author": "hta",
+    "text": "@suhas the CC *is* the specific adjustments that need to be done.....<br/>"
+  },
+  {
+    "dtime": 2740000,
+    "ptime": 2740000,
+    "author": "Craig Taylor",
+    "text": "Indeed: CC needs to be pluggable is the only thing we need to take here...<br/>"
+  },
+  {
+    "dtime": 2741000,
+    "ptime": 2741000,
+    "author": "Jake Holland",
+    "text": "@sergio: I'd think it's chieflly the network impairment especially under congestion (loss, reordering, jitter, etc).&nbsp;&nbsp;The congestion control response can exacerbate it, but the core problem is the way the packet stream timing gets messed up.<br/>"
+  },
+  {
+    "dtime": 2742000,
+    "ptime": 2742000,
+    "author": "Meetecho",
+    "text": "It also depends on the musician: I can't keep up with myself when I play on a local backing track :)<br/>"
+  },
+  {
+    "dtime": 2749000,
+    "ptime": 2749000,
+    "author": "David Schinazi",
+    "text": "(but yes I agree that we should not rathole on congestion control here, that's a discussion best held over beer)<br/>"
+  },
+  {
+    "dtime": 2761000,
+    "ptime": 2761000,
+    "author": "Hang Shi",
+    "text": "You can drop some data to get low latency and acceptable quality. CC is not the only way to go.<br/>"
+  },
+  {
+    "dtime": 2780000,
+    "ptime": 2780000,
+    "author": "Pete Resnick",
+    "text": "Ah, I remember the days when you could place bets on the time to someone saying the word \"multicast\" with this kind of presentation.<br/>"
+  },
+  {
+    "dtime": 2783000,
+    "ptime": 2783000,
+    "author": "hta",
+    "text": "@hang shi Dropping data is one (perfectly valid) form of CC.<br/>"
+  },
+  {
+    "dtime": 2786000,
+    "ptime": 2786000,
+    "author": "Kirill Pugin",
+    "text": "re WebRTC vs. world: I wonder if there is a chance we can unify ingest and distribution protocols<br/>"
+  },
+  {
+    "dtime": 2792000,
+    "ptime": 2792000,
+    "author": "Murray Kucherawy",
+    "text": "Beer resolves congestion control problems.<br/>"
+  },
+  {
+    "dtime": 2793000,
+    "ptime": 2793000,
+    "author": "Juliusz Chroboczek",
+    "text": "Christian: WebRTC is not a baroque cathedral, it's more like the plumbing system in my apartment block, which has been extended since 1917 by the different tenants with no central coordination.<br/>"
+  },
+  {
+    "dtime": 2816000,
+    "ptime": 2816000,
+    "author": "Christian Huitema",
+    "text": "That too...<br/>"
+  },
+  {
+    "dtime": 2829000,
+    "ptime": 2829000,
+    "author": "Matt Joras",
+    "text": "Hang: I think the point is that CDNs and in general the deployments looking to have an ingest solution already have infrastructure built up around QUIC and TCP. TCP has obvious problems. QUIC is easy to adapt hence the interest in adapting it for ingest.<br/>"
+  },
+  {
+    "dtime": 2851000,
+    "ptime": 2851000,
+    "author": "Mo Zanaty",
+    "text": "@Christian, baroque or b-roke?<br/>"
+  },
+  {
+    "dtime": 2856000,
+    "ptime": 2856000,
+    "author": "Pete Resnick",
+    "text": "As far as I can tell, *you* don't really have to worry so much about CC so long as everyone else is still worrying about CC. ;-)<br/>"
+  },
+  {
+    "dtime": 2874000,
+    "ptime": 2874000,
+    "author": "Jake Holland",
+    "text": "lol, yes.&nbsp;&nbsp;that is true.<br/>"
+  },
+  {
+    "dtime": 2889000,
+    "ptime": 2889000,
+    "author": "hta",
+    "text": "@pete, if everyone else is also me, I have to worry :-)<br/>"
+  },
+  {
+    "dtime": 2893000,
+    "ptime": 2893000,
+    "author": "Christian Huitema",
+    "text": "I was being nice. There is some aesthetic value in baroque cathedrals (if you forget the ugly bits about the wars of religion.)<br/>"
+  },
+  {
+    "dtime": 2941000,
+    "ptime": 2941000,
+    "author": "Pete Resnick",
+    "text": "@hta: \"Everyone else\" is *never* me. I am an individual!<br/>"
+  },
+  {
+    "dtime": 2941000,
+    "ptime": 2941000,
+    "author": "James Gruessing",
+    "text": "The soccer example isn't so good when you consider that existing OTT viewers will hear their neighbours watching on Cable/DTT/etc scream when a goal is scored and find out 45 seconds later.<br/>"
+  },
+  {
+    "dtime": 2953000,
+    "ptime": 2953000,
+    "author": "Pete Resnick",
+    "text": "(So Monty Python tells me.)<br/>"
+  },
+  {
+    "dtime": 2974000,
+    "ptime": 2974000,
+    "author": "lpardue",
+    "text": "James, what if we just delayed everyone by the same fixed time after it really happened? :D<br/>"
+  },
+  {
+    "dtime": 3012000,
+    "ptime": 3012000,
+    "author": "Kirill Pugin",
+    "text": "^ viewer sync is a good use-case to consider<br/>"
+  },
+  {
+    "dtime": 3014000,
+    "ptime": 3014000,
+    "author": "Alan Frindell",
+    "text": "spencer: is that a clarifying question or can you wait until the end?<br/>"
+  },
+  {
+    "dtime": 3039000,
+    "ptime": 3039000,
+    "author": "Kirill Pugin",
+    "text": "it doesn't have to me ULL, can be 30s latency, but all viewers seeing \"the same frame\"<br/>"
+  },
+  {
+    "dtime": 3059000,
+    "ptime": 3059000,
+    "author": "Maxim Sharabayko",
+    "text": "@Hang Everything that CDNs don't think makes sense to consider, probably in terms of cost to implement / the share among other protocols.<br/>"
+  },
+  {
+    "dtime": 3063000,
+    "ptime": 3063000,
+    "author": "Ali Begen",
+    "text": "@James, if your OTT is still 45 seconds behind live (that is around 35 seconds behind you cable/satellite), you can change your OTT provider. Today, they have everything to do this on par with cable/satellite which is the norm for broadcast<br/>"
+  },
+  {
+    "dtime": 3143000,
+    "ptime": 3143000,
+    "author": "Ali Begen",
+    "text": "You would never need a soccer OTT stream at a few seconds (I don't know much about the betting that indeed requires that kind of latency - all the bettings I know need you to bet in advance of the game)<br/>"
+  },
+  {
+    "dtime": 3160000,
+    "ptime": 3160000,
+    "author": "Simon Romano",
+    "text": "This slide is biased against WebRTC.<br/>"
+  },
+  {
+    "dtime": 3185000,
+    "ptime": 3185000,
+    "author": "Maxim Sharabayko",
+    "text": ":)<br/>"
+  },
+  {
+    "dtime": 3219000,
+    "ptime": 3219000,
+    "author": "Pete Resnick",
+    "text": "One of my old Qualcomm friends would by now start saying something about fountain codes and FEC.<br/>"
+  },
+  {
+    "dtime": 3255000,
+    "ptime": 3255000,
+    "author": "James Gruessing",
+    "text": "Ali: \"changing provider\" is a trivialisation of the problem space - consider DTT/Sat/Cable etc outputs don't have pesky buffering, ABR algorithms, etc.<br/>"
+  },
+  {
+    "dtime": 3257000,
+    "ptime": 3257000,
+    "author": "hta",
+    "text": "@luke we need to talk about how to report issues with webrtc....<br/>"
+  },
+  {
+    "dtime": 3261000,
+    "ptime": 3261000,
+    "author": "Simon Romano",
+    "text": "When I teach my class I say the exact opposite: nothing that leverages HTTP will ever be the rght choice for live multiimedia experiences :-)<br/>"
+  },
+  {
+    "dtime": 3271000,
+    "ptime": 3271000,
+    "author": "Justin Uberti",
+    "text": "seems like if game streaming can work over WebRTC we can get simpler streaming cases working as well. But that might be hitting on the end-to-end webrtc topic that Luke alludes to.<br/>"
+  },
+  {
+    "dtime": 3360000,
+    "ptime": 3360000,
+    "author": "Ali Begen",
+    "text": "@Simon, I dont know what you teach but I'd recommend not saying something like that to your students. Largest sports event have been nicely served over HTTP for many years now.<br/>"
+  },
+  {
+    "dtime": 3364000,
+    "ptime": 3364000,
+    "author": "Alan Frindell",
+    "text": "I think implementing WARP or something like it using H3 would require HTTP server push.<br/>"
+  },
+  {
+    "dtime": 3370000,
+    "ptime": 3370000,
+    "author": "James Gruessing",
+    "text": "Simon: HTTP is absolutely fine for On Demand use cases, serving immutable lumps of media that have no latency requisite is a well solved problem. Live and Interactive however...<br/>"
+  },
+  {
+    "dtime": 3390000,
+    "ptime": 3390000,
+    "author": "Simon Romano",
+    "text": "Agreed on the \"On Demand\" thing<br/>"
+  },
+  {
+    "dtime": 3479000,
+    "ptime": 3479000,
+    "author": "Ali Begen",
+    "text": "@James, you can surive with LL OTT today on part with cable/satellite, there are examples out there. Yes, you might stall more likely, but you don't have to carry your settop around to watch a game.<br/>"
+  },
+  {
+    "dtime": 3482000,
+    "ptime": 3482000,
+    "author": "Juliusz Chroboczek",
+    "text": "Simon, Ali, I think you don't have the same concept of what live latencies are acceptable.<br/>"
+  },
+  {
+    "dtime": 3529000,
+    "ptime": 3529000,
+    "author": "Roni Even",
+    "text": "latency vs quality reminds me the videoTemporalSpatialTradeOff parameter that had a value between 0 to 31 but not clear about the actual tradeoff and how to evaluate it<br/>"
+  },
+  {
+    "dtime": 3555000,
+    "ptime": 3555000,
+    "author": "Craig Taylor",
+    "text": "We talked about video use cases when looking at priorities and that was one of the reasons why negotitation was included, so alternate schemes could be used...<br/>"
+  },
+  {
+    "dtime": 3589000,
+    "ptime": 3589000,
+    "author": "lpardue",
+    "text": "negotiation is not included Craig :) only a deprecation of the old H2 priorities in H2<br/>"
+  },
+  {
+    "dtime": 3590000,
+    "ptime": 3590000,
+    "author": "Kirill Pugin",
+    "text": "mic: refreshing manifest for LL-DASH is not fun...<br/>"
+  },
+  {
+    "dtime": 3597000,
+    "ptime": 3597000,
+    "author": "Craig Taylor",
+    "text": "bah<br/>"
+  },
+  {
+    "dtime": 3613000,
+    "ptime": 3613000,
+    "author": "Craig Taylor",
+    "text": "clearly not paying attention<br/>"
+  },
+  {
+    "dtime": 3639000,
+    "ptime": 3639000,
+    "author": "James Gruessing",
+    "text": "Ali: I disagree, and my hot take is that LL[HLS|DASH] is a bit of a bodge. CTE, server push, delta playlists etc are trying to push square peg protocols into a round hole problems and have some not-so-great limitations in scale and overhead.<br/>"
+  },
+  {
+    "dtime": 3648000,
+    "ptime": 3648000,
+    "author": "Victor Vasiliev",
+    "text": "As long as you don't reference stream IDs, almost any QUIC protocol can run over WebTransport<br/>"
+  },
+  {
+    "dtime": 3661000,
+    "ptime": 3661000,
+    "author": "lpardue",
+    "text": "forgot to say at the mic: needing per-request signals to express priority introduces an immediate latency cost. Whereas my understanding of Warp's needs is that a declaration that the session is best served LIFO will avoid that entirely<br/>"
+  },
+  {
+    "dtime": 3728000,
+    "ptime": 3728000,
+    "author": "Victor Vasiliev",
+    "text": "There's an open issue for controlling prioritization on WebTransport streams in W3C.&nbsp;&nbsp;We don't have any progress on it mostly because no one has been actively asking to do that<br/>"
+  },
+  {
+    "dtime": 3742000,
+    "ptime": 3742000,
+    "author": "lpardue",
+    "text": "and ignoring extensible priorities: you need your QUIC implemention to let the application have some control over how the application-data-bearing frames (STREAM and DATAGRAM) are multiplexed when active and concurrent<br/>"
+  },
+  {
+    "dtime": 3801000,
+    "ptime": 3801000,
+    "author": "lpardue",
+    "text": "supporting control at the QUIC layer and still ignoring H3 priority signals is totally allowed :)<br/>"
+  },
+  {
+    "dtime": 3821000,
+    "ptime": 3821000,
+    "author": "Ali Begen",
+    "text": "@James, you need to be more specific than that. Please explain what problems LL-DASH has. Nobody claims it is perfect but I argue it is far better than anything we have today. Educate me if you think otherwise. For LL-HLS, there are studies out there listing all the complexities it has so that is a rather well-known (at least for me) topic.<br/>"
+  },
+  {
+    "dtime": 3848000,
+    "ptime": 3848000,
+    "author": "Luke Curley",
+    "text": "yeah, the gist of warp is that newer requests need to finish first, which is backwards from traditional HTTP requests<br/>"
+  },
+  {
+    "dtime": 3929000,
+    "ptime": 3929000,
+    "author": "hta",
+    "text": "anyone caught which number he was quoting for conference sizes?<br/>"
+  },
+  {
+    "dtime": 3938000,
+    "ptime": 3938000,
+    "author": "Lorenzo Miniero",
+    "text": "1000 I think<br/>"
+  },
+  {
+    "dtime": 3948000,
+    "ptime": 3948000,
+    "author": "hta",
+    "text": "thanks!<br/>"
+  },
+  {
+    "dtime": 3977000,
+    "ptime": 3977000,
+    "author": "David Schinazi",
+    "text": "If we allowed them to be active speakers it'd be a mess :rofl:<br/>"
+  },
+  {
+    "dtime": 3983000,
+    "ptime": 3983000,
+    "author": "Jonathan Lennox",
+    "text": "As I understand it Meetecho is indeed switching between streaming and interactive as you request permission to speak.<br/>"
+  },
+  {
+    "dtime": 3986000,
+    "ptime": 3986000,
+    "author": "Sergio Garcia Murillo",
+    "text": "kind of tired of the Webrtc does not scale argument<br/>"
+  },
+  {
+    "dtime": 3996000,
+    "ptime": 3996000,
+    "author": "Eric Kinnear",
+    "text": "Luke: Makes sense, my gut reaction that that fits nicely into the sort of thing that's good to address with the new HTTP priorities is complicated by the question we asked at the time for the other priority things: \"Is this something the server can't figure out by itself, does it really need the client to send a signal on the wire for it?\" and I'm not sure how I feel about that for \"newer requests should finish first\"<br/>"
+  },
+  {
+    "dtime": 3998000,
+    "ptime": 3998000,
+    "author": "Lorenzo Miniero",
+    "text": "Jonathan yes, that's how we're serving the IETF meeting<br/>"
+  },
+  {
+    "dtime": 4002000,
+    "ptime": 4002000,
+    "author": "Simon Romano",
+    "text": "Ack to Jonathan<br/>"
+  },
+  {
+    "dtime": 4019000,
+    "ptime": 4019000,
+    "author": "Pete Resnick",
+    "text": "Live television news always has 5-second delays when they go to reporters in the field due to satellite links. Not much you can do about some kinds of latency.<br/>"
+  },
+  {
+    "dtime": 4025000,
+    "ptime": 4025000,
+    "author": "Lorenzo Miniero",
+    "text": "+1 Sergio<br/>"
+  },
+  {
+    "dtime": 4037000,
+    "ptime": 4037000,
+    "author": "Sergio Garcia Murillo",
+    "text": "how a quic based protocol be different in scaling to webrtc?<br/>"
+  },
+  {
+    "dtime": 4046000,
+    "ptime": 4046000,
+    "author": "Simon Romano",
+    "text": "+1K Sergio<br/>"
+  },
+  {
+    "dtime": 4054000,
+    "ptime": 4054000,
+    "author": "lpardue",
+    "text": "+ Eric K - a server could look for other headers (content-type?) to decide to do different things<br/>"
+  },
+  {
+    "dtime": 4061000,
+    "ptime": 4061000,
+    "author": "Luke Curley",
+    "text": "QUIC and WebRTC are basically the same for scaling (CPU performance)<br/>"
+  },
+  {
+    "dtime": 4066000,
+    "ptime": 4066000,
+    "author": "Varun Singh",
+    "text": "some of the issues with large conferencing is handling/rendering audio on the endpoint (mostly because of browser limitations)<br/>"
+  },
+  {
+    "dtime": 4069000,
+    "ptime": 4069000,
+    "author": "Jonathan Lennox",
+    "text": "Pete: If the reporters could broadcast over 5G rather than satellite with the protocol we define, we could solve that<br/>"
+  },
+  {
+    "dtime": 4071000,
+    "ptime": 4071000,
+    "author": "Juliusz Chroboczek",
+    "text": "Sergio, look at the bright side.&nbsp;&nbsp;If this meeting makes the HTTP people aware that \"sub-second latency\" is nothing to brag about, it will have done something useful.<br/>"
+  },
+  {
+    "dtime": 4072000,
+    "ptime": 4072000,
+    "author": "Simon Romano",
+    "text": "WebRTC scales as long as you're able to mak it scale (also architecture-wise)<br/>"
+  },
+  {
+    "dtime": 4075000,
+    "ptime": 4075000,
+    "author": "Luke Curley",
+    "text": "although \"scaling\" includes CDN support<br/>"
+  },
+  {
+    "dtime": 4087000,
+    "ptime": 4087000,
+    "author": "Sergio Garcia Murillo",
+    "text": "it is not easy, but we are able to do end to end webrtc streaming to hundred thousands viewers<br/>"
+  },
+  {
+    "dtime": 4091000,
+    "ptime": 4091000,
+    "author": "James Gruessing",
+    "text": "Pete: Where sat is still used (and it's being used less for domestic connectivity). Bonded 4G is more prevailent, 5G will supercede it<br/>"
+  },
+  {
+    "dtime": 4120000,
+    "ptime": 4120000,
+    "author": "Kirill Pugin",
+    "text": "I think the important part \"it's not easy\", imho<br/>"
+  },
+  {
+    "dtime": 4130000,
+    "ptime": 4130000,
+    "author": "Victor Vasiliev",
+    "text": "Well, the difference between QUIC and RTP in terms of CPU is that the optimizations made for serving HTTP can be reused<br/>"
+  },
+  {
+    "dtime": 4131000,
+    "ptime": 4131000,
+    "author": "Kirill Pugin",
+    "text": "@Sergio<br/>"
+  },
+  {
+    "dtime": 4135000,
+    "ptime": 4135000,
+    "author": "Sergio Garcia Murillo",
+    "text": "you think that doing that over quic would be easier?<br/>"
+  },
+  {
+    "dtime": 4137000,
+    "ptime": 4137000,
+    "author": "Sergio Garcia Murillo",
+    "text": "if so, why?<br/>"
+  },
+  {
+    "dtime": 4154000,
+    "ptime": 4154000,
+    "author": "Simon Romano",
+    "text": "@Kirill Life is not easy by definition<br/>"
+  },
+  {
+    "dtime": 4160000,
+    "ptime": 4160000,
+    "author": "Juliusz Chroboczek",
+    "text": "Sergio, I suspect that people are investing millions into QUIC proxying infratructure, and they don't wish to repeat the effort with RTP proxying infrastructure.&nbsp;&nbsp;It's an understandable concern.<br/>"
+  },
+  {
+    "dtime": 4160000,
+    "ptime": 4160000,
+    "author": "Matt Joras",
+    "text": "+1 Victor. The whole value proposition of QUIC relies on the fact that it is used for other things in a CDN/infrastructure. WebRTC is not.<br/>"
+  },
+  {
+    "dtime": 4170000,
+    "ptime": 4170000,
+    "author": "Sergio Garcia Murillo",
+    "text": "victor, but that is a chicken and egg situation<br/>"
+  },
+  {
+    "dtime": 4181000,
+    "ptime": 4181000,
+    "author": "Kirill Pugin",
+    "text": "it's already done :D - H3 is deployed<br/>"
+  },
+  {
+    "dtime": 4222000,
+    "ptime": 4222000,
+    "author": "Matt Joras",
+    "text": "Yeah it's not a chicken and egg problem. The chicken is walking around and clucking.<br/>"
+  },
+  {
+    "dtime": 4231000,
+    "ptime": 4231000,
+    "author": "Sergio Garcia Murillo",
+    "text": "I buy the \"we alredy have quic support and we want to use it for media streamin\" argument, it is perfectly reasonable<br/>"
+  },
+  {
+    "dtime": 4239000,
+    "ptime": 4239000,
+    "author": "Justin Uberti",
+    "text": "combining signaling and media over the same protocol would be pretty nice in many ways.<br/>"
+  },
+  {
+    "dtime": 4252000,
+    "ptime": 4252000,
+    "author": "Sergio Garcia Murillo",
+    "text": "what I don't buy is \"webrtc can't scale\"<br/>"
+  },
+  {
+    "dtime": 4296000,
+    "ptime": 4296000,
+    "author": "Hang Shi",
+    "text": "Agree. There is nothing fundamental about webRTC that makes it hard to scale.<br/>"
+  },
+  {
+    "dtime": 4298000,
+    "ptime": 4298000,
+    "author": "Sergio Garcia Murillo",
+    "text": "I disagree about the combining signaling and media over same transport is a nice feature, that is one of my issues about scaling rtmp vs webrtc<br/>"
+  },
+  {
+    "dtime": 4314000,
+    "ptime": 4314000,
+    "author": "Kirill Pugin",
+    "text": "@Sergio - I agree, it can scale, I think we need take into consideration how hard/easy that is, though<br/>"
+  },
+  {
+    "dtime": 4341000,
+    "ptime": 4341000,
+    "author": "Sergio Garcia Murillo",
+    "text": "hard/easy depends on your proficiency on the technology also ;)<br/>"
+  },
+  {
+    "dtime": 4342000,
+    "ptime": 4342000,
+    "author": "Hang Shi",
+    "text": "Actually, Alibaba deploy large scale livestreaming using webRTC<br/>"
+  },
+  {
+    "dtime": 4351000,
+    "ptime": 4351000,
+    "author": "Kirill Pugin",
+    "text": "side note I think there is to much WebRTC mentioning :D<br/>"
+  },
+  {
+    "dtime": 4354000,
+    "ptime": 4354000,
+    "author": "Ali Begen",
+    "text": "If you throw at it enough money, it will surely scale.<br/>"
+  },
+  {
+    "dtime": 4362000,
+    "ptime": 4362000,
+    "author": "Sergio Garcia Murillo",
+    "text": "anyway, I am not against media over quic, just against saying that webrtc doesn't work for the same use case<br/>"
+  },
+  {
+    "dtime": 4367000,
+    "ptime": 4367000,
+    "author": "Simon Romano",
+    "text": "@Justin I see both pros and cons there<br/>"
+  },
+  {
+    "dtime": 4381000,
+    "ptime": 4381000,
+    "author": "Juliusz Chroboczek",
+    "text": "Sergio, I'm with you, but there's no denying the WebRTC stack is a mess.&nbsp;&nbsp;Amicus Plato, sed magia amica veritas.<br/>"
+  },
+  {
+    "dtime": 4387000,
+    "ptime": 4387000,
+    "author": "Luke Curley",
+    "text": "Warp is live for a fraction of Twitch Chrome users but it's going to be an absolute pain to optimize it to reach TCP levels<br/>"
+  },
+  {
+    "dtime": 4390000,
+    "ptime": 4390000,
+    "author": "Kirill Pugin",
+    "text": "@Hang, have you compared it to anything H3 based? How you do scrubbing back with WebRTC?<br/>"
+  },
+  {
+    "dtime": 4415000,
+    "ptime": 4415000,
+    "author": "Matt Joras",
+    "text": "There's nothing fundamentally blocking about using WebRTC, yet this is experience from people running actual infrastructure saying these things. While it may not be fundamentally true, it seems there's evidence it's practically difficult, and that's why there's a desire for other solutions.<br/>"
+  },
+  {
+    "dtime": 4425000,
+    "ptime": 4425000,
+    "author": "Justin Uberti",
+    "text": "just saying it would be nice to be able to simply open a grpc connection to a hostname and start getting low latency media over that connection.<br/>"
+  },
+  {
+    "dtime": 4440000,
+    "ptime": 4440000,
+    "author": "Simon Romano",
+    "text": "Agreed<br/>"
+  },
+  {
+    "dtime": 4475000,
+    "ptime": 4475000,
+    "author": "Pete Resnick",
+    "text": "I'll ask it at the mic, but I still don't see how any of this is related to QUIC (other than simply saying, \"This stuff will run better over QUIC\", which doesn't need any protocol work).<br/>"
+  },
+  {
+    "dtime": 4492000,
+    "ptime": 4492000,
+    "author": "Juliusz Chroboczek",
+    "text": "Justin: you really want to have the network drop packets on congestion if you're into low latency.&nbsp;&nbsp;(Hopefully the bottleneck has implemented a smart AQM.)<br/>"
+  },
+  {
+    "dtime": 4514000,
+    "ptime": 4514000,
+    "author": "Jonathan Lennox",
+    "text": "Pete: this is APP-layer work not TSV-layer IMO - i.e. *how* best to run it over QUIC.<br/>"
+  },
+  {
+    "dtime": 4543000,
+    "ptime": 4543000,
+    "author": "Pete Resnick",
+    "text": "@Jonathan: But wouldn't the same kinds of things make it run best over non-QUIC?<br/>"
+  },
+  {
+    "dtime": 4553000,
+    "ptime": 4553000,
+    "author": "Sergio Garcia Murillo",
+    "text": "justin, i agree, but I would prefer to avoid having to rely on network load balance, it increases my cloud provider costs<br/>"
+  },
+  {
+    "dtime": 4560000,
+    "ptime": 4560000,
+    "author": "Jonathan Lennox",
+    "text": "Not if it's specifically taking advantage of QUIC features<br/>"
+  },
+  {
+    "dtime": 4569000,
+    "ptime": 4569000,
+    "author": "James Gruessing",
+    "text": "Ali: The tl;dr is LL versions change the requirements for state of playback back to edge and origin. Non-LL doesn't need to know where the player is at, and edge can be \"generic\". There's plenty of gains for us coming up with a more cleanly delineated, simpler solution and have both lower latency *and* scale.<br/>"
+  },
+  {
+    "dtime": 4578000,
+    "ptime": 4578000,
+    "author": "Magnus Westerlund",
+    "text": "Pete, to me you are correct. QUIC is only an enabler. It is also in some sense the straw that broke the back the wall of actually look at new media delivery protocol.<br/>"
+  },
+  {
+    "dtime": 4593000,
+    "ptime": 4593000,
+    "author": "Sergio Garcia Murillo",
+    "text": "so a redirection feature would be nice in that case, so I can do load balance inside my service<br/>"
+  },
+  {
+    "dtime": 4599000,
+    "ptime": 4599000,
+    "author": "Justin Uberti",
+    "text": "@sergio being able to use off-the-shelf stuff like HTTP LBs is one of the key goals here, IMHO.<br/>"
+  },
+  {
+    "dtime": 4611000,
+    "ptime": 4611000,
+    "author": "Hang Shi",
+    "text": "WebRTC has lower latency compared to H3 but it can not support scrubbing back. Alibaba disable that feature for the viewers.<br/>"
+  },
+  {
+    "dtime": 4618000,
+    "ptime": 4618000,
+    "author": "Luke Curley",
+    "text": "Warp and RUSH take advantage of QUIC functionality<br/>"
+  },
+  {
+    "dtime": 4628000,
+    "ptime": 4628000,
+    "author": "Kirill Pugin",
+    "text": "@Hang what about quality?<br/>"
+  },
+  {
+    "dtime": 4629000,
+    "ptime": 4629000,
+    "author": "Luke Curley",
+    "text": "QuicR seems like a layer on top<br/>"
+  },
+  {
+    "dtime": 4635000,
+    "ptime": 4635000,
+    "author": "Ali Begen",
+    "text": "@James, I feel like you are misinterpreting how LL-DASH works. LL-HLS has the exact problem you mentioned but LL-DASH simply does not depend on any of it<br/>"
+  },
+  {
+    "dtime": 4640000,
+    "ptime": 4640000,
+    "author": "Pete Resnick",
+    "text": "@Jonathan: But that's not QUIC specific really. That's just saying, \"If you're going to do this over TCP, you're going to have to implement dealing with HoL blocking.\"<br/>"
+  },
+  {
+    "dtime": 4643000,
+    "ptime": 4643000,
+    "author": "Sergio Garcia Murillo",
+    "text": "HTTP LBs has extra cost in all cloud providers, it is affordable now because the amount of that you send is not huge<br/>"
+  },
+  {
+    "dtime": 4645000,
+    "ptime": 4645000,
+    "author": "Ted Hardie",
+    "text": "Magnus's point is good:&nbsp;&nbsp;if it is time to create a new media delivery protocol, we have two choices based on worked examples:&nbsp;&nbsp;QUIC and WebRTC.&nbsp;&nbsp;QUIC has some features that made it scaling in fan-out situations better.<br/>"
+  },
+  {
+    "dtime": 4656000,
+    "ptime": 4656000,
+    "author": "Sergio Garcia Murillo",
+    "text": "but if you send media over the LB connection, the costs will be huge<br/>"
+  },
+  {
+    "dtime": 4675000,
+    "ptime": 4675000,
+    "author": "Victor Vasiliev",
+    "text": "Sure, but it's also much lower QPS<br/>"
+  },
+  {
+    "dtime": 4685000,
+    "ptime": 4685000,
+    "author": "Hang Shi",
+    "text": "Based on my experience, quality is good too. Alibaba must do a lot of tweaking in webRTC.<br/>"
+  },
+  {
+    "dtime": 4687000,
+    "ptime": 4687000,
+    "author": "Kirill Pugin",
+    "text": "@Sergio, what do you mean by not huge? What huge is?<br/>"
+  },
+  {
+    "dtime": 4692000,
+    "ptime": 4692000,
+    "author": "Craig Taylor",
+    "text": "Consolidate/enable: The existing solutions all work, but use different transports/code.... Consolidating here should improve interop/code reuse and also help with some of the in path elements such as CID routing...<br/>"
+  },
+  {
+    "dtime": 4701000,
+    "ptime": 4701000,
+    "author": "Justin Uberti",
+    "text": "I do feel pretty strongly that you shouldn't have to build your own LBs to deploy low latency apps.<br/>"
+  },
+  {
+    "dtime": 4707000,
+    "ptime": 4707000,
+    "author": "Pete Resnick",
+    "text": "I don't think my question is \"clarifying\".<br/>"
+  },
+  {
+    "dtime": 4736000,
+    "ptime": 4736000,
+    "author": "Simon Romano",
+    "text": "I strongly disagree also with the argument against RTP and multicast. As outdated as it might look, I do believe this might still play a fundamental role, especially in the core part of the distribution network.<br/>"
+  },
+  {
+    "dtime": 4774000,
+    "ptime": 4774000,
+    "author": "Justin Uberti",
+    "text": "That's the sort of thing people point at when they say it's hard to deploy webrtc apps - most of the public cloud infra that exists for HTTP doesn't really work.<br/>"
+  },
+  {
+    "dtime": 4776000,
+    "ptime": 4776000,
+    "author": "Hang Shi",
+    "text": "Actually IPTV is using RTP and multicast.<br/>"
+  },
+  {
+    "dtime": 4776000,
+    "ptime": 4776000,
+    "author": "Lorenzo Miniero",
+    "text": "We do make use uf multicast in scaling our WebRTC distribution in some scenarios (some of our customers do as well). I did a presentation in MBONED a few meetings ago<br/>"
+  },
+  {
+    "dtime": 4798000,
+    "ptime": 4798000,
+    "author": "Craig Taylor",
+    "text": "...there you go @pete<br/>"
+  },
+  {
+    "dtime": 4800000,
+    "ptime": 4800000,
+    "author": "Simon Romano",
+    "text": "And it simply works.<br/>"
+  },
+  {
+    "dtime": 4820000,
+    "ptime": 4820000,
+    "author": "Pete Resnick",
+    "text": "@Craig: Whoops, did I miss something?<br/>"
+  },
+  {
+    "dtime": 4851000,
+    "ptime": 4851000,
+    "author": "James Gruessing",
+    "text": "Hang: Where multicast exists. There are some cable providers with inherited networks that have multicast islands or just can't do it and end up doing even.. RTSP...<br/>"
+  },
+  {
+    "dtime": 4857000,
+    "ptime": 4857000,
+    "author": "Jana Iyengar",
+    "text": "Exactly. What Cullen's saying.<br/>"
+  },
+  {
+    "dtime": 4866000,
+    "ptime": 4866000,
+    "author": "Sergio Garcia Murillo",
+    "text": "GCP: Inbound data processed by load balancer&nbsp;&nbsp;&nbsp;&nbsp;$0.008&nbsp;&nbsp;&nbsp;&nbsp;Per GB<br/>"
+  },
+  {
+    "dtime": 4888000,
+    "ptime": 4888000,
+    "author": "lpardue",
+    "text": "IME extant multicast networks are not friendly to evolution<br/>"
+  },
+  {
+    "dtime": 4911000,
+    "ptime": 4911000,
+    "author": "Sergio Garcia Murillo",
+    "text": "that's 10% of our service cost per GB<br/>"
+  },
+  {
+    "dtime": 5006000,
+    "ptime": 5006000,
+    "author": "Christian Huitema",
+    "text": "Does anybody actually use layered encodings?<br/>"
+  },
+  {
+    "dtime": 5049000,
+    "ptime": 5049000,
+    "author": "Varun Singh",
+    "text": "Temporal layers, yes, a lot. Spatial layers, less or leaning no.<br/>"
+  },
+  {
+    "dtime": 5059000,
+    "ptime": 5059000,
+    "author": "Juliusz Chroboczek",
+    "text": "Christian: temporal scalability with VP8/VP9 is easy.<br/>"
+  },
+  {
+    "dtime": 5059000,
+    "ptime": 5059000,
+    "author": "Kirill Pugin",
+    "text": "WebRTC :D<br/>"
+  },
+  {
+    "dtime": 5064000,
+    "ptime": 5064000,
+    "author": "hta",
+    "text": "@christian the default WebRTC deployment uses temporal layers.<br/>"
+  },
+  {
+    "dtime": 5088000,
+    "ptime": 5088000,
+    "author": "Jake Holland",
+    "text": "+1 @Simon, multicast is not as hopeless as people think.<br/>"
+  },
+  {
+    "dtime": 5093000,
+    "ptime": 5093000,
+    "author": "hta",
+    "text": "Lots of noise around svc for webrtc just now - see webrtc-svc specs and intent-to-implement stuff around it.<br/>"
+  },
+  {
+    "dtime": 5096000,
+    "ptime": 5096000,
+    "author": "Mo Zanaty",
+    "text": "Temporal layers are not really layers to codec people.<br/>"
+  },
+  {
+    "dtime": 5107000,
+    "ptime": 5107000,
+    "author": "Varun Singh",
+    "text": "it feels that cullen's proposal is a \"pull\" model and ergo caching in CDNs<br/>"
+  },
+  {
+    "dtime": 5117000,
+    "ptime": 5117000,
+    "author": "Juliusz Chroboczek",
+    "text": "Mo: fair enough.&nbsp;&nbsp;But my concern with streams per GOP holds even for temporal.<br/>"
+  },
+  {
+    "dtime": 5126000,
+    "ptime": 5126000,
+    "author": "Jake Holland",
+    "text": "however, I think multicast is less about the core than about being efficient on the actual broadcast media (the last mile cable loops/fiber)<br/>"
+  },
+  {
+    "dtime": 5135000,
+    "ptime": 5135000,
+    "author": "Victor Vasiliev",
+    "text": "I believe it's push? It has subscribe as a fundamental verb<br/>"
+  },
+  {
+    "dtime": 5147000,
+    "ptime": 5147000,
+    "author": "Jake Holland",
+    "text": "you can scale out the core cheaper than deploying multicast, but you cannot lay new cable to all the home cheaper<br/>"
+  },
+  {
+    "dtime": 5177000,
+    "ptime": 5177000,
+    "author": "Hang Shi",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 5180000,
+    "ptime": 5180000,
+    "author": "Varun Singh",
+    "text": "compared to arguments of scaling webrtc, which is a set up and then the servers push. Servers also make the decisions and hide those decisions from the clients. aka, SFUs doing simulcast switches<br/>"
+  },
+  {
+    "dtime": 5186000,
+    "ptime": 5186000,
+    "author": "hta",
+    "text": "stream per dependency chain may make sense - when you fall too far behind (which may be whenever you lose a frame), you terminate that stream and start a new one, with a leading i-frame....<br/>"
+  },
+  {
+    "dtime": 5202000,
+    "ptime": 5202000,
+    "author": "Luke Curley",
+    "text": "@hta absolutely<br/>"
+  },
+  {
+    "dtime": 5213000,
+    "ptime": 5213000,
+    "author": "Simon Romano",
+    "text": "@Jake the last mile is one more point where you can take advantage of multicast (DAZN s indeed doing that in Italy, when the last mile is operated by a specific ISP).<br/>"
+  },
+  {
+    "dtime": 5244000,
+    "ptime": 5244000,
+    "author": "Luke Curley",
+    "text": "my idea for Warp is that each layer of the pyramid is a QUIC stream<br/>"
+  },
+  {
+    "dtime": 5244000,
+    "ptime": 5244000,
+    "author": "Dirk Kutscher",
+    "text": "+1 to Spencer<br/>"
+  },
+  {
+    "dtime": 5252000,
+    "ptime": 5252000,
+    "author": "Cullen Jennings",
+    "text": "Tor uses relays to avoid centralization. So did Skype. <br/>"
+  },
+  {
+    "dtime": 5272000,
+    "ptime": 5272000,
+    "author": "hta",
+    "text": "sigh ... the Internet will get more centalized, and what we do here will be blamed for it, whehter it is the cause of the centralization or not.<br/>"
+  },
+  {
+    "dtime": 5328000,
+    "ptime": 5328000,
+    "author": "Pete Resnick",
+    "text": "There we go! At the mic even. \"Multicast!\"<br/>"
+  },
+  {
+    "dtime": 5329000,
+    "ptime": 5329000,
+    "author": "Varun Singh",
+    "text": "I am thinking through the \"named content\" parts for cacheability. I am assuming those can be pulled.<br/>"
+  },
+  {
+    "dtime": 5350000,
+    "ptime": 5350000,
+    "author": "Craig Taylor",
+    "text": "BT run a multicast network<br/>"
+  },
+  {
+    "dtime": 5352000,
+    "ptime": 5352000,
+    "author": "Varun Singh",
+    "text": "assuming the CDN cached that named contnet<br/>"
+  },
+  {
+    "dtime": 5363000,
+    "ptime": 5363000,
+    "author": "lpardue",
+    "text": "I can only get my printer to work via USB<br/>"
+  },
+  {
+    "dtime": 5370000,
+    "ptime": 5370000,
+    "author": "Brian Trammell",
+    "text": "well yes. but care should be taken to make sure the interfaces in the MoQ architecture don't *force* you to build a centralizing machines<br/>"
+  },
+  {
+    "dtime": 5381000,
+    "ptime": 5381000,
+    "author": "Brian Trammell",
+    "text": "i'd watch TV at home over multicast, if I watched TV.<br/>"
+  },
+  {
+    "dtime": 5411000,
+    "ptime": 5411000,
+    "author": "Brian Trammell",
+    "text": "mainly i just listen to my neighbors yelling to figure out what's going in with the sportsball<br/>"
+  },
+  {
+    "dtime": 5425000,
+    "ptime": 5425000,
+    "author": "Lorenzo Miniero",
+    "text": ":)<br/>"
+  },
+  {
+    "dtime": 5441000,
+    "ptime": 5441000,
+    "author": "lpardue",
+    "text": "to Cullen's point on multicast and wifi - there is an RFC on that - <a href=\"https://datatracker.ietf.org/doc/rfc9119/\" rel=\"nofollow\">https://datatracker.ietf.org/doc/rfc9119/</a><br/>"
+  },
+  {
+    "dtime": 5456000,
+    "ptime": 5456000,
+    "author": "Brian Trammell",
+    "text": "(and ngl i sit on my balcony with a stopwatch to measure latency differences in the last mile during the Euros and the World Cup)<br/>"
+  },
+  {
+    "dtime": 5462000,
+    "ptime": 5462000,
+    "author": "Craig Taylor",
+    "text": "...and also something similar for LTE<br/>"
+  },
+  {
+    "dtime": 5503000,
+    "ptime": 5503000,
+    "author": "Craig Taylor",
+    "text": "(albeit in a different standards body)<br/>"
+  },
+  {
+    "dtime": 5543000,
+    "ptime": 5543000,
+    "author": "Magnus Westerlund",
+    "text": "How to do multicast over LTE is already existing. Ericsson can sell you a solution. It is just that it doesn't get deployed much. <br/>"
+  },
+  {
+    "dtime": 5555000,
+    "ptime": 5555000,
+    "author": "Jake Holland",
+    "text": "yep.&nbsp;&nbsp;working on it.<br/>"
+  },
+  {
+    "dtime": 5563000,
+    "ptime": 5563000,
+    "author": "Ted Hardie",
+    "text": "Do they roll their own crypto too?<br/>"
+  },
+  {
+    "dtime": 5567000,
+    "ptime": 5567000,
+    "author": "Jake Holland",
+    "text": "I think multicast is mostly a different discussion<br/>"
+  },
+  {
+    "dtime": 5572000,
+    "ptime": 5572000,
+    "author": "Dirk Kutscher",
+    "text": ";-)<br/>"
+  },
+  {
+    "dtime": 5580000,
+    "ptime": 5580000,
+    "author": "Brian Trammell",
+    "text": "yes but it is a very attractive rabbithole<br/>"
+  },
+  {
+    "dtime": 5598000,
+    "ptime": 5598000,
+    "author": "Cullen Jennings",
+    "text": "+1 Chesire <br/>"
+  },
+  {
+    "dtime": 5611000,
+    "ptime": 5611000,
+    "author": "Jake Holland",
+    "text": "i am so far down that rabbithole as a matter of career that i would encourage people who want to discuss it to come discuss it with me in another venue<br/>"
+  },
+  {
+    "dtime": 5613000,
+    "ptime": 5613000,
+    "author": "Brian Trammell",
+    "text": "(i suspect the multicast rabbithole is actually a tree of rabbitholes)<br/>"
+  },
+  {
+    "dtime": 5630000,
+    "ptime": 5630000,
+    "author": "David Schinazi",
+    "text": "@Brian lol<br/>"
+  },
+  {
+    "dtime": 5644000,
+    "ptime": 5644000,
+    "author": "Juliusz Chroboczek",
+    "text": "Heh.<br/>"
+  },
+  {
+    "dtime": 5653000,
+    "ptime": 5653000,
+    "author": "Christian Huitema",
+    "text": "To answer Pete's question: QUIC &amp; head of line blocking<br/>"
+  },
+  {
+    "dtime": 5656000,
+    "ptime": 5656000,
+    "author": "Simon Romano",
+    "text": "I have a general feeling that this (much interesting, btw) BoF has just the wrong name. It is not about media over QUIC. It is rather about finding effective solutions for distributing live real-time (possibly bi-directional) multimedia flows in an effective way. And many such proposals would not even mention QUIC, in my humble opinion.<br/>"
+  },
+  {
+    "dtime": 5665000,
+    "ptime": 5665000,
+    "author": "Dirk Kutscher",
+    "text": "Regarding application-layer multicast, content naming, relays etc, this may be of interest: <a href=\"https://datatracker.ietf.org/doc/html/rfc7933\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/rfc7933</a><br/>"
+  },
+  {
+    "dtime": 5666000,
+    "ptime": 5666000,
+    "author": "Jake Holland",
+    "text": "for example, at next wednesday's w3c multicast community group meeting: <a href=\"https://www.w3.org/community/multicast/\" rel=\"nofollow\">https://www.w3.org/community/multicast/</a><br/>"
+  },
+  {
+    "dtime": 5667000,
+    "ptime": 5667000,
+    "author": "Luke Curley",
+    "text": "+1 absolutely, I went with QUIC instead of hand-rolling yet another UDP-based protocol because networking is harder than people realize<br/>"
+  },
+  {
+    "dtime": 5672000,
+    "ptime": 5672000,
+    "author": "Magnus Westerlund",
+    "text": "Yes, I think Cullen gave a good answer on multicast. At most enable future extension for multicast can be considered at an architectural level for a solutions.<br/>"
+  },
+  {
+    "dtime": 5674000,
+    "ptime": 5674000,
+    "author": "Barry Leiba",
+    "text": "An applicability statement in MOPS is probably right.<br/>"
+  },
+  {
+    "dtime": 5684000,
+    "ptime": 5684000,
+    "author": "Craig Taylor",
+    "text": "Consolidation/tech-debt<br/>"
+  },
+  {
+    "dtime": 5707000,
+    "ptime": 5707000,
+    "author": "Brian Trammell",
+    "text": "you could encapsulate SCTP in QUIC DATAGRAM?<br/>"
+  },
+  {
+    "dtime": 5721000,
+    "ptime": 5721000,
+    "author": "Pete Resnick",
+    "text": "Whee!!!!<br/>"
+  },
+  {
+    "dtime": 5723000,
+    "ptime": 5723000,
+    "author": "James Gruessing",
+    "text": "Brian it's too early in the morning for those kinds of ideas.<br/>"
+  },
+  {
+    "dtime": 5735000,
+    "ptime": 5735000,
+    "author": "Murray Kucherawy",
+    "text": "application/tech-debt<br/>"
+  },
+  {
+    "dtime": 5742000,
+    "ptime": 5742000,
+    "author": "spencerdawkins",
+    "text": "You can probably attribute the focus on QUIC to deployment issues with anything that doesn't run over TCP and UDP, that we cited when we chartered QUIC. <br/>"
+  },
+  {
+    "dtime": 5755000,
+    "ptime": 5755000,
+    "author": "Brian Trammell",
+    "text": "it's a week and a bit to 1 April so i'm probably rather late<br/>"
+  },
+  {
+    "dtime": 5775000,
+    "ptime": 5775000,
+    "author": "Ted Hardie",
+    "text": "@Brian run SCTP over UDP and use CONNECT-UDP.<br/>"
+  },
+  {
+    "dtime": 5807000,
+    "ptime": 5807000,
+    "author": "Cullen Jennings",
+    "text": "Use Webrtc to negotiate the layering stack :-)<br/>"
+  },
+  {
+    "dtime": 5810000,
+    "ptime": 5810000,
+    "author": "spencerdawkins",
+    "text": "@Ted Hardie - you are making me question the meaning of life ... <br/>"
+  },
+  {
+    "dtime": 5833000,
+    "ptime": 5833000,
+    "author": "Craig Taylor",
+    "text": "Things like: l2/3 devices being able to work with encrypted CIDs for one transport are hugely valuable<br/>"
+  },
+  {
+    "dtime": 5851000,
+    "ptime": 5851000,
+    "author": "Juliusz Chroboczek",
+    "text": "Ted, Cullen, you're onto something.<br/>"
+  },
+  {
+    "dtime": 5857000,
+    "ptime": 5857000,
+    "author": "Jake Holland",
+    "text": "you can never have too many tunnel layers.<br/>"
+  },
+  {
+    "dtime": 5874000,
+    "ptime": 5874000,
+    "author": "Jana Iyengar",
+    "text": "@Ted -- that might be a good way to run WebRTC signaling over QUIC<br/>"
+  },
+  {
+    "dtime": 5877000,
+    "ptime": 5877000,
+    "author": "Luke Curley",
+    "text": "distribution seems like a superset of ingest<br/>"
+  },
+  {
+    "dtime": 5904000,
+    "ptime": 5904000,
+    "author": "Luke Curley",
+    "text": "not 100% but you can absolutely use distribution protocols for ingest<br/>"
+  },
+  {
+    "dtime": 5912000,
+    "ptime": 5912000,
+    "author": "Cullen Jennings",
+    "text": "This chat is just full of gems of wisdom. Still laughing about the webrtc cathedral <br/>"
+  },
+  {
+    "dtime": 5925000,
+    "ptime": 5925000,
+    "author": "Sergio Garcia Murillo",
+    "text": "IMHO distribution use cases are orders of magnitude higher than ingest ones<br/>"
+  },
+  {
+    "dtime": 5928000,
+    "ptime": 5928000,
+    "author": "Sam Hurst",
+    "text": "+1 to James' comments on risking getting ingest bodged in later if we don't consider it now<br/>"
+  },
+  {
+    "dtime": 5986000,
+    "ptime": 5986000,
+    "author": "Alan Frindell",
+    "text": "Going to close the queue in a minute<br/>"
+  },
+  {
+    "dtime": 6063000,
+    "ptime": 6063000,
+    "author": "Pete Resnick",
+    "text": "@Victor: Yes, this should all work well over QUIC, and it will inevitably use QUIC. But that doesn't mean that it should *depend* on QUIC.<br/>"
+  },
+  {
+    "dtime": 6083000,
+    "ptime": 6083000,
+    "author": "Jake Holland",
+    "text": "yes, that is a good point.<br/>"
+  },
+  {
+    "dtime": 6084000,
+    "ptime": 6084000,
+    "author": "Kirill Pugin",
+    "text": "not just delivery :D<br/>"
+  },
+  {
+    "dtime": 6089000,
+    "ptime": 6089000,
+    "author": "Matt Joras",
+    "text": "That's essentially the same thing people said about HTTP/3<br/>"
+  },
+  {
+    "dtime": 6099000,
+    "ptime": 6099000,
+    "author": "lpardue",
+    "text": "TAPS -&gt; MAPS<br/>"
+  },
+  {
+    "dtime": 6102000,
+    "ptime": 6102000,
+    "author": "Kirill Pugin",
+    "text": "every time there is delivery use-case - there is corresponding ingest use-case as well<br/>"
+  },
+  {
+    "dtime": 6107000,
+    "ptime": 6107000,
+    "author": "Victor Vasiliev",
+    "text": "I'm not sure what's the difference between using QUIC and depending on it<br/>"
+  },
+  {
+    "dtime": 6112000,
+    "ptime": 6112000,
+    "author": "Jake Holland",
+    "text": "QAPS?<br/>"
+  },
+  {
+    "dtime": 6115000,
+    "ptime": 6115000,
+    "author": "Matt Joras",
+    "text": "+1 Victor<br/>"
+  },
+  {
+    "dtime": 6126000,
+    "ptime": 6126000,
+    "author": "James Gruessing",
+    "text": "+1 Kirill<br/>"
+  },
+  {
+    "dtime": 6186000,
+    "ptime": 6186000,
+    "author": "Dirk Kutscher",
+    "text": "@Ted, I think you are describing ICN over QUIC.<br/>"
+  },
+  {
+    "dtime": 6205000,
+    "ptime": 6205000,
+    "author": "Juliusz Chroboczek",
+    "text": "ICN?<br/>"
+  },
+  {
+    "dtime": 6211000,
+    "ptime": 6211000,
+    "author": "Pete Resnick",
+    "text": "@Victor: See Luke's comment on TAPS. You want certain capabilities; you don't care what's underneath, and if others have a use case where QUIC isn't underneath, that should be OK.<br/>"
+  },
+  {
+    "dtime": 6227000,
+    "ptime": 6227000,
+    "author": "Dirk Kutscher",
+    "text": "<a href=\"https://datatracker.ietf.org/rg/icnrg/about/\" rel=\"nofollow\">https://datatracker.ietf.org/rg/icnrg/about/</a><br/>"
+  },
+  {
+    "dtime": 6237000,
+    "ptime": 6237000,
+    "author": "Luke Curley",
+    "text": "yeah, Warp would work okay over HTTP/2 WebTransport, but best over HTTP/3 WebTransport<br/>"
+  },
+  {
+    "dtime": 6241000,
+    "ptime": 6241000,
+    "author": "Juliusz Chroboczek",
+    "text": "TY<br/>"
+  },
+  {
+    "dtime": 6248000,
+    "ptime": 6248000,
+    "author": "Jana Iyengar",
+    "text": "@Ted: NMPYN BoF doesn't have the same ring to it<br/>"
+  },
+  {
+    "dtime": 6263000,
+    "ptime": 6263000,
+    "author": "lpardue",
+    "text": "ngwebrtc<br/>"
+  },
+  {
+    "dtime": 6273000,
+    "ptime": 6273000,
+    "author": "Ted Hardie",
+    "text": "@Jana&nbsp;&nbsp;there's a reason I never went into marketing.<br/>"
+  },
+  {
+    "dtime": 6326000,
+    "ptime": 6326000,
+    "author": "Jake Holland",
+    "text": "it warms my soul to have multiple people in the same meting saying multicast out loud and in public without crapping on it.<br/>"
+  },
+  {
+    "dtime": 6348000,
+    "ptime": 6348000,
+    "author": "Matt Joras",
+    "text": "Pete: that is the same thing as \"Why does HTTP/3 depend on QUIC\" -- if someone wants to make a similar HTTP mapping to a different underlying transport that is their business. <br/>Depending on QUIC does have advantages insofar as protocol innovation can be driven by that dependence. Do we really expect that these usecases wouldn't be benefited by new transport semantics and innovation?<br/>"
+  },
+  {
+    "dtime": 6373000,
+    "ptime": 6373000,
+    "author": "Kirill Pugin",
+    "text": "I think when people talk about quality vs. latency tradeoffs is that people talking about risk - if I prefer latency, I would much more cautious about increasing quality<br/>"
+  },
+  {
+    "dtime": 6383000,
+    "ptime": 6383000,
+    "author": "Juliusz Chroboczek",
+    "text": "Could somebody point me at the place where packet scheduling of the QUIC sender is described?<br/>"
+  },
+  {
+    "dtime": 6428000,
+    "ptime": 6428000,
+    "author": "Pete Resnick",
+    "text": "NB: Nobody (especially me) has said *not* to do this over QUIC.<br/>"
+  },
+  {
+    "dtime": 6429000,
+    "ptime": 6429000,
+    "author": "Jody Beck",
+    "text": "+1 Matt<br/>"
+  },
+  {
+    "dtime": 6432000,
+    "ptime": 6432000,
+    "author": "Jana Iyengar",
+    "text": "@Juliusz -- There isn't one, because that is application and use-case dependent<br/>"
+  },
+  {
+    "dtime": 6438000,
+    "ptime": 6438000,
+    "author": "Sergio Garcia Murillo",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 6446000,
+    "ptime": 6446000,
+    "author": "James Gruessing",
+    "text": "Requirements can only really come when we have a vaguely agreed scope of use cases.<br/>"
+  },
+  {
+    "dtime": 6447000,
+    "ptime": 6447000,
+    "author": "Simon Romano",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 6473000,
+    "ptime": 6473000,
+    "author": "Barry Leiba",
+    "text": "Matt: I think the point is whether we need a new media protocol, or whether we're just talking about how to run existing protocols over QUIC to make best advantage.<br/>"
+  },
+  {
+    "dtime": 6482000,
+    "ptime": 6482000,
+    "author": "Barry Leiba",
+    "text": "I think it's the latter.<br/>"
+  },
+  {
+    "dtime": 6497000,
+    "ptime": 6497000,
+    "author": "lpardue",
+    "text": "@juliusz doe <a href=\"https://www.rfc-editor.org/rfc/rfc9000.html#section-13\" rel=\"nofollow\">https://www.rfc-editor.org/rfc/rfc9000.html#section-13</a> fit your ask?<br/>"
+  },
+  {
+    "dtime": 6504000,
+    "ptime": 6504000,
+    "author": "David Schinazi",
+    "text": "We need to write an IETFoverQUIC RFC<br/>"
+  },
+  {
+    "dtime": 6512000,
+    "ptime": 6512000,
+    "author": "Sergio Garcia Murillo",
+    "text": "+1 to cullen<br/>"
+  },
+  {
+    "dtime": 6521000,
+    "ptime": 6521000,
+    "author": "Christian Huitema",
+    "text": "@Juliusz; see <a href=\"https://www.researchgate.net/publication/342783300_Same_Standards_Different_Decisions_A_Study_of_QUIC_and_HTTP3_Implementation_Diversity\" rel=\"nofollow\">https://www.researchgate.net/publication/342783300_Same_Standards_Different_Decisions_A_Study_of_QUIC_and_HTTP3_Implementation_Diversity</a><br/>"
+  },
+  {
+    "dtime": 6526000,
+    "ptime": 6526000,
+    "author": "Alan Frindell",
+    "text": "justin: mariners!!<br/>"
+  },
+  {
+    "dtime": 6548000,
+    "ptime": 6548000,
+    "author": "Matt Joras",
+    "text": "Barry: considering we have proposals for _new protocol_ proposals, why would it be the latter? Clearly there is interest in new protocols utilizing QUIC, not just mapping existing protocols to QUIC.<br/>"
+  },
+  {
+    "dtime": 6562000,
+    "ptime": 6562000,
+    "author": "Jana Iyengar",
+    "text": "@Barry -- not quite ... if that was the case, we would be talking about WebRTC over QUIC<br/>"
+  },
+  {
+    "dtime": 6568000,
+    "ptime": 6568000,
+    "author": "Juliusz Chroboczek",
+    "text": "Jana, Christian, thanks to both.&nbsp;&nbsp;Section 2.3 of RFC 9000 is a big disappointment to me.<br/>"
+  },
+  {
+    "dtime": 6578000,
+    "ptime": 6578000,
+    "author": "Pete Resnick",
+    "text": "@David: One sentence RFC that says, \"Whatever protocol you create, you SHOULD run it over QUIC.\"<br/>"
+  },
+  {
+    "dtime": 6606000,
+    "ptime": 6606000,
+    "author": "Jake Holland",
+    "text": "yep.&nbsp;&nbsp;you can never have too many tunneling layers.<br/>"
+  },
+  {
+    "dtime": 6606000,
+    "ptime": 6606000,
+    "author": "Simon Romano",
+    "text": ":-))<br/>"
+  },
+  {
+    "dtime": 6612000,
+    "ptime": 6612000,
+    "author": "David Schinazi",
+    "text": "IPvQUIC?<br/>"
+  },
+  {
+    "dtime": 6626000,
+    "ptime": 6626000,
+    "author": "Jake Holland",
+    "text": "(that is called datagrams)<br/>"
+  },
+  {
+    "dtime": 6632000,
+    "ptime": 6632000,
+    "author": "Pete Resnick",
+    "text": "BGP over QUIC?<br/>"
+  },
+  {
+    "dtime": 6640000,
+    "ptime": 6640000,
+    "author": "Cullen Jennings",
+    "text": "sorry - I missed the name of what protcol he said <br/>"
+  },
+  {
+    "dtime": 6647000,
+    "ptime": 6647000,
+    "author": "Kirill Pugin",
+    "text": "SRT<br/>"
+  },
+  {
+    "dtime": 6648000,
+    "ptime": 6648000,
+    "author": "Juliusz Chroboczek",
+    "text": "SRT<br/>"
+  },
+  {
+    "dtime": 6651000,
+    "ptime": 6651000,
+    "author": "Cullen Jennings",
+    "text": "thanks<br/>"
+  },
+  {
+    "dtime": 6655000,
+    "ptime": 6655000,
+    "author": "Christian Huitema",
+    "text": "@Pete that would make more sense than BGP over TCP-AO<br/>"
+  },
+  {
+    "dtime": 6665000,
+    "ptime": 6665000,
+    "author": "Pete Resnick",
+    "text": ":-D<br/>"
+  },
+  {
+    "dtime": 6672000,
+    "ptime": 6672000,
+    "author": "lpardue",
+    "text": "there are at least two I-Ds for BGP over QUIC<br/>"
+  },
+  {
+    "dtime": 6686000,
+    "ptime": 6686000,
+    "author": "Pete Resnick",
+    "text": "MPLS over QUIC<br/>"
+  },
+  {
+    "dtime": 6688000,
+    "ptime": 6688000,
+    "author": "Luke Curley",
+    "text": "+1 there should be a tight binding between the encoding and transport layer<br/>"
+  },
+  {
+    "dtime": 6690000,
+    "ptime": 6690000,
+    "author": "lpardue",
+    "text": "e.g. <a href=\"https://datatracker.ietf.org/doc/draft-retana-idr-bgp-quic-stream/\" rel=\"nofollow\">https://datatracker.ietf.org/doc/draft-retana-idr-bgp-quic-stream/</a><br/>"
+  },
+  {
+    "dtime": 6694000,
+    "ptime": 6694000,
+    "author": "Jana Iyengar",
+    "text": "@Juliuz -- that is very deliberate. The application decides how to prioritize, not the transport. See HTTP/3 priorities discussion for a scheduling discussion on how HTTP can schedule.<br/>"
+  },
+  {
+    "dtime": 6697000,
+    "ptime": 6697000,
+    "author": "spencerdawkins",
+    "text": "@lpardue, why so few?<br/>"
+  },
+  {
+    "dtime": 6716000,
+    "ptime": 6716000,
+    "author": "lpardue",
+    "text": ":D<br/>"
+  },
+  {
+    "dtime": 6735000,
+    "ptime": 6735000,
+    "author": "Kirill Pugin",
+    "text": "mic: +1<br/>"
+  },
+  {
+    "dtime": 6761000,
+    "ptime": 6761000,
+    "author": "Sergio Garcia Murillo",
+    "text": "+1 to hta<br/>"
+  },
+  {
+    "dtime": 6762000,
+    "ptime": 6762000,
+    "author": "Luke Curley",
+    "text": "modifying the encoder bitrate, dropping frames, and queueing data are all forms of congestion control IMO<br/>"
+  },
+  {
+    "dtime": 6774000,
+    "ptime": 6774000,
+    "author": "Simon Romano",
+    "text": "+1 to what Harald is saying.<br/>"
+  },
+  {
+    "dtime": 6779000,
+    "ptime": 6779000,
+    "author": "Lars Eggert",
+    "text": "so we did try with rmcat. it didn't work well. open to trying again, but what has changed?<br/>"
+  },
+  {
+    "dtime": 6780000,
+    "ptime": 6780000,
+    "author": "David Schinazi",
+    "text": "IP router AQM is a form of congestion control<br/>"
+  },
+  {
+    "dtime": 6783000,
+    "ptime": 6783000,
+    "author": "Matt Joras",
+    "text": "To add to what Jana said, the application decides prioritization, the transport should provide a way to fulfill that prioritization.<br/>"
+  },
+  {
+    "dtime": 6785000,
+    "ptime": 6785000,
+    "author": "Luke Curley",
+    "text": "traditional TCP congestion control only focuses on queueing data, but live media is ore than that<br/>"
+  },
+  {
+    "dtime": 6785000,
+    "ptime": 6785000,
+    "author": "Juliusz Chroboczek",
+    "text": "Jana, I'm surely missing a piece here.&nbsp;&nbsp;If the application can communicate priorities to QUIC, shouldn't QUIC make it explicit what scheduling policies the application will get from the priorities it chooses?<br/>"
+  },
+  {
+    "dtime": 6791000,
+    "ptime": 6791000,
+    "author": "Dawei Fan",
+    "text": "+1 to what Harald is saying.<br/>"
+  },
+  {
+    "dtime": 6812000,
+    "ptime": 6812000,
+    "author": "Piers O'Hanlon",
+    "text": "+1 Harald<br/>"
+  },
+  {
+    "dtime": 6816000,
+    "ptime": 6816000,
+    "author": "David Schinazi",
+    "text": "@Juliusz that's more of an API question than a protocol question. RFC 9000 focused on the protocol but not APIs<br/>"
+  },
+  {
+    "dtime": 6857000,
+    "ptime": 6857000,
+    "author": "Jake Holland",
+    "text": "the claim that there are groups that know congestion control (very well) better than other groups that know media (somewhat well) is a bit sus.&nbsp;&nbsp;There's a reason iccrg is still a rg, *nobody* knows it all that well.<br/>"
+  },
+  {
+    "dtime": 6861000,
+    "ptime": 6861000,
+    "author": "Pete Resnick",
+    "text": "I'm really interested in the ones saying \"no\". What do they mean?<br/>"
+  },
+  {
+    "dtime": 6878000,
+    "ptime": 6878000,
+    "author": "Jake Holland",
+    "text": "but yes, +1 harald, that merger is at the core of what ietf should be addressing.<br/>"
+  },
+  {
+    "dtime": 6882000,
+    "ptime": 6882000,
+    "author": "Anna Brunstrom",
+    "text": "Re the API. There will be a talk on a QUIC mapping for TAPS in the TAPS session after lunch today.<br/>"
+  },
+  {
+    "dtime": 6900000,
+    "ptime": 6900000,
+    "author": "lpardue",
+    "text": "in time we (QUIC) might consider more text on prioritization and scheduling. But trying to answer that in RFC 9000 would have been difficult, time consuming and most likely yielded an incorrect answer<br/>"
+  },
+  {
+    "dtime": 6910000,
+    "ptime": 6910000,
+    "author": "Juliusz Chroboczek",
+    "text": "It would be nice to be able to abstain.<br/>"
+  },
+  {
+    "dtime": 6912000,
+    "ptime": 6912000,
+    "author": "Jana Iyengar",
+    "text": "Don't know, Cullen<br/>"
+  },
+  {
+    "dtime": 6919000,
+    "ptime": 6919000,
+    "author": "Piers O'Hanlon",
+    "text": "I think it would be useful to expose more info from the Congestion control state to application level.<br/>"
+  },
+  {
+    "dtime": 6920000,
+    "ptime": 6920000,
+    "author": "Jana Iyengar",
+    "text": "Hold up a newspaper Cullen<br/>"
+  },
+  {
+    "dtime": 6966000,
+    "ptime": 6966000,
+    "author": "Christian Huitema",
+    "text": "Live? The IETF? Aren't all comments at the mike pre-recorded years ago and then replayed?<br/>"
+  },
+  {
+    "dtime": 6966000,
+    "ptime": 6966000,
+    "author": "hta",
+    "text": "people can agree that there is a case that isn't met without agreeing on what the unmet use case is....¨<br/>"
+  },
+  {
+    "dtime": 6983000,
+    "ptime": 6983000,
+    "author": "lpardue",
+    "text": "the webtransport (in IETF and W3C) discussion about prioritization of streams vs datagram is a great example of how hard saying anything definitive is<br/>"
+  },
+  {
+    "dtime": 7008000,
+    "ptime": 7008000,
+    "author": "Jana Iyengar",
+    "text": "@Christian -- I believe that comment of yours is from 14 years ago.<br/>"
+  },
+  {
+    "dtime": 7018000,
+    "ptime": 7018000,
+    "author": "hta",
+    "text": "on the 3rd question I am not raising a hand, because I believe the question is not well formed.<br/>"
+  },
+  {
+    "dtime": 7039000,
+    "ptime": 7039000,
+    "author": "Justin Uberti",
+    "text": "likewise<br/>"
+  },
+  {
+    "dtime": 7060000,
+    "ptime": 7060000,
+    "author": "Simon Romano",
+    "text": "Same here<br/>"
+  },
+  {
+    "dtime": 7069000,
+    "ptime": 7069000,
+    "author": "Sergio Garcia Murillo",
+    "text": "same<br/>"
+  },
+  {
+    "dtime": 7079000,
+    "ptime": 7079000,
+    "author": "Eric Kinnear",
+    "text": "Is there a Live Media Streaming use case that is not met today?<br/>raise hand<br/>55<br/>do not raise hand<br/>13<br/>participants<br/>68<br/>"
+  },
+  {
+    "dtime": 7082000,
+    "ptime": 7082000,
+    "author": "David Schinazi",
+    "text": "I need to see requirements before I can answer 3<br/>"
+  },
+  {
+    "dtime": 7099000,
+    "ptime": 7099000,
+    "author": "Eric Kinnear",
+    "text": "Is there a Media Ingestion use case that is not met today?<br/>raise hand<br/>53<br/>do not raise hand<br/>7<br/>participants<br/>60<br/>"
+  },
+  {
+    "dtime": 7109000,
+    "ptime": 7109000,
+    "author": "Alan Frindell",
+    "text": "is ted's rephrasing sufficiiently clear<br/>"
+  },
+  {
+    "dtime": 7112000,
+    "ptime": 7112000,
+    "author": "Alan Frindell",
+    "text": "?<br/>"
+  },
+  {
+    "dtime": 7151000,
+    "ptime": 7151000,
+    "author": "Justin Uberti",
+    "text": "works for me<br/>"
+  },
+  {
+    "dtime": 7172000,
+    "ptime": 7172000,
+    "author": "Pete Resnick",
+    "text": "Yeah, I'm in the \"no clue\" category.<br/>"
+  },
+  {
+    "dtime": 7192000,
+    "ptime": 7192000,
+    "author": "Sergio Garcia Murillo",
+    "text": "re, the ones not raising hands. I don't think the use cases can't be met today with current standards. But I don't think that it prevents to create a new protocol for leveraging QUIC.<br/>"
+  },
+  {
+    "dtime": 7193000,
+    "ptime": 7193000,
+    "author": "hta",
+    "text": "since the previous polls did not identify the One And Only Use Case (I don't think there is one), \"sets of use cases\" is right.<br/>"
+  },
+  {
+    "dtime": 7201000,
+    "ptime": 7201000,
+    "author": "Eric Kinnear",
+    "text": "Should work on these two sets of use cases be done together?<br/>raise hand<br/>50<br/>do not raise hand<br/>8<br/>participants<br/>58<br/>"
+  },
+  {
+    "dtime": 7235000,
+    "ptime": 7235000,
+    "author": "lpardue",
+    "text": "that you chairs and all participants, this was fun<br/>"
+  },
+  {
+    "dtime": 7248000,
+    "ptime": 7248000,
+    "author": "spencerdawkins",
+    "text": "I sent an email to the MOQ list with Subject \"Can the IETF do more than one thing after the MOQ BOF?\" - it's my theory about how to move forward. Other people may have other thoughts, of course. :-D<br/>"
+  },
+  {
+    "dtime": 7256000,
+    "ptime": 7256000,
+    "author": "Simon Romano",
+    "text": "Loved this session. Thanks!<br/>"
+  },
+  {
+    "dtime": 7256000,
+    "ptime": 7256000,
+    "author": "Jake Holland",
+    "text": "this went way better than the last moq side meeting.<br/>"
+  },
+  {
+    "dtime": 7267000,
+    "ptime": 7267000,
+    "author": "Chris Lemmons",
+    "text": "Yes, many thanks to the chairs!<br/>"
+  },
+  {
+    "dtime": 7268000,
+    "ptime": 7268000,
+    "author": "Kirill Pugin",
+    "text": "lol<br/>"
+  },
+  {
+    "dtime": 7269000,
+    "ptime": 7269000,
+    "author": "Matt Joras",
+    "text": "100% fewer spreadsheets<br/>"
+  },
+  {
+    "dtime": 7273000,
+    "ptime": 7273000,
+    "author": "Murray Kucherawy",
+    "text": "Yeah, thanks, well done.<br/>"
+  },
+  {
+    "dtime": 7278000,
+    "ptime": 7278000,
+    "author": "hta",
+    "text": "good to see focus on \"what isthe problem to be solved\".<br/>"
+  },
+  {
+    "dtime": 7283000,
+    "ptime": 7283000,
+    "author": "Kirill Pugin",
+    "text": "thanks everyone!<br/>"
+  },
+  {
+    "dtime": 7285000,
+    "ptime": 7285000,
+    "author": "Juliusz Chroboczek",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 7287000,
+    "ptime": 7287000,
+    "author": "Jana Iyengar",
+    "text": "Spreadsheets FTW! Better than slides sometimes<br/>"
+  },
+  {
+    "dtime": 7289000,
+    "ptime": 7289000,
+    "author": "James Gruessing",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 7289000,
+    "ptime": 7289000,
+    "author": "Sam Hurst",
+    "text": "Thanks very much - very interesting session<br/>"
+  },
+  {
+    "dtime": 7300000,
+    "ptime": 7300000,
+    "author": "Varun Singh",
+    "text": "thanks!<br/>"
+  },
+  {
+    "dtime": 7313000,
+    "ptime": 7313000,
+    "author": "spencerdawkins",
+    "text": "@Jake - I think that side meeting had about the same number of participants, and I certainly would have benefitted from two chairs!<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-MOQ-20220323-0900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/moq"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF113-MOQ-20220323-0900"
+		}		
+	]
+}

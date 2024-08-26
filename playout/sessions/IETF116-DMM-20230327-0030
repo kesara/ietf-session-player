@@ -1,0 +1,105 @@
+
+{
+	"title": "IETF116-DMM-20230327-0030",
+	"filename": "IETF116-DMM-20230327-0030",
+	"start": 0,
+	"end": 7001000,
+	"start_datetime": "2023-03-27T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Vcx5C6pMZOk",
+    "start": 0,
+    "end": "7001000"
+  }
+],
+	"messages": [
+  {
+    "author": "Man Zhang",
+    "text": "<p>Good mornig</p>",
+    "topic": "ietf-116",
+    "dtime": 200000,
+    "ptime": 200000
+  },
+  {
+    "author": "Man Zhang",
+    "text": "<p>good morning, everyone, this is Zhiwei Yan</p>",
+    "topic": "ietf-116",
+    "dtime": 224000,
+    "ptime": 224000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>Reminder to all to wear masks while in the meeting room (and not speaking at the mic).</p>",
+    "topic": "ietf-116",
+    "dtime": 1843000,
+    "ptime": 1843000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>RFC 6225 might be helpful?</p>",
+    "topic": "ietf-116",
+    "dtime": 3930000,
+    "ptime": 3930000
+  },
+  {
+    "author": "Satoru Matsushima",
+    "text": "<p>DHCP?</p>",
+    "topic": "ietf-116",
+    "dtime": 4033000,
+    "ptime": 4033000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>yeah, but can give clients a location</p>",
+    "topic": "ietf-116",
+    "dtime": 4063000,
+    "ptime": 4063000
+  },
+  {
+    "author": "Satoru Matsushima",
+    "text": "<p>wifi may have their own mechanism in the spec</p>",
+    "topic": "ietf-116",
+    "dtime": 4116000,
+    "ptime": 4116000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>There are two aspects to this. DHCP Server can signal Civic Location to the STA. The STA in turn may signal some other location in the SIP headers. How can the e911 system be certain the signalled</p>",
+    "topic": "ietf-116",
+    "dtime": 4696000,
+    "ptime": 4696000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>location is indeed the right location</p>",
+    "topic": "ietf-116",
+    "dtime": 4710000,
+    "ptime": 4710000
+  },
+  {
+    "author": "Sri Gundavelli",
+    "text": "<p>What the spec is saying is to generate a Secure Location Tag, which is more an index into the real location. The AP/AN will signal the SLT and the real location to the backend system.</p>",
+    "topic": "ietf-116",
+    "dtime": 4790000,
+    "ptime": 4790000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-DMM-20230327-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/dmm"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-DMM-20230327-0030"
+		}		
+	]
+}

@@ -1,0 +1,322 @@
+
+{
+	"title": "IETF120-SUIT-20240723-0030",
+	"filename": "IETF120-SUIT-20240723-0030",
+	"start": 0,
+	"end": 3825000,
+	"start_datetime": "2024-07-23T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "2BQK9p5BKB4",
+    "start": 0,
+    "end": "3825000"
+  }
+],
+	"messages": [
+  {
+    "author": "Deb Cooley",
+    "text": "<p>test</p>",
+    "topic": "ietf-120",
+    "dtime": 25000,
+    "ptime": 25000
+  },
+  {
+    "author": "Akira Tsukamoto",
+    "text": "<p>hi</p>",
+    "topic": "ietf-120",
+    "dtime": 138000,
+    "ptime": 138000
+  },
+  {
+    "author": "David Brown",
+    "text": "<p>BTW, the \"notes\" for this session take me to notes for COSE.</p>",
+    "topic": "ietf-120",
+    "dtime": 395000,
+    "ptime": 395000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-120-suit?edit\">https://notes.ietf.org/notes-ietf-120-suit?edit</a></p>",
+    "topic": "ietf-120",
+    "dtime": 408000,
+    "ptime": 408000
+  },
+  {
+    "author": "David Brown",
+    "text": "<p>That looks good. The \"PDF\" link is from COSE, though.</p>",
+    "topic": "ietf-120",
+    "dtime": 439000,
+    "ptime": 439000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>that's weird.</p>",
+    "topic": "ietf-120",
+    "dtime": 552000,
+    "ptime": 552000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>A statement has effects, an expression also returns a value</p>",
+    "topic": "ietf-120",
+    "dtime": 995000,
+    "ptime": 995000
+  },
+  {
+    "author": "David Brown",
+    "text": "<p>I wouldn't consider \"statement\" and \"expression to be old vs new.</p>",
+    "topic": "ietf-120",
+    "dtime": 1002000,
+    "ptime": 1002000
+  },
+  {
+    "author": "David Brown",
+    "text": "<p>re Carsten's comment.</p>",
+    "topic": "ietf-120",
+    "dtime": 1019000,
+    "ptime": 1019000
+  },
+  {
+    "author": "David Brown",
+    "text": "<p>They have different and specific meanings.</p>",
+    "topic": "ietf-120",
+    "dtime": 1027000,
+    "ptime": 1027000
+  },
+  {
+    "author": "David Brown",
+    "text": "<p>To clarify, are was the intent of \"utf-8\" to say it isn't actually a UCI, but something encoded as UTF-8.</p>",
+    "topic": "ietf-120",
+    "dtime": 1262000,
+    "ptime": 1262000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>If you say it's a \"URI\" then it's pct encoded by definition.  Otherwise it's not a URI (if it has any i18n)</p>",
+    "topic": "ietf-120",
+    "dtime": 1357000,
+    "ptime": 1357000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>\"suit-parameter-uri<br>\nA UTF-8 encoded URI Reference [RFC3986] from which to fetch a resource.\"</p>",
+    "topic": "ietf-120",
+    "dtime": 1427000,
+    "ptime": 1427000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>It should say, when percent-decoded, it's UTF-8.</p>",
+    "topic": "ietf-120",
+    "dtime": 1516000,
+    "ptime": 1516000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>The URI is ASCII</p>",
+    "topic": "ietf-120",
+    "dtime": 1526000,
+    "ptime": 1526000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I would recommend to retain that restriction</p>",
+    "topic": "ietf-120",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I would recommend not to do that</p>",
+    "topic": "ietf-120",
+    "dtime": 1565000,
+    "ptime": 1565000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>Why would a SUIT parser want to ever percent-decode it?  It's for machine access only.  The only reason I know of to pct decode is for human display which the document says we don't do here.</p>",
+    "topic": "ietf-120",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>because that is the way we handle URIs in CoAP options.</p>",
+    "topic": "ietf-120",
+    "dtime": 1625000,
+    "ptime": 1625000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>It sounds carsten like you disagree with the statement \"URIs are for machine access only\"</p>",
+    "topic": "ietf-120",
+    "dtime": 1631000,
+    "ptime": 1631000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>er SUIT URIs</p>",
+    "topic": "ietf-120",
+    "dtime": 1641000,
+    "ptime": 1641000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>That is not what I'm saying.</p>",
+    "topic": "ietf-120",
+    "dtime": 1647000,
+    "ptime": 1647000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>I haven't heard a technical reason to say UTF-8.  \"Because COAP did\" isn't a technical reason I can understand.</p>",
+    "topic": "ietf-120",
+    "dtime": 1684000,
+    "ptime": 1684000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>so maybe you can elaborate on what the issue is?</p>",
+    "topic": "ietf-120",
+    "dtime": 1696000,
+    "ptime": 1696000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>You cannot use URIs that don't decode to UTF-8 with CoAP.  I'd say that is a pretty good reason.</p>",
+    "topic": "ietf-120",
+    "dtime": 1714000,
+    "ptime": 1714000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>I think you can, you just can't use the coap uri tag.  But I don't think we have anything using coap now.</p>",
+    "topic": "ietf-120",
+    "dtime": 1776000,
+    "ptime": 1776000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>with suit</p>",
+    "topic": "ietf-120",
+    "dtime": 1792000,
+    "ptime": 1792000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>CoAP has options, Uri-Path, Uri-Query, etc.</p>",
+    "topic": "ietf-120",
+    "dtime": 1808000,
+    "ptime": 1808000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>lets say someone wants to use SUIT with another protocol that only permits (say) UTF-16LE pct-encoded URIs.</p>",
+    "topic": "ietf-120",
+    "dtime": 1839000,
+    "ptime": 1839000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Don't use that protocol.</p>",
+    "topic": "ietf-120",
+    "dtime": 1851000,
+    "ptime": 1851000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>shouldn't a suit manifest be generic and usable with any protocol?</p>",
+    "topic": "ietf-120",
+    "dtime": 1853000,
+    "ptime": 1853000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Yes. including CoAP.</p>",
+    "topic": "ietf-120",
+    "dtime": 1864000,
+    "ptime": 1864000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>why would coap be special per se?</p>",
+    "topic": "ietf-120",
+    "dtime": 1871000,
+    "ptime": 1871000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>It has some relevance in the constrained space</p>",
+    "topic": "ietf-120",
+    "dtime": 1885000,
+    "ptime": 1885000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>pick any 2 protocols with mutually exclusive encoding requirements.   SUIT manifest should still work.</p>",
+    "topic": "ietf-120",
+    "dtime": 1888000,
+    "ptime": 1888000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>so it can be used with CoAP as long as you use UTF-8 encoded URIs.  But it doesn't mean that SUIT manifests that are only distributed via other protocols have to follow that constraint.</p>",
+    "topic": "ietf-120",
+    "dtime": 1916000,
+    "ptime": 1916000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>You can design the protocol to use EBCDIC. The IETF has decided to use UTF-8 some 25 years ago, and where we have a choice, we should heed that.</p>",
+    "topic": "ietf-120",
+    "dtime": 2045000,
+    "ptime": 2045000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Ignore idnits.</p>",
+    "topic": "ietf-120",
+    "dtime": 2125000,
+    "ptime": 2125000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>theres also no requirement that pct encoding has to be a string at all.  And I don't believe SUIT manifests should require that either.  They're just URIs.</p>",
+    "topic": "ietf-120",
+    "dtime": 2214000,
+    "ptime": 2214000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>That is a design decision you can make.  It is somewhat hostile to people trying to use the protcol, which is why I'd recommend against it.</p>",
+    "topic": "ietf-120",
+    "dtime": 2571000,
+    "ptime": 2571000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>There probably is a normative reference?</p>",
+    "topic": "ietf-120",
+    "dtime": 2860000,
+    "ptime": 2860000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-SUIT-20240723-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/suit"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-SUIT-20240723-0030"
+		}		
+	]
+}

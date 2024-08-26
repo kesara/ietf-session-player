@@ -1,0 +1,377 @@
+{
+  "title": "IETF113-MADINAS-20220324-1200",
+  "filename": "IETF113-MADINAS-20220324-1200",
+  "start": 0,
+  "end": 3736000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "NFijHo5BkR8",
+      "start": 0,
+      "end": "3736000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 90000,
+      "ptime": 90000,
+      "author": "Bob Moskowitz",
+      "text": "And some of us are eating breakfast....<br/>"
+    },
+    {
+      "dtime": 125000,
+      "ptime": 125000,
+      "author": "Carlos Bernardos",
+      "text": "Hi Bob, enjoy your breakfast ;)<br/>"
+    },
+    {
+      "dtime": 167000,
+      "ptime": 167000,
+      "author": "Bob Moskowitz",
+      "text": "Banana, jellied bread, and good Twinings Assam breakfast tea!<br/>"
+    },
+    {
+      "dtime": 273000,
+      "ptime": 273000,
+      "author": "Carlos Bernardos",
+      "text": "Meetecho: the Ethernet connection stopped working at the chair desk. I had to connect via wifi. Not sure if this is a problem with my setup, but was working before<br/>"
+    },
+    {
+      "dtime": 315000,
+      "ptime": 315000,
+      "author": "Meetecho",
+      "text": "We'll chekc later, thanks for the heads up<br/>"
+    },
+    {
+      "dtime": 765000,
+      "ptime": 765000,
+      "author": "Carlos Bernardos",
+      "text": "No prob!<br/>"
+    },
+    {
+      "dtime": 987000,
+      "ptime": 987000,
+      "author": "Bob Moskowitz",
+      "text": "I have been a bit remiss in not participating in how this work impacts Unmanned Aircraft Systems (UAS) Remote ID.&nbsp;&nbsp;Please look at <a href=\"https://datatracker.ietf.org/doc/draft-ietf-drip-rid/\" rel=\"nofollow\">https://datatracker.ietf.org/doc/draft-ietf-drip-rid/</a> and how important MAC address in Bluetooth 4 broadcasts and that even Bt5 and WiFi MAC address is still used.&nbsp;&nbsp;This CAN be limited per UA 'Operation' or what those outside UAS world would call a 'flight'.<br/>"
+    },
+    {
+      "dtime": 1063000,
+      "ptime": 1063000,
+      "author": "Bob Moskowitz",
+      "text": "there is NO identifier that can replace MAC address in Bluetooth 4.&nbsp;&nbsp;The frames are just too small.<br/>"
+    },
+    {
+      "dtime": 1084000,
+      "ptime": 1084000,
+      "author": "Éric Vyncke",
+      "text": "Unsure whether this survey of current standards should be in the use case I-D<br/>"
+    },
+    {
+      "dtime": 1148000,
+      "ptime": 1148000,
+      "author": "Yiu Lee",
+      "text": "The current version of the use case draft has removed the survey requirement.<br/>"
+    },
+    {
+      "dtime": 1173000,
+      "ptime": 1173000,
+      "author": "Bob Moskowitz",
+      "text": "In BT5 and WiFi, this ONLY works if the 'Basic Message' with the Remote ID is contained in each 'Message Pack'.&nbsp;&nbsp;Otherwise, even here MAC address is needed to link message together.<br/>"
+    },
+    {
+      "dtime": 1220000,
+      "ptime": 1220000,
+      "author": "Peter Yee",
+      "text": "Bob, are MAC addresses in BT4/5 being randomized?<br/>"
+    },
+    {
+      "dtime": 1259000,
+      "ptime": 1259000,
+      "author": "Bob Moskowitz",
+      "text": "It&nbsp;&nbsp;depends on the code.&nbsp;&nbsp;Not on the UA side.<br/>"
+    },
+    {
+      "dtime": 1558000,
+      "ptime": 1558000,
+      "author": "Mathieu Cunche",
+      "text": "@Peter : they can be randomized by the emitting device (see our study on current implementations : <a href=\"https://hal.inria.fr/hal-02394629\" rel=\"nofollow\">https://hal.inria.fr/hal-02394629</a>)<br/>"
+    },
+    {
+      "dtime": 1588000,
+      "ptime": 1588000,
+      "author": "Tim Cappalli",
+      "text": "100% agree with Michael's comments<br/>"
+    },
+    {
+      "dtime": 1632000,
+      "ptime": 1632000,
+      "author": "Tim Cappalli",
+      "text": "What about \"Is you refrigerator running?\" :)<br/>"
+    },
+    {
+      "dtime": 1645000,
+      "ptime": 1645000,
+      "author": "Mathieu Cunche",
+      "text": "@Bob : which device is randomizing the address in your use case ?<br/>"
+    },
+    {
+      "dtime": 1702000,
+      "ptime": 1702000,
+      "author": "Bob Moskowitz",
+      "text": "You may want your refrig to have a different MAC addr when you put it out for recycling.<br/>"
+    },
+    {
+      "dtime": 1787000,
+      "ptime": 1787000,
+      "author": "Peter Yee",
+      "text": "Thanks, Mathieu.<br/>"
+    },
+    {
+      "dtime": 1789000,
+      "ptime": 1789000,
+      "author": "Bob Moskowitz",
+      "text": "@Mathieu:&nbsp;&nbsp;randomizing is bad in UA use case, and the receiving app needs to get the MAC addr of the broadcast frames, not something the underlying OS decides to pass up to the app.<br/>"
+    },
+    {
+      "dtime": 1812000,
+      "ptime": 1812000,
+      "author": "Jerome Henry",
+      "text": "IEEE P1912 is exactly looking at the fridge case, or 'smart fridge', worth having a look, as smart fridges may send a lot of PII out<br/>"
+    },
+    {
+      "dtime": 1819000,
+      "ptime": 1819000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "meetecho<br/>"
+    },
+    {
+      "dtime": 1829000,
+      "ptime": 1829000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "can we point the camera to the presenter?<br/>"
+    },
+    {
+      "dtime": 1840000,
+      "ptime": 1840000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "tnx!<br/>"
+    },
+    {
+      "dtime": 1844000,
+      "ptime": 1844000,
+      "author": "Meetecho",
+      "text": "Done, sorry for missing that!<br/>"
+    },
+    {
+      "dtime": 1880000,
+      "ptime": 1880000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "thanks!<br/>"
+    },
+    {
+      "dtime": 1941000,
+      "ptime": 1941000,
+      "author": "Mathieu Cunche",
+      "text": "@Bob. I understand that it is a problem for your use case. I thought you were saying that the receiving device was randomizing the address before passing it to the app. Am I correct ?<br/>"
+    },
+    {
+      "dtime": 1954000,
+      "ptime": 1954000,
+      "author": "Peter van Dijk",
+      "text": "slide rendering broken for anybody else?<br/>"
+    },
+    {
+      "dtime": 1968000,
+      "ptime": 1968000,
+      "author": "Peter van Dijk",
+      "text": "moving the mouse over it fixed it ...<br/>"
+    },
+    {
+      "dtime": 1994000,
+      "ptime": 1994000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "The slide was broken here too<br/>"
+    },
+    {
+      "dtime": 2000000,
+      "ptime": 2000000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "we moved to the next<br/>"
+    },
+    {
+      "dtime": 2015000,
+      "ptime": 2015000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "some rendering issue, perhaps<br/>"
+    },
+    {
+      "dtime": 2050000,
+      "ptime": 2050000,
+      "author": "Peter van Dijk",
+      "text": "ah yes, I assumed it was the same slide but both slides had that blue arrow<br/>"
+    },
+    {
+      "dtime": 2050000,
+      "ptime": 2050000,
+      "author": "Bob Moskowitz",
+      "text": "I should also point out that in UA command and control (C2) MAC addr is often used to link the messages.&nbsp;&nbsp;NAVlink over the MAC layer is an example.&nbsp;&nbsp;And for some security setups, the security keys are bound to the UA and GCS (Ground Control System) MAC addresses.&nbsp;&nbsp;And this gets really fun when the GCS is a smartphone or tablet, not some special purpose GCS.<br/>"
+    },
+    {
+      "dtime": 2121000,
+      "ptime": 2121000,
+      "author": "Bob Moskowitz",
+      "text": "I know of one vendor that uses IPsec with SCHC and the MAC addr of the smartphone and the UA are used for the binding.<br/>"
+    },
+    {
+      "dtime": 2209000,
+      "ptime": 2209000,
+      "author": "Mathieu Cunche",
+      "text": "Bob : Can Resolvable Addresses (à la Bluetooth Low Energy) solve that ?<br/>"
+    },
+    {
+      "dtime": 2305000,
+      "ptime": 2305000,
+      "author": "Bob Moskowitz",
+      "text": "Don't know.&nbsp;&nbsp;BLE is NOT in the FAA regulations.&nbsp;&nbsp;FAA would have to amend the regs (and that is a BIG effort) to extend to BLE.&nbsp;&nbsp;And remember, this is all broadcast frames.&nbsp;&nbsp;No pairing possible.<br/>"
+    },
+    {
+      "dtime": 2377000,
+      "ptime": 2377000,
+      "author": "Bob Moskowitz",
+      "text": "And I don't know of any other national CAA (Civil Aviation Administration) working with BLE.<br/>"
+    },
+    {
+      "dtime": 2841000,
+      "ptime": 2841000,
+      "author": "Bob Moskowitz",
+      "text": "Go back to the '80s and Comer's TCP/IP book and you will see how MAC address was/is used!<br/>"
+    },
+    {
+      "dtime": 2890000,
+      "ptime": 2890000,
+      "author": "Bob Moskowitz",
+      "text": "In fact the 10min ARP table timeout was based on how fast a team of Comer's grad students could power down the DEC, change out the ethernet card, and bring the system back up...<br/>"
+    },
+    {
+      "dtime": 3062000,
+      "ptime": 3062000,
+      "author": "Éric Vyncke",
+      "text": "Thank you Luther for the WBA presentation.<br/>"
+    },
+    {
+      "dtime": 3091000,
+      "ptime": 3091000,
+      "author": "Massimiliano Pala",
+      "text": "Thanks! Really a Great Paper!<br/>"
+    },
+    {
+      "dtime": 3277000,
+      "ptime": 3277000,
+      "author": "BEHCET SARIKAYA",
+      "text": "what is RCM?<br/>"
+    },
+    {
+      "dtime": 3327000,
+      "ptime": 3327000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "Randomized and Changing MAC addresses<br/>"
+    },
+    {
+      "dtime": 3360000,
+      "ptime": 3360000,
+      "author": "BEHCET SARIKAYA",
+      "text": "@Bob I used Jim Kurose's book not Comer<br/>"
+    },
+    {
+      "dtime": 3395000,
+      "ptime": 3395000,
+      "author": "BEHCET SARIKAYA",
+      "text": "Thanks JC<br/>"
+    },
+    {
+      "dtime": 3590000,
+      "ptime": 3590000,
+      "author": "BEHCET SARIKAYA",
+      "text": "mentor/documents contains all sorts of documents that are sub mitted<br/>"
+    },
+    {
+      "dtime": 3635000,
+      "ptime": 3635000,
+      "author": "Bob Moskowitz",
+      "text": "@Behcet:&nbsp;&nbsp;Which book came first?<br/>"
+    },
+    {
+      "dtime": 3648000,
+      "ptime": 3648000,
+      "author": "Peter Yee",
+      "text": "Mentor can be filtered by TG to limit what you see. Use the dropdown.<br/>"
+    },
+    {
+      "dtime": 3681000,
+      "ptime": 3681000,
+      "author": "Bob Moskowitz",
+      "text": "I first got exposed to TCP/IP from one of Comer's grad students when I was at Chrysler, and then had a number of opertunities <br/>"
+    },
+    {
+      "dtime": 3688000,
+      "ptime": 3688000,
+      "author": "Bob Moskowitz",
+      "text": "Oops<br/>"
+    },
+    {
+      "dtime": 3689000,
+      "ptime": 3689000,
+      "author": "Peter Yee",
+      "text": "<a href=\"https://mentor.ieee.org/802.11/documents?is_dcn=DCN%2C%20Title%2C%20Author%20or%20Affiliation&amp;is_group=00bh\" rel=\"nofollow\">https://mentor.ieee.org/802.11/documents?is_dcn=DCN%2C%20Title%2C%20Author%20or%20Affiliation&amp;is_group=00bh</a><br/>"
+    },
+    {
+      "dtime": 3704000,
+      "ptime": 3704000,
+      "author": "Éric Vyncke",
+      "text": "Thank you chairs !<br/>"
+    },
+    {
+      "dtime": 3705000,
+      "ptime": 3705000,
+      "author": "Bob Moskowitz",
+      "text": "opportunities to interact with Dr. Comer.<br/>"
+    },
+    {
+      "dtime": 3709000,
+      "ptime": 3709000,
+      "author": "Massimiliano Pala",
+      "text": "Thank you!<br/>"
+    },
+    {
+      "dtime": 3713000,
+      "ptime": 3713000,
+      "author": "Mathieu Cunche",
+      "text": "Thanks<br/>"
+    },
+    {
+      "dtime": 3715000,
+      "ptime": 3715000,
+      "author": "Bob Moskowitz",
+      "text": "Bye for now, all.<br/>"
+    },
+    {
+      "dtime": 3718000,
+      "ptime": 3718000,
+      "author": "Yiu Lee",
+      "text": "Thank you<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF113-MADINAS-20220324-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/113/session/madinas"
+    }
+  ],
+  "start_datetime": "2022-03-24T12:00:00Z"
+}

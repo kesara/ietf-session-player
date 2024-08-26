@@ -1,0 +1,546 @@
+
+{
+	"title": "IETF115-PEARG-20221109-1500",
+	"filename": "IETF115-PEARG-20221109-1500",
+	"start": 0,
+	"end": 5664000,
+	"start_datetime": "2022-11-09T14:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "NO3pw3_hees",
+    "start": 0,
+    "end": "5664000"
+  }
+],
+	"messages": [
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>agenda: <a href=\"https://datatracker.ietf.org/meeting/115/materials/agenda-115-pearg\">https://datatracker.ietf.org/meeting/115/materials/agenda-115-pearg</a></p>",
+    "topic": "jabber",
+    "dtime": 15000,
+    "ptime": 15000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>notes: <a href=\"https://notes.ietf.org/notes-ietf-115-pearg\">https://notes.ietf.org/notes-ietf-115-pearg</a></p>",
+    "topic": "jabber",
+    "dtime": 25000,
+    "ptime": 25000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>thanks again to Gurshabad for taking notes!</p>",
+    "topic": "jabber",
+    "dtime": 37000,
+    "ptime": 37000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: wrt draft-irtf-pearg-ip-address-privacy-considerations, I wonder should section 2.1 include something like \"ancillary interaction\" - lots of the ways in which IP addresses could be (ab)used tend to relate to devices regularly calling home or similar in ways that aren't visible to people and hence don't seem to fit the current categories</p>",
+    "topic": "jabber",
+    "dtime": 645000,
+    "ptime": 645000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>+1 to developing privacy-preserving tech (including measurement) for small/open source/not for profit organizations</p>",
+    "topic": "jabber",
+    "dtime": 700000,
+    "ptime": 700000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>+1 as well</p>",
+    "topic": "jabber",
+    "dtime": 744000,
+    "ptime": 744000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 788000,
+    "ptime": 788000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>De-resolutionising -&gt; blurring?</p>",
+    "topic": "jabber",
+    "dtime": 855000,
+    "ptime": 855000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>would've said fuzzing but I think that term is overloaded</p>",
+    "topic": "jabber",
+    "dtime": 940000,
+    "ptime": 940000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>coarsening?</p>",
+    "topic": "jabber",
+    "dtime": 957000,
+    "ptime": 957000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Is domain fronting being used here in the technical/TLS sense?</p>",
+    "topic": "jabber",
+    "dtime": 1006000,
+    "ptime": 1006000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Oh, another option, \"quantising\"</p>",
+    "topic": "jabber",
+    "dtime": 1077000,
+    "ptime": 1077000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Are some people here interested in investigating chaff insertion to defeat fingerprinting?</p>",
+    "topic": "jabber",
+    "dtime": 1218000,
+    "ptime": 1218000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>chaff insertion in the measurements reported to the server?</p>",
+    "topic": "jabber",
+    "dtime": 1307000,
+    "ptime": 1307000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>that would be DP right?</p>",
+    "topic": "jabber",
+    "dtime": 1318000,
+    "ptime": 1318000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>I am more thinking of the chaff insertion problem in general, but let's rater listen to Oliver's talsk</p>",
+    "topic": "jabber",
+    "dtime": 1372000,
+    "ptime": 1372000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Given that most \"consent\" these days is coerced by user exhaustion, we would be better off requiring accepting tracking be strictly more clicks than rejecting all tracking.</p>",
+    "topic": "jabber",
+    "dtime": 1549000,
+    "ptime": 1549000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>+1 to Jonathan - apply same to dark patterns too</p>",
+    "topic": "jabber",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I'm also concerned by over-reliance on consent, or abuse of flows that are purported to be consent</p>",
+    "topic": "jabber",
+    "dtime": 1598000,
+    "ptime": 1598000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>Some solutions are same number of clicks, which is probably fair too. More clicks to opt out is obnoxious.</p>",
+    "topic": "jabber",
+    "dtime": 1609000,
+    "ptime": 1609000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Most opt out tends to leave in a vast swath of \"legitimate interest\" anyway</p>",
+    "topic": "jabber",
+    "dtime": 1652000,
+    "ptime": 1652000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Or, block cookie notice popups ;)</p>",
+    "topic": "jabber",
+    "dtime": 1700000,
+    "ptime": 1700000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>Weighing the choice towards opt-in on the other hand is pretty depressing (not naming names, but e.g. certain operating systems are quite good at hiding opt out options even if number of clicks is same).</p>",
+    "topic": "jabber",
+    "dtime": 1706000,
+    "ptime": 1706000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: maybe we should make Jonathon the boss of marketing somewhere see if he can get that implemented? :-)</p>",
+    "topic": "jabber",
+    "dtime": 1750000,
+    "ptime": 1750000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>I really like the « one more click to accept than to reject » idea</p>",
+    "topic": "jabber",
+    "dtime": 1769000,
+    "ptime": 1769000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>;) ;) I would love to see Jonathan as head of marketing</p>",
+    "topic": "jabber",
+    "dtime": 1771000,
+    "ptime": 1771000
+  },
+  {
+    "author": "Collin Kurre",
+    "text": "<p>Great point before about service design diluting the validity of consent. the European Data Protection Board has put out relevant guidelines on this, about recognizing / avoiding \"dark patterns\" in platform interfaces <a href=\"https://edpb.europa.eu/our-work-tools/documents/public-consultations/2022/guidelines-32022-dark-patterns-social-media_en\">https://edpb.europa.eu/our-work-tools/documents/public-consultations/2022/guidelines-32022-dark-patterns-social-media_en</a></p>",
+    "topic": "jabber",
+    "dtime": 1907000,
+    "ptime": 1907000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@Collin I think that the UK ICO may be taking an interest in this too</p>",
+    "topic": "jabber",
+    "dtime": 1966000,
+    "ptime": 1966000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>\"This product isn't the worst, but you know, probably isn't the best either.\"</p>",
+    "topic": "jabber",
+    "dtime": 1986000,
+    "ptime": 1986000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>hired</p>",
+    "topic": "jabber",
+    "dtime": 2003000,
+    "ptime": 2003000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>@Daniel just seeing \"coarsening\". Thanks!</p>",
+    "topic": "jabber",
+    "dtime": 2150000,
+    "ptime": 2150000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"977\">@David Oliver</span> I was thinking packetising, discretising, or downsampling. Or quantising</p>",
+    "topic": "jabber",
+    "dtime": 2437000,
+    "ptime": 2437000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>@Jonathan all good terms; I've put them in my notebook.</p>",
+    "topic": "jabber",
+    "dtime": 2495000,
+    "ptime": 2495000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>quantising (or in en_US, quantizing) has a valence for me of \"making precise\", which is the opposite of the meaning you want to imply</p>",
+    "topic": "jabber",
+    "dtime": 2519000,
+    "ptime": 2519000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>@collin I visited that EU url on \"dark patterns\" and (wait for it) IMMEDIATELY got the GDRP pop-up.</p>",
+    "topic": "jabber",
+    "dtime": 2634000,
+    "ptime": 2634000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>ha ha</p>",
+    "topic": "jabber",
+    "dtime": 2648000,
+    "ptime": 2648000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>Imagine how people who use Tor feel: \"Wait, you build Tor but then want to MEASURE us?\"</p>",
+    "topic": "jabber",
+    "dtime": 2689000,
+    "ptime": 2689000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Quantising would mean breaking up into quanta i.e. making discrete.</p>\n<div class=\"codehilite\"><pre><span></span><code>verb approximate (a signal varying continuously in amplitude) by one whose amplitude is restricted to a prescribed set of discrete values\n</code></pre></div>",
+    "topic": "jabber",
+    "dtime": 2746000,
+    "ptime": 2746000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>I think privacy-preserving measurement for Tor is actually pretty compelling. I attended a presentation by Snowflake folks where they said they have no insight into when things break, and Snowflake breaking has an impact on folks being able to access the Internet</p>",
+    "topic": "jabber",
+    "dtime": 2795000,
+    "ptime": 2795000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Jonathan, i know what quantizing means, and i understand how you meant it, i was just observing that it might not communicate the desired intent well because of other attached meanings and uses.  words are tricky!</p>",
+    "topic": "jabber",
+    "dtime": 2834000,
+    "ptime": 2834000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>@shivan there's much socialization to be done, you know?  That's the user fatigue thing: users don't believe measurement can be \"helpful\"</p>",
+    "topic": "jabber",
+    "dtime": 2865000,
+    "ptime": 2865000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@David - presumably that's based on previous experience of measurement typically being for the sole benefit of the measuring party</p>",
+    "topic": "jabber",
+    "dtime": 2948000,
+    "ptime": 2948000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>@dkg I have to admit I haven't heard that alternative usage before. I guess it's related to quantum leaps being small, rather than large?</p>",
+    "topic": "jabber",
+    "dtime": 2950000,
+    "ptime": 2950000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>Broadly developers in our community have been hesitant to implement measurement due to (vocal) user concerns.</p>",
+    "topic": "jabber",
+    "dtime": 2963000,
+    "ptime": 2963000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the ladder diagrams in this presentation (e.g. slide ~27 and 30) have some amount of ambiguity when the homeserver (middle) sends messages to alice (on the left) and bob (on the right).  it looks like it could be meant as a bidirectional communication between alice and bob, skipping over the homeserver.</p>",
+    "topic": "jabber",
+    "dtime": 3011000,
+    "ptime": 3011000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Assumptions that \"measurement\" == tracking?</p>",
+    "topic": "jabber",
+    "dtime": 3036000,
+    "ptime": 3036000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>@Andrew yes - the \"imbalance of power\"</p>",
+    "topic": "jabber",
+    "dtime": 3038000,
+    "ptime": 3038000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>And this is why we use context strings</p>",
+    "topic": "jabber",
+    "dtime": 3076000,
+    "ptime": 3076000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>@Andrew exactly - user fatigue with saying \"no\" but ultimately that being turned into \"yes\" by TOS slight of hand or other service denial</p>",
+    "topic": "jabber",
+    "dtime": 3078000,
+    "ptime": 3078000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I am a big fan of returning random values in 3rd party cookies, just to try and make the other side choke</p>",
+    "topic": "jabber",
+    "dtime": 3170000,
+    "ptime": 3170000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>random values like \";drop tables\"</p>",
+    "topic": "jabber",
+    "dtime": 3197000,
+    "ptime": 3197000
+  },
+  {
+    "author": "David Oliver",
+    "text": "<p>@Jonathan how dare you! (I'm sure you know that returning randomness within some bounds is part of the PPM idea)</p>",
+    "topic": "jabber",
+    "dtime": 3217000,
+    "ptime": 3217000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: yep, and developing stuff in an open setting (like here) would I guess have caught some of these issues so hopefully mimi/mls will help too</p>",
+    "topic": "jabber",
+    "dtime": 3267000,
+    "ptime": 3267000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Sofia and Dan, this is really impressive work, thank you for doing it and for presenting it here!</p>",
+    "topic": "jabber",
+    "dtime": 3271000,
+    "ptime": 3271000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>it sounds like at least the conclusions from here should definitely be consumed somehow at MIMI (draft or pres)</p>",
+    "topic": "jabber",
+    "dtime": 3307000,
+    "ptime": 3307000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: yeah, it's good stuff (and makes me glad I operate my own homeserver:-)</p>",
+    "topic": "jabber",
+    "dtime": 3313000,
+    "ptime": 3313000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>+1 - Brilliant stuff :)</p>",
+    "topic": "jabber",
+    "dtime": 3334000,
+    "ptime": 3334000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>having your own homeserver be the attacker does seem like a stronger threat model than whether some other homeserver can do something to you</p>",
+    "topic": "jabber",
+    "dtime": 3426000,
+    "ptime": 3426000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>@jonathan we locked the queue but if there's some time once we've drained the queue we can take it</p>",
+    "topic": "jabber",
+    "dtime": 3427000,
+    "ptime": 3427000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>W.r.t. Formal Analysis, come to the Formal Methods side meeting tomorrow at 11:30 in this room!</p>",
+    "topic": "jabber",
+    "dtime": 3449000,
+    "ptime": 3449000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I kind of guessed that the user had to trust their homeserver to some extent. certainly the first use/encounter of a user is proxied by the user's homeserver, and they could of course completely substitute keys and messages</p>",
+    "topic": "jabber",
+    "dtime": 3491000,
+    "ptime": 3491000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Oops, sorry, in Richmond 6</p>",
+    "topic": "jabber",
+    "dtime": 3527000,
+    "ptime": 3527000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> given that the home server might be operated by a large org rather than the user, it’s not strange to include it in the threat model</p>",
+    "topic": "jabber",
+    "dtime": 3591000,
+    "ptime": 3591000
+  },
+  {
+    "author": "Dan Jones",
+    "text": "<p>Thanks for having us! Sorry for the technical issues :)</p>",
+    "topic": "jabber",
+    "dtime": 3595000,
+    "ptime": 3595000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>thank you!</p>",
+    "topic": "jabber",
+    "dtime": 3605000,
+    "ptime": 3605000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@antoine, sure, I'm glad we are considering it a threat! just noting that it's going to be hard to eliminate any trust in the host</p>",
+    "topic": "jabber",
+    "dtime": 3664000,
+    "ptime": 3664000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Do folks know if Cloudflare IPs are blocked in general, or is it just DoH/DoT?</p>",
+    "topic": "jabber",
+    "dtime": 4213000,
+    "ptime": 4213000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>(in Iran)</p>",
+    "topic": "jabber",
+    "dtime": 4219000,
+    "ptime": 4219000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>How is user safety protected? Do Ooni refrain from performing some measurements because it would put probe runners at risk?</p>",
+    "topic": "jabber",
+    "dtime": 4776000,
+    "ptime": 4776000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>CF proactively blocks connections from Iran?</p>",
+    "topic": "jabber",
+    "dtime": 5217000,
+    "ptime": 5217000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>chair mic is hot!</p>",
+    "topic": "jabber",
+    "dtime": 5611000,
+    "ptime": 5611000
+  },
+  {
+    "author": "Dan Jones",
+    "text": "<p>@Daniel Gilmour: Good point re. those diagrams -- thanks. We'll improve them for the future :)</p>",
+    "topic": "jabber",
+    "dtime": 5622000,
+    "ptime": 5622000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>very cool work, Dan!</p>",
+    "topic": "jabber",
+    "dtime": 5637000,
+    "ptime": 5637000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-PEARG-20221109-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/pearg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-PEARG-20221109-1500"
+		}		
+	]
+}

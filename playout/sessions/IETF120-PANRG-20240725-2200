@@ -1,0 +1,98 @@
+
+{
+	"title": "IETF120-PANRG-20240725-2200",
+	"filename": "IETF120-PANRG-20240725-2200",
+	"start": 0,
+	"end": 5073000,
+	"start_datetime": "2024-07-25T21:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "kYg2GfX-ZWU",
+    "start": 0,
+    "end": "5073000"
+  }
+],
+	"messages": [
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The deployment aspects mentioned by Nico are interesting (including logistic matters such as bootstrapping  an TRC/ISD, application porting, etc.). That would be useful to consider here. The same document  can include also how SCION answered to questions in 9217.</p>",
+    "topic": "ietf-120",
+    "dtime": 2983000,
+    "ptime": 2983000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>Med, would you like me to proxy your comment?</p>",
+    "topic": "ietf-120",
+    "dtime": 3027000,
+    "ptime": 3027000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>yes, please</p>",
+    "topic": "ietf-120",
+    "dtime": 3037000,
+    "ptime": 3037000
+  },
+  {
+    "author": "Juan de los Galanes",
+    "text": "<p>I agree with you Mohamed.<br>\nWould you like to see more of a map between 9217 and SCION \"solutions\" ?</p>",
+    "topic": "ietf-120",
+    "dtime": 3086000,
+    "ptime": 3086000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Just in part how it addressed these questions, but what would be key are the practicalities behind</p>",
+    "topic": "ietf-120",
+    "dtime": 3213000,
+    "ptime": 3213000
+  },
+  {
+    "author": "Juan de los Galanes",
+    "text": "<p>@Luis: Some colleagues had worked on this \"carbon intensity routing\" idea, maybe this could be useful for you<br>\n<a href=\"https://netsec.ethz.ch/publications/papers/green_routing2023.pdf\">https://netsec.ethz.ch/publications/papers/green_routing2023.pdf</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4043000,
+    "ptime": 4043000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@Luis, can we consider a case where a budget (moving window) is agreed between a network and an app/service, but when that  budget is consumed (e.g., app aggressively use network resources),  the network can notify via that API the app that it exceeded the budget and has to adjust how it uses the network resources? If no adjustment is made by the app, the network can take some decisions (including delaying app flows, just as an example)?</p>",
+    "topic": "ietf-120",
+    "dtime": 4114000,
+    "ptime": 4114000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>@Juan, thanks os much for the pointer, definitely we will look at that. Thanks!</p>",
+    "topic": "ietf-120",
+    "dtime": 4280000,
+    "ptime": 4280000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>@Med: interesting idea. Certainly can be a way of leveraging this API for operational purposes. Thanks for the suggestion, we wil lconsider it.</p>",
+    "topic": "ietf-120",
+    "dtime": 4357000,
+    "ptime": 4357000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-PANRG-20240725-2200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/panrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-PANRG-20240725-2200"
+		}		
+	]
+}

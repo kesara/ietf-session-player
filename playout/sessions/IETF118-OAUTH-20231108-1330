@@ -1,0 +1,658 @@
+
+{
+	"title": "IETF118-OAUTH-20231108-1330",
+	"filename": "IETF118-OAUTH-20231108-1330",
+	"start": 0,
+	"end": 7315000,
+	"start_datetime": "2023-11-08T13:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "0woTrpJs0Jk",
+    "start": 0,
+    "end": "7315000"
+  }
+],
+	"messages": [
+  {
+    "author": "Brian Campbell",
+    "text": "<p>really sorry, I'm not great with the meetecho tooling for the queue apparently</p>",
+    "topic": "ietf-118",
+    "dtime": 1319000,
+    "ptime": 1319000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>\"optionally bound to a key\" <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 1628000,
+    "ptime": 1628000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the key binding is the only thing that makes the three-party model work!</p>",
+    "topic": "ietf-118",
+    "dtime": 1656000,
+    "ptime": 1656000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>otherwise its an Aleph-Null-party model because each verifier can pass it to another verifier</p>",
+    "topic": "ietf-118",
+    "dtime": 1688000,
+    "ptime": 1688000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>do we <em>really</em> need to have DIDs here?</p>",
+    "topic": "ietf-118",
+    "dtime": 1832000,
+    "ptime": 1832000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Brian - I was just about to ask the same thing</p>",
+    "topic": "ietf-118",
+    "dtime": 1846000,
+    "ptime": 1846000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Oliver is in front of the room camera :)</p>",
+    "topic": "ietf-118",
+    "dtime": 1888000,
+    "ptime": 1888000
+  },
+  {
+    "author": "Judith Kahrer",
+    "text": "<p>Isn't \"obtaining issuer verification key\" the same for all JWTs?</p>",
+    "topic": "ietf-118",
+    "dtime": 1959000,
+    "ptime": 1959000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<blockquote>\n<p>saying \"use DIDs\" is like saying \"use a protocol\" </p>\n</blockquote>\n<p><span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> thank you richard</p>",
+    "topic": "ietf-118",
+    "dtime": 2102000,
+    "ptime": 2102000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Aaron - That was me actually, don't want Brian to get blamed inappropriately :)</p>",
+    "topic": "ietf-118",
+    "dtime": 2124000,
+    "ptime": 2124000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>oh haha sorry I wasn't looking at the screen :)</p>",
+    "topic": "ietf-118",
+    "dtime": 2135000,
+    "ptime": 2135000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>credit to Richard for that but he's not wrong</p>",
+    "topic": "ietf-118",
+    "dtime": 2139000,
+    "ptime": 2139000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this all seems like a bunch of unnecessary detail</p>",
+    "topic": "ietf-118",
+    "dtime": 2371000,
+    "ptime": 2371000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(this == credential type metadata)</p>",
+    "topic": "ietf-118",
+    "dtime": 2405000,
+    "ptime": 2405000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i could hold my nose and live with did:web</p>",
+    "topic": "ietf-118",
+    "dtime": 2704000,
+    "ptime": 2704000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>but at that point, just use an HTTPS URL</p>",
+    "topic": "ietf-118",
+    "dtime": 2721000,
+    "ptime": 2721000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>Im online :)</p>",
+    "topic": "ietf-118",
+    "dtime": 2773000,
+    "ptime": 2773000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>did:web wouldn't be prohibited - it'd just be rolled up under the ecosystems can do what they need</p>",
+    "topic": "ietf-118",
+    "dtime": 2870000,
+    "ptime": 2870000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98241\">said</a>:</p>\n<blockquote>\n<p>the key binding is the only thing that makes the three-party model work!</p>\n</blockquote>\n<p>There are applications where key binding is not required or enforced. This allows for replaying credentials, but that may be intentional.</p>",
+    "topic": "ietf-118",
+    "dtime": 2977000,
+    "ptime": 2977000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/96932\">said</a>:</p>\n<blockquote>\n<p>Oh I forgot to say -- I noted a couple minor things that i will get filed soon</p>\n</blockquote>\n<p>we used to have that, but we moved it to a separate repo for multiple reasons. there should be a pointer in the readme?</p>",
+    "topic": "ietf-118",
+    "dtime": 3043000,
+    "ptime": 3043000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"690\">Kristina Yasuda</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98338\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/96932\">said</a>:</p>\n<blockquote>\n<p>Oh I forgot to say -- I noted a couple minor things that i will get filed soon</p>\n</blockquote>\n<p>we used to have that, but we moved it to a separate repo for multiple reasons. there should be a pointer in the readme?</p>\n</blockquote>\n<p>There is.</p>",
+    "topic": "ietf-118",
+    "dtime": 3096000,
+    "ptime": 3096000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>Apologies if there was a question I couldn't hear it</p>",
+    "topic": "ietf-118",
+    "dtime": 3103000,
+    "ptime": 3103000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"204\">Brian Campbell</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98325\">said</a>:</p>\n<blockquote>\n<p>did:web wouldn't be prohibited - it'd just be rolled up under the ecosystems can do what they need</p>\n</blockquote>\n<p>well i really don't see the reason not to mention them in the spec if they are as non-normative as https or x5c</p>",
+    "topic": "ietf-118",
+    "dtime": 3127000,
+    "ptime": 3127000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98290\">said</a>:</p>\n<blockquote>\n<p>(this == credential type metadata)</p>\n</blockquote>\n<p>can you elaborate?</p>",
+    "topic": "ietf-118",
+    "dtime": 3146000,
+    "ptime": 3146000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98333\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98241\">said</a>:</p>\n<blockquote>\n<p>the key binding is the only thing that makes the three-party model work!</p>\n</blockquote>\n<p>There are applications where key binding is not required or enforced. This allows for replaying credentials, but that may be intentional.</p>\n</blockquote>\n<p>C'est magnifique, mais ce n'est pas la modèle à trois</p>",
+    "topic": "ietf-118",
+    "dtime": 3220000,
+    "ptime": 3220000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"690\">Kristina Yasuda</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98346\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98290\">said</a>:</p>\n<blockquote>\n<p>(this == credential type metadata)</p>\n</blockquote>\n<p>can you elaborate?</p>\n</blockquote>\n<p>The only thing we need for interop is that the issuer and the verifier agree on the semantic of the claims in the VC.  We don't need a detailed, machine-readable description of the claims.</p>",
+    "topic": "ietf-118",
+    "dtime": 3351000,
+    "ptime": 3351000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>You could certainly make such a thing, but it should be an optimization over a base content type indication scheme, basically a factory for new conten types</p>",
+    "topic": "ietf-118",
+    "dtime": 3387000,
+    "ptime": 3387000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98349\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98333\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98241\">said</a>:</p>\n<blockquote>\n<p>the key binding is the only thing that makes the three-party model work!</p>\n</blockquote>\n<p>There are applications where key binding is not required or enforced. This allows for replaying credentials, but that may be intentional.</p>\n</blockquote>\n<p>C'est magnifique, mais ce n'est pas la modèle à trois</p>\n</blockquote>\n<p>Of course it still is.</p>",
+    "topic": "ietf-118",
+    "dtime": 3490000,
+    "ptime": 3490000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>there are 7 people in the queue and 7 minutes left so GOGOGO</p>",
+    "topic": "ietf-118",
+    "dtime": 3505000,
+    "ptime": 3505000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>it's not going to the AS first</p>",
+    "topic": "ietf-118",
+    "dtime": 3556000,
+    "ptime": 3556000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98364\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98349\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98333\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98241\">said</a>:</p>\n<blockquote>\n<p>the key binding is the only thing that makes the three-party model work!</p>\n</blockquote>\n<p>There are applications where key binding is not required or enforced. This allows for replaying credentials, but that may be intentional.</p>\n</blockquote>\n<p>C'est magnifique, mais ce n'est pas la modèle à trois</p>\n</blockquote>\n<p>Of course it still is.</p>\n</blockquote>\n<p>As above, it's an Aleph-Null-party model, since you can have an infinite chain of verifiers replaying the token to one another.  Honestly, I'm kind of baffled as to why anyone wants this.  Key binding is not that hard.</p>",
+    "topic": "ietf-118",
+    "dtime": 3572000,
+    "ptime": 3572000
+  },
+  {
+    "author": "Jacob Ideskog",
+    "text": "<p>There are now 4 different PoPs in OAuth Ecosystem</p>\n<ul>\n<li>private_key_jwt</li>\n<li>DPoP</li>\n<li>Key-Binding in SD-JWT</li>\n<li>Client Attestation PoP</li>\n</ul>",
+    "topic": "ietf-118",
+    "dtime": 3632000,
+    "ptime": 3632000
+  },
+  {
+    "author": "Jacob Ideskog",
+    "text": "<p>+1 Aron</p>",
+    "topic": "ietf-118",
+    "dtime": 3754000,
+    "ptime": 3754000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>@Aaron would you mind filing an issue so we could discuss what methods of client authentication you would like to use with this attestation mechanism?</p>",
+    "topic": "ietf-118",
+    "dtime": 3814000,
+    "ptime": 3814000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98376\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98364\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98349\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98333\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98241\">said</a>:</p>\n<blockquote>\n<p>the key binding is the only thing that makes the three-party model work!</p>\n</blockquote>\n<p>There are applications where key binding is not required or enforced. This allows for replaying credentials, but that may be intentional.</p>\n</blockquote>\n<p>C'est magnifique, mais ce n'est pas la modèle à trois</p>\n</blockquote>\n<p>Of course it still is.</p>\n</blockquote>\n<p>As above, it's an Aleph-Null-party model, since you can have an infinite chain of verifiers replaying the token to one another.  Honestly, I'm kind of baffled as to why anyone wants this.  Key binding is not that hard.</p>\n</blockquote>\n<p>A Verifier might be interested in learning that a credential was issued (e.g., XYZ License for John Doe), but may not care about who presents it in that moment.</p>",
+    "topic": "ietf-118",
+    "dtime": 3863000,
+    "ptime": 3863000
+  },
+  {
+    "author": "Dmitry Telegin",
+    "text": "<p>the attestation part seems to be heavily relying on TPM/SE or similar; does that mean that in practice we'll be able to attest mobile apps only?</p>",
+    "topic": "ietf-118",
+    "dtime": 3957000,
+    "ptime": 3957000
+  },
+  {
+    "author": "Philippe De Ryck",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3974000,
+    "ptime": 3974000
+  },
+  {
+    "author": "Philippe De Ryck",
+    "text": "<p>(that was me waving)</p>",
+    "topic": "ietf-118",
+    "dtime": 3997000,
+    "ptime": 3997000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>@Dmitry, no not necessarily, technically the client instance can use a key secured in anyway that the client backend/attester is willing to accept</p>",
+    "topic": "ietf-118",
+    "dtime": 4040000,
+    "ptime": 4040000
+  },
+  {
+    "author": "Dmitry Telegin",
+    "text": "<p>@Tobias, so in theory that could be even a web SPA using WebCrypto keystore?</p>",
+    "topic": "ietf-118",
+    "dtime": 4122000,
+    "ptime": 4122000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98352\">said</a>:</p>\n<blockquote>\n<p>The only thing we need for interop is that the issuer and the verifier agree on the semantic of the claims in the VC.  We don't need a detailed, machine-readable description of the claims.</p>\n</blockquote>\n<p>thank you! that was my intuition too. defining what type means should probably be separate from type leading to something machine readable. at the same time, discovering json schema and display informaiton it is a pain point so machine readable thing is needed to be defined somewhere...</p>",
+    "topic": "ietf-118",
+    "dtime": 4151000,
+    "ptime": 4151000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>@Dmitry If the client backend were willing to accept it then technically yes</p>",
+    "topic": "ietf-118",
+    "dtime": 4236000,
+    "ptime": 4236000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98404\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98376\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98364\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98349\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98333\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98241\">said</a>:</p>\n<blockquote>\n<p>the key binding is the only thing that makes the three-party model work!</p>\n</blockquote>\n<p>There are applications where key binding is not required or enforced. This allows for replaying credentials, but that may be intentional.</p>\n</blockquote>\n<p>C'est magnifique, mais ce n'est pas la modèle à trois</p>\n</blockquote>\n<p>Of course it still is.</p>\n</blockquote>\n<p>As above, it's an Aleph-Null-party model, since you can have an infinite chain of verifiers replaying the token to one another.  Honestly, I'm kind of baffled as to why anyone wants this.  Key binding is not that hard.</p>\n</blockquote>\n<p>A Verifier might be interested in learning that a credential was issued (e.g., XYZ License for John Doe), but may not care about who presents it in that moment.</p>\n</blockquote>\n<p>I would be interested to understand the use case where the Verifier gets useful information from the credential, but does <em>not</em> associate it with the presenter.</p>\n<p>BTW that <em>still</em> doesn't seem like a three-party model, because you don't have a meaningful Holder -- the Holder is just a store-and-forward relay for the credential, doesn't have an actual role in the protocol.  Even if you ignore replay, it's a two-party model.</p>",
+    "topic": "ietf-118",
+    "dtime": 4261000,
+    "ptime": 4261000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"690\">Kristina Yasuda</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98443\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98352\">said</a>:</p>\n<blockquote>\n<p>The only thing we need for interop is that the issuer and the verifier agree on the semantic of the claims in the VC.  We don't need a detailed, machine-readable description of the claims.</p>\n</blockquote>\n<p>thank you! that was my intuition too. defining what type means should probably be separate from type leading to something machine readable. at the same time, discovering json schema and display informaiton it is a pain point so machine readable thing is needed to be defined somewhere...</p>\n</blockquote>\n<p>The current thinking is that defining any metadata for vct is optional. It is first of all a means to distinguish types, and if verifier and issuer agree and have all information, there is no need to actually provide the metadata somewhere.</p>",
+    "topic": "ietf-118",
+    "dtime": 4294000,
+    "ptime": 4294000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>I don't mean to pick on the no-key-binding thing just to be pedantic about modeling.  There are significant differences in the security properties you get in the two cases, so they should not be confused.</p>",
+    "topic": "ietf-118",
+    "dtime": 4377000,
+    "ptime": 4377000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>In other words, there's a pretty exact analogy between VC-without-KB and <code>\"alg\": \"none\"</code>.  Here's a thing that is syntactically similar to a thing that provides a security property, <strong>but does not actually provide that property</strong>.  You will get exactly the same bugs and vulnerabilities as with <code>\"alg\": \"none\"</code>.</p>",
+    "topic": "ietf-118",
+    "dtime": 4468000,
+    "ptime": 4468000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Obviously, I don't object to there being JWTs that don't have key binding, and even borrowing some of the syntax.  But they should be clearly marked as <strong>not VCs</strong>.  Much like <code>\"alg\": \"none\"</code> JWS objects should have been clearly marked as <strong>not JWS</strong>.</p>",
+    "topic": "ietf-118",
+    "dtime": 4629000,
+    "ptime": 4629000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3078\">Dmitry Telegin</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98440\">said</a>:</p>\n<blockquote>\n<p>@Tobias, so in theory that could be even a web SPA using WebCrypto keystore?</p>\n</blockquote>\n<p>I would argue that a SPA using a WebCrypto key is not attestation at all, just plain client authentication</p>",
+    "topic": "ietf-118",
+    "dtime": 4668000,
+    "ptime": 4668000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98451\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98404\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98376\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98364\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98349\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98333\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98241\">said</a>:</p>\n<blockquote>\n<p>the key binding is the only thing that makes the three-party model work!</p>\n</blockquote>\n<p>There are applications where key binding is not required or enforced. This allows for replaying credentials, but that may be intentional.</p>\n</blockquote>\n<p>C'est magnifique, mais ce n'est pas la modèle à trois</p>\n</blockquote>\n<p>Of course it still is.</p>\n</blockquote>\n<p>As above, it's an Aleph-Null-party model, since you can have an infinite chain of verifiers replaying the token to one another.  Honestly, I'm kind of baffled as to why anyone wants this.  Key binding is not that hard.</p>\n</blockquote>\n<p>A Verifier might be interested in learning that a credential was issued (e.g., XYZ License for John Doe), but may not care about who presents it in that moment.</p>\n</blockquote>\n<p>I would be interested to understand the use case where the Verifier gets useful information from the credential, but does <em>not</em> associate it with the presenter.</p>\n<p>BTW that <em>still</em> doesn't seem like a three-party model, because you don't have a meaningful Holder -- the Holder is just a store-and-forward relay for the credential, doesn't have an actual role in the protocol.  Even if you ignore replay, it's a two-party model.</p>\n</blockquote>\n<p>Yes, the holder would be 'degraded' to stora-and-forward in this case.</p>\n<p>Examples: For better or worse, covid vaccination credentials were not key-bound. That was convenient for paper-based presentation and having your family's credentials on your own phone.</p>\n<p>Another real-life example: I recently had to sent a picture of my physical driver's license to a company just to prove that it exists (for insurance purposes, so that they can record me as a permitted driver for a friend's car). They didn't care who presented it. So while the credential supports holder binding (here via biometrics), not all verifiers are interested in checking it.</p>",
+    "topic": "ietf-118",
+    "dtime": 4736000,
+    "ptime": 4736000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"56\">Aaron Parecki</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98469\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3078\">Dmitry Telegin</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98440\">said</a>:</p>\n<blockquote>\n<p>@Tobias, so in theory that could be even a web SPA using WebCrypto keystore?</p>\n</blockquote>\n<p>I would argue that a SPA using a WebCrypto key is not attestation at all, just plain client authentication</p>\n</blockquote>\n<p>Apple does have a JS attestation API already, it's called Private Access Tokens</p>",
+    "topic": "ietf-118",
+    "dtime": 4804000,
+    "ptime": 4804000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>do we need to break out these conversations into separate threads? that's like zulip's whole concept <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4822000,
+    "ptime": 4822000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>kind of a fail that Zulip UI failed to direct things into threads</p>",
+    "topic": "ietf-118",
+    "dtime": 4866000,
+    "ptime": 4866000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I had no idea there were threads</p>",
+    "topic": "ietf-118",
+    "dtime": 4878000,
+    "ptime": 4878000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>the problem is it's not threads like you're used to in slack, it's more like separate sub-channels</p>",
+    "topic": "ietf-118",
+    "dtime": 4883000,
+    "ptime": 4883000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"545\">@Justin Richer</span> note that the threads are only in Zulip, not MeetEcho</p>",
+    "topic": "ietf-118",
+    "dtime": 4895000,
+    "ptime": 4895000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3079\">@Daniel Fett</span> we should probably talk offline :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4907000,
+    "ptime": 4907000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I'm on a web page, I don't even know what's going on here <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4938000,
+    "ptime": 4938000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>i'm also on a web page it's just a fancier one</p>",
+    "topic": "ietf-118",
+    "dtime": 4952000,
+    "ptime": 4952000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>the view of this chat in MeetEcho is inscrutable  <a href=\"/user_uploads/2/e0/EOl992B9bv6hDSGmIsZ3MTug/Screenshot-2023-11-08-at-7.52.36-AM.png\">Screenshot-2023-11-08-at-7.52.36-AM.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/e0/EOl992B9bv6hDSGmIsZ3MTug/Screenshot-2023-11-08-at-7.52.36-AM.png\" title=\"Screenshot-2023-11-08-at-7.52.36-AM.png\"><img src=\"/user_uploads/2/e0/EOl992B9bv6hDSGmIsZ3MTug/Screenshot-2023-11-08-at-7.52.36-AM.png\"></a></div>",
+    "topic": "ietf-118",
+    "dtime": 5023000,
+    "ptime": 5023000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>oh my god</p>",
+    "topic": "ietf-118",
+    "dtime": 5054000,
+    "ptime": 5054000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p>Scroll really quickly!</p>",
+    "topic": "ietf-118",
+    "dtime": 5075000,
+    "ptime": 5075000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Mobile site just gives up. <a href=\"/user_uploads/2/d5/7zO9aInWofjqZ_WdyNtKxoRK/Screenshot_20231108_155450_Chrome.png\">Screenshot_20231108_155450_Chrome.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/d5/7zO9aInWofjqZ_WdyNtKxoRK/Screenshot_20231108_155450_Chrome.png\" title=\"Screenshot_20231108_155450_Chrome.png\"><img src=\"/user_uploads/2/d5/7zO9aInWofjqZ_WdyNtKxoRK/Screenshot_20231108_155450_Chrome.png\"></a></div>",
+    "topic": "ietf-118",
+    "dtime": 5121000,
+    "ptime": 5121000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>the MeetEcho chat is amazingly broken.  my favorite part is that you they force you to use their emoji picker, which is totally broken <span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 5232000,
+    "ptime": 5232000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(that's supposed to be <span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span> but displays as 🕑 in MeetEcho ???)</p>",
+    "topic": "ietf-118",
+    "dtime": 5270000,
+    "ptime": 5270000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this diatribe makes sense in Zulip, but not in MeetEcho</p>",
+    "topic": "ietf-118",
+    "dtime": 5298000,
+    "ptime": 5298000
+  },
+  {
+    "author": "Daniel Fett",
+    "text": "<p>As long as there is no XSS &lt;hr&gt;...</p>",
+    "topic": "ietf-118",
+    "dtime": 5300000,
+    "ptime": 5300000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>ok what meetecho chat are you seeing? when I click the chat thing it just launches zulip</p>",
+    "topic": "ietf-118",
+    "dtime": 5316000,
+    "ptime": 5316000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>ohhh the new beta one</p>",
+    "topic": "ietf-118",
+    "dtime": 5414000,
+    "ptime": 5414000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98489\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3079\">Daniel Fett</span> we should probably talk offline :)</p>\n</blockquote>\n<p>bit more context wrt key binding is that there's a lot of strong security conversations in the base sd-jwt doc like <a href=\"https://www.ietf.org/archive/id/draft-ietf-oauth-selective-disclosure-jwt-06.html#name-key-binding\">https://www.ietf.org/archive/id/draft-ietf-oauth-selective-disclosure-jwt-06.html#name-key-binding</a> yet at the same time there's one very security aware person suggesting that it should be looser <a href=\"https://github.com/oauth-wg/oauth-selective-disclosure-jwt/issues/368\">https://github.com/oauth-wg/oauth-selective-disclosure-jwt/issues/368</a></p>",
+    "topic": "ietf-118",
+    "dtime": 5420000,
+    "ptime": 5420000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>^ the analogy to alg:none isn't wrong but it's complicated</p>",
+    "topic": "ietf-118",
+    "dtime": 5482000,
+    "ptime": 5482000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>ISO mDL is sent over OpenDI4VP :) so if you reference it already that is all you need I think :)</p>",
+    "topic": "ietf-118",
+    "dtime": 5723000,
+    "ptime": 5723000
+  },
+  {
+    "author": "Dmitry Telegin",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"56\">@Aaron Parecki</span> so, until we have JS attestation for all major platforms/browsers (be it Private Access Tokens or Web Integrity API or whatever), we can't speak of efficient SPA attestation, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 5763000,
+    "ptime": 5763000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>I mean, you can support attestation on only the platforms that have the API available, which is another reason it's not the same as client authentication</p>",
+    "topic": "ietf-118",
+    "dtime": 5792000,
+    "ptime": 5792000
+  },
+  {
+    "author": "Judith Kahrer",
+    "text": "<p>Attestation raises concerns in the open source community. Especially if attestation relies on the mechanisms provided by a few global players...</p>",
+    "topic": "ietf-118",
+    "dtime": 6133000,
+    "ptime": 6133000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>To be clear though the attestation in our draft is different from platform attestations, a client backend might require an instance to provide a platform attestation but that isn't strictly required</p>",
+    "topic": "ietf-118",
+    "dtime": 6140000,
+    "ptime": 6140000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1124\">@Tobias Looker</span> can you give a concrete example of an attestation that is not a platform attestation? Like describe how the keys were deployed, what information is conveyed, etc</p>",
+    "topic": "ietf-118",
+    "dtime": 6230000,
+    "ptime": 6230000
+  },
+  {
+    "author": "Judith Kahrer",
+    "text": "<p>I know that the draft technically does not depend on platform attestation. I just want to point out that from a security point of view attestation (as a concept) may be great but it also may have unintended consequences.</p>",
+    "topic": "ietf-118",
+    "dtime": 6323000,
+    "ptime": 6323000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>The at internet revocation number - what is it based on?</p>",
+    "topic": "ietf-118",
+    "dtime": 6355000,
+    "ptime": 6355000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3583\">@Judith Kahrer</span> it's not like the draft is inventing the concept of attestation. The concept already exists, and people <em>have</em> deployed platform attestation with OAuth clients already, so this is just a way to standardize it.</p>",
+    "topic": "ietf-118",
+    "dtime": 6442000,
+    "ptime": 6442000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>@Aaron, I believe Pieter working on workload identity usecases had a couple that were applicable to ephemeral software instances that are spun up and need to authenticate and obtain an access token from an AS, I'm forgetting the specifics right now</p>",
+    "topic": "ietf-118",
+    "dtime": 6525000,
+    "ptime": 6525000
+  },
+  {
+    "author": "Tobias Looker",
+    "text": "<p>Which dont use platform attestations in anyway</p>",
+    "topic": "ietf-118",
+    "dtime": 6562000,
+    "ptime": 6562000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>omg <span class=\"user-mention\" data-user-id=\"545\">@Justin Richer</span> the W3C version has this: </p>\n<blockquote>\n<p>\"id\": \"<a href=\"https://example.com/credentials/status/3#94567\">https://example.com/credentials/status/3#94567</a>\"</p>\n</blockquote>",
+    "topic": "ietf-118",
+    "dtime": 7118000,
+    "ptime": 7118000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>yes, we are competing with w3c statuslist is i think the short answer and maybe we should think it through a bit more</p>",
+    "topic": "ietf-118",
+    "dtime": 7133000,
+    "ptime": 7133000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>+1 to token status list as a title please</p>",
+    "topic": "ietf-118",
+    "dtime": 7163000,
+    "ptime": 7163000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"56\">Aaron Parecki</span> <a href=\"#narrow/stream/245-oauth/topic/ietf-118/near/98695\">said</a>:</p>\n<blockquote>\n<p>omg <span class=\"user-mention silent\" data-user-id=\"545\">Justin Richer</span> the W3C version has this: </p>\n<blockquote>\n<p>\"id\": \"<a href=\"https://example.com/credentials/status/3#94567\">https://example.com/credentials/status/3#94567</a>\"</p>\n</blockquote>\n</blockquote>\n<p>that <code>id</code> \"It MUST NOT be the URL for the status list.\"</p>",
+    "topic": "ietf-118",
+    "dtime": 7204000,
+    "ptime": 7204000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>it is an RDF id</p>",
+    "topic": "ietf-118",
+    "dtime": 7220000,
+    "ptime": 7220000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>oh god</p>",
+    "topic": "ietf-118",
+    "dtime": 7250000,
+    "ptime": 7250000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>well reading through this W3C version, I see why nobody in their right mind would use this for JWT access tokens</p>",
+    "topic": "ietf-118",
+    "dtime": 7269000,
+    "ptime": 7269000
+  },
+  {
+    "author": "Kristina Yasuda",
+    "text": "<p>yeap</p>",
+    "topic": "ietf-118",
+    "dtime": 7284000,
+    "ptime": 7284000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-OAUTH-20231108-1330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-OAUTH-20231108-1330"
+		}		
+	]
+}

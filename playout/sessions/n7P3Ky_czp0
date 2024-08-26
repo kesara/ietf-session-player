@@ -1,0 +1,173 @@
+
+{
+	"title": "IETF114-TSVWG-20220725-1900",
+	"filename": "IETF114-TSVWG-20220725-1900",
+	"start": 0,
+	"end": 7484000,
+	"start_datetime": "2022-07-25T18:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "n7P3Ky_czp0",
+    "start": 0,
+    "end": "7484000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>I can do Jabber scribe again; just prefix something with \"Mic:\" or similar and I'll relay it</p>",
+    "dtime": 117000,
+    "ptime": 117000
+  },
+  {
+    "author": "C. Heard",
+    "text": "<p>Mr Black your volume is low, thanks</p>",
+    "dtime": 2719000,
+    "ptime": 2719000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>quickly checking the TOS bit assignments, 000001 was \"Precedence 0, High Reliability\" in the old (pre-DS) system</p>",
+    "dtime": 3021000,
+    "ptime": 3021000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>in the same vein, 45 decimal is 55 octal, 101101 binary</p>",
+    "dtime": 3310000,
+    "ptime": 3310000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>ToS precedence has been deprecated for a wee while</p>",
+    "dtime": 3940000,
+    "ptime": 3940000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>my view is:  since nodes not supporting the PHB SHOULD already treat it as default, simply accept that wifi stations in default condition meet that definition</p>",
+    "dtime": 4102000,
+    "ptime": 4102000
+  },
+  {
+    "author": "Louis Chan",
+    "text": "<p>For WiFi, the bandwidth is varying frequently, and there are multiple clients sharing the channel. I do not see how it would work.</p>",
+    "dtime": 4152000,
+    "ptime": 4152000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>+1 on the local use point --- good suggestion!</p>",
+    "dtime": 4253000,
+    "ptime": 4253000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>I'm going to miss the L4S Hackathon Demo... being remote really does have disadvantages ... if you do make a video or photo, I'll take a look and likely will be impressed!</p>",
+    "dtime": 4576000,
+    "ptime": 4576000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Those L4S results are amazing. Well done to everyone who has contributed to this. It will transform network experience.</p>",
+    "dtime": 5028000,
+    "ptime": 5028000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>I'm less impressed - these are simple runs under ideal conditions</p>",
+    "dtime": 5097000,
+    "ptime": 5097000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>it's the more complex cases that are likely to throw up trouble</p>",
+    "dtime": 5120000,
+    "ptime": 5120000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Speaking as someone who is not regularly involved in this WG, is there some work to be done to define complex test cases so that we can measure it? Or is it more a case of relying on real-world deployment and measuring the effect across all users/conditions/paths?</p>",
+    "dtime": 5294000,
+    "ptime": 5294000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>Pete Heist and I had done much more in-depth adversarial testing previously</p>",
+    "dtime": 5337000,
+    "ptime": 5337000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>also, we had roughly this level of functionality in SCE at IETF 101</p>",
+    "dtime": 5370000,
+    "ptime": 5370000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>But SCE wasn't an adopted work item, to me it seems like good progress that the L4S spec is being implemented... I'm still looking forward to the photos!</p>",
+    "dtime": 5497000,
+    "ptime": 5497000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>IMHO there are still some fundamental unresolved problems in L4S</p>",
+    "dtime": 5571000,
+    "ptime": 5571000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>which is what we created SCE to address</p>",
+    "dtime": 5583000,
+    "ptime": 5583000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>@Gorry Stuart had some pictures in his HotRFC slides: <a href=\"https://datatracker.ietf.org/meeting/114/materials/slides-114-hotrfc-sessa-network-latency-00.pdf\">https://datatracker.ietf.org/meeting/114/materials/slides-114-hotrfc-sessa-network-latency-00.pdf</a></p>",
+    "dtime": 6250000,
+    "ptime": 6250000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>@Chris thanks  I'll look.</p>",
+    "dtime": 6371000,
+    "ptime": 6371000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<ul>\n<li>yes it could be interesting to people in the Alto WG, that might be an inetresting place to get more feedback and help...</li>\n</ul>",
+    "dtime": 7041000,
+    "ptime": 7041000
+  },
+  {
+    "author": "Dirk Trossen",
+    "text": "<p>@Martin thanks for the offer for future connections, support and insights</p>",
+    "dtime": 7339000,
+    "ptime": 7339000
+  },
+  {
+    "author": "Ana Custura",
+    "text": "<p>thanks!</p>",
+    "dtime": 7373000,
+    "ptime": 7373000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-TSVWG-20220725-1900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/tsvwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-TSVWG-20220725-1900"
+		}		
+	]
+}

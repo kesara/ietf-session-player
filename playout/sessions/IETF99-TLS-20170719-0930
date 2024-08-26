@@ -1,0 +1,3127 @@
+{
+  "title": "IETF99-TLS-20170719-0930",
+  "filename": "IETF99-TLS-20170719-0930",
+  "start": 0,
+  "end": 8752000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "ms-0PlY1R-8",
+      "start": 0.0,
+      "end": 8752000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Aaron Zauner just joined the room",
+      "ptime": 51000.0,
+      "dtime": 937000.0
+    },
+    {
+      "text": "***Karl Henderson just joined the room",
+      "ptime": 54000.0,
+      "dtime": 940000.0
+    },
+    {
+      "text": "***Meetecho just joined the room",
+      "ptime": 56000.0,
+      "dtime": 942000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 56000.0,
+      "dtime": 942000.0
+    },
+    {
+      "text": "https://cdn.meme.am/cache/instances/folder827/250x250/46162827.jpg",
+      "ptime": 56000.0,
+      "dtime": 942000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Hi folks.  Despite what it says on the agenda, the link for the audio stream is http://ietf99streaming.dnsalias.net/ietf/ietf996.m3u",
+      "ptime": 95000.0,
+      "dtime": 981000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Ben Kaduk just joined the room",
+      "ptime": 118000.0,
+      "dtime": 1004000.0
+    },
+    {
+      "text": "***Scott Fluhrer just joined the room",
+      "ptime": 125000.0,
+      "dtime": 1011000.0
+    },
+    {
+      "text": "***Dennis Kort just joined the room",
+      "ptime": 143000.0,
+      "dtime": 1029000.0
+    },
+    {
+      "text": "Sorry, no.",
+      "ptime": 170000.0,
+      "dtime": 1056000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Meetecho: the link on the agenda points to the wrong room",
+      "ptime": 198000.0,
+      "dtime": 1084000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Do you know what the link for the correct room is?",
+      "ptime": 209000.0,
+      "dtime": 1095000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Nice Prague photo, chairs",
+      "ptime": 214000.0,
+      "dtime": 1100000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "***Olaf Bonorden just joined the room",
+      "ptime": 223000.0,
+      "dtime": 1109000.0
+    },
+    {
+      "text": "ynir: this should be fixed now, can you try again?",
+      "ptime": 227000.0,
+      "dtime": 1113000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***Philip Lafrance just joined the room",
+      "ptime": 252000.0,
+      "dtime": 1138000.0
+    },
+    {
+      "text": "***Dennis Kort just left the room",
+      "ptime": 279000.0,
+      "dtime": 1165000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 286000.0,
+      "dtime": 1172000.0
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 289000.0,
+      "dtime": 1175000.0
+    },
+    {
+      "text": "***TedLemon just joined the room",
+      "ptime": 310000.0,
+      "dtime": 1196000.0
+    },
+    {
+      "text": "***Victor Vasiliev just joined the room",
+      "ptime": 316000.0,
+      "dtime": 1202000.0
+    },
+    {
+      "text": "Hi, folks. I will be your Jabber scribe. If you would like something forwarded to the room mic, please prefix it with \"mic:\"",
+      "ptime": 349000.0,
+      "dtime": 1235000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Carl Mehner just joined the room",
+      "ptime": 358000.0,
+      "dtime": 1244000.0
+    },
+    {
+      "text": "***Emile STEPHAN just joined the room",
+      "ptime": 379000.0,
+      "dtime": 1265000.0
+    },
+    {
+      "text": "Meetecho link all better, thanks Yoav and Meetecho :)",
+      "ptime": 428000.0,
+      "dtime": 1314000.0,
+      "author": "Carl Mehner"
+    },
+    {
+      "text": "(y)",
+      "ptime": 436000.0,
+      "dtime": 1322000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***dkg just joined the room",
+      "ptime": 442000.0,
+      "dtime": 1328000.0
+    },
+    {
+      "text": "***Weiguang Wang just joined the room",
+      "ptime": 484000.0,
+      "dtime": 1370000.0
+    },
+    {
+      "text": "***hubert Le Van Gong just joined the room",
+      "ptime": 503000.0,
+      "dtime": 1389000.0
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-tls-sessb-tls-13-00.pdf",
+      "ptime": 511000.0,
+      "dtime": 1397000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Slide #3 now",
+      "ptime": 517000.0,
+      "dtime": 1403000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Janardhan Iyengar just joined the room",
+      "ptime": 555000.0,
+      "dtime": 1441000.0
+    },
+    {
+      "text": "Slide #4 (Mandatory Anti-Replay)",
+      "ptime": 571000.0,
+      "dtime": 1457000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Weiguang Wang just left the room",
+      "ptime": 714000.0,
+      "dtime": 1600000.0
+    },
+    {
+      "text": "NOTE: the slides we\u0027re seeing now are not the slides in the meeting materials.",
+      "ptime": 775000.0,
+      "dtime": 1661000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Malombe Victor just joined the room",
+      "ptime": 846000.0,
+      "dtime": 1732000.0
+    },
+    {
+      "text": "We are still discussing mandatory anti-replay",
+      "ptime": 883000.0,
+      "dtime": 1769000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "\"Hashes that aren\u0027t hashes\"",
+      "ptime": 950000.0,
+      "dtime": 1836000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Ming Pei just joined the room",
+      "ptime": 990000.0,
+      "dtime": 1876000.0
+    },
+    {
+      "text": "The change on slide 4 was to discuss https://github.com/tlswg/tls13-spec/pull/1059",
+      "ptime": 1036000.0,
+      "dtime": 1922000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "Slide #6",
+      "ptime": 1075000.0,
+      "dtime": 1961000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Slide #6",
+      "ptime": 1075000.0,
+      "dtime": 1961000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Holy premature optimization, batman",
+      "ptime": 1081000.0,
+      "dtime": 1967000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "***Wartan Hachaturow just joined the room",
+      "ptime": 1170000.0,
+      "dtime": 2056000.0
+    },
+    {
+      "text": "***James Tarpey just joined the room",
+      "ptime": 1175000.0,
+      "dtime": 2061000.0
+    },
+    {
+      "text": "Next up: https://www.ietf.org/proceedings/99/slides/slides-99-tls-sessb-dnssec-chain-validation-00.pdf",
+      "ptime": 1341000.0,
+      "dtime": 2227000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "ty Yoav!",
+      "ptime": 1425000.0,
+      "dtime": 2311000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "slide #2",
+      "ptime": 1432000.0,
+      "dtime": 2318000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ted Hardie at the mic",
+      "ptime": 1522000.0,
+      "dtime": 2408000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Paul Wouters",
+      "ptime": 1579000.0,
+      "dtime": 2465000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "DTLS 1.3",
+      "ptime": 1655000.0,
+      "dtime": 2541000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-tls-sessb-dtls-00.pdf",
+      "ptime": 1671000.0,
+      "dtime": 2557000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "slide #2",
+      "ptime": 1739000.0,
+      "dtime": 2625000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Martin Thomson at the mic",
+      "ptime": 1922000.0,
+      "dtime": 2808000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "We\u0027re at slide #3 btw",
+      "ptime": 1933000.0,
+      "dtime": 2819000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Slide #4",
+      "ptime": 2081000.0,
+      "dtime": 2967000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "slide #5",
+      "ptime": 2139000.0,
+      "dtime": 3025000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 2157000.0,
+      "dtime": 3043000.0
+    },
+    {
+      "text": "MT at the mic",
+      "ptime": 2310000.0,
+      "dtime": 3196000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "slide #6",
+      "ptime": 2564000.0,
+      "dtime": 3450000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Sara Dickinson just joined the room",
+      "ptime": 2642000.0,
+      "dtime": 3528000.0
+    },
+    {
+      "text": "***James Tarpey just left the room",
+      "ptime": 2700000.0,
+      "dtime": 3586000.0
+    },
+    {
+      "text": "***James Tarpey just joined the room",
+      "ptime": 2703000.0,
+      "dtime": 3589000.0
+    },
+    {
+      "text": "***TedLemon just joined the room",
+      "ptime": 2707000.0,
+      "dtime": 3593000.0
+    },
+    {
+      "text": "Sorry. We\u0027re at slide #7",
+      "ptime": 2715000.0,
+      "dtime": 3601000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Tobias Gondrom at the mic",
+      "ptime": 2724000.0,
+      "dtime": 3610000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Hannes at the mic",
+      "ptime": 2848000.0,
+      "dtime": 3734000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Should be noted that IPsec has 4-byte SPIs",
+      "ptime": 2878000.0,
+      "dtime": 3764000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ted Hardie",
+      "ptime": 2883000.0,
+      "dtime": 3769000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***TedLemon just joined the room",
+      "ptime": 2910000.0,
+      "dtime": 3796000.0
+    },
+    {
+      "text": "***TedLemon just joined the room",
+      "ptime": 2910000.0,
+      "dtime": 3796000.0
+    },
+    {
+      "text": "Nikos at the mic",
+      "ptime": 3003000.0,
+      "dtime": 3889000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "love the smell of TLS mimosas in the morning",
+      "ptime": 3054000.0,
+      "dtime": 3940000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "***James Tarpey just left the room",
+      "ptime": 3084000.0,
+      "dtime": 3970000.0
+    },
+    {
+      "text": "***James Tarpey just joined the room",
+      "ptime": 3086000.0,
+      "dtime": 3972000.0
+    },
+    {
+      "text": "DKG",
+      "ptime": 3091000.0,
+      "dtime": 3977000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "?and popcorn!",
+      "ptime": 3091000.0,
+      "dtime": 3977000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "***Geir Egeland just joined the room",
+      "ptime": 3130000.0,
+      "dtime": 4016000.0
+    },
+    {
+      "text": "mic: so why is this an asymmetric connection ID scheme?",
+      "ptime": 3145000.0,
+      "dtime": 4031000.0,
+      "author": "Victor Vasiliev"
+    },
+    {
+      "text": "***xu hao just joined the room",
+      "ptime": 3209000.0,
+      "dtime": 4095000.0
+    },
+    {
+      "text": "MT",
+      "ptime": 3212000.0,
+      "dtime": 4098000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***yuki goto just left the room",
+      "ptime": 3306000.0,
+      "dtime": 4192000.0
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 3308000.0,
+      "dtime": 4194000.0
+    },
+    {
+      "text": "Away?  Me??",
+      "ptime": 3315000.0,
+      "dtime": 4201000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Steven Valdez just joined the room",
+      "ptime": 3334000.0,
+      "dtime": 4220000.0
+    },
+    {
+      "text": "Christian Huitema",
+      "ptime": 3336000.0,
+      "dtime": 4222000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***xu hao just left the room",
+      "ptime": 3369000.0,
+      "dtime": 4255000.0
+    },
+    {
+      "text": "I\u0027m typing into the jabber and the **** client is stil marking me as away...",
+      "ptime": 3385000.0,
+      "dtime": 4271000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "messages supports jabber -- just saying...",
+      "ptime": 3439000.0,
+      "dtime": 4325000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "Janardhan Iyengar",
+      "ptime": 3507000.0,
+      "dtime": 4393000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ben Schwartz",
+      "ptime": 3547000.0,
+      "dtime": 4433000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Hannes",
+      "ptime": 3598000.0,
+      "dtime": 4484000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***TedLemon just joined the room",
+      "ptime": 3731000.0,
+      "dtime": 4617000.0
+    },
+    {
+      "text": "(DKG: why have it at all?)",
+      "ptime": 3740000.0,
+      "dtime": 4626000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "NAT rebinding",
+      "ptime": 3756000.0,
+      "dtime": 4642000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "Tobias",
+      "ptime": 3764000.0,
+      "dtime": 4650000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Roland Zink just joined the room",
+      "ptime": 3792000.0,
+      "dtime": 4678000.0
+    },
+    {
+      "text": "***Dorothy Cooley just joined the room",
+      "ptime": 3891000.0,
+      "dtime": 4777000.0
+    },
+    {
+      "text": "i like the name \"spudlite\" :P",
+      "ptime": 3964000.0,
+      "dtime": 4850000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "MT",
+      "ptime": 3973000.0,
+      "dtime": 4859000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "http://i3.kym-cdn.com/photos/images/original/000/898/402/48d.gif",
+      "ptime": 4070000.0,
+      "dtime": 4956000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-tls-chair-interrupt-00.pdf",
+      "ptime": 4078000.0,
+      "dtime": 4964000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "I\u0027m pretty sure spud lite was an actual thing on Saturday Night Live back in the 80\u0027s.",
+      "ptime": 4095000.0,
+      "dtime": 4981000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "https://cdn.meme.am/cache/instances/folder827/250x250/46162827.jpg",
+      "ptime": 4102000.0,
+      "dtime": 4988000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "\"it\u0027s a floor wax, no! it\u0027s a dessert topping!\"",
+      "ptime": 4137000.0,
+      "dtime": 5023000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "can spt speak up?",
+      "ptime": 4153000.0,
+      "dtime": 5039000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "that\u0027s better",
+      "ptime": 4163000.0,
+      "dtime": 5049000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "He can",
+      "ptime": 4167000.0,
+      "dtime": 5053000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "netwerkeddude@gmail.com: ynir told him to",
+      "ptime": 4175000.0,
+      "dtime": 5061000.0,
+      "author": "dkg"
+    },
+    {
+      "text": ";-)",
+      "ptime": 4181000.0,
+      "dtime": 5067000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "Can I just have some champagne?",
+      "ptime": 4212000.0,
+      "dtime": 5098000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "/me contemplates getting up in order to score a mimosa.",
+      "ptime": 4214000.0,
+      "dtime": 5100000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "+1",
+      "ptime": 4221000.0,
+      "dtime": 5107000.0,
+      "author": "hubert Le Van Gong"
+    },
+    {
+      "text": "***Aaron Zauner just left the room",
+      "ptime": 4224000.0,
+      "dtime": 5110000.0
+    },
+    {
+      "text": "LOCK THE DOORS!!!!!",
+      "ptime": 4238000.0,
+      "dtime": 5124000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "DID NO ONE BRING THE SCOTCH?!?",
+      "ptime": 4244000.0,
+      "dtime": 5130000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-tls-sessb-impact-of-tls-13-on-network-ops-00.pdf",
+      "ptime": 4249000.0,
+      "dtime": 5135000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "MT, go get the scotch",
+      "ptime": 4254000.0,
+      "dtime": 5140000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "slide #2",
+      "ptime": 4255000.0,
+      "dtime": 5141000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "+1 ekr",
+      "ptime": 4262000.0,
+      "dtime": 5148000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "mnot: there is definitely scotch in the room, less well advertised",
+      "ptime": 4263000.0,
+      "dtime": 5149000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "rbarnes: are you talking about Kenny?",
+      "ptime": 4280000.0,
+      "dtime": 5166000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***xu hao just joined the room",
+      "ptime": 4296000.0,
+      "dtime": 5182000.0
+    },
+    {
+      "text": "can I get mimosa delivered ?",
+      "ptime": 4296000.0,
+      "dtime": 5182000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "slide #3",
+      "ptime": 4323000.0,
+      "dtime": 5209000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "@Jana Room service is your friend.",
+      "ptime": 4328000.0,
+      "dtime": 5214000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "/me contemplates getting out of the internet standards business, and into the serving-drinks-to-internet-standards-people business.",
+      "ptime": 4329000.0,
+      "dtime": 5215000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "Isn?t this the same preso he did 2 IETFs ago?",
+      "ptime": 4334000.0,
+      "dtime": 5220000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "maybe there\u0027s more boxes this time?",
+      "ptime": 4349000.0,
+      "dtime": 5235000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Looks like a shortened version",
+      "ptime": 4370000.0,
+      "dtime": 5256000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Is there going to be a chance for clarifying Qs after presos?",
+      "ptime": 4379000.0,
+      "dtime": 5265000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "Great, thanks",
+      "ptime": 4395000.0,
+      "dtime": 5281000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "\"Stand back, I know Wireshark!\"",
+      "ptime": 4428000.0,
+      "dtime": 5314000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Wolfgang Beck just joined the room",
+      "ptime": 4430000.0,
+      "dtime": 5316000.0
+    },
+    {
+      "text": "/me brandishes SSLKEYLOGFILE",
+      "ptime": 4461000.0,
+      "dtime": 5347000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "tcpdump is for real engineers",
+      "ptime": 4474000.0,
+      "dtime": 5360000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "put that down, richard; you?ll hurt yourself.",
+      "ptime": 4486000.0,
+      "dtime": 5372000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "(not sure if SSLKEYLOGFILE works with tcpdump)",
+      "ptime": 4490000.0,
+      "dtime": 5376000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "Should work with tshark",
+      "ptime": 4503000.0,
+      "dtime": 5389000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "good point",
+      "ptime": 4527000.0,
+      "dtime": 5413000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "so there was a 10 second response time on specific connections?  how does that require decryption?",
+      "ptime": 4527000.0,
+      "dtime": 5413000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "@dkg: The encryption was causing the delay",
+      "ptime": 4540000.0,
+      "dtime": 5426000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "i wonder if the static key slinger will fail less than proxies..",
+      "ptime": 4544000.0,
+      "dtime": 5430000.0,
+      "author": "Carl Mehner"
+    },
+    {
+      "text": "wha",
+      "ptime": 4547000.0,
+      "dtime": 5433000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "***Okke Timm just joined the room",
+      "ptime": 4567000.0,
+      "dtime": 5453000.0
+    },
+    {
+      "text": "Encryption slows everything down.",
+      "ptime": 4569000.0,
+      "dtime": 5455000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "not by 10s",
+      "ptime": 4577000.0,
+      "dtime": 5463000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "well, minq is pretty slow",
+      "ptime": 4582000.0,
+      "dtime": 5468000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 4592000.0,
+      "dtime": 5478000.0
+    },
+    {
+      "text": "Also, you might be running DJB?s post-quantum RSA",
+      "ptime": 4596000.0,
+      "dtime": 5482000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "The endpoint doesn\u0027t terminate the TLS?",
+      "ptime": 4598000.0,
+      "dtime": 5484000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Unless the firewall is a TLS proxy, all you need is correlation of the streams.",
+      "ptime": 4613000.0,
+      "dtime": 5499000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ciphertext all the way down",
+      "ptime": 4613000.0,
+      "dtime": 5499000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "\"What is an endpoint?\"",
+      "ptime": 4616000.0,
+      "dtime": 5502000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "@Jana 5 points to Griffendor",
+      "ptime": 4627000.0,
+      "dtime": 5513000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "sadly we\u0027ll need to hash public keys for PQRSA",
+      "ptime": 4631000.0,
+      "dtime": 5517000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "The only tool he\u0027s got is tcpdump. All problems look like packet traces",
+      "ptime": 4644000.0,
+      "dtime": 5530000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Isn\u0027t the thing that terminates TLS by definition the endpoint?",
+      "ptime": 4645000.0,
+      "dtime": 5531000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "Given how big those keys are, we might need to use SHA-3",
+      "ptime": 4647000.0,
+      "dtime": 5533000.0,
+      "author": "ekr"
+    },
+    {
+      "text": ":)",
+      "ptime": 4658000.0,
+      "dtime": 5544000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "Janardhan Iyengar: depends on what layer you look at it from, i guess.",
+      "ptime": 4669000.0,
+      "dtime": 5555000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "ekr: MD5 might be faster, and speed matters here",
+      "ptime": 4670000.0,
+      "dtime": 5556000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Of course, there?s no way you could observe a 10s response time in the ciphertext stream",
+      "ptime": 4671000.0,
+      "dtime": 5557000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "\"i don\u0027t have monitoring on my slow queries\"",
+      "ptime": 4694000.0,
+      "dtime": 5580000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "dkg beat me to it",
+      "ptime": 4706000.0,
+      "dtime": 5592000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "there\u0027s the joke about the priest, lawyer and engineer that were all being executed by guillotine...",
+      "ptime": 4720000.0,
+      "dtime": 5606000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "I just monitor my fast queries",
+      "ptime": 4725000.0,
+      "dtime": 5611000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "all your queries run at ekr speed",
+      "ptime": 4738000.0,
+      "dtime": 5624000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "tls is being terminated on the \"load balancer\" per their diagram. Why can\u0027t they get access to the plaintext there if it\u0027s so important?",
+      "ptime": 4740000.0,
+      "dtime": 5626000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "hahaha",
+      "ptime": 4742000.0,
+      "dtime": 5628000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "wtf is vdi?",
+      "ptime": 4744000.0,
+      "dtime": 5630000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "it?s enterprise.",
+      "ptime": 4751000.0,
+      "dtime": 5637000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "Virtual desktop",
+      "ptime": 4761000.0,
+      "dtime": 5647000.0,
+      "author": "James Tarpey"
+    },
+    {
+      "text": "v\u003dvenereal",
+      "ptime": 4762000.0,
+      "dtime": 5648000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Venereal Disease, Internet",
+      "ptime": 4764000.0,
+      "dtime": 5650000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "\"if there\u0027s no log messages\"",
+      "ptime": 4764000.0,
+      "dtime": 5650000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "Because the load balancer vendor doesn\u0027t give them the plaintext",
+      "ptime": 4769000.0,
+      "dtime": 5655000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "VD over IP",
+      "ptime": 4781000.0,
+      "dtime": 5667000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "mt, ted: you need to clear your heads",
+      "ptime": 4785000.0,
+      "dtime": 5671000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "or have some more scotch",
+      "ptime": 4794000.0,
+      "dtime": 5680000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "@Jana, they didn\u0027t give us scotch yet.  That\u0027s why we\u0027re foggy.",
+      "ptime": 4802000.0,
+      "dtime": 5688000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "one and the same.",
+      "ptime": 4804000.0,
+      "dtime": 5690000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "then they should be talking to their sales rep not us.",
+      "ptime": 4806000.0,
+      "dtime": 5692000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "hey, this is like the plenary, just early",
+      "ptime": 4806000.0,
+      "dtime": 5692000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "***TedLemon just joined the room",
+      "ptime": 4819000.0,
+      "dtime": 5705000.0
+    },
+    {
+      "text": "Probably not on Sundays",
+      "ptime": 4819000.0,
+      "dtime": 5705000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Wait so what was the deal with the mimosas?  You get one for coming to the mic?",
+      "ptime": 4829000.0,
+      "dtime": 5715000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "Cause banks are closed on Sunday",
+      "ptime": 4829000.0,
+      "dtime": 5715000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "On a more serious note: Slide #5",
+      "ptime": 4837000.0,
+      "dtime": 5723000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "yeah, the one that says \"control of one endpoint\" \u003d\u003d \"inside the datacenter\"",
+      "ptime": 4853000.0,
+      "dtime": 5739000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "are you sure, ynir?",
+      "ptime": 4854000.0,
+      "dtime": 5740000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "yeah, it is",
+      "ptime": 4859000.0,
+      "dtime": 5745000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Emile STEPHAN just left the room",
+      "ptime": 4870000.0,
+      "dtime": 5756000.0
+    },
+    {
+      "text": "apparently they have systems inside the datacenter that they don\u0027t control",
+      "ptime": 4882000.0,
+      "dtime": 5768000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "Yup: it\u0027s definitely slide #5 :-)",
+      "ptime": 4892000.0,
+      "dtime": 5778000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "I think they have vendors that provide these boxes",
+      "ptime": 4894000.0,
+      "dtime": 5780000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "***Emile STEPHAN just joined the room",
+      "ptime": 4896000.0,
+      "dtime": 5782000.0
+    },
+    {
+      "text": "Recording this phrase for posterity: \"TLS 1.3-induced denial of service\"",
+      "ptime": 4898000.0,
+      "dtime": 5784000.0,
+      "author": "Adam Roach"
+    },
+    {
+      "text": "Not sure you want to advertise it to the full chat?",
+      "ptime": 4904000.0,
+      "dtime": 5790000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "@adam: in the notes",
+      "ptime": 4909000.0,
+      "dtime": 5795000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "Ti-DoS",
+      "ptime": 4915000.0,
+      "dtime": 5801000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Yeah, ?don?t control? in the sense of ?it?s a black box?",
+      "ptime": 4915000.0,
+      "dtime": 5801000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "seriously though: Whilst I have never had to decrypt any aspects of my own platform. I do have sympathy for many enterprise tools logging charteristics not always being sufficient. I can at least influence my own.",
+      "ptime": 4929000.0,
+      "dtime": 5815000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "and they want the IETF to tell the vendors what to do.",
+      "ptime": 4931000.0,
+      "dtime": 5817000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "and they want the IETF to tell the vendors what to do.",
+      "ptime": 4931000.0,
+      "dtime": 5817000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "Please keep this professional",
+      "ptime": 4931000.0,
+      "dtime": 5817000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "Matt Green presenting now",
+      "ptime": 4948000.0,
+      "dtime": 5834000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Whatever happened to Judson Wilson\u0027s TLS-rotate-and-release?",
+      "ptime": 4953000.0,
+      "dtime": 5839000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "perhpas the balance here is: as a software provider, don\u0027t implement tls13 unless you can provide the appropriate level of app logging",
+      "ptime": 4962000.0,
+      "dtime": 5848000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "@hardie: people didn?t like it",
+      "ptime": 4968000.0,
+      "dtime": 5854000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "and it was kind of a pain",
+      "ptime": 4978000.0,
+      "dtime": 5864000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "@ekr Did _these_people not like it because of the rotation speed, or something else?",
+      "ptime": 4990000.0,
+      "dtime": 5876000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "sean, are comments specific to the draft allowed after his preso or do we have to wait until Stephen is done?",
+      "ptime": 5008000.0,
+      "dtime": 5894000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "Well, it required a side channel for individual key exfiltration",
+      "ptime": 5009000.0,
+      "dtime": 5895000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "so we\u0027re holding question until after farrelll",
+      "ptime": 5012000.0,
+      "dtime": 5898000.0,
+      "author": "Sean Turner"
+    },
+    {
+      "text": "which is basically Green?s #1 option",
+      "ptime": 5016000.0,
+      "dtime": 5902000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "(so he?s going to say he doesn?t like it)",
+      "ptime": 5022000.0,
+      "dtime": 5908000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Jana: I used to work for a vendor that provided both client-side and server-side TLS proxies (though not for LB). We did not provide a dump of the plaintext because that would look like a wiretap.  Interestingly, no customer asked for this.",
+      "ptime": 5049000.0,
+      "dtime": 5935000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "It actually doesn\u0027t have to be timely in the no-PFS case, anyway.",
+      "ptime": 5050000.0,
+      "dtime": 5936000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Slide #6",
+      "ptime": 5058000.0,
+      "dtime": 5944000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "everybody remember the jabber channel is reocrded",
+      "ptime": 5062000.0,
+      "dtime": 5948000.0,
+      "author": "Sean Turner"
+    },
+    {
+      "text": "VAST engineering!",
+      "ptime": 5073000.0,
+      "dtime": 5959000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "legacy tls1.3 systems?",
+      "ptime": 5082000.0,
+      "dtime": 5968000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Dorothy Cooley just left the room",
+      "ptime": 5085000.0,
+      "dtime": 5971000.0
+    },
+    {
+      "text": "@Sean I believe Aaron plans to use it a Pecha Kucha script too, so it might be video-taped later.",
+      "ptime": 5102000.0,
+      "dtime": 5988000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "what\u0027s wrong with the evil bit?",
+      "ptime": 5149000.0,
+      "dtime": 6035000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "let\u0027s blame Hugo, he\u0027s not here",
+      "ptime": 5161000.0,
+      "dtime": 6047000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "so it is a wiretapping system then?",
+      "ptime": 5181000.0,
+      "dtime": 6067000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Geir Egeland just left the room",
+      "ptime": 5185000.0,
+      "dtime": 6071000.0
+    },
+    {
+      "text": "Or Obama.   Thanks, Obama!",
+      "ptime": 5187000.0,
+      "dtime": 6073000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "\"not change TLS protocol\" \u003d\u003d \"undetectable by the other side\"",
+      "ptime": 5220000.0,
+      "dtime": 6106000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "slide #8",
+      "ptime": 5252000.0,
+      "dtime": 6138000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Geir Egeland just joined the room",
+      "ptime": 5256000.0,
+      "dtime": 6142000.0
+    },
+    {
+      "text": "Kudos to Matt for getting on the ASCII art train",
+      "ptime": 5257000.0,
+      "dtime": 6143000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "It kind of looks like a helicopter.",
+      "ptime": 5270000.0,
+      "dtime": 6156000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "slide #9",
+      "ptime": 5277000.0,
+      "dtime": 6163000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "A black, ascii helicopter on a white background.",
+      "ptime": 5287000.0,
+      "dtime": 6173000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "so the loadbalancer can do monitoring? so THAT\u0027S where they should go to get plaintext",
+      "ptime": 5288000.0,
+      "dtime": 6174000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "So, we actually are lacking an analysis that this mode is secure in TLS 1.3",
+      "ptime": 5295000.0,
+      "dtime": 6181000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Ted:",
+      "ptime": 5318000.0,
+      "dtime": 6204000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "https://upload.wikimedia.org/wikipedia/commons/7/73/Roflcopter.gif",
+      "ptime": 5318000.0,
+      "dtime": 6204000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "***Ming Pei just left the room",
+      "ptime": 5331000.0,
+      "dtime": 6217000.0
+    },
+    {
+      "text": "ekr: yeah, that?s what I was expecting in this draft.",
+      "ptime": 5331000.0,
+      "dtime": 6217000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "***Ming Pei just joined the room",
+      "ptime": 5336000.0,
+      "dtime": 6222000.0
+    },
+    {
+      "text": "ynir: yeah, that is my biggest concern here. That with or without IETF help, if these folks ask vendors to put that in, there\u0027s likely to be leakage of this mechanism into the Internet, which worries me.",
+      "ptime": 5342000.0,
+      "dtime": 6228000.0,
+      "author": "Janardhan Iyengar"
+    },
+    {
+      "text": "***yuki goto just left the room",
+      "ptime": 5345000.0,
+      "dtime": 6231000.0
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 5348000.0,
+      "dtime": 6234000.0
+    },
+    {
+      "text": "wdf: it\u0027s a marketing issue. They don\u0027t want to be seen as selling wiretap equipment.",
+      "ptime": 5356000.0,
+      "dtime": 6242000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Just stating where I believe their problem is: the load balancer won\u0027t have the interactions between backend servers and doesn\u0027t solve their problem.  They could just run the internal network in plaintext, but they need it encrypted for regulators.",
+      "ptime": 5380000.0,
+      "dtime": 6266000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "There are other proposals in other SDOs",
+      "ptime": 5398000.0,
+      "dtime": 6284000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "everyone does that. On a cisco box it\u0027s referred to as \"service spy mode\", you fork off data to some random IP address",
+      "ptime": 5402000.0,
+      "dtime": 6288000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "Matt seems to have a different metric for ?significant? protocol changes than I do",
+      "ptime": 5413000.0,
+      "dtime": 6299000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "They need it encrypted because they don\u0027t have physical security in the datacenter.",
+      "ptime": 5419000.0,
+      "dtime": 6305000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Marius Georgescu just joined the room",
+      "ptime": 5428000.0,
+      "dtime": 6314000.0
+    },
+    {
+      "text": "PCI and PII regs do require encryption on the internal network",
+      "ptime": 5459000.0,
+      "dtime": 6345000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "Tim Polk now presenting",
+      "ptime": 5472000.0,
+      "dtime": 6358000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Detect only over time, though, right?  You need a chain to see that it did not change, if I understand it correctly?",
+      "ptime": 5490000.0,
+      "dtime": 6376000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "You need two consecutive connections",
+      "ptime": 5499000.0,
+      "dtime": 6385000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "I also see the other side, that this can be used by others and am waiting to see what the WG thinks.  Just hoping we clarify points on all sides.",
+      "ptime": 5511000.0,
+      "dtime": 6397000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "So the lack of protection in connection 1 is not detectable, nicht var?",
+      "ptime": 5521000.0,
+      "dtime": 6407000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "affirmative",
+      "ptime": 5529000.0,
+      "dtime": 6415000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "(that affirmative was for Ted)",
+      "ptime": 5541000.0,
+      "dtime": 6427000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Ben: since static DH is possible even without a protocol change, would a change provide any benefit for detectability?",
+      "ptime": 5544000.0,
+      "dtime": 6430000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "You could do something like declare a new DH group for ephemeral-static \u003c/bad-idea\u003e",
+      "ptime": 5551000.0,
+      "dtime": 6437000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "***Okke Timm just left the room",
+      "ptime": 5556000.0,
+      "dtime": 6442000.0
+    },
+    {
+      "text": "That would signal on the first connection",
+      "ptime": 5559000.0,
+      "dtime": 6445000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "sec256k1.",
+      "ptime": 5562000.0,
+      "dtime": 6448000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "you can escrow the private key and still hide the fact you\u0027re doing this by incrementing the exponent? g^x then g^(x+n) then g^(x+2n) ....",
+      "ptime": 5570000.0,
+      "dtime": 6456000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "I think most agree client detection is important if this goes forward",
+      "ptime": 5582000.0,
+      "dtime": 6468000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "I think we need to detect this regardless of the outcome for this draft",
+      "ptime": 5585000.0,
+      "dtime": 6471000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "I don\u0027t understand why TLS is being used in these applications.",
+      "ptime": 5592000.0,
+      "dtime": 6478000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "krose +1",
+      "ptime": 5606000.0,
+      "dtime": 6492000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "The point is that server owners can do this unilaterally: they don\u0027t need a published RFC to implement this, so we need to detect it on the open internet",
+      "ptime": 5608000.0,
+      "dtime": 6494000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "Kathleen: any datacenter these days has a whole bunch of engineers and technicians from various vendors entering and doing things without supervision. That\u0027s why PCI and others require encryption.",
+      "ptime": 5609000.0,
+      "dtime": 6495000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "mellon: because you want it to be encrypted except when it needs to not be",
+      "ptime": 5624000.0,
+      "dtime": 6510000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "There\u0027s no detection on the first connection with draft-green, you need to connect twice.",
+      "ptime": 5644000.0,
+      "dtime": 6530000.0,
+      "author": "Nick Sullivan"
+    },
+    {
+      "text": "Does anybody understand how would anyone detect it without protocol change? By looking at parameters between sessions?",
+      "ptime": 5645000.0,
+      "dtime": 6531000.0,
+      "author": "Wartan Hachaturow"
+    },
+    {
+      "text": "Does anybody understand how would anyone detect it without protocol change? By looking at parameters between sessions?",
+      "ptime": 5645000.0,
+      "dtime": 6531000.0,
+      "author": "Wartan Hachaturow"
+    },
+    {
+      "text": "@Kyle, that\u0027s an argument for adopting, other proposals will pop up elsewhere.  Or vendors will do their own thing if we want no part - can be seen as good or bad.",
+      "ptime": 5645000.0,
+      "dtime": 6531000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "I don\u0027t mean don\u0027t encrypt.   I mean why use TLS 1.3 specifically.   It doesn\u0027t address this use case.",
+      "ptime": 5653000.0,
+      "dtime": 6539000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Because TLS 1.2 is soon to be EOLed",
+      "ptime": 5672000.0,
+      "dtime": 6558000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "TedLemon: the claim is that at some point TLS 1.3 will be required by regulators (like PCI)",
+      "ptime": 5683000.0,
+      "dtime": 6569000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "They see TLS 1.3 as inevitable",
+      "ptime": 5692000.0,
+      "dtime": 6578000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Right, but what they want is something with fairly different characteristics than TLS, although it would have some characteristics of TLS.",
+      "ptime": 5704000.0,
+      "dtime": 6590000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "doubt they would require something that can?t meet PCI operational reqs",
+      "ptime": 5715000.0,
+      "dtime": 6601000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "@ynir - yes and attackers on the internal network too - not just vendors mucking around",
+      "ptime": 5719000.0,
+      "dtime": 6605000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "The reason they are using TLS is that it is their only choice.",
+      "ptime": 5728000.0,
+      "dtime": 6614000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Having some experience with custom security protocols, I\u0027ve long since discovered the benefits of going with something standard.",
+      "ptime": 5729000.0,
+      "dtime": 6615000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "***Okke Timm just joined the room",
+      "ptime": 5737000.0,
+      "dtime": 6623000.0
+    },
+    {
+      "text": "Yeah, I\u0027m not suggesting that they roll their own.",
+      "ptime": 5746000.0,
+      "dtime": 6632000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "IPsec would be _perfect_ for this!   :)",
+      "ptime": 5759000.0,
+      "dtime": 6645000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Mellon: you?re proposing the invent a new, non-TLS protocol instead of tweaking TLS?",
+      "ptime": 5767000.0,
+      "dtime": 6653000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "TedLemon: right!",
+      "ptime": 5770000.0,
+      "dtime": 6656000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Marius Georgescu just left the room",
+      "ptime": 5780000.0,
+      "dtime": 6666000.0
+    },
+    {
+      "text": "Isn\u0027t this a  crypto group communication problem? The group consisting of client, server, and enterprise admin?",
+      "ptime": 5788000.0,
+      "dtime": 6674000.0,
+      "author": "Wolfgang Beck"
+    },
+    {
+      "text": "Right.",
+      "ptime": 5801000.0,
+      "dtime": 6687000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Yoav\u0027s right that PCI will eventually mandate TLS 1.3. It\u0027s possible to pass an audit without using encryption within a PCI secure data environment, but it\u0027s a *lot* harder.",
+      "ptime": 5806000.0,
+      "dtime": 6692000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "@Ted, there\u0027s apparently a McIPsec proposal to allow multi-party as well.  I have not read that one yet though and don\u0027t know any details, just it\u0027s existence",
+      "ptime": 5826000.0,
+      "dtime": 6712000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "mellon: that?s a lot of baby for a little bit of bathwater",
+      "ptime": 5828000.0,
+      "dtime": 6714000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "IPsec implementations usually *do* have a way to dump the plaintext",
+      "ptime": 5830000.0,
+      "dtime": 6716000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Agreed, IPsec might be the better solution for this use case",
+      "ptime": 5834000.0,
+      "dtime": 6720000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "Russ Housley at the mic",
+      "ptime": 5861000.0,
+      "dtime": 6747000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "IPsec is no different!  TLS implementation log keys, cf. SSLKEYLOGFILE",
+      "ptime": 5877000.0,
+      "dtime": 6763000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "Please bring that up at the mic - IPsec",
+      "ptime": 5883000.0,
+      "dtime": 6769000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "This definition is section 3 of RFC 2804.  It is important to also read Section 4, which makes it clear that single use-case analysis is not sufficient.",
+      "ptime": 5928000.0,
+      "dtime": 6814000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Peter Resnick just joined the room",
+      "ptime": 5929000.0,
+      "dtime": 6815000.0
+    },
+    {
+      "text": "What this boils down to is that if effective tools for wiretapping",
+      "ptime": 5930000.0,
+      "dtime": 6816000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "And now Stephen Farrel with a different POV",
+      "ptime": 5961000.0,
+      "dtime": 6847000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***TedLemon just joined the room",
+      "ptime": 5991000.0,
+      "dtime": 6877000.0
+    },
+    {
+      "text": "The thing is, it\u0027s not really a \"secure data environment\" if you break the security of the protocol.",
+      "ptime": 5992000.0,
+      "dtime": 6878000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "***Aaron Zauner just joined the room",
+      "ptime": 6046000.0,
+      "dtime": 6932000.0
+    },
+    {
+      "text": "Stephen is showing this on the screen: https://github.com/sftcd/tinfoil/blob/master/README.md",
+      "ptime": 6055000.0,
+      "dtime": 6941000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "mellon: please be more precise than ?break the security?.",
+      "ptime": 6058000.0,
+      "dtime": 6944000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "We\u0027re talking about removing PFS.",
+      "ptime": 6076000.0,
+      "dtime": 6962000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "haven\u0027t there been various documents produced during the STRINT workshop on why proposals like this are bad and we do not want to work on them?",
+      "ptime": 6087000.0,
+      "dtime": 6973000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "haven\u0027t there been various documents produced during the STRINT workshop on why proposals like this are bad and we do not want to work on them?",
+      "ptime": 6087000.0,
+      "dtime": 6973000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "haven\u0027t there been various documents produced during the STRINT workshop on why proposals like this are bad and we do not want to work on them?",
+      "ptime": 6087000.0,
+      "dtime": 6973000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "But what they are _doing_ is sharing keys in a way that creates a _huge_ attack surface.",
+      "ptime": 6092000.0,
+      "dtime": 6978000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "a PFS-ectomy",
+      "ptime": 6098000.0,
+      "dtime": 6984000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "https://pics.me.me/please-dont-fight-memes-com-14922460.png",
+      "ptime": 6119000.0,
+      "dtime": 7005000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "RSA key exchange was removed from tls1.3 for a reason?.",
+      "ptime": 6120000.0,
+      "dtime": 7006000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "Isn?t Matt?s assertion that this doesn?t actually remove PFS for anyone other than the holders of the static private key?",
+      "ptime": 6133000.0,
+      "dtime": 7019000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "@yoav: I think it\u0027s too late for that... :)",
+      "ptime": 6140000.0,
+      "dtime": 7026000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Maybe we should resolve this with a trial by combat.   Stephen\u0027s pretty buff...",
+      "ptime": 6152000.0,
+      "dtime": 7038000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Sigh...  http://38.media.tumblr.com/787f9638746795cdfe8b47ec24f61e55/tumblr_inline_new9epR9dv1qekc6t.gif",
+      "ptime": 6156000.0,
+      "dtime": 7042000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Carl Mehner just left the room",
+      "ptime": 6178000.0,
+      "dtime": 7064000.0
+    },
+    {
+      "text": "***Carl Mehner just joined the room",
+      "ptime": 6180000.0,
+      "dtime": 7066000.0
+    },
+    {
+      "text": "@richard: I don?t really understand that claim. I mean, PFS is usually about the compromise of one of the endpoint keys, right?",
+      "ptime": 6185000.0,
+      "dtime": 7071000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Fair enough.  So -static-dh would preserve PFS w.r.t. the client secrets, but not the server?",
+      "ptime": 6232000.0,
+      "dtime": 7118000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "@richard: I think that?s an accurate statement of the intent. As noted previously, we don?t actually have an analysis that shows that it?s true",
+      "ptime": 6266000.0,
+      "dtime": 7152000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "Hm.   You\u0027re right, when I go to my bank, they never reveal my identity or account number or any other privacy-violating things in the packets they send.",
+      "ptime": 6293000.0,
+      "dtime": 7179000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "can we drop the P from PFS?  it\u0027s just \"forward secrecy\", and it\u0027s never perfect. it\u0027s about how rapidly you can destroy the keys associated with the session",
+      "ptime": 6296000.0,
+      "dtime": 7182000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "PPPPPFS",
+      "ptime": 6311000.0,
+      "dtime": 7197000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "But \"perfect\" makes it sound so much sexier.",
+      "ptime": 6315000.0,
+      "dtime": 7201000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "SFS",
+      "ptime": 6322000.0,
+      "dtime": 7208000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "dkg, it\u0027s a silent P",
+      "ptime": 6324000.0,
+      "dtime": 7210000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "P^HFS",
+      "ptime": 6329000.0,
+      "dtime": 7215000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "IPFS?",
+      "ptime": 6329000.0,
+      "dtime": 7215000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "with this proposal, it is impossible for the endpoint to know that the key has been destroyed, because they were given it by an external party.",
+      "ptime": 6331000.0,
+      "dtime": 7217000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "NFS?",
+      "ptime": 6338000.0,
+      "dtime": 7224000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "ImPerfect",
+      "ptime": 6342000.0,
+      "dtime": 7228000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "or more to the point, it\u0027s the opposite of a silent P, it\u0027s said, but it doesn\u0027t exist",
+      "ptime": 6350000.0,
+      "dtime": 7236000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "quasi-FS (superposition of states)?",
+      "ptime": 6355000.0,
+      "dtime": 7241000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "OKFS",
+      "ptime": 6366000.0,
+      "dtime": 7252000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "better forward secrecy",
+      "ptime": 6371000.0,
+      "dtime": 7257000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "BFS",
+      "ptime": 6373000.0,
+      "dtime": 7259000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "PGFS",
+      "ptime": 6378000.0,
+      "dtime": 7264000.0,
+      "author": "mnot"
+    },
+    {
+      "text": ":)",
+      "ptime": 6394000.0,
+      "dtime": 7280000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "?FS",
+      "ptime": 6416000.0,
+      "dtime": 7302000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "ietfmemes finally seems to be waking up wrt this discussion?.",
+      "ptime": 6467000.0,
+      "dtime": 7353000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "about damned time",
+      "ptime": 6475000.0,
+      "dtime": 7361000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "?FS",
+      "ptime": 6491000.0,
+      "dtime": 7377000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "/me wonders if dkg has already raised errata on 2804 about tightening up the language",
+      "ptime": 6494000.0,
+      "dtime": 7380000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "It doesn\u0027t really matter how long you use the private key or how many times. You only have FS when the private key is destroyed.",
+      "ptime": 6518000.0,
+      "dtime": 7404000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "ynir: yes, I think that?s a fair assessment",
+      "ptime": 6532000.0,
+      "dtime": 7418000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Janardhan Iyengar just left the room",
+      "ptime": 6545000.0,
+      "dtime": 7431000.0
+    },
+    {
+      "text": "That?s how it typically gets modelled in these proof systems",
+      "ptime": 6564000.0,
+      "dtime": 7450000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "that\u0027s where the P comes into effect, if the private key is one-time use.",
+      "ptime": 6577000.0,
+      "dtime": 7463000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "ynir: there may also be cryptographic flaws with DH reuse, the cryptanalysis proofs that we\u0027ve done of the handshake do assume that each DH share is used exactly once.",
+      "ptime": 6601000.0,
+      "dtime": 7487000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "so i\u0027m not disagreeing with your point about FS",
+      "ptime": 6618000.0,
+      "dtime": 7504000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 6633000.0,
+      "dtime": 7519000.0
+    },
+    {
+      "text": "@dkg: I agree with that too.",
+      "ptime": 6637000.0,
+      "dtime": 7523000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "i\u0027m just pointing out that there may *also* be cryptanalytic flaws that we don\u0027t know about.",
+      "ptime": 6638000.0,
+      "dtime": 7524000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 6640000.0,
+      "dtime": 7526000.0
+    },
+    {
+      "text": "***Chris Bentzel just joined the room",
+      "ptime": 6662000.0,
+      "dtime": 7548000.0
+    },
+    {
+      "text": "+1",
+      "ptime": 6666000.0,
+      "dtime": 7552000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "Can anyone understand all of the words Stephen is saying?",
+      "ptime": 6672000.0,
+      "dtime": 7558000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "If someone were to \"detect\" draft-green, then wouldn\u0027t Apache and all those servers that temporarily use the same DH key for performance reasons trigger a false positive?",
+      "ptime": 6679000.0,
+      "dtime": 7565000.0,
+      "author": "Nick Sullivan"
+    },
+    {
+      "text": "Sure. I\u0027m just saying that the objectionable part here is the export.",
+      "ptime": 6680000.0,
+      "dtime": 7566000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "It\u0027s very echoey here.",
+      "ptime": 6684000.0,
+      "dtime": 7570000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "***Lorenzo Miniero just joined the room",
+      "ptime": 6695000.0,
+      "dtime": 7581000.0
+    },
+    {
+      "text": "Nick: yes.",
+      "ptime": 6696000.0,
+      "dtime": 7582000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "@Ted, yes, but I worked with him for 3 years",
+      "ptime": 6697000.0,
+      "dtime": 7583000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": ":)",
+      "ptime": 6702000.0,
+      "dtime": 7588000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Nick: yea",
+      "ptime": 6703000.0,
+      "dtime": 7589000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "yeah, would be good to get to discuss",
+      "ptime": 6715000.0,
+      "dtime": 7601000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "I normally don\u0027t have trouble, but with the echo and the rapid-fire speech it\u0027s a bit difficult.",
+      "ptime": 6719000.0,
+      "dtime": 7605000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "***Moritz M?ller just joined the room",
+      "ptime": 6762000.0,
+      "dtime": 7648000.0
+    },
+    {
+      "text": "I don\u0027t think a document like that saves any time, over the past 5-6 years I\u0027ve seen close to 10 proposals for \"enterprise proxies\" etc",
+      "ptime": 6825000.0,
+      "dtime": 7711000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "In practice, I don\u0027t think any browser is going to probe a web server for a few seconds or minutes to determine if this is used. SSL-pulse might",
+      "ptime": 6830000.0,
+      "dtime": 7716000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "all of them do not reference earlier work/ideas",
+      "ptime": 6835000.0,
+      "dtime": 7721000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "PHB",
+      "ptime": 6838000.0,
+      "dtime": 7724000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Valery Smyslov just joined the room",
+      "ptime": 6841000.0,
+      "dtime": 7727000.0
+    },
+    {
+      "text": "YAY!",
+      "ptime": 6848000.0,
+      "dtime": 7734000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "***Karl Henderson just left the room",
+      "ptime": 6922000.0,
+      "dtime": 7808000.0
+    },
+    {
+      "text": "what is he talking about?",
+      "ptime": 6982000.0,
+      "dtime": 7868000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "Paul Wouters",
+      "ptime": 6994000.0,
+      "dtime": 7880000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "just use IPsec",
+      "ptime": 7025000.0,
+      "dtime": 7911000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Dan Harkins",
+      "ptime": 7028000.0,
+      "dtime": 7914000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "To detect an actual static key, which would probably not be used by bad guys, you could have a distributed database with key obfuscation.",
+      "ptime": 7032000.0,
+      "dtime": 7918000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Of course, getting that right and not exposing keys would be hard too.",
+      "ptime": 7046000.0,
+      "dtime": 7932000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "DKG",
+      "ptime": 7064000.0,
+      "dtime": 7950000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***N\u0027diffon KOPOIN just joined the room",
+      "ptime": 7081000.0,
+      "dtime": 7967000.0
+    },
+    {
+      "text": "https://cdn.meme.am/cache/instances/folder574/500x/79789574/yeah-if-you-could-just-yeah-if-you-could-just-use-ipsec-that-would-be-great.jpg",
+      "ptime": 7090000.0,
+      "dtime": 7976000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Rich Salz",
+      "ptime": 7102000.0,
+      "dtime": 7988000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ah, that was the piece of info I was looking for.",
+      "ptime": 7180000.0,
+      "dtime": 8066000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "I suspected that was the case (PCI not requiring TLS 1.2)",
+      "ptime": 7191000.0,
+      "dtime": 8077000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "That TLS 1.2 is not required yet?",
+      "ptime": 7193000.0,
+      "dtime": 8079000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Yes.",
+      "ptime": 7201000.0,
+      "dtime": 8087000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Now there\u0027s 12+ people in the mic line...",
+      "ptime": 7201000.0,
+      "dtime": 8087000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Detection is probably certificate transparency-shaped.",
+      "ptime": 7207000.0,
+      "dtime": 8093000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "Darin",
+      "ptime": 7209000.0,
+      "dtime": 8095000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Mandate is coming though (June 2018)",
+      "ptime": 7220000.0,
+      "dtime": 8106000.0,
+      "author": "hubert Le Van Gong"
+    },
+    {
+      "text": "10 in queue",
+      "ptime": 7220000.0,
+      "dtime": 8106000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "10 in queue",
+      "ptime": 7220000.0,
+      "dtime": 8106000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "June 2018 is when TLS 1.2 will be 10 years old",
+      "ptime": 7237000.0,
+      "dtime": 8123000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "And required for PCI-DSS",
+      "ptime": 7255000.0,
+      "dtime": 8141000.0,
+      "author": "hubert Le Van Gong"
+    },
+    {
+      "text": "***Scott Fluhrer just left the room",
+      "ptime": 7255000.0,
+      "dtime": 8141000.0
+    },
+    {
+      "text": "***Marco Davids just joined the room",
+      "ptime": 7259000.0,
+      "dtime": 8145000.0
+    },
+    {
+      "text": "So is this to be a problem in 2027?  That can be kicked down the road",
+      "ptime": 7263000.0,
+      "dtime": 8149000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Roman",
+      "ptime": 7288000.0,
+      "dtime": 8174000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "***Marco Davids just left the room",
+      "ptime": 7300000.0,
+      "dtime": 8186000.0
+    },
+    {
+      "text": "***Marco Davids just joined the room",
+      "ptime": 7301000.0,
+      "dtime": 8187000.0
+    },
+    {
+      "text": "The speaker before was \"Darin Pettis\"",
+      "ptime": 7318000.0,
+      "dtime": 8204000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "IoC is indicator of compromise for those in in incident response",
+      "ptime": 7328000.0,
+      "dtime": 8214000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "I don\u0027t think it will be too controversial to say that managing an all-plaintext network is easier than a network with crypto everywhere.",
+      "ptime": 7356000.0,
+      "dtime": 8242000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Last speaker was \"Roman Danyliw\"",
+      "ptime": 7360000.0,
+      "dtime": 8246000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Nalini",
+      "ptime": 7387000.0,
+      "dtime": 8273000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "can we please stop with the \"grandma\" as the canonical a non-technical user?",
+      "ptime": 7417000.0,
+      "dtime": 8303000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "MNOT",
+      "ptime": 7422000.0,
+      "dtime": 8308000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Flemming Andreasen was before Nalini",
+      "ptime": 7427000.0,
+      "dtime": 8313000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "@ynir - some of the speakers are walking right past me so I\u0027m able to see their names.",
+      "ptime": 7457000.0,
+      "dtime": 8343000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Cool!",
+      "ptime": 7484000.0,
+      "dtime": 8370000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ted Hardie",
+      "ptime": 7498000.0,
+      "dtime": 8384000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "good point on informed consent",
+      "ptime": 7501000.0,
+      "dtime": 8387000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "+ e2e",
+      "ptime": 7529000.0,
+      "dtime": 8415000.0,
+      "author": "Aaron Zauner"
+    },
+    {
+      "text": "Pretty much any proposal is visible only to one side, either client or server.",
+      "ptime": 7532000.0,
+      "dtime": 8418000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "ynir: the extension-based proposals have mutual opt-in",
+      "ptime": 7548000.0,
+      "dtime": 8434000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "I?ll also point out -- we were told that people couldn?t operate their networks if they couldn?t get into the crypto back then. They?re still running.",
+      "ptime": 7591000.0,
+      "dtime": 8477000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "rbarnes: and requires changing both client and server. So it will never get deployed. Same as my proposal at the bottom of Stephen\u0027s doc",
+      "ptime": 7607000.0,
+      "dtime": 8493000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "+1",
+      "ptime": 7608000.0,
+      "dtime": 8494000.0,
+      "author": "Carl Mehner"
+    },
+    {
+      "text": "+1",
+      "ptime": 7608000.0,
+      "dtime": 8494000.0,
+      "author": "Carl Mehner"
+    },
+    {
+      "text": "2804",
+      "ptime": 7619000.0,
+      "dtime": 8505000.0,
+      "author": "kathleen.moriarty"
+    },
+    {
+      "text": "Ben: It can get traction here. Not in the real world.",
+      "ptime": 7644000.0,
+      "dtime": 8530000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "There is no clapping in the IETF. :-)",
+      "ptime": 7644000.0,
+      "dtime": 8530000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "There is no clapping in the IETF. :-)",
+      "ptime": 7644000.0,
+      "dtime": 8530000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "Max Pala",
+      "ptime": 7651000.0,
+      "dtime": 8537000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Could have fooled me.",
+      "ptime": 7652000.0,
+      "dtime": 8538000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Should we just hum loudly?",
+      "ptime": 7656000.0,
+      "dtime": 8542000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "And I agree with Ted completely.",
+      "ptime": 7661000.0,
+      "dtime": 8547000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "And I agree with Ted completely.",
+      "ptime": 7661000.0,
+      "dtime": 8547000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "Pete: isn\u0027t it one of the allowed alternatives to hums?",
+      "ptime": 7679000.0,
+      "dtime": 8565000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ralph Droms",
+      "ptime": 7698000.0,
+      "dtime": 8584000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "The thing that bothers me about these presentations is that while it\u0027s absolutely _possible_ that there\u0027s no way to solve this problem other than static-DH, nobody has actually said anything that convinces me that that\u0027s so.",
+      "ptime": 7699000.0,
+      "dtime": 8585000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "I question the premise that there is an issue that needs addressing. Several arguments have been made for why the authors and supporters believe the draft is necessary, I contend that most of those already have been shown to be built on faulty premises, or attributable to special cases that are due to circumstances emanating from certain network architectural designs. If all the reasons for the draft are likewise shown to be faulty, the premise the draft is built on can then be discounted, and thus too the draft itself.",
+      "ptime": 7720000.0,
+      "dtime": 8606000.0,
+      "author": "Carl Mehner"
+    },
+    {
+      "text": "I can think of a number of better ways to solve this.",
+      "ptime": 7722000.0,
+      "dtime": 8608000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "***xu hao just left the room",
+      "ptime": 7731000.0,
+      "dtime": 8617000.0
+    },
+    {
+      "text": "@mellon: Yep.",
+      "ptime": 7736000.0,
+      "dtime": 8622000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "mellon: for what definition of ?this??",
+      "ptime": 7745000.0,
+      "dtime": 8631000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "why don\u0027t they propose RSA key exchange? That is eminently detectible by the client.",
+      "ptime": 7754000.0,
+      "dtime": 8640000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "Debugging complex networks.",
+      "ptime": 7757000.0,
+      "dtime": 8643000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "?do it in the endpoints?",
+      "ptime": 7770000.0,
+      "dtime": 8656000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "wdf: they did. Last year",
+      "ptime": 7770000.0,
+      "dtime": 8656000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "wdf: they did. Last year",
+      "ptime": 7770000.0,
+      "dtime": 8656000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "@ralph: GOTO ops area for problem discussion this is the TLS WG",
+      "ptime": 7773000.0,
+      "dtime": 8659000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "People do this kind of thing all the time when they are debugging hardware.",
+      "ptime": 7777000.0,
+      "dtime": 8663000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "You often have to put probes simultaneously in more than one place in order to solve the problem, because you need to watch the event happen in all of those places.",
+      "ptime": 7817000.0,
+      "dtime": 8703000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Re: the \"no logs\" problem: if enterprises simply refused to use software that can\u0027t be operated? well, there would probably be no internet.",
+      "ptime": 7832000.0,
+      "dtime": 8718000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "i\u0027ve asked for specific legal requirements for doing network-based data capture on list.  no one has pointed to anything specific.",
+      "ptime": 7877000.0,
+      "dtime": 8763000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "Jeff Hodges",
+      "ptime": 7898000.0,
+      "dtime": 8784000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "while there are legal requirements for keeping data safe, they do not require breaking the network transport.",
+      "ptime": 7909000.0,
+      "dtime": 8795000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "Kyle, I think what you just said, forgive me for paraphrasing, is that \"we can\u0027t care about competence in software vendors.\"",
+      "ptime": 7913000.0,
+      "dtime": 8799000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "I think that the opposite is true: many of the problems we see now on the Internet are _caused_ by incompetence in software vendors, and demanding competence is something we need to start doing.",
+      "ptime": 7941000.0,
+      "dtime": 8827000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "If vendors can\u0027t sell their products without the capabilities businesses need to debug them, then they will either fix that, or go out of business.",
+      "ptime": 7962000.0,
+      "dtime": 8848000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "***N\u0027diffon KOPOIN just left the room",
+      "ptime": 7976000.0,
+      "dtime": 8862000.0
+    },
+    {
+      "text": "Christian Huitema",
+      "ptime": 7982000.0,
+      "dtime": 8868000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "I agree, Ted, but the reality is that there isn\u0027t a lot of choice in many of those markets, so you get what you get.",
+      "ptime": 7986000.0,
+      "dtime": 8872000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "I wouldn\u0027t be surprised if many of these enterprise applications have no reasonable equivalent, or a huge cost for migration to a different vendor? which probably also has lock-in and bad debuggability",
+      "ptime": 8043000.0,
+      "dtime": 8929000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "sounds like a lemon market :(",
+      "ptime": 8062000.0,
+      "dtime": 8948000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "stds will arguably help mitigate lock-in and costs.....",
+      "ptime": 8074000.0,
+      "dtime": 8960000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "Big endian in the wild?little endian in the DC.",
+      "ptime": 8079000.0,
+      "dtime": 8965000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Yes, exactly.",
+      "ptime": 8090000.0,
+      "dtime": 8976000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "***Chris Bentzel just left the room",
+      "ptime": 8091000.0,
+      "dtime": 8977000.0
+    },
+    {
+      "text": "dkg: Yes, but that doesn\u0027t make the problem go away",
+      "ptime": 8092000.0,
+      "dtime": 8978000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "Lock-in is a bug.   We should not be enabling it.",
+      "ptime": 8099000.0,
+      "dtime": 8985000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "open, widely scrutiinized approaches are needed",
+      "ptime": 8105000.0,
+      "dtime": 8991000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "By taking away the pain, we allow it to continue.",
+      "ptime": 8112000.0,
+      "dtime": 8998000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Daniel from Akamai",
+      "ptime": 8128000.0,
+      "dtime": 9014000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Daniel Franke",
+      "ptime": 8134000.0,
+      "dtime": 9020000.0,
+      "author": "Dan York"
+    },
+    {
+      "text": "Ted: it is what it is. It\u0027s not a standards issue, especially on the margins of new functionality",
+      "ptime": 8137000.0,
+      "dtime": 9023000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "would be best if there were just not bugs in folks applications and then debugging goes away, yes?",
+      "ptime": 8156000.0,
+      "dtime": 9042000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "Anyway, not really arguing for this, only that I feel their pain. Operations is hard.",
+      "ptime": 8168000.0,
+      "dtime": 9054000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "Kenny Patterson",
+      "ptime": 8168000.0,
+      "dtime": 9054000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Yes.",
+      "ptime": 8190000.0,
+      "dtime": 9076000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "I agree with that.",
+      "ptime": 8193000.0,
+      "dtime": 9079000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "Sharon Goldberg",
+      "ptime": 8221000.0,
+      "dtime": 9107000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Clearly, a better solution to the kinds of problems outlined at the beginning is to have better traceability in the applications themselves. But I suspect there will always be problems that can only be discovered below the exposed debugging layer.",
+      "ptime": 8232000.0,
+      "dtime": 9118000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "is the mic line closed, or are we naturally petering out?",
+      "ptime": 8243000.0,
+      "dtime": 9129000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "Closed",
+      "ptime": 8247000.0,
+      "dtime": 9133000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "mic line closed",
+      "ptime": 8250000.0,
+      "dtime": 9136000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "yes",
+      "ptime": 8255000.0,
+      "dtime": 9141000.0,
+      "author": "Sean Turner"
+    },
+    {
+      "text": "Ooh!   The NSA is in favor of this!",
+      "ptime": 8256000.0,
+      "dtime": 9142000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "closed after Tara",
+      "ptime": 8257000.0,
+      "dtime": 9143000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "***Valery Smyslov just left the room",
+      "ptime": 8271000.0,
+      "dtime": 9157000.0
+    },
+    {
+      "text": "Tara",
+      "ptime": 8279000.0,
+      "dtime": 9165000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "I apologize for not knowing his name",
+      "ptime": 8301000.0,
+      "dtime": 9187000.0,
+      "author": "Sean Turner"
+    },
+    {
+      "text": "***Olaf Bonorden just left the room",
+      "ptime": 8305000.0,
+      "dtime": 9191000.0
+    },
+    {
+      "text": "Tara Tarikyee from Open Tech Fund",
+      "ptime": 8348000.0,
+      "dtime": 9234000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "Tara Tarikyee from Open Tech Fund",
+      "ptime": 8348000.0,
+      "dtime": 9234000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "Oh dear, this sounds like a vote.",
+      "ptime": 8358000.0,
+      "dtime": 9244000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "we\u0027ve been considering it",
+      "ptime": 8372000.0,
+      "dtime": 9258000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "for the last month",
+      "ptime": 8376000.0,
+      "dtime": 9262000.0,
+      "author": "dkg"
+    },
+    {
+      "text": "Hummin on whether we should consider this topic (may be this or another proposal)",
+      "ptime": 8382000.0,
+      "dtime": 9268000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Sure does. I\u0027d like to hear what the chairs have heard first.",
+      "ptime": 8383000.0,
+      "dtime": 9269000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "Yes. It should be considered.",
+      "ptime": 8414000.0,
+      "dtime": 9300000.0,
+      "author": "James Tarpey"
+    },
+    {
+      "text": "I want to hear a chair summary.",
+      "ptime": 8429000.0,
+      "dtime": 9315000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "Yes it should.",
+      "ptime": 8431000.0,
+      "dtime": 9317000.0,
+      "author": "hubert Le Van Gong"
+    },
+    {
+      "text": "We\u0027ll need a new definition of \"passive\"",
+      "ptime": 8434000.0,
+      "dtime": 9320000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "The chairs need to chair.",
+      "ptime": 8480000.0,
+      "dtime": 9366000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "DKG",
+      "ptime": 8481000.0,
+      "dtime": 9367000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "passive-aggressive attacks",
+      "ptime": 8495000.0,
+      "dtime": 9381000.0,
+      "author": "whatdafuq"
+    },
+    {
+      "text": "***Janardhan Iyengar just joined the room",
+      "ptime": 8505000.0,
+      "dtime": 9391000.0
+    },
+    {
+      "text": "Lucy Lynch",
+      "ptime": 8532000.0,
+      "dtime": 9418000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "And when it goes 50-50, what is that going to mean?",
+      "ptime": 8557000.0,
+      "dtime": 9443000.0,
+      "author": "Peter Resnick"
+    },
+    {
+      "text": "so, the claimed techniques to do data center complex app troubleshooting without secure traffic plaintext monitoring/on-deman decryp are considered as trade secrets ?",
+      "ptime": 8589000.0,
+      "dtime": 9475000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "Yes, the working grup should consider",
+      "ptime": 8595000.0,
+      "dtime": 9481000.0,
+      "author": "James Tarpey"
+    },
+    {
+      "text": "Yes, the working grup should consider",
+      "ptime": 8595000.0,
+      "dtime": 9481000.0,
+      "author": "James Tarpey"
+    },
+    {
+      "text": "Yes, the working grup should consider",
+      "ptime": 8595000.0,
+      "dtime": 9481000.0,
+      "author": "James Tarpey"
+    },
+    {
+      "text": "HUM: is this a subject (decryption of data) something the group should handle?",
+      "ptime": 8610000.0,
+      "dtime": 9496000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "50/50",
+      "ptime": 8623000.0,
+      "dtime": 9509000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "WE WIN!!!!!",
+      "ptime": 8631000.0,
+      "dtime": 9517000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "My estimate: the no was slightly louder than the yes.  Slightly",
+      "ptime": 8639000.0,
+      "dtime": 9525000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "45/55",
+      "ptime": 8646000.0,
+      "dtime": 9532000.0,
+      "author": "ynir"
+    },
+    {
+      "text": "Ynir: that?s what I heard as well",
+      "ptime": 8648000.0,
+      "dtime": 9534000.0,
+      "author": "richard.barnes"
+    },
+    {
+      "text": "I definitely hummed louder for no.   :)",
+      "ptime": 8650000.0,
+      "dtime": 9536000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "I definitely hummed louder for no.   :)",
+      "ptime": 8650000.0,
+      "dtime": 9536000.0,
+      "author": "TedLemon"
+    },
+    {
+      "text": "I am practicing how to hum louder",
+      "ptime": 8652000.0,
+      "dtime": 9538000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "nah, yes was louder over here",
+      "ptime": 8654000.0,
+      "dtime": 9540000.0,
+      "author": "netwerkeddude@gmail.com"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 8715000.0,
+      "dtime": 9601000.0
+    },
+    {
+      "text": "***Aaron Zauner just left the room",
+      "ptime": 8731000.0,
+      "dtime": 9617000.0
+    },
+    {
+      "text": "***Geir Egeland just left the room",
+      "ptime": 8735000.0,
+      "dtime": 9621000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 8751000.0,
+      "dtime": 9637000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-TLS-20170719-0930"
+    }
+  ]
+}

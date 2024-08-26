@@ -1,0 +1,523 @@
+{
+  "title": "IETF104-MLS-20190328-0900",
+  "filename": "IETF104-MLS-20190328-0900",
+  "start": 0,
+  "end": 6048000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "tYMH-7m9r34",
+      "start": 0.0,
+      "end": 6048000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Omniyyah Ibrahim just joined the room",
+      "ptime": 158000.0,
+      "dtime": 1011000.0
+    },
+    {
+      "text": "***Sofia Celi just joined the room",
+      "ptime": 168000.0,
+      "dtime": 1021000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 179000.0,
+      "dtime": 1032000.0
+    },
+    {
+      "text": "Agenda https://datatracker.ietf.org/meeting/104/materials/agenda-104-mls-06",
+      "ptime": 339000.0,
+      "dtime": 1192000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 370000.0,
+      "dtime": 1223000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Raphael Robert @ mic",
+      "ptime": 387000.0,
+      "dtime": 1240000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Slides - https://datatracker.ietf.org/meeting/104/materials/slides-104-mls-protocol-issues-101-common-framing-and-120131-lazy-updates-00",
+      "ptime": 430000.0,
+      "dtime": 1283000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***99rst just joined the room",
+      "ptime": 484000.0,
+      "dtime": 1337000.0
+    },
+    {
+      "text": "I\u0027m not keen on this whole \"the Server might know the roster\" thing.",
+      "ptime": 597000.0,
+      "dtime": 1450000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Eric Rescorla @ mic",
+      "ptime": 1063000.0,
+      "dtime": 1916000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr@mic",
+      "ptime": 1235000.0,
+      "dtime": 2088000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Daniel Kahn Gillmor @ mic",
+      "ptime": 1297000.0,
+      "dtime": 2150000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 1371000.0,
+      "dtime": 2224000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "dkg@mic / rb @ mic",
+      "ptime": 1391000.0,
+      "dtime": 2244000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Ben Kaduk @ mic",
+      "ptime": 1450000.0,
+      "dtime": 2303000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Karthik Bhargavan @ mic",
+      "ptime": 1498000.0,
+      "dtime": 2351000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr asks whether the messages are linked",
+      "ptime": 1646000.0,
+      "dtime": 2499000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Benjamin Beurdouche @ mic",
+      "ptime": 1649000.0,
+      "dtime": 2502000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Masaki Kase just joined the room",
+      "ptime": 1664000.0,
+      "dtime": 2517000.0
+    },
+    {
+      "text": "dkg @ mic",
+      "ptime": 1679000.0,
+      "dtime": 2532000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr@mic",
+      "ptime": 1767000.0,
+      "dtime": 2620000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 1862000.0,
+      "dtime": 2715000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr@mic",
+      "ptime": 1904000.0,
+      "dtime": 2757000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 1947000.0,
+      "dtime": 2800000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Bhargavan @ mic",
+      "ptime": 1966000.0,
+      "dtime": 2819000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Benjamin Beurdouche @ mic",
+      "ptime": 2005000.0,
+      "dtime": 2858000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 2035000.0,
+      "dtime": 2888000.0
+    },
+    {
+      "text": "Joel Alwen @ mic",
+      "ptime": 2045000.0,
+      "dtime": 2898000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "DKG @ mic",
+      "ptime": 2087000.0,
+      "dtime": 2940000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Benjamin Beurdouche @ mic",
+      "ptime": 2152000.0,
+      "dtime": 3005000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "DKG @ mic",
+      "ptime": 2191000.0,
+      "dtime": 3044000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "BB says it\u0027s in the clear at the moment.",
+      "ptime": 2225000.0,
+      "dtime": 3078000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Masaki Kase just left the room",
+      "ptime": 2236000.0,
+      "dtime": 3089000.0
+    },
+    {
+      "text": "Emad Omara @ mic",
+      "ptime": 2250000.0,
+      "dtime": 3103000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "JA @ mic",
+      "ptime": 2291000.0,
+      "dtime": 3144000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr @ mic",
+      "ptime": 2321000.0,
+      "dtime": 3174000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 2399000.0,
+      "dtime": 3252000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "(Slides continue from previous slides)",
+      "ptime": 2481000.0,
+      "dtime": 3334000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Emad Omara @ mic",
+      "ptime": 2798000.0,
+      "dtime": 3651000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "JA@mic",
+      "ptime": 3022000.0,
+      "dtime": 3875000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Bhargavan @ mic",
+      "ptime": 3194000.0,
+      "dtime": 4047000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 3322000.0,
+      "dtime": 4175000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Emad Omara @ mic",
+      "ptime": 3398000.0,
+      "dtime": 4251000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Slides @ https://datatracker.ietf.org/meeting/104/materials/slides-104-mls-mls-federation-00",
+      "ptime": 3431000.0,
+      "dtime": 4284000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "ekr @ mic",
+      "ptime": 3681000.0,
+      "dtime": 4534000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "DKG @ mic",
+      "ptime": 3698000.0,
+      "dtime": 4551000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Akanksha Gupta just left the room",
+      "ptime": 3747000.0,
+      "dtime": 4600000.0
+    },
+    {
+      "text": "Watson Ladd @ mic",
+      "ptime": 3752000.0,
+      "dtime": 4605000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 3758000.0,
+      "dtime": 4611000.0
+    },
+    {
+      "text": "JGH @ mic",
+      "ptime": 3839000.0,
+      "dtime": 4692000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Cullen Jennings @ mic",
+      "ptime": 3870000.0,
+      "dtime": 4723000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mi",
+      "ptime": 3874000.0,
+      "dtime": 4727000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "DKG @ mic",
+      "ptime": 3921000.0,
+      "dtime": 4774000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Bhargavan @ mic",
+      "ptime": 4013000.0,
+      "dtime": 4866000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 4122000.0,
+      "dtime": 4975000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "DKG @ mic",
+      "ptime": 4174000.0,
+      "dtime": 5027000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Raphael Robert @ mic",
+      "ptime": 4260000.0,
+      "dtime": 5113000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Bhargavan @ mic",
+      "ptime": 4329000.0,
+      "dtime": 5182000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "No objections.",
+      "ptime": 4406000.0,
+      "dtime": 5259000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Sof?a Celi @ mic",
+      "ptime": 4459000.0,
+      "dtime": 5312000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "slides @ https://datatracker.ietf.org/meeting/104/materials/slides-104-mls-deniability-in-a-group-chat-setting-00",
+      "ptime": 4467000.0,
+      "dtime": 5320000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***yone just joined the room",
+      "ptime": 4489000.0,
+      "dtime": 5342000.0
+    },
+    {
+      "text": "***Zash just joined the room",
+      "ptime": 4630000.0,
+      "dtime": 5483000.0
+    },
+    {
+      "text": "paper @ http://cacr.uwaterloo.ca/techreports/2015/cacr2015-02.pdf",
+      "ptime": 4694000.0,
+      "dtime": 5547000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Ond?ej Caletka just joined the room",
+      "ptime": 4735000.0,
+      "dtime": 5588000.0
+    },
+    {
+      "text": "paper @ https://petsymposium.org/2018/files/papers/issue1/paper12-2018-1-source.pdf",
+      "ptime": 4888000.0,
+      "dtime": 5741000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Raphael Robert @ mic",
+      "ptime": 5106000.0,
+      "dtime": 5959000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Nalini Elkins @ mic",
+      "ptime": 5187000.0,
+      "dtime": 6040000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "DKG @ mic",
+      "ptime": 5245000.0,
+      "dtime": 6098000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Harald Alverstrand @ mic",
+      "ptime": 5276000.0,
+      "dtime": 6129000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 5386000.0,
+      "dtime": 6239000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Holger just joined the room",
+      "ptime": 5413000.0,
+      "dtime": 6266000.0
+    },
+    {
+      "text": "Karthik Bhargavan @ mic",
+      "ptime": 5468000.0,
+      "dtime": 6321000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "slides @ https://datatracker.ietf.org/meeting/104/materials/slides-104-mls-mls-security-analysis-status-update-00",
+      "ptime": 5485000.0,
+      "dtime": 6338000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***debacle just joined the room",
+      "ptime": 5500000.0,
+      "dtime": 6353000.0
+    },
+    {
+      "text": "***Holger just joined the room",
+      "ptime": 5608000.0,
+      "dtime": 6461000.0
+    },
+    {
+      "text": "***Cas Cremers just joined the room",
+      "ptime": 5615000.0,
+      "dtime": 6468000.0
+    },
+    {
+      "text": "***Ond?ej Caletka just left the room",
+      "ptime": 5677000.0,
+      "dtime": 6530000.0
+    },
+    {
+      "text": "Martin Thomson @ mic",
+      "ptime": 5894000.0,
+      "dtime": 6747000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "Richard Barnes @ mic",
+      "ptime": 5976000.0,
+      "dtime": 6829000.0,
+      "author": "jhoyla"
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 6047000.0,
+      "dtime": 6900000.0
+    },
+    {
+      "text": "***Cas Cremers just left the room",
+      "ptime": 6047000.0,
+      "dtime": 6900000.0
+    },
+    {
+      "text": "***Sofia Celi just left the room",
+      "ptime": 6047000.0,
+      "dtime": 6900000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 6047000.0,
+      "dtime": 6900000.0
+    },
+    {
+      "text": "***Omniyyah Ibrahim just left the room",
+      "ptime": 6047000.0,
+      "dtime": 6900000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 6047000.0,
+      "dtime": 6900000.0
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 6047000.0,
+      "dtime": 6900000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF104-MLS-20190328-0900"
+    }
+  ]
+}

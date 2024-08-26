@@ -1,0 +1,273 @@
+
+{
+	"title": "IETF118-PRIVACYPASS-20231109-1200",
+	"filename": "IETF118-PRIVACYPASS-20231109-1200",
+	"start": 0,
+	"end": 4349000,
+	"start_datetime": "2023-11-09T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "jgtmDTUqXIQ",
+    "start": 0,
+    "end": "4349000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christopher Wood",
+    "text": "<p>I just sent a message to Paul directly to ask for him to move this along</p>",
+    "topic": "ietf-118",
+    "dtime": 275000,
+    "ptime": 275000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 706000,
+    "ptime": 706000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>Multi-origin rate limits creates the possibility of overlapping rate-limit contexts, which is a bit puzzling.</p>",
+    "topic": "ietf-118",
+    "dtime": 804000,
+    "ptime": 804000
+  },
+  {
+    "author": "Steven Valdez",
+    "text": "<p>If the origin only requests the multi-origin rate limit, then at least against that server you hopefully can ensure non-overlapping limits?</p>",
+    "topic": "ietf-118",
+    "dtime": 955000,
+    "ptime": 955000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p>As long as the origin chooses the \"originInfo set\", I think it's OK.  If the client performs matching to find the right config, then it's ambiguous.</p>",
+    "topic": "ietf-118",
+    "dtime": 1052000,
+    "ptime": 1052000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 1429000,
+    "ptime": 1429000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 1607000,
+    "ptime": 1607000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 1970000,
+    "ptime": 1970000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Current as in latest draft?</p>",
+    "topic": "ietf-118",
+    "dtime": 2184000,
+    "ptime": 2184000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>I haven't read the latest draft, but unless it's wildly different from the previous drafts, I support adoption.</p>",
+    "topic": "ietf-118",
+    "dtime": 2255000,
+    "ptime": 2255000
+  },
+  {
+    "author": "Benjamin Schwartz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"525\">@Eric Orth</span> It actually is wildly different</p>",
+    "topic": "ietf-118",
+    "dtime": 2274000,
+    "ptime": 2274000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>Well I guess I need to read it again then.  Unfortunate that we didn't get it on the agenda.</p>",
+    "topic": "ietf-118",
+    "dtime": 2324000,
+    "ptime": 2324000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>It's literally on the agenda, being presented right now.</p>",
+    "topic": "ietf-118",
+    "dtime": 2339000,
+    "ptime": 2339000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>(Didn't get it linked on the agenda.)</p>",
+    "topic": "ietf-118",
+    "dtime": 2340000,
+    "ptime": 2340000
+  },
+  {
+    "author": "Eric Orth",
+    "text": "<p>I'd have been more likely to read it in advance if the draft were linked.</p>",
+    "topic": "ietf-118",
+    "dtime": 2366000,
+    "ptime": 2366000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2662000,
+    "ptime": 2662000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2696000,
+    "ptime": 2696000
+  },
+  {
+    "author": "Steven Valdez",
+    "text": "<p>Correct Draft: <a href=\"https://github.com/chris-wood/draft-group-privacypass-consistency-mirror\">https://github.com/chris-wood/draft-group-privacypass-consistency-mirror</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2835000,
+    "ptime": 2835000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"812\">@Benjamin Schwartz</span> the issue is that some Geos, e.g. AQ have very, very small populations</p>",
+    "topic": "ietf-118",
+    "dtime": 3335000,
+    "ptime": 3335000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>(AQ is Antarctica)</p>",
+    "topic": "ietf-118",
+    "dtime": 3357000,
+    "ptime": 3357000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>that anon set is small enough you could probably detect the seasonal changes as people join/leave</p>",
+    "topic": "ietf-118",
+    "dtime": 3465000,
+    "ptime": 3465000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3598000,
+    "ptime": 3598000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>the privacy nightmare registry ;)</p>",
+    "topic": "ietf-118",
+    "dtime": 3644000,
+    "ptime": 3644000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3724000,
+    "ptime": 3724000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>do we want to see first whether any extensions meet out requirements?</p>",
+    "topic": "ietf-118",
+    "dtime": 3857000,
+    "ptime": 3857000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I don't like enumerated at all</p>",
+    "topic": "ietf-118",
+    "dtime": 3902000,
+    "ptime": 3902000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>I wonder if there's a way to tie this to differential privacy in a provable manner?  (ie, you can only use some of these in cases that stay within a differential privacy budget over time?  That seems like a research problem?)</p>",
+    "topic": "ietf-118",
+    "dtime": 3931000,
+    "ptime": 3931000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>2 options \"is Jeff\" and \"is not Jeff\" that sets a single bit for a single user is bad</p>",
+    "topic": "ietf-118",
+    "dtime": 3957000,
+    "ptime": 3957000
+  },
+  {
+    "author": "Thibault Meunier",
+    "text": "<p>to confirm: the adoption call happens by email?</p>",
+    "topic": "ietf-118",
+    "dtime": 3969000,
+    "ptime": 3969000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Correct^</p>",
+    "topic": "ietf-118",
+    "dtime": 4022000,
+    "ptime": 4022000
+  },
+  {
+    "author": "Ben S",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/259-privacypass/topic/ietf-118/near/99982\">said</a>:</p>\n<blockquote>\n<p>2 options \"is Jeff\" and \"is not Jeff\" that sets a single bit for a single user is bad</p>\n</blockquote>\n<p>We just won't standardise the \"Jeff bit\" ;)</p>",
+    "topic": "ietf-118",
+    "dtime": 4047000,
+    "ptime": 4047000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>My point is the enumerable req doesn't seem like the right req</p>",
+    "topic": "ietf-118",
+    "dtime": 4125000,
+    "ptime": 4125000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4217000,
+    "ptime": 4217000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>hahaha meetecho you're silly</p>",
+    "topic": "ietf-118",
+    "dtime": 4228000,
+    "ptime": 4228000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-PRIVACYPASS-20231109-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/privacypass"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-PRIVACYPASS-20231109-1200"
+		}		
+	]
+}

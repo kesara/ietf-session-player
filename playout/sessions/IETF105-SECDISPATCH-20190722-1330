@@ -1,0 +1,720 @@
+{
+  "title": "IETF105-SECDISPATCH-20190722-1330",
+  "filename": "IETF105-SECDISPATCH-20190722-1330",
+  "start": 0,
+  "end": 4574000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "elfmk9Pqa3o",
+      "start": 0.0,
+      "end": 4574000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 266000.0,
+      "dtime": 1311000.0
+    },
+    {
+      "text": "Was that \"Captain Planet\" or \"Wonder Twins powers activate\"?  It was hard to see from the back.",
+      "ptime": 293000.0,
+      "dtime": 1338000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "wonder twins activate",
+      "ptime": 304000.0,
+      "dtime": 1349000.0,
+      "author": "Kathleen"
+    },
+    {
+      "text": "***Yoshiro YONEYA just joined the room",
+      "ptime": 310000.0,
+      "dtime": 1355000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 329000.0,
+      "dtime": 1374000.0
+    },
+    {
+      "text": "Since nobody said this, I think I\u0027m the jabber scribe",
+      "ptime": 380000.0,
+      "dtime": 1425000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Prefix with \"mic:\" if you want me to relay",
+      "ptime": 393000.0,
+      "dtime": 1438000.0,
+      "author": "synp"
+    },
+    {
+      "text": "We\u0027re looking at https://datatracker.ietf.org/meeting/105/materials/slides-105-secdispatch-rfc7030-est-clarifications-00",
+      "ptime": 399000.0,
+      "dtime": 1444000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Thank you!",
+      "ptime": 409000.0,
+      "dtime": 1454000.0,
+      "author": "Kathleen"
+    },
+    {
+      "text": "Michael Richardson (AKA MCR) presenting",
+      "ptime": 412000.0,
+      "dtime": 1457000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Brian Weis just left the room",
+      "ptime": 515000.0,
+      "dtime": 1560000.0
+    },
+    {
+      "text": "\u003cpassive-aggressive\u003eWe\u0027re on the 3rd slide in Richard\u0027s unnumbered deck\u003c/passive-aggressive\u003e",
+      "ptime": 523000.0,
+      "dtime": 1568000.0,
+      "author": "synp"
+    },
+    {
+      "text": "slide #4",
+      "ptime": 537000.0,
+      "dtime": 1582000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Benjamin Beurdouche just left the room",
+      "ptime": 562000.0,
+      "dtime": 1607000.0
+    },
+    {
+      "text": "***Benjamin Beurdouche just joined the room",
+      "ptime": 563000.0,
+      "dtime": 1608000.0
+    },
+    {
+      "text": "***Brian Weis just joined the room",
+      "ptime": 574000.0,
+      "dtime": 1619000.0
+    },
+    {
+      "text": "Martin Thomson at the mic",
+      "ptime": 617000.0,
+      "dtime": 1662000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Henk Birkholz just joined the room",
+      "ptime": 625000.0,
+      "dtime": 1670000.0
+    },
+    {
+      "text": "***Benjamin Beurdouche just left the room",
+      "ptime": 651000.0,
+      "dtime": 1696000.0
+    },
+    {
+      "text": "***Wei Pan just joined the room",
+      "ptime": 665000.0,
+      "dtime": 1710000.0
+    },
+    {
+      "text": "***Cindy Morgan just joined the room",
+      "ptime": 668000.0,
+      "dtime": 1713000.0
+    },
+    {
+      "text": "Sean Turner",
+      "ptime": 702000.0,
+      "dtime": 1747000.0,
+      "author": "synp"
+    },
+    {
+      "text": "PKIXv2",
+      "ptime": 725000.0,
+      "dtime": 1770000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Isn\u0027t it already PK 9 ?",
+      "ptime": 743000.0,
+      "dtime": 1788000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "PKIXNG",
+      "ptime": 743000.0,
+      "dtime": 1788000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Roman (AD)",
+      "ptime": 762000.0,
+      "dtime": 1807000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Cindy Morgan just left the room",
+      "ptime": 767000.0,
+      "dtime": 1812000.0
+    },
+    {
+      "text": "Rich Salz",
+      "ptime": 772000.0,
+      "dtime": 1817000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Martin",
+      "ptime": 784000.0,
+      "dtime": 1829000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Seems like everyone thinks it should go to LAMPS",
+      "ptime": 864000.0,
+      "dtime": 1909000.0,
+      "author": "synp"
+    },
+    {
+      "text": "we should get the ADs to close lamps:-)",
+      "ptime": 885000.0,
+      "dtime": 1930000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "Next: David Carrel about Controller-IKE: https://datatracker.ietf.org/meeting/105/materials/slides-105-secdispatch-controller-ike-00",
+      "ptime": 890000.0,
+      "dtime": 1935000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Slide #1 which is the 2nd slide in the deck...",
+      "ptime": 938000.0,
+      "dtime": 1983000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 954000.0,
+      "dtime": 1999000.0
+    },
+    {
+      "text": "***Ivaylo Petrov just joined the room",
+      "ptime": 1035000.0,
+      "dtime": 2080000.0
+    },
+    {
+      "text": "slide #3",
+      "ptime": 1139000.0,
+      "dtime": 2184000.0,
+      "author": "synp"
+    },
+    {
+      "text": "slide #6",
+      "ptime": 1274000.0,
+      "dtime": 2319000.0,
+      "author": "synp"
+    },
+    {
+      "text": "ERK",
+      "ptime": 1316000.0,
+      "dtime": 2361000.0,
+      "author": "synp"
+    },
+    {
+      "text": "EKR",
+      "ptime": 1318000.0,
+      "dtime": 2363000.0,
+      "author": "synp"
+    },
+    {
+      "text": "(sorry)",
+      "ptime": 1322000.0,
+      "dtime": 2367000.0,
+      "author": "synp"
+    },
+    {
+      "text": "n messages with n items in each message",
+      "ptime": 1345000.0,
+      "dtime": 2390000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Richard Barnes (at the floor)",
+      "ptime": 1492000.0,
+      "dtime": 2537000.0,
+      "author": "synp"
+    },
+    {
+      "text": "MCR",
+      "ptime": 1550000.0,
+      "dtime": 2595000.0,
+      "author": "synp"
+    },
+    {
+      "text": "?  Anyone can fill in the name?",
+      "ptime": 1617000.0,
+      "dtime": 2662000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Wei Pan just left the room",
+      "ptime": 1639000.0,
+      "dtime": 2684000.0
+    },
+    {
+      "text": "***Wei Pan just joined the room",
+      "ptime": 1640000.0,
+      "dtime": 2685000.0
+    },
+    {
+      "text": "Linda Dunbar",
+      "ptime": 1710000.0,
+      "dtime": 2755000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Thomas Paul just joined the room",
+      "ptime": 1776000.0,
+      "dtime": 2821000.0
+    },
+    {
+      "text": "Yoav Nir (me)",
+      "ptime": 1822000.0,
+      "dtime": 2867000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Wei Pan just left the room",
+      "ptime": 1858000.0,
+      "dtime": 2903000.0
+    },
+    {
+      "text": "***Wei Pan just joined the room",
+      "ptime": 1858000.0,
+      "dtime": 2903000.0
+    },
+    {
+      "text": "***caleb ingalsbe just joined the room",
+      "ptime": 1908000.0,
+      "dtime": 2953000.0
+    },
+    {
+      "text": "EKR again",
+      "ptime": 1968000.0,
+      "dtime": 3013000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Taiji Kimura just joined the room",
+      "ptime": 1988000.0,
+      "dtime": 3033000.0
+    },
+    {
+      "text": "Tero Kivinen",
+      "ptime": 2023000.0,
+      "dtime": 3068000.0,
+      "author": "synp"
+    },
+    {
+      "text": "PHB",
+      "ptime": 2234000.0,
+      "dtime": 3279000.0,
+      "author": "synp"
+    },
+    {
+      "text": "(also known as Phillip Hallam-Baker)",
+      "ptime": 2245000.0,
+      "dtime": 3290000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Hannes at the mic",
+      "ptime": 2288000.0,
+      "dtime": 3333000.0,
+      "author": "synp"
+    },
+    {
+      "text": "(still can\u0027t hear the name...)",
+      "ptime": 2357000.0,
+      "dtime": 3402000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Taiji Kimura just left the room",
+      "ptime": 2382000.0,
+      "dtime": 3427000.0
+    },
+    {
+      "text": "Dan Harkins",
+      "ptime": 2416000.0,
+      "dtime": 3461000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Tero",
+      "ptime": 2497000.0,
+      "dtime": 3542000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Is there any draft on this published?",
+      "ptime": 2511000.0,
+      "dtime": 3556000.0,
+      "author": "Stefan Santesson"
+    },
+    {
+      "text": "Linda Dunbar again",
+      "ptime": 2577000.0,
+      "dtime": 3622000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Stefan: https://tools.ietf.org/html/draft-carrel-ipsecme-controller-ike-01",
+      "ptime": 2619000.0,
+      "dtime": 3664000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Ben Kaduk (AD)",
+      "ptime": 2634000.0,
+      "dtime": 3679000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Thx!",
+      "ptime": 2644000.0,
+      "dtime": 3689000.0,
+      "author": "Stefan Santesson"
+    },
+    {
+      "text": "Stupid me, was posted in the agenda?",
+      "ptime": 2720000.0,
+      "dtime": 3765000.0,
+      "author": "Stefan Santesson"
+    },
+    {
+      "text": "Roman (AD)",
+      "ptime": 2721000.0,
+      "dtime": 3766000.0,
+      "author": "synp"
+    },
+    {
+      "text": "And now: PHB about the Mathematical Mesh",
+      "ptime": 2748000.0,
+      "dtime": 3793000.0,
+      "author": "synp"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/105/materials/slides-105-secdispatch-mathematical-mesh-00",
+      "ptime": 2791000.0,
+      "dtime": 3836000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Slide #3",
+      "ptime": 2814000.0,
+      "dtime": 3859000.0,
+      "author": "synp"
+    },
+    {
+      "text": "phill wants 3-DES ? :-)",
+      "ptime": 2832000.0,
+      "dtime": 3877000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "3-ROT13",
+      "ptime": 2856000.0,
+      "dtime": 3901000.0,
+      "author": "synp"
+    },
+    {
+      "text": "3-Key EEE ROT13",
+      "ptime": 2880000.0,
+      "dtime": 3925000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Slide #4",
+      "ptime": 2896000.0,
+      "dtime": 3941000.0,
+      "author": "synp"
+    },
+    {
+      "text": "slide #5",
+      "ptime": 2984000.0,
+      "dtime": 4029000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Ivaylo Petrov just joined the room",
+      "ptime": 2998000.0,
+      "dtime": 4043000.0
+    },
+    {
+      "text": "slide #6",
+      "ptime": 3013000.0,
+      "dtime": 4058000.0,
+      "author": "synp"
+    },
+    {
+      "text": "slide #7",
+      "ptime": 3055000.0,
+      "dtime": 4100000.0,
+      "author": "synp"
+    },
+    {
+      "text": "slide #8",
+      "ptime": 3073000.0,
+      "dtime": 4118000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Kenneth Carlberg just joined the room",
+      "ptime": 3107000.0,
+      "dtime": 4152000.0
+    },
+    {
+      "text": "slide #9",
+      "ptime": 3115000.0,
+      "dtime": 4160000.0,
+      "author": "synp"
+    },
+    {
+      "text": "slide #10",
+      "ptime": 3221000.0,
+      "dtime": 4266000.0,
+      "author": "synp"
+    },
+    {
+      "text": "slide #12",
+      "ptime": 3315000.0,
+      "dtime": 4360000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Brian Weis just left the room",
+      "ptime": 3355000.0,
+      "dtime": 4400000.0
+    },
+    {
+      "text": "***Brian Weis just joined the room",
+      "ptime": 3357000.0,
+      "dtime": 4402000.0
+    },
+    {
+      "text": "(one side-effect of the \"clicker\" is that it removes the \"Next Slide!\" signal for the jabber scribe)",
+      "ptime": 3361000.0,
+      "dtime": 4406000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 3380000.0,
+      "dtime": 4425000.0
+    },
+    {
+      "text": "slide #13",
+      "ptime": 3405000.0,
+      "dtime": 4450000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Stefan Santesson",
+      "ptime": 3485000.0,
+      "dtime": 4530000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Kenneth Carlberg just left the room",
+      "ptime": 3502000.0,
+      "dtime": 4547000.0
+    },
+    {
+      "text": "Martin Thomson",
+      "ptime": 3619000.0,
+      "dtime": 4664000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Henk Birkholz just left the room",
+      "ptime": 3627000.0,
+      "dtime": 4672000.0
+    },
+    {
+      "text": "Huge!  Needs a new area",
+      "ptime": 3648000.0,
+      "dtime": 4693000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Henk Birkholz just joined the room",
+      "ptime": 3672000.0,
+      "dtime": 4717000.0
+    },
+    {
+      "text": "***Brian Weis just left the room",
+      "ptime": 3714000.0,
+      "dtime": 4759000.0
+    },
+    {
+      "text": "EKR",
+      "ptime": 3760000.0,
+      "dtime": 4805000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Hannes Tschofenig",
+      "ptime": 3862000.0,
+      "dtime": 4907000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Sean Turner",
+      "ptime": 4033000.0,
+      "dtime": 5078000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Henk Birkholz just left the room",
+      "ptime": 4127000.0,
+      "dtime": 5172000.0
+    },
+    {
+      "text": "The QUIC endianness decision steps up to the mic, and then decides just to sit down.",
+      "ptime": 4130000.0,
+      "dtime": 5175000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Henk Birkholz just joined the room",
+      "ptime": 4158000.0,
+      "dtime": 5203000.0
+    },
+    {
+      "text": "A WG can decide to use CBOR just because it\u0027s now fashionable",
+      "ptime": 4171000.0,
+      "dtime": 5216000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Rich Salz",
+      "ptime": 4172000.0,
+      "dtime": 5217000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Leif",
+      "ptime": 4238000.0,
+      "dtime": 5283000.0,
+      "author": "synp"
+    },
+    {
+      "text": "IIW",
+      "ptime": 4268000.0,
+      "dtime": 5313000.0,
+      "author": "wseltzer"
+    },
+    {
+      "text": "Internet Identity Workshop",
+      "ptime": 4273000.0,
+      "dtime": 5318000.0,
+      "author": "wseltzer"
+    },
+    {
+      "text": "https://internetidentityworkshop.com/",
+      "ptime": 4310000.0,
+      "dtime": 5355000.0,
+      "author": "ted.h"
+    },
+    {
+      "text": "Bret Jordan",
+      "ptime": 4318000.0,
+      "dtime": 5363000.0,
+      "author": "synp"
+    },
+    {
+      "text": "Roman (AD)",
+      "ptime": 4347000.0,
+      "dtime": 5392000.0,
+      "author": "synp"
+    },
+    {
+      "text": "mailing list \u0026 BoF",
+      "ptime": 4465000.0,
+      "dtime": 5510000.0,
+      "author": "synp"
+    },
+    {
+      "text": "We seem to be done.",
+      "ptime": 4555000.0,
+      "dtime": 5600000.0,
+      "author": "synp"
+    },
+    {
+      "text": "***Wei Pan just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Steffen Klassert just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Henk Birkholz just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Yoshiro YONEYA just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***caleb ingalsbe just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Thomas Paul just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    },
+    {
+      "text": "***Petteri Stenius just left the room",
+      "ptime": 4573000.0,
+      "dtime": 5618000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF105-SECDISPATCH-20190722-1330"
+    }
+  ]
+}

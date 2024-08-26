@@ -1,0 +1,357 @@
+
+{
+	"title": "IETF116-COSE-20230327-0400",
+	"filename": "IETF116-COSE-20230327-0400",
+	"start": 0,
+	"end": 7428000,
+	"start_datetime": "2023-03-27T03:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "ypC7F4KG5nQ",
+    "start": 0,
+    "end": "7428000"
+  }
+],
+	"messages": [
+  {
+    "author": "Michael Richardson",
+    "text": "<p>it doesn't matter how you get to the meetecho, as long as you do.</p>",
+    "topic": "ietf-116",
+    "dtime": 49000,
+    "ptime": 49000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<p>Would like a minute or two if there are others interested in working on ascon with COSE</p>",
+    "topic": "ietf-116",
+    "dtime": 360000,
+    "ptime": 360000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I have asked to have some time to discuss the possibility of a +CWT, structured suffix, RATs WG EAT has some interest in requesting it's registration</p>",
+    "topic": "ietf-116",
+    "dtime": 398000,
+    "ptime": 398000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I have some slides for that, Orie.</p>",
+    "topic": "ietf-116",
+    "dtime": 689000,
+    "ptime": 689000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Shall I upload them?</p>",
+    "topic": "ietf-116",
+    "dtime": 696000,
+    "ptime": 696000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>It's two slides.</p>",
+    "topic": "ietf-116",
+    "dtime": 703000,
+    "ptime": 703000
+  },
+  {
+    "author": "Ivaylo Petrov",
+    "text": "<p>yes, please</p>",
+    "topic": "ietf-116",
+    "dtime": 711000,
+    "ptime": 711000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>It's a file name. When (if) it gets published, it will only be called RFC xxxx, and only the datatracker will remember the file name that it once was.</p>",
+    "topic": "ietf-116",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Ivaylo, Orie, new slides proposed. you'll need to use the tools icon to import new documents.</p>",
+    "topic": "ietf-116",
+    "dtime": 1091000,
+    "ptime": 1091000
+  },
+  {
+    "author": "Ivaylo Petrov",
+    "text": "<p>I think they are now available, thank you!</p>",
+    "topic": "ietf-116",
+    "dtime": 1219000,
+    "ptime": 1219000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Link to the NIST call for opinions on additional parameter sets for SPHINCS+ (smaller number of lifetime signatures), which this WG might want to have an opinion / liaison statement about.</p>\n<p><a href=\"https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/LUczQNCw7HA/m/sBA6bmSfAQAJ\">https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/LUczQNCw7HA/m/sBA6bmSfAQAJ</a></p>",
+    "topic": "ietf-116",
+    "dtime": 1257000,
+    "ptime": 1257000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Regarding the presentation. ECC and RSA do not break with the introduction of quantum computing. They brake if someone builds a very large and very robust quantum computer, A CRQC.</p>",
+    "topic": "ietf-116",
+    "dtime": 1288000,
+    "ptime": 1288000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Note that NIST might change the names of the algorithms. That was done with Rijndael and Keccak.</p>",
+    "topic": "ietf-116",
+    "dtime": 1471000,
+    "ptime": 1471000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>For both Rijndael and Keccak, we knew the names long before those candidates were chosen. I don't think there's an intended name for a post-quantum signature algorithms, especially if there's going to be several of them.</p>",
+    "topic": "ietf-116",
+    "dtime": 1577000,
+    "ptime": 1577000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>what's wrong with: PQalg0. PGalg1, PQalg2 ??? :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 1612000,
+    "ptime": 1612000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>RSA II: The Sequel</p>",
+    "topic": "ietf-116",
+    "dtime": 1651000,
+    "ptime": 1651000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>If we're letting NIST choose the name it's going to be DSA III.</p>",
+    "topic": "ietf-116",
+    "dtime": 1681000,
+    "ptime": 1681000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>PQDSA 1, 2, and 3</p>",
+    "topic": "ietf-116",
+    "dtime": 1692000,
+    "ptime": 1692000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>I was making a joke, but DSA actually makes a certain amount of sense</p>",
+    "topic": "ietf-116",
+    "dtime": 1719000,
+    "ptime": 1719000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Whatever NIST does, we should obey and use the same names on algorithms and parameters. But that will likely be clear in already in the draft standards.</p>",
+    "topic": "ietf-116",
+    "dtime": 1788000,
+    "ptime": 1788000
+  },
+  {
+    "author": "Florence D",
+    "text": "<p>At RWPQC yesterday Dustin Moody said the names would be something like: MLWE-SIG (Dilithium), NSIS-SIG (Falcon), SHBS-SIG (SPHINCS+)</p>",
+    "topic": "ietf-116",
+    "dtime": 1984000,
+    "ptime": 1984000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"927\">@John Preuß Mattsson</span> : if you cram everything in a byte string, you are again writing custom coders/decoders, with all the vulnerabilities ensuing.</p>",
+    "topic": "ietf-116",
+    "dtime": 2367000,
+    "ptime": 2367000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@Tim I know what RSA did last summer!</p>",
+    "topic": "ietf-116",
+    "dtime": 2776000,
+    "ptime": 2776000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Regrding key format for BLS. Shoudn't this be defined by CFRG as was done for Curve25519 and Edwards25519.</p>",
+    "topic": "ietf-116",
+    "dtime": 3470000,
+    "ptime": 3470000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Tim Hollebeek</p>",
+    "topic": "ietf-116",
+    "dtime": 3765000,
+    "ptime": 3765000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>Hollebeek<br>\n\\</p>",
+    "topic": "ietf-116",
+    "dtime": 3768000,
+    "ptime": 3768000
+  },
+  {
+    "author": "Ajitomi, Daisuke",
+    "text": "<p>AJITOMI Daisuke</p>",
+    "topic": "ietf-116",
+    "dtime": 3828000,
+    "ptime": 3828000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Thanks for offering to review the draft. Appreciated</p>",
+    "topic": "ietf-116",
+    "dtime": 3895000,
+    "ptime": 3895000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>We are all individuals</p>",
+    "topic": "ietf-116",
+    "dtime": 3970000,
+    "ptime": 3970000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>I might review the HPKE draft, but I make no promise...</p>",
+    "topic": "ietf-116",
+    "dtime": 4641000,
+    "ptime": 4641000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I am also in support of doing draft-ajitomi-cose-cose-key-jwk-hpke-kem in the COSE group</p>",
+    "topic": "ietf-116",
+    "dtime": 4771000,
+    "ptime": 4771000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I read the draft</p>",
+    "topic": "ietf-116",
+    "dtime": 4779000,
+    "ptime": 4779000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<p>I have read it</p>",
+    "topic": "ietf-116",
+    "dtime": 4808000,
+    "ptime": 4808000
+  },
+  {
+    "author": "Subir Das",
+    "text": "<p>I read it</p>",
+    "topic": "ietf-116",
+    "dtime": 4816000,
+    "ptime": 4816000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I have read the draft</p>",
+    "topic": "ietf-116",
+    "dtime": 4816000,
+    "ptime": 4816000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I read TSA-TST</p>",
+    "topic": "ietf-116",
+    "dtime": 5140000,
+    "ptime": 5140000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>I have read the document, and I support adoption</p>",
+    "topic": "ietf-116",
+    "dtime": 5142000,
+    "ptime": 5142000
+  },
+  {
+    "author": "Thomas Fossati",
+    "text": "<p>I read it</p>",
+    "topic": "ietf-116",
+    "dtime": 5150000,
+    "ptime": 5150000
+  },
+  {
+    "author": "Michael Prorock",
+    "text": "<p>I have read the doc and support adoption</p>",
+    "topic": "ietf-116",
+    "dtime": 5156000,
+    "ptime": 5156000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>Happy to read draft-steele-cose-merkle-tree-proofs-00</p>",
+    "topic": "ietf-116",
+    "dtime": 6072000,
+    "ptime": 6072000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Happy to read draft-steele-cose-merkle-tree-proofs-01 :-)</p>",
+    "topic": "ietf-116",
+    "dtime": 6092000,
+    "ptime": 6092000
+  },
+  {
+    "author": "Russ Housley",
+    "text": "<p>May want to see is SATP WG can use this too</p>",
+    "topic": "ietf-116",
+    "dtime": 6182000,
+    "ptime": 6182000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>Happy to read draft-stleele-cose-merkle-tree-proofs-01 :)</p>",
+    "topic": "ietf-116",
+    "dtime": 6253000,
+    "ptime": 6253000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>There is a relationship to typ, I asked the list about this... COSE doesn't have typ or +jwt which are related to media types</p>",
+    "topic": "ietf-116",
+    "dtime": 6785000,
+    "ptime": 6785000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>+cwt*</p>",
+    "topic": "ietf-116",
+    "dtime": 6803000,
+    "ptime": 6803000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>If you have onion layers of crypto, you might onion types of media type identifiers</p>",
+    "topic": "ietf-116",
+    "dtime": 7252000,
+    "ptime": 7252000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-COSE-20230327-0400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/cose"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-COSE-20230327-0400"
+		}		
+	]
+}

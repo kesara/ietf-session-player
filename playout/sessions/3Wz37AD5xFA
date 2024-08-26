@@ -1,0 +1,385 @@
+
+{
+	"title": "IETF115-HTTPAPI-20221108-0930",
+	"filename": "IETF115-HTTPAPI-20221108-0930",
+	"start": 0,
+	"end": 4851000,
+	"start_datetime": "2022-11-08T09:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "3Wz37AD5xFA",
+    "start": 0,
+    "end": "4851000"
+  }
+],
+	"messages": [
+  {
+    "author": "Julian Reschke",
+    "text": "<p>value for location would need to be quoted</p>",
+    "topic": "jabber",
+    "dtime": 654000,
+    "ptime": 654000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>and here a comma is missing :-</p>",
+    "topic": "jabber",
+    "dtime": 786000,
+    "ptime": 786000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>i said tbd ;-)</p>",
+    "topic": "jabber",
+    "dtime": 800000,
+    "ptime": 800000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@aaron If the url in the challenge was to an OpenID configuration document, would that work without directly enabling popups?</p>",
+    "topic": "jabber",
+    "dtime": 1180000,
+    "ptime": 1180000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Is this something potentially for GNAP?</p>",
+    "topic": "jabber",
+    "dtime": 1262000,
+    "ptime": 1262000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>There is precedent for returning the URL location of the Authorization Server in the WWW-Authenticate header as this is a feature of User Managed Access 2.0.</p>",
+    "topic": "jabber",
+    "dtime": 1386000,
+    "ptime": 1386000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>How much time do we have on this topic?</p>",
+    "topic": "jabber",
+    "dtime": 1449000,
+    "ptime": 1449000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>We only have one other presentation and then status updates.  But I will close the queue</p>",
+    "topic": "jabber",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1106\">@Darrel Miller</span> I think calling it \"popup\" is a bit misleading tbh, really what we're talking about is launching a browser from a non-browser context</p>",
+    "topic": "jabber",
+    "dtime": 1632000,
+    "ptime": 1632000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>@darrel I think I'll be quick: it's only YAML</p>",
+    "topic": "jabber",
+    "dtime": 1668000,
+    "ptime": 1668000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>There is a good example of this for something like Excel importing data from authenticated sources.</p>",
+    "topic": "jabber",
+    "dtime": 1693000,
+    "ptime": 1693000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>And specifically imported sources it knows nothing about before hand.</p>",
+    "topic": "jabber",
+    "dtime": 1727000,
+    "ptime": 1727000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>Doesn't oauth require some kind of (private) client id to be provided?</p>",
+    "topic": "jabber",
+    "dtime": 1923000,
+    "ptime": 1923000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>(Re discussion about unknown apps requesting auth...)</p>",
+    "topic": "jabber",
+    "dtime": 1950000,
+    "ptime": 1950000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>client_id's aren't (private) but yes that is a key requirement of Oauth. As Aaron referenced, there is a way to dynamically register an application to obtain a client_id.</p>",
+    "topic": "jabber",
+    "dtime": 1982000,
+    "ptime": 1982000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>OT: I'm wondering how widely implemented the Oauth dynamic registration option is?  (I first heard about this several years ago, but since nothing about actual deployment.)</p>",
+    "topic": "jabber",
+    "dtime": 2213000,
+    "ptime": 2213000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>At this point I would agree that it's not widely implemented. There are a number of important security considerations when enabling it; especially in an open environment.</p>",
+    "topic": "jabber",
+    "dtime": 2284000,
+    "ptime": 2284000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>On the other hand, there are a lot of benefits as well :)</p>",
+    "topic": "jabber",
+    "dtime": 2323000,
+    "ptime": 2323000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>I've seen implementations of Dynamic Client Registration where the registration endpoint requires authentication, so it's a sort of hybrid</p>",
+    "topic": "jabber",
+    "dtime": 2346000,
+    "ptime": 2346000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 2370000,
+    "ptime": 2370000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>Yes.  I have a service implementation that would benefit :)</p>",
+    "topic": "jabber",
+    "dtime": 2375000,
+    "ptime": 2375000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p>But yes, someone like Google is not going to implement an unauthenticated dynamic client registration endpoint. But even though their system doesn't want to enable that, there are still plenty of other scenarios it's useful in. The calendar app example is one, and the wordpress example I mentioned.</p>",
+    "topic": "jabber",
+    "dtime": 2418000,
+    "ptime": 2418000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>... software that installs to a \"local\" server, and uses OAuth for user authn</p>",
+    "topic": "jabber",
+    "dtime": 2435000,
+    "ptime": 2435000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>Thank you very much!</p>",
+    "topic": "jabber",
+    "dtime": 2574000,
+    "ptime": 2574000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>Currently setting up the identification  service is a per-provider manual process for the person who is installing the software - it would be nice to automate that.  Not expecting the registration flow to be unautheticated.</p>",
+    "topic": "jabber",
+    "dtime": 2578000,
+    "ptime": 2578000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Popups :-)</p>",
+    "topic": "jabber",
+    "dtime": 2707000,
+    "ptime": 2707000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>without Erik it's hard ;)</p>",
+    "topic": "jabber",
+    "dtime": 2857000,
+    "ptime": 2857000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>ha!</p>",
+    "topic": "jabber",
+    "dtime": 2986000,
+    "ptime": 2986000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I was convinced Mark was going to say he likes human readability because he is human, but I guess not.</p>",
+    "topic": "jabber",
+    "dtime": 3009000,
+    "ptime": 3009000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>you can always use a string .-)</p>",
+    "topic": "jabber",
+    "dtime": 3053000,
+    "ptime": 3053000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>Re link template - in a past life, this is something that I wanted to use.  I forget the exact context, but I recall some uncertainty about the context from which variable values might be obtained.  (Mumble.)</p>",
+    "topic": "jabber",
+    "dtime": 3590000,
+    "ptime": 3590000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>(It would have been something to do with exposing a REST API for an application.)</p>",
+    "topic": "jabber",
+    "dtime": 3764000,
+    "ptime": 3764000
+  },
+  {
+    "author": "Liam Crilly",
+    "text": "<p>If intermediaries can handle cookies, they can handle rate-limit values in a single header</p>",
+    "topic": "jabber",
+    "dtime": 3951000,
+    "ptime": 3951000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Now we need the stars to turn on</p>",
+    "topic": "jabber",
+    "dtime": 4093000,
+    "ptime": 4093000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Nothing stopping the policy endpoint from doing <code>headers[\"rate-limit\"] += \";policy=\" + policy_value;</code></p>",
+    "topic": "jabber",
+    "dtime": 4316000,
+    "ptime": 4316000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>VOTE!</p>",
+    "topic": "jabber",
+    "dtime": 4384000,
+    "ptime": 4384000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>3 headers</p>",
+    "topic": "jabber",
+    "dtime": 4424000,
+    "ptime": 4424000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>remote folks you can write in chat</p>",
+    "topic": "jabber",
+    "dtime": 4433000,
+    "ptime": 4433000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>please use sf</p>",
+    "topic": "jabber",
+    "dtime": 4449000,
+    "ptime": 4449000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>Re rate limit headers: I agree with MNot's comments about following the semantics, just don't know enough about the semantics.</p>",
+    "topic": "jabber",
+    "dtime": 4594000,
+    "ptime": 4594000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>Ok, thanks :)</p>",
+    "topic": "jabber",
+    "dtime": 4608000,
+    "ptime": 4608000
+  },
+  {
+    "author": "Liam Crilly",
+    "text": "<p>I represent NGINX. I'll get some eyeballs on this</p>",
+    "topic": "jabber",
+    "dtime": 4613000,
+    "ptime": 4613000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>Thanks Liam!</p>",
+    "topic": "jabber",
+    "dtime": 4619000,
+    "ptime": 4619000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>really cool</p>",
+    "topic": "jabber",
+    "dtime": 4656000,
+    "ptime": 4656000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p><a href=\"https://ietf-wg-httpapi.github.io/\">https://ietf-wg-httpapi.github.io/</a>  (in case it helps)</p>",
+    "topic": "jabber",
+    "dtime": 4684000,
+    "ptime": 4684000
+  },
+  {
+    "author": "Roberto Polli",
+    "text": "<p>:clap</p>",
+    "topic": "jabber",
+    "dtime": 4707000,
+    "ptime": 4707000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>nice visualization!</p>",
+    "topic": "jabber",
+    "dtime": 4730000,
+    "ptime": 4730000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>very helpful</p>",
+    "topic": "jabber",
+    "dtime": 4734000,
+    "ptime": 4734000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>thank you!</p>",
+    "topic": "jabber",
+    "dtime": 4748000,
+    "ptime": 4748000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>clap</p>",
+    "topic": "jabber",
+    "dtime": 4749000,
+    "ptime": 4749000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-HTTPAPI-20221108-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/httpapi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-HTTPAPI-20221108-0930"
+		}		
+	]
+}

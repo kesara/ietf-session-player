@@ -1,0 +1,221 @@
+
+{
+	"title": "IETF114-SEDATE-20220725-1730",
+	"filename": "IETF114-SEDATE-20220725-1730",
+	"start": 0,
+	"end": 4042000,
+	"start_datetime": "2022-07-25T17:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "2RuCoZpmPUM",
+    "start": 0,
+    "end": "4042000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>hey folks</p>",
+    "dtime": 76000,
+    "ptime": 76000
+  },
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>question: is the matrix bridge still operational for this meeting?</p>",
+    "dtime": 90000,
+    "ptime": 90000
+  },
+  {
+    "author": "Robert Stepanek",
+    "text": "<p>yes</p>",
+    "dtime": 106000,
+    "ptime": 106000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Zulip is the flavor of the week</p>",
+    "dtime": 107000,
+    "ptime": 107000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>we're on zulip now</p>",
+    "dtime": 113000,
+    "ptime": 113000
+  },
+  {
+    "author": "Robert Stepanek",
+    "text": "<p>it is. can't see you own video, though (maybe that's just me)</p>",
+    "dtime": 141000,
+    "ptime": 141000
+  },
+  {
+    "author": "Robert Stepanek",
+    "text": "<p>s/own/on/</p>",
+    "dtime": 150000,
+    "ptime": 150000
+  },
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>oh, I like matrix better :(</p>",
+    "dtime": 171000,
+    "ptime": 171000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>Robert: mostly you aren't streaming video unless you explicitly ask to</p>",
+    "dtime": 187000,
+    "ptime": 187000
+  },
+  {
+    "author": "Robert Stepanek",
+    "text": "<p>gotcha</p>",
+    "dtime": 196000,
+    "ptime": 196000
+  },
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>wait, does that mean that XMPP isn't active either?</p>",
+    "dtime": 250000,
+    "ptime": 250000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>I think it's ALL bridged this time</p>",
+    "dtime": 264000,
+    "ptime": 264000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>cabo: It is</p>",
+    "dtime": 268000,
+    "ptime": 268000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>cabo: For the last time</p>",
+    "dtime": 272000,
+    "ptime": 272000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>ryzokuken: ah nice, hello from XMPP</p>",
+    "dtime": 319000,
+    "ptime": 319000
+  },
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>Common Locale Data Repository</p>",
+    "dtime": 552000,
+    "ptime": 552000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>4.3. Unknown Local Offset Convention</p>\n<p>If the time in UTC is known, but the offset to local time is unknown,<br>\n   this can be represented with an offset of \"-00:00\".  This differs<br>\n   semantically from an offset of \"Z\" or \"+00:00\", which imply that UTC<br>\n   is the preferred reference point for the specified time.  RFC2822<br>\n   [IMAIL-UPDATE] describes a similar convention for email.</p>",
+    "dtime": 1603000,
+    "ptime": 1603000
+  },
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>@Bron: as perhaps the most experienced implementer in the room, do you have any comments?</p>",
+    "dtime": 1676000,
+    "ptime": 1676000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>I want some examples</p>",
+    "dtime": 2287000,
+    "ptime": 2287000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>just to be 100% sure that I know what this means... certainly 'Z' means offsets may have been applied to make this time align to UTC</p>",
+    "dtime": 2344000,
+    "ptime": 2344000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>but it doesn't mean that \"I assert this time is associated with the GMT timezone\"</p>",
+    "dtime": 2364000,
+    "ptime": 2364000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>18:00Z[America/New York] is not a conflict, and is equivalent to 14:00-04:00[America/New York]</p>",
+    "dtime": 2639000,
+    "ptime": 2639000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Z no longer does \"imply that UTC<br>\nis the preferred reference point for the specified time.\".</p>",
+    "dtime": 2776000,
+    "ptime": 2776000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>great, that's what I was checking that everyone agrees with!</p>",
+    "dtime": 2840000,
+    "ptime": 2840000
+  },
+  {
+    "author": "Bron Gondwana",
+    "text": "<p>you can always convert to UTC but still give the zone name</p>",
+    "dtime": 2860000,
+    "ptime": 2860000
+  },
+  {
+    "author": "Justin Grant",
+    "text": "<p>I agree with Bron's comment in chat and his later one live just now.</p>",
+    "dtime": 3169000,
+    "ptime": 3169000
+  },
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>had been under the impression that this would be fixed once we get the liason relationship...</p>",
+    "dtime": 3555000,
+    "ptime": 3555000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>We have more fruitful relationships with IEEE</p>",
+    "dtime": 3656000,
+    "ptime": 3656000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>But ISO really is a hard nut</p>",
+    "dtime": 3665000,
+    "ptime": 3665000
+  },
+  {
+    "author": "Justin Grant",
+    "text": "<p>Thanks everyone!</p>",
+    "dtime": 3689000,
+    "ptime": 3689000
+  },
+  {
+    "author": "Ujjwal Sharma",
+    "text": "<p>Thanks!</p>",
+    "dtime": 3691000,
+    "ptime": 3691000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-SEDATE-20220725-1730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/sedate"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-SEDATE-20220725-1730"
+		}		
+	]
+}

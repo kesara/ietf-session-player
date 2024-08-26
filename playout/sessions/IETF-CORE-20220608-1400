@@ -1,0 +1,90 @@
+
+{
+	"title": "IETF-CORE-20220608-1400",
+	"filename": "IETF-CORE-20220608-1400",
+	"start": 0,
+	"end": 3486000,
+	"start_datetime": "2022-06-08T13:50:39Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Jm-zg8C_zIc",
+    "start": 0,
+    "end": "3486000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 1695000,
+    "ptime": 1695000,
+    "author": "Christian Amsüss",
+    "text": "For examples, there's also the option of defining something like 2001:db8::, but I think that's excessive here, and WONTFIX is good.<br/>"
+  },
+  {
+    "dtime": 6871000,
+    "ptime": 6871000,
+    "author": "zulipbot",
+    "text": "(Thomas Fossati) dear CoRE crew, is there an example of a CoAP Option with a CBOR format?<br/>"
+  },
+  {
+    "dtime": 6992000,
+    "ptime": 6992000,
+    "author": "zulipbot",
+    "text": "(Marco Tiloca) Do you mean of a CoAP Option value with value format opaque?<br/>"
+  },
+  {
+    "dtime": 7053000,
+    "ptime": 7053000,
+    "author": "zulipbot",
+    "text": "(Thomas Fossati) yes, where the opaque sequence of bytes happens to be a CBOR-encoded something<br/>"
+  },
+  {
+    "dtime": 7136000,
+    "ptime": 7136000,
+    "author": "zulipbot",
+    "text": "(Marco Tiloca) <a href=\"https://datatracker.ietf.org/doc/html/draft-tiloca-core-groupcomm-proxy-06#section-3\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-tiloca-core-groupcomm-proxy-06#section-3</a><br/>"
+  },
+  {
+    "dtime": 7178000,
+    "ptime": 7178000,
+    "author": "zulipbot",
+    "text": "(Thomas Fossati) awesome, thanks!<br/>"
+  },
+  {
+    "dtime": 7204000,
+    "ptime": 7204000,
+    "author": "zulipbot",
+    "text": "(Marco Tiloca) This is provisional, since the (mid/long-term) plan was to switch to a CRI (and already in the referred -observe-multicast-notifications), but it would do for now :-)<br/>"
+  },
+  {
+    "dtime": 7234000,
+    "ptime": 7234000,
+    "author": "zulipbot",
+    "text": "(Thomas Fossati) lucky me then that CRI is not finished then :-)<br/>"
+  },
+  {
+    "dtime": 7352000,
+    "ptime": 7352000,
+    "author": "zulipbot",
+    "text": "(Marco Tiloca) Well, that would still be a CBOR array, just a different one :-)<br/>"
+  },
+  {
+    "dtime": 7471000,
+    "ptime": 7471000,
+    "author": "zulipbot",
+    "text": "(Thomas Fossati) true dat<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-CORE-20220608-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-core-08/session/core"
+		}
+	]
+}

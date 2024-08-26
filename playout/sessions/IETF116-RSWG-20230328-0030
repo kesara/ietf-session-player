@@ -1,0 +1,266 @@
+
+{
+	"title": "IETF116-RSWG-20230328-0030",
+	"filename": "IETF116-RSWG-20230328-0030",
+	"start": 0,
+	"end": 7334000,
+	"start_datetime": "2023-03-28T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "BRUl7Boc-Rg",
+    "start": 0,
+    "end": "7334000"
+  }
+],
+	"messages": [
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Apparently we use new topics for these meetings</p>",
+    "topic": "ietf116",
+    "dtime": 340000,
+    "ptime": 340000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>we _can_ use topics at this meeting</p>",
+    "topic": "ietf116",
+    "dtime": 392000,
+    "ptime": 392000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>not forced to only have the \"jabber\" topic.</p>",
+    "topic": "ietf116",
+    "dtime": 404000,
+    "ptime": 404000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>inertia is a powerful thing</p>",
+    "topic": "regenerating HTML",
+    "dtime": 442000,
+    "ptime": 442000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>@chairs - I'm talking with MeetEcho - what slide set didn't look right?</p>",
+    "topic": "ietf116",
+    "dtime": 463000,
+    "ptime": 463000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>The chair slides didn't seem to appear in the tool.</p>",
+    "topic": "ietf116",
+    "dtime": 678000,
+    "ptime": 678000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>They are there on the MeetEcho console view.</p>",
+    "topic": "ietf116",
+    "dtime": 774000,
+    "ptime": 774000
+  },
+  {
+    "author": "Russ Housley",
+    "text": "<p>Paul, use the mic</p>",
+    "topic": "ietf-116",
+    "dtime": 941000,
+    "ptime": 941000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>and I'm happy because we're essentially versioning smaller increments in the protocol without using the rfcxml version field.</p>",
+    "topic": "ietf-116",
+    "dtime": 1919000,
+    "ptime": 1919000
+  },
+  {
+    "author": "Kesara Rathnayake",
+    "text": "<p>+1 for smaller increments.</p>",
+    "topic": "ietf-116",
+    "dtime": 2045000,
+    "ptime": 2045000
+  },
+  {
+    "author": "Notification Bot",
+    "text": "<p>A message was moved here from <a class=\"stream-topic\" data-stream-id=\"316\" href=\"/#narrow/stream/316-rswg/topic/regenerating.20HTML\">#rswg &gt; regenerating HTML</a> by <span class=\"user-mention silent\" data-user-id=\"63\">Kesara Rathnayake</span>.</p>",
+    "topic": "ietf-116",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "Alice Russo",
+    "text": "<p>Re: this slide, &lt;u&gt; \"Not used in published RFCs\" is not accurate. It has been used in 3 RFCs: 8771, 8949, 9290.</p>",
+    "topic": "ietf-116",
+    "dtime": 2585000,
+    "ptime": 2585000
+  },
+  {
+    "author": "Kesara Rathnayake",
+    "text": "<p>second point is wrong?</p>\n<div class=\"codehilite\"><pre><span></span><code>$ grep -r &quot;&lt;u &quot; .\n./rfc8949.xml:      notation for a UTF-8 string containing the single Unicode character &lt;u format=&quot;num-name-lit&quot; pn=&quot;u-1&quot;&gt;ü&lt;/u&gt;.  Similarly, &quot;\\u6c34&quot; is a UTF-8 string in\n./rfc8949.xml:      diagnostic notation with a single character &lt;u format=&quot;num-name-lit&quot; pn=&quot;u-2&quot;&gt;水&lt;/u&gt;,\n./rfc8949.xml:      in diagnostic notation with a single character &lt;u format=&quot;num-name-lit&quot; pn=&quot;u-3&quot;&gt;𐅑&lt;/u&gt;.  (Note that all these single-character\n./rfc9290.xml:&lt;u format=&quot;lit-name-num&quot; pn=&quot;u-1&quot;&gt;ש&lt;/u&gt;,\n./rfc9290.xml:&lt;u format=&quot;lit-name-num&quot; pn=&quot;u-2&quot;&gt;ל&lt;/u&gt;,\n./rfc9290.xml:&lt;u format=&quot;lit-name-num&quot; pn=&quot;u-3&quot;&gt;ו&lt;/u&gt;,\n./rfc9290.xml:&lt;u format=&quot;lit-name-num&quot; pn=&quot;u-4&quot;&gt;ם&lt;/u&gt;.\n./rfc8771.xml:      one-character sequence &lt;u format=&quot;num&quot; pn=&quot;u-1&quot;&gt;.&lt;/u&gt; is believed to cause sufficient disorder\n./rfc8771.xml:              &lt;u format=&quot;num-name&quot; pn=&quot;u-2&quot;&gt;c&lt;/u&gt;&lt;/td&gt;\n./rfc8771.xml:              &lt;u format=&quot;num-name&quot; pn=&quot;u-3&quot;&gt;l&lt;/u&gt;&lt;/td&gt;\n./rfc8771.xml:              &lt;u format=&quot;num-name&quot; pn=&quot;u-4&quot;&gt;Ҥ&lt;/u&gt;&lt;/td&gt;\n./rfc8771.xml:  than 1 (&lt;u format=&quot;num&quot; pn=&quot;u-5&quot;&gt;Ҥ&lt;/u&gt;) .&lt;/li&gt;\n./rfc8771.xml:        &lt;li pn=&quot;section-5-8.2&quot;&gt;There are two IDNA2008 DISALLOWED characters: &lt;u format=&quot;num-name&quot; pn=&quot;u-6&quot;/&gt; U+000C (for good reason!) and &lt;u format=&quot;num&quot; pn=&quot;u-7&quot;&gt;Ҥ&lt;/u&gt;.&lt;/li&gt;\n./rfc8771.xml:      &#39;I-DUNNO&#39;. For that purpose, &lt;u format=&quot;num-lit-name&quot; pn=&quot;u-8&quot;&gt;-&lt;/u&gt;\n</code></pre></div>",
+    "topic": "ietf-116",
+    "dtime": 2670000,
+    "ptime": 2670000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Are we doing country as ISO 3166 or in English, or in a native tongue?  Does there need to be a canonical name?  What about Aotearoa?</p>",
+    "topic": "postal",
+    "dtime": 2748000,
+    "ptime": 2748000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>we don't need to run the tool one more time; we have the output of the tool, so we can just get postalLine from the rendered text/html/whatever</p>",
+    "topic": "postal",
+    "dtime": 2874000,
+    "ptime": 2874000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>I think this should be \"we dont care - take a string - use it\"</p>",
+    "topic": "ietf-116",
+    "dtime": 3038000,
+    "ptime": 3038000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>So we're clearly going to need a discussion about whether this rewrite of the XML is OK</p>",
+    "topic": "ietf-116",
+    "dtime": 3182000,
+    "ptime": 3182000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>It's not at all unusual to have situations where the same document structure maps onto two different identifier sets</p>",
+    "topic": "ietf-116",
+    "dtime": 4875000,
+    "ptime": 4875000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>I understand Martin's point here as being that it is not appropriate for the authors to sign off on something that is then modified before publication, even if we believe that modification is minor.</p>",
+    "topic": "ietf-116",
+    "dtime": 4885000,
+    "ptime": 4885000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>For instance, if you have a document written in LaTeX, different styles will have (for instance) 1., 2., ....  or I, II, ...</p>",
+    "topic": "ietf-116",
+    "dtime": 4912000,
+    "ptime": 4912000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>IIRC, this is USENIX versus IEEE style</p>",
+    "topic": "ietf-116",
+    "dtime": 4940000,
+    "ptime": 4940000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>Kesara points out our RNC uses a notation extension that allows for defaults. So we can rely on that schema if needed - i.e. leave the published RFC with a pointer in it to the version of the schema used at that time</p>",
+    "topic": "ietf-116",
+    "dtime": 5102000,
+    "ptime": 5102000
+  },
+  {
+    "author": "Kesara Rathnayake",
+    "text": "<p><code>a:defaultValue</code> is used to add defaults in <em>RelaxNG</em>. We already have defaults for some in v3.rng</p>",
+    "topic": "ietf-116",
+    "dtime": 5310000,
+    "ptime": 5310000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I'm pretty sure it's canonicalicity :)</p>",
+    "topic": "ietf-116",
+    "dtime": 5413000,
+    "ptime": 5413000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>canonicalicity -&gt; acanonicalicity -&gt; baconicalicity</p>",
+    "topic": "ietf-116",
+    "dtime": 5493000,
+    "ptime": 5493000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Does the discussion get simpler if we use the term \"official\" instead of \"canonical\" ?</p>",
+    "topic": "ietf-116",
+    "dtime": 5690000,
+    "ptime": 5690000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"9\">Robert Sparks</span> <a href=\"#narrow/stream/316-rswg/topic/ietf-116/near/66283\">said</a>:</p>\n<blockquote>\n<p>canonicalicity -&gt; acanonicalicity -&gt; baconicalicity</p>\n</blockquote>\n<p>Hmm.... bacon.</p>",
+    "topic": "ietf-116",
+    "dtime": 5718000,
+    "ptime": 5718000
+  },
+  {
+    "author": "Alexis Rossi",
+    "text": "<p>I really think we need to write an Archival Policy document that lays out what we mean by these terms, confirms/adjusts what formats cannot change, etc.</p>",
+    "topic": "ietf-116",
+    "dtime": 5752000,
+    "ptime": 5752000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>Yes, agree</p>",
+    "topic": "ietf-116",
+    "dtime": 5879000,
+    "ptime": 5879000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>Now Paul's done it. Mathmaticians and Physicists will by rioting in the streets by sunset.</p>",
+    "topic": "ietf-116",
+    "dtime": 6788000,
+    "ptime": 6788000
+  },
+  {
+    "author": "Brian Carpenter",
+    "text": "<p>+1 to Alexis</p>",
+    "topic": "ietf-116",
+    "dtime": 7080000,
+    "ptime": 7080000
+  },
+  {
+    "author": "Brian Carpenter",
+    "text": "<p>hand up to adopt Paul's doc</p>",
+    "topic": "ietf-116",
+    "dtime": 7110000,
+    "ptime": 7110000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"129\">@Paul Hoffman</span> I opened an issue for you about <code>&lt;artwork&gt;</code></p>",
+    "topic": "ietf-116",
+    "dtime": 7156000,
+    "ptime": 7156000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-RSWG-20230328-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/rswg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-RSWG-20230328-0030"
+		}		
+	]
+}

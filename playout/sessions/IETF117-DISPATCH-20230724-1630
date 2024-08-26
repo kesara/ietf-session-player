@@ -1,0 +1,987 @@
+
+{
+	"title": "IETF117-DISPATCH-20230724-1630",
+	"filename": "IETF117-DISPATCH-20230724-1630",
+	"start": 0,
+	"end": 5612000,
+	"start_datetime": "2023-07-24T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "KT3mMX9CMdA",
+    "start": 0,
+    "end": "5612000"
+  }
+],
+	"messages": [
+  {
+    "author": "Robert Sparks",
+    "text": "<p>Red on black on the slide :(</p>",
+    "topic": "ietf-117",
+    "dtime": 63000,
+    "ptime": 63000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Form a working group: This is an important problem, it needs a solution. Existing solutions I worked on included SAML and WS-Security/SOAP which was designed to do exactly this.</p>",
+    "topic": "ietf-117",
+    "dtime": 722000,
+    "ptime": 722000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Probably should look at the earlier stuff but it would need changes anyway</p>",
+    "topic": "ietf-117",
+    "dtime": 745000,
+    "ptime": 745000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"677\">@Phillip Hallam-Baker</span>  Agreed, but this is sounding more appropriate for SEC rather than ART.</p>",
+    "topic": "ietf-117",
+    "dtime": 869000,
+    "ptime": 869000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I guess I'm missing why this isn't a secdispatch question.</p>",
+    "topic": "ietf-117",
+    "dtime": 879000,
+    "ptime": 879000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I hope he has a slide explaining that.</p>",
+    "topic": "ietf-117",
+    "dtime": 906000,
+    "ptime": 906000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>interrupt the presentation to ask that question?</p>",
+    "topic": "ietf-117",
+    "dtime": 916000,
+    "ptime": 916000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@Pete, depends on what you think SEC is about. The signing part of this isn't going to be the hard part. Everything is a SEC problem if you try even a little bit...</p>",
+    "topic": "ietf-117",
+    "dtime": 1063000,
+    "ptime": 1063000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>I'm dubious about some of the use cases here.  how much do we think the chains of attestation are known and understood by the services involved?    Should the client itself  be able to constrain what happens to the request or the resource after it leaves the client?  what kind of logic do we imagine being applied to the chains of communication?</p>",
+    "topic": "ietf-117",
+    "dtime": 1134000,
+    "ptime": 1134000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>I'm wondering about something else... given the beating that OAUTH has taken recently on the IETF list, do they see ways to avoid those issues?</p>",
+    "topic": "ietf-117",
+    "dtime": 1194000,
+    "ptime": 1194000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>iffy on SPIFFE?</p>",
+    "topic": "ietf-117",
+    "dtime": 1363000,
+    "ptime": 1363000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>At least so far \"propose a bof at 118\" seems like a reasonable answer here, especially if there is good traffic on wimse in the meantime.</p>",
+    "topic": "ietf-117",
+    "dtime": 1409000,
+    "ptime": 1409000
+  },
+  {
+    "author": "Atul Tulshibagwale",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/agenda-117-oauth/\">https://datatracker.ietf.org/doc/agenda-117-oauth/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 1461000,
+    "ptime": 1461000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I think its a bof in art</p>",
+    "topic": "ietf-117",
+    "dtime": 1485000,
+    "ptime": 1485000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@John, that is why I think this might be ART rather than SEC. What is needed is an understanding of how to apply this mechanism to actual deployments and get some idea of what can be made standard.</p>",
+    "topic": "ietf-117",
+    "dtime": 1487000,
+    "ptime": 1487000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>You'll need a technical advisor from the other area, no matter which area it ends up in.  But that's pretty easy to arrange.</p>",
+    "topic": "ietf-117",
+    "dtime": 1519000,
+    "ptime": 1519000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>Depending on which pieces get standardized, some might go to sec. But this is still sufficiently unclear on scope, i think art is more general</p>",
+    "topic": "ietf-117",
+    "dtime": 1524000,
+    "ptime": 1524000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I don't think it matters where the BOF is. Just make sure the SEC ADs are present. The ADs can decide where.</p>",
+    "topic": "ietf-117",
+    "dtime": 1525000,
+    "ptime": 1525000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Ted: agreed.  And I don't think the nominal Area for the BOF is located as long as that is not treated as a commitment.</p>",
+    "topic": "ietf-117",
+    "dtime": 1548000,
+    "ptime": 1548000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>\"Dispatch me?\" is never a question; we will dispatch, though sometimes to the bin. ;-)</p>",
+    "topic": "ietf-117",
+    "dtime": 1780000,
+    "ptime": 1780000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>that's a bad client adaptation algorithm :D</p>",
+    "topic": "ietf-117",
+    "dtime": 1827000,
+    "ptime": 1827000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>why is the network the thing doing this limiting?  can't the client say \"don't give me more than 2Mbps\"?</p>",
+    "topic": "ietf-117",
+    "dtime": 1976000,
+    "ptime": 1976000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>The client doesn't necessarily know about the desired rate from the network</p>",
+    "topic": "ietf-117",
+    "dtime": 2012000,
+    "ptime": 2012000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> The shaper is there for when the client wants more than the network provider is willing to give.</p>",
+    "topic": "ietf-117",
+    "dtime": 2045000,
+    "ptime": 2045000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>the two reasons given in the presentation for the limit were <em>client</em> rationales.</p>",
+    "topic": "ietf-117",
+    "dtime": 2083000,
+    "ptime": 2083000
+  },
+  {
+    "author": "Luca Niccolini",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"28\">Lucas Pardue</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78427\">said</a>:</p>\n<blockquote>\n<p>that's a bad client adaptation algorithm :D</p>\n</blockquote>\n<p>1--&gt;20 is probably exaggerated a bit , but in practice there isn't a whole lot of granularity, which makes this hard</p>",
+    "topic": "ietf-117",
+    "dtime": 2090000,
+    "ptime": 2090000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>right, but if the network told the client what the bandwidth limits are, the client could then adjust</p>",
+    "topic": "ietf-117",
+    "dtime": 2093000,
+    "ptime": 2093000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>you can't trust the client to do that</p>",
+    "topic": "ietf-117",
+    "dtime": 2112000,
+    "ptime": 2112000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>also, it doesn't work when a client wants to play multiple streams over one link</p>",
+    "topic": "ietf-117",
+    "dtime": 2138000,
+    "ptime": 2138000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> i think the point he's making is that client-driven adaptation doesn't work quickly enough</p>",
+    "topic": "ietf-117",
+    "dtime": 2145000,
+    "ptime": 2145000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>the network doesn't trust the client, no, and they can continue to use these shapers for that reason. but the client can avoid this ping-pong</p>",
+    "topic": "ietf-117",
+    "dtime": 2149000,
+    "ptime": 2149000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78458\">said</a>:</p>\n<blockquote>\n<p>right, but if the network told the client what the bandwidth limits are, the client could then adjust</p>\n</blockquote>\n<p>Network telling endpoints is the essence of the proposed solution</p>",
+    "topic": "ietf-117",
+    "dtime": 2157000,
+    "ptime": 2157000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>abhishek, my skepticism is picking a solution where the content server is informed, rather than the client (if I understood the draft properly)</p>",
+    "topic": "ietf-117",
+    "dtime": 2241000,
+    "ptime": 2241000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>The solution in the draft can be used either between the client and network or the network and the server</p>",
+    "topic": "ietf-117",
+    "dtime": 2274000,
+    "ptime": 2274000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>so the specific questions are:</p>\n<ul>\n<li>how does the endpoint know that a legitimate path element is asking it to constrain the flow?</li>\n<li>which flow to apply the constraint to?</li>\n</ul>",
+    "topic": "ietf-117",
+    "dtime": 2389000,
+    "ptime": 2389000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I only saw a single sentence mentioning the possibility of communicating to the client</p>",
+    "topic": "ietf-117",
+    "dtime": 2429000,
+    "ptime": 2429000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>smells a lot like path-aware networking, no?</p>",
+    "topic": "ietf-117",
+    "dtime": 2439000,
+    "ptime": 2439000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Does the side meeting have online link?</p>",
+    "topic": "ietf-117",
+    "dtime": 2469000,
+    "ptime": 2469000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78476\">said</a>:</p>\n<blockquote>\n<p>abhishek, my skepticism is picking a solution where the content server is informed, rather than the client (if I understood the draft properly)</p>\n</blockquote>\n<p>As Alan said the draft discusses communication both ways, but Nick can you elaborate on your skepticism on informing content server (May be in the side meeting)</p>",
+    "topic": "ietf-117",
+    "dtime": 2491000,
+    "ptime": 2491000
+  },
+  {
+    "author": "Luca Niccolini",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78489\">said</a>:</p>\n<blockquote>\n<p>so the specific questions are:</p>\n<ul>\n<li>how does the endpoint know that a legitimate path element is asking it to constrain the flow?</li>\n<li>which flow to apply the constraint to?</li>\n</ul>\n</blockquote>\n<p>very good questions, the side meetings presentation will have more details on the solution design</p>",
+    "topic": "ietf-117",
+    "dtime": 2504000,
+    "ptime": 2504000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>side meeting wiki: <a href=\"https://wiki.ietf.org/en/meeting/117/sidemeetings\">https://wiki.ietf.org/en/meeting/117/sidemeetings</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2517000,
+    "ptime": 2517000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Once upon a time, one of the key principles for the network (perhaps _the_ key principle once one gets past \"packets\" and \"datagrams\" was that the transport was completely agnostic about applications and the applications couldn't mess with the transport.  Anyone else having trouble keeping their footing on this increasingly slippery slope?</p>",
+    "topic": "ietf-117",
+    "dtime": 2538000,
+    "ptime": 2538000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Transport people are fine if you're doing this kind of thing so long as you're inside TCP, right?</p>",
+    "topic": "ietf-117",
+    "dtime": 2582000,
+    "ptime": 2582000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>(or DCCP or anything with it's own CC)</p>",
+    "topic": "ietf-117",
+    "dtime": 2626000,
+    "ptime": 2626000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><a href=\"https://www.gsma.com/futurenetworks/ip_services/understanding-5g/camara-telco-global-api-alliance/\">CAMARA</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2676000,
+    "ptime": 2676000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>As I said, Pete, slilippery slooe</p>",
+    "topic": "ietf-117",
+    "dtime": 2684000,
+    "ptime": 2684000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>what do you mean by  \"mess with the transport\"</p>",
+    "topic": "ietf-117",
+    "dtime": 2759000,
+    "ptime": 2759000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>remote people - is Richard Barnes coming through loud enough?</p>",
+    "topic": "ietf-117",
+    "dtime": 2760000,
+    "ptime": 2760000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Meetecho: having a lot of trouble hearing the floor mic.  Alissa was tough, Richard incomprehensible</p>",
+    "topic": "ietf-117",
+    "dtime": 2762000,
+    "ptime": 2762000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Hmm, I can avoid the stall...</p>",
+    "topic": "ietf-117",
+    "dtime": 2763000,
+    "ptime": 2763000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>@Robert he was loud and clear, as is Ali</p>",
+    "topic": "ietf-117",
+    "dtime": 2780000,
+    "ptime": 2780000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@John  A signal that says \"there is a 2MB shaper on this path\" might be completely application neutral; think of it like a pre-ECN signal.  Different apps would have different responses to that message (and it is definitely better for ABR video than many others), but it can be done in ways that is app agnostic.</p>",
+    "topic": "ietf-117",
+    "dtime": 2782000,
+    "ptime": 2782000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Robert.  Nope.  Nor is this speaker</p>",
+    "topic": "ietf-117",
+    "dtime": 2784000,
+    "ptime": 2784000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Richard was fairly off-mic.  We should probably remind people to speak directly into the mic.</p>",
+    "topic": "ietf-117",
+    "dtime": 2809000,
+    "ptime": 2809000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"355\">@John Klensin</span> we'll go check if the mic level is low in the mixer</p>",
+    "topic": "ietf-117",
+    "dtime": 2821000,
+    "ptime": 2821000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"841\">@Ali Begen</span> can you provide a pointer to the other work you're describing?</p>",
+    "topic": "ietf-117",
+    "dtime": 2826000,
+    "ptime": 2826000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"658\">@Magnus Westerlund</span> i missed your comment at the mic, i'd like to put it in the notes.  can you repeat it here?</p>",
+    "topic": "ietf-117",
+    "dtime": 2856000,
+    "ptime": 2856000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Jonathan: yes, and to announce their names.  Harald did both.</p>",
+    "topic": "ietf-117",
+    "dtime": 2872000,
+    "ptime": 2872000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>If we are dealing with static data, accelerate the delivery rate till packets are dropped but at the lower quality until it is established that the link can cope with the higher speed.</p>",
+    "topic": "ietf-117",
+    "dtime": 2872000,
+    "ptime": 2872000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"99\">@Jim Fenton</span> Do remind people to say their name (and eat the mic).</p>",
+    "topic": "ietf-117",
+    "dtime": 2927000,
+    "ptime": 2927000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>doing traffic shaping for abr without client's knowledge usually calls for a disaster. this is an outcome from 10+ year old research.</p>",
+    "topic": "ietf-117",
+    "dtime": 2928000,
+    "ptime": 2928000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Phil, it sounds like you're talking about congestion control, no?</p>",
+    "topic": "ietf-117",
+    "dtime": 2937000,
+    "ptime": 2937000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>@Daniel: <a href=\"https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5004-final.pdf\">https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5004-final.pdf</a></p>",
+    "topic": "ietf-117",
+    "dtime": 2980000,
+    "ptime": 2980000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>The sister spec is cta-5006</p>",
+    "topic": "ietf-117",
+    "dtime": 2991000,
+    "ptime": 2991000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>MPEG spec is 23009-5: <a href=\"https://www.iso.org/standard/69079.html\">https://www.iso.org/standard/69079.html</a></p>",
+    "topic": "ietf-117",
+    "dtime": 3015000,
+    "ptime": 3015000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>in the days of ABR video using plaintext HTTP, some operators were known to groom the media manifest and take out bitrates - that was terrible</p>",
+    "topic": "ietf-117",
+    "dtime": 3038000,
+    "ptime": 3038000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>that is why manifests are encrypted now</p>",
+    "topic": "ietf-117",
+    "dtime": 3094000,
+    "ptime": 3094000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@Daniel, only to the extent ABR is artificial congestion...</p>",
+    "topic": "ietf-117",
+    "dtime": 3094000,
+    "ptime": 3094000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>ESNI should terrify the traffic shapers...</p>",
+    "topic": "ietf-117",
+    "dtime": 3100000,
+    "ptime": 3100000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>thanks to a few big SPs in the US...</p>",
+    "topic": "ietf-117",
+    "dtime": 3108000,
+    "ptime": 3108000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@ali and why RUD encrypts every part of every packet.</p>",
+    "topic": "ietf-117",
+    "dtime": 3128000,
+    "ptime": 3128000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>[Except for initial helo]</p>",
+    "topic": "ietf-117",
+    "dtime": 3142000,
+    "ptime": 3142000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>/me points to EKT</p>",
+    "topic": "ietf-117",
+    "dtime": 3368000,
+    "ptime": 3368000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>Is RFC 4568 used in production?</p>",
+    "topic": "ietf-117",
+    "dtime": 3414000,
+    "ptime": 3414000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>I laud his completeness in dredging up old specs that hardly saw any deployment</p>",
+    "topic": "ietf-117",
+    "dtime": 3478000,
+    "ptime": 3478000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1495\">Alan Frindell</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78445\">said</a>:</p>\n<blockquote>\n<p>The client doesn't necessarily know about the desired rate from the network</p>\n</blockquote>\n<p>which is in fact the whole problem. the client should be able to get that info from its L2 network and \"do the right thing\"</p>",
+    "topic": "ietf-117",
+    "dtime": 3645000,
+    "ptime": 3645000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>What is L2 network?</p>",
+    "topic": "ietf-117",
+    "dtime": 3720000,
+    "ptime": 3720000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>Is there a non SIPREC requirement for this?</p>",
+    "topic": "ietf-117",
+    "dtime": 3742000,
+    "ptime": 3742000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"361\">Hang Shi</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78636\">said</a>:</p>\n<blockquote>\n<p>What is L2 network?</p>\n</blockquote>\n<p>Layer 2 network</p>",
+    "topic": "ietf-117",
+    "dtime": 3757000,
+    "ptime": 3757000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>Rohan: but in the general case, it's not his L2 network, it's one of the networks on the way between him and the content provider.<br>\nI was thinking of the case where the client is on 4G and switches to home wifi mid-video.</p>",
+    "topic": "ietf-117",
+    "dtime": 3774000,
+    "ptime": 3774000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>I mean it has no integrity protection anyway</p>",
+    "topic": "ietf-117",
+    "dtime": 3802000,
+    "ptime": 3802000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>+1 to Harald</p>",
+    "topic": "ietf-117",
+    "dtime": 3818000,
+    "ptime": 3818000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>re a=crypto: isn't that considered a Bad Thing anyway?</p>",
+    "topic": "ietf-117",
+    "dtime": 3836000,
+    "ptime": 3836000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>(I only have two telcos to go before being able to delete that code from webrtc)</p>",
+    "topic": "ietf-117",
+    "dtime": 3854000,
+    "ptime": 3854000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>It is, but his point is that people are using it anyway.</p>",
+    "topic": "ietf-117",
+    "dtime": 3857000,
+    "ptime": 3857000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>can we not just throw this in an RTP extension and be done with it?</p>",
+    "topic": "ietf-117",
+    "dtime": 3861000,
+    "ptime": 3861000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>This is the information you need to decrypt/auth the RTP, so that's a chicken-and-egg problem.</p>",
+    "topic": "ietf-117",
+    "dtime": 3892000,
+    "ptime": 3892000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>so the real problem is that the frame counter has too few bits...</p>",
+    "topic": "ietf-117",
+    "dtime": 3917000,
+    "ptime": 3917000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>RTP header extension will work fine as long as you don't do CRYPTEX or header extension crypto.</p>",
+    "topic": "ietf-117",
+    "dtime": 3978000,
+    "ptime": 3978000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>and if you are using a=crypto, you don't care about security issues anyway.....</p>",
+    "topic": "ietf-117",
+    "dtime": 4016000,
+    "ptime": 4016000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>why do we need a new standard in this area?</p>",
+    "topic": "ietf-117",
+    "dtime": 4139000,
+    "ptime": 4139000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>(referring to S-expressions)</p>",
+    "topic": "ietf-117",
+    "dtime": 4165000,
+    "ptime": 4165000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>people are currently extending S-expression <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 4180000,
+    "ptime": 4180000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(i don't know whether they're contemplating those extensions here)</p>",
+    "topic": "ietf-117",
+    "dtime": 4198000,
+    "ptime": 4198000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>So is this a historic spec?</p>",
+    "topic": "ietf-117",
+    "dtime": 4202000,
+    "ptime": 4202000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Jonathan: We don't.  He is resurrecting old work.</p>",
+    "topic": "ietf-117",
+    "dtime": 4213000,
+    "ptime": 4213000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-117",
+    "dtime": 4215000,
+    "ptime": 4215000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>It's a thing that was in an ID that was lost</p>",
+    "topic": "ietf-117",
+    "dtime": 4218000,
+    "ptime": 4218000
+  },
+  {
+    "author": "Marc Petit-Huguenin",
+    "text": "<p>Yes</p>",
+    "topic": "ietf-117",
+    "dtime": 4225000,
+    "ptime": 4225000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Is this related to multiformats at all?</p>",
+    "topic": "ietf-117",
+    "dtime": 4230000,
+    "ptime": 4230000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>The real intent here is to document something that we _thought_ we had documented, but really didn't</p>",
+    "topic": "ietf-117",
+    "dtime": 4238000,
+    "ptime": 4238000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>which is seeking chartering</p>",
+    "topic": "ietf-117",
+    "dtime": 4259000,
+    "ptime": 4259000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>that last bullet</p>",
+    "topic": "ietf-117",
+    "dtime": 4263000,
+    "ptime": 4263000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>extended S-expressions: <a href=\"https://dev.gnupg.org/source/gnupg/browse/master/agent/keyformat.txt\">https://dev.gnupg.org/source/gnupg/browse/master/agent/keyformat.txt</a></p>",
+    "topic": "ietf-117",
+    "dtime": 4279000,
+    "ptime": 4279000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><a href=\"https://github.com/rnpgp/sexpp\">https://github.com/rnpgp/sexpp</a></p>",
+    "topic": "ietf-117",
+    "dtime": 4322000,
+    "ptime": 4322000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Murray: Are we going to talk about multi... today?</p>",
+    "topic": "ietf-117",
+    "dtime": 4324000,
+    "ptime": 4324000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>The online conference link to SADCDN side meeting is TBD.</p>",
+    "topic": "ietf-117",
+    "dtime": 4330000,
+    "ptime": 4330000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i see no value in IETF consensus on this</p>",
+    "topic": "ietf-117",
+    "dtime": 4346000,
+    "ptime": 4346000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Carsten: \"we\" being DISPATCH, or you and me?</p>",
+    "topic": "ietf-117",
+    "dtime": 4352000,
+    "ptime": 4352000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>ARTAREA, actually</p>",
+    "topic": "ietf-117",
+    "dtime": 4362000,
+    "ptime": 4362000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Yeah, ISE sounds right for this.</p>",
+    "topic": "ietf-117",
+    "dtime": 4371000,
+    "ptime": 4371000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>This should be an AD sponsored private draft. There is no scope for design changes.</p>",
+    "topic": "ietf-117",
+    "dtime": 4374000,
+    "ptime": 4374000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>It's not on the DISPATCH agenda as far as I know.  There might be AOB time though if you want ot get some.</p>",
+    "topic": "ietf-117",
+    "dtime": 4374000,
+    "ptime": 4374000
+  },
+  {
+    "author": "Jonathan Rosenberg",
+    "text": "<p>independent rfced submission</p>",
+    "topic": "ietf-117",
+    "dtime": 4411000,
+    "ptime": 4411000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@Pete, yep, ISE would also work</p>",
+    "topic": "ietf-117",
+    "dtime": 4415000,
+    "ptime": 4415000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>Ise</p>",
+    "topic": "ietf-117",
+    "dtime": 4418000,
+    "ptime": 4418000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Pete: seems to me that the claim that this has actually been reviewed in the IETF as a stupidity check is worthwhile.</p>",
+    "topic": "ietf-117",
+    "dtime": 4505000,
+    "ptime": 4505000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>AD sponsorship isn't very fast these days...</p>",
+    "topic": "ietf-117",
+    "dtime": 4518000,
+    "ptime": 4518000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>And, since there have been a claim or two on IETF mailing lists that it is stupid (I disagree, but...)...</p>",
+    "topic": "ietf-117",
+    "dtime": 4563000,
+    "ptime": 4563000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Ask Eliot and see if he pushes back</p>",
+    "topic": "ietf-117",
+    "dtime": 4572000,
+    "ptime": 4572000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Correctly publishing a document that is being referenced by important historic documents  is worth the while of the RFC process.  Maybe not of the IETF.  So ISE sounds right.</p>",
+    "topic": "ietf-117",
+    "dtime": 4644000,
+    "ptime": 4644000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>MIT reorganized their web pages so the link everyone was using went dead, so it's good to have it somewhere archival.  +1 ISE.</p>",
+    "topic": "ietf-117",
+    "dtime": 4671000,
+    "ptime": 4671000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Can't here Rich</p>",
+    "topic": "ietf-117",
+    "dtime": 4706000,
+    "ptime": 4706000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Rich's audio was fine</p>",
+    "topic": "ietf-117",
+    "dtime": 4716000,
+    "ptime": 4716000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Rich was a bit quiet in the room. People are chicken about eating the mic.</p>",
+    "topic": "ietf-117",
+    "dtime": 4763000,
+    "ptime": 4763000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78546\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"658\">Magnus Westerlund</span> i missed your comment at the mic, i'd like to put it in the notes.  can you repeat it here?</p>\n</blockquote>\n<p>What I said was approximately: There are other use cases for a network &lt;-&gt; endpoint explicit communication which need a solution.  Also with actual security between the entities communicating some of the security issues that was raised for general path signalling in PLUS and SPUD  are dealt with.</p>",
+    "topic": "ietf-117",
+    "dtime": 4862000,
+    "ptime": 4862000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Do we need to re-split ART?</p>",
+    "topic": "ietf-117",
+    "dtime": 5186000,
+    "ptime": 5186000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>The idea has been proposed.</p>",
+    "topic": "ietf-117",
+    "dtime": 5201000,
+    "ptime": 5201000
+  },
+  {
+    "author": "Jon Peterson",
+    "text": "<p>PART</p>",
+    "topic": "ietf-117",
+    "dtime": 5239000,
+    "ptime": 5239000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> Splitting should only be done if (a) the two proposed areas really don't have much participant overlap and (b) it's likely to stay that way for a long time.</p>",
+    "topic": "ietf-117",
+    "dtime": 5281000,
+    "ptime": 5281000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>@Johnathin: what were the historic components it was merged from?</p>",
+    "topic": "ietf-117",
+    "dtime": 5292000,
+    "ptime": 5292000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"72\">Hans-Jörg Happel</span> <a href=\"#narrow/stream/43-dispatch/topic/ietf-117/near/78809\">said</a>:</p>\n<blockquote>\n<p>@Johnathin: what were the historic components it was merged from?</p>\n</blockquote>\n<p>Applications and Real-Time-Appplications-and-Infrastructure (RAI)</p>",
+    "topic": "ietf-117",
+    "dtime": 5338000,
+    "ptime": 5338000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"115\">@Carsten Bormann</span> i can relay from chat if you'd like that.  i also didn't understand what you were asking for.</p>",
+    "topic": "ietf-117",
+    "dtime": 5353000,
+    "ptime": 5353000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>tnx Pete</p>",
+    "topic": "ietf-117",
+    "dtime": 5357000,
+    "ptime": 5357000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>RAI originally spun out of Transport</p>",
+    "topic": "ietf-117",
+    "dtime": 5358000,
+    "ptime": 5358000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>@dkg -- I really just wanted to hear things at high bandwidth, sorry this didn't work</p>",
+    "topic": "ietf-117",
+    "dtime": 5449000,
+    "ptime": 5449000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-DISPATCH-20230724-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/dispatch"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-DISPATCH-20230724-1630"
+		}		
+	]
+}

@@ -1,0 +1,567 @@
+
+{
+	"title": "IETF115-RADEXTRA-20221107-1300",
+	"filename": "IETF115-RADEXTRA-20221107-1300",
+	"start": 0,
+	"end": 7115000,
+	"start_datetime": "2022-11-07T13:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Ka5dDhR6ZJA",
+    "start": 0,
+    "end": "7115000"
+  }
+],
+	"messages": [
+  {
+    "author": "Steffen Fries",
+    "text": "<p>Audio is working</p>",
+    "topic": "jabber",
+    "dtime": 46000,
+    "ptime": 46000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I can relay messages from this chat to the room if you find yourself connectionally challenge.</p>",
+    "topic": "jabber",
+    "dtime": 108000,
+    "ptime": 108000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>thx</p>",
+    "topic": "jabber",
+    "dtime": 182000,
+    "ptime": 182000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>I think I finally added radextra stream to my Zulip</p>",
+    "topic": "jabber",
+    "dtime": 1348000,
+    "ptime": 1348000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>seems to have worked:-)</p>",
+    "topic": "jabber",
+    "dtime": 1403000,
+    "ptime": 1403000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>(I work at Painless Security, and we work with Internet2 to run Eduroam US) I have my hand up in the radextra room.  Is that the right way to get in line at the mic?</p>",
+    "topic": "jabber",
+    "dtime": 1606000,
+    "ptime": 1606000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>yep you're in the queue nicely</p>",
+    "topic": "jabber",
+    "dtime": 1630000,
+    "ptime": 1630000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>yes<br>\nyou are on the list in front of me</p>",
+    "topic": "jabber",
+    "dtime": 1635000,
+    "ptime": 1635000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>thank you!</p>",
+    "topic": "jabber",
+    "dtime": 1645000,
+    "ptime": 1645000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>jabber room for radextra is extremely silent, why?</p>",
+    "topic": "jabber",
+    "dtime": 3002000,
+    "ptime": 3002000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>not sure why but it's fine to chat if people want</p>",
+    "topic": "jabber",
+    "dtime": 3079000,
+    "ptime": 3079000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>Everyone is fascinated by the presentations.  Or depressed by them?</p>",
+    "topic": "jabber",
+    "dtime": 3204000,
+    "ptime": 3204000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>google is already doing that without snooping radius</p>",
+    "topic": "jabber",
+    "dtime": 3216000,
+    "ptime": 3216000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>\"track my devices\".  No one thought that 1984 would be real.  And that the people being monitored would actively pay for it out of their own funds</p>",
+    "topic": "jabber",
+    "dtime": 3277000,
+    "ptime": 3277000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>this \"older protocol with known security issues is deployed\" and \"new protocol that is better is not\" seems somewhat IKEv1 and IKEv2 to me. But instead of writing a die-die-die draft for RADIUS the desire is to fix it.</p>",
+    "topic": "jabber",
+    "dtime": 3328000,
+    "ptime": 3328000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>the issue with IPSec is that the application and network security are separated.  Using TLS means that the application is aware of it's own security.  And that the admin of the application doesn't need to coordinate with a \"network security\" group in order to deploy application security.</p>",
+    "topic": "jabber",
+    "dtime": 3409000,
+    "ptime": 3409000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>i.e. TLS is solving a business / admin / political problem.  Not a technical one</p>",
+    "topic": "jabber",
+    "dtime": 3438000,
+    "ptime": 3438000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>What is the support for TLS-EAP in legacy radius devices?</p>",
+    "topic": "jabber",
+    "dtime": 3492000,
+    "ptime": 3492000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>legacy RADIUS devices do UDP transport only.  They don't use TLS.  And that's probably the bulk of the current RADIUS market</p>",
+    "topic": "jabber",
+    "dtime": 3531000,
+    "ptime": 3531000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>but the devices generally don't talk to the Internet.  They talk to a local RADIUS server / proxy, which is fully TLS capable.</p>",
+    "topic": "jabber",
+    "dtime": 3555000,
+    "ptime": 3555000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>Alan, did you think about moving to Quic?</p>",
+    "topic": "jabber",
+    "dtime": 3589000,
+    "ptime": 3589000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>It's a lot of work. but if people are willing to do the work....</p>",
+    "topic": "jabber",
+    "dtime": 3625000,
+    "ptime": 3625000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>DTLS does not have head of line blocking</p>",
+    "topic": "jabber",
+    "dtime": 3630000,
+    "ptime": 3630000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>curious what the superpowers it would provide?</p>",
+    "topic": "jabber",
+    "dtime": 3651000,
+    "ptime": 3651000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>It seems like Quic can only work with HTTP?</p>",
+    "topic": "jabber",
+    "dtime": 3657000,
+    "ptime": 3657000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>Quic is largely designed for the needs of HTTP.  I haven't looked at it in detail to see how applicable it is for RADIUS</p>",
+    "topic": "jabber",
+    "dtime": 3694000,
+    "ptime": 3694000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I have a device onboarding protocol that via a QR code interaction performs all the onboarding requiements: Network setup, provisioning of public/private keys etc, etc. I would like to be able to provision public key based WiFi connection credentials  as part of the process. Question being what might get support on the WiFi side...</p>",
+    "topic": "jabber",
+    "dtime": 3709000,
+    "ptime": 3709000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>QUIC seems better applied to RPC (some people claim) which makes it a good <em>fit</em> for HTTP</p>",
+    "topic": "jabber",
+    "dtime": 3722000,
+    "ptime": 3722000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>@PHB, how is that different than DPP?</p>",
+    "topic": "jabber",
+    "dtime": 3817000,
+    "ptime": 3817000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"87\">@Alan DeKok</span> if you get the WG, Quic could be a good extension path</p>",
+    "topic": "jabber",
+    "dtime": 3883000,
+    "ptime": 3883000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>DPP?</p>",
+    "topic": "jabber",
+    "dtime": 3894000,
+    "ptime": 3894000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>Device Provisioning Protocol</p>",
+    "topic": "jabber",
+    "dtime": 3905000,
+    "ptime": 3905000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>DPP does not use AAA</p>",
+    "topic": "jabber",
+    "dtime": 3942000,
+    "ptime": 3942000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>but it does exactly what PHB was saying his protocol does.</p>",
+    "topic": "jabber",
+    "dtime": 3981000,
+    "ptime": 3981000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>What I see in the DPP description suggests that this is an onboarding I have to do for each device to each network.<br>\nThe Mesh idea is completely different. Alice connects her devices to her Mesh. If Alice connects a WiFi network to her Mesh, that automatically causes all her devices with network access permission to be automatically provisioned.</p>\n<p>So if Alice has 20 mobile devices and connects to 50 networks, she goes through 20+50 connection operations, not 20*50 which is what DPP implies.</p>",
+    "topic": "jabber",
+    "dtime": 4152000,
+    "ptime": 4152000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I have yet to find any IoT device with WiFi support that was not designed by a moron. Nest is unable to realize that I might change my WiFi network, that I might have more than one. some of my NEST Protect devices require scaffolding to access.</p>",
+    "topic": "jabber",
+    "dtime": 4282000,
+    "ptime": 4282000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>@PHB, Bluetooth Mesh?</p>",
+    "topic": "jabber",
+    "dtime": 4286000,
+    "ptime": 4286000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>No, mathematical Mesh</p>",
+    "topic": "jabber",
+    "dtime": 4299000,
+    "ptime": 4299000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>This is cryptography, application layer, not link layer.</p>",
+    "topic": "jabber",
+    "dtime": 4319000,
+    "ptime": 4319000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>In a multi-hop RADIUS proxy infrastructure with different transports allowed/used a different hops, I think that It becomes even more important to define something like Status-Realm, to determine how and why requests are dropped or mis-routed by the infrastructure.</p>",
+    "topic": "jabber",
+    "dtime": 4360000,
+    "ptime": 4360000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1736\">@Margaret Cullen</span>  did you want that comment relayed to the room in audio?</p>",
+    "topic": "jabber",
+    "dtime": 4628000,
+    "ptime": 4628000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>No.</p>",
+    "topic": "jabber",
+    "dtime": 4637000,
+    "ptime": 4637000
+  },
+  {
+    "author": "Lionel Morand",
+    "text": "<p>typo in \"consoortiums\" :)</p>",
+    "topic": "jabber",
+    "dtime": 4681000,
+    "ptime": 4681000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>The language in draft-ietf-uta-rfc7525bis may be considered here for TLS 1.2/1.3</p>",
+    "topic": "jabber",
+    "dtime": 4781000,
+    "ptime": 4781000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Mohamed do you want that relayed?</p>",
+    "topic": "jabber",
+    "dtime": 5286000,
+    "ptime": 5286000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>If the goal is FIPS compliant, let's just say \"Define a secure variant of RADIUS that is FIPS compliant\".</p>",
+    "topic": "jabber",
+    "dtime": 5293000,
+    "ptime": 5293000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@PHB: no, thanks. Roman mentioned that BCP right after I made my comment.</p>",
+    "topic": "jabber",
+    "dtime": 5388000,
+    "ptime": 5388000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"413\">@Mohamed Boucadair</span> it says implementations pls use TLS 1.3</p>",
+    "topic": "jabber",
+    "dtime": 5401000,
+    "ptime": 5401000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>@behet: Not exactly. Quoting rfc7525bis:</p>",
+    "topic": "jabber",
+    "dtime": 5551000,
+    "ptime": 5551000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>New application<br>\n      protocols that employ TLS/DTLS for channel or session encryption<br>\n      MUST integrate with both TLS/DTLS versions 1.2 and 1.3;<br>\n      nevertheless, in rare cases where broad interoperability is not a<br>\n      concern, application protocol designers MAY choose to forego TLS<br>\n      1.2.</p>",
+    "topic": "jabber",
+    "dtime": 5553000,
+    "ptime": 5553000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Prefix any statements you want relayed with 'MIC'</p>",
+    "topic": "jabber",
+    "dtime": 5575000,
+    "ptime": 5575000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>@phb: I'm not sure whether it must be related, since the discussion went far from this point, but I think that following recommendations from rfc7525bis draft (in RFC queue currently) is a good thing when selecting which TLS version to choose.</p>",
+    "topic": "jabber",
+    "dtime": 5680000,
+    "ptime": 5680000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>I would be happy to add a new time type to Status-Realm, if we decide we need it.</p>",
+    "topic": "jabber",
+    "dtime": 5744000,
+    "ptime": 5744000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>I like \"deprecating insecure transport\"</p>",
+    "topic": "jabber",
+    "dtime": 5793000,
+    "ptime": 5793000
+  },
+  {
+    "author": "Grant Knott",
+    "text": "<p>Maybe we have text about something like \"Consider updating the date-time format to meet requirements determined by the WG\"</p>",
+    "topic": "jabber",
+    "dtime": 5905000,
+    "ptime": 5905000
+  },
+  {
+    "author": "Mark Donnelly",
+    "text": "<p>And no DNS!</p>",
+    "topic": "jabber",
+    "dtime": 5941000,
+    "ptime": 5941000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>Add support for multi-hop Status-Server functionality and loop detection in multi-hop proxy networks.</p>",
+    "topic": "jabber",
+    "dtime": 6042000,
+    "ptime": 6042000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>thanks</p>",
+    "topic": "jabber",
+    "dtime": 6051000,
+    "ptime": 6051000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>Actually change \"networks\" to \"RADIUS fabrics\"</p>",
+    "topic": "jabber",
+    "dtime": 6065000,
+    "ptime": 6065000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"110\">@Valery Smyslov</span> I think Alan already has it in  the slides, so don't worry</p>",
+    "topic": "jabber",
+    "dtime": 6197000,
+    "ptime": 6197000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>Ok :-)</p>",
+    "topic": "jabber",
+    "dtime": 6226000,
+    "ptime": 6226000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Why is this BOF different from all the other BOFs?</p>",
+    "topic": "jabber",
+    "dtime": 6351000,
+    "ptime": 6351000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>How do we hum from home?</p>",
+    "topic": "jabber",
+    "dtime": 6368000,
+    "ptime": 6368000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>There is a humm tool</p>",
+    "topic": "jabber",
+    "dtime": 6385000,
+    "ptime": 6385000
+  },
+  {
+    "author": "Grant Knott",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1736\">@Margaret Cullen</span> maybe we need a new humming RFC for that</p>",
+    "topic": "jabber",
+    "dtime": 6403000,
+    "ptime": 6403000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Is the humm appearing Margaret?</p>",
+    "topic": "jabber",
+    "dtime": 6427000,
+    "ptime": 6427000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>Yes, thanks.  I hadn't seen that before.</p>",
+    "topic": "jabber",
+    "dtime": 6447000,
+    "ptime": 6447000
+  },
+  {
+    "author": "Vadim Cargatser",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "jabber",
+    "dtime": 6511000,
+    "ptime": 6511000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>yep, happy to review drafts</p>",
+    "topic": "jabber",
+    "dtime": 6526000,
+    "ptime": 6526000
+  },
+  {
+    "author": "Arran Cudbard-Bell",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 6532000,
+    "ptime": 6532000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>Yes</p>",
+    "topic": "jabber",
+    "dtime": 6533000,
+    "ptime": 6533000
+  },
+  {
+    "author": "Wolfgang Beck",
+    "text": "<p>yes</p>",
+    "topic": "jabber",
+    "dtime": 6536000,
+    "ptime": 6536000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "jabber",
+    "dtime": 6555000,
+    "ptime": 6555000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>Yes</p>",
+    "topic": "jabber",
+    "dtime": 6562000,
+    "ptime": 6562000
+  },
+  {
+    "author": "Margaret Cullen",
+    "text": "<p>(to edit)</p>",
+    "topic": "jabber",
+    "dtime": 6568000,
+    "ptime": 6568000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>yes</p>",
+    "topic": "jabber",
+    "dtime": 6568000,
+    "ptime": 6568000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-RADEXTRA-20221107-1300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/radextra"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-RADEXTRA-20221107-1300"
+		}		
+	]
+}

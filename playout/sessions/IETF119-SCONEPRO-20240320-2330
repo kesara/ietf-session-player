@@ -1,0 +1,2730 @@
+
+{
+	"title": "IETF119-SCONEPRO-20240320-2330",
+	"filename": "IETF119-SCONEPRO-20240320-2330",
+	"start": 0,
+	"end": 7052000,
+	"start_datetime": "2024-03-20T23:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "8Qb_vdvH-tI",
+    "start": 0,
+    "end": "7052000"
+  }
+],
+	"messages": [
+  {
+    "author": "Andrew Campling",
+    "text": "<p>You’re a little quiet, perhaps lean in to the mic</p>",
+    "topic": "ietf-119",
+    "dtime": 223000,
+    "ptime": 223000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Chairs could still be a touch louder IMO - some words still quite soft even in the room. (wake up I guess) ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 277000,
+    "ptime": 277000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Just FYI, it's good for people to watch the notes, especially for a BOF with 55 minutes of discussion on the agenda. Please make sure the notes reflect what YOU said, at a minimum ...</p>",
+    "topic": "ietf-119",
+    "dtime": 326000,
+    "ptime": 326000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>ack - we will try to be louder with the chair mic</p>",
+    "topic": "ietf-119",
+    "dtime": 353000,
+    "ptime": 353000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I assume the same incentives drive LEO satellite operators, but I don't data on what they do here.  Does anyone have data on that?</p>",
+    "topic": "ietf-119",
+    "dtime": 446000,
+    "ptime": 446000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>A major recent LEO deployment does not currently shape, but they have been open with saying they're considering it.</p>",
+    "topic": "ietf-119",
+    "dtime": 495000,
+    "ptime": 495000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Thanks, @Matt</p>",
+    "topic": "ietf-119",
+    "dtime": 518000,
+    "ptime": 518000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>I am skeptical of the claim of some big bandwidth shortage. There's ever more licensed spectrum being deployed and in any case in countries like the US, 70-90% of mobile bits go over WiFi (unlicensed).</p>",
+    "topic": "ietf-119",
+    "dtime": 778000,
+    "ptime": 778000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>the existence of actual bandwidth shortage is less important than the deployment of policing due to perceived bandwidth shortage, though...</p>",
+    "topic": "ietf-119",
+    "dtime": 826000,
+    "ptime": 826000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Jason there's definitely a real problem with operators getting their CapEx curves under control due to the immense growth in video relative to the spectrum available.</p>\n<p>That said, like Brian says, not all operators due this just because of spectrum shortage, but for business reasons for a given subscriber.</p>",
+    "topic": "ietf-119",
+    "dtime": 856000,
+    "ptime": 856000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Fair enough. Perception is not reality, Brian.</p>",
+    "topic": "ietf-119",
+    "dtime": 863000,
+    "ptime": 863000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Jason: Traffic shaping / policing in very prevalent in US mobile networks.</p>",
+    "topic": "ietf-119",
+    "dtime": 871000,
+    "ptime": 871000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>But it does drive purchasing decisions. :)</p>",
+    "topic": "ietf-119",
+    "dtime": 879000,
+    "ptime": 879000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>I definitely am aware of the US prevalence of rate shaping in mobile.</p>",
+    "topic": "ietf-119",
+    "dtime": 897000,
+    "ptime": 897000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>In the US, the upcoming FCC net neutrality rules (title-II) may bar the practice of rate shaping video or any other application or class of application.</p>",
+    "topic": "ietf-119",
+    "dtime": 901000,
+    "ptime": 901000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>And the EU's 2015 regulation makes it rare in Europe and the UK.</p>",
+    "topic": "ietf-119",
+    "dtime": 938000,
+    "ptime": 938000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Policing the police's ^^</p>",
+    "topic": "ietf-119",
+    "dtime": 940000,
+    "ptime": 940000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@matt if MNOs have trouble building capacity, they can always slow down subscriber additions and they can also just shape on a per-user basis rather than per-application.</p>",
+    "topic": "ietf-119",
+    "dtime": 959000,
+    "ptime": 959000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"slow down subscriber additions\"?</p>",
+    "topic": "ietf-119",
+    "dtime": 980000,
+    "ptime": 980000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Video is a more obvious target to shape, because it has optionality in the application pattern, i.e. ABR</p>",
+    "topic": "ietf-119",
+    "dtime": 987000,
+    "ptime": 987000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Look at us, ruining everything with encryption, once again</p>",
+    "topic": "ietf-119",
+    "dtime": 1001000,
+    "ptime": 1001000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>It also is by far the majority of the bits flowing through the network.</p>",
+    "topic": "ietf-119",
+    "dtime": 1006000,
+    "ptime": 1006000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Shaping/policing all types of traffic is much more noticeable and brutal on user experience, and you can tell when it happens.</p>",
+    "topic": "ietf-119",
+    "dtime": 1052000,
+    "ptime": 1052000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>actual utilization of a mobile network is only probabilistically related to subscriber load</p>",
+    "topic": "ietf-119",
+    "dtime": 1053000,
+    "ptime": 1053000
+  },
+  {
+    "author": "Dan Druta",
+    "text": "<p>The shaping is not done per application. Is for ABR only irrespective of the app</p>",
+    "topic": "ietf-119",
+    "dtime": 1056000,
+    "ptime": 1056000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Im guessing the peak throughput of the watchers is variable to? So operators need to build to peak capacity requirements, which might have disproportionate costs</p>",
+    "topic": "ietf-119",
+    "dtime": 1089000,
+    "ptime": 1089000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I guess I don't understand why video is uniquely amenable to rate control</p>",
+    "topic": "ietf-119",
+    "dtime": 1105000,
+    "ptime": 1105000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>It's the ABR</p>",
+    "topic": "ietf-119",
+    "dtime": 1118000,
+    "ptime": 1118000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>but downloads are also elastic to the offered rate, no?</p>",
+    "topic": "ietf-119",
+    "dtime": 1139000,
+    "ptime": 1139000
+  },
+  {
+    "author": "Dan Druta",
+    "text": "<p>It’s not generic video. Adaptive video</p>",
+    "topic": "ietf-119",
+    "dtime": 1157000,
+    "ptime": 1157000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>if video has limited bandwidth it will reduce the resolution, which is a property that doesn't apply to things like software updates</p>",
+    "topic": "ietf-119",
+    "dtime": 1162000,
+    "ptime": 1162000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>the update will just take longer, which is just a differently bad QoE</p>",
+    "topic": "ietf-119",
+    "dtime": 1186000,
+    "ptime": 1186000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Martin it's because the video is being produced at multiple resolutions, which maps to multiple bits rates.  If you police to below a specific bit rate, it adapts by selecting the lower resolution.  It still gets the full content, but at a lower resolution.</p>",
+    "topic": "ietf-119",
+    "dtime": 1196000,
+    "ptime": 1196000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<ul>\n<li>1 to Martin - it's just different degradation of service</li>\n</ul>",
+    "topic": "ietf-119",
+    "dtime": 1230000,
+    "ptime": 1230000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Video also needs to be \"realtime\". If you get less than 1 second/second you can't watch the video without stalls. Very few people care about variation in their download speed.</p>",
+    "topic": "ietf-119",
+    "dtime": 1233000,
+    "ptime": 1233000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Downloads are shaped many places too. The difference is that in the download case, the client does not need to try and guess the the rate.</p>",
+    "topic": "ietf-119",
+    "dtime": 1235000,
+    "ptime": 1235000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Matt's slides will show video quality ladder (like, now). Video players can pick another rung on the ladder.</p>",
+    "topic": "ietf-119",
+    "dtime": 1241000,
+    "ptime": 1241000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>for videos - it's quality, for other type of traffic it can be something else, like latency</p>",
+    "topic": "ietf-119",
+    "dtime": 1253000,
+    "ptime": 1253000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>It's also the case that video applications track the quality of playbacks a LOT closer than software vendors track download delivery speeds. They're both tracked, but video quality is substantially more impactful to user experience.</p>",
+    "topic": "ietf-119",
+    "dtime": 1284000,
+    "ptime": 1284000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Wasn't Brian's presentation first on the agenda?</p>",
+    "topic": "ietf-119",
+    "dtime": 1293000,
+    "ptime": 1293000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>I guess the reason videos are targeted is that it's majority of the traffic</p>",
+    "topic": "ietf-119",
+    "dtime": 1294000,
+    "ptime": 1294000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>@mike: was also confused about that but honestly this is a better order.</p>",
+    "topic": "ietf-119",
+    "dtime": 1322000,
+    "ptime": 1322000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>Video is the worst of all worlds: heavy on bandwidth consumption AND latency sensitive.</p>",
+    "topic": "ietf-119",
+    "dtime": 1330000,
+    "ptime": 1330000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>the point is that the case for DPI is that clamping video is uniquely effective</p>",
+    "topic": "ietf-119",
+    "dtime": 1337000,
+    "ptime": 1337000
+  },
+  {
+    "author": "Dan Druta",
+    "text": "<p>For background traffic like software updates if the network would know it would put it on a different radio scheduler</p>",
+    "topic": "ietf-119",
+    "dtime": 1338000,
+    "ptime": 1338000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Re \"slow subscriber additions\" - I'm being a bit cute by saying if there is not enough supply (bandwidth) then reduce or slow growth of demand (users) until capacity is built.</p>",
+    "topic": "ietf-119",
+    "dtime": 1349000,
+    "ptime": 1349000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"52\">@Martin Duke</span> what do you mean DPI here? Everything is over QUIC/TLS</p>",
+    "topic": "ietf-119",
+    "dtime": 1359000,
+    "ptime": 1359000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Are you talking about SNI sniffing on the handshake and hoping it's accurate/not pooled?</p>",
+    "topic": "ietf-119",
+    "dtime": 1380000,
+    "ptime": 1380000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Marcus's talk was about sniffing SNI and doing other heuristics to identify ABR video</p>",
+    "topic": "ietf-119",
+    "dtime": 1391000,
+    "ptime": 1391000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>How is this not just a way for a certain type of network technology to under-invest in capacity? Why should the IETF help enable that?</p>",
+    "topic": "ietf-119",
+    "dtime": 1401000,
+    "ptime": 1401000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>interesting to hear that we will get better performance with a adding a proxy. This gets us back to PEPs (RFC3135)</p>",
+    "topic": "ietf-119",
+    "dtime": 1412000,
+    "ptime": 1412000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Video is already 70-80% of overall internet traffic. This percentage is only going to increase. Even someone who may not be able to read, can infact consume video.</p>",
+    "topic": "ietf-119",
+    "dtime": 1415000,
+    "ptime": 1415000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<blockquote>\n<p>other heuristics</p>\n</blockquote>\n<p>boo, just use anycast and work with the ISPs</p>",
+    "topic": "ietf-119",
+    "dtime": 1429000,
+    "ptime": 1429000
+  },
+  {
+    "author": "Dan Druta",
+    "text": "<p>It’s not a problem of suply. It’s differentiation of offers for consumers</p>",
+    "topic": "ietf-119",
+    "dtime": 1447000,
+    "ptime": 1447000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Mohamed, I <em>think</em> the proxy is just for the experiment/PoC setup.</p>",
+    "topic": "ietf-119",
+    "dtime": 1462000,
+    "ptime": 1462000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>It's a way to ensure a particular box is on-path.</p>",
+    "topic": "ietf-119",
+    "dtime": 1473000,
+    "ptime": 1473000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@mohamed interesting thought. Seems better to focus not on throttling but to do more creative cache placement &amp; discovery</p>",
+    "topic": "ietf-119",
+    "dtime": 1483000,
+    "ptime": 1483000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>\"work with the ISPs\" does not scale for small media providers</p>",
+    "topic": "ietf-119",
+    "dtime": 1522000,
+    "ptime": 1522000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Correct. Masque proxy was a way of getting results quickly to show that this is possible end-to-end. In no way this restricts the solution space.</p>",
+    "topic": "ietf-119",
+    "dtime": 1523000,
+    "ptime": 1523000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114063\">said</a>:</p>\n<blockquote>\n<p>Re \"slow subscriber additions\" - I'm being a bit cute by saying if there is not enough supply (bandwidth) then reduce or slow growth of demand (users) until capacity is built.</p>\n</blockquote>\n<p>I suppose that bad user experience will slow NET subscriber additions ...</p>",
+    "topic": "ietf-119",
+    "dtime": 1527000,
+    "ptime": 1527000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>the experiment can be run by locally configuring a bitrate</p>",
+    "topic": "ietf-119",
+    "dtime": 1530000,
+    "ptime": 1530000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>small media providers probably won't get throttled</p>",
+    "topic": "ietf-119",
+    "dtime": 1544000,
+    "ptime": 1544000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Why is video traffic any different from P2P traffic in 2007-2009? <a href=\"https://www.rfc-editor.org/rfc/rfc5594.html\">https://www.rfc-editor.org/rfc/rfc5594.html</a></p>",
+    "topic": "ietf-119",
+    "dtime": 1588000,
+    "ptime": 1588000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>After that P2P issue the IETF started LEDBAT, CDNI, and other WGs to address that more constructively than endorse using DPI or other methods to rate shape P2P traffic.</p>",
+    "topic": "ietf-119",
+    "dtime": 1725000,
+    "ptime": 1725000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>@jason: good point, that's what's happening here... the question is \"should we start a WG to address this particular problem more constructively that \"use DPI\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1781000,
+    "ptime": 1781000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>especially because DPI was kinda still an an option in 2009, and it isn't today</p>",
+    "topic": "ietf-119",
+    "dtime": 1804000,
+    "ptime": 1804000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Fair enough Brian. Just don't wanna see rate shaping of applications become normalized - I think it is a bad practice.</p>",
+    "topic": "ietf-119",
+    "dtime": 1825000,
+    "ptime": 1825000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I'm not sure that is binary Brian as supplying the bitrate won't prevent enforcing the shaping for these networks</p>",
+    "topic": "ietf-119",
+    "dtime": 1830000,
+    "ptime": 1830000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>because of the handset trust</p>",
+    "topic": "ietf-119",
+    "dtime": 1841000,
+    "ptime": 1841000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>supplying the bitrate only works because the network actually <em>can</em> enforce the shaping, but now i'm giving spoilers for my slides :)</p>",
+    "topic": "ietf-119",
+    "dtime": 1871000,
+    "ptime": 1871000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>ha ha ha</p>",
+    "topic": "ietf-119",
+    "dtime": 1883000,
+    "ptime": 1883000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>@jason: that's a good point that should come up again during discussion</p>",
+    "topic": "ietf-119",
+    "dtime": 1909000,
+    "ptime": 1909000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Another approach may be that video streamers look at destination ASN (e.g. MNO X) and then shape the traffic they send to clients on that network.</p>",
+    "topic": "ietf-119",
+    "dtime": 2009000,
+    "ptime": 2009000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p><a href=\"https://glasgowsprout.com/traditional-scottish-potato-scones/\">https://glasgowsprout.com/traditional-scottish-potato-scones/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2010000,
+    "ptime": 2010000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>if framed as a client essentially requesting a fixed-rate circuit, this sounds OK to me</p>",
+    "topic": "ietf-119",
+    "dtime": 2031000,
+    "ptime": 2031000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>it would be better than the operator trying to identify video and policing accordingly</p>",
+    "topic": "ietf-119",
+    "dtime": 2064000,
+    "ptime": 2064000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>...if y'all keep putting recipes in the chat i'm going to miss witarea...</p>",
+    "topic": "ietf-119",
+    "dtime": 2069000,
+    "ptime": 2069000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@Jason that would not work as this depends on the subscription</p>",
+    "topic": "ietf-119",
+    "dtime": 2087000,
+    "ptime": 2087000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114134\">said</a>:</p>\n<blockquote>\n<p>Fair enough Brian. Just don't wanna see rate shaping of applications become normalized - I think it is a bad practice.</p>\n</blockquote>\n<p>In discussions we've had, we've been saying that we want to make traffic shaping unnecessary, but we recognize that if receivers don't adapt requested video rates themselves, operators will be doing either policing or shaping, because they don't have any other levers. Does that make sense?</p>",
+    "topic": "ietf-119",
+    "dtime": 2093000,
+    "ptime": 2093000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@brian, whatarea?</p>",
+    "topic": "ietf-119",
+    "dtime": 2098000,
+    "ptime": 2098000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>And these networks could also implement L4S so that this traffic would not affect latency-senstive traffic.</p>",
+    "topic": "ietf-119",
+    "dtime": 2107000,
+    "ptime": 2107000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>the client should be free to have their video go in the general purpose lane, and I think this proposal could enable that</p>",
+    "topic": "ietf-119",
+    "dtime": 2108000,
+    "ptime": 2108000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>?</p>",
+    "topic": "ietf-119",
+    "dtime": 2108000,
+    "ptime": 2108000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>:D</p>",
+    "topic": "ietf-119",
+    "dtime": 2111000,
+    "ptime": 2111000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>@martinduke: s/fixed-rate circuit/max-rate circuit (because there might be other dynamic bottlenecks on path) but yes.</p>",
+    "topic": "ietf-119",
+    "dtime": 2154000,
+    "ptime": 2154000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Jason I don't understand--are you assuming that the video traffic isn't latency sensitive?</p>",
+    "topic": "ietf-119",
+    "dtime": 2159000,
+    "ptime": 2159000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114160\">said</a>:</p>\n<blockquote>\n<p>And these networks could also implement L4S so that this traffic would not affect latency-senstive traffic.</p>\n</blockquote>\n<p>I think we see L4S as a fine thing to do, and orthogonal to SCONEPRO.</p>",
+    "topic": "ietf-119",
+    "dtime": 2169000,
+    "ptime": 2169000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>ABR techniques are already client driven. Server doesn't have much leeway to do anything itself. It's common for a manifest to be served from one origin and the media to be offloaded to other CDNs</p>",
+    "topic": "ietf-119",
+    "dtime": 2169000,
+    "ptime": 2169000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@spencer that sentiment is very different from when rate shaping was done on P2P traffic, which was pitched as essentially the end of the world. ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 2174000,
+    "ptime": 2174000
+  },
+  {
+    "author": "Dan Druta",
+    "text": "<p>@martin operators cannot identify ABR video accurately</p>",
+    "topic": "ietf-119",
+    "dtime": 2191000,
+    "ptime": 2191000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@ted video is not as latency sensitive as Webex/Teams/Zoom/games</p>",
+    "topic": "ietf-119",
+    "dtime": 2196000,
+    "ptime": 2196000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>I wish the IETF could acheive only 36% annoying</p>",
+    "topic": "ietf-119",
+    "dtime": 2207000,
+    "ptime": 2207000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Red is blue plus orange?</p>",
+    "topic": "ietf-119",
+    "dtime": 2238000,
+    "ptime": 2238000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Jason You can have multi-resolution video in real time video (think the movement from postage stamp to main stage in a videocall).</p>",
+    "topic": "ietf-119",
+    "dtime": 2260000,
+    "ptime": 2260000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The histogram is overlapping, rather than side-by-side, which is not great.</p>",
+    "topic": "ietf-119",
+    "dtime": 2261000,
+    "ptime": 2261000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I think the colors got mixed up.  In an early draft red+blue = purple</p>",
+    "topic": "ietf-119",
+    "dtime": 2298000,
+    "ptime": 2298000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Yeah Red is overlapping region</p>",
+    "topic": "ietf-119",
+    "dtime": 2302000,
+    "ptime": 2302000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>flatten the curve!</p>",
+    "topic": "ietf-119",
+    "dtime": 2312000,
+    "ptime": 2312000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Simulcast and SVC are definitely used a lot in WebRTC real-time video</p>",
+    "topic": "ietf-119",
+    "dtime": 2318000,
+    "ptime": 2318000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"844\">Jason Livingood</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114170\">said</a>:</p>\n<blockquote>\n<p>@spencer that sentiment is very different from when rate shaping was done on P2P traffic, which was pitched as essentially the end of the world. ;-)</p>\n</blockquote>\n<p>Yes. We said that in <a href=\"https://datatracker.ietf.org/doc/html/rfc9317#name-peer-to-peer-applications\">https://datatracker.ietf.org/doc/html/rfc9317#name-peer-to-peer-applications</a>.</p>",
+    "topic": "ietf-119",
+    "dtime": 2342000,
+    "ptime": 2342000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>wait, people wait six seconds for a stall to end without clicking away?</p>",
+    "topic": "ietf-119",
+    "dtime": 2376000,
+    "ptime": 2376000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Brian: I think that this was machine driven</p>",
+    "topic": "ietf-119",
+    "dtime": 2401000,
+    "ptime": 2401000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>ah, that makes sense</p>",
+    "topic": "ietf-119",
+    "dtime": 2428000,
+    "ptime": 2428000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Is this total over a video, or single bursts?</p>",
+    "topic": "ietf-119",
+    "dtime": 2432000,
+    "ptime": 2432000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>FWIW, many IETFers work for companies that have made filings in the FCC NN proceeding saying essentially that networks should not throttle specific apps, classes of apps, or protocols.</p>",
+    "topic": "ietf-119",
+    "dtime": 2438000,
+    "ptime": 2438000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>we can teach silicon to be patient as well as nervous</p>",
+    "topic": "ietf-119",
+    "dtime": 2438000,
+    "ptime": 2438000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>So 5 out of 200 seconds.</p>",
+    "topic": "ietf-119",
+    "dtime": 2472000,
+    "ptime": 2472000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>The data presented here used a fixed playlist and a  Facebook app where inter-swipe interval was automated</p>",
+    "topic": "ietf-119",
+    "dtime": 2485000,
+    "ptime": 2485000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Mike: Correct</p>",
+    "topic": "ietf-119",
+    "dtime": 2523000,
+    "ptime": 2523000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Abhishek, I guess you did the tests with non-GBR sessions. Were the same done GBR is used?</p>",
+    "topic": "ietf-119",
+    "dtime": 2541000,
+    "ptime": 2541000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Yes non-GBR sessions because this is how videos are delivered on real mobile networks</p>",
+    "topic": "ietf-119",
+    "dtime": 2582000,
+    "ptime": 2582000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>non-GBR default bearer</p>",
+    "topic": "ietf-119",
+    "dtime": 2605000,
+    "ptime": 2605000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>Is it just me or are the sound levels from the room mics quite low?</p>",
+    "topic": "ietf-119",
+    "dtime": 2648000,
+    "ptime": 2648000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>People need to eat the mikes</p>",
+    "topic": "ietf-119",
+    "dtime": 2678000,
+    "ptime": 2678000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>fwiw mike's levels are fine remote</p>",
+    "topic": "ietf-119",
+    "dtime": 2688000,
+    "ptime": 2688000
+  },
+  {
+    "author": "Nigel Hickson",
+    "text": "<p>Yes agree Andrew</p>",
+    "topic": "ietf-119",
+    "dtime": 2691000,
+    "ptime": 2691000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>maybe my gain's way up</p>",
+    "topic": "ietf-119",
+    "dtime": 2705000,
+    "ptime": 2705000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Netflix seems to be taking a different approach: <a href=\"https://sammy.brucespang.com/\">https://sammy.brucespang.com/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2710000,
+    "ptime": 2710000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>2-3 being equal to 1 is not something I expected to be revealed today.</p>",
+    "topic": "ietf-119",
+    "dtime": 2796000,
+    "ptime": 2796000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>(speaking of gain, I apologize in advance for my levels, will be whispering into the mic to let the rest of the house sleep)</p>",
+    "topic": "ietf-119",
+    "dtime": 2797000,
+    "ptime": 2797000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Is this whole thing not just a huge layering violation?</p>",
+    "topic": "ietf-119",
+    "dtime": 2820000,
+    "ptime": 2820000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Did the experiment try streaming over TLS end-to-end</p>",
+    "topic": "ietf-119",
+    "dtime": 2826000,
+    "ptime": 2826000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>3 = 1, within engineering tolerances ... and that's why we're the iEtf ...</p>",
+    "topic": "ietf-119",
+    "dtime": 2828000,
+    "ptime": 2828000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Clearly Jana is an astrophysicist</p>",
+    "topic": "ietf-119",
+    "dtime": 2829000,
+    "ptime": 2829000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Plenty loud.</p>",
+    "topic": "ietf-119",
+    "dtime": 2870000,
+    "ptime": 2870000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Levels are perfect for remote.</p>",
+    "topic": "ietf-119",
+    "dtime": 2873000,
+    "ptime": 2873000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"453\">Jonathan Hoyland</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114236\">said</a>:</p>\n<blockquote>\n<p>Is this whole thing not just a huge layering violation?</p>\n</blockquote>\n<p>It's not intended to be. That's a great question for the mike.</p>",
+    "topic": "ietf-119",
+    "dtime": 2875000,
+    "ptime": 2875000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Brian, PLUS enthusiast</p>",
+    "topic": "ietf-119",
+    "dtime": 2879000,
+    "ptime": 2879000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>The \"ask\" button is just to the left of the \"raise hand\" button. :)</p>",
+    "topic": "ietf-119",
+    "dtime": 2910000,
+    "ptime": 2910000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>Headed to Brian's for scones</p>",
+    "topic": "ietf-119",
+    "dtime": 2917000,
+    "ptime": 2917000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@Jonathan, there are already many bitrate limits that are supplied to the handset during the establishment of the network session. If a missing bitrate is needed, that would in theory supplied there as well. But that is the busness of 3GPP</p>",
+    "topic": "ietf-119",
+    "dtime": 2938000,
+    "ptime": 2938000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Make me feel old.</p>",
+    "topic": "ietf-119",
+    "dtime": 2956000,
+    "ptime": 2956000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>God it's been 8 years?</p>",
+    "topic": "ietf-119",
+    "dtime": 2988000,
+    "ptime": 2988000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>\"wait, haven't we been here before?\"</p>\n<p><a href=\"https://www.cnet.com/tech/tech-industry/fcc-formally-rules-comcasts-throttling-of-bittorrent-was-illegal/\">https://www.cnet.com/tech/tech-industry/fcc-formally-rules-comcasts-throttling-of-bittorrent-was-illegal/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3010000,
+    "ptime": 3010000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p><a href=\"https://datatracker.ietf.org/wg/spud/about/\">https://datatracker.ietf.org/wg/spud/about/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3016000,
+    "ptime": 3016000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Half of it was pandemic time which doesn’t count</p>",
+    "topic": "ietf-119",
+    "dtime": 3018000,
+    "ptime": 3018000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Session protocol for UDP datagrams</p>",
+    "topic": "ietf-119",
+    "dtime": 3022000,
+    "ptime": 3022000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"29\">David Schinazi</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114259\">said</a>:</p>\n<blockquote>\n<p>God it's been 8 years?</p>\n</blockquote>\n<p>Speaking as the sponsoring AD, it seems like it was yesterday.</p>",
+    "topic": "ietf-119",
+    "dtime": 3029000,
+    "ptime": 3029000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>The facebook experiment says that when the middle box is the one that knows the availalble bandwidth, AND the end system has a secured &amp; authenticated connection to the middle box, the problem can be solved. Aren't those the 2 points that make the problem difficult?</p>",
+    "topic": "ietf-119",
+    "dtime": 3045000,
+    "ptime": 3045000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>Layering violations are where the best work happens</p>",
+    "topic": "ietf-119",
+    "dtime": 3063000,
+    "ptime": 3063000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>It was not obvious to me why in the facebook experiment the middle box had to be an active participant to the session, rather than just control plane.</p>",
+    "topic": "ietf-119",
+    "dtime": 3082000,
+    "ptime": 3082000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Was it there to just enforce you did not exceed the desired send rate?</p>",
+    "topic": "ietf-119",
+    "dtime": 3100000,
+    "ptime": 3100000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Still relevant: <a href=\"https://groups.csail.mit.edu/ana/Publications/PubPDFs/Tussle2002.pdf\">https://groups.csail.mit.edu/ana/Publications/PubPDFs/Tussle2002.pdf</a></p>",
+    "topic": "ietf-119",
+    "dtime": 3145000,
+    "ptime": 3145000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Clark et al, Tussle in Cyberspace</p>",
+    "topic": "ietf-119",
+    "dtime": 3161000,
+    "ptime": 3161000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>+1 Alex. The handset can get directly the info for the PDU Session. Some modifications are needed though. The bitrate is not specific to an application but to all non-GBR ones</p>",
+    "topic": "ietf-119",
+    "dtime": 3180000,
+    "ptime": 3180000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p>Alex, an on-path device has the capability to measure and enforce the bitrate.</p>",
+    "topic": "ietf-119",
+    "dtime": 3186000,
+    "ptime": 3186000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>@Alex having the data path flow through the proxy allows the network to differentiate that traffic and treat it differently (rate limiting, zero-rating, etc)</p>",
+    "topic": "ietf-119",
+    "dtime": 3193000,
+    "ptime": 3193000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Alex: The middle box (mobile packet core network) is where the subscriber policy plan information is available. In how things are done today, this plan information is what triggers different kinds of shaping on different video flows. So the experiment was just demonstrating that instead of taking an hammer approach and shape the video flow on the network, tell the application what the limits are and let the application handle it in a way that does not hurt the user QOE.</p>",
+    "topic": "ietf-119",
+    "dtime": 3280000,
+    "ptime": 3280000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"344\">Alex Chernyakhovsky</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114272\">said</a>:</p>\n<blockquote>\n<p>It was not obvious to me why in the facebook experiment the middle box had to be an active participant to the session, rather than just control plane.</p>\n</blockquote>\n<p>This is only my opinion, but I THINK that what you're looking at is clearer on <a href=\"https://github.com/mjoras/SCONE-PROTOCL/blob/refarch/arch/ref-arch.md\">https://github.com/mjoras/SCONE-PROTOCL/blob/refarch/arch/ref-arch.md</a>, but that was intended to be functional boxes, not actual devices.</p>",
+    "topic": "ietf-119",
+    "dtime": 3284000,
+    "ptime": 3284000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>Right, but how many of those properties are _necessary_ to get the benefit? I don't like unnecessary proxies (yes, I am wearing a MASQUE hat, why do you ask?)</p>",
+    "topic": "ietf-119",
+    "dtime": 3311000,
+    "ptime": 3311000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Surely the place that needs to provide this data is the lowest bandwidth hop, and thus this helps iff that is the masque server?</p>",
+    "topic": "ietf-119",
+    "dtime": 3313000,
+    "ptime": 3313000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@david, does the proxy needs to access the SNI, for example?</p>",
+    "topic": "ietf-119",
+    "dtime": 3333000,
+    "ptime": 3333000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"117\">Spencer Dawkins</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114292\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"344\">Alex Chernyakhovsky</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114272\">said</a>:</p>\n<blockquote>\n<p>It was not obvious to me why in the facebook experiment the middle box had to be an active participant to the session, rather than just control plane.</p>\n</blockquote>\n<p>This is only my opinion, but I THINK that what you're looking at is clearer on <a href=\"https://github.com/mjoras/SCONE-PROTOCL/blob/refarch/arch/ref-arch.md\">https://github.com/mjoras/SCONE-PROTOCL/blob/refarch/arch/ref-arch.md</a>, but that was intended to be functional boxes, not actual devices.</p>\n</blockquote>\n<p>If we move forward with the BOF after this meeting, comments and text are appreciated, of course.</p>",
+    "topic": "ietf-119",
+    "dtime": 3340000,
+    "ptime": 3340000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>why do we need to disclose the app identity, then?</p>",
+    "topic": "ietf-119",
+    "dtime": 3346000,
+    "ptime": 3346000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>That last principle implies the MASQUE proxy would have to police any traffic exceeding the communicated rate.</p>",
+    "topic": "ietf-119",
+    "dtime": 3372000,
+    "ptime": 3372000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I do think it is too early to discuss whether this is PLUS like or not</p>",
+    "topic": "ietf-119",
+    "dtime": 3396000,
+    "ptime": 3396000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Wasn't there a YouTube slide deck on the agenda?</p>",
+    "topic": "ietf-119",
+    "dtime": 3397000,
+    "ptime": 3397000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>or something it talks to, yes</p>",
+    "topic": "ietf-119",
+    "dtime": 3397000,
+    "ptime": 3397000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Matt mentioned that the MASQUE proxy wasn't a requirement, it was just a convenient tool to get a control channel next to your data channel</p>",
+    "topic": "ietf-119",
+    "dtime": 3401000,
+    "ptime": 3401000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Mohamed because the policies operators want to apply are related to applications. So clients have to self-identify flows as video</p>",
+    "topic": "ietf-119",
+    "dtime": 3406000,
+    "ptime": 3406000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>A ls masque client you indicated the target of the connection via a DNS name or IP address. There is no strong association to SNI and MASQUE does not speficiy anything related to SNI inspection of dataflows that are accepted</p>",
+    "topic": "ietf-119",
+    "dtime": 3451000,
+    "ptime": 3451000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>@David yes I get that. s/MASQUE proxy/network control point/</p>",
+    "topic": "ietf-119",
+    "dtime": 3468000,
+    "ptime": 3468000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Unfortunately I have to head to ADD now so will catch up afterwards.</p>",
+    "topic": "ietf-119",
+    "dtime": 3519000,
+    "ptime": 3519000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@Lucas, I was puzzled then how differentiated mentioned by David can be enforced at the proxy. May be I misunderstood his comment</p>",
+    "topic": "ietf-119",
+    "dtime": 3531000,
+    "ptime": 3531000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Removing a bottleneck will always reveal the next weakest link in the chain.</p>",
+    "topic": "ietf-119",
+    "dtime": 3539000,
+    "ptime": 3539000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>yeah not clear how middlebox is authenticated to client in the general case</p>",
+    "topic": "ietf-119",
+    "dtime": 3543000,
+    "ptime": 3543000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>You will still need to do cc to identify any other bottleneck links, but real bottlenecks behave differently to shapers</p>",
+    "topic": "ietf-119",
+    "dtime": 3578000,
+    "ptime": 3578000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>+1 Jonathan</p>",
+    "topic": "ietf-119",
+    "dtime": 3593000,
+    "ptime": 3593000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>At FB: shaping prevents us from coalescing photos and videos on the same connection</p>",
+    "topic": "ietf-119",
+    "dtime": 3593000,
+    "ptime": 3593000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>the architecture here works if the two choices for the sender are \"discover the shaper experimentally\" (i.e., by slamming your bandwidth curve into it, getting penalized for that, and then adapting) or \"discover the shaper explicity\" (via scone)</p>",
+    "topic": "ietf-119",
+    "dtime": 3600000,
+    "ptime": 3600000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>which interferes with prioitizaiton</p>",
+    "topic": "ietf-119",
+    "dtime": 3605000,
+    "ptime": 3605000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>If there is no shaper or the shaper is suboptimal, then the problems mentioned by Markus does not apply anymore.</p>",
+    "topic": "ietf-119",
+    "dtime": 3614000,
+    "ptime": 3614000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>and discovering it experimentally kinda sucks for everyone involved</p>",
+    "topic": "ietf-119",
+    "dtime": 3622000,
+    "ptime": 3622000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>even with bbr</p>",
+    "topic": "ietf-119",
+    "dtime": 3624000,
+    "ptime": 3624000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>meetecho, it is a bit unfortunate that the notices for people joining the queue obscures the buttons that control the slides</p>",
+    "topic": "ietf-119",
+    "dtime": 3639000,
+    "ptime": 3639000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>Re: differentiation, I'm guessing that the packet core \"figures it out\" according to their own thing</p>",
+    "topic": "ietf-119",
+    "dtime": 3682000,
+    "ptime": 3682000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>You have to support discovering the shaper experimentally anyway, because \"the shaper\" may not be a single box, but noisy neighbors/network conditions. And that will still suck.</p>",
+    "topic": "ietf-119",
+    "dtime": 3731000,
+    "ptime": 3731000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>So it's not xor, it's and.</p>",
+    "topic": "ietf-119",
+    "dtime": 3739000,
+    "ptime": 3739000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>To Jana's point: for at transport layer adaptation the rate we tell the CDN server to cap itself too is a MAXIMUM that a cngestion controller like BBR can achieve. So if BBR senses the bottleneck elsewhere, it will not just switch over to the maximum.</p>",
+    "topic": "ietf-119",
+    "dtime": 3744000,
+    "ptime": 3744000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"26\">@Martin Thomson</span> ack, thanks for the feedback, we'll look into that! Notice that you can also advance slides with keyboard arrows, which may help in this case</p>",
+    "topic": "ietf-119",
+    "dtime": 3757000,
+    "ptime": 3757000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Alex it's very very unusual to have multiple shapers empirically</p>",
+    "topic": "ietf-119",
+    "dtime": 3793000,
+    "ptime": 3793000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Actual paths are usually composed of \"normal\" queueing for the access technology and a single shaper/policer.</p>",
+    "topic": "ietf-119",
+    "dtime": 3812000,
+    "ptime": 3812000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>If you restrict to CDN video delivery, sure. But if you're talking about connections that span multiple networks, it's not unlikely you went across multiple shapers.</p>",
+    "topic": "ietf-119",
+    "dtime": 3843000,
+    "ptime": 3843000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>NOTICE: Please keep comments to less than 60 seconds.  Chairs will terminate fillibusters.</p>",
+    "topic": "ietf-119",
+    "dtime": 3858000,
+    "ptime": 3858000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>For Google's CDN we've seen shapers both between clients and our CDN nodes, and between our CDN nodes and upstream cache fill. It sucks.</p>",
+    "topic": "ietf-119",
+    "dtime": 3875000,
+    "ptime": 3875000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>(and no, not the same shaper)</p>",
+    "topic": "ietf-119",
+    "dtime": 3894000,
+    "ptime": 3894000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I would add another question: is the IETF the right place to solve this (assuming there is a problem)</p>",
+    "topic": "ietf-119",
+    "dtime": 3898000,
+    "ptime": 3898000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"344\">@Alex Chernyakhovsky</span> that's what I was assuming was the case</p>",
+    "topic": "ietf-119",
+    "dtime": 3923000,
+    "ptime": 3923000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Mohamed: yes, we unequivocally believe this is an IETF problem and not an SDO like 3GPP, and I will note we hae 3GPP participation.</p>",
+    "topic": "ietf-119",
+    "dtime": 3930000,
+    "ptime": 3930000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>@Lorenzo, I was trying to switch slides at that moment :)</p>",
+    "topic": "ietf-119",
+    "dtime": 3936000,
+    "ptime": 3936000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>do you mean we have a formal request from 3GPP?</p>",
+    "topic": "ietf-119",
+    "dtime": 3956000,
+    "ptime": 3956000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>How does this cope with coalesced connections?</p>",
+    "topic": "ietf-119",
+    "dtime": 3961000,
+    "ptime": 3961000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>[Chairs: Please do not remove someone out of the queue who is actually speaking]</p>",
+    "topic": "ietf-119",
+    "dtime": 3971000,
+    "ptime": 3971000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Mohamed: no more that this is complementary to 3GPP work.</p>",
+    "topic": "ietf-119",
+    "dtime": 3985000,
+    "ptime": 3985000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>\"worked\" \"well\"</p>",
+    "topic": "ietf-119",
+    "dtime": 3993000,
+    "ptime": 3993000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Not sure what does that mean Mat</p>",
+    "topic": "ietf-119",
+    "dtime": 4006000,
+    "ptime": 4006000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Carsten: ACK</p>",
+    "topic": "ietf-119",
+    "dtime": 4010000,
+    "ptime": 4010000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p>Client opt-in is a core principle in the proposed charter.</p>",
+    "topic": "ietf-119",
+    "dtime": 4057000,
+    "ptime": 4057000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Ted makes a nice point w/r/t ECN</p>",
+    "topic": "ietf-119",
+    "dtime": 4122000,
+    "ptime": 4122000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>+1 Ted, who is more awake than I am :)</p>",
+    "topic": "ietf-119",
+    "dtime": 4126000,
+    "ptime": 4126000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I'm curious also as to the intended security properties here. Who can add this signal, who can modify it, how is it enforced, etc.</p>",
+    "topic": "ietf-119",
+    "dtime": 4129000,
+    "ptime": 4129000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Alex or anyone else: do you ever get more than one shaper per box participating in the flow (endpoint, CDN node, etc)?</p>",
+    "topic": "ietf-119",
+    "dtime": 4189000,
+    "ptime": 4189000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>+1 to Ted. ECN works because the network can drop your packets, and they're giving you an opportunity to react to the \"drop\" without having to recover the packet.</p>",
+    "topic": "ietf-119",
+    "dtime": 4202000,
+    "ptime": 4202000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>@jonathan: I'd actually want to see the intended security properties be explicit in the charter for a SCONE WG</p>",
+    "topic": "ietf-119",
+    "dtime": 4203000,
+    "ptime": 4203000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span>  see if the charter helps answer some of thoses questions for you (and agree they are key issues )</p>",
+    "topic": "ietf-119",
+    "dtime": 4210000,
+    "ptime": 4210000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Jonathan Hoyland if you look at the draft charter and requirements documents, the idea is that encryption is done and only the client and the network device are able to communicate.</p>",
+    "topic": "ietf-119",
+    "dtime": 4217000,
+    "ptime": 4217000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>As a straw man</p>",
+    "topic": "ietf-119",
+    "dtime": 4223000,
+    "ptime": 4223000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>This is the same -- a box that can drop/delay your traffic will tell you under what circumstances that will occur.</p>",
+    "topic": "ietf-119",
+    "dtime": 4226000,
+    "ptime": 4226000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>I take the MASQUE based approach as an example for demonstrating the value of network assistance. Different mechanism are definitely worth thinking about.</p>",
+    "topic": "ietf-119",
+    "dtime": 4253000,
+    "ptime": 4253000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"147\">Mike Bishop</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114432\">said</a>:</p>\n<blockquote>\n<p>This is the same -- a box that can drop/delay your traffic will tell you under what circumstances that will occur.</p>\n</blockquote>\n<p>Exactly.</p>",
+    "topic": "ietf-119",
+    "dtime": 4256000,
+    "ptime": 4256000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>+1 Tommy</p>",
+    "topic": "ietf-119",
+    "dtime": 4270000,
+    "ptime": 4270000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>+1 Jana</p>",
+    "topic": "ietf-119",
+    "dtime": 4286000,
+    "ptime": 4286000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I.e. as a straw man, each box has a MASQUE server it connects to</p>",
+    "topic": "ietf-119",
+    "dtime": 4289000,
+    "ptime": 4289000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I think that MASQUE is a poor design for this.  FWIW.</p>",
+    "topic": "ietf-119",
+    "dtime": 4311000,
+    "ptime": 4311000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>suggestion: reference 9419 as a source of principles in the charter</p>",
+    "topic": "ietf-119",
+    "dtime": 4350000,
+    "ptime": 4350000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Agree with Martin.</p>",
+    "topic": "ietf-119",
+    "dtime": 4350000,
+    "ptime": 4350000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I don't think it's bad for a Masque server to have a way to send this signal, but I don't think adding a Masque server is a necessary step to achieve this.</p>",
+    "topic": "ietf-119",
+    "dtime": 4350000,
+    "ptime": 4350000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@jonathan. That makes it much harder for a new entrant, it will tend to favor gatekeepers, so it is worth thinking careful about that design.</p>",
+    "topic": "ietf-119",
+    "dtime": 4357000,
+    "ptime": 4357000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"753\">Jana Iyengar</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114435\">said</a>:</p>\n<blockquote>\n<p>I take the MASQUE based approach as an example for demonstrating the value of network assistance. Different mechanism are definitely worth thinking about.</p>\n</blockquote>\n<p>I can't speak for the Facebook folks, but I understood their direction included \"what can we finish by IETF 119 and show that a solution could exist\".</p>",
+    "topic": "ietf-119",
+    "dtime": 4358000,
+    "ptime": 4358000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>+1 @MT. Though it's fine to use it if it's one you want to build and use, we should build others that are more broadly usable.</p>",
+    "topic": "ietf-119",
+    "dtime": 4374000,
+    "ptime": 4374000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Spencer: +1</p>",
+    "topic": "ietf-119",
+    "dtime": 4379000,
+    "ptime": 4379000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Spencer has the right of it.</p>",
+    "topic": "ietf-119",
+    "dtime": 4380000,
+    "ptime": 4380000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Can someone open an issue on the charter for RFC 9419 reference (Brian?)</p>",
+    "topic": "ietf-119",
+    "dtime": 4381000,
+    "ptime": 4381000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>on it</p>",
+    "topic": "ietf-119",
+    "dtime": 4387000,
+    "ptime": 4387000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>We really should focus on the problem and not the MASQUE solution.</p>",
+    "topic": "ietf-119",
+    "dtime": 4390000,
+    "ptime": 4390000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>What happens in the multi-middlebox case where multiple QUIC connections are being terminated and reestablished?</p>",
+    "topic": "ietf-119",
+    "dtime": 4394000,
+    "ptime": 4394000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>quic connection don't get terminated</p>",
+    "topic": "ietf-119",
+    "dtime": 4423000,
+    "ptime": 4423000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>The existing charter focuses on QUIC.</p>",
+    "topic": "ietf-119",
+    "dtime": 4426000,
+    "ptime": 4426000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>because that would also mean terminating the TLS connection</p>",
+    "topic": "ietf-119",
+    "dtime": 4438000,
+    "ptime": 4438000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"753\">@Jana Iyengar</span> If we are not focused on MASQUE, does that mean that your answer to Q2 is \"maybe not yet\"?</p>",
+    "topic": "ietf-119",
+    "dtime": 4448000,
+    "ptime": 4448000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Mirja, but the CID can rotate and the port can change, so it's a different flow from the network's point of view.</p>",
+    "topic": "ietf-119",
+    "dtime": 4460000,
+    "ptime": 4460000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"811\">@Mirja Kühlewind</span> That's pretty much Cloudflare's main product</p>",
+    "topic": "ietf-119",
+    "dtime": 4464000,
+    "ptime": 4464000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>We don't believe it 's approriate to have this information in the open since it can be a proxy for sensitive information, i.e. subscriber levels.</p>",
+    "topic": "ietf-119",
+    "dtime": 4503000,
+    "ptime": 4503000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>you have to identify the flow somehow; in case of masque it easy because the client opens the tunnel and routs the traffic explicitly there</p>",
+    "topic": "ietf-119",
+    "dtime": 4512000,
+    "ptime": 4512000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>You also need to discover the network box (masque server or otherwise) that you need to talk to</p>",
+    "topic": "ietf-119",
+    "dtime": 4617000,
+    "ptime": 4617000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@mirja  how would a random client on a random n/w know where to find that masque server/proxy?</p>",
+    "topic": "ietf-119",
+    "dtime": 4618000,
+    "ptime": 4618000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>TBD</p>",
+    "topic": "ietf-119",
+    "dtime": 4632000,
+    "ptime": 4632000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>if the answer is TBD doesn't that imply the answer to Q2 on the slide is \"no\"?</p>",
+    "topic": "ietf-119",
+    "dtime": 4660000,
+    "ptime": 4660000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Stephen right now you'd do it with an anycast address, configured into the client or discovered via DNS, but there may be better options.</p>",
+    "topic": "ietf-119",
+    "dtime": 4667000,
+    "ptime": 4667000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>@meetecho (or whoever is in charge of such things) The volume of the floor mics is very low in the room.</p>",
+    "topic": "ietf-119",
+    "dtime": 4668000,
+    "ptime": 4668000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>We don't believe so no. We think that's not the most pressing challenge and hence we didn't focus on it for the trial/POC.</p>",
+    "topic": "ietf-119",
+    "dtime": 4687000,
+    "ptime": 4687000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>I think it's poor mic technique</p>",
+    "topic": "ietf-119",
+    "dtime": 4704000,
+    "ptime": 4704000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>in case of a mobile network, there is a bunch of signalling that could be used to provide the proxy information but I think we need also to have more generic approaches as Tommy indicated</p>",
+    "topic": "ietf-119",
+    "dtime": 4705000,
+    "ptime": 4705000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>People need to kiss the mic</p>",
+    "topic": "ietf-119",
+    "dtime": 4711000,
+    "ptime": 4711000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Stephen, we should not have the bar for \"understand the problem\" be \"we have a complete solution ready to go\"</p>",
+    "topic": "ietf-119",
+    "dtime": 4720000,
+    "ptime": 4720000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"139\">@Pete Resnick</span> I'll notify the AV team</p>",
+    "topic": "ietf-119",
+    "dtime": 4724000,
+    "ptime": 4724000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Pete: No, what I'm saying is that we should consider other solutions as well. I did say at the mic that I'm not convinced that we all agree on the problems down this path... but I feel good about out ability to find and solve the important ones.</p>",
+    "topic": "ietf-119",
+    "dtime": 4728000,
+    "ptime": 4728000
+  },
+  {
+    "author": "Jari Arkko",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114465\">said</a>:</p>\n<blockquote>\n<p>Can someone open an issue on the charter for RFC 9419 reference (Brian?)</p>\n</blockquote>\n<p>Thanks! This is needed. 8558, 9419, and Brian's excellent slide on the highly successful habits do all apply to this work.</p>",
+    "topic": "ietf-119",
+    "dtime": 4747000,
+    "ptime": 4747000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>+1 Matt</p>",
+    "topic": "ietf-119",
+    "dtime": 4775000,
+    "ptime": 4775000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p><a href=\"https://github.com/mjoras/SCONE-PROTOCL/issues/60\">https://github.com/mjoras/SCONE-PROTOCL/issues/60</a></p>",
+    "topic": "ietf-119",
+    "dtime": 4778000,
+    "ptime": 4778000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Jonathan, unless we're explicitly using the proxy, it's not necessary to locate the shaper, only to know it exists.</p>",
+    "topic": "ietf-119",
+    "dtime": 4799000,
+    "ptime": 4799000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Or rather, <em>it</em> will find <em>you</em>.</p>",
+    "topic": "ietf-119",
+    "dtime": 4811000,
+    "ptime": 4811000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>It's not RSVP. It's XCP.</p>",
+    "topic": "ietf-119",
+    "dtime": 4837000,
+    "ptime": 4837000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>If you’re establishing a cryptographic context with it presumably you need to know what identity to expect</p>",
+    "topic": "ietf-119",
+    "dtime": 4916000,
+    "ptime": 4916000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>My view on Lars' point: the operators are doing this anyway and there is NOTHING we can do to stop it.</p>\n<p>This gives us a way to give content endpoints and users a seat at the table.</p>",
+    "topic": "ietf-119",
+    "dtime": 4967000,
+    "ptime": 4967000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Lars just found a new revenue stream for Mozilla</p>",
+    "topic": "ietf-119",
+    "dtime": 4979000,
+    "ptime": 4979000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>At the end of the day it is their network.</p>",
+    "topic": "ietf-119",
+    "dtime": 4986000,
+    "ptime": 4986000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Lars: Why can't operatros do  this today?</p>",
+    "topic": "ietf-119",
+    "dtime": 4989000,
+    "ptime": 4989000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I don't think this gives users any seat - the cients here are e.g. specific video s/w not the end user</p>",
+    "topic": "ietf-119",
+    "dtime": 5004000,
+    "ptime": 5004000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"761\">Matt Joras</span> <a href=\"#narrow/stream/388-sconepro/topic/ietf-119/near/114569\">said</a>:</p>\n<blockquote>\n<p>At the end of the day it is their network.</p>\n</blockquote>\n<p>But they're just dumb pipes, right?</p>",
+    "topic": "ietf-119",
+    "dtime": 5012000,
+    "ptime": 5012000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Jonathan: they are what regulation allows them to be. And regulation is VERY different in different parts of the world.</p>",
+    "topic": "ietf-119",
+    "dtime": 5040000,
+    "ptime": 5040000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>+1 Jana and also a moving target</p>",
+    "topic": "ietf-119",
+    "dtime": 5075000,
+    "ptime": 5075000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>(and <a href=\"https://github.com/mjoras/SCONE-PROTOCL/pull/62\">https://github.com/mjoras/SCONE-PROTOCL/pull/62</a> which adds 9419 at the bottom. also <a href=\"https://github.com/mjoras/SCONE-PROTOCL/pull/61\">https://github.com/mjoras/SCONE-PROTOCL/pull/61</a> to start a bikeshed on the WG name)</p>",
+    "topic": "ietf-119",
+    "dtime": 5078000,
+    "ptime": 5078000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@matt - many app/content companies are lobbying regulators and lawmakers to bar this practice (so I guess that is one thing they can &amp; are doing)</p>",
+    "topic": "ietf-119",
+    "dtime": 5089000,
+    "ptime": 5089000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Jason: that's only in the US and EU at best though.</p>",
+    "topic": "ietf-119",
+    "dtime": 5108000,
+    "ptime": 5108000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>That's all well and good but I am not a lawyer, I am interested in technical solutions we can collaborate on and deploy.</p>",
+    "topic": "ietf-119",
+    "dtime": 5112000,
+    "ptime": 5112000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@Jana very good point!</p>",
+    "topic": "ietf-119",
+    "dtime": 5118000,
+    "ptime": 5118000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>and actually the more I think about this Ted's parallel to ECN is extremely informative</p>",
+    "topic": "ietf-119",
+    "dtime": 5137000,
+    "ptime": 5137000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@Matt you should ping ur regulatory affairs team ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 5148000,
+    "ptime": 5148000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>what we're proposing to build here is ELN (explicit limit notification)</p>",
+    "topic": "ietf-119",
+    "dtime": 5153000,
+    "ptime": 5153000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Jason who is to say we have not :D</p>",
+    "topic": "ietf-119",
+    "dtime": 5173000,
+    "ptime": 5173000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>Honest question: How is this not a net neutrality violation?</p>",
+    "topic": "ietf-119",
+    "dtime": 5178000,
+    "ptime": 5178000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 5180000,
+    "ptime": 5180000
+  },
+  {
+    "author": "Abhishek Tiwari",
+    "text": "<p>Lucas: + 1 We need to coordinate with WebAPIs</p>",
+    "topic": "ietf-119",
+    "dtime": 5196000,
+    "ptime": 5196000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>I have no objection -- and in fact support -- the lobbying. But I also think that while this practice exists, a way to discover it has value.</p>",
+    "topic": "ietf-119",
+    "dtime": 5196000,
+    "ptime": 5196000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>The regulatory environment in India, SAmerica, China are substantively different, and telcos have a lot more power for instance than content companies (because $reasons). We do live inside of regulatory spaces, so the question is not JUST technical. That said, regulation in this space remains weak, and operators have poor practices today. If this can make the user experience of the Internet better given the current world, it's worth doing. If this work becomes useless because regulation makes it so in the future, that's a risk we are always taking.</p>",
+    "topic": "ietf-119",
+    "dtime": 5283000,
+    "ptime": 5283000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>ISTM that this issue arises when a service is provisioned w/o a per-user overall bandwidth limit (e.g. 500 Mbps DS / 200 Mbps US) but more up to max avail capacity (common in many MNO plans). I wonder if the underlying problem is reduced by changing how the per-user service is configured/provisioned at the network layer.</p>",
+    "topic": "ietf-119",
+    "dtime": 5284000,
+    "ptime": 5284000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>it's not a net neutrality violation if the client/app agrees to it. Is shaping today a net neutrality violation is another question.</p>",
+    "topic": "ietf-119",
+    "dtime": 5305000,
+    "ptime": 5305000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Chris: Here's a sketch:: ICMP</p>",
+    "topic": "ietf-119",
+    "dtime": 5306000,
+    "ptime": 5306000
+  },
+  {
+    "author": "Jari Arkko",
+    "text": "<p>I won't join the mic queue, but for me the answers to the questions are: 1 YES, 2 YES, 3 YES and can contribute. Other comments that I would make when it comes to the discussion we've heard so far is that yes, watching extensibility and making the right calls there is important. I also don't think we should worry too much about trying to cover the talk-to-the-box-in-someone-wifi-network. I don't think we should try to solve all problems in the world or try to design something that's scalable for everything. Just fixing the current issue with throttling would have a major impact on user experience overall, for a large number of people.</p>",
+    "topic": "ietf-119",
+    "dtime": 5325000,
+    "ptime": 5325000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>To elaborate, a per-flow signal of a UDP datagram that is injected into the flow.</p>",
+    "topic": "ietf-119",
+    "dtime": 5379000,
+    "ptime": 5379000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@mt authenticated how?</p>",
+    "topic": "ietf-119",
+    "dtime": 5404000,
+    "ptime": 5404000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@Martin, the bitrate discussed so far is not per-flow. So, why \"injecting\" it on a per flow basis?</p>",
+    "topic": "ietf-119",
+    "dtime": 5435000,
+    "ptime": 5435000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Right. As a strawman, an integrity-protected packet that a) proves it's on-path by echoing back something from a packet you sent, and b) includes a declaration of what traffic it intends to drop.</p>",
+    "topic": "ietf-119",
+    "dtime": 5436000,
+    "ptime": 5436000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>authenticated ICMP sounds like a nice RFC to publish in 11 days.</p>",
+    "topic": "ietf-119",
+    "dtime": 5449000,
+    "ptime": 5449000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>I forgot to say at the microphone but Suhas reminded me, indicating to the client the <em>upload</em> properties might be beneficial for other media use cases</p>",
+    "topic": "ietf-119",
+    "dtime": 5453000,
+    "ptime": 5453000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Less of a comment on this work and more of just making note of related work that might be of interest: <a href=\"https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5006-final.pdf\">https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5006-final.pdf</a></p>\n<p>(I know... a PDF. :) )</p>\n<p>The Common Media Server Data has a mechanism that allows an HTTP Proxy to add a response header with information about Max Suggested Bitrate. This is a similar \"layer-fuzzing\" situation and attempt to take on the same problem.</p>",
+    "topic": "ietf-119",
+    "dtime": 5472000,
+    "ptime": 5472000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>+1 Jeff Smith. It's not just proprietary per vendor, it's also proprietary per operator, so combinatorial for anyone who wants to use this in their media player.</p>",
+    "topic": "ietf-119",
+    "dtime": 5515000,
+    "ptime": 5515000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Stephen: ICMP authenticates itself</p>",
+    "topic": "ietf-119",
+    "dtime": 5519000,
+    "ptime": 5519000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>The proxy is not a required component, only one approach.</p>",
+    "topic": "ietf-119",
+    "dtime": 5576000,
+    "ptime": 5576000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>ICMP proves it can see the traffic. Proving you can police the traffic is harder.</p>",
+    "topic": "ietf-119",
+    "dtime": 5596000,
+    "ptime": 5596000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>I don't believe this is going to make shapers go away. This can help ISPs be better for users, but shapers and policers aren't going away.</p>",
+    "topic": "ietf-119",
+    "dtime": 5630000,
+    "ptime": 5630000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>Does this help ISPs avoid investing in growing capacity to meet demand growth?</p>",
+    "topic": "ietf-119",
+    "dtime": 5657000,
+    "ptime": 5657000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>But maybe in the kinds of networks we’re talking about those are the same</p>",
+    "topic": "ietf-119",
+    "dtime": 5660000,
+    "ptime": 5660000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>I don't really understand the \"better for users\" argument, sounds like it's just better for ISPs.</p>",
+    "topic": "ietf-119",
+    "dtime": 5690000,
+    "ptime": 5690000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Tara it improves user experience for video objectively.</p>",
+    "topic": "ietf-119",
+    "dtime": 5711000,
+    "ptime": 5711000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>the users are indeed choosing to watch the videos.</p>",
+    "topic": "ietf-119",
+    "dtime": 5722000,
+    "ptime": 5722000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>So does adding network capacity. ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 5726000,
+    "ptime": 5726000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>improves the experience by artifically limiting the quality?</p>",
+    "topic": "ietf-119",
+    "dtime": 5750000,
+    "ptime": 5750000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Tara, in  a world that we are today, operators do do shaping and policing, self regulation provides better QoS to users</p>",
+    "topic": "ietf-119",
+    "dtime": 5753000,
+    "ptime": 5753000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@tara please see my data in the slides comparing the shaper vs. self-adaptation.</p>",
+    "topic": "ietf-119",
+    "dtime": 5770000,
+    "ptime": 5770000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Tara quality already being limited by shaping</p>",
+    "topic": "ietf-119",
+    "dtime": 5772000,
+    "ptime": 5772000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>just for video specific case, when ABR can be used - self regulation provides much better experience to end user</p>",
+    "topic": "ietf-119",
+    "dtime": 5817000,
+    "ptime": 5817000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>@Kirill: That sounds like an issue, maybe not an IETF issue.</p>",
+    "topic": "ietf-119",
+    "dtime": 5866000,
+    "ptime": 5866000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>can you elaborate why it is not an IETF issue?</p>",
+    "topic": "ietf-119",
+    "dtime": 5887000,
+    "ptime": 5887000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>capacity, capacity, capacity... :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 5891000,
+    "ptime": 5891000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>It's a telecom regulation and consumer rights issue. IETF doesn't do that afaik.</p>",
+    "topic": "ietf-119",
+    "dtime": 5918000,
+    "ptime": 5918000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>managing network load is a technical problem</p>",
+    "topic": "ietf-119",
+    "dtime": 5950000,
+    "ptime": 5950000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Tara, the issue is that ABR will be attempting to increase bitrate, encountering the ceiling, dropping packets, and reducing bitrate. If the client can know the ceiling <em>a priori</em> and just not exceed it, then there are fewer drops and a better experience.</p>",
+    "topic": "ietf-119",
+    "dtime": 5975000,
+    "ptime": 5975000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Well, and network load can change suddenly for a variety of reasons.</p>",
+    "topic": "ietf-119",
+    "dtime": 5977000,
+    "ptime": 5977000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@Mirja for sure. But if you keep table-topping your interfaces/nodes/whatever a good response is to segment those nodes, add interfaces, etc (eg add capacity)</p>",
+    "topic": "ietf-119",
+    "dtime": 6042000,
+    "ptime": 6042000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>@Mirja: when it's about the content on the network, then it becomes more than a technical issue.</p>",
+    "topic": "ietf-119",
+    "dtime": 6053000,
+    "ptime": 6053000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Thanks to whoever bumped up the volume of the floor mics!</p>",
+    "topic": "ietf-119",
+    "dtime": 6081000,
+    "ptime": 6081000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>if it is about threading different content providers differently it's political but that's not proposed</p>",
+    "topic": "ietf-119",
+    "dtime": 6102000,
+    "ptime": 6102000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>Ted's idea  seems like it needs a new  auth mechanism</p>",
+    "topic": "ietf-119",
+    "dtime": 6130000,
+    "ptime": 6130000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>it's explicitly about a general solution that can be easily used for all/more content providers than today</p>",
+    "topic": "ietf-119",
+    "dtime": 6132000,
+    "ptime": 6132000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>@ted. sent ecn. not kidding</p>",
+    "topic": "ietf-119",
+    "dtime": 6138000,
+    "ptime": 6138000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>+1 to Ted, at the same time I wonder if that should (or can) be encrypted and authenticated</p>",
+    "topic": "ietf-119",
+    "dtime": 6159000,
+    "ptime": 6159000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Martin do you want to mention your icmp model at the mic?</p>",
+    "topic": "ietf-119",
+    "dtime": 6163000,
+    "ptime": 6163000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Jonathan: Ted did a better job of that.</p>",
+    "topic": "ietf-119",
+    "dtime": 6217000,
+    "ptime": 6217000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Stephen Jana's point is that you don't have to know who is making the assertion, only that they have the power to make it so.  That doesn't require Auth of the same type.</p>",
+    "topic": "ietf-119",
+    "dtime": 6217000,
+    "ptime": 6217000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>Would a solution where the shaper signals ECN to the video sender as the policed capacity is approached kinda work? No client changes involved.</p>",
+    "topic": "ietf-119",
+    "dtime": 6243000,
+    "ptime": 6243000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@ted isn't that a new auth mechanism then?</p>",
+    "topic": "ietf-119",
+    "dtime": 6255000,
+    "ptime": 6255000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Lars: short answer no, but I am in queue to address this at the mic</p>",
+    "topic": "ietf-119",
+    "dtime": 6264000,
+    "ptime": 6264000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Lars: I've been waiting for someone to say \"L4S\"</p>",
+    "topic": "ietf-119",
+    "dtime": 6265000,
+    "ptime": 6265000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>L4S</p>",
+    "topic": "ietf-119",
+    "dtime": 6298000,
+    "ptime": 6298000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 6305000,
+    "ptime": 6305000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>L4S (and we no longer need authentication or encryption)</p>",
+    "topic": "ietf-119",
+    "dtime": 6313000,
+    "ptime": 6313000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>@lars: no, because the video experience is better if the server can throttle over a longer period than reacting immediately to a limited input</p>",
+    "topic": "ietf-119",
+    "dtime": 6319000,
+    "ptime": 6319000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Stephen I think it is a demonstration that you are on path, which is not usually considered auth.  I think I am making the same point as MT was in his ICMP example.</p>",
+    "topic": "ietf-119",
+    "dtime": 6334000,
+    "ptime": 6334000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>@lars - maybe at thge transport - but is this a session level signal, on a different time granuality?</p>",
+    "topic": "ietf-119",
+    "dtime": 6344000,
+    "ptime": 6344000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Stephen, perhaps? It's different than what we would call authentication though; the endpoint doesn't need to know who the network element is, just that it can write to packets</p>",
+    "topic": "ietf-119",
+    "dtime": 6369000,
+    "ptime": 6369000
+  },
+  {
+    "author": "Christopher Inacio",
+    "text": "<p>Was the answer that applications can now see your network provider subscription information / performance details?  (I mean that sounds like A M A Z I N G marketing information to capture.</p>",
+    "topic": "ietf-119",
+    "dtime": 6393000,
+    "ptime": 6393000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>it's not ECN++, it's AccECN++ ++</p>",
+    "topic": "ietf-119",
+    "dtime": 6398000,
+    "ptime": 6398000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I agree with Matt; this is a different signal, not a congestion signal.  But ECN shows us that passing that through the network is tractable.</p>",
+    "topic": "ietf-119",
+    "dtime": 6401000,
+    "ptime": 6401000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>ECN is “I can modify your packets” which is stronger than ICMP “I can see your packets “</p>",
+    "topic": "ietf-119",
+    "dtime": 6405000,
+    "ptime": 6405000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>no no Brian it's ECN PLUS PLUS</p>",
+    "topic": "ietf-119",
+    "dtime": 6413000,
+    "ptime": 6413000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>so an unauthenticated (in the crypto sense) on-path signal from anyone on-path may be  enough for this ?</p>",
+    "topic": "ietf-119",
+    "dtime": 6421000,
+    "ptime": 6421000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>as it is for ECN, it should be</p>",
+    "topic": "ietf-119",
+    "dtime": 6451000,
+    "ptime": 6451000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>+1 Ted</p>",
+    "topic": "ietf-119",
+    "dtime": 6454000,
+    "ptime": 6454000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>If someone had told me in 2008 that the IETF was trying to standardize protocol-specific throttling because it is a pervasive practice and we should just support it I would have told them they were insane. ;-)</p>\n<p>But I guess I am also a realist and I get that different markets have different technical constraints..</p>",
+    "topic": "ietf-119",
+    "dtime": 6461000,
+    "ptime": 6461000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>Regarding what MAtt just said at the mic: maybe good to differetiate what are the problems solved by ECN and what not, and then concentrate on those</p>",
+    "topic": "ietf-119",
+    "dtime": 6488000,
+    "ptime": 6488000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Matt: On one hand this isn't a \"congestion\" signal, but it _is_ a signal about the capacity of the bottleneck, even if that bottleneck is artificial, no?</p>",
+    "topic": "ietf-119",
+    "dtime": 6488000,
+    "ptime": 6488000
+  },
+  {
+    "author": "Christopher Inacio",
+    "text": "<p>aye, aye - I'm still wondering about multipath, which seems weakly draft in the existing draft.</p>",
+    "topic": "ietf-119",
+    "dtime": 6491000,
+    "ptime": 6491000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Though there’s also the question of whether this throttle information needs to be private from other on-path observers</p>",
+    "topic": "ietf-119",
+    "dtime": 6506000,
+    "ptime": 6506000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>if you end up in a multipath situation where you have different policers on each path you're going to have a bad day no matter what</p>",
+    "topic": "ietf-119",
+    "dtime": 6523000,
+    "ptime": 6523000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>I think this IS about congestion. We may not like the name ECN+++, but it's pretty darn close</p>",
+    "topic": "ietf-119",
+    "dtime": 6527000,
+    "ptime": 6527000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Both ECN and this proposal is same in sense that it is saying \"I will punish you if you use more bandwidth than X.\"</p>",
+    "topic": "ietf-119",
+    "dtime": 6536000,
+    "ptime": 6536000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>proxies can discover their proxies and pass that information to the end hosts</p>",
+    "topic": "ietf-119",
+    "dtime": 6540000,
+    "ptime": 6540000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Jason we're not trying to standardize the throttling, we're suggesting we standardize the signal that informs the application that it is happening.  That's not quite the same thing, at least to me.</p>",
+    "topic": "ietf-119",
+    "dtime": 6563000,
+    "ptime": 6563000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>What happens with multipath?</p>",
+    "topic": "ietf-119",
+    "dtime": 6566000,
+    "ptime": 6566000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>FWIW, I don't thnik that conversaion convinced me that  the answer to #2 is yes</p>",
+    "topic": "ietf-119",
+    "dtime": 6566000,
+    "ptime": 6566000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>(I.e. “which data plan am I subscribed to” is private information)</p>",
+    "topic": "ietf-119",
+    "dtime": 6583000,
+    "ptime": 6583000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>multipath is multiple single paths</p>",
+    "topic": "ietf-119",
+    "dtime": 6583000,
+    "ptime": 6583000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>BTW operators are also like 'hey seeing FQDN in TLS setup is useful for parental controls' and is extremely pervasive but at the same time we are pushing ahead on ECH.</p>",
+    "topic": "ietf-119",
+    "dtime": 6592000,
+    "ptime": 6592000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>Eric: yes, though for example for some operators they would be okay with NO transport layer adaptation involved at all, and just having the application cap quality, and let the congestion control use the network organically</p>",
+    "topic": "ietf-119",
+    "dtime": 6599000,
+    "ptime": 6599000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"753\">@Jana Iyengar</span>  But they might not be totally distinct</p>",
+    "topic": "ietf-119",
+    "dtime": 6632000,
+    "ptime": 6632000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>that's why I want to make it clear that this isn't just \"the congestion controller has to have more information to do better\"</p>",
+    "topic": "ietf-119",
+    "dtime": 6638000,
+    "ptime": 6638000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Countermeasures for SNI are possible. Countermeasures for shaping aren’t (technically).</p>",
+    "topic": "ietf-119",
+    "dtime": 6670000,
+    "ptime": 6670000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>actually the name ECN+++ is kind of growing on me</p>",
+    "topic": "ietf-119",
+    "dtime": 6679000,
+    "ptime": 6679000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<blockquote>\n<p>NO transport layer adaptation involved at all, and just having the application cap quality</p>\n</blockquote>",
+    "topic": "ietf-119",
+    "dtime": 6693000,
+    "ptime": 6693000
+  },
+  {
+    "author": "Eric Kinnear",
+    "text": "<p>Can they trust that?</p>",
+    "topic": "ietf-119",
+    "dtime": 6698000,
+    "ptime": 6698000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>it has the advantage of not making me hungry though</p>",
+    "topic": "ietf-119",
+    "dtime": 6706000,
+    "ptime": 6706000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>They're willing to today. And OEMs can give them a way to \"trust but verify\"</p>",
+    "topic": "ietf-119",
+    "dtime": 6713000,
+    "ptime": 6713000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>We CAN play cat and mouse with shpaers today. We choose not to because it is hostile</p>",
+    "topic": "ietf-119",
+    "dtime": 6726000,
+    "ptime": 6726000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>I just need to change the QUIC version and bye bye shaping until they notice.</p>",
+    "topic": "ietf-119",
+    "dtime": 6745000,
+    "ptime": 6745000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>@Jonathan: yes, yes, and you can do MPTCP-like CC. There's definitely work this creates for the network elements and endpoints</p>",
+    "topic": "ietf-119",
+    "dtime": 6754000,
+    "ptime": 6754000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>I replied no because I'm not sure yet why a per flow signal is needed here and that</p>",
+    "topic": "ietf-119",
+    "dtime": 6773000,
+    "ptime": 6773000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>are there people running multipath where those paths have different shapers on them?</p>",
+    "topic": "ietf-119",
+    "dtime": 6808000,
+    "ptime": 6808000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>PDU Session configuration at the 3GPP would be more reasnable given that the main case mentioned here is related to cellular</p>",
+    "topic": "ietf-119",
+    "dtime": 6814000,
+    "ptime": 6814000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>it seems like that'd break badly enough that you'd just stop trying to do it</p>",
+    "topic": "ietf-119",
+    "dtime": 6834000,
+    "ptime": 6834000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>@Mohamed we want to solve this for satellite as well</p>",
+    "topic": "ietf-119",
+    "dtime": 6857000,
+    "ptime": 6857000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>there's no 3GPP there :)</p>",
+    "topic": "ietf-119",
+    "dtime": 6865000,
+    "ptime": 6865000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>i don't think there is a multipath problem <em>unique</em> to this. Actually leveraging multipath QUIC is going tob e complex for apps whatever they try to do</p>",
+    "topic": "ietf-119",
+    "dtime": 6878000,
+    "ptime": 6878000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>there, but that's another story</p>",
+    "topic": "ietf-119",
+    "dtime": 6889000,
+    "ptime": 6889000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>+1 Lucas, I think acting as if we have solved the multipath problem is quite funn</p>",
+    "topic": "ietf-119",
+    "dtime": 6897000,
+    "ptime": 6897000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Multipath between Wi-Fi and mobile is very likely</p>",
+    "topic": "ietf-119",
+    "dtime": 6908000,
+    "ptime": 6908000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>... sometimes there is 3GPP in satellite (aka NTN), but the endpoint might not be the terminal.</p>",
+    "topic": "ietf-119",
+    "dtime": 6912000,
+    "ptime": 6912000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>For that one Jonathan, there is ATSSS in place and policing can be shared with an UPF</p>",
+    "topic": "ietf-119",
+    "dtime": 6951000,
+    "ptime": 6951000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>However, we don't need to inherit the complexities of ATSSS for this simple signal</p>",
+    "topic": "ietf-119",
+    "dtime": 6974000,
+    "ptime": 6974000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>its only likely if apps implement multipath QUIC. And today I'm not hearing they do at any scale that this room can understand the full complexity space.</p>",
+    "topic": "ietf-119",
+    "dtime": 6977000,
+    "ptime": 6977000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>+1, this was worth being awake for :)</p>",
+    "topic": "ietf-119",
+    "dtime": 6983000,
+    "ptime": 6983000
+  },
+  {
+    "author": "Brian Trammell",
+    "text": "<p>thanks all</p>",
+    "topic": "ietf-119",
+    "dtime": 6986000,
+    "ptime": 6986000
+  },
+  {
+    "author": "Jana Iyengar",
+    "text": "<p>I think the multipath problem is just one of the things worth considering,  and there's going to be some interesting things to solve at the network element. I would argue that multipath isn't specifically harder than the other issues.</p>",
+    "topic": "ietf-119",
+    "dtime": 6989000,
+    "ptime": 6989000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>Time to go bake some scones.</p>",
+    "topic": "ietf-119",
+    "dtime": 6998000,
+    "ptime": 6998000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-SCONEPRO-20240320-2330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/sconepro"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-SCONEPRO-20240320-2330"
+		}		
+	]
+}

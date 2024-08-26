@@ -1,0 +1,483 @@
+
+{
+	"title": "IETF-OAUTH-20240514-1600",
+	"filename": "IETF-OAUTH-20240514-1600",
+	"start": 0,
+	"end": 3674000,
+	"start_datetime": "2024-05-14T15:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "-xmcnRnrmt0",
+    "start": 0,
+    "end": "3674000"
+  }
+],
+	"messages": [
+  {
+    "author": "Giuseppe De Marco",
+    "text": "<p>Hi! I don't hear nothing, probably nobody is speaking ... or not? :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 283000,
+    "ptime": 283000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>is my name spelled correctly?</p>",
+    "topic": "ietf-interim",
+    "dtime": 561000,
+    "ptime": 561000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>&lt;i like jokes&gt;</p>",
+    "topic": "ietf-interim",
+    "dtime": 574000,
+    "ptime": 574000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>\"bEAreR\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 636000,
+    "ptime": 636000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>This is not a normative change</p>",
+    "topic": "ietf-interim",
+    "dtime": 710000,
+    "ptime": 710000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>How would it break things?</p>",
+    "topic": "ietf-interim",
+    "dtime": 721000,
+    "ptime": 721000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>those are already broken ...</p>",
+    "topic": "ietf-interim",
+    "dtime": 728000,
+    "ptime": 728000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>That's not us breaking things, that's us telling people it's broken already. And stronger.</p>",
+    "topic": "ietf-interim",
+    "dtime": 742000,
+    "ptime": 742000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Clients sending \"Bearer\" will still be fine</p>",
+    "topic": "ietf-interim",
+    "dtime": 761000,
+    "ptime": 761000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>that too</p>",
+    "topic": "ietf-interim",
+    "dtime": 770000,
+    "ptime": 770000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Those servers shouldn't be happy, then. They stay sad.</p>",
+    "topic": "ietf-interim",
+    "dtime": 806000,
+    "ptime": 806000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>\"case sensitive\" breaks the HTTP definition</p>",
+    "topic": "ietf-interim",
+    "dtime": 833000,
+    "ptime": 833000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>That is not true</p>",
+    "topic": "ietf-interim",
+    "dtime": 877000,
+    "ptime": 877000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>Joseph is correct</p>",
+    "topic": "ietf-interim",
+    "dtime": 883000,
+    "ptime": 883000
+  },
+  {
+    "author": "Jim Hawkins",
+    "text": "<p>Maybe the software out there could be updated as part of their compliance to OAuth2.1</p>",
+    "topic": "ietf-interim",
+    "dtime": 900000,
+    "ptime": 900000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>can we add an example for each of:     bearer<br>\n    bearEr<br>\n    beareR<br>\n    bearER<br>\n    beaReR<br>\n    beaRer<br>\n    beArer<br>\n    beArEr<br>\n    beAreR<br>\n    beArER<br>\n    bEaRer<br>\n    bEaREr<br>\n    bEaReR<br>\n    bEaRER<br>\n    bEAReR<br>\n    bEARer<br>\n    bEArer<br>\n    bEArEr<br>\n    bEAreR<br>\n    bEArER<br>\n    bEaRer<br>\n    bEaREr<br>\n    bEaReR<br>\n    bEaRER<br>\n    bEAReR<br>\n    bEARer<br>\n    bEArer<br>\n    bEArEr<br>\n    bEAreR<br>\n    bEArER<br>\n    BEaRer<br>\n    BEaREr<br>\n    BEaReR<br>\n    BEaRER<br>\n    BEAReR<br>\n    BEARer<br>\n    BEArer<br>\n    BEArEr<br>\n    BEAreR<br>\n    BEArER<br>\n    BEaRer<br>\n    BEaREr<br>\n    BEaReR<br>\n    BEaRER<br>\n    BEAReR<br>\n    BEARer<br>\n    BEArer<br>\n    BEArEr<br>\n    BEAreR<br>\n    BEArER<br>\n    BEARer<br>\n    BEAREr<br>\n    BEAReR<br>\n    BEARER<br>\n    BEAReR<br>\n    BEARer<br>\n    BEArer<br>\n    BEArEr<br>\n    BEAreR<br>\n    BEArER<br>\n    BEaRer<br>\n    BEaREr<br>\n    BEaReR<br>\n    BEaRER<br>\n?</p>",
+    "topic": "ietf-interim",
+    "dtime": 984000,
+    "ptime": 984000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I think it's just going to propagate the problem of bad implementations</p>",
+    "topic": "ietf-interim",
+    "dtime": 985000,
+    "ptime": 985000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Is the screen share working for other participants?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1352000,
+    "ptime": 1352000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>Pieter: yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 1359000,
+    "ptime": 1359000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>sigh</p>",
+    "topic": "ietf-interim",
+    "dtime": 1368000,
+    "ptime": 1368000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>+1 to that it's pretty gross to implement</p>",
+    "topic": "ietf-interim",
+    "dtime": 1592000,
+    "ptime": 1592000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>I would not worry about what the HTTP guys think. That should not guide our decision making</p>",
+    "topic": "ietf-interim",
+    "dtime": 1611000,
+    "ptime": 1611000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>yes but not relevant here</p>",
+    "topic": "ietf-interim",
+    "dtime": 1656000,
+    "ptime": 1656000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>@pieter the screen share isn't working for me :(</p>",
+    "topic": "ietf-interim",
+    "dtime": 1731000,
+    "ptime": 1731000
+  },
+  {
+    "author": "George Fletcher",
+    "text": "<p>Unfortunately, I need to drop for another meeting</p>",
+    "topic": "ietf-interim",
+    "dtime": 1762000,
+    "ptime": 1762000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>linger ...</p>",
+    "topic": "ietf-interim",
+    "dtime": 1763000,
+    "ptime": 1763000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>I left, rejoined with differnet browsers etc, still no screen share.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1765000,
+    "ptime": 1765000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>IIRC sometimes if you switch a speaker to full screen then minimise them again it can fix it. Or I'm sure I've fixed it with random clicking around before.</p>\n<p>I'm using Chrome.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1818000,
+    "ptime": 1818000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>I'm not sure about removing the final sentence of that paragraph. Removing that part isn't relevant to the current conversation.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1914000,
+    "ptime": 1914000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>what Joseph said ^</p>",
+    "topic": "ietf-interim",
+    "dtime": 1957000,
+    "ptime": 1957000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>The screen share isn't working for me either.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1962000,
+    "ptime": 1962000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>Could you maybe paste the paragraph we're talking about or a reference to it into the chat?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1985000,
+    "ptime": 1985000
+  },
+  {
+    "author": "Dick Hardt",
+    "text": "<p>screen share works for me!</p>",
+    "topic": "ietf-interim",
+    "dtime": 2007000,
+    "ptime": 2007000
+  },
+  {
+    "author": "Aaron Parecki",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-10#section-2.4.1\">https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-10#section-2.4.1</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2011000,
+    "ptime": 2011000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>I wonder if it's working for the people that joined before the screen shared started...</p>",
+    "topic": "ietf-interim",
+    "dtime": 2026000,
+    "ptime": 2026000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>Or put another way I think everyone that's complaining joined late <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+    "topic": "ietf-interim",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Yup</p>",
+    "topic": "ietf-interim",
+    "dtime": 2088000,
+    "ptime": 2088000
+  },
+  {
+    "author": "Filip Skokan",
+    "text": "<p>helped</p>",
+    "topic": "ietf-interim",
+    "dtime": 2101000,
+    "ptime": 2101000
+  },
+  {
+    "author": "Pieter Kasselman",
+    "text": "<p>Oh, I can see it now.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2132000,
+    "ptime": 2132000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>lots of support for post out there afaik</p>",
+    "topic": "ietf-interim",
+    "dtime": 2292000,
+    "ptime": 2292000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>the client MAY just kinda go plant flowers and nobody cares</p>",
+    "topic": "ietf-interim",
+    "dtime": 2570000,
+    "ptime": 2570000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>i care</p>",
+    "topic": "ietf-interim",
+    "dtime": 2581000,
+    "ptime": 2581000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>&lt;3</p>",
+    "topic": "ietf-interim",
+    "dtime": 2590000,
+    "ptime": 2590000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>depending on the kind of flowers</p>",
+    "topic": "ietf-interim",
+    "dtime": 2595000,
+    "ptime": 2595000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I don't know, like, flower-kinds?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2606000,
+    "ptime": 2606000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>encoded flowers?</p>",
+    "topic": "ietf-interim",
+    "dtime": 2645000,
+    "ptime": 2645000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>+1 to mike</p>",
+    "topic": "ietf-interim",
+    "dtime": 2796000,
+    "ptime": 2796000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>+1 to Justin's +1 to Mike</p>",
+    "topic": "ietf-interim",
+    "dtime": 2831000,
+    "ptime": 2831000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>yes</p>",
+    "topic": "ietf-interim",
+    "dtime": 2837000,
+    "ptime": 2837000
+  },
+  {
+    "author": "Steve Venema",
+    "text": "<p>+1 to Mike's suggestion on adding a Note on past interop problems</p>",
+    "topic": "ietf-interim",
+    "dtime": 2838000,
+    "ptime": 2838000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>scopes are not claims</p>",
+    "topic": "ietf-interim",
+    "dtime": 3128000,
+    "ptime": 3128000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>Kinda need an IANA registry of predefined scopes to do anything meaningful...</p>",
+    "topic": "ietf-interim",
+    "dtime": 3221000,
+    "ptime": 3221000
+  },
+  {
+    "author": "Joseph Heenan",
+    "text": "<p>Or suggest using URNs for scopes, which Brian will hate just as much I think :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3325000,
+    "ptime": 3325000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>I was just about to agree with everything you were saying</p>",
+    "topic": "ietf-interim",
+    "dtime": 3400000,
+    "ptime": 3400000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>lowercase recommend</p>",
+    "topic": "ietf-interim",
+    "dtime": 3421000,
+    "ptime": 3421000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>or agree with all the claims you were making</p>",
+    "topic": "ietf-interim",
+    "dtime": 3429000,
+    "ptime": 3429000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>if you will</p>",
+    "topic": "ietf-interim",
+    "dtime": 3489000,
+    "ptime": 3489000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>@Brian I agree with your scope</p>",
+    "topic": "ietf-interim",
+    "dtime": 3524000,
+    "ptime": 3524000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>Claims are claims are claims</p>",
+    "topic": "ietf-interim",
+    "dtime": 3529000,
+    "ptime": 3529000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>that's what you claim</p>",
+    "topic": "ietf-interim",
+    "dtime": 3537000,
+    "ptime": 3537000
+  },
+  {
+    "author": "Brian Campbell",
+    "text": "<p>that's the scope of his claim</p>",
+    "topic": "ietf-interim",
+    "dtime": 3546000,
+    "ptime": 3546000
+  },
+  {
+    "author": "Michael Jones",
+    "text": "<p>Or do you disclaim?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3548000,
+    "ptime": 3548000
+  },
+  {
+    "author": "Justin Richer",
+    "text": "<p>I think this seems reasonable though</p>",
+    "topic": "ietf-interim",
+    "dtime": 3580000,
+    "ptime": 3580000
+  },
+  {
+    "author": "Jim Hawkins",
+    "text": "<p>Bye everyone</p>",
+    "topic": "ietf-interim",
+    "dtime": 3668000,
+    "ptime": 3668000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-OAUTH-20240514-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-oauth-03/session/oauth"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-OAUTH-20240514-1600"
+		}
+	]
+}

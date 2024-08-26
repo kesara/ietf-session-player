@@ -1,0 +1,428 @@
+{
+  "title": "IETF106-NETMOD-20191119-1520",
+  "filename": "IETF106-NETMOD-20191119-1520",
+  "start": 0,
+  "end": 5543000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "5ar2jbqlnYI",
+      "start": 0.0,
+      "end": 5543000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Yuji Tochio just joined the room",
+      "ptime": 3000.0,
+      "dtime": 365000.0
+    },
+    {
+      "text": "***Martin Bj?rklund just joined the room",
+      "ptime": 19000.0,
+      "dtime": 381000.0
+    },
+    {
+      "text": "***Julien Catalano just joined the room",
+      "ptime": 123000.0,
+      "dtime": 485000.0
+    },
+    {
+      "text": "when you start:",
+      "ptime": 169000.0,
+      "dtime": 531000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "clarifying q: is it correct that the ver-selection doesn\u0027t change anything for a client that doesn\u0027t use \u003cselect-schema-set\u003e? also, after a successful \u003cselect-schema-set\u003e, will a \u003cget\u003e on yang-library be different (reflect the new schema set)?",
+      "ptime": 171000.0,
+      "dtime": 533000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "***Julien Catalano just left the room",
+      "ptime": 249000.0,
+      "dtime": 611000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 250000.0,
+      "dtime": 612000.0
+    },
+    {
+      "text": "***Georgios PAPADOPOULOS just joined the room",
+      "ptime": 290000.0,
+      "dtime": 652000.0
+    },
+    {
+      "text": "Welcome to LPWAN!",
+      "ptime": 312000.0,
+      "dtime": 674000.0,
+      "author": "Georgios PAPADOPOULOS"
+    },
+    {
+      "text": "This in NETMOD.",
+      "ptime": 335000.0,
+      "dtime": 697000.0,
+      "author": "Mahesh Jethanandani"
+    },
+    {
+      "text": "oops, thanks",
+      "ptime": 357000.0,
+      "dtime": 719000.0,
+      "author": "Georgios PAPADOPOULOS"
+    },
+    {
+      "text": "***Georgios PAPADOPOULOS just left the room",
+      "ptime": 420000.0,
+      "dtime": 782000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 420000.0,
+      "dtime": 782000.0
+    },
+    {
+      "text": "***Alessandro Amirante just joined the room",
+      "ptime": 539000.0,
+      "dtime": 901000.0
+    },
+    {
+      "text": "***john heasley just joined the room",
+      "ptime": 551000.0,
+      "dtime": 913000.0
+    },
+    {
+      "text": "***Alessandro Amirante just left the room",
+      "ptime": 580000.0,
+      "dtime": 942000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 581000.0,
+      "dtime": 943000.0
+    },
+    {
+      "text": "all nodes are optional anyway",
+      "ptime": 803000.0,
+      "dtime": 1165000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "audio here is fine",
+      "ptime": 922000.0,
+      "dtime": 1284000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "We typically allow for seconds from or a datetime",
+      "ptime": 952000.0,
+      "dtime": 1314000.0,
+      "author": "Timothy Carey"
+    },
+    {
+      "text": "It works for IoT and other devices",
+      "ptime": 964000.0,
+      "dtime": 1326000.0,
+      "author": "Timothy Carey"
+    },
+    {
+      "text": "Make it either/or",
+      "ptime": 980000.0,
+      "dtime": 1342000.0,
+      "author": "Timothy Carey"
+    },
+    {
+      "text": "make a choice?",
+      "ptime": 980000.0,
+      "dtime": 1342000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "Yes a choice is what I meant",
+      "ptime": 998000.0,
+      "dtime": 1360000.0,
+      "author": "Timothy Carey"
+    },
+    {
+      "text": "Igor, are you awake :-) Do you have any comments on draft-wwx-netmod-event-yang-04 \u003chttps://www.ietf.org/html/draft-wwx-netmod-event-yang-04\u003e?",
+      "ptime": 1963000.0,
+      "dtime": 2325000.0,
+      "author": "danielking.net"
+    },
+    {
+      "text": "As an author of draft-bryskin-netconf-automation-yang \u003chttps://tools.ietf.org/html/draft-bryskin-netconf-automation-yang-03\u003e",
+      "ptime": 1997000.0,
+      "dtime": 2359000.0,
+      "author": "danielking.net"
+    },
+    {
+      "text": "Good progress",
+      "ptime": 2000000.0,
+      "dtime": 2362000.0,
+      "author": "Igor Bryskin"
+    },
+    {
+      "text": "Agree with Xufeng",
+      "ptime": 2021000.0,
+      "dtime": 2383000.0,
+      "author": "Igor Bryskin"
+    },
+    {
+      "text": "***Philip Eardley just joined the room",
+      "ptime": 2781000.0,
+      "dtime": 3143000.0
+    },
+    {
+      "text": "***john heasley just left the room",
+      "ptime": 3113000.0,
+      "dtime": 3475000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 3114000.0,
+      "dtime": 3476000.0
+    },
+    {
+      "text": "***john heasley just joined the room",
+      "ptime": 3114000.0,
+      "dtime": 3476000.0
+    },
+    {
+      "text": "aha, so it is aglobal thign for all clients?",
+      "ptime": 4253000.0,
+      "dtime": 4615000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "select changes the global server state",
+      "ptime": 4274000.0,
+      "dtime": 4636000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "***Yuji Tochio just left the room",
+      "ptime": 4335000.0,
+      "dtime": 4697000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4335000.0,
+      "dtime": 4697000.0
+    },
+    {
+      "text": "yes",
+      "ptime": 4386000.0,
+      "dtime": 4748000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "yes for concerns?",
+      "ptime": 4427000.0,
+      "dtime": 4789000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "concern: schema-selection seems really complex",
+      "ptime": 4438000.0,
+      "dtime": 4800000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "lou, no the yes was \"right direction\"",
+      "ptime": 4452000.0,
+      "dtime": 4814000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "thanks",
+      "ptime": 4473000.0,
+      "dtime": 4835000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "+1 to concerns about complexity",
+      "ptime": 4534000.0,
+      "dtime": 4896000.0,
+      "author": "Andy Bierman"
+    },
+    {
+      "text": "note: complexity in version-selection",
+      "ptime": 4623000.0,
+      "dtime": 4985000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "not in all other drfats",
+      "ptime": 4631000.0,
+      "dtime": 4993000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "that\u0027s how I read Chris\u0027 comment as well, but may have been wrong",
+      "ptime": 4656000.0,
+      "dtime": 5018000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "***Wolfgang A Beck just joined the room",
+      "ptime": 4790000.0,
+      "dtime": 5152000.0
+    },
+    {
+      "text": "***Wolfgang A Beck just left the room",
+      "ptime": 4860000.0,
+      "dtime": 5222000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 4860000.0,
+      "dtime": 5222000.0
+    },
+    {
+      "text": "third q: adopt a subset of the draft",
+      "ptime": 4911000.0,
+      "dtime": 5273000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "drafts",
+      "ptime": 4916000.0,
+      "dtime": 5278000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "that\u0027s what I support anyway :)",
+      "ptime": 4972000.0,
+      "dtime": 5334000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "seriously - why ?",
+      "ptime": 4988000.0,
+      "dtime": 5350000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "i.e. why all or nothing?",
+      "ptime": 5015000.0,
+      "dtime": 5377000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "***Alexandre Santos just joined the room",
+      "ptime": 5266000.0,
+      "dtime": 5628000.0
+    },
+    {
+      "text": "***Igor Bryskin just left the room",
+      "ptime": 5365000.0,
+      "dtime": 5727000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5366000.0,
+      "dtime": 5728000.0
+    },
+    {
+      "text": "Or move forward with the netconf draft, and start a new generic draft for this in netmod",
+      "ptime": 5410000.0,
+      "dtime": 5772000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "audio disappeared.... out of time I guess",
+      "ptime": 5483000.0,
+      "dtime": 5845000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "Martin Bj?rklund: nope, audio streamer died...",
+      "ptime": 5493000.0,
+      "dtime": 5855000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Sorry, restoring it",
+      "ptime": 5496000.0,
+      "dtime": 5858000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Session is up until it\u0027s over",
+      "ptime": 5503000.0,
+      "dtime": 5865000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "thanks all!",
+      "ptime": 5510000.0,
+      "dtime": 5872000.0,
+      "author": "Lou Berger"
+    },
+    {
+      "text": "***Andy Bierman just left the room",
+      "ptime": 5518000.0,
+      "dtime": 5880000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5519000.0,
+      "dtime": 5881000.0
+    },
+    {
+      "text": "ok.  but now it *is* over :)",
+      "ptime": 5524000.0,
+      "dtime": 5886000.0,
+      "author": "Martin Bj?rklund"
+    },
+    {
+      "text": "***Timothy Carey just left the room",
+      "ptime": 5535000.0,
+      "dtime": 5897000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5536000.0,
+      "dtime": 5898000.0
+    },
+    {
+      "text": "***john heasley just left the room",
+      "ptime": 5543000.0,
+      "dtime": 5905000.0
+    },
+    {
+      "text": "***Alexandre Santos just left the room",
+      "ptime": 5543000.0,
+      "dtime": 5905000.0
+    },
+    {
+      "text": "***Martin Bj?rklund just left the room",
+      "ptime": 5543000.0,
+      "dtime": 5905000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5543000.0,
+      "dtime": 5905000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5543000.0,
+      "dtime": 5905000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5543000.0,
+      "dtime": 5905000.0
+    },
+    {
+      "text": "***null just left the room",
+      "ptime": 5543000.0,
+      "dtime": 5905000.0
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

@@ -1,0 +1,112 @@
+
+{
+	"title": "IETF118-ICNRG-20231107-0830",
+	"filename": "IETF118-ICNRG-20231107-0830",
+	"start": 0,
+	"end": 7337000,
+	"start_datetime": "2023-11-07T08:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "hriFG7Rpt3o",
+    "start": 0,
+    "end": "7337000"
+  }
+],
+	"messages": [
+  {
+    "author": "Xinyu Ma",
+    "text": "<p>Hello, Marc. I wonder if your Python implementation is available online? Thanks.</p>",
+    "topic": "ietf-118",
+    "dtime": 1712000,
+    "ptime": 1712000
+  },
+  {
+    "author": "Lixia Zhang",
+    "text": "<p>@Marc: FYI pur plan is to get a python implementation of FLIC-equivalent over NDN by early next year.</p>",
+    "topic": "ietf-118",
+    "dtime": 1719000,
+    "ptime": 1719000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>@Lixia - what do you mean by \"equivalent\" - something different from FLIC? Why? If you don't want to use FLIC, please write a draft so we can compare and see what works better from a research perspective.</p>",
+    "topic": "ietf-118",
+    "dtime": 1803000,
+    "ptime": 1803000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>One quick note - some of what makes FLIC \"seem\" complicated is the fact that it supports Manifest encryption, which is likely important, so make sure that any alternative also supports Manifest encryption</p>",
+    "topic": "ietf-118",
+    "dtime": 1915000,
+    "ptime": 1915000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>another thing to realize is that you don't have to implement stuff you don't need, since the Manifest is constructed by the producer along with the underlying data.</p>",
+    "topic": "ietf-118",
+    "dtime": 1993000,
+    "ptime": 1993000
+  },
+  {
+    "author": "Susmit Shannigrahi",
+    "text": "<p>Producer is connected to the UCLA  router would be a more accurate statement</p>",
+    "topic": "ietf-118",
+    "dtime": 3669000,
+    "ptime": 3669000
+  },
+  {
+    "author": "Lixia Zhang",
+    "text": "<p>@DaveO: regarding Manifest  encryption: our first use case is  large quantity public data, to achieve integrity and provenance, not confidentiality.</p>",
+    "topic": "ietf-118",
+    "dtime": 3834000,
+    "ptime": 3834000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>@FLIC should be fine for that – you don't have to use encryption. It would be great if you could give it a look and share thoughts on what's missing (or what's too complicated).</p>",
+    "topic": "ietf-118",
+    "dtime": 4007000,
+    "ptime": 4007000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>I locked the queue now...</p>",
+    "topic": "ietf-118",
+    "dtime": 4074000,
+    "ptime": 4074000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>want me to share the slides?</p>",
+    "topic": "ietf-118",
+    "dtime": 4827000,
+    "ptime": 4827000
+  },
+  {
+    "author": "Jing Wang",
+    "text": "<p>Can I share the slides？</p>",
+    "topic": "ietf-118",
+    "dtime": 4856000,
+    "ptime": 4856000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-ICNRG-20231107-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/icnrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-ICNRG-20231107-0830"
+		}		
+	]
+}

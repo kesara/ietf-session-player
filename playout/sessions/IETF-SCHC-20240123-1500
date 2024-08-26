@@ -1,0 +1,287 @@
+
+{
+	"title": "IETF-SCHC-20240123-1500",
+	"filename": "IETF-SCHC-20240123-1500",
+	"start": 0,
+	"end": 3905000,
+	"start_datetime": "2024-01-23T14:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "BiDVgCJfUsQ",
+    "start": 0,
+    "end": "3905000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ana Minaburo",
+    "text": "<p>Happy New Year to all</p>",
+    "topic": "ietf-interim",
+    "dtime": 201000,
+    "ptime": 201000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>Hello everyone</p>",
+    "topic": "ietf-interim",
+    "dtime": 205000,
+    "ptime": 205000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Hello</p>",
+    "topic": "ietf-interim",
+    "dtime": 214000,
+    "ptime": 214000
+  },
+  {
+    "author": "Carles Gomez",
+    "text": "<p>Hello everyone!</p>",
+    "topic": "ietf-interim",
+    "dtime": 289000,
+    "ptime": 289000
+  },
+  {
+    "author": "Edgar Ramos",
+    "text": "<p>hello..sorry for joining late</p>",
+    "topic": "ietf-interim",
+    "dtime": 1183000,
+    "ptime": 1183000
+  },
+  {
+    "author": "Alexander Pelov",
+    "text": "<p>hi, no worries :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1197000,
+    "ptime": 1197000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Indeed \"proxy\" does not sound too good ;-) what about \"icmp proxy\" (i.e., less generic)?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1236000,
+    "ptime": 1236000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>It seems like the good old discussion UDP vs. TCP</p>",
+    "topic": "ietf-interim",
+    "dtime": 2453000,
+    "ptime": 2453000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>i have a problem with the audio</p>",
+    "topic": "ietf-interim",
+    "dtime": 2635000,
+    "ptime": 2635000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Need to leave, sorry</p>",
+    "topic": "ietf-interim",
+    "dtime": 2773000,
+    "ptime": 2773000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>The DTAG is used for cycles, not per packet</p>",
+    "topic": "ietf-interim",
+    "dtime": 2894000,
+    "ptime": 2894000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>no</p>",
+    "topic": "ietf-interim",
+    "dtime": 3030000,
+    "ptime": 3030000
+  },
+  {
+    "author": "Carles Gomez",
+    "text": "<p>No</p>",
+    "topic": "ietf-interim",
+    "dtime": 3032000,
+    "ptime": 3032000
+  },
+  {
+    "author": "Amina MOKDAD",
+    "text": "<p>no</p>",
+    "topic": "ietf-interim",
+    "dtime": 3039000,
+    "ptime": 3039000
+  },
+  {
+    "author": "Laurent Toutain",
+    "text": "<p>no way</p>",
+    "topic": "ietf-interim",
+    "dtime": 3052000,
+    "ptime": 3052000
+  },
+  {
+    "author": "Laurent Toutain",
+    "text": "<p>there is no buffering at the reception ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3129000,
+    "ptime": 3129000
+  },
+  {
+    "author": "Ana Minaburo",
+    "text": "<p>if you are using DTAG for cycles how do you identify A, B and C?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3166000,
+    "ptime": 3166000
+  },
+  {
+    "author": "Carles Gomez",
+    "text": "<p>The cycles are rather intended to offer some \"opportunities\" to send an ACK</p>",
+    "topic": "ietf-interim",
+    "dtime": 3209000,
+    "ptime": 3209000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>in the first version we talk about un fragmented packets, and each packet is a fragment</p>",
+    "topic": "ietf-interim",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Carles Gomez",
+    "text": "<p>The draft needs to state better how a SCHC Packet is identified</p>",
+    "topic": "ietf-interim",
+    "dtime": 3232000,
+    "ptime": 3232000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>yes, that is next step, for fragmentation you need to know the number of fragments (before or on a fly) that a packet has</p>\n<p>for example, each two fragments you have a packet,</p>",
+    "topic": "ietf-interim",
+    "dtime": 3298000,
+    "ptime": 3298000
+  },
+  {
+    "author": "Carles Gomez",
+    "text": "<p>(Meetecho didn't detect my mic... I'm on Chrome...)     Your idea, Alexander, of requesting or not retries based on QoS levels is really intereseting!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3435000,
+    "ptime": 3435000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>agree, this is actually pretty interesting</p>",
+    "topic": "ietf-interim",
+    "dtime": 3456000,
+    "ptime": 3456000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>the FEC is also a very interesting idea,</p>",
+    "topic": "ietf-interim",
+    "dtime": 3554000,
+    "ptime": 3554000
+  },
+  {
+    "author": "Laurent Toutain",
+    "text": "<p>how do you know it is a Xor ? a frag number associated ?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3556000,
+    "ptime": 3556000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>I did not have time to do a new update, but we can add more of these in a new version</p>",
+    "topic": "ietf-interim",
+    "dtime": 3585000,
+    "ptime": 3585000
+  },
+  {
+    "author": "Carles Gomez",
+    "text": "<p>@Laurent: valid question, indeed. I had similar thoughts myself.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3745000,
+    "ptime": 3745000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>I have to go, we can set a meeting to discuss all this topics</p>\n<p>The idea of the Dtag was to have a cycle that can be mapped to a compound ACK, the DTag identify the compound ACK</p>\n<p>A new DTag cycle, implies you cannot recover the information sent before</p>",
+    "topic": "ietf-interim",
+    "dtime": 3757000,
+    "ptime": 3757000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>We can have a new field called Cycle, instead of the DTag, for example</p>",
+    "topic": "ietf-interim",
+    "dtime": 3813000,
+    "ptime": 3813000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>sorry my microphone is not working</p>",
+    "topic": "ietf-interim",
+    "dtime": 3823000,
+    "ptime": 3823000
+  },
+  {
+    "author": "Quentin Lampin",
+    "text": "<p>Bye everyone</p>",
+    "topic": "ietf-interim",
+    "dtime": 3874000,
+    "ptime": 3874000
+  },
+  {
+    "author": "Laurent Toutain",
+    "text": "<p>bye</p>",
+    "topic": "ietf-interim",
+    "dtime": 3875000,
+    "ptime": 3875000
+  },
+  {
+    "author": "Sergio Aguilar",
+    "text": "<p>bye and thanks to all</p>",
+    "topic": "ietf-interim",
+    "dtime": 3876000,
+    "ptime": 3876000
+  },
+  {
+    "author": "Dominique Barthel",
+    "text": "<p>bye</p>",
+    "topic": "ietf-interim",
+    "dtime": 3881000,
+    "ptime": 3881000
+  },
+  {
+    "author": "Ana Minaburo",
+    "text": "<p>bye</p>",
+    "topic": "ietf-interim",
+    "dtime": 3882000,
+    "ptime": 3882000
+  },
+  {
+    "author": "Carles Gomez",
+    "text": "<p>See you!</p>",
+    "topic": "ietf-interim",
+    "dtime": 3885000,
+    "ptime": 3885000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCHC-20240123-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2024-schc-02/session/schc"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCHC-20240123-1500"
+		}
+	]
+}

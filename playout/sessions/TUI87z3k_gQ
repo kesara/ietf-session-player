@@ -1,0 +1,1367 @@
+
+{
+	"title": "IETF114-SECDISPATCH-20220726-1400",
+	"filename": "IETF114-SECDISPATCH-20220726-1400",
+	"start": 0,
+	"end": 6091000,
+	"start_datetime": "2022-07-26T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "TUI87z3k_gQ",
+    "start": 0,
+    "end": "6091000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christian Veenman",
+    "text": "<p>Good morning/afternoon everyone</p>",
+    "dtime": 224000,
+    "ptime": 224000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>morning all!</p>",
+    "dtime": 296000,
+    "ptime": 296000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>front speaker audience-right seems not to be working</p>",
+    "dtime": 344000,
+    "ptime": 344000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Richard's mic gain is louder than Kathleen's</p>",
+    "dtime": 504000,
+    "ptime": 504000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p><span aria-label=\"applause\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"applause\">:applause:</span>  for Mohit!</p>",
+    "dtime": 514000,
+    "ptime": 514000
+  },
+  {
+    "author": "Christian Veenman",
+    "text": "<p>Thanks Mohit!</p>",
+    "dtime": 523000,
+    "ptime": 523000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Is anybody using <a href=\"https://notes.ietf.org/notes-ietf-114-secdispatch\">https://notes.ietf.org/notes-ietf-114-secdispatch</a> ?</p>",
+    "dtime": 540000,
+    "ptime": 540000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Well clearly you are, Carsten <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "dtime": 561000,
+    "ptime": 561000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Do we have minute takers?</p>",
+    "dtime": 568000,
+    "ptime": 568000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>s/using/staring at an empty/</p>",
+    "dtime": 578000,
+    "ptime": 578000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>cabo: If you could take some notes in there, would really appreciate it</p>",
+    "dtime": 624000,
+    "ptime": 624000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Ich spreche kein Quantum</p>",
+    "dtime": 635000,
+    "ptime": 635000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>But I'll try...</p>",
+    "dtime": 645000,
+    "ptime": 645000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>doch, es ist so einfach!</p>",
+    "dtime": 652000,
+    "ptime": 652000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: do we need a term for \"combining PW+classical algs in a vastly overcomplicated manner\"? :-)</p>",
+    "dtime": 669000,
+    "ptime": 669000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: s/PW/PQ/</p>",
+    "dtime": 677000,
+    "ptime": 677000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Thanks Carsten</p>",
+    "dtime": 731000,
+    "ptime": 731000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>cabo: most important thing is the DISPATCH outcomes.  i'll have an eye on that as well.</p>",
+    "dtime": 736000,
+    "ptime": 736000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>My use of PQC in the early stages is going to be limited to establishing a shared secret and fingerprint of a signature verification key for use as an emergency backup in case of need. Which isn't hybrid in the normal sense of the term.</p>",
+    "dtime": 831000,
+    "ptime": 831000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>FWIW, CFRG is considering adopting a draft for standardizing Kyber.</p>",
+    "dtime": 942000,
+    "ptime": 942000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i'd second paul -- having separate drafts for signing vs. key encapsulation makes sense to me.  these are significantly different contexts</p>",
+    "dtime": 1051000,
+    "ptime": 1051000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>+1 on working on the PQ terminology draft in a new PQ WG.</p>",
+    "dtime": 1141000,
+    "ptime": 1141000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Is Barry proposing a terminology WG or a PQ WG?</p>",
+    "dtime": 1179000,
+    "ptime": 1179000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>audio seems to be broken</p>",
+    "dtime": 1186000,
+    "ptime": 1186000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>As process check, we can suggest CFRG but we can't dispatch to them.  They are IRTF.</p>",
+    "dtime": 1190000,
+    "ptime": 1190000
+  },
+  {
+    "author": "Melinda Shore",
+    "text": "<p>Terminology</p>",
+    "dtime": 1196000,
+    "ptime": 1196000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: we can't hear you richard</p>",
+    "dtime": 1200000,
+    "ptime": 1200000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>CFRG would be fine (as one of CFRG co-chairs, without consulting with my co-chairs). But a new WG is fine too.</p>",
+    "dtime": 1210000,
+    "ptime": 1210000
+  },
+  {
+    "author": "Joey Salazar",
+    "text": "<p>I also think a new WG probably makes sense</p>",
+    "dtime": 1230000,
+    "ptime": 1230000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p>Starting a new group just for PQC terminology seems overkill. CFRG seems like the right palce for this.</p>",
+    "dtime": 1237000,
+    "ptime": 1237000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i was going to say that it seems like there's also some work do defining the desired security properties of hybrids, which also points toward CFRG</p>",
+    "dtime": 1251000,
+    "ptime": 1251000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>+1 for a new wg (Secterm?)</p>",
+    "dtime": 1261000,
+    "ptime": 1261000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"927\">John Preuß Mattsson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22478\">said</a>:</p>\n<blockquote>\n<p>Starting a new group just for PQC terminology seems overkill. CFRG seems like the right palce for this.</p>\n</blockquote>\n<p>What about a new WG for \"Cross-cutting PQ Migration Issues\" ?</p>",
+    "dtime": 1276000,
+    "ptime": 1276000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: cfrg would be a bad choice; ad sponsor would be fine if limited to key exchange as paul H suggested, otherwise I'd suggest living with the issue for a while until we figure out more about how to not do signature stuff in an overcomplex manner that might get deployed</p>",
+    "dtime": 1294000,
+    "ptime": 1294000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Mike: .... if we have such issues</p>",
+    "dtime": 1297000,
+    "ptime": 1297000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22487\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"927\">John Preuß Mattsson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22478\">said</a>:</p>\n<blockquote>\n<p>Starting a new group just for PQC terminology seems overkill. CFRG seems like the right palce for this.</p>\n</blockquote>\n<p>What about a new WG for \"Cross-cutting PQ Migration Issues\" ?</p>\n</blockquote>\n<p>That sounds very nice</p>",
+    "dtime": 1323000,
+    "ptime": 1323000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>This is pointer to the prior discussions on a PQ migration group -- <a href=\"https://github.com/rdanyliw/ietf-pq-maintenance/blob/main/pqm-charter.md\">https://github.com/rdanyliw/ietf-pq-maintenance/blob/main/pqm-charter.md</a></p>",
+    "dtime": 1331000,
+    "ptime": 1331000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Does Key Encapsulation also need a separate space?</p>",
+    "dtime": 1365000,
+    "ptime": 1365000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>PQ SSH in this WG... Plus more later,,,</p>",
+    "dtime": 1369000,
+    "ptime": 1369000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: so given we have a pq discussion list, let this be noodled on there 'till there's an outcome maybe</p>",
+    "dtime": 1379000,
+    "ptime": 1379000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>The charter can also include the migration of different protocols, which will be a lot of work</p>",
+    "dtime": 1382000,
+    "ptime": 1382000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>I wonder if IETF has enough cred in the terminology area to lead on this, or if the rest of the community will be looking elsewhere.</p>",
+    "dtime": 1383000,
+    "ptime": 1383000
+  },
+  {
+    "author": "Joey Salazar",
+    "text": "<p>+1 \"Cross-cutting PQ Migration Issues\"</p>",
+    "dtime": 1394000,
+    "ptime": 1394000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"205\">Sofia Celi</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22497\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22487\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"927\">John Preuß Mattsson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22478\">said</a>:</p>\n<blockquote>\n<p>Starting a new group just for PQC terminology seems overkill. CFRG seems like the right palce for this.</p>\n</blockquote>\n<p>What about a new WG for \"Cross-cutting PQ Migration Issues\" ?</p>\n</blockquote>\n<p>That sounds very nice</p>\n</blockquote>\n<p>All good, as long as we have more content to assign to this group</p>",
+    "dtime": 1432000,
+    "ptime": 1432000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>I fear that a new WG would take quite a long time and we are building things today ... maybe can we try with two I-Ds first ?</p>",
+    "dtime": 1436000,
+    "ptime": 1436000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: massimiliano: we can make the I-Ds as the WG is being formed.  this doesn't need to be a blocker</p>",
+    "dtime": 1487000,
+    "ptime": 1487000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"99\">Jim Fenton</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22512\">said</a>:</p>\n<blockquote>\n<p>I wonder if IETF has enough cred in the terminology area to lead on this, or if the rest of the community will be looking elsewhere.</p>\n</blockquote>\n<p>We set the terminology that <em>we</em> use in <em>our</em> documents. Others may or may not adopt our terminology</p>",
+    "dtime": 1494000,
+    "ptime": 1494000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22523\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"205\">Sofia Celi</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22497\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22487\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"927\">John Preuß Mattsson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22478\">said</a>:</p>\n<blockquote>\n<p>Starting a new group just for PQC terminology seems overkill. CFRG seems like the right palce for this.</p>\n</blockquote>\n<p>What about a new WG for \"Cross-cutting PQ Migration Issues\" ?</p>\n</blockquote>\n<p>That sounds very nice</p>\n</blockquote>\n<p>All good, as long as we have more content to assign to this group</p>\n</blockquote>\n<p>How many replies can you have before you end up with something breaking?</p>",
+    "dtime": 1496000,
+    "ptime": 1496000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>I-D work shall not be stopped by finding a place for I-D, right?</p>",
+    "dtime": 1505000,
+    "ptime": 1505000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: to re-iterate: i think asking cfrg to do this terminology stuff is a pretty bad plan - we'd end up with lots of terms for things the IETF doesn't need is my guess</p>",
+    "dtime": 1510000,
+    "ptime": 1510000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>yeah, CFRG might not be ideal as it is not only cryptography but how to fit it in the protocols</p>",
+    "dtime": 1515000,
+    "ptime": 1515000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: <a href=\"https://datatracker.ietf.org/doc/draft-richardson-saag-onpath-attacker/\">https://datatracker.ietf.org/doc/draft-richardson-saag-onpath-attacker/</a> maybe could go into some new group.</p>",
+    "dtime": 1533000,
+    "ptime": 1533000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: someone has a threading fetish <span aria-label=\"stuck out tongue\" class=\"emoji emoji-1f61b\" role=\"img\" title=\"stuck out tongue\">:stuck_out_tongue:</span></p>",
+    "dtime": 1537000,
+    "ptime": 1537000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22538\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22523\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"205\">Sofia Celi</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22497\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22487\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"927\">John Preuß Mattsson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22478\">said</a>:</p>\n<blockquote>\n<p>Starting a new group just for PQC terminology seems overkill. CFRG seems like the right palce for this.</p>\n</blockquote>\n<p>What about a new WG for \"Cross-cutting PQ Migration Issues\" ?</p>\n</blockquote>\n<p>That sounds very nice</p>\n</blockquote>\n<p>All good, as long as we have more content to assign to this group</p>\n</blockquote>\n<p>How many replies can you have before you end up with something breaking?</p>\n</blockquote>\n<p>Working on finding out...<br>\nAnd does it depend on the browser?</p>",
+    "dtime": 1539000,
+    "ptime": 1539000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>dkg: i'm viewing this through irssi via the XMPP/jabber gateway.  these threaded messages are unreadable</p>",
+    "dtime": 1586000,
+    "ptime": 1586000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: yeah @dkg, it's a fail for me too.</p>",
+    "dtime": 1602000,
+    "ptime": 1602000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: fwiw, the quoting also gets as garbled after the xmpp and then <a href=\"http://matrix.org\">matrix.org</a> g/w:-)</p>",
+    "dtime": 1613000,
+    "ptime": 1613000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22548\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"26\">Martin Thomson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22538\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22523\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"205\">Sofia Celi</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22497\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22487\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"927\">John Preuß Mattsson</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22478\">said</a>:</p>\n<blockquote>\n<p>Starting a new group just for PQC terminology seems overkill. CFRG seems like the right palce for this.</p>\n</blockquote>\n<p>What about a new WG for \"Cross-cutting PQ Migration Issues\" ?</p>\n</blockquote>\n<p>That sounds very nice</p>\n</blockquote>\n<p>All good, as long as we have more content to assign to this group</p>\n</blockquote>\n<p>How many replies can you have before you end up with something breaking?</p>\n</blockquote>\n<p>Working on finding out...<br>\nAnd does it depend on the browser?</p>\n</blockquote>\n<p>There is a \"view source\" button that shows you the internal representation, if you want to get an estimate of what limits might be getting approached.  (I am not convinced there are any that are close by.)</p>",
+    "dtime": 1631000,
+    "ptime": 1631000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Looks fine on IE6.</p>\n<p>j/k</p>",
+    "dtime": 1727000,
+    "ptime": 1727000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this is like hosts.txt for mutual TLS</p>",
+    "dtime": 1762000,
+    "ptime": 1762000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>Given this discussion on PQC agility, we'll do a real-time agenda bash on SAAG to ask the informal question -- \"is there interest to create a pqc WG to initially work on terminology\" + and open the floor for other scope.  A non-binding temperature check.</p>",
+    "dtime": 1776000,
+    "ptime": 1776000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Did I hear both \"JSON\" and \"machine to machine\"?</p>",
+    "dtime": 1782000,
+    "ptime": 1782000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<div class=\"message_inline_image\"><a href=\"https://dkg.fifthhorseman.net/zulip-threading-via-xmpp-via-irssi.png\"><img src=\"/external_content/9b343878a1480a4bd5747c1cc6630fc4d864b229/68747470733a2f2f646b672e6669667468686f7273656d616e2e6e65742f7a756c69702d746872656164696e672d7669612d786d70702d7669612d69727373692e706e67\"></a></div>",
+    "dtime": 1785000,
+    "ptime": 1785000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>@meetecho -- can you please reduce the volume on the remote speaker.  All of the remote participants are coming in very loud.</p>",
+    "dtime": 1807000,
+    "ptime": 1807000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>It's a federation of CAs plus some JSON for key pinning</p>",
+    "dtime": 1816000,
+    "ptime": 1816000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Is just my audio from Stefan hard to understand?</p>",
+    "dtime": 1845000,
+    "ptime": 1845000
+  },
+  {
+    "author": "Christian Veenman",
+    "text": "<p>I have the same. It's a bit low on volume I guess?</p>",
+    "dtime": 1866000,
+    "ptime": 1866000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Stefan's audio is hard for me in the meeting room as well</p>",
+    "dtime": 1874000,
+    "ptime": 1874000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>My question is not really related to the dispatch process...</p>",
+    "dtime": 1879000,
+    "ptime": 1879000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Do the machines in machine-to-machine need to parse this?</p>",
+    "dtime": 1890000,
+    "ptime": 1890000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>The feedback was to use CBOR and not JSON.</p>",
+    "dtime": 1992000,
+    "ptime": 1992000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>@Ben would it help decide if work is needed here?</p>",
+    "dtime": 2036000,
+    "ptime": 2036000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: What I heard is that the health entities that want to use this need a specification against which they can procure.</p>",
+    "dtime": 2060000,
+    "ptime": 2060000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Would a AD sponsorship work for this work?</p>",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: that's why an informal document won't work for him.</p>",
+    "dtime": 2075000,
+    "ptime": 2075000
+  },
+  {
+    "author": "Christian Veenman",
+    "text": "<p>It would be nice if Kathleens volume could be turned a bit higher</p>",
+    "dtime": 2094000,
+    "ptime": 2094000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I don't see how we could do this in IETF without a lot more sign of interest</p>",
+    "dtime": 2101000,
+    "ptime": 2101000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I scanned the draft - I don't see why the FED tls thing isn't a thing to be decided by the tls wg (we seem to be falling back to dispatch in too many such cases in general I reckon)</p>",
+    "dtime": 2107000,
+    "ptime": 2107000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I think even an independent submission would be sufficient</p>",
+    "dtime": 2114000,
+    "ptime": 2114000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, for code point registration, an ID is sufficient</p>",
+    "dtime": 2130000,
+    "ptime": 2130000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>meetecho: Please pivot to speaker</p>",
+    "dtime": 2137000,
+    "ptime": 2137000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I don't want this using time in TLS without more interest</p>",
+    "dtime": 2161000,
+    "ptime": 2161000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I was just going to say that I was confused by the approach which is adding more mechanism.  I'm not sure why just having a root CA for the federation, doing cross-signing or whatever, wouldn't achieve the same goals while requiring less changes on the endpoints involved.</p>",
+    "dtime": 2191000,
+    "ptime": 2191000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>FNV seems like a CFRG thing. (As a participant)</p>",
+    "dtime": 2224000,
+    "ptime": 2224000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @ekr: that's fair, but it's consuming time anyway and IMO in the wrong location - ISTM that bouncing from the tls list to a dispatch group then getting tls wg participants to say \"meh\" is a waste of everyone's effort</p>",
+    "dtime": 2229000,
+    "ptime": 2229000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"499\">@Benjamin Kaduk</span> : They also want key pinning</p>",
+    "dtime": 2233000,
+    "ptime": 2233000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Alexey except it's not crypto :)</p>",
+    "dtime": 2237000,
+    "ptime": 2237000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @alexey: cfrg doing weak crypto seems a bad plan;-(</p>",
+    "dtime": 2261000,
+    "ptime": 2261000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>ISE seems the right approach for having a public specification</p>",
+    "dtime": 2274000,
+    "ptime": 2274000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<ol>\n<li>Why do <em>we</em> need to do it when there's this: <a href=\"https://en.wikipedia.org/wiki/Fowler–Noll–Vo_hash_function\">https://en.wikipedia.org/wiki/Fowler–Noll–Vo_hash_function</a></li>\n<li>Why FNV?  Why not MurMurHash or xxHash?</li>\n</ol>",
+    "dtime": 2320000,
+    "ptime": 2320000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Is this defined for 2^{521}-1? The best prime</p>",
+    "dtime": 2343000,
+    "ptime": 2343000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Can we just reference the IEEE Std then?</p>",
+    "dtime": 2376000,
+    "ptime": 2376000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>inb4 the IEEE standard is pay-to-access</p>",
+    "dtime": 2402000,
+    "ptime": 2402000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"370\">Alexey Melnikov</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22691\">said</a>:</p>\n<blockquote>\n<p>FNV seems like a CFRG thing. (As a participant)</p>\n</blockquote>\n<p>As it is non-cryptographic I am not sure it even belongs in secdispatch.....</p>",
+    "dtime": 2405000,
+    "ptime": 2405000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>That is what i said!</p>",
+    "dtime": 2421000,
+    "ptime": 2421000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Okay, well then ISE.</p>",
+    "dtime": 2424000,
+    "ptime": 2424000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>ISE looks like the right approach.</p>",
+    "dtime": 2445000,
+    "ptime": 2445000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: ISE seems right to me, if some standard needs to refer to it, there's the downref registry</p>",
+    "dtime": 2446000,
+    "ptime": 2446000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>ISE seems reasonable</p>",
+    "dtime": 2448000,
+    "ptime": 2448000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: -1 to paul - we have a downref registry</p>",
+    "dtime": 2551000,
+    "ptime": 2551000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>HMAC is informational and is used in numerous std documents.</p>",
+    "dtime": 2576000,
+    "ptime": 2576000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>RFC 2104</p>",
+    "dtime": 2580000,
+    "ptime": 2580000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I don't think that reasoning for the ISE makes sense, but if the ISE has rejected on this basis, I guess that's independence on his part.</p>",
+    "dtime": 2599000,
+    "ptime": 2599000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22684\">said</a>:</p>\n<blockquote>\n<p>I was just going to say that I was confused by the approach which is adding more mechanism.  I'm not sure why just having a root CA for the federation, doing cross-signing or whatever, wouldn't achieve the same goals while requiring less changes on the endpoints involved.</p>\n</blockquote>\n<p>I asked a similar question on-list. The answer is that this draft is _also_ trying to solve the service discovery problem, as well as allowing for servers to have self-signed certs that get picked up and rolled into the federated thingie.</p>",
+    "dtime": 2606000,
+    "ptime": 2606000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @ted: did the ise reject this? I didn't hear that</p>",
+    "dtime": 2635000,
+    "ptime": 2635000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"325\">Yoav Nir</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22711\">said</a>:</p>\n<blockquote>\n<ol>\n<li>Why do <em>we</em> need to do it when there's this: <a href=\"https://en.wikipedia.org/wiki/Fowler–Noll–Vo_hash_function\">https://en.wikipedia.org/wiki/Fowler–Noll–Vo_hash_function</a></li>\n<li>Why FNV?  Why not MurMurHash or xxHash?</li>\n</ol>\n</blockquote>\n<p>Because an RFC is more permanent and authoritative than a wikipedia page?</p>",
+    "dtime": 2648000,
+    "ptime": 2648000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Ah, thanks for repeating that, Mike.</p>",
+    "dtime": 2649000,
+    "ptime": 2649000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>The reference to FNV in RFC 7873 is informative. Does that affect the decision?</p>",
+    "dtime": 2668000,
+    "ptime": 2668000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: yep, GOTO ISE</p>",
+    "dtime": 2781000,
+    "ptime": 2781000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>omg</p>",
+    "dtime": 2790000,
+    "ptime": 2790000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>lol @md5</p>",
+    "dtime": 2804000,
+    "ptime": 2804000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>the hashfunction that shall not be named</p>",
+    "dtime": 2818000,
+    "ptime": 2818000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>We have to get rid of MD5 in ALL applications because every time it is used, it requires a security audit.</p>",
+    "dtime": 2839000,
+    "ptime": 2839000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Why would we avoid saying the name \"md5\"?</p>",
+    "dtime": 2859000,
+    "ptime": 2859000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I wasn't hearing much support for ad sponsor fwiw, more for iSE</p>",
+    "dtime": 2861000,
+    "ptime": 2861000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22811\">said</a>:</p>\n<blockquote>\n<p>Why would we avoid saying the name \"md5\"?</p>\n</blockquote>\n<p>I assume MD5 is the Lord Voldemort of hash functions.....</p>",
+    "dtime": 2923000,
+    "ptime": 2923000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: meta-comment: I don't think this dispatch process is working well this time (2/3 of the outcomes are not how I'd have interpreted the discussion)</p>",
+    "dtime": 2967000,
+    "ptime": 2967000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Was the summary for PQ terminology \"new WG or ISE\" or \"new WG or CFRG\"?  I thought I saw the latter but heard the former.</p>",
+    "dtime": 2998000,
+    "ptime": 2998000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>+1</p>",
+    "dtime": 3029000,
+    "ptime": 3029000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>We were opposed to AD-sponsored because it doesn't get enough review.  ISE is worse in that regard</p>",
+    "dtime": 3039000,
+    "ptime": 3039000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i ran into someone the other day with <a href=\"mailto:superuser@gmail.com\">superuser@gmail.com</a></p>",
+    "dtime": 3078000,
+    "ptime": 3078000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span>  do they have god-like powers?</p>",
+    "dtime": 3099000,
+    "ptime": 3099000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>+1000 to dkg</p>",
+    "dtime": 3111000,
+    "ptime": 3111000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>'dangerous labels' seems like it would be a growing list</p>",
+    "dtime": 3118000,
+    "ptime": 3118000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Maybe it needs an IANA registry ;)</p>",
+    "dtime": 3140000,
+    "ptime": 3140000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>That occurred to me too, but it would be an unusual use of IANA</p>",
+    "dtime": 3170000,
+    "ptime": 3170000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>re: pq, I think we are going to do agenda bashing at saag</p>",
+    "dtime": 3185000,
+    "ptime": 3185000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"99\">Jim Fenton</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22862\">said</a>:</p>\n<blockquote>\n<p>That occurred to me too, but it would be an unusual use of IANA</p>\n</blockquote>\n<p>I mean the names aren't really being \"assigned\" per se... But that being said, it fits with a growing list?</p>",
+    "dtime": 3258000,
+    "ptime": 3258000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>if only we had mutable RFCs!</p>",
+    "dtime": 3285000,
+    "ptime": 3285000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22886\">said</a>:</p>\n<blockquote>\n<p>if only we had mutable RFCs!</p>\n</blockquote>\n<p>Wiki RFC!</p>",
+    "dtime": 3310000,
+    "ptime": 3310000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i would settle for versioned RFCs</p>",
+    "dtime": 3320000,
+    "ptime": 3320000
+  },
+  {
+    "author": "Roman Danyliw",
+    "text": "<p>We're going to continue here for SAAG</p>",
+    "dtime": 3340000,
+    "ptime": 3340000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22847\">said</a>:</p>\n<blockquote>\n<p>i ran into someone the other day with <a href=\"mailto:superuser@gmail.com\">superuser@gmail.com</a></p>\n</blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"499\">Benjamin Kaduk</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/22851\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"526\">Richard Barnes</span>  do they have god-like powers?</p>\n</blockquote>\n<p>Well Murray does (did?) work at FB, so ... yes?</p>",
+    "dtime": 3341000,
+    "ptime": 3341000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Could I be a WG chair if I were just 10 years old?</p>",
+    "dtime": 3352000,
+    "ptime": 3352000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>Doesn't the LLC have to try really hard to not collect information about people under 13?</p>",
+    "dtime": 3375000,
+    "ptime": 3375000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Errata harvesting sounds like taking a scythe to errata</p>",
+    "dtime": 3397000,
+    "ptime": 3397000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>We are talking in the secdispatch stream ... \"these errata need to be 'dispatched'\" <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "dtime": 3426000,
+    "ptime": 3426000
+  },
+  {
+    "author": "Wendy Seltzer",
+    "text": "<p>Do the ADs prescribe shepherding as an aid against insomnia?</p>",
+    "dtime": 3443000,
+    "ptime": 3443000
+  },
+  {
+    "author": "Wendy Seltzer",
+    "text": "<p>but in more seriousness, thank you</p>",
+    "dtime": 3486000,
+    "ptime": 3486000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: Many chairs try to step down regularly, and fail.</p>",
+    "dtime": 3504000,
+    "ptime": 3504000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>I stepped down from ACME for just that reason.</p>",
+    "dtime": 3506000,
+    "ptime": 3506000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>And i think Deb Cooley has forgiven me by now</p>",
+    "dtime": 3525000,
+    "ptime": 3525000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>it has been my practice for a while to refuse to co-chair things unless i have a junior co-chair</p>",
+    "dtime": 3531000,
+    "ptime": 3531000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>there's a side benefit that new folks tend to be willing to do work :)</p>",
+    "dtime": 3548000,
+    "ptime": 3548000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>shout out to Shivan, who is doing a great job as OHAI co-chair</p>",
+    "dtime": 3590000,
+    "ptime": 3590000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>LAKE, MLS, OHAI ... great work on the errata front! <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+    "dtime": 3630000,
+    "ptime": 3630000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: @Richard, I like your practice.</p>",
+    "dtime": 3643000,
+    "ptime": 3643000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: LAKE errata are easy, us not having any RFCs:-)</p>",
+    "dtime": 3704000,
+    "ptime": 3704000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Yeahhh PPM!</p>",
+    "dtime": 3720000,
+    "ptime": 3720000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>Question for the people using jabber: in zulip there are two emoji reactions posted to <span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span>  comments. Do you see them? And that I tagged Richard (and got a new notifiation that he's not subscribed to the zulip stream)</p>",
+    "dtime": 3750000,
+    "ptime": 3750000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>the tag yes, the emoji reactions (or edits to posts) no</p>",
+    "dtime": 3781000,
+    "ptime": 3781000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>And I just edited my message, do you see that?</p>",
+    "dtime": 3787000,
+    "ptime": 3787000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>euh that's in meetecho</p>",
+    "dtime": 3789000,
+    "ptime": 3789000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@rich no emoji reactions or edits in MeetEcho</p>",
+    "dtime": 3799000,
+    "ptime": 3799000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @rich: don't think I see those</p>",
+    "dtime": 3804000,
+    "ptime": 3804000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>So now you folks know some of what you're missing out ;)</p>",
+    "dtime": 3840000,
+    "ptime": 3840000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: Rich, I see smileys from Richard's message, but I see no responses via xmpp.</p>",
+    "dtime": 3914000,
+    "ptime": 3914000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>MichaelRichardson: we are out, but not really missing out.</p>",
+    "dtime": 3948000,
+    "ptime": 3948000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>There is a mistake in the chairs' slides regarding the status of UTA - the info seems to be copy-pasted from TLS</p>",
+    "dtime": 4008000,
+    "ptime": 4008000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: speaking of which how'd that mimi discussion go yesterday?</p>",
+    "dtime": 4025000,
+    "ptime": 4025000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>I'd like to know too</p>",
+    "dtime": 4071000,
+    "ptime": 4071000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I'll ask @mic if anyone wants to tell s</p>",
+    "dtime": 4101000,
+    "ptime": 4101000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: surprised nobody wants to tell us, maybe it's a secret cabal :-)</p>",
+    "dtime": 4148000,
+    "ptime": 4148000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>nothing really notable tbh</p>",
+    "dtime": 4178000,
+    "ptime": 4178000
+  },
+  {
+    "author": "Prachi Jain",
+    "text": "<p>On the topic of new folks and leadership opportunities, this is my first time co-chairing (TIGRESS) and my experienced co-chair Leif has been extremely supportive and a great mentor. For newcomers, please come forward and take up the challenge. It’s fun and rewarding !!</p>",
+    "dtime": 4335000,
+    "ptime": 4335000
+  },
+  {
+    "author": "Shivan Sahib",
+    "text": "<p>Yeah, shout out to Richard for being a very supportive co-chair :)</p>",
+    "dtime": 4408000,
+    "ptime": 4408000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>brb filing some errata</p>",
+    "dtime": 4425000,
+    "ptime": 4425000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>if only we had versioned RFCs, so HFDU wasn't meaningless!</p>",
+    "dtime": 4441000,
+    "ptime": 4441000
+  },
+  {
+    "author": "Benjamin Kaduk",
+    "text": "<p>I hear that <code>aspell</code> is great at finding errata in the RFC corpus.</p>",
+    "dtime": 4459000,
+    "ptime": 4459000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>Yeah, shoutout to Mallory for helping this newcomer co-chair doing it right ;)</p>",
+    "dtime": 4521000,
+    "ptime": 4521000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@ RichSalz  - nope, LOL</p>",
+    "dtime": 4530000,
+    "ptime": 4530000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>FYI the trust anchor configuration draft presented in RATS that I mentioned at the mic earlier is: draft-wallace-rats-concise-ta-stores</p>",
+    "dtime": 4697000,
+    "ptime": 4697000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>question raised was where to dispatch it since there is likely interest from at least 3 wgs but is more general than any of those three (rats, suit, teep)</p>",
+    "dtime": 4758000,
+    "ptime": 4758000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: +1 to ekr's \"premature\"</p>",
+    "dtime": 4798000,
+    "ptime": 4798000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>we know ssh too ekr, but no one can work on pq kems in ssh as it is right now</p>",
+    "dtime": 4823000,
+    "ptime": 4823000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Why can't people work on PQ KEMs in SSH?</p>",
+    "dtime": 4923000,
+    "ptime": 4923000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>+1 to Mike</p>",
+    "dtime": 4927000,
+    "ptime": 4927000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Seems to me that CFRG (albeit an RG) is quite influential in forming ideas and promoting CF related topics outside the IETF. I think having PQC is a very valuable forum for the IETF.</p>",
+    "dtime": 4928000,
+    "ptime": 4928000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>what wg?</p>",
+    "dtime": 4931000,
+    "ptime": 4931000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>@ekr</p>\n<blockquote>\n<p>Why can't people work on PQ KEMs in SSH? <br>\nThere is no WG.</p>\n</blockquote>",
+    "dtime": 4964000,
+    "ptime": 4964000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Panos:  I'm not averse to creating a maintenance group eventually.</p>",
+    "dtime": 5037000,
+    "ptime": 5037000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: I don't agree with phb that an irtf research group would be appropriate - the problems with integrating pq algs are engineering ones, not research</p>",
+    "dtime": 5087000,
+    "ptime": 5087000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>For many orphaned protocols the correct answer will be 'now is the time you die'.</p>",
+    "dtime": 5095000,
+    "ptime": 5095000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: +1 to mcr: lamps seems to me to be getting ahead of itself in the signature space</p>",
+    "dtime": 5128000,
+    "ptime": 5128000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>@sftcd, Engineering is research if nobody has built it before.</p>",
+    "dtime": 5144000,
+    "ptime": 5144000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>+1 to sftcd.</p>",
+    "dtime": 5147000,
+    "ptime": 5147000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>You said it is premature. it is not premature for TLS, IPSECME, X509, but it is for SSH? I guess my argument is that SSH is a common protocol that needs uplift as well and we can't standardize PQ-hybrid in it bc there is no WG.</p>",
+    "dtime": 5152000,
+    "ptime": 5152000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: @panos: write a draft!</p>",
+    "dtime": 5194000,
+    "ptime": 5194000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Revive LTANS</p>",
+    "dtime": 5198000,
+    "ptime": 5198000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>(bit of context: OpenSSH has made NTRUPrime the default in version 8.9, so some SSH stuff is happening in the background)</p>",
+    "dtime": 5199000,
+    "ptime": 5199000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>i got a draft, it is sitting in github and i am the only one complying with it! ;)</p>",
+    "dtime": 5218000,
+    "ptime": 5218000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I wasn't saying we should wait about.</p>",
+    "dtime": 5268000,
+    "ptime": 5268000
+  },
+  {
+    "author": "Panos Kampanakis",
+    "text": "<p>@(bit of context: OpenSSH has made NTRUPrime the default in version 8.9, so some SSH stuff is happening in the background) </p>\n<p>That leads to 10 different implementations. Openssh its own, OQS OpenSSH its own, I got my own too. Great!</p>",
+    "dtime": 5279000,
+    "ptime": 5279000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>I have noticed a long history of people demanding fast fast fast and ending up with slow as a result.</p>",
+    "dtime": 5302000,
+    "ptime": 5302000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>I agree with Scott - this is a huge tasks for the Industry (outside the browser's environments as noted by Michael). We need to move forward with securing data at rest, signatures, and encryption. We have the issue of education for engineers to better understand the new algorithms - IMHO it is not too early today.</p>",
+    "dtime": 5310000,
+    "ptime": 5310000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>+1 to Scott starting now / soon on pq rather than waiting until it is too late.  A Bof at 115 seems like a reasonable start</p>",
+    "dtime": 5333000,
+    "ptime": 5333000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: +1 to paul H</p>",
+    "dtime": 5363000,
+    "ptime": 5363000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Just keep in mind that quantum is the current threat, but it might not be the only one. Practical Algorithm Agility is the elephant in the room here, IMHO.</p>",
+    "dtime": 5368000,
+    "ptime": 5368000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>+1 Paul</p>",
+    "dtime": 5377000,
+    "ptime": 5377000
+  },
+  {
+    "author": "Thomas Hardjono",
+    "text": "<p>Paul: +1. Need to start now</p>",
+    "dtime": 5398000,
+    "ptime": 5398000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: on the pq signature/PKI stuff - I'd expect either that x.509 libraries don't get updated for pq, or they do, and end up full of new exciting bugs (at least with what I think is currently planned)</p>",
+    "dtime": 5417000,
+    "ptime": 5417000
+  },
+  {
+    "author": "Christian Veenman",
+    "text": "<p>Sofia 1</p>",
+    "dtime": 5418000,
+    "ptime": 5418000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Of course this also applies to all the traffic we have been sending for the past 20 years</p>",
+    "dtime": 5419000,
+    "ptime": 5419000
+  },
+  {
+    "author": "Christian Veenman",
+    "text": "<p>+1*</p>",
+    "dtime": 5423000,
+    "ptime": 5423000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>+f1 Sofi</p>",
+    "dtime": 5429000,
+    "ptime": 5429000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Dilithium/Falcon/Sphinx will take a tad bit more time it seems.</p>",
+    "dtime": 5441000,
+    "ptime": 5441000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p>Thats why it is so important to start from key exchange protocols, not from signatures....</p>",
+    "dtime": 5467000,
+    "ptime": 5467000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>I don't interpret the NIST report as NIST has completely punted PQC signatures. The way the on-ramp is written basically only invites UOV (they want _mature_ schemes with small signatures and fast verification). UOV has 400k public keys; way less practical than Dilithium/Falcon.</p>",
+    "dtime": 5493000,
+    "ptime": 5493000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"64\">@Tero Kivinen</span> But I will need a way to deploy new secure applications, a way to maintain trust relationships.</p>",
+    "dtime": 5546000,
+    "ptime": 5546000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>\"Why now?\" --&gt; because people need to mint 20 year root CAs and ship them off in a device that you'll never touch again.<br>\n--&gt; because people need to encrypt data now and stick it in cold storage, hopefully to remain confidential for 20+ years</p>\n<p>If we wait until QCs are here, then it's too late.</p>",
+    "dtime": 5567000,
+    "ptime": 5567000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: fwiw, I disagree with the speaker that sigs/certs are needed now (I don't doubt they're being asked for/about that)</p>",
+    "dtime": 5618000,
+    "ptime": 5618000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>It is to be noted that there are already commercial and open-source implementations for Composite Crypto (Hybrid) and Open-Source solutions. There is a very vivid demand from many environments. In our case, we need to start planning for the next 20 years and we need the tools to do so.</p>",
+    "dtime": 5638000,
+    "ptime": 5638000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>this is why i don't have children</p>",
+    "dtime": 5686000,
+    "ptime": 5686000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>I myself hope to live for another 50 years or so :p</p>",
+    "dtime": 5708000,
+    "ptime": 5708000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"677\">Phillip Hallam-Baker</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/23206\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"64\">Tero Kivinen</span> But I will need a way to deploy new secure applications, a way to maintain trust relationships.</p>\n</blockquote>\n<p>True, but not sure we have proper ways of doing that yet, but we do have methods of solving the decrypting the data we transmitted years ago by updating the key exchange methods now.</p>",
+    "dtime": 5735000,
+    "ptime": 5735000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>Yoshiro Yoneya: +1 to Russ</p>",
+    "dtime": 5741000,
+    "ptime": 5741000
+  },
+  {
+    "author": "Jabber",
+    "text": "<p>sftcd: we don't (and won't) have any crypto that can protect genetic information that'll still be sensitive in 100+ years so I'm less convinced by that kind of argument</p>",
+    "dtime": 5744000,
+    "ptime": 5744000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>yes, there will be a second call for proposals for signatures. But, in the NIST process there has been a lack of data on what protocols need from sizes and times, so we can provide those points</p>",
+    "dtime": 5765000,
+    "ptime": 5765000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>+1 EKR</p>",
+    "dtime": 5799000,
+    "ptime": 5799000
+  },
+  {
+    "author": "Jonathan Hammell",
+    "text": "<p>What about doing a poll?</p>",
+    "dtime": 5840000,
+    "ptime": 5840000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"205\">Sofia Celi</span> <a href=\"#narrow/stream/185-secdispatch/topic/jabber/near/23236\">said</a>:</p>\n<blockquote>\n<p>yes, there will be a second call for proposals for signatures. But, in the NIST process there has been a lack of data on what protocols need from sizes and times, so we can provide those points</p>\n</blockquote>\n<p>Many applications of signatures can be addressed using hash chain approaches. So it is not quite such a big concern. We can use Lamport sigs even...<br>\nSo key exchange is the near term priority.</p>",
+    "dtime": 5863000,
+    "ptime": 5863000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>yes, key exchange should be the priority. But authentication will be soo slow to migrate. I don't image CA migrating anytime soon</p>",
+    "dtime": 5903000,
+    "ptime": 5903000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-SECDISPATCH-20220726-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/secdispatch"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-SECDISPATCH-20220726-1400"
+		}		
+	]
+}

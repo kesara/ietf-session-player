@@ -1,0 +1,224 @@
+
+{
+	"title": "IETF120-PCE-20240725-2200",
+	"filename": "IETF120-PCE-20240725-2200",
+	"start": 0,
+	"end": 5282000,
+	"start_datetime": "2024-07-25T22:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "lDVCvmTLypI",
+    "start": 0,
+    "end": "5282000"
+  }
+],
+	"messages": [
+  {
+    "author": "John Scudder",
+    "text": "<p>Living the dream!</p>",
+    "topic": "ietf-120",
+    "dtime": 39000,
+    "ptime": 39000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>That dream with the large spiders?</p>",
+    "topic": "ietf-120",
+    "dtime": 144000,
+    "ptime": 144000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>The dream of enjoying the meeting in my basement instead of beautiful Vancouver. Beats spiders at least.</p>",
+    "topic": "ietf-120",
+    "dtime": 251000,
+    "ptime": 251000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>Hi!</p>",
+    "topic": "ietf-120",
+    "dtime": 362000,
+    "ptime": 362000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Pretty sure I approved draft-ietf-pce-sid-algo, LMK if there's still anything pending.</p>",
+    "topic": "ietf-120",
+    "dtime": 591000,
+    "ptime": 591000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Oh that was the renewal. Let me check on the allocation request.</p>",
+    "topic": "ietf-120",
+    "dtime": 608000,
+    "ptime": 608000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>There are two approvals one for the past renewal and one for new allocations</p>",
+    "topic": "ietf-120",
+    "dtime": 620000,
+    "ptime": 620000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Fixed. :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 640000,
+    "ptime": 640000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>We will have a new RFC, RFC9603, very soon, thanks to the people who contributed and helped to/on this draft :)</p>",
+    "topic": "ietf-120",
+    "dtime": 677000,
+    "ptime": 677000
+  },
+  {
+    "author": "Julien Meuric",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"174\">John Scudder</span> <a href=\"#narrow/stream/253-pce/topic/ietf-120/near/129955\">said</a>:</p>\n<blockquote>\n<p>Fixed. :-)</p>\n</blockquote>\n<p>Thanks John!</p>",
+    "topic": "ietf-120",
+    "dtime": 753000,
+    "ptime": 753000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>I will follow up the priority(which is approaching to publication has higher priority) to handle all the documents I co-authored. It takes some time, but don't worry :)</p>",
+    "topic": "ietf-120",
+    "dtime": 795000,
+    "ptime": 795000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>its a midlay :)</p>",
+    "topic": "ietf-120",
+    "dtime": 2017000,
+    "ptime": 2017000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>no concerns</p>",
+    "topic": "ietf-120",
+    "dtime": 2514000,
+    "ptime": 2514000
+  },
+  {
+    "author": "Clayton Hassen",
+    "text": "<p>good job hooman</p>",
+    "topic": "ietf-120",
+    "dtime": 2538000,
+    "ptime": 2538000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>We created this notes page to get feedback on this topic from Cheng -&gt; <a href=\"https://notes.ietf.org/draft-ietf-pce-controlled-id-space?view\">https://notes.ietf.org/draft-ietf-pce-controlled-id-space?view</a></p>",
+    "topic": "ietf-120",
+    "dtime": 2635000,
+    "ptime": 2635000
+  },
+  {
+    "author": "Dan Voyer",
+    "text": "<p>seems like options 6 is best from both (all) world</p>",
+    "topic": "ietf-120",
+    "dtime": 3017000,
+    "ptime": 3017000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>yes, good point!</p>",
+    "topic": "ietf-120",
+    "dtime": 3450000,
+    "ptime": 3450000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>Notification can provide a mechanism to update the info of the Open msg without resetting the connection</p>",
+    "topic": "ietf-120",
+    "dtime": 3479000,
+    "ptime": 3479000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I don't want to use mic time for this because I'm not familiar enough with PCEP, but dynamically updating stuff from OPEN messages ran aground hard with respect to BGP (\"dynamic capability\"). This was basically because some stuff carried in BGP OPENs creates large state that can't easily (or at all) be unwound and redone without cycling the session.</p>",
+    "topic": "ietf-120",
+    "dtime": 3606000,
+    "ptime": 3606000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Everything can be done (\"with enough thrust even a brick can fly\") but the juice was not worth the squeeze.</p>",
+    "topic": "ietf-120",
+    "dtime": 3642000,
+    "ptime": 3642000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>John - agree, but something to consider is PCE maintains state even if PCEP session has flapped (i.e state timeout timer). So whether the PCEP session flapped with new values or whether an update comes in, some form of \"sweep\" on the state is likely required anyways</p>",
+    "topic": "ietf-120",
+    "dtime": 3685000,
+    "ptime": 3685000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Ack</p>",
+    "topic": "ietf-120",
+    "dtime": 3706000,
+    "ptime": 3706000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Thanks John! Good point on how much of churn would be needed but this is nothing that PCE cant handle (i think) <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 3738000,
+    "ptime": 3738000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>....(also by update i should really say \"content refresh\" to not be confused with PcUpdate)</p>",
+    "topic": "ietf-120",
+    "dtime": 3772000,
+    "ptime": 3772000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>bye all!</p>",
+    "topic": "ietf-120",
+    "dtime": 5268000,
+    "ptime": 5268000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>bye</p>",
+    "topic": "ietf-120",
+    "dtime": 5269000,
+    "ptime": 5269000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>bye!</p>",
+    "topic": "ietf-120",
+    "dtime": 5272000,
+    "ptime": 5272000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-PCE-20240725-2200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/pce"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-PCE-20240725-2200"
+		}		
+	]
+}

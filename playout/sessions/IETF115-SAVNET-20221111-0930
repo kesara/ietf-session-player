@@ -1,0 +1,182 @@
+
+{
+	"title": "IETF115-SAVNET-20221111-0930",
+	"filename": "IETF115-SAVNET-20221111-0930",
+	"start": 0,
+	"end": 7582000,
+	"start_datetime": "2022-11-11T09:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "i7L_9y0q-tw",
+    "start": 0,
+    "end": "7582000"
+  }
+],
+	"messages": [
+  {
+    "author": "Joel Halpern",
+    "text": "<p>I added the bar-sav document to the wg individual documents list.</p>",
+    "topic": "jabber",
+    "dtime": 370000,
+    "ptime": 370000
+  },
+  {
+    "author": "Kotikalapudi Sriram",
+    "text": "<p>@Roland: Can you please share some pointers for the measurements showing reductions in successful DDoS attacks?</p>",
+    "topic": "jabber",
+    "dtime": 3097000,
+    "ptime": 3097000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p>@Kotikalapuni — <a href=\"http://www.netscout.com/threatreport\">http://www.netscout.com/threatreport</a></p>",
+    "topic": "jabber",
+    "dtime": 3930000,
+    "ptime": 3930000
+  },
+  {
+    "author": "Mingqing Huang",
+    "text": "<p>@ Sriram, yes indeed, if EFP-uRPF is widely deployed anywhere, it will   work well for reflective attacks. the problems is that we can not asume that, we may need consider problem based on partial deployment/ collaboration</p>",
+    "topic": "jabber",
+    "dtime": 4488000,
+    "ptime": 4488000
+  },
+  {
+    "author": "Kotikalapudi Sriram",
+    "text": "<p>@Roland: Thank you. I go by Sriram</p>",
+    "topic": "jabber",
+    "dtime": 4531000,
+    "ptime": 4531000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p>@Sriram — right, I just saw that the name-order was backwards, apologies.  ;&gt;</p>",
+    "topic": "jabber",
+    "dtime": 4555000,
+    "ptime": 4555000
+  },
+  {
+    "author": "Kotikalapudi Sriram",
+    "text": "<p>@Mingqing  Not widely. Just AS1 in slide 7 can deploy it on the customer side on the other side where the attack is originating from.</p>",
+    "topic": "jabber",
+    "dtime": 4865000,
+    "ptime": 4865000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p>We're hearing audio from the room, but not from the presenter.</p>",
+    "topic": "jabber",
+    "dtime": 5194000,
+    "ptime": 5194000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p>We remote folks can't hear the presenter, who is presumably remote, as well.</p>",
+    "topic": "jabber",
+    "dtime": 5225000,
+    "ptime": 5225000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p>Now we can.  ;&gt;</p>",
+    "topic": "jabber",
+    "dtime": 5236000,
+    "ptime": 5236000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-baker-sava-cisco-ip-source-guard-00\">https://datatracker.ietf.org/doc/html/draft-baker-sava-cisco-ip-source-guard-00</a></p>",
+    "topic": "jabber",
+    "dtime": 6059000,
+    "ptime": 6059000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Volume is too low.</p>",
+    "topic": "jabber",
+    "dtime": 6246000,
+    "ptime": 6246000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p><a href=\"https://www.cisco.com/c/en/us/support/docs/broadband-cable/cable-security/20691-source-verify.html\">https://www.cisco.com/c/en/us/support/docs/broadband-cable/cable-security/20691-source-verify.html</a></p>",
+    "topic": "jabber",
+    "dtime": 6249000,
+    "ptime": 6249000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>Better, thank you.</p>",
+    "topic": "jabber",
+    "dtime": 6275000,
+    "ptime": 6275000
+  },
+  {
+    "author": "Kotikalapudi Sriram",
+    "text": "<p>@Mingqing   Also, if you are comparing with the existing solutions like EFP-uRPF, perhaps BAR-SAV should be included, especially since it is a significant improvement over EFP-uRPF. I realize it is still under discussion in IETF. But it is fairly well documented.</p>",
+    "topic": "jabber",
+    "dtime": 7109000,
+    "ptime": 7109000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>If you have any question, please  send it to the mail</p>",
+    "topic": "jabber",
+    "dtime": 7112000,
+    "ptime": 7112000
+  },
+  {
+    "author": "Aijun Wang",
+    "text": "<p>we are overtime now. 3 more minutes for the entire session</p>",
+    "topic": "jabber",
+    "dtime": 7191000,
+    "ptime": 7191000
+  },
+  {
+    "author": "Roland Dobbins",
+    "text": "<p>Where can we see the source code for the implementation of this SAV mechanism?</p>",
+    "topic": "jabber",
+    "dtime": 7287000,
+    "ptime": 7287000
+  },
+  {
+    "author": "Doug Montgomery",
+    "text": "<p>What device was the DUT in these tests?</p>",
+    "topic": "jabber",
+    "dtime": 7292000,
+    "ptime": 7292000
+  },
+  {
+    "author": "Mingqing Huang",
+    "text": "<p>@ Sriram, sure. BAR-SAV is a good proprosal to address the  limitation of algorithm A of current RFC.  however , in general,  the goal is still focus on the spoofed traffic going outside the CC</p>",
+    "topic": "jabber",
+    "dtime": 7394000,
+    "ptime": 7394000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>A few observations from a quick read of the drafts:</p>",
+    "topic": "jabber",
+    "dtime": 7535000,
+    "ptime": 7535000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-SAVNET-20221111-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/savnet"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-SAVNET-20221111-0930"
+		}		
+	]
+}

@@ -1,0 +1,257 @@
+
+{
+	"title": "IETF114-UTA-20220727-1730",
+	"filename": "IETF114-UTA-20220727-1730",
+	"start": 0,
+	"end": 2890000,
+	"start_datetime": "2022-07-27T17:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "UylbMNuVZP4",
+    "start": 0,
+    "end": "2890000"
+  }
+],
+	"messages": [
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>I can watch zulip/chat</p>",
+    "dtime": 89000,
+    "ptime": 89000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>Thanks Ben!</p>",
+    "dtime": 116000,
+    "ptime": 116000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>I would like this done, but I am not convinced that doing it in the same document is a good idea.</p>",
+    "dtime": 456000,
+    "ptime": 456000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>@Alexey: do you want to relay this to the room?</p>",
+    "dtime": 553000,
+    "ptime": 553000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Sure</p>",
+    "dtime": 568000,
+    "ptime": 568000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Name constraints are defined for IP addresses</p>",
+    "dtime": 893000,
+    "ptime": 893000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>(just looked yesterday)</p>",
+    "dtime": 899000,
+    "ptime": 899000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>I will review the PR and can either say “it is fine as a patch” or will propose a separate draft</p>",
+    "dtime": 968000,
+    "ptime": 968000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"370\">@Alexey Melnikov</span> thanks</p>",
+    "dtime": 1002000,
+    "ptime": 1002000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"672\">@Erik Nygren</span> oh dear, I don't think that we support those...  I'll have to check now</p>",
+    "dtime": 1019000,
+    "ptime": 1019000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Of course name constraints are really out of scope for this work.</p>",
+    "dtime": 1047000,
+    "ptime": 1047000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>it does them as doubling up the octet strings: one with the prefix, the other with a bitmask.</p>",
+    "dtime": 1074000,
+    "ptime": 1074000
+  },
+  {
+    "author": "Corey Bonnell",
+    "text": "<p>and the bitmask encodes the CIDR prefix in a terribly bloated fashion</p>",
+    "dtime": 1123000,
+    "ptime": 1123000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>I think CAA could also really benefit from being defined for IP addresses.</p>",
+    "dtime": 1139000,
+    "ptime": 1139000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>yeah, it uses a netmask rather than a prefix length.  (which really makes me wonder what happens if it is sparse0</p>",
+    "dtime": 1217000,
+    "ptime": 1217000
+  },
+  {
+    "author": "Corey Bonnell",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"672\">Erik Nygren</span> <a href=\"#narrow/stream/136-uta/topic/jabber/near/26764\">said</a>:</p>\n<blockquote>\n<p>yeah, it uses a netmask rather than a prefix length.  (which really makes me wonder what happens if it is sparse0</p>\n</blockquote>\n<p><a href=\"https://github.com/mozilla/pkipolicy/issues/216\">https://github.com/mozilla/pkipolicy/issues/216</a></p>",
+    "dtime": 1357000,
+    "ptime": 1357000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>that is not true</p>",
+    "dtime": 1948000,
+    "ptime": 1948000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"651\">@Steffen Fries</span> try typing the answer here :)</p>",
+    "dtime": 1958000,
+    "ptime": 1958000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>we can diskcuss on the list</p>",
+    "dtime": 1959000,
+    "ptime": 1959000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>It sounds like the suggestion I made might work, but it would require some application-level changes to have it work properly.</p>",
+    "dtime": 1993000,
+    "ptime": 1993000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>you might try a page reload</p>",
+    "dtime": 1994000,
+    "ptime": 1994000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>\"have you turned it off and on again\"</p>",
+    "dtime": 2079000,
+    "ptime": 2079000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>One of the reasons to recheck a certificate was that for  expired certificates or revoked certificates shall not be used to open a TLS session. This requirement was taken over for long lived connections. With renegotiation this could be checked in ongoing connections. In TLS 1.3 it requires the application to do this verification.</p>",
+    "dtime": 2169000,
+    "ptime": 2169000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>as renegotiation cannot be used to trigger this. This in turn requires the application to store the certificate</p>",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Is this syslog thing on github?</p>",
+    "dtime": 2288000,
+    "ptime": 2288000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>i would review too</p>",
+    "dtime": 2315000,
+    "ptime": 2315000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>I read the draft and it looked fine to me.</p>",
+    "dtime": 2325000,
+    "ptime": 2325000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>So yes, WGLC it</p>",
+    "dtime": 2343000,
+    "ptime": 2343000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"651\">@Steffen Fries</span> Steffen, I assume that the application is always required to do some of the checking, is that right?</p>",
+    "dtime": 2353000,
+    "ptime": 2353000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>@Martin: The draft is adopted, it's UTA WG doc</p>",
+    "dtime": 2362000,
+    "ptime": 2362000
+  },
+  {
+    "author": "Steffen Fries",
+    "text": "<p>yes, true, the diffference is that it now has to store the certificate to recheck it</p>",
+    "dtime": 2386000,
+    "ptime": 2386000
+  },
+  {
+    "author": "Valery Smyslov",
+    "text": "<p>I don't know if it is on github</p>",
+    "dtime": 2392000,
+    "ptime": 2392000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"110\">@Valery Smyslov</span> I was just lookingto make a very minor tweak, best provided as a pull request.  Maybe <span class=\"user-mention\" data-user-id=\"476\">@Sean Turner</span> or <span class=\"user-mention\" data-user-id=\"127\">@Joseph Salowey</span> can point me in that direction.</p>",
+    "dtime": 2440000,
+    "ptime": 2440000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Claiming all customer IP space with a wildcard certificate really sounds like asking for trouble...</p>",
+    "dtime": 2530000,
+    "ptime": 2530000
+  },
+  {
+    "author": "Andrei Popov",
+    "text": "<p>Client volunteering a certificate suggestion should be discussed in the TLS WG, not UTA.</p>",
+    "dtime": 2583000,
+    "ptime": 2583000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>This reminds me of SIDR work. Maybe they already have a way of doing IP address prefixes</p>",
+    "dtime": 2598000,
+    "ptime": 2598000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Being able to send IP addresses in SNI would make ADD DDR much cleaner, and I think we'll regret it if we don't.  I'll hopefully upload a draft (aiming for the TLS WG) later today as soon as I figure out why the I-D tool isn't accepting my submission.</p>",
+    "dtime": 2612000,
+    "ptime": 2612000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-UTA-20220727-1730"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/uta"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-UTA-20220727-1730"
+		}		
+	]
+}

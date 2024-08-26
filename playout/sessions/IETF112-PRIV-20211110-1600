@@ -1,0 +1,4840 @@
+{
+  "title": "IETF112-PRIV-20211110-1600",
+  "filename": "IETF112-PRIV-20211110-1600",
+  "start": 0,
+  "end": 6991000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "M50lb_l8aa0",
+      "start": 0,
+      "end": "6991000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 0,
+      "ptime": 0,
+      "author": "Roman Danyliw",
+      "text": "Peter, thank you so much for doing the notes!<br/>"
+    },
+    {
+      "dtime": 33000,
+      "ptime": 33000,
+      "author": "stpeter",
+      "text": "Roman Danyliw_web_712: my pleasure!<br/>"
+    },
+    {
+      "dtime": 64000,
+      "ptime": 64000,
+      "author": "Lucas Pardue",
+      "text": "What'll I do?<br/>When you are far away<br/>and skies are blue<br/>What'll I do?<br/>"
+    },
+    {
+      "dtime": 71000,
+      "ptime": 71000,
+      "author": "stpeter",
+      "text": "For those of you following at home, I'll be taking notes at <a href=\"https://notes.ietf.org/notes-ietf-112-priv?both\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-112-priv?both</a> - feel free to correct or amplify as needed<br/>"
+    },
+    {
+      "dtime": 134000,
+      "ptime": 134000,
+      "author": "Eliot Lear",
+      "text": "oh crap! i'm in the priv bof! ;-)<br/>"
+    },
+    {
+      "dtime": 164000,
+      "ptime": 164000,
+      "author": "stpeter",
+      "text": "Note Well is also at <a href=\"https://www.ietf.org/about/note-well/\" rel=\"nofollow\">https://www.ietf.org/about/note-well/</a> for those of you new to the IETF<br/>"
+    },
+    {
+      "dtime": 178000,
+      "ptime": 178000,
+      "author": "Jonathan Hoyland",
+      "text": "I will<br/>"
+    },
+    {
+      "dtime": 188000,
+      "ptime": 188000,
+      "author": "Jonathan Hoyland",
+      "text": "(Jabber scribe that is)<br/>"
+    },
+    {
+      "dtime": 195000,
+      "ptime": 195000,
+      "author": "Martin Thomson",
+      "text": "nota bene: note well that we note the Note Well well<br/>"
+    },
+    {
+      "dtime": 201000,
+      "ptime": 201000,
+      "author": "Roman Danyliw",
+      "text": "Thanks Jonathan!<br/>"
+    },
+    {
+      "dtime": 231000,
+      "ptime": 231000,
+      "author": "ekr@jabber.org",
+      "text": "Much of what I am about to say is in written form here: <a href=\"https://educatedguesswork.org/tags/privacy%20preserving%20measurement/\" rel=\"nofollow\">https://educatedguesswork.org/tags/privacy%20preserving%20measurement/</a><br/>"
+    },
+    {
+      "dtime": 298000,
+      "ptime": 298000,
+      "author": "Jonathan Hoyland",
+      "text": "Is this a IETF or IRTF WG forming BOF?<br/>"
+    },
+    {
+      "dtime": 319000,
+      "ptime": 319000,
+      "author": "Christopher Patton",
+      "text": "IETF<br/>"
+    },
+    {
+      "dtime": 333000,
+      "ptime": 333000,
+      "author": "Martin Thomson",
+      "text": "IETF WG part.&nbsp;&nbsp;We're not making another CFRG<br/>"
+    },
+    {
+      "dtime": 377000,
+      "ptime": 377000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "The process for forming new IRTF RGs is rather different.<br/>"
+    },
+    {
+      "dtime": 389000,
+      "ptime": 389000,
+      "author": "Martin Thomson",
+      "text": "and we don't need one, probably<br/>"
+    },
+    {
+      "dtime": 392000,
+      "ptime": 392000,
+      "author": "Roman Danyliw",
+      "text": "^^^ IETF.&nbsp;&nbsp;There is a dependence on IRTF work which is why it has a separate agenda item (to make the distinction clear).<br/>"
+    },
+    {
+      "dtime": 401000,
+      "ptime": 401000,
+      "author": "npd",
+      "text": "the PEARG has sometimes discussed measurement-related topics within IRTF<br/>"
+    },
+    {
+      "dtime": 439000,
+      "ptime": 439000,
+      "author": "Martin Thomson",
+      "text": "you will see that this group will depend on the CFRG only for some very narrowly targeted stuff<br/>"
+    },
+    {
+      "dtime": 449000,
+      "ptime": 449000,
+      "author": "Martin Thomson",
+      "text": "stuff that the CFRG is very highly qualified to do<br/>"
+    },
+    {
+      "dtime": 469000,
+      "ptime": 469000,
+      "author": "Martin Thomson",
+      "text": "Adam Roach: typing?<br/>"
+    },
+    {
+      "dtime": 496000,
+      "ptime": 496000,
+      "author": "Jonathan Hoyland",
+      "text": "It's the journalists at the Theranos trial.<br/>"
+    },
+    {
+      "dtime": 512000,
+      "ptime": 512000,
+      "author": "Rich Salz",
+      "text": "@Peter: no \"d\" in that URL?&nbsp;&nbsp;:)<br/>"
+    },
+    {
+      "dtime": 562000,
+      "ptime": 562000,
+      "author": "Robin Wilton",
+      "text": "Note: \"sensitivity\" can be highly contextual. e.g. in Northern Ireland, which street you live in could reveal your religious faith, and that *could* be life-threatening.<br/>"
+    },
+    {
+      "dtime": 640000,
+      "ptime": 640000,
+      "author": "Jonathan Hoyland",
+      "text": "Even \"device was on at this time\" vs \"device was not on at this time\" can reveal faith for (practising) orthodox Jews who turn their electronics off on religious holidays.<br/>"
+    },
+    {
+      "dtime": 641000,
+      "ptime": 641000,
+      "author": "Martin Thomson",
+      "text": "differential privacy is the usual model here, but that generally assumes that a trusted entity holds all of the data<br/>"
+    },
+    {
+      "dtime": 658000,
+      "ptime": 658000,
+      "author": "Martin Thomson",
+      "text": "there are lots of nice ways that are coming up that break that assumption down a little<br/>"
+    },
+    {
+      "dtime": 660000,
+      "ptime": 660000,
+      "author": "npd",
+      "text": "I think many of our privacy failure cases aren't situations where there was a promise that the individual data wouldn't be used or disclosed. the Target inference, much of the ad targeting -- these weren't promises, the vendors are proud about the individual data that they kept<br/>"
+    },
+    {
+      "dtime": 681000,
+      "ptime": 681000,
+      "author": "Bob Moskowitz",
+      "text": "My walking app has struggled dealing with no data for Saturday walking...<br/>"
+    },
+    {
+      "dtime": 696000,
+      "ptime": 696000,
+      "author": "Martin Thomson",
+      "text": "relationships: calculating ML embeddings is something that can be done in a system like this fairly easily<br/>"
+    },
+    {
+      "dtime": 722000,
+      "ptime": 722000,
+      "author": "Jonathan Hoyland",
+      "text": "(Even \"device is up to date\" can reveal faith, because you can see when the device was off and not applying updates)<br/>"
+    },
+    {
+      "dtime": 726000,
+      "ptime": 726000,
+      "author": "Martin Thomson",
+      "text": "or using data to generate gradients for the next iteration of training your model<br/>"
+    },
+    {
+      "dtime": 727000,
+      "ptime": 727000,
+      "author": "Bob Moskowitz",
+      "text": "I mean what's wrong with you guy, can't carry your phone so we get all the data to rate you with other walkers?<br/>"
+    },
+    {
+      "dtime": 795000,
+      "ptime": 795000,
+      "author": "Jonathan Lennox",
+      "text": "(Now trying to think of how you could design a shabbat-compliant walking tracker...mechanical pedometer that uploads after it's turned on Saturday evening?&nbsp;&nbsp;If there's an Eruv.)<br/>"
+    },
+    {
+      "dtime": 804000,
+      "ptime": 804000,
+      "author": "dkg",
+      "text": "\"type of website\" itself is a dubious/contentious categorization scheme<br/>"
+    },
+    {
+      "dtime": 830000,
+      "ptime": 830000,
+      "author": "Martin Thomson",
+      "text": "dkg: and also a manifestation of a particular moral view sometimes<br/>"
+    },
+    {
+      "dtime": 834000,
+      "ptime": 834000,
+      "author": "dkg",
+      "text": "wouldn't a mechanical pedometer also be forbidden?<br/>"
+    },
+    {
+      "dtime": 840000,
+      "ptime": 840000,
+      "author": "Martin Thomson",
+      "text": "\"misinformation\" or \"news\"?<br/>"
+    },
+    {
+      "dtime": 846000,
+      "ptime": 846000,
+      "author": "dkg",
+      "text": "mt: indeed<br/>"
+    },
+    {
+      "dtime": 848000,
+      "ptime": 848000,
+      "author": "Bob Moskowitz",
+      "text": "The pedometer would have to work with a \"Gramma\".&nbsp;&nbsp;Interesting design challenge.<br/>"
+    },
+    {
+      "dtime": 851000,
+      "ptime": 851000,
+      "author": "Jonathan Hoyland",
+      "text": "(@Jonathan: The issue would be whether the pedometer is something you need for shabbat.)<br/>"
+    },
+    {
+      "dtime": 852000,
+      "ptime": 852000,
+      "author": "npd",
+      "text": "was that use case about classifying sites into categories? or just aggregating site usage for all users rather than any individual user?<br/>"
+    },
+    {
+      "dtime": 877000,
+      "ptime": 877000,
+      "author": "Christopher Wood",
+      "text": "@npd: putting sites into topic buckets, and then collecting the distribution of time spent in each bucket<br/>"
+    },
+    {
+      "dtime": 905000,
+      "ptime": 905000,
+      "author": "npd",
+      "text": "@christopher: the distribution of time spent in each bucket for that individual user?<br/>"
+    },
+    {
+      "dtime": 914000,
+      "ptime": 914000,
+      "author": "dkg",
+      "text": "Chris: right, but \"topic buckets\" itself is dubious -- cluster boundaries are unclear and complex<br/>"
+    },
+    {
+      "dtime": 918000,
+      "ptime": 918000,
+      "author": "Alissa Cooper",
+      "text": "but the same mechanisms would work for understanding aggregate site usage<br/>"
+    },
+    {
+      "dtime": 927000,
+      "ptime": 927000,
+      "author": "Christopher Wood",
+      "text": "@dkg not disagreeing, just clarifying for npd<br/>"
+    },
+    {
+      "dtime": 943000,
+      "ptime": 943000,
+      "author": "Watson Ladd",
+      "text": "and kind of site can also be feature based: video? lots of photos? lots of JS? etc<br/>"
+    },
+    {
+      "dtime": 984000,
+      "ptime": 984000,
+      "author": "Christopher Wood",
+      "text": "@npd across all users<br/>"
+    },
+    {
+      "dtime": 999000,
+      "ptime": 999000,
+      "author": "Jonathan Hoyland",
+      "text": "@Watson Has tracking scripts or not? Creates a bucket of privacy sensitive websites.<br/>"
+    },
+    {
+      "dtime": 1011000,
+      "ptime": 1011000,
+      "author": "Martin Thomson",
+      "text": "one thing that is important to realize is that the basics here are not that fancy; where things get fancy is in securing the system against various forms of abuse<br/>"
+    },
+    {
+      "dtime": 1012000,
+      "ptime": 1012000,
+      "author": "Jonathan Hoyland",
+      "text": "(As in, websites that respect client privacy)<br/>"
+    },
+    {
+      "dtime": 1030000,
+      "ptime": 1030000,
+      "author": "Richard Barnes",
+      "text": "@Martin - Evergreen statement<br/>"
+    },
+    {
+      "dtime": 1059000,
+      "ptime": 1059000,
+      "author": "Martin Thomson",
+      "text": "hence the choice of SEC :)<br/>"
+    },
+    {
+      "dtime": 1064000,
+      "ptime": 1064000,
+      "author": "Robin Wilton",
+      "text": "@Jonathan and @Bob - I think what you need is one of those gadgets that winds your automatic watch for you if you're not wearing it for a while.<br/>"
+    },
+    {
+      "dtime": 1084000,
+      "ptime": 1084000,
+      "author": "Eliot Lear",
+      "text": "FWIW I think this is a fine use of ohai<br/>"
+    },
+    {
+      "dtime": 1096000,
+      "ptime": 1096000,
+      "author": "Jonathan Hoyland",
+      "text": "@Robin That's genius! I could use that every day :rolling_on_the_floor_laughing:<br/>"
+    },
+    {
+      "dtime": 1213000,
+      "ptime": 1213000,
+      "author": "Robin Wilton",
+      "text": "My work here is done ;^)<br/>"
+    },
+    {
+      "dtime": 1305000,
+      "ptime": 1305000,
+      "author": "Richard Barnes",
+      "text": "EKR is saying \"one / both\", but some schemes allow more than two aggregators<br/>"
+    },
+    {
+      "dtime": 1321000,
+      "ptime": 1321000,
+      "author": "Jonathan Lennox",
+      "text": "He just mentioned that, but said it's rarer.<br/>"
+    },
+    {
+      "dtime": 1328000,
+      "ptime": 1328000,
+      "author": "Bob Moskowitz",
+      "text": "He said that.&nbsp;&nbsp;I think.&nbsp;&nbsp;Just that 2 is easy to present<br/>"
+    },
+    {
+      "dtime": 1336000,
+      "ptime": 1336000,
+      "author": "Martin Thomson",
+      "text": "all of the literature uses N servers, but all of the deployments basically end up with N=2<br/>"
+    },
+    {
+      "dtime": 1349000,
+      "ptime": 1349000,
+      "author": "Jonathan Hoyland",
+      "text": "In the two server case, can a colluding server and aggregator compute the state of the one good server?<br/>"
+    },
+    {
+      "dtime": 1354000,
+      "ptime": 1354000,
+      "author": "Bob Moskowitz",
+      "text": "Google and Microsoft...<br/>"
+    },
+    {
+      "dtime": 1356000,
+      "ptime": 1356000,
+      "author": "Richard Barnes",
+      "text": "Not all of the literature uses N servers; some schemes are limited to 2 servers<br/>"
+    },
+    {
+      "dtime": 1361000,
+      "ptime": 1361000,
+      "author": "Christopher Wood",
+      "text": "It's probably worth noting that not all schemes admit N&gt;2 servers.<br/>"
+    },
+    {
+      "dtime": 1369000,
+      "ptime": 1369000,
+      "author": "Christopher Wood",
+      "text": "(What Richard said)<br/>"
+    },
+    {
+      "dtime": 1374000,
+      "ptime": 1374000,
+      "author": "dkg",
+      "text": "so this is privacy preserving data algorithms with a baseline of \"you trust gmail, don't you\" ??<br/>"
+    },
+    {
+      "dtime": 1379000,
+      "ptime": 1379000,
+      "author": "Richard Barnes",
+      "text": "@Jonathan - In the schemes I'm aware of, that is not the case<br/>"
+    },
+    {
+      "dtime": 1381000,
+      "ptime": 1381000,
+      "author": "Watson Ladd",
+      "text": "can always turn the 2 servers into 6 via MPC<br/>"
+    },
+    {
+      "dtime": 1387000,
+      "ptime": 1387000,
+      "author": "npd",
+      "text": "yes, we often have to trust servers, but the whole proposal is that we should trust these servers not to collude because we can't trust servers to minimize the data after they collect it<br/>"
+    },
+    {
+      "dtime": 1392000,
+      "ptime": 1392000,
+      "author": "Adam Roach",
+      "text": "This is also true of WebPKI -- an attacker colluding with an issuer can completely subvert https.<br/>"
+    },
+    {
+      "dtime": 1397000,
+      "ptime": 1397000,
+      "author": "Christopher Patton",
+      "text": "@dkg: More like \"I trust Let's Encrypt\"<br/>"
+    },
+    {
+      "dtime": 1418000,
+      "ptime": 1418000,
+      "author": "Martin Thomson",
+      "text": "The important part of Prio (SNIPS) is not on this slide.<br/>"
+    },
+    {
+      "dtime": 1419000,
+      "ptime": 1419000,
+      "author": "Benjamin Schwartz",
+      "text": "(Except without Certificate Transparency)<br/>"
+    },
+    {
+      "dtime": 1426000,
+      "ptime": 1426000,
+      "author": "Watson Ladd",
+      "text": "or \"I trust Microsoft little, I trust Let's Encrypt little, but I trust one of them to be honest\"<br/>"
+    },
+    {
+      "dtime": 1426000,
+      "ptime": 1426000,
+      "author": "Bob Moskowitz",
+      "text": "He said you only need to trust one server not to collude.&nbsp;&nbsp;Seems ok.<br/>"
+    },
+    {
+      "dtime": 1443000,
+      "ptime": 1443000,
+      "author": "dkg",
+      "text": "does anyone trust let's encrypt, or do we just appreciate that they're more audited and aggressive about participating in things like CT?<br/>"
+    },
+    {
+      "dtime": 1458000,
+      "ptime": 1458000,
+      "author": "Erik Taubeneck",
+      "text": "Saying \"I trust party X\" is a much different statement than saying \"I trust independent parties X and Y to not collude\"<br/>"
+    },
+    {
+      "dtime": 1477000,
+      "ptime": 1477000,
+      "author": "Jonathan Hoyland",
+      "text": "You can also say \"I trust A not at all, and B even less, but I trust they hate each other more than they hate me.\"<br/>"
+    },
+    {
+      "dtime": 1478000,
+      "ptime": 1478000,
+      "author": "Martin Thomson",
+      "text": "I think that dkg and Erik are saying the same thing<br/>"
+    },
+    {
+      "dtime": 1481000,
+      "ptime": 1481000,
+      "author": "npd",
+      "text": "you also only need to trust one server if you send the data to a server and ask them to comply with their stated policy<br/>"
+    },
+    {
+      "dtime": 1482000,
+      "ptime": 1482000,
+      "author": "Bob Moskowitz",
+      "text": "I trust X not to collude with other parties.<br/>"
+    },
+    {
+      "dtime": 1482000,
+      "ptime": 1482000,
+      "author": "Christopher Wood",
+      "text": "I would say this is \"I trust at least one of the servers\"<br/>"
+    },
+    {
+      "dtime": 1484000,
+      "ptime": 1484000,
+      "author": "Jonathan Rosenberg",
+      "text": "what is modP required?<br/>"
+    },
+    {
+      "dtime": 1493000,
+      "ptime": 1493000,
+      "author": "Jonathan Rosenberg",
+      "text": "sorry - WHY is modP required?<br/>"
+    },
+    {
+      "dtime": 1515000,
+      "ptime": 1515000,
+      "author": "Charlie Harrison",
+      "text": "@jonathan this is an implementation detail of the secret sharing scheme<br/>"
+    },
+    {
+      "dtime": 1517000,
+      "ptime": 1517000,
+      "author": "Richard Barnes",
+      "text": "@JDR: just to make it a group operation on finite-size values<br/>"
+    },
+    {
+      "dtime": 1522000,
+      "ptime": 1522000,
+      "author": "Christopher Wood",
+      "text": "@Jonathan it's just additive secret sharing over the finite field<br/>"
+    },
+    {
+      "dtime": 1545000,
+      "ptime": 1545000,
+      "author": "Richard Barnes",
+      "text": "think like p = 2^255 - 19<br/>"
+    },
+    {
+      "dtime": 1563000,
+      "ptime": 1563000,
+      "author": "Richard Barnes",
+      "text": "larger than any plausible aggregate, so it doesn't cause measurement artifacts<br/>"
+    },
+    {
+      "dtime": 1567000,
+      "ptime": 1567000,
+      "author": "Phillip Hallam-Baker",
+      "text": "OK so we are going to do this stuff but not simple Threshold encryption....<br/>"
+    },
+    {
+      "dtime": 1571000,
+      "ptime": 1571000,
+      "author": "Martin Thomson",
+      "text": "p is probably more like 2^80 or so<br/>"
+    },
+    {
+      "dtime": 1575000,
+      "ptime": 1575000,
+      "author": "Erik Taubeneck",
+      "text": "@Chris Wood: The need to trust one server is only with respect to correctness, right?<br/>"
+    },
+    {
+      "dtime": 1576000,
+      "ptime": 1576000,
+      "author": "Christopher Patton",
+      "text": "+1 MT<br/>"
+    },
+    {
+      "dtime": 1588000,
+      "ptime": 1588000,
+      "author": "Erik Taubeneck",
+      "text": "to break the security, you'd need both servers to collude<br/>"
+    },
+    {
+      "dtime": 1598000,
+      "ptime": 1598000,
+      "author": "Richard Barnes",
+      "text": "@PHB - secret sharing + homorphisms over the secret sharing scheme<br/>"
+    },
+    {
+      "dtime": 1605000,
+      "ptime": 1605000,
+      "author": "Jonathan Hoyland",
+      "text": "There are people who are less than 100cm and others who are more than 200cm. This is going to get into \"Falsehoods programmers believe about names\".<br/>"
+    },
+    {
+      "dtime": 1606000,
+      "ptime": 1606000,
+      "author": "Erik Taubeneck",
+      "text": "(or depending on the protocol, if N&gt;2, you may only need a majority)<br/>"
+    },
+    {
+      "dtime": 1608000,
+      "ptime": 1608000,
+      "author": "Ted Hardie",
+      "text": "I am missing why that zero-knowledge proof is worth.<br/>"
+    },
+    {
+      "dtime": 1610000,
+      "ptime": 1610000,
+      "author": "Martin Thomson",
+      "text": "and it doesn't always have to be a prime, some of the schemes are OK with simple abellian groups<br/>"
+    },
+    {
+      "dtime": 1625000,
+      "ptime": 1625000,
+      "author": "Jonathan Lennox",
+      "text": "Jonathan: There are very few people -1km tall, though.<br/>"
+    },
+    {
+      "dtime": 1628000,
+      "ptime": 1628000,
+      "author": "Christopher Wood",
+      "text": "@Erik For soundness, yeah, I think that's right<br/>"
+    },
+    {
+      "dtime": 1629000,
+      "ptime": 1629000,
+      "author": "Ted Hardie",
+      "text": "If I say the height is 50cm or 220cm, it is thrown out?<br/>"
+    },
+    {
+      "dtime": 1637000,
+      "ptime": 1637000,
+      "author": "Martin Thomson",
+      "text": "Ted: maybe<br/>"
+    },
+    {
+      "dtime": 1651000,
+      "ptime": 1651000,
+      "author": "Martin Thomson",
+      "text": "Ted: you might be required to clamp your value to a range<br/>"
+    },
+    {
+      "dtime": 1659000,
+      "ptime": 1659000,
+      "author": "dkg",
+      "text": "again, who chooses the bucket (and how it's delineated) is an interesting question not covered here.<br/>"
+    },
+    {
+      "dtime": 1669000,
+      "ptime": 1669000,
+      "author": "Christopher Wood",
+      "text": "@dkg bucket?<br/>"
+    },
+    {
+      "dtime": 1674000,
+      "ptime": 1674000,
+      "author": "Richard Barnes",
+      "text": "breath-first search actually<br/>"
+    },
+    {
+      "dtime": 1676000,
+      "ptime": 1676000,
+      "author": "dkg",
+      "text": "from last slide<br/>"
+    },
+    {
+      "dtime": 1683000,
+      "ptime": 1683000,
+      "author": "Martin Thomson",
+      "text": "Chris: the set of values that the system accepts<br/>"
+    },
+    {
+      "dtime": 1688000,
+      "ptime": 1688000,
+      "author": "Christopher Patton",
+      "text": "The main reason to \"validate\" the input shares is that a client can just send *random* input shares and completely garble the output.<br/>"
+    },
+    {
+      "dtime": 1693000,
+      "ptime": 1693000,
+      "author": "Jonathan Rosenberg",
+      "text": "In the case of measurements with high cardinality dimensions, does this require the server to compute aggregates for all 2^N combinations of N dimensions?<br/>"
+    },
+    {
+      "dtime": 1696000,
+      "ptime": 1696000,
+      "author": "Jonathan Hoyland",
+      "text": "I mean, I guess you just clamp it to n-standard deviations, such that there is a less than λ chance that such a person exists.<br/>"
+    },
+    {
+      "dtime": 1721000,
+      "ptime": 1721000,
+      "author": "Christopher Wood",
+      "text": "@MT ah okay, yeah, got it<br/>"
+    },
+    {
+      "dtime": 1722000,
+      "ptime": 1722000,
+      "author": "Richard Barnes",
+      "text": "@JDR: I don't think so<br/>"
+    },
+    {
+      "dtime": 1723000,
+      "ptime": 1723000,
+      "author": "Charlie Harrison",
+      "text": "@Jonathan there is pruning involved<br/>"
+    },
+    {
+      "dtime": 1737000,
+      "ptime": 1737000,
+      "author": "Ted Hardie",
+      "text": "Okay, so the proof is used to ensure that the submitted data is within some configured bounds.&nbsp;&nbsp;Where you would normally just throw it out from the data set, it being encrypted means you want to throw it out without knowing what made it out of the bounds?<br/>"
+    },
+    {
+      "dtime": 1737000,
+      "ptime": 1737000,
+      "author": "Richard Barnes",
+      "text": "(depends a little on what you mean, but to first order no)<br/>"
+    },
+    {
+      "dtime": 1748000,
+      "ptime": 1748000,
+      "author": "Erik Taubeneck",
+      "text": "@Jonathan R, the key insight in the Heavy Hitters paper is how to do that efficiently. Naively, yes, you would need to.<br/>"
+    },
+    {
+      "dtime": 1772000,
+      "ptime": 1772000,
+      "author": "Charlie Harrison",
+      "text": "@Ted yes<br/>"
+    },
+    {
+      "dtime": 1774000,
+      "ptime": 1774000,
+      "author": "Christopher Wood",
+      "text": "@Ted correct!<br/>"
+    },
+    {
+      "dtime": 1867000,
+      "ptime": 1867000,
+      "author": "dkg",
+      "text": "this puts a lot of trust on the leader too, yes?<br/>"
+    },
+    {
+      "dtime": 1878000,
+      "ptime": 1878000,
+      "author": "Lucy Lynch",
+      "text": "Yes<br/>"
+    },
+    {
+      "dtime": 1878000,
+      "ptime": 1878000,
+      "author": "npd",
+      "text": "uh... it all goes through a single leader?<br/>"
+    },
+    {
+      "dtime": 1881000,
+      "ptime": 1881000,
+      "author": "Martin Thomson",
+      "text": "Hits allows you to have sparse data (in ML terms one hot encoding) and get aggregates for all the elements that have enough contributions<br/>"
+    },
+    {
+      "dtime": 1891000,
+      "ptime": 1891000,
+      "author": "Phillipp Schoppmann",
+      "text": "@dkg just for availability, the the leader cannot decrypt the shares going to the helpers<br/>"
+    },
+    {
+      "dtime": 1892000,
+      "ptime": 1892000,
+      "author": "Christopher Patton",
+      "text": "@npd: input shares are encrypted to the helpers<br/>"
+    },
+    {
+      "dtime": 1892000,
+      "ptime": 1892000,
+      "author": "Charlie Harrison",
+      "text": "Data is encrypted to the helper's keys, so the leader shouldn't see any raw data<br/>"
+    },
+    {
+      "dtime": 1898000,
+      "ptime": 1898000,
+      "author": "Richard Barnes",
+      "text": "@dkg / @npd iirc the shares are through-encrypted to the helpers<br/>"
+    },
+    {
+      "dtime": 1907000,
+      "ptime": 1907000,
+      "author": "Watson Ladd",
+      "text": "this is just to deal with network issues<br/>"
+    },
+    {
+      "dtime": 1908000,
+      "ptime": 1908000,
+      "author": "Erik Taubeneck",
+      "text": "The leader is never able to actually see the data, because the data is encrypted for the Helpers, I believe.<br/>"
+    },
+    {
+      "dtime": 1913000,
+      "ptime": 1913000,
+      "author": "dkg",
+      "text": "but the identity of the helpers is announced by the leader<br/>"
+    },
+    {
+      "dtime": 1918000,
+      "ptime": 1918000,
+      "author": "Christopher Patton",
+      "text": "+1 @watson<br/>"
+    },
+    {
+      "dtime": 1924000,
+      "ptime": 1924000,
+      "author": "Martin Thomson",
+      "text": "the identity of all involved needs to be known<br/>"
+    },
+    {
+      "dtime": 1926000,
+      "ptime": 1926000,
+      "author": "Benjamin Schwartz",
+      "text": "@dkg: Presumably hardcoded in the client config<br/>"
+    },
+    {
+      "dtime": 1936000,
+      "ptime": 1936000,
+      "author": "Richard Barnes",
+      "text": "@dkg, no there has to be some secure-against-leader configuration of the helpers' keys at the clients<br/>"
+    },
+    {
+      "dtime": 1937000,
+      "ptime": 1937000,
+      "author": "Christopher Patton",
+      "text": "yup<br/>"
+    },
+    {
+      "dtime": 1955000,
+      "ptime": 1955000,
+      "author": "Antoine Fressancourt",
+      "text": "@Eric communication patterns with the leader coul dreveal activity from some specific clients, or am I wistaken ?<br/>"
+    },
+    {
+      "dtime": 1957000,
+      "ptime": 1957000,
+      "author": "Lixia Zhang",
+      "text": "who offers/runs the leaders?<br/>"
+    },
+    {
+      "dtime": 1980000,
+      "ptime": 1980000,
+      "author": "Martin Thomson",
+      "text": "Lixia: we don't really need to know who is running these here<br/>"
+    },
+    {
+      "dtime": 1988000,
+      "ptime": 1988000,
+      "author": "dkg",
+      "text": "but even with a well-defined helper list in the client, the leader could still partition given users into a tiny subset, right?<br/>"
+    },
+    {
+      "dtime": 2002000,
+      "ptime": 2002000,
+      "author": "Lixia Zhang",
+      "text": "the question is who pays :-)<br/>"
+    },
+    {
+      "dtime": 2002000,
+      "ptime": 2002000,
+      "author": "Tim Geoghegan",
+      "text": "@antoine yes, a design goal is to allow anonymizing proxies of the sort EKR described to sit between clients and leader<br/>"
+    },
+    {
+      "dtime": 2011000,
+      "ptime": 2011000,
+      "author": "Martin Thomson",
+      "text": "dkg: you are talking about consistency of config across clients?<br/>"
+    },
+    {
+      "dtime": 2019000,
+      "ptime": 2019000,
+      "author": "Tim Geoghegan",
+      "text": "Allow but not require<br/>"
+    },
+    {
+      "dtime": 2021000,
+      "ptime": 2021000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "dkg: I think there are deployment models where the *leader* can't<br/>perform such a partitioning attack<br/>"
+    },
+    {
+      "dtime": 2032000,
+      "ptime": 2032000,
+      "author": "Richard Barnes",
+      "text": "@Lixia - likely pattern is that the leader is the person who ultimately wants the measurements, and enlists the helpers to support privacy<br/>"
+    },
+    {
+      "dtime": 2036000,
+      "ptime": 2036000,
+      "author": "dkg",
+      "text": "how does the client know they aren't being partitioned?<br/>"
+    },
+    {
+      "dtime": 2043000,
+      "ptime": 2043000,
+      "author": "Christopher Wood",
+      "text": "I thought he meant the leader actively tries to force clients into small buckets, but that's not much different from say PP<br/>"
+    },
+    {
+      "dtime": 2045000,
+      "ptime": 2045000,
+      "author": "Martin Thomson",
+      "text": "Lixia: we will get to that; in a lot of cases, the people who want the data pay for the service<br/>"
+    },
+    {
+      "dtime": 2052000,
+      "ptime": 2052000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg CT-style logs?<br/>"
+    },
+    {
+      "dtime": 2054000,
+      "ptime": 2054000,
+      "author": "Martin Thomson",
+      "text": "dkg: a very relevant question<br/>"
+    },
+    {
+      "dtime": 2063000,
+      "ptime": 2063000,
+      "author": "Antoine Fressancourt",
+      "text": "@Tim using Oblivious transfer / this kind of things ?<br/>"
+    },
+    {
+      "dtime": 2094000,
+      "ptime": 2094000,
+      "author": "Tim Geoghegan",
+      "text": "@Antoine yes, though I think OHAI isn't the only way to do it<br/>"
+    },
+    {
+      "dtime": 2106000,
+      "ptime": 2106000,
+      "author": "dkg",
+      "text": "Jonathan Hoyland: i wonder how that log would look -- off the top of my head, i don't think it maps well to the particular attack i'm describing<br/>"
+    },
+    {
+      "dtime": 2117000,
+      "ptime": 2117000,
+      "author": "dkg",
+      "text": "i don't think CT logs map well, i mean.<br/>"
+    },
+    {
+      "dtime": 2118000,
+      "ptime": 2118000,
+      "author": "Benjamin Schwartz",
+      "text": "dkg: Interesting.&nbsp;&nbsp;The leader could fool any \"user count\" enforced by the helper by synthesizing a big pile of fake reports.<br/>"
+    },
+    {
+      "dtime": 2128000,
+      "ptime": 2128000,
+      "author": "Erik Taubeneck",
+      "text": "dkg / Martin: I'd assume that the VDAFs would need to be resilient against that type of partitioning<br/>"
+    },
+    {
+      "dtime": 2132000,
+      "ptime": 2132000,
+      "author": "Watson Ladd",
+      "text": "the client is encrypting shares to the helpers: if it takes all the helpers to reconstruct all of these are needed<br/>"
+    },
+    {
+      "dtime": 2142000,
+      "ptime": 2142000,
+      "author": "Martin Thomson",
+      "text": "dkg: relevant draft: <a href=\"https://datatracker.ietf.org/doc/html/draft-wood-key-consistency\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-wood-key-consistency</a><br/>"
+    },
+    {
+      "dtime": 2145000,
+      "ptime": 2145000,
+      "author": "Phillip Hallam-Baker",
+      "text": "@Richard, yes, I know. My point is just that this is going pretty deep on the crypto tech.<br/>"
+    },
+    {
+      "dtime": 2148000,
+      "ptime": 2148000,
+      "author": "Christopher Wood",
+      "text": "@Ben sybil attacks are relevant, yeah<br/>"
+    },
+    {
+      "dtime": 2151000,
+      "ptime": 2151000,
+      "author": "Antoine Fressancourt",
+      "text": "@Tim indeed, Private information retrieval could also be used<br/>"
+    },
+    {
+      "dtime": 2157000,
+      "ptime": 2157000,
+      "author": "npd",
+      "text": "this is good question on use case, thank you<br/>"
+    },
+    {
+      "dtime": 2161000,
+      "ptime": 2161000,
+      "author": "Charlie Harrison",
+      "text": "One mitigation to partitioning is differential privacy. We can guarantee that individual user data is not revealed even if the partition is size 1<br/>"
+    },
+    {
+      "dtime": 2167000,
+      "ptime": 2167000,
+      "author": "Christopher Wood",
+      "text": "@Antoine PIR is not relevant here -- clients are _writing_, not _reading_<br/>"
+    },
+    {
+      "dtime": 2169000,
+      "ptime": 2169000,
+      "author": "Phillip Hallam-Baker",
+      "text": "[My system froze]<br/>"
+    },
+    {
+      "dtime": 2180000,
+      "ptime": 2180000,
+      "author": "Erik Taubeneck",
+      "text": "Charlie: +1<br/>"
+    },
+    {
+      "dtime": 2187000,
+      "ptime": 2187000,
+      "author": "Martin Thomson",
+      "text": "sybil attacks are difficult in this setting and it can depend on the setting as to how you deal with it.&nbsp;&nbsp;Charlie mentions DP, which is a somewhat effective defense.<br/>"
+    },
+    {
+      "dtime": 2211000,
+      "ptime": 2211000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg I was thinking leaders commit to their list of helpers in their cert. The I can see how many live certs there are.<br/>"
+    },
+    {
+      "dtime": 2212000,
+      "ptime": 2212000,
+      "author": "Antoine Fressancourt",
+      "text": "@Christopher Mix networks then<br/>"
+    },
+    {
+      "dtime": 2245000,
+      "ptime": 2245000,
+      "author": "Benjamin Schwartz",
+      "text": "If you require Differential Privacy, what's the use of this?<br/>"
+    },
+    {
+      "dtime": 2256000,
+      "ptime": 2256000,
+      "author": "Richard Barnes",
+      "text": "i'm not totally sure that partitioning is even possible. i think the crypto imposes a fair degree of rigidity on the aggregator arrangement<br/>"
+    },
+    {
+      "dtime": 2265000,
+      "ptime": 2265000,
+      "author": "dkg",
+      "text": "Hoyland: the leader has a list of helpers, but the leader directs each client to a specific subset of helpers, right?<br/>"
+    },
+    {
+      "dtime": 2275000,
+      "ptime": 2275000,
+      "author": "dkg",
+      "text": "otherwise, what does the leader do?<br/>"
+    },
+    {
+      "dtime": 2275000,
+      "ptime": 2275000,
+      "author": "Charlie Harrison",
+      "text": "@Benjamin: You can achieve the most optimal differential privacy without trusting any one single aggregator / curator<br/>"
+    },
+    {
+      "dtime": 2282000,
+      "ptime": 2282000,
+      "author": "Martin Thomson",
+      "text": "Ben Schwartz: DP in this setting can involve much lower noise than in other settings.<br/>"
+    },
+    {
+      "dtime": 2290000,
+      "ptime": 2290000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg I was under the impression that the client picks a subset of the offered helpers.<br/>"
+    },
+    {
+      "dtime": 2301000,
+      "ptime": 2301000,
+      "author": "Erik Taubeneck",
+      "text": "@Richard, presumably the site owner could have a logged in session, and then could work with the Leader<br/>"
+    },
+    {
+      "dtime": 2302000,
+      "ptime": 2302000,
+      "author": "Lucy Lynch",
+      "text": "A lot of this is covered here: <a href=\"https://abetterinternet.github.io/ppm-specification/draft-gpew-priv-ppm.html#name-security-considerations\" rel=\"nofollow\">https://abetterinternet.github.io/ppm-specification/draft-gpew-priv-ppm.html#name-security-considerations</a><br/>"
+    },
+    {
+      "dtime": 2309000,
+      "ptime": 2309000,
+      "author": "Christopher Patton",
+      "text": "MR. RESCORLA<br/>"
+    },
+    {
+      "dtime": 2309000,
+      "ptime": 2309000,
+      "author": "ekr@jabber.org",
+      "text": "Hoyland, no that dosn't work well<br/>"
+    },
+    {
+      "dtime": 2310000,
+      "ptime": 2310000,
+      "author": "Shivan Sahib",
+      "text": "I'm a bit late so maybe this was discussed, but for the use case where we want to share URLs for analytics purposes we could use shamir secret sharing based designs <a href=\"https://arxiv.org/abs/2109.10074\" rel=\"nofollow\">https://arxiv.org/abs/2109.10074</a><br/>"
+    },
+    {
+      "dtime": 2310000,
+      "ptime": 2310000,
+      "author": "dkg",
+      "text": "then the leader has no active role during submission?<br/>"
+    },
+    {
+      "dtime": 2312000,
+      "ptime": 2312000,
+      "author": "Martin Thomson",
+      "text": "\"Mister Rescorla\"<br/>"
+    },
+    {
+      "dtime": 2328000,
+      "ptime": 2328000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg Routing<br/>"
+    },
+    {
+      "dtime": 2329000,
+      "ptime": 2329000,
+      "author": "Wendy Seltzer",
+      "text": "only on first reference <br/>"
+    },
+    {
+      "dtime": 2330000,
+      "ptime": 2330000,
+      "author": "Benjamin Schwartz",
+      "text": "It seems like the leader could extract exact client reports (at least for sums) by submitting N-1 false reports with known values.<br/>"
+    },
+    {
+      "dtime": 2335000,
+      "ptime": 2335000,
+      "author": "Ted Hardie",
+      "text": "That's \"Reverend Rescorla\", please.<br/>"
+    },
+    {
+      "dtime": 2344000,
+      "ptime": 2344000,
+      "author": "npd",
+      "text": "the leader learns the patterns of usage by the client for any particular calculation?<br/>"
+    },
+    {
+      "dtime": 2346000,
+      "ptime": 2346000,
+      "author": "Martin Thomson",
+      "text": "Ben: yes, that is why we insist on DP<br/>"
+    },
+    {
+      "dtime": 2350000,
+      "ptime": 2350000,
+      "author": "ekr@jabber.org",
+      "text": "@Benjamin: that's correct, you need some countermeasures and we mention those in the doc<br/>"
+    },
+    {
+      "dtime": 2350000,
+      "ptime": 2350000,
+      "author": "dkg",
+      "text": "Hoyland: if they handle routing, then they can partition by avoiding routing anything but one client to a given helper<br/>"
+    },
+    {
+      "dtime": 2351000,
+      "ptime": 2351000,
+      "author": "Erik Taubeneck",
+      "text": "@Benjamin, yes, this is why DP would be important<br/>"
+    },
+    {
+      "dtime": 2356000,
+      "ptime": 2356000,
+      "author": "Richard Barnes",
+      "text": "@Shivan - the STAR scheme looks pretty close to the Prio scheme that's in the VDAF draft<br/>"
+    },
+    {
+      "dtime": 2358000,
+      "ptime": 2358000,
+      "author": "Christopher Patton",
+      "text": "@Ben that's right. You need to do more than what Prio/Hits provides in order to beat Sybil attacks.<br/>"
+    },
+    {
+      "dtime": 2359000,
+      "ptime": 2359000,
+      "author": "Charlie Harrison",
+      "text": "+1 to the DP chorus<br/>"
+    },
+    {
+      "dtime": 2369000,
+      "ptime": 2369000,
+      "author": "ekr@jabber.org",
+      "text": "No, STAR is very differet<br/>"
+    },
+    {
+      "dtime": 2370000,
+      "ptime": 2370000,
+      "author": "dkg",
+      "text": "ekr is a reverend‽<br/>"
+    },
+    {
+      "dtime": 2373000,
+      "ptime": 2373000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg They can, but then the client's shares are counted.<br/>"
+    },
+    {
+      "dtime": 2373000,
+      "ptime": 2373000,
+      "author": "Benjamin Schwartz",
+      "text": "But then you need just as much DP as you would with OHAI.<br/>"
+    },
+    {
+      "dtime": 2374000,
+      "ptime": 2374000,
+      "author": "Christopher Patton",
+      "text": "+1 eker<br/>"
+    },
+    {
+      "dtime": 2382000,
+      "ptime": 2382000,
+      "author": "Christopher Patton",
+      "text": "STAR has a very different goal.<br/>"
+    },
+    {
+      "dtime": 2383000,
+      "ptime": 2383000,
+      "author": "ekr@jabber.org",
+      "text": "They both use secret sharing<br/>"
+    },
+    {
+      "dtime": 2389000,
+      "ptime": 2389000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg sorry, *not* counted<br/>"
+    },
+    {
+      "dtime": 2395000,
+      "ptime": 2395000,
+      "author": "Martin Thomson",
+      "text": "FWIW, people who use data HATE differential privacy, but there aren't any other really good alternatives<br/>"
+    },
+    {
+      "dtime": 2417000,
+      "ptime": 2417000,
+      "author": "Charlie Harrison",
+      "text": "@Benjamin can you elaborate? I don't see how OHAI could achieve the same results<br/>"
+    },
+    {
+      "dtime": 2434000,
+      "ptime": 2434000,
+      "author": "Jonathan Hoyland",
+      "text": "It's the same as what happens if the packets get lost on the way to the aggregator. You just have to exclude / drop the received shares.<br/>"
+    },
+    {
+      "dtime": 2436000,
+      "ptime": 2436000,
+      "author": "dkg",
+      "text": "Hoyland: my concern is that one client (or a small set of clients) could be measured directly (not in aggregate with the larger public) by partitioning from the leader<br/>"
+    },
+    {
+      "dtime": 2438000,
+      "ptime": 2438000,
+      "author": "ekr@jabber.org",
+      "text": "Benjamin: the question is about local versus central DP<br/>"
+    },
+    {
+      "dtime": 2439000,
+      "ptime": 2439000,
+      "author": "Martin Thomson",
+      "text": "Most of these use a variation on the (r, x-r) or (r, x^r) sharing method.<br/>"
+    },
+    {
+      "dtime": 2445000,
+      "ptime": 2445000,
+      "author": "Benjamin Schwartz",
+      "text": "@Charlie: As leader, I can recover a user's exact input, just like with OHAI.<br/>"
+    },
+    {
+      "dtime": 2449000,
+      "ptime": 2449000,
+      "author": "Shivan Sahib",
+      "text": "fwiw Brave has already deployed STAR<br/>"
+    },
+    {
+      "dtime": 2472000,
+      "ptime": 2472000,
+      "author": "Charlie Harrison",
+      "text": "@Benjamin no, because the raw data is encrypted and hidden from the leader<br/>"
+    },
+    {
+      "dtime": 2473000,
+      "ptime": 2473000,
+      "author": "Martin Thomson",
+      "text": "Ben: not necessarily, but that gets into the details<br/>"
+    },
+    {
+      "dtime": 2473000,
+      "ptime": 2473000,
+      "author": "ekr@jabber.org",
+      "text": "@Benjamin: the point is that each helper adds DP noise<br/>"
+    },
+    {
+      "dtime": 2480000,
+      "ptime": 2480000,
+      "author": "ekr@jabber.org",
+      "text": "But wit OHAI you need the clients to add DP noise<br/>"
+    },
+    {
+      "dtime": 2483000,
+      "ptime": 2483000,
+      "author": "ekr@jabber.org",
+      "text": "Which is much worse.<br/>"
+    },
+    {
+      "dtime": 2484000,
+      "ptime": 2484000,
+      "author": "Benjamin Schwartz",
+      "text": "OK<br/>"
+    },
+    {
+      "dtime": 2486000,
+      "ptime": 2486000,
+      "author": "Richard Barnes",
+      "text": "@Shivan do i take that as an indication that Brave might be interested in deploying other PPM techniques?<br/>"
+    },
+    {
+      "dtime": 2492000,
+      "ptime": 2492000,
+      "author": "Cullen Jennings",
+      "text": "Does ISRG charge for this or how is it run ?<br/>"
+    },
+    {
+      "dtime": 2501000,
+      "ptime": 2501000,
+      "author": "Shivan Sahib",
+      "text": "We are extremely interested in the goals<br/>"
+    },
+    {
+      "dtime": 2503000,
+      "ptime": 2503000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg If client in subgroup picks helper A and helper B, but the Leader drops their share to helper B, then all the Aggregator gets is half a share.<br/>"
+    },
+    {
+      "dtime": 2505000,
+      "ptime": 2505000,
+      "author": "ekr@jabber.org",
+      "text": "@Ben: I cover this a bit here <a href=\"https://educatedguesswork.org/posts/ppm-randomness/\" rel=\"nofollow\">https://educatedguesswork.org/posts/ppm-randomness/</a><br/>"
+    },
+    {
+      "dtime": 2515000,
+      "ptime": 2515000,
+      "author": "Adam Roach",
+      "text": "Probably as much as they do for certificates, fluffy<br/>"
+    },
+    {
+      "dtime": 2542000,
+      "ptime": 2542000,
+      "author": "Martin Thomson",
+      "text": "Adam: I think that they do charge for these services.&nbsp;&nbsp;There is a natural customer.<br/>"
+    },
+    {
+      "dtime": 2557000,
+      "ptime": 2557000,
+      "author": "ekr@jabber.org",
+      "text": "Anywya, yes, these subset attacks are an issue here. They can be ameliorated with a combination of rate limits and DP<br/>"
+    },
+    {
+      "dtime": 2559000,
+      "ptime": 2559000,
+      "author": "Richard Barnes",
+      "text": "@Martin no, this ENPA work is grant-funded<br/>"
+    },
+    {
+      "dtime": 2578000,
+      "ptime": 2578000,
+      "author": "Richard Barnes",
+      "text": "(or at least not fee-for-service funded)<br/>"
+    },
+    {
+      "dtime": 2581000,
+      "ptime": 2581000,
+      "author": "Jeffrey Yasskin",
+      "text": "Congrats on getting so many orgs to cooperate.<br/>"
+    },
+    {
+      "dtime": 2589000,
+      "ptime": 2589000,
+      "author": "ekr@jabber.org",
+      "text": "Try saying \"exposure notifications private analytics\" 10 times fast<br/>"
+    },
+    {
+      "dtime": 2613000,
+      "ptime": 2613000,
+      "author": "npd",
+      "text": "cooperating but not colluding<br/>"
+    },
+    {
+      "dtime": 2618000,
+      "ptime": 2618000,
+      "author": "Richard Barnes",
+      "text": "the pentagram here belies that the data are actually protected by witches<br/>"
+    },
+    {
+      "dtime": 2621000,
+      "ptime": 2621000,
+      "author": "sftcd",
+      "text": "this is a reasonable case study, just a pity the underlying EN system isn't very useful<br/>"
+    },
+    {
+      "dtime": 2628000,
+      "ptime": 2628000,
+      "author": "Benjamin Schwartz",
+      "text": "Colluderating<br/>"
+    },
+    {
+      "dtime": 2629000,
+      "ptime": 2629000,
+      "author": "Martin Thomson",
+      "text": "npd: it's an interesting balance, yes<br/>"
+    },
+    {
+      "dtime": 2641000,
+      "ptime": 2641000,
+      "author": "Chris Box",
+      "text": "@Jeffrey Yes, impressive to build all that relatively quickly<br/>"
+    },
+    {
+      "dtime": 2645000,
+      "ptime": 2645000,
+      "author": "ekr@jabber.org",
+      "text": "12 beeellion metrics<br/>"
+    },
+    {
+      "dtime": 2779000,
+      "ptime": 2779000,
+      "author": "Wendy Seltzer",
+      "text": "first witches, now illuminati?<br/>"
+    },
+    {
+      "dtime": 2800000,
+      "ptime": 2800000,
+      "author": "ekr@jabber.org",
+      "text": "@Wendy: illuminati witches<br/>"
+    },
+    {
+      "dtime": 2826000,
+      "ptime": 2826000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Hmm, but wouldn't there need to be some covert channels between the<br/>Apple and Google integrators and MITRE in order to complete the<br/>pentagram?<br/>"
+    },
+    {
+      "dtime": 2862000,
+      "ptime": 2862000,
+      "author": "Richard Barnes",
+      "text": "@kaduk - those are only revealed to the fully initiated<br/>"
+    },
+    {
+      "dtime": 2880000,
+      "ptime": 2880000,
+      "author": "Eric Orth",
+      "text": "It works out.&nbsp;&nbsp;For many of us, all the cryptographic functionality is essentially witchcraft.<br/>"
+    },
+    {
+      "dtime": 2886000,
+      "ptime": 2886000,
+      "author": "Lucy Lynch",
+      "text": "@wendy there is no cabal<br/>"
+    },
+    {
+      "dtime": 2902000,
+      "ptime": 2902000,
+      "author": "Rich Salz",
+      "text": "@Lucy, nice historic reference :)<br/>"
+    },
+    {
+      "dtime": 2910000,
+      "ptime": 2910000,
+      "author": "Jonathan Lennox",
+      "text": "I don't see how the aggregation algorithm preserves privacy when the actual number everyone's sending is \"1\".&nbsp;&nbsp;Is there a different aggregator?<br/>"
+    },
+    {
+      "dtime": 2942000,
+      "ptime": 2942000,
+      "author": "Richard Barnes",
+      "text": "@Jonathan i think the idea is you always send a result, either 1 or 0<br/>"
+    },
+    {
+      "dtime": 2952000,
+      "ptime": 2952000,
+      "author": "ekr@jabber.org",
+      "text": "For those who care, STAR and Hits have similar objectives but do it differently and have different privacy guarantees. Hits does a better job of concealing who has low entropy values. STAR does a better job of concealing values which are low cardinality<br/>"
+    },
+    {
+      "dtime": 2957000,
+      "ptime": 2957000,
+      "author": "Christopher Wood",
+      "text": "Yeah, and the aggregation function is SUM, yielding the number of matches<br/>"
+    },
+    {
+      "dtime": 2962000,
+      "ptime": 2962000,
+      "author": "Jonathan Lennox",
+      "text": "Aha.&nbsp;&nbsp;So \"I saw the ad\" is not private, but presumably it wouldn't be.<br/>"
+    },
+    {
+      "dtime": 2972000,
+      "ptime": 2972000,
+      "author": "ekr@jabber.org",
+      "text": "Yeah, that's observable<br/>"
+    },
+    {
+      "dtime": 2982000,
+      "ptime": 2982000,
+      "author": "npd",
+      "text": "how does this depend on PPM? rather than just a trusted browser collects the data, and sends it as telemetry through OHAI?<br/>"
+    },
+    {
+      "dtime": 2982000,
+      "ptime": 2982000,
+      "author": "Richard Barnes",
+      "text": "@ekr - would STAR make sense as a VDAF?<br/>"
+    },
+    {
+      "dtime": 3001000,
+      "ptime": 3001000,
+      "author": "ekr@jabber.org",
+      "text": "@Richard: I think you could shove it in the VDAF box<br/>"
+    },
+    {
+      "dtime": 3002000,
+      "ptime": 3002000,
+      "author": "Martin Thomson",
+      "text": "So it is the union of the two events that is private.<br/>"
+    },
+    {
+      "dtime": 3002000,
+      "ptime": 3002000,
+      "author": "Christopher Wood",
+      "text": "I don't believe it fits under the abstraction well<br/>"
+    },
+    {
+      "dtime": 3002000,
+      "ptime": 3002000,
+      "author": "Watson Ladd",
+      "text": "AdScale worked a bit differently from the VDAF but had the same basic setup<br/>"
+    },
+    {
+      "dtime": 3016000,
+      "ptime": 3016000,
+      "author": "Watson Ladd",
+      "text": "<a href=\"https://isi.jhu.edu/~~mgreen/advertising.pdf\" rel=\"nofollow\">https://isi.jhu.edu/~~mgreen/advertising.pdf</a><br/>"
+    },
+    {
+      "dtime": 3019000,
+      "ptime": 3019000,
+      "author": "ekr@jabber.org",
+      "text": "Yep.<br/>"
+    },
+    {
+      "dtime": 3031000,
+      "ptime": 3031000,
+      "author": "ekr@jabber.org",
+      "text": "Adnostic and then AdScale are like the index patient here<br/>"
+    },
+    {
+      "dtime": 3041000,
+      "ptime": 3041000,
+      "author": "Christopher Patton",
+      "text": "I don't think so. STAR only provides privacy for unpopular inputs. Popular inputs are linkable to the clients that sent them. (This can be avoided by coupling with OHAI.)<br/>"
+    },
+    {
+      "dtime": 3051000,
+      "ptime": 3051000,
+      "author": "sftcd",
+      "text": "\"critical infrastructure that powers online ads\" is a very weird phrase<br/>"
+    },
+    {
+      "dtime": 3072000,
+      "ptime": 3072000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Seems to me as if we are reaching for the brightest shiniest objects here that very few people are likely to end up using. Meanwhile simpler, more practical measures like an encrypted log file format are overlooked as too boring to be worth doing.<br/>"
+    },
+    {
+      "dtime": 3073000,
+      "ptime": 3073000,
+      "author": "Shivan Sahib",
+      "text": "@Christopher Patton - in our deployment STAR is coupled with an anonymizing proxy<br/>"
+    },
+    {
+      "dtime": 3079000,
+      "ptime": 3079000,
+      "author": "Richard Barnes",
+      "text": "@sftcd i think ads depend on power plants and stuff<br/>"
+    },
+    {
+      "dtime": 3087000,
+      "ptime": 3087000,
+      "author": "Christopher Patton",
+      "text": "@shivan that's great!<br/>"
+    },
+    {
+      "dtime": 3094000,
+      "ptime": 3094000,
+      "author": "Richard Barnes",
+      "text": "not sure the power plants require 3rd party cookies<br/>"
+    },
+    {
+      "dtime": 3096000,
+      "ptime": 3096000,
+      "author": "Shivan Sahib",
+      "text": "OHAI would be better :)<br/>"
+    },
+    {
+      "dtime": 3103000,
+      "ptime": 3103000,
+      "author": "Pete Resnick",
+      "text": "An up-level question, and not saying that the answer necessarily determines whether or not we take on the work: Looking at draft-gpew-priv-ppm, it looks more like an OS project and not protocol development. Is there actual protocol work to be done here? What is that?<br/>"
+    },
+    {
+      "dtime": 3105000,
+      "ptime": 3105000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "The money machine is critical infrastructure *for Google*<br/>"
+    },
+    {
+      "dtime": 3106000,
+      "ptime": 3106000,
+      "author": "ekr@jabber.org",
+      "text": "OHAI-STAR is ana mazingname<br/>"
+    },
+    {
+      "dtime": 3111000,
+      "ptime": 3111000,
+      "author": "Jeffrey Yasskin",
+      "text": "sftcd: I think the critical infrastructure is the conversion measurement that Martin described.<br/>"
+    },
+    {
+      "dtime": 3120000,
+      "ptime": 3120000,
+      "author": "ekr@jabber.org",
+      "text": "Pete: yes, there is plenty of protocol work<br/>"
+    },
+    {
+      "dtime": 3122000,
+      "ptime": 3122000,
+      "author": "Richard Barnes",
+      "text": "@Pete there are multiple implementations<br/>"
+    },
+    {
+      "dtime": 3134000,
+      "ptime": 3134000,
+      "author": "Christopher Wood",
+      "text": "@Pete: the interaction between clients and servers and collectors requires protocol work<br/>"
+    },
+    {
+      "dtime": 3135000,
+      "ptime": 3135000,
+      "author": "ekr@jabber.org",
+      "text": "To actually define the wire formats, exchanges, etc.<br/>"
+    },
+    {
+      "dtime": 3159000,
+      "ptime": 3159000,
+      "author": "Martin Thomson",
+      "text": "sftcd: if you concede that advertising is something that humans can do with the web, then conversion measurement is a very natural consequence of that concession<br/>"
+    },
+    {
+      "dtime": 3161000,
+      "ptime": 3161000,
+      "author": "Andrew Campling",
+      "text": "@Phillip It would be good to explore whether there is an equivalent but \"boring\" solution<br/>"
+    },
+    {
+      "dtime": 3164000,
+      "ptime": 3164000,
+      "author": "Pete Resnick",
+      "text": "Ack. That wasn't clear from what I'd seen so far. (I missed the beginning of EKR's preso.)<br/>"
+    },
+    {
+      "dtime": 3166000,
+      "ptime": 3166000,
+      "author": "Wendy Seltzer",
+      "text": "Over in W3C space, we've seen significant interest in the advertising use case<br/>"
+    },
+    {
+      "dtime": 3182000,
+      "ptime": 3182000,
+      "author": "Jeffrey Yasskin",
+      "text": "Wendy with the understatement. :)<br/>"
+    },
+    {
+      "dtime": 3184000,
+      "ptime": 3184000,
+      "author": "sftcd",
+      "text": "@mt: advertising is something that companies not humans do on the web though<br/>"
+    },
+    {
+      "dtime": 3206000,
+      "ptime": 3206000,
+      "author": "Martin Thomson",
+      "text": "sftcd: Facebook might disagree with you there<br/>"
+    },
+    {
+      "dtime": 3218000,
+      "ptime": 3218000,
+      "author": "Martin Thomson",
+      "text": "though, it is predominantly companies, yes<br/>"
+    },
+    {
+      "dtime": 3226000,
+      "ptime": 3226000,
+      "author": "Pete Resnick",
+      "text": "(FWIW: This is very cool looking tech.)<br/>"
+    },
+    {
+      "dtime": 3231000,
+      "ptime": 3231000,
+      "author": "Bob Moskowitz",
+      "text": "Humans use billboards like Facebook for their advertising...<br/>"
+    },
+    {
+      "dtime": 3233000,
+      "ptime": 3233000,
+      "author": "Jonathan Lennox",
+      "text": "Companies so far are run by humans, AI not being that advanced yet.&nbsp;&nbsp;And many humans present here have their salaries paid for by advertisement.<br/>"
+    },
+    {
+      "dtime": 3235000,
+      "ptime": 3235000,
+      "author": "Christopher Wood",
+      "text": "To follow up on Wendy, this group is focused on advertising in the W3C: <a href=\"https://www.w3.org/community/patcg/\" rel=\"nofollow\">https://www.w3.org/community/patcg/</a><br/>"
+    },
+    {
+      "dtime": 3301000,
+      "ptime": 3301000,
+      "author": "Wendy Seltzer",
+      "text": "and the improving web ads BG, <a href=\"https://www.w3.org/community/web-adv/\" rel=\"nofollow\">https://www.w3.org/community/web-adv/</a><br/>"
+    },
+    {
+      "dtime": 3315000,
+      "ptime": 3315000,
+      "author": "Erik Taubeneck",
+      "text": "+1 to the PATCG. Hoping to see a good interaction between this work and the work happening there.<br/>"
+    },
+    {
+      "dtime": 3320000,
+      "ptime": 3320000,
+      "author": "dkg",
+      "text": "jonathan: so the humans' salaries depend on algorithmic feeds: how is this not a company run by AI?<br/>"
+    },
+    {
+      "dtime": 3321000,
+      "ptime": 3321000,
+      "author": "Martin Thomson",
+      "text": "Chris mentioned it, but I believe/hope PATCG is taking on the web-facing side of this on<br/>"
+    },
+    {
+      "dtime": 3322000,
+      "ptime": 3322000,
+      "author": "Dirk Kutscher",
+      "text": "I like PPM and some of the use cases. But: even though you can do ad conversion in a privacy-preserving way, it does not mean that ad-tech is not an attack on privacy. So should the IETF standardize technology that is directly aimed at facilitating ad-tech?<br/>"
+    },
+    {
+      "dtime": 3324000,
+      "ptime": 3324000,
+      "author": "Andrew Campling",
+      "text": "If not doing advertising helps to get privacy ..... <br/>"
+    },
+    {
+      "dtime": 3342000,
+      "ptime": 3342000,
+      "author": "dkg",
+      "text": "(not claiming that the ai is \"advanced\", of course)<br/>"
+    },
+    {
+      "dtime": 3345000,
+      "ptime": 3345000,
+      "author": "Martin Thomson",
+      "text": "not doing advertising isn't really an option, at least in the current environment<br/>"
+    },
+    {
+      "dtime": 3357000,
+      "ptime": 3357000,
+      "author": "Mark Nottingham",
+      "text": "So we should stop working on HTTP? Good to know...<br/>"
+    },
+    {
+      "dtime": 3357000,
+      "ptime": 3357000,
+      "author": "ekr@jabber.org",
+      "text": "This is a general purpose technique, with a lot of applications, one of which is advertising.<br/>"
+    },
+    {
+      "dtime": 3360000,
+      "ptime": 3360000,
+      "author": "Allison Mankin",
+      "text": "I don't think I've heard the word \"targeted\" yet (but maybe missed it).&nbsp;&nbsp;If the campaign starts by targeting a group with attributes, how does aggregration help?<br/>"
+    },
+    {
+      "dtime": 3365000,
+      "ptime": 3365000,
+      "author": "Christopher Wood",
+      "text": "@Dirk it's focused on privacy-preserving approaches to the problem, which is a significant improvement, and ads are just one application<br/>"
+    },
+    {
+      "dtime": 3382000,
+      "ptime": 3382000,
+      "author": "ekr@jabber.org",
+      "text": "It's something that a bunch of us were working on even before the ads use cases started to get hot<br/>"
+    },
+    {
+      "dtime": 3402000,
+      "ptime": 3402000,
+      "author": "Erik Taubeneck",
+      "text": "@MT, it's not as if advertising would stop without this, it would just be worse, and there would be more incentive do work around limitations<br/>"
+    },
+    {
+      "dtime": 3406000,
+      "ptime": 3406000,
+      "author": "Christopher Patton",
+      "text": "mouthful<br/>"
+    },
+    {
+      "dtime": 3420000,
+      "ptime": 3420000,
+      "author": "npd",
+      "text": "I'm not sure the level of detail of the conversion measurement means that advertising couldn't happen online otherwise<br/>"
+    },
+    {
+      "dtime": 3426000,
+      "ptime": 3426000,
+      "author": "Martin Thomson",
+      "text": "Erik: exactly the needle we're trying to thread<br/>"
+    },
+    {
+      "dtime": 3428000,
+      "ptime": 3428000,
+      "author": "sftcd",
+      "text": "I do think there's value here but also worry if working on that requires new beliefs in e.g. what is/isn't critical infrastructure<br/>"
+    },
+    {
+      "dtime": 3431000,
+      "ptime": 3431000,
+      "author": "ekr@jabber.org",
+      "text": "@Allison: that's kind of a complicated question. First, I would say that there are proposed techniques to make the targeting private (though they are out of scope for IETF). Second, the conversion itself is more revealing than the targeting<br/>"
+    },
+    {
+      "dtime": 3436000,
+      "ptime": 3436000,
+      "author": "Christopher Patton",
+      "text": "(FWIW, PPM also depends on HPKE :D )<br/>"
+    },
+    {
+      "dtime": 3438000,
+      "ptime": 3438000,
+      "author": "Jonathan Lennox",
+      "text": "Christopher: Vee-dahf.<br/>"
+    },
+    {
+      "dtime": 3444000,
+      "ptime": 3444000,
+      "author": "Christopher Patton",
+      "text": "V D A F<br/>"
+    },
+    {
+      "dtime": 3449000,
+      "ptime": 3449000,
+      "author": "ekr@jabber.org",
+      "text": "Well, there won't be any ads work done here. it's just defining these generic things<br/>"
+    },
+    {
+      "dtime": 3450000,
+      "ptime": 3450000,
+      "author": "Christopher Patton",
+      "text": "please :)<br/>"
+    },
+    {
+      "dtime": 3464000,
+      "ptime": 3464000,
+      "author": "Tim Geoghegan",
+      "text": "vee dee eh ehf, Patton has a proof that this is how it's pronounced<br/>"
+    },
+    {
+      "dtime": 3471000,
+      "ptime": 3471000,
+      "author": "Christopher Patton",
+      "text": "hahahaha<br/>"
+    },
+    {
+      "dtime": 3479000,
+      "ptime": 3479000,
+      "author": "Martin Thomson",
+      "text": "Allison: the conversion measurement cases Charlie and I talked about don't involve targeting in the way you understand it, but some of the applications might enable it in one way or other<br/>"
+    },
+    {
+      "dtime": 3484000,
+      "ptime": 3484000,
+      "author": "npd",
+      "text": "advertising happens on billboards and in newspapers, even if per-user conversion measurement isn't provided<br/>"
+    },
+    {
+      "dtime": 3502000,
+      "ptime": 3502000,
+      "author": "Watson Ladd",
+      "text": "@Allison: you don't get to see that so and so saw the ad before they visited the website to buy. Conversion isn't the only issue here but it's a big one<br/>"
+    },
+    {
+      "dtime": 3504000,
+      "ptime": 3504000,
+      "author": "Allison Mankin",
+      "text": "Erik, I think it's debatable that the conversion is more revealing than the targeting (consider work by Angwin), but thanks for the answer<br/>"
+    },
+    {
+      "dtime": 3529000,
+      "ptime": 3529000,
+      "author": "Allison Mankin",
+      "text": "Agree we benefit by each improvement<br/>"
+    },
+    {
+      "dtime": 3530000,
+      "ptime": 3530000,
+      "author": "Wendy Seltzer",
+      "text": "unfortunately, newspapers aren't doing too well economically<br/>"
+    },
+    {
+      "dtime": 3532000,
+      "ptime": 3532000,
+      "author": "Antoine Fressancourt",
+      "text": "@npd put different contact info on different paper ads, and then you have your reporting done<br/>"
+    },
+    {
+      "dtime": 3545000,
+      "ptime": 3545000,
+      "author": "ekr@jabber.org",
+      "text": "Allison: Sorry, I wasn't making a comparison but I was trying to say that targeting + conversion &gt; targeting only<br/>"
+    },
+    {
+      "dtime": 3553000,
+      "ptime": 3553000,
+      "author": "Allison Mankin",
+      "text": "Thanks, yes<br/>"
+    },
+    {
+      "dtime": 3560000,
+      "ptime": 3560000,
+      "author": "ekr@jabber.org",
+      "text": "So the idea would be to shave off pieces one at a time<br/>"
+    },
+    {
+      "dtime": 3575000,
+      "ptime": 3575000,
+      "author": "Watson Ladd",
+      "text": "if you want to solve targeting, need to define what the problem is: accumulation of history by third parties, access to the display information? we have solutions to each, but it's not one solution to the whole thing<br/>"
+    },
+    {
+      "dtime": 3582000,
+      "ptime": 3582000,
+      "author": "Watson Ladd",
+      "text": "eat the whale bite by bite<br/>"
+    },
+    {
+      "dtime": 3601000,
+      "ptime": 3601000,
+      "author": "npd",
+      "text": "@antoine, sure different techniques are used, like use discount code XYZ, but it's not as high-fidelity. I was just responding to the suggestion that detailed conversion measurement is an absolute necessity (\"critical infrastructure\", say) for advertising to exist on the Web<br/>"
+    },
+    {
+      "dtime": 3624000,
+      "ptime": 3624000,
+      "author": "Charlie Harrison",
+      "text": "High fidelity is exactly what is being avoided by enforcing aggregation, differential privacy, etc.<br/>"
+    },
+    {
+      "dtime": 3637000,
+      "ptime": 3637000,
+      "author": "Charlie Harrison",
+      "text": "(for some definition of \"high\")<br/>"
+    },
+    {
+      "dtime": 3646000,
+      "ptime": 3646000,
+      "author": "Erik Taubeneck",
+      "text": "+1 Charlie<br/>"
+    },
+    {
+      "dtime": 3659000,
+      "ptime": 3659000,
+      "author": "Robin Wilton",
+      "text": "\"Erik Taubeneck<br/>@MT, it's not as if advertising would stop without this, it would just be worse\" - how would we tell?&nbsp;&nbsp;;^,<br/>"
+    },
+    {
+      "dtime": 3661000,
+      "ptime": 3661000,
+      "author": "Erik Taubeneck",
+      "text": "though that seems it would be more a property of the VDAF, and not the protocol<br/>"
+    },
+    {
+      "dtime": 3663000,
+      "ptime": 3663000,
+      "author": "Martin Thomson",
+      "text": "npd: what constitutes critical is of course subjective, but I will note that prior to any system of conversion measurement, advertising on the web was rife with abuse.<br/>"
+    },
+    {
+      "dtime": 3668000,
+      "ptime": 3668000,
+      "author": "ekr@jabber.org",
+      "text": "I see we have k-anonymity for eri[ck]s<br/>"
+    },
+    {
+      "dtime": 3714000,
+      "ptime": 3714000,
+      "author": "npd",
+      "text": "mt, \"was\"?<br/>"
+    },
+    {
+      "dtime": 3735000,
+      "ptime": 3735000,
+      "author": "Martin Thomson",
+      "text": "npd: relatively, yes<br/>"
+    },
+    {
+      "dtime": 3752000,
+      "ptime": 3752000,
+      "author": "Martin Thomson",
+      "text": "not saying that it's fixed or anything...<br/>"
+    },
+    {
+      "dtime": 3772000,
+      "ptime": 3772000,
+      "author": "Martin Thomson",
+      "text": "just that it would be a whole lot worse without this teeny bit of accountability<br/>"
+    },
+    {
+      "dtime": 3787000,
+      "ptime": 3787000,
+      "author": "Alissa Cooper",
+      "text": "May be better to focus on the fact that conversion measurement exists on a large scale. People can judge for themselves whether they think it will go away or change, whether PPM would improve it, and whether that one use case matters to you compared to the other use cases presented.<br/>"
+    },
+    {
+      "dtime": 3790000,
+      "ptime": 3790000,
+      "author": "Shivan Sahib",
+      "text": "Martin: you mean abuse as in ad fraud?<br/>"
+    },
+    {
+      "dtime": 3817000,
+      "ptime": 3817000,
+      "author": "Christopher Wood",
+      "text": "I interpreted him to mean abuse for tracking purposes<br/>"
+    },
+    {
+      "dtime": 3858000,
+      "ptime": 3858000,
+      "author": "Shivan Sahib",
+      "text": "I guess I'm not seeing how conversion measurement would help with that<br/>"
+    },
+    {
+      "dtime": 3864000,
+      "ptime": 3864000,
+      "author": "Martin Thomson",
+      "text": "ad fraud is multi-faceted, but attribution can help along some of those axes, but mostly I mean tracking<br/>"
+    },
+    {
+      "dtime": 3879000,
+      "ptime": 3879000,
+      "author": "sftcd",
+      "text": "(sorry if this was covered, I missed the first half hour) what prevents this API (or some higher layer on called from javascript) from being abused e.g. by defining a new measurement type that boils down to being identifying?<br/>"
+    },
+    {
+      "dtime": 3883000,
+      "ptime": 3883000,
+      "author": "npd",
+      "text": "interesting maybe to try to measure those different levels of worse<br/>"
+    },
+    {
+      "dtime": 3884000,
+      "ptime": 3884000,
+      "author": "npd",
+      "text": "there are certainly conversion measurements that can happen without any of these technologies -- how much do sales go up after deploying a certain campaign?, how often do ad clicks lead to purchases?<br/>"
+    },
+    {
+      "dtime": 3899000,
+      "ptime": 3899000,
+      "author": "Martin Thomson",
+      "text": "let's say you want to buy an ad, how do you know if your agency is doing a good job for the money you pay them?<br/>"
+    },
+    {
+      "dtime": 3907000,
+      "ptime": 3907000,
+      "author": "npd",
+      "text": "I think the question is how much effort we want to put into this particular work and how much of a difference it will make compared to those other techniques<br/>"
+    },
+    {
+      "dtime": 3908000,
+      "ptime": 3908000,
+      "author": "Shivan Sahib",
+      "text": "gotcha<br/>"
+    },
+    {
+      "dtime": 3911000,
+      "ptime": 3911000,
+      "author": "Jonathan Lennox",
+      "text": "Would the zero-knowledge proof include a proof of something like \"either the conversion count is 0 or else there is a signed statement from the vendor that this item was indeed bought\"?<br/>"
+    },
+    {
+      "dtime": 3928000,
+      "ptime": 3928000,
+      "author": "Jonathan Lennox",
+      "text": "Otherwise conversion fraud seems very possible.<br/>"
+    },
+    {
+      "dtime": 3967000,
+      "ptime": 3967000,
+      "author": "Mariana Raykova",
+      "text": "The aggregators are already communicating with each other<br/>"
+    },
+    {
+      "dtime": 3968000,
+      "ptime": 3968000,
+      "author": "Martin Thomson",
+      "text": "Jonathan: conversion fraud is indeed very possible.&nbsp;&nbsp;there are a bunch of different approaches being considered, some of which include anonymous tokens to fill that function<br/>"
+    },
+    {
+      "dtime": 3971000,
+      "ptime": 3971000,
+      "author": "Antoine Fressancourt",
+      "text": "One general question: is ppm aiming at private measurements for the web or are there use cases envisionned for lower layer protocols (anonymous L4 flows reporting) ?<br/>"
+    },
+    {
+      "dtime": 3975000,
+      "ptime": 3975000,
+      "author": "ekr@jabber.org",
+      "text": "Jonathan this is where like privacy pass and the like fit in<br/>"
+    },
+    {
+      "dtime": 3976000,
+      "ptime": 3976000,
+      "author": "Mariana Raykova",
+      "text": "you need that for the verification of the proofs<br/>"
+    },
+    {
+      "dtime": 3987000,
+      "ptime": 3987000,
+      "author": "Lucas Pardue",
+      "text": "did anyone make the VDAF splunk joke yet?<br/>"
+    },
+    {
+      "dtime": 4026000,
+      "ptime": 4026000,
+      "author": "dkg",
+      "text": "sounds like PRIV doesn't guarantee data privacy, since one can imagine an instantiation where the shares are offered directly to the other helpers<br/>"
+    },
+    {
+      "dtime": 4049000,
+      "ptime": 4049000,
+      "author": "Christopher Wood",
+      "text": "@Antoine use cases are broad. For example, Tor developed PrivCount (?) for similar purposes. PPM would work well for those use cases.<br/>"
+    },
+    {
+      "dtime": 4071000,
+      "ptime": 4071000,
+      "author": "ekr@jabber.org",
+      "text": "@dkg: I think \"guarantee\" is basically against a given reference point of assumptions<br/>"
+    },
+    {
+      "dtime": 4072000,
+      "ptime": 4072000,
+      "author": "Martin Thomson",
+      "text": "It only offers privacy to the extent that you trust servers not to collude<br/>"
+    },
+    {
+      "dtime": 4079000,
+      "ptime": 4079000,
+      "author": "Antoine Fressancourt",
+      "text": "@Christopher thanks for your answer; will look at TOR's use case<br/>"
+    },
+    {
+      "dtime": 4079000,
+      "ptime": 4079000,
+      "author": "ekr@jabber.org",
+      "text": "So if you assume that one of the helpers is honest, then it does<br/>"
+    },
+    {
+      "dtime": 4098000,
+      "ptime": 4098000,
+      "author": "Wendy Seltzer",
+      "text": "W3C is interested in this technology existing<br/>"
+    },
+    {
+      "dtime": 4100000,
+      "ptime": 4100000,
+      "author": "Robin Wilton",
+      "text": "@Adam can you define \"work on\"?<br/>"
+    },
+    {
+      "dtime": 4105000,
+      "ptime": 4105000,
+      "author": "sftcd",
+      "text": "\"interested\": maybe<br/>"
+    },
+    {
+      "dtime": 4107000,
+      "ptime": 4107000,
+      "author": "Martin Thomson",
+      "text": "I would argue that the presenters represent a sufficient constituency of interest to qualify...<br/>"
+    },
+    {
+      "dtime": 4126000,
+      "ptime": 4126000,
+      "author": "Erik Taubeneck",
+      "text": "Facebook is interested in supporting this work.<br/>"
+    },
+    {
+      "dtime": 4136000,
+      "ptime": 4136000,
+      "author": "dkg",
+      "text": "if a given instantiation requires each helper to transfer its share to the others, then there's no official out-of-band \"collusion\" but the instantiation isn't secure<br/>"
+    },
+    {
+      "dtime": 4141000,
+      "ptime": 4141000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Interested in WORKING ON this topic, Soliving?????<br/>"
+    },
+    {
+      "dtime": 4164000,
+      "ptime": 4164000,
+      "author": "npd",
+      "text": "I think some of us may be interested while also not necessarily being convinced about a particular approach<br/>"
+    },
+    {
+      "dtime": 4165000,
+      "ptime": 4165000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "(Hmm, did we skip the \"understand the problem?\" question?)<br/>"
+    },
+    {
+      "dtime": 4172000,
+      "ptime": 4172000,
+      "author": "sftcd",
+      "text": "+1 npd<br/>"
+    },
+    {
+      "dtime": 4184000,
+      "ptime": 4184000,
+      "author": "David Oliver",
+      "text": "\"interested\": maybe (cut/paste sftcd)<br/>"
+    },
+    {
+      "dtime": 4189000,
+      "ptime": 4189000,
+      "author": "dkg",
+      "text": "(not saying either the priv or hits instantiations do that, just observing that the protocol framing doesn't ensure privacy on its own)<br/>"
+    },
+    {
+      "dtime": 4203000,
+      "ptime": 4203000,
+      "author": "Pete Resnick",
+      "text": "That's a surprisingly large number of people who are actively not raising their hands.<br/>"
+    },
+    {
+      "dtime": 4208000,
+      "ptime": 4208000,
+      "author": "ekr@jabber.org",
+      "text": "@dkg: I think I'm misunderstanding your point.<br/>"
+    },
+    {
+      "dtime": 4210000,
+      "ptime": 4210000,
+      "author": "Phillip Hallam-Baker",
+      "text": "@kaduk, I don't think we understand the problem<br/>"
+    },
+    {
+      "dtime": 4216000,
+      "ptime": 4216000,
+      "author": "Mark Nottingham",
+      "text": "Quite interested.<br/>"
+    },
+    {
+      "dtime": 4222000,
+      "ptime": 4222000,
+      "author": "ekr@jabber.org",
+      "text": "Can you rephrase?<br/>"
+    },
+    {
+      "dtime": 4226000,
+      "ptime": 4226000,
+      "author": "Martin Thomson",
+      "text": "I would like to hear from those who are opposed.<br/>"
+    },
+    {
+      "dtime": 4228000,
+      "ptime": 4228000,
+      "author": "sftcd",
+      "text": "@pete: the hands tool isn't great though, never clear what \"Not raise\" means<br/>"
+    },
+    {
+      "dtime": 4229000,
+      "ptime": 4229000,
+      "author": "Shivan Sahib",
+      "text": "curious to hear why someone would not want to see privacy preserving measurements<br/>"
+    },
+    {
+      "dtime": 4241000,
+      "ptime": 4241000,
+      "author": "Watson Ladd",
+      "text": "they might not be interested in working themselfs<br/>"
+    },
+    {
+      "dtime": 4242000,
+      "ptime": 4242000,
+      "author": "Christopher Wood",
+      "text": "I would also like to hear from those opposed. (I am very interested in this work.)<br/>"
+    },
+    {
+      "dtime": 4242000,
+      "ptime": 4242000,
+      "author": "Bob Moskowitz",
+      "text": "No working time to work on this.&nbsp;&nbsp;Will follow it. <br/>"
+    },
+    {
+      "dtime": 4250000,
+      "ptime": 4250000,
+      "author": "sftcd",
+      "text": "@shivan: depends how easy it is to abuse for me<br/>"
+    },
+    {
+      "dtime": 4259000,
+      "ptime": 4259000,
+      "author": "David Oliver",
+      "text": "@shivan maybe \"no\" is more about this approach being better defined, or not going far enough?<br/>"
+    },
+    {
+      "dtime": 4261000,
+      "ptime": 4261000,
+      "author": "Benoît Claise",
+      "text": "It's all good, but what are the chances it's going to be deployed, when some can get access to all the data they want now?<br/>"
+    },
+    {
+      "dtime": 4268000,
+      "ptime": 4268000,
+      "author": "dkg",
+      "text": "ekr: i think i'm saying: this PRIV framework itself doesn't offer much privacy on its own: it can be more helpful if it produces a type of analysis that could be done for a given instantiation to prove limits of leakage<br/>"
+    },
+    {
+      "dtime": 4277000,
+      "ptime": 4277000,
+      "author": "Pete Resnick",
+      "text": "@stephen: Yeah. Like Martin, I'd like to understand what those \"I am not raising my hand\" people mean.<br/>"
+    },
+    {
+      "dtime": 4279000,
+      "ptime": 4279000,
+      "author": "ekr@jabber.org",
+      "text": "@dkg: yes, I thinnk that's correct<br/>"
+    },
+    {
+      "dtime": 4285000,
+      "ptime": 4285000,
+      "author": "ekr@jabber.org",
+      "text": "it depend son the VDAF<br/>"
+    },
+    {
+      "dtime": 4287000,
+      "ptime": 4287000,
+      "author": "Eric Orth",
+      "text": "I think we missed the distinction between \"not interested in this being worked on it\" and \"not interested in contributing to it personally\".<br/>"
+    },
+    {
+      "dtime": 4288000,
+      "ptime": 4288000,
+      "author": "Alissa Cooper",
+      "text": "We will be asking the BOF questions a little later, we just wanted to hear about further expressions of interest now<br/>"
+    },
+    {
+      "dtime": 4289000,
+      "ptime": 4289000,
+      "author": "Wes Hardaker",
+      "text": "I'm concerned that there is a lot of active assumption that the result of this discussion is a foregone conclusion without hearing from opinions about potential issues with the problem/approach first.<br/>"
+    },
+    {
+      "dtime": 4301000,
+      "ptime": 4301000,
+      "author": "ekr@jabber.org",
+      "text": "@benoit: well, you've heard from a bunch of people that want to deploy it.<br/>"
+    },
+    {
+      "dtime": 4304000,
+      "ptime": 4304000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Benoît: I am pretty convinced that firefox will deploy even if they<br/>currently have access to all the data<br/>"
+    },
+    {
+      "dtime": 4305000,
+      "ptime": 4305000,
+      "author": "Martin Thomson",
+      "text": "Benoit: browsers are taking the means of collection away from those people<br/>"
+    },
+    {
+      "dtime": 4308000,
+      "ptime": 4308000,
+      "author": "dkg",
+      "text": "sftcd: you like it better if you can abuse it, or if you can't abuse it?<br/>"
+    },
+    {
+      "dtime": 4314000,
+      "ptime": 4314000,
+      "author": "sftcd",
+      "text": "if the upshot here were a change from \"accept cookie: y/n\" to \"accept &lt;complex crypt&gt;: y/n\" then I don't think we get so much for the web, maybe worth it for some specific applications though<br/>"
+    },
+    {
+      "dtime": 4328000,
+      "ptime": 4328000,
+      "author": "Chris Box",
+      "text": "@Benoit I would think that GDPR will drive a lot of use of this technology. It requires minimal data collection and storage.<br/>"
+    },
+    {
+      "dtime": 4328000,
+      "ptime": 4328000,
+      "author": "sftcd",
+      "text": "@dkg: yes:-)<br/>"
+    },
+    {
+      "dtime": 4333000,
+      "ptime": 4333000,
+      "author": "Dirk Kutscher",
+      "text": "@Alissa, yes, I generally agree. Just saying that privacy-preserving ad conversion will not remove nor limit tracking. It may be a factor in making ad conversion more ubiquitous and advertizing more effective, and in the grand scheme of things, have a negative impact on privacy on the web. Personally, I'd expect ad conversion to be a major use case.<br/>"
+    },
+    {
+      "dtime": 4359000,
+      "ptime": 4359000,
+      "author": "ekr@jabber.org",
+      "text": "I think if you don't like the advertising thing, the place to take that objection is PATCG<br/>"
+    },
+    {
+      "dtime": 4364000,
+      "ptime": 4364000,
+      "author": "Martin Thomson",
+      "text": "Jari: happy to hear from you regarding ideas on how browsers should operate.<br/>"
+    },
+    {
+      "dtime": 4370000,
+      "ptime": 4370000,
+      "author": "Cullen Jennings",
+      "text": "Browsers are as far as I can tell mostly funded by advertisers. <br/>"
+    },
+    {
+      "dtime": 4377000,
+      "ptime": 4377000,
+      "author": "Martin Thomson",
+      "text": "there is a nice tone<br/>"
+    },
+    {
+      "dtime": 4382000,
+      "ptime": 4382000,
+      "author": "Benoît Claise",
+      "text": "@ekr, yes I also want peace in the world.<br/>"
+    },
+    {
+      "dtime": 4384000,
+      "ptime": 4384000,
+      "author": "Christopher Patton",
+      "text": "agreed, I'm singing along with it<br/>"
+    },
+    {
+      "dtime": 4385000,
+      "ptime": 4385000,
+      "author": "Jonathan Hoyland",
+      "text": "I can jabber scribe<br/>"
+    },
+    {
+      "dtime": 4392000,
+      "ptime": 4392000,
+      "author": "Wendy Seltzer",
+      "text": "I'll try to reconfigure<br/>"
+    },
+    {
+      "dtime": 4393000,
+      "ptime": 4393000,
+      "author": "dkg",
+      "text": "you have to combine your share of wendy's audio with my share of wendy's audio<br/>"
+    },
+    {
+      "dtime": 4399000,
+      "ptime": 4399000,
+      "author": "Bob Moskowitz",
+      "text": "Wendy is humming.&nbsp;&nbsp;Maybe a yes?<br/>"
+    },
+    {
+      "dtime": 4406000,
+      "ptime": 4406000,
+      "author": "Warren Kumari",
+      "text": "Scanner?<br/>"
+    },
+    {
+      "dtime": 4409000,
+      "ptime": 4409000,
+      "author": "ekr@jabber.org",
+      "text": "@benoit: I honestly don't understand your point. You asked if people would deploy it. I told you that a bunch of people who are working on this intend to.<br/>"
+    },
+    {
+      "dtime": 4411000,
+      "ptime": 4411000,
+      "author": "Benjamin Schwartz",
+      "text": "Simple ad conversion measurement (cost-per-click) doesn't seem to require any of this.&nbsp;&nbsp;Is this only for display ad conversion tracking (CPM)?<br/>"
+    },
+    {
+      "dtime": 4417000,
+      "ptime": 4417000,
+      "author": "npd",
+      "text": "haha dkg<br/>"
+    },
+    {
+      "dtime": 4419000,
+      "ptime": 4419000,
+      "author": "Mirja Kühlewind",
+      "text": "privacy-preserving communication...<br/>"
+    },
+    {
+      "dtime": 4447000,
+      "ptime": 4447000,
+      "author": "Charlie Harrison",
+      "text": "@Benjamin: a click is not a conversion, it doesn't directly provide value to an advertiser<br/>"
+    },
+    {
+      "dtime": 4451000,
+      "ptime": 4451000,
+      "author": "Jonathan Hoyland",
+      "text": "@Wendy, if you want me to jabber scribe prefix a message to jabber with \"Mic:\" and I'll relay it.<br/>"
+    },
+    {
+      "dtime": 4453000,
+      "ptime": 4453000,
+      "author": "Watson Ladd",
+      "text": "cost per click needs something like this unless you want to reveal who clicked<br/>"
+    },
+    {
+      "dtime": 4455000,
+      "ptime": 4455000,
+      "author": "Martin Thomson",
+      "text": "Ted: a single solution for ALL the work is a terrible idea<br/>"
+    },
+    {
+      "dtime": 4469000,
+      "ptime": 4469000,
+      "author": "Benjamin Schwartz",
+      "text": "@Charlie, yeah, but it takes to a new 1P context where you can track directly.<br/>"
+    },
+    {
+      "dtime": 4471000,
+      "ptime": 4471000,
+      "author": "Lixia Zhang",
+      "text": "+1 Ted Hardie<br/>"
+    },
+    {
+      "dtime": 4475000,
+      "ptime": 4475000,
+      "author": "Erik Taubeneck",
+      "text": "cost-per-click is a very poor type of measurement, and incentivizes dark patterns that get people to click when they don't intend to<br/>"
+    },
+    {
+      "dtime": 4478000,
+      "ptime": 4478000,
+      "author": "npd",
+      "text": "+1 hardie, the advertising cases seem especially vague about how well it connects<br/>"
+    },
+    {
+      "dtime": 4494000,
+      "ptime": 4494000,
+      "author": "Shivan Sahib",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 4497000,
+      "ptime": 4497000,
+      "author": "Christopher Patton",
+      "text": "@Ted that's the idea of splitting up the work into the framework protocol and the underlying primitive, VDAF. Our hope is that VDAF is expressive enough to account for multiple solutions.<br/>"
+    },
+    {
+      "dtime": 4510000,
+      "ptime": 4510000,
+      "author": "Richard Barnes",
+      "text": "i think folks are a little over-indexed on advertising.&nbsp;&nbsp;consider the ENPA and telemetry cases as well.<br/>"
+    },
+    {
+      "dtime": 4517000,
+      "ptime": 4517000,
+      "author": "Martin Thomson",
+      "text": "What Ted said is totally right.&nbsp;&nbsp;There is a set of things.<br/>"
+    },
+    {
+      "dtime": 4531000,
+      "ptime": 4531000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "&gt; I don't think we understand the problem but I want to do it anyway<br/>:)<br/>"
+    },
+    {
+      "dtime": 4541000,
+      "ptime": 4541000,
+      "author": "sftcd",
+      "text": "@rlb: ENPA is worse IMO (though well intended) as it's attempting to measure a thing that really doesn't work<br/>"
+    },
+    {
+      "dtime": 4552000,
+      "ptime": 4552000,
+      "author": "David Oliver",
+      "text": "I think it's OK to use a WG to define the problem, no?<br/>"
+    },
+    {
+      "dtime": 4554000,
+      "ptime": 4554000,
+      "author": "sftcd",
+      "text": "telemetry makes more sense to me<br/>"
+    },
+    {
+      "dtime": 4557000,
+      "ptime": 4557000,
+      "author": "Wendy Seltzer",
+      "text": "mic: W3C has groups incubating work that could use this at the protocol level. [sorry for the audio mismatch]<br/>"
+    },
+    {
+      "dtime": 4557000,
+      "ptime": 4557000,
+      "author": "npd",
+      "text": "Richard, I had open questions on whether telemetry depends on this (as opposed to OHAI and data minimization on the server)<br/>"
+    },
+    {
+      "dtime": 4558000,
+      "ptime": 4558000,
+      "author": "dkg",
+      "text": "does IETF have any influence over logfile creation/storage ?<br/>"
+    },
+    {
+      "dtime": 4570000,
+      "ptime": 4570000,
+      "author": "Jeffrey Yasskin",
+      "text": "dkg: Via the mathematical mesh, of course.<br/>"
+    },
+    {
+      "dtime": 4572000,
+      "ptime": 4572000,
+      "author": "Jari Arkko",
+      "text": "Martin: I expressed interest for the work, an some non-comfort with the advertising collection use case. I recognise that I'm not the expert on browsers and that I don't have another answer on what to do instead. However, for the record I'd rather use a browser that prevents information flow to advertisers. I realise that may be a path already explored and found impossible.<br/>"
+    },
+    {
+      "dtime": 4576000,
+      "ptime": 4576000,
+      "author": "Hannes Tschofenig",
+      "text": "@dkg: no.<br/>"
+    },
+    {
+      "dtime": 4584000,
+      "ptime": 4584000,
+      "author": "Ned Freed",
+      "text": "@phb: \"I don't think we understand the problem space but I would like to do this anyway\". That's for-sure going to be a line I use at work.<br/>"
+    },
+    {
+      "dtime": 4589000,
+      "ptime": 4589000,
+      "author": "ekr@jabber.org",
+      "text": "@sftcd: actually it's not clear to me that that's true. I think it's quite possible that ENPA doesnt work for its intended purpose but the data collected with this is useful<br/>"
+    },
+    {
+      "dtime": 4593000,
+      "ptime": 4593000,
+      "author": "Richard Barnes",
+      "text": "@npd minimization is clearly not a solution; it's what is done today<br/>"
+    },
+    {
+      "dtime": 4597000,
+      "ptime": 4597000,
+      "author": "Wendy Seltzer",
+      "text": "thanks @Jonathan<br/>"
+    },
+    {
+      "dtime": 4612000,
+      "ptime": 4612000,
+      "author": "Ted Hardie",
+      "text": "Apologies for jumping the queue with the BoF questions.&nbsp;&nbsp;Thanks, MT, for clarifying that the proponents also see this as a set.&nbsp;&nbsp;I didn't get that impression from the discussion up to now, and it's useful to know.<br/>"
+    },
+    {
+      "dtime": 4613000,
+      "ptime": 4613000,
+      "author": "Martin Thomson",
+      "text": "Jari: we're still exploring a bunch of options, this is just one of many ways we're trying to improve things incrementally<br/>"
+    },
+    {
+      "dtime": 4619000,
+      "ptime": 4619000,
+      "author": "ekr@jabber.org",
+      "text": "For instance, if I reliably caught 2% of the exposures, then just knowing that would be useful for measuring rates, even if nobody ever learned their exposure.<br/>"
+    },
+    {
+      "dtime": 4620000,
+      "ptime": 4620000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Is Phill's use case solvable with only the CFRG draft?<br/>"
+    },
+    {
+      "dtime": 4620000,
+      "ptime": 4620000,
+      "author": "sftcd",
+      "text": "@ekr: that's defensible, I just happen to think EN is already demonstrated not very useful<br/>"
+    },
+    {
+      "dtime": 4638000,
+      "ptime": 4638000,
+      "author": "Hannes Tschofenig",
+      "text": "\"I don't think we understand the problem space but I would like to do this anyway\".&nbsp;&nbsp;I think this is the typical reaction of an engineer, who wants to work on a new field. I believe this is foundation of lots of the work in the IETF.<br/>"
+    },
+    {
+      "dtime": 4640000,
+      "ptime": 4640000,
+      "author": "Christopher Wood",
+      "text": "Tech issues<br/>"
+    },
+    {
+      "dtime": 4642000,
+      "ptime": 4642000,
+      "author": "Christopher Wood",
+      "text": "Be right back<br/>"
+    },
+    {
+      "dtime": 4648000,
+      "ptime": 4648000,
+      "author": "Martin Thomson",
+      "text": "Jari: see also cookie partitioning: <a href=\"https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/\" rel=\"nofollow\">https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/</a><br/>"
+    },
+    {
+      "dtime": 4651000,
+      "ptime": 4651000,
+      "author": "sftcd",
+      "text": "if ENPA had existed in april 2020 and been built into EN that'd have been interesting but it's late now IMO<br/>"
+    },
+    {
+      "dtime": 4653000,
+      "ptime": 4653000,
+      "author": "Phillip Hallam-Baker",
+      "text": "@Ned, it is the one I use for my board all the time<br/>"
+    },
+    {
+      "dtime": 4710000,
+      "ptime": 4710000,
+      "author": "Phillip Hallam-Baker",
+      "text": "+1 Ted<br/>"
+    },
+    {
+      "dtime": 4711000,
+      "ptime": 4711000,
+      "author": "Bob Moskowitz",
+      "text": "It can become a seal of good housekeeping?<br/>"
+    },
+    {
+      "dtime": 4718000,
+      "ptime": 4718000,
+      "author": "Phillip Hallam-Baker",
+      "text": "+1 Ted<br/>"
+    },
+    {
+      "dtime": 4724000,
+      "ptime": 4724000,
+      "author": "Jonathan Hoyland",
+      "text": "@Wes, once this is shown to work we can push for regulation<br/>"
+    },
+    {
+      "dtime": 4725000,
+      "ptime": 4725000,
+      "author": "Mark Nottingham",
+      "text": "Responding to Wes: technology is not the only way to regulate bad behaviour.<br/>"
+    },
+    {
+      "dtime": 4727000,
+      "ptime": 4727000,
+      "author": "Roman Danyliw",
+      "text": "@Wes, but certain \"good guys\" aren't doing collection because they don't have a good approach<br/>"
+    },
+    {
+      "dtime": 4731000,
+      "ptime": 4731000,
+      "author": "Martin Thomson",
+      "text": "Wes: legislators are always being told that the technology doesn't exist; this work is necessary to remove that impediment<br/>"
+    },
+    {
+      "dtime": 4736000,
+      "ptime": 4736000,
+      "author": "dkg",
+      "text": "are there folks who would be willing to proactively disable worse tech if this is available?<br/>"
+    },
+    {
+      "dtime": 4749000,
+      "ptime": 4749000,
+      "author": "Martin Thomson",
+      "text": "dkg: yes<br/>"
+    },
+    {
+      "dtime": 4751000,
+      "ptime": 4751000,
+      "author": "Jari Arkko",
+      "text": "Wes: If we did this, is it conceivable that third party cookies could go away/prohibited by browsers? (Asking, I don't know the answer)<br/>"
+    },
+    {
+      "dtime": 4752000,
+      "ptime": 4752000,
+      "author": "npd",
+      "text": "I think the reasoning is that allowing the functionality will make it easier for browsers and others to deploy stronger mitigations against the current invasive tracking<br/>"
+    },
+    {
+      "dtime": 4754000,
+      "ptime": 4754000,
+      "author": "Benjamin Schwartz",
+      "text": "dkg: The browsers, by blocking 3P cookies,<br/>"
+    },
+    {
+      "dtime": 4760000,
+      "ptime": 4760000,
+      "author": "Watson Ladd",
+      "text": "see also the privacy sandbox sandbagging<br/>"
+    },
+    {
+      "dtime": 4766000,
+      "ptime": 4766000,
+      "author": "Martin Thomson",
+      "text": "dkg: and I'm not just speaking for Mozilla here, I'm aware of others<br/>"
+    },
+    {
+      "dtime": 4776000,
+      "ptime": 4776000,
+      "author": "dkg",
+      "text": "right, so make that case clearly if you want to counter Wes's point<br/>"
+    },
+    {
+      "dtime": 4777000,
+      "ptime": 4777000,
+      "author": "Jeffrey Yasskin",
+      "text": "dkg: Chrome's basically blocking on this (and some other things) to disable 3p cookies and other tracking methods.<br/>"
+    },
+    {
+      "dtime": 4782000,
+      "ptime": 4782000,
+      "author": "David Oliver",
+      "text": "There's a meme \"generals are always fighting the LAST war\".&nbsp;&nbsp;Is there a chance we're doing that here?<br/>"
+    },
+    {
+      "dtime": 4785000,
+      "ptime": 4785000,
+      "author": "Wes Hardaker",
+      "text": "@jari: I think companies have shown that they'll always find away around those problem, like 1x1 white pixels as an example.<br/>"
+    },
+    {
+      "dtime": 4785000,
+      "ptime": 4785000,
+      "author": "Lucy Lynch",
+      "text": "@dkg maybe the question is would they be required to…<br/>"
+    },
+    {
+      "dtime": 4791000,
+      "ptime": 4791000,
+      "author": "Mark Nottingham",
+      "text": "Jari: that's a much larger discussion. But if the primitives for replacing some functions aren't available, it's going to be a lot harder.<br/>"
+    },
+    {
+      "dtime": 4792000,
+      "ptime": 4792000,
+      "author": "npd",
+      "text": "(I still think the question/concern is reasonable. just that we should know that there is a possible path that improves things)<br/>"
+    },
+    {
+      "dtime": 4796000,
+      "ptime": 4796000,
+      "author": "Eric Orth",
+      "text": "I think if a reasonable number of \"good guys\" exist that want to implement it, that's reason enough to standardize it.&nbsp;&nbsp;Getting \"bad guys\" to stop doing different stuff is a separate issue that we may or may not be able to create technical solutions for later.<br/>"
+    },
+    {
+      "dtime": 4798000,
+      "ptime": 4798000,
+      "author": "Watson Ladd",
+      "text": "@david what do you mean?<br/>"
+    },
+    {
+      "dtime": 4802000,
+      "ptime": 4802000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "To be clear, chrome currently has a user-facing knob to disable<br/>third-party cookies already; the default is just to allow them.<br/>"
+    },
+    {
+      "dtime": 4804000,
+      "ptime": 4804000,
+      "author": "Roman Danyliw",
+      "text": "I think we heard solid use cases above and beyond ads<br/>"
+    },
+    {
+      "dtime": 4841000,
+      "ptime": 4841000,
+      "author": "Mark Nottingham",
+      "text": "Absolutely not the last war. This is very applicable and time-sensitive; various jurisdictions are creating regulations and legislation now that could benefit from this tool. Or preclude its use.<br/>"
+    },
+    {
+      "dtime": 4845000,
+      "ptime": 4845000,
+      "author": "David Oliver",
+      "text": "@ekr mentioned that PPM is for a subset of use cases. @wes mentioned \"it fights the good people\".&nbsp;&nbsp;I worry about \"the other cases\" and \"the other people\"<br/>"
+    },
+    {
+      "dtime": 4877000,
+      "ptime": 4877000,
+      "author": "dkg",
+      "text": "Wes: do you think browsers cannot be built to defend against 1×1 pixel web bugs?<br/>"
+    },
+    {
+      "dtime": 4885000,
+      "ptime": 4885000,
+      "author": "David Oliver",
+      "text": "@mark what I mean is that the heavyweights have already moved on.&nbsp;&nbsp;They're doing more in the back room and might make this pointless<br/>"
+    },
+    {
+      "dtime": 4888000,
+      "ptime": 4888000,
+      "author": "Wes Hardaker",
+      "text": "\"[only] helps the good people be better\" was what I was really saying @David<br/>"
+    },
+    {
+      "dtime": 4889000,
+      "ptime": 4889000,
+      "author": "Jonathan Hoyland",
+      "text": "For those trying to get a head start, the proposed charter text is on slide 8-9 of the Chair slides: <a href=\"https://datatracker.ietf.org/meeting/112/materials/slides-112-priv-chair-slides-agenda-01\" rel=\"nofollow\">https://datatracker.ietf.org/meeting/112/materials/slides-112-priv-chair-slides-agenda-01</a><br/>"
+    },
+    {
+      "dtime": 4906000,
+      "ptime": 4906000,
+      "author": "David Oliver",
+      "text": "ok @wes<br/>"
+    },
+    {
+      "dtime": 4906000,
+      "ptime": 4906000,
+      "author": "Wes Hardaker",
+      "text": "@dkg: I think the instant you remove that ability they'll find another.<br/>"
+    },
+    {
+      "dtime": 4930000,
+      "ptime": 4930000,
+      "author": "dkg",
+      "text": "Wes: it sounds like you're saying we should burn it all down<br/>"
+    },
+    {
+      "dtime": 4935000,
+      "ptime": 4935000,
+      "author": "Andrew Campling",
+      "text": "@Jonathan: thanks, tried and failed to find it earlier, didn't look there<br/>"
+    },
+    {
+      "dtime": 4941000,
+      "ptime": 4941000,
+      "author": "Mark Nottingham",
+      "text": "The adtech ecosystem including most forms of tracking is under *intense* scrutiny. The back rooms exist but they daylight is starting to shine in.<br/>"
+    },
+    {
+      "dtime": 4964000,
+      "ptime": 4964000,
+      "author": "Jeffrey Yasskin",
+      "text": "Wes: It's definitely whackamole, and we're working on the right threat models and mitigations in the W3C.<br/>"
+    },
+    {
+      "dtime": 4971000,
+      "ptime": 4971000,
+      "author": "David Oliver",
+      "text": "@ekr this is good clarification for me - thanks.<br/>"
+    },
+    {
+      "dtime": 4973000,
+      "ptime": 4973000,
+      "author": "Wes Hardaker",
+      "text": "@dkg: I'm saying that we've built a framework that enables easy tracking, and these solutions can not fix that underlying architecture.<br/>"
+    },
+    {
+      "dtime": 4981000,
+      "ptime": 4981000,
+      "author": "npd",
+      "text": "it is a real concern, but I don't think we should assume that all pushback will disappear if some subset of functionality is in place<br/>"
+    },
+    {
+      "dtime": 4982000,
+      "ptime": 4982000,
+      "author": "Alissa Cooper",
+      "text": "Charter is available at <a href=\"https://github.com/abetterinternet/ppm-specification/blob/main/charter.md\" rel=\"nofollow\">https://github.com/abetterinternet/ppm-specification/blob/main/charter.md</a><br/>"
+    },
+    {
+      "dtime": 4996000,
+      "ptime": 4996000,
+      "author": "Wes Hardaker",
+      "text": "note: I did say we should do it anyway<br/>"
+    },
+    {
+      "dtime": 5018000,
+      "ptime": 5018000,
+      "author": "Wes Hardaker",
+      "text": "it becomes a role model, not a cop<br/>"
+    },
+    {
+      "dtime": 5031000,
+      "ptime": 5031000,
+      "author": "dkg",
+      "text": "yeah, it doesn't solve the sisyphean task of closing these additional leakage points.<br/>"
+    },
+    {
+      "dtime": 5046000,
+      "ptime": 5046000,
+      "author": "ekr@jabber.org",
+      "text": "@dkg: yes, and I definitely want to keep closing those leakage points<br/>"
+    },
+    {
+      "dtime": 5064000,
+      "ptime": 5064000,
+      "author": "David Oliver",
+      "text": "@wes - I think there's tremendous value in this work for sure.&nbsp;&nbsp;I just worry about those use cases deemed \"out of&nbsp;&nbsp;scope\"<br/>"
+    },
+    {
+      "dtime": 5102000,
+      "ptime": 5102000,
+      "author": "Wendy Seltzer",
+      "text": "sorry, don't seen to have gotten audio working. <br/>"
+    },
+    {
+      "dtime": 5106000,
+      "ptime": 5106000,
+      "author": "ekr@jabber.org",
+      "text": "Just to be entirely clear: we were working on this even aside from Ads and I would be very interested even if it was clear there was no ads intersection at all<br/>"
+    },
+    {
+      "dtime": 5107000,
+      "ptime": 5107000,
+      "author": "Wendy Seltzer",
+      "text": "but thanks<br/>"
+    },
+    {
+      "dtime": 5110000,
+      "ptime": 5110000,
+      "author": "Jari Arkko",
+      "text": "Another question. If we did PPM, would that force users or browsers to supply good data to advertisers (even if somewhat privacy sensitive fashion)? Or can browsers and users still feed bad data to $TRACKERs? I think the ability to do that would be important. As is declining to participate in the protocol, but that definitely is possible.<br/>"
+    },
+    {
+      "dtime": 5112000,
+      "ptime": 5112000,
+      "author": "sftcd",
+      "text": "would those interested in this be willing/interested in studying abuse cases to try make those harder where possible as part of the chartered work? (a bit speculative I know but might be apt here)<br/>"
+    },
+    {
+      "dtime": 5132000,
+      "ptime": 5132000,
+      "author": "ekr@jabber.org",
+      "text": "@sftcd: I think so, but I'm not sure I understand the question<br/>"
+    },
+    {
+      "dtime": 5145000,
+      "ptime": 5145000,
+      "author": "Shivan Sahib",
+      "text": "The charter currently seems too focused on a particular technique for privacy preserving measurements<br/>"
+    },
+    {
+      "dtime": 5147000,
+      "ptime": 5147000,
+      "author": "Mark Nottingham",
+      "text": "stephen, we already saw evidence of that thinking in the presentations IIRC<br/>"
+    },
+    {
+      "dtime": 5147000,
+      "ptime": 5147000,
+      "author": "Watson Ladd",
+      "text": "we can jabber scribe for you Wendy<br/>"
+    },
+    {
+      "dtime": 5152000,
+      "ptime": 5152000,
+      "author": "sftcd",
+      "text": "TBH, me neither really, but I'm still conviced it;s a good idea:-)<br/>"
+    },
+    {
+      "dtime": 5172000,
+      "ptime": 5172000,
+      "author": "Martin Thomson",
+      "text": "I have a problem with the name.&nbsp;&nbsp;I will suggest one on the list.<br/>"
+    },
+    {
+      "dtime": 5173000,
+      "ptime": 5173000,
+      "author": "ekr@jabber.org",
+      "text": "Shivan: I would say it's focused on a particular class of techniques<br/>"
+    },
+    {
+      "dtime": 5175000,
+      "ptime": 5175000,
+      "author": "Wes Hardaker",
+      "text": "@sftcd: I think a threat-model would be good to show where it works and where it doesn't help<br/>"
+    },
+    {
+      "dtime": 5177000,
+      "ptime": 5177000,
+      "author": "ekr@jabber.org",
+      "text": "@MT: please do.<br/>"
+    },
+    {
+      "dtime": 5180000,
+      "ptime": 5180000,
+      "author": "sftcd",
+      "text": "by \"abuse cases\" I mean spending time to publicly consider how the tech could be abused and to aim to mitigate that<br/>"
+    },
+    {
+      "dtime": 5183000,
+      "ptime": 5183000,
+      "author": "npd",
+      "text": "it is maybe a little unusual to define work as being for a value (user privacy), with the idea that one vendor refuses to make some changes until we do this other work<br/>"
+    },
+    {
+      "dtime": 5183000,
+      "ptime": 5183000,
+      "author": "Christopher Wood",
+      "text": "@Shivan by particular technique, do you mean Prio-style instead of accommodating things like STAR?<br/>"
+    },
+    {
+      "dtime": 5188000,
+      "ptime": 5188000,
+      "author": "Shivan Sahib",
+      "text": "right<br/>"
+    },
+    {
+      "dtime": 5198000,
+      "ptime": 5198000,
+      "author": "Christopher Wood",
+      "text": "Gotcha<br/>"
+    },
+    {
+      "dtime": 5201000,
+      "ptime": 5201000,
+      "author": "npd",
+      "text": "I have very serious concerns about the name as well<br/>"
+    },
+    {
+      "dtime": 5202000,
+      "ptime": 5202000,
+      "author": "Shivan Sahib",
+      "text": "is there scope for different classes of techniques to solve the same problems<br/>"
+    },
+    {
+      "dtime": 5204000,
+      "ptime": 5204000,
+      "author": "Shivan Sahib",
+      "text": "?<br/>"
+    },
+    {
+      "dtime": 5206000,
+      "ptime": 5206000,
+      "author": "Watson Ladd",
+      "text": "+1 Shivan: i think additional techniques might be worth including , even if not the top priority<br/>"
+    },
+    {
+      "dtime": 5207000,
+      "ptime": 5207000,
+      "author": "Wendy Seltzer",
+      "text": "(I was just going to voice support from W3C for this work, as there's work in incubation that could use it.)<br/>"
+    },
+    {
+      "dtime": 5208000,
+      "ptime": 5208000,
+      "author": "ekr@jabber.org",
+      "text": "@shivan: absolutely!<br/>"
+    },
+    {
+      "dtime": 5210000,
+      "ptime": 5210000,
+      "author": "sftcd",
+      "text": "@wes: more than a threat model IMO, it's spending effort to see how the fine protocols we define could be abused in ways we didn't envisage<br/>"
+    },
+    {
+      "dtime": 5217000,
+      "ptime": 5217000,
+      "author": "David Oliver",
+      "text": "perhaps a \"WG will study and characterize abuse cases\"?<br/>"
+    },
+    {
+      "dtime": 5222000,
+      "ptime": 5222000,
+      "author": "Jari Arkko",
+      "text": "@ekr&nbsp;&nbsp;- i do think this needs to go forward. and as you say this is generic tech, not necessarily tied to ad use case. (but hopefully you also understand the hesitation about supporting ad cases by some of us. pardon our care about that.)<br/>"
+    },
+    {
+      "dtime": 5236000,
+      "ptime": 5236000,
+      "author": "ekr@jabber.org",
+      "text": "@David: that's a good addition<br/>"
+    },
+    {
+      "dtime": 5245000,
+      "ptime": 5245000,
+      "author": "Jari Arkko",
+      "text": "+1 on abuse cases<br/>"
+    },
+    {
+      "dtime": 5251000,
+      "ptime": 5251000,
+      "author": "sftcd",
+      "text": "@ekr: I'd be v. happy with that addition<br/>"
+    },
+    {
+      "dtime": 5269000,
+      "ptime": 5269000,
+      "author": "sftcd",
+      "text": "and even hopeful we'd spend real time on it:-)_<br/>"
+    },
+    {
+      "dtime": 5274000,
+      "ptime": 5274000,
+      "author": "Mark Nottingham",
+      "text": "Jari, I see the use case not as 'supporting ad tech' but 'forcing ad tech into healthier patterns so that we can disable problematic mechanisms like cookies'<br/>"
+    },
+    {
+      "dtime": 5276000,
+      "ptime": 5276000,
+      "author": "Christopher Wood",
+      "text": "Similar to OHAI, we can note some use cases<br/>"
+    },
+    {
+      "dtime": 5285000,
+      "ptime": 5285000,
+      "author": "Jonathan Hoyland",
+      "text": "+1 for explicit chartering of consideration of abuse cases.<br/>"
+    },
+    {
+      "dtime": 5306000,
+      "ptime": 5306000,
+      "author": "Andrew Campling",
+      "text": "+1 to documenting use case(s) <br/>"
+    },
+    {
+      "dtime": 5312000,
+      "ptime": 5312000,
+      "author": "dkg",
+      "text": "♥ \"abuse cases\"<br/>"
+    },
+    {
+      "dtime": 5328000,
+      "ptime": 5328000,
+      "author": "David Oliver",
+      "text": "@dkg that's today's \"meme\"<br/>"
+    },
+    {
+      "dtime": 5341000,
+      "ptime": 5341000,
+      "author": "Jari Arkko",
+      "text": "@mnot i get that. But perhaps some of us would be happier in the \"make advertising and data collection go away\" camp. Sorry for being extreme. But it is my opinion :-)<br/>"
+    },
+    {
+      "dtime": 5346000,
+      "ptime": 5346000,
+      "author": "Cullen Jennings",
+      "text": "What is the timeline for completing the work ?&nbsp;&nbsp;It looks largely done when I read the draft. <br/>"
+    },
+    {
+      "dtime": 5347000,
+      "ptime": 5347000,
+      "author": "Martin Thomson",
+      "text": "I don't want to over-rotate on use cases.&nbsp;&nbsp;As ekr said, it's good to motivate the existence of the mechanism.<br/>"
+    },
+    {
+      "dtime": 5347000,
+      "ptime": 5347000,
+      "author": "ekr@jabber.org",
+      "text": "@Shivan: can you send a PR?<br/>"
+    },
+    {
+      "dtime": 5348000,
+      "ptime": 5348000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "People who want use cases in the charter, is that having the WG<br/>document use cases, or listing some use cases in the text of the<br/>charter?<br/>"
+    },
+    {
+      "dtime": 5366000,
+      "ptime": 5366000,
+      "author": "Chris Seal",
+      "text": "+1 for explicit chartering for considering abuse cases<br/>"
+    },
+    {
+      "dtime": 5374000,
+      "ptime": 5374000,
+      "author": "ekr@jabber.org",
+      "text": "I would be happy to rewrite that text to make it more general<br/>"
+    },
+    {
+      "dtime": 5385000,
+      "ptime": 5385000,
+      "author": "David Oliver",
+      "text": "@kaduk the WG should as part of its work clarify use case<br/>"
+    },
+    {
+      "dtime": 5386000,
+      "ptime": 5386000,
+      "author": "Mark Nottingham",
+      "text": "Jari - so you're all for first-part targeting, then? :)<br/>"
+    },
+    {
+      "dtime": 5387000,
+      "ptime": 5387000,
+      "author": "sftcd",
+      "text": "@ben: I'm fine without much on use-cases, effort spent on abuse cases doesn't require that I think<br/>"
+    },
+    {
+      "dtime": 5387000,
+      "ptime": 5387000,
+      "author": "dkg",
+      "text": "i'd support such a PR, Shivan<br/>"
+    },
+    {
+      "dtime": 5388000,
+      "ptime": 5388000,
+      "author": "Dirk Kutscher",
+      "text": "So, I'm generally supporting this, also for the reasons that Mark mentioned (offering better tech alternatives), but I'd like the technology consequences discussion should be recorded.<br/>"
+    },
+    {
+      "dtime": 5403000,
+      "ptime": 5403000,
+      "author": "Christopher Wood",
+      "text": "Thanks, Shivan!<br/>"
+    },
+    {
+      "dtime": 5418000,
+      "ptime": 5418000,
+      "author": "Martin Thomson",
+      "text": "\"multiple, non-colluding servers\" &lt;- threat model<br/>"
+    },
+    {
+      "dtime": 5419000,
+      "ptime": 5419000,
+      "author": "Wendy Seltzer",
+      "text": "@jari, this could get halfway there, with making go away some of the bad primitives people are maintaining only to support ads use cases.<br/>"
+    },
+    {
+      "dtime": 5421000,
+      "ptime": 5421000,
+      "author": "sftcd",
+      "text": "I think David O' suggested text was good enough for charter text no more needed<br/>"
+    },
+    {
+      "dtime": 5424000,
+      "ptime": 5424000,
+      "author": "Mark Nottingham",
+      "text": "I agree that a nuanced discussion and documentation of the use, abuse, and properties will be helpful.<br/>"
+    },
+    {
+      "dtime": 5435000,
+      "ptime": 5435000,
+      "author": "Mirja Kühlewind",
+      "text": "do we need something in the charter&nbsp;&nbsp; about the aggression itself? I mean how do I know as the client what exactly would happen with my data? Or why would I support such a system if I don't know that?<br/>"
+    },
+    {
+      "dtime": 5447000,
+      "ptime": 5447000,
+      "author": "Jonathan Hoyland",
+      "text": "+1 sftcd @David O.<br/>"
+    },
+    {
+      "dtime": 5452000,
+      "ptime": 5452000,
+      "author": "ekr@jabber.org",
+      "text": "I think that's delivered out of band<br/>"
+    },
+    {
+      "dtime": 5459000,
+      "ptime": 5459000,
+      "author": "Mirja Kühlewind",
+      "text": "maybe this falls into the abuse analysis bucket...<br/>"
+    },
+    {
+      "dtime": 5461000,
+      "ptime": 5461000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Mirja: did you want s/aggression/aggregation/?<br/>"
+    },
+    {
+      "dtime": 5462000,
+      "ptime": 5462000,
+      "author": "Jeffrey Yasskin",
+      "text": "Martin: there's also something about who approves the protocol details. e.g. that in browsers, it would be the browsers adopting aggregation functions, not the advertisers or adtech companies.<br/>"
+    },
+    {
+      "dtime": 5470000,
+      "ptime": 5470000,
+      "author": "Jeffrey Yasskin",
+      "text": "Martin: (for the threat model)<br/>"
+    },
+    {
+      "dtime": 5472000,
+      "ptime": 5472000,
+      "author": "Mirja Kühlewind",
+      "text": "yes aggregation<br/>"
+    },
+    {
+      "dtime": 5472000,
+      "ptime": 5472000,
+      "author": "sftcd",
+      "text": "aggression would be funny<br/>"
+    },
+    {
+      "dtime": 5474000,
+      "ptime": 5474000,
+      "author": "Alissa Cooper",
+      "text": "@mirja there is language in the charter about aggregation<br/>"
+    },
+    {
+      "dtime": 5476000,
+      "ptime": 5476000,
+      "author": "ekr@jabber.org",
+      "text": "I think that Erik is proposing probably should be at the vdaf level<br/>"
+    },
+    {
+      "dtime": 5483000,
+      "ptime": 5483000,
+      "author": "ekr@jabber.org",
+      "text": "But you know, PRs welcome :)<br/>"
+    },
+    {
+      "dtime": 5498000,
+      "ptime": 5498000,
+      "author": "Martin Thomson",
+      "text": "Jeffrey: I was being trite.&nbsp;&nbsp;Fact is, a good threat model for this is far too difficult to write into a charter.<br/>"
+    },
+    {
+      "dtime": 5499000,
+      "ptime": 5499000,
+      "author": "dkg",
+      "text": "aggression and abuse cases -- it's getting pretty dark<br/>"
+    },
+    {
+      "dtime": 5516000,
+      "ptime": 5516000,
+      "author": "Mirja Kühlewind",
+      "text": "sorry :-(<br/>"
+    },
+    {
+      "dtime": 5519000,
+      "ptime": 5519000,
+      "author": "Roman Danyliw",
+      "text": "I heard \"add a work item to document the use cases/abuse cases\"<br/>"
+    },
+    {
+      "dtime": 5521000,
+      "ptime": 5521000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "At least nobody has been called a dog in this session...<br/>"
+    },
+    {
+      "dtime": 5525000,
+      "ptime": 5525000,
+      "author": "ekr@jabber.org",
+      "text": "I would consider that an aggregate<br/>"
+    },
+    {
+      "dtime": 5526000,
+      "ptime": 5526000,
+      "author": "Mark Nottingham",
+      "text": "@dkg getting?<br/>"
+    },
+    {
+      "dtime": 5536000,
+      "ptime": 5536000,
+      "author": "Bradford Lassey",
+      "text": "I would as well<br/>"
+    },
+    {
+      "dtime": 5540000,
+      "ptime": 5540000,
+      "author": "Christopher Patton",
+      "text": "@charlie I think an ML model can be considered an \"aggregate\".<br/>"
+    },
+    {
+      "dtime": 5543000,
+      "ptime": 5543000,
+      "author": "Bradford Lassey",
+      "text": "but would be good to clarify<br/>"
+    },
+    {
+      "dtime": 5543000,
+      "ptime": 5543000,
+      "author": "dkg",
+      "text": "mnot: sorry, i believe the term is \"going\" dark<br/>"
+    },
+    {
+      "dtime": 5543000,
+      "ptime": 5543000,
+      "author": "Jeffrey Yasskin",
+      "text": "Martin: +1<br/>"
+    },
+    {
+      "dtime": 5543000,
+      "ptime": 5543000,
+      "author": "sftcd",
+      "text": "@roman: the more that effort was spent on abuse cases and the less on use cases the happier I'd be<br/>"
+    },
+    {
+      "dtime": 5544000,
+      "ptime": 5544000,
+      "author": "Erik Taubeneck",
+      "text": "+1 to Charlie's inclusion of ML models as aggregates<br/>"
+    },
+    {
+      "dtime": 5548000,
+      "ptime": 5548000,
+      "author": "ekr@jabber.org",
+      "text": "Though really you should just do OLS!<br/>"
+    },
+    {
+      "dtime": 5552000,
+      "ptime": 5552000,
+      "author": "Roman Danyliw",
+      "text": "I also heard \"clarify charter text to generalize for flexibility for alternatives/agility to add/swap approaches (e.g., Prio/heavy hitters)\"<br/>"
+    },
+    {
+      "dtime": 5556000,
+      "ptime": 5556000,
+      "author": "Mark Nottingham",
+      "text": "@dkg LOLOLOL<br/>"
+    },
+    {
+      "dtime": 5587000,
+      "ptime": 5587000,
+      "author": "Martin Thomson",
+      "text": "I think that we already have one specific abuse case and a mitigation (proofs of validity)<br/>"
+    },
+    {
+      "dtime": 5593000,
+      "ptime": 5593000,
+      "author": "Roman Danyliw",
+      "text": "@sftcd, yes, but there was other feedback to clarify the use cases too<br/>"
+    },
+    {
+      "dtime": 5606000,
+      "ptime": 5606000,
+      "author": "Watson Ladd",
+      "text": "LASSO<br/>"
+    },
+    {
+      "dtime": 5626000,
+      "ptime": 5626000,
+      "author": "Christopher Patton",
+      "text": "what do we mean by \"abuse\"?<br/>"
+    },
+    {
+      "dtime": 5626000,
+      "ptime": 5626000,
+      "author": "ekr@jabber.org",
+      "text": "@watson: indeed.<br/>"
+    },
+    {
+      "dtime": 5637000,
+      "ptime": 5637000,
+      "author": "David Oliver",
+      "text": "@sftcd is abuse \"collusion\" in your mind?<br/>"
+    },
+    {
+      "dtime": 5640000,
+      "ptime": 5640000,
+      "author": "sftcd",
+      "text": "@chrisP: that'd be the work to do<br/>"
+    },
+    {
+      "dtime": 5651000,
+      "ptime": 5651000,
+      "author": "Christopher Patton",
+      "text": "one of our goals is that \"invalid inputs\" should be detected and removed from thei nputs<br/>"
+    },
+    {
+      "dtime": 5665000,
+      "ptime": 5665000,
+      "author": "dkg",
+      "text": "Patton: there are at least two forms: (a) \"gathering private data\" that ends up exposing sensitive info and (b) clients tampering with aggregate measurements<br/>"
+    },
+    {
+      "dtime": 5671000,
+      "ptime": 5671000,
+      "author": "Martin Thomson",
+      "text": "Building a machine learning model, step 1: build it without machine learning.<br/>"
+    },
+    {
+      "dtime": 5675000,
+      "ptime": 5675000,
+      "author": "Dirk Kutscher",
+      "text": "\"collusion\" is a threat model -- \"bad use cases\" are abuse<br/>"
+    },
+    {
+      "dtime": 5679000,
+      "ptime": 5679000,
+      "author": "sftcd",
+      "text": "@davidO: that's one, but also maybe e.g. measuring with too-small aggregates maybe or changing the kind of measurements after someone opted-in - not all abuses might be fixable but some may<br/>"
+    },
+    {
+      "dtime": 5689000,
+      "ptime": 5689000,
+      "author": "ekr@jabber.org",
+      "text": "@sftcd: absolutely<br/>"
+    },
+    {
+      "dtime": 5694000,
+      "ptime": 5694000,
+      "author": "Jonathan Lennox",
+      "text": "Especially in the cases where invalid inputs are not just griefing but actively conducive for fraud.<br/>"
+    },
+    {
+      "dtime": 5712000,
+      "ptime": 5712000,
+      "author": "dkg",
+      "text": "\"invalid inputs\" is only one form of potential abuse from clients -- there could also be invalid patterns of submission (e.g. sybil attacks)<br/>"
+    },
+    {
+      "dtime": 5712000,
+      "ptime": 5712000,
+      "author": "ekr@jabber.org",
+      "text": "I don't object to changing it from PRIV<br/>"
+    },
+    {
+      "dtime": 5718000,
+      "ptime": 5718000,
+      "author": "Charlie Harrison",
+      "text": "+1 to changing the name<br/>"
+    },
+    {
+      "dtime": 5721000,
+      "ptime": 5721000,
+      "author": "Christian Huitema",
+      "text": "+1 on name being confusing<br/>"
+    },
+    {
+      "dtime": 5726000,
+      "ptime": 5726000,
+      "author": "Florence D",
+      "text": "I think use cases and abuse cases are very different (if similarly named) things, both have value for different reasons.<br/>"
+    },
+    {
+      "dtime": 5729000,
+      "ptime": 5729000,
+      "author": "ekr@jabber.org",
+      "text": "Though people seemed to be perfectly happy to have a protocol named QUIC even though it wasn't the only fast thing on the Web<br/>"
+    },
+    {
+      "dtime": 5733000,
+      "ptime": 5733000,
+      "author": "Erik Taubeneck",
+      "text": "+1 to changing the name<br/>"
+    },
+    {
+      "dtime": 5733000,
+      "ptime": 5733000,
+      "author": "Eric Orth",
+      "text": "+1 to \"PRIV\" sounding too much like some overall privacy group.<br/>"
+    },
+    {
+      "dtime": 5739000,
+      "ptime": 5739000,
+      "author": "Tommy Jensen",
+      "text": "How about \"Gather Data Privately at Runtime\" as a name, GDPR for short?<br/>"
+    },
+    {
+      "dtime": 5743000,
+      "ptime": 5743000,
+      "author": "Robin Wilton",
+      "text": "@Watson would you remove \"values\" from the name, or insert them in the Charter?<br/>"
+    },
+    {
+      "dtime": 5754000,
+      "ptime": 5754000,
+      "author": "Chris Box",
+      "text": "@tommy lol<br/>"
+    },
+    {
+      "dtime": 5758000,
+      "ptime": 5758000,
+      "author": "David Oliver",
+      "text": "@sftcd you really got the crowd riled up!<br/>"
+    },
+    {
+      "dtime": 5775000,
+      "ptime": 5775000,
+      "author": "Andrew Campling",
+      "text": "@Tommy J :slightly_smiling_face:<br/>"
+    },
+    {
+      "dtime": 5779000,
+      "ptime": 5779000,
+      "author": "ekr@jabber.org",
+      "text": "I want to be clear that I generated PRIV by backronyming after people objected to PPM<br/>"
+    },
+    {
+      "dtime": 5786000,
+      "ptime": 5786000,
+      "author": "Charlie Harrison",
+      "text": ":S<br/>"
+    },
+    {
+      "dtime": 5797000,
+      "ptime": 5797000,
+      "author": "Jonathan Lennox",
+      "text": "What was the objection to PPM?<br/>"
+    },
+    {
+      "dtime": 5804000,
+      "ptime": 5804000,
+      "author": "ekr@jabber.org",
+      "text": "Too close to IPPM<br/>"
+    },
+    {
+      "dtime": 5828000,
+      "ptime": 5828000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "Also, \"it's not parts per million\"<br/>"
+    },
+    {
+      "dtime": 5839000,
+      "ptime": 5839000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "But I think the IPPM people cared more than I did about that part<br/>"
+    },
+    {
+      "dtime": 5843000,
+      "ptime": 5843000,
+      "author": "Erik Taubeneck",
+      "text": "why not include aggregation? PPA? (Privacy Preserving Aggregation)<br/>"
+    },
+    {
+      "dtime": 5850000,
+      "ptime": 5850000,
+      "author": "Martin Thomson",
+      "text": "One obvious problem here is Sybil attacks.<br/>"
+    },
+    {
+      "dtime": 5853000,
+      "ptime": 5853000,
+      "author": "dkg",
+      "text": "PPAM -- privacy-preserving aggregated metrics<br/>"
+    },
+    {
+      "dtime": 5854000,
+      "ptime": 5854000,
+      "author": "ekr@jabber.org",
+      "text": "Because it puns on Privacy Preserving ADs<br/>"
+    },
+    {
+      "dtime": 5856000,
+      "ptime": 5856000,
+      "author": "Mirja Kühlewind",
+      "text": "(is PRIV like DPRIVE but without DNS and Encryption?)<br/>"
+    },
+    {
+      "dtime": 5902000,
+      "ptime": 5902000,
+      "author": "Mariana Raykova",
+      "text": "PPA = Privacy Preserving Analytics<br/>"
+    },
+    {
+      "dtime": 5907000,
+      "ptime": 5907000,
+      "author": "Martin Thomson",
+      "text": "Jari: most of the systems allow users to opt out without obviously doing so<br/>"
+    },
+    {
+      "dtime": 5908000,
+      "ptime": 5908000,
+      "author": "Jonathan Hoyland",
+      "text": "@dkg Does English allow a double P at the start of a word?<br/>"
+    },
+    {
+      "dtime": 5919000,
+      "ptime": 5919000,
+      "author": "dkg",
+      "text": "english allows everything<br/>"
+    },
+    {
+      "dtime": 5924000,
+      "ptime": 5924000,
+      "author": "sftcd",
+      "text": "ppossibly<br/>"
+    },
+    {
+      "dtime": 5932000,
+      "ptime": 5932000,
+      "author": "Andrew Campling",
+      "text": "It's very inclusive<br/>"
+    },
+    {
+      "dtime": 5944000,
+      "ptime": 5944000,
+      "author": "Patrick Tarpey",
+      "text": "Private Aggregate Measurements...<br/>"
+    },
+    {
+      "dtime": 5971000,
+      "ptime": 5971000,
+      "author": "npd",
+      "text": "I think realistic opt-in and opt-out (about privacy-relevant activities in online browsing) are super valuable topics to work on, but it seems like this charter is not about that topic<br/>"
+    },
+    {
+      "dtime": 5983000,
+      "ptime": 5983000,
+      "author": "Antoine Fressancourt",
+      "text": "@Martin would a generic opt out switch be possibly in the priv work ?<br/>"
+    },
+    {
+      "dtime": 5986000,
+      "ptime": 5986000,
+      "author": "Mirja Kühlewind",
+      "text": "aggregated measurements for privacy (AMP)<br/>"
+    },
+    {
+      "dtime": 5988000,
+      "ptime": 5988000,
+      "author": "ErikAnderson",
+      "text": "Microsoft is interested in pursuing this work. As discussed in other forums, we would like to flesh out the ads-related use cases within the W3C's PAT CG to provide input into the IETF work here. Similar to Charlie's point, we'd like to make sure that the charter isn't overconstrained on use cases that would be considered.<br/>"
+    },
+    {
+      "dtime": 5989000,
+      "ptime": 5989000,
+      "author": "David Oliver",
+      "text": "+1 @npd<br/>"
+    },
+    {
+      "dtime": 6000000,
+      "ptime": 6000000,
+      "author": "Mark Nottingham",
+      "text": "Mirja: well done.<br/>"
+    },
+    {
+      "dtime": 6017000,
+      "ptime": 6017000,
+      "author": "ErikAnderson",
+      "text": "And in the spirit of fun name proposals, perhaps \"Collection and Computation of Private Aggregates\" (CCPA)?<br/>"
+    },
+    {
+      "dtime": 6024000,
+      "ptime": 6024000,
+      "author": "Benjamin Schwartz",
+      "text": "SPLITSTATS<br/>"
+    },
+    {
+      "dtime": 6030000,
+      "ptime": 6030000,
+      "author": "sftcd",
+      "text": "i agree that arguing about desirability of opt-in/out here wouldn't likely be useful, but considering what can happen after e.g. an opt-in that results in a mismatch with reaonable user expectation might be in scope<br/>"
+    },
+    {
+      "dtime": 6032000,
+      "ptime": 6032000,
+      "author": "Andrew Campling",
+      "text": "Noting abuse, PPAM - Possibly Private Aggregated Mechanism?&nbsp;&nbsp;<br/>"
+    },
+    {
+      "dtime": 6035000,
+      "ptime": 6035000,
+      "author": "ekr@jabber.org",
+      "text": "I hear anybody complaining about the name, I'm gonna spend some time inventing a name that has the acronym QUIC<br/>"
+    },
+    {
+      "dtime": 6047000,
+      "ptime": 6047000,
+      "author": "Jonathan Hoyland",
+      "text": "@Erik too close to CPA<br/>"
+    },
+    {
+      "dtime": 6058000,
+      "ptime": 6058000,
+      "author": "sftcd",
+      "text": "CIUQ expanded somehow<br/>"
+    },
+    {
+      "dtime": 6059000,
+      "ptime": 6059000,
+      "author": "dkg",
+      "text": "schwartz: we just talked about updating the charter to not require \"splits\" (non-colluding servers)<br/>"
+    },
+    {
+      "dtime": 6069000,
+      "ptime": 6069000,
+      "author": "npd",
+      "text": "mt, jari -- was the opt-in/opt-out about participating in the aggregated measurement? or that separately users need more effective ways to opt in and opt out of tracking?<br/>"
+    },
+    {
+      "dtime": 6084000,
+      "ptime": 6084000,
+      "author": "Mark Nottingham",
+      "text": "Transmitting Collections Privately<br/>"
+    },
+    {
+      "dtime": 6093000,
+      "ptime": 6093000,
+      "author": "dkg",
+      "text": "mnot: ha ha<br/>"
+    },
+    {
+      "dtime": 6145000,
+      "ptime": 6145000,
+      "author": "Jonathan Hoyland",
+      "text": "I'm still a fan of PPAM, just because of the double P at the start. Sounds like something out of a comic book.<br/>"
+    },
+    {
+      "dtime": 6170000,
+      "ptime": 6170000,
+      "author": "Lucas Pardue",
+      "text": "cumulative, reliable , anonymous, private, browser aggregate generation<br/>"
+    },
+    {
+      "dtime": 6177000,
+      "ptime": 6177000,
+      "author": "Chris Box",
+      "text": "Something I haven't seen discussed so far (unless I missed it) is transparency. As a end user it would be useful to know which data my device is sending and who gets to see the results. Is there anything the WG could do to enable greater transparency of the measurements shared, either to me, or to an independent organisation that watches these things? Possibly not, but thought I'd ask.<br/>"
+    },
+    {
+      "dtime": 6221000,
+      "ptime": 6221000,
+      "author": "Andrew Campling",
+      "text": "@Lucas Genius <br/>"
+    },
+    {
+      "dtime": 6244000,
+      "ptime": 6244000,
+      "author": "Jonathan Hoyland",
+      "text": "@Chris from the charter:A successful PRIV system assumes that clients and the various <br/>servers are configured with each other's identities and details of <br/>the types of measurements to be taken.<br/>"
+    },
+    {
+      "dtime": 6270000,
+      "ptime": 6270000,
+      "author": "Chris Box",
+      "text": "So I have to disassemble the client software to find out?<br/>"
+    },
+    {
+      "dtime": 6271000,
+      "ptime": 6271000,
+      "author": "npd",
+      "text": "I think it's a serious problem (that could decrease the relative advantage of adopting these systems) that users may not actually understand the details of all the parties involved or who they are trusting. +1 Chris Box<br/>"
+    },
+    {
+      "dtime": 6274000,
+      "ptime": 6274000,
+      "author": "sftcd",
+      "text": "@ekr: I guess it depends to some extent on how delay-tolerant the protocols are - if they can have higher latency etc it'd be more easy for wes to be a helper (I'm not sure the name suits me though:-)<br/>"
+    },
+    {
+      "dtime": 6306000,
+      "ptime": 6306000,
+      "author": "dkg",
+      "text": "npd: i think we can guarantee that the overwhelming majority of users will not actually understand the details, regardless of transparency :/<br/>"
+    },
+    {
+      "dtime": 6308000,
+      "ptime": 6308000,
+      "author": "Martin Thomson",
+      "text": "Chris Patton: that goal might not be achievable in all cases<br/>"
+    },
+    {
+      "dtime": 6311000,
+      "ptime": 6311000,
+      "author": "Andrew Campling",
+      "text": "Could the helper functionality be used as proof of work for crypto?&nbsp;&nbsp;<br/>"
+    },
+    {
+      "dtime": 6312000,
+      "ptime": 6312000,
+      "author": "Watson Ladd",
+      "text": "do you need to dissable firefox to see about:telemetry?<br/>"
+    },
+    {
+      "dtime": 6320000,
+      "ptime": 6320000,
+      "author": "dkg",
+      "text": "(that said, +1 to Box's point about wanting it to be available)<br/>"
+    },
+    {
+      "dtime": 6326000,
+      "ptime": 6326000,
+      "author": "ekr@jabber.org",
+      "text": "@Chris: well, I would hope that clients would tell you (for instance, if you go to about:telemetry in Firefox you can see what we send). But it's generally true that you have to trust clients not to just send your data to DKG<br/>"
+    },
+    {
+      "dtime": 6333000,
+      "ptime": 6333000,
+      "author": "David Oliver",
+      "text": "Pareto Principle would claim that while a large number would try early on, it will devolve to a very small number in the future<br/>"
+    },
+    {
+      "dtime": 6337000,
+      "ptime": 6337000,
+      "author": "Mirja Kühlewind",
+      "text": "Chris I was also thinking about transparency (but didn't find the right word). would be nice to have that addressed in this group as well but not sure how that could work.<br/>"
+    },
+    {
+      "dtime": 6345000,
+      "ptime": 6345000,
+      "author": "dkg",
+      "text": "ekr: your jabber client is sending data to me right now<br/>"
+    },
+    {
+      "dtime": 6352000,
+      "ptime": 6352000,
+      "author": "npd",
+      "text": "\"modulo any changes we discussed today\" is pretty big<br/>"
+    },
+    {
+      "dtime": 6354000,
+      "ptime": 6354000,
+      "author": "ekr@jabber.org",
+      "text": "Damn, I wish I had reconfigured<br/>"
+    },
+    {
+      "dtime": 6369000,
+      "ptime": 6369000,
+      "author": "Watson Ladd",
+      "text": "is this inclusive of tweaks?<br/>"
+    },
+    {
+      "dtime": 6375000,
+      "ptime": 6375000,
+      "author": "David Oliver",
+      "text": "also research was presented yesterday suggested backend service providers were consolidating not getting more diverse<br/>"
+    },
+    {
+      "dtime": 6376000,
+      "ptime": 6376000,
+      "author": "Benjamin Schwartz",
+      "text": "Random thought: It might be good for the helpers to provide the client with a signed, dated claim about the VDAF parameters in use.<br/>"
+    },
+    {
+      "dtime": 6377000,
+      "ptime": 6377000,
+      "author": "sftcd",
+      "text": "@watson: yes<br/>"
+    },
+    {
+      "dtime": 6378000,
+      "ptime": 6378000,
+      "author": "Christopher Patton",
+      "text": "I'd love to hear from dissenters<br/>"
+    },
+    {
+      "dtime": 6379000,
+      "ptime": 6379000,
+      "author": "Martin Thomson",
+      "text": "This poll tool is terrible.&nbsp;&nbsp;What is wrong with Yes/No?<br/>"
+    },
+    {
+      "dtime": 6379000,
+      "ptime": 6379000,
+      "author": "Christopher Wood",
+      "text": "@Watson I believe so<br/>"
+    },
+    {
+      "dtime": 6383000,
+      "ptime": 6383000,
+      "author": "Andrew Campling",
+      "text": "@npd +1, some mutually exclusive points made<br/>"
+    },
+    {
+      "dtime": 6390000,
+      "ptime": 6390000,
+      "author": "Alissa Cooper",
+      "text": "Yes, inclusive of tweaks @Watson<br/>"
+    },
+    {
+      "dtime": 6391000,
+      "ptime": 6391000,
+      "author": "dkg",
+      "text": "watson, i said yes based on it being inclusive of tweaks today<br/>"
+    },
+    {
+      "dtime": 6393000,
+      "ptime": 6393000,
+      "author": "ekr@jabber.org",
+      "text": "@watson: yes, there will be a final IETFLC with a real charter, so it's not a binding cntract<br/>"
+    },
+    {
+      "dtime": 6402000,
+      "ptime": 6402000,
+      "author": "Ted Hardie",
+      "text": "I didn't answer this one because I do not have a good sense of the modulo clause. (no answer, that is, not a negative answer)<br/>"
+    },
+    {
+      "dtime": 6414000,
+      "ptime": 6414000,
+      "author": "Robin Wilton",
+      "text": "ditto to Ted<br/>"
+    },
+    {
+      "dtime": 6423000,
+      "ptime": 6423000,
+      "author": "ekr@jabber.org",
+      "text": "&gt; Random thought: It might be good for the helpers to provide the client with a signed, dated claim about the VDAF parameters in use.<br/>"
+    },
+    {
+      "dtime": 6432000,
+      "ptime": 6432000,
+      "author": "sftcd",
+      "text": "what was the result for the record? (I closed the window after saynig yes)<br/>"
+    },
+    {
+      "dtime": 6438000,
+      "ptime": 6438000,
+      "author": "ekr@jabber.org",
+      "text": "63:10 for<br/>"
+    },
+    {
+      "dtime": 6455000,
+      "ptime": 6455000,
+      "author": "Jonathan Lennox",
+      "text": "Results can be seen in the Meetecho \"Show of Hands Tool\" tab<br/>"
+    },
+    {
+      "dtime": 6455000,
+      "ptime": 6455000,
+      "author": "npd",
+      "text": "I understand it's not completely binding, but \"modulo\" is just very open-ended<br/>"
+    },
+    {
+      "dtime": 6458000,
+      "ptime": 6458000,
+      "author": "ekr@jabber.org",
+      "text": "SFTCD: as I said 63 for, 10 against<br/>"
+    },
+    {
+      "dtime": 6478000,
+      "ptime": 6478000,
+      "author": "dkg",
+      "text": "that's a lot of things.&nbsp;&nbsp;do we have to agree with all three statements to raise hands?<br/>"
+    },
+    {
+      "dtime": 6479000,
+      "ptime": 6479000,
+      "author": "Bob Moskowitz",
+      "text": "NOt well enough scoped.&nbsp;&nbsp;But that can be fixed.<br/>"
+    },
+    {
+      "dtime": 6481000,
+      "ptime": 6481000,
+      "author": "ekr@jabber.org",
+      "text": "@npd: some of the VDAF parameters are manifest to the client<br/>"
+    },
+    {
+      "dtime": 6483000,
+      "ptime": 6483000,
+      "author": "ekr@jabber.org",
+      "text": "Some of them are not<br/>"
+    },
+    {
+      "dtime": 6493000,
+      "ptime": 6493000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "dkg: as written, yes, you have to agree to all three<br/>"
+    },
+    {
+      "dtime": 6525000,
+      "ptime": 6525000,
+      "author": "dkg",
+      "text": "i'm amazed that so many people are confident this is solvable.<br/>"
+    },
+    {
+      "dtime": 6529000,
+      "ptime": 6529000,
+      "author": "Martin Thomson",
+      "text": "this question is \"ready for engineering\", which is hard to answer \"no\" to given the scale of the ISRG deployment<br/>"
+    },
+    {
+      "dtime": 6554000,
+      "ptime": 6554000,
+      "author": "Allison Mankin",
+      "text": "I'd be happier answering \"Do we think the problem statement is in good shape and will be all those things with some work\".&nbsp;&nbsp;But I think it's all useful to solve and solvable<br/>"
+    },
+    {
+      "dtime": 6560000,
+      "ptime": 6560000,
+      "author": "Mirja Kühlewind",
+      "text": "we can spec a protocol. does it actually solve the problem? Who knows...<br/>"
+    },
+    {
+      "dtime": 6563000,
+      "ptime": 6563000,
+      "author": "sftcd",
+      "text": "+1 Alison<br/>"
+    },
+    {
+      "dtime": 6571000,
+      "ptime": 6571000,
+      "author": "David Oliver",
+      "text": "@dkg that's why I think we need the WG to set out a \"solvable subset\" based on \"use\" or \"abuse\" cases &lt;grin&gt;<br/>"
+    },
+    {
+      "dtime": 6576000,
+      "ptime": 6576000,
+      "author": "dkg",
+      "text": "+1 Mirja<br/>"
+    },
+    {
+      "dtime": 6582000,
+      "ptime": 6582000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Nope, I don't believe we know what the problem is!<br/>"
+    },
+    {
+      "dtime": 6599000,
+      "ptime": 6599000,
+      "author": "Alissa Cooper",
+      "text": "we took the questions from RFC 5434<br/>"
+    },
+    {
+      "dtime": 6603000,
+      "ptime": 6603000,
+      "author": "Bob Moskowitz",
+      "text": "Have to go now.&nbsp;&nbsp;Been interesting.&nbsp;&nbsp;Bye.<br/>"
+    },
+    {
+      "dtime": 6606000,
+      "ptime": 6606000,
+      "author": "Lixia Zhang",
+      "text": "the question being asked sounds over-stated<br/>"
+    },
+    {
+      "dtime": 6614000,
+      "ptime": 6614000,
+      "author": "David Oliver",
+      "text": "Whether it's use or abuse, the WG needs to do it AFTER charter in my view<br/>"
+    },
+    {
+      "dtime": 6632000,
+      "ptime": 6632000,
+      "author": "sftcd",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 6647000,
+      "ptime": 6647000,
+      "author": "ekr@jabber.org",
+      "text": "To be clear, \"Value\" was just there to make it be PRIV<br/>"
+    },
+    {
+      "dtime": 6648000,
+      "ptime": 6648000,
+      "author": "Jari Arkko",
+      "text": "I think the charter can briefly justify the work by referring to the (clear) use cases. The charter shuld require work on identiifynig abuse cases because that's the work needed to ensure we can do this safely.<br/>"
+    },
+    {
+      "dtime": 6676000,
+      "ptime": 6676000,
+      "author": "Lucas Pardue",
+      "text": "one more: measuring users with a privacy preserving extensible technology - MUPPET<br/>"
+    },
+    {
+      "dtime": 6683000,
+      "ptime": 6683000,
+      "author": "Robin Wilton",
+      "text": "@ekr Right, but the word \"value\" is loaded.<br/>"
+    },
+    {
+      "dtime": 6686000,
+      "ptime": 6686000,
+      "author": "David Oliver",
+      "text": "@ekr is admitting it was an in-joke I love it<br/>"
+    },
+    {
+      "dtime": 6688000,
+      "ptime": 6688000,
+      "author": "Roman Danyliw",
+      "text": "The name of the WG does NOT formally affect the scope of the WG.&nbsp;&nbsp;The charter text is what matters.<br/>"
+    },
+    {
+      "dtime": 6689000,
+      "ptime": 6689000,
+      "author": "Erik Taubeneck",
+      "text": "doesn't aggregation/measurement imply value? i'm not sure why not inclucding \"value\" is meaningful<br/>"
+    },
+    {
+      "dtime": 6693000,
+      "ptime": 6693000,
+      "author": "npd",
+      "text": "I think the name and the use cases/abuse cases is definitely addressable<br/>"
+    },
+    {
+      "dtime": 6694000,
+      "ptime": 6694000,
+      "author": "Shivan Sahib",
+      "text": "honestly like PPM<br/>"
+    },
+    {
+      "dtime": 6701000,
+      "ptime": 6701000,
+      "author": "ekr@jabber.org",
+      "text": "@Shivan: me too!<br/>"
+    },
+    {
+      "dtime": 6705000,
+      "ptime": 6705000,
+      "author": "Jonathan Lennox",
+      "text": "I think people are thinking ethical values.<br/>"
+    },
+    {
+      "dtime": 6707000,
+      "ptime": 6707000,
+      "author": "Erik Taubeneck",
+      "text": "+1 to PPM<br/>"
+    },
+    {
+      "dtime": 6708000,
+      "ptime": 6708000,
+      "author": "dkg",
+      "text": "Erik: \"values\" like moral values<br/>"
+    },
+    {
+      "dtime": 6711000,
+      "ptime": 6711000,
+      "author": "Christopher Wood",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6711000,
+      "ptime": 6711000,
+      "author": "Richard Barnes",
+      "text": "+1 to PPM.&nbsp;&nbsp;confusion with IPPM seems unlikely<br/>"
+    },
+    {
+      "dtime": 6711000,
+      "ptime": 6711000,
+      "author": "Watson Ladd",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6712000,
+      "ptime": 6712000,
+      "author": "Erik Taubeneck",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6713000,
+      "ptime": 6713000,
+      "author": "Robert Sparks",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6713000,
+      "ptime": 6713000,
+      "author": "ekr@jabber.org",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6713000,
+      "ptime": 6713000,
+      "author": "David Oliver",
+      "text": "REVIEW<br/>"
+    },
+    {
+      "dtime": 6714000,
+      "ptime": 6714000,
+      "author": "sftcd",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6714000,
+      "ptime": 6714000,
+      "author": "Wendy Seltzer",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6715000,
+      "ptime": 6715000,
+      "author": "dkg",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6715000,
+      "ptime": 6715000,
+      "author": "Tim Geoghegan",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6715000,
+      "ptime": 6715000,
+      "author": "Christopher Patton",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6716000,
+      "ptime": 6716000,
+      "author": "Martin Thomson",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6716000,
+      "ptime": 6716000,
+      "author": "Richard Barnes",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6717000,
+      "ptime": 6717000,
+      "author": "Mark Nottingham",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6717000,
+      "ptime": 6717000,
+      "author": "Charlie Harrison",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6717000,
+      "ptime": 6717000,
+      "author": "Dirk Kutscher",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6718000,
+      "ptime": 6718000,
+      "author": "ErikAnderson",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6719000,
+      "ptime": 6719000,
+      "author": "Shivan Sahib",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6719000,
+      "ptime": 6719000,
+      "author": "Kris Shrishak",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6719000,
+      "ptime": 6719000,
+      "author": "Rich Salz",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6719000,
+      "ptime": 6719000,
+      "author": "Joseph Salowey",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6720000,
+      "ptime": 6720000,
+      "author": "stpeter",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6721000,
+      "ptime": 6721000,
+      "author": "npd",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6722000,
+      "ptime": 6722000,
+      "author": "Cullen Jennings",
+      "text": "Review <br/>"
+    },
+    {
+      "dtime": 6727000,
+      "ptime": 6727000,
+      "author": "Nalini Elkins",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6727000,
+      "ptime": 6727000,
+      "author": "Chris Box",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6728000,
+      "ptime": 6728000,
+      "author": "Robin Wilton",
+      "text": "@Roman fine, but the *discussion* in the chat left doubt about the scope, not just the label.<br/>"
+    },
+    {
+      "dtime": 6733000,
+      "ptime": 6733000,
+      "author": "Shivan Sahib",
+      "text": "\"+1 to PPM. confusion with IPPM seems unlikely\" +100<br/>"
+    },
+    {
+      "dtime": 6734000,
+      "ptime": 6734000,
+      "author": "Allison Mankin",
+      "text": "Review<br/>"
+    },
+    {
+      "dtime": 6734000,
+      "ptime": 6734000,
+      "author": "Wes Hardaker",
+      "text": "DATA: data anonymization toward aggregators&nbsp;&nbsp;<br/>"
+    },
+    {
+      "dtime": 6737000,
+      "ptime": 6737000,
+      "author": "Jari Arkko",
+      "text": "review<br/>"
+    },
+    {
+      "dtime": 6740000,
+      "ptime": 6740000,
+      "author": "ekr@jabber.org",
+      "text": "To be clear this was \"value\" in the mathematical sense. I assume we bring values to all of our work<br/>"
+    },
+    {
+      "dtime": 6742000,
+      "ptime": 6742000,
+      "author": "ekr@jabber.org",
+      "text": "eidt<br/>"
+    },
+    {
+      "dtime": 6742000,
+      "ptime": 6742000,
+      "author": "Richard Barnes",
+      "text": "edit<br/>"
+    },
+    {
+      "dtime": 6743000,
+      "ptime": 6743000,
+      "author": "ekr@jabber.org",
+      "text": "edit<br/>"
+    },
+    {
+      "dtime": 6744000,
+      "ptime": 6744000,
+      "author": "Christopher Wood",
+      "text": "edit<br/>"
+    },
+    {
+      "dtime": 6744000,
+      "ptime": 6744000,
+      "author": "Erik Taubeneck",
+      "text": "edit<br/>"
+    },
+    {
+      "dtime": 6746000,
+      "ptime": 6746000,
+      "author": "Tim Geoghegan",
+      "text": "edit<br/>"
+    },
+    {
+      "dtime": 6750000,
+      "ptime": 6750000,
+      "author": "Martin Thomson",
+      "text": "edit<br/>"
+    },
+    {
+      "dtime": 6750000,
+      "ptime": 6750000,
+      "author": "Christopher Patton",
+      "text": "edit<br/>"
+    },
+    {
+      "dtime": 6753000,
+      "ptime": 6753000,
+      "author": "sftcd",
+      "text": "maybe edit, depending <br/>"
+    },
+    {
+      "dtime": 6763000,
+      "ptime": 6763000,
+      "author": "Mariana Raykova",
+      "text": "edit, review<br/>"
+    },
+    {
+      "dtime": 6763000,
+      "ptime": 6763000,
+      "author": "Phillip Hallam-Baker",
+      "text": "eidt<br/>"
+    },
+    {
+      "dtime": 6764000,
+      "ptime": 6764000,
+      "author": "kaduk@jabber.org/barnowl",
+      "text": "SHEEP: Secure HTTP-based Engagement and Effectiveness Protocol<br/>"
+    },
+    {
+      "dtime": 6765000,
+      "ptime": 6765000,
+      "author": "sftcd",
+      "text": "(not plans to but willing to)<br/>"
+    },
+    {
+      "dtime": 6773000,
+      "ptime": 6773000,
+      "author": "Dirk Kutscher",
+      "text": "+1 to DATA<br/>"
+    },
+    {
+      "dtime": 6775000,
+      "ptime": 6775000,
+      "author": "Charlie Harrison",
+      "text": "possibly edit<br/>"
+    },
+    {
+      "dtime": 6785000,
+      "ptime": 6785000,
+      "author": "Eric Orth",
+      "text": "I liked \"MUPPET\" even though it scrolled out of my window before I could read what it stood for.<br/>"
+    },
+    {
+      "dtime": 6786000,
+      "ptime": 6786000,
+      "author": "ekr@jabber.org",
+      "text": "@Dirk: because nothing else in IETF involves DATA<br/>"
+    },
+    {
+      "dtime": 6788000,
+      "ptime": 6788000,
+      "author": "dkg",
+      "text": "sheep is a great way to get ppl to avoid adopting<br/>"
+    },
+    {
+      "dtime": 6797000,
+      "ptime": 6797000,
+      "author": "sftcd",
+      "text": "wolves<br/>"
+    },
+    {
+      "dtime": 6808000,
+      "ptime": 6808000,
+      "author": "Phillip Hallam-Baker",
+      "text": "I might have a bunch of text already...<br/>"
+    },
+    {
+      "dtime": 6810000,
+      "ptime": 6810000,
+      "author": "Dirk Kutscher",
+      "text": "yes...<br/>"
+    },
+    {
+      "dtime": 6814000,
+      "ptime": 6814000,
+      "author": "Jonathan Lennox",
+      "text": "Would not recommend WG names that are Disney trademarks<br/>"
+    },
+    {
+      "dtime": 6817000,
+      "ptime": 6817000,
+      "author": "Jonathan Hoyland",
+      "text": "Given that KITTEN is taken, maybe PUPPY?<br/>"
+    },
+    {
+      "dtime": 6828000,
+      "ptime": 6828000,
+      "author": "Jonathan Hoyland",
+      "text": "Most people like puppies.<br/>"
+    },
+    {
+      "dtime": 6834000,
+      "ptime": 6834000,
+      "author": "David Oliver",
+      "text": "I think it's very valuable to abstract farther than \"advertising\" use cases<br/>"
+    },
+    {
+      "dtime": 6837000,
+      "ptime": 6837000,
+      "author": "Mirja Kühlewind",
+      "text": "+1 for PUPPY is has a P that all we need right?<br/>"
+    },
+    {
+      "dtime": 6839000,
+      "ptime": 6839000,
+      "author": "Andrew Campling",
+      "text": "AD Tag - needs reverse engineering <br/>"
+    },
+    {
+      "dtime": 6839000,
+      "ptime": 6839000,
+      "author": "Lucas Pardue",
+      "text": "kermit protocol<br/>"
+    },
+    {
+      "dtime": 6855000,
+      "ptime": 6855000,
+      "author": "Watson Ladd",
+      "text": "kermit is already taken<br/>"
+    },
+    {
+      "dtime": 6861000,
+      "ptime": 6861000,
+      "author": "Phillip Hallam-Baker",
+      "text": "MOPPET<br/>"
+    },
+    {
+      "dtime": 6868000,
+      "ptime": 6868000,
+      "author": "npd",
+      "text": "where are charter suggestions/discussion to take place?<br/>"
+    },
+    {
+      "dtime": 6874000,
+      "ptime": 6874000,
+      "author": "Martin Thomson",
+      "text": "ppm@ietf.org<br/>"
+    },
+    {
+      "dtime": 6875000,
+      "ptime": 6875000,
+      "author": "ekr@jabber.org",
+      "text": "@npd: on the list or github<br/>"
+    },
+    {
+      "dtime": 6876000,
+      "ptime": 6876000,
+      "author": "David Oliver",
+      "text": "\"Quite Unique and Interesting Challenge\" Working Group<br/>"
+    },
+    {
+      "dtime": 6884000,
+      "ptime": 6884000,
+      "author": "npd",
+      "text": "thanks<br/>"
+    },
+    {
+      "dtime": 6885000,
+      "ptime": 6885000,
+      "author": "sftcd",
+      "text": "idkwtsi could be a good wg name (I don't know what the solution is)<br/>"
+    },
+    {
+      "dtime": 6886000,
+      "ptime": 6886000,
+      "author": "ekr@jabber.org",
+      "text": "<a href=\"https://github.com/abetterinternet/ppm-specification/blob/main/charter.md\" rel=\"nofollow\">https://github.com/abetterinternet/ppm-specification/blob/main/charter.md</a><br/>"
+    },
+    {
+      "dtime": 6887000,
+      "ptime": 6887000,
+      "author": "Phillip Hallam-Baker",
+      "text": "DOOMED<br/>"
+    },
+    {
+      "dtime": 6892000,
+      "ptime": 6892000,
+      "author": "Dirk Kutscher",
+      "text": "thanks -- was interesting<br/>"
+    },
+    {
+      "dtime": 6893000,
+      "ptime": 6893000,
+      "author": "David Oliver",
+      "text": "excellent work, folks<br/>"
+    },
+    {
+      "dtime": 6895000,
+      "ptime": 6895000,
+      "author": "Massimiliano Pala",
+      "text": "Thanks everybody!<br/>"
+    },
+    {
+      "dtime": 6896000,
+      "ptime": 6896000,
+      "author": "Martin Thomson",
+      "text": "and a well-run BoF, thanks chairs<br/>"
+    },
+    {
+      "dtime": 6897000,
+      "ptime": 6897000,
+      "author": "Wendy Seltzer",
+      "text": "Applied Privacy Preserving Labels Evolved&nbsp;&nbsp;Privately In E... APPLE PIE<br/>"
+    },
+    {
+      "dtime": 6899000,
+      "ptime": 6899000,
+      "author": "Charlie Harrison",
+      "text": "thanks everyone!<br/>"
+    },
+    {
+      "dtime": 6905000,
+      "ptime": 6905000,
+      "author": "Robin Wilton",
+      "text": "Thanks all - lively and relevant.<br/>"
+    },
+    {
+      "dtime": 6906000,
+      "ptime": 6906000,
+      "author": "Tim Geoghegan",
+      "text": "Thanks, this was fun!<br/>"
+    },
+    {
+      "dtime": 6910000,
+      "ptime": 6910000,
+      "author": "Christopher Patton",
+      "text": "hahahaha @Wendy<br/>"
+    },
+    {
+      "dtime": 6920000,
+      "ptime": 6920000,
+      "author": "Erik Taubeneck",
+      "text": "thanks all, and chairs!<br/>"
+    },
+    {
+      "dtime": 6923000,
+      "ptime": 6923000,
+      "author": "Juan-Carlos Zúñiga",
+      "text": "Thanks!<br/>"
+    },
+    {
+      "dtime": 6941000,
+      "ptime": 6941000,
+      "author": "Phillipp Schoppmann",
+      "text": "Thanks everyone!<br/>"
+    },
+    {
+      "dtime": 6954000,
+      "ptime": 6954000,
+      "author": "npd",
+      "text": "did we finish five minutes early? that's especially impressive time-management<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-PRIV-20211110-1600"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/priv"
+    }
+  ]
+}

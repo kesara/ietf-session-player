@@ -1,0 +1,168 @@
+
+{
+	"title": "IETF-SCITT-20230227-1600",
+	"filename": "IETF-SCITT-20230227-1600",
+	"start": 0,
+	"end": 3701000,
+	"start_datetime": "2023-02-27T16:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "y3cQp7W7OD0",
+    "start": 0,
+    "end": "3701000"
+  }
+],
+	"messages": [
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Why would we need to surface the gatekeeper in a standard, as opposed to a fine local implementation choice?</p>",
+    "topic": "jabber",
+    "dtime": 1818000,
+    "ptime": 1818000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>@cedri: that is an excellent scope question</p>",
+    "topic": "jabber",
+    "dtime": 1885000,
+    "ptime": 1885000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p><a href=\"https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/7\">https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/7</a> is expanded upon here:<br>\n<a href=\"https://scitt.io/distributing-with-oci-scitt.html#distributing-\">https://scitt.io/distributing-with-oci-scitt.html#distributing-</a><br>\nwith-oci-registries-with-scitt-enhancements</p>",
+    "topic": "jabber",
+    "dtime": 1943000,
+    "ptime": 1943000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>My preference is that the validation of the signature gates the transaction of the data to storage.  This stops SPAMMIN anonymously.  The belief that the storage iteration is looking at data that went through that bar.</p>",
+    "topic": "jabber",
+    "dtime": 1967000,
+    "ptime": 1967000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>I'd argue <strong>registration policy</strong> is the main concept here, with the main requirement that it needs to be enforced before recording in the log and receipt issuance. Conversely the name of the internal component that enforces it seems less important here.</p>",
+    "topic": "jabber",
+    "dtime": 2118000,
+    "ptime": 2118000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>If you think about transactions, the data + signature are tied at submission.  The feed of data into a SCITT instance may be over a federated factory pipe.  Think GitHUB or AWS build services are authenticated to submit the content, but the content is user or product specific.</p>",
+    "topic": "jabber",
+    "dtime": 2140000,
+    "ptime": 2140000
+  },
+  {
+    "author": "Roy Williams",
+    "text": "<p>This means that there is a distinction between contracted factory and product owner scenario needs to be kept.  As we found the cost of setting up and maintaining secure build services and evidence collection may be too complex for most and will open up a mode where a factory can fulfill that role.</p>",
+    "topic": "jabber",
+    "dtime": 2241000,
+    "ptime": 2241000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>I had an alternate version of the drawing that showed the eNotary calling out to \"the cloud\" to verify the identities.</p>",
+    "topic": "jabber",
+    "dtime": 2250000,
+    "ptime": 2250000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>It was just too dense for the focus.</p>",
+    "topic": "jabber",
+    "dtime": 2278000,
+    "ptime": 2278000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>I am still struggling with the need to separate 1 and 2 in the picture. Unless of course they are not 1-to-1.</p>",
+    "topic": "jabber",
+    "dtime": 2361000,
+    "ptime": 2361000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>May I suggest we schedule a separate discussion of registration policies? This is interesting but not terminology.</p>",
+    "topic": "jabber",
+    "dtime": 2682000,
+    "ptime": 2682000
+  },
+  {
+    "author": "Dick Brooks",
+    "text": "<p>A Transparency Service Operator needs to specify the policies that dictate when type of statements can be placed into their Registry. The TS needs to perform a Gatekeeper role to ensure that policies are being followed.</p>",
+    "topic": "jabber",
+    "dtime": 2715000,
+    "ptime": 2715000
+  },
+  {
+    "author": "John Andersen",
+    "text": "<p>Sorry, forgot about the queue</p>",
+    "topic": "jabber",
+    "dtime": 2841000,
+    "ptime": 2841000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>Just a point of discussion, Cedric brings up the point that we've off of the current topic on terminology</p>",
+    "topic": "jabber",
+    "dtime": 2842000,
+    "ptime": 2842000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>+1 we definitely need these identity concepts separated</p>",
+    "topic": "jabber",
+    "dtime": 3054000,
+    "ptime": 3054000
+  },
+  {
+    "author": "Dick Brooks",
+    "text": "<p>Registry integrity is teh responsibility of the Gatekeeper role. This is how it works today with REA's SAG-CTR. Evidence is submitted to the Gatekeeper, which is evaluated and, if it passes, an entry is placed in the SAG-CTR registry, that consumers query.</p>",
+    "topic": "jabber",
+    "dtime": 3148000,
+    "ptime": 3148000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>Neal is next</p>",
+    "topic": "jabber",
+    "dtime": 3173000,
+    "ptime": 3173000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>I've got a hard stop at the top of the hour...</p>",
+    "topic": "jabber",
+    "dtime": 3492000,
+    "ptime": 3492000
+  },
+  {
+    "author": "Steve Lasker",
+    "text": "<p>I need to drop. <br>\nThanks folks, and looking forward to the discussion on the list and PR:</p>",
+    "topic": "jabber",
+    "dtime": 3673000,
+    "ptime": 3673000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20230227-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-08/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20230227-1600"
+		}
+	]
+}

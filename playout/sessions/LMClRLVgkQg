@@ -1,0 +1,534 @@
+
+{
+	"title": "IETF112-EMAILCORE-20211110-1200",
+	"filename": "IETF112-EMAILCORE-20211110-1200",
+	"start": 0,
+	"end": 3424000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "LMClRLVgkQg",
+    "start": 0,
+    "end": "3424000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 266000,
+    "ptime": 266000,
+    "author": "Pete Resnick",
+    "text": "Anybody think there's anything else?<br/>"
+  },
+  {
+    "dtime": 331000,
+    "ptime": 331000,
+    "author": "Pete Resnick",
+    "text": "My plan is to send out a new version in the next week or so and then go into IDLE mode.<br/>"
+  },
+  {
+    "dtime": 453000,
+    "ptime": 453000,
+    "author": "Ned Freed",
+    "text": "Hmm. I thought the idea was to remove discussion, not turn it into prohibititions.<br/>"
+  },
+  {
+    "dtime": 493000,
+    "ptime": 493000,
+    "author": "Ned Freed",
+    "text": "You're implementing (b), not (a).<br/>"
+  },
+  {
+    "dtime": 517000,
+    "ptime": 517000,
+    "author": "John C Klensin",
+    "text": "My recollection matches Ned's, actually<br/>"
+  },
+  {
+    "dtime": 548000,
+    "ptime": 548000,
+    "author": "Ned Freed",
+    "text": "Just remove the discussion entirely.<br/>"
+  },
+  {
+    "dtime": 569000,
+    "ptime": 569000,
+    "author": "Ned Freed",
+    "text": "Why even have the historical comment?<br/>"
+  },
+  {
+    "dtime": 595000,
+    "ptime": 595000,
+    "author": "John Levine",
+    "text": "So you can parse ancient mail archives?<br/>"
+  },
+  {
+    "dtime": 657000,
+    "ptime": 657000,
+    "author": "Eliot Lear",
+    "text": "I SO wanted to do this in 1123.<br/>"
+  },
+  {
+    "dtime": 743000,
+    "ptime": 743000,
+    "author": "Ned Freed",
+    "text": "Exactly what Barry said. There needs to be one or maybe two places that discuss it.<br/>"
+  },
+  {
+    "dtime": 764000,
+    "ptime": 764000,
+    "author": "Ned Freed",
+    "text": "Getting rid of all the mentions everywhere cleans things up.<br/>"
+  },
+  {
+    "dtime": 809000,
+    "ptime": 809000,
+    "author": "Pete Resnick",
+    "text": "We're not talking about mailboxes; this is in the SMTP command stream, right?<br/>"
+  },
+  {
+    "dtime": 918000,
+    "ptime": 918000,
+    "author": "Eliot Lear",
+    "text": "Right<br/>"
+  },
+  {
+    "dtime": 1213000,
+    "ptime": 1213000,
+    "author": "Ned Freed",
+    "text": "That's more or less it.<br/>"
+  },
+  {
+    "dtime": 1258000,
+    "ptime": 1258000,
+    "author": "Ned Freed",
+    "text": "My main goal is to try and get obsolete stuff out of the discussions to make them easier to follow. Backwards pointers are fine and encouraged.<br/>"
+  },
+  {
+    "dtime": 1275000,
+    "ptime": 1275000,
+    "author": "Eliot Lear",
+    "text": "I'm not going to stand on my head on this.&nbsp;&nbsp;I prefer not referring to obsolete docs.<br/>"
+  },
+  {
+    "dtime": 1289000,
+    "ptime": 1289000,
+    "author": "Pete Resnick",
+    "text": "Yep, agreed Ned.<br/>"
+  },
+  {
+    "dtime": 1317000,
+    "ptime": 1317000,
+    "author": "Pete Resnick",
+    "text": "@Eliot: Informational reference only.<br/>"
+  },
+  {
+    "dtime": 1397000,
+    "ptime": 1397000,
+    "author": "Eliot Lear",
+    "text": "What does the ABNF look like for this?&nbsp;&nbsp;Is it simply gone?<br/>"
+  },
+  {
+    "dtime": 1410000,
+    "ptime": 1410000,
+    "author": "Eliot Lear",
+    "text": "And we're dropping a tombstone in the narrative?<br/>"
+  },
+  {
+    "dtime": 1415000,
+    "ptime": 1415000,
+    "author": "Barry Leiba",
+    "text": "Yes, gone.&nbsp;&nbsp;Only in 821<br/>"
+  },
+  {
+    "dtime": 1418000,
+    "ptime": 1418000,
+    "author": "Pete Resnick",
+    "text": "@Eliot: Correct.<br/>"
+  },
+  {
+    "dtime": 1433000,
+    "ptime": 1433000,
+    "author": "Eliot Lear",
+    "text": "ok<br/>"
+  },
+  {
+    "dtime": 1475000,
+    "ptime": 1475000,
+    "author": "Eliot Lear",
+    "text": "I mean, realistically in these days, nobody's going to expect anyone to honor source routing, anyway...<br/>"
+  },
+  {
+    "dtime": 1482000,
+    "ptime": 1482000,
+    "author": "Pete Resnick",
+    "text": "The syntax does continue to exist in the obs- section of 5322bis, but that's because we chose to do the obs- dance in 5322bis and not dork with it.<br/>"
+  },
+  {
+    "dtime": 1493000,
+    "ptime": 1493000,
+    "author": "Eliot Lear",
+    "text": "ok<br/>"
+  },
+  {
+    "dtime": 1545000,
+    "ptime": 1545000,
+    "author": "Pete Resnick",
+    "text": "Yeah, all of this text gets to go.<br/>"
+  },
+  {
+    "dtime": 1553000,
+    "ptime": 1553000,
+    "author": "John C Klensin",
+    "text": "Just note that, while I expect people won't have trouble with it, 821 did not use ABNF.<br/>"
+  },
+  {
+    "dtime": 1570000,
+    "ptime": 1570000,
+    "author": "Eliot Lear",
+    "text": "So the expectation here in seeing a source route is a 500?<br/>"
+  },
+  {
+    "dtime": 1629000,
+    "ptime": 1629000,
+    "author": "Ned Freed",
+    "text": "As a practical matter, you're going to get a 5YZ from a lot of things already. No matter what we say here.<br/>"
+  },
+  {
+    "dtime": 1662000,
+    "ptime": 1662000,
+    "author": "Eliot Lear",
+    "text": "@Ned, maybe it's good to say that in the tombstone.<br/>"
+  },
+  {
+    "dtime": 1663000,
+    "ptime": 1663000,
+    "author": "Pete Resnick",
+    "text": "Treat it like a normal syntax error.<br/>"
+  },
+  {
+    "dtime": 1681000,
+    "ptime": 1681000,
+    "author": "Ned Freed",
+    "text": "@Eliot: Works for me.<br/>"
+  },
+  {
+    "dtime": 1861000,
+    "ptime": 1861000,
+    "author": "John Levine",
+    "text": "Gmail gives a 550 for source route<br/>"
+  },
+  {
+    "dtime": 1868000,
+    "ptime": 1868000,
+    "author": "John Levine",
+    "text": "thinks it's an invalid mailbox<br/>"
+  },
+  {
+    "dtime": 1875000,
+    "ptime": 1875000,
+    "author": "Ned Freed",
+    "text": "That seems like a fine example, but if you want the really important example it is that<br/>"
+  },
+  {
+    "dtime": 1887000,
+    "ptime": 1887000,
+    "author": "Ned Freed",
+    "text": "\"foo\"@example.com &lt;-&gt; foo@example.com<br/>"
+  },
+  {
+    "dtime": 1958000,
+    "ptime": 1958000,
+    "author": "Wes Hardaker",
+    "text": "many other specifications discuss comparisons after conversion to a canonical form<br/>"
+  },
+  {
+    "dtime": 2069000,
+    "ptime": 2069000,
+    "author": "Ned Freed",
+    "text": "What John K said. We have this issue that we have not specified a UTF-8 canonical form for local-parts.<br/>"
+  },
+  {
+    "dtime": 2260000,
+    "ptime": 2260000,
+    "author": "Bron Gondwana",
+    "text": "seen in a work slack today \"in this case, silence is consent\" - was about something easy to undo though :)<br/>"
+  },
+  {
+    "dtime": 2262000,
+    "ptime": 2262000,
+    "author": "Pete Resnick",
+    "text": "Already mentioned in 5322bis.<br/>"
+  },
+  {
+    "dtime": 2353000,
+    "ptime": 2353000,
+    "author": "Ned Freed",
+    "text": "This sort of reference to the AS seems OK to me.<br/>"
+  },
+  {
+    "dtime": 2359000,
+    "ptime": 2359000,
+    "author": "Pete Resnick",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 2452000,
+    "ptime": 2452000,
+    "author": "Ned Freed",
+    "text": "The really important one here is 8BITMIME.<br/>"
+  },
+  {
+    "dtime": 2500000,
+    "ptime": 2500000,
+    "author": "Ned Freed",
+    "text": "I'm fine with enhanced status codes and DSNs being a MUST, but I worry a little about NOTIFY=SUCCESS.<br/>"
+  },
+  {
+    "dtime": 2541000,
+    "ptime": 2541000,
+    "author": "Ned Freed",
+    "text": "Maybe we need to spin up a quick update to RFC 3461 deprecating support for NOTIFY=SUCCESS?<br/>"
+  },
+  {
+    "dtime": 2554000,
+    "ptime": 2554000,
+    "author": "Ned Freed",
+    "text": "Sorry, meant to say \"required support\".<br/>"
+  },
+  {
+    "dtime": 2563000,
+    "ptime": 2563000,
+    "author": "John C Klensin",
+    "text": "@Ned\" ,me too.<br/>"
+  },
+  {
+    "dtime": 2600000,
+    "ptime": 2600000,
+    "author": "Bron Gondwana",
+    "text": "@Ned is that an offer to write or follow up on to make sure that happens?<br/>"
+  },
+  {
+    "dtime": 2607000,
+    "ptime": 2607000,
+    "author": "Ned Freed",
+    "text": "Yes it is.<br/>"
+  },
+  {
+    "dtime": 2612000,
+    "ptime": 2612000,
+    "author": "Bron Gondwana",
+    "text": "great<br/>"
+  },
+  {
+    "dtime": 2616000,
+    "ptime": 2616000,
+    "author": "Bron Gondwana",
+    "text": "I've noted such in the minutes :p<br/>"
+  },
+  {
+    "dtime": 2627000,
+    "ptime": 2627000,
+    "author": "Ned Freed",
+    "text": "I just put it on my to-do list.<br/>"
+  },
+  {
+    "dtime": 2680000,
+    "ptime": 2680000,
+    "author": "Ned Freed",
+    "text": "The AS needs to say something about the security model that has emerged of using TLS for security.<br/>"
+  },
+  {
+    "dtime": 2698000,
+    "ptime": 2698000,
+    "author": "Ned Freed",
+    "text": "Hop by hop authentication, however.... pretty obscure.<br/>"
+  },
+  {
+    "dtime": 2748000,
+    "ptime": 2748000,
+    "author": "Ned Freed",
+    "text": "I'd like to try an interim, FWIW.<br/>"
+  },
+  {
+    "dtime": 2769000,
+    "ptime": 2769000,
+    "author": "Pete Resnick",
+    "text": "I'm around.<br/>"
+  },
+  {
+    "dtime": 2800000,
+    "ptime": 2800000,
+    "author": "Bron Gondwana",
+    "text": "I will NOT show up, probably.&nbsp;&nbsp;Something something sleep something<br/>"
+  },
+  {
+    "dtime": 2801000,
+    "ptime": 2801000,
+    "author": "Ned Freed",
+    "text": "What John K. just said.<br/>"
+  },
+  {
+    "dtime": 2833000,
+    "ptime": 2833000,
+    "author": "Bron Gondwana",
+    "text": "but I'm not deeply involved here anyway, just showing up for awareness, to heckle, and to take notes<br/>"
+  },
+  {
+    "dtime": 2846000,
+    "ptime": 2846000,
+    "author": "Bron Gondwana",
+    "text": "apparently it's better than being in QUIC<br/>"
+  },
+  {
+    "dtime": 2846000,
+    "ptime": 2846000,
+    "author": "Ned Freed",
+    "text": "Note takers are always welcome.<br/>"
+  },
+  {
+    "dtime": 2854000,
+    "ptime": 2854000,
+    "author": "Todd Herr",
+    "text": "@Bron and your contributions are noted and appreciated<br/>"
+  },
+  {
+    "dtime": 2857000,
+    "ptime": 2857000,
+    "author": "Barry Leiba",
+    "text": "Suggested scope looks about right.<br/>"
+  },
+  {
+    "dtime": 2871000,
+    "ptime": 2871000,
+    "author": "Ned Freed",
+    "text": "@Barry: Agreed.<br/>"
+  },
+  {
+    "dtime": 2979000,
+    "ptime": 2979000,
+    "author": "Ned Freed",
+    "text": "I think SUBMIT has high rathole potential, but if it's unavoidable so be it.<br/>"
+  },
+  {
+    "dtime": 3030000,
+    "ptime": 3030000,
+    "author": "Ned Freed",
+    "text": "I was going to try and put together something on the history of approaches to the large file problem.<br/>"
+  },
+  {
+    "dtime": 3035000,
+    "ptime": 3035000,
+    "author": "Ned Freed",
+    "text": "Is anyone still interesting in that/<br/>"
+  },
+  {
+    "dtime": 3041000,
+    "ptime": 3041000,
+    "author": "Kenneth Murchison",
+    "text": "As co-author of AS and employee of Bron, sync'ing with any large file draft won't be an issue<br/>"
+  },
+  {
+    "dtime": 3045000,
+    "ptime": 3045000,
+    "author": "John C Klensin",
+    "text": "We could always resurrect external message bodies \"-(<br/>"
+  },
+  {
+    "dtime": 3049000,
+    "ptime": 3049000,
+    "author": "Pete Resnick",
+    "text": "Sounds like we dust off the LEMONADE specs again and people ignore them again. :-)<br/>"
+  },
+  {
+    "dtime": 3081000,
+    "ptime": 3081000,
+    "author": "Ned Freed",
+    "text": "The thing I noticed is that people seem to be unaware of past attempts to do this.<br/>"
+  },
+  {
+    "dtime": 3102000,
+    "ptime": 3102000,
+    "author": "Pete Resnick",
+    "text": "s/this/just about anything<br/>"
+  },
+  {
+    "dtime": 3116000,
+    "ptime": 3116000,
+    "author": "Ned Freed",
+    "text": "@Pete: Fair point.<br/>"
+  },
+  {
+    "dtime": 3158000,
+    "ptime": 3158000,
+    "author": "John C Klensin",
+    "text": "@Ned that was more or less what I meant by my snarky version.&nbsp;&nbsp;I'm also concerned about how one guesses or figures out what is \"too large\".&nbsp;&nbsp;SIZE is not quite right for this.<br/>"
+  },
+  {
+    "dtime": 3182000,
+    "ptime": 3182000,
+    "author": "Bron Gondwana",
+    "text": "yes, it's a big problem - both the \"people ignore existing stuff\"<br/>"
+  },
+  {
+    "dtime": 3189000,
+    "ptime": 3189000,
+    "author": "Bron Gondwana",
+    "text": "and the \"existing stuff doesn't quite solve the problem\"<br/>"
+  },
+  {
+    "dtime": 3211000,
+    "ptime": 3211000,
+    "author": "Bron Gondwana",
+    "text": "but pulling out the existing bits that can be used along with the other parts is definitely worthwhile<br/>"
+  },
+  {
+    "dtime": 3242000,
+    "ptime": 3242000,
+    "author": "Pete Resnick",
+    "text": "Generally I find that \"doesn't quite solve the problem\" is really \"doesn't do it the way I would do it with current technology\".<br/>"
+  },
+  {
+    "dtime": 3272000,
+    "ptime": 3272000,
+    "author": "John C Klensin",
+    "text": "Ack<br/>"
+  },
+  {
+    "dtime": 3288000,
+    "ptime": 3288000,
+    "author": "Ned Freed",
+    "text": "Thanks. Great meeting!<br/>"
+  },
+  {
+    "dtime": 3292000,
+    "ptime": 3292000,
+    "author": "Pete Resnick",
+    "text": "+1: Good job Todd.<br/>"
+  },
+  {
+    "dtime": 3303000,
+    "ptime": 3303000,
+    "author": "Pete Resnick",
+    "text": "I'm going to go retrieve coffee and then see you all in Gather.<br/>"
+  },
+  {
+    "dtime": 3306000,
+    "ptime": 3306000,
+    "author": "Bron Gondwana",
+    "text": "@Pete: there's no general solution for resuming upload for a large file, for example<br/>"
+  },
+  {
+    "dtime": 3311000,
+    "ptime": 3311000,
+    "author": "Bron Gondwana",
+    "text": "yep - see you in gather!<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-EMAILCORE-20211110-1200"
+		}
+	]
+}

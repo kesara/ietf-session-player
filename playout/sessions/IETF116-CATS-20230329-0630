@@ -1,0 +1,189 @@
+
+{
+	"title": "IETF116-CATS-20230329-0630",
+	"filename": "IETF116-CATS-20230329-0630",
+	"start": 0,
+	"end": 5331000,
+	"start_datetime": "2023-03-29T06:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "2UWcDUJ2Hmo",
+    "start": 0,
+    "end": "5331000"
+  }
+],
+	"messages": [
+  {
+    "author": "Luay Jalil",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-116",
+    "dtime": 1221000,
+    "ptime": 1221000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>To Dean's point: it is really important that you all contribute to the on-list discussion saying which use cases you think are particularly \"realistic\" and need to find their way into the use case draft. You may be asked to contribute text!</p>",
+    "topic": "ietf-116",
+    "dtime": 2270000,
+    "ptime": 2270000
+  },
+  {
+    "author": "Luis Contreras",
+    "text": "<p>Regarding metrics, it would be good to have coordination between CATS and ALTO, since there is some on-going propositions in ALTO to consider compute- and service-function related metrics, as well</p>",
+    "topic": "ietf-116",
+    "dtime": 2945000,
+    "ptime": 2945000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Yes, Luis, we've come to that conclusion, too. Hang on for presentation 6a.</p>",
+    "topic": "ietf-116",
+    "dtime": 3072000,
+    "ptime": 3072000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Although ALTO and CATS solve a different architecture, they very probably operate on the same/similar set of metrics.</p>",
+    "topic": "ietf-116",
+    "dtime": 3171000,
+    "ptime": 3171000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Further, the component that captures the metrics could be the same. Unclear whether the metric distribution mechanism is the same (to CATS router or to ALTO server)</p>",
+    "topic": "ietf-116",
+    "dtime": 3219000,
+    "ptime": 3219000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>One comment about slides 3/4, please note that the title indicates (current) to express that the arch is not forzen and that this is right a starting point.</p>",
+    "topic": "ietf-116",
+    "dtime": 3263000,
+    "ptime": 3263000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>Speaking of metrics, a class of metrics I find missing in all these presentations (and in ALTO) are metrics for cost of energy consumption, and CO2 intensity. In my world, that is a metric that service providers think is important today, and increasingly important for the future. This class of metrics should fit in well in the existing architecture, I believe.</p>",
+    "topic": "ietf-116",
+    "dtime": 3995000,
+    "ptime": 3995000
+  },
+  {
+    "author": "Hang Shi",
+    "text": "<p>Do you think cost of energy will vary between sites?</p>",
+    "topic": "ietf-116",
+    "dtime": 4040000,
+    "ptime": 4040000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Yes, Jan. But do you think this should be folded in here, or more generally into routing work?</p>",
+    "topic": "ietf-116",
+    "dtime": 4070000,
+    "ptime": 4070000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>Definitely. Cost of energy (and CO2 footprint) varies greatly between energy providers.</p>",
+    "topic": "ietf-116",
+    "dtime": 4075000,
+    "ptime": 4075000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Hang, I believe it varies very significantly. But also, different servers may have different energy consumption</p>",
+    "topic": "ietf-116",
+    "dtime": 4111000,
+    "ptime": 4111000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>In ALTO there is already a cost model in YANG. There are identities for many types of cost (latency, bw, .....) but not for cost of energy or CO2.</p>",
+    "topic": "ietf-116",
+    "dtime": 4115000,
+    "ptime": 4115000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>Probably makes sense to work with ALTO on those models. IMO we should then also add energy, CO2 as possible basis for selecting compute and network resources.</p>",
+    "topic": "ietf-116",
+    "dtime": 4285000,
+    "ptime": 4285000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Alright. That was a commitment to that the CATS chairs will talk with the ALTO chairs about how to arrive (if appropriate) at a common set of computing metrics for use in both cases</p>",
+    "topic": "ietf-116",
+    "dtime": 4525000,
+    "ptime": 4525000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>An immediate action I see on the ALTO side is to make sure that the current cost groupings in the ALTO models are not too specific  to ALTO and see how/whether to readjust so that this can be easily reused by CATS, and others.</p>",
+    "topic": "ietf-116",
+    "dtime": 4731000,
+    "ptime": 4731000
+  },
+  {
+    "author": "Jordi Ros-Giralt",
+    "text": "<p>Jan, that's correct, in some ALTO meetings the members have discussed the possibility of incorporating energy metrics, as that's increasingly important. We are currently going through these discussions and we will be having a few interim meetings in the next weeks (<a href=\"https://datatracker.ietf.org/wg/alto/meetings/\">https://datatracker.ietf.org/wg/alto/meetings/</a>), I would encourage your participation (drop a note to the ALTO mailing list on this topic)</p>",
+    "topic": "ietf-116",
+    "dtime": 4881000,
+    "ptime": 4881000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>Is BGP-LS a right approach for metric distribution here? Looks  like some kind of subscription model fits better.</p>",
+    "topic": "ietf-116",
+    "dtime": 4926000,
+    "ptime": 4926000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>I would prefer to have the requirements before picking protocols.</p>",
+    "topic": "ietf-116",
+    "dtime": 5099000,
+    "ptime": 5099000
+  },
+  {
+    "author": "Jan Lindblad",
+    "text": "<p>Thanks @Jordi, good to hear. Thank for the link and tip.</p>",
+    "topic": "ietf-116",
+    "dtime": 5104000,
+    "ptime": 5104000
+  },
+  {
+    "author": "Jordi Ros-Giralt",
+    "text": "<p>Med, let's address the alignment of ALTO metrics with CATs in the next interim meetings. I will put it in the agenda.</p>",
+    "topic": "ietf-116",
+    "dtime": 5105000,
+    "ptime": 5105000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>Looks like a good plan. You may refer to <a href=\"https://github.com/ietf-wg-alto/draft-ietf-alto-oam-yang/issues/34\">https://github.com/ietf-wg-alto/draft-ietf-alto-oam-yang/issues/34</a></p>",
+    "topic": "ietf-116",
+    "dtime": 5156000,
+    "ptime": 5156000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-CATS-20230329-0630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/cats"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-CATS-20230329-0630"
+		}		
+	]
+}

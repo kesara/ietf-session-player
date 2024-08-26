@@ -1,0 +1,147 @@
+
+{
+	"title": "IETF116-ICNRG-20230328-0030",
+	"filename": "IETF116-ICNRG-20230328-0030",
+	"start": 0,
+	"end": 7416000,
+	"start_datetime": "2023-03-28T00:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "vfYe1zjWqM4",
+    "start": 0,
+    "end": "7416000"
+  }
+],
+	"messages": [
+  {
+    "author": "Christian Amsüss",
+    "text": "<p><span aria-label=\"coffee\" class=\"emoji emoji-2615\" role=\"img\" title=\"coffee\">:coffee:</span></p>",
+    "topic": "ietf-116",
+    "dtime": 69000,
+    "ptime": 69000
+  },
+  {
+    "author": "Cedric Westphal",
+    "text": "<p>the sound is lost online</p>",
+    "topic": "ietf-116",
+    "dtime": 852000,
+    "ptime": 852000
+  },
+  {
+    "author": "Cedric Westphal",
+    "text": "<p>speak into the mike!</p>",
+    "topic": "ietf-116",
+    "dtime": 864000,
+    "ptime": 864000
+  },
+  {
+    "author": "Cedric Westphal",
+    "text": "<p>Turn on the mike!</p>",
+    "topic": "ietf-116",
+    "dtime": 869000,
+    "ptime": 869000
+  },
+  {
+    "author": "Cedric Westphal",
+    "text": "<p>it is on now!</p>",
+    "topic": "ietf-116",
+    "dtime": 880000,
+    "ptime": 880000
+  },
+  {
+    "author": "Marie-Jose Montpetit",
+    "text": "<p>This could also be presented to COIN as 1. AR/VR is one of our use cases and 2. the relay could be point of computing</p>",
+    "topic": "ietf-116",
+    "dtime": 3287000,
+    "ptime": 3287000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>DaveO is referring to the problem described in <a href=\"https://dx.doi.org/10.1145/2597176.2578270\">https://dx.doi.org/10.1145/2597176.2578270</a></p>",
+    "topic": "ietf-116",
+    "dtime": 3964000,
+    "ptime": 3964000
+  },
+  {
+    "author": "Cedric Westphal",
+    "text": "<p>am I muted?</p>",
+    "topic": "ietf-116",
+    "dtime": 4025000,
+    "ptime": 4025000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>@Ali, thanks.</p>",
+    "topic": "ietf-116",
+    "dtime": 4526000,
+    "ptime": 4526000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>@Ali: yes, and some later (unfortunately not published) work that showed that if a user downshifts his rate all the current approaches assume it's because of lower bandwidth DOWNSTREAM of the cache, and to because of congestion on link(s) UPSTREAM of the cache. If the latter what winds up happening is that the downshift actually puts more pressure on the upstream bcaus the lower bandwidth data is not cached.</p>",
+    "topic": "ietf-116",
+    "dtime": 5062000,
+    "ptime": 5062000
+  },
+  {
+    "author": "Dirk Kutscher",
+    "text": "<p>We will do FLIC (Marc) after this.</p>",
+    "topic": "ietf-116",
+    "dtime": 5082000,
+    "ptime": 5082000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>For Uesda-san: could yin use icnping packets for this?</p>",
+    "topic": "ietf-116",
+    "dtime": 7034000,
+    "ptime": 7034000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Thanks Ali &amp; Dave - Once you pointed this out, I see how I am causing the bandwidth usage on above the relay to go up on detection of congestion.  Clearly not good. Big thanks. Does this paper or others point at mitigations approaches ?</p>",
+    "topic": "ietf-116",
+    "dtime": 7198000,
+    "ptime": 7198000
+  },
+  {
+    "author": "David Oran",
+    "text": "<p>What we suggested as sufficient but perhaps a bigger hammer than needed is to have the cache policy be \"if you cache rate X, also cache rates lower than X). This of course may need speculative fetches by the cache indpendentof the rates requested by users.</p>",
+    "topic": "ietf-116",
+    "dtime": 7329000,
+    "ptime": 7329000
+  },
+  {
+    "author": "Cedric Westphal",
+    "text": "<p>This is relevant as well <a href=\"https://arxiv.org/abs/1307.0794\">https://arxiv.org/abs/1307.0794</a></p>",
+    "topic": "ietf-116",
+    "dtime": 7397000,
+    "ptime": 7397000
+  },
+  {
+    "author": "Cedric Westphal",
+    "text": "<p>Thanks for hosting this session!</p>",
+    "topic": "ietf-116",
+    "dtime": 7410000,
+    "ptime": 7410000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-ICNRG-20230328-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/icnrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-ICNRG-20230328-0030"
+		}		
+	]
+}

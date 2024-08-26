@@ -1,0 +1,221 @@
+{
+  "title": "IETF105-SIDROPS-20190723-1520",
+  "filename": "IETF105-SIDROPS-20190723-1520",
+  "start": 0,
+  "end": 5753000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "GqcchQOqe7Q",
+      "start": 0.0,
+      "end": 5753000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Massimiliano Stucchi just left the room",
+      "ptime": 12000.0,
+      "dtime": 560000.0
+    },
+    {
+      "text": "***Massimiliano Stucchi just joined the room",
+      "ptime": 14000.0,
+      "dtime": 562000.0
+    },
+    {
+      "text": "***Arturo Servin just joined the room",
+      "ptime": 179000.0,
+      "dtime": 727000.0
+    },
+    {
+      "text": "***Warren Kumari just joined the room",
+      "ptime": 268000.0,
+      "dtime": 816000.0
+    },
+    {
+      "text": "I will be your friendly jabber scribe today. please SHOUT if you need attention.",
+      "ptime": 345000.0,
+      "dtime": 893000.0,
+      "author": "Warren Kumari"
+    },
+    {
+      "text": "***Taiji Kimura just joined the room",
+      "ptime": 450000.0,
+      "dtime": 998000.0
+    },
+    {
+      "text": "***Arturo Servin just left the room",
+      "ptime": 630000.0,
+      "dtime": 1178000.0
+    },
+    {
+      "text": "***Arturo Servin just joined the room",
+      "ptime": 632000.0,
+      "dtime": 1180000.0
+    },
+    {
+      "text": "RFC 6472",
+      "ptime": 929000.0,
+      "dtime": 1477000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "\"Recommendation for Not Using AS_SET and AS_CONFED_SET in BGP\"",
+      "ptime": 953000.0,
+      "dtime": 1501000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "***Arturo Servin just left the room",
+      "ptime": 1885000.0,
+      "dtime": 2433000.0
+    },
+    {
+      "text": "***Arturo Servin just joined the room",
+      "ptime": 2040000.0,
+      "dtime": 2588000.0
+    },
+    {
+      "text": "anybody know which meeting material slides go with current presentation?",
+      "ptime": 2066000.0,
+      "dtime": 2614000.0,
+      "author": "slm"
+    },
+    {
+      "text": "\"Origin Validation Signalling\"?",
+      "ptime": 2092000.0,
+      "dtime": 2640000.0,
+      "author": "slm"
+    },
+    {
+      "text": "No, looks like \"Signaling Prefix Origin Validation Results from an RPKI Origin Validating BGP Speaker to BGP Peer",
+      "ptime": 2138000.0,
+      "dtime": 2686000.0,
+      "author": "slm"
+    },
+    {
+      "text": "***Arturo Servin just left the room",
+      "ptime": 2155000.0,
+      "dtime": 2703000.0
+    },
+    {
+      "text": "just keep clicking, eventually you will get there",
+      "ptime": 2163000.0,
+      "dtime": 2711000.0,
+      "author": "slm"
+    },
+    {
+      "text": "RFC 6472 recommends against using AS_SET / AS_CONFED_SET - the follow on work deprecates them...",
+      "ptime": 2494000.0,
+      "dtime": 3042000.0,
+      "author": "Warren Kumari"
+    },
+    {
+      "text": "From the abstract of an (as yet unpublished) draft: RFC 6472, published in 2011, recommends against the use of the AS_SET    and AS_CONFED_SET types of the AS_PATH in BGPv4.  This was done to    simplify the design and implementation of BGP and to make the    semantics of the originator of a route more clear.  This document    deprecates both AS_SETs, and atomic aggregate from the BGPv4    protocol.",
+      "ptime": 2525000.0,
+      "dtime": 3073000.0,
+      "author": "Warren Kumari"
+    },
+    {
+      "text": "yeah AS_SET and AS_CONFED are basically for the transition from BGP3 to BGP4, we really don\u0027t need that anymore in the 2010s.",
+      "ptime": 2582000.0,
+      "dtime": 3130000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "http://www.bgpexpert.com/article.php?article\u003d182",
+      "ptime": 2627000.0,
+      "dtime": 3175000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "Why have the iBGP routers act on a community if the eBGP routers can just filer the offenting prefixes that don\u0027t validate in the first place?",
+      "ptime": 3999000.0,
+      "dtime": 4547000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "Note though that all of this is implemented by our favorite vendors C and J today",
+      "ptime": 4268000.0,
+      "dtime": 4816000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "Randy: having RPKI tell you what you should and shouldn\u0027t announce isn\u0027t the right way to operate",
+      "ptime": 4509000.0,
+      "dtime": 5057000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "You should know what is appropriate to announce without depending on RPKI",
+      "ptime": 4541000.0,
+      "dtime": 5089000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "This is an important point: RPKI is just an optional tool that will be available 95% of the time, but you need to do the right thing 100% of the time (well, 99.999% of the time, but that\u0027s more than the availability of RPKI)",
+      "ptime": 4627000.0,
+      "dtime": 5175000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "There are 13 root servers and 5 RIRs, so that should allow for more than enough diversity, shouldn\u0027t it?",
+      "ptime": 5057000.0,
+      "dtime": 5605000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "(It seems like I\u0027m mostly talking to myself here?)",
+      "ptime": 5073000.0,
+      "dtime": 5621000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "It  might be ins",
+      "ptime": 5199000.0,
+      "dtime": 5747000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "interesting to run a few root servers on non-RPKI addreses, though",
+      "ptime": 5223000.0,
+      "dtime": 5771000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "diversity all the way!",
+      "ptime": 5243000.0,
+      "dtime": 5791000.0,
+      "author": "Iljitsch van Beijnum"
+    },
+    {
+      "text": "***Jay Borkenhagen just left the room",
+      "ptime": 5670000.0,
+      "dtime": 6218000.0
+    },
+    {
+      "text": "***Massimiliano Stucchi just left the room",
+      "ptime": 5752000.0,
+      "dtime": 6300000.0
+    },
+    {
+      "text": "***Taiji Kimura just left the room",
+      "ptime": 5752000.0,
+      "dtime": 6300000.0
+    },
+    {
+      "text": "***Warren Kumari just left the room",
+      "ptime": 5752000.0,
+      "dtime": 6300000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF105-SIDROPS-20190723-1520"
+    }
+  ]
+}

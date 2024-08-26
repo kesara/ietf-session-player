@@ -1,0 +1,2556 @@
+{
+  "title": "IETF98-DNSOP-20170327-1300",
+  "filename": "IETF98-DNSOP-20170327-1300.json",
+  "start": 0,
+  "end": 7426000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2,
+      "src": "TQ9wewefmcs",
+      "start": 0,
+      "end": 7426000
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Roger Carney just joined the room",
+      "ptime": 30000,
+      "dtime": 775000
+    },
+    {
+      "text": "***Viktor Dukhovni just joined the room",
+      "ptime": 55000,
+      "dtime": 800000
+    },
+    {
+      "text": "***Pieter Lexis just left the room",
+      "ptime": 87000,
+      "dtime": 832000
+    },
+    {
+      "text": "***Pieter Lexis just joined the room",
+      "ptime": 96000,
+      "dtime": 841000
+    },
+    {
+      "text": "***suzworldwide just joined the room",
+      "ptime": 100000,
+      "dtime": 845000
+    },
+    {
+      "text": "***Shane Kerr just joined the room",
+      "ptime": 103000,
+      "dtime": 848000
+    },
+    {
+      "text": "***Scott Morizot just joined the room",
+      "ptime": 103000,
+      "dtime": 848000
+    },
+    {
+      "text": "***Andreas Schulze just joined the room",
+      "ptime": 124000,
+      "dtime": 869000
+    },
+    {
+      "text": "***Andreas Schulze_DATEV just joined the room",
+      "ptime": 134000,
+      "dtime": 879000
+    },
+    {
+      "text": "Starting",
+      "ptime": 139000,
+      "dtime": 884000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***fneves just joined the room",
+      "ptime": 160000,
+      "dtime": 905000
+    },
+    {
+      "text": "***Andreas Schulze_DATEV just left the room",
+      "ptime": 174000,
+      "dtime": 919000
+    },
+    {
+      "text": "***Andreas Schulze just left the room",
+      "ptime": 174000,
+      "dtime": 919000
+    },
+    {
+      "text": "***Andreas Schulze just joined the room",
+      "ptime": 175000,
+      "dtime": 920000
+    },
+    {
+      "text": "***Andreas Schulze_DATEV just joined the room",
+      "ptime": 182000,
+      "dtime": 927000
+    },
+    {
+      "text": "***fneves just joined the room",
+      "ptime": 199000,
+      "dtime": 944000
+    },
+    {
+      "text": "Materials at https://datatracker.ietf.org/meeting/98/materials#dnsop",
+      "ptime": 206000,
+      "dtime": 951000,
+      "author": "Dan York"
+    },
+    {
+      "text": "And we're underway.....welcome all :)",
+      "ptime": 231000,
+      "dtime": 976000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "***Sharon Goldberg just left the room",
+      "ptime": 253000,
+      "dtime": 998000
+    },
+    {
+      "text": "***Okke Timm just joined the room",
+      "ptime": 260000,
+      "dtime": 1005000
+    },
+    {
+      "text": "Warren Kumari as new AD standing at the mic",
+      "ptime": 268000,
+      "dtime": 1013000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Dennis Kort just joined the room",
+      "ptime": 282000,
+      "dtime": 1027000
+    },
+    {
+      "text": "Wow Warren levels up! :-D",
+      "ptime": 286000,
+      "dtime": 1031000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Joel Jaeggli at mic",
+      "ptime": 304000,
+      "dtime": 1049000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***John Woodworth just joined the room",
+      "ptime": 383000,
+      "dtime": 1128000
+    },
+    {
+      "text": "***Sharon Goldberg just joined the room",
+      "ptime": 415000,
+      "dtime": 1160000
+    },
+    {
+      "text": "***Dean Ballew just joined the room",
+      "ptime": 415000,
+      "dtime": 1160000
+    },
+    {
+      "text": "***Alex K just joined the room",
+      "ptime": 429000,
+      "dtime": 1174000
+    },
+    {
+      "text": "***Andreas Schulze_DATEV just left the room",
+      "ptime": 439000,
+      "dtime": 1184000
+    },
+    {
+      "text": "***Andreas Schulze just left the room",
+      "ptime": 439000,
+      "dtime": 1184000
+    },
+    {
+      "text": "FYI, we're in these slides: https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-chair-slides-01.pdf",
+      "ptime": 456000,
+      "dtime": 1201000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Andreas Schulze just joined the room",
+      "ptime": 527000,
+      "dtime": 1272000
+    },
+    {
+      "text": "Stuart Cheshire at mic",
+      "ptime": 528000,
+      "dtime": 1273000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Andreas Schulze_3961 just joined the room",
+      "ptime": 532000,
+      "dtime": 1277000
+    },
+    {
+      "text": "***Andreas Schulze_3961 just left the room",
+      "ptime": 629000,
+      "dtime": 1374000
+    },
+    {
+      "text": "***Andreas Schulze just left the room",
+      "ptime": 629000,
+      "dtime": 1374000
+    },
+    {
+      "text": "If any of you are remote and want a comment relayed, please preface it with \"MIC:\"",
+      "ptime": 689000,
+      "dtime": 1434000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Paul Hoffman is now presenting https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-terminology-bis-ietf98-00.pdf",
+      "ptime": 780000,
+      "dtime": 1525000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Alex K just left the room",
+      "ptime": 789000,
+      "dtime": 1534000
+    },
+    {
+      "text": "***Wendy Seltzer just joined the room",
+      "ptime": 812000,
+      "dtime": 1557000
+    },
+    {
+      "text": "Audio gone on my end...",
+      "ptime": 826000,
+      "dtime": 1571000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "For me too.",
+      "ptime": 831000,
+      "dtime": 1576000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "metoo",
+      "ptime": 833000,
+      "dtime": 1578000,
+      "author": "Edward Lewis"
+    },
+    {
+      "text": "Here too",
+      "ptime": 833000,
+      "dtime": 1578000,
+      "author": "Antoin Verschuren"
+    },
+    {
+      "text": "my audio is gone too",
+      "ptime": 835000,
+      "dtime": 1580000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "Looks like is gone in the room.",
+      "ptime": 840000,
+      "dtime": 1585000,
+      "author": "Dennis Kort"
+    },
+    {
+      "text": "audioi down",
+      "ptime": 841000,
+      "dtime": 1586000,
+      "author": "Sharon Goldberg"
+    },
+    {
+      "text": "There are issues in the room.",
+      "ptime": 842000,
+      "dtime": 1587000,
+      "author": "mellon"
+    },
+    {
+      "text": "audio is broken in room",
+      "ptime": 844000,
+      "dtime": 1589000,
+      "author": "ajs"
+    },
+    {
+      "text": "up now.  Working?",
+      "ptime": 876000,
+      "dtime": 1621000,
+      "author": "ajs"
+    },
+    {
+      "text": "Anyone on site able to get Meetecho help?",
+      "ptime": 877000,
+      "dtime": 1622000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "rebooted audio and speaker, thanks",
+      "ptime": 879000,
+      "dtime": 1624000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "i can't hear it",
+      "ptime": 880000,
+      "dtime": 1625000,
+      "author": "Sharon Goldberg"
+    },
+    {
+      "text": "Poor Paul, rebooted in the session. ;)",
+      "ptime": 905000,
+      "dtime": 1650000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "meetecho: still have an audio problem",
+      "ptime": 907000,
+      "dtime": 1652000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "***Andreas Schulze_DATEV just joined the room",
+      "ptime": 908000,
+      "dtime": 1653000
+    },
+    {
+      "text": "i can't hear still...",
+      "ptime": 914000,
+      "dtime": 1659000,
+      "author": "Sharon Goldberg"
+    },
+    {
+      "text": "***Sam Weiler just joined the room",
+      "ptime": 915000,
+      "dtime": 1660000
+    },
+    {
+      "text": "same here",
+      "ptime": 916000,
+      "dtime": 1661000,
+      "author": "John Woodworth"
+    },
+    {
+      "text": "do others hear?",
+      "ptime": 916000,
+      "dtime": 1661000,
+      "author": "Sharon Goldberg"
+    },
+    {
+      "text": "***Sam Weiler_4654 just joined the room",
+      "ptime": 919000,
+      "dtime": 1664000
+    },
+    {
+      "text": "Nope, silent.",
+      "ptime": 922000,
+      "dtime": 1667000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "no audio in meetecho",
+      "ptime": 926000,
+      "dtime": 1671000,
+      "author": "Dennis Kort"
+    },
+    {
+      "text": "Fing this as I type",
+      "ptime": 926000,
+      "dtime": 1671000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Fixing",
+      "ptime": 929000,
+      "dtime": 1674000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***Dimitris Papadopoulos just joined the room",
+      "ptime": 938000,
+      "dtime": 1683000
+    },
+    {
+      "text": "sound check for remote: better?",
+      "ptime": 939000,
+      "dtime": 1684000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "there's a problem with the streamer in the room",
+      "ptime": 939000,
+      "dtime": 1684000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***Andreas Schulze_DATEV just left the room",
+      "ptime": 942000,
+      "dtime": 1687000
+    },
+    {
+      "text": "still no audio after forced browser reload",
+      "ptime": 950000,
+      "dtime": 1695000,
+      "author": "Okke Timm"
+    },
+    {
+      "text": "The sound is back in the room",
+      "ptime": 953000,
+      "dtime": 1698000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Sam Weiler just left the room",
+      "ptime": 964000,
+      "dtime": 1709000
+    },
+    {
+      "text": "MIC Please reboot Paul, remote users cannot hear a word",
+      "ptime": 966000,
+      "dtime": 1711000,
+      "author": "Richard Franks"
+    },
+    {
+      "text": "***John Woodworth just joined the room",
+      "ptime": 968000,
+      "dtime": 1713000
+    },
+    {
+      "text": "(in the physical room)",
+      "ptime": 970000,
+      "dtime": 1715000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***John Woodworth_9868 just joined the room",
+      "ptime": 973000,
+      "dtime": 1718000
+    },
+    {
+      "text": "***Okke Timm just left the room",
+      "ptime": 973000,
+      "dtime": 1718000
+    },
+    {
+      "text": "***Okke Timm just joined the room",
+      "ptime": 987000,
+      "dtime": 1732000
+    },
+    {
+      "text": "***avri doria just left the room",
+      "ptime": 996000,
+      "dtime": 1741000
+    },
+    {
+      "text": "Remote audio still off...",
+      "ptime": 997000,
+      "dtime": 1742000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "***avri doria just joined the room",
+      "ptime": 997000,
+      "dtime": 1742000
+    },
+    {
+      "text": "***Wouter Wijngaards just joined the room",
+      "ptime": 1000000,
+      "dtime": 1745000
+    },
+    {
+      "text": "Yep, working on this",
+      "ptime": 1009000,
+      "dtime": 1754000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "may we have detailed jabber scribing while this is broken, please?",
+      "ptime": 1013000,
+      "dtime": 1758000,
+      "author": "Weiler"
+    },
+    {
+      "text": "Okay",
+      "ptime": 1019000,
+      "dtime": 1764000,
+      "author": "Dan York"
+    },
+    {
+      "text": "just relaunched, no joy",
+      "ptime": 1022000,
+      "dtime": 1767000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "George michaelson at mic",
+      "ptime": 1028000,
+      "dtime": 1773000,
+      "author": "Dan York"
+    },
+    {
+      "text": "George Michaelson at mic",
+      "ptime": 1036000,
+      "dtime": 1781000,
+      "author": "ajs"
+    },
+    {
+      "text": "((will this likely affect the recording after the fact?)",
+      "ptime": 1042000,
+      "dtime": 1787000,
+      "author": "Weiler"
+    },
+    {
+      "text": "Paul asked for comment from people",
+      "ptime": 1043000,
+      "dtime": 1788000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I'll notify here as soon as it's fixed",
+      "ptime": 1044000,
+      "dtime": 1789000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "and suggesting that issues on slides needs lots of discussion",
+      "ptime": 1061000,
+      "dtime": 1806000,
+      "author": "ajs"
+    },
+    {
+      "text": "George: ontologies are argued about for years and years and years",
+      "ptime": 1062000,
+      "dtime": 1807000,
+      "author": "Dan York"
+    },
+    {
+      "text": "@meetecho thx",
+      "ptime": 1077000,
+      "dtime": 1822000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "***Andrew Fregly just joined the room",
+      "ptime": 1077000,
+      "dtime": 1822000
+    },
+    {
+      "text": "George: doesn't like a definition of \"domain\" ... it will be argued about forever",
+      "ptime": 1095000,
+      "dtime": 1840000,
+      "author": "Dan York"
+    },
+    {
+      "text": "George: Ship it... we'll argue about it more later.",
+      "ptime": 1110000,
+      "dtime": 1855000,
+      "author": "Dan York"
+    },
+    {
+      "text": "the mp3 stream should be up",
+      "ptime": 1121000,
+      "dtime": 1866000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "George: It will always be changed. There will be more bis versions.",
+      "ptime": 1127000,
+      "dtime": 1872000,
+      "author": "Dan York"
+    },
+    {
+      "text": "still working on the live feed",
+      "ptime": 1128000,
+      "dtime": 1873000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Ondrej Sury at mic",
+      "ptime": 1143000,
+      "dtime": 1888000,
+      "author": "Dan York"
+    },
+    {
+      "text": "The WiFi in the room is so bufferbloated as to be useless, unfortunately.",
+      "ptime": 1150000,
+      "dtime": 1895000,
+      "author": "mellon"
+    },
+    {
+      "text": "***Dimitris Papadopoulos just joined the room",
+      "ptime": 1157000,
+      "dtime": 1902000
+    },
+    {
+      "text": "***Dimitris Papadopoulos_3095 just joined the room",
+      "ptime": 1161000,
+      "dtime": 1906000
+    },
+    {
+      "text": "Ondrej - should we start rewriting documents to be compatible with this terminology?",
+      "ptime": 1165000,
+      "dtime": 1910000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***avri doria just left the room",
+      "ptime": 1174000,
+      "dtime": 1919000
+    },
+    {
+      "text": "***avri doria just joined the room",
+      "ptime": 1175000,
+      "dtime": 1920000
+    },
+    {
+      "text": "Andrew Sullivan at mic",
+      "ptime": 1178000,
+      "dtime": 1923000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Andrew Fregly just left the room",
+      "ptime": 1180000,
+      "dtime": 1925000
+    },
+    {
+      "text": "mp3 stream works http://ietf98streaming.dnsalias.net/ietf/ietf986.m3u",
+      "ptime": 1186000,
+      "dtime": 1931000,
+      "author": "Dennis Kort"
+    },
+    {
+      "text": "yep: http://icecast-ietf.conf.meetecho.com:8000/zurichd.mp3 works",
+      "ptime": 1221000,
+      "dtime": 1966000,
+      "author": "Andreas Schulze"
+    },
+    {
+      "text": "Andrew: if people think there are implications of some of this terminology on work going on in other groups, that would be useful feedback for the authors",
+      "ptime": 1222000,
+      "dtime": 1967000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Pieter Lexis just left the room",
+      "ptime": 1227000,
+      "dtime": 1972000
+    },
+    {
+      "text": "Should this document attempt to define a preferred meaning of \"indeterminate\" in DNSSEC?",
+      "ptime": 1227000,
+      "dtime": 1972000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "(please relay)",
+      "ptime": 1234000,
+      "dtime": 1979000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "ok",
+      "ptime": 1253000,
+      "dtime": 1998000,
+      "author": "Dan York"
+    },
+    {
+      "text": "mp3 stream works great. Thx",
+      "ptime": 1268000,
+      "dtime": 2013000,
+      "author": "Dean Ballew"
+    },
+    {
+      "text": "(Live Audio still down sadly)",
+      "ptime": 1277000,
+      "dtime": 2022000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "http://ietf98streaming.dnsalias.net/ietf/ietf986.m3u",
+      "ptime": 1299000,
+      "dtime": 2044000,
+      "author": "jaap"
+    },
+    {
+      "text": "works for audio",
+      "ptime": 1299000,
+      "dtime": 2044000,
+      "author": "jaap"
+    },
+    {
+      "text": "***avri doria just joined the room",
+      "ptime": 1313000,
+      "dtime": 2058000
+    },
+    {
+      "text": "Viktor - Paul asked that it be taken to the list. He doesn't want to define that... but thinks we probably should.",
+      "ptime": 1324000,
+      "dtime": 2069000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Sound working again.",
+      "ptime": 1347000,
+      "dtime": 2092000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "***Pieter Lexis just joined the room",
+      "ptime": 1347000,
+      "dtime": 2092000
+    },
+    {
+      "text": "Audio back on",
+      "ptime": 1348000,
+      "dtime": 2093000,
+      "author": "Richard Franks"
+    },
+    {
+      "text": "Speaking for myself, I don???t want to define _any_ of this, but it seems important",
+      "ptime": 1349000,
+      "dtime": 2094000,
+      "author": "ajs"
+    },
+    {
+      "text": "audio back",
+      "ptime": 1382000,
+      "dtime": 2127000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Meetecho, thanks!",
+      "ptime": 1392000,
+      "dtime": 2137000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "sorry, a network switch had gone, fixed now",
+      "ptime": 1397000,
+      "dtime": 2142000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Paul wants to finish this up by the summer and ship it",
+      "ptime": 1399000,
+      "dtime": 2144000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Now Sharon Goldberg presenting remotely",
+      "ptime": 1444000,
+      "dtime": 2189000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Sharon is presenting these slides: https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-nsec5-ietf98-01.pdf",
+      "ptime": 1483000,
+      "dtime": 2228000,
+      "author": "Dan York"
+    },
+    {
+      "text": "The purpose of definition lists like this is not so much to explain our meaning to the reader as to ensure that we all use the same term for referring to the same thing.",
+      "ptime": 1540000,
+      "dtime": 2285000,
+      "author": "Brian Reid"
+    },
+    {
+      "text": "@reid: yes",
+      "ptime": 1558000,
+      "dtime": 2303000,
+      "author": "ajs"
+    },
+    {
+      "text": "***Andrew Fregly just joined the room",
+      "ptime": 1560000,
+      "dtime": 2305000
+    },
+    {
+      "text": "@reid people can decide whether to use the convention, but at least we have one :)",
+      "ptime": 1581000,
+      "dtime": 2326000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "***Ralph Dolmans just joined the room",
+      "ptime": 1604000,
+      "dtime": 2349000
+    },
+    {
+      "text": "@meetecho: slightly lower volume in the room?",
+      "ptime": 1625000,
+      "dtime": 2370000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "(y)",
+      "ptime": 1630000,
+      "dtime": 2375000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "better now?",
+      "ptime": 1666000,
+      "dtime": 2411000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "y",
+      "ptime": 1672000,
+      "dtime": 2417000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "thx",
+      "ptime": 1681000,
+      "dtime": 2426000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "***Ralph Dolmans just joined the room",
+      "ptime": 1692000,
+      "dtime": 2437000
+    },
+    {
+      "text": "***Ralph Dolmans_6345 just joined the room",
+      "ptime": 1697000,
+      "dtime": 2442000
+    },
+    {
+      "text": "it???s not better where I???m sitting.   I???m having to stick my fingers in my ears.",
+      "ptime": 1699000,
+      "dtime": 2444000,
+      "author": "mellon"
+    },
+    {
+      "text": ":D",
+      "ptime": 1706000,
+      "dtime": 2451000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "will lower more, than, just a sec",
+      "ptime": 1711000,
+      "dtime": 2456000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "It's actually quiet in the middle",
+      "ptime": 1714000,
+      "dtime": 2459000,
+      "author": "Dan York"
+    },
+    {
+      "text": "thx",
+      "ptime": 1717000,
+      "dtime": 2462000,
+      "author": "mellon"
+    },
+    {
+      "text": "decreased some more",
+      "ptime": 1726000,
+      "dtime": 2471000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "is it possibly just one channel of two?",
+      "ptime": 1730000,
+      "dtime": 2475000,
+      "author": "mellon"
+    },
+    {
+      "text": "don't want to risk going further, if it already was quiet in other ponts",
+      "ptime": 1739000,
+      "dtime": 2484000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "I think it???s not the volume, it???s the tonal quality",
+      "ptime": 1748000,
+      "dtime": 2493000,
+      "author": "ajs"
+    },
+    {
+      "text": "I wouldn't go lower ... it's almost too quiet for us in the middle",
+      "ptime": 1752000,
+      "dtime": 2497000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I don???t hear it coming from the far speaker at all.",
+      "ptime": 1771000,
+      "dtime": 2516000,
+      "author": "mellon"
+    },
+    {
+      "text": "The one on the left of the room.",
+      "ptime": 1776000,
+      "dtime": 2521000,
+      "author": "mellon"
+    },
+    {
+      "text": "***Juan P. Cerezo just joined the room",
+      "ptime": 1793000,
+      "dtime": 2538000
+    },
+    {
+      "text": "I thin the mic is not great and there???s a lot of harsh treble.  I can hear on the left, but the arrangement in this room isn???t great.",
+      "ptime": 1815000,
+      "dtime": 2560000,
+      "author": "ajs"
+    },
+    {
+      "text": "raised a tiny bit just to address Dan's comment",
+      "ptime": 1831000,
+      "dtime": 2576000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "I???m going to have to leave the room or something.",
+      "ptime": 1850000,
+      "dtime": 2595000,
+      "author": "mellon"
+    },
+    {
+      "text": "but I have a question about the content :)  I have read the discussion on the list, but I still don???t understand why this is solving a problem that anyone really has.",
+      "ptime": 1857000,
+      "dtime": 2602000,
+      "author": "ajs"
+    },
+    {
+      "text": "you aren???t the only one to ask that question. :)",
+      "ptime": 1873000,
+      "dtime": 2618000,
+      "author": "mellon"
+    },
+    {
+      "text": "If we don't have the problem of zone enumeration then why do we have NSEC3?",
+      "ptime": 1899000,
+      "dtime": 2644000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "If we don't have the problem of zone enumeration then why do we have NSEC3?",
+      "ptime": 1899000,
+      "dtime": 2644000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "I mean, I don???t care if it goes ahead, but it seems like there???s an opportunity cost here.",
+      "ptime": 1901000,
+      "dtime": 2646000,
+      "author": "ajs"
+    },
+    {
+      "text": "to Shane - opt out",
+      "ptime": 1915000,
+      "dtime": 2660000,
+      "author": "Edward Lewis"
+    },
+    {
+      "text": "We don't need hashing and salting and so on for opt out.",
+      "ptime": 1934000,
+      "dtime": 2679000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "***Pieter Lexis (PowerDNS) just joined the room",
+      "ptime": 1936000,
+      "dtime": 2681000
+    },
+    {
+      "text": "Since NSEC3 seems to solve enumeration ???well enough???, why do we need more?",
+      "ptime": 1938000,
+      "dtime": 2683000,
+      "author": "ajs"
+    },
+    {
+      "text": "Yep.",
+      "ptime": 1943000,
+      "dtime": 2688000,
+      "author": "Edward Lewis"
+    },
+    {
+      "text": "and this requires online crypto, which seems like a net loss",
+      "ptime": 1960000,
+      "dtime": 2705000,
+      "author": "ajs"
+    },
+    {
+      "text": "No slide numbers... so I can't help point anyone remote to where we are in https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-nsec5-ietf98-01.pdf",
+      "ptime": 1970000,
+      "dtime": 2715000,
+      "author": "Dan York"
+    },
+    {
+      "text": "It???s a neat hack.",
+      "ptime": 1974000,
+      "dtime": 2719000,
+      "author": "mellon"
+    },
+    {
+      "text": "I suspect that???s part of it.",
+      "ptime": 1977000,
+      "dtime": 2722000,
+      "author": "mellon"
+    },
+    {
+      "text": "this is slide 12 according to my pdf",
+      "ptime": 1985000,
+      "dtime": 2730000,
+      "author": "suzworldwide"
+    },
+    {
+      "text": "PowerDNS uses online crypto, Cloudflare uses online crypto... it's not a deal breaker.",
+      "ptime": 1990000,
+      "dtime": 2735000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "it???s neat, sure.  I don???t care if it goes ahead",
+      "ptime": 1996000,
+      "dtime": 2741000,
+      "author": "ajs"
+    },
+    {
+      "text": "We're on slide 12 right now according to my PDF viewer",
+      "ptime": 1999000,
+      "dtime": 2744000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I???m not saying it???s a deal breaker",
+      "ptime": 2002000,
+      "dtime": 2747000,
+      "author": "ajs"
+    },
+    {
+      "text": "Hatin' on on-line keys is so 90's ;)",
+      "ptime": 2007000,
+      "dtime": 2752000,
+      "author": "Edward Lewis"
+    },
+    {
+      "text": "I just don???t know why this is worth adding",
+      "ptime": 2008000,
+      "dtime": 2753000,
+      "author": "ajs"
+    },
+    {
+      "text": ";)",
+      "ptime": 2013000,
+      "dtime": 2758000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Ha.. what @suzworldwide sadi",
+      "ptime": 2014000,
+      "dtime": 2759000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Andrew Fregly just left the room",
+      "ptime": 2029000,
+      "dtime": 2774000
+    },
+    {
+      "text": "Online keys is not scary it is what all web servers do today so why is DNS more scary ?",
+      "ptime": 2053000,
+      "dtime": 2798000,
+      "author": "ogud@jabber.org"
+    },
+    {
+      "text": "I don???t think it???s scary.  I think it???s a requirement here and not a requirement for other things, so there???s a trade, and the additional cost + opportunity cost + maintenance cost seems like a lot to trade for the dubious benefit of preventing offiline enumeration",
+      "ptime": 2116000,
+      "dtime": 2861000,
+      "author": "ajs"
+    },
+    {
+      "text": "***Pieter Lexis (PowerDNS) just joined the room",
+      "ptime": 2148000,
+      "dtime": 2893000
+    },
+    {
+      "text": "since just about every zone can be enumerated offline anyway by random guesses of ???mx??? plus some numbers, some variations on ???www???, and some variations on ???ns???.",
+      "ptime": 2157000,
+      "dtime": 2902000,
+      "author": "ajs"
+    },
+    {
+      "text": "I love the crypto work in this draft but I do not see the use case",
+      "ptime": 2162000,
+      "dtime": 2907000,
+      "author": "ogud@jabber.org"
+    },
+    {
+      "text": "Any questions you all want me to relay?",
+      "ptime": 2209000,
+      "dtime": 2954000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Ondrej Sury at mic",
+      "ptime": 2218000,
+      "dtime": 2963000,
+      "author": "Dan York"
+    },
+    {
+      "text": "\"Not complicated at all\". - overstatement of the century",
+      "ptime": 2252000,
+      "dtime": 2997000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Merike Kaeo",
+      "ptime": 2301000,
+      "dtime": 3046000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Evan Hunt at mic",
+      "ptime": 2310000,
+      "dtime": 3055000,
+      "author": "Dan York"
+    },
+    {
+      "text": "DKG at mic",
+      "ptime": 2371000,
+      "dtime": 3116000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Please relay: are you planning support for X25519? Should P-256 even be used, given that this is new?",
+      "ptime": 2392000,
+      "dtime": 3137000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "Q for dkg: can you get them to explain their requirements to us?",
+      "ptime": 2393000,
+      "dtime": 3138000,
+      "author": "Weiler"
+    },
+    {
+      "text": "+1 to Weiler's q",
+      "ptime": 2412000,
+      "dtime": 3157000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "Relay if useful: As to TLD enumeration, most TLD zone data is available for download via CZDS or similar...",
+      "ptime": 2424000,
+      "dtime": 3169000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "also: evan +1.",
+      "ptime": 2435000,
+      "dtime": 3180000,
+      "author": "Weiler"
+    },
+    {
+      "text": "Relaying",
+      "ptime": 2452000,
+      "dtime": 3197000,
+      "author": "danyork"
+    },
+    {
+      "text": "how would NSEC5 interact with aggressive negative caching?",
+      "ptime": 2457000,
+      "dtime": 3202000,
+      "author": "Peter Koch"
+    },
+    {
+      "text": "DKG: that doesn't explain how NSEC3 doesn't work.  More details or it didn't happen. :-)",
+      "ptime": 2538000,
+      "dtime": 3283000,
+      "author": "Weiler"
+    },
+    {
+      "text": "DKG - \"I'm in touch with several groups that won't deploy DNSSEC because they are concerned about zone enumeration. NSEC5 solves that.\"",
+      "ptime": 2591000,
+      "dtime": 3336000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***dkg just joined the room",
+      "ptime": 2613000,
+      "dtime": 3358000
+    },
+    {
+      "text": "Online signing with NSEC and black lies is much simpler than NSEC3/5",
+      "ptime": 2620000,
+      "dtime": 3365000,
+      "author": "ogud@jabber.org"
+    },
+    {
+      "text": "nsec3 makes it moderately expensive and annoying to enumerate a zone. nsec5 makes it more expensive and annoying. passive DNS undoes most of the benefit of both of them",
+      "ptime": 2637000,
+      "dtime": 3382000,
+      "author": "each"
+    },
+    {
+      "text": "thanks, Sharon",
+      "ptime": 2644000,
+      "dtime": 3389000,
+      "author": "Peter Koch"
+    },
+    {
+      "text": "Ondrej Sury at mic",
+      "ptime": 2651000,
+      "dtime": 3396000,
+      "author": "Dan York"
+    },
+    {
+      "text": "so I think \"it's possible to enumerate zones\" is a pill that we're going to have to swallow, regardless",
+      "ptime": 2656000,
+      "dtime": 3401000,
+      "author": "each"
+    },
+    {
+      "text": "Weiler: https://dnscurve.org/nsec3walker.html",
+      "ptime": 2682000,
+      "dtime": 3427000,
+      "author": "dkg"
+    },
+    {
+      "text": "sure. you can see more details on our relationship with negative caching in section 8 of our paper",
+      "ptime": 2684000,
+      "dtime": 3429000,
+      "author": "Sharon Goldberg"
+    },
+    {
+      "text": "I will say that if I had to deploy either this or white lies, I'd pick this in a second.",
+      "ptime": 2720000,
+      "dtime": 3465000,
+      "author": "each"
+    },
+    {
+      "text": "Andrew Sullivan at mic",
+      "ptime": 2725000,
+      "dtime": 3470000,
+      "author": "Dan York"
+    },
+    {
+      "text": "https://eprint.iacr.org/2017/099.pdf",
+      "ptime": 2732000,
+      "dtime": 3477000,
+      "author": "Sharon Goldberg"
+    },
+    {
+      "text": "There is s perfect dictionary for enumerating zones it is the .com zone",
+      "ptime": 2735000,
+      "dtime": 3480000,
+      "author": "ogud@jabber.org"
+    },
+    {
+      "text": "(Mic line is closed, btw, so I can no longer relay)",
+      "ptime": 2739000,
+      "dtime": 3484000,
+      "author": "Dan York"
+    },
+    {
+      "text": "ogud@jabber.org: that doesn't let you enumerate within those zones.",
+      "ptime": 2758000,
+      "dtime": 3503000,
+      "author": "dkg"
+    },
+    {
+      "text": "Relay: How would NSEC5 be rolled out? Surely for quite some time zones would still need NSEC3 for interop? Is NSEC5 then useful and when?",
+      "ptime": 2759000,
+      "dtime": 3504000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "Viktor - I'm sorry, mic line is closed right now",
+      "ptime": 2778000,
+      "dtime": 3523000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I'll be patient.",
+      "ptime": 2798000,
+      "dtime": 3543000,
+      "author": "Viktor Dukhovni"
+    },
+    {
+      "text": "Viktor Dukhovni: zones that care about enumeration can deploy with only NSEC5",
+      "ptime": 2798000,
+      "dtime": 3543000,
+      "author": "dkg"
+    },
+    {
+      "text": "Victor - look to how NSEC3 was rolled out for one example.",
+      "ptime": 2798000,
+      "dtime": 3543000,
+      "author": "Edward Lewis"
+    },
+    {
+      "text": "this is actually more interest than we'd seen on the mailing list, so I hope folks will follow up there",
+      "ptime": 2799000,
+      "dtime": 3544000,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "and the result is that they have unverified NXDOMAIN records",
+      "ptime": 2815000,
+      "dtime": 3560000,
+      "author": "dkg"
+    },
+    {
+      "text": "\"this much\" = fingers about 1\" apart",
+      "ptime": 2816000,
+      "dtime": 3561000,
+      "author": "Wendy Seltzer"
+    },
+    {
+      "text": "(for those clients that can't verify NSEC5)",
+      "ptime": 2827000,
+      "dtime": 3572000,
+      "author": "dkg"
+    },
+    {
+      "text": "+1 to @ajs ' comments about deployment issues",
+      "ptime": 2866000,
+      "dtime": 3611000,
+      "author": "Dan York"
+    },
+    {
+      "text": "another +1 to that",
+      "ptime": 2874000,
+      "dtime": 3619000,
+      "author": "each"
+    },
+    {
+      "text": "the fact that it takes time to deploy means we should have started deployment yesterday",
+      "ptime": 2900000,
+      "dtime": 3645000,
+      "author": "dkg"
+    },
+    {
+      "text": "@dkg give me a zone and I will enumerate it for you",
+      "ptime": 2919000,
+      "dtime": 3664000,
+      "author": "ogud@jabber.org"
+    },
+    {
+      "text": "(who is that?)",
+      "ptime": 2919000,
+      "dtime": 3664000,
+      "author": "Weiler"
+    },
+    {
+      "text": "Shumon Huque",
+      "ptime": 2929000,
+      "dtime": 3674000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Paul Vixie at mic",
+      "ptime": 2934000,
+      "dtime": 3679000,
+      "author": "Dan York"
+    },
+    {
+      "text": "thank you.",
+      "ptime": 2935000,
+      "dtime": 3680000,
+      "author": "Weiler"
+    },
+    {
+      "text": "that was elegant.",
+      "ptime": 2957000,
+      "dtime": 3702000,
+      "author": "each"
+    },
+    {
+      "text": "Roy Ahrens at mic",
+      "ptime": 2962000,
+      "dtime": 3707000,
+      "author": "Dan York"
+    },
+    {
+      "text": "i'd respond to that if the mic lines weren't closed",
+      "ptime": 2963000,
+      "dtime": 3708000,
+      "author": "dkg"
+    },
+    {
+      "text": "This isn???t just ???time to deploy???.  It???s the way it interacts with deployment with the other stuff",
+      "ptime": 2993000,
+      "dtime": 3738000,
+      "author": "ajs"
+    },
+    {
+      "text": "passive dns is done by specialized operators who have particular access to centralized resolvers or network traffic.",
+      "ptime": 2997000,
+      "dtime": 3742000,
+      "author": "dkg"
+    },
+    {
+      "text": "ajs: that's true.",
+      "ptime": 3024000,
+      "dtime": 3769000,
+      "author": "dkg"
+    },
+    {
+      "text": "ajs: shumon's point about other ongoing transitions suggests that we should get this done concurrently with them, though.",
+      "ptime": 3058000,
+      "dtime": 3803000,
+      "author": "dkg"
+    },
+    {
+      "text": "(so NSEC5 creates a new class of key used for DNSSEC stuff.)",
+      "ptime": 3069000,
+      "dtime": 3814000,
+      "author": "Weiler"
+    },
+    {
+      "text": "The ???what makes successful protocol??? and the ???planning for transitions??? stuff that came/is coming from the IAB could be relevant here",
+      "ptime": 3082000,
+      "dtime": 3827000,
+      "author": "ajs"
+    },
+    {
+      "text": "Weiler: yes, that is correct.",
+      "ptime": 3083000,
+      "dtime": 3828000,
+      "author": "dkg"
+    },
+    {
+      "text": "I???m not suggesting that the argument is lock down in either direction",
+      "ptime": 3094000,
+      "dtime": 3839000,
+      "author": "ajs"
+    },
+    {
+      "text": "but it???s really important to consider this part",
+      "ptime": 3111000,
+      "dtime": 3856000,
+      "author": "ajs"
+    },
+    {
+      "text": "NSEC5 is an an \"negative answer only KEY\"",
+      "ptime": 3113000,
+      "dtime": 3858000,
+      "author": "ogud@jabber.org"
+    },
+    {
+      "text": "Wish we had that when we did NSEC3",
+      "ptime": 3122000,
+      "dtime": 3867000,
+      "author": "ogud@jabber.org"
+    },
+    {
+      "text": "and I am not convinced that the draft is considering that at all",
+      "ptime": 3124000,
+      "dtime": 3869000,
+      "author": "ajs"
+    },
+    {
+      "text": "ogud@jabber.org: it's better than that, because it can't even forge negative answers",
+      "ptime": 3134000,
+      "dtime": 3879000,
+      "author": "dkg"
+    },
+    {
+      "text": "Sara Dickinson now presenting about C-DNS",
+      "ptime": 3170000,
+      "dtime": 3915000,
+      "author": "Dan York"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-c-dns-00.pdf",
+      "ptime": 3173000,
+      "dtime": 3918000,
+      "author": "Dan York"
+    },
+    {
+      "text": "A DNS Packet Capture Format",
+      "ptime": 3179000,
+      "dtime": 3924000,
+      "author": "Dan York"
+    },
+    {
+      "text": "On slide 5, \"Draft Status\"",
+      "ptime": 3290000,
+      "dtime": 4035000,
+      "author": "Dan York"
+    },
+    {
+      "text": "ogud@jabber.org: are you suggesting that you'll enumerate a non-signed zone via passive dns?",
+      "ptime": 3342000,
+      "dtime": 4087000,
+      "author": "dkg"
+    },
+    {
+      "text": "or are you suggesting something else?",
+      "ptime": 3347000,
+      "dtime": 4092000,
+      "author": "dkg"
+    },
+    {
+      "text": "Sara is done - any questions?",
+      "ptime": 3421000,
+      "dtime": 4166000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Roy Ahrens at mic",
+      "ptime": 3427000,
+      "dtime": 4172000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Alex K just joined the room",
+      "ptime": 3437000,
+      "dtime": 4182000
+    },
+    {
+      "text": "Brian Dickson at mic",
+      "ptime": 3470000,
+      "dtime": 4215000,
+      "author": "Dan York"
+    },
+    {
+      "text": "?? at mic",
+      "ptime": 3540000,
+      "dtime": 4285000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Jim Reid at mic",
+      "ptime": 3587000,
+      "dtime": 4332000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Lars Liman at mic",
+      "ptime": 3628000,
+      "dtime": 4373000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 3709000,
+      "dtime": 4454000
+    },
+    {
+      "text": "Next up - Dave Crocker presenting",
+      "ptime": 3751000,
+      "dtime": 4496000,
+      "author": "Dan York"
+    },
+    {
+      "text": "His slides: https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-attrleaf-registry-for-underscore-names-01.pdf",
+      "ptime": 3767000,
+      "dtime": 4512000,
+      "author": "Dan York"
+    },
+    {
+      "text": "The URI record Dave referenced is in https://tools.ietf.org/html/rfc7553",
+      "ptime": 3850000,
+      "dtime": 4595000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I thought this was a reasonably good idea in the first place except that it was a mess.  I still think that???s true, which I think tells us something about what a disaster underscores are.  But there???s IMO no question that some kind of registry is needed",
+      "ptime": 3918000,
+      "dtime": 4663000,
+      "author": "ajs"
+    },
+    {
+      "text": "Anyone have any comments for Dave?",
+      "ptime": 4008000,
+      "dtime": 4753000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Ondrej Sury at mic",
+      "ptime": 4029000,
+      "dtime": 4774000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Ondrej's point was that TLSA records also have underscores",
+      "ptime": 4058000,
+      "dtime": 4803000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Jim Fenton at mic",
+      "ptime": 4062000,
+      "dtime": 4807000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Daniel Stirnimann just joined the room",
+      "ptime": 4102000,
+      "dtime": 4847000
+    },
+    {
+      "text": "(Hmm... is \"leaf\" in the terminology draft? Paging Paul Hoffman...)",
+      "ptime": 4104000,
+      "dtime": 4849000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Lars Liman at mic",
+      "ptime": 4133000,
+      "dtime": 4878000,
+      "author": "Dan York"
+    },
+    {
+      "text": "John Levine at mic",
+      "ptime": 4187000,
+      "dtime": 4932000,
+      "author": "Dan York"
+    },
+    {
+      "text": "John: \"The situation is less dire\"",
+      "ptime": 4211000,
+      "dtime": 4956000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Brian Dickson at mic",
+      "ptime": 4237000,
+      "dtime": 4982000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Stuart Cheshire at mic",
+      "ptime": 4274000,
+      "dtime": 5019000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Paul Vixie at mic",
+      "ptime": 4310000,
+      "dtime": 5055000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Dave Lawrence presenting on BULK DNS Resource Records",
+      "ptime": 4434000,
+      "dtime": 5179000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Slides: https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-bulk-rr-type-00.pdf",
+      "ptime": 4436000,
+      "dtime": 5181000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I gave a long review fo -05",
+      "ptime": 4764000,
+      "dtime": 5509000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Waiting for -06",
+      "ptime": 4770000,
+      "dtime": 5515000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Waiting for -06",
+      "ptime": 4770000,
+      "dtime": 5515000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "***Pieter Lexis (PowerDNS) just joined the room",
+      "ptime": 4771000,
+      "dtime": 5516000
+    },
+    {
+      "text": ":)",
+      "ptime": 4772000,
+      "dtime": 5517000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Ondrej Sury at mic",
+      "ptime": 4802000,
+      "dtime": 5547000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Thanks Shane",
+      "ptime": 4808000,
+      "dtime": 5553000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "Thanks Shane",
+      "ptime": 4808000,
+      "dtime": 5553000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "***Simon Leinen just joined the room",
+      "ptime": 4870000,
+      "dtime": 5615000
+    },
+    {
+      "text": "???I had a problem with bulk record generation, so I decided to use regexes - now I have two problems??????",
+      "ptime": 4883000,
+      "dtime": 5628000,
+      "author": "ray"
+    },
+    {
+      "text": "Stephane Bortzmeyer at mic",
+      "ptime": 4942000,
+      "dtime": 5687000,
+      "author": "Dan York"
+    },
+    {
+      "text": "John Woodworth_9868- any running code?",
+      "ptime": 4953000,
+      "dtime": 5698000,
+      "author": "Dan York"
+    },
+    {
+      "text": "@ray didn't NAPTR pave the way for regex already?",
+      "ptime": 4980000,
+      "dtime": 5725000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "@ray didn't NAPTR pave the way for regex already?",
+      "ptime": 4980000,
+      "dtime": 5725000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "Brian Dickson at mic",
+      "ptime": 4984000,
+      "dtime": 5729000,
+      "author": "Dan York"
+    },
+    {
+      "text": "remind me how that went??? ;-)",
+      "ptime": 4994000,
+      "dtime": 5739000,
+      "author": "ray"
+    },
+    {
+      "text": "I think we clearly need to add full regex to NAPTR so that the DNS can be Turing-complete.",
+      "ptime": 5009000,
+      "dtime": 5754000,
+      "author": "ajs"
+    },
+    {
+      "text": "regex aren't Turing-complete, are they? They only support LR(1) grammar, right?",
+      "ptime": 5053000,
+      "dtime": 5798000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "/me shudders",
+      "ptime": 5059000,
+      "dtime": 5804000,
+      "author": "dkg"
+    },
+    {
+      "text": "Tatsuya Jinmei at mic",
+      "ptime": 5063000,
+      "dtime": 5808000,
+      "author": "Yoshiro"
+    },
+    {
+      "text": "The thing that worries me is that we have ongoing research at tu berlin on the impact protocol design has on deployment and implementation security... and one of our core-findings is that pushing complex grammars into protocols makes their various implementations more susceptible to parsing/memory access related security issues.",
+      "ptime": 5079000,
+      "dtime": 5824000,
+      "author": "tobias"
+    },
+    {
+      "text": "Tatuya Jinmei at mic",
+      "ptime": 5082000,
+      "dtime": 5827000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Thank you, @Yoshiro",
+      "ptime": 5091000,
+      "dtime": 5836000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Benno at mic",
+      "ptime": 5098000,
+      "dtime": 5843000,
+      "author": "Dan York"
+    },
+    {
+      "text": "John Levine at mic",
+      "ptime": 5104000,
+      "dtime": 5849000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Pieter Lexis (PowerDNS) just joined the room",
+      "ptime": 5105000,
+      "dtime": 5850000
+    },
+    {
+      "text": "That was Benno Overeinder at mic",
+      "ptime": 5126000,
+      "dtime": 5871000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I think mic line closed, yes?",
+      "ptime": 5129000,
+      "dtime": 5874000,
+      "author": "ajs"
+    },
+    {
+      "text": "because what John is saying is I think a dangerous path",
+      "ptime": 5144000,
+      "dtime": 5889000,
+      "author": "ajs"
+    },
+    {
+      "text": "NPN covers offline signing",
+      "ptime": 5147000,
+      "dtime": 5892000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "it is, sorry",
+      "ptime": 5150000,
+      "dtime": 5895000,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "@ajs - yes",
+      "ptime": 5151000,
+      "dtime": 5896000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Paul Wouters now presenting - https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-algorithm-update-wouters-00.pdf",
+      "ptime": 5176000,
+      "dtime": 5921000,
+      "author": "Dan York"
+    },
+    {
+      "text": "So the thing is, there is a really serious desire on the part of several large operators??? customers for standard ways to represent some of these Tricks",
+      "ptime": 5186000,
+      "dtime": 5931000,
+      "author": "ajs"
+    },
+    {
+      "text": "Thanks Tale!",
+      "ptime": 5188000,
+      "dtime": 5933000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "Thanks Tale!",
+      "ptime": 5188000,
+      "dtime": 5933000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "Paul: \"trying to cut the long tail of DNS a little shorter\"",
+      "ptime": 5207000,
+      "dtime": 5952000,
+      "author": "Dan York"
+    },
+    {
+      "text": "and I think this draft is a good start in that direction, so that it???s bad for some kinds of server use case isn???t a good disqualifier.",
+      "ptime": 5228000,
+      "dtime": 5973000,
+      "author": "ajs"
+    },
+    {
+      "text": "???optional??? does seem wise",
+      "ptime": 5239000,
+      "dtime": 5984000,
+      "author": "ajs"
+    },
+    {
+      "text": "ajs, this is the case. However, I think the least common denominator is not good enough for any operator",
+      "ptime": 5248000,
+      "dtime": 5993000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "Andrew Sullivan at mic",
+      "ptime": 5360000,
+      "dtime": 6105000,
+      "author": "Dan York"
+    },
+    {
+      "text": "John Dickinson at mic",
+      "ptime": 5473000,
+      "dtime": 6218000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Olafur Gudmundsson at mic",
+      "ptime": 5601000,
+      "dtime": 6346000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Dean Ballew just left the room",
+      "ptime": 5640000,
+      "dtime": 6385000
+    },
+    {
+      "text": "DKG at mic",
+      "ptime": 5646000,
+      "dtime": 6391000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Simon Leinen just left the room",
+      "ptime": 5678000,
+      "dtime": 6423000
+    },
+    {
+      "text": "Christian Huitema at mic",
+      "ptime": 5683000,
+      "dtime": 6428000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Simon Leinen just joined the room",
+      "ptime": 5684000,
+      "dtime": 6429000
+    },
+    {
+      "text": "***Dean Ballew just joined the room",
+      "ptime": 5688000,
+      "dtime": 6433000
+    },
+    {
+      "text": "didn???t strike me as controversial when we tried to do it either.",
+      "ptime": 5698000,
+      "dtime": 6443000,
+      "author": "ajs"
+    },
+    {
+      "text": "I like the plus / minus syntax. Super clear.",
+      "ptime": 5715000,
+      "dtime": 6460000,
+      "author": "Vicky"
+    },
+    {
+      "text": "+1",
+      "ptime": 5740000,
+      "dtime": 6485000,
+      "author": "Brian Reid"
+    },
+    {
+      "text": "yes/no is clearer then \"maybe\"",
+      "ptime": 5746000,
+      "dtime": 6491000,
+      "author": "Andreas Schulze"
+    },
+    {
+      "text": "+1",
+      "ptime": 5795000,
+      "dtime": 6540000,
+      "author": "ray"
+    },
+    {
+      "text": "Keeping the table simple is ideal. there can still be the whys and wherefores elsewhere in the doc",
+      "ptime": 5800000,
+      "dtime": 6545000,
+      "author": "Kal Feher"
+    },
+    {
+      "text": "Brian Dickson at mic",
+      "ptime": 5800000,
+      "dtime": 6545000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I like the + -",
+      "ptime": 5810000,
+      "dtime": 6555000,
+      "author": "Kal Feher"
+    },
+    {
+      "text": "Daniel Migault at mic",
+      "ptime": 5873000,
+      "dtime": 6618000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I keep forgetting to remind people about names at the mic, sorry",
+      "ptime": 5887000,
+      "dtime": 6632000,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "deadlines would be more useful then \"SHOULD-\"",
+      "ptime": 5895000,
+      "dtime": 6640000,
+      "author": "Andreas Schulze"
+    },
+    {
+      "text": "(my +1 was to the +/- notation - not ???yes / no???)",
+      "ptime": 5915000,
+      "dtime": 6660000,
+      "author": "ray"
+    },
+    {
+      "text": "Evan Hunt at mic",
+      "ptime": 5927000,
+      "dtime": 6672000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Roy Ahrens now up to present about \"A New Default\"",
+      "ptime": 6008000,
+      "dtime": 6753000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Slides: https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-algorithm-update-arends-00.pdf",
+      "ptime": 6018000,
+      "dtime": 6763000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Slide 1 of 72",
+      "ptime": 6021000,
+      "dtime": 6766000,
+      "author": "Dan York"
+    },
+    {
+      "text": "???Arends???",
+      "ptime": 6021000,
+      "dtime": 6766000,
+      "author": "ray"
+    },
+    {
+      "text": "???Arends???",
+      "ptime": 6021000,
+      "dtime": 6766000,
+      "author": "ray"
+    },
+    {
+      "text": "Thanks, @ray",
+      "ptime": 6038000,
+      "dtime": 6783000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Slide 2 of 72",
+      "ptime": 6048000,
+      "dtime": 6793000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Marco Pizzoli just joined the room",
+      "ptime": 6086000,
+      "dtime": 6831000
+    },
+    {
+      "text": "Probably we need to encode Lua scripts in TXT records and then a resolver can validate any algorithm...",
+      "ptime": 6089000,
+      "dtime": 6834000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Dan York/ StephaneBortzmeyer - i have an older bind9 hack but will need to dig it up.  also not sure how well it kept up with changes to the draft",
+      "ptime": 6090000,
+      "dtime": 6835000,
+      "author": "John Woodworth_9868"
+    },
+    {
+      "text": "***Pieter Lexis (PowerDNS) just joined the room",
+      "ptime": 6091000,
+      "dtime": 6836000
+    },
+    {
+      "text": "/me is only half joking...",
+      "ptime": 6101000,
+      "dtime": 6846000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "***Pieter Lexis (PowerDNS) just joined the room",
+      "ptime": 6101000,
+      "dtime": 6846000
+    },
+    {
+      "text": "***Sam Weiler_4654 just left the room",
+      "ptime": 6115000,
+      "dtime": 6860000
+    },
+    {
+      "text": "***Sam Weiler just left the room",
+      "ptime": 6115000,
+      "dtime": 6860000
+    },
+    {
+      "text": "Roy mentioned RFC6944 - https://tools.ietf.org/html/rfc6944",
+      "ptime": 6121000,
+      "dtime": 6866000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Sam Weiler just joined the room",
+      "ptime": 6128000,
+      "dtime": 6873000
+    },
+    {
+      "text": "Shane Kerr, I think Bert Hubert has a brnach with that",
+      "ptime": 6131000,
+      "dtime": 6876000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "I think I???ve just sent to the list a suggestion to the effect of what Roy is suggesting.",
+      "ptime": 6134000,
+      "dtime": 6879000,
+      "author": "ajs"
+    },
+    {
+      "text": "Slide 3",
+      "ptime": 6136000,
+      "dtime": 6881000,
+      "author": "Dan York"
+    },
+    {
+      "text": "@Pieter - why am I not surprised? :-D",
+      "ptime": 6155000,
+      "dtime": 6900000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Shane Kerr, https://gist.github.com/ahupowerdns/1e8bfbba95a277a4fac09cb3654eb2ac",
+      "ptime": 6156000,
+      "dtime": 6901000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "When we produced 6944, the idea was that it would be the thing updated",
+      "ptime": 6177000,
+      "dtime": 6922000,
+      "author": "ajs"
+    },
+    {
+      "text": "and the IANA table _would_ be updated: its reference would be updated",
+      "ptime": 6191000,
+      "dtime": 6936000,
+      "author": "ajs"
+    },
+    {
+      "text": "Slide 8 ... and I'm laughing at Roy's \"slide numbers\"",
+      "ptime": 6212000,
+      "dtime": 6957000,
+      "author": "Dan York"
+    },
+    {
+      "text": "@Pieter... That is the coolest thing ever.",
+      "ptime": 6221000,
+      "dtime": 6966000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Shane Kerr, I think he also attempted to limit the number of Lua OPCODEs per-query",
+      "ptime": 6269000,
+      "dtime": 7014000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "Mark Andrews at mic",
+      "ptime": 6280000,
+      "dtime": 7025000,
+      "author": "Dan York"
+    },
+    {
+      "text": "you'd need to discuss this with him :)",
+      "ptime": 6284000,
+      "dtime": 7029000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "clearly: best slides award :-)",
+      "ptime": 6308000,
+      "dtime": 7053000,
+      "author": "Andreas Schulze"
+    },
+    {
+      "text": "***Pieter Lexis (PowerDNS) just joined the room",
+      "ptime": 6313000,
+      "dtime": 7058000
+    },
+    {
+      "text": "Mic lines forming",
+      "ptime": 6337000,
+      "dtime": 7082000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Managed change? LUA RR!!!",
+      "ptime": 6355000,
+      "dtime": 7100000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Old software? Can't change default? LUA RR!!!",
+      "ptime": 6387000,
+      "dtime": 7132000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Old software? Can't change default? LUA RR!!!",
+      "ptime": 6387000,
+      "dtime": 7132000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "Merike Kaeo at mic",
+      "ptime": 6397000,
+      "dtime": 7142000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Roy???s point here, however, is that something is supposed to obsolete 6944 and make the new rules: that???s what an applicability statement needs to do",
+      "ptime": 6484000,
+      "dtime": 7229000,
+      "author": "ajs"
+    },
+    {
+      "text": "Olafur Gudmundsson at mic",
+      "ptime": 6487000,
+      "dtime": 7232000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I would like to know more about unchanging defaults",
+      "ptime": 6490000,
+      "dtime": 7235000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "and that???s what the plan was when 6944 was deployed",
+      "ptime": 6498000,
+      "dtime": 7243000,
+      "author": "ajs"
+    },
+    {
+      "text": "(Also, we had this fight in 2011-2013 :-/)",
+      "ptime": 6527000,
+      "dtime": 7272000,
+      "author": "ajs"
+    },
+    {
+      "text": "Pieter - \"unchanging\"?",
+      "ptime": 6537000,
+      "dtime": 7282000,
+      "author": "Dan York"
+    },
+    {
+      "text": "unchangable, sorry. This is mostly regarding Mark Andrews statements",
+      "ptime": 6557000,
+      "dtime": 7302000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "we'll take it offlien",
+      "ptime": 6567000,
+      "dtime": 7312000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "Paul Wouters at mic",
+      "ptime": 6583000,
+      "dtime": 7328000,
+      "author": "Dan York"
+    },
+    {
+      "text": "heh, my typing skills fail me at 10PM :)",
+      "ptime": 6585000,
+      "dtime": 7330000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "Evan Hunt at mic",
+      "ptime": 6670000,
+      "dtime": 7415000,
+      "author": "Dan York"
+    },
+    {
+      "text": "???MANDATORY TO IMPLEMENT??? imagines the IETF Protocol Police to enforce that mandatory rule",
+      "ptime": 6678000,
+      "dtime": 7423000,
+      "author": "ajs"
+    },
+    {
+      "text": "we don???t have such people.  I cannot believe I am channelling arguments from Pete Resnick here, but I am.",
+      "ptime": 6697000,
+      "dtime": 7442000,
+      "author": "ajs"
+    },
+    {
+      "text": ":-)",
+      "ptime": 6706000,
+      "dtime": 7451000,
+      "author": "Dan York"
+    },
+    {
+      "text": "(i.e. Pete was right and I was wrong)",
+      "ptime": 6713000,
+      "dtime": 7458000,
+      "author": "ajs"
+    },
+    {
+      "text": "John Kristoff presenting",
+      "ptime": 6731000,
+      "dtime": 7476000,
+      "author": "Dan York"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-dns-over-tcp-operational-requirements-00.pdf",
+      "ptime": 6746000,
+      "dtime": 7491000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I want an \"IETF Protocol Police\" raid jacket",
+      "ptime": 6755000,
+      "dtime": 7500000,
+      "author": "each"
+    },
+    {
+      "text": "A _lot_ of people want that jacket",
+      "ptime": 6777000,
+      "dtime": 7522000,
+      "author": "ajs"
+    },
+    {
+      "text": "but we???re not making them",
+      "ptime": 6782000,
+      "dtime": 7527000,
+      "author": "ajs"
+    },
+    {
+      "text": "$$$",
+      "ptime": 6783000,
+      "dtime": 7528000,
+      "author": "each"
+    },
+    {
+      "text": "each: https://www.spreadshirt.com/ ?",
+      "ptime": 6849000,
+      "dtime": 7594000,
+      "author": "tobias"
+    },
+    {
+      "text": "tobias: https://www.customraidjackets.com/",
+      "ptime": 6904000,
+      "dtime": 7649000,
+      "author": "each"
+    },
+    {
+      "text": "each, \"Your connection is not secure\" Error code: SEC_ERROR_EXPIRED_CERTIFICATE",
+      "ptime": 6930000,
+      "dtime": 7675000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "your connection is not secure... ;-)",
+      "ptime": 6930000,
+      "dtime": 7675000,
+      "author": "tobias"
+    },
+    {
+      "text": "more than 2 years expired even",
+      "ptime": 6946000,
+      "dtime": 7691000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "Ondrej Sury at mic",
+      "ptime": 6959000,
+      "dtime": 7704000,
+      "author": "Dan York"
+    },
+    {
+      "text": "I believe that Warren actually has a protocol police badge",
+      "ptime": 6962000,
+      "dtime": 7707000,
+      "author": "ajs"
+    },
+    {
+      "text": "yeah, sha-1 cert. safe to ignore if you're not sending them credit card details",
+      "ptime": 6975000,
+      "dtime": 7720000,
+      "author": "each"
+    },
+    {
+      "text": "ajs- yes, I've seen Warren pull that badge out",
+      "ptime": 6976000,
+      "dtime": 7721000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Geoff Huston at mic",
+      "ptime": 6990000,
+      "dtime": 7735000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Clearly the Internet Police haven't gotten to the customraidjackets.com site yet....",
+      "ptime": 7004000,
+      "dtime": 7749000,
+      "author": "Shane Kerr"
+    },
+    {
+      "text": "heh.",
+      "ptime": 7010000,
+      "dtime": 7755000,
+      "author": "each"
+    },
+    {
+      "text": "hrhr",
+      "ptime": 7014000,
+      "dtime": 7759000,
+      "author": "tobias"
+    },
+    {
+      "text": "I think the opening passage of this draft is all on its own a reason to adopt it and make it a BCP",
+      "ptime": 7026000,
+      "dtime": 7771000,
+      "author": "ajs"
+    },
+    {
+      "text": "+1 ajs",
+      "ptime": 7077000,
+      "dtime": 7822000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Murray Kucherawy at mic",
+      "ptime": 7079000,
+      "dtime": 7824000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Paul Ebersman at mic",
+      "ptime": 7119000,
+      "dtime": 7864000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Ray Bellis at mic",
+      "ptime": 7131000,
+      "dtime": 7876000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Ray Bellis now quickly presenting https://www.ietf.org/proceedings/98/slides/slides-98-dnsop-xpf-ietf98-00.pdf",
+      "ptime": 7215000,
+      "dtime": 7960000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Again apologies to all for the scheduling fail",
+      "ptime": 7233000,
+      "dtime": 7978000,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "Not a scheduling fail. Just standard congestion.",
+      "ptime": 7266000,
+      "dtime": 8011000,
+      "author": "Brian Reid"
+    },
+    {
+      "text": "mic: in CGNAT and other complicated set ups, a port number might need to be added, but this can be taken to the list",
+      "ptime": 7308000,
+      "dtime": 8053000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "hrm... ietf meeting congestion control protocol? (imccp) anyone?",
+      "ptime": 7310000,
+      "dtime": 8055000,
+      "author": "tobias"
+    },
+    {
+      "text": "Sara Dickinson at mic",
+      "ptime": 7330000,
+      "dtime": 8075000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Pieter - best to take that to the list",
+      "ptime": 7341000,
+      "dtime": 8086000,
+      "author": "Dan York"
+    },
+    {
+      "text": "Dan York, ack",
+      "ptime": 7349000,
+      "dtime": 8094000,
+      "author": "Pieter Lexis (PowerDNS)"
+    },
+    {
+      "text": "people are leaving the room (and others want to come in for the next session)",
+      "ptime": 7355000,
+      "dtime": 8100000,
+      "author": "Dan York"
+    },
+    {
+      "text": "@brian thanks but There's Got To Be a Better Way???.OTOH there's always the mailing list",
+      "ptime": 7357000,
+      "dtime": 8102000,
+      "author": "Suzanne (co-chair)"
+    },
+    {
+      "text": "tobias: the imccp WG has been scheduled 12 seconds for their meeting",
+      "ptime": 7386000,
+      "dtime": 8131000,
+      "author": "each"
+    },
+    {
+      "text": "And that's it",
+      "ptime": 7397000,
+      "dtime": 8142000,
+      "author": "Dan York"
+    },
+    {
+      "text": "@Dan: thanks for relaying",
+      "ptime": 7399000,
+      "dtime": 8144000,
+      "author": "Andreas Schulze"
+    },
+    {
+      "text": "See you at IETF99",
+      "ptime": 7403000,
+      "dtime": 8148000,
+      "author": "Dan York"
+    },
+    {
+      "text": "You're welcome",
+      "ptime": 7408000,
+      "dtime": 8153000,
+      "author": "Dan York"
+    },
+    {
+      "text": "***Richard Franks just left the room",
+      "ptime": 7408000,
+      "dtime": 8153000
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

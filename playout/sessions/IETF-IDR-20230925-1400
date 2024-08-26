@@ -1,0 +1,329 @@
+
+{
+	"title": "IETF-IDR-20230925-1400",
+	"filename": "IETF-IDR-20230925-1400",
+	"start": 0,
+	"end": 8593000,
+	"start_datetime": "2023-09-25T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "ceHOgld0qz0",
+    "start": 0,
+    "end": "8593000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><a href=\"https://meetings.conf.meetecho.com/interim/?short=7d58c957-3e7c-4982-b0bb-2fc58267a354\">https://meetings.conf.meetecho.com/interim/?short=7d58c957-3e7c-4982-b0bb-2fc58267a354</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 85000,
+    "ptime": 85000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p><a href=\"https://datatracker.ietf.org/meeting/interim-2023-idr-03/session/idr\">https://datatracker.ietf.org/meeting/interim-2023-idr-03/session/idr</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 94000,
+    "ptime": 94000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Correct meeting link posted. moving there.</p>",
+    "topic": "ietf-interim",
+    "dtime": 101000,
+    "ptime": 101000
+  },
+  {
+    "author": "Linda Dunbar",
+    "text": "<p>the sound is not clear</p>",
+    "topic": "ietf-interim",
+    "dtime": 310000,
+    "ptime": 310000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Fascinating that there's one chat stream for multiple meetings :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 415000,
+    "ptime": 415000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>good morning, afternoon, and everning</p>",
+    "topic": "ietf-interim",
+    "dtime": 515000,
+    "ptime": 515000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Welcome to join the note taking at: <a href=\"https://notes.ietf.org/notes-ietf-interim-2023-idr-03-idr\">https://notes.ietf.org/notes-ietf-interim-2023-idr-03-idr</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 541000,
+    "ptime": 541000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>about multipath, I think it will just depend on whether the node is propagating the route with NHS. the contributing route's ELC may not matter, when doing NHS. And if doing NH-Unchanged, this node is not in forwarding path. There also ELC should not matter?</p>",
+    "topic": "ietf-interim",
+    "dtime": 1183000,
+    "ptime": 1183000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Yes, we were discussing the NHS case - the other case (e.g., add paths at RR) is no issue.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1220000,
+    "ptime": 1220000
+  },
+  {
+    "author": "Jorge Rabadan",
+    "text": "<p>I agree with Ketan, and the second option (removing the appendix)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1230000,
+    "ptime": 1230000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>FWIW, NHS is clear, but also actual BGP route aggregation.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1258000,
+    "ptime": 1258000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>For NHS case, only the advertising node's capability matters. not the contributing routes. I think..</p>",
+    "topic": "ietf-interim",
+    "dtime": 1270000,
+    "ptime": 1270000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>Aggregation is a different beast. There are two categories there IMHO: aggregation of transport routes vs service-routes.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1336000,
+    "ptime": 1336000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>servic-route aggregation: again it is NHS.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1349000,
+    "ptime": 1349000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>removal would be unfortunate as it is a useful clue</p>",
+    "topic": "ietf-interim",
+    "dtime": 1369000,
+    "ptime": 1369000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>the node doing NHS is installing ECMP in its forwarding ... there is no knowing which egress the EL will get to ... if that happens to be non EL capable then we have a problem.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1376000,
+    "ptime": 1376000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>transport-route aggregation, I agree it should use the common capability amongst all contributing routes</p>",
+    "topic": "ietf-interim",
+    "dtime": 1393000,
+    "ptime": 1393000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>the node doing the NHS will push the EL when it sends the packet out to each individual contributing route's NH.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1436000,
+    "ptime": 1436000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Aggregation is likely \"easy\" text: It doesn't aggregate by default. Follow origination rules.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1452000,
+    "ptime": 1452000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>the node doing NHS (transit LSR) is doing a swap ... won't expose the EL</p>",
+    "topic": "ietf-interim",
+    "dtime": 1471000,
+    "ptime": 1471000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>got it. that case it has to be common capability amongst all contributors.</p>",
+    "topic": "ietf-interim",
+    "dtime": 1503000,
+    "ptime": 1503000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>yup ... that was the discussion :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1517000,
+    "ptime": 1517000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>Cool. :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 1532000,
+    "ptime": 1532000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>@ketan, even for the swap case, conceptually there is a possibility for the LSR to push the EL as-required by each contributing leg. May need to investigate/think more about it..</p>",
+    "topic": "ietf-interim",
+    "dtime": 2386000,
+    "ptime": 2386000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Kaliraj, sure. I hope we can try and keep it simple. I do agree that EL can appear at many places based on the use-case.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2464000,
+    "ptime": 2464000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>OK, perhaps because the LSR is not an 'egress', that is not required for the ELC specifically.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2541000,
+    "ptime": 2541000
+  },
+  {
+    "author": "Kaliraj Vairavakkalai",
+    "text": "<p>Agree.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2547000,
+    "ptime": 2547000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Yes, and that is the focus when ELCv3 is carried with BGP-LU.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2566000,
+    "ptime": 2566000
+  },
+  {
+    "author": "Jorge Rabadan",
+    "text": "<p>what are those issues about the EVPN type 5 that DJ refers to?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3267000,
+    "ptime": 3267000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I'll be reviewing the updated draft to make sure my comments were addressed, and will update the list when I've done so.</p>",
+    "topic": "ietf-interim",
+    "dtime": 4328000,
+    "ptime": 4328000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>I will also send out my review comments on the previous and updated version</p>",
+    "topic": "ietf-interim",
+    "dtime": 4886000,
+    "ptime": 4886000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Swadesh - After the discussion, please send a summation of your point.  I will match this to the adoption issue text.  From this point, we can do a WG discussion point.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5381000,
+    "ptime": 5381000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Can we stop relitigating the points?  The explanation was provided.</p>",
+    "topic": "ietf-interim",
+    "dtime": 5578000,
+    "ptime": 5578000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>One at a time please so that those of us can hear - use the queue and follow decorum please :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 5979000,
+    "ptime": 5979000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>hard to hear when people are talking over each other</p>",
+    "topic": "ietf-interim",
+    "dtime": 5986000,
+    "ptime": 5986000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Both solutions can be deployed with perverse configurations that scale poorly.  It's worth being mindful of such scenarios.  It's not appropriate to presume the worst case scenarios are the typical case.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6320000,
+    "ptime": 6320000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>In particular, see comments March last year about the \"where's the color\" conversation.</p>",
+    "topic": "ietf-interim",
+    "dtime": 6355000,
+    "ptime": 6355000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>We will go to 12:30 in order to allow the CAR/CT discussion to continue.</p>",
+    "topic": "ietf-interim",
+    "dtime": 7222000,
+    "ptime": 7222000
+  },
+  {
+    "author": "Dhananjaya Rao",
+    "text": "<p>Jeff, the precedence of color is described in the draft. If further clarification is needed, we can add it of course. I don't think its an apples to apples comparison, but I'm sure we will discuss this more :-)</p>",
+    "topic": "ietf-interim",
+    "dtime": 7336000,
+    "ptime": 7336000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>DJ, I think each draft documents their mechanism fine.  But I rather recall how cranky the car authors would get each time someone who had a different opinion what \"color\" meant as \"intent\".  Hence the discussions in March last year.</p>",
+    "topic": "ietf-interim",
+    "dtime": 7521000,
+    "ptime": 7521000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Thanks everyone :)</p>",
+    "topic": "ietf-interim",
+    "dtime": 8534000,
+    "ptime": 8534000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>thank you</p>",
+    "topic": "ietf-interim",
+    "dtime": 8563000,
+    "ptime": 8563000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-IDR-20230925-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-idr-03/session/idr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-IDR-20230925-1400"
+		}
+	]
+}

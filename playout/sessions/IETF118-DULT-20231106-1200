@@ -1,0 +1,1967 @@
+
+{
+	"title": "IETF118-DULT-20231106-1200",
+	"filename": "IETF118-DULT-20231106-1200",
+	"start": 0,
+	"end": 6228000,
+	"start_datetime": "2023-11-06T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "dHvEvPnU04M",
+    "start": 0,
+    "end": "6228000"
+  }
+],
+	"messages": [
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>ping for 118 chat for zulip</p>",
+    "topic": "ietf-118",
+    "dtime": 90000,
+    "ptime": 90000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>it works in the full client</p>",
+    "topic": "ietf-118",
+    "dtime": 191000,
+    "ptime": 191000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>Hello everyone</p>",
+    "topic": "ietf-118",
+    "dtime": 225000,
+    "ptime": 225000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>yep was so the topic would update in zulip so i can use it there (multi-windows as remote)</p>",
+    "topic": "ietf-118",
+    "dtime": 227000,
+    "ptime": 227000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Wow, this slide is a bit of an eye-chart.</p>",
+    "topic": "ietf-118",
+    "dtime": 269000,
+    "ptime": 269000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Is it just me, or is the title of the working group the one thing that is labeled \"not in scope\" ?</p>",
+    "topic": "ietf-118",
+    "dtime": 516000,
+    "ptime": 516000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>Title should have been \"mechanisms allowing for\".</p>",
+    "topic": "ietf-118",
+    "dtime": 595000,
+    "ptime": 595000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>It seems that “occurred” (past tense) is the operative for this answer.</p>",
+    "topic": "ietf-118",
+    "dtime": 621000,
+    "ptime": 621000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>Yes, probably just the title of the session is misleading, the idea makes sense</p>",
+    "topic": "ietf-118",
+    "dtime": 625000,
+    "ptime": 625000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Perhaps the diffciulty is that there is not a single \"best\" way to determine if tracking is unwanted?</p>",
+    "topic": "ietf-118",
+    "dtime": 639000,
+    "ptime": 639000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>My question is (I guess) more for later charter discussion, but I continue to think a WG on this topic needs to produce evidence of efficacy before declaring victory and don't see that reflected on the slide (which is fine) or the charter text (less fine IMO)</p>",
+    "topic": "ietf-118",
+    "dtime": 661000,
+    "ptime": 661000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Or the signal that detection has occurred being used/abused</p>",
+    "topic": "ietf-118",
+    "dtime": 688000,
+    "ptime": 688000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>or a user can configure their device to determine what they want to be warned about</p>",
+    "topic": "ietf-118",
+    "dtime": 735000,
+    "ptime": 735000
+  },
+  {
+    "author": "Cory Myers",
+    "text": "<p>A different question of scope:  I’m puzzled to see non-owner (finding) devices depicted as outside of the “tracking network” as labeled.  Is that not exactly the network of devices that does the tracking?</p>",
+    "topic": "ietf-118",
+    "dtime": 743000,
+    "ptime": 743000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Perhaps there is scope for an informational draft, separate from the core portocol, that describes the signals one might use and how one might define it?</p>",
+    "topic": "ietf-118",
+    "dtime": 770000,
+    "ptime": 770000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94247\">said</a>:</p>\n<blockquote>\n<p>or a user can configure their device to determine what they want to be warned about</p>\n</blockquote>\n<p>Seems in scope right?</p>",
+    "topic": "ietf-118",
+    "dtime": 781000,
+    "ptime": 781000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Use cases may require different and focused methods for detecting and they may not match. If each use case supported is clearly articulated, they can be different from each other.</p>",
+    "topic": "ietf-118",
+    "dtime": 815000,
+    "ptime": 815000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Mic for mine please</p>",
+    "topic": "ietf-118",
+    "dtime": 835000,
+    "ptime": 835000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>+1 EKR</p>",
+    "topic": "ietf-118",
+    "dtime": 923000,
+    "ptime": 923000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>Defining an algorithm would also help assure there is at least one detection algorithm that the specified messages support.</p>",
+    "topic": "ietf-118",
+    "dtime": 952000,
+    "ptime": 952000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Piling on what @dkg said in challenging the scope; I am curious if someone else's phone counts as an unwanted tracker relative to me. If someone's phone (and therefore presumably that person) is creepily hanging out outside my appartment, does that count as in-scope for what we're trying to solve?</p>",
+    "topic": "ietf-118",
+    "dtime": 976000,
+    "ptime": 976000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>Smart defaults and family sharing can address a lot of concerns about false positives</p>",
+    "topic": "ietf-118",
+    "dtime": 976000,
+    "ptime": 976000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>@Mike this applies to BLE devices not phones</p>",
+    "topic": "ietf-118",
+    "dtime": 1014000,
+    "ptime": 1014000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>ah, maybe it's need to be clarified that disablement instructions is how to disable the device if you have physical control of it, not remotely turning off devices</p>",
+    "topic": "ietf-118",
+    "dtime": 1014000,
+    "ptime": 1014000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3504\">@Maggie Delano</span> so let's talk about the smart defaults in the work here, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 1015000,
+    "ptime": 1015000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>@Daniel absolutely</p>",
+    "topic": "ietf-118",
+    "dtime": 1027000,
+    "ptime": 1027000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3504\">Maggie Delano</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94276\">said</a>:</p>\n<blockquote>\n<p>@Mike this applies to BLE devices not phones</p>\n</blockquote>\n<p>Right, that's what I'm trying to challenge. Is that the right decision?</p>",
+    "topic": "ietf-118",
+    "dtime": 1052000,
+    "ptime": 1052000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>@mike the current charter text has phones out of scope</p>",
+    "topic": "ietf-118",
+    "dtime": 1053000,
+    "ptime": 1053000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>It's certainly possible to make location trackers that use the modern landscape and don't fit into this framework (and won't be discoverable)</p>",
+    "topic": "ietf-118",
+    "dtime": 1099000,
+    "ptime": 1099000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>The focus is on small devices that can be surreptitiously placed, I think that's probably fine for the use cases I've heard about. Phones are expensive and other items are bulky.</p>",
+    "topic": "ietf-118",
+    "dtime": 1104000,
+    "ptime": 1104000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span>  ultimately this work will only help with devices that cooperate.  A GPS logger with a GSM sim that doesn't cooperate won't be protected against by this work.  It's just a limitation on what can be done.</p>",
+    "topic": "ietf-118",
+    "dtime": 1133000,
+    "ptime": 1133000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>@rohan the theft example goes both ways. Track expensive thing to steal it later. Use tracker to find stolen expensive thing.</p>",
+    "topic": "ietf-118",
+    "dtime": 1181000,
+    "ptime": 1181000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>protecting people is more important than property, but also the existing tracking devices are not especially effective (or especially affected by the broadcast/detection) for the anti-theft case, because the thief knows when they are taking a device and scan for</p>",
+    "topic": "ietf-118",
+    "dtime": 1230000,
+    "ptime": 1230000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3445\">@Greg Maxwell</span> or a WiFi beacon logger that can upload its logs whenever it finds an suitable uplink</p>",
+    "topic": "ietf-118",
+    "dtime": 1258000,
+    "ptime": 1258000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>This is a constant battle of anti-theft or not</p>",
+    "topic": "ietf-118",
+    "dtime": 1260000,
+    "ptime": 1260000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>We all understand that anti-theft is not the desired use case for these trackers, but they are effective and people do use them for this purpose</p>",
+    "topic": "ietf-118",
+    "dtime": 1282000,
+    "ptime": 1282000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>And thieves can also carry broadband jammers (and some do!).  (and just look for devices and remove them... or most often: the thief is just not that sophisticated and doesn't know or care)</p>",
+    "topic": "ietf-118",
+    "dtime": 1285000,
+    "ptime": 1285000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3445\">Greg Maxwell</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94288\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span>  ultimately this work will only help with devices that cooperate.  A GPS logger with a GSM sim that doesn't cooperate won't be protected against by this work.  It's just a limitation on what can be done.</p>\n</blockquote>\n<p>I guess I'm thinking about two cases:<br>\n1) buying a cheap Android device that I'm willing to burn in order to track my victim. The manufacturer of that Android device would presumably be compliant with standards.<br>\n2) Physical stalking (ex.: hanging out outside my apartment) is also a valuable problem, and the solutions here could be made to apply there too (by equating \"phone\" = \"person\").<br>\nI'm just not convinced that drawing a line between \"BLE devices\" and \"phones\" is meaningful.</p>",
+    "topic": "ietf-118",
+    "dtime": 1324000,
+    "ptime": 1324000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>In the end, I agree with the idea that people should be put at the front, anti-theft should not undermine any privacy mechanisms</p>",
+    "topic": "ietf-118",
+    "dtime": 1327000,
+    "ptime": 1327000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3155\">@Klemen Bratec</span>  they're currently used by some people for anti-theft yes, and they can currently be detected (via proprietary/non-standard means).</p>",
+    "topic": "ietf-118",
+    "dtime": 1369000,
+    "ptime": 1369000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>Exactly, and then things like this happen: <a href=\"https://dcist.com/story/23/11/01/dc-car-theft-police-distribute-air-tags/\">https://dcist.com/story/23/11/01/dc-car-theft-police-distribute-air-tags/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1394000,
+    "ptime": 1394000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>In the end, whatever we do, people will still use them for anti-theft, but we don't have to optimize for that use case :)</p>",
+    "topic": "ietf-118",
+    "dtime": 1424000,
+    "ptime": 1424000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Disable is #8 and that’s maybe in scope but fully in scope is #2 broadcast. Agree they’re separate.</p>",
+    "topic": "ietf-118",
+    "dtime": 1429000,
+    "ptime": 1429000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>can one of the implementers clarify that disablement doesn't mean via-internet-remote-disablement?</p>",
+    "topic": "ietf-118",
+    "dtime": 1441000,
+    "ptime": 1441000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Doesn't the disabling require actrually putting hands on it?</p>",
+    "topic": "ietf-118",
+    "dtime": 1445000,
+    "ptime": 1445000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> I don't see a reason other devices couldn't implement these protocols. But on your phone example the attacker would put on some gps app on it, and wouldn't trigger these mechanisms.  I think you can't generally have all phones doing this because the privacy functionality for DULT requires the tracker stay quiet when its near its owner. ... and that framework doesn't really work for a phone on its own.</p>",
+    "topic": "ietf-118",
+    "dtime": 1454000,
+    "ptime": 1454000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Like you can cause it to beep over the air interface but not disable it without touching it</p>",
+    "topic": "ietf-118",
+    "dtime": 1468000,
+    "ptime": 1468000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1 ekr, but I think that wasn't clear to the questioner</p>",
+    "topic": "ietf-118",
+    "dtime": 1494000,
+    "ptime": 1494000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>Note that detecting hidden devices generally can cut both ways in the domestic abuse scenario: <a href=\"https://nnedv.org/latest_update/emergency-alerts-and-hidden-devices/\">https://nnedv.org/latest_update/emergency-alerts-and-hidden-devices/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1500000,
+    "ptime": 1500000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Charter on github: <a href=\"https://github.com/bdetwiler/draft-detecting-unwanted-location-trackers/blob/main/charter/charter-detecting-unwanted-location-trackers.md\">https://github.com/bdetwiler/draft-detecting-unwanted-location-trackers/blob/main/charter/charter-detecting-unwanted-location-trackers.md</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1504000,
+    "ptime": 1504000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>Fundamentally, anti-theft is where the market demand is for these products. Making these devices substantially less effective for anti-theft will create demand for products that are not compliant with these standards.</p>",
+    "topic": "ietf-118",
+    "dtime": 1553000,
+    "ptime": 1553000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>I think the working group needs to engage with the anti-theft issue and can't ignore it, but that unwanted tracking is higher priority</p>",
+    "topic": "ietf-118",
+    "dtime": 1616000,
+    "ptime": 1616000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3445\">Greg Maxwell</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94308\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> I don't see a reason other devices couldn't implement these protocols. But on your phone example the attacker would put on some gps app on it, and wouldn't trigger these mechanisms.  I think you can't generally have all phones doing this because the privacy functionality for DULT requires the tracker stay quiet when its near its owner. ... and that framework doesn't really work for a phone on its own.</p>\n</blockquote>\n<p>Right, so we're scoping to \"remote tracking\"; and out-of-scoping stalking where the owner is physically nearby?</p>",
+    "topic": "ietf-118",
+    "dtime": 1618000,
+    "ptime": 1618000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I don't think the goal of the Working Group should be defining a system for finding keys</p>",
+    "topic": "ietf-118",
+    "dtime": 1648000,
+    "ptime": 1648000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>@Chad Sniffen<br>\nThe networks that currently are large enough to support stalking use cases (e.g. Apple's, Google's) already have to certify products before they can be provisioned with the network. So it is hard to make a non-compliant product that will actually work on the network.</p>\n<p>I think we need to decide that anti-theft is simply out of scope of this working group.</p>\n<p>And to cover the fear that this would encourage non-compliant trackers, we just need to keep confirming the products before we allow them on the large networks.</p>",
+    "topic": "ietf-118",
+    "dtime": 1847000,
+    "ptime": 1847000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>Given how persistent anti-theft concerns are in the two BOFs perhaps the charter should explicitly say that they're out of scope, to just settle the reoccurring debates.  But I'm hesitant in that suggestion because surely there are factors that would benefit anti-theft without harming the other objectives, and those should be heard.</p>",
+    "topic": "ietf-118",
+    "dtime": 2066000,
+    "ptime": 2066000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>Roman's point is good advice, yes</p>",
+    "topic": "ietf-118",
+    "dtime": 2068000,
+    "ptime": 2068000
+  },
+  {
+    "author": "Kathleen Moriarty",
+    "text": "<p>Extension points are fine for where vendors differentiate</p>",
+    "topic": "ietf-118",
+    "dtime": 2188000,
+    "ptime": 2188000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>The dementia horse was also pretty heavily beaten in the last bof.</p>",
+    "topic": "ietf-118",
+    "dtime": 2203000,
+    "ptime": 2203000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I don't think charters are the right place to define the details of handling disability and location trackers, though CDT is very interested in that topic</p>",
+    "topic": "ietf-118",
+    "dtime": 2229000,
+    "ptime": 2229000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>FWIW, I think this text is largely fine!</p>",
+    "topic": "ietf-118",
+    "dtime": 2236000,
+    "ptime": 2236000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>does the relative with dementia have a mobile phone?  if not, they won't notice your BT stalker device.  if so, can you enroll it in a family plan that lets you track the phone itself?  if not, are you sure you should be their carer?</p>",
+    "topic": "ietf-118",
+    "dtime": 2268000,
+    "ptime": 2268000
+  },
+  {
+    "author": "Leif Johansson",
+    "text": "<p>A dult for APRS/AX.25 hackathon session would be awsome fun</p>",
+    "topic": "ietf-118",
+    "dtime": 2286000,
+    "ptime": 2286000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<blockquote>\n<p>The networks that currently are large enough to support stalking use cases (e.g. Apple's, Google's) already have to certify products before they can be provisioned with the network. So it is hard to make a non-compliant product that will actually <br>\n<span class=\"user-mention silent\" data-user-id=\"3155\">Klemen Bratec</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94327\">said</a>:</p>\n</blockquote>\n<blockquote>\n<p>@Chad Sniffen<br>\nThe networks that currently are large enough to support stalking use cases (e.g. Apple's, Google's) already have to certify products before they can be provisioned with the network. So it is hard to make a non-compliant product that will actually work on the network.</p>\n</blockquote>\n<p>This actually isn't true. There are worked examples of people building things with Apple's network</p>",
+    "topic": "ietf-118",
+    "dtime": 2297000,
+    "ptime": 2297000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>Do we think that messages that tell the \"finder\" crowd sourcing network that their reports are not welcome at this location would be entirely out of scope?    (e.g. a beacon at a shelter. .. or just at my house! :) ).    I'm only asking in the context of scoping (I know nothing is proposed for that so far)</p>",
+    "topic": "ietf-118",
+    "dtime": 2325000,
+    "ptime": 2325000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>Spoofed AirTag example: <a href=\"https://positive.security/blog/find-you\">https://positive.security/blog/find-you</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2342000,
+    "ptime": 2342000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>maybe under \"don't have a device\"</p>",
+    "topic": "ietf-118",
+    "dtime": 2355000,
+    "ptime": 2355000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>do we know how 5. would work?</p>",
+    "topic": "ietf-118",
+    "dtime": 2429000,
+    "ptime": 2429000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>excluding non-conformant devices from tracking networks</p>",
+    "topic": "ietf-118",
+    "dtime": 2445000,
+    "ptime": 2445000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I don't!</p>",
+    "topic": "ietf-118",
+    "dtime": 2471000,
+    "ptime": 2471000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I mean I have some ideas</p>",
+    "topic": "ietf-118",
+    "dtime": 2475000,
+    "ptime": 2475000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>that's the only point I worry about actually being able to achieve</p>",
+    "topic": "ietf-118",
+    "dtime": 2491000,
+    "ptime": 2491000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, we should definitely try</p>",
+    "topic": "ietf-118",
+    "dtime": 2499000,
+    "ptime": 2499000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>(in a reasonable amount of time)</p>",
+    "topic": "ietf-118",
+    "dtime": 2499000,
+    "ptime": 2499000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>it would certainly depend on the network</p>",
+    "topic": "ietf-118",
+    "dtime": 2499000,
+    "ptime": 2499000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>Most \"home made AirTag\" scenarios won't work with the latest Apple software releases (OpenHaystack was motly abandoned the last time I checked)</p>",
+    "topic": "ietf-118",
+    "dtime": 2539000,
+    "ptime": 2539000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>Here's a link to the gDoc I am about to edit: <a href=\"https://docs.google.com/document/d/1bWvysPPG1qKSLZe2ru8PE2Yfwi4CfAe5cYL-JayH5cM/edit\">https://docs.google.com/document/d/1bWvysPPG1qKSLZe2ru8PE2Yfwi4CfAe5cYL-JayH5cM/edit</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2549000,
+    "ptime": 2549000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>We got the first MASQUE deliverables to the IESG in about 2 years :-)</p>",
+    "topic": "ietf-118",
+    "dtime": 2573000,
+    "ptime": 2573000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> you mean <a href=\"https://positive.security/blog/find-you\">https://positive.security/blog/find-you</a> (as <span class=\"user-mention\" data-user-id=\"3504\">@Maggie Delano</span>  pointed out above)</p>",
+    "topic": "ietf-118",
+    "dtime": 2706000,
+    "ptime": 2706000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"453\">@Jonathan Hoyland</span> I didn't get to whom the tag would be authenticating or were you saying all the stuff it emits needs to be signed or something?</p>",
+    "topic": "ietf-118",
+    "dtime": 2747000,
+    "ptime": 2747000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> <span class=\"user-mention\" data-user-id=\"55\">@Stephen Farrell</span> I got in the queue to say this— the engagement nick is talking about can be the evidence that Stephen is talking about (/me leaves queue)</p>",
+    "topic": "ietf-118",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"55\">@Stephen Farrell</span> i think he's saying that the tracking network needs to refuse to pass traffic from devices that it can't recognize as authorized and compliant with this protocol.</p>",
+    "topic": "ietf-118",
+    "dtime": 2804000,
+    "ptime": 2804000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>As domestic violence advocate participating  in this meeting, I can attest that the discussion is a little hard to follow.</p>",
+    "topic": "ietf-118",
+    "dtime": 2825000,
+    "ptime": 2825000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>You're advocating domestic violence? :-)</p>",
+    "topic": "ietf-118",
+    "dtime": 2853000,
+    "ptime": 2853000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Agree with Sean that it’s better for the cooperation between groups to happen in the groups rather than through liaisonships.</p>",
+    "topic": "ietf-118",
+    "dtime": 2886000,
+    "ptime": 2886000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Hard to get a sense that we have all of the necessary people in this group already.</p>",
+    "topic": "ietf-118",
+    "dtime": 2910000,
+    "ptime": 2910000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>Did I miss any mention of the regulatory environment here?  Both the FCC domains as well as the possible legal environment?  I haven’t read this too closely</p>",
+    "topic": "ietf-118",
+    "dtime": 2918000,
+    "ptime": 2918000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>@Jim Reid - I agree our terminology is a little weird, but saying anti-domestic violence advocate gets tiring over the years :)</p>",
+    "topic": "ietf-118",
+    "dtime": 2925000,
+    "ptime": 2925000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Some ideas are <a href=\"https://educatedguesswork.org/posts/unwanted-tracking/\">https://educatedguesswork.org/posts/unwanted-tracking/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2946000,
+    "ptime": 2946000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"435\">@Michael StJohns</span> i don't think we've covered it.</p>",
+    "topic": "ietf-118",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>issue on engagement: <a href=\"https://github.com/bdetwiler/draft-detecting-unwanted-location-trackers/issues/103\">https://github.com/bdetwiler/draft-detecting-unwanted-location-trackers/issues/103</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>if the scope is defining the location tracker network altogether, I think it's much harder to meet any objective goal that Alissa is referring to</p>",
+    "topic": "ietf-118",
+    "dtime": 3028000,
+    "ptime": 3028000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think what has to be specified is the interaction between the tag and the finding device</p>",
+    "topic": "ietf-118",
+    "dtime": 3065000,
+    "ptime": 3065000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 to <span class=\"user-mention\" data-user-id=\"584\">@Alissa Cooper</span> about not using words like \"watch\" in the charter.</p>",
+    "topic": "ietf-118",
+    "dtime": 3074000,
+    "ptime": 3074000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I don't think you need to specify the precise protocol that you use to query the network for your phone</p>",
+    "topic": "ietf-118",
+    "dtime": 3094000,
+    "ptime": 3094000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>I'm bit puzzled by the whole BoF and argument about value of just doing magic for the big networks of the low-power trackers, as you can buy 30$ subscription-less vehicle tracker with GPS and some throwaway cellular connectivity off Amazon for example. Was this covered somewhere earlier?</p>",
+    "topic": "ietf-118",
+    "dtime": 3102000,
+    "ptime": 3102000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>Second comment - as a general matter for current  the tracking tag tech, a tag probably doesn’t know what it’s tracking (human vs bag vs ?). Does adding that knowledge to the tag configuration change any of the protocols or design constraints?</p>",
+    "topic": "ietf-118",
+    "dtime": 3126000,
+    "ptime": 3126000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1608\">@Markus Stenberg</span>  yes.</p>",
+    "topic": "ietf-118",
+    "dtime": 3128000,
+    "ptime": 3128000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1608\">@Markus Stenberg</span>  <a href=\"https://educatedguesswork.org/posts/unwanted-tracking/#the-broader-threat-model\">https://educatedguesswork.org/posts/unwanted-tracking/#the-broader-threat-model</a></p>",
+    "topic": "ietf-118",
+    "dtime": 3144000,
+    "ptime": 3144000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>@Nick I think this could be scoped in the charter to the unwanted tracking detection part, i.e., that the information exchanged for the purposes of unwanted tracking detection does not become a new tracking vector</p>",
+    "topic": "ietf-118",
+    "dtime": 3171000,
+    "ptime": 3171000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1608\">@Markus Stenberg</span> how big is the tracker you're talking about?  can you point to it?  a lot of what i've heard in this group is \"it's a win if we force a stalker to use a device that is significantly more expensive, or significantly harder to conceal\"</p>",
+    "topic": "ietf-118",
+    "dtime": 3171000,
+    "ptime": 3171000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> or has to be specially purchased for that purpose and not already on their keychain ready to be dropped in your bag.</p>",
+    "topic": "ietf-118",
+    "dtime": 3225000,
+    "ptime": 3225000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>With that said, I think you probably <em>could</em> build a piece of custom tracking hardware that was much smaller and had better power management properties than (say) a Garmin GPS tracker</p>",
+    "topic": "ietf-118",
+    "dtime": 3250000,
+    "ptime": 3250000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3445\">@Greg Maxwell</span> not sure i understand -- airtags are certainly specially purchased for that purpose, and are ready to be dropped in a bag.</p>",
+    "topic": "ietf-118",
+    "dtime": 3286000,
+    "ptime": 3286000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Get implementation experience before writing RFCs? That would be a Very Good Idea IMO.</p>",
+    "topic": "ietf-118",
+    "dtime": 3297000,
+    "ptime": 3297000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"55\">@Stephen Farrell</span> is there harm in defining a standard that just doesn’t work?</p>",
+    "topic": "ietf-118",
+    "dtime": 3300000,
+    "ptime": 3300000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>They're cigarette box+ sized - they're order of magnitude larger than the low power ones but in context of e.g. car trivially hidable anyway.</p>",
+    "topic": "ietf-118",
+    "dtime": 3305000,
+    "ptime": 3305000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>To Stephen's point: Isn't the rate of airtag-tracking measurable?</p>",
+    "topic": "ietf-118",
+    "dtime": 3305000,
+    "ptime": 3305000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Is it preventing other kinds of mitigations?</p>",
+    "topic": "ietf-118",
+    "dtime": 3310000,
+    "ptime": 3310000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"666\">@Mallory Knodel</span> yes I think a standard that was ineffective in mitigating the harms would add to the harms</p>",
+    "topic": "ietf-118",
+    "dtime": 3329000,
+    "ptime": 3329000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>Is Stephen's point specific to this WG? The TLS charter doesn't state \"we're going to do security analysis of new TLS versions before publishing them\" and yet we do that</p>",
+    "topic": "ietf-118",
+    "dtime": 3332000,
+    "ptime": 3332000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> my comment was a \"yes and\"... yes you can buy an airtag to stalk but many people don't have to because they're already using them on their keys.</p>",
+    "topic": "ietf-118",
+    "dtime": 3362000,
+    "ptime": 3362000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>the consequences are different here</p>",
+    "topic": "ietf-118",
+    "dtime": 3363000,
+    "ptime": 3363000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>I think what Stephen  just said could be addressed by expanding point 4 in the program of work</p>",
+    "topic": "ietf-118",
+    "dtime": 3365000,
+    "ptime": 3365000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>I agree with Stephen here that if these standards are meant to reduce harm there should be some form of bar we need to show we cleared. How we measure this and get said data might be a sub-goal of the group?</p>",
+    "topic": "ietf-118",
+    "dtime": 3376000,
+    "ptime": 3376000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"29\">@David Schinazi</span> and that's a situation where it's actually much clearer what that analysis would be like</p>",
+    "topic": "ietf-118",
+    "dtime": 3379000,
+    "ptime": 3379000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>@Markus Stenberg you make a good point in that there was a market for, and many examples of the use of, device-facilitated stalking before BT trackers. What advocates have observed is the these BT trackers have make the barrier for entry to this activity incredibly low and really expanded the occurrence of the behavior.</p>",
+    "topic": "ietf-118",
+    "dtime": 3382000,
+    "ptime": 3382000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"55\">@Stephen Farrell</span> I can see that maybe it’s harmful because it is easier to solve the technical element of a social problem and maybe they shouldn’t exist at all on the market. Right?</p>",
+    "topic": "ietf-118",
+    "dtime": 3399000,
+    "ptime": 3399000
+  },
+  {
+    "author": "Tero Kivinen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94437\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3445\">Greg Maxwell</span> not sure i understand -- airtags are certainly specially purchased for that purpose, and are ready to be dropped in a bag.</p>\n</blockquote>\n<p>For example  Dimensions 48 x 42 x 16mm Weight 24 grams, about $100.</p>",
+    "topic": "ietf-118",
+    "dtime": 3412000,
+    "ptime": 3412000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>This is part of the reason why I also like broadcast messages that shut down finding devices proximal to them.</p>",
+    "topic": "ietf-118",
+    "dtime": 3412000,
+    "ptime": 3412000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>Another harm is damaging the reputation of the SDO that produces something that doesn't work: \"$SDO hasn't got a clue =&gt; ignore them\".</p>",
+    "topic": "ietf-118",
+    "dtime": 3429000,
+    "ptime": 3429000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"666\">@Mallory Knodel</span> Not quite sure what you mean tbh, but I probably want to agree with you ;-)</p>",
+    "topic": "ietf-118",
+    "dtime": 3438000,
+    "ptime": 3438000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>This is also why active scanning is important, so you don't need to rely on passive alerts</p>",
+    "topic": "ietf-118",
+    "dtime": 3494000,
+    "ptime": 3494000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Agree with DKG that detection device must be in scope imo. This is interoperable standards setting after all</p>",
+    "topic": "ietf-118",
+    "dtime": 3508000,
+    "ptime": 3508000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>experts who advise people facing intimate partner violence have expertise and experience providing people with information about trade-offs on, for example, keeping and using a phone or not</p>",
+    "topic": "ietf-118",
+    "dtime": 3509000,
+    "ptime": 3509000
+  },
+  {
+    "author": "David Somers-Harris",
+    "text": "<p>What about competing threat models? If I steal something you are tracking, should I have the ability to detect your tracker and even disable it?</p>",
+    "topic": "ietf-118",
+    "dtime": 3535000,
+    "ptime": 3535000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>I don't think any advocacy community expects this standard to solve domestic violence or stalking. The fact is that these devices have allowed people to engage in the behaviors more easily than before they existed, however, so I we're really looking for some form of mitigation of that expanded harm.</p>",
+    "topic": "ietf-118",
+    "dtime": 3539000,
+    "ptime": 3539000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>In <a href=\"http://amazon.com\">amazon.com</a> you can find plenty of such by e.g. searching for 'gps tracker for vehicles' and you can easily get weeks worth of life out of them, which is probably sufficient for most stalking use cases, at expense of relatively large case.  Cheapest chinese ones I looked for at some point were 10-20$ range out of China, but US prices seem to be bit more expensive than airtags. </p>\n<p>In non-vehicle case, BLE makes it much more feasible due to it being more hideable (and with long-lasting battery). This may be worth chasing, but I will be also sad if and when I will be unable to find my luggage in airports going forward.</p>",
+    "topic": "ietf-118",
+    "dtime": 3549000,
+    "ptime": 3549000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>@Chad Sniffen yes that's right</p>",
+    "topic": "ietf-118",
+    "dtime": 3560000,
+    "ptime": 3560000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@Nick that may be true in the US, is it also the case in the global south?</p>",
+    "topic": "ietf-118",
+    "dtime": 3598000,
+    "ptime": 3598000
+  },
+  {
+    "author": "Jim Reid",
+    "text": "<p>The draft charter mentions doing risk and threat analysis. Would this be enough to assess efficacy of the WG's proposals?</p>",
+    "topic": "ietf-118",
+    "dtime": 3613000,
+    "ptime": 3613000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>+1 to eke about reference point</p>",
+    "topic": "ietf-118",
+    "dtime": 3621000,
+    "ptime": 3621000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I never asked for proof</p>",
+    "topic": "ietf-118",
+    "dtime": 3623000,
+    "ptime": 3623000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>Ekr I mean</p>",
+    "topic": "ietf-118",
+    "dtime": 3637000,
+    "ptime": 3637000
+  },
+  {
+    "author": "Gillian Verga",
+    "text": "<p>+1 EKR on comparing efficacy to existing systems vs. pretending these networks don't already exist</p>",
+    "topic": "ietf-118",
+    "dtime": 3641000,
+    "ptime": 3641000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"55\">@Stephen Farrell</span> I agree you asked for evidence. But I think we really do need some understanding of what that evidence would consist of.  As was suggested earlier about the fake tracker question, the question here is \"do we have some idea of what that would look like\"</p>",
+    "topic": "ietf-118",
+    "dtime": 3714000,
+    "ptime": 3714000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>My impression of what SF is asking for is what I would call 'vulnerabilty testing', or 'security verification testing'.</p>",
+    "topic": "ietf-118",
+    "dtime": 3746000,
+    "ptime": 3746000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>something that shows that what is being deployed is harder to 'break' than what exists today.</p>",
+    "topic": "ietf-118",
+    "dtime": 3775000,
+    "ptime": 3775000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"331\">@Deb Cooley</span> sorta that, but where the testing also tries to establish evidence that the overall system with our new thing is actually better than before</p>",
+    "topic": "ietf-118",
+    "dtime": 3810000,
+    "ptime": 3810000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>bootloader mode on phones where it only does tracking detection. :P</p>",
+    "topic": "ietf-118",
+    "dtime": 3823000,
+    "ptime": 3823000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>What's being talked about sounds less like a deployment experience requirement and more like a solution/harm balance analysis requirement.</p>",
+    "topic": "ietf-118",
+    "dtime": 3833000,
+    "ptime": 3833000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3445\">Greg Maxwell</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94504\">said</a>:</p>\n<blockquote>\n<p>bootloader mode on phones where it only does tracking detection. :P</p>\n</blockquote>\n<p>Firefox OS!</p>",
+    "topic": "ietf-118",
+    "dtime": 3842000,
+    "ptime": 3842000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> I'm fine that the specifics of what needs testing and what evidence is convincing would be defined later</p>",
+    "topic": "ietf-118",
+    "dtime": 3875000,
+    "ptime": 3875000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>SF:  right.  to know that the mitigations aren't trivially broken.</p>",
+    "topic": "ietf-118",
+    "dtime": 3885000,
+    "ptime": 3885000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>Making sure your proposals work is just called engineering.</p>",
+    "topic": "ietf-118",
+    "dtime": 3902000,
+    "ptime": 3902000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>sure...</p>",
+    "topic": "ietf-118",
+    "dtime": 3912000,
+    "ptime": 3912000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>one question is whether the things that you turn off in lockdown mode for your iPhone would disable the ability to use the iPhone as a DULT detector.</p>",
+    "topic": "ietf-118",
+    "dtime": 3914000,
+    "ptime": 3914000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"55\">Stephen Farrell</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94511\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> I'm fine that the specifics of what needs testing and what evidence is convincing would be defined later</p>\n</blockquote>\n<p>But this is actually what I'm objecting to. Specifically, I am asking for an existence proof of the kind of evidence you are asking for.</p>",
+    "topic": "ietf-118",
+    "dtime": 3919000,
+    "ptime": 3919000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@sf would the \"carry out a threat analysis\" point cover that? or is there a short way to describe the different kind of evidence you are interested in?</p>",
+    "topic": "ietf-118",
+    "dtime": 3926000,
+    "ptime": 3926000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94522\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"55\">Stephen Farrell</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94511\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> I'm fine that the specifics of what needs testing and what evidence is convincing would be defined later</p>\n</blockquote>\n<p>But this is actually what I'm objecting to. Specifically, I am asking for an existence proof of the kind of evidence you are asking for.</p>\n</blockquote>\n<p>Even if the details are to be refined later.</p>",
+    "topic": "ietf-118",
+    "dtime": 3943000,
+    "ptime": 3943000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> i can offer existence proofs related to covid tracking, dunno I could for these systems now; that any use?</p>",
+    "topic": "ietf-118",
+    "dtime": 3984000,
+    "ptime": 3984000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> the iphone stuff last I looked was bad, you couldn't turn off being a tattle tale device (\"finder\"  role) without turning off a lot of extra functionality.</p>",
+    "topic": "ietf-118",
+    "dtime": 3994000,
+    "ptime": 3994000
+  },
+  {
+    "author": "Gillian Verga",
+    "text": "<p>One potential source of \"evidence\" is talking to victim advocacy groups to get their thumbs up that they believe the proposed solution  is right</p>",
+    "topic": "ietf-118",
+    "dtime": 4003000,
+    "ptime": 4003000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"55\">Stephen Farrell</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94528\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> i can offer existence proofs related to covid tracking, dunno I could for these systems now; that any use?</p>\n</blockquote>\n<p>Not really.</p>",
+    "topic": "ietf-118",
+    "dtime": 4054000,
+    "ptime": 4054000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3175\">Gillian Verga</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94533\">said</a>:</p>\n<blockquote>\n<p>One potential source of \"evidence\" is talking to victim advocacy groups to get their thumbs up that they believe the proposed solution  is right</p>\n</blockquote>\n<p>Exactly. That's why I was thinking that this is less about implementation and more about analysis (by experts).</p>",
+    "topic": "ietf-118",
+    "dtime": 4066000,
+    "ptime": 4066000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3175\">Gillian Verga</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94533\">said</a>:</p>\n<blockquote>\n<p>One potential source of \"evidence\" is talking to victim advocacy groups to get their thumbs up that they believe the proposed solution  is right</p>\n</blockquote>\n<p>This seems like an excellent suggestion.</p>",
+    "topic": "ietf-118",
+    "dtime": 4086000,
+    "ptime": 4086000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3175\">@Gillian Verga</span> we need not just a thumbs up from them -- we need an ongoing conversation with them, because the ecosystem can change over time and their knowledge of the evidence on the ground will change (and will be different in different contexts too)</p>",
+    "topic": "ietf-118",
+    "dtime": 4111000,
+    "ptime": 4111000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>I also wanted to add that the experts on these harms would agree they should be banned. But again, we have no prospects for making that happen and so we are engaging in harm reduction.</p>",
+    "topic": "ietf-118",
+    "dtime": 4112000,
+    "ptime": 4112000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>Agree with expert analysis. This is why we need to have a mechanism to solicit their input. Many have important thoughts but can't engage on the technical components</p>",
+    "topic": "ietf-118",
+    "dtime": 4121000,
+    "ptime": 4121000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1 gillian, dkg, maggie</p>",
+    "topic": "ietf-118",
+    "dtime": 4133000,
+    "ptime": 4133000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>even if these devices are consider harmful, the technology exists and will not just go away</p>",
+    "topic": "ietf-118",
+    "dtime": 4146000,
+    "ptime": 4146000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>Do Apple and Google and co. advertise these trackers for their supposed anti-theft use cases? I think that use case is overrated and criminals already have effective mitigations whereas people who are harmed by trackers don't</p>",
+    "topic": "ietf-118",
+    "dtime": 4150000,
+    "ptime": 4150000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3504\">@Maggie Delano</span> <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span>  we need to share expertise in both directions</p>",
+    "topic": "ietf-118",
+    "dtime": 4159000,
+    "ptime": 4159000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I also agree that external experts as mentioned would be good for judging things. they'd need help though I expect with constructing experiments with BLE stuff though</p>",
+    "topic": "ietf-118",
+    "dtime": 4174000,
+    "ptime": 4174000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3504\">Maggie Delano</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94548\">said</a>:</p>\n<blockquote>\n<p>Agree with expert analysis. This is why we need to have a mechanism to solicit their input. Many have important thoughts but can't engage on the technical components</p>\n</blockquote>\n<p>I would hope that as we get further along we could provide a succinct description of the <em>properties</em> of the system (e.g., what it took to detect tracking, etc.) that was abstracted from the details that they could then weigh in on.</p>",
+    "topic": "ietf-118",
+    "dtime": 4206000,
+    "ptime": 4206000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@mohammad it varies by vendor, but many specifically don't market them for anti-theft, in part because the thief has mitigations against it already</p>",
+    "topic": "ietf-118",
+    "dtime": 4208000,
+    "ptime": 4208000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"550\">Nick Doty</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94562\">said</a>:</p>\n<blockquote>\n<p>@mohammad it varies by vendor, but many specifically don't market them for anti-theft, in part because the thief has mitigations against it already</p>\n</blockquote>\n<p>Like an aluminized mylar bag.</p>",
+    "topic": "ietf-118",
+    "dtime": 4243000,
+    "ptime": 4243000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>People have in fact done what Jonathan is talking about</p>",
+    "topic": "ietf-118",
+    "dtime": 4306000,
+    "ptime": 4306000
+  },
+  {
+    "author": "Cory Myers",
+    "text": "<p>The “maybe this class of device shouldn’t exist” argument is striking.  Are there precedents in the IETF for this kind of ambivalence about the ethics of engaging in new work, as well as regret about how things have turned out in practice (pervasive surveillance in general)?</p>",
+    "topic": "ietf-118",
+    "dtime": 4314000,
+    "ptime": 4314000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, not necessarily re: surveillance, but NAT!</p>",
+    "topic": "ietf-118",
+    "dtime": 4334000,
+    "ptime": 4334000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@ekr, yes. or even active bluetooth scanning is more feasible for the thief (since they know exactly when they took a new item)</p>",
+    "topic": "ietf-118",
+    "dtime": 4348000,
+    "ptime": 4348000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1 weiler. I don't think the charter needs to pick a solution or to assume that the Working Group will make bad decisions.</p>",
+    "topic": "ietf-118",
+    "dtime": 4388000,
+    "ptime": 4388000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I agree with Sam about  item 5, though I fear that at the end of the day it's going to require some kind of attestation</p>",
+    "topic": "ietf-118",
+    "dtime": 4395000,
+    "ptime": 4395000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>RFC 6919 FTW!</p>",
+    "topic": "ietf-118",
+    "dtime": 4421000,
+    "ptime": 4421000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>everything that google ships is designed to be tracked (by google)</p>",
+    "topic": "ietf-118",
+    "dtime": 4436000,
+    "ptime": 4436000
+  },
+  {
+    "author": "David Somers-Harris",
+    "text": "<p>IETF can't mandate anything XP</p>",
+    "topic": "ietf-118",
+    "dtime": 4453000,
+    "ptime": 4453000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>charters are not useful documents for advocacy to companies about all their other products</p>",
+    "topic": "ietf-118",
+    "dtime": 4459000,
+    "ptime": 4459000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I mean honestly, have you ever tried to find your beats on the floor of your car?</p>",
+    "topic": "ietf-118",
+    "dtime": 4489000,
+    "ptime": 4489000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>When I was digging around there I was wishing the speaker was a lot louder</p>",
+    "topic": "ietf-118",
+    "dtime": 4504000,
+    "ptime": 4504000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And also that I hadn't bought the black ones</p>",
+    "topic": "ietf-118",
+    "dtime": 4512000,
+    "ptime": 4512000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i think the current mechanisms that tracking networks have put in place to \"authenticate\" tags  are clearly easily broken/bypassed - part of the protocol needs to be about tightening that up which would solve item 5</p>\n<p>i don't think it should be changed in the charter - the protocol would cover the specific issue</p>",
+    "topic": "ietf-118",
+    "dtime": 4514000,
+    "ptime": 4514000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>carrots are easier to find than beets</p>",
+    "topic": "ietf-118",
+    "dtime": 4522000,
+    "ptime": 4522000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>One could specify that no device should track by default unless it has no other functionality.  That doesn't mandate anyone follow the specs but ... there may be legislation that does some time later.</p>",
+    "topic": "ietf-118",
+    "dtime": 4530000,
+    "ptime": 4530000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94591\">said</a>:</p>\n<blockquote>\n<p>carrots are easier to find than beets</p>\n</blockquote>\n<p>Is that because they improve your eyesight?</p>",
+    "topic": "ietf-118",
+    "dtime": 4549000,
+    "ptime": 4549000
+  },
+  {
+    "author": "David Somers-Harris",
+    "text": "<p>XD British war propaganda</p>",
+    "topic": "ietf-118",
+    "dtime": 4580000,
+    "ptime": 4580000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"810\">Eric Rescorla</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94594\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94591\">said</a>:</p>\n<blockquote>\n<p>carrots are easier to find than beets</p>\n</blockquote>\n<p>Is that because they improve your eyesight?</p>\n</blockquote>\n<p>sorry to burst the bubble - <a href=\"https://www.mcgill.ca/oss/article/did-you-know-nutrition/real-connection-between-carrots-and-vision\">https://www.mcgill.ca/oss/article/did-you-know-nutrition/real-connection-between-carrots-and-vision</a></p>",
+    "topic": "ietf-118",
+    "dtime": 4596000,
+    "ptime": 4596000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>prevent rogue trackers on legitimate networks.</p>",
+    "topic": "ietf-118",
+    "dtime": 4644000,
+    "ptime": 4644000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>I open chat to carrots, I am now hungry</p>",
+    "topic": "ietf-118",
+    "dtime": 4653000,
+    "ptime": 4653000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>But you don’t get access to the network?</p>",
+    "topic": "ietf-118",
+    "dtime": 4657000,
+    "ptime": 4657000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>but there is already charter text on stopping non-conforming trackers.</p>",
+    "topic": "ietf-118",
+    "dtime": 4666000,
+    "ptime": 4666000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>You should be able to detect things!</p>",
+    "topic": "ietf-118",
+    "dtime": 4699000,
+    "ptime": 4699000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<blockquote>\n<p>[import pubkey to track]  -- fits in with client auth just fine.</p>\n</blockquote>",
+    "topic": "ietf-118",
+    "dtime": 4741000,
+    "ptime": 4741000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>EKR needs to clean out his car.  Your welcome.</p>",
+    "topic": "ietf-118",
+    "dtime": 4763000,
+    "ptime": 4763000
+  },
+  {
+    "author": "Gillian Verga",
+    "text": "<ul>\n<li>1 Deb <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></li>\n</ul>",
+    "topic": "ietf-118",
+    "dtime": 4792000,
+    "ptime": 4792000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>having ridden in EKR's car, I concur with @deb's assessment</p>",
+    "topic": "ietf-118",
+    "dtime": 4800000,
+    "ptime": 4800000
+  },
+  {
+    "author": "Gillian Verga",
+    "text": "<p>that was supposed to be \"+1\"</p>",
+    "topic": "ietf-118",
+    "dtime": 4820000,
+    "ptime": 4820000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>the benefit is that they look better in civil lawsuits and are less likely to get their stuff outlawed outright.</p>",
+    "topic": "ietf-118",
+    "dtime": 4860000,
+    "ptime": 4860000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>one big benefit is that networks won't have rogue devices on their networks which means they won't steal capacity on the network, improved security etc</p>",
+    "topic": "ietf-118",
+    "dtime": 4882000,
+    "ptime": 4882000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>\"we implemented state of the art safety features, it's not our bad you got killed by your stalker\"</p>",
+    "topic": "ietf-118",
+    "dtime": 4899000,
+    "ptime": 4899000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Defining compliance to use the mitigation standard is one policy outcome short of banning</p>",
+    "topic": "ietf-118",
+    "dtime": 4921000,
+    "ptime": 4921000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"331\">Deb Cooley</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94613\">said</a>:</p>\n<blockquote>\n<p>EKR needs to clean out his car.  Your welcome.</p>\n</blockquote>\n<p>Believe it or not this was a rental and it was quite clean</p>",
+    "topic": "ietf-118",
+    "dtime": 4927000,
+    "ptime": 4927000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>(sorry for the echo)</p>",
+    "topic": "ietf-118",
+    "dtime": 4952000,
+    "ptime": 4952000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"476\">@Sean Turner</span>: \"legislation is not our problem\" isn't a useful frame.  If we specify something that has specific properties that we care about, and it has a name and is an industry standard, that creates a hook for regulators/legislators that wouldn't otherwise exist.</p>\n<p>We need to think about the shape of the hooks that we are creating, because there could well be follow-on regulation</p>",
+    "topic": "ietf-118",
+    "dtime": 4967000,
+    "ptime": 4967000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>It will also become less of an attractive option when use by abusers creates a digital trail of bits that becomes a deterrent. That’s an impact over time</p>",
+    "topic": "ietf-118",
+    "dtime": 4982000,
+    "ptime": 4982000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>there are important harm reduction impacts of making it much harder to easily buy a device off the shelf that also has innocuous uses, even if we haven't made it impossible for a malicious device to be built</p>",
+    "topic": "ietf-118",
+    "dtime": 5066000,
+    "ptime": 5066000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>Jeopardy theme music runs through my head...</p>",
+    "topic": "ietf-118",
+    "dtime": 5092000,
+    "ptime": 5092000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>as long as our harm-reduction-oriented changes don't make other harms worse, or make it significantly harder to mitigate other harms</p>",
+    "topic": "ietf-118",
+    "dtime": 5142000,
+    "ptime": 5142000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>@Nick Absolutely, less harm is always good. We are not trying to chase \"no harm\" at IETF</p>",
+    "topic": "ietf-118",
+    "dtime": 5148000,
+    "ptime": 5148000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Providing evidence of tracking (past tense) would be an interesting avenue for implementers (not standards) in court cases to bring evidence against abusers which is often difficult to come by.</p>",
+    "topic": "ietf-118",
+    "dtime": 5179000,
+    "ptime": 5179000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@dkg and I think we should ask experts (who have indicated the important need for these harm reduction mitigations) about that trade-off, rather than making an assumption</p>",
+    "topic": "ietf-118",
+    "dtime": 5188000,
+    "ptime": 5188000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>It's also worth looking at the impact of this work in non-western contexts, for e.g. where buying a cheap GPS tracker on Amazon is not possible/ tightly regulated whereas apple products are less so</p>",
+    "topic": "ietf-118",
+    "dtime": 5200000,
+    "ptime": 5200000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>it would actually be good if the protocol does make it harder/impossible to use the tracking network outside of \"wanted\" purposes</p>\n<p>for example preventing anonymous trackers from attaching to the network to start with, or preventing extraction of the data without some kind of identification scheme are things that come to mind - so that law enforcement can continue to work effectively</p>",
+    "topic": "ietf-118",
+    "dtime": 5211000,
+    "ptime": 5211000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>-1 to \"cryptographically\"</p>",
+    "topic": "ietf-118",
+    "dtime": 5233000,
+    "ptime": 5233000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Plenty of folks from the DV community are against their consumer availability. They have not been heard.</p>",
+    "topic": "ietf-118",
+    "dtime": 5244000,
+    "ptime": 5244000
+  },
+  {
+    "author": "Tara Tarakiyee",
+    "text": "<p>Crypto: not even once</p>",
+    "topic": "ietf-118",
+    "dtime": 5263000,
+    "ptime": 5263000
+  },
+  {
+    "author": "David Schinazi",
+    "text": "<p>to \"really\" ensure</p>",
+    "topic": "ietf-118",
+    "dtime": 5279000,
+    "ptime": 5279000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>Show up and contribute.</p>",
+    "topic": "ietf-118",
+    "dtime": 5283000,
+    "ptime": 5283000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>+1 to improving the strength of the word \"ensure\"<br>\ncryptographically is not the right word</p>",
+    "topic": "ietf-118",
+    "dtime": 5291000,
+    "ptime": 5291000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>How much assurance can fit on the head of a pin?</p>",
+    "topic": "ietf-118",
+    "dtime": 5307000,
+    "ptime": 5307000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>is this a good use of \"MUST\" ?</p>",
+    "topic": "ietf-118",
+    "dtime": 5316000,
+    "ptime": 5316000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@ Richard you would be surprised</p>",
+    "topic": "ietf-118",
+    "dtime": 5329000,
+    "ptime": 5329000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>'case it helps, I'm fine with #3 on the list being shown now</p>",
+    "topic": "ietf-118",
+    "dtime": 5341000,
+    "ptime": 5341000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>All the dictionary definitions of “ensure” I looked at are considerably more binding than “meh, we tried”.</p>",
+    "topic": "ietf-118",
+    "dtime": 5382000,
+    "ptime": 5382000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>more like SHOULD than MUST</p>",
+    "topic": "ietf-118",
+    "dtime": 5409000,
+    "ptime": 5409000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>mitigating unwanted location tracking is a better name I had previously suggested</p>",
+    "topic": "ietf-118",
+    "dtime": 5409000,
+    "ptime": 5409000
+  },
+  {
+    "author": "Ben S",
+    "text": "<p>\"Ensuring\" something in a half-baked way doesn't make logical sense</p>",
+    "topic": "ietf-118",
+    "dtime": 5412000,
+    "ptime": 5412000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>MULT?</p>",
+    "topic": "ietf-118",
+    "dtime": 5430000,
+    "ptime": 5430000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>dult not a terrific acronym either</p>",
+    "topic": "ietf-118",
+    "dtime": 5440000,
+    "ptime": 5440000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>LoTHaR: location tracking harm reduction</p>",
+    "topic": "ietf-118",
+    "dtime": 5468000,
+    "ptime": 5468000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Finder to Tracker Protocol (FTP)</p>",
+    "topic": "ietf-118",
+    "dtime": 5469000,
+    "ptime": 5469000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>we need to invite the relevant experts into the whole process - not just the end goal</p>",
+    "topic": "ietf-118",
+    "dtime": 5476000,
+    "ptime": 5476000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I'm less happy with #3 being split into 2</p>",
+    "topic": "ietf-118",
+    "dtime": 5487000,
+    "ptime": 5487000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Tag to Finder Tracking Protocol (TFTP)</p>",
+    "topic": "ietf-118",
+    "dtime": 5489000,
+    "ptime": 5489000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>Simple mitigation, tracker protection.</p>",
+    "topic": "ietf-118",
+    "dtime": 5525000,
+    "ptime": 5525000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@ekr overloading?</p>",
+    "topic": "ietf-118",
+    "dtime": 5566000,
+    "ptime": 5566000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>+1 to Stephen</p>",
+    "topic": "ietf-118",
+    "dtime": 5574000,
+    "ptime": 5574000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>trivial ftp</p>",
+    "topic": "ietf-118",
+    "dtime": 5575000,
+    "ptime": 5575000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>the expert groups need to be actively invited to the WG to contribute</p>",
+    "topic": "ietf-118",
+    "dtime": 5583000,
+    "ptime": 5583000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 to stephen: \"implementation experience\" needs to be full-stack, including advocates for survivors</p>",
+    "topic": "ietf-118",
+    "dtime": 5609000,
+    "ptime": 5609000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"219\">Anthony Somerset</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94686\">said</a>:</p>\n<blockquote>\n<p>the expert groups need to be actively invited to the WG to contribute</p>\n</blockquote>\n<p>There's not really much of a mechanism for that.</p>",
+    "topic": "ietf-118",
+    "dtime": 5612000,
+    "ptime": 5612000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"219\">@Anthony Somerset</span> they may need help translating the WG's technical thrust to the properties that result.</p>",
+    "topic": "ietf-118",
+    "dtime": 5617000,
+    "ptime": 5617000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>agreed don't have any good ideas there</p>",
+    "topic": "ietf-118",
+    "dtime": 5675000,
+    "ptime": 5675000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Doesn't gender-based violence exclude non-heterosexual relationships?</p>",
+    "topic": "ietf-118",
+    "dtime": 5703000,
+    "ptime": 5703000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>No</p>",
+    "topic": "ietf-118",
+    "dtime": 5712000,
+    "ptime": 5712000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>Gender Based or any other form of social violence if we must be pedantic</p>",
+    "topic": "ietf-118",
+    "dtime": 5748000,
+    "ptime": 5748000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Why is the gender based violence a better term? Any reference?</p>",
+    "topic": "ietf-118",
+    "dtime": 5763000,
+    "ptime": 5763000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>then it needs to be changed</p>",
+    "topic": "ietf-118",
+    "dtime": 5764000,
+    "ptime": 5764000
+  },
+  {
+    "author": "Jonathan Hoyland",
+    "text": "<p>Intimate partner seems like it covers the relevant cases, no?</p>",
+    "topic": "ietf-118",
+    "dtime": 5776000,
+    "ptime": 5776000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>That's a lot of people in the no category. Anyone need to add anything that hasn't been said before?</p>",
+    "topic": "ietf-118",
+    "dtime": 5792000,
+    "ptime": 5792000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>What happens with  same sex intimate relationships</p>",
+    "topic": "ietf-118",
+    "dtime": 5809000,
+    "ptime": 5809000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>The \"gender\" in gender-based violence refers to violence as a behavior informed by ideas about gender. It doesn't refer to the gender of the abusers or victim/survivor.</p>",
+    "topic": "ietf-118",
+    "dtime": 5841000,
+    "ptime": 5841000
+  },
+  {
+    "author": "Andrew Campling",
+    "text": "<p>@Dhruv intimate partner is perhaps a better, more inclusive name</p>",
+    "topic": "ietf-118",
+    "dtime": 5863000,
+    "ptime": 5863000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>(thanks chad for improving and explaining the language)</p>",
+    "topic": "ietf-118",
+    "dtime": 5873000,
+    "ptime": 5873000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I would note that the HRPC <em>just</em> adopted a draft about IPV <a href=\"https://datatracker.ietf.org/doc/draft-irtf-hrpc-ipvc/\">https://datatracker.ietf.org/doc/draft-irtf-hrpc-ipvc/</a>.</p>",
+    "topic": "ietf-118",
+    "dtime": 5898000,
+    "ptime": 5898000
+  },
+  {
+    "author": "Klemen Bratec",
+    "text": "<p>Chipolo raising hands for implementation</p>",
+    "topic": "ietf-118",
+    "dtime": 5920000,
+    "ptime": 5920000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Thanks for raising ekr. It’s much broader than location trackers though it does call those out too.</p>",
+    "topic": "ietf-118",
+    "dtime": 5929000,
+    "ptime": 5929000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I don't have an informed opinion about the language, but it would be nice to have consensus on what the approved terms were.</p>",
+    "topic": "ietf-118",
+    "dtime": 5931000,
+    "ptime": 5931000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"666\">Mallory Knodel</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94717\">said</a>:</p>\n<blockquote>\n<p>Thanks for raising ekr. It’s much broader than location trackers though it does call those out too.</p>\n</blockquote>\n<p>Agreed. It's just not clear to me where each term is appropriate.</p>",
+    "topic": "ietf-118",
+    "dtime": 5957000,
+    "ptime": 5957000
+  },
+  {
+    "author": "Chad Sniffen",
+    "text": "<p>IPV is actually a very restrictive term. People are not always on \"intimate\" terms with the person stalking them.</p>",
+    "topic": "ietf-118",
+    "dtime": 5960000,
+    "ptime": 5960000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>My $0.02: \"intimate-partner\" and \"gender-based\" are well-defined terms. IETF should just use the established terms; it is 100% a waste of time for us to debate them.</p>",
+    "topic": "ietf-118",
+    "dtime": 5961000,
+    "ptime": 5961000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Intimate partner violence is a subset of gender based violence. Where the abuser is an intimate partner</p>",
+    "topic": "ietf-118",
+    "dtime": 5962000,
+    "ptime": 5962000
+  },
+  {
+    "author": "Josselin de la Broise",
+    "text": "<p>Tile will work on implementation</p>",
+    "topic": "ietf-118",
+    "dtime": 5965000,
+    "ptime": 5965000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>Both and other kinds of harms are mitigated by this work.</p>",
+    "topic": "ietf-118",
+    "dtime": 6000000,
+    "ptime": 6000000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"666\">Mallory Knodel</span> <a href=\"#narrow/stream/375-dult/topic/ietf-118/near/94724\">said</a>:</p>\n<blockquote>\n<p>Intimate partner violence is a subset of gender based violence. Where the abuser is an intimate partner</p>\n</blockquote>\n<p>OK, now I'm actually quite confused, because the IPV draft includes elder abuse in the definition</p>",
+    "topic": "ietf-118",
+    "dtime": 6020000,
+    "ptime": 6020000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>If we are defining experts you want the broadest possible expression so GBV</p>",
+    "topic": "ietf-118",
+    "dtime": 6020000,
+    "ptime": 6020000
+  },
+  {
+    "author": "Greg Maxwell",
+    "text": "<p>unwanted trackers  beyond any kind of 'partner violence'...  People are mailing stuffed animals to youtube stars to find out their locations for staking purposes.  But the WG presumably wants input from anyone that works with people harmed by these trackers.</p>",
+    "topic": "ietf-118",
+    "dtime": 6077000,
+    "ptime": 6077000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>i would use a holding term \"all forms of Social Violence\" and include some text which includes but not specifically limited to GBV and IPV </p>\n<p>we getting pedantic with terms otherwise</p>",
+    "topic": "ietf-118",
+    "dtime": 6092000,
+    "ptime": 6092000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>We are only invoking these terms in who we ask for advice</p>",
+    "topic": "ietf-118",
+    "dtime": 6096000,
+    "ptime": 6096000
+  },
+  {
+    "author": "Zachary Eddinger",
+    "text": "<p>540am might be too early for that</p>",
+    "topic": "ietf-118",
+    "dtime": 6115000,
+    "ptime": 6115000
+  },
+  {
+    "author": "Maggie Delano",
+    "text": "<p>Thanks everyone.</p>",
+    "topic": "ietf-118",
+    "dtime": 6118000,
+    "ptime": 6118000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>Its never too early for a beer</p>",
+    "topic": "ietf-118",
+    "dtime": 6126000,
+    "ptime": 6126000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>thank you BoF chairs for running an effective meeting</p>",
+    "topic": "ietf-118",
+    "dtime": 6127000,
+    "ptime": 6127000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>It's always 5am somewhere</p>",
+    "topic": "ietf-118",
+    "dtime": 6130000,
+    "ptime": 6130000
+  },
+  {
+    "author": "Tommy Pauly",
+    "text": "<p>Yes, thanks to the chairs!</p>",
+    "topic": "ietf-118",
+    "dtime": 6140000,
+    "ptime": 6140000
+  },
+  {
+    "author": "Zachary Eddinger",
+    "text": "<p>yes 5 o'clock never specified AM or PM..</p>",
+    "topic": "ietf-118",
+    "dtime": 6157000,
+    "ptime": 6157000
+  },
+  {
+    "author": "Zachary Eddinger",
+    "text": "<p>thank you chairs!!</p>",
+    "topic": "ietf-118",
+    "dtime": 6187000,
+    "ptime": 6187000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-DULT-20231106-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/dult"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-DULT-20231106-1200"
+		}		
+	]
+}

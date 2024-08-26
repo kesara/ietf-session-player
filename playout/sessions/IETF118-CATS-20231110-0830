@@ -1,0 +1,322 @@
+
+{
+	"title": "IETF118-CATS-20231110-0830",
+	"filename": "IETF118-CATS-20231110-0830",
+	"start": 0,
+	"end": 6765000,
+	"start_datetime": "2023-11-10T08:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "XvJ4XdIwre8",
+    "start": 0,
+    "end": "6765000"
+  }
+],
+	"messages": [
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>The automatic transcription is humorous</p>",
+    "topic": "ietf-118",
+    "dtime": 74000,
+    "ptime": 74000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>The BBC audience last year (2022) was just under 25 million, people. Number of people that access BBC content Worldwide was 440 million.</p>",
+    "topic": "ietf-118",
+    "dtime": 1002000,
+    "ptime": 1002000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Providing personalized media content to a fraction of that audience poses significant computational and network challenges.</p>",
+    "topic": "ietf-118",
+    "dtime": 1050000,
+    "ptime": 1050000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Also, the BBC had planned to Switch Off Terrestrial UK TV by 2030.</p>",
+    "topic": "ietf-118",
+    "dtime": 1153000,
+    "ptime": 1153000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>That target is still under discussion.</p>",
+    "topic": "ietf-118",
+    "dtime": 1168000,
+    "ptime": 1168000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>While the presentation describes some really interesting problems, I am having trouble understanding the relationship to CATS.  While there is some commonality of metrics, service provisioning is not within scope of CATS as I understand it.</p>",
+    "topic": "ietf-118",
+    "dtime": 1630000,
+    "ptime": 1630000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>The metrics is where we see overlap.</p>",
+    "topic": "ietf-118",
+    "dtime": 1681000,
+    "ptime": 1681000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>The job scheduler in that figure might be overlap</p>",
+    "topic": "ietf-118",
+    "dtime": 1733000,
+    "ptime": 1733000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>The architecture is fluid, we expect changes. We want to see if CATS sees commonality of required metrics, can we reuse/develop together.</p>",
+    "topic": "ietf-118",
+    "dtime": 1739000,
+    "ptime": 1739000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>We are looking at framework for AI4ME and seeing if some of the functional components defined by CATS could also be reused.</p>",
+    "topic": "ietf-118",
+    "dtime": 1779000,
+    "ptime": 1779000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Daniel, there are metrics that overlap.  I hav eno problem making sure that the metrics are defined only once.  I even have no problem with other entitites subscribing to the metric distribution.  But most of the metrics (like how much memory on the server is actually in use, for deciding where to deploy new isntances) are distinctly outside CATS scope.  I know that this also relates to the next presentaiton.</p>",
+    "topic": "ietf-118",
+    "dtime": 1807000,
+    "ptime": 1807000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Adrian, as far as I can tell, no, the job scheduler is not within our scope.  THe result of the jbo scheduler is instances that are within CATS scope.</p>",
+    "topic": "ietf-118",
+    "dtime": 1834000,
+    "ptime": 1834000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>The BBC has its own network, but it also interconnects with BT in multi-locations. how we get CATS instance info could be a challange.</p>",
+    "topic": "ietf-118",
+    "dtime": 1843000,
+    "ptime": 1843000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Indeed, getting CATS-needed metrics across operational boundaries is an itneresting problem that does seem to fall within our scope.</p>",
+    "topic": "ietf-118",
+    "dtime": 1894000,
+    "ptime": 1894000
+  },
+  {
+    "author": "Jim Guichard",
+    "text": "<p>@joel from how I understand it CATS is essentially looking at the problem of how to use compute metrics (whatever they may be) and network metrics to decide how to steer traffic through a selected set</p>",
+    "topic": "ietf-118",
+    "dtime": 2184000,
+    "ptime": 2184000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>s/through/to<br>\ns/set/instance</p>",
+    "topic": "ietf-118",
+    "dtime": 2213000,
+    "ptime": 2213000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Trying to think where there may be overlap, it does occur to me that there is one quasi-metric I have not seen referenced that may be in the intersection.  An indication of \"please stop sending new sessions to instance A\", presumably as a step towards removing that isntance.</p>",
+    "topic": "ietf-118",
+    "dtime": 2232000,
+    "ptime": 2232000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Jim, what has become clear is that there arelevant compute metrics for steering, and an overlapping but largely distinct set of metrics that are important for compute instance placement.</p>",
+    "topic": "ietf-118",
+    "dtime": 2297000,
+    "ptime": 2297000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>@Joel Oh, I like that.</p>",
+    "topic": "ietf-118",
+    "dtime": 2311000,
+    "ptime": 2311000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Adrian Agreed.  We are not doing SFC here.  We are delivering to an isntance of the service the user is trying to use.</p>",
+    "topic": "ietf-118",
+    "dtime": 2323000,
+    "ptime": 2323000
+  },
+  {
+    "author": "Daniel King",
+    "text": "<p>Yes, also agree.</p>",
+    "topic": "ietf-118",
+    "dtime": 2338000,
+    "ptime": 2338000
+  },
+  {
+    "author": "Jim Guichard",
+    "text": "<p>@adrian yes thanks its early</p>",
+    "topic": "ietf-118",
+    "dtime": 2345000,
+    "ptime": 2345000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>(For folks who seem to be wondering why I am harping on this; in my experience WGs that solve their chartered problem do MUCH better than WGs that take on all the neighboring problems.)</p>",
+    "topic": "ietf-118",
+    "dtime": 2407000,
+    "ptime": 2407000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Yes, Joel. We are sifting</p>",
+    "topic": "ietf-118",
+    "dtime": 2476000,
+    "ptime": 2476000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Adrian Thanks Adrian.</p>",
+    "topic": "ietf-118",
+    "dtime": 2525000,
+    "ptime": 2525000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>Another interesting implication for this work is that the service placement system may need access to a subset of the network metrics.  Which is a problem clearly related to CATS, but does not seem to be within scope.  It seems to be a different protocol problem as it is a different set of participants, but definitely relevant and interesting.</p>",
+    "topic": "ietf-118",
+    "dtime": 2975000,
+    "ptime": 2975000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Yes. I see two challenges.</p>\n<ol>\n<li>How do we get the right CATS metrics and help make it so  that other people don't have to re-invent anything where reasonably possible?</li>\n<li>How and where does the wider ecosystem get built, and how do we ensure that CATS fits into it?<br>\nThe first is clearly CATS WG work. The second is not, but I don't have an answer.<br>\nBoth questions seem to involve people from other communities.</li>\n</ol>",
+    "topic": "ietf-118",
+    "dtime": 3337000,
+    "ptime": 3337000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>In the context of CATS, I am not clear on what in-band vs out-of-band means?  If \"band\" refers to the unerlying IGP, I thought we had been veyr clear in the charter to stay away from that.  If it means some other band, I don't know what it is.</p>",
+    "topic": "ietf-118",
+    "dtime": 3708000,
+    "ptime": 3708000
+  },
+  {
+    "author": "Patrick Tarpey",
+    "text": "<p>A lot of background noise - makes it difficult to hear the speakers...</p>",
+    "topic": "ietf-118",
+    "dtime": 4606000,
+    "ptime": 4606000
+  },
+  {
+    "author": "Patrick Tarpey",
+    "text": "<p>Is there a door open in the meeting room?</p>",
+    "topic": "ietf-118",
+    "dtime": 4623000,
+    "ptime": 4623000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Yeah. It's at the remote</p>",
+    "topic": "ietf-118",
+    "dtime": 4628000,
+    "ptime": 4628000
+  },
+  {
+    "author": "XingZhao",
+    "text": "<p>What's the key difference of \"draft-yuan-cats-end-to-end-problem-requirement-01\" and \"draft-ietf-cats-usecases-requirements-01“ ？To me, they are kind of similar (all about requirements), can they be merged into one complete draft?</p>",
+    "topic": "ietf-118",
+    "dtime": 4808000,
+    "ptime": 4808000
+  },
+  {
+    "author": "Peng Liu",
+    "text": "<p>draft-ietf-cats-usecases-requirements-01 is the WG draft, while all the people can submit their individual draft to contribute to the WG</p>",
+    "topic": "ietf-118",
+    "dtime": 4954000,
+    "ptime": 4954000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>I hope we will only end up with one WG requirements draft. But it is not unreasonable for people to produce new ideas in a new draft. That can then be merged as you suggest</p>",
+    "topic": "ietf-118",
+    "dtime": 4974000,
+    "ptime": 4974000
+  },
+  {
+    "author": "Dongyu Yuan",
+    "text": "<p>Agreed with Adrian, we'd like to raise our perceptions and if the contents reasonable, they can then be merged.</p>",
+    "topic": "ietf-118",
+    "dtime": 5153000,
+    "ptime": 5153000
+  },
+  {
+    "author": "XingZhao",
+    "text": "<p>Thanks, chairs! I used to think we cannot submit drafts on same topic containing similar contents.</p>",
+    "topic": "ietf-118",
+    "dtime": 5162000,
+    "ptime": 5162000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>But!</p>",
+    "topic": "ietf-118",
+    "dtime": 5193000,
+    "ptime": 5193000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>I am going to make a comment in a moment</p>",
+    "topic": "ietf-118",
+    "dtime": 5202000,
+    "ptime": 5202000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>I hope my comment about \"parallel\" drafts and draft merging was clear. Please come and talk to me if you find this difficult</p>",
+    "topic": "ietf-118",
+    "dtime": 5662000,
+    "ptime": 5662000
+  },
+  {
+    "author": "Julien Maisonneuve",
+    "text": "<p>I support Adrian's view: there are far too many drafts to properly focus. Ultimately we should strctly target the WG's milestones.</p>",
+    "topic": "ietf-118",
+    "dtime": 5790000,
+    "ptime": 5790000
+  },
+  {
+    "author": "XingZhao",
+    "text": "<p>I‘m clear with Adrian's opinions. Just a little bit confused about the current drafts. The past two architecture drafts seem to be similar either...</p>",
+    "topic": "ietf-118",
+    "dtime": 6006000,
+    "ptime": 6006000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-CATS-20231110-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/cats"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-CATS-20231110-0830"
+		}		
+	]
+}

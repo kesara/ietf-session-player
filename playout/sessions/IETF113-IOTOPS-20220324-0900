@@ -1,0 +1,653 @@
+{
+  "title": "IETF113-IOTOPS-20220324-0900",
+  "filename": "IETF113-IOTOPS-20220324-0900",
+  "start": 0,
+  "end": 7380000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "3TdUUdOwX2k",
+      "start": 0,
+      "end": "7380000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 8000,
+      "ptime": 8000,
+      "author": "Jorge Amodio",
+      "text": "No error message here, audio check ?<br/>"
+    },
+    {
+      "dtime": 57000,
+      "ptime": 57000,
+      "author": "Brendan Moran",
+      "text": "It works for me now<br/>"
+    },
+    {
+      "dtime": 162000,
+      "ptime": 162000,
+      "author": "Richard Li",
+      "text": "the voice is low<br/>"
+    },
+    {
+      "dtime": 167000,
+      "ptime": 167000,
+      "author": "Kiran Makhijani",
+      "text": "@meetecho room audio is very soft for me.<br/>"
+    },
+    {
+      "dtime": 176000,
+      "ptime": 176000,
+      "author": "Jorge Amodio",
+      "text": "same<br/>"
+    },
+    {
+      "dtime": 177000,
+      "ptime": 177000,
+      "author": "Meetecho",
+      "text": "Checking<br/>"
+    },
+    {
+      "dtime": 189000,
+      "ptime": 189000,
+      "author": "Meetecho",
+      "text": "Looks like they're speaking a bit far from the mic though?<br/>"
+    },
+    {
+      "dtime": 208000,
+      "ptime": 208000,
+      "author": "Richard Li",
+      "text": "yes, better now<br/>"
+    },
+    {
+      "dtime": 384000,
+      "ptime": 384000,
+      "author": "Eliot Lear",
+      "text": "ok<br/>"
+    },
+    {
+      "dtime": 792000,
+      "ptime": 792000,
+      "author": "cabo",
+      "text": "(I still have to look up to find out why what our students did somehow doesn't work.)<br/>"
+    },
+    {
+      "dtime": 866000,
+      "ptime": 866000,
+      "author": "Brendan Moran",
+      "text": "Doesn't work for dynamic IPs. :( Opens you to local attacks. :(<br/>"
+    },
+    {
+      "dtime": 893000,
+      "ptime": 893000,
+      "author": "cabo",
+      "text": "Neither is a&nbsp;&nbsp;problem that the students had.<br/>"
+    },
+    {
+      "dtime": 949000,
+      "ptime": 949000,
+      "author": "Brendan Moran",
+      "text": "Simple: I DoS the target resource, and put up another device with the same name. You connect to it, get \"trust on first use\" and then I have you talking to my device and trusting it.<br/>"
+    },
+    {
+      "dtime": 963000,
+      "ptime": 963000,
+      "author": "cabo",
+      "text": "No TOFU needed.<br/>"
+    },
+    {
+      "dtime": 977000,
+      "ptime": 977000,
+      "author": "Brendan Moran",
+      "text": "That was the premise of the previous slide<br/>"
+    },
+    {
+      "dtime": 1005000,
+      "ptime": 1005000,
+      "author": "cabo",
+      "text": "Slide 4 is closer.&nbsp;&nbsp;Now just make it usable.<br/>"
+    },
+    {
+      "dtime": 1020000,
+      "ptime": 1020000,
+      "author": "Brendan Moran",
+      "text": "No slide numbers, can't tell.<br/>"
+    },
+    {
+      "dtime": 1039000,
+      "ptime": 1039000,
+      "author": "Alexey Melnikov",
+      "text": "Current slide is<br/>"
+    },
+    {
+      "dtime": 1043000,
+      "ptime": 1043000,
+      "author": "Alexey Melnikov",
+      "text": "#4<br/>"
+    },
+    {
+      "dtime": 1043000,
+      "ptime": 1043000,
+      "author": "cabo",
+      "text": "Yes, shame on chairs.&nbsp;&nbsp;But you can cheat by looking at meet echo's slide number<br/>"
+    },
+    {
+      "dtime": 1046000,
+      "ptime": 1046000,
+      "author": "Brendan Moran",
+      "text": "thanks<br/>"
+    },
+    {
+      "dtime": 1094000,
+      "ptime": 1094000,
+      "author": "Brendan Moran",
+      "text": "Yes, I agree, #4 is... okay... but it exposes too much information to the vendor.<br/>"
+    },
+    {
+      "dtime": 1126000,
+      "ptime": 1126000,
+      "author": "Brendan Moran",
+      "text": "Same with this one.<br/>"
+    },
+    {
+      "dtime": 1139000,
+      "ptime": 1139000,
+      "author": "cabo",
+      "text": "Note that a user-controlled system can sign the same PK<br/>"
+    },
+    {
+      "dtime": 1269000,
+      "ptime": 1269000,
+      "author": "Brendan Moran",
+      "text": "The propagation system is an attack surface...<br/>"
+    },
+    {
+      "dtime": 1278000,
+      "ptime": 1278000,
+      "author": "cabo",
+      "text": "Yes.<br/>"
+    },
+    {
+      "dtime": 1306000,
+      "ptime": 1306000,
+      "author": "cabo",
+      "text": "We use lets encrypt, which is definitely a non-trivial attack surface.<br/>"
+    },
+    {
+      "dtime": 1374000,
+      "ptime": 1374000,
+      "author": "Brendan Moran",
+      "text": "Is there a mechanism to protect against rogue gateways?<br/>"
+    },
+    {
+      "dtime": 1409000,
+      "ptime": 1409000,
+      "author": "cabo",
+      "text": "I'm not sure about the term \"gateway\", but indeed there are servers involved.<br/>"
+    },
+    {
+      "dtime": 1451000,
+      "ptime": 1451000,
+      "author": "cabo",
+      "text": "No browser mods needed.<br/>"
+    },
+    {
+      "dtime": 1622000,
+      "ptime": 1622000,
+      "author": "Brendan Moran",
+      "text": "No! That lets your NAS impersonate your gaming console, etc!<br/>"
+    },
+    {
+      "dtime": 1745000,
+      "ptime": 1745000,
+      "author": "cabo",
+      "text": "(That = ?)<br/>"
+    },
+    {
+      "dtime": 1759000,
+      "ptime": 1759000,
+      "author": "Brendan Moran",
+      "text": "(Add Root CA to your system)<br/>"
+    },
+    {
+      "dtime": 1777000,
+      "ptime": 1777000,
+      "author": "cabo",
+      "text": "It is an axiom to me that you don't do that.<br/>"
+    },
+    {
+      "dtime": 1815000,
+      "ptime": 1815000,
+      "author": "Brendan Moran",
+      "text": "Even worse, it lets your NAS impersonate your bank. Anything that involves adding a root CA is the wrong answer.<br/>"
+    },
+    {
+      "dtime": 1837000,
+      "ptime": 1837000,
+      "author": "cabo",
+      "text": "Indeed.&nbsp;&nbsp;Don't even think about schemes that require that.<br/>"
+    },
+    {
+      "dtime": 1855000,
+      "ptime": 1855000,
+      "author": "cabo",
+      "text": "It is also unusable, because you have to do this to every client<br/>"
+    },
+    {
+      "dtime": 1949000,
+      "ptime": 1949000,
+      "author": "Christian Veenman",
+      "text": "Kiran you can mute the room as well while doing the presentation<br/>"
+    },
+    {
+      "dtime": 2022000,
+      "ptime": 2022000,
+      "author": "cabo",
+      "text": "(She is echoing back the echo she gets from the room…)<br/>"
+    },
+    {
+      "dtime": 2055000,
+      "ptime": 2055000,
+      "author": "MichaelRichardson",
+      "text": "yes, she needs a headset.<br/>"
+    },
+    {
+      "dtime": 2078000,
+      "ptime": 2078000,
+      "author": "cabo",
+      "text": "(Or a proper audio system.)<br/>"
+    },
+    {
+      "dtime": 2123000,
+      "ptime": 2123000,
+      "author": "MichaelRichardson",
+      "text": "I'm not convinced for all latencies that desktop systems can deal with that, but you keep saying so, so it must be true.<br/>"
+    },
+    {
+      "dtime": 2161000,
+      "ptime": 2161000,
+      "author": "cabo",
+      "text": "(Only proper audio systems can do that.)<br/>"
+    },
+    {
+      "dtime": 2178000,
+      "ptime": 2178000,
+      "author": "Toerless Eckert",
+      "text": "why the huge lag between audio/video. are those not transmitted synchronized by meetecho ?<br/>"
+    },
+    {
+      "dtime": 2191000,
+      "ptime": 2191000,
+      "author": "cabo",
+      "text": "WFM<br/>"
+    },
+    {
+      "dtime": 2222000,
+      "ptime": 2222000,
+      "author": "cabo",
+      "text": "Oh, not Really.<br/>"
+    },
+    {
+      "dtime": 2241000,
+      "ptime": 2241000,
+      "author": "cabo",
+      "text": "Just make the window small enough so you don't see the lag :-)<br/>"
+    },
+    {
+      "dtime": 2274000,
+      "ptime": 2274000,
+      "author": "Toerless Eckert",
+      "text": "maybe the lag is an indicator of the root problem<br/>"
+    },
+    {
+      "dtime": 2291000,
+      "ptime": 2291000,
+      "author": "cabo",
+      "text": "There are two problems here:<br/>"
+    },
+    {
+      "dtime": 2304000,
+      "ptime": 2304000,
+      "author": "Brendan Moran",
+      "text": "beam forming and echo cancellation?<br/>"
+    },
+    {
+      "dtime": 2317000,
+      "ptime": 2317000,
+      "author": "cabo",
+      "text": "The room echo (which is a mild problem), would need to be fixed in the room<br/>"
+    },
+    {
+      "dtime": 2357000,
+      "ptime": 2357000,
+      "author": "cabo",
+      "text": "The presenter echo problem, would need to be fixed at the presenter's side, using a headset or a proper audio system<br/>"
+    },
+    {
+      "dtime": 3426000,
+      "ptime": 3426000,
+      "author": "cabo",
+      "text": "The slides are there.&nbsp;&nbsp;Just resync.<br/>"
+    },
+    {
+      "dtime": 3898000,
+      "ptime": 3898000,
+      "author": "Kiran Makhijani",
+      "text": "Ah! sorry, I did not realize that my audio had echo - just found out from the chat.<br/>"
+    },
+    {
+      "dtime": 4049000,
+      "ptime": 4049000,
+      "author": "cabo",
+      "text": "Yeah, that is the nice thing about echo — the only one who doesn't hear it is who is causing it :-)<br/>"
+    },
+    {
+      "dtime": 4455000,
+      "ptime": 4455000,
+      "author": "Eliot Lear",
+      "text": "Ah!&nbsp;&nbsp;Multi-vendor enforcement mechansms != greater security.&nbsp;&nbsp;got it<br/>"
+    },
+    {
+      "dtime": 4624000,
+      "ptime": 4624000,
+      "author": "Matthew Gillmore",
+      "text": "+1 to that comment,&nbsp;&nbsp;this appears to be an advertisement<br/>"
+    },
+    {
+      "dtime": 4642000,
+      "ptime": 4642000,
+      "author": "Doug Montgomery",
+      "text": "<a href=\"https://www.ndss-symposium.org/ndss-paper/mondrian-comprehensive-inter-domain-network-zoning-architecture/\" rel=\"nofollow\">https://www.ndss-symposium.org/ndss-paper/mondrian-comprehensive-inter-domain-network-zoning-architecture/</a><br/>"
+    },
+    {
+      "dtime": 4806000,
+      "ptime": 4806000,
+      "author": "MichaelRichardson",
+      "text": "so energy is going like enterprise networks: from STP to ECMP.<br/>"
+    },
+    {
+      "dtime": 5066000,
+      "ptime": 5066000,
+      "author": "MichaelRichardson",
+      "text": "if the operator drops a packet, they get electrocuted.<br/>"
+    },
+    {
+      "dtime": 5276000,
+      "ptime": 5276000,
+      "author": "Richard Li",
+      "text": "For low latency, how low is low?<br/>"
+    },
+    {
+      "dtime": 5361000,
+      "ptime": 5361000,
+      "author": "Steffen Fries",
+      "text": "trip messages may be &lt;3ms<br/>"
+    },
+    {
+      "dtime": 5370000,
+      "ptime": 5370000,
+      "author": "Steffen Fries",
+      "text": "at leaset within a substation<br/>"
+    },
+    {
+      "dtime": 5460000,
+      "ptime": 5460000,
+      "author": "Richard Li",
+      "text": "is there any physical distance requirement?<br/>"
+    },
+    {
+      "dtime": 5515000,
+      "ptime": 5515000,
+      "author": "Toerless Eckert",
+      "text": "As said: How would this relate to the architectures/work done by e.g.: naspi.org<br/>"
+    },
+    {
+      "dtime": 5515000,
+      "ptime": 5515000,
+      "author": "Juhamatti Kuusisaari",
+      "text": "3 ms is quite low. commonly real-time action should be &lt; 50 ms<br/>"
+    },
+    {
+      "dtime": 5523000,
+      "ptime": 5523000,
+      "author": "Toerless Eckert",
+      "text": "Sorry, don't know what the EU equivalent is<br/>"
+    },
+    {
+      "dtime": 5568000,
+      "ptime": 5568000,
+      "author": "Steffen Fries",
+      "text": "well, GOOSE specifies the transition time in different classes. Trip would be the highest class to ensure the protection works.<br/>"
+    },
+    {
+      "dtime": 5676000,
+      "ptime": 5676000,
+      "author": "Richard Li",
+      "text": "3 ms is challenging, but still possible depending on the physical distance. 50 ms is easy and should not bring any new&nbsp;&nbsp;problem to solve<br/>"
+    },
+    {
+      "dtime": 5729000,
+      "ptime": 5729000,
+      "author": "Juhamatti Kuusisaari",
+      "text": "3 ms over any TCP sounds a bit challenging in-deed<br/>"
+    },
+    {
+      "dtime": 5752000,
+      "ptime": 5752000,
+      "author": "Toerless Eckert",
+      "text": "substation is only hundreds of meter size. network layer propagation there would be &lt;&lt; 1 msec with non-sucking equipment<br/>"
+    },
+    {
+      "dtime": 5774000,
+      "ptime": 5774000,
+      "author": "Steffen Fries",
+      "text": "oh understood. GOOSE is a layer 2 IEC 61850 protocol<br/>"
+    },
+    {
+      "dtime": 5797000,
+      "ptime": 5797000,
+      "author": "Richard Li",
+      "text": "you lose a packet using TCP, you would triple the latency, so the use of TCP should be avoided<br/>"
+    },
+    {
+      "dtime": 5873000,
+      "ptime": 5873000,
+      "author": "Toerless Eckert",
+      "text": "a lot of the historic latencies in this space is cause of old, software-interrupt driven gateway application-networking designs.<br/>"
+    },
+    {
+      "dtime": 5933000,
+      "ptime": 5933000,
+      "author": "cabo",
+      "text": "The transition is from systems that don't have (enough) memory and therefore needs to be sent information exactly when they want to use it to systems that have a concept of time<br/>"
+    },
+    {
+      "dtime": 5973000,
+      "ptime": 5973000,
+      "author": "Toerless Eckert",
+      "text": "right. not only memory, also the missing notion of time on many client systems, so you need low/zero-jitter networking<br/>"
+    },
+    {
+      "dtime": 6000000,
+      "ptime": 6000000,
+      "author": "Toerless Eckert",
+      "text": "One of the directions i've been pointing out to detnet wrt. to the packet delivery options we need to support<br/>"
+    },
+    {
+      "dtime": 6041000,
+      "ptime": 6041000,
+      "author": "cabo",
+      "text": "(The use of the word \"jitter\" can be an indicator of pre-memory thinking.)<br/>"
+    },
+    {
+      "dtime": 6064000,
+      "ptime": 6064000,
+      "author": "cabo",
+      "text": "Obviously, you need a source of time then.<br/>"
+    },
+    {
+      "dtime": 6124000,
+      "ptime": 6124000,
+      "author": "Richard Li",
+      "text": "does such a grid have a so-grained clock inside?<br/>"
+    },
+    {
+      "dtime": 6184000,
+      "ptime": 6184000,
+      "author": "Brendan Moran",
+      "text": "For industrial equipment, the cost profile is such that atomic clocks are not an impossible solution.<br/>"
+    },
+    {
+      "dtime": 6212000,
+      "ptime": 6212000,
+      "author": "cabo",
+      "text": "PTP also is a great way to do time distribution.<br/>"
+    },
+    {
+      "dtime": 6214000,
+      "ptime": 6214000,
+      "author": "Toerless Eckert",
+      "text": "well, those traditoinal systems had the notion of time in something like the PLC that had synchronous, known latency messaging to the client devices that simply where operating in client/poll mode<br/>"
+    },
+    {
+      "dtime": 6237000,
+      "ptime": 6237000,
+      "author": "Steffen Fries",
+      "text": "yes PTP is one option to address the synchronization<br/>"
+    },
+    {
+      "dtime": 6254000,
+      "ptime": 6254000,
+      "author": "Brendan Moran",
+      "text": "And it costs a lot less than an atomic clock ;)<br/>"
+    },
+    {
+      "dtime": 6258000,
+      "ptime": 6258000,
+      "author": "Steffen Fries",
+      "text": "There is also a PTP power system profile available<br/>"
+    },
+    {
+      "dtime": 6268000,
+      "ptime": 6268000,
+      "author": "Toerless Eckert",
+      "text": "the overhead of operationalizing PTP depends on a lot of factors. Arguably, not needing PTP support in any possible client device might be an attractive design option, but it requires for the IP network to have as good quality characteristics as pre-IP network.<br/>"
+    },
+    {
+      "dtime": 6269000,
+      "ptime": 6269000,
+      "author": "Markus Dahlmanns",
+      "text": "We are discussing the introduction of PTP but also think about the usage of time synchronization via GPS<br/>"
+    },
+    {
+      "dtime": 6302000,
+      "ptime": 6302000,
+      "author": "Markus Dahlmanns",
+      "text": "In a way that every station receives the current time via GPS<br/>"
+    },
+    {
+      "dtime": 6318000,
+      "ptime": 6318000,
+      "author": "Eliot Lear",
+      "text": "I'm already there with this document.<br/>"
+    },
+    {
+      "dtime": 6323000,
+      "ptime": 6323000,
+      "author": "Eliot Lear",
+      "text": "We should adopt ;-)<br/>"
+    },
+    {
+      "dtime": 6325000,
+      "ptime": 6325000,
+      "author": "Toerless Eckert",
+      "text": "I always wonder why people want to shy away from making IP networks work equal or better than those pre-IOT networks in the IoT space.<br/>"
+    },
+    {
+      "dtime": 6374000,
+      "ptime": 6374000,
+      "author": "cabo",
+      "text": "Markus: local time/frequency distribution is the way to go, but you need a resilient architecture for that.<br/>"
+    },
+    {
+      "dtime": 6390000,
+      "ptime": 6390000,
+      "author": "cabo",
+      "text": "People in a certain country may be able to tell you GPS alone is not resilient.<br/>"
+    },
+    {
+      "dtime": 6394000,
+      "ptime": 6394000,
+      "author": "Toerless Eckert",
+      "text": "Markus: the synchrophasor solutions already should have all the solutions for clock synchronization. IETF participants where typing atomic clocks and ethernet chips together with NTP in the 90th ;-)<br/>"
+    },
+    {
+      "dtime": 6792000,
+      "ptime": 6792000,
+      "author": "cabo",
+      "text": "So you add MQTT as your overlay on top of your fragmented IPv4<br/>"
+    },
+    {
+      "dtime": 6820000,
+      "ptime": 6820000,
+      "author": "Toerless Eckert",
+      "text": "Brendan: You should get some light into your face, the video is just bright background and a black shadow in front (which might be you)<br/>"
+    },
+    {
+      "dtime": 6822000,
+      "ptime": 6822000,
+      "author": "Eliot Lear",
+      "text": "Geoff Huston said the same thing about SIP<br/>"
+    },
+    {
+      "dtime": 6838000,
+      "ptime": 6838000,
+      "author": "cabo",
+      "text": "But SIP needs RTP<br/>"
+    },
+    {
+      "dtime": 6896000,
+      "ptime": 6896000,
+      "author": "Brendan Moran",
+      "text": "Sorry Toerless I have a huge backlight issue here.<br/>"
+    },
+    {
+      "dtime": 7028000,
+      "ptime": 7028000,
+      "author": "Eliot Lear",
+      "text": "But the \"why\" is a bit of a next step.&nbsp;&nbsp;Different people put things together differently<br/>"
+    },
+    {
+      "dtime": 7090000,
+      "ptime": 7090000,
+      "author": "cabo",
+      "text": "Brendan: You have a frontal lightning issue, actually.&nbsp;&nbsp;Get a couple of ring lights.<br/>"
+    },
+    {
+      "dtime": 7117000,
+      "ptime": 7117000,
+      "author": "cabo",
+      "text": ":-)<br/>"
+    },
+    {
+      "dtime": 7313000,
+      "ptime": 7313000,
+      "author": "cabo",
+      "text": "MUD ➔ DAI-SNAC…<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF113-IOTOPS-20220324-0900"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/113/session/iotops"
+    }
+  ],
+  "start_datetime": "2022-03-24T09:00:00Z"
+}

@@ -1,0 +1,973 @@
+
+{
+	"title": "IETF118-MOQ-20231109-1600",
+	"filename": "IETF118-MOQ-20231109-1600",
+	"start": 0,
+	"end": 5477000,
+	"start_datetime": "2023-11-09T15:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "DsSAd-iCnuU",
+    "start": 0,
+    "end": "5477000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Thanks to Ali for scribing.</p>",
+    "topic": "ietf-118",
+    "dtime": 175000,
+    "ptime": 175000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> \"How many codecs can we use back to back?\" </p>\n<p><strong>All of them</strong>, Katie. <strong>All of them.</strong></p>",
+    "topic": "ietf-118",
+    "dtime": 260000,
+    "ptime": 260000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>+1 for AChat</p>",
+    "topic": "ietf-118",
+    "dtime": 706000,
+    "ptime": 706000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Maybe when you rewrite it in Rust it'll have to be called something different ;)</p>",
+    "topic": "ietf-118",
+    "dtime": 830000,
+    "ptime": 830000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"71\">Cullen Jennings</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100578\">said</a>:</p>\n<blockquote>\n<p>+1 for AChat</p>\n</blockquote>\n<p>Somewhat seriously, if we could leave AChat or the clock implementations up and running on the Internet, that would probably be helpful for students, and for implementers who don't work for one of the companies participating in this working group.</p>",
+    "topic": "ietf-118",
+    "dtime": 924000,
+    "ptime": 924000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p><a href=\"https://relay.quic.video/clock\">https://relay.quic.video/clock</a> track=now</p>",
+    "topic": "ietf-118",
+    "dtime": 992000,
+    "ptime": 992000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>it'll be running for a while, same with <a href=\"https://quic.video/watch/bbb\">https://quic.video/watch/bbb</a></p>",
+    "topic": "ietf-118",
+    "dtime": 1076000,
+    "ptime": 1076000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>great work folks</p>",
+    "topic": "ietf-118",
+    "dtime": 1108000,
+    "ptime": 1108000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Awesome!</p>",
+    "topic": "ietf-118",
+    "dtime": 1118000,
+    "ptime": 1118000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Is it crazy to let multiple publishers publish to the same track ID and have them all be forwarded even if they aren't publishing the same content?</p>",
+    "topic": "ietf-118",
+    "dtime": 1543000,
+    "ptime": 1543000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I believe we currently have an assumption that (track, group, object) implies unique content</p>",
+    "topic": "ietf-118",
+    "dtime": 1593000,
+    "ptime": 1593000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>It is a bit crazy - what would be better is having both publishers push different identifiers and something in application link them  together.</p>",
+    "topic": "ietf-118",
+    "dtime": 1599000,
+    "ptime": 1599000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Could you not change it to (track, publisher, group, object) implying unique content?   That's somewhat similar to what Cullen is saying by \"allow it\".</p>",
+    "topic": "ietf-118",
+    "dtime": 1761000,
+    "ptime": 1761000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>If they're separate namespaces, but known to be linked then a relay system can then make better assertions of separation and path diversity, right? If two competing publishers are in same namespace, you might not really know?</p>",
+    "topic": "ietf-118",
+    "dtime": 1765000,
+    "ptime": 1765000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>my mental model is that ANNOUNCE is a single broadcast, so two publishers announcing the same namespace can produce bitwise identical content</p>",
+    "topic": "ietf-118",
+    "dtime": 1869000,
+    "ptime": 1869000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>Note that there are two questions here</p>",
+    "topic": "ietf-118",
+    "dtime": 1884000,
+    "ptime": 1884000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>One is what expectations do publishers have wrt announce, another is what does the relay actually do</p>",
+    "topic": "ietf-118",
+    "dtime": 1901000,
+    "ptime": 1901000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Mo, I locked the queue.</p>",
+    "topic": "ietf-118",
+    "dtime": 1901000,
+    "ptime": 1901000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but it would be a mistake to allow both announces to produce different content</p>",
+    "topic": "ietf-118",
+    "dtime": 1904000,
+    "ptime": 1904000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>because then a relay MUST subscribe to all of them</p>",
+    "topic": "ietf-118",
+    "dtime": 1917000,
+    "ptime": 1917000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>does not have to be bitwise identical.</p>",
+    "topic": "ietf-118",
+    "dtime": 1918000,
+    "ptime": 1918000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>We need to specify the first one, but the second one is fine to be underdefined</p>",
+    "topic": "ietf-118",
+    "dtime": 1927000,
+    "ptime": 1927000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Cullen is assuming that if two publishers publish object 25 in track foo, then the binary value of these object is thesame. Can we make that hypothesis</p>",
+    "topic": "ietf-118",
+    "dtime": 1935000,
+    "ptime": 1935000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Sounds like a use case specific thing what degree of difference is acceptable if it is bitwise identical or not?</p>",
+    "topic": "ietf-118",
+    "dtime": 1984000,
+    "ptime": 1984000
+  },
+  {
+    "author": "Jordi Cenzano",
+    "text": "<blockquote>\n<p>does not have to be bitwise identical.</p>\n</blockquote>\n<p>YES. I'm with Cullen here</p>\n<p>we can publish 2 video GOPs (same objects) from 2 encoders that are totally interchangable / playable, but NOT binary identical</p>",
+    "topic": "ietf-118",
+    "dtime": 1993000,
+    "ptime": 1993000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>I disagree with Cullen's dismissal of the deduplication complexity. I think that relies on far too many assumptions holding true.</p>",
+    "topic": "ietf-118",
+    "dtime": 1998000,
+    "ptime": 1998000
+  },
+  {
+    "author": "Jordi Cenzano",
+    "text": "<p>BTW this is (more or less) how AWS output locking works<br>\n<a href=\"https://docs.aws.amazon.com/elemental-live/latest/ug/output-locking.html\">https://docs.aws.amazon.com/elemental-live/latest/ug/output-locking.html</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2054000,
+    "ptime": 2054000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>yeah, I don't think we need to require things to be binary identical</p>",
+    "topic": "ietf-118",
+    "dtime": 2079000,
+    "ptime": 2079000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>Mike - what sort of thing are you thinking of ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2088000,
+    "ptime": 2088000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1040\">Kirill Pugin</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100649\">said</a>:</p>\n<blockquote>\n<p>yeah, I don't think we need to require things to be binary identical</p>\n</blockquote>\n<p>even if wanted to, there is no guarantee.</p>",
+    "topic": "ietf-118",
+    "dtime": 2120000,
+    "ptime": 2120000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>@Ali agree</p>",
+    "topic": "ietf-118",
+    "dtime": 2136000,
+    "ptime": 2136000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>Mainly issues with control messages and content timing out of the cache</p>",
+    "topic": "ietf-118",
+    "dtime": 2141000,
+    "ptime": 2141000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>For conferencing use cases, what you describe may be true, but not necessarily in the general case</p>",
+    "topic": "ietf-118",
+    "dtime": 2163000,
+    "ptime": 2163000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Do we need a concept of \"almost equivalent\" in which the  streams can be picked at the GOB boundary?</p>",
+    "topic": "ietf-118",
+    "dtime": 2206000,
+    "ptime": 2206000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>totally fair that I am not thinking enough about the other cases. I was thinking all the caches were controlled by a TTL and stuff got removed a after the TTL expired</p>",
+    "topic": "ietf-118",
+    "dtime": 2217000,
+    "ptime": 2217000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"919\">@Will Law</span> - Hi, Will, I'm thinking that we may still need to say something about multiple announcers in either Use Cases or Requirements. Does that sound right?</p>",
+    "topic": "ietf-118",
+    "dtime": 2220000,
+    "ptime": 2220000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>Let's avoid saying \"binary identical\". What we want is media alignment - the segment of media is continuous with what was transmitted previous and aligns with what will come next.</p>",
+    "topic": "ietf-118",
+    "dtime": 2226000,
+    "ptime": 2226000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>The queue is closed, but what I'd propose is an option where if we allow multiple publishers for a namespace, the first publisher to auth needs to denote the mode the relay should use to accept later publishers for the same namespace</p>",
+    "topic": "ietf-118",
+    "dtime": 2244000,
+    "ptime": 2244000
+  },
+  {
+    "author": "Will Law",
+    "text": "<p>@Spencer-  yes. Support for redundant ingest should be a core requirement.</p>",
+    "topic": "ietf-118",
+    "dtime": 2262000,
+    "ptime": 2262000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I thought I've filed the issue for the token, but I can't</p>",
+    "topic": "ietf-118",
+    "dtime": 2265000,
+    "ptime": 2265000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah I constantly have to deal with the case where my BBB publisher crashes and tries to announce the same namespace again</p>",
+    "topic": "ietf-118",
+    "dtime": 2265000,
+    "ptime": 2265000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but it's a brand new broadcast, you can't treat it as an alternate source of the previous broadcast</p>",
+    "topic": "ietf-118",
+    "dtime": 2292000,
+    "ptime": 2292000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Ted, we are not defeated roman generals. We should avoid bloody metaphors using swords...</p>",
+    "topic": "ietf-118",
+    "dtime": 2300000,
+    "ptime": 2300000
+  },
+  {
+    "author": "Cullen Jennings",
+    "text": "<p>That makes sense - it fits with the general direction of explicit signalling.</p>",
+    "topic": "ietf-118",
+    "dtime": 2304000,
+    "ptime": 2304000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>The original problem the token was trying to solve was \"you sub to a track, and then you sub to the track named the same a day later, how do you know if it's the same track\"</p>",
+    "topic": "ietf-118",
+    "dtime": 2306000,
+    "ptime": 2306000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>And without the first publisher saying \"there may be more later\" then later publishers would just be rejected with an error</p>",
+    "topic": "ietf-118",
+    "dtime": 2311000,
+    "ptime": 2311000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>Agree with Will</p>",
+    "topic": "ietf-118",
+    "dtime": 2312000,
+    "ptime": 2312000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>James: I think the important thing is whether objects <em>within</em> a group from different publishers can be mixed. I would expect that they couldn't (because the reference frames wouldn't be the same).</p>",
+    "topic": "ietf-118",
+    "dtime": 2315000,
+    "ptime": 2315000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>my new publisher instance starts back at group=0, so we certainly need a way to say please DON'T combine me with the previous announce</p>",
+    "topic": "ietf-118",
+    "dtime": 2376000,
+    "ptime": 2376000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>I think \"don't combine\" should maybe just be the default</p>",
+    "topic": "ietf-118",
+    "dtime": 2416000,
+    "ptime": 2416000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>@Christian thanks for the reminder.</p>",
+    "topic": "ietf-118",
+    "dtime": 2422000,
+    "ptime": 2422000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"426\">Jonathan Lennox</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100681\">said</a>:</p>\n<blockquote>\n<p>James: I think the important thing is whether objects <em>within</em> a group from different publishers can be mixed. I would expect that they couldn't (because the reference frames wouldn't be the same).</p>\n</blockquote>\n<p>If two separate encoders have same contribution and are sync'd to same clock, why not? If they're transmitting completely different stuff, yeah sure.</p>",
+    "topic": "ietf-118",
+    "dtime": 2426000,
+    "ptime": 2426000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Slightly different encoder implementations?</p>",
+    "topic": "ietf-118",
+    "dtime": 2447000,
+    "ptime": 2447000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>Or slightly different decisions about available bandwidth?</p>",
+    "topic": "ietf-118",
+    "dtime": 2459000,
+    "ptime": 2459000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>My assumption from the \"redundant encoder during big event\" usually is 2/4x same/similar enough encoding/connectivity etc. I agree the moment something is different in the output it gets murky.</p>",
+    "topic": "ietf-118",
+    "dtime": 2562000,
+    "ptime": 2562000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>What state does ANNOUNCE create on the sender?</p>",
+    "topic": "ietf-118",
+    "dtime": 2624000,
+    "ptime": 2624000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I'd expect \"similar enough encoding\" would mean that GOPs from the two encoders would be effectively interchangeable, but I wouldn't expect mixing-and-matching frames within a GOP to work well.</p>",
+    "topic": "ietf-118",
+    "dtime": 2624000,
+    "ptime": 2624000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>same track, same group, same object, different content = cache poison, right?</p>",
+    "topic": "ietf-118",
+    "dtime": 2655000,
+    "ptime": 2655000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> thats more or less what mpeg dash part 9 (redundant encoding and packaging spec) says.</p>",
+    "topic": "ietf-118",
+    "dtime": 2663000,
+    "ptime": 2663000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>why transport needs to \"worry\" about wither Object 1 from two publishers is binary identical or not? Isn't that application level problem?</p>",
+    "topic": "ietf-118",
+    "dtime": 2665000,
+    "ptime": 2665000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah that's why I think we need a resumption token, an explict \"I am the same encoder\" signal</p>",
+    "topic": "ietf-118",
+    "dtime": 2710000,
+    "ptime": 2710000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<ul>\n<li>whether</li>\n</ul>",
+    "topic": "ietf-118",
+    "dtime": 2710000,
+    "ptime": 2710000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>it's really just to avoid shooting yourself in the foot and accidentally poisoning the cache</p>",
+    "topic": "ietf-118",
+    "dtime": 2765000,
+    "ptime": 2765000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>sure, but you don't need objects be binary identical for redundancy to work</p>",
+    "topic": "ietf-118",
+    "dtime": 2822000,
+    "ptime": 2822000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>so, how and what going to protect app developers from \"shooting themselves in a foot\"?</p>",
+    "topic": "ietf-118",
+    "dtime": 2851000,
+    "ptime": 2851000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>well you're making a lot of assumptions about the encoder being configured with the exact same settings and sequence numbers</p>",
+    "topic": "ietf-118",
+    "dtime": 2855000,
+    "ptime": 2855000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>ex. the new instance starts at group=0 while the old instance was at group=69 when it crashed</p>",
+    "topic": "ietf-118",
+    "dtime": 2888000,
+    "ptime": 2888000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>if the old instance was smart enough to flush the current state, it can also be smart enough to flush the resumption token</p>",
+    "topic": "ietf-118",
+    "dtime": 2919000,
+    "ptime": 2919000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>I am not making these assumptions, I am saying it's not transport protocol, imho</p>",
+    "topic": "ietf-118",
+    "dtime": 2925000,
+    "ptime": 2925000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<blockquote>\n<p>ex. the new instance starts at group=0 while the old instance was at group=69 when it crashed</p>\n</blockquote>\n<p>so you saying relay should return \"last announcer published group 69, object 101\"?</p>",
+    "topic": "ietf-118",
+    "dtime": 2987000,
+    "ptime": 2987000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>+1 to Alan, using existing standards is useful</p>",
+    "topic": "ietf-118",
+    "dtime": 3020000,
+    "ptime": 3020000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>ugh: sorry, \"last publisher\"</p>",
+    "topic": "ietf-118",
+    "dtime": 3037000,
+    "ptime": 3037000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>It seems like we conflating transport and media somewhat here, and that it might be more clear to focus on what the relay's deduping behavior is.  Once that's clear, the publishers can decide what they want to make the relays do (and can choose to do weird things).  And it seems like the crux of the problem is that deduping just by (track, group, object) might not be sufficient for all scenarios.  Maybe we need something more in the mix that allows publishers to indicate when it wants deduping and when it doesn't.</p>",
+    "topic": "ietf-118",
+    "dtime": 3132000,
+    "ptime": 3132000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Luke, did you join to talk to the sequence number removal?</p>",
+    "topic": "ietf-118",
+    "dtime": 3196000,
+    "ptime": 3196000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah</p>",
+    "topic": "ietf-118",
+    "dtime": 3213000,
+    "ptime": 3213000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but it's fine we can move on</p>",
+    "topic": "ietf-118",
+    "dtime": 3224000,
+    "ptime": 3224000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Okay, thanks.  I've locked the queue after you.</p>",
+    "topic": "ietf-118",
+    "dtime": 3235000,
+    "ptime": 3235000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>I will say that in WebRTC the SDP for large conferences gets quite large, and adding/removing a single stream a pretty common operation, and while I've used actual gzip compression to turn those into deltas, starting from native deltas avoids the need to parse the whole thing on every change.</p>",
+    "topic": "ietf-118",
+    "dtime": 3458000,
+    "ptime": 3458000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>the other nice things with deltas is that it tells you exactly what changed</p>",
+    "topic": "ietf-118",
+    "dtime": 3478000,
+    "ptime": 3478000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>otherwise you have to do a diff between two catalogs just to figure out a new track was added</p>",
+    "topic": "ietf-118",
+    "dtime": 3491000,
+    "ptime": 3491000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>Yes, it's work on both ends.</p>",
+    "topic": "ietf-118",
+    "dtime": 3504000,
+    "ptime": 3504000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>Mic: I think the key system specific fields should be replaced with some more open fields that are agnostic. Also is this using the DASH list of UUIDs for key system ident? Should that be in IANA registry?</p>",
+    "topic": "ietf-118",
+    "dtime": 3508000,
+    "ptime": 3508000
+  },
+  {
+    "author": "James Gruessing",
+    "text": "<p>Thanks, Ted.</p>",
+    "topic": "ietf-118",
+    "dtime": 3550000,
+    "ptime": 3550000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I am going to close the queue soon on this, so if you plan on speaking, please join now.</p>",
+    "topic": "ietf-118",
+    "dtime": 3695000,
+    "ptime": 3695000
+  },
+  {
+    "author": "Timothy Terriberry",
+    "text": "<p>The counter-argument is that layering gzip on top of SDP is 20 lines of code, but I can only do that because WebRTC doesn't define how the SDP gets exchanged.</p>",
+    "topic": "ietf-118",
+    "dtime": 3724000,
+    "ptime": 3724000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>If you're signaling large RTC conferences using SDP, you're doing it wrong :).  Every system I've seen for large RTC conferences uses deltas.</p>",
+    "topic": "ietf-118",
+    "dtime": 3732000,
+    "ptime": 3732000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>@tim there was this one for SDP long long ago, but ... <a href=\"https://datatracker.ietf.org/doc/draft-roach-mmusic-pof-pan/02/\">https://datatracker.ietf.org/doc/draft-roach-mmusic-pof-pan/02/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 3869000,
+    "ptime": 3869000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I think that example is wrong :p</p>",
+    "topic": "ietf-118",
+    "dtime": 3911000,
+    "ptime": 3911000
+  },
+  {
+    "author": "Mike English",
+    "text": "<p>&lt;pre&gt;&lt;/pre&gt;</p>",
+    "topic": "ietf-118",
+    "dtime": 3959000,
+    "ptime": 3959000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>and full track name is tuple (namespace, track), right?</p>",
+    "topic": "ietf-118",
+    "dtime": 3992000,
+    "ptime": 3992000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah it's a tuple so this is trivial</p>",
+    "topic": "ietf-118",
+    "dtime": 4011000,
+    "ptime": 4011000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>what Cullen just said</p>",
+    "topic": "ietf-118",
+    "dtime": 4015000,
+    "ptime": 4015000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>that is not how DASH works to be honest, Luke!</p>",
+    "topic": "ietf-118",
+    "dtime": 4105000,
+    "ptime": 4105000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>heh I have no idea how DASH works</p>",
+    "topic": "ietf-118",
+    "dtime": 4159000,
+    "ptime": 4159000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>hls 4 lyfe</p>",
+    "topic": "ietf-118",
+    "dtime": 4163000,
+    "ptime": 4163000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>+1 to what Luke just said: bitrates can very a lot when the network conditions of the publisher varies.  So being able to update that matters a lot.</p>",
+    "topic": "ietf-118",
+    "dtime": 4189000,
+    "ptime": 4189000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>I feel sorry for you, Luke :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4218000,
+    "ptime": 4218000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>The conversation at the mike about having lots of bit rates is pointing to a larger question - how many things that are relevant to transport layers are also of interest here?</p>",
+    "topic": "ietf-118",
+    "dtime": 4249000,
+    "ptime": 4249000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>my personal opinion is that ABR should be based on max bitrate, otherwise you can switch up to 4k during a VBR black screen, but get completely blasted when a complex scene starts</p>",
+    "topic": "ietf-118",
+    "dtime": 4331000,
+    "ptime": 4331000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>type of bitrate is actually really depend on what ABR algo uses</p>",
+    "topic": "ietf-118",
+    "dtime": 4369000,
+    "ptime": 4369000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>but yeah the worst part about HLS is that you have to have to set this value once</p>",
+    "topic": "ietf-118",
+    "dtime": 4371000,
+    "ptime": 4371000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1718\">Peter Thatcher</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100754\">said</a>:</p>\n<blockquote>\n<p>It seems like we conflating transport and media somewhat here, and that it might be more clear to focus on what the relay's deduping behavior is.  Once that's clear, the publishers can decide what they want to make the relays do (and can choose to do weird things).  And it seems like the crux of the problem is that deduping just by (track, group, object) might not be sufficient for all scenarios.  Maybe we need something more in the mix that allows publishers to indicate when it wants deduping and when it doesn't.</p>\n</blockquote>\n<p>It's pretty easy to conflate transport and media when so many of us are coming out of DASH/HLS over TCP, so applications HAD to care about such things, and we're trying to decide how much applications can trust transports (specifically, how much they can trust QUIC).</p>",
+    "topic": "ietf-118",
+    "dtime": 4389000,
+    "ptime": 4389000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>+1 Mo</p>",
+    "topic": "ietf-118",
+    "dtime": 4461000,
+    "ptime": 4461000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"657\">Luke Curley</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100806\">said</a>:</p>\n<blockquote>\n<p>my personal opinion is that ABR should be based on max bitrate, otherwise you can switch up to 4k during a VBR black screen, but get completely blasted when a complex scene starts</p>\n</blockquote>\n<p>that is quite suboptimal if your max/peak bitrate is used quite seldomly</p>",
+    "topic": "ietf-118",
+    "dtime": 4462000,
+    "ptime": 4462000
+  },
+  {
+    "author": "Peter Thatcher",
+    "text": "<p>Also +1 to Mo.</p>",
+    "topic": "ietf-118",
+    "dtime": 4478000,
+    "ptime": 4478000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>yeah Ali but this is why Twitch was forced to use CBR</p>",
+    "topic": "ietf-118",
+    "dtime": 4484000,
+    "ptime": 4484000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>in order to use VBR we would need to reserve bandwidth based on the theoretical max</p>",
+    "topic": "ietf-118",
+    "dtime": 4511000,
+    "ptime": 4511000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>if you have a smart client, you can make wonders. If not, you use CBR :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4514000,
+    "ptime": 4514000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"657\">Luke Curley</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100818\">said</a>:</p>\n<blockquote>\n<p>in order to use VBR we would need to reserve bandwidth based on the theoretical max</p>\n</blockquote>\n<p>you don't need to. You just need to know about it to account for it,</p>",
+    "topic": "ietf-118",
+    "dtime": 4540000,
+    "ptime": 4540000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>Spend the last few minutes deciding how many interims we need before Brisbaine? <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4544000,
+    "ptime": 4544000
+  },
+  {
+    "author": "Suhas Nandakumar",
+    "text": "<p>agree with ALi</p>",
+    "topic": "ietf-118",
+    "dtime": 4567000,
+    "ptime": 4567000
+  },
+  {
+    "author": "Kirill Pugin",
+    "text": "<p>wallclock time of what?</p>",
+    "topic": "ietf-118",
+    "dtime": 4628000,
+    "ptime": 4628000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>as in, if you want to switch up to 1080p, the player should make sure you can support the theoretical max bitrate (ex. 6Mb/s), not the current bitrate (1Mb/s due to black screen)</p>",
+    "topic": "ietf-118",
+    "dtime": 4630000,
+    "ptime": 4630000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>you only need to know (mostly) the bitrate for the upcoming segment (not the max). Otherwise, you won't upshift most of the time.</p>",
+    "topic": "ietf-118",
+    "dtime": 4666000,
+    "ptime": 4666000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>For your night time reading: <a href=\"https://ieeexplore.ieee.org/document/9772091/\">https://ieeexplore.ieee.org/document/9772091/</a></p>",
+    "topic": "ietf-118",
+    "dtime": 4702000,
+    "ptime": 4702000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>again Ali the problem is that if you do that with VBR, then most viewers will buffer when the black screen ends</p>",
+    "topic": "ietf-118",
+    "dtime": 4703000,
+    "ptime": 4703000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>with CBR sure</p>",
+    "topic": "ietf-118",
+    "dtime": 4714000,
+    "ptime": 4714000
+  },
+  {
+    "author": "Ali Begen",
+    "text": "<p>I can share the pdf with anyone who wants to read...</p>",
+    "topic": "ietf-118",
+    "dtime": 4773000,
+    "ptime": 4773000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>We will also need at some point figure out which of those bitrates we need to put in the transport since we may need some form of that for server-side ABR</p>",
+    "topic": "ietf-118",
+    "dtime": 4943000,
+    "ptime": 4943000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"117\">Spencer Dawkins</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100822\">said</a>:</p>\n<blockquote>\n<p>Spend the last few minutes deciding how many interims we need before Brisbaine? <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>\n</blockquote>\n<p>That was not intended as sarcasm - my bad ... </p>\n<p>We've had two interims between IETF weeks before, and after the amount of progress we're making, we could jalmost certainly ustify one, and probably two (possibly scheduled after the first one).</p>",
+    "topic": "ietf-118",
+    "dtime": 4998000,
+    "ptime": 4998000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>I'll note that every single implementer tripped over this</p>",
+    "topic": "ietf-118",
+    "dtime": 5034000,
+    "ptime": 5034000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Hi Spencer, sorry for misinterpreting your sunglass icon.  We do plan on talking about it at the very end, but for one in particular.</p>",
+    "topic": "ietf-118",
+    "dtime": 5049000,
+    "ptime": 5049000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>If people dislike repurposing lowest bit of the type, we can have a block for varint params, and then a block for string params</p>",
+    "topic": "ietf-118",
+    "dtime": 5158000,
+    "ptime": 5158000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>+1 on length mismatch as error</p>",
+    "topic": "ietf-118",
+    "dtime": 5176000,
+    "ptime": 5176000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"40\">Ted Hardie</span> <a href=\"#narrow/stream/304-moq/topic/ietf-118/near/100837\">said</a>:</p>\n<blockquote>\n<p>Hi Spencer, sorry for misinterpreting your sunglass icon.  We do plan on talking about it at the very end, but for one in particular.</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"40\">@Ted Hardie</span> - excellent, and I trust you and <span class=\"user-mention\" data-user-id=\"1495\">@Alan Frindell</span> to Do The Right Thing. Epecially if we schedule the first in time to schedule a second interim if we need it. </p>\n<p>And people have misunderstood what I was saying before. <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 5214000,
+    "ptime": 5214000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>I'd say error for any encoding error for a known parameter.  (Same thing if a string is invalid, or a varint is out of its valid range.)</p>",
+    "topic": "ietf-118",
+    "dtime": 5237000,
+    "ptime": 5237000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I like explicit</p>",
+    "topic": "ietf-118",
+    "dtime": 5254000,
+    "ptime": 5254000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"919\">@Will Law</span> isn't wrong about 2 days plus interop versus 90 minutes plus interop ...</p>",
+    "topic": "ietf-118",
+    "dtime": 5371000,
+    "ptime": 5371000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>Yeah! Seattle, I might join...</p>",
+    "topic": "ietf-118",
+    "dtime": 5381000,
+    "ptime": 5381000
+  },
+  {
+    "author": "Alan Frindell",
+    "text": "<p>+1 Seattle :D</p>",
+    "topic": "ietf-118",
+    "dtime": 5399000,
+    "ptime": 5399000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>I'd like an in-person interim</p>",
+    "topic": "ietf-118",
+    "dtime": 5405000,
+    "ptime": 5405000
+  },
+  {
+    "author": "Luke Curley",
+    "text": "<p>my wife is due during Brisbane :)</p>",
+    "topic": "ietf-118",
+    "dtime": 5421000,
+    "ptime": 5421000
+  },
+  {
+    "author": "Victor Vasiliev",
+    "text": "<p>I am more likely to attend an in-person interim than Brisbane, fwiw</p>",
+    "topic": "ietf-118",
+    "dtime": 5429000,
+    "ptime": 5429000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>All IETF meetings should be in Seattle, or maybe Vancouver..</p>",
+    "topic": "ietf-118",
+    "dtime": 5443000,
+    "ptime": 5443000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-MOQ-20231109-1600"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/moq"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-MOQ-20231109-1600"
+		}		
+	]
+}

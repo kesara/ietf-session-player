@@ -1,0 +1,256 @@
+{
+  "title": "IETF112-BESS-20211109-1200",
+  "filename": "IETF112-BESS-20211109-1200",
+  "start": 0,
+  "end": 7557000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "GJYTV-bNcWs",
+      "start": 0,
+      "end": "7557000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 344000,
+      "ptime": 344000,
+      "author": "Wim Henderickx",
+      "text": "for me Stephane's voice is breaking up. Same issue for others?<br/>"
+    },
+    {
+      "dtime": 352000,
+      "ptime": 352000,
+      "author": "Jorge Rabadan",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 352000,
+      "ptime": 352000,
+      "author": "Luc André Burdet",
+      "text": "yes<br/>"
+    },
+    {
+      "dtime": 353000,
+      "ptime": 353000,
+      "author": "Jeffrey Haas",
+      "text": "same.<br/>"
+    },
+    {
+      "dtime": 363000,
+      "ptime": 363000,
+      "author": "Yuya Kawakami",
+      "text": "same<br/>"
+    },
+    {
+      "dtime": 363000,
+      "ptime": 363000,
+      "author": "Les Ginsberg",
+      "text": "same<br/>"
+    },
+    {
+      "dtime": 364000,
+      "ptime": 364000,
+      "author": "Martin Vigoureux",
+      "text": "same problem<br/>"
+    },
+    {
+      "dtime": 402000,
+      "ptime": 402000,
+      "author": "Linda Dunbar",
+      "text": "how about draft-ietf-bess-bgp-sdwan-usage-04?<br/>"
+    },
+    {
+      "dtime": 404000,
+      "ptime": 404000,
+      "author": "Cheng Li",
+      "text": "same<br/>"
+    },
+    {
+      "dtime": 423000,
+      "ptime": 423000,
+      "author": "Andrew Alston",
+      "text": "yeah seem to have lost his audio<br/>"
+    },
+    {
+      "dtime": 486000,
+      "ptime": 486000,
+      "author": "Wim Henderickx",
+      "text": "seems we need to get all chairs a better BB connection :-)<br/>"
+    },
+    {
+      "dtime": 513000,
+      "ptime": 513000,
+      "author": "Jeffrey Haas",
+      "text": "Please let BFD WG know when you might be ready for review on evpn-bfd.<br/>"
+    },
+    {
+      "dtime": 1085000,
+      "ptime": 1085000,
+      "author": "Stephane Litkowski",
+      "text": "We'll probably do soon Jeff<br/>"
+    },
+    {
+      "dtime": 1114000,
+      "ptime": 1114000,
+      "author": "Jeffrey Haas",
+      "text": "Thanks, Stephane.<br/>"
+    },
+    {
+      "dtime": 3073000,
+      "ptime": 3073000,
+      "author": "Tony Przygienda",
+      "text": "question comes to mind, why is the L2 domain not aligned with an AS and what happens if they intersect (i.e. are not congruent)<br/>"
+    },
+    {
+      "dtime": 3929000,
+      "ptime": 3929000,
+      "author": "Jorge Rabadan",
+      "text": "@Tony, same thing as in the evpn-ipvpn-interworking draft, the domain-id may or may not contain/match the ASN. Both things are independent, since gateways may or may not be ASBRs<br/>"
+    },
+    {
+      "dtime": 3991000,
+      "ptime": 3991000,
+      "author": "Tony Przygienda",
+      "text": "unfortunately they're not since AFAIS both show up in path selection&nbsp;&nbsp;so I wonder whether the draft explains the operational impact (sorry, not up to date on the draft, Jorge)<br/>"
+    },
+    {
+      "dtime": 4075000,
+      "ptime": 4075000,
+      "author": "Jorge Rabadan",
+      "text": "yes, d-path modifies best path selection as described in the draft... check it out please and let us know if you have comments. Thanks!<br/>"
+    },
+    {
+      "dtime": 4131000,
+      "ptime": 4131000,
+      "author": "Tony Przygienda",
+      "text": "ack, will look over but it's more to the IDR folks to check that profoundly ... lightly mucking around with BGP path slection ended up always having @ least unintended consequences operationally and almost never beneficial ones ;-)<br/>"
+    },
+    {
+      "dtime": 4248000,
+      "ptime": 4248000,
+      "author": "Jorge Rabadan",
+      "text": "the d-path attribute is being looked at by IDR-BESS chairs (in the context of the evpn-ipvpn-interworking draft)... this draft just piggybacks on it..<br/>"
+    },
+    {
+      "dtime": 4318000,
+      "ptime": 4318000,
+      "author": "Jeffrey Haas",
+      "text": "Some of the chairs hadn't gotten to that review.&nbsp;&nbsp;Thanks for bringing this to our attention for specific review. :-)<br/>"
+    },
+    {
+      "dtime": 4328000,
+      "ptime": 4328000,
+      "author": "Tony Przygienda",
+      "text": "ack, thanks ... the culprit of re-inventing L3VPN in EVPN ;-)<br/>"
+    },
+    {
+      "dtime": 4500000,
+      "ptime": 4500000,
+      "author": "Jorge Rabadan",
+      "text": "@Jeff, yes, please... it would be great. draft-ietf-evpn-ipvpn-interworking and the d-path has multiple&nbsp;&nbsp;implementation already, so it should move forward as soon as possible...<br/>"
+    },
+    {
+      "dtime": 4510000,
+      "ptime": 4510000,
+      "author": "Jorge Rabadan",
+      "text": "@Tony - totally :-)<br/>"
+    },
+    {
+      "dtime": 4545000,
+      "ptime": 4545000,
+      "author": "Jeffrey Haas",
+      "text": "Implementations are good.&nbsp;&nbsp;Just trying to avoid similar issue when vpls tried to make changes to route selection.<br/>"
+    },
+    {
+      "dtime": 4586000,
+      "ptime": 4586000,
+      "author": "Jorge Rabadan",
+      "text": "sure, let us know<br/>"
+    },
+    {
+      "dtime": 5728000,
+      "ptime": 5728000,
+      "author": "Tony Przygienda",
+      "text": "we weren't aware of that ;-) fresh meat I guess. thanks, Jorge, we'll check ...<br/>"
+    },
+    {
+      "dtime": 5798000,
+      "ptime": 5798000,
+      "author": "Tony Przygienda",
+      "text": "I was thinking about grabing a new ExtComm for the work but thought I'd be shouted down due to scale concerns on type-2 ;-)<br/>"
+    },
+    {
+      "dtime": 5877000,
+      "ptime": 5877000,
+      "author": "Jorge Rabadan",
+      "text": "sure... check out RFC9014, and the registry opened. It is supposed to deal with ARP/ND things... and we use it along with MAC mobility ext community too<br/>"
+    },
+    {
+      "dtime": 5982000,
+      "ptime": 5982000,
+      "author": "Jeffrey Haas",
+      "text": "9014 doesn't seem to have any extcomms<br/>"
+    },
+    {
+      "dtime": 6034000,
+      "ptime": 6034000,
+      "author": "Jorge Rabadan",
+      "text": "opsss sorry, my bad, I meant to say RFC9047<br/>"
+    },
+    {
+      "dtime": 6618000,
+      "ptime": 6618000,
+      "author": "Yubao Wang",
+      "text": "there&nbsp;&nbsp;is a problem<br/>"
+    },
+    {
+      "dtime": 6717000,
+      "ptime": 6717000,
+      "author": "Stephane Litkowski",
+      "text": "Would you be able to fix or do we close here ?<br/>"
+    },
+    {
+      "dtime": 6736000,
+      "ptime": 6736000,
+      "author": "Stephane Litkowski",
+      "text": "Are you able to hear us ?<br/>"
+    },
+    {
+      "dtime": 6763000,
+      "ptime": 6763000,
+      "author": "Yubao Wang",
+      "text": "give me one mininute please<br/>"
+    },
+    {
+      "dtime": 6771000,
+      "ptime": 6771000,
+      "author": "Stephane Litkowski",
+      "text": "Ok<br/>"
+    },
+    {
+      "dtime": 7409000,
+      "ptime": 7409000,
+      "author": "Stephane Litkowski",
+      "text": "In case we are cut, thanks all, and talk to you at next IETF<br/>"
+    },
+    {
+      "dtime": 7429000,
+      "ptime": 7429000,
+      "author": "Meetecho",
+      "text": "Stephane: we never cut meetings, no worries :)<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-BESS-20211109-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/bess"
+    }
+  ]
+}

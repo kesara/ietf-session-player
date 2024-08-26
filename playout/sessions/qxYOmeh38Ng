@@ -1,0 +1,498 @@
+
+{
+	"title": "IETF112-IDR-20211110-1200",
+	"filename": "IETF112-IDR-20211110-1200",
+	"start": 0,
+	"end": 5844000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "qxYOmeh38Ng",
+    "start": 0,
+    "end": "5844000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 39000,
+    "ptime": 39000,
+    "author": "Andrew Alston",
+    "text": "HI there :)<br/>"
+  },
+  {
+    "dtime": 43000,
+    "ptime": 43000,
+    "author": "Shunwan Zhuang",
+    "text": ":slightly_smiling_face:<br/>"
+  },
+  {
+    "dtime": 80000,
+    "ptime": 80000,
+    "author": "Jie Dong",
+    "text": "welcome to collaborate on the notes here; <a href=\"https://notes.ietf.org/notes-ietf-112-idr\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-112-idr</a><br/>"
+  },
+  {
+    "dtime": 343000,
+    "ptime": 343000,
+    "author": "Tony Przygienda",
+    "text": "kindergarden skills. Best term this IETF so far ;-)<br/>"
+  },
+  {
+    "dtime": 917000,
+    "ptime": 917000,
+    "author": "Joel Halpern",
+    "text": "Also, spring i snot chartered to modify BGP.<br/>"
+  },
+  {
+    "dtime": 948000,
+    "ptime": 948000,
+    "author": "Jorge Rabadan",
+    "text": "@Jeff, draft-ietf-bess-evpn-ipvpn-ipvpn was listed on the BGP multicast work slide, but it is not multicast work... it is unicast really<br/>"
+  },
+  {
+    "dtime": 996000,
+    "ptime": 996000,
+    "author": "Tony Przygienda",
+    "text": "also, BIER and BGP? well, yeah, there is BIER control part over BGP but BIER charter has protocol extensions for BIER (after initial discussion when group was chartered that was agreed upon)<br/>"
+  },
+  {
+    "dtime": 1108000,
+    "ptime": 1108000,
+    "author": "Jeffrey Haas",
+    "text": "We know our docs in the multicast cluster aren't quite up to date and correct.&nbsp;&nbsp;But they're what we've been asked to evaluate in that context.&nbsp;&nbsp;We'll get a correct list hopefully shortly.<br/>"
+  },
+  {
+    "dtime": 1138000,
+    "ptime": 1138000,
+    "author": "Jeffrey Haas",
+    "text": "And also, looking to build a group of expert reviewers to help us<br/>"
+  },
+  {
+    "dtime": 1494000,
+    "ptime": 1494000,
+    "author": "Andrew Alston",
+    "text": "Am trying to wrap my mind around how this would work in the case of reflected policy - it gets tricky<br/>"
+  },
+  {
+    "dtime": 1546000,
+    "ptime": 1546000,
+    "author": "Dhruv Dhody",
+    "text": "In PCEP we did this using an ASSOCIATION object<br/>"
+  },
+  {
+    "dtime": 1550000,
+    "ptime": 1550000,
+    "author": "Dhruv Dhody",
+    "text": "<a href=\"https://www.rfc-editor.org/rfc/rfc9005.html\" rel=\"nofollow\">https://www.rfc-editor.org/rfc/rfc9005.html</a><br/>"
+  },
+  {
+    "dtime": 1628000,
+    "ptime": 1628000,
+    "author": "Ketan Talaulikar",
+    "text": "@Dhruv - ack - it looks the same to me too<br/>"
+  },
+  {
+    "dtime": 1654000,
+    "ptime": 1654000,
+    "author": "Ketan Talaulikar",
+    "text": "However, PCEP is 1:1 session while BGP is different (when used with RRs).<br/>"
+  },
+  {
+    "dtime": 1708000,
+    "ptime": 1708000,
+    "author": "Jeffrey Haas",
+    "text": "I'm sure the authors would welcome text for their operational considerations<br/>"
+  },
+  {
+    "dtime": 1718000,
+    "ptime": 1718000,
+    "author": "Cheng Li",
+    "text": "it would be better to discuss via email<br/>"
+  },
+  {
+    "dtime": 1798000,
+    "ptime": 1798000,
+    "author": "Cheng Li",
+    "text": "thank you @andrew<br/>"
+  },
+  {
+    "dtime": 1819000,
+    "ptime": 1819000,
+    "author": "Andrew Alston",
+    "text": "will drop that one on the list - but I do see issues with this in the case of reflection<br/>"
+  },
+  {
+    "dtime": 1831000,
+    "ptime": 1831000,
+    "author": "Cheng Li",
+    "text": "thanks!<br/>"
+  },
+  {
+    "dtime": 2066000,
+    "ptime": 2066000,
+    "author": "Srihari Sangli",
+    "text": "How will the advertising router know when to insert the \"E\" flag. Does it require to know the topology ?<br/>"
+  },
+  {
+    "dtime": 2498000,
+    "ptime": 2498000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "@ketan - <a href=\"https://datatracker.ietf.org/doc/html/draft-ietf-spring-segment-routing-policy-14#section-9.3\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/draft-ietf-spring-segment-routing-policy-14#section-9.3</a><br/>"
+  },
+  {
+    "dtime": 2630000,
+    "ptime": 2630000,
+    "author": "Dhruv Dhody",
+    "text": "I remember checking that when we adopted the work in the PCE WG<br/>"
+  },
+  {
+    "dtime": 2633000,
+    "ptime": 2633000,
+    "author": "Ketan Talaulikar",
+    "text": "@ Dhruv - ack. But this proposal introduces active/backup semantics between SLs in the same CP. That IMHO is a key semantic change for SL construct. I am not sure what is the driving motivation for this and if it can be perhaps addressed differently.<br/>"
+  },
+  {
+    "dtime": 2665000,
+    "ptime": 2665000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "Do check the PCE draft as well, I want to check if your comments apply there as well<br/>"
+  },
+  {
+    "dtime": 2720000,
+    "ptime": 2720000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "<a href=\"https://www.ietf.org/archive/id/draft-ietf-pce-multipath-03.html#section-4.4\" rel=\"nofollow\">https://www.ietf.org/archive/id/draft-ietf-pce-multipath-03.html#section-4.4</a><br/>"
+  },
+  {
+    "dtime": 2802000,
+    "ptime": 2802000,
+    "author": "Ketan Talaulikar",
+    "text": "PCE did not have CP construct until the recent draft. So there might be some subtle differences. I have some trouble mapping from PCEP to the SR Policy info module on that account and could use your help :-) ... perhaps discuss on the list?<br/>"
+  },
+  {
+    "dtime": 2831000,
+    "ptime": 2831000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "Yes! Lets fix up time after IETF week! <br/>"
+  },
+  {
+    "dtime": 3173000,
+    "ptime": 3173000,
+    "author": "Liu Yao",
+    "text": "@Srihari，The router doesn't need to know the topo, a possible way is by policy or configuration, if configuration on the headend requires load balancing on particular SR path, the headend node should insert the ELs based on the E-FLAG received via BGP SR Policy.<br/>"
+  },
+  {
+    "dtime": 3739000,
+    "ptime": 3739000,
+    "author": "Hooman Bidgoli",
+    "text": "Just to ensure the protection for P2MP policy has nothing to do to the unicast protection. the P2MP policy and Replication segment already have protection path baked into them which is completely different and separate then the unicast draft. The protection talked in the PCE and IDR for P2MP policy is protection for replication segment and not SLs. what ever happen is SLs can be used for replication segment when they are connected via SLs. I just want to clarify this.<br/>"
+  },
+  {
+    "dtime": 3784000,
+    "ptime": 3784000,
+    "author": "Cheng Li",
+    "text": "It would be better to read the draft before&nbsp;&nbsp;posting comments especially tech comments.<br/>"
+  },
+  {
+    "dtime": 3797000,
+    "ptime": 3797000,
+    "author": "Cheng Li",
+    "text": "saving our time.<br/>"
+  },
+  {
+    "dtime": 3813000,
+    "ptime": 3813000,
+    "author": "Hooman Bidgoli",
+    "text": "My comments are about P2MP policy and not Unicast<br/>"
+  },
+  {
+    "dtime": 4260000,
+    "ptime": 4260000,
+    "author": "Alvaro Retana",
+    "text": "Dhruv:&nbsp;&nbsp;\"All of the above.\"&nbsp;&nbsp;We are clearly seeing more cross-WG work that requires coordination.&nbsp;&nbsp;I don't think there's a single answer, but would really want to find a consistent way so that we're not dealing with it an a case-to-case basis.<br/>"
+  },
+  {
+    "dtime": 4383000,
+    "ptime": 4383000,
+    "author": "Jeffrey Haas",
+    "text": "Effectively what we need is a \"Technology area\" concept.&nbsp;&nbsp;Tech can cross multiple areas and working groups.<br/>"
+  },
+  {
+    "dtime": 4392000,
+    "ptime": 4392000,
+    "author": "Jeffrey Haas",
+    "text": "and often, they have architecture that guides the whole thing.<br/>"
+  },
+  {
+    "dtime": 4399000,
+    "ptime": 4399000,
+    "author": "Jeffrey Haas",
+    "text": "see SR as a possible example.<br/>"
+  },
+  {
+    "dtime": 4493000,
+    "ptime": 4493000,
+    "author": "Eduard V",
+    "text": "Human intelligence is not possible to formalize. Strong AR is not possible. Hence, WG coordination would stay case-by-case. Sorry.<br/>"
+  },
+  {
+    "dtime": 4519000,
+    "ptime": 4519000,
+    "author": "Zhaohui Zhang",
+    "text": "@Cheng Li - Yes; but it is also better for the presentation to provide some background like the use case.<br/>"
+  },
+  {
+    "dtime": 4523000,
+    "ptime": 4523000,
+    "author": "Keyur Patel",
+    "text": "i like the technology area concept. :)<br/>"
+  },
+  {
+    "dtime": 4560000,
+    "ptime": 4560000,
+    "author": "Cheng Li",
+    "text": "sure, agree.<br/>"
+  },
+  {
+    "dtime": 4722000,
+    "ptime": 4722000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "I am thinking of adding a list of corresponding I-Ds in the PCE wiki and then asking authors to confirm on the list that there is alignment with them and highlight the differences etc<br/>"
+  },
+  {
+    "dtime": 4803000,
+    "ptime": 4803000,
+    "author": "Cheng Li",
+    "text": "that is a great idea. I have multiple drafts in BGP and PCEP WG, and I think we need the alignments<br/>"
+  },
+  {
+    "dtime": 4885000,
+    "ptime": 4885000,
+    "author": "Jie Dong",
+    "text": "+1 to Dhruv<br/>"
+  },
+  {
+    "dtime": 4895000,
+    "ptime": 4895000,
+    "author": "Ketan Talaulikar",
+    "text": "Taking SR Policy as an example, there is the architecture and info model (plus YANG) that gets done for it in SPRING. Then the PCEP and BGP protocol extensions get done in PCE and IDR WGs. What I've noticed is that protocol extensions are getting defined and introduced without the corresponding update/work being done on the architecture. Perhaps, an ordered sequence of work might help bring the necessary consistency?<br/>"
+  },
+  {
+    "dtime": 4905000,
+    "ptime": 4905000,
+    "author": "Jeffrey Haas",
+    "text": "Feel free to submit documents to track from bgp and we'll get it in the idr wiki as well<br/>"
+  },
+  {
+    "dtime": 4951000,
+    "ptime": 4951000,
+    "author": "Jeffrey Haas",
+    "text": "the work to prep the bgp yang module for proper componentization is another example<br/>"
+  },
+  {
+    "dtime": 5053000,
+    "ptime": 5053000,
+    "author": "Ketan Talaulikar",
+    "text": "@ Jordan, I would recommend adding a section in LSR draft and getting down with the BGP-LS part ... reduces \"work\" ;-)<br/>"
+  },
+  {
+    "dtime": 5073000,
+    "ptime": 5073000,
+    "author": "Ketan Talaulikar",
+    "text": "s/down/done<br/>"
+  },
+  {
+    "dtime": 5089000,
+    "ptime": 5089000,
+    "author": "Alvaro Retana",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 5182000,
+    "ptime": 5182000,
+    "author": "Srihari Sangli",
+    "text": "a nit: 1K = 1024 and not 1000<br/>"
+  },
+  {
+    "dtime": 5215000,
+    "ptime": 5215000,
+    "author": "Jeffrey Haas",
+    "text": "normalizing terminology would be helpful here, yes.<br/>"
+  },
+  {
+    "dtime": 5410000,
+    "ptime": 5410000,
+    "author": "Randy Bush",
+    "text": "wow!&nbsp;&nbsp;we return to the '60s!<br/>"
+  },
+  {
+    "dtime": 5415000,
+    "ptime": 5415000,
+    "author": "Tony Przygienda",
+    "text": "one thing is sure, I doubt IEEE will improve on 754 encoding ;-)<br/>"
+  },
+  {
+    "dtime": 5488000,
+    "ptime": 5488000,
+    "author": "Tony Przygienda",
+    "text": "first, to improve precison @ same range we'd probably need to break Shanon ;-)<br/>"
+  },
+  {
+    "dtime": 5511000,
+    "ptime": 5511000,
+    "author": "Tony Przygienda",
+    "text": "and 2nd we hopefully keep to simple things like float normalization and epsilon comparisons ;-)<br/>"
+  },
+  {
+    "dtime": 5535000,
+    "ptime": 5535000,
+    "author": "Luc André Burdet",
+    "text": "you can also set 'mbps'+1000 vs 'gbps'+1 -&gt; is that an equal value or not ?<br/>"
+  },
+  {
+    "dtime": 5568000,
+    "ptime": 5568000,
+    "author": "Jeffrey Haas",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 5591000,
+    "ptime": 5591000,
+    "author": "Keyur Patel",
+    "text": "@acee ack on 64 bit number<br/>"
+  },
+  {
+    "dtime": 5595000,
+    "ptime": 5595000,
+    "author": "Tony Przygienda",
+    "text": "well, we're just inventing a 2^X base 754 encoding here. badly ;-)<br/>"
+  },
+  {
+    "dtime": 5601000,
+    "ptime": 5601000,
+    "author": "Andrew Alston",
+    "text": "I have to agree - a 64bit number is far easier to deal with<br/>"
+  },
+  {
+    "dtime": 5617000,
+    "ptime": 5617000,
+    "author": "Haibo Wang",
+    "text": "Yes, it is , but doesn't suggest to do that. We have described it in the draft<br/>"
+  },
+  {
+    "dtime": 5621000,
+    "ptime": 5621000,
+    "author": "Haibo Wang",
+    "text": "@Luc<br/>"
+  },
+  {
+    "dtime": 5701000,
+    "ptime": 5701000,
+    "author": "Jie Dong",
+    "text": "+1 to Jeff on the limited space in ext. comm<br/>"
+  },
+  {
+    "dtime": 5724000,
+    "ptime": 5724000,
+    "author": "Andrew Alston",
+    "text": "Could we not think about an attribute + 64bit number - which may be easier to deal with - just - random thought<br/>"
+  },
+  {
+    "dtime": 5725000,
+    "ptime": 5725000,
+    "author": "Jie Dong",
+    "text": "for 64 bits<br/>"
+  },
+  {
+    "dtime": 5790000,
+    "ptime": 5790000,
+    "author": "Keyur Patel",
+    "text": "not sure if I am audible but am good for now<br/>"
+  },
+  {
+    "dtime": 5813000,
+    "ptime": 5813000,
+    "author": "Jordan Head",
+    "text": "@Ketan @Alvaro - regarding your comments to fold the BGP-LS extensions into the LSR work, are we okay with LSR specifying BGP-LS TLVs?<br/>"
+  },
+  {
+    "dtime": 5835000,
+    "ptime": 5835000,
+    "author": "Randy Bush",
+    "text": "there is a lag between when one pushes the talk button and one's mic is actually on<br/>"
+  },
+  {
+    "dtime": 5846000,
+    "ptime": 5846000,
+    "author": "Keyur Patel",
+    "text": "@jordan - you probably wanna keep them in bgp draft<br/>"
+  },
+  {
+    "dtime": 5855000,
+    "ptime": 5855000,
+    "author": "Alvaro Retana",
+    "text": "@Jordan:&nbsp;&nbsp;Yes.&nbsp;&nbsp;They'll coordinate with idr.<br/>"
+  },
+  {
+    "dtime": 5858000,
+    "ptime": 5858000,
+    "author": "Keyur Patel",
+    "text": "easier for wgs to track<br/>"
+  },
+  {
+    "dtime": 5866000,
+    "ptime": 5866000,
+    "author": "Keyur Patel",
+    "text": "and IANA<br/>"
+  },
+  {
+    "dtime": 5895000,
+    "ptime": 5895000,
+    "author": "Andrew Alston",
+    "text": ":) see ya guys tomorrow<br/>"
+  },
+  {
+    "dtime": 5911000,
+    "ptime": 5911000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "Bye! <br/>"
+  },
+  {
+    "dtime": 5917000,
+    "ptime": 5917000,
+    "author": "Boris Khasanov",
+    "text": "bye<br/>"
+  },
+  {
+    "dtime": 5919000,
+    "ptime": 5919000,
+    "author": "Keyur Patel",
+    "text": "thanks everyone<br/>"
+  },
+  {
+    "dtime": 5930000,
+    "ptime": 5930000,
+    "author": "Job Snijders",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 5934000,
+    "ptime": 5934000,
+    "author": "Jordan Head",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 5967000,
+    "ptime": 5967000,
+    "author": "Jie Dong",
+    "text": "see you tomorrow<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-IDR-20211110-1200"
+		}
+	]
+}

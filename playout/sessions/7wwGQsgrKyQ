@@ -1,0 +1,259 @@
+
+{
+	"title": "IETF-EMU-20230104-1700",
+	"filename": "IETF-EMU-20230104-1700",
+	"start": 0,
+	"end": 3701000,
+	"start_datetime": "2023-01-04T17:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "7wwGQsgrKyQ",
+    "start": 0,
+    "end": "3701000"
+  }
+],
+	"messages": [
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@Deb, if you get here from calendar, then you have to back to DT.</p>",
+    "topic": "jabber",
+    "dtime": 81000,
+    "ptime": 81000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>to remind people:</p>\n<p>errata: <a href=\"https://www.rfc-editor.org/errata/rfc7170\">https://www.rfc-editor.org/errata/rfc7170</a></p>\n<p>Joe's suggestions: <a href=\"https://github.com/emu-wg/teap-errata/pulls\">https://github.com/emu-wg/teap-errata/pulls</a></p>\n<p>github for 7170bis: <a href=\"https://github.com/emu-wg/rfc7170bis\">https://github.com/emu-wg/rfc7170bis</a></p>",
+    "topic": "jabber",
+    "dtime": 84000,
+    "ptime": 84000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p><a href=\"https://www.rfc-editor.org/errata/eid5765\">https://www.rfc-editor.org/errata/eid5765</a></p>",
+    "topic": "jabber",
+    "dtime": 147000,
+    "ptime": 147000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p><a href=\"https://github.com/emu-wg/rfc7170bis/commits/main\">https://github.com/emu-wg/rfc7170bis/commits/main</a></p>",
+    "topic": "jabber",
+    "dtime": 172000,
+    "ptime": 172000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p><a href=\"https://www.rfc-editor.org/errata/eid6157\">https://www.rfc-editor.org/errata/eid6157</a></p>",
+    "topic": "jabber",
+    "dtime": 219000,
+    "ptime": 219000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p><span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span>🏽</p>",
+    "topic": "jabber",
+    "dtime": 487000,
+    "ptime": 487000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>thanks, michael</p>",
+    "topic": "jabber",
+    "dtime": 799000,
+    "ptime": 799000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>How about EAP Notification and NAK?</p>",
+    "topic": "jabber",
+    "dtime": 1651000,
+    "ptime": 1651000
+  },
+  {
+    "author": "Oleg Pekar",
+    "text": "<p>@Heikki: it seems that everything that starts with EAP Identity Request is an EAP method and must finish with EAP Success/Failure (and Intermediate-Result TLV)</p>",
+    "topic": "jabber",
+    "dtime": 1910000,
+    "ptime": 1910000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@John, are there PQC concerns with truncating a <em>MAC</em> to 20 bytes?</p>",
+    "topic": "jabber",
+    "dtime": 1927000,
+    "ptime": 1927000
+  },
+  {
+    "author": "Heikki Vatiainen",
+    "text": "<p>Ok, Notication and NAK therefore don't require a specific mention.</p>",
+    "topic": "jabber",
+    "dtime": 1996000,
+    "ptime": 1996000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Yes, that works!</p>",
+    "topic": "jabber",
+    "dtime": 2056000,
+    "ptime": 2056000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>expanding field for 1.3 gets my vote</p>",
+    "topic": "jabber",
+    "dtime": 2059000,
+    "ptime": 2059000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Good one, Alan.</p>",
+    "topic": "jabber",
+    "dtime": 2067000,
+    "ptime": 2067000
+  },
+  {
+    "author": "Oleg Pekar",
+    "text": "<p>Please note: Crypto-Binding TLV section said \"For an implementation compliant with this version of TEAP, the version number MUST be set to one (1)\".</p>",
+    "topic": "jabber",
+    "dtime": 2117000,
+    "ptime": 2117000
+  },
+  {
+    "author": "Joseph Salowey",
+    "text": "<p>@oleg maybe that should also reference this version of TEAP with TLS 1.2</p>",
+    "topic": "jabber",
+    "dtime": 2169000,
+    "ptime": 2169000
+  },
+  {
+    "author": "Oleg Pekar",
+    "text": "<p>Erratum 5775 may require also adding a new flag to Crypto-Binding TLV that indicates that Zero-MSK is present (in addition to MSK is present and EMSK is present)</p>",
+    "topic": "jabber",
+    "dtime": 2574000,
+    "ptime": 2574000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>@Eliot, I'll read your emails, and try to understand the deployment scenarios you are concerned about.</p>",
+    "topic": "jabber",
+    "dtime": 2700000,
+    "ptime": 2700000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>RFC7030.</p>",
+    "topic": "jabber",
+    "dtime": 2730000,
+    "ptime": 2730000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I think that the Auth server has to be an RA, even if it talks to another RA.</p>",
+    "topic": "jabber",
+    "dtime": 2766000,
+    "ptime": 2766000
+  },
+  {
+    "author": "John Preuß Mattsson",
+    "text": "<blockquote>\n<p>@John, are there PQC concerns with<br>\ntruncating a MAC to 20 bytes?</p>\n</blockquote>\n<p>No</p>",
+    "topic": "jabber",
+    "dtime": 2794000,
+    "ptime": 2794000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>@oleg good point, we can rev Crypto-Binding independent of anything else.  Which means we can truncate now, and later make it variable sized</p>",
+    "topic": "jabber",
+    "dtime": 2813000,
+    "ptime": 2813000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Might be a good use for Oblivious TLS :-)</p>",
+    "topic": "jabber",
+    "dtime": 2828000,
+    "ptime": 2828000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I have to leave now.</p>",
+    "topic": "jabber",
+    "dtime": 2861000,
+    "ptime": 2861000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>we have code ready for hostap for the #7/#10 TLVs</p>",
+    "topic": "jabber",
+    "dtime": 2933000,
+    "ptime": 2933000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>righto</p>",
+    "topic": "jabber",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Oleg Pekar",
+    "text": "<p>@Alan that's what Alexander suggested, I'm just pointing out that if we go for it we need also to change this restriction</p>",
+    "topic": "jabber",
+    "dtime": 2965000,
+    "ptime": 2965000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>OK</p>",
+    "topic": "jabber",
+    "dtime": 2982000,
+    "ptime": 2982000
+  },
+  {
+    "author": "Oleg Pekar",
+    "text": "<p>For errata 5770: IMSK can be derived from inner method MSK or EMSK, or ZeroMSK if it was no inner method. Since the sender doesn’t know before the receiver's response which IMSK is negotiated according to sender and receiver common capabilities, the sender needs to calculate all four keys derived from both MSK and EMSK.</p>",
+    "topic": "jabber",
+    "dtime": 3170000,
+    "ptime": 3170000
+  },
+  {
+    "author": "Alexander Clouter",
+    "text": "<p>can we not just rely on that the CMAC would fail if one end uses zero and the other does not, if they match and you locally used zero, you know zero was there?</p>",
+    "topic": "jabber",
+    "dtime": 3222000,
+    "ptime": 3222000
+  },
+  {
+    "author": "Oleg Pekar",
+    "text": "<p>@Alexander: I remember it was a sentence that says that if the inner method supports MSK or EMSK - Zero-MSK can't be used. If it is not present - we should add it :)</p>",
+    "topic": "jabber",
+    "dtime": 3459000,
+    "ptime": 3459000
+  },
+  {
+    "author": "Alan DeKok",
+    "text": "<p>Thanks!  That was very productive</p>",
+    "topic": "jabber",
+    "dtime": 3680000,
+    "ptime": 3680000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-EMU-20230104-1700"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting//session/emu"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-EMU-20230104-1700"
+		}
+	]
+}

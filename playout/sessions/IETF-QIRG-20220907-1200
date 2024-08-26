@@ -1,0 +1,215 @@
+
+{
+	"title": "IETF-QIRG-20220907-1200",
+	"filename": "IETF-QIRG-20220907-1200",
+	"start": 0,
+	"end": 3670000,
+	"start_datetime": "2022-09-07T11:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "t5Nt72ZzC-c",
+    "start": 0,
+    "end": "3670000"
+  }
+],
+	"messages": [
+  {
+    "author": "Michael Cirillo",
+    "text": "<p>No</p>",
+    "dtime": 234000,
+    "ptime": 234000
+  },
+  {
+    "author": "Rodney Van Meter",
+    "text": "<p><a href=\"https://arxiv.org/abs/2205.07507\">https://arxiv.org/abs/2205.07507</a></p>",
+    "dtime": 292000,
+    "ptime": 292000
+  },
+  {
+    "author": "Olivier Le Moult",
+    "text": "<p>Hello please click on HIDE for bottom screen message window</p>",
+    "dtime": 830000,
+    "ptime": 830000
+  },
+  {
+    "author": "Scott Fluhrer",
+    "text": "<p>Q: why would entanglement distribution &amp; teleportation be necessarily less efficient than direct quantum state transmission?</p>",
+    "dtime": 1008000,
+    "ptime": 1008000
+  },
+  {
+    "author": "Wojciech Kozlowski",
+    "text": "<p>@Scott: the entanglement swapping operations and quantum teleportation are lossy operations if you are not generating flawless quantum states. Then, on top of that there is possible decoherence in quantum memory. This means that for short distances the fiber losses through direct transmission may actually be lower.</p>",
+    "dtime": 1125000,
+    "ptime": 1125000
+  },
+  {
+    "author": "Scott Fluhrer",
+    "text": "<p>However, direct quantum state transmission (assuming an intermediate node) also assumes flawless quantum states and quantum memory</p>",
+    "dtime": 1169000,
+    "ptime": 1169000
+  },
+  {
+    "author": "Wojciech Kozlowski",
+    "text": "<p>There's usually a threshold beyond which entanglement swapping is better than direct transmission</p>",
+    "dtime": 1173000,
+    "ptime": 1173000
+  },
+  {
+    "author": "Wojciech Kozlowski",
+    "text": "<p>Yes, but below the threshold distance the losses may be lower</p>",
+    "dtime": 1202000,
+    "ptime": 1202000
+  },
+  {
+    "author": "Scott Fluhrer",
+    "text": "<p>Entanglement swapping and teleportation does have the advantage of latency</p>",
+    "dtime": 1227000,
+    "ptime": 1227000
+  },
+  {
+    "author": "Wojciech Kozlowski",
+    "text": "<p>Yes, but only over large enough distances</p>",
+    "dtime": 1289000,
+    "ptime": 1289000
+  },
+  {
+    "author": "Scott Fluhrer",
+    "text": "<p>Drop the quantum packet?  In classical networks, we assume that the sender can retransmit if necessary.  In quantum networks, they can't</p>",
+    "dtime": 1502000,
+    "ptime": 1502000
+  },
+  {
+    "author": "Rodney Van Meter",
+    "text": "<p>Scott, that depends on whether you are talking about precious application data, or a generic state.</p>",
+    "dtime": 1819000,
+    "ptime": 1819000
+  },
+  {
+    "author": "Rodney Van Meter",
+    "text": "<p>Most of the quantum network proposals work toward building end-to-end Bell pairs, or basic entangled states, as a resource that will be used by applications.</p>",
+    "dtime": 1862000,
+    "ptime": 1862000
+  },
+  {
+    "author": "Rodney Van Meter",
+    "text": "<p>So you lose performance -- maybe a lot of it -- by dropping things, but you don't affect correctness of applications at the end points.</p>",
+    "dtime": 1901000,
+    "ptime": 1901000
+  },
+  {
+    "author": "Patrick Gelard",
+    "text": "<p>Isn't QEC a challenge for your approach ? Indeed it is necessary to transmit on the same virtual circuit the quibt with its redundant qbits to apply the error correction</p>",
+    "dtime": 2824000,
+    "ptime": 2824000
+  },
+  {
+    "author": "Jessica Illiano",
+    "text": "<p>Q for stephen : Are the classical header separated from the quantum payload? If yes, how does the coupling between the the header and its payload takes place? How do you manage a payload or a classical header loss?</p>",
+    "dtime": 2848000,
+    "ptime": 2848000
+  },
+  {
+    "author": "Scott Fluhrer",
+    "text": "<p>Observation: if the header and payload were transmitted separately, you could handle header loss by retransitting it</p>",
+    "dtime": 3098000,
+    "ptime": 3098000
+  },
+  {
+    "author": "Scott Fluhrer",
+    "text": "<p>retransmitting it</p>",
+    "dtime": 3105000,
+    "ptime": 3105000
+  },
+  {
+    "author": "Rodney Van Meter",
+    "text": "<p><a href=\"https://arxiv.org/abs/1701.04586\">https://arxiv.org/abs/1701.04586</a></p>",
+    "dtime": 3156000,
+    "ptime": 3156000
+  },
+  {
+    "author": "Rodney Van Meter",
+    "text": "<p>@Patrick we wrote a paper on loss probabilities some years ago.</p>",
+    "dtime": 3156000,
+    "ptime": 3156000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p>It seems that you implicitly consider hop-by-hop routing decisions for packet-switching, however other schemes may be possible, e.g., source routing or label switching. Do you consider the latter out-of-scope?</p>",
+    "dtime": 3157000,
+    "ptime": 3157000
+  },
+  {
+    "author": "Roland Bless",
+    "text": "<p>Ok, thanks</p>",
+    "dtime": 3216000,
+    "ptime": 3216000
+  },
+  {
+    "author": "Patrick Gelard",
+    "text": "<p>Thank for the answer and the link</p>",
+    "dtime": 3241000,
+    "ptime": 3241000
+  },
+  {
+    "author": "Bruno Rijsman",
+    "text": "<p>Experimental results data muxing classical and quantum on the same fiber for QKD: <a href=\"https://arxiv.org/abs/2112.14254\">https://arxiv.org/abs/2112.14254</a></p>",
+    "dtime": 3379000,
+    "ptime": 3379000
+  },
+  {
+    "author": "Bruno Rijsman",
+    "text": "<p>Using Cisco multiplexers ;-)</p>",
+    "dtime": 3439000,
+    "ptime": 3439000
+  },
+  {
+    "author": "Bruno Rijsman",
+    "text": "<p>Looking....</p>",
+    "dtime": 3478000,
+    "ptime": 3478000
+  },
+  {
+    "author": "Bruno Rijsman",
+    "text": "<p>1310 for quantum, 1550 for classical</p>",
+    "dtime": 3519000,
+    "ptime": 3519000
+  },
+  {
+    "author": "Rodney Van Meter",
+    "text": "<p>Network icons:<br>\n<a href=\"https://github.com/sfc-aqua/quisp/tree/master/Network%20icons/diagrams.net-library\">https://github.com/sfc-aqua/quisp/tree/master/Network%20icons/diagrams.net-library</a></p>",
+    "dtime": 3549000,
+    "ptime": 3549000
+  },
+  {
+    "author": "Bruno Rijsman",
+    "text": "<p>standard fiber</p>",
+    "dtime": 3550000,
+    "ptime": 3550000
+  },
+  {
+    "author": "Claudio Cicconetti",
+    "text": "<p>Thank you goodbye</p>",
+    "dtime": 3656000,
+    "ptime": 3656000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-QIRG-20220907-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-qirg-02/session/qirg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-QIRG-20220907-1200"
+		}
+	]
+}

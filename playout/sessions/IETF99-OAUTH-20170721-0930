@@ -1,0 +1,243 @@
+{
+  "title": "IETF99-OAUTH-20170721-0930",
+  "filename": "IETF99-OAUTH-20170721-0930",
+  "start": 0,
+  "end": 7548000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "kBEwdSKHLCA",
+      "start": 0.0,
+      "end": 7548000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Morning",
+      "ptime": 81000.0,
+      "dtime": 1019000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "I have a question about draft-ietf-oauth-device-flow-06 but am stuck in another room",
+      "ptime": 135000.0,
+      "dtime": 1073000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "morning! ?",
+      "ptime": 147000.0,
+      "dtime": 1085000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "Was just wondering about the comments in thread:",
+      "ptime": 175000.0,
+      "dtime": 1113000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "https://www.ietf.org/mail-archive/web/oauth/current/msg17390.html",
+      "ptime": 176000.0,
+      "dtime": 1114000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "@craigt That\u0027s my thread, can I help?",
+      "ptime": 204000.0,
+      "dtime": 1142000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "have vested interest in access_denied and whether that suggestion will make it in",
+      "ptime": 227000.0,
+      "dtime": 1165000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "\u003c\u003c BBC",
+      "ptime": 235000.0,
+      "dtime": 1173000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "yaaay",
+      "ptime": 447000.0,
+      "dtime": 1385000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Hans Zandbelt just left the room",
+      "ptime": 601000.0,
+      "dtime": 1539000.0
+    },
+    {
+      "text": "***Hans Zandbelt just joined the room",
+      "ptime": 739000.0,
+      "dtime": 1677000.0
+    },
+    {
+      "text": "Can people use the mic for questions in-room?",
+      "ptime": 920000.0,
+      "dtime": 1858000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "speak",
+      "ptime": 996000.0,
+      "dtime": 1934000.0,
+      "author": "leifj"
+    },
+    {
+      "text": "Sorry Justin Richer: Distracted in room...will run by after...",
+      "ptime": 1501000.0,
+      "dtime": 2439000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "@craigt I\u0027m not local to Prague tonight so running by won\u0027t help. :)",
+      "ptime": 1564000.0,
+      "dtime": 2502000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "ah :)",
+      "ptime": 1580000.0,
+      "dtime": 2518000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "@John Bradley: please use the mic",
+      "ptime": 2119000.0,
+      "dtime": 3057000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Hannes Raddatz just joined the room",
+      "ptime": 2265000.0,
+      "dtime": 3203000.0
+    },
+    {
+      "text": "+1 to everything John\u0027s saying",
+      "ptime": 2320000.0,
+      "dtime": 3258000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "+1 to everything John\u0027s saying",
+      "ptime": 2320000.0,
+      "dtime": 3258000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "Why not make numbers a SHOULD but that A-Z MAY also be used.",
+      "ptime": 2480000.0,
+      "dtime": 3418000.0,
+      "author": "Phillip Hunt"
+    },
+    {
+      "text": "Right now there are no character restrictions, just a non-normative suggestion.",
+      "ptime": 2498000.0,
+      "dtime": 3436000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "If we make numbers the non-normative suggestion then that\u0027s fine",
+      "ptime": 2513000.0,
+      "dtime": 3451000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "Why not use the normative SHOULD then?  That still leave\u0027s william scenario possible",
+      "ptime": 2543000.0,
+      "dtime": 3481000.0,
+      "author": "Phillip Hunt"
+    },
+    {
+      "text": "The non-zero default is important because otherwise William\u0027s code will DoS you...",
+      "ptime": 2909000.0,
+      "dtime": 3847000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "The non-zero default is important because otherwise William\u0027s code will DoS you...",
+      "ptime": 2909000.0,
+      "dtime": 3847000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "The spec I proposed ages ago, for the notes and stuff: https://tools.ietf.org/html/draft-richer-oauth-instance-00",
+      "ptime": 3623000.0,
+      "dtime": 4561000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Roland Hedberg just joined the room",
+      "ptime": 4510000.0,
+      "dtime": 5448000.0
+    },
+    {
+      "text": "***Phillip Hunt just left the room",
+      "ptime": 4635000.0,
+      "dtime": 5573000.0
+    },
+    {
+      "text": "***Phillip Hunt just joined the room",
+      "ptime": 4637000.0,
+      "dtime": 5575000.0
+    },
+    {
+      "text": "***Bjorn Hjelm just joined the room",
+      "ptime": 4681000.0,
+      "dtime": 5619000.0
+    },
+    {
+      "text": "***Hans Zandbelt just left the room",
+      "ptime": 4839000.0,
+      "dtime": 5777000.0
+    },
+    {
+      "text": "***Hans Zandbelt just joined the room",
+      "ptime": 4840000.0,
+      "dtime": 5778000.0
+    },
+    {
+      "text": "@meetecho camrea just fell down",
+      "ptime": 5180000.0,
+      "dtime": 6118000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "Fixing that (y)",
+      "ptime": 5196000.0,
+      "dtime": 6134000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "@meetecho thanks! :)",
+      "ptime": 5199000.0,
+      "dtime": 6137000.0,
+      "author": "Justin Richer"
+    },
+    {
+      "text": "***Phillip Hunt just left the room",
+      "ptime": 7510000.0,
+      "dtime": 8448000.0
+    },
+    {
+      "text": "Thanks all! Hopefully see you next time.",
+      "ptime": 7523000.0,
+      "dtime": 8461000.0,
+      "author": "Justin Richer"
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-OAUTH-20170721-0930"
+    }
+  ]
+}

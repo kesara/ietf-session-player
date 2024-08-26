@@ -1,0 +1,133 @@
+
+{
+	"title": "IETF119-NETCONF-20240319-0300",
+	"filename": "IETF119-NETCONF-20240319-0300",
+	"start": 0,
+	"end": 7196000,
+	"start_datetime": "2024-03-19T02:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "C2wfM0eRuxE",
+    "start": 0,
+    "end": "7196000"
+  }
+],
+	"messages": [
+  {
+    "author": "Per Andersson",
+    "text": "<p>Notes for the session <a href=\"https://notes.ietf.org/notes-ietf-119-netconf\">https://notes.ietf.org/notes-ietf-119-netconf</a></p>",
+    "topic": "ietf-119",
+    "dtime": 75000,
+    "ptime": 75000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Someone's on the way to help</p>",
+    "topic": "ietf-119",
+    "dtime": 116000,
+    "ptime": 116000
+  },
+  {
+    "author": "Per Andersson",
+    "text": "<p>Thank you Rob!</p>",
+    "topic": "ietf-119",
+    "dtime": 433000,
+    "ptime": 433000
+  },
+  {
+    "author": "Alex Huang Feng",
+    "text": "<p>Thank you Rob!</p>",
+    "topic": "ietf-119",
+    "dtime": 443000,
+    "ptime": 443000
+  },
+  {
+    "author": "Per Andersson",
+    "text": "<p>Is it possible to pan the camera to the presenter</p>",
+    "topic": "ietf-119",
+    "dtime": 697000,
+    "ptime": 697000
+  },
+  {
+    "author": "Per Andersson",
+    "text": "<p>Perfect, thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 715000,
+    "ptime": 715000
+  },
+  {
+    "author": "Wim Henderickx",
+    "text": "<p>on dual-stack.I am not sure I understood, but  I don't see this as associated with VRF. For me dual stack means the server is configured with at least 1 ipv4 and 1 ipv6 address. We should support this in my view.</p>",
+    "topic": "ietf-119",
+    "dtime": 3851000,
+    "ptime": 3851000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>@Wim, do you want to come to the mike to ask the question?</p>",
+    "topic": "ietf-119",
+    "dtime": 3993000,
+    "ptime": 3993000
+  },
+  {
+    "author": "Wim Henderickx",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"27\">Mahesh Jethanandani</span> <a href=\"#narrow/stream/17-netconf/topic/ietf-119/near/110271\">said</a>:</p>\n<blockquote>\n<p>@Wim, do you want to come to the mike to ask the question?</p>\n</blockquote>\n<p>done</p>",
+    "topic": "ietf-119",
+    "dtime": 4267000,
+    "ptime": 4267000
+  },
+  {
+    "author": "Ahmed Elhassany",
+    "text": "<p>The alternative approach for encoding RFC5277 done by libnetconf2 using containers <a href=\"https://github.com/CESNET/libnetconf2/blob/master/tests/data/modules/notifications.yin\">https://github.com/CESNET/libnetconf2/blob/master/tests/data/modules/notifications.yin</a></p>",
+    "topic": "ietf-119",
+    "dtime": 5010000,
+    "ptime": 5010000
+  },
+  {
+    "author": "Alex Huang Feng",
+    "text": "<p>I tried some time ago, defining the yang as a container, but since the content of the Notification is specified when you are defining the notification from the yang using the \"notification\" statement, this need to be as a structure because I am defining the \"type\" notification in YANG</p>",
+    "topic": "ietf-119",
+    "dtime": 5493000,
+    "ptime": 5493000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>To the question of non-NMDA compliant, I would agree with Rob in that I do not know we want to be prescriptive about it.</p>",
+    "topic": "ietf-119",
+    "dtime": 5643000,
+    "ptime": 5643000
+  },
+  {
+    "author": "Mahesh Jethanandani",
+    "text": "<p>Isn't there a requirement to move the leaf from deprecated to obsolete before we say that module-state does not need to be implemented/supported?</p>",
+    "topic": "ietf-119",
+    "dtime": 5948000,
+    "ptime": 5948000
+  },
+  {
+    "author": "Jean Quilbeuf",
+    "text": "<p>(deleted)</p>",
+    "topic": "ietf-interim",
+    "dtime": 6378000,
+    "ptime": 6378000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-NETCONF-20240319-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/netconf"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-NETCONF-20240319-0300"
+		}		
+	]
+}

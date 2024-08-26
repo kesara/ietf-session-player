@@ -1,0 +1,210 @@
+
+{
+	"title": "IETF118-CDNI-20231107-0830",
+	"filename": "IETF118-CDNI-20231107-0830",
+	"start": 0,
+	"end": 7266000,
+	"start_datetime": "2023-11-07T08:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "542DJBLhydQ",
+    "start": 0,
+    "end": "7266000"
+  }
+],
+	"messages": [
+  {
+    "author": "Kevin Ma",
+    "text": "<p>test</p>",
+    "topic": "ietf-118",
+    "dtime": 155000,
+    "ptime": 155000
+  },
+  {
+    "author": "Ben Rosenblum",
+    "text": "<p>received</p>",
+    "topic": "ietf-118",
+    "dtime": 163000,
+    "ptime": 163000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>ok so ignore what I said: I went and re-checked the criteria for erratas (<a href=\"https://www.ietf.org/about/groups/iesg/statements/processing-errata-ietf-stream/\">https://www.ietf.org/about/groups/iesg/statements/processing-errata-ietf-stream/</a> ) and according to what was said, I will mark the errata \"Verified\" :)</p>",
+    "topic": "ietf-118",
+    "dtime": 727000,
+    "ptime": 727000
+  },
+  {
+    "author": "Kevin Ma",
+    "text": "<p>thanx!</p>",
+    "topic": "ietf-118",
+    "dtime": 746000,
+    "ptime": 746000
+  },
+  {
+    "author": "Ben Rosenblum",
+    "text": "<p>Kevin, to answer your question, the current draft does not register capacity limit types as an IANA registry.</p>",
+    "topic": "ietf-118",
+    "dtime": 1014000,
+    "ptime": 1014000
+  },
+  {
+    "author": "Kevin Ma",
+    "text": "<p>got it.  i will go back and review it .  thanx.</p>",
+    "topic": "ietf-118",
+    "dtime": 1456000,
+    "ptime": 1456000
+  },
+  {
+    "author": "Glenn Goldstein",
+    "text": "<p>i think the FCI wrapper actually makes usage clearer.</p>",
+    "topic": "ietf-118",
+    "dtime": 1972000,
+    "ptime": 1972000
+  },
+  {
+    "author": "Glenn Goldstein",
+    "text": "<p>please go back to the slide showing all teh variables and functions</p>",
+    "topic": "ietf-118",
+    "dtime": 3454000,
+    "ptime": 3454000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>Vote for extension of the charter to include this</p>",
+    "topic": "ietf-118",
+    "dtime": 3597000,
+    "ptime": 3597000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>This might also be a point in the system that we can implement hooks to implement various other standards that need to go into the Request/Response flows. Think of a lightweight implementation of things like CMCD/CMSD or Tracing Standards like TraceData/ProxyStatus or even potentially upcoming standards like Streaming Media Tracing's TraceData headers.</p>",
+    "topic": "ietf-118",
+    "dtime": 4074000,
+    "ptime": 4074000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>Let me fix my mic first...</p>",
+    "topic": "ietf-118",
+    "dtime": 4134000,
+    "ptime": 4134000
+  },
+  {
+    "author": "Sanjay Mishra",
+    "text": "<p>ok</p>",
+    "topic": "ietf-118",
+    "dtime": 4154000,
+    "ptime": 4154000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>ok, think i've gotten it fixed</p>",
+    "topic": "ietf-118",
+    "dtime": 4201000,
+    "ptime": 4201000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>Also, just to confirm, we maintain backwards compatibility with the older W3C Based ELF Format as a supported  legacy format in this new standard.</p>",
+    "topic": "ietf-118",
+    "dtime": 5058000,
+    "ptime": 5058000
+  },
+  {
+    "author": "Kevin Ma",
+    "text": "<p>thanks rajeev.  noted</p>",
+    "topic": "ietf-118",
+    "dtime": 5109000,
+    "ptime": 5109000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>Will there be a framework to enable billing for exchange of capacity or are the proposed drafts sufficient?</p>",
+    "topic": "ietf-118",
+    "dtime": 5708000,
+    "ptime": 5708000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>@benson My expectation is that this will act as an underlying layer that allows for exchange of actual traffic/usage data, which in turn feeds into billing systems. However, we dont yet tackle the actual billing workflows yet, and i'm guessing that will be separate work potentially to be taken up in the future.</p>",
+    "topic": "ietf-118",
+    "dtime": 5882000,
+    "ptime": 5882000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>Thanks Rajeev</p>",
+    "topic": "ietf-118",
+    "dtime": 5922000,
+    "ptime": 5922000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>@benson However, we are going to be discussing capabilities like custom fields, sampling, filtering and aggregation in the 2nd part of the logging work in the SVTA, which may be useful to tie in to billing systems and get things like aggregated traffic volumes by region or time period etc.</p>",
+    "topic": "ietf-118",
+    "dtime": 6193000,
+    "ptime": 6193000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>Extended status and error capability as an important capability, and has been extremely useful in our existing content preposition API implementations that are in our CDN platform.</p>",
+    "topic": "ietf-118",
+    "dtime": 6424000,
+    "ptime": 6424000
+  },
+  {
+    "author": "Sanjay Mishra",
+    "text": "<p>ACK</p>",
+    "topic": "ietf-118",
+    "dtime": 6458000,
+    "ptime": 6458000
+  },
+  {
+    "author": "Glenn Goldstein",
+    "text": "<p>ambitious!</p>",
+    "topic": "ietf-118",
+    "dtime": 6764000,
+    "ptime": 6764000
+  },
+  {
+    "author": "Rajeev RK",
+    "text": "<p>Just wanted to bring up an example in response to @KevinMa -- \"Purge all 4K variant segments across all video assets in the local cache\" , wich may be difficult to do across multiple assets that my have different paths, leading to a complex regex to cover it</p>",
+    "topic": "ietf-118",
+    "dtime": 7190000,
+    "ptime": 7190000
+  },
+  {
+    "author": "Ben Rosenblum",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-118",
+    "dtime": 7230000,
+    "ptime": 7230000
+  },
+  {
+    "author": "Alfonso Silóniz",
+    "text": "<p>thank you all!</p>",
+    "topic": "ietf-118",
+    "dtime": 7233000,
+    "ptime": 7233000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-CDNI-20231107-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/cdni"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-CDNI-20231107-0830"
+		}		
+	]
+}

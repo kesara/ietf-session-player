@@ -1,0 +1,728 @@
+
+{
+	"title": "IETF119-RTGWG-20240318-2330",
+	"filename": "IETF119-RTGWG-20240318-2330",
+	"start": 0,
+	"end": 7545000,
+	"start_datetime": "2024-03-18T23:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "-aZV0w0kvjQ",
+    "start": 0,
+    "end": "7545000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Nice to see the chairs in the spotlight ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 44000,
+    "ptime": 44000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>please help with collective note taking: <a href=\"https://notes.ietf.org/notes-ietf-119-rtgwg?both\">https://notes.ietf.org/notes-ietf-119-rtgwg?both</a></p>",
+    "topic": "ietf-119",
+    "dtime": 140000,
+    "ptime": 140000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Adoption calls still have to go to the list don't they?</p>",
+    "topic": "ietf-119",
+    "dtime": 896000,
+    "ptime": 896000
+  },
+  {
+    "author": "Acee Lindem",
+    "text": "<p>Should go to INT Area</p>",
+    "topic": "ietf-119",
+    "dtime": 945000,
+    "ptime": 945000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>@Andrew, yes, the adoption call will go to the list.</p>",
+    "topic": "ietf-119",
+    "dtime": 1264000,
+    "ptime": 1264000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>On Path aware remote protection - I believe the author is proposing a scheme to handle the remote failure with a path aware backup path already programmed in the FIB.</p>",
+    "topic": "ietf-119",
+    "dtime": 1961000,
+    "ptime": 1961000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>@Antoine didn't catch your question for the notes either, sorry</p>",
+    "topic": "ietf-119",
+    "dtime": 1976000,
+    "ptime": 1976000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>As soon as the notification arrives, switch over happens. The whole goal is to reduce the service outage instead of waiting for BGP withdraw..</p>",
+    "topic": "ietf-119",
+    "dtime": 2008000,
+    "ptime": 2008000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>The switchover scheme is not yet proposed.</p>",
+    "topic": "ietf-119",
+    "dtime": 2024000,
+    "ptime": 2024000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@David My question is about the selection of the remote repair node. Is it a self election mechanism from receiving a failure notification ? If a node tries to repair a path, does it stop the upstream relay of the failure notification ? Can two remote node be repairing a path in parallel?</p>",
+    "topic": "ietf-119",
+    "dtime": 2211000,
+    "ptime": 2211000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>Sorry i meant \"notification scheme\" is not yet proposed.</p>",
+    "topic": "ietf-119",
+    "dtime": 2244000,
+    "ptime": 2244000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Did the person at the mic really say this solution would provide microsecond scale repair?</p>",
+    "topic": "ietf-119",
+    "dtime": 2269000,
+    "ptime": 2269000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Ain’t no way.</p>",
+    "topic": "ietf-119",
+    "dtime": 2276000,
+    "ptime": 2276000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>I agree - has to be milliseconds depending on what the notification scheme is..</p>",
+    "topic": "ietf-119",
+    "dtime": 2314000,
+    "ptime": 2314000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/draft-cheng-rtgwg-ai-network-reliability-problem/\">https://datatracker.ietf.org/doc/draft-cheng-rtgwg-ai-network-reliability-problem/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2595000,
+    "ptime": 2595000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>This draft gives some analysis on requirements of fast protection in AI DC</p>",
+    "topic": "ietf-119",
+    "dtime": 2625000,
+    "ptime": 2625000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>@meetecho, please switch the camera to the presenter</p>",
+    "topic": "ietf-119",
+    "dtime": 2739000,
+    "ptime": 2739000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Done!</p>",
+    "topic": "ietf-119",
+    "dtime": 2753000,
+    "ptime": 2753000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>thank you</p>",
+    "topic": "ietf-119",
+    "dtime": 2765000,
+    "ptime": 2765000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Weiqiang thanks for the link</p>",
+    "topic": "ietf-119",
+    "dtime": 2863000,
+    "ptime": 2863000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>the queue is still stuck with people from the previous draft, can we clear that?</p>",
+    "topic": "ietf-119",
+    "dtime": 2877000,
+    "ptime": 2877000
+  },
+  {
+    "author": "Weiqiang Cheng",
+    "text": "<p>@ John, I mentioned the requirement is sub-millisecondes even us. I don't think  the solution will provide the us scale. But it is valuable to look for the way to improve the recovery time.</p>",
+    "topic": "ietf-119",
+    "dtime": 2955000,
+    "ptime": 2955000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>@weiqiang - the proposal reminds me of AIS/RDI type of scheme.. :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 3034000,
+    "ptime": 3034000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Looks like a pretty picture to me</p>",
+    "topic": "ietf-119",
+    "dtime": 3221000,
+    "ptime": 3221000
+  },
+  {
+    "author": "Dave Phelan",
+    "text": "<p>Wasn’t drawn on a napkin.</p>",
+    "topic": "ietf",
+    "dtime": 3270000,
+    "ptime": 3270000
+  },
+  {
+    "author": "Christopher Hawker",
+    "text": "<p>Another pretty picture!</p>",
+    "topic": "ietf-119",
+    "dtime": 3353000,
+    "ptime": 3353000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>@Jeff haas - on fast recovery topic- you have mentioned other drafts that are being progressed in other eg's - please share the draft names</p>",
+    "topic": "ietf-119",
+    "dtime": 3716000,
+    "ptime": 3716000
+  },
+  {
+    "author": "Acee Lindem",
+    "text": "<p>Is it just me or doesn't the Meetecho private chat  work?</p>",
+    "topic": "ietf-119",
+    "dtime": 4013000,
+    "ptime": 4013000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>is the presentation over? the questioners seem to be assuming that</p>",
+    "topic": "ietf-119",
+    "dtime": 4034000,
+    "ptime": 4034000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>can we finish the presentation first?</p>",
+    "topic": "ietf-119",
+    "dtime": 4053000,
+    "ptime": 4053000
+  },
+  {
+    "author": "Shukri Abdallah",
+    "text": "<p>Do you specify an algorithm for selecting orbits that form a stripe?</p>",
+    "topic": "ietf-119",
+    "dtime": 4084000,
+    "ptime": 4084000
+  },
+  {
+    "author": "Christopher Hawker",
+    "text": "<p>@Acee just tried sending you a private chat.</p>",
+    "topic": "ietf-119",
+    "dtime": 4115000,
+    "ptime": 4115000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Acee: what do you mean by doesn't work? I use it regularly when I need to get in touch with people in rooms, e.g., to provide assistante to remote speakers</p>",
+    "topic": "ietf-119",
+    "dtime": 4133000,
+    "ptime": 4133000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>You can try contacting me privately here too, if you want to test</p>",
+    "topic": "ietf-119",
+    "dtime": 4188000,
+    "ptime": 4188000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>@lorenzo, it is not immediately obvious how to do it from the chat window without starting up zulip</p>",
+    "topic": "ietf-119",
+    "dtime": 4225000,
+    "ptime": 4225000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Adrian: you need to click on the name of the participant from the participants list, and options will appear. The balloon icon will open a private chat</p>",
+    "topic": "ietf-119",
+    "dtime": 4267000,
+    "ptime": 4267000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Yup, but not the participants name in the chat window :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 4290000,
+    "ptime": 4290000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ah no, that's correct: those names are not clickable</p>",
+    "topic": "ietf-119",
+    "dtime": 4331000,
+    "ptime": 4331000
+  },
+  {
+    "author": "Dawei Fan",
+    "text": "<p>off-stripe forwarding seems find short path, my question is how about the propogation in this architecture. it is the same as current IGP(ISIS)?</p>",
+    "topic": "ietf-119",
+    "dtime": 4384000,
+    "ptime": 4384000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>@John, we hope to provide a solution for millisecond repair. but it may need more work on the specific solution and we'll continue to do that</p>",
+    "topic": "ietf-119",
+    "dtime": 4403000,
+    "ptime": 4403000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>Fair to say TE goals are mainly for user stations, to TE path from gateway to satellite is what's critical and TE from satelite to gateway is not ?</p>",
+    "topic": "ietf-119",
+    "dtime": 4825000,
+    "ptime": 4825000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>@Jeff Haas, please help to confirm do you refer to this draft: <a href=\"https://datatracker.ietf.org/doc/draft-wang-idr-next-next-hop-nodes/\">https://datatracker.ietf.org/doc/draft-wang-idr-next-next-hop-nodes/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 4843000,
+    "ptime": 4843000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>** for user downstream traffic</p>",
+    "topic": "ietf-119",
+    "dtime": 4847000,
+    "ptime": 4847000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>well, from experience, satellite guys do -really- like their proprietary stuff ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 5191000,
+    "ptime": 5191000
+  },
+  {
+    "author": "Adrian Farrel",
+    "text": "<p>Quote Jeff: The satellite work is operating in a vacuum</p>",
+    "topic": "ietf-119",
+    "dtime": 5251000,
+    "ptime": 5251000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>that's fantastic</p>",
+    "topic": "ietf-119",
+    "dtime": 5304000,
+    "ptime": 5304000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>Tony, I had some queries about approach, but I'll pick it up in a coffee break. More musing on past efforts.</p>",
+    "topic": "ietf-119",
+    "dtime": 5356000,
+    "ptime": 5356000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>well, security through obscurity is a concept. Plus, interop is only interesting if you look to shop  vendors. Most routier vendors are not particularly good satellite builders and though building a router is not easy, putting a satellite into orbit is of different scale ...</p>",
+    "topic": "ietf-119",
+    "dtime": 5366000,
+    "ptime": 5366000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>I doubt culturally the term \"router scientiscist\" will ever achieve the same level of awe when mentioned as \"rocket scientiscist\" ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 5451000,
+    "ptime": 5451000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Why should this be in the network? I just don't get it. What servers a client uses should not be part of the routing database.</p>",
+    "topic": "ietf-119",
+    "dtime": 5691000,
+    "ptime": 5691000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>This is also outside of charter - APN is a large topic - and for RTGWG to take on any larger topic - it has to be explicitly chartered to do so - as per the current charter</p>",
+    "topic": "ietf-119",
+    "dtime": 5726000,
+    "ptime": 5726000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>Also, there probably going to be only few LEO constellations operating at any given time, very likely interconnected only via ground gateways - so  there is little incentive to bother with standardization</p>",
+    "topic": "ietf-119",
+    "dtime": 5729000,
+    "ptime": 5729000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Dima, well, with the amunt of space junk Elon and AMZN are shooting up there  and grid arrays I'm not sure that is true anymore ...</p>",
+    "topic": "ietf-119",
+    "dtime": 5785000,
+    "ptime": 5785000
+  },
+  {
+    "author": "Changwang Lin",
+    "text": "<p>@Antoine,<br>\nThere are two types of notification mechanisms for:</p>\n<ol>\n<li>\n<p>Proactively notify. The suggestion is to only protect the two-level network and only notify upwards once.<br>\n.</p>\n</li>\n<li>\n<p>Flow triggered notification. Send notifications to the direction of the flow when it is perceived that it cannot be forwarded. This method can notify upstream. If there is no protection path upstream, subsequent traffic will trigger notification to the higher-level device again.<br>\nRemote nodes can simultaneously repair a remote path fault</p>\n</li>\n</ol>\n<p>The remote path aware document needs to address several issues:</p>\n<ol>\n<li>In a specific topology, convergence does not depend on the control surface protocol.</li>\n<li>Control surface protocols, such as BGP, extend support to add remote path information on the next hop of the route.</li>\n<li>Fault perception: perceived by the remote end, and then notified to other protocols to quickly notify the remote end.</li>\n<li>Switching process: It does not rely on the control plane and completes fast switching on the forwarding plane, achieving microsecond level convergence.</li>\n</ol>",
+    "topic": "ietf-119",
+    "dtime": 5817000,
+    "ptime": 5817000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Write a protocol for applications to choose servers don't try and wedge this into routing.</p>",
+    "topic": "ietf-119",
+    "dtime": 5834000,
+    "ptime": 5834000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>+! Christian</p>",
+    "topic": "ietf-119",
+    "dtime": 5854000,
+    "ptime": 5854000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>but problem is certainly  interesting and it seems it can be solved with available tools + reasonable amount of tweaking and without too big sacrifices</p>",
+    "topic": "ietf-119",
+    "dtime": 5859000,
+    "ptime": 5859000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>did the slides just disappear or is it just me?</p>",
+    "topic": "ietf-119",
+    "dtime": 5881000,
+    "ptime": 5881000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>is there a preso after that? Otherwise it's 2aM+ here and bed would be nice instead of suffering through this stuff ...</p>",
+    "topic": "ietf-119",
+    "dtime": 5882000,
+    "ptime": 5882000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>(nevermind, back now)</p>",
+    "topic": "ietf-119",
+    "dtime": 5903000,
+    "ptime": 5903000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>Tony this stuff is progressing b/c lots of people dislike it so much they are ignoring it.</p>",
+    "topic": "ietf-119",
+    "dtime": 5916000,
+    "ptime": 5916000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>we are at →<br>\n10:30<br>\nExtension of Application-aware Networking (APN) Framework for Application Side</p>\n<p>(it's 11:10 now, so &gt;30min over)<br>\n10:40<br>\nApplication-aware Data Center Network (APDN) Use Cases and Requirements</p>\n<p>10:50<br>\nUse Cases and Requirements for Implementing Lossless Techniques in Wide Area Networks</p>\n<p>11:00<br>\nUse Cases-Standalone Service ID in Routing Network</p>",
+    "topic": "ietf-119",
+    "dtime": 5980000,
+    "ptime": 5980000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>well, RFCs are pretty clear what you do with wtuff after 2 failed BOFs. But of course some grownups have to apply the prcedural framework ...</p>",
+    "topic": "ietf-119",
+    "dtime": 5984000,
+    "ptime": 5984000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Well - its failed 2 BOF's if I recall - and the IESG wouldn't approve their proposed charter - and now it's being shopped - but as I said - its explicitly out of charter</p>",
+    "topic": "ietf-119",
+    "dtime": 5992000,
+    "ptime": 5992000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>@Tony - number of sats is  big, no doubt,  and it is growing fast, but as for systems - it's just 2, maybe 3-4 more of comparable scale will come up later, but that's it</p>",
+    "topic": "ietf-119",
+    "dtime": 6027000,
+    "ptime": 6027000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>I'm here</p>",
+    "topic": "ietf-119",
+    "dtime": 6043000,
+    "ptime": 6043000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@David: ok, looks like I get some snooze time back and couple hours sleep before morning meetings get me up again ...</p>",
+    "topic": "ietf-119",
+    "dtime": 6054000,
+    "ptime": 6054000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>:)</p>",
+    "topic": "ietf-119",
+    "dtime": 6098000,
+    "ptime": 6098000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Jeff, yepp, probably but I doubt you'll ever grow up (and we love you for it ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 6123000,
+    "ptime": 6123000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>@Jeff: mic queue is still locked from previous draft btw</p>",
+    "topic": "ietf-119",
+    "dtime": 6139000,
+    "ptime": 6139000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>@David, thanks for the reminder</p>",
+    "topic": "ietf-119",
+    "dtime": 6157000,
+    "ptime": 6157000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 6279000,
+    "ptime": 6279000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>well, I disagree with the premise that network substrate needs to understand the application semantics ...</p>",
+    "topic": "ietf-119",
+    "dtime": 6594000,
+    "ptime": 6594000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>You are not alone in that Tony</p>",
+    "topic": "ietf-119",
+    "dtime": 6618000,
+    "ptime": 6618000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 6625000,
+    "ptime": 6625000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>as @Dima once said: it's all distributed linear algebara at the end ;-) and this does not know whether you're computing tensor cross-section to calculate static stability or train some generative parrot</p>",
+    "topic": "ietf-119",
+    "dtime": 6672000,
+    "ptime": 6672000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>but collective ops is a special beast, HPC interconnects historically provided support for it, at least some of them</p>",
+    "topic": "ietf-119",
+    "dtime": 6681000,
+    "ptime": 6681000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>anyone know how this relates to coinrg?</p>",
+    "topic": "ietf-119",
+    "dtime": 6699000,
+    "ptime": 6699000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>noithing against in-substrate support for folding of course ...</p>",
+    "topic": "ietf-119",
+    "dtime": 6709000,
+    "ptime": 6709000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>@David collective operations - e.g all-reduce, used in ML training, doing intermediate reduction in network can improve performance. Definitely computation in the network.</p>",
+    "topic": "ietf-119",
+    "dtime": 6852000,
+    "ptime": 6852000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>SHARP is doing this today</p>",
+    "topic": "ietf-119",
+    "dtime": 6966000,
+    "ptime": 6966000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>@Jeff exactly, it's a very good example</p>",
+    "topic": "ietf-119",
+    "dtime": 6991000,
+    "ptime": 6991000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>thinking that to the end you basically want S-I-PMSI capable on the substrate setting up such hierarchical folding \"trees\" and that's one of the things I tried to talk to folks about as BIER use case (think generalized sharp distribution substrate ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 7023000,
+    "ptime": 7023000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>but no SHARP for Eth/IP .. at least yet :)</p>",
+    "topic": "ietf-119",
+    "dtime": 7029000,
+    "ptime": 7029000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>unfortunately, the folks dealing with taht are religiously against any type of multicast (for which I have some understanding)</p>",
+    "topic": "ietf-119",
+    "dtime": 7053000,
+    "ptime": 7053000
+  },
+  {
+    "author": "Kehan Yao",
+    "text": "<p>@Dmitry, agree. collective operations offloaded to the switch is a common solution for AI/HPC. So for AI networking, maybe people shouldn't wear glasses, and some in-network behavior maybe helpful.</p>",
+    "topic": "ietf-119",
+    "dtime": 7083000,
+    "ptime": 7083000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I’m not able to stay for this talk on “lossless techniques“ but I want to point out to anyone who isn’t aware that it sure sounds the same as what detnet works on. ￼</p>",
+    "topic": "ietf-119",
+    "dtime": 7085000,
+    "ptime": 7085000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Dima: RIFT a natural for it once we manage to get the multicast folks finishe their work ;-) though of course the multicast here becomes not multicast but really distributed folding operatoin</p>",
+    "topic": "ietf-119",
+    "dtime": 7098000,
+    "ptime": 7098000
+  },
+  {
+    "author": "Yingzhen Qu",
+    "text": "<p>@John, noted.</p>",
+    "topic": "ietf-119",
+    "dtime": 7137000,
+    "ptime": 7137000
+  },
+  {
+    "author": "Jeff Tantsura",
+    "text": "<p>multicast (or tree building at all) is the least of your problem, ASIC doing reduction at line rate is though</p>",
+    "topic": "ietf-119",
+    "dtime": 7137000,
+    "ptime": 7137000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>ASICs are easy, they build a new one every 6 months ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 7154000,
+    "ptime": 7154000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>@Tony yes, establish reduction topology - this is straightforward, but also deal with data loss, reducer failures, latency bounds, maybe agreement on quantization</p>",
+    "topic": "ietf-119",
+    "dtime": 7162000,
+    "ptime": 7162000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Dima, you know me, I'm a control plane whinie, the larger the scale the better ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 7191000,
+    "ptime": 7191000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>but of course I agree, practically to get such distributed folding deliver real gainss is anything but eays at the volumes</p>",
+    "topic": "ietf-119",
+    "dtime": 7221000,
+    "ptime": 7221000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>vectors to be reduced can be quite large, so enough of buffer space on reducing switches</p>",
+    "topic": "ietf-119",
+    "dtime": 7224000,
+    "ptime": 7224000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>oh, people complained about private messaging not working because I just discovered a long queue of little symbols at the top I ignored ;-) Cute ...</p>",
+    "topic": "ietf-119",
+    "dtime": 7346000,
+    "ptime": 7346000
+  },
+  {
+    "author": "Dmitry Afanasiev",
+    "text": "<p>@Tony I'm with you wrt scale - the larger the better, also that's where really interesting problems start to appear, and just throwing money is not enough to make those problems go away  :)</p>",
+    "topic": "ietf-119",
+    "dtime": 7367000,
+    "ptime": 7367000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Dima, nah, money helps. You just start to throw it at smart people rather than brute forcing it ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 7416000,
+    "ptime": 7416000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>okey, bed now. fun session ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 7425000,
+    "ptime": 7425000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-RTGWG-20240318-2330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/rtgwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-RTGWG-20240318-2330"
+		}		
+	]
+}

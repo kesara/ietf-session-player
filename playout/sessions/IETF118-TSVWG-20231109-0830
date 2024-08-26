@@ -1,0 +1,357 @@
+
+{
+	"title": "IETF118-TSVWG-20231109-0830",
+	"filename": "IETF118-TSVWG-20231109-0830",
+	"start": 0,
+	"end": 7581000,
+	"start_datetime": "2023-11-09T08:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "WQYeyofDsjE",
+    "start": 0,
+    "end": "7581000"
+  }
+],
+	"messages": [
+  {
+    "author": "Chris Box",
+    "text": "<p>I don't attend v6ops so I'm glad this is being raised here. Getting optimisations right could significantly affect user experience. Good to see these ideas.</p>",
+    "topic": "ietf-118",
+    "dtime": 790000,
+    "ptime": 790000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>There are tons of complications with new transport -- like the QUIc handshake going hrough three stages each of which provide info, the use or not of 0-RTT, etc. That argues for transport, not IPv6!</p>",
+    "topic": "ietf-118",
+    "dtime": 1082000,
+    "ptime": 1082000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>(slowly removes gloves and rolls up sleeves)</p>",
+    "topic": "ietf-118",
+    "dtime": 1207000,
+    "ptime": 1207000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>Ditto, QUIC has inherent advantage of the connection establishment .. I think it would be better to take this in QUIC .. This is kinda different from v4 and v6 race .. it would be more interesting to discuss this topic in transport</p>",
+    "topic": "ietf-118",
+    "dtime": 1263000,
+    "ptime": 1263000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>Why does the customer have a 225mS upstream queue avaliable?</p>",
+    "topic": "ietf-118",
+    "dtime": 1851000,
+    "ptime": 1851000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>For a tunneled packets : Isn't the ECN /DSCP tag from the inner header invisible tp the gateway like this for classification into low latency  or  normal latency ?<br>\nAdditionally an encapsulated protocol like ipse can set its own DSCP 45 to outer header  to hijack the queues ?</p>",
+    "topic": "ietf-118",
+    "dtime": 2071000,
+    "ptime": 2071000
+  },
+  {
+    "author": "altanai",
+    "text": "<p>encapsulating protocol like IPSec *</p>",
+    "topic": "ietf-118",
+    "dtime": 2106000,
+    "ptime": 2106000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Presumably the increase in RPM will be larger once the downstream L4S support is deployed.</p>",
+    "topic": "ietf-118",
+    "dtime": 2672000,
+    "ptime": 2672000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>8325 recommends gaming in VI</p>",
+    "topic": "ietf-118",
+    "dtime": 2755000,
+    "ptime": 2755000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>@Chris: RPM can be measured separately for UL vs DL. In case of comcast results, there were some discrepancies in how users were running those tests. As Jason said, RPM improved after they confirmed with customers</p>",
+    "topic": "ietf-118",
+    "dtime": 2901000,
+    "ptime": 2901000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Thanks Vidhi. I hadn't grasped that part. Jason implied he was looking for RPMs in the thousands so I guess there's work to do to identify where the packets are spending their time.</p>",
+    "topic": "ietf-118",
+    "dtime": 3016000,
+    "ptime": 3016000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@Chris - We are very interested in the diff when we get the cable modem config files that had been incorrectly limiting upstream L4S throughput.</p>",
+    "topic": "ietf-118",
+    "dtime": 3304000,
+    "ptime": 3304000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Yes many of us will be interested in the numbers. If you can share those that would be brilliant.</p>",
+    "topic": "ietf-118",
+    "dtime": 3490000,
+    "ptime": 3490000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@rodney re \"Why does the customer have a 225mS upstream queue avaliable?\" Typically with DOCSIS PIE AQM you'd see maybe 25-30 ms of p99 LUL between CM and CMTS. Extending that across a much longer path off-net elevates that number and so e2e LUL around p99 at that level isn't unexpected.</p>",
+    "topic": "ietf-118",
+    "dtime": 3552000,
+    "ptime": 3552000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>Is there any topology descriptions and data collected during these interops?</p>",
+    "topic": "ietf-118",
+    "dtime": 3581000,
+    "ptime": 3581000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>30ms at the CM-CMTS plus 30ms baseline path is only 60ms though</p>",
+    "topic": "ietf-118",
+    "dtime": 3593000,
+    "ptime": 3593000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>so there's 160ms missing from the accounting somewhere</p>",
+    "topic": "ietf-118",
+    "dtime": 3651000,
+    "ptime": 3651000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>@jason my expierence says this 225ms is mostly at the upstream bottleneck in the modem.</p>",
+    "topic": "ietf-118",
+    "dtime": 3663000,
+    "ptime": 3663000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>@jason in the GEForce slide </p>\n<p>With L4S: latency 28ms, uplink speed: 119Mbps</p>\n<p>without: 259 ms, uplink speed: 57 </p>\n<p>No tradeoff? the uplink BE traffic any special treatment with L4S</p>",
+    "topic": "ietf-118",
+    "dtime": 3827000,
+    "ptime": 3827000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>those numbers also don't at all match the 35Mbps upload capacity from slide 4</p>",
+    "topic": "ietf-118",
+    "dtime": 3873000,
+    "ptime": 3873000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@Madhan see also <a href=\"https://www.ietf.org/archive/id/draft-ietf-tsvwg-nqb-21.html#name-interoperability-with-exist\">https://www.ietf.org/archive/id/draft-ietf-tsvwg-nqb-21.html#name-interoperability-with-exist</a></p>",
+    "topic": "ietf-118",
+    "dtime": 3926000,
+    "ptime": 3926000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@jonathan There's also server-side processing at work in this - these are layer 7  stats from the client itself</p>",
+    "topic": "ietf-118",
+    "dtime": 4031000,
+    "ptime": 4031000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@jonathan said \"225ms is mostly at the upstream bottleneck in the modem.\" Depends on the modem. If D3.0 then yes - buffer control usually sets it as 250ms max IIRC but D3.1 is AQM is on would be much lower. Again though this only focuses on the DOCSIS layer in the hop between CM and CMTS. When we pop up to layer 7 and go off-net there are additional variable.</p>",
+    "topic": "ietf-118",
+    "dtime": 4132000,
+    "ptime": 4132000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>that was actually Rod</p>",
+    "topic": "ietf-118",
+    "dtime": 4169000,
+    "ptime": 4169000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>but in this application, I'd expect even layer 7 to try very hard to minimise added delay</p>",
+    "topic": "ietf-118",
+    "dtime": 4204000,
+    "ptime": 4204000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>so again, how are you getting 225ms latency <em>without</em> L4S?</p>",
+    "topic": "ietf-118",
+    "dtime": 4242000,
+    "ptime": 4242000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>from experience (paper to be presented in GS), the default gaming does use suggested DSCP or the Wi-Fi UP .. In Android (Samsung), we ensure that real-time gaming Wi-Fi UP is AC_VI .. if the legacy apps were configured properly, then further comments .. :) </p>\n<p>Game and video call both should be VI btw .. so current L4S is as per RFC .. I hope non-L4S is also as per RFC 8325 <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4253000,
+    "ptime": 4253000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@jonathan re \"those numbers also don't at all match the 35Mbps upload capacity from slide 4\" That 35 Mbps was one example of a gig tier user with 35 Mbps US. We also have advertised rates of 100 Mbps and 200 Mbps in the test (provisioned at 125 Mbps and 250 Mbps respectively).</p>",
+    "topic": "ietf-118",
+    "dtime": 4261000,
+    "ptime": 4261000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>no further comments *</p>",
+    "topic": "ietf-118",
+    "dtime": 4301000,
+    "ptime": 4301000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>@jonathan re \"so again, how are you getting 225ms latency without L4S?\" Keep in mind these are not ISP stats off layer 3 but app developer stats off layer 7. There's a lot happening at that layer. See for example this NetForecast report on video conferencing (figure 8) <a href=\"https://www.netforecast.com/wp-content/uploads/NFR5137-Videoconferencing_Internet_Requirements.pdf\">https://www.netforecast.com/wp-content/uploads/NFR5137-Videoconferencing_Internet_Requirements.pdf</a>. That example shows even aside from the network RTT that there may be audio &amp; video processing and other app layer interactions.  In any case, these are straight out of the application.</p>",
+    "topic": "ietf-118",
+    "dtime": 4541000,
+    "ptime": 4541000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>as I said in the beginning, these are exactly the kinds of things that get solved by deploying Cake (or fq_codel), without needing any wire protocol changes</p>",
+    "topic": "ietf-118",
+    "dtime": 4845000,
+    "ptime": 4845000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p><span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span>‍♂️</p>",
+    "topic": "ietf-118",
+    "dtime": 5304000,
+    "ptime": 5304000
+  },
+  {
+    "author": "Jason Livingood",
+    "text": "<p>(tried to send a shurg emoji @JM - what a strange way that came to the chat!)</p>",
+    "topic": "ietf-118",
+    "dtime": 5339000,
+    "ptime": 5339000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>apparently the emojis are broken, Meetecho know about it</p>",
+    "topic": "ietf-118",
+    "dtime": 5361000,
+    "ptime": 5361000
+  },
+  {
+    "author": "Greg White",
+    "text": "<p>The D3.1 spec <em>recommends</em> that CM implementations default to a 50ms buffer (with RFC8034 AQM), it may be worth validating that these CMs are in fact defaulting to something close to that value.  If not, the buffer can be configured to be so.</p>",
+    "topic": "ietf-118",
+    "dtime": 5399000,
+    "ptime": 5399000
+  },
+  {
+    "author": "Spencer Dawkins",
+    "text": "<p>I can HEAR Gorry remotely, but I can imagine that Gorry can't THINK when he hears drilling ...</p>",
+    "topic": "ietf-118",
+    "dtime": 5771000,
+    "ptime": 5771000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>yeah, the drilling is not loud through the mic, but it's probably a lot louder locally</p>",
+    "topic": "ietf-118",
+    "dtime": 5801000,
+    "ptime": 5801000
+  },
+  {
+    "author": "Greg White",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3361\">Madhan Kanagarathinam</span> <a href=\"#narrow/stream/138-tsvwg/topic/ietf-118/near/99362\">said</a>:</p>\n<blockquote>\n<p>I hope non-L4S is also as per RFC 8325 <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>\n</blockquote>\n<p>Any info on prevalence of RFC8325 in the wild?</p>",
+    "topic": "ietf-118",
+    "dtime": 5955000,
+    "ptime": 5955000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>The work is yet to be published .. opening up in IEEE Globecom 2-23 .. When I tested top RT gaming apps in Android, everything was AC_BE .. :-( However,, not anymore ..</p>",
+    "topic": "ietf-118",
+    "dtime": 6049000,
+    "ptime": 6049000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>@GW</p>",
+    "topic": "ietf-118",
+    "dtime": 6059000,
+    "ptime": 6059000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>WiFi UP doesn’t provide any benefit after the first hop. That is not enough end to end. And hence L4S.</p>",
+    "topic": "ietf-118",
+    "dtime": 6444000,
+    "ptime": 6444000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>Yes, but when we talk about best effort upload and gaming uplink traffic racing, then Wi-Fi UP make the difference .. theoretically and practically ..</p>",
+    "topic": "ietf-118",
+    "dtime": 6711000,
+    "ptime": 6711000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>Agreed</p>",
+    "topic": "ietf-118",
+    "dtime": 6793000,
+    "ptime": 6793000
+  },
+  {
+    "author": "Madhan Kanagarathinam",
+    "text": "<p>Again my curiosity was if the comparison was </p>\n<p>L4S AC_Vi vs non -L4S AC_vi </p>\n<p>it should not be  L4S AC_Vi vs non-L4S AC_Be (most of RT gaming follow this)</p>",
+    "topic": "ietf-118",
+    "dtime": 7024000,
+    "ptime": 7024000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>how do we hum remotely?</p>",
+    "topic": "ietf-118",
+    "dtime": 7425000,
+    "ptime": 7425000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>I think raising hands</p>",
+    "topic": "ietf-118",
+    "dtime": 7467000,
+    "ptime": 7467000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-TSVWG-20231109-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/tsvwg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-TSVWG-20231109-0830"
+		}		
+	]
+}

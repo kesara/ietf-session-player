@@ -1,0 +1,588 @@
+
+{
+	"title": "IETF112-WISH-20211112-1430",
+	"filename": "IETF112-WISH-20211112-1430",
+	"start": 0,
+	"end": 3639000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "TbCxKFkSfCg",
+    "start": 0,
+    "end": "3639000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 549000,
+    "ptime": 549000,
+    "author": "Martin Thomson",
+    "text": "you can't avoid clients having to check response codes; if you are using HTTP, then you need to deal with HTTP status codes<br/>"
+  },
+  {
+    "dtime": 746000,
+    "ptime": 746000,
+    "author": "Martin Thomson",
+    "text": "eye chart!<br/>"
+  },
+  {
+    "dtime": 795000,
+    "ptime": 795000,
+    "author": "Martin Thomson",
+    "text": "it's OK to not mandate automatic redirect following, or to mandate not following redirects, but you might find that redirects are a useful feature<br/>"
+  },
+  {
+    "dtime": 821000,
+    "ptime": 821000,
+    "author": "Mark Nottingham",
+    "text": "+1 - redirects are going to be operationally convenient, and possibly necessary, for some<br/>"
+  },
+  {
+    "dtime": 988000,
+    "ptime": 988000,
+    "author": "Martin Thomson",
+    "text": "8838<br/>"
+  },
+  {
+    "dtime": 1003000,
+    "ptime": 1003000,
+    "author": "Lorenzo Miniero",
+    "text": "<a href=\"https://www.rfc-editor.org/rfc/rfc8840.html\" rel=\"nofollow\">https://www.rfc-editor.org/rfc/rfc8840.html</a><br/>"
+  },
+  {
+    "dtime": 1092000,
+    "ptime": 1092000,
+    "author": "Martin Thomson",
+    "text": "PATCH is fine, unless you are attempting to reuse the media type defined in 8840 (if it even defines a media type)<br/>"
+  },
+  {
+    "dtime": 1142000,
+    "ptime": 1142000,
+    "author": "Martin Thomson",
+    "text": "Oh, 8840 does define a media type, so if you patch iwth application/trickle-ice-sdpfrag, that has to follow the definition of that media type in RFC 8840.<br/>"
+  },
+  {
+    "dtime": 1248000,
+    "ptime": 1248000,
+    "author": "Martin Thomson",
+    "text": "O/A doesn't match HTTP request/response<br/>"
+  },
+  {
+    "dtime": 1312000,
+    "ptime": 1312000,
+    "author": "Ted Hardie",
+    "text": "By the way, we're getting a lot of typing sounds on the side; can folks check their mute status?<br/>"
+  },
+  {
+    "dtime": 1342000,
+    "ptime": 1342000,
+    "author": "Martin Thomson",
+    "text": "I think that the typing might be Adam Roach.<br/>"
+  },
+  {
+    "dtime": 1381000,
+    "ptime": 1381000,
+    "author": "Martin Thomson",
+    "text": "Adam?<br/>"
+  },
+  {
+    "dtime": 1394000,
+    "ptime": 1394000,
+    "author": "Martin Thomson",
+    "text": "Thanks<br/>"
+  },
+  {
+    "dtime": 1454000,
+    "ptime": 1454000,
+    "author": "Sean Turner",
+    "text": "Hi we closed the queue to make sure we get to other presentations ... we can take some of this to the list ;)<br/>"
+  },
+  {
+    "dtime": 1474000,
+    "ptime": 1474000,
+    "author": "Adam Roach",
+    "text": "I'm spoiled by Zoom's typing noise suppression. Sorry, folks. :)<br/>"
+  },
+  {
+    "dtime": 1489000,
+    "ptime": 1489000,
+    "author": "Martin Thomson",
+    "text": "waiting in queue is chafing a little, I have to say<br/>"
+  },
+  {
+    "dtime": 1509000,
+    "ptime": 1509000,
+    "author": "Martin Thomson",
+    "text": "Cullen is asking the right questions, I think<br/>"
+  },
+  {
+    "dtime": 1522000,
+    "ptime": 1522000,
+    "author": "Adam Roach",
+    "text": "Martin: same on the queue<br/>"
+  },
+  {
+    "dtime": 1539000,
+    "ptime": 1539000,
+    "author": "Timothy Panton",
+    "text": "The problem is using fragment in Patch<br/>"
+  },
+  {
+    "dtime": 1540000,
+    "ptime": 1540000,
+    "author": "Adam Roach",
+    "text": "But it's worth noting that trickle ice is a solution requirement, not a byproduct of the architecture<br/>"
+  },
+  {
+    "dtime": 1572000,
+    "ptime": 1572000,
+    "author": "Lorenzo Miniero",
+    "text": "I guess the answer might be that it's just awkward from a semantic perspective to refer to things the \"wrong way\": we're definitely not saving bytes (it's not much), but a m=audio RTP/AVP 0 seems wrong<br/>"
+  },
+  {
+    "dtime": 1598000,
+    "ptime": 1598000,
+    "author": "Timothy Panton",
+    "text": "For what it is worth my client doesn't send an offer until it has all the candidates.<br/>"
+  },
+  {
+    "dtime": 1613000,
+    "ptime": 1613000,
+    "author": "Martin Thomson",
+    "text": "Tim: that's entirely reasonable<br/>"
+  },
+  {
+    "dtime": 1641000,
+    "ptime": 1641000,
+    "author": "Lorenzo Miniero",
+    "text": "Yeah I added an option to my WHIP client to do either too (send all candidates in SDP vs. trickle)<br/>"
+  },
+  {
+    "dtime": 1658000,
+    "ptime": 1658000,
+    "author": "Juliusz Chroboczek",
+    "text": "Timothy, it works fine if there's no TURN servers involved.&nbsp;&nbsp;It takes ages when there's TURN in the way.<br/>"
+  },
+  {
+    "dtime": 1690000,
+    "ptime": 1690000,
+    "author": "Juliusz Chroboczek",
+    "text": "The tragedy is that TURN is required, at least if you have to deal with university networks.<br/>"
+  },
+  {
+    "dtime": 1727000,
+    "ptime": 1727000,
+    "author": "Timothy Panton",
+    "text": "TURN at both ends ? I usually find one is enough.<br/>"
+  },
+  {
+    "dtime": 1764000,
+    "ptime": 1764000,
+    "author": "Lorenzo Miniero",
+    "text": "I think Juliusz meant indeed gathering TURN on the client side, which might take longer if you need to wait for it<br/>"
+  },
+  {
+    "dtime": 1775000,
+    "ptime": 1775000,
+    "author": "Juliusz Chroboczek",
+    "text": "Yes.<br/>"
+  },
+  {
+    "dtime": 1828000,
+    "ptime": 1828000,
+    "author": "Stephan Wenger",
+    "text": "Is this an issue between syntax and semantics?<br/>"
+  },
+  {
+    "dtime": 1888000,
+    "ptime": 1888000,
+    "author": "Martin Thomson",
+    "text": "This is an issue of communication.<br/>"
+  },
+  {
+    "dtime": 1950000,
+    "ptime": 1950000,
+    "author": "Lorenzo Miniero",
+    "text": "I agree that a different definiiton would be needed, in case, and would need a different media type to avoid conflicts: would this need to happen as a new separate draft, though, or something that can happen in the whip draft?<br/>"
+  },
+  {
+    "dtime": 2014000,
+    "ptime": 2014000,
+    "author": "Mike English",
+    "text": "Lorenzo++<br/>"
+  },
+  {
+    "dtime": 2026000,
+    "ptime": 2026000,
+    "author": "Cullen Jennings",
+    "text": "+1<br/>"
+  },
+  {
+    "dtime": 2058000,
+    "ptime": 2058000,
+    "author": "Juliusz Chroboczek",
+    "text": "Right.<br/>"
+  },
+  {
+    "dtime": 2062000,
+    "ptime": 2062000,
+    "author": "Martin Thomson",
+    "text": "If you need a definition that is a session-only ice attributes update, then you can do that in the same draft.<br/>"
+  },
+  {
+    "dtime": 2117000,
+    "ptime": 2117000,
+    "author": "Cullen Jennings",
+    "text": "We can discuss somewhere else but not sure I agree with Adam when recorder has public IP<br/>"
+  },
+  {
+    "dtime": 2118000,
+    "ptime": 2118000,
+    "author": "Mike English",
+    "text": "Adam and Juluisz - what's the threshold for acceptable startup delay? How long can you reasonably wait?<br/>"
+  },
+  {
+    "dtime": 2139000,
+    "ptime": 2139000,
+    "author": "Cullen Jennings",
+    "text": "I think the arch issue we need to resolve is if the server needs a public IP address or not <br/>"
+  },
+  {
+    "dtime": 2167000,
+    "ptime": 2167000,
+    "author": "Lorenzo Miniero",
+    "text": "Some networks have firewalls that block UDP, snd not all servers do ICE-TCP, and so may need TURN-TCP to get something up and running<br/>"
+  },
+  {
+    "dtime": 2170000,
+    "ptime": 2170000,
+    "author": "Martin Thomson",
+    "text": "Juliusz: I think that you are looking for distinct media types rather than query parameters or header fields.<br/>"
+  },
+  {
+    "dtime": 2177000,
+    "ptime": 2177000,
+    "author": "Mike English",
+    "text": "Cullen++<br/>"
+  },
+  {
+    "dtime": 2179000,
+    "ptime": 2179000,
+    "author": "Juliusz Chroboczek",
+    "text": "Martin, fine with me.<br/>"
+  },
+  {
+    "dtime": 2185000,
+    "ptime": 2185000,
+    "author": "Martin Thomson",
+    "text": "one for ICE update, one for trickling<br/>"
+  },
+  {
+    "dtime": 2238000,
+    "ptime": 2238000,
+    "author": "Juliusz Chroboczek",
+    "text": "Sergio, agreed, that's orthogonal to the issue of out-of-order restarts.<br/>"
+  },
+  {
+    "dtime": 2278000,
+    "ptime": 2278000,
+    "author": "Martin Thomson",
+    "text": "Please do not use sequence numbers, use HTTP conditional requests.<br/>"
+  },
+  {
+    "dtime": 2324000,
+    "ptime": 2324000,
+    "author": "Adam Roach",
+    "text": "Agree with Martin that we already have etags to solve this problem<br/>"
+  },
+  {
+    "dtime": 2342000,
+    "ptime": 2342000,
+    "author": "Cullen Jennings",
+    "text": "@Lorenzo - for the case of UDP is blocked, I think having the server support TCP is really a better direction and is never going to resuplt in super fast startup<br/>"
+  },
+  {
+    "dtime": 2446000,
+    "ptime": 2446000,
+    "author": "Martin Thomson",
+    "text": "ufrags can still be used to avoid issues with concurrent updates and trickles, but etags are what you are looking for<br/>"
+  },
+  {
+    "dtime": 2453000,
+    "ptime": 2453000,
+    "author": "Martin Thomson",
+    "text": "(or if-modified-since)<br/>"
+  },
+  {
+    "dtime": 2533000,
+    "ptime": 2533000,
+    "author": "Martin Thomson",
+    "text": "Reference: <a href=\"https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#conditional.requests\" rel=\"nofollow\">https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#conditional.requests</a><br/>"
+  },
+  {
+    "dtime": 2574000,
+    "ptime": 2574000,
+    "author": "Martin Thomson",
+    "text": "That's invalid Link header field syntax, incidentally, but it isn't a terrible idea.<br/>"
+  },
+  {
+    "dtime": 2625000,
+    "ptime": 2625000,
+    "author": "Juliusz Chroboczek",
+    "text": "Cullen, the issue I'm having is with student networks disconnected from the Internet (they go through an HTTP proxy).&nbsp;&nbsp;The system administrators are understandably nervous about putting Galene in the DMZ, but they are potentially open to putting a TURN server in the DMZ.<br/>"
+  },
+  {
+    "dtime": 2669000,
+    "ptime": 2669000,
+    "author": "Juliusz Chroboczek",
+    "text": "I know it's an exceptional case, but it shows that there are legitimate reasons to require a TURN server.<br/>"
+  },
+  {
+    "dtime": 2721000,
+    "ptime": 2721000,
+    "author": "Martin Thomson",
+    "text": "limiting OPTIONS to CORS is sensible<br/>"
+  },
+  {
+    "dtime": 2760000,
+    "ptime": 2760000,
+    "author": "Martin Thomson",
+    "text": "browsers will eat OPTIONS if you are doing CORS; I don't think your Link relations will get to the application.<br/>"
+  },
+  {
+    "dtime": 2782000,
+    "ptime": 2782000,
+    "author": "Martin Thomson",
+    "text": "you can fetch with OPTIONS directly, but that will be preflighted still<br/>"
+  },
+  {
+    "dtime": 2796000,
+    "ptime": 2796000,
+    "author": "Juliusz Chroboczek",
+    "text": "HEAD?<br/>"
+  },
+  {
+    "dtime": 2854000,
+    "ptime": 2854000,
+    "author": "Martin Thomson",
+    "text": "what are you looking to achieve?<br/>"
+  },
+  {
+    "dtime": 2871000,
+    "ptime": 2871000,
+    "author": "Lorenzo Miniero",
+    "text": "I'd be fine with a GET to the endpoint to get some info you can use too: it would be one more RTT for the setup, but only endpoints that can't use POST for that would use it anyway<br/>"
+  },
+  {
+    "dtime": 2894000,
+    "ptime": 2894000,
+    "author": "Martin Thomson",
+    "text": "If you want to ensure that you have all the TURN information BEFORE you generate an offer, then you need something.&nbsp;&nbsp;OPTIONS does exist for that purpose.<br/>"
+  },
+  {
+    "dtime": 2909000,
+    "ptime": 2909000,
+    "author": "Lorenzo Miniero",
+    "text": "Martin: basically it's to ensure you can get a STUN/TURN server from the WHIP server before you generate your offer<br/>"
+  },
+  {
+    "dtime": 2915000,
+    "ptime": 2915000,
+    "author": "Martin Thomson",
+    "text": "Of course, if you are doing OPTIONS to get configuration for the server, then why not put the information in the body of the response?<br/>"
+  },
+  {
+    "dtime": 2929000,
+    "ptime": 2929000,
+    "author": "Martin Thomson",
+    "text": "Lorenzo: yeah, I had inferred that<br/>"
+  },
+  {
+    "dtime": 2957000,
+    "ptime": 2957000,
+    "author": "Lorenzo Miniero",
+    "text": "Body would work too, I think Link was suggested just for consistency with POST (where the body is used by the SDP)<br/>"
+  },
+  {
+    "dtime": 2983000,
+    "ptime": 2983000,
+    "author": "Martin Thomson",
+    "text": "Link is fine for this.<br/>"
+  },
+  {
+    "dtime": 3018000,
+    "ptime": 3018000,
+    "author": "Cullen Jennings",
+    "text": "@Juliusz - I get the argument that one could run the server in private networks but it ups the complexity substantially. Running the TURN server in the DMZ does not really have security advantages over having the DMZ forward a single media port from DMZ to the server. Food for thought. But my meta point is we need to decide what our deployment architectures we support are and then the answer to this will be clear. <br/>"
+  },
+  {
+    "dtime": 3039000,
+    "ptime": 3039000,
+    "author": "Martin Thomson",
+    "text": "If you are requiring authentication for this OPTIONS, then browsers will preflight that.&nbsp;&nbsp;That means you have OPTIONS, OPTIONS, OPTIONS, POST.&nbsp;&nbsp;Enjoy.<br/>"
+  },
+  {
+    "dtime": 3076000,
+    "ptime": 3076000,
+    "author": "Sergio Garcia Murillo",
+    "text": "browsers supports updating config with config received on the post<br/>"
+  },
+  {
+    "dtime": 3090000,
+    "ptime": 3090000,
+    "author": "Sergio Garcia Murillo",
+    "text": "so they should just do OPTIONS(CORS),POST<br/>"
+  },
+  {
+    "dtime": 3094000,
+    "ptime": 3094000,
+    "author": "Martin Thomson",
+    "text": "sergio: when you say \"supports\", what do you mean?<br/>"
+  },
+  {
+    "dtime": 3118000,
+    "ptime": 3118000,
+    "author": "Martin Thomson",
+    "text": "do they generate new candidates and trickle them or do you need to generate a new offer?<br/>"
+  },
+  {
+    "dtime": 3128000,
+    "ptime": 3128000,
+    "author": "Sergio Garcia Murillo",
+    "text": "they supoport<br/>"
+  },
+  {
+    "dtime": 3139000,
+    "ptime": 3139000,
+    "author": "Sergio Garcia Murillo",
+    "text": "pc = new RTCPeerconnection({})<br/>"
+  },
+  {
+    "dtime": 3158000,
+    "ptime": 3158000,
+    "author": "Sergio Garcia Murillo",
+    "text": "pc.createOffer() &amp; pc.setLocalDescription()<br/>"
+  },
+  {
+    "dtime": 3175000,
+    "ptime": 3175000,
+    "author": "Sergio Garcia Murillo",
+    "text": "pc.setConfiguration({iceServers:{....}})<br/>"
+  },
+  {
+    "dtime": 3182000,
+    "ptime": 3182000,
+    "author": "Sergio Garcia Murillo",
+    "text": "pc.setRemoteDescription()<br/>"
+  },
+  {
+    "dtime": 3197000,
+    "ptime": 3197000,
+    "author": "Sergio Garcia Murillo",
+    "text": "without doing an ice restart that would invalidate the SDP offer<br/>"
+  },
+  {
+    "dtime": 3235000,
+    "ptime": 3235000,
+    "author": "Martin Thomson",
+    "text": "sounds reasonable, you just need to support trickle :)<br/>"
+  },
+  {
+    "dtime": 3305000,
+    "ptime": 3305000,
+    "author": "Juliusz Chroboczek",
+    "text": "Cool.<br/>"
+  },
+  {
+    "dtime": 3307000,
+    "ptime": 3307000,
+    "author": "Adam Roach",
+    "text": "Martin: you're falling into the gap between spec and implementation here. you can argue that the sequence Sergio posts should work -- but then go try it in Chrome, Firefox, Edge, and Safari and let me know what happens.<br/>"
+  },
+  {
+    "dtime": 3314000,
+    "ptime": 3314000,
+    "author": "Adam Roach",
+    "text": "(Hint: it's not going to work)<br/>"
+  },
+  {
+    "dtime": 3330000,
+    "ptime": 3330000,
+    "author": "Sergio Garcia Murillo",
+    "text": "adam, I have tested it.. :)<br/>"
+  },
+  {
+    "dtime": 3523000,
+    "ptime": 3523000,
+    "author": "Martin Thomson",
+    "text": "different URL parameters == different URLs<br/>"
+  },
+  {
+    "dtime": 3550000,
+    "ptime": 3550000,
+    "author": "Mark Nottingham",
+    "text": "Why can't links be discovered to separate resources?<br/>"
+  },
+  {
+    "dtime": 3554000,
+    "ptime": 3554000,
+    "author": "Mike English",
+    "text": "Yeah, I think obscuring a required parameter like that is asking for a different set of problems<br/>"
+  },
+  {
+    "dtime": 3567000,
+    "ptime": 3567000,
+    "author": "Martin Thomson",
+    "text": "mnot: I read this as an implementation constraint/preference<br/>"
+  },
+  {
+    "dtime": 3568000,
+    "ptime": 3568000,
+    "author": "Mark Nottingham",
+    "text": "Also violating BCP190, from the sound of it<br/>"
+  },
+  {
+    "dtime": 3583000,
+    "ptime": 3583000,
+    "author": "Mark Nottingham",
+    "text": "Ah<br/>"
+  },
+  {
+    "dtime": 3584000,
+    "ptime": 3584000,
+    "author": "Martin Thomson",
+    "text": "mnot: yeah, I think that this is easily surmountable<br/>"
+  },
+  {
+    "dtime": 3624000,
+    "ptime": 3624000,
+    "author": "Juliusz Chroboczek",
+    "text": "Thanks a lot!<br/>"
+  },
+  {
+    "dtime": 3633000,
+    "ptime": 3633000,
+    "author": "Adam Roach",
+    "text": "Thanks to the chairs and presenters!<br/>"
+  },
+  {
+    "dtime": 3639000,
+    "ptime": 3639000,
+    "author": "Lorenzo Miniero",
+    "text": "Thanks all!<br/>"
+  },
+  {
+    "dtime": 3643000,
+    "ptime": 3643000,
+    "author": "Sergio Garcia Murillo",
+    "text": "thank you all!<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-WISH-20211112-1430"
+		}
+	]
+}

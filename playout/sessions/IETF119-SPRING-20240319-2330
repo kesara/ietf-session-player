@@ -1,0 +1,581 @@
+
+{
+	"title": "IETF119-SPRING-20240319-2330",
+	"filename": "IETF119-SPRING-20240319-2330",
+	"start": 0,
+	"end": 7164000,
+	"start_datetime": "2024-03-19T23:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "suoTdeedNJs",
+    "start": 0,
+    "end": "7164000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>good morning :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 32000,
+    "ptime": 32000
+  },
+  {
+    "author": "Shuping Peng",
+    "text": "<p>Good morning!</p>",
+    "topic": "ietf-119",
+    "dtime": 80000,
+    "ptime": 80000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>5 am for you ketan! That is real morning...</p>",
+    "topic": "ietf-119",
+    "dtime": 89000,
+    "ptime": 89000
+  },
+  {
+    "author": "Martin Horneffer",
+    "text": "<p>good morning! or whatever you say after 2 hours of sleep ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 128000,
+    "ptime": 128000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Good night from EU</p>",
+    "topic": "ietf-119",
+    "dtime": 145000,
+    "ptime": 145000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>so something checking a checksum is supposed to be a broken device? this kind of \"logic\" utterly defies me ...</p>",
+    "topic": "ietf-119",
+    "dtime": 881000,
+    "ptime": 881000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Tony that \"something\" is  a middle box ... where is it specified that it needs to do L4 checksum verification?</p>",
+    "topic": "ietf-119",
+    "dtime": 945000,
+    "ptime": 945000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>+1 Ketan</p>",
+    "topic": "ietf-119",
+    "dtime": 970000,
+    "ptime": 970000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>so we build networks now where we carry packets that have broken checksums and consider that secure/reliable/coherent? as I say the \"logic\" applied here utterly defies me</p>",
+    "topic": "ietf-119",
+    "dtime": 1009000,
+    "ptime": 1009000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Also, middleboxes have to and do adopt to new technologies. They don't get to block new technologies ... think any new encapsulation being introduced.</p>",
+    "topic": "ietf-119",
+    "dtime": 1031000,
+    "ptime": 1031000
+  },
+  {
+    "author": "Darren Dukes",
+    "text": "<p>Checksums are not broken - the destination is able to verify it just fine.</p>",
+    "topic": "ietf-119",
+    "dtime": 1056000,
+    "ptime": 1056000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>a new encapsulation is not a broken checksum. next we will allow to present stuff where stuff protected by security fingerprints is modified I guess. 'nuff for me ...</p>",
+    "topic": "ietf-119",
+    "dtime": 1110000,
+    "ptime": 1110000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@TonyP ... where are you seeing a broken checksum ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 1257000,
+    "ptime": 1257000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>If a middlebox breaks end to end security, we assume the middle box raises a security issue. Why wouldn't it be the same for checksums that are supposed to be checked at the destination?</p>",
+    "topic": "ietf-119",
+    "dtime": 1503000,
+    "ptime": 1503000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>If you are doing show of hands polls please run that through meetecho so those of us online can participate as well :)</p>",
+    "topic": "ietf-119",
+    "dtime": 1571000,
+    "ptime": 1571000
+  },
+  {
+    "author": "Christian Hopps",
+    "text": "<p>polls of the room should probably use meetecho..</p>",
+    "topic": "ietf-119",
+    "dtime": 1576000,
+    "ptime": 1576000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Next we will have someone asking for middlebox to verify the IPsec or TLS in the middle of the network :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 1594000,
+    "ptime": 1594000
+  },
+  {
+    "author": "Cheng Li",
+    "text": "<p>@Antoine, fully agree!</p>",
+    "topic": "ietf-119",
+    "dtime": 1637000,
+    "ptime": 1637000
+  },
+  {
+    "author": "Alvaro Retana",
+    "text": "<p>Yes, I just wanted to get an idea if people had read the document.   Sorry.</p>",
+    "topic": "ietf-119",
+    "dtime": 1659000,
+    "ptime": 1659000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>well, good luck tryhing to figure out what's going on in your network somewhere in the middle if you have packets thaty look like v6 but may/may not be v6 and have broken checksums.</p>",
+    "topic": "ietf-119",
+    "dtime": 1716000,
+    "ptime": 1716000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>anyway, I don't think this needs further messaging</p>",
+    "topic": "ietf-119",
+    "dtime": 1753000,
+    "ptime": 1753000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@ TonyP, that last one ... we can agree on!</p>",
+    "topic": "ietf-119",
+    "dtime": 1773000,
+    "ptime": 1773000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>so that looks mildly useful to me except that mostly you want to grab something you cannot ask the sender nicely to inject something into the sid list (flowspec basically) ...  ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 2409000,
+    "ptime": 2409000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>To follow-up on my comment at the mic <a href=\"https://datatracker.ietf.org/doc/rfc9322/\">https://datatracker.ietf.org/doc/rfc9322/</a></p>",
+    "topic": "ietf-119",
+    "dtime": 2434000,
+    "ptime": 2434000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>the is the In Situ Operations, Administration, and Maintenance (IOAM) Loopback and Active Flags RFC I've mentioned.</p>",
+    "topic": "ietf-119",
+    "dtime": 2474000,
+    "ptime": 2474000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>+1 to the point Alvaro made</p>",
+    "topic": "ietf-119",
+    "dtime": 2621000,
+    "ptime": 2621000
+  },
+  {
+    "author": "Shuping Peng",
+    "text": "<p>@Greg, the RFC no. has been added in the minutes.</p>",
+    "topic": "ietf-119",
+    "dtime": 2733000,
+    "ptime": 2733000
+  },
+  {
+    "author": "Jim Guichard",
+    "text": "<p>doesnt the previous idea require that the hdr ext length be updated? that's a problem given it is not mutable</p>",
+    "topic": "ietf-119",
+    "dtime": 2741000,
+    "ptime": 2741000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>@Jim, IFAICS, IOAM Loopback uses the fixed size IOAM Header without adding information to the original trigger packet</p>",
+    "topic": "ietf-119",
+    "dtime": 2863000,
+    "ptime": 2863000
+  },
+  {
+    "author": "Shraddha Hegde",
+    "text": "<p>The  active CP can be updated by controller to satisfy all the resource requirement. why isn't that an option and a new candidate path selection needed?</p>",
+    "topic": "ietf-119",
+    "dtime": 3102000,
+    "ptime": 3102000
+  },
+  {
+    "author": "Martin Horneffer",
+    "text": "<p>agreed. the current path selection procedure is complex enough. IMHO a single preference is enough.</p>",
+    "topic": "ietf-119",
+    "dtime": 3204000,
+    "ptime": 3204000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Shraddha, I think here the need is for the headed to do the monitoring. e.g., delay measurement.</p>",
+    "topic": "ietf-119",
+    "dtime": 3212000,
+    "ptime": 3212000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Martin, this is perhaps better done by marking a CP which is say seeing delay over a threshold as invalid. That way, we don't change the tiebreaker.</p>",
+    "topic": "ietf-119",
+    "dtime": 3262000,
+    "ptime": 3262000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Is itthe case that the SR policy is announced once, and the thresholds are updated several times after the initial SR policy announcement ?</p>",
+    "topic": "ietf-119",
+    "dtime": 3289000,
+    "ptime": 3289000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@ Antoine, probably not</p>",
+    "topic": "ietf-119",
+    "dtime": 3321000,
+    "ptime": 3321000
+  },
+  {
+    "author": "Zafar Ali",
+    "text": "<p>@ Antonio, the threshold does not change as they are configured but then monitored for CPs.</p>",
+    "topic": "ietf-119",
+    "dtime": 3437000,
+    "ptime": 3437000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>OK, thanks for your clarification</p>",
+    "topic": "ietf-119",
+    "dtime": 3461000,
+    "ptime": 3461000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>it is an additional CP selection criteria based on SLA threshold</p>",
+    "topic": "ietf-119",
+    "dtime": 3481000,
+    "ptime": 3481000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>My point is that this is implicit in SR-Policy creation that TE is monitored</p>",
+    "topic": "ietf-119",
+    "dtime": 3504000,
+    "ptime": 3504000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>@Himanshu This is what I supposed a PCE / controller would do, maybe announcing threshold is required for explaining the path selection for requesting routers</p>",
+    "topic": "ietf-119",
+    "dtime": 3609000,
+    "ptime": 3609000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Himanshu, it becomes super complication if we try to change the selection process by all these parameters - it can be simplified by marking a CP crossing a threshold as \"invalid\" and then fallback to existing CP selection in RFC9256. Thoughts?</p>",
+    "topic": "ietf-119",
+    "dtime": 3770000,
+    "ptime": 3770000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>@ketan - exactly.  The built-in assumption on SR-Policy that all the CPs are calculated based on the intent that is monitored periodically so when not met.. you select the next priority CP</p>",
+    "topic": "ietf-119",
+    "dtime": 3910000,
+    "ptime": 3910000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Himanshu, true but there is subtlety here. Does the implementation keep monitoring all CPs all the time or only does so for specific CPs when needed.</p>",
+    "topic": "ietf-119",
+    "dtime": 4034000,
+    "ptime": 4034000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>Another point is that, each ingress is better suited to check the CP from its point of view as opposed to do all verification from a centralized entity.</p>",
+    "topic": "ietf-119",
+    "dtime": 4107000,
+    "ptime": 4107000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Srihari +1</p>",
+    "topic": "ietf-119",
+    "dtime": 4123000,
+    "ptime": 4123000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>@Antoine the threshold only need to be announced once, for the specific SR Policy</p>",
+    "topic": "ietf-119",
+    "dtime": 4218000,
+    "ptime": 4218000
+  },
+  {
+    "author": "Diego Achaval",
+    "text": "<p>@Srihari</p>",
+    "topic": "ietf-119",
+    "dtime": 4223000,
+    "ptime": 4223000
+  },
+  {
+    "author": "Diego Achaval",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 4232000,
+    "ptime": 4232000
+  },
+  {
+    "author": "Yisong Liu",
+    "text": "<p>@Ketan @Srihari thank you for help to reply</p>",
+    "topic": "ietf-119",
+    "dtime": 4278000,
+    "ptime": 4278000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Andrew +1</p>",
+    "topic": "ietf-119",
+    "dtime": 4388000,
+    "ptime": 4388000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Good points Andrew!</p>",
+    "topic": "ietf-119",
+    "dtime": 4422000,
+    "ptime": 4422000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>There is no timer for TI-LFA local repair for link down ...</p>",
+    "topic": "ietf-119",
+    "dtime": 4432000,
+    "ptime": 4432000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>Unless we are dampening the link down itself. Is that the case?</p>",
+    "topic": "ietf-119",
+    "dtime": 4477000,
+    "ptime": 4477000
+  },
+  {
+    "author": "Zafar Ali",
+    "text": "<p>@Andrew I agree with you. I agree with the complexity of the proposal.</p>",
+    "topic": "ietf-119",
+    "dtime": 4531000,
+    "ptime": 4531000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>BSID complexity vs operational coordination complexity </p>\n<p>\\_(ツ)_/¯</p>",
+    "topic": "ietf-119",
+    "dtime": 4565000,
+    "ptime": 4565000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>this looks similar to multi-topology routing!</p>",
+    "topic": "ietf-119",
+    "dtime": 4569000,
+    "ptime": 4569000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>don't get me wrong -&gt; bsids definitely bring their own form complexity. Whether this is less complex or more is unclear to me at the moment</p>",
+    "topic": "ietf-119",
+    "dtime": 4620000,
+    "ptime": 4620000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>@ketan - link dampening and rely mainly on single hop IP BFD for consistent behavior</p>",
+    "topic": "ietf-119",
+    "dtime": 4623000,
+    "ptime": 4623000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>@andrew - Agree BSIDs are not easy to configure</p>",
+    "topic": "ietf-119",
+    "dtime": 4652000,
+    "ptime": 4652000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>That's why they should be automatic ;)</p>",
+    "topic": "ietf-119",
+    "dtime": 4662000,
+    "ptime": 4662000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>@zafar - We have deployed this solution. It is not that difficult. Contrary I think it is very simple proposal</p>",
+    "topic": "ietf-119",
+    "dtime": 4721000,
+    "ptime": 4721000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>Transport Service Provider are very particular about where their traffic transiting through. These are typical TP replacement candidates</p>",
+    "topic": "ietf-119",
+    "dtime": 4783000,
+    "ptime": 4783000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>If primary path fails, they want the traffic to be on preprovisioned backup and not wander around the network that they do not have much control over</p>",
+    "topic": "ietf-119",
+    "dtime": 4837000,
+    "ptime": 4837000
+  },
+  {
+    "author": "Himanshu Shah",
+    "text": "<p>@zafar - let us have offline discuss to address your concern..</p>",
+    "topic": "ietf-119",
+    "dtime": 4924000,
+    "ptime": 4924000
+  },
+  {
+    "author": "Zafar Ali",
+    "text": "<p>@Himanshu Sure, happy to discuss them. Thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 4951000,
+    "ptime": 4951000
+  },
+  {
+    "author": "Bruno Decraene",
+    "text": "<p>@Meetecho \"speakers camera\" is not on the speaker but on the chaits. Not sure whether this is intended.</p>",
+    "topic": "ietf-119",
+    "dtime": 5569000,
+    "ptime": 5569000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p><a href=\"https://www.rfc-editor.org/rfc/rfc9197.html#section-4.5\">https://www.rfc-editor.org/rfc/rfc9197.html#section-4.5</a></p>",
+    "topic": "ietf-119",
+    "dtime": 5611000,
+    "ptime": 5611000
+  },
+  {
+    "author": "Amal Karboubi",
+    "text": "<p>@zafar @Andrew thanks for your comments, the coordination between PCE and headend was not complex implementation wise, happy to discuss further offline.</p>",
+    "topic": "ietf-119",
+    "dtime": 5693000,
+    "ptime": 5693000
+  },
+  {
+    "author": "Zafar Ali",
+    "text": "<p>@Amal Sure, happy to discuss more offline. Thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 5728000,
+    "ptime": 5728000
+  },
+  {
+    "author": "Dhruv Dhody",
+    "text": "<p>Network Attestation For Secure Routing (NASR) for those interested</p>",
+    "topic": "ietf-119",
+    "dtime": 5791000,
+    "ptime": 5791000
+  },
+  {
+    "author": "Andrew Stone",
+    "text": "<p>Amal - yep seems like interaction between pce/headend is clear. My point about complexity is more so the various numerous dependencies in the design and reliance on humans following explicit procedures. </p>\n<p>but yeah for sure can chat more!</p>",
+    "topic": "ietf-119",
+    "dtime": 5957000,
+    "ptime": 5957000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>what is the proposed frequency for this path verification ? It seems it may be bring more overhead</p>",
+    "topic": "ietf-119",
+    "dtime": 6068000,
+    "ptime": 6068000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>The intention was to make this path verification on every packet</p>",
+    "topic": "ietf-119",
+    "dtime": 6122000,
+    "ptime": 6122000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>is the benefit worth the CPU/wire traffic ?</p>",
+    "topic": "ietf-119",
+    "dtime": 6166000,
+    "ptime": 6166000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>the overhead in leader space and processing time is a little bit higher than SRH HMAC, but comparable</p>",
+    "topic": "ietf-119",
+    "dtime": 6168000,
+    "ptime": 6168000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>we are talking 5% more than HMAC TLV computattion</p>",
+    "topic": "ietf-119",
+    "dtime": 6203000,
+    "ptime": 6203000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>so rather lightweight</p>",
+    "topic": "ietf-119",
+    "dtime": 6214000,
+    "ptime": 6214000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>@Antoine, thanks!</p>",
+    "topic": "ietf-119",
+    "dtime": 6358000,
+    "ptime": 6358000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-SPRING-20240319-2330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/spring"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-SPRING-20240319-2330"
+		}		
+	]
+}

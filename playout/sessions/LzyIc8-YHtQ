@@ -1,0 +1,557 @@
+
+{
+	"title": "IETF113-MLS-20220323-1200",
+	"filename": "IETF113-MLS-20220323-1200",
+	"start": 0,
+	"end": 3801000,
+	"start_datetime": "2022-03-23T11:46:25Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "LzyIc8-YHtQ",
+    "start": 0,
+    "end": "3801000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 436000,
+    "ptime": 436000,
+    "author": "Sean Turner",
+    "text": "@robin thanks!<br/>"
+  },
+  {
+    "dtime": 1000000,
+    "ptime": 1000000,
+    "author": "jhoyla",
+    "text": "What's the scale on the bottom graph?<br/>"
+  },
+  {
+    "dtime": 1063000,
+    "ptime": 1063000,
+    "author": "sftcd-x-x-z",
+    "text": "@rlb: your audio started clipping a bit in the room once you turned on video<br/>"
+  },
+  {
+    "dtime": 1075000,
+    "ptime": 1075000,
+    "author": "Richard Barnes",
+    "text": "@sftcd thanks, will turn off<br/>"
+  },
+  {
+    "dtime": 1087000,
+    "ptime": 1087000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "noticed the same remotely, too.&nbsp;&nbsp;Thanks<br/>"
+  },
+  {
+    "dtime": 1156000,
+    "ptime": 1156000,
+    "author": "dkg",
+    "text": "+1 for aasvg.&nbsp;&nbsp;please merge<br/>"
+  },
+  {
+    "dtime": 1164000,
+    "ptime": 1164000,
+    "author": "Robin Wilton",
+    "text": "Font size is somewhat painful on a laptop screen, btw...<br/>"
+  },
+  {
+    "dtime": 1210000,
+    "ptime": 1210000,
+    "author": "sftcd-x-x-z",
+    "text": "follow along locally at <a href=\"https://github.com/mlswg/mls-protocol/pulls\" rel=\"nofollow\">https://github.com/mlswg/mls-protocol/pulls</a><br/>"
+  },
+  {
+    "dtime": 1253000,
+    "ptime": 1253000,
+    "author": "Yoshiro Yoneya",
+    "text": "@Robin, Expand Video button may help you.<br/>"
+  },
+  {
+    "dtime": 1284000,
+    "ptime": 1284000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Or even fullscreen.<br/>But both of them cause all the other controls to be inaccessible,<br/>which is a bit suboptimal.<br/>"
+  },
+  {
+    "dtime": 1305000,
+    "ptime": 1305000,
+    "author": "Meetecho",
+    "text": "Double clicking video streams will also make them bigger<br/>"
+  },
+  {
+    "dtime": 1329000,
+    "ptime": 1329000,
+    "author": "Robin Wilton",
+    "text": "Fortunately I have a large 2ndary display, but thanks for the helpful tips!<br/>"
+  },
+  {
+    "dtime": 1448000,
+    "ptime": 1448000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "&gt; completely heterogeneous<br/>Surely that was meant to be homogeneous, right?<br/>"
+  },
+  {
+    "dtime": 1459000,
+    "ptime": 1459000,
+    "author": "sftcd-x-x-z",
+    "text": "that's what I thought<br/>"
+  },
+  {
+    "dtime": 1626000,
+    "ptime": 1626000,
+    "author": "jhoyla",
+    "text": "Would a higher layer application be able to access this mime type from the MLS layer?<br/>"
+  },
+  {
+    "dtime": 1650000,
+    "ptime": 1650000,
+    "author": "jhoyla",
+    "text": "Or would the higher layer application have to reproduce it?<br/>"
+  },
+  {
+    "dtime": 1729000,
+    "ptime": 1729000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "I think this is an interesting question, and the right answer is not<br/>immediately clear to me.<br/>It is good to be able to uniquely determine the structure/format of<br/>the message contents, but whether that information needs to be inside<br/>our framing or the outermost layer of framing for what we convey seems<br/>subject to debate.<br/>"
+  },
+  {
+    "dtime": 1746000,
+    "ptime": 1746000,
+    "author": "Eric Rescorla",
+    "text": "Thanks. that is what i was saying<br/>"
+  },
+  {
+    "dtime": 1782000,
+    "ptime": 1782000,
+    "author": "Sean Turner",
+    "text": "locked the queue there to make sure we get through everything. If end up going short and we don't resolve this will re-open.<br/>"
+  },
+  {
+    "dtime": 1809000,
+    "ptime": 1809000,
+    "author": "Eric Rescorla",
+    "text": "you re-opened the queue<br/>"
+  },
+  {
+    "dtime": 1846000,
+    "ptime": 1846000,
+    "author": "Sean Turner",
+    "text": "I did .. I got like 4 what are you doing messages. I listened to the crowd ;)<br/>"
+  },
+  {
+    "dtime": 1862000,
+    "ptime": 1862000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "\"but what are you really trying to do?\"<br/>"
+  },
+  {
+    "dtime": 1936000,
+    "ptime": 1936000,
+    "author": "dkg",
+    "text": "it seems like this would be better established as a convention of what the application data looks like for any given mls deployment<br/>"
+  },
+  {
+    "dtime": 1970000,
+    "ptime": 1970000,
+    "author": "dkg",
+    "text": "this is all wrapped inside the message encryption, right?<br/>"
+  },
+  {
+    "dtime": 2032000,
+    "ptime": 2032000,
+    "author": "Sean Turner",
+    "text": "Okay now I am closing it ;)<br/>"
+  },
+  {
+    "dtime": 2033000,
+    "ptime": 2033000,
+    "author": "Robin Wilton",
+    "text": "Why would the application look in more than one place for the data types it's expecting?<br/>"
+  },
+  {
+    "dtime": 2034000,
+    "ptime": 2034000,
+    "author": "Cullen Jennings",
+    "text": "if you send contradicting information in two places, hard to help you <br/>"
+  },
+  {
+    "dtime": 2054000,
+    "ptime": 2054000,
+    "author": "dkg",
+    "text": "so is that an argument to *not* have this field, or to have it?<br/>"
+  },
+  {
+    "dtime": 2069000,
+    "ptime": 2069000,
+    "author": "Robin Wilton",
+    "text": "@Cullen +1; and if someone else sets contradicting data elsewhere, don't go looking for it ;^,<br/>"
+  },
+  {
+    "dtime": 2070000,
+    "ptime": 2070000,
+    "author": "Benjamin Beurdouche",
+    "text": "I would ask, is this needed by the protocol or not?<br/>"
+  },
+  {
+    "dtime": 2091000,
+    "ptime": 2091000,
+    "author": "Benjamin Beurdouche",
+    "text": "I don't think it is, so I wouldn't add this.<br/>"
+  },
+  {
+    "dtime": 2153000,
+    "ptime": 2153000,
+    "author": "jhoyla",
+    "text": "If the information isn't used by the MLS layer it makes no sense to me to put it in the MLS layer. <br/>"
+  },
+  {
+    "dtime": 2163000,
+    "ptime": 2163000,
+    "author": "jhoyla",
+    "text": "It just feels like a potential footgun. <br/>"
+  },
+  {
+    "dtime": 2265000,
+    "ptime": 2265000,
+    "author": "Daniel Huigens",
+    "text": "To be fair, the application data isn't used by MLS either. I think having a (type, data) tuple as a message isn't so strange<br/>"
+  },
+  {
+    "dtime": 2299000,
+    "ptime": 2299000,
+    "author": "Benjamin Beurdouche",
+    "text": "Exact point, everything should be in the application messages<br/>"
+  },
+  {
+    "dtime": 2309000,
+    "ptime": 2309000,
+    "author": "dkg",
+    "text": "another way of asking this is: can we imagine a plausibly different demuxing mechanism?<br/>"
+  },
+  {
+    "dtime": 2313000,
+    "ptime": 2313000,
+    "author": "jhoyla",
+    "text": "The application data isn't parsed by MLS, it's totally opaque, this is adding semantics in the MLS layer<br/>"
+  },
+  {
+    "dtime": 2379000,
+    "ptime": 2379000,
+    "author": "Eric Rescorla",
+    "text": "At this point I would ask for a hum<br/>"
+  },
+  {
+    "dtime": 2396000,
+    "ptime": 2396000,
+    "author": "dkg",
+    "text": "the other question is: do we have any document that defines how to deploy MLS, and what parameters are needed?&nbsp;&nbsp;if so, we should ensure that this bundle of parameters includes \"how to interpret the application data?\"<br/>"
+  },
+  {
+    "dtime": 2411000,
+    "ptime": 2411000,
+    "author": "Richard Barnes",
+    "text": "@dkg arch doc is up next :)<br/>"
+  },
+  {
+    "dtime": 2424000,
+    "ptime": 2424000,
+    "author": "Richard Barnes",
+    "text": "not sure that is totally clearly laid out there<br/>"
+  },
+  {
+    "dtime": 2450000,
+    "ptime": 2450000,
+    "author": "npd",
+    "text": "it seems harder to assess what should or shouldn't be in the spec because we have it in such a way that MLS can't be implemented without that more concrete spec<br/>"
+  },
+  {
+    "dtime": 2451000,
+    "ptime": 2451000,
+    "author": "dkg",
+    "text": "a formal and compact representation of that would be a really nice thing to have.<br/>"
+  },
+  {
+    "dtime": 2528000,
+    "ptime": 2528000,
+    "author": "jhoyla",
+    "text": "So instead we're adding extra cruft to the layer below?<br/>"
+  },
+  {
+    "dtime": 2537000,
+    "ptime": 2537000,
+    "author": "Cullen Jennings",
+    "text": "Say for example you had defined SIP to have no way to upgrade the body from SDP to something else. The IETF would never do something that stupid - oh , whoops we did<br/>"
+  },
+  {
+    "dtime": 2544000,
+    "ptime": 2544000,
+    "author": "dkg",
+    "text": "one advantage of this proposal is that it forces MLS deployments to leave an upgrade path<br/>"
+  },
+  {
+    "dtime": 2552000,
+    "ptime": 2552000,
+    "author": "jhoyla",
+    "text": "Where it will be at least as common, by definition.<br/>"
+  },
+  {
+    "dtime": 2584000,
+    "ptime": 2584000,
+    "author": "Richard Barnes",
+    "text": "+1 jhoyla<br/>"
+  },
+  {
+    "dtime": 2609000,
+    "ptime": 2609000,
+    "author": "Eric Rescorla",
+    "text": "We had precisely this debate in QUIC about datagrams and ended up in the place MLS currently is<br/>"
+  },
+  {
+    "dtime": 2623000,
+    "ptime": 2623000,
+    "author": "Richard Barnes",
+    "text": "@EKR you mean MLS without this PR?<br/>"
+  },
+  {
+    "dtime": 2637000,
+    "ptime": 2637000,
+    "author": "Eric Rescorla",
+    "text": "yes<br/>"
+  },
+  {
+    "dtime": 2673000,
+    "ptime": 2673000,
+    "author": "dkg",
+    "text": "we lost sean!<br/>"
+  },
+  {
+    "dtime": 2695000,
+    "ptime": 2695000,
+    "author": "dkg",
+    "text": "sean's browser sent the wrong mime_type<br/>"
+  },
+  {
+    "dtime": 2719000,
+    "ptime": 2719000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Unfortunately the AD can only do it if they go adjust permissions in<br/>the datatracker and re-log-in to meetecho.<br/>"
+  },
+  {
+    "dtime": 2769000,
+    "ptime": 2769000,
+    "author": "dkg",
+    "text": "i'm not touching either option because i'm undecided<br/>"
+  },
+  {
+    "dtime": 2791000,
+    "ptime": 2791000,
+    "author": "Eric Rescorla",
+    "text": "Just do both<br/>"
+  },
+  {
+    "dtime": 2799000,
+    "ptime": 2799000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Oops, tried to actually pull up the PR before (not)raising my hand,<br/>but was too slow.&nbsp;&nbsp;Alas.<br/>"
+  },
+  {
+    "dtime": 2842000,
+    "ptime": 2842000,
+    "author": "jhoyla",
+    "text": "You could have been the tie-breaker :P <br/>"
+  },
+  {
+    "dtime": 2843000,
+    "ptime": 2843000,
+    "author": "sftcd-x-x-z",
+    "text": "@dkg: seems like you predicted the overall result too:-)<br/>"
+  },
+  {
+    "dtime": 2890000,
+    "ptime": 2890000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Having looked, a 7-bit ASCII text string seems very debatable as the<br/>best encoding for a content format indication.&nbsp;&nbsp;Why not use<br/><a href=\"https://www.iana.org/assignments/core-parameters/core-parameters.xhtml#content-formats?\" rel=\"nofollow\">https://www.iana.org/assignments/core-parameters/core-parameters.xhtml#content-formats?</a><br/>"
+  },
+  {
+    "dtime": 2917000,
+    "ptime": 2917000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "I do really like dkg's comment about making sure we have a crisp<br/>document about what you have to do to integrate MLS into your<br/>protocol.<br/>"
+  },
+  {
+    "dtime": 2920000,
+    "ptime": 2920000,
+    "author": "jhoyla",
+    "text": "Are mime types guaranteed to be unambiguous?<br/>"
+  },
+  {
+    "dtime": 2949000,
+    "ptime": 2949000,
+    "author": "sftcd-x-x-z",
+    "text": "@jhoyla: no and yes<br/>"
+  },
+  {
+    "dtime": 2954000,
+    "ptime": 2954000,
+    "author": "jhoyla",
+    "text": "If there are vendor defined mime types I assume not<br/>"
+  },
+  {
+    "dtime": 2980000,
+    "ptime": 2980000,
+    "author": "npd",
+    "text": "+1 kaduk (and dkg)<br/>"
+  },
+  {
+    "dtime": 2995000,
+    "ptime": 2995000,
+    "author": "jhoyla",
+    "text": "@sftcd-x-x-z How so? <br/>"
+  },
+  {
+    "dtime": 3030000,
+    "ptime": 3030000,
+    "author": "sftcd-x-x-z",
+    "text": "there're some catch-all ones, but IIUC many problems are in practice handled e.g. by MUAs<br/>"
+  },
+  {
+    "dtime": 3041000,
+    "ptime": 3041000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "RFC 6648 has something to say about X- types (which, IIRC, have seem<br/>some collisions in the past)<br/>"
+  },
+  {
+    "dtime": 3082000,
+    "ptime": 3082000,
+    "author": "Cullen Jennings",
+    "text": "I agree with a string is not best encoding. But the COAP registry, because of how they try and optimize for size of the integer, will have differnt goals than one for MLS. Probably would be some pain in registering new code points in the COAP registry that would not be used in CoAP. <br/>"
+  },
+  {
+    "dtime": 3094000,
+    "ptime": 3094000,
+    "author": "jhoyla",
+    "text": "Ah, so you could have a catch-all mime type on the MLS layer, and then specific ones in the application data and it would still be \"correct\"<br/>"
+  },
+  {
+    "dtime": 3097000,
+    "ptime": 3097000,
+    "author": "jhoyla",
+    "text": "?<br/>"
+  },
+  {
+    "dtime": 3119000,
+    "ptime": 3119000,
+    "author": "sftcd-x-x-z",
+    "text": "I think so yeah, IIRC there's an application/octet-stream one or similar<br/>"
+  },
+  {
+    "dtime": 3167000,
+    "ptime": 3167000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "There is a FCFS range in the CoAP registry.&nbsp;&nbsp;No pain.<br/>"
+  },
+  {
+    "dtime": 3250000,
+    "ptime": 3250000,
+    "author": "sftcd-x-x-z",
+    "text": "<a href=\"https://www.iana.org/assignments/media-types/media-types.xhtml\" rel=\"nofollow\">https://www.iana.org/assignments/media-types/media-types.xhtml</a> for the loooong list<br/>"
+  },
+  {
+    "dtime": 3424000,
+    "ptime": 3424000,
+    "author": "dkg",
+    "text": "+1 Robin<br/>"
+  },
+  {
+    "dtime": 3502000,
+    "ptime": 3502000,
+    "author": "Cullen Jennings",
+    "text": "@kaduk - fair point on FCFS. I was imaging the pain of the argument about if text/html should be a short number ( and not in FCFS range, or long ). But that is really no big deal. <br/>"
+  },
+  {
+    "dtime": 3553000,
+    "ptime": 3553000,
+    "author": "sftcd-x-x-z",
+    "text": "I'm not seeing any in-room volunteering activity fwiw<br/>"
+  },
+  {
+    "dtime": 3643000,
+    "ptime": 3643000,
+    "author": "Richard Barnes",
+    "text": "Two deployments!<br/>"
+  },
+  {
+    "dtime": 3648000,
+    "ptime": 3648000,
+    "author": "Richard Barnes",
+    "text": "RingCentral is also using MLS<br/>"
+  },
+  {
+    "dtime": 3651000,
+    "ptime": 3651000,
+    "author": "Rohan Mahy",
+    "text": "@jhoyla vendor defined mime types can be registered with IANA under \"document required\" policy only<br/>"
+  },
+  {
+    "dtime": 3708000,
+    "ptime": 3708000,
+    "author": "Rohan Mahy",
+    "text": "I am planning to do a detailed review of the architecture doc during WGLC<br/>"
+  },
+  {
+    "dtime": 3737000,
+    "ptime": 3737000,
+    "author": "Mallory Knodel",
+    "text": "ohbai<br/>"
+  },
+  {
+    "dtime": 3743000,
+    "ptime": 3743000,
+    "author": "Robin Wilton",
+    "text": "lol<br/>"
+  },
+  {
+    "dtime": 3752000,
+    "ptime": 3752000,
+    "author": "dkg",
+    "text": "i've just opened <a href=\"https://github.com/mlswg/mls-architecture/issues/92\" rel=\"nofollow\">https://github.com/mlswg/mls-architecture/issues/92</a> <br/>"
+  },
+  {
+    "dtime": 3756000,
+    "ptime": 3756000,
+    "author": "Robin Wilton",
+    "text": "You're welcome - I hope the notes are OK!<br/>"
+  },
+  {
+    "dtime": 3768000,
+    "ptime": 3768000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Thanks dkg!<br/>"
+  },
+  {
+    "dtime": 3768000,
+    "ptime": 3768000,
+    "author": "Benjamin Beurdouche",
+    "text": "ack dkg<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-MLS-20220323-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/mls"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF113-MLS-20220323-1200"
+		}		
+	]
+}

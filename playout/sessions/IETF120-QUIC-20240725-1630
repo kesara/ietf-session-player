@@ -1,0 +1,532 @@
+
+{
+	"title": "IETF120-QUIC-20240725-1630",
+	"filename": "IETF120-QUIC-20240725-1630",
+	"start": 0,
+	"end": 7520000,
+	"start_datetime": "2024-07-25T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "tUgDeU3KbZg",
+    "start": 0,
+    "end": "7520000"
+  }
+],
+	"messages": [
+  {
+    "author": "Alejandro Sedeño",
+    "text": "<p>You seem slightly more remote than expected, <span class=\"user-mention\" data-user-id=\"28\">@Lucas Pardue</span> .</p>",
+    "topic": "ietf-120",
+    "dtime": 263000,
+    "ptime": 263000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>yes I'm poorly :(</p>",
+    "topic": "ietf-120",
+    "dtime": 285000,
+    "ptime": 285000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>Lucas looks like an anonymous source on the TV news</p>",
+    "topic": "ietf-120",
+    "dtime": 330000,
+    "ptime": 330000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>So you are not travelling with a set of studio lightning Lucas.</p>",
+    "topic": "ietf-120",
+    "dtime": 414000,
+    "ptime": 414000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Seems like the liaison response might also have touched on \"Why do you have a normative dependency on an unfinished draft?\"</p>",
+    "topic": "ietf-120",
+    "dtime": 438000,
+    "ptime": 438000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>Mike, I do think it was better that 3GPP actually used MP-QUIC rather than invented their own protocol. But, our ways of working rubb a bit against each other. But they are aware what they can expect.</p>",
+    "topic": "ietf-120",
+    "dtime": 554000,
+    "ptime": 554000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>we don't see mirja via zulip. just disembodied voice</p>",
+    "topic": "ietf-120",
+    "dtime": 858000,
+    "ptime": 858000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>better now</p>",
+    "topic": "ietf-120",
+    "dtime": 864000,
+    "ptime": 864000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>I think it is good to use PATH_ as an indiactor for things related to path specific.</p>",
+    "topic": "ietf-120",
+    "dtime": 976000,
+    "ptime": 976000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>As an individual I find it mildly weird to see e.g. _MAX at the end, but eh</p>",
+    "topic": "ietf-120",
+    "dtime": 1077000,
+    "ptime": 1077000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>There is a long tradition of _MAX at the end (<a href=\"https://pubs.opengroup.org/onlinepubs/009695399/basedefs/limits.h.html\">https://pubs.opengroup.org/onlinepubs/009695399/basedefs/limits.h.html</a>)</p>",
+    "topic": "ietf-120",
+    "dtime": 1165000,
+    "ptime": 1165000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>But MAX_DATA, MAX_STREAMS, MAX_STREAM_DATA from RFC 9000</p>",
+    "topic": "ietf-120",
+    "dtime": 1186000,
+    "ptime": 1186000
+  },
+  {
+    "author": "Matt Joras",
+    "text": "<p>yeah, that's why it feels mildly weird</p>",
+    "topic": "ietf-120",
+    "dtime": 1200000,
+    "ptime": 1200000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>/me quotes emerson</p>",
+    "topic": "ietf-120",
+    "dtime": 1227000,
+    "ptime": 1227000
+  },
+  {
+    "author": "Alex Chernyakhovsky",
+    "text": "<p>RFC 9000 ship has sailed, but I prefer max as a suffix because it means similar things are grouped together when sorted alphabetically. But this is a weak preference and if we care more about consistency, sure.</p>",
+    "topic": "ietf-120",
+    "dtime": 1304000,
+    "ptime": 1304000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>But should we then have &lt;qualifiers&gt;-path-&lt;item&gt; could work.</p>",
+    "topic": "ietf-120",
+    "dtime": 1331000,
+    "ptime": 1331000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>You still have to have that code path and test it, because you could get the frame in the handshake. MUST means <em>another</em> path to test, which is rejecting it in 0-RTT.</p>",
+    "topic": "ietf-120",
+    "dtime": 1549000,
+    "ptime": 1549000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Is there any case where someone is sending this frame when they don't know?</p>",
+    "topic": "ietf-120",
+    "dtime": 1649000,
+    "ptime": 1649000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>...don't know whether MP is enabled, that is.</p>",
+    "topic": "ietf-120",
+    "dtime": 1663000,
+    "ptime": 1663000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>I am awake, have been up 9 hours</p>",
+    "topic": "ietf-120",
+    "dtime": 1760000,
+    "ptime": 1760000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>SHOULD seems fine to me. If there is compelling evidence that comes later to use MUST, then we can always revisit</p>",
+    "topic": "ietf-120",
+    "dtime": 1894000,
+    "ptime": 1894000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Martin, I think it's clear at all times.</p>",
+    "topic": "ietf-120",
+    "dtime": 1908000,
+    "ptime": 1908000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>@Magnus  can you put your statement in the minutes? I could not understand what you are syaing</p>",
+    "topic": "ietf-120",
+    "dtime": 2050000,
+    "ptime": 2050000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>Martin, will do</p>",
+    "topic": "ietf-120",
+    "dtime": 2078000,
+    "ptime": 2078000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>i can live with an error code field using exisitng transport-level  errors</p>",
+    "topic": "ietf-120",
+    "dtime": 2889000,
+    "ptime": 2889000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Note that the transport error code list includes APPLICATION_ERROR if it turns out the application requests the path be closed for some reason.</p>",
+    "topic": "ietf-120",
+    "dtime": 2961000,
+    "ptime": 2961000
+  },
+  {
+    "author": "Kazuho Oku",
+    "text": "<p>Re #312, I think the problem is unless we state that the sequence number is per-path, it does not work for both design as <span class=\"user-mention\" data-user-id=\"147\">@Mike Bishop</span> says.<br>\nBecause if it's per connection, reusing the same sequence number for different path  would be an protocol violation.</p>",
+    "topic": "ietf-120",
+    "dtime": 3459000,
+    "ptime": 3459000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Kazuho, yes. State that it's monotonically increasing per path, and then either implementation is allowed.</p>",
+    "topic": "ietf-120",
+    "dtime": 3593000,
+    "ptime": 3593000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>The application layer determines <em>whether</em> to send keep-alives. The transport layer determines <em>when</em> to send keep-alives.</p>",
+    "topic": "ietf-120",
+    "dtime": 3865000,
+    "ptime": 3865000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Lucas, the idle timeout applies to the connection, not necessarily individual paths.</p>",
+    "topic": "ietf-120",
+    "dtime": 4032000,
+    "ptime": 4032000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>wait, this slide presents it as if there is a separate path timeout</p>",
+    "topic": "ietf-120",
+    "dtime": 4085000,
+    "ptime": 4085000
+  },
+  {
+    "author": "Kevin Cox",
+    "text": "<p>The connection keepalive is effectively \"sending a signal on a different connection\". Basically we are making the connection keepalive mean \"all paths that I haven't abandoned are still active\".</p>",
+    "topic": "ietf-120",
+    "dtime": 4096000,
+    "ptime": 4096000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>right.  there is no need for a path-specific timeout</p>",
+    "topic": "ietf-120",
+    "dtime": 4104000,
+    "ptime": 4104000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>just like we decided not to build a keep-alive mechanism</p>",
+    "topic": "ietf-120",
+    "dtime": 4122000,
+    "ptime": 4122000
+  },
+  {
+    "author": "Kevin Cox",
+    "text": "<p>Of course if you do want to close a path you can slap an abandon for that path into the same packet as the connection keepalive or any other traffic.</p>",
+    "topic": "ietf-120",
+    "dtime": 4125000,
+    "ptime": 4125000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>because keep-alive is not a great idea</p>",
+    "topic": "ietf-120",
+    "dtime": 4137000,
+    "ptime": 4137000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Kevin: yep</p>",
+    "topic": "ietf-120",
+    "dtime": 4156000,
+    "ptime": 4156000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>if instead its connection timeout applied to each and every path, then that doesn't feel right. I support explicit abandon in that case (retreating from what I said on the mic)</p>",
+    "topic": "ietf-120",
+    "dtime": 4170000,
+    "ptime": 4170000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>but Martin, we cannot prevent the flights of the bad idea fairy,</p>",
+    "topic": "ietf-120",
+    "dtime": 4170000,
+    "ptime": 4170000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>.</p>",
+    "topic": "ietf-120",
+    "dtime": 4171000,
+    "ptime": 4171000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Lucas, the current draft requires you to track timeouts, but is kind of wishy-washy about what you do when a path times out. You SHOULD stop sending on it, but it might still be usable, etc.</p>",
+    "topic": "ietf-120",
+    "dtime": 4211000,
+    "ptime": 4211000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>the interesting thing here is that you have a path that is active and a path that is idle; that idle path might not be usable if it is left fully idle for a long period, which could be much longer than the idle timeout now; this is FINE</p>",
+    "topic": "ietf-120",
+    "dtime": 4223000,
+    "ptime": 4223000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>agree</p>",
+    "topic": "ietf-120",
+    "dtime": 4239000,
+    "ptime": 4239000
+  },
+  {
+    "author": "Kevin Cox",
+    "text": "<p>I agree. I'm fine with out-of-band validation.</p>",
+    "topic": "ietf-120",
+    "dtime": 4802000,
+    "ptime": 4802000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>9000 refers to a \"change\" of address. This should clarify that new peer addresses are also covered by that requirement.</p>",
+    "topic": "ietf-120",
+    "dtime": 4886000,
+    "ptime": 4886000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Christian, consider the 3x amplification limit. It's not enforced by the client, but it can be checked on a server implementation. (And has been, in maprg talks.)</p>",
+    "topic": "ietf-120",
+    "dtime": 5048000,
+    "ptime": 5048000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>What does that mean, a robin round without robin?</p>",
+    "topic": "ietf-120",
+    "dtime": 5104000,
+    "ptime": 5104000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>it means fewer movie references</p>",
+    "topic": "ietf-120",
+    "dtime": 5123000,
+    "ptime": 5123000
+  },
+  {
+    "author": "Christian Huitema",
+    "text": "<p>@Mike, I don't want to mandate 1RTT before sending data. This is a tradeoff between urgency and risk, and there will be cases where urgency wins.</p>",
+    "topic": "ietf-120",
+    "dtime": 5193000,
+    "ptime": 5193000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>are we sure we didn't want to use XML?</p>",
+    "topic": "ietf-120",
+    "dtime": 5334000,
+    "ptime": 5334000
+  },
+  {
+    "author": "Kevin Cox",
+    "text": "<p>I don't think we should be producing DoS vectors. I think allowing out-of-band validation is fine but I think it is good to say that you MUST validate before sending.</p>\n<p>The secret is also that no one breaks your kneecaps if you ignore a MUST. You just get to keep both halves if it breaks and you are to blame if you become a DoS vector. You are just stepping outside of the official protocol, and you are responsible for making sure that everything works.</p>",
+    "topic": "ietf-120",
+    "dtime": 5349000,
+    "ptime": 5349000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>Lets use TAI everywhere ;-)</p>",
+    "topic": "ietf-120",
+    "dtime": 5693000,
+    "ptime": 5693000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>TAI vs UTC isn't really mattering here</p>",
+    "topic": "ietf-120",
+    "dtime": 5778000,
+    "ptime": 5778000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>UT1 FTW</p>",
+    "topic": "ietf-120",
+    "dtime": 5800000,
+    "ptime": 5800000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>Well no leap seconds nor timezones. But, I am aware the problem is that most nodes does not have reliable clock sources that allows them to have a reliable time. So I am fine with Martin's proposal.</p>",
+    "topic": "ietf-120",
+    "dtime": 5850000,
+    "ptime": 5850000
+  },
+  {
+    "author": "Watson Ladd",
+    "text": "<p>a few ppm is easy and cheap, so relative logging is easy</p>",
+    "topic": "ietf-120",
+    "dtime": 5894000,
+    "ptime": 5894000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Long queue may not jive with 10 minutes allocated.</p>",
+    "topic": "ietf-120",
+    "dtime": 6469000,
+    "ptime": 6469000
+  },
+  {
+    "author": "Marcus Ihlar",
+    "text": "<p>I think experimentation is the way forward here.</p>",
+    "topic": "ietf-120",
+    "dtime": 6608000,
+    "ptime": 6608000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>What I'm hearing from Magnus is that the network markings are applied in a way that might be estimated somehow without accurately recording the data.</p>",
+    "topic": "ietf-120",
+    "dtime": 6813000,
+    "ptime": 6813000
+  },
+  {
+    "author": "Martin Duke",
+    "text": "<p>In a strict sense, existing ACK_ECN is ambiguous, but I would really want to see data the suggests these acks are better than just guessing based on ACK_ECN</p>",
+    "topic": "ietf-120",
+    "dtime": 6959000,
+    "ptime": 6959000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>What I stated is specific to the mobile networks. And the issue there is related to the ordering of link layer encryption and the actual QUEUE that is done on link layer encrypted packets in 5G Mobile network. I think byte marking is what is desired but not always easily accomplished.</p>",
+    "topic": "ietf-120",
+    "dtime": 7153000,
+    "ptime": 7153000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>thanks Joris. I recommend anyone interested in QUIC stream scheduling in general go check out the HTTP/3 prioritization ANRW presentation and paper</p>",
+    "topic": "ietf-120",
+    "dtime": 7154000,
+    "ptime": 7154000
+  },
+  {
+    "author": "Joris Herbots",
+    "text": "<p>Link to the paper for anyone interested: <a href=\"https://dl.acm.org/doi/10.1145/3673422.3674887\">https://dl.acm.org/doi/10.1145/3673422.3674887</a></p>",
+    "topic": "ietf-120",
+    "dtime": 7245000,
+    "ptime": 7245000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Mike: How many multi-CDN cases use the same server IP?</p>",
+    "topic": "ietf-120",
+    "dtime": 7294000,
+    "ptime": 7294000
+  },
+  {
+    "author": "Magnus Westerlund",
+    "text": "<p>Another aspect of byte accounting with CE marks is what traffic patterns that has widely varying packet sizes so that it matters. I can see that real-time media have a bit of this. Where you have small Audio packets, and video have a number of large size and one smaller end-packet per frame, or possibly tile. Masque tunneling of IP might also see a more varied packet size.</p>",
+    "topic": "ietf-120",
+    "dtime": 7302000,
+    "ptime": 7302000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>CONNECT-UDP doesn't necessarily give you an IP ...</p>",
+    "topic": "ietf-120",
+    "dtime": 7350000,
+    "ptime": 7350000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>CONNECT-UDP maybe shouldn't be re-resolving the name once it sets up the tunnel</p>",
+    "topic": "ietf-120",
+    "dtime": 7392000,
+    "ptime": 7392000
+  },
+  {
+    "author": "Kevin Cox",
+    "text": "<p>Different IPs doesn't mean that they have different owners.</p>",
+    "topic": "ietf-120",
+    "dtime": 7469000,
+    "ptime": 7469000
+  },
+  {
+    "author": "Lucas Pardue",
+    "text": "<p>thanks all</p>",
+    "topic": "ietf-120",
+    "dtime": 7487000,
+    "ptime": 7487000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>@Martin, it's not a re-resolving issue. It's that the client has an old NEW_TOKEN token and is using it for a fresh connection.</p>",
+    "topic": "ietf-120",
+    "dtime": 7494000,
+    "ptime": 7494000
+  },
+  {
+    "author": "Mike Bishop",
+    "text": "<p>Or rather, the re-resolving is because a new tunnel was requested sometime later.</p>",
+    "topic": "ietf-120",
+    "dtime": 7511000,
+    "ptime": 7511000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-QUIC-20240725-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/quic"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-QUIC-20240725-1630"
+		}		
+	]
+}

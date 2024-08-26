@@ -1,0 +1,371 @@
+
+{
+	"title": "IETF114-TCPM-20220729-1400",
+	"filename": "IETF114-TCPM-20220729-1400",
+	"start": 0,
+	"end": 7410000,
+	"start_datetime": "2022-07-29T14:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "nhNtIXoDM50",
+    "start": 0,
+    "end": "7410000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I would like to wander over from lsr for the presentations on the yang modules.  Could someone give 2 min warning before those presentations?</p>",
+    "dtime": 648000,
+    "ptime": 648000
+  },
+  {
+    "author": "Yoshifumi Nishida",
+    "text": "<p>ok. I will send message before the presentation</p>",
+    "dtime": 758000,
+    "ptime": 758000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Thank you.</p>",
+    "dtime": 786000,
+    "ptime": 786000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>Clarification: the \"issue 3\" is fixed in my draft patches, but not in Linux yet. The setting of alpha_cubic to 1 after cwnd &gt; w_max or prior_cwnd is not in Linux yet.</p>",
+    "dtime": 1178000,
+    "ptime": 1178000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>Can you run Hystart++ with Cubic?</p>",
+    "dtime": 1403000,
+    "ptime": 1403000
+  },
+  {
+    "author": "Yi Huang",
+    "text": "<p>beta_cubic in windows TCP is 0.7 as well. JFYI.</p>",
+    "dtime": 1410000,
+    "ptime": 1410000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>@Rodney - I don't see why not</p>",
+    "dtime": 1423000,
+    "ptime": 1423000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>Does that solve the Alpha issue of issue 1?</p>",
+    "dtime": 1441000,
+    "ptime": 1441000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>it would be more related to issue 2 than 1</p>",
+    "dtime": 1473000,
+    "ptime": 1473000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>issue 1 is about the Reno compatibility mode</p>",
+    "dtime": 1491000,
+    "ptime": 1491000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>I miss typed, I  meant issue 2</p>",
+    "dtime": 1524000,
+    "ptime": 1524000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>@Rodney, yes. And this is mentioned in the draft as well</p>",
+    "dtime": 1653000,
+    "ptime": 1653000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>If there are these issues perhaps instead of going to PS, why not take 8312bis to EXP, and get this data, then go to PS.</p>",
+    "dtime": 1682000,
+    "ptime": 1682000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>Issue 1:  the current value of C in CUBIC_alpha is widely deployed and isn't causing any obvious problems, so I don't see the need to change it for a theoretical reason</p>",
+    "dtime": 1804000,
+    "ptime": 1804000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>Issue 2: likewise 0.7 is widely deployed and isn't causing any practical problems, since in a deep buffer HyStart is likely to trigger before the buffer is full</p>",
+    "dtime": 1850000,
+    "ptime": 1850000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>while a shallow buffer is likely to be associated with AQM which likely triggers before the buffer is full</p>",
+    "dtime": 1885000,
+    "ptime": 1885000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>@Jonathan, so that would explain WHY we dont see an issue with the 0.7, and in effect that value just wont matter due to HyStart kicking in?</p>",
+    "dtime": 1905000,
+    "ptime": 1905000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>correct</p>",
+    "dtime": 1917000,
+    "ptime": 1917000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>so CUBIC_beta should be tuned for congestion avoidance mode rather than slow-start exit</p>",
+    "dtime": 1943000,
+    "ptime": 1943000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>So the problem is \"Hidden\".  <em>sigh</em></p>",
+    "dtime": 1991000,
+    "ptime": 1991000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>remind me to discuss this with you elsewhere</p>",
+    "dtime": 2119000,
+    "ptime": 2119000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>Thanks for the clarification Bob. Can you please point to the slide numbers in your ICCRG slides that have Reno and CUBIC in the same queue? Thanks!</p>",
+    "dtime": 2491000,
+    "ptime": 2491000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>AFAICT those are all with an AQM, and I think Markku's concern with alpha mainly pertained to CUBIC and Reno coexisting in that  drop-tail FIFO.</p>",
+    "dtime": 2560000,
+    "ptime": 2560000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>Note in Markku's email <a href=\"https://mailarchive.ietf.org/arch/msg/tcpm/pN1fARPVzqcDlt--xiMoDm_loAM/\">https://mailarchive.ietf.org/arch/msg/tcpm/pN1fARPVzqcDlt--xiMoDm_loAM/</a> the phrase: \" he model is incorrect for the traditional and still today prevailing tail-drop router case\"</p>",
+    "dtime": 2738000,
+    "ptime": 2738000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>I believe its slide 8 in Bob's slides in ICCRG.</p>",
+    "dtime": 2868000,
+    "ptime": 2868000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>If I'm reading that correctly, that's showing \"ECN-CUBIC\" vs Reno, which again sounds like an AQM (to get the ECN marking) rather than drop-tail.</p>",
+    "dtime": 3249000,
+    "ptime": 3249000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>I left the queue</p>",
+    "dtime": 3345000,
+    "ptime": 3345000
+  },
+  {
+    "author": "Vidhi Goel",
+    "text": "<p>there is ECN-CUBIC and then there is just CUBIC. I am not sure if just CUBIC uses any AQM</p>",
+    "dtime": 3359000,
+    "ptime": 3359000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>I don't think any of the graphs shown in the Prague CC material involve a drop-tail bottleneck</p>",
+    "dtime": 3413000,
+    "ptime": 3413000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>The \"Reno\" in slide 8 is only on the second row, which only has \"ECN-CUBIC\" results, not \"CUBIC\" results.</p>",
+    "dtime": 3475000,
+    "ptime": 3475000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>My sense agrees with Jonathan's, that none of the graphs shown in the Prague CC material involve a drop-tail bottleneck.</p>",
+    "dtime": 3500000,
+    "ptime": 3500000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>ACK filtering change worked for me, thanks.</p>",
+    "dtime": 3592000,
+    "ptime": 3592000
+  },
+  {
+    "author": "Yoshifumi Nishida",
+    "text": "<p>accn presentation is toward the end</p>",
+    "dtime": 3670000,
+    "ptime": 3670000
+  },
+  {
+    "author": "Yoshifumi Nishida",
+    "text": "<p>next wiil be yang</p>",
+    "dtime": 3711000,
+    "ptime": 3711000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>Clarification, this Linux code we tested this week was Ilpo's AccECN code.</p>",
+    "dtime": 3912000,
+    "ptime": 3912000
+  },
+  {
+    "author": "Chris Box",
+    "text": "<p>Yang presentation is starting</p>",
+    "dtime": 4751000,
+    "ptime": 4751000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>keepalives?</p>",
+    "dtime": 5713000,
+    "ptime": 5713000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>Keepalive and dead timer should tear down the BGP sessession.</p>",
+    "dtime": 5763000,
+    "ptime": 5763000
+  },
+  {
+    "author": "Michael Tüxen",
+    "text": "<p>Application layer keep alives / heartbeat</p>",
+    "dtime": 5763000,
+    "ptime": 5763000
+  },
+  {
+    "author": "Wesley Eddy",
+    "text": "<p>or ... more YANG</p>",
+    "dtime": 5773000,
+    "ptime": 5773000
+  },
+  {
+    "author": "Rodney Grimes",
+    "text": "<p>This \"case #1\" was solved over 30 years ago.</p>",
+    "dtime": 5809000,
+    "ptime": 5809000
+  },
+  {
+    "author": "Lars Eggert",
+    "text": "<p>i don't understand why a broken application needs to be fixed by having another application look at arbitrary TCP state</p>",
+    "dtime": 6138000,
+    "ptime": 6138000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"35\">@Lars Eggert</span>  The application itself is often not broken.  It's broken TCP and the application is the victim.</p>",
+    "dtime": 6667000,
+    "ptime": 6667000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>And while we have the headaches that come on occasion from modifying tcp stacks, we also have similar issues with bugs in stock Linux stacks.</p>",
+    "dtime": 6726000,
+    "ptime": 6726000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>You develop a different perspective on the bugs when your tcp sessions are often up for months.</p>",
+    "dtime": 6740000,
+    "ptime": 6740000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>in the case mentioned, the application was hung but the TCP stack was still operating</p>",
+    "dtime": 6742000,
+    "ptime": 6742000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Understood that was the example.  I'm offering another example.</p>",
+    "dtime": 6760000,
+    "ptime": 6760000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The hung state from a wedged receiver has a discussion for a \"send holdtimer\" to cover this condition in the IDR mailing list.</p>",
+    "dtime": 6846000,
+    "ptime": 6846000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>Why do we need R so large? .. just because it is possible???? .. ona 1 Gbps link, we can have 1 ACK every 100 or so packets, with little overhead=</p>",
+    "dtime": 6884000,
+    "ptime": 6884000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>In another case: A large value is harmful also when there is path flapping or a path change.</p>",
+    "dtime": 7322000,
+    "ptime": 7322000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>80Gbps * 100ms is a BDP of 660,502 packets, at MTU=1500bytes. In which case an ACK per 2,000 packets would give 330 ACKs per round trip. So IMHO a max value of 2047 is reasonable.</p>",
+    "dtime": 7322000,
+    "ptime": 7322000
+  },
+  {
+    "author": "Gorry Fairhurst",
+    "text": "<p>Is it reasonable from a CC perspective?</p>",
+    "dtime": 7353000,
+    "ptime": 7353000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>yes, this was the thrust of the mathematics I posted on the list</p>",
+    "dtime": 7354000,
+    "ptime": 7354000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>Yes, it's reasonable from a CC perspective if the CC is using pacing, which it ought to be.</p>",
+    "dtime": 7376000,
+    "ptime": 7376000
+  },
+  {
+    "author": "Neal Cardwell",
+    "text": "<p>As Jonathan noted, if there is loss, the receiver will ACK immediately.</p>",
+    "dtime": 7390000,
+    "ptime": 7390000
+  },
+  {
+    "author": "Jonathan Morton",
+    "text": "<p>if congestion feedback is generated by the receiver or on the path, this will result in immediate acks regardless of the value of R</p>",
+    "dtime": 7392000,
+    "ptime": 7392000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-TCPM-20220729-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/tcpm"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-TCPM-20220729-1400"
+		}		
+	]
+}

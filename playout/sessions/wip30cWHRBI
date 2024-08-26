@@ -1,0 +1,443 @@
+
+{
+	"title": "IETF113-PRIVACYPASS-20220324-1200",
+	"filename": "IETF113-PRIVACYPASS-20220324-1200",
+	"start": 0,
+	"end": 3745000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "wip30cWHRBI",
+    "start": 0,
+    "end": "3745000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 90000,
+    "ptime": 90000,
+    "author": "Jonathan Hammell",
+    "text": "I can take notes<br/>"
+  },
+  {
+    "dtime": 107000,
+    "ptime": 107000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Thanks Jonathan!<br/>"
+  },
+  {
+    "dtime": 159000,
+    "ptime": 159000,
+    "author": "Mark McFadden",
+    "text": "I am here if there is time later.<br/>"
+  },
+  {
+    "dtime": 791000,
+    "ptime": 791000,
+    "author": "sftcd",
+    "text": "nit: space is a bit of an odd term here, but I see why you chose it (no need to discuss in the room/via-voice)<br/>"
+  },
+  {
+    "dtime": 826000,
+    "ptime": 826000,
+    "author": "David Schinazi",
+    "text": "It reminds me of Inspector SpaceTime (from the TV series Community)<br/>"
+  },
+  {
+    "dtime": 829000,
+    "ptime": 829000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "It's a great setup for lines like \"private throughout the entire<br/>space-time continuum!\"<br/>"
+  },
+  {
+    "dtime": 838000,
+    "ptime": 838000,
+    "author": "Robin Wilton",
+    "text": "\"Time separation\" here essentially means that issuance and redemption are asynchronous.<br/>"
+  },
+  {
+    "dtime": 856000,
+    "ptime": 856000,
+    "author": "David Schinazi",
+    "text": "I prefer to think of it as time travel<br/>"
+  },
+  {
+    "dtime": 881000,
+    "ptime": 881000,
+    "author": "Robin Wilton",
+    "text": "All my time travel is synchronous.<br/>"
+  },
+  {
+    "dtime": 882000,
+    "ptime": 882000,
+    "author": "svaldez@jabber.hot-chilli.net/barnowl",
+    "text": "Time separation needs to be a little bit stronger than just<br/>asynchronous, since even then there would be some correlation.<br/>"
+  },
+  {
+    "dtime": 890000,
+    "ptime": 890000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "I guess the \"space\" idea is that someone could link per-proxy<br/>information but not know about the \"client\" itself<br/>"
+  },
+  {
+    "dtime": 914000,
+    "ptime": 914000,
+    "author": "Robin Wilton",
+    "text": "@svaldez Yes; asynchronicity is necessary but insufficient.<br/>"
+  },
+  {
+    "dtime": 994000,
+    "ptime": 994000,
+    "author": "svaldez@jabber.hot-chilli.net/barnowl",
+    "text": "Space being about the \"source\" of the client's requests. You could<br/>have an \"anonymous request\" that doesn't include cookies/state and one<br/>that does, but those might still not be space separated since their IP<br/>address might be the same.<br/>"
+  },
+  {
+    "dtime": 1170000,
+    "ptime": 1170000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "I would prefer to not punt centralization *entirely* to Mark's doc<br/>"
+  },
+  {
+    "dtime": 1251000,
+    "ptime": 1251000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Tommy is still slightly choppy (has been all week, IIRC).<br/>But basically intelligible...<br/>"
+  },
+  {
+    "dtime": 1267000,
+    "ptime": 1267000,
+    "author": "sftcd",
+    "text": "@svaldez: yep, but I guess two different IPs from the same /64 wouldn't always be \"space-separated\" and something like screen-size or other client fingerprints might provide similar linkage - not that privacypass has gotta be perfect but might be good to be more precise about what space means<br/>"
+  },
+  {
+    "dtime": 1270000,
+    "ptime": 1270000,
+    "author": "Benjamin Schwartz",
+    "text": "Try mute/unmute<br/>"
+  },
+  {
+    "dtime": 1272000,
+    "ptime": 1272000,
+    "author": "Ted Hardie",
+    "text": "Yes, it is choppy<br/>"
+  },
+  {
+    "dtime": 1295000,
+    "ptime": 1295000,
+    "author": "Rich Salz",
+    "text": "maybe next time dont particiapate from your private helicopter.<br/>"
+  },
+  {
+    "dtime": 1310000,
+    "ptime": 1310000,
+    "author": "Rich Salz",
+    "text": "speaking slowly helps a great deal BTW<br/>"
+  },
+  {
+    "dtime": 1468000,
+    "ptime": 1468000,
+    "author": "Jana Iyengar",
+    "text": "you're still choppy, so keep talking slowly, it's helpful<br/>"
+  },
+  {
+    "dtime": 1509000,
+    "ptime": 1509000,
+    "author": "Ted Hardie",
+    "text": "Could we have more than one origin name in the struct, for cases like youtube.com/google.com where the two are not the same but the redemption mechanics might be?<br/>"
+  },
+  {
+    "dtime": 1632000,
+    "ptime": 1632000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "the terminology of the presentation language lends itself to punnery,<br/>with the proposal sounding like it wants a transluscent origin_name<br/>rather than an opaque one (i.e., with some internal structure but<br/>retaining some opaque bits)<br/>"
+  },
+  {
+    "dtime": 1811000,
+    "ptime": 1811000,
+    "author": "Jonathan Hammell",
+    "text": "Who is speaking (Steven?)<br/>"
+  },
+  {
+    "dtime": 1817000,
+    "ptime": 1817000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Steven Valdez<br/>"
+  },
+  {
+    "dtime": 1829000,
+    "ptime": 1829000,
+    "author": "Jonathan Hammell",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 1861000,
+    "ptime": 1861000,
+    "author": "David Schinazi",
+    "text": "If this isn't the same \"origin\" as the Web concept, maybe we should rename it to something else?<br/>"
+  },
+  {
+    "dtime": 1923000,
+    "ptime": 1923000,
+    "author": "sftcd",
+    "text": "tommy's very good at keeping to the speaking-slowly, doubt I could do it;-)<br/>"
+  },
+  {
+    "dtime": 1927000,
+    "ptime": 1927000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "Well, it's kind of a context in which the token would be<br/>redeemable...oh wait, we already have a redemption_context<br/>"
+  },
+  {
+    "dtime": 1949000,
+    "ptime": 1949000,
+    "author": "npd",
+    "text": "it kind of seems like \"origin\" and \"context\" are both opaque strings selected by the origin<br/>"
+  },
+  {
+    "dtime": 1954000,
+    "ptime": 1954000,
+    "author": "npd",
+    "text": "+1 kaduk<br/>"
+  },
+  {
+    "dtime": 1975000,
+    "ptime": 1975000,
+    "author": "Christopher Wood",
+    "text": "It currently _is_ the origin as in the Web context<br/>"
+  },
+  {
+    "dtime": 2010000,
+    "ptime": 2010000,
+    "author": "Christopher Wood",
+    "text": "@npd the client is expected to check that origin_name, if present, matches that of the origin it's interacting with<br/>"
+  },
+  {
+    "dtime": 2018000,
+    "ptime": 2018000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "We might also consider how things degrade if different origins<br/>independently select truly opaque \"origin\" values that happen to<br/>collide.&nbsp;&nbsp;IIUC it degrades pretty gracefully, but maybe there is an<br/>attack lurking there.<br/>"
+  },
+  {
+    "dtime": 2021000,
+    "ptime": 2021000,
+    "author": "Christopher Wood",
+    "text": "(I think we have text to that effect, but I can't remember offhand)<br/>"
+  },
+  {
+    "dtime": 2039000,
+    "ptime": 2039000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "@Chris I just heard Steven saying that it was truly opaque...<br/>"
+  },
+  {
+    "dtime": 2059000,
+    "ptime": 2059000,
+    "author": "Christopher Wood",
+    "text": "This slide should clear things up =)<br/>"
+  },
+  {
+    "dtime": 2067000,
+    "ptime": 2067000,
+    "author": "svaldez@jabber.hot-chilli.net/barnowl",
+    "text": "@kaduk: Its not currently opaque, was mentioning it as a possibility<br/>to move to. Not sure its the right approach.<br/>"
+  },
+  {
+    "dtime": 2071000,
+    "ptime": 2071000,
+    "author": "npd",
+    "text": "I'm unclear how this will work with clearing cookies<br/>"
+  },
+  {
+    "dtime": 2092000,
+    "ptime": 2092000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "svaldez: ah, thanks.&nbsp;&nbsp;(It is 0530h here, after all.)<br/>"
+  },
+  {
+    "dtime": 2134000,
+    "ptime": 2134000,
+    "author": "Christopher Wood",
+    "text": "Issue for multiple origin names in the TokenChallenge: <a href=\"https://github.com/ietf-wg-privacypass/base-drafts/issues/108\" rel=\"nofollow\">https://github.com/ietf-wg-privacypass/base-drafts/issues/108</a><br/>"
+  },
+  {
+    "dtime": 2134000,
+    "ptime": 2134000,
+    "author": "npd",
+    "text": "given that one likely implementation is that your login identity/cookies with the attester is necessary<br/>"
+  },
+  {
+    "dtime": 2137000,
+    "ptime": 2137000,
+    "author": "Christopher Wood",
+    "text": "(Thanks, Ted!)<br/>"
+  },
+  {
+    "dtime": 2158000,
+    "ptime": 2158000,
+    "author": "Ted Hardie",
+    "text": "Thanks for writing up the issue.<br/>"
+  },
+  {
+    "dtime": 2211000,
+    "ptime": 2211000,
+    "author": "svaldez@jabber.hot-chilli.net/barnowl",
+    "text": "Particularly, origin vs site is a bit tricky on the web site. Does<br/>foo.origin.com and bar.origin.com have to request separate per-origin<br/>tokens. Is there a way to indicate *.origin.com or are the only<br/>options global tokens or single-origin tokens.<br/>"
+  },
+  {
+    "dtime": 2211000,
+    "ptime": 2211000,
+    "author": "npd",
+    "text": "it seems like the user should discard the tokens when they clear cookies ... but also that they'll need to log in again with the same identity in order to get more tokens. doesn't that mean that their identity will be linkable?<br/>"
+  },
+  {
+    "dtime": 2262000,
+    "ptime": 2262000,
+    "author": "Tommy Pauly",
+    "text": "@npd: if you're using a separate attester than the origin, you're not really logging back into that origin<br/>"
+  },
+  {
+    "dtime": 2274000,
+    "ptime": 2274000,
+    "author": "Tommy Pauly",
+    "text": "So for the split case, you don't want to be able to be tracked<br/>"
+  },
+  {
+    "dtime": 2302000,
+    "ptime": 2302000,
+    "author": "Benjamin Schwartz",
+    "text": "Maybe the cross-origin problem could be solved by iframing a shared origin...<br/>"
+  },
+  {
+    "dtime": 2321000,
+    "ptime": 2321000,
+    "author": "Tommy Pauly",
+    "text": "If the client allowed that, it could<br/>"
+  },
+  {
+    "dtime": 2344000,
+    "ptime": 2344000,
+    "author": "Tommy Pauly",
+    "text": "But it may be nicer to have an explicit list and ensure that the first-party origin is in the list<br/>"
+  },
+  {
+    "dtime": 2352000,
+    "ptime": 2352000,
+    "author": "svaldez@jabber.hot-chilli.net/barnowl",
+    "text": "bemasc: I'd guess some clients wouldn't want to support that or the<br/>higher complexity would be a trade off.<br/>"
+  },
+  {
+    "dtime": 2450000,
+    "ptime": 2450000,
+    "author": "Benjamin Schwartz",
+    "text": "&gt;= 0?<br/>"
+  },
+  {
+    "dtime": 2792000,
+    "ptime": 2792000,
+    "author": "npd",
+    "text": "is the goal to provide more privacy in the paywall context? or just to make paywalls harder for users to get around?<br/>"
+  },
+  {
+    "dtime": 2821000,
+    "ptime": 2821000,
+    "author": "kaduk@jabber.org/barnowl",
+    "text": "This \"private token buckets\" only on the attester is giving me strong<br/>vibes of Robin's question in SAAG, regarding how we think about<br/>keeping attester and issuer separate<br/>"
+  },
+  {
+    "dtime": 2840000,
+    "ptime": 2840000,
+    "author": "Tommy Pauly",
+    "text": "For the paywall case, it's to allow paywalls to work when you have IP address privacy. Because otherwise you just get totally blocked. And now you wouldn't.<br/>"
+  },
+  {
+    "dtime": 2849000,
+    "ptime": 2849000,
+    "author": "Ted Hardie",
+    "text": "Can't the user generate a new client secret in orer to get past this?<br/>"
+  },
+  {
+    "dtime": 2883000,
+    "ptime": 2883000,
+    "author": "Tommy Pauly",
+    "text": "@Ted if the client generates a new secret, the Asstester will learn that because it will collide with the calculated identifier from the issuer<br/>"
+  },
+  {
+    "dtime": 2895000,
+    "ptime": 2895000,
+    "author": "Tommy Pauly",
+    "text": "So the attester can detect a malicious client gaming the system<br/>"
+  },
+  {
+    "dtime": 2935000,
+    "ptime": 2935000,
+    "author": "Ted Hardie",
+    "text": "@Tommy okay, thanks.&nbsp;&nbsp;It has to at least re-initiate a relationship with the attester to do that, and the attester can manage this.<br/>"
+  },
+  {
+    "dtime": 2948000,
+    "ptime": 2948000,
+    "author": "Tommy Pauly",
+    "text": "@npd the other big use case is being able to guarantee that a given device is only able to try to create &lt;N accounts per time window, etc<br/>"
+  },
+  {
+    "dtime": 2996000,
+    "ptime": 2996000,
+    "author": "svaldez@jabber.hot-chilli.net/barnowl",
+    "text": "If its possible for the client to generate fresh accounts with the<br/>attester, then they could easily bypass some of the limits.<br/>"
+  },
+  {
+    "dtime": 3000000,
+    "ptime": 3000000,
+    "author": "Tommy Pauly",
+    "text": "@Ted right, it would need to have a new identity from the attester's perspective. If this was just based on IP address, then it's equivalent to the case where rate limiting was based on IP. But attesters can also require stronger identity.<br/>"
+  },
+  {
+    "dtime": 3039000,
+    "ptime": 3039000,
+    "author": "npd",
+    "text": "@tommy I'm more interested in working on that use case (account creation limits). going to great lengths to make it harder for users to clear state so that they can't read articles is less motivating<br/>"
+  },
+  {
+    "dtime": 3062000,
+    "ptime": 3062000,
+    "author": "Tommy Pauly",
+    "text": "Yes, I think that the account creation limits is the most compelling<br/>"
+  },
+  {
+    "dtime": 3342000,
+    "ptime": 3342000,
+    "author": "svaldez@jabber.hot-chilli.net/barnowl",
+    "text": "This construction lets you do that without needing to reveal every<br/>target origin the user to the attester.<br/>"
+  },
+  {
+    "dtime": 3623000,
+    "ptime": 3623000,
+    "author": "npd",
+    "text": "I'm not clear whether the use case is actually for paywall metering or for countering abuse -- they seem pretty distinct<br/>"
+  },
+  {
+    "dtime": 3628000,
+    "ptime": 3628000,
+    "author": "Robin Wilton",
+    "text": "Thanks everyone<br/>"
+  },
+  {
+    "dtime": 3712000,
+    "ptime": 3712000,
+    "author": "npd",
+    "text": "has the user created 10 different accounts with my bank this week? has the user read 10 different articles on my site this week? these don't seem like similar questions<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-PRIVACYPASS-20220324-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/privacypass"
+		}
+	]
+}

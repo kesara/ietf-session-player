@@ -1,0 +1,1764 @@
+
+{
+	"title": "IETF115-MIMI-20221109-0930",
+	"filename": "IETF115-MIMI-20221109-0930",
+	"start": 0,
+	"end": 7470000,
+	"start_datetime": "2022-11-09T09:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "MRRYGRlHYr8",
+    "start": 0,
+    "end": "7470000"
+  }
+],
+	"messages": [
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Hey Olle!</p>",
+    "topic": "jabber",
+    "dtime": 70000,
+    "ptime": 70000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i hope everyone remembered to watch La Bohème in preparation</p>",
+    "topic": "jabber",
+    "dtime": 143000,
+    "ptime": 143000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> I saw it at Covent Garden on Saturday.</p>",
+    "topic": "jabber",
+    "dtime": 251000,
+    "ptime": 251000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>What do you call a La Boheme/La Triviata double bill?<br>\nConspicuous consumption!</p>",
+    "topic": "jabber",
+    "dtime": 291000,
+    "ptime": 291000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Excellent, PHB, good work!</p>",
+    "topic": "jabber",
+    "dtime": 329000,
+    "ptime": 329000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>I have read the problem statement draft</p>",
+    "topic": "jabber",
+    "dtime": 366000,
+    "ptime": 366000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Why the heck do people think digital signatures have anything to do with user authentication? They are used to build PKIs but they have absolutely no place in a user auth protocol unless non repudiation is an explicit goal.</p>",
+    "topic": "jabber",
+    "dtime": 544000,
+    "ptime": 544000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>The \"Adium way\", as those of us with memories of libpurple would say.</p>",
+    "topic": "jabber",
+    "dtime": 596000,
+    "ptime": 596000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@PHB: You can't authenticate users to users with bearer tokens.  You need signatures to \"sender constrain\" the credentials users present, so that they can't be replayed</p>",
+    "topic": "jabber",
+    "dtime": 600000,
+    "ptime": 600000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> Nope</p>",
+    "topic": "jabber",
+    "dtime": 618000,
+    "ptime": 618000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> Alice makes ElGamal encryption challenge to Bob, Bob makes challenge to Alice, session key is from a KDF over both results.</p>",
+    "topic": "jabber",
+    "dtime": 777000,
+    "ptime": 777000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@PHB Asymmetric keys in any case.  Also that doesn't really work in a non-interactive setting, like messaging.  Also, we usually say \"HPKE\" for encryption to a public key these days ;)</p>",
+    "topic": "jabber",
+    "dtime": 899000,
+    "ptime": 899000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> Asymmetric keys certainly. But <strong>NOT</strong> signature keys. We should not provide non repudiable proof that Alice was in the conversation because that is itself a serious breach. \"We kill people based on metadata\"</p>",
+    "topic": "jabber",
+    "dtime": 978000,
+    "ptime": 978000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> You have just resolved an issue for me: How is Instant Messaging different from chat. Thanks</p>",
+    "topic": "jabber",
+    "dtime": 1070000,
+    "ptime": 1070000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>It's only a Bakeoff while we're here in the UK, otherwise it's a Baking Show.</p>",
+    "topic": "jabber",
+    "dtime": 1300000,
+    "ptime": 1300000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I didn't get what\"defined elsewhere\" meant on the prev slide</p>",
+    "topic": "jabber",
+    "dtime": 1332000,
+    "ptime": 1332000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>In other wg</p>",
+    "topic": "jabber",
+    "dtime": 1365000,
+    "ptime": 1365000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>This conversation appears to be driven by the concerns of the incumbent messaging providers looking to achieve minimal compliance with regulation so of course, they have a gateway model.<br>\nThat is what we did in the early email world, gateways everywhere. That is why Sendmail is so complex. <br>\nBut once users of system A can talk to system B, there is no value in the proprietary protocol and it is simplest for everyone to move to a single standard.</p>",
+    "topic": "jabber",
+    "dtime": 1381000,
+    "ptime": 1381000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>connection requests that are accepted by a user prior to communicating is one step towards addressing abuse</p>",
+    "topic": "jabber",
+    "dtime": 1395000,
+    "ptime": 1395000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>The identity building blocks used will not be defined in this WG.</p>",
+    "topic": "jabber",
+    "dtime": 1401000,
+    "ptime": 1401000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>-1 to any interpretation that we'll handle spam and abuse later</p>",
+    "topic": "jabber",
+    "dtime": 1466000,
+    "ptime": 1466000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I guess I'm not sure how a building block might look</p>",
+    "topic": "jabber",
+    "dtime": 1489000,
+    "ptime": 1489000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>that was a helpful overview, thanks</p>",
+    "topic": "jabber",
+    "dtime": 1497000,
+    "ptime": 1497000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Is the target open federation a la xmpp or is it by regulated rulesets</p>",
+    "topic": "jabber",
+    "dtime": 1500000,
+    "ptime": 1500000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>I don't understand where the assumption that this will go anywhere comes from. e.g. XMPP was good enough (and for that matter secure IRC variants too), but commercial realities lead to worse solutions and while charter had some arguments about european(?) push for federation, I don't still see concrete reason for optimism.</p>",
+    "topic": "jabber",
+    "dtime": 1632000,
+    "ptime": 1632000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Pressure from the EU is one of the reasons, as covered in the introduction</p>",
+    "topic": "jabber",
+    "dtime": 1705000,
+    "ptime": 1705000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Users should control their own metadata</p>",
+    "topic": "jabber",
+    "dtime": 1882000,
+    "ptime": 1882000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>It is not \"push\" or \"pressure\", interoperable messaging is legally mandatory to implement in Europe under a timeframe of 1 to 4 years, for anyone being defined as a gatekeeper (e.g. Meta, Apple and Google). Then, of course, these companies may choose not to use any IETF standard but do their own thing, or just resist the law.</p>",
+    "topic": "jabber",
+    "dtime": 1932000,
+    "ptime": 1932000
+  },
+  {
+    "author": "Daniel Petrie",
+    "text": "<p>White list or black list services</p>",
+    "topic": "jabber",
+    "dtime": 1934000,
+    "ptime": 1934000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I think I heard rohan and matthew saying quite different things just there about who controlled that policy</p>",
+    "topic": "jabber",
+    "dtime": 1952000,
+    "ptime": 1952000
+  },
+  {
+    "author": "Fannys Bampaloukas",
+    "text": "<p>yeah it seems like its not clear how users would control the metadata yet in the wg</p>",
+    "topic": "jabber",
+    "dtime": 1995000,
+    "ptime": 1995000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>When we get to the charter, make sure that it's clear enough the wg will need to address that.</p>",
+    "topic": "jabber",
+    "dtime": 2033000,
+    "ptime": 2033000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>@ekr: Is that something that needs to be baked into the charter, or something that should be addressed by the wg once chartered?</p>",
+    "topic": "jabber",
+    "dtime": 2158000,
+    "ptime": 2158000
+  },
+  {
+    "author": "Jonathan Lennox",
+    "text": "<p>E-mail interoperates, but you need to know that my e-mail address is at gmail.</p>",
+    "topic": "jabber",
+    "dtime": 2189000,
+    "ptime": 2189000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>we might start talking about what server rather than which silo'd service, but yes, you'd still need a way to know where to find them and send messages to them</p>",
+    "topic": "jabber",
+    "dtime": 2260000,
+    "ptime": 2260000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>Global directory sounds unrealistic and undesirable due to abuse.</p>",
+    "topic": "jabber",
+    "dtime": 2262000,
+    "ptime": 2262000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"426\">@Jonathan Lennox</span> correct, btut you don't need a table for \"this is how you talk to gmail\" that gets updated if Facebook introduces Facebook mail</p>",
+    "topic": "jabber",
+    "dtime": 2290000,
+    "ptime": 2290000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>We've discussed global directories since the dawn of the net</p>",
+    "topic": "jabber",
+    "dtime": 2333000,
+    "ptime": 2333000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Well, we in fact have a global directory, which maps domain names onto other things</p>",
+    "topic": "jabber",
+    "dtime": 2434000,
+    "ptime": 2434000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>I think there is an incentive question here.  If Rafael@Signal wants to talk to Uriel@mastodon, but neither has a link to the other, there must be a server-based interchange between the two.  The DMA covers the incentives for the gatekeepers, but do we expect that you'd be able to pass from one service to another via a 3rd?  Or are we expecting voluntary gateway operation in each of these cases?</p>",
+    "topic": "jabber",
+    "dtime": 2452000,
+    "ptime": 2452000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>We do not have a global directory for <em>users</em>, but it's not like inconceivable</p>",
+    "topic": "jabber",
+    "dtime": 2452000,
+    "ptime": 2452000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I may have missed something in the presentation. Is there a fundamental assumption that the message encapsulation is interoperable?</p>",
+    "topic": "jabber",
+    "dtime": 2463000,
+    "ptime": 2463000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1165\">@Brendan Moran</span> yes</p>",
+    "topic": "jabber",
+    "dtime": 2471000,
+    "ptime": 2471000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Otherwise E2E doesn't work, which I imagine is where you are going</p>",
+    "topic": "jabber",
+    "dtime": 2485000,
+    "ptime": 2485000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>migration and forwarding of messages both seem important for functional interoperability</p>",
+    "topic": "jabber",
+    "dtime": 2520000,
+    "ptime": 2520000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span>  Correct. I don't believe that the \"gatekeeper\" services are using the same encapsulation today. Why would they switch?</p>",
+    "topic": "jabber",
+    "dtime": 2528000,
+    "ptime": 2528000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Agree that portability doesn't seem like primary scope, but might benefit as a side effect of more interop</p>",
+    "topic": "jabber",
+    "dtime": 2529000,
+    "ptime": 2529000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>\"Oh, my elephant chat service introduced 3d messaging in 4th dimensions space. You need to join here because I can only message you using an old keyboard\"</p>",
+    "topic": "jabber",
+    "dtime": 2541000,
+    "ptime": 2541000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>Email has no presence, right?</p>",
+    "topic": "jabber",
+    "dtime": 2578000,
+    "ptime": 2578000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Precense is more and more fading out in the background</p>",
+    "topic": "jabber",
+    "dtime": 2583000,
+    "ptime": 2583000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>iMessage doesn't do  presence</p>",
+    "topic": "jabber",
+    "dtime": 2594000,
+    "ptime": 2594000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Wire doesn't</p>",
+    "topic": "jabber",
+    "dtime": 2596000,
+    "ptime": 2596000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i don't think WhatsApp does (?)</p>",
+    "topic": "jabber",
+    "dtime": 2615000,
+    "ptime": 2615000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1165\">@Brendan Moran</span> I think the assumption is that it will be the easiest way to address the requirements of the DMA</p>",
+    "topic": "jabber",
+    "dtime": 2642000,
+    "ptime": 2642000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Not another SIMPLE, I personally consider precedes out of scope</p>",
+    "topic": "jabber",
+    "dtime": 2655000,
+    "ptime": 2655000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> my iMessager has features that show counterparty activity, which seems like presence to me?</p>",
+    "topic": "jabber",
+    "dtime": 2666000,
+    "ptime": 2666000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Graham do you mean things like read receipts?  that's different</p>",
+    "topic": "jabber",
+    "dtime": 2692000,
+    "ptime": 2692000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>read notifications / typing notifications are bit different.</p>",
+    "topic": "jabber",
+    "dtime": 2698000,
+    "ptime": 2698000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1732\">@Graham Klyne</span> both read receipts and typing are different</p>",
+    "topic": "jabber",
+    "dtime": 2701000,
+    "ptime": 2701000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>A PTR DNS record for the fingerprint of PHB's key that points to his preferred service? ENUM?</p>",
+    "topic": "jabber",
+    "dtime": 2715000,
+    "ptime": 2715000
+  },
+  {
+    "author": "A.J. Beal",
+    "text": "<p>I think presence really only makes sense in organizational chats where calander management is also a part of the application - Teams, Slack, etc.. different from basic IM</p>",
+    "topic": "jabber",
+    "dtime": 2722000,
+    "ptime": 2722000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> No, I mean things like showing the other user is typing a response</p>",
+    "topic": "jabber",
+    "dtime": 2731000,
+    "ptime": 2731000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"810\">@Eric Rescorla</span> Thanks for the clarification.</p>",
+    "topic": "jabber",
+    "dtime": 2733000,
+    "ptime": 2733000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I think we need presence of the kind \"I no longer use this service\"</p>",
+    "topic": "jabber",
+    "dtime": 2733000,
+    "ptime": 2733000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nick isn't that just like \"404\"?</p>",
+    "topic": "jabber",
+    "dtime": 2754000,
+    "ptime": 2754000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>+1 for mandatory autoreply feature ('please use wignal to contact me')</p>",
+    "topic": "jabber",
+    "dtime": 2768000,
+    "ptime": 2768000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Maybe a redirect, 302 =&gt; Find me at this account in another service</p>",
+    "topic": "jabber",
+    "dtime": 2778000,
+    "ptime": 2778000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@rlb, yeah, it could be very easy (maybe 410 rather than 404)</p>",
+    "topic": "jabber",
+    "dtime": 2783000,
+    "ptime": 2783000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>603 don't ever contact me again.</p>",
+    "topic": "jabber",
+    "dtime": 2813000,
+    "ptime": 2813000
+  },
+  {
+    "author": "Fannys Bampaloukas",
+    "text": "<p>yeah migration, like direction and stuff should be part of portability imo</p>",
+    "topic": "jabber",
+    "dtime": 2817000,
+    "ptime": 2817000
+  },
+  {
+    "author": "Fannys Bampaloukas",
+    "text": "<p>redirection*</p>",
+    "topic": "jabber",
+    "dtime": 2831000,
+    "ptime": 2831000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>really wishing for a global 603 response code these days.</p>",
+    "topic": "jabber",
+    "dtime": 2864000,
+    "ptime": 2864000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>I like marshmallows.</p>",
+    "topic": "jabber",
+    "dtime": 2872000,
+    "ptime": 2872000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Any special requirements for chatbot services?</p>",
+    "topic": "jabber",
+    "dtime": 2885000,
+    "ptime": 2885000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Delicious identity</p>",
+    "topic": "jabber",
+    "dtime": 2887000,
+    "ptime": 2887000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>either we need to have universal lookup (provider independent ID -&gt; provider + provider-dependent ID) or we need to have the ability to leave breadcrumbs behind (proivder dependent ID -&gt; provider dependent ID). Like you do in the postal system.</p>",
+    "topic": "jabber",
+    "dtime": 2890000,
+    "ptime": 2890000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>Fluffy is unfortunately not end-to-end</p>",
+    "topic": "jabber",
+    "dtime": 2895000,
+    "ptime": 2895000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Fluffy is merely an end</p>",
+    "topic": "jabber",
+    "dtime": 2958000,
+    "ptime": 2958000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>Fluffy is many ends....</p>",
+    "topic": "jabber",
+    "dtime": 2989000,
+    "ptime": 2989000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>with static</p>",
+    "topic": "jabber",
+    "dtime": 3025000,
+    "ptime": 3025000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>This seems like a fundamental debate between Rohan and Fluffy</p>",
+    "topic": "jabber",
+    "dtime": 3046000,
+    "ptime": 3046000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Jon pacing in the background as Fluffy is talking on camera just looks ominous.</p>",
+    "topic": "jabber",
+    "dtime": 3048000,
+    "ptime": 3048000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>I think phone numbers are a special historical case where the service/scope is implicit (\"I'm 867-5309\" is \"I'm 867-5309 @ POTS\")</p>",
+    "topic": "jabber",
+    "dtime": 3120000,
+    "ptime": 3120000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>Well, you could also be &lt;phone_number&gt;@Whatsapp, or @Telegram</p>",
+    "topic": "jabber",
+    "dtime": 3163000,
+    "ptime": 3163000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p>the namespace is clear, but not the service</p>",
+    "topic": "jabber",
+    "dtime": 3178000,
+    "ptime": 3178000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nick unfortunately POTS ceased to be a unitary service a while ago</p>",
+    "topic": "jabber",
+    "dtime": 3219000,
+    "ptime": 3219000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> Problem with phone numbers is that despite the fact that using them is stupid on a stick, they are used in Signal and many other messaging systems as the user identifier (which is one reason I don't plan to use Signal once there is an alternative).</p>",
+    "topic": "jabber",
+    "dtime": 3230000,
+    "ptime": 3230000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I'm concerned about inter-service identity. There may be services that are less effective at identity management, which leads to spamming/impersonation problems across services. The interop from a \"good\" service to a \"bad\" service, allows attacks on the \"bad\" service to affect users of the \"good\" service.</p>",
+    "topic": "jabber",
+    "dtime": 3244000,
+    "ptime": 3244000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> not so unfortunate...</p>",
+    "topic": "jabber",
+    "dtime": 3247000,
+    "ptime": 3247000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1165\">@Brendan Moran</span> People think I am protecting my code but... that concern is exactly the reason I took the approach I have. We really can't depend on services to manage identity.</p>",
+    "topic": "jabber",
+    "dtime": 3336000,
+    "ptime": 3336000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p><a href=\"https://github.com/coopdanger/ietf-wg-mimi/blob/main/charter.md\">https://github.com/coopdanger/ietf-wg-mimi/blob/main/charter.md</a></p>",
+    "topic": "jabber",
+    "dtime": 3417000,
+    "ptime": 3417000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>if you think phone numbers are simple, consider +886.</p>",
+    "topic": "jabber",
+    "dtime": 3469000,
+    "ptime": 3469000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>Read-only \"channels\" - message streams - are not included. I personally have no problem with that, but it seems popular in some systems.</p>",
+    "topic": "jabber",
+    "dtime": 3470000,
+    "ptime": 3470000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>'identity' is a terrible term because nouns the verb. What we really mean is user identification. My twitter handle is not my identity. Nor is my public key. They are means of identifying me.</p>",
+    "topic": "jabber",
+    "dtime": 3544000,
+    "ptime": 3544000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>The charter could have a word reduction, \"with related working groups as needed\" -&gt; \"with related working groups\"</p>",
+    "topic": "jabber",
+    "dtime": 3624000,
+    "ptime": 3624000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@PHB the way we are using \"identity\" here is simply \"authenticating that the cryptographic key legitimately represents a non-cryptographic identifier\"</p>",
+    "topic": "jabber",
+    "dtime": 3632000,
+    "ptime": 3632000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>The assumption that there is also any way to look me up based on some key on different services is amusing; e.g. my discord identity does not have my real name, my twitter handle is something weird, and only Signal has my phone number (that I know of).</p>",
+    "topic": "jabber",
+    "dtime": 3637000,
+    "ptime": 3637000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>This group should not discuss replacing SDP.</p>",
+    "topic": "jabber",
+    "dtime": 3640000,
+    "ptime": 3640000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>While I can provide those links (if I feel like it), any assumption that 'the cloud' knows it is more alarming than reassuring.</p>",
+    "topic": "jabber",
+    "dtime": 3689000,
+    "ptime": 3689000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>How will the WG handle government requirements for inspection of message content?</p>",
+    "topic": "jabber",
+    "dtime": 3730000,
+    "ptime": 3730000
+  },
+  {
+    "author": "Fannys Bampaloukas",
+    "text": "<p>yeah. also it seems to be missing the consent factor from the use that is being communicated</p>",
+    "topic": "jabber",
+    "dtime": 3736000,
+    "ptime": 3736000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Is that a current requirement?</p>",
+    "topic": "jabber",
+    "dtime": 3757000,
+    "ptime": 3757000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Markus i think the assumption is the other way around, that if an identifier is used across services (e.g., a phone number), then you can discover which services it exists on</p>",
+    "topic": "jabber",
+    "dtime": 3769000,
+    "ptime": 3769000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1165\">Brendan Moran</span> <a href=\"#narrow/stream/354-mimi/topic/jabber/near/52209\">said</a>:</p>\n<blockquote>\n<p>How will the WG handle government requirements for inspection of message content?</p>\n</blockquote>\n<p>Not a current requirement but it's been tried several times. There have been several notable attempts at client-side inspection. I don't know what will happen going forward; but there's an obvious question of whether it will come up again going forward.</p>",
+    "topic": "jabber",
+    "dtime": 3888000,
+    "ptime": 3888000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Brendan that seems like a question for implementors, not the WG</p>",
+    "topic": "jabber",
+    "dtime": 3958000,
+    "ptime": 3958000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> If it's client-side, sure.</p>",
+    "topic": "jabber",
+    "dtime": 4094000,
+    "ptime": 4094000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>We may be naive to think that there will be one global federation where one can join without having to sign contracts with the big players.</p>",
+    "topic": "jabber",
+    "dtime": 4137000,
+    "ptime": 4137000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>I want to believe though</p>",
+    "topic": "jabber",
+    "dtime": 4156000,
+    "ptime": 4156000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>\"may investigate and develop\" indicates that this is not a hard requirement for the WG</p>",
+    "topic": "jabber",
+    "dtime": 4303000,
+    "ptime": 4303000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>IMHO, discovering identifier-service pairs by identifier is a recipe for impersonation</p>",
+    "topic": "jabber",
+    "dtime": 4398000,
+    "ptime": 4398000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>If SMS is one of the systems in scope, we have a lot of issues to solve. Number portability, routing in both directions and possibly more</p>",
+    "topic": "jabber",
+    "dtime": 4416000,
+    "ptime": 4416000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Are we discussing the charter in general now, or just pull requests?</p>",
+    "topic": "jabber",
+    "dtime": 4468000,
+    "ptime": 4468000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>I think the idea was to deal with the PRs first, and still in that.</p>",
+    "topic": "jabber",
+    "dtime": 4485000,
+    "ptime": 4485000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Seems a mix of both really.</p>",
+    "topic": "jabber",
+    "dtime": 4491000,
+    "ptime": 4491000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Brendan i think the model here is like DNS+PKI -- discover the connection point, then confirm that the connected entity is the identified entity</p>",
+    "topic": "jabber",
+    "dtime": 4494000,
+    "ptime": 4494000
+  },
+  {
+    "author": "Olle Johansson",
+    "text": "<p>\"My twitter handle is not my identity\" - PHB \"It's mine\" - EKR</p>",
+    "topic": "jabber",
+    "dtime": 4509000,
+    "ptime": 4509000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> increasingly terrified that we are creating a new business case for the .name people</p>",
+    "topic": "jabber",
+    "dtime": 4534000,
+    "ptime": 4534000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Andrew you mean the .eth people?</p>",
+    "topic": "jabber",
+    "dtime": 4567000,
+    "ptime": 4567000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> I'd rather have dns-sec.</p>",
+    "topic": "jabber",
+    "dtime": 4569000,
+    "ptime": 4569000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> The Bad Idea Fairy never sleeps.</p>",
+    "topic": "jabber",
+    "dtime": 4604000,
+    "ptime": 4604000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>it's early enough in this time zone that trolling is basically the only contribution i can muster</p>",
+    "topic": "jabber",
+    "dtime": 4629000,
+    "ptime": 4629000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>Keeps us on track.</p>",
+    "topic": "jabber",
+    "dtime": 4648000,
+    "ptime": 4648000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1, I'm not sure \"express\" is a useful addition in this case to \"user preferences\"</p>",
+    "topic": "jabber",
+    "dtime": 4666000,
+    "ptime": 4666000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 Nick</p>",
+    "topic": "jabber",
+    "dtime": 4679000,
+    "ptime": 4679000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1599\">@Olle Johansson</span> no, SMS is not in scope (at least in regulatory terms) because in Europe it is not considered a number-independent interpersonal communication service (which is how IM is called)</p>",
+    "topic": "jabber",
+    "dtime": 4690000,
+    "ptime": 4690000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"526\">@Richard Barnes</span> The problem I see is that PKI doesn't help. You don't know the public key of $person, nor which CA signed their key. You know an identifier for $person. You reach out to the oracle and it gives you three choices, on three services. You naively assume that they're the same person on three services. They are not.</p>",
+    "topic": "jabber",
+    "dtime": 4701000,
+    "ptime": 4701000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Brendan you reach out to the DNS oracle, you get 3 IP addresses.  You don't know that any of them are legit until you make the TLS connection and get a cert.</p>",
+    "topic": "jabber",
+    "dtime": 4781000,
+    "ptime": 4781000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>(arguably even with DNSSEC)</p>",
+    "topic": "jabber",
+    "dtime": 4787000,
+    "ptime": 4787000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1165\">@Brendan Moran</span> be specific, are you saying someone types in 'Brendan Moran' and gets back three hits, \"@brendan\", or '617 666 1234'</p>",
+    "topic": "jabber",
+    "dtime": 4791000,
+    "ptime": 4791000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p><a href=\"https://github.com/coopdanger/ietf-wg-mimi/pull/10\">https://github.com/coopdanger/ietf-wg-mimi/pull/10</a></p>",
+    "topic": "jabber",
+    "dtime": 4833000,
+    "ptime": 4833000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>chairs, are we discussing the existing PRs, or the charter in general? or can we get our topic on the q now by opening more PRs in real-time?</p>",
+    "topic": "jabber",
+    "dtime": 4956000,
+    "ptime": 4956000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>One (MLS) identifier to rule them all, one identifier to bind them.....</p>",
+    "topic": "jabber",
+    "dtime": 4963000,
+    "ptime": 4963000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>EKR PR LGTM</p>",
+    "topic": "jabber",
+    "dtime": 4968000,
+    "ptime": 4968000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"677\">@Phillip Hallam-Baker</span> these are each interesting options, with interesting problems, but just look at 1). Try googling my name. The results are entertaining. Searching for me via this oracle would be almost certain to yield the wrong result.</p>",
+    "topic": "jabber",
+    "dtime": 4970000,
+    "ptime": 4970000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>On discovery: I don't think this is a problem that the EU is demanding we solve. What they are demanding we solve is a mechanism that allows Alice who already knows Bob to interact.</p>",
+    "topic": "jabber",
+    "dtime": 5018000,
+    "ptime": 5018000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Fully agree <span class=\"user-mention\" data-user-id=\"677\">@Phillip Hallam-Baker</span> yes please.</p>",
+    "topic": "jabber",
+    "dtime": 5050000,
+    "ptime": 5050000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Reminder that DMA is not the only motivation for this work.</p>",
+    "topic": "jabber",
+    "dtime": 5072000,
+    "ptime": 5072000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Actually solving problems for users is also important :)</p>",
+    "topic": "jabber",
+    "dtime": 5083000,
+    "ptime": 5083000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+100 rlb</p>",
+    "topic": "jabber",
+    "dtime": 5083000,
+    "ptime": 5083000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>I have wondered about this from the time I saw the BOF on agenda, but is this even going to happen in DMA timeframe?</p>",
+    "topic": "jabber",
+    "dtime": 5115000,
+    "ptime": 5115000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>if the word \"identity\" in the charter text is meant to only mean cryptographic materials then that wasn't clear to me as a reader, just saying so somewhere should fix</p>",
+    "topic": "jabber",
+    "dtime": 5144000,
+    "ptime": 5144000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>I would like to observe that reducing a hard problem to \"just use URIs\" doesn't seem to be a huge improvement.</p>",
+    "topic": "jabber",
+    "dtime": 5174000,
+    "ptime": 5174000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I think we should use the word \"identifier\"</p>",
+    "topic": "jabber",
+    "dtime": 5183000,
+    "ptime": 5183000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@sftcd - cryptographic identifiers are not sufficient, we need the ability to authenticate non-cryptographic identifiers</p>",
+    "topic": "jabber",
+    "dtime": 5195000,
+    "ptime": 5195000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>And then the job of the authentication system is to bind the non-cryptographic identifier (NCIs!) to keying material</p>",
+    "topic": "jabber",
+    "dtime": 5212000,
+    "ptime": 5212000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@rlb: sure, I was only commenting on teriminology</p>",
+    "topic": "jabber",
+    "dtime": 5226000,
+    "ptime": 5226000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>fwiw, I agree with ekr on \"identifier\"</p>",
+    "topic": "jabber",
+    "dtime": 5260000,
+    "ptime": 5260000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p><a href=\"https://github.com/coopdanger/ietf-wg-mimi/pull/12\">https://github.com/coopdanger/ietf-wg-mimi/pull/12</a> is a first attempt at resolving the issue I raised, but I may want to re-write later when I'm not split attention.</p>",
+    "topic": "jabber",
+    "dtime": 5283000,
+    "ptime": 5283000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>I was thinking the charter as drafted (before ekr PR) did not include \"discovery\".  But I'm also hearing there may be different kinds of \"discovery\" - maybe need to be clear(er) what is meant?</p>",
+    "topic": "jabber",
+    "dtime": 5306000,
+    "ptime": 5306000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1906\">@Andrew Sullivan</span> This is a charter discsussion though. What I said was really 'that is the hard problem we call URIs'.</p>",
+    "topic": "jabber",
+    "dtime": 5392000,
+    "ptime": 5392000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"677\">@Phillip Hallam-Baker</span> Ah, I get it.  Never mind.</p>",
+    "topic": "jabber",
+    "dtime": 5495000,
+    "ptime": 5495000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>STAY AT THE MIC</p>",
+    "topic": "jabber",
+    "dtime": 5548000,
+    "ptime": 5548000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>If people prefer to remove \"Express and implied\" I can obviously create a PR</p>",
+    "topic": "jabber",
+    "dtime": 5554000,
+    "ptime": 5554000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>wrt application vs service - Rohan and I had a small discussion after my comment - it's clear that we have different images on how messaging services are going to work when one user has multiple clients.</p>",
+    "topic": "jabber",
+    "dtime": 5554000,
+    "ptime": 5554000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Thing about this WG is that we are discussing all the hard problems and 90% of the material we need is not hard at all. I really do not care what the format for a short rich text message is, just as long as it is reasonably functional (bold, emojis) and not using a new or insane syntax (i.e. pick markdown or XML, don't do a new thing). And that is doing a vast amount of the heavy lifting required.</p>",
+    "topic": "jabber",
+    "dtime": 5585000,
+    "ptime": 5585000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I tend to agree with Harald that \"service\" is the right term, though it seems like the kids today think of \"apps\" which have service components</p>",
+    "topic": "jabber",
+    "dtime": 5586000,
+    "ptime": 5586000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 ekr</p>",
+    "topic": "jabber",
+    "dtime": 5697000,
+    "ptime": 5697000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>per another conversation on the list, maybe we should refer to \"privacy\" rather than listing every particular dimension of preferences about data processing</p>",
+    "topic": "jabber",
+    "dtime": 5698000,
+    "ptime": 5698000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> Sounds good to me.</p>",
+    "topic": "jabber",
+    "dtime": 5716000,
+    "ptime": 5716000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> yes, \"privacy preferences\" would also work</p>",
+    "topic": "jabber",
+    "dtime": 5725000,
+    "ptime": 5725000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p>about 15 years ago, most of the IM landscape switched from \"you're currently running a chat between A on THIS device and B on THAT device\" to \"you're currently running a chat between A and B, A has it showing on THIS device and THOSE devices, B has it showing on THAT device and THESE devices\", and the existence of the devices (which may be different apps) were never communicated between A and B.</p>",
+    "topic": "jabber",
+    "dtime": 5725000,
+    "ptime": 5725000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>If \"go there\" also means via a gateway service which might be resident on something like an anycast server, expecting the user to have preferences about this is odd.</p>",
+    "topic": "jabber",
+    "dtime": 5726000,
+    "ptime": 5726000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i think it's important to call out at least the discovery / reachability aspects here.</p>",
+    "topic": "jabber",
+    "dtime": 5728000,
+    "ptime": 5728000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>\"User preferences (however determined)\"?   (avoids \"express\" vs \"implied\", but also avoids tacit preferences?)</p>",
+    "topic": "jabber",
+    "dtime": 5742000,
+    "ptime": 5742000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>I could live with <span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span>'s proposal</p>",
+    "topic": "jabber",
+    "dtime": 5744000,
+    "ptime": 5744000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>other aspects of privacy can be handled elsewhere</p>",
+    "topic": "jabber",
+    "dtime": 5745000,
+    "ptime": 5745000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>It is possibly worth considering that the charter has a semi-political consequence and appears to be making commitments that others in or even outside the IETF will think the WG is committing to solving.  I think what Jon Peterson has been trying to get at in his mic comments is on the right track about this.</p>",
+    "topic": "jabber",
+    "dtime": 5747000,
+    "ptime": 5747000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>maybe we can get to the spam conversation if we ever stop talking about the current PRs</p>",
+    "topic": "jabber",
+    "dtime": 5782000,
+    "ptime": 5782000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>This is the wrong name. Introduction should be Authorization. This part of the system is actually access control</p>",
+    "topic": "jabber",
+    "dtime": 5881000,
+    "ptime": 5881000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>I think the idea that people have a clear idea of what their implicit or even tacit assumptions are is dangerous, and I don't think the charter had better have language in it that promises to solve such preference-sharing</p>",
+    "topic": "jabber",
+    "dtime": 5948000,
+    "ptime": 5948000
+  },
+  {
+    "author": "Harald Alvestrand",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1732\">@Graham Klyne</span> user preferences usually come in 3 groups:</p>\n<ul>\n<li>3% \"all the way to the right\"</li>\n<li>3% \"all the way to the left\"</li>\n<li>94% \"default\"</li>\n</ul>",
+    "topic": "jabber",
+    "dtime": 5958000,
+    "ptime": 5958000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"677\">@Phillip Hallam-Baker</span> Hmmm.. I'm hearing something like introduction = service discovery + authorization ?</p>",
+    "topic": "jabber",
+    "dtime": 5978000,
+    "ptime": 5978000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>can we move on to discuss other parts of the charter?</p>",
+    "topic": "jabber",
+    "dtime": 6021000,
+    "ptime": 6021000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 Nick</p>",
+    "topic": "jabber",
+    "dtime": 6028000,
+    "ptime": 6028000
+  },
+  {
+    "author": "A.J. Beal",
+    "text": "<p>I'd say users inherit a set of default \"user preferences\" from their platform. If they tune them themselves (which they should, and the option needs to be available) then it is a matter of them explicitly expressing them but in either case it's \"user preference\"</p>",
+    "topic": "jabber",
+    "dtime": 6048000,
+    "ptime": 6048000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1509\">@A.J. Beal</span> it is more than that. Jon is saying you inherit default user preference settings but you also inherit what the platform does that it doesn’t ask your opinion about.</p>",
+    "topic": "jabber",
+    "dtime": 6143000,
+    "ptime": 6143000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>It would be a positive outcome if MIMI could shift those practices such that implicit platform behaviours are now visible to users as preferences.</p>",
+    "topic": "jabber",
+    "dtime": 6202000,
+    "ptime": 6202000
+  },
+  {
+    "author": "Vittorio Bertola",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"677\">@Phillip Hallam-Baker</span>  I think both problems exist - the introduction problem is how do I go from a URI that I get out of band to a window in my client that allows me to send a message to the person at that URI. The authorization/access control problem is how does the user at that URI tell all services and clients whether and how he accepts me sending messages to them. It is conflated because that problem needs to be addressed at the time of first contact between the two users.</p>",
+    "topic": "jabber",
+    "dtime": 6245000,
+    "ptime": 6245000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p>Is there some way to stop the stupid jabber window disappearing.</p>",
+    "topic": "jabber",
+    "dtime": 6249000,
+    "ptime": 6249000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>But if mimi can't shift those practices, it might still provide some interoperability that sorts the necessary issues in a minimally acceptable way.</p>",
+    "topic": "jabber",
+    "dtime": 6307000,
+    "ptime": 6307000
+  },
+  {
+    "author": "A.J. Beal",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"666\">@Mallory Knodel</span> Agreed, and hopefully in a more meaningful way than tucked in a \"terms of service\"</p>",
+    "topic": "jabber",
+    "dtime": 6316000,
+    "ptime": 6316000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>And it's not reasonable to predetermine those outcomes in the charter, I think, because it makes promises the WG may not be able to deliver.</p>",
+    "topic": "jabber",
+    "dtime": 6347000,
+    "ptime": 6347000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"768\">@Vittorio Bertola</span> the 'introduction problem' clearly has multiple levels.</p>",
+    "topic": "jabber",
+    "dtime": 6348000,
+    "ptime": 6348000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>can we move on to discuss other parts of the charter?</p>",
+    "topic": "jabber",
+    "dtime": 6378000,
+    "ptime": 6378000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>I liked the earlier proposals to push those questions to requirements discussions rather than charter language</p>",
+    "topic": "jabber",
+    "dtime": 6402000,
+    "ptime": 6402000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1906\">@Andrew Sullivan</span> exactly. I’m sure many people are looking forward to ending their relationship with various IM services that have proved themselves to not be acting in users’ best interests. Enough leave, practices change for the better.</p>",
+    "topic": "jabber",
+    "dtime": 6413000,
+    "ptime": 6413000
+  },
+  {
+    "author": "Phillip Hallam-Baker",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1906\">@Andrew Sullivan</span> yes, I think we can delete most of the charter.<br>\nI don't think there is much disagreement about what we are trying to achieve. What I am hearing is discussion of the language we use to describe the problem.</p>",
+    "topic": "jabber",
+    "dtime": 6500000,
+    "ptime": 6500000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Unfortunately, we had a very narrow discussion of the charter in all that talk.</p>",
+    "topic": "jabber",
+    "dtime": 6507000,
+    "ptime": 6507000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1, excluding spam and abuse, or unclear language that might exclude those capabilities, might undermine the work</p>",
+    "topic": "jabber",
+    "dtime": 6576000,
+    "ptime": 6576000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>I'm sensitive to spam / abuse concerns, but not sure what concretely we would ask the WG to deliver along those lines</p>",
+    "topic": "jabber",
+    "dtime": 6647000,
+    "ptime": 6647000
+  },
+  {
+    "author": "Travis Ralston",
+    "text": "<p>I believe the intent would be that abuse/spam is kept in consideration, but specific mitigations would not be discussed at this phase.</p>",
+    "topic": "jabber",
+    "dtime": 6673000,
+    "ptime": 6673000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@rlb, I'm not exactly sure either, but I'd prefer not to prohibit the WG from delivering something</p>",
+    "topic": "jabber",
+    "dtime": 6680000,
+    "ptime": 6680000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Nick fair</p>",
+    "topic": "jabber",
+    "dtime": 6689000,
+    "ptime": 6689000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1 Vittorio, it's a clear way for gatekeepers to undermine interoperability is to say \"well, there's nothing we can do, there's too much spam\"</p>",
+    "topic": "jabber",
+    "dtime": 6724000,
+    "ptime": 6724000
+  },
+  {
+    "author": "Ted Hardie",
+    "text": "<p>+1 ekr; as rlb put it earlier--there are user driven reasons to do this outside the DMA.</p>",
+    "topic": "jabber",
+    "dtime": 6755000,
+    "ptime": 6755000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>At least in the current version (though not sure about the open PRs), the only actual limit I saw was, \"Development of anti-spam or anti-abuse algorithms.\"  That's not the same thing as \"taking it into consideration\".</p>",
+    "topic": "jabber",
+    "dtime": 6776000,
+    "ptime": 6776000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 to ekr re: leaving room for anti-abuse</p>",
+    "topic": "jabber",
+    "dtime": 6805000,
+    "ptime": 6805000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>maybe hooks for reporting abusive messages, and including characteristics necessary for spam handling</p>",
+    "topic": "jabber",
+    "dtime": 6814000,
+    "ptime": 6814000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>+1 to problem statement</p>",
+    "topic": "jabber",
+    "dtime": 6840000,
+    "ptime": 6840000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>@Andrew see</p>\n<blockquote>\n<p>A recharter would be required should the working group decide to work on:<br>\n   Metadata processing to manage spam and abuse</p>\n</blockquote>",
+    "topic": "jabber",
+    "dtime": 6875000,
+    "ptime": 6875000
+  },
+  {
+    "author": "Graham Klyne",
+    "text": "<p>I forget... is it usual for IETF WG charters to mention liaisons (e.g. like W3C WG charters)?  If so, would liaison with DMA legal expertise be appropriate for the development of requirements in the WG?</p>",
+    "topic": "jabber",
+    "dtime": 6883000,
+    "ptime": 6883000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p>@Graham, yes, we've referred to such things before.</p>",
+    "topic": "jabber",
+    "dtime": 6920000,
+    "ptime": 6920000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>agree, spam will be considered, so let's not explicitly say we exclude them and just know that we're going to ignore that sentence</p>",
+    "topic": "jabber",
+    "dtime": 6960000,
+    "ptime": 6960000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"550\">@Nick Doty</span> That's still much more limited than \"don't think about that\".  I think the point at the mic just now is in line with what I think</p>",
+    "topic": "jabber",
+    "dtime": 6964000,
+    "ptime": 6964000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>It doesn't say \"we're going to ignore spam and abuse\".  It says as I understand it that the specifics of those things are not WG deliverables.</p>",
+    "topic": "jabber",
+    "dtime": 6995000,
+    "ptime": 6995000
+  },
+  {
+    "author": "Hans-Jörg Happel",
+    "text": "<p>I find it strange to keep the DMA motivation from being mentioned in the charter, as it may unneccesarily obscure one of the major drivers for the WG from people that have not been part of the WG initiation / won't dig as deep as for the BoF proposal...</p>",
+    "topic": "jabber",
+    "dtime": 7007000,
+    "ptime": 7007000
+  },
+  {
+    "author": "Mark Nottingham",
+    "text": "<p>@pete with specific governments? I'd be very careful setting a precedent here...</p>",
+    "topic": "jabber",
+    "dtime": 7012000,
+    "ptime": 7012000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>IETF is the right venue</p>",
+    "topic": "jabber",
+    "dtime": 7032000,
+    "ptime": 7032000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>odd to ask the BoF questions in the negative</p>",
+    "topic": "jabber",
+    "dtime": 7036000,
+    "ptime": 7036000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>As I said, we're not a contract design agency for the EU</p>",
+    "topic": "jabber",
+    "dtime": 7036000,
+    "ptime": 7036000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1906\">@Andrew Sullivan</span> agreed, it won't stop the discussion, but it's just an unhelpful and confusing scoping statement</p>",
+    "topic": "jabber",
+    "dtime": 7051000,
+    "ptime": 7051000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>Support this initiative</p>",
+    "topic": "jabber",
+    "dtime": 7101000,
+    "ptime": 7101000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1 to forming a Working Group on this work, including the potential for hooks on spam and abuse</p>",
+    "topic": "jabber",
+    "dtime": 7107000,
+    "ptime": 7107000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>real hum :-)</p>",
+    "topic": "jabber",
+    "dtime": 7128000,
+    "ptime": 7128000
+  },
+  {
+    "author": "Andrew Sullivan",
+    "text": "<p>Well, I think that is a misreading of the text.  More important, I don't know how to rewrite that without it opening a different scope problem.</p>",
+    "topic": "jabber",
+    "dtime": 7131000,
+    "ptime": 7131000
+  },
+  {
+    "author": "tim costello",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 7139000,
+    "ptime": 7139000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Hmmmmmmmmm</p>",
+    "topic": "jabber",
+    "dtime": 7140000,
+    "ptime": 7140000
+  },
+  {
+    "author": "Jonas Schäfer",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 7140000,
+    "ptime": 7140000
+  },
+  {
+    "author": "Markus Stenberg",
+    "text": "<p>+1 for forming WG (with some charter rewording)</p>",
+    "topic": "jabber",
+    "dtime": 7141000,
+    "ptime": 7141000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 7145000,
+    "ptime": 7145000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 7146000,
+    "ptime": 7146000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>+1 to forming WG</p>",
+    "topic": "jabber",
+    "dtime": 7147000,
+    "ptime": 7147000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>+1 to support the work</p>",
+    "topic": "jabber",
+    "dtime": 7148000,
+    "ptime": 7148000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 7152000,
+    "ptime": 7152000
+  },
+  {
+    "author": "Daniel Petrie",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 7157000,
+    "ptime": 7157000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>:man-raising-hand:</p>",
+    "topic": "jabber",
+    "dtime": 7179000,
+    "ptime": 7179000
+  },
+  {
+    "author": "Eric Rescorla",
+    "text": "<p>review, author, chair hell no</p>",
+    "topic": "jabber",
+    "dtime": 7193000,
+    "ptime": 7193000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>review + editor</p>",
+    "topic": "jabber",
+    "dtime": 7195000,
+    "ptime": 7195000
+  },
+  {
+    "author": "tim costello",
+    "text": "<p>review</p>",
+    "topic": "jabber",
+    "dtime": 7199000,
+    "ptime": 7199000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>author/editor</p>",
+    "topic": "jabber",
+    "dtime": 7201000,
+    "ptime": 7201000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>review</p>",
+    "topic": "jabber",
+    "dtime": 7205000,
+    "ptime": 7205000
+  },
+  {
+    "author": "Simon Romano",
+    "text": "<p>review + author</p>",
+    "topic": "jabber",
+    "dtime": 7209000,
+    "ptime": 7209000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>review + author</p>",
+    "topic": "jabber",
+    "dtime": 7211000,
+    "ptime": 7211000
+  },
+  {
+    "author": "A.J. Beal",
+    "text": "<p>Review, edit</p>",
+    "topic": "jabber",
+    "dtime": 7215000,
+    "ptime": 7215000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>willing to review and edit</p>",
+    "topic": "jabber",
+    "dtime": 7217000,
+    "ptime": 7217000
+  },
+  {
+    "author": "Antoine Fressancourt",
+    "text": "<p>Review</p>",
+    "topic": "jabber",
+    "dtime": 7232000,
+    "ptime": 7232000
+  },
+  {
+    "author": "Sofia Celi",
+    "text": "<p>:man-raising-hand: reviewer / editor</p>",
+    "topic": "jabber",
+    "dtime": 7238000,
+    "ptime": 7238000
+  },
+  {
+    "author": "Mirja Kühlewind",
+    "text": "<p>can you state a rough number for the remote people?</p>",
+    "topic": "jabber",
+    "dtime": 7243000,
+    "ptime": 7243000
+  },
+  {
+    "author": "Alissa Cooper",
+    "text": "<p>Maybe 20 authors in the room</p>",
+    "topic": "jabber",
+    "dtime": 7265000,
+    "ptime": 7265000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>One or two dozen, it looked like.</p>",
+    "topic": "jabber",
+    "dtime": 7268000,
+    "ptime": 7268000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I'm not sure this is a wg that'd suit a first-time chair</p>",
+    "topic": "jabber",
+    "dtime": 7291000,
+    "ptime": 7291000
+  },
+  {
+    "author": "Mallory Knodel",
+    "text": "<p>A handful of tentative hands for chairing</p>",
+    "topic": "jabber",
+    "dtime": 7310000,
+    "ptime": 7310000
+  },
+  {
+    "author": "Simon Romano",
+    "text": "<p>+1</p>",
+    "topic": "jabber",
+    "dtime": 7345000,
+    "ptime": 7345000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>+1 smaller chat services</p>",
+    "topic": "jabber",
+    "dtime": 7362000,
+    "ptime": 7362000
+  },
+  {
+    "author": "Chris Lemmons",
+    "text": "<p>I think I counted 12 hands for implementation.</p>",
+    "topic": "jabber",
+    "dtime": 7366000,
+    "ptime": 7366000
+  },
+  {
+    "author": "Francesca Palombini",
+    "text": "<p>thank you!</p>",
+    "topic": "jabber",
+    "dtime": 7384000,
+    "ptime": 7384000
+  },
+  {
+    "author": "Nick Doty",
+    "text": "<p>thanks all</p>",
+    "topic": "jabber",
+    "dtime": 7398000,
+    "ptime": 7398000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF115-MIMI-20221109-0930"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/115/session/mimi"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF115-MIMI-20221109-0930"
+		}		
+	]
+}

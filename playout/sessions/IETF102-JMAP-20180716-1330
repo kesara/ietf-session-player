@@ -1,0 +1,600 @@
+{
+  "title": "IETF102-JMAP-20180716-1330",
+  "filename": "IETF102-JMAP-20180716-1330",
+  "start": 0,
+  "end": 3694000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "4ZmjbrDB82g",
+      "start": 0.0,
+      "end": 3694000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Not sure if it\u0027s a practical joke or an issue though :)",
+      "ptime": 21000.0,
+      "dtime": 803000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Dave Crocker just joined the room",
+      "ptime": 38000.0,
+      "dtime": 820000.0
+    },
+    {
+      "text": "Bron said \"we\u0027re Australian, of course it\u0027s upside down!\" and that he\u0027d turn it right side up when you got started",
+      "ptime": 48000.0,
+      "dtime": 830000.0,
+      "author": "Michael McClimon"
+    },
+    {
+      "text": ":D",
+      "ptime": 220000.0,
+      "dtime": 1002000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Stuart Brandt just joined the room",
+      "ptime": 225000.0,
+      "dtime": 1007000.0
+    },
+    {
+      "text": "***Stuart Brandt just left the room",
+      "ptime": 249000.0,
+      "dtime": 1031000.0
+    },
+    {
+      "text": "Concur with Alexey. Cost low, liklihood of extensions high",
+      "ptime": 270000.0,
+      "dtime": 1052000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Registry is infrastructure.  Get it working now, to avoid the transition effort later.",
+      "ptime": 313000.0,
+      "dtime": 1095000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "***Stuart Brandt just joined the room",
+      "ptime": 361000.0,
+      "dtime": 1143000.0
+    },
+    {
+      "text": "same sort of thing can be accomplished by having a section in the RFC listing all error types",
+      "ptime": 383000.0,
+      "dtime": 1165000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Your sound is a bit muddy Neil.",
+      "ptime": 440000.0,
+      "dtime": 1222000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "\u0027a section of the RFC\u0027 means that adding a value requires re-issuing the RFC.",
+      "ptime": 443000.0,
+      "dtime": 1225000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "***Neil Jhaveri just left the room",
+      "ptime": 617000.0,
+      "dtime": 1399000.0
+    },
+    {
+      "text": "***Neil Jhaveri just joined the room",
+      "ptime": 619000.0,
+      "dtime": 1401000.0
+    },
+    {
+      "text": "(Just to add this to the archive.) I\u0027ve just gone through the process of retroactively creating a registry -- for underscored domain names -- and have been sensitized to the benefit of doing it when initial values are created, rather than long afterward. /d",
+      "ptime": 622000.0,
+      "dtime": 1404000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "Dave: And my experience is that adding the registry later is easy, *provided* we remember to do it right away.  The difficulty comes when several extensions come along and fail to create the registry.  So having the registry ahead of time protects against that.",
+      "ptime": 734000.0,
+      "dtime": 1516000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "In any case, Chris will put in the creation of the registry now.",
+      "ptime": 751000.0,
+      "dtime": 1533000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "ack.",
+      "ptime": 763000.0,
+      "dtime": 1545000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "damn it, did I forgot my fivestar notebook at the hotel saturday?",
+      "ptime": 811000.0,
+      "dtime": 1593000.0,
+      "author": "progysm"
+    },
+    {
+      "text": "Eh, wha?",
+      "ptime": 825000.0,
+      "dtime": 1607000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "Neil, can you turn off your video?",
+      "ptime": 1013000.0,
+      "dtime": 1795000.0,
+      "author": "fenton"
+    },
+    {
+      "text": "If the server just has the data available, I suggested on the list it just return it",
+      "ptime": 1077000.0,
+      "dtime": 1859000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Because that might save a spurious request",
+      "ptime": 1092000.0,
+      "dtime": 1874000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "That\u0027s fair. OK, I retract that suggestion.",
+      "ptime": 1123000.0,
+      "dtime": 1905000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "As a client author, I have no problem with requiring a flag. I know computing that count can be expensive... it\u0027s been expensive to do so locally in clients I\u0027ve worked on.",
+      "ptime": 1128000.0,
+      "dtime": 1910000.0,
+      "author": "Neil Jhaveri"
+    },
+    {
+      "text": "Is there a constraint to what \"counts\" the server should have available? ESEARCH/COUNT opens the door to arbitrary counts which can be tough for a server",
+      "ptime": 1217000.0,
+      "dtime": 1999000.0,
+      "author": "Stuart Brandt"
+    },
+    {
+      "text": "Blech.",
+      "ptime": 1409000.0,
+      "dtime": 2191000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "sorry, I\u0027m not up to speed...",
+      "ptime": 1414000.0,
+      "dtime": 2196000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "wouldn\u0027t: [{name:\"Friends\", email:[...]}, ...] work?",
+      "ptime": 1434000.0,
+      "dtime": 2216000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Hack is precisely the word for that group address thing.",
+      "ptime": 1446000.0,
+      "dtime": 2228000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "bleh",
+      "ptime": 1448000.0,
+      "dtime": 2230000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "It\u0027s all a hack, regardless.",
+      "ptime": 1463000.0,
+      "dtime": 2245000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "I already see an issue with my statement",
+      "ptime": 1465000.0,
+      "dtime": 2247000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "ignore it",
+      "ptime": 1467000.0,
+      "dtime": 2249000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "yeah",
+      "ptime": 1484000.0,
+      "dtime": 2266000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "I?m not going to interrupt the meeting with this, but what?s the problem with the two level?",
+      "ptime": 1514000.0,
+      "dtime": 2296000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Array of array seems right.",
+      "ptime": 1523000.0,
+      "dtime": 2305000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "he mentioned library support",
+      "ptime": 1526000.0,
+      "dtime": 2308000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "I hate when you lose semantic content that can be properly expressed.",
+      "ptime": 1559000.0,
+      "dtime": 2341000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "resnick: the issue with two level is that the degenerate case (single address) sucks",
+      "ptime": 1575000.0,
+      "dtime": 2357000.0,
+      "author": "brong"
+    },
+    {
+      "text": "Hmm, advertising as a separate URN but including in base is interesting",
+      "ptime": 1612000.0,
+      "dtime": 2394000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Chris\u0027 suggestion.",
+      "ptime": 1618000.0,
+      "dtime": 2400000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "I\u0027d be afraid of using null-delimiter causing client implementers making buggy clients",
+      "ptime": 1635000.0,
+      "dtime": 2417000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Yeh, I think that\u0027s fine",
+      "ptime": 1643000.0,
+      "dtime": 2425000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "I?m with Jeff; I think marking the ends of (hacked) arrays with null entries is bogus and bug inviting.",
+      "ptime": 1945000.0,
+      "dtime": 2727000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Consider me in the rough if you really think this has been addressed (no pun intended), but I repeat: Blech.",
+      "ptime": 1972000.0,
+      "dtime": 2754000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "My connection cut out during that bit of the meeting so I don\u0027t know what was discussed; should we come back to this at the end of the meeting? I really don\u0027t want nested, but we could go with something like { type: \"groupStart\", name: \"Foo\" } ... { type: \"groupEnd\" }",
+      "ptime": 2093000.0,
+      "dtime": 2875000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Let\u0027s revisit it as AOB.",
+      "ptime": 2164000.0,
+      "dtime": 2946000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "(On topic) I prefer wsUrl on the Session Object directly myself",
+      "ptime": 2190000.0,
+      "dtime": 2972000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "But I get the namespacing argument",
+      "ptime": 2199000.0,
+      "dtime": 2981000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Why can?t you have nested for group and not nested for single mailbox?",
+      "ptime": 2206000.0,
+      "dtime": 2988000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "At least with my frontend implementation, that would be a more complicated codepath.",
+      "ptime": 2260000.0,
+      "dtime": 3042000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "If no one uses managesieve, do we need it for JMAP:",
+      "ptime": 2343000.0,
+      "dtime": 3125000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "?",
+      "ptime": 2345000.0,
+      "dtime": 3127000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Managesieve defines the semantics for back end sieves. Are these the right semantics or do we want to change something?",
+      "ptime": 2376000.0,
+      "dtime": 3158000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Following on with Alexey\u0027s comment: the trouble is that two clients with UIs to generate sieve will not be compatible",
+      "ptime": 2429000.0,
+      "dtime": 3211000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "\"Edit sieve\" begs the question of what it means to edit. There are any number of systems that manage a set of rules that are mapped to sieve.",
+      "ptime": 2436000.0,
+      "dtime": 3218000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "They can\u0027t edit the sieve they didn\u0027t generate.",
+      "ptime": 2442000.0,
+      "dtime": 3224000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "{name: ?Pete?; email: ?pete@somewhere?}",
+      "ptime": 2443000.0,
+      "dtime": 3225000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "That?s unpleasant?",
+      "ptime": 2449000.0,
+      "dtime": 3231000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "Systems that support full sieve editing are rare",
+      "ptime": 2453000.0,
+      "dtime": 3235000.0,
+      "author": "Ned Freed"
+    },
+    {
+      "text": "Sieve handing (even partially would be great)",
+      "ptime": 2476000.0,
+      "dtime": 3258000.0,
+      "author": "Rapha?l Ouazana"
+    },
+    {
+      "text": "Sieve handing (even partially) would be great",
+      "ptime": 2484000.0,
+      "dtime": 3266000.0,
+      "author": "Rapha?l Ouazana"
+    },
+    {
+      "text": "We are",
+      "ptime": 2641000.0,
+      "dtime": 3423000.0,
+      "author": "Rapha?l Ouazana"
+    },
+    {
+      "text": "Wary of building something we \"think\" might be useful without anyone that actually wants it.",
+      "ptime": 2786000.0,
+      "dtime": 3568000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "That normally generates a folder of referenced files I think",
+      "ptime": 2837000.0,
+      "dtime": 3619000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Not one blob",
+      "ptime": 2842000.0,
+      "dtime": 3624000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "IIRC, there was someone in dispatch one or two meetings ago with that proposal",
+      "ptime": 2859000.0,
+      "dtime": 3641000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Neil: Apple?s web archive seems to be an XML file of some sort.",
+      "ptime": 2998000.0,
+      "dtime": 3780000.0,
+      "author": "resnick"
+    },
+    {
+      "text": "The only thing that might be interesting is being able to get which MIME parts were matched in the search.",
+      "ptime": 3132000.0,
+      "dtime": 3914000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Ah, Chris has answered that :D",
+      "ptime": 3145000.0,
+      "dtime": 3927000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Ah, Chris has answered that :)",
+      "ptime": 3151000.0,
+      "dtime": 3933000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "The discussion is assuming that users will know what \u0027non-text\u0027 means.  They won\u0027t.  Powerpoint is text in their minds, I suspect.",
+      "ptime": 3203000.0,
+      "dtime": 3985000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "I think it\u0027s defined in the spec as MIME type other than \"text/*\" or \"message/*\"",
+      "ptime": 3239000.0,
+      "dtime": 4021000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "As usual, the IETF needs to keep out of UI design discussions.",
+      "ptime": 3251000.0,
+      "dtime": 4033000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "The problem with \u0027let the server decide\u0027 is that it means that users won\u0027t know what is being searched.",
+      "ptime": 3311000.0,
+      "dtime": 4093000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "If you don\u0027t let the server design, you squash innovation",
+      "ptime": 3344000.0,
+      "dtime": 4126000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "s/design/decide/",
+      "ptime": 3350000.0,
+      "dtime": 4132000.0,
+      "author": "Ted Lemon"
+    },
+    {
+      "text": "So the \u0027let the server decide\u0027 approach is explicitly declining to standardize the search behavior.",
+      "ptime": 3431000.0,
+      "dtime": 4213000.0,
+      "author": "Dave Crocker"
+    },
+    {
+      "text": "I want a flat list, but don\u0027t care too much about the exact format of objects in that list.",
+      "ptime": 3440000.0,
+      "dtime": 4222000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "We can go with a type param instead:",
+      "ptime": 3466000.0,
+      "dtime": 4248000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Dave: I think the discussion has made the point that we can\u0027t specify it in a reasonable way: we can only discuss the issues.",
+      "ptime": 3468000.0,
+      "dtime": 4250000.0,
+      "author": "Barry Leiba"
+    },
+    {
+      "text": "See higher up (that\u0027s my other suggestion)",
+      "ptime": 3475000.0,
+      "dtime": 4257000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "Nested is more complex. And asking for a server to get it wrong and arbitrarily nest, although RFC5322 says they can\u0027t be nested.",
+      "ptime": 3520000.0,
+      "dtime": 4302000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "No, Neil Jh suggested that. Most common group thing is no addresses in group.",
+      "ptime": 3554000.0,
+      "dtime": 4336000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "What about {name: null, email: null, groupName: \"undisclosed-recipients\"}?",
+      "ptime": 3586000.0,
+      "dtime": 4368000.0,
+      "author": "Neil Jhaveri"
+    },
+    {
+      "text": "***Stuart Brandt just left the room",
+      "ptime": 3594000.0,
+      "dtime": 4376000.0
+    },
+    {
+      "text": "thanks",
+      "ptime": 3601000.0,
+      "dtime": 4383000.0,
+      "author": "jeffpc"
+    },
+    {
+      "text": "Let\u0027s take it to the list :)",
+      "ptime": 3602000.0,
+      "dtime": 4384000.0,
+      "author": "Neil Jenkins"
+    },
+    {
+      "text": "sounds good",
+      "ptime": 3624000.0,
+      "dtime": 4406000.0,
+      "author": "Neil Jhaveri"
+    },
+    {
+      "text": "Thanks everyone",
+      "ptime": 3635000.0,
+      "dtime": 4417000.0,
+      "author": "brong"
+    },
+    {
+      "text": "I\u0027ll write up minutes during the next session",
+      "ptime": 3647000.0,
+      "dtime": 4429000.0,
+      "author": "brong"
+    },
+    {
+      "text": "***Rapha?l Ouazana just left the room",
+      "ptime": 3685000.0,
+      "dtime": 4467000.0
+    },
+    {
+      "text": "***Neil Jhaveri just left the room",
+      "ptime": 3693000.0,
+      "dtime": 4475000.0
+    },
+    {
+      "text": "***Michael McClimon just left the room",
+      "ptime": 3693000.0,
+      "dtime": 4475000.0
+    },
+    {
+      "text": "***Neil Jenkins just left the room",
+      "ptime": 3693000.0,
+      "dtime": 4475000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 3693000.0,
+      "dtime": 4475000.0
+    },
+    {
+      "text": "***Dave Crocker just left the room",
+      "ptime": 3693000.0,
+      "dtime": 4475000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF102-JMAP-20180716-1330"
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+
+{
+	"title": "IETF117-DTN-20230726-1630",
+	"filename": "IETF117-DTN-20230726-1630",
+	"start": 0,
+	"end": 7618000,
+	"start_datetime": "2023-07-26T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "y2HcKP6nya4",
+    "start": 0,
+    "end": "7618000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Good afternoon from Houston</p>",
+    "topic": "ietf-117",
+    "dtime": 161000,
+    "ptime": 161000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>Hi Felix, hi Jorge :)</p>",
+    "topic": "ietf-117",
+    "dtime": 234000,
+    "ptime": 234000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>me thinking of what is the message of one co-chair wearing \"let's take this to the mailing list\"  ;-)</p>",
+    "topic": "ietf-117",
+    "dtime": 364000,
+    "ptime": 364000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>The message is to make sure we are continuing our discussions on the mailing list! :)</p>",
+    "topic": "ietf-117",
+    "dtime": 628000,
+    "ptime": 628000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>Speaking of which, bping is a thing that should likely have a well known service number.</p>",
+    "topic": "ietf-117",
+    "dtime": 935000,
+    "ptime": 935000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>Not one I care about, but seems like every WG that specifies standards action for a codepoint range comes back to it later to change to expert review.</p>",
+    "topic": "ietf-117",
+    "dtime": 1504000,
+    "ptime": 1504000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>v6 was experimental v7 is the standard spec</p>",
+    "topic": "ietf-117",
+    "dtime": 1610000,
+    "ptime": 1610000
+  },
+  {
+    "author": "Felix Flentge",
+    "text": "<p>CCSDS is publishing numbers in SANA, e.g. <a href=\"https://sanaregistry.org/r/bp_cbhe_service_numbers/\">https://sanaregistry.org/r/bp_cbhe_service_numbers/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 1634000,
+    "ptime": 1634000
+  },
+  {
+    "author": "Felix Flentge",
+    "text": "<p>Anyway, there are just numbers for CFDP and I haven't seen them being used.</p>",
+    "topic": "ietf-117",
+    "dtime": 1686000,
+    "ptime": 1686000
+  },
+  {
+    "author": "Alberto Montilla",
+    "text": "<p>Thanks for the responses, will follow up offline.</p>",
+    "topic": "ietf-117",
+    "dtime": 1798000,
+    "ptime": 1798000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"55\">Stephen Farrell</span> <a href=\"#narrow/stream/205-dtn/topic/ietf-117/near/82445\">said</a>:</p>\n<blockquote>\n<p>Not one I care about, but seems like every WG that specifies standards action for a codepoint range comes back to it later to change to expert review.</p>\n</blockquote>\n<p>yeah. standard action is a very high level.  RFC Required might be more middle ground. It lets an informational rfc, experimental rfc to get a service number, which is a good level but still not require full IETF concensus, which is a very high bar.</p>",
+    "topic": "ietf-117",
+    "dtime": 2063000,
+    "ptime": 2063000
+  },
+  {
+    "author": "Rick Taylor",
+    "text": "<p>The split here was to hold back the \"super-valuable\" 1-octet numbers to Standards Action as they are a limitted resource, and have the lowest bar for the 2-octet encodings</p>",
+    "topic": "ietf-117",
+    "dtime": 2130000,
+    "ptime": 2130000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>When we will have some code to play with?</p>",
+    "topic": "ietf-117",
+    "dtime": 2204000,
+    "ptime": 2204000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Im in a middle of a company event so I can’t ask live <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 2235000,
+    "ptime": 2235000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>An open-source DTNMA agent should be out in August or September. Must be out by EOFY.</p>",
+    "topic": "ietf-117",
+    "dtime": 2247000,
+    "ptime": 2247000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>The DTNMA manager should be out as open source now.</p>",
+    "topic": "ietf-117",
+    "dtime": 2263000,
+    "ptime": 2263000
+  },
+  {
+    "author": "Rick Taylor",
+    "text": "<p>All current implementations that support ipn (pre or post update) support service numbers.  The registry isn't about code.</p>",
+    "topic": "ietf-117",
+    "dtime": 2273000,
+    "ptime": 2273000
+  },
+  {
+    "author": "Rick Taylor",
+    "text": "<p>Sorry - wrong topic ;)</p>",
+    "topic": "ietf-117",
+    "dtime": 2284000,
+    "ptime": 2284000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>:thumbsup: Thanks Ed!</p>",
+    "topic": "ietf-117",
+    "dtime": 2288000,
+    "ptime": 2288000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Nope</p>",
+    "topic": "ietf-117",
+    "dtime": 2385000,
+    "ptime": 2385000
+  },
+  {
+    "author": "Felix Walter",
+    "text": "<p>Hi there! Brief question, is there any independent second implementation of DTNMA or do you know of efforts to create one right now?</p>",
+    "topic": "ietf-117",
+    "dtime": 2738000,
+    "ptime": 2738000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>I believe Josh Deaton is working one for DTNME</p>",
+    "topic": "ietf-117",
+    "dtime": 2788000,
+    "ptime": 2788000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Hi all! <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 2797000,
+    "ptime": 2797000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>Hello Sauli!</p>",
+    "topic": "ietf-117",
+    "dtime": 2803000,
+    "ptime": 2803000
+  },
+  {
+    "author": "Felix Walter",
+    "text": "<p>Thanks, Ed!</p>",
+    "topic": "ietf-117",
+    "dtime": 2839000,
+    "ptime": 2839000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Hola</p>",
+    "topic": "ietf-117",
+    "dtime": 2882000,
+    "ptime": 2882000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>Hey Sauli.  Good to see you.</p>",
+    "topic": "ietf-117",
+    "dtime": 2945000,
+    "ptime": 2945000
+  },
+  {
+    "author": "Sarah Heiner",
+    "text": "<p>Yes, there is existing work in DTNME (a DTN implementation out of Marshall Space Flight Center) including a DTNMA Agent and Manager. It does not include all capabilities discussed in the DTNMA, but I do believe updates are still being worked.</p>",
+    "topic": "ietf-117",
+    "dtime": 2947000,
+    "ptime": 2947000
+  },
+  {
+    "author": "Alberto Montilla",
+    "text": "<p>At Spatiam, we are working on DTN management, with vision to gradual compliance to DTNMA.</p>",
+    "topic": "ietf-117",
+    "dtime": 2958000,
+    "ptime": 2958000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Hi Scott! Very happy I was able to make it, good to see everyone!</p>",
+    "topic": "ietf-117",
+    "dtime": 2996000,
+    "ptime": 2996000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>Early OhioU BPv6 MIB: <a href=\"https://www.ietf.org/archive/id/draft-sims-dtnrg-bpmib-00.html\">https://www.ietf.org/archive/id/draft-sims-dtnrg-bpmib-00.html</a></p>",
+    "topic": "ietf-117",
+    "dtime": 5246000,
+    "ptime": 5246000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>BPv6 ADM <a href=\"https://datatracker.ietf.org/doc/draft-birrane-dtn-adm-bp/\">https://datatracker.ietf.org/doc/draft-birrane-dtn-adm-bp/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 5271000,
+    "ptime": 5271000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"881\">Edward Birrane</span> <a href=\"#narrow/stream/205-dtn/topic/ietf-117/near/82811\">said</a>:</p>\n<blockquote>\n<p>Early OhioU BPv6 MIB: <a href=\"https://www.ietf.org/archive/id/draft-sims-dtnrg-bpmib-00.html\">https://www.ietf.org/archive/id/draft-sims-dtnrg-bpmib-00.html</a></p>\n</blockquote>\n<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 5287000,
+    "ptime": 5287000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>t-shirt \"bp != ip\" design, <span class=\"user-mention\" data-user-id=\"242\">@Jorge Amodio</span></p>",
+    "topic": "ietf-117",
+    "dtime": 5359000,
+    "ptime": 5359000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>sounds like the makings of a native BP switch.</p>",
+    "topic": "ietf-117",
+    "dtime": 5423000,
+    "ptime": 5423000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>time to burn some asics! :)</p>",
+    "topic": "ietf-117",
+    "dtime": 5440000,
+    "ptime": 5440000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>correct</p>",
+    "topic": "ietf-117",
+    "dtime": 5954000,
+    "ptime": 5954000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>some sats have a gige bus which we can use for interconnection without having to use IP</p>",
+    "topic": "ietf-117",
+    "dtime": 5973000,
+    "ptime": 5973000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>FPGAs</p>",
+    "topic": "ietf-117",
+    "dtime": 6016000,
+    "ptime": 6016000
+  },
+  {
+    "author": "Felix Flentge",
+    "text": "<p><a href=\"https://public.ccsds.org/Pubs/133x1b3e1.pdf\">https://public.ccsds.org/Pubs/133x1b3e1.pdf</a></p>",
+    "topic": "ietf-117",
+    "dtime": 6024000,
+    "ptime": 6024000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>AISC not good to pricey</p>",
+    "topic": "ietf-117",
+    "dtime": 6028000,
+    "ptime": 6028000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>too*</p>",
+    "topic": "ietf-117",
+    "dtime": 6030000,
+    "ptime": 6030000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>for development, fpga, for sure.</p>",
+    "topic": "ietf-117",
+    "dtime": 6040000,
+    "ptime": 6040000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>for production too</p>",
+    "topic": "ietf-117",
+    "dtime": 6051000,
+    "ptime": 6051000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>hmm.  no way to reach economy of scale at present, so asic = too much capex.  makes sense.</p>",
+    "topic": "ietf-117",
+    "dtime": 6085000,
+    "ptime": 6085000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p><a href=\"https://www.microchip.com/en-us/products/fpgas-and-plds/radiation-tolerant-fpgas\">https://www.microchip.com/en-us/products/fpgas-and-plds/radiation-tolerant-fpgas</a></p>",
+    "topic": "ietf-117",
+    "dtime": 6114000,
+    "ptime": 6114000
+  },
+  {
+    "author": "Alberto Montilla",
+    "text": "<p>Marc, do you have the links to the drafts handy?</p>",
+    "topic": "ietf-117",
+    "dtime": 6131000,
+    "ptime": 6131000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>thanks Felix!</p>",
+    "topic": "ietf-117",
+    "dtime": 6132000,
+    "ptime": 6132000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>thanks, Jorge.</p>",
+    "topic": "ietf-117",
+    "dtime": 6176000,
+    "ptime": 6176000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "ietf-117",
+    "dtime": 6202000,
+    "ptime": 6202000
+  },
+  {
+    "author": "Felix Flentge",
+    "text": "<p>Sorry, fragmentation is described in the data link layer protocols such as USLP --&gt; <a href=\"https://public.ccsds.org/Pubs/732x1b2.pdf\">https://public.ccsds.org/Pubs/732x1b2.pdf</a></p>",
+    "topic": "ietf-117",
+    "dtime": 6229000,
+    "ptime": 6229000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Lack of time :-(</p>",
+    "topic": "ietf-117",
+    "dtime": 6240000,
+    "ptime": 6240000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Have a little thing we are trying to land on the Moon <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 6275000,
+    "ptime": 6275000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Agree with Rick</p>",
+    "topic": "ietf-117",
+    "dtime": 6321000,
+    "ptime": 6321000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>correct</p>",
+    "topic": "ietf-117",
+    "dtime": 6352000,
+    "ptime": 6352000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>yep</p>",
+    "topic": "ietf-117",
+    "dtime": 6352000,
+    "ptime": 6352000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>not a standard but a framework for guidance</p>",
+    "topic": "ietf-117",
+    "dtime": 6382000,
+    "ptime": 6382000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@chairs: sorry Is the queue now for only the 1st question, or all 3?</p>",
+    "topic": "ietf-117",
+    "dtime": 6386000,
+    "ptime": 6386000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>1st question</p>",
+    "topic": "ietf-117",
+    "dtime": 6393000,
+    "ptime": 6393000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>ack</p>",
+    "topic": "ietf-117",
+    "dtime": 6396000,
+    "ptime": 6396000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>correct</p>",
+    "topic": "ietf-117",
+    "dtime": 6728000,
+    "ptime": 6728000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>SMTP and HTTP are protocols that were developed under the IP world</p>",
+    "topic": "ietf-117",
+    "dtime": 6746000,
+    "ptime": 6746000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>we need to reconsider couple of things before moving to protocol specific</p>",
+    "topic": "ietf-117",
+    "dtime": 6766000,
+    "ptime": 6766000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Marc's approach sounds interesting but imho not for adoption</p>",
+    "topic": "ietf-117",
+    "dtime": 6795000,
+    "ptime": 6795000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>I think point 1 is very important document that collects together the generic parts of each attempt of BPv7 applications. Leading to points 2  and 3 as important to ever be able to feed into the point 1.</p>",
+    "topic": "ietf-117",
+    "dtime": 6823000,
+    "ptime": 6823000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Ed wrote a book related to that</p>",
+    "topic": "ietf-117",
+    "dtime": 6854000,
+    "ptime": 6854000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>:thumbsup:</p>",
+    "topic": "ietf-117",
+    "dtime": 6904000,
+    "ptime": 6904000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>And what is the right forum to discuss governance, IMHO not IETF</p>",
+    "topic": "ietf-117",
+    "dtime": 6909000,
+    "ptime": 6909000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>Clear rules and directions, no expert reviews !!</p>",
+    "topic": "ietf-117",
+    "dtime": 6969000,
+    "ptime": 6969000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>YES</p>",
+    "topic": "ietf-117",
+    "dtime": 7023000,
+    "ptime": 7023000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>who reviews the experts ?</p>",
+    "topic": "ietf-117",
+    "dtime": 7035000,
+    "ptime": 7035000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>the IESG appoint designated experts</p>",
+    "topic": "ietf-117",
+    "dtime": 7066000,
+    "ptime": 7066000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Expert reviews only work if all requests and reviews are public that can be audited by anyone</p>",
+    "topic": "ietf-117",
+    "dtime": 7073000,
+    "ptime": 7073000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>not true</p>",
+    "topic": "ietf-117",
+    "dtime": 7078000,
+    "ptime": 7078000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>will</p>",
+    "topic": "ietf-117",
+    "dtime": 7084000,
+    "ptime": 7084000
+  },
+  {
+    "author": "Rick Taylor",
+    "text": "<p>@jorge  Please join the queue</p>",
+    "topic": "ietf-117",
+    "dtime": 7092000,
+    "ptime": 7092000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>most DE teams have a mailing list with a public archive</p>",
+    "topic": "ietf-117",
+    "dtime": 7095000,
+    "ptime": 7095000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>@jorge: what's not true?</p>",
+    "topic": "ietf-117",
+    "dtime": 7111000,
+    "ptime": 7111000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>can't ask realtime I'm in another meeting</p>",
+    "topic": "ietf-117",
+    "dtime": 7117000,
+    "ptime": 7117000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>governance is discussed at ICANN not IETF</p>",
+    "topic": "ietf-117",
+    "dtime": 7191000,
+    "ptime": 7191000
+  },
+  {
+    "author": "Rick Taylor",
+    "text": "<p>ICANN are given a block of numbers by IANA to administer</p>",
+    "topic": "ietf-117",
+    "dtime": 7261000,
+    "ptime": 7261000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>CBHE numbers ?</p>",
+    "topic": "ietf-117",
+    "dtime": 7296000,
+    "ptime": 7296000
+  },
+  {
+    "author": "Rick Taylor",
+    "text": "<p>No... IP and other things ICANN hands out</p>",
+    "topic": "ietf-117",
+    "dtime": 7336000,
+    "ptime": 7336000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>guidance for DEs is generally in the RFC that creates the registry</p>",
+    "topic": "ietf-117",
+    "dtime": 7356000,
+    "ptime": 7356000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>and that can be any text the WG want</p>",
+    "topic": "ietf-117",
+    "dtime": 7363000,
+    "ptime": 7363000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>SNMP Private Enterprise Numbers might be a closer, but not exact, analogue</p>",
+    "topic": "ietf-117",
+    "dtime": 7372000,
+    "ptime": 7372000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>there is no multistakeholder here</p>",
+    "topic": "ietf-117",
+    "dtime": 7384000,
+    "ptime": 7384000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><a href=\"https://www.rfc-editor.org/rfc/rfc8126.html#section-4\">https://www.rfc-editor.org/rfc/rfc8126.html#section-4</a></p>",
+    "topic": "ietf-117",
+    "dtime": 7385000,
+    "ptime": 7385000
+  },
+  {
+    "author": "Marc Blanchet",
+    "text": "<p>in this discussion, it is important to distinguish ICANN and IANA. In our context, it is all about IANA.</p>",
+    "topic": "ietf-117",
+    "dtime": 7403000,
+    "ptime": 7403000
+  },
+  {
+    "author": "Alberto Montilla",
+    "text": "<p>Folks, have to drop. Let's keep going. Thank you!</p>",
+    "topic": "ietf-117",
+    "dtime": 7409000,
+    "ptime": 7409000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>yes it moves the discussion into the multistakeholder world</p>",
+    "topic": "ietf-117",
+    "dtime": 7427000,
+    "ptime": 7427000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>Let's take it to the mailing list. :)</p>",
+    "topic": "ietf-117",
+    "dtime": 7427000,
+    "ptime": 7427000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>ditto</p>",
+    "topic": "ietf-117",
+    "dtime": 7438000,
+    "ptime": 7438000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>:)</p>",
+    "topic": "ietf-117",
+    "dtime": 7441000,
+    "ptime": 7441000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>I left the queue as we're out of time. my comment was going to be that people seem to me to be getting way ahead of themselves here</p>",
+    "topic": "ietf-117",
+    "dtime": 7455000,
+    "ptime": 7455000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>so IMO use expert review until that's a problem then if it becomes one, the WG/community can handle that</p>",
+    "topic": "ietf-117",
+    "dtime": 7487000,
+    "ptime": 7487000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>establishing an ICANN-like supersttructure for the BP now would be a bit silly</p>",
+    "topic": "ietf-117",
+    "dtime": 7531000,
+    "ptime": 7531000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>nope</p>",
+    "topic": "ietf-117",
+    "dtime": 7543000,
+    "ptime": 7543000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>it would be avoiding to make the same mistakes from the past</p>",
+    "topic": "ietf-117",
+    "dtime": 7559000,
+    "ptime": 7559000
+  },
+  {
+    "author": "Stephen Farrell",
+    "text": "<p>meh</p>",
+    "topic": "ietf-117",
+    "dtime": 7568000,
+    "ptime": 7568000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>meh?</p>",
+    "topic": "ietf-117",
+    "dtime": 7577000,
+    "ptime": 7577000
+  },
+  {
+    "author": "Jorge Amodio",
+    "text": "<p>what kind of argument is that?</p>",
+    "topic": "ietf-117",
+    "dtime": 7584000,
+    "ptime": 7584000
+  },
+  {
+    "author": "Scott Johnson",
+    "text": "<p>thanks all</p>",
+    "topic": "ietf-117",
+    "dtime": 7590000,
+    "ptime": 7590000
+  },
+  {
+    "author": "Edward Birrane",
+    "text": "<p>thank you!</p>",
+    "topic": "ietf-117",
+    "dtime": 7595000,
+    "ptime": 7595000
+  },
+  {
+    "author": "Sauli Kiviranta",
+    "text": "<p>Thank you everyone!</p>",
+    "topic": "ietf-117",
+    "dtime": 7611000,
+    "ptime": 7611000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-DTN-20230726-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/dtn"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-DTN-20230726-1630"
+		}		
+	]
+}

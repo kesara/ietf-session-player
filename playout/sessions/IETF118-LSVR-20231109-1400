@@ -1,0 +1,77 @@
+
+{
+	"title": "IETF118-LSVR-20231109-1400",
+	"filename": "IETF118-LSVR-20231109-1400",
+	"start": 0,
+	"end": 3793000,
+	"start_datetime": "2023-11-09T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "WdyuqS7DvUI",
+    "start": 0,
+    "end": "3793000"
+  }
+],
+	"messages": [
+  {
+    "author": "Susan Hares",
+    "text": "<p>@keyur - simple question how does the TLV value in BGP-LS that must be specific to LSVR - get enforced?</p>",
+    "topic": "ietf-118",
+    "dtime": 2113000,
+    "ptime": 2113000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>I am assuming the draft text will say - this TLV only applies to spf safi.</p>",
+    "topic": "ietf-118",
+    "dtime": 2306000,
+    "ptime": 2306000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"745\">@Susan Hares</span> , it cannot really be enforced as far as BGP-LS is concerned. But BGP-SPF being a consumer  can enforce what it uses.</p>",
+    "topic": "ietf-118",
+    "dtime": 2392000,
+    "ptime": 2392000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Thanks - Will this addition break existing BGP-LS implementations?   Is this case covered in BGP-LS base draft?</p>",
+    "topic": "ietf-118",
+    "dtime": 2473000,
+    "ptime": 2473000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>I don't think it breaks BGP-LS. The consumers who are not interested in this info will ignore.</p>",
+    "topic": "ietf-118",
+    "dtime": 2512000,
+    "ptime": 2512000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>don’t believe  it will break BGP-LS</p>",
+    "topic": "ietf-118",
+    "dtime": 2660000,
+    "ptime": 2660000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-LSVR-20231109-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/lsvr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-LSVR-20231109-1400"
+		}		
+	]
+}

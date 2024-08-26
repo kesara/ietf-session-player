@@ -1,0 +1,1012 @@
+{
+  "title": "IETF112-WEBTRANS-20211109-1200",
+  "filename": "IETF112-WEBTRANS-20211109-1200",
+  "start": 0,
+  "end": 6921000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "7g-NTREHhfQ",
+      "start": 0,
+      "end": "6921000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 90000,
+      "ptime": 90000,
+      "author": "Martin Thomson",
+      "text": "seems like there is a rash of issues across the system<br/>"
+    },
+    {
+      "dtime": 165000,
+      "ptime": 165000,
+      "author": "Alan Frindell",
+      "text": "Took much longer than normal but I made it through.<br/>"
+    },
+    {
+      "dtime": 194000,
+      "ptime": 194000,
+      "author": "Spencer Dawkins",
+      "text": "+1 Alan - slow, but it worked<br/>"
+    },
+    {
+      "dtime": 212000,
+      "ptime": 212000,
+      "author": "Martin Thomson",
+      "text": "datatracker seems to be the bottleneck, it's stalled for me<br/>"
+    },
+    {
+      "dtime": 280000,
+      "ptime": 280000,
+      "author": "Mike Bishop",
+      "text": "Took about six login attempts for me to get through.&nbsp;&nbsp;Lots of timeouts, one \"Unauthorized,\" then success.<br/>"
+    },
+    {
+      "dtime": 291000,
+      "ptime": 291000,
+      "author": "Tommy Jensen",
+      "text": "Same, datatracker took a good 15 seconds<br/>"
+    },
+    {
+      "dtime": 312000,
+      "ptime": 312000,
+      "author": "Mike Bishop",
+      "text": "Bernard, could you say something so we know audio works?<br/>"
+    },
+    {
+      "dtime": 356000,
+      "ptime": 356000,
+      "author": "Erik Nygren",
+      "text": "Works!&nbsp;&nbsp;(I was wondering the same thing about audio.)<br/>"
+    },
+    {
+      "dtime": 432000,
+      "ptime": 432000,
+      "author": "David Schinazi",
+      "text": "This is why we need elevator musac before meetings start<br/>"
+    },
+    {
+      "dtime": 453000,
+      "ptime": 453000,
+      "author": "Martin Thomson",
+      "text": "give yourself some time after you enable audio, especially if you are a long way from the server<br/>"
+    },
+    {
+      "dtime": 588000,
+      "ptime": 588000,
+      "author": "James Gruessing",
+      "text": "I can help take notes, but the more help the merrier.<br/>"
+    },
+    {
+      "dtime": 799000,
+      "ptime": 799000,
+      "author": "Lucas Pardue",
+      "text": "is it really DataGram :)<br/>"
+    },
+    {
+      "dtime": 835000,
+      "ptime": 835000,
+      "author": "Alan Frindell",
+      "text": "I always thought it was Da-Tag-Ram<br/>"
+    },
+    {
+      "dtime": 867000,
+      "ptime": 867000,
+      "author": "Martin Thomson",
+      "text": "day-tahg-raam<br/>"
+    },
+    {
+      "dtime": 1195000,
+      "ptime": 1195000,
+      "author": "Mirja Kühlewind",
+      "text": "the is the rmcat wg for real-time media congestion avoidance and there was draft-singh-rmcat-adaptive-fec to add fec to fill the cwnd for probing. that draft never made it to RFC because there was not enough interest but I always thought it interesting work<br/>"
+    },
+    {
+      "dtime": 1356000,
+      "ptime": 1356000,
+      "author": "Erik Nygren",
+      "text": "This seems like it would be useful for Intermediates which don't know the inner protocol but want to indicate a drain.<br/>"
+    },
+    {
+      "dtime": 1407000,
+      "ptime": 1407000,
+      "author": "Victor Vasiliev",
+      "text": "We don't have stream IDs in WebTransport, though<br/>"
+    },
+    {
+      "dtime": 1555000,
+      "ptime": 1555000,
+      "author": "Martin Thomson",
+      "text": "Alan managed to capture my reluctance here.&nbsp;&nbsp;Following QUIC is at least consistent.<br/>"
+    },
+    {
+      "dtime": 1681000,
+      "ptime": 1681000,
+      "author": "Lucas Pardue",
+      "text": "Erik's proposal would mean the GOAWAY could include no information<br/>"
+    },
+    {
+      "dtime": 1741000,
+      "ptime": 1741000,
+      "author": "Martin Thomson",
+      "text": "A survey of the options would be nice.<br/>"
+    },
+    {
+      "dtime": 1748000,
+      "ptime": 1748000,
+      "author": "Lucas Pardue",
+      "text": "the interenet is unreliable, today endpoints need to react to connections closing with&nbsp;&nbsp;no pre-termination signal due<br/>"
+    },
+    {
+      "dtime": 1793000,
+      "ptime": 1793000,
+      "author": "Spencer Dawkins",
+      "text": "It's also being recorded in the notes :grin:<br/>"
+    },
+    {
+      "dtime": 1815000,
+      "ptime": 1815000,
+      "author": "Martin Thomson",
+      "text": "Lucas: absolutely, though an orderly close is always nice<br/>"
+    },
+    {
+      "dtime": 1893000,
+      "ptime": 1893000,
+      "author": "Lucas Pardue",
+      "text": "right, I think I suggested a \"last orders\" signal once for HTTP/3<br/>"
+    },
+    {
+      "dtime": 1986000,
+      "ptime": 1986000,
+      "author": "Alan Frindell",
+      "text": "are any browsers planning to implement pooling?<br/>"
+    },
+    {
+      "dtime": 2091000,
+      "ptime": 2091000,
+      "author": "Alan Frindell",
+      "text": "is there an API option to request non-pooled, I forget<br/>"
+    },
+    {
+      "dtime": 2107000,
+      "ptime": 2107000,
+      "author": "Yutaka Hirano",
+      "text": "Chrome doesn't support pooling.<br/>"
+    },
+    {
+      "dtime": 2116000,
+      "ptime": 2116000,
+      "author": "Alan Frindell",
+      "text": "Will it ever?<br/>"
+    },
+    {
+      "dtime": 2138000,
+      "ptime": 2138000,
+      "author": "Yutaka Hirano",
+      "text": "If there is a demand, yes.<br/>"
+    },
+    {
+      "dtime": 2212000,
+      "ptime": 2212000,
+      "author": "Alan Frindell",
+      "text": "Does the API expose the number of available streams that can be created?<br/>"
+    },
+    {
+      "dtime": 2253000,
+      "ptime": 2253000,
+      "author": "Martin Thomson",
+      "text": "constant memory doesn't fix this<br/>"
+    },
+    {
+      "dtime": 2263000,
+      "ptime": 2263000,
+      "author": "Martin Thomson",
+      "text": "I can use up all the open streams<br/>"
+    },
+    {
+      "dtime": 2276000,
+      "ptime": 2276000,
+      "author": "Martin Thomson",
+      "text": "takes no effort at all<br/>"
+    },
+    {
+      "dtime": 2308000,
+      "ptime": 2308000,
+      "author": "Martin Thomson",
+      "text": "loop on creating a stream until you block; now you can't fetch<br/>"
+    },
+    {
+      "dtime": 2372000,
+      "ptime": 2372000,
+      "author": "Spencer Dawkins",
+      "text": "Just for the record, it's a LOT easier to take notes/attribute questions and comments correctly when we use Meetecho. I don't have a lot of experience taking notes for sessions that weren't using WebEx or something like that. <br/>Helping with notes is super-easy (\"barely an inconvenience\").<br/>"
+    },
+    {
+      "dtime": 2374000,
+      "ptime": 2374000,
+      "author": "Martin Thomson",
+      "text": "debuggable and reliable<br/>"
+    },
+    {
+      "dtime": 2409000,
+      "ptime": 2409000,
+      "author": "Lucas Pardue",
+      "text": "client needs to react to attempting to open more concurrent streams than the server would allow. I think if you're pooling, then present a WebTransport API that allows people to ask for some proportion of streams from the connection on a scale of 0 - 100 %<br/>"
+    },
+    {
+      "dtime": 2457000,
+      "ptime": 2457000,
+      "author": "Alan Frindell",
+      "text": "lucasp: that could change the actual number rapidly as other sessions open<br/>"
+    },
+    {
+      "dtime": 2495000,
+      "ptime": 2495000,
+      "author": "Lucas Pardue",
+      "text": "right but that is innate to QUIC as Martin is saying on the mic now<br/>"
+    },
+    {
+      "dtime": 2532000,
+      "ptime": 2532000,
+      "author": "Alan Frindell",
+      "text": "is it really meaningfully different than h3 bidi streams?<br/>"
+    },
+    {
+      "dtime": 2573000,
+      "ptime": 2573000,
+      "author": "Martin Thomson",
+      "text": "I think that we might just say \"you get X and I will guarantee that X will be made available as soon as I am able\".<br/>"
+    },
+    {
+      "dtime": 2633000,
+      "ptime": 2633000,
+      "author": "Martin Thomson",
+      "text": "and require that X &gt;= X1 and X &lt;= X2 in specifications so that we can make the protocol useful<br/>"
+    },
+    {
+      "dtime": 2647000,
+      "ptime": 2647000,
+      "author": "Martin Thomson",
+      "text": "if this is HTTP, then it should do redirects<br/>"
+    },
+    {
+      "dtime": 2673000,
+      "ptime": 2673000,
+      "author": "Lucas Pardue",
+      "text": "naive implementation - server advertises 200 concurrent initial streams. Client tries to open all 200 in a block, then awaits on their completion before opening 200 more. But QUIC/H3 doesn't automatically give back credit when streams complete - that is an implementation detail about how they send MAX_STREAMS<br/>"
+    },
+    {
+      "dtime": 2742000,
+      "ptime": 2742000,
+      "author": "Mark Nottingham",
+      "text": "HTTP doesn't require clients to follow redirects. It's up to them whether they do (and they often do, if they want to complete their task).<br/>"
+    },
+    {
+      "dtime": 2798000,
+      "ptime": 2798000,
+      "author": "Jonathan Lennox",
+      "text": "Returning the 3xx to the JS API and letting the JS handle it doesn't seem terrible, so long as the JS to implement standard redirect handling is simple.<br/>"
+    },
+    {
+      "dtime": 2800000,
+      "ptime": 2800000,
+      "author": "Yutaka Hirano",
+      "text": "FWIW WebSocket doesn't support redirects.<br/>"
+    },
+    {
+      "dtime": 2842000,
+      "ptime": 2842000,
+      "author": "Martin Thomson",
+      "text": "WebSocket is an unholy abomination.<br/>"
+    },
+    {
+      "dtime": 2849000,
+      "ptime": 2849000,
+      "author": "Martin Thomson",
+      "text": "Not a great example to use :)<br/>"
+    },
+    {
+      "dtime": 2904000,
+      "ptime": 2904000,
+      "author": "Martin Thomson",
+      "text": "As far as redirects go, fetch follows redirects automatically for regular requests.&nbsp;&nbsp;We need to decide if we want that here.<br/>"
+    },
+    {
+      "dtime": 2912000,
+      "ptime": 2912000,
+      "author": "Lucas Pardue",
+      "text": "clients failing to honour redirects is the bane of the video industry :D<br/>"
+    },
+    {
+      "dtime": 2926000,
+      "ptime": 2926000,
+      "author": "Martin Thomson",
+      "text": "The attack means impersonating ANY protocol, not just HTTP.<br/>"
+    },
+    {
+      "dtime": 2999000,
+      "ptime": 2999000,
+      "author": "Harald Alvestrand",
+      "text": "it was STUN + UDP message fragmentation<br/>"
+    },
+    {
+      "dtime": 3203000,
+      "ptime": 3203000,
+      "author": "Harald Alvestrand",
+      "text": "ouch.<br/>"
+    },
+    {
+      "dtime": 3236000,
+      "ptime": 3236000,
+      "author": "Jonathan Lennox",
+      "text": "The header still protects many things, though, no?<br/>"
+    },
+    {
+      "dtime": 3270000,
+      "ptime": 3270000,
+      "author": "Martin Thomson",
+      "text": "UDP blocklists are WIP<br/>"
+    },
+    {
+      "dtime": 3315000,
+      "ptime": 3315000,
+      "author": "David Schinazi",
+      "text": "The header only protects bytes 0 and 5<br/>"
+    },
+    {
+      "dtime": 3342000,
+      "ptime": 3342000,
+      "author": "David Schinazi",
+      "text": "sorry only port 0 and (CIDL + 1) where CIDL is attacker-controlled<br/>"
+    },
+    {
+      "dtime": 3343000,
+      "ptime": 3343000,
+      "author": "Jonathan Lennox",
+      "text": "Byte 0 is crucial for a lot of impersonation attacks tho.<br/>"
+    },
+    {
+      "dtime": 3358000,
+      "ptime": 3358000,
+      "author": "Martin Thomson",
+      "text": "Byte 0 is not controllable in QUIC<br/>"
+    },
+    {
+      "dtime": 3363000,
+      "ptime": 3363000,
+      "author": "Martin Thomson",
+      "text": "Byte 1 is<br/>"
+    },
+    {
+      "dtime": 3401000,
+      "ptime": 3401000,
+      "author": "Martin Thomson",
+      "text": "Byte 0 is maybe *partly* controllable, but it's a little fiddly<br/>"
+    },
+    {
+      "dtime": 3403000,
+      "ptime": 3403000,
+      "author": "Bernard Aboba",
+      "text": "Port blocking issue: <a href=\"https://github.com/w3c/webtransport/issues/229\" rel=\"nofollow\">https://github.com/w3c/webtransport/issues/229</a><br/>"
+    },
+    {
+      "dtime": 3423000,
+      "ptime": 3423000,
+      "author": "David Schinazi",
+      "text": "Slipstream attack relies on middlebox treating client-originated traffic as trusted<br/>"
+    },
+    {
+      "dtime": 3449000,
+      "ptime": 3449000,
+      "author": "Erik Nygren",
+      "text": "and I guess adding in an additional random nonce in the header at the beginning of the plaintext would add too much space?<br/>"
+    },
+    {
+      "dtime": 3453000,
+      "ptime": 3453000,
+      "author": "Martin Thomson",
+      "text": "The whole class of problems is that middleboxes do collossally stupid things<br/>"
+    },
+    {
+      "dtime": 3483000,
+      "ptime": 3483000,
+      "author": "David Schinazi",
+      "text": ":musical_note: Middlebox gonna middlebox :notes:<br/>"
+    },
+    {
+      "dtime": 3522000,
+      "ptime": 3522000,
+      "author": "Martin Thomson",
+      "text": "Erik: we might be able to do that, and it might help, depending on how stupid the middlebox is determined to be.<br/>"
+    },
+    {
+      "dtime": 3524000,
+      "ptime": 3524000,
+      "author": "Harald Alvestrand",
+      "text": "webrtc is using the tcp blocklist for udp as a stopgap.<br/>"
+    },
+    {
+      "dtime": 3543000,
+      "ptime": 3543000,
+      "author": "Harald Alvestrand",
+      "text": "and webrtc (the implementation) is arbitrarily blocking all ports &lt; 1024.<br/>"
+    },
+    {
+      "dtime": 3661000,
+      "ptime": 3661000,
+      "author": "Erik Nygren",
+      "text": "see <a href=\"https://github.com/whatwg/fetch/issues/1268\" rel=\"nofollow\">https://github.com/whatwg/fetch/issues/1268</a> for a udp blocklist in Fetch.&nbsp;&nbsp;@mt raises the good point of it's unclear where the best place is to own this between ietf and w3c.<br/>"
+    },
+    {
+      "dtime": 3721000,
+      "ptime": 3721000,
+      "author": "Martin Thomson",
+      "text": "I didn't raise that point, but yes, it is a good one :)<br/>"
+    },
+    {
+      "dtime": 3818000,
+      "ptime": 3818000,
+      "author": "Martin Thomson",
+      "text": "WT_PADDING isn't very much like QUIC PADDING, but it's similar enough.<br/>"
+    },
+    {
+      "dtime": 3832000,
+      "ptime": 3832000,
+      "author": "Mike Bishop",
+      "text": "We're just subtly conditioned to attribute good ideas to MT.<br/>"
+    },
+    {
+      "dtime": 3834000,
+      "ptime": 3834000,
+      "author": "Erik Nygren",
+      "text": "I was referring to your last comment of \"I think that IETF action is probably the best way to move on this.\"<br/>"
+    },
+    {
+      "dtime": 3876000,
+      "ptime": 3876000,
+      "author": "Erik Nygren",
+      "text": "unless there is a different Martin Thomson in Australia<br/>"
+    },
+    {
+      "dtime": 3884000,
+      "ptime": 3884000,
+      "author": "Martin Thomson",
+      "text": "hah<br/>"
+    },
+    {
+      "dtime": 3909000,
+      "ptime": 3909000,
+      "author": "Martin Thomson",
+      "text": "I know of a few in the UK.&nbsp;&nbsp;I worked for the same company as one of them.&nbsp;&nbsp;That was awkward on a few occasions.<br/>"
+    },
+    {
+      "dtime": 3941000,
+      "ptime": 3941000,
+      "author": "Martin Thomson",
+      "text": "I only know these people because they use my gmail account for *everything*.<br/>"
+    },
+    {
+      "dtime": 3983000,
+      "ptime": 3983000,
+      "author": "Martin Thomson",
+      "text": "One advantage of moving length ahead of frames is that you can use a single length for multiple frames...<br/>"
+    },
+    {
+      "dtime": 4020000,
+      "ptime": 4020000,
+      "author": "David Schinazi",
+      "text": "What's the benefit of having one length for multiple frames?<br/>"
+    },
+    {
+      "dtime": 4087000,
+      "ptime": 4087000,
+      "author": "Martin Thomson",
+      "text": "Less overhead<br/>"
+    },
+    {
+      "dtime": 4095000,
+      "ptime": 4095000,
+      "author": "Martin Thomson",
+      "text": "it's not a major benefit<br/>"
+    },
+    {
+      "dtime": 4103000,
+      "ptime": 4103000,
+      "author": "David Schinazi",
+      "text": "Ah. Yeah not too compelling for a fallback transport<br/>"
+    },
+    {
+      "dtime": 4104000,
+      "ptime": 4104000,
+      "author": "Martin Thomson",
+      "text": "As I said: it's overly clever<br/>"
+    },
+    {
+      "dtime": 4112000,
+      "ptime": 4112000,
+      "author": "David Schinazi",
+      "text": "Yup :)<br/>"
+    },
+    {
+      "dtime": 4166000,
+      "ptime": 4166000,
+      "author": "Martin Thomson",
+      "text": "QUIC is a transport protocol.&nbsp;&nbsp;This one has a slightly different usage model.<br/>"
+    },
+    {
+      "dtime": 4208000,
+      "ptime": 4208000,
+      "author": "Martin Thomson",
+      "text": "extensibility is a topic we should come back to<br/>"
+    },
+    {
+      "dtime": 4224000,
+      "ptime": 4224000,
+      "author": "Lucas Pardue",
+      "text": "^^ if you can't skip unknowns then you have a negotiation problem to solve<br/>"
+    },
+    {
+      "dtime": 4238000,
+      "ptime": 4238000,
+      "author": "Martin Thomson",
+      "text": "exactly my point Lucas :)<br/>"
+    },
+    {
+      "dtime": 4263000,
+      "ptime": 4263000,
+      "author": "Martin Thomson",
+      "text": "it's a little easier to have a \"skip unknown\" rule<br/>"
+    },
+    {
+      "dtime": 4294000,
+      "ptime": 4294000,
+      "author": "Lucas Pardue",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 4319000,
+      "ptime": 4319000,
+      "author": "Martin Thomson",
+      "text": "\"once you have a length, these are capsules\"<br/>"
+    },
+    {
+      "dtime": 4334000,
+      "ptime": 4334000,
+      "author": "Victor Vasiliev",
+      "text": "I just assume those were capsules<br/>"
+    },
+    {
+      "dtime": 4346000,
+      "ptime": 4346000,
+      "author": "Victor Vasiliev",
+      "text": "*assumed<br/>"
+    },
+    {
+      "dtime": 4371000,
+      "ptime": 4371000,
+      "author": "Martin Thomson",
+      "text": "WFM!<br/>"
+    },
+    {
+      "dtime": 4407000,
+      "ptime": 4407000,
+      "author": "Martin Thomson",
+      "text": "I don't think that we get any benefit from sharing code for capsule parsing.<br/>"
+    },
+    {
+      "dtime": 4423000,
+      "ptime": 4423000,
+      "author": "Martin Thomson",
+      "text": "Frame decoding is not a whole lot of code.<br/>"
+    },
+    {
+      "dtime": 4435000,
+      "ptime": 4435000,
+      "author": "David Schinazi",
+      "text": "+1 frame decoding is not the hard part for WT<br/>"
+    },
+    {
+      "dtime": 4459000,
+      "ptime": 4459000,
+      "author": "Lucas Pardue",
+      "text": "I tried and failed to reuse code - the model of streaming parsing for \"HTTP content\" was different enough for me<br/>"
+    },
+    {
+      "dtime": 4510000,
+      "ptime": 4510000,
+      "author": "Alan Frindell",
+      "text": "Yeah Lucas, that's fair.&nbsp;&nbsp;I haven't tried yet.<br/>"
+    },
+    {
+      "dtime": 4511000,
+      "ptime": 4511000,
+      "author": "Martin Thomson",
+      "text": "ALL QUIC frames take less than 200 lines of very simple code to decode.<br/>"
+    },
+    {
+      "dtime": 4540000,
+      "ptime": 4540000,
+      "author": "Lucas Pardue",
+      "text": "sorry, I should clarify that was for MASQUE capsule not anything WT relates<br/>"
+    },
+    {
+      "dtime": 4543000,
+      "ptime": 4543000,
+      "author": "Alan Frindell",
+      "text": "0.1% = 200 lines, uh oh<br/>"
+    },
+    {
+      "dtime": 4550000,
+      "ptime": 4550000,
+      "author": "Victor Vasiliev",
+      "text": "That would still be 200 * number of frames?<br/>"
+    },
+    {
+      "dtime": 4562000,
+      "ptime": 4562000,
+      "author": "Martin Thomson",
+      "text": "200k lines is a LITTLE bit high, yeah<br/>"
+    },
+    {
+      "dtime": 4673000,
+      "ptime": 4673000,
+      "author": "Lucas Pardue",
+      "text": "CF quiche is ~~150 lines - <a href=\"https://github.com/cloudflare/quiche/blob/master/src/frame.rs#L180\" rel=\"nofollow\">https://github.com/cloudflare/quiche/blob/master/src/frame.rs#L180</a><br/>"
+    },
+    {
+      "dtime": 4697000,
+      "ptime": 4697000,
+      "author": "Martin Thomson",
+      "text": "Alan is making my case regarding capsules :) o/<br/>"
+    },
+    {
+      "dtime": 4719000,
+      "ptime": 4719000,
+      "author": "Martin Thomson",
+      "text": "Lucas: we did not try to reduce line count at all.<br/>"
+    },
+    {
+      "dtime": 4765000,
+      "ptime": 4765000,
+      "author": "Lucas Pardue",
+      "text": "I'm sort of joking, a keen observer will see that some more complex frames are parsed in thier own functions :)<br/>"
+    },
+    {
+      "dtime": 4803000,
+      "ptime": 4803000,
+      "author": "Victor Vasiliev",
+      "text": "...are you saying you don't have a 4-line error statement for every single field that you can fail parsing?<br/>"
+    },
+    {
+      "dtime": 4828000,
+      "ptime": 4828000,
+      "author": "Martin Thomson",
+      "text": "Victor: we left that behind when we moved to a non-terrible programming language.<br/>"
+    },
+    {
+      "dtime": 4854000,
+      "ptime": 4854000,
+      "author": "Martin Thomson",
+      "text": "We can call them capsules and not use the framework.<br/>"
+    },
+    {
+      "dtime": 4875000,
+      "ptime": 4875000,
+      "author": "Victor Vasiliev",
+      "text": "I assure you C++ has no shortage of ways to make things concise<br/>"
+    },
+    {
+      "dtime": 4901000,
+      "ptime": 4901000,
+      "author": "Martin Thomson",
+      "text": "yes, yes it does<br/>"
+    },
+    {
+      "dtime": 4914000,
+      "ptime": 4914000,
+      "author": "Lucas Pardue",
+      "text": "return Err(Error::InvalidFrame);<br/>"
+    },
+    {
+      "dtime": 4981000,
+      "ptime": 4981000,
+      "author": "Martin Thomson",
+      "text": "the first thing to do in any C++ project is to overload the , operator for every type in cstdint.<br/>"
+    },
+    {
+      "dtime": 5140000,
+      "ptime": 5140000,
+      "author": "Martin Thomson",
+      "text": "I think that we want to use the native support for X when doing that produces some significant and meaningful benefit.&nbsp;&nbsp;There is no real benefit from using h2 streams.<br/>"
+    },
+    {
+      "dtime": 5208000,
+      "ptime": 5208000,
+      "author": "Martin Thomson",
+      "text": "Four layers is AMAAAAAZING.<br/>"
+    },
+    {
+      "dtime": 5229000,
+      "ptime": 5229000,
+      "author": "Alan Frindell",
+      "text": "I feel like we should add one more<br/>"
+    },
+    {
+      "dtime": 5235000,
+      "ptime": 5235000,
+      "author": "Jonathan Lennox",
+      "text": "I'm sure those won't fight at all<br/>"
+    },
+    {
+      "dtime": 5250000,
+      "ptime": 5250000,
+      "author": "Lucas Pardue",
+      "text": "you forgot TCP flow control<br/>"
+    },
+    {
+      "dtime": 5250000,
+      "ptime": 5250000,
+      "author": "Alan Frindell",
+      "text": "The problem with flow control is tha<br/>"
+    },
+    {
+      "dtime": 5259000,
+      "ptime": 5259000,
+      "author": "Martin Thomson",
+      "text": "hah<br/>"
+    },
+    {
+      "dtime": 5262000,
+      "ptime": 5262000,
+      "author": "Victor Vasiliev",
+      "text": "I think H2 connection one is TCP<br/>"
+    },
+    {
+      "dtime": 5282000,
+      "ptime": 5282000,
+      "author": "Lucas Pardue",
+      "text": "nop<br/>"
+    },
+    {
+      "dtime": 5293000,
+      "ptime": 5293000,
+      "author": "Martin Thomson",
+      "text": "so flow control doesn't contend, it's just that you now have lots of choices for where blocking can occur.<br/>"
+    },
+    {
+      "dtime": 5297000,
+      "ptime": 5297000,
+      "author": "Martin Thomson",
+      "text": "more choices = more blocking<br/>"
+    },
+    {
+      "dtime": 5323000,
+      "ptime": 5323000,
+      "author": "Alan Frindell",
+      "text": "I just set all the limits to maxint, is that bad?<br/>"
+    },
+    {
+      "dtime": 5342000,
+      "ptime": 5342000,
+      "author": "Martin Thomson",
+      "text": "Alan, yes, but it is also completely understandable.<br/>"
+    },
+    {
+      "dtime": 5355000,
+      "ptime": 5355000,
+      "author": "Dragana Damjanovic",
+      "text": "WT-session flow control = HTTP/2 connect-stream flow-control<br/>"
+    },
+    {
+      "dtime": 5367000,
+      "ptime": 5367000,
+      "author": "Alan Frindell",
+      "text": "or even better.&nbsp;&nbsp;I just use the default.&nbsp;&nbsp;Why is everything slower when I switch from H1 to H2?<br/>"
+    },
+    {
+      "dtime": 5369000,
+      "ptime": 5369000,
+      "author": "Jonathan Lennox",
+      "text": "Until your line rates hit speeds such that 32 bits is too small. :-)<br/>"
+    },
+    {
+      "dtime": 5391000,
+      "ptime": 5391000,
+      "author": "Martin Thomson",
+      "text": "Jonathan: we use 64-bit lengths<br/>"
+    },
+    {
+      "dtime": 5396000,
+      "ptime": 5396000,
+      "author": "Jonathan Lennox",
+      "text": "Oh good<br/>"
+    },
+    {
+      "dtime": 5400000,
+      "ptime": 5400000,
+      "author": "Alan Frindell",
+      "text": "h2 doesn't<br/>"
+    },
+    {
+      "dtime": 5408000,
+      "ptime": 5408000,
+      "author": "Lucas Pardue",
+      "text": "so datagram is flow controlled...<br/>"
+    },
+    {
+      "dtime": 5415000,
+      "ptime": 5415000,
+      "author": "Martin Thomson",
+      "text": "yeah. h2 is *special*<br/>"
+    },
+    {
+      "dtime": 5448000,
+      "ptime": 5448000,
+      "author": "Martin Thomson",
+      "text": "Lucas: general advice for flow control is that you need to read from the stream aggressively or things go poorly.<br/>"
+    },
+    {
+      "dtime": 5455000,
+      "ptime": 5455000,
+      "author": "Martin Thomson",
+      "text": "The same advice applies to reading from TCP.<br/>"
+    },
+    {
+      "dtime": 5483000,
+      "ptime": 5483000,
+      "author": "Martin Thomson",
+      "text": "Think of the h2 stream flow control relationship to webtransport as being analogous to the TCP flow control relationship to h2.<br/>"
+    },
+    {
+      "dtime": 5505000,
+      "ptime": 5505000,
+      "author": "Martin Thomson",
+      "text": "It exists for those cases where your protocol implementation gets backed up and can't read fast enough.<br/>"
+    },
+    {
+      "dtime": 5516000,
+      "ptime": 5516000,
+      "author": "Lucas Pardue",
+      "text": "some words spring to mind but they are NSFW<br/>"
+    },
+    {
+      "dtime": 5525000,
+      "ptime": 5525000,
+      "author": "Martin Thomson",
+      "text": "WT_CONNECTION_CLOSE seems fine.<br/>"
+    },
+    {
+      "dtime": 5718000,
+      "ptime": 5718000,
+      "author": "Martin Thomson",
+      "text": "if we use the same code points for errors on the session and the stream, then they all end up linked together<br/>"
+    },
+    {
+      "dtime": 5932000,
+      "ptime": 5932000,
+      "author": "Alan Frindell",
+      "text": "If h3 removes all the stream and datagram frames, what's left?&nbsp;&nbsp;CLOSE?<br/>"
+    },
+    {
+      "dtime": 5944000,
+      "ptime": 5944000,
+      "author": "Martin Thomson",
+      "text": "pretty much, yes<br/>"
+    },
+    {
+      "dtime": 6018000,
+      "ptime": 6018000,
+      "author": "Martin Thomson",
+      "text": "are they the SAME stream IDs?<br/>"
+    },
+    {
+      "dtime": 6310000,
+      "ptime": 6310000,
+      "author": "Martin Thomson",
+      "text": "I can live with a full transcode requirement, it's just a little weird for an intermediary to have to deal with that.<br/>"
+    },
+    {
+      "dtime": 6337000,
+      "ptime": 6337000,
+      "author": "Lucas Pardue",
+      "text": "there's a difference in the maximum lengths that can be encoded, which would be annoying<br/>"
+    },
+    {
+      "dtime": 6427000,
+      "ptime": 6427000,
+      "author": "Martin Thomson",
+      "text": "Oh yeah, the way that things stop working at various extremes is odd, and will make testing hard/fun, but I doubt it will have any practical effect.<br/>"
+    },
+    {
+      "dtime": 6593000,
+      "ptime": 6593000,
+      "author": "Alan Frindell",
+      "text": "+1 victor - make the proxies do this.&nbsp;&nbsp;They already advertised the H2 SETTING<br/>"
+    },
+    {
+      "dtime": 6609000,
+      "ptime": 6609000,
+      "author": "David Schinazi",
+      "text": "I don't understand in what universe we have individual web developers implementing this as opposed to using a library<br/>"
+    },
+    {
+      "dtime": 6739000,
+      "ptime": 6739000,
+      "author": "Alan Frindell",
+      "text": "chairs?<br/>"
+    },
+    {
+      "dtime": 6743000,
+      "ptime": 6743000,
+      "author": "Lucas Pardue",
+      "text": "ooh server push + webtransport, a new level of hell<br/>"
+    },
+    {
+      "dtime": 6762000,
+      "ptime": 6762000,
+      "author": "Alan Frindell",
+      "text": "it was just an example.&nbsp;&nbsp;Some of the same problems exist<br/>"
+    },
+    {
+      "dtime": 6770000,
+      "ptime": 6770000,
+      "author": "Mike Bishop",
+      "text": "Architecturally, I like the idea that protocol-native elements are optimizations and everything *can* live in the stream.&nbsp;&nbsp;However, I agree that pragmatically, it's fine to require the optimizations be used.<br/>"
+    },
+    {
+      "dtime": 6792000,
+      "ptime": 6792000,
+      "author": "Martin Thomson",
+      "text": "lowest common denominator fixes differences: if you have an h2 hop and you have to reject a stream because if that, you end up rejecting a stream<br/>"
+    },
+    {
+      "dtime": 6822000,
+      "ptime": 6822000,
+      "author": "Eric Kinnear",
+      "text": "+1 Mike, that's pretty much exactly my feelings too<br/>"
+    },
+    {
+      "dtime": 6851000,
+      "ptime": 6851000,
+      "author": "Martin Thomson",
+      "text": "Mike: that about sums up my view also.&nbsp;&nbsp;The good thing is that your architectural view can still exist in your head.&nbsp;&nbsp;It just doesn't have to bother those who end up implementing it.<br/>"
+    },
+    {
+      "dtime": 6859000,
+      "ptime": 6859000,
+      "author": "Martin Thomson",
+      "text": "Thanks James and Spencer!<br/>"
+    },
+    {
+      "dtime": 6887000,
+      "ptime": 6887000,
+      "author": "Alan Frindell",
+      "text": "I crushed it<br/>"
+    },
+    {
+      "dtime": 6922000,
+      "ptime": 6922000,
+      "author": "francesca",
+      "text": "thank you!<br/>"
+    },
+    {
+      "dtime": 6925000,
+      "ptime": 6925000,
+      "author": "Lucas Pardue",
+      "text": "bye (GOAWAY)<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-WEBTRANS-20211109-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/webtrans"
+    }
+  ]
+}

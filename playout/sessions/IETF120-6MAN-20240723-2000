@@ -1,0 +1,602 @@
+
+{
+	"title": "IETF120-6MAN-20240723-2000",
+	"filename": "IETF120-6MAN-20240723-2000",
+	"start": 0,
+	"end": 6788000,
+	"start_datetime": "2024-07-23T20:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "ZdUDTytB2xQ",
+    "start": 0,
+    "end": "6788000"
+  }
+],
+	"messages": [
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>Ole with big beard <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 68000,
+    "ptime": 68000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>The summer has been so cold here that the winter beard hasn't gone yet. :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 103000,
+    "ptime": 103000
+  },
+  {
+    "author": "Tim Chown",
+    "text": "<p>that is a 128-bit beard</p>",
+    "topic": "ietf-120",
+    "dtime": 211000,
+    "ptime": 211000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>It's less that we didn't think it needed to be addressed than that 1918 addresses are often (usually?) a client's only IPv4 address, so it is functionally used by clients as the source address for accessing the entire v4 internet.</p>",
+    "topic": "ietf-120",
+    "dtime": 802000,
+    "ptime": 802000
+  },
+  {
+    "author": "Jeremy Duncan",
+    "text": "<p>there's this implementation that follows this: <a href=\"https://github.com/jeremy-duncan/raio_ula\">https://github.com/jeremy-duncan/raio_ula</a></p>",
+    "topic": "ietf-120",
+    "dtime": 872000,
+    "ptime": 872000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>It hasn't been specified. That's why no one knows how it works. :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 875000,
+    "ptime": 875000
+  },
+  {
+    "author": "Jeremy Duncan",
+    "text": "<p>that's for Lorenzo</p>",
+    "topic": "ietf-120",
+    "dtime": 881000,
+    "ptime": 881000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>We should regard all of ULA as a block, and leave it to any future differential definition of fc00::/8 to update this if necessary.</p>",
+    "topic": "ietf-120",
+    "dtime": 968000,
+    "ptime": 968000
+  },
+  {
+    "author": "Kyle Rose",
+    "text": "<p>Precisely.</p>",
+    "topic": "ietf-120",
+    "dtime": 984000,
+    "ptime": 984000
+  },
+  {
+    "author": "Brian Carpenter",
+    "text": "<p>+1 to Bob Hinden</p>",
+    "topic": "ietf-120",
+    "dtime": 1001000,
+    "ptime": 1001000
+  },
+  {
+    "author": "Jeremy Duncan",
+    "text": "<p>RIOs were prioritized - that's why it was a MUST and PIOs were SHOULD</p>",
+    "topic": "ietf-120",
+    "dtime": 1333000,
+    "ptime": 1333000
+  },
+  {
+    "author": "Jeremy Duncan",
+    "text": "<p>and PIOs can be sent to hosts OFFLINE and not autonomous - which means the address will not be installed nor in the router table</p>",
+    "topic": "ietf-120",
+    "dtime": 1452000,
+    "ptime": 1452000
+  },
+  {
+    "author": "Jeremy Duncan",
+    "text": "<p>*OFFLINK</p>",
+    "topic": "ietf-120",
+    "dtime": 1462000,
+    "ptime": 1462000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>Ted said thread router, is it i.e. IoT network?</p>",
+    "topic": "ietf-120",
+    "dtime": 1522000,
+    "ptime": 1522000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>+1 to Suresh</p>",
+    "topic": "ietf-120",
+    "dtime": 1811000,
+    "ptime": 1811000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>effectively flag is specified only for /64 use case, other use cases are not specified.</p>",
+    "topic": "ietf-120",
+    "dtime": 2492000,
+    "ptime": 2492000
+  },
+  {
+    "author": "Tom Hill",
+    "text": "<p>Beard envy</p>",
+    "topic": "ietf-120",
+    "dtime": 2494000,
+    "ptime": 2494000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<blockquote>\n<p>effectively flag is specified only for /64 use case, other use cases are not specified.<br>\nyes, because longer prefixes do not need a flag - clients can just ask</p>\n</blockquote>",
+    "topic": "ietf-120",
+    "dtime": 2592000,
+    "ptime": 2592000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>let's not let the perfect be the enemy of the good</p>",
+    "topic": "ietf-120",
+    "dtime": 2630000,
+    "ptime": 2630000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>any /128 PIO can set the P flag</p>",
+    "topic": "ietf-120",
+    "dtime": 2702000,
+    "ptime": 2702000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>It is equal to M or A flags - it is a very different meaning.</p>",
+    "topic": "ietf-120",
+    "dtime": 2706000,
+    "ptime": 2706000
+  },
+  {
+    "author": "Brian Carpenter",
+    "text": "<p>@Erik, you could always use a dummy ULA prefix</p>",
+    "topic": "ietf-120",
+    "dtime": 2738000,
+    "ptime": 2738000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>I thought DHCP is the reverse of RA, right, what changed?</p>",
+    "topic": "ietf-120",
+    "dtime": 2763000,
+    "ptime": 2763000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>also an option, yes</p>",
+    "topic": "ietf-120",
+    "dtime": 2769000,
+    "ptime": 2769000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>(@brian)</p>",
+    "topic": "ietf-120",
+    "dtime": 2779000,
+    "ptime": 2779000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>I can send 2001:db8::/128 with the P flag ;)</p>",
+    "topic": "ietf-120",
+    "dtime": 2873000,
+    "ptime": 2873000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>The \"optics\" of deprecating a fundamental part of ND is definitely a challenge. Would be nice to clean up how MLD works though... if possible 30 years in.</p>",
+    "topic": "ietf-120",
+    "dtime": 3420000,
+    "ptime": 3420000
+  },
+  {
+    "author": "Soni Terense",
+    "text": "<p>could this be done with an (meta-)URI?</p>",
+    "topic": "ietf-120",
+    "dtime": 3659000,
+    "ptime": 3659000
+  },
+  {
+    "author": "Christian Amsüss",
+    "text": "<p>This also applies to the IoT world, where CoAP frequently deals with IP literals with zone IDs, without being bound to the browser world</p>",
+    "topic": "ietf-120",
+    "dtime": 3971000,
+    "ptime": 3971000
+  },
+  {
+    "author": "Soni Terense",
+    "text": "<p>this also applies to like, web-based RGB management and more generally \"driverless\" peripherals...</p>",
+    "topic": "ietf-120",
+    "dtime": 4219000,
+    "ptime": 4219000
+  },
+  {
+    "author": "Bill Fenner",
+    "text": "<p>previous work from 2005 trying to change the URI syntax <a href=\"https://datatracker.ietf.org/doc/html/draft-fenner-literal-zone-02\">https://datatracker.ietf.org/doc/html/draft-fenner-literal-zone-02</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4389000,
+    "ptime": 4389000
+  },
+  {
+    "author": "Erik Kline",
+    "text": "<p>section 11 of 4007 says the % character is only a SHOULD</p>",
+    "topic": "ietf-120",
+    "dtime": 4395000,
+    "ptime": 4395000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>SHOULD is not \"only\". :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 4555000,
+    "ptime": 4555000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>The diff <a href=\"https://author-tools.ietf.org/iddiff?url1=rfc8504&amp;url2=draft-clw-6man-rfc8504-bis-00&amp;difftype=--html\">https://author-tools.ietf.org/iddiff?url1=rfc8504&amp;url2=draft-clw-6man-rfc8504-bis-00&amp;difftype=--html</a></p>",
+    "topic": "ietf-120",
+    "dtime": 4767000,
+    "ptime": 4767000
+  },
+  {
+    "author": "Jeremy Duncan",
+    "text": "<p>yes! i vote for 8504 update</p>",
+    "topic": "ietf-120",
+    "dtime": 4918000,
+    "ptime": 4918000
+  },
+  {
+    "author": "Soni Terense",
+    "text": "<p>hmm... what about hosts that don't support ipv4?</p>",
+    "topic": "ietf-120",
+    "dtime": 4940000,
+    "ptime": 4940000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>Yeah, an IPv6 only hosts would of course not need 464XLAT...</p>",
+    "topic": "ietf-120",
+    "dtime": 4992000,
+    "ptime": 4992000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<blockquote>\n<p>Yeah, an IPv6 only hosts would of course not need 464XLAT...</p>\n</blockquote>\n<p>I guess it's how you define IPv6-only. But the document is not about IPv6-<em>only</em></p>",
+    "topic": "ietf-120",
+    "dtime": 5073000,
+    "ptime": 5073000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>s/it's how/it depends how/</p>",
+    "topic": "ietf-120",
+    "dtime": 5101000,
+    "ptime": 5101000
+  },
+  {
+    "author": "Soni Terense",
+    "text": "<p><em>nod</em></p>",
+    "topic": "ietf-120",
+    "dtime": 5132000,
+    "ptime": 5132000
+  },
+  {
+    "author": "Timothy Winters",
+    "text": "<p>yes, we'll need to be careful how we word this</p>",
+    "topic": "ietf-120",
+    "dtime": 5160000,
+    "ptime": 5160000
+  },
+  {
+    "author": "Tommy Jensen",
+    "text": "<blockquote>\n<p>This document defines a minimal level of requirement needed for a device to provide useful Internet service</p>\n</blockquote>\n<p>From that, the questions around Option 108 and CLAT seem to hinge on whether we consider IPv4 connectivity to be \"useful\" ;)</p>",
+    "topic": "ietf-120",
+    "dtime": 5253000,
+    "ptime": 5253000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>I think there is a need of a dedicated section about transition technologies</p>",
+    "topic": "ietf-120",
+    "dtime": 5338000,
+    "ptime": 5338000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>I don't like v4 as a service V4AAS idea<br>\nwhy?</p>",
+    "topic": "ietf-120",
+    "dtime": 5387000,
+    "ptime": 5387000
+  },
+  {
+    "author": "Brian Carpenter",
+    "text": "<p>_co-existence_ surely; transition is just an IPv4  off-switch</p>",
+    "topic": "ietf-120",
+    "dtime": 5413000,
+    "ptime": 5413000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>incremental transition ;)</p>",
+    "topic": "ietf-120",
+    "dtime": 5438000,
+    "ptime": 5438000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>It strikes me that if folks want to produce a document about what nodes need to do if they want to support SRv6, that would seem a suitable topic for the new srv6ops WG.</p>",
+    "topic": "ietf-120",
+    "dtime": 5467000,
+    "ptime": 5467000
+  },
+  {
+    "author": "Ole Trøan",
+    "text": "<p>Joel: We are quite far away from expecting all general IPv6 nodes to support SRv6, right?<br>\n(reminds me a little bit of ATM to the host) :-)</p>",
+    "topic": "ietf-120",
+    "dtime": 5516000,
+    "ptime": 5516000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@ole agreed,</p>",
+    "topic": "ietf-120",
+    "dtime": 5538000,
+    "ptime": 5538000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>why would an end host ever support SRv6? did i miss something?</p>",
+    "topic": "ietf-120",
+    "dtime": 5547000,
+    "ptime": 5547000
+  },
+  {
+    "author": "Brian Carpenter",
+    "text": "<p>@david, a solution seraching for a problem</p>",
+    "topic": "ietf-120",
+    "dtime": 5587000,
+    "ptime": 5587000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@david Lamparter there is provision in SRv6 for hosts within the SRv6 domain to use SRv6 when talking to each other.  Presumably because they are told to do so by polic control of some kind.</p>",
+    "topic": "ietf-120",
+    "dtime": 5603000,
+    "ptime": 5603000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>@Joel okay… they need to participate in a routing protocol then? that makes them routers in my book :)</p>",
+    "topic": "ietf-120",
+    "dtime": 5635000,
+    "ptime": 5635000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>When 6man first defined srv6, it was debated whether to include that, and the WG decided to do so.</p>",
+    "topic": "ietf-120",
+    "dtime": 5640000,
+    "ptime": 5640000
+  },
+  {
+    "author": "Mohamed Boucadair",
+    "text": "<p>@david, 8504 includes a dedicated section on \"Router-Specific Functionality\"</p>",
+    "topic": "ietf-120",
+    "dtime": 5656000,
+    "ptime": 5656000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>Just wonder about Tal's draft about ICMP loopback. How to process MTU-size request ?</p>",
+    "topic": "ietf-120",
+    "dtime": 5674000,
+    "ptime": 5674000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@David lamparter they may well not be participating in routing protocols and may well not be forwarding packets from other nodes.</p>",
+    "topic": "ietf-120",
+    "dtime": 5679000,
+    "ptime": 5679000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>curious. i think i need to do some reading :)</p>",
+    "topic": "ietf-120",
+    "dtime": 5704000,
+    "ptime": 5704000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>The policy could come from pcep, yang / netconf, ...</p>",
+    "topic": "ietf-120",
+    "dtime": 5706000,
+    "ptime": 5706000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>I'm confused - what does SRv6 support means? Being able to process SRv6 header? Do we need to explicitly specify support for each EH?</p>",
+    "topic": "ietf-120",
+    "dtime": 5714000,
+    "ptime": 5714000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@Jen which is part of why it is not a 6man problem.</p>",
+    "topic": "ietf-120",
+    "dtime": 5738000,
+    "ptime": 5738000
+  },
+  {
+    "author": "Joel Halpern",
+    "text": "<p>@David Lamparter - in fairness, I am not the best person to defend the host usage of SRv6.  I was in the rough arguing that we didn't need it.</p>",
+    "topic": "ietf-120",
+    "dtime": 5980000,
+    "ptime": 5980000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>MLA, how can you be local to more than one link?</p>",
+    "topic": "ietf-120",
+    "dtime": 6003000,
+    "ptime": 6003000
+  },
+  {
+    "author": "Bill Fenner",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"209\">Éric Vyncke</span> <a href=\"#narrow/stream/19-6man/topic/ietf-120/near/125370\">said</a>:</p>\n<blockquote>\n<p>Just wonder about Tal's draft about ICMP loopback. How to process MTU-size request ?</p>\n</blockquote>\n<p>I think David had the right idea to avoid amplification - make the request MTU-sized, with padding, and the response is the same size and drops whatever is necessary to be the same size as the request was.</p>",
+    "topic": "ietf-120",
+    "dtime": 6037000,
+    "ptime": 6037000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>Is the term \"loopback\" going to be confusing to users?  (eg, confusion with \"loopback addresses\")</p>",
+    "topic": "ietf-120",
+    "dtime": 6082000,
+    "ptime": 6082000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>@Erik I was indeed also confused</p>",
+    "topic": "ietf-120",
+    "dtime": 6096000,
+    "ptime": 6096000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>same here, actually</p>",
+    "topic": "ietf-120",
+    "dtime": 6118000,
+    "ptime": 6118000
+  },
+  {
+    "author": "Bill Fenner",
+    "text": "<p>\"mega-echo request\"</p>",
+    "topic": "ietf-120",
+    "dtime": 6124000,
+    "ptime": 6124000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>@Eri[ck] yes! I'm very much confused!</p>",
+    "topic": "ietf-120",
+    "dtime": 6131000,
+    "ptime": 6131000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>\"mirror request\"</p>",
+    "topic": "ietf-120",
+    "dtime": 6135000,
+    "ptime": 6135000
+  },
+  {
+    "author": "David Lamparter",
+    "text": "<p>ICMPv6 Better Echo Request</p>",
+    "topic": "ietf-120",
+    "dtime": 6150000,
+    "ptime": 6150000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>Best Ever Echo Request: bEER</p>",
+    "topic": "ietf-120",
+    "dtime": 6166000,
+    "ptime": 6166000
+  },
+  {
+    "author": "Jeremy Duncan",
+    "text": "<p>how about calling it \"closed loop\" ? That's like what it's doing</p>",
+    "topic": "ietf-120",
+    "dtime": 6223000,
+    "ptime": 6223000
+  },
+  {
+    "author": "Soni Terense",
+    "text": "<p>HERE - header echo request [e???]</p>",
+    "topic": "ietf-120",
+    "dtime": 6225000,
+    "ptime": 6225000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>/80 would become a new /64....</p>",
+    "topic": "ietf-120",
+    "dtime": 6505000,
+    "ptime": 6505000
+  },
+  {
+    "author": "Lorenzo Colitti",
+    "text": "<p>why is this not a race to the bottom? right now it's fixed at /64. this draft changes it to max /80. but a future draft could change it again</p>",
+    "topic": "ietf-120",
+    "dtime": 6514000,
+    "ptime": 6514000
+  },
+  {
+    "author": "Erik Nygren",
+    "text": "<p>(sent a mail on the loopback naming bikeshed topic to not lose this)</p>",
+    "topic": "ietf-120",
+    "dtime": 6641000,
+    "ptime": 6641000
+  },
+  {
+    "author": "Éric Vyncke",
+    "text": "<p>I wonder how this can be deployed because it works only when ALL nodes (routers &amp; hosts) are updated</p>",
+    "topic": "ietf-120",
+    "dtime": 6656000,
+    "ptime": 6656000
+  },
+  {
+    "author": "Jen Linkova",
+    "text": "<p>I think the proposed migration is on the next slide</p>",
+    "topic": "ietf-120",
+    "dtime": 6674000,
+    "ptime": 6674000
+  },
+  {
+    "author": "Eduard V",
+    "text": "<p>6man would reclaim bits from IID sooner or later - no choice for this. It just could be delayed.</p>",
+    "topic": "ietf-120",
+    "dtime": 6681000,
+    "ptime": 6681000
+  },
+  {
+    "author": "Lorenzo Colitti",
+    "text": "<p>\"The main problem is that SLAAC RA or PD allocates a /64 by the wireless carrier 4G, 5G, 3GPP to mobile handset or hotspot, however segmentation of the /64 via SLAAC is required so that downstream interfaces can be further sub-netted.\"</p>",
+    "topic": "ietf-120",
+    "dtime": 6745000,
+    "ptime": 6745000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-6MAN-20240723-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/6man"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-6MAN-20240723-2000"
+		}		
+	]
+}

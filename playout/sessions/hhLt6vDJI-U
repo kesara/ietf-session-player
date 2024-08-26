@@ -1,0 +1,240 @@
+
+{
+	"title": "IETF112-MPLS-20211108-1430",
+	"filename": "IETF112-MPLS-20211108-1430",
+	"start": 0,
+	"end": 3943000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "hhLt6vDJI-U",
+    "start": 0,
+    "end": "3943000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 68000,
+    "ptime": 68000,
+    "author": "Daniel King",
+    "text": "If I was pedantic, its Monday 8th. :-)<br/>"
+  },
+  {
+    "dtime": 78000,
+    "ptime": 78000,
+    "author": "Daniel King",
+    "text": "Maybe a test from Chairs to see if folks read slides.<br/>"
+  },
+  {
+    "dtime": 240000,
+    "ptime": 240000,
+    "author": "Jie Dong",
+    "text": ":)<br/>"
+  },
+  {
+    "dtime": 471000,
+    "ptime": 471000,
+    "author": "Stewart Bryant",
+    "text": "sfl control waiting on chair action<br/>"
+  },
+  {
+    "dtime": 860000,
+    "ptime": 860000,
+    "author": "Kireeti Kompella",
+    "text": "In joint meeting with pals<br/>"
+  },
+  {
+    "dtime": 926000,
+    "ptime": 926000,
+    "author": "Kireeti Kompella",
+    "text": "Any update on making LARP a WG doc?<br/>"
+  },
+  {
+    "dtime": 1564000,
+    "ptime": 1564000,
+    "author": "Tarek Saad",
+    "text": "@Kireeti. I checked on the LARP draft and there's no action required on authors. Chairs will be addressing your WG adoption request next<br/>"
+  },
+  {
+    "dtime": 1618000,
+    "ptime": 1618000,
+    "author": "Kireeti Kompella",
+    "text": "Thanks!<br/>"
+  },
+  {
+    "dtime": 2036000,
+    "ptime": 2036000,
+    "author": "Kireeti Kompella",
+    "text": "Happy to join such a conversation as suggested by Greg/stewart<br/>"
+  },
+  {
+    "dtime": 2075000,
+    "ptime": 2075000,
+    "author": "Kireeti Kompella",
+    "text": "Re Rakesh’s draft<br/>"
+  },
+  {
+    "dtime": 2145000,
+    "ptime": 2145000,
+    "author": "Stewart Bryant",
+    "text": "Be great if all interested parties got together either this week as part of IETF or next week<br/>"
+  },
+  {
+    "dtime": 2287000,
+    "ptime": 2287000,
+    "author": "Kireeti Kompella",
+    "text": "Count me in, stewart<br/>"
+  },
+  {
+    "dtime": 2488000,
+    "ptime": 2488000,
+    "author": "Stewart Bryant",
+    "text": "Rakesh - sounds like you need kireeti, Greg and myself and anyone else interested, will you propose a time/virtual meeting method?<br/>"
+  },
+  {
+    "dtime": 2518000,
+    "ptime": 2518000,
+    "author": "Andrew Alston",
+    "text": "I'm happy to join such a conversation<br/>"
+  },
+  {
+    "dtime": 2668000,
+    "ptime": 2668000,
+    "author": "Ketan Talaulikar",
+    "text": "@Yingzhen we now have MSD types defined not just for MPLS but also SRv6. I am not sure if this is something to be handled/considered in the draft?<br/>"
+  },
+  {
+    "dtime": 2686000,
+    "ptime": 2686000,
+    "author": "Jeffrey Haas",
+    "text": "The msd yang draft is quite straight forward.&nbsp;&nbsp;It should likely head to quick WGLC not long after adoption and review.<br/>"
+  },
+  {
+    "dtime": 2729000,
+    "ptime": 2729000,
+    "author": "Jeffrey Haas",
+    "text": "Ketan - is there a common typedef in use?<br/>"
+  },
+  {
+    "dtime": 2773000,
+    "ptime": 2773000,
+    "author": "Ketan Talaulikar",
+    "text": "@ Jeff - yes. <a href=\"https://www.iana.org/assignments/igp-parameters/igp-parameters.xhtml#igp-msd-types\" rel=\"nofollow\">https://www.iana.org/assignments/igp-parameters/igp-parameters.xhtml#igp-msd-types</a><br/>"
+  },
+  {
+    "dtime": 2801000,
+    "ptime": 2801000,
+    "author": "Ketan Talaulikar",
+    "text": "This is protocol codepoints in IGP/BGP-LS - not YANG<br/>"
+  },
+  {
+    "dtime": 2824000,
+    "ptime": 2824000,
+    "author": "Jeffrey Haas",
+    "text": "It was the yang typedef I was asking after.<br/>"
+  },
+  {
+    "dtime": 2960000,
+    "ptime": 2960000,
+    "author": "Stewart Bryant",
+    "text": "If a node does not know the only safe number is 0<br/>"
+  },
+  {
+    "dtime": 2993000,
+    "ptime": 2993000,
+    "author": "Jeffrey Haas",
+    "text": "That doesn't make much sense, Stewart.&nbsp;&nbsp;The device knows it can forward mpls... just not how deep.<br/>"
+  },
+  {
+    "dtime": 3009000,
+    "ptime": 3009000,
+    "author": "Jeffrey Haas",
+    "text": "Yingzhen's point is that you can omit the value in the model.<br/>"
+  },
+  {
+    "dtime": 3037000,
+    "ptime": 3037000,
+    "author": "Bruno Decraene",
+    "text": "<a href=\"https://datatracker.ietf.org/doc/html/rfc8491\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/rfc8491</a><br/>"
+  },
+  {
+    "dtime": 3050000,
+    "ptime": 3050000,
+    "author": "Bruno Decraene",
+    "text": "\"Signaling Maximum SID Depth (MSD) Using IS-IS\"<br/>"
+  },
+  {
+    "dtime": 3062000,
+    "ptime": 3062000,
+    "author": "Stewart Bryant",
+    "text": "Correct Jeff so the answer becomes 1<br/>"
+  },
+  {
+    "dtime": 3093000,
+    "ptime": 3093000,
+    "author": "Jeffrey Haas",
+    "text": "also a bad answer. :-)<br/>"
+  },
+  {
+    "dtime": 3194000,
+    "ptime": 3194000,
+    "author": "Stewart Bryant",
+    "text": "yes, but if you are answering from the controller and have no idea what depth the MPLS line cards in your virtual router can do, you know that the answer must be 1 even if you know no more<br/>"
+  },
+  {
+    "dtime": 3246000,
+    "ptime": 3246000,
+    "author": "Yingzhen Qu",
+    "text": "@Jeff, I guess you were asking what if no number reported?<br/>"
+  },
+  {
+    "dtime": 3268000,
+    "ptime": 3268000,
+    "author": "Jeffrey Haas",
+    "text": "the answer is in the spectrum of not returning the value at all.&nbsp;&nbsp;you don't know.&nbsp;&nbsp;the question is whether not knowing the value but knowing that msd is a feature means you should answer that way<br/>"
+  },
+  {
+    "dtime": 3284000,
+    "ptime": 3284000,
+    "author": "Jeffrey Haas",
+    "text": "Yingzhen - that's roughly the question.<br/>"
+  },
+  {
+    "dtime": 3356000,
+    "ptime": 3356000,
+    "author": "Yingzhen Qu",
+    "text": "if a router is not reporting anything, the answer is we don't know.<br/>"
+  },
+  {
+    "dtime": 3424000,
+    "ptime": 3424000,
+    "author": "Yingzhen Qu",
+    "text": "if a controller doesn't know MSD, it falls back to its default value whatever it is<br/>"
+  },
+  {
+    "dtime": 3454000,
+    "ptime": 3454000,
+    "author": "Jie Dong",
+    "text": "For MSD yang, if change the segment to label, does it mean a separate model or container would be needed for SRv6?<br/>"
+  },
+  {
+    "dtime": 3611000,
+    "ptime": 3611000,
+    "author": "Yingzhen Qu",
+    "text": "This draft is only for mpls. I suppose there would be a separate model for SRv6 MSD if needed<br/>"
+  },
+  {
+    "dtime": 3841000,
+    "ptime": 3841000,
+    "author": "Tarek Saad",
+    "text": "i think an MPLS LSR will report max label depth<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0.0,
+			"title": "Transcript",
+			"link": "resources/IETF112-MPLS-20211108-1430"
+		}
+	]
+}

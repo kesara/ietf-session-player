@@ -1,0 +1,1624 @@
+{
+  "title": "IETF112-DISPATCH-20211108-1200",
+  "filename": "IETF112-DISPATCH-20211108-1200",
+  "start": 0,
+  "end": 5083000,
+  "videos": [
+    {
+      "type": 2,
+      "src": "gD10-OonvYA",
+      "start": 0,
+      "end": "5083000"
+    }
+  ],
+  "messages": [
+    {
+      "dtime": 0,
+      "ptime": 0,
+      "author": "Bron Gondwana",
+      "text": "why not, I always seem to<br/>"
+    },
+    {
+      "dtime": 13000,
+      "ptime": 13000,
+      "author": "Rich Salz",
+      "text": "well losing daylight savings time actually *mitigates* something.<br/>"
+    },
+    {
+      "dtime": 125000,
+      "ptime": 125000,
+      "author": "Spencer Dawkins",
+      "text": "@Rich - it's awesome that Jay Daley could arrange that!<br/>"
+    },
+    {
+      "dtime": 239000,
+      "ptime": 239000,
+      "author": "Rich Salz",
+      "text": "I don't recall giving him that power.&nbsp;&nbsp;Which RFC delegated that? :)<br/>"
+    },
+    {
+      "dtime": 298000,
+      "ptime": 298000,
+      "author": "Pete Resnick",
+      "text": "This would have been a non-horrific time for me had I not spent the weekend at the bottom of a lake chasing around scuba students. (*Yawn*)<br/>"
+    },
+    {
+      "dtime": 319000,
+      "ptime": 319000,
+      "author": "francesca",
+      "text": "that does sound fun Pete<br/>"
+    },
+    {
+      "dtime": 345000,
+      "ptime": 345000,
+      "author": "Pete Resnick",
+      "text": "I'll let you do it next time, Francesca. ;-)<br/>"
+    },
+    {
+      "dtime": 361000,
+      "ptime": 361000,
+      "author": "Jim Reid",
+      "text": "Scuba diving in November????<br/>"
+    },
+    {
+      "dtime": 365000,
+      "ptime": 365000,
+      "author": "francesca",
+      "text": "as a student, would love that! :D<br/>"
+    },
+    {
+      "dtime": 406000,
+      "ptime": 406000,
+      "author": "Bron Gondwana",
+      "text": "Bug in slide: it's from the future!&nbsp;&nbsp;(2022)<br/>"
+    },
+    {
+      "dtime": 430000,
+      "ptime": 430000,
+      "author": "Pete Resnick",
+      "text": "@Jim: A bit \"bracing\".<br/>"
+    },
+    {
+      "dtime": 468000,
+      "ptime": 468000,
+      "author": "sftcd",
+      "text": "if \"share car key with valet\" is a use-case this just got harder I think<br/>"
+    },
+    {
+      "dtime": 486000,
+      "ptime": 486000,
+      "author": "Bron Gondwana",
+      "text": "<a href=\"https://support.1password.com/share-items/\" rel=\"nofollow\">https://support.1password.com/share-items/</a> does something similar<br/>"
+    },
+    {
+      "dtime": 498000,
+      "ptime": 498000,
+      "author": "David Lawrence",
+      "text": "(PS: down with semi-annual clock futzing.)<br/>"
+    },
+    {
+      "dtime": 519000,
+      "ptime": 519000,
+      "author": "Pete Resnick",
+      "text": "@Bron: Yeah, my first question is, \"Does anyone who does this now want a standard way to do this?\"<br/>"
+    },
+    {
+      "dtime": 524000,
+      "ptime": 524000,
+      "author": "dkg",
+      "text": "yubikey devices store and manipulate a symmetric credential as well<br/>"
+    },
+    {
+      "dtime": 550000,
+      "ptime": 550000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Didn't SAML already do this?<br/>"
+    },
+    {
+      "dtime": 575000,
+      "ptime": 575000,
+      "author": "Jeffrey Yasskin",
+      "text": "Seems like the only safe way to revoke is to rotate keys?<br/>"
+    },
+    {
+      "dtime": 577000,
+      "ptime": 577000,
+      "author": "Rich Salz",
+      "text": "But that was XML.&nbsp;&nbsp;Let's see if this is json.<br/>"
+    },
+    {
+      "dtime": 584000,
+      "ptime": 584000,
+      "author": "Justin Richer",
+      "text": "@dkg they keywrap the credential though, I believe<br/>"
+    },
+    {
+      "dtime": 588000,
+      "ptime": 588000,
+      "author": "Bron Gondwana",
+      "text": "both types of phone, Country AND Western<br/>"
+    },
+    {
+      "dtime": 603000,
+      "ptime": 603000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Didn't the Mathematical Mesh already do this in JSON?<br/>"
+    },
+    {
+      "dtime": 606000,
+      "ptime": 606000,
+      "author": "sftcd",
+      "text": "is it a requirement to support self-operated servers? (relays in their terms I guess)<br/>"
+    },
+    {
+      "dtime": 625000,
+      "ptime": 625000,
+      "author": "dkg",
+      "text": "is it a requirement that both systems be on the Internet?<br/>"
+    },
+    {
+      "dtime": 657000,
+      "ptime": 657000,
+      "author": "Leif Johansson",
+      "text": "delegation is a rat-hole for something like this imo<br/>"
+    },
+    {
+      "dtime": 687000,
+      "ptime": 687000,
+      "author": "sftcd",
+      "text": "right \"simple relay server\" seems to conflict with \"can manage creds after sharing\"<br/>"
+    },
+    {
+      "dtime": 697000,
+      "ptime": 697000,
+      "author": "Leif Johansson",
+      "text": "yeah<br/>"
+    },
+    {
+      "dtime": 709000,
+      "ptime": 709000,
+      "author": "dkg",
+      "text": "Justin Richer: i'd assume that any sharing of a hardware token like a yubikey would be ephemeral -- you could do it without sharing the credential at all, just a couple of authorizations; then the next time you use your yubikey, all of those would be invalidated.<br/>"
+    },
+    {
+      "dtime": 738000,
+      "ptime": 738000,
+      "author": "Eric Rescorla",
+      "text": "I don't think \"field level encryption\" is a good design choice<br/>"
+    },
+    {
+      "dtime": 740000,
+      "ptime": 740000,
+      "author": "Bron Gondwana",
+      "text": "this seems really abuseable<br/>"
+    },
+    {
+      "dtime": 745000,
+      "ptime": 745000,
+      "author": "Eric Rescorla",
+      "text": "This typically causes a lot of problems<br/>"
+    },
+    {
+      "dtime": 765000,
+      "ptime": 765000,
+      "author": "Cullen Jennings",
+      "text": "These are not requirements, they are a design<br/>"
+    },
+    {
+      "dtime": 779000,
+      "ptime": 779000,
+      "author": "Eric Rescorla",
+      "text": "I believe the \"manage after sharing\" is handled by the \"credential authority\"<br/>"
+    },
+    {
+      "dtime": 781000,
+      "ptime": 781000,
+      "author": "Justin Richer",
+      "text": "@dkg that's a protocol at a higher layer -- multi-party delegation. GNAP's meant to help enable that kind of thing, and yubikeys can be used to bridge the authentication party of stuff.<br/>"
+    },
+    {
+      "dtime": 783000,
+      "ptime": 783000,
+      "author": "Eric Rescorla",
+      "text": "Not by the relay server<br/>"
+    },
+    {
+      "dtime": 859000,
+      "ptime": 859000,
+      "author": "Eric Rescorla",
+      "text": "Except that you have to carry the *secret*.<br/>"
+    },
+    {
+      "dtime": 868000,
+      "ptime": 868000,
+      "author": "Eric Rescorla",
+      "text": "Which has to be machine processed<br/>"
+    },
+    {
+      "dtime": 871000,
+      "ptime": 871000,
+      "author": "dkg",
+      "text": "so this is training receivers to click on arbitrary urls that get texted to them?<br/>"
+    },
+    {
+      "dtime": 890000,
+      "ptime": 890000,
+      "author": "sftcd",
+      "text": "were all these entities listed in the I-D ? I don't recall 'em from when I scanned it<br/>"
+    },
+    {
+      "dtime": 893000,
+      "ptime": 893000,
+      "author": "Leif Johansson",
+      "text": "I don't think we need to train users to click on links<br/>"
+    },
+    {
+      "dtime": 899000,
+      "ptime": 899000,
+      "author": "Jeffrey Yasskin",
+      "text": "I think receivers are already trained to do that, and it's browsers' job to protect them.<br/>"
+    },
+    {
+      "dtime": 899000,
+      "ptime": 899000,
+      "author": "Eric Rescorla",
+      "text": "@sftcd, no<br/>"
+    },
+    {
+      "dtime": 911000,
+      "ptime": 911000,
+      "author": "Bron Gondwana",
+      "text": "the 1password one works by sending an invitation key, which the recipient then clicks on and gets sent an email to their invited email address, which they need to click a link in to load the actual secret, so that it's not forwardable<br/>"
+    },
+    {
+      "dtime": 959000,
+      "ptime": 959000,
+      "author": "Bron Gondwana",
+      "text": "(time limited email)<br/>"
+    },
+    {
+      "dtime": 981000,
+      "ptime": 981000,
+      "author": "Bron Gondwana",
+      "text": "It could certainly benefit from having the payload transfer be automated though, so you're not futzing around in your Inbox for emails with links in them<br/>"
+    },
+    {
+      "dtime": 1016000,
+      "ptime": 1016000,
+      "author": "Pete Resnick",
+      "text": "Why is it labeled \"Device OS OEM\" Server? Isn't it simply \"Any company you sign up with to generate keys\" server?<br/>"
+    },
+    {
+      "dtime": 1023000,
+      "ptime": 1023000,
+      "author": "Bron Gondwana",
+      "text": "but a magic email with headers that say \"this is an encrypted data transfer message\" that devices know how to handle<br/>"
+    },
+    {
+      "dtime": 1045000,
+      "ptime": 1045000,
+      "author": "sftcd",
+      "text": "@pete: I guess there's an adroid+ios==100% of the market background here;-(<br/>"
+    },
+    {
+      "dtime": 1088000,
+      "ptime": 1088000,
+      "author": "Pete Resnick",
+      "text": "I'm not even clear why there needs to be a server there. Why not client based?<br/>"
+    },
+    {
+      "dtime": 1097000,
+      "ptime": 1097000,
+      "author": "mnot",
+      "text": "OpenGraph —&gt; <a href=\"https://ogp.me\" rel=\"nofollow\">https://ogp.me</a><br/>"
+    },
+    {
+      "dtime": 1097000,
+      "ptime": 1097000,
+      "author": "Cullen Jennings",
+      "text": "With the preview of open graph stuff , this becomes an. awesome channel for SPAM<br/>"
+    },
+    {
+      "dtime": 1101000,
+      "ptime": 1101000,
+      "author": "Chris Lemmons",
+      "text": "Yeah, this could potentially help by creating links that are known to contain only a credential, allowing a client to bypass \"clicking a link\" or presenting it differently.<br/>"
+    },
+    {
+      "dtime": 1104000,
+      "ptime": 1104000,
+      "author": "mnot",
+      "text": "I belive that competes with schema.org<br/>"
+    },
+    {
+      "dtime": 1152000,
+      "ptime": 1152000,
+      "author": "Eric Rescorla",
+      "text": "q+<br/>"
+    },
+    {
+      "dtime": 1153000,
+      "ptime": 1153000,
+      "author": "sftcd",
+      "text": "my dispatch answer for this'd be: needs a WG, could be good (but we tried and failed before <a href=\"https://datatracker.ietf.org/wg/sacred/documents/\" rel=\"nofollow\">https://datatracker.ietf.org/wg/sacred/documents/</a>) so might not work out as well as we'd hope<br/>"
+    },
+    {
+      "dtime": 1197000,
+      "ptime": 1197000,
+      "author": "Kirsty Paine",
+      "text": "reminder: to join the queue, please click the hand icon beneath your name, on the top left of your screen - and please announce your name before speaking<br/>"
+    },
+    {
+      "dtime": 1204000,
+      "ptime": 1204000,
+      "author": "francesca",
+      "text": "raise your hand in meetecho @ekr :)<br/>"
+    },
+    {
+      "dtime": 1240000,
+      "ptime": 1240000,
+      "author": "Pete Resnick",
+      "text": "\"Vehicle OEM\"?<br/>"
+    },
+    {
+      "dtime": 1246000,
+      "ptime": 1246000,
+      "author": "Jeffrey Yasskin",
+      "text": "Is there a link to CCC?<br/>"
+    },
+    {
+      "dtime": 1248000,
+      "ptime": 1248000,
+      "author": "Eric Rescorla",
+      "text": "Thanks. I forgot I wasn't at W3C<br/>"
+    },
+    {
+      "dtime": 1263000,
+      "ptime": 1263000,
+      "author": "Bron Gondwana",
+      "text": "it does feel like it's going to be as complex as WebDAV or more<br/>"
+    },
+    {
+      "dtime": 1269000,
+      "ptime": 1269000,
+      "author": "sftcd",
+      "text": "@ekr: do you need to q- to complete the loop?<br/>"
+    },
+    {
+      "dtime": 1276000,
+      "ptime": 1276000,
+      "author": "Samuel Weiler",
+      "text": "sftcd: needs work, yes, but I'm not convinced they even have the problem statement clear enough.&nbsp;&nbsp;I wouldn't charter a WG yet.&nbsp;&nbsp;Maybe a BOF, working on reqs?<br/>"
+    },
+    {
+      "dtime": 1289000,
+      "ptime": 1289000,
+      "author": "sftcd",
+      "text": "@sam: that's fair<br/>"
+    },
+    {
+      "dtime": 1330000,
+      "ptime": 1330000,
+      "author": "francesca",
+      "text": "Ted's comments: <a href=\"https://mailarchive.ietf.org/arch/msg/dispatch/rZ_XuFSJtymzIGIXakhvj_bOVF4/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/msg/dispatch/rZ_XuFSJtymzIGIXakhvj_bOVF4/</a><br/>"
+    },
+    {
+      "dtime": 1338000,
+      "ptime": 1338000,
+      "author": "Justin Richer",
+      "text": "I didn't think we were allowed to say EKR's True Name aloud ...<br/>"
+    },
+    {
+      "dtime": 1340000,
+      "ptime": 1340000,
+      "author": "Kirsty Paine",
+      "text": "Here are Ted's comments: <a href=\"https://mailarchive.ietf.org/arch/msg/dispatch/rZ_XuFSJtymzIGIXakhvj_bOVF4/\" rel=\"nofollow\">https://mailarchive.ietf.org/arch/msg/dispatch/rZ_XuFSJtymzIGIXakhvj_bOVF4/</a><br/>"
+    },
+    {
+      "dtime": 1345000,
+      "ptime": 1345000,
+      "author": "Wendy Seltzer",
+      "text": "do we need a wg to standardize queuing protocols?<br/>"
+    },
+    {
+      "dtime": 1359000,
+      "ptime": 1359000,
+      "author": "Leif Johansson",
+      "text": "offs<br/>"
+    },
+    {
+      "dtime": 1367000,
+      "ptime": 1367000,
+      "author": "Leif Johansson",
+      "text": "(sorry)<br/>"
+    },
+    {
+      "dtime": 1372000,
+      "ptime": 1372000,
+      "author": "Justin Richer",
+      "text": "SAML does not do this...<br/>"
+    },
+    {
+      "dtime": 1385000,
+      "ptime": 1385000,
+      "author": "Justin Richer",
+      "text": "+1 leif<br/>"
+    },
+    {
+      "dtime": 1393000,
+      "ptime": 1393000,
+      "author": "Rich Salz",
+      "text": "+1 leif<br/>"
+    },
+    {
+      "dtime": 1432000,
+      "ptime": 1432000,
+      "author": "John Klensin",
+      "text": "Is this presentation also being given in the Security Area?<br/>"
+    },
+    {
+      "dtime": 1435000,
+      "ptime": 1435000,
+      "author": "Robert Sparks",
+      "text": "I don't know if this is the best use of time?<br/>"
+    },
+    {
+      "dtime": 1440000,
+      "ptime": 1440000,
+      "author": "Richard Barnes",
+      "text": "@PHB this is a totally different use case than SAML<br/>"
+    },
+    {
+      "dtime": 1465000,
+      "ptime": 1465000,
+      "author": "Leif Johansson",
+      "text": "I suspect any 3rd party delegation system can be implemented using saml<br/>"
+    },
+    {
+      "dtime": 1486000,
+      "ptime": 1486000,
+      "author": "Jeffrey Yasskin",
+      "text": "The problem statement seems to be that some credentials are too big to send across existing P2P secure channels (e.g. 500 bytes), whereas a credential ID + secret is small enough?<br/>"
+    },
+    {
+      "dtime": 1488000,
+      "ptime": 1488000,
+      "author": "Rich Salz",
+      "text": "@JCK: No this is note on the secdispatch agenda<br/>"
+    },
+    {
+      "dtime": 1489000,
+      "ptime": 1489000,
+      "author": "francesca",
+      "text": "@John don't think so, but I did suggest it to the SEC ADs (assuming that the community agrees that that's a good idea)<br/>"
+    },
+    {
+      "dtime": 1491000,
+      "ptime": 1491000,
+      "author": "Leif Johansson",
+      "text": "but it may not be the most practical way to go about it<br/>"
+    },
+    {
+      "dtime": 1497000,
+      "ptime": 1497000,
+      "author": "Richard Barnes",
+      "text": "@Leif <a href=\"https://xkcd.com/378/\" rel=\"nofollow\">https://xkcd.com/378/</a><br/>"
+    },
+    {
+      "dtime": 1511000,
+      "ptime": 1511000,
+      "author": "Pete Resnick",
+      "text": "Having some device problems. If someone would mic: Are you OK if the IETF tears up what you've done and (for example) changes the architecture?<br/>"
+    },
+    {
+      "dtime": 1519000,
+      "ptime": 1519000,
+      "author": "Richard Barnes",
+      "text": "@JCK this was not submitted to SECDISPATCH, but i'm not sure it needs to be<br/>"
+    },
+    {
+      "dtime": 1558000,
+      "ptime": 1558000,
+      "author": "Rich Salz",
+      "text": "got it pete<br/>"
+    },
+    {
+      "dtime": 1564000,
+      "ptime": 1564000,
+      "author": "Pete Resnick",
+      "text": "thx<br/>"
+    },
+    {
+      "dtime": 1569000,
+      "ptime": 1569000,
+      "author": "Phillip Hallam-Baker",
+      "text": "@richard different to what SAML is used for. Not different from what I designed it to do.<br/>"
+    },
+    {
+      "dtime": 1586000,
+      "ptime": 1586000,
+      "author": "Phillip Hallam-Baker",
+      "text": "@richard this was one of the use cases I considered<br/>"
+    },
+    {
+      "dtime": 1597000,
+      "ptime": 1597000,
+      "author": "Leif Johansson",
+      "text": "@richard yeah - everything is about revolting against your fathers data description language<br/>"
+    },
+    {
+      "dtime": 1648000,
+      "ptime": 1648000,
+      "author": "Leif Johansson",
+      "text": "speaking of which - isn't it time for somebody to re-invent a simple text-based format now that CBOR is main-stream<br/>"
+    },
+    {
+      "dtime": 1671000,
+      "ptime": 1671000,
+      "author": "Phillip Hallam-Baker",
+      "text": "@samuel, if we do a BOF we end up redoing Authentication and Authorization<br/>"
+    },
+    {
+      "dtime": 1681000,
+      "ptime": 1681000,
+      "author": "Justin Richer",
+      "text": "@leif sure! Want to co-author? :P<br/>"
+    },
+    {
+      "dtime": 1711000,
+      "ptime": 1711000,
+      "author": "Leif Johansson",
+      "text": "oh ffs (part 2)<br/>"
+    },
+    {
+      "dtime": 1783000,
+      "ptime": 1783000,
+      "author": "sftcd",
+      "text": "leif is starting to expand offs - is that a bad sign? :-)<br/>"
+    },
+    {
+      "dtime": 1806000,
+      "ptime": 1806000,
+      "author": "Samuel Weiler",
+      "text": "This assumption of a CA is such a different model than I'm expecting.&nbsp;&nbsp;why are we trusting a 3rd party here?<br/>"
+    },
+    {
+      "dtime": 1830000,
+      "ptime": 1830000,
+      "author": "Leif Johansson",
+      "text": "@sam +1<br/>"
+    },
+    {
+      "dtime": 1833000,
+      "ptime": 1833000,
+      "author": "Bron Gondwana",
+      "text": "Why not just store the credentials in the Credential Authority and have the Receiver fetch them via a boring protocol?<br/>"
+    },
+    {
+      "dtime": 1840000,
+      "ptime": 1840000,
+      "author": "sftcd",
+      "text": "@sam: part of the sorta-closed-OS model maybe?<br/>"
+    },
+    {
+      "dtime": 1841000,
+      "ptime": 1841000,
+      "author": "Justin Richer",
+      "text": "@leif: We'll call it the new markup language \"Open Free Form Strings\"<br/>"
+    },
+    {
+      "dtime": 1859000,
+      "ptime": 1859000,
+      "author": "Jeffrey Yasskin",
+      "text": "@sam: Only way to revoke a credential. The CA might be the physical car or house you're granting access to.<br/>"
+    },
+    {
+      "dtime": 1903000,
+      "ptime": 1903000,
+      "author": "Timothy Panton",
+      "text": "I thing the CA is serving as a proxy for the actual device (the car/doorlock) which is assumed to be offline or some other way not directly reachable.<br/>"
+    },
+    {
+      "dtime": 1931000,
+      "ptime": 1931000,
+      "author": "Leif Johansson",
+      "text": "in the cryptech project we would have basil pop up and periodically say \"security theater\" (in a russian accent) just to keep the rest of us honest<br/>"
+    },
+    {
+      "dtime": 1965000,
+      "ptime": 1965000,
+      "author": "Samuel Weiler",
+      "text": "leif++ for inspiring a laugh at this hour<br/>"
+    },
+    {
+      "dtime": 1976000,
+      "ptime": 1976000,
+      "author": "sftcd",
+      "text": "doesn't it seem a tad scary to engineer all sorts of clever credential handling but to then allow bearer tokens control passing those creds from A to B?<br/>"
+    },
+    {
+      "dtime": 1993000,
+      "ptime": 1993000,
+      "author": "Samuel Weiler",
+      "text": "sftcd: +1<br/>"
+    },
+    {
+      "dtime": 2027000,
+      "ptime": 2027000,
+      "author": "Phillip Hallam-Baker",
+      "text": "An artifact popped up in SAML... so we could shoehorn the authentication statement through the browser interaction<br/>"
+    },
+    {
+      "dtime": 2059000,
+      "ptime": 2059000,
+      "author": "Jeffrey Yasskin",
+      "text": "Just finish standardizing The Directory (<a href=\"https://securitycryptographywhatever.buzzsprout.com/1822302/9146390-how-to-be-a-certificate-authority-feat-ryan-sleevi\" rel=\"nofollow\">https://securitycryptographywhatever.buzzsprout.com/1822302/9146390-how-to-be-a-certificate-authority-feat-ryan-sleevi</a>)<br/>"
+    },
+    {
+      "dtime": 2097000,
+      "ptime": 2097000,
+      "author": "sftcd",
+      "text": "while we're here: I'd also prefer that only someone I've selected (which'd not be a handset manuf nor google nor apple) would know when/if I want my car driven by a valet at a hotel<br/>"
+    },
+    {
+      "dtime": 2164000,
+      "ptime": 2164000,
+      "author": "Leif Johansson",
+      "text": "@ekr +1<br/>"
+    },
+    {
+      "dtime": 2167000,
+      "ptime": 2167000,
+      "author": "Jeffrey Yasskin",
+      "text": "+1 ekr<br/>"
+    },
+    {
+      "dtime": 2190000,
+      "ptime": 2190000,
+      "author": "Phillip Hallam-Baker",
+      "text": "+1 EKR<br/>"
+    },
+    {
+      "dtime": 2195000,
+      "ptime": 2195000,
+      "author": "Bron Gondwana",
+      "text": "you could have 5a \"regular protocol to vendor device proxy\" which converted from this to each vendor's magix format<br/>"
+    },
+    {
+      "dtime": 2208000,
+      "ptime": 2208000,
+      "author": "Eric Rescorla",
+      "text": "So I think to recap my point: let's see a document that describes the setting/constraints, then we can have a BOF<br/>"
+    },
+    {
+      "dtime": 2215000,
+      "ptime": 2215000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Ha! No, it will not be a 'small working group'<br/>"
+    },
+    {
+      "dtime": 2216000,
+      "ptime": 2216000,
+      "author": "Leif Johansson",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 2290000,
+      "ptime": 2290000,
+      "author": "mnot",
+      "text": "wafer thin.<br/>"
+    },
+    {
+      "dtime": 2302000,
+      "ptime": 2302000,
+      "author": "Eric Rescorla",
+      "text": "I would note that it actually *is* possible to establish this over an insecure channel (PAKEs, etc.)<br/>"
+    },
+    {
+      "dtime": 2307000,
+      "ptime": 2307000,
+      "author": "Andrew Campling",
+      "text": "A BOF before deciding whether to move to a WG seems like a reasonable next step <br/>"
+    },
+    {
+      "dtime": 2309000,
+      "ptime": 2309000,
+      "author": "Leif Johansson",
+      "text": "I think you can probably make the&nbsp;&nbsp;argument that you can map this set of reqs on a number of protocols&nbsp;&nbsp;from OASIS and the IETF. This eather means the req is totally new and needs to be articulated *or* nobody ever reads specs to avoid inventing the wheel.<br/>"
+    },
+    {
+      "dtime": 2332000,
+      "ptime": 2332000,
+      "author": "Samuel Weiler",
+      "text": "richard: which looks like part of the device loss/migration/discovery answer, eh?<br/>"
+    },
+    {
+      "dtime": 2334000,
+      "ptime": 2334000,
+      "author": "francesca",
+      "text": "If people do think this should make an appearance in Secdispatch, please speak up (in jabber is fine since queue is closed). Also I've heard wg/bof, would that be ART, SEC, a mix?<br/>"
+    },
+    {
+      "dtime": 2334000,
+      "ptime": 2334000,
+      "author": "sftcd",
+      "text": "PAKE schmake :-)<br/>"
+    },
+    {
+      "dtime": 2336000,
+      "ptime": 2336000,
+      "author": "Phillip Hallam-Baker",
+      "text": "+1 Leif<br/>"
+    },
+    {
+      "dtime": 2349000,
+      "ptime": 2349000,
+      "author": "Jeffrey Yasskin",
+      "text": "Sync requires anti-abuse, but this probably does too.<br/>"
+    },
+    {
+      "dtime": 2415000,
+      "ptime": 2415000,
+      "author": "John Klensin",
+      "text": "Thanks @Richard.&nbsp;&nbsp;Seems to me from the discussion so far that there are two groups of issues here.&nbsp;&nbsp;One is use cases, user experience, which probably belongs here.&nbsp;&nbsp;The other is a collection of security issues including credential management and authorization/ authentication issues.&nbsp;&nbsp;Can we dispatch to SECDISPATCH as a next step?<br/>"
+    },
+    {
+      "dtime": 2417000,
+      "ptime": 2417000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Why is the OS involved at all?<br/>"
+    },
+    {
+      "dtime": 2438000,
+      "ptime": 2438000,
+      "author": "David Lawrence",
+      "text": "+1 to secdis<br/>"
+    },
+    {
+      "dtime": 2441000,
+      "ptime": 2441000,
+      "author": "Eric Rescorla",
+      "text": "I don't think it should should go to SECDISPATCH<br/>"
+    },
+    {
+      "dtime": 2443000,
+      "ptime": 2443000,
+      "author": "Samuel Weiler",
+      "text": "francesca: SEC.&nbsp;&nbsp;secdispatch: don't care.<br/>"
+    },
+    {
+      "dtime": 2447000,
+      "ptime": 2447000,
+      "author": "Eric Rescorla",
+      "text": "The answer will not be that different<br/>"
+    },
+    {
+      "dtime": 2462000,
+      "ptime": 2462000,
+      "author": "Jeffrey Yasskin",
+      "text": "@Phillip: The native wallet apps might be involved in actually using the credentials.<br/>"
+    },
+    {
+      "dtime": 2469000,
+      "ptime": 2469000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Apple and Google deciding to channel this application through their own proprietary systems doth not an open standard make<br/>"
+    },
+    {
+      "dtime": 2481000,
+      "ptime": 2481000,
+      "author": "Brian Rosen",
+      "text": "We need to get this guy an IETFer to help him<br/>"
+    },
+    {
+      "dtime": 2484000,
+      "ptime": 2484000,
+      "author": "Justin Richer",
+      "text": "EKR's right. I think this is definitely SEC area but SECDISPATCH is going to have the same response. (From many of the same participants, I would gather.)<br/>"
+    },
+    {
+      "dtime": 2486000,
+      "ptime": 2486000,
+      "author": "Samuel Weiler",
+      "text": "+1 EKR.&nbsp;&nbsp;If they wanted to try secdispatch once they had the requirements cooked a little more, maybe.&nbsp;&nbsp;But no point doing it with this.<br/>"
+    },
+    {
+      "dtime": 2488000,
+      "ptime": 2488000,
+      "author": "sftcd",
+      "text": "wrt secdispatch: not really needed IMO (enough relevant folks here too) but if the TZ friendliness of that slot differs then maybe no harm<br/>"
+    },
+    {
+      "dtime": 2491000,
+      "ptime": 2491000,
+      "author": "Jeffrey Yasskin",
+      "text": "+1 Brian<br/>"
+    },
+    {
+      "dtime": 2503000,
+      "ptime": 2503000,
+      "author": "Wendy Seltzer",
+      "text": "and knowing that you're being asked to share a key rather than a funny pic...<br/>"
+    },
+    {
+      "dtime": 2507000,
+      "ptime": 2507000,
+      "author": "Andrew Campling",
+      "text": "Wont dispatching to, say, Secdispatch simply lead to a repeat of this discussion?<br/>"
+    },
+    {
+      "dtime": 2516000,
+      "ptime": 2516000,
+      "author": "Leif Johansson",
+      "text": "pictures are different from creds - if somebody does a screenshot of your photo nobody gets locked out of your hotel room<br/>"
+    },
+    {
+      "dtime": 2523000,
+      "ptime": 2523000,
+      "author": "francesca",
+      "text": "ok, thanks. I was just thinking to increase awareness of this work rather than re-dispatching?<br/>"
+    },
+    {
+      "dtime": 2523000,
+      "ptime": 2523000,
+      "author": "Bron Gondwana",
+      "text": "revoke the credential is basically \"replace the credential, including your own copy\"<br/>"
+    },
+    {
+      "dtime": 2523000,
+      "ptime": 2523000,
+      "author": "Leif Johansson",
+      "text": "(typically)<br/>"
+    },
+    {
+      "dtime": 2538000,
+      "ptime": 2538000,
+      "author": "Bron Gondwana",
+      "text": "aka: get a new one from the OEM<br/>"
+    },
+    {
+      "dtime": 2539000,
+      "ptime": 2539000,
+      "author": "francesca",
+      "text": "(for people who didn't make this session)<br/>"
+    },
+    {
+      "dtime": 2544000,
+      "ptime": 2544000,
+      "author": "David Lawrence",
+      "text": "good points, and i rescind my +1<br/>"
+    },
+    {
+      "dtime": 2549000,
+      "ptime": 2549000,
+      "author": "John Klensin",
+      "text": "@ekr: That wouldn't surprise me.&nbsp;&nbsp;But they should at least be aware of it.&nbsp;&nbsp;And a repeat of the discussion with a different cast of characters / perspectives feels useful to me.<br/>"
+    },
+    {
+      "dtime": 2553000,
+      "ptime": 2553000,
+      "author": "Leif Johansson",
+      "text": "@bron +1<br/>"
+    },
+    {
+      "dtime": 2564000,
+      "ptime": 2564000,
+      "author": "sftcd",
+      "text": "ultrasound eh, nice way to freak out smart speakers:-)<br/>"
+    },
+    {
+      "dtime": 2587000,
+      "ptime": 2587000,
+      "author": "Phillip Hallam-Baker",
+      "text": "This is not 'moving credentials'. It is generating an authorization on one device to grant a permission for another device which has some means of authenticating.<br/>"
+    },
+    {
+      "dtime": 2589000,
+      "ptime": 2589000,
+      "author": "Bron Gondwana",
+      "text": "so revoking is bad language, it's REPLACE<br/>"
+    },
+    {
+      "dtime": 2594000,
+      "ptime": 2594000,
+      "author": "Phillip Hallam-Baker",
+      "text": "Credentials are not moving<br/>"
+    },
+    {
+      "dtime": 2600000,
+      "ptime": 2600000,
+      "author": "Justin Richer",
+      "text": "I don't even believe that transferring credentials is the right solution, it's delegating authorization between parties.<br/>"
+    },
+    {
+      "dtime": 2610000,
+      "ptime": 2610000,
+      "author": "Phillip Hallam-Baker",
+      "text": "+1 Justin<br/>"
+    },
+    {
+      "dtime": 2615000,
+      "ptime": 2615000,
+      "author": "Samuel Weiler",
+      "text": "Justin: when you have a hammer?&nbsp;&nbsp;:-)<br/>"
+    },
+    {
+      "dtime": 2617000,
+      "ptime": 2617000,
+      "author": "Bron Gondwana",
+      "text": "+1 Justin<br/>"
+    },
+    {
+      "dtime": 2618000,
+      "ptime": 2618000,
+      "author": "Leif Johansson",
+      "text": "@justin don't we have protocols for that?<br/>"
+    },
+    {
+      "dtime": 2619000,
+      "ptime": 2619000,
+      "author": "Justin Richer",
+      "text": "There are a ton of ways to do this -- UMA, GNAP, ZCAP, etc...<br/>"
+    },
+    {
+      "dtime": 2634000,
+      "ptime": 2634000,
+      "author": "Justin Richer",
+      "text": "the drugs + delivery metaphor is apt here, I like this<br/>"
+    },
+    {
+      "dtime": 2645000,
+      "ptime": 2645000,
+      "author": "Bron Gondwana",
+      "text": "since this whole process requires an OEM server and a credential server who understand it<br/>"
+    },
+    {
+      "dtime": 2658000,
+      "ptime": 2658000,
+      "author": "Richard Barnes",
+      "text": "@Justin this is not an authz problem, it's about sharing actual secret things (?)<br/>"
+    },
+    {
+      "dtime": 2675000,
+      "ptime": 2675000,
+      "author": "Richard Barnes",
+      "text": "in particular, things that need to be known only to the sender/receiver<br/>"
+    },
+    {
+      "dtime": 2683000,
+      "ptime": 2683000,
+      "author": "sftcd",
+      "text": "credentials could well be moving I think and delegation would not be enough - people do migrate from old to new device for example (and of course casting this as a delegation problem would mean we'd make no progress despite much effort;-)<br/>"
+    },
+    {
+      "dtime": 2693000,
+      "ptime": 2693000,
+      "author": "Justin Richer",
+      "text": "@Richard that's not the problem that's being solved, per draft and presentation. The goal is to get entitlements and capabilities, not necessarily credentials.<br/>"
+    },
+    {
+      "dtime": 2707000,
+      "ptime": 2707000,
+      "author": "Samuel Weiler",
+      "text": "and where's my solution for my HW-backed credential store that doesn't have a backdoor for extracting the keying material?<br/>"
+    },
+    {
+      "dtime": 2709000,
+      "ptime": 2709000,
+      "author": "Jeffrey Yasskin",
+      "text": "There's work to standardize some of the Wallet things, for example using the ISO 18013-5 standard.<br/>"
+    },
+    {
+      "dtime": 2724000,
+      "ptime": 2724000,
+      "author": "Leif Johansson",
+      "text": "@richard - its probably easier and better for the valet to have their own temp key to my car rather than to share mine<br/>"
+    },
+    {
+      "dtime": 2732000,
+      "ptime": 2732000,
+      "author": "Richard Barnes",
+      "text": "@Justin i might be misunderstanding.&nbsp;&nbsp;but that's what *I* want out of this :)<br/>"
+    },
+    {
+      "dtime": 2764000,
+      "ptime": 2764000,
+      "author": "Richard Barnes",
+      "text": "@Leif - See the photo analogy; once i've handed someone a photo, they have it irrevocably<br/>"
+    },
+    {
+      "dtime": 2767000,
+      "ptime": 2767000,
+      "author": "Justin Richer",
+      "text": "@Richard I think you're right as for what mechanisms are talked about here<br/>"
+    },
+    {
+      "dtime": 2773000,
+      "ptime": 2773000,
+      "author": "Bron Gondwana",
+      "text": "Leif: no, it needs to be the functional programming way.&nbsp;&nbsp;When you remove their key, just fork the world from before you gave it to them<br/>"
+    },
+    {
+      "dtime": 2807000,
+      "ptime": 2807000,
+      "author": "Justin Richer",
+      "text": "@Bron what I'm talking about is not giving you a key but letting you use your car keys to drive my car for a few minutes and not more than a block away, etc.<br/>"
+    },
+    {
+      "dtime": 2812000,
+      "ptime": 2812000,
+      "author": "Pete Resnick",
+      "text": "+1 on the BOF, depending on the answer to my question.<br/>"
+    },
+    {
+      "dtime": 2828000,
+      "ptime": 2828000,
+      "author": "Bron Gondwana",
+      "text": "@Justin yeah, totally - I'm making a joke sorry<br/>"
+    },
+    {
+      "dtime": 2833000,
+      "ptime": 2833000,
+      "author": "sftcd",
+      "text": "if we met f2f a BoF could be an ok outcome, without f2f I suspect we may as well setup a WG chartered to first try agree requirements details<br/>"
+    },
+    {
+      "dtime": 2833000,
+      "ptime": 2833000,
+      "author": "Richard Barnes",
+      "text": "@Cullen - Scope creep!&nbsp;&nbsp;Make a general sync/send thingy, then push the drugs through it<br/>"
+    },
+    {
+      "dtime": 2843000,
+      "ptime": 2843000,
+      "author": "Bron Gondwana",
+      "text": "this seems to be a way to hand over a copy of your actual key<br/>"
+    },
+    {
+      "dtime": 2847000,
+      "ptime": 2847000,
+      "author": "Justin Richer",
+      "text": "@Bron ah, chat humor<br/>"
+    },
+    {
+      "dtime": 2850000,
+      "ptime": 2850000,
+      "author": "Richard Barnes",
+      "text": "@sftcd - Virtual BoF!<br/>"
+    },
+    {
+      "dtime": 2854000,
+      "ptime": 2854000,
+      "author": "Bron Gondwana",
+      "text": "sorry, it's midnight here<br/>"
+    },
+    {
+      "dtime": 2871000,
+      "ptime": 2871000,
+      "author": "Eric Rescorla",
+      "text": "Sorry, I had to move to MASQUE<br/>"
+    },
+    {
+      "dtime": 2872000,
+      "ptime": 2872000,
+      "author": "sftcd",
+      "text": "@rlb: same thing really:-)<br/>"
+    },
+    {
+      "dtime": 2876000,
+      "ptime": 2876000,
+      "author": "Justin Richer",
+      "text": "@Bron no worry it's not yet 8am here, the translation is hard :)<br/>"
+    },
+    {
+      "dtime": 2890000,
+      "ptime": 2890000,
+      "author": "Richard Barnes",
+      "text": "@sftcd - not the same, in the sense that a WG represents a commitment to do something<br/>"
+    },
+    {
+      "dtime": 2918000,
+      "ptime": 2918000,
+      "author": "Richard Barnes",
+      "text": "totally agree we shouldn't lock to IETF meeting cadence tho<br/>"
+    },
+    {
+      "dtime": 2923000,
+      "ptime": 2923000,
+      "author": "sftcd",
+      "text": "mebbe, I guess<br/>"
+    },
+    {
+      "dtime": 2957000,
+      "ptime": 2957000,
+      "author": "Timothy Panton",
+      "text": "I think that if we explicitly see Sender and Receiver as proxies for the device<br/>"
+    },
+    {
+      "dtime": 2957000,
+      "ptime": 2957000,
+      "author": "Leif Johansson",
+      "text": "@richard my point exactly<br/>"
+    },
+    {
+      "dtime": 2988000,
+      "ptime": 2988000,
+      "author": "Phillip Hallam-Baker",
+      "text": "We need to start off by working out what the correct terminology. I think this only looks new because we are calling an authorization assertion and an authentication assertion a 'credential' <br/>"
+    },
+    {
+      "dtime": 2993000,
+      "ptime": 2993000,
+      "author": "Timothy Panton",
+      "text": "things are a bit clearer<br/>"
+    },
+    {
+      "dtime": 3004000,
+      "ptime": 3004000,
+      "author": "Rich Salz",
+      "text": "ouch.&nbsp;&nbsp;bad answer.<br/>"
+    },
+    {
+      "dtime": 3033000,
+      "ptime": 3033000,
+      "author": "Richard Barnes",
+      "text": "@Rich @Pete bad question -- obviously if the arch changes enough, it becomes useless for solving their problem<br/>"
+    },
+    {
+      "dtime": 3053000,
+      "ptime": 3053000,
+      "author": "Rich Salz",
+      "text": "no.&nbsp;&nbsp;it might solve, for example, cullen's problem.<br/>"
+    },
+    {
+      "dtime": 3063000,
+      "ptime": 3063000,
+      "author": "Cullen Jennings",
+      "text": "100% agree with is answer. If the IETF can do something useful great, if IETF publishes something useless, it will never deploy<br/>"
+    },
+    {
+      "dtime": 3070000,
+      "ptime": 3070000,
+      "author": "Pete Resnick",
+      "text": "\"Committed to the process\" is probably sufficient.<br/>"
+    },
+    {
+      "dtime": 3130000,
+      "ptime": 3130000,
+      "author": "Pete Resnick",
+      "text": "Once the requirements become clear, then we'll be able to build something.<br/>"
+    },
+    {
+      "dtime": 3132000,
+      "ptime": 3132000,
+      "author": "sftcd",
+      "text": "I think the question for the proponents is \"would they keep working on it in an IETF context if the outcome doesn't give then a special role (due to the mobile OS duopoly)\" - someone could probably frame that in a nicer way though<br/>"
+    },
+    {
+      "dtime": 3250000,
+      "ptime": 3250000,
+      "author": "Pete Resnick",
+      "text": "To repeat something I said to Richard privately: I thought the answer would be utter mush if I made the question softer. I thought the answer was reasonable.<br/>"
+    },
+    {
+      "dtime": 3259000,
+      "ptime": 3259000,
+      "author": "Cullen Jennings",
+      "text": "Just a reality check, IETF has never done something this large in 1 or 2 year.<br/>"
+    },
+    {
+      "dtime": 3288000,
+      "ptime": 3288000,
+      "author": "Jeffrey Yasskin",
+      "text": "All progress depends on overoptimistic estimates. :)<br/>"
+    },
+    {
+      "dtime": 3297000,
+      "ptime": 3297000,
+      "author": "sftcd",
+      "text": "wait, what? I'm sure I recall someone telling me webrtc absolutely had to be done in a year ;-)<br/>"
+    },
+    {
+      "dtime": 3311000,
+      "ptime": 3311000,
+      "author": "Samuel Weiler",
+      "text": "+1 to cullen<br/>"
+    },
+    {
+      "dtime": 3313000,
+      "ptime": 3313000,
+      "author": "Pete Resnick",
+      "text": "@Cullen: Semi-implementable I-Ds should appear in a year or two.<br/>"
+    },
+    {
+      "dtime": 3359000,
+      "ptime": 3359000,
+      "author": "Pete Resnick",
+      "text": "Hardware? Is that the thing that runs our code?<br/>"
+    },
+    {
+      "dtime": 3610000,
+      "ptime": 3610000,
+      "author": "Cullen Jennings",
+      "text": "@pete - true<br/>"
+    },
+    {
+      "dtime": 3622000,
+      "ptime": 3622000,
+      "author": "Justin Richer",
+      "text": "SCIM - Some Kind of Identity, Maybe?<br/>"
+    },
+    {
+      "dtime": 3684000,
+      "ptime": 3684000,
+      "author": "Murray Kucherawy",
+      "text": "+1<br/>"
+    },
+    {
+      "dtime": 3698000,
+      "ptime": 3698000,
+      "author": "Richard Barnes",
+      "text": "i think it started as Simple Cloud Identity Management, but then got de-buzzword-ified<br/>"
+    },
+    {
+      "dtime": 3776000,
+      "ptime": 3776000,
+      "author": "Murray Kucherawy",
+      "text": "I didn't know about the \"cloud\" connection, interesting<br/>"
+    },
+    {
+      "dtime": 3795000,
+      "ptime": 3795000,
+      "author": "Pete Resnick",
+      "text": "We couldn't come up with another \"C\" word to replace it.<br/>"
+    },
+    {
+      "dtime": 3816000,
+      "ptime": 3816000,
+      "author": "Spencer Dawkins",
+      "text": "speaking of side meetings ...<br/>"
+    },
+    {
+      "dtime": 3819000,
+      "ptime": 3819000,
+      "author": "Pete Resnick",
+      "text": "And I think we made fun of them for \"Simple\". ;-)<br/>"
+    },
+    {
+      "dtime": 3826000,
+      "ptime": 3826000,
+      "author": "Barry Leiba",
+      "text": "System for Cross-domain Identity Management<br/>"
+    },
+    {
+      "dtime": 3835000,
+      "ptime": 3835000,
+      "author": "Murray Kucherawy",
+      "text": "Pete: (was Re: email)<br/>"
+    },
+    {
+      "dtime": 3835000,
+      "ptime": 3835000,
+      "author": "Pete Resnick",
+      "text": "Ah, well-done.<br/>"
+    },
+    {
+      "dtime": 3861000,
+      "ptime": 3861000,
+      "author": "francesca",
+      "text": "Internationalization! :D<br/>"
+    },
+    {
+      "dtime": 3867000,
+      "ptime": 3867000,
+      "author": "Pete Resnick",
+      "text": "i18n<br/>"
+    },
+    {
+      "dtime": 3869000,
+      "ptime": 3869000,
+      "author": "Wendy Seltzer",
+      "text": "that's why we call it i18n<br/>"
+    },
+    {
+      "dtime": 3883000,
+      "ptime": 3883000,
+      "author": "Kirsty Paine",
+      "text": "it's too early/late/something about time zones :)<br/>"
+    },
+    {
+      "dtime": 3909000,
+      "ptime": 3909000,
+      "author": "Bron Gondwana",
+      "text": "@Kirsty it's the middle of the day for you... some excuse<br/>"
+    },
+    {
+      "dtime": 3936000,
+      "ptime": 3936000,
+      "author": "Pete Resnick",
+      "text": "\"It does\" overstates the case. \"It is meant to\". I've got one in my queue for a week now.<br/>"
+    },
+    {
+      "dtime": 3957000,
+      "ptime": 3957000,
+      "author": "francesca",
+      "text": "I believe I sent it to you directly Pete :)<br/>"
+    },
+    {
+      "dtime": 3972000,
+      "ptime": 3972000,
+      "author": "Pete Resnick",
+      "text": "But yes, if I get into a habit of getting more of them, I will be more regular about getting them done.<br/>"
+    },
+    {
+      "dtime": 3983000,
+      "ptime": 3983000,
+      "author": "Kirsty Paine",
+      "text": "#busted<br/>"
+    },
+    {
+      "dtime": 3989000,
+      "ptime": 3989000,
+      "author": "Pete Resnick",
+      "text": ";)<br/>"
+    },
+    {
+      "dtime": 3991000,
+      "ptime": 3991000,
+      "author": "Robert Sparks",
+      "text": "@barry - the trick is noticing when such a document _needs_ to say something, but is silent<br/>"
+    },
+    {
+      "dtime": 4009000,
+      "ptime": 4009000,
+      "author": "Murray Kucherawy",
+      "text": "+1 @Robert<br/>"
+    },
+    {
+      "dtime": 4041000,
+      "ptime": 4041000,
+      "author": "Spencer Dawkins",
+      "text": "+several on Robert<br/>"
+    },
+    {
+      "dtime": 4051000,
+      "ptime": 4051000,
+      "author": "Pete Resnick",
+      "text": "@Robert: We used to have a list of things to look for that might trigger apps issues in general. We can work on getting that firmed up for i18n.<br/>"
+    },
+    {
+      "dtime": 4105000,
+      "ptime": 4105000,
+      "author": "Spencer Dawkins",
+      "text": "+1 Pete. That would be very helpful.<br/>"
+    },
+    {
+      "dtime": 4156000,
+      "ptime": 4156000,
+      "author": "Pete Resnick",
+      "text": "And that's really a \"triage\" kind of thing to identify potential issues, not necessarily a \"how to fix them\". That's what the directorate is (in part) meant to deal with.<br/>"
+    },
+    {
+      "dtime": 4197000,
+      "ptime": 4197000,
+      "author": "francesca",
+      "text": "Thanks Barry and John for this update and summary!<br/>"
+    },
+    {
+      "dtime": 4222000,
+      "ptime": 4222000,
+      "author": "Phillip Hallam-Baker",
+      "text": "You can write C@ with variable names using dingbats.<br/>"
+    },
+    {
+      "dtime": 4257000,
+      "ptime": 4257000,
+      "author": "francesca",
+      "text": "side meetings link as promised: <a href=\"https://trac.ietf.org/trac/ietf/meeting/wiki/112sidemeetings\" rel=\"nofollow\">https://trac.ietf.org/trac/ietf/meeting/wiki/112sidemeetings</a><br/>"
+    },
+    {
+      "dtime": 4327000,
+      "ptime": 4327000,
+      "author": "John Klensin",
+      "text": "Barry and I should have added that, if anyone has expertise in the i18n area and who is not already involved in the directorate/ review activities, we would love to hear from you (Barry and/or Pete are the best contact points)<br/>"
+    },
+    {
+      "dtime": 4377000,
+      "ptime": 4377000,
+      "author": "Pete Resnick",
+      "text": "@phb: People tend to type in their code and compile it on a single platform.<br/>"
+    },
+    {
+      "dtime": 4453000,
+      "ptime": 4453000,
+      "author": "Phillip Hallam-Baker",
+      "text": "@pete: Its pretty hard to type in Dingbats no matter what your platform.<br/>"
+    },
+    {
+      "dtime": 4507000,
+      "ptime": 4507000,
+      "author": "Pete Resnick",
+      "text": "Seems like a reasonable summary to me.<br/>"
+    },
+    {
+      "dtime": 4526000,
+      "ptime": 4526000,
+      "author": "Richard Barnes",
+      "text": "Sorry, what's the technology we're talking about here?<br/>"
+    },
+    {
+      "dtime": 4543000,
+      "ptime": 4543000,
+      "author": "Richard Barnes",
+      "text": "Are we back on the Credential transport draft?<br/>"
+    },
+    {
+      "dtime": 4550000,
+      "ptime": 4550000,
+      "author": "Pete Resnick",
+      "text": "@rlb: yep<br/>"
+    },
+    {
+      "dtime": 4562000,
+      "ptime": 4562000,
+      "author": "Richard Barnes",
+      "text": "Thanks.&nbsp;&nbsp;Multitasking :)<br/>"
+    },
+    {
+      "dtime": 4565000,
+      "ptime": 4565000,
+      "author": "francesca",
+      "text": "we're at the chairs summary :)<br/>"
+    },
+    {
+      "dtime": 4568000,
+      "ptime": 4568000,
+      "author": "Murray Kucherawy",
+      "text": "The \"dispatch\" question about the credential draft.<br/>"
+    },
+    {
+      "dtime": 4624000,
+      "ptime": 4624000,
+      "author": "Richard Barnes",
+      "text": "FWIW, I do *not* think this belongs in SEC<br/>"
+    },
+    {
+      "dtime": 4647000,
+      "ptime": 4647000,
+      "author": "francesca",
+      "text": "No? Can you expand @Richard?<br/>"
+    },
+    {
+      "dtime": 4667000,
+      "ptime": 4667000,
+      "author": "Harald Alvestrand",
+      "text": "I did see a real comment go by about a security bug having been introduced by someone (accidentally) holding down the alt-gr key while typing an \"e\" - it generated a Cyrillic \"e\" that is nearly indistinguishable from the ASCII thing.<br/>"
+    },
+    {
+      "dtime": 4673000,
+      "ptime": 4673000,
+      "author": "Rich Salz",
+      "text": "FYI Richard is secdispatch co-chair<br/>"
+    },
+    {
+      "dtime": 4678000,
+      "ptime": 4678000,
+      "author": "Mary Barnes",
+      "text": "I agree with Richard.<br/>"
+    },
+    {
+      "dtime": 4693000,
+      "ptime": 4693000,
+      "author": "Pete Resnick",
+      "text": "I tend to agree with Richard: There's less hard security work than there is hard app work.<br/>"
+    },
+    {
+      "dtime": 4702000,
+      "ptime": 4702000,
+      "author": "Andrew Campling",
+      "text": "My own list of interesting sessions through the week is at <a href=\"https://419.consulting/encrypted-dns/f/ietf-112-week\" rel=\"nofollow\">https://419.consulting/encrypted-dns/f/ietf-112-week</a>&nbsp;&nbsp;<br/>"
+    },
+    {
+      "dtime": 4710000,
+      "ptime": 4710000,
+      "author": "Brian Rosen",
+      "text": "Yes, Richard is right<br/>"
+    },
+    {
+      "dtime": 4748000,
+      "ptime": 4748000,
+      "author": "John Klensin",
+      "text": "@Richard:: agreed -- I was not suggesting moving the whole party to SEC, just that there be a high level of awareness there.&nbsp;&nbsp;An IETf-wide BOF would work for me.<br/>"
+    },
+    {
+      "dtime": 4756000,
+      "ptime": 4756000,
+      "author": "Cullen Jennings",
+      "text": "You whould wait till after bof to figure out ART or SEC<br/>"
+    },
+    {
+      "dtime": 4760000,
+      "ptime": 4760000,
+      "author": "Richard Barnes",
+      "text": "@JCK sgtm<br/>"
+    },
+    {
+      "dtime": 4767000,
+      "ptime": 4767000,
+      "author": "Pete Resnick",
+      "text": "@cullen: +1<br/>"
+    },
+    {
+      "dtime": 4773000,
+      "ptime": 4773000,
+      "author": "Richard Barnes",
+      "text": "as fluffy says, this can be discussed at the BOF<br/>"
+    },
+    {
+      "dtime": 4784000,
+      "ptime": 4784000,
+      "author": "Richard Barnes",
+      "text": "Big +1 to Virtual BoF, though<br/>"
+    },
+    {
+      "dtime": 4792000,
+      "ptime": 4792000,
+      "author": "francesca",
+      "text": "thanks chairs!<br/>"
+    },
+    {
+      "dtime": 4792000,
+      "ptime": 4792000,
+      "author": "Richard Barnes",
+      "text": "a full 4month delay is just stupid<br/>"
+    },
+    {
+      "dtime": 4802000,
+      "ptime": 4802000,
+      "author": "Bron Gondwana",
+      "text": "thanks all<br/>"
+    },
+    {
+      "dtime": 4807000,
+      "ptime": 4807000,
+      "author": "francesca",
+      "text": "@meetecho: session over<br/>"
+    },
+    {
+      "dtime": 4829000,
+      "ptime": 4829000,
+      "author": "John Klensin",
+      "text": "Could we organize a virtual/interim BOF?<br/>"
+    },
+    {
+      "dtime": 4842000,
+      "ptime": 4842000,
+      "author": "francesca",
+      "text": "@John: I don't see why not<br/>"
+    },
+    {
+      "dtime": 4885000,
+      "ptime": 4885000,
+      "author": "John Klensin",
+      "text": "I agree with Richard about the 4 months, but, if we could appropriately organize and publicize that, it might be a way out.<br/>"
+    },
+    {
+      "dtime": 5015000,
+      "ptime": 5015000,
+      "author": "Murray Kucherawy",
+      "text": "I heard that, Pete.<br/>"
+    }
+  ],
+  "panels": [
+    {
+      "type": 0,
+      "title": "Transcript",
+      "link": "resources/IETF112-DISPATCH-20211108-1200"
+    },
+    {
+      "type": 1,
+      "title": "Datatracker",
+      "link": "https://datatracker.ietf.org/meeting/112/session/dispatch"
+    }
+  ]
+}

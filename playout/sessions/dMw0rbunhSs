@@ -1,0 +1,1415 @@
+
+{
+	"title": "IETF113-SAVNET-20220324-0900",
+	"filename": "IETF113-SAVNET-20220324-0900",
+	"start": 0,
+	"end": 7547000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "dMw0rbunhSs",
+    "start": 0,
+    "end": "7547000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 1354000,
+    "ptime": 1354000,
+    "author": "Jeffrey Haas",
+    "text": "SAV table is effectively superset of FIB.<br/>"
+  },
+  {
+    "dtime": 1438000,
+    "ptime": 1438000,
+    "author": "Mingqing Huang",
+    "text": "yeah, adding more asymmetric source prefix info<br/>"
+  },
+  {
+    "dtime": 1587000,
+    "ptime": 1587000,
+    "author": "Joel Halpern",
+    "text": "Thanks to whomever adjusted the mic hight.&nbsp;&nbsp;Folks in room need to be very close to the microphone.<br/>"
+  },
+  {
+    "dtime": 1616000,
+    "ptime": 1616000,
+    "author": "Job Snijders",
+    "text": "Thank Jared :)<br/>"
+  },
+  {
+    "dtime": 1625000,
+    "ptime": 1625000,
+    "author": "Job Snijders",
+    "text": "does anyone have an empty sheet of paper for me?<br/>"
+  },
+  {
+    "dtime": 1788000,
+    "ptime": 1788000,
+    "author": "Jeffrey Haas",
+    "text": "@ted I think what you're trying to discuss is covered by what the underlying existing u-rpf features are intended to accomplish?<br/>"
+  },
+  {
+    "dtime": 1918000,
+    "ptime": 1918000,
+    "author": "Éric Vyncke",
+    "text": "<a href=\"https://datatracker.ietf.org/doc/html/rfc8704\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/rfc8704</a><br/>"
+  },
+  {
+    "dtime": 2072000,
+    "ptime": 2072000,
+    "author": "Joel Halpern",
+    "text": "Mengxiao, please wait until we call on you.<br/>"
+  },
+  {
+    "dtime": 2098000,
+    "ptime": 2098000,
+    "author": "Jeffrey Haas",
+    "text": "The core observation you can derive from RFC 8704 is that if you use the BGP information to figure out what prefixes are originated by a given AS, you can use that to help fill in gaps when you have partial routes on a given session.<br/>"
+  },
+  {
+    "dtime": 2117000,
+    "ptime": 2117000,
+    "author": "Pete Resnick",
+    "text": "Giuseppe is a bit quiet in the room. Could someone type his comment here?<br/>"
+  },
+  {
+    "dtime": 2142000,
+    "ptime": 2142000,
+    "author": "Job Snijders",
+    "text": "joel - did you catch it?<br/>"
+  },
+  {
+    "dtime": 2221000,
+    "ptime": 2221000,
+    "author": "Mingqing Huang",
+    "text": "from my understanding, current uRPF-based tools more focus on access and northbound protection, not so good for east-west bound and southbound<br/>"
+  },
+  {
+    "dtime": 2278000,
+    "ptime": 2278000,
+    "author": "Mingqing Huang",
+    "text": "which is very import for one ISP perspective<br/>"
+  },
+  {
+    "dtime": 2286000,
+    "ptime": 2286000,
+    "author": "Job Snijders",
+    "text": "@Tim - it seems someone jumped in front of you! Please hold, you'll be next<br/>"
+  },
+  {
+    "dtime": 2547000,
+    "ptime": 2547000,
+    "author": "Job Snijders",
+    "text": "we are cutting the queue after Jeff Haas!<br/>"
+  },
+  {
+    "dtime": 2561000,
+    "ptime": 2561000,
+    "author": "Job Snijders",
+    "text": "to move on to the protocol proposals<br/>"
+  },
+  {
+    "dtime": 2571000,
+    "ptime": 2571000,
+    "author": "Jean-Michel Combes",
+    "text": "+1 with Jared: especially for Tiers-1 who have a large customers cone ...<br/>"
+  },
+  {
+    "dtime": 2673000,
+    "ptime": 2673000,
+    "author": "Jeffrey Haas",
+    "text": "I'll save my comments for the proposal space.<br/>"
+  },
+  {
+    "dtime": 2698000,
+    "ptime": 2698000,
+    "author": "Job Snijders",
+    "text": "ok<br/>"
+  },
+  {
+    "dtime": 2706000,
+    "ptime": 2706000,
+    "author": "Giuseppe Fioccola",
+    "text": "My question was: The presentation analyzes the improper behavior of uRPF and find that the root cause comes from the local FIB/RIB of routers. It is suggested the real data-plane path discovery as the solution but we need to pay a cost for this. How about using multiple feasible paths to apply SAV rules? Can it work?<br/>"
+  },
+  {
+    "dtime": 2739000,
+    "ptime": 2739000,
+    "author": "Tony Li",
+    "text": "It can help, but it cannot fix all problems.<br/>"
+  },
+  {
+    "dtime": 2758000,
+    "ptime": 2758000,
+    "author": "Jeffrey Haas",
+    "text": "Partial answer to Jared's observation is that local router knowledge is incomplete for a given AS in BGP.&nbsp;&nbsp;If you can get global routing knowledge within the AS, you can augment local router knowledge.&nbsp;&nbsp;That's most of rfc 8704.<br/>"
+  },
+  {
+    "dtime": 2776000,
+    "ptime": 2776000,
+    "author": "Jeffrey Haas",
+    "text": "Past that point, you have to decide what you don't know and then add it to the set of info.<br/>"
+  },
+  {
+    "dtime": 2796000,
+    "ptime": 2796000,
+    "author": "Tony Li",
+    "text": "Higher level question: are we solving the right problem? We seem to have jumped into the very hard problem of transitive verification.<br/>"
+  },
+  {
+    "dtime": 2805000,
+    "ptime": 2805000,
+    "author": "Jeffrey Haas",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 2812000,
+    "ptime": 2812000,
+    "author": "Tony Przygienda",
+    "text": "@Tony L: +1<br/>"
+  },
+  {
+    "dtime": 2823000,
+    "ptime": 2823000,
+    "author": "Tony Li",
+    "text": "BCP 38 tried (and failed) to solve the very simple question of local verification.<br/>"
+  },
+  {
+    "dtime": 2840000,
+    "ptime": 2840000,
+    "author": "Tony Li",
+    "text": "Fixing that seems to be 99.999% of the problem.<br/>"
+  },
+  {
+    "dtime": 2848000,
+    "ptime": 2848000,
+    "author": "Jeffrey Haas",
+    "text": "For edge networks, bcp38 can do a very good job.<br/>"
+  },
+  {
+    "dtime": 2854000,
+    "ptime": 2854000,
+    "author": "Tony Przygienda",
+    "text": "yepp, once we start to talk path validation instead of origin validation we are pretty soon in BGPSEC territory anyway<br/>"
+  },
+  {
+    "dtime": 2887000,
+    "ptime": 2887000,
+    "author": "Jeffrey Haas",
+    "text": "rfc 8704 indirectly says you can use RPKI ROAs to seed your augmented state. :-)<br/>"
+  },
+  {
+    "dtime": 2888000,
+    "ptime": 2888000,
+    "author": "Giuseppe Fioccola",
+    "text": "Dan Li replies to me that does not completely solve the problem. It is similar to feasible uRPF.<br/>"
+  },
+  {
+    "dtime": 2891000,
+    "ptime": 2891000,
+    "author": "Tony Li",
+    "text": "We didn't get BCP 38 deployed. How do we things differently so that eyeball networks enable it?<br/>"
+  },
+  {
+    "dtime": 2913000,
+    "ptime": 2913000,
+    "author": "Éric Vyncke",
+    "text": "The incentive is indeed a key Q<br/>"
+  },
+  {
+    "dtime": 2941000,
+    "ptime": 2941000,
+    "author": "Jeffrey Haas",
+    "text": "The incentive is easy: when you have networks that are known to not implement bcp 38, you drop their packets.<br/>"
+  },
+  {
+    "dtime": 2941000,
+    "ptime": 2941000,
+    "author": "Éric Vyncke",
+    "text": "meetcho: we lost slides<br/>"
+  },
+  {
+    "dtime": 2960000,
+    "ptime": 2960000,
+    "author": "Meetecho",
+    "text": "Checking<br/>"
+  },
+  {
+    "dtime": 2965000,
+    "ptime": 2965000,
+    "author": "Éric Vyncke",
+    "text": "problem sovled<br/>"
+  },
+  {
+    "dtime": 2976000,
+    "ptime": 2976000,
+    "author": "Meetecho",
+    "text": "Ack<br/>"
+  },
+  {
+    "dtime": 2980000,
+    "ptime": 2980000,
+    "author": "Mingqing Huang",
+    "text": "yeah, we have to pay some cost to cover the limitation casused by local intelligence<br/>"
+  },
+  {
+    "dtime": 3004000,
+    "ptime": 3004000,
+    "author": "Jean-Michel Combes",
+    "text": "@Jeffrey: hope this is a joke ...<br/>"
+  },
+  {
+    "dtime": 3020000,
+    "ptime": 3020000,
+    "author": "Jeffrey Haas",
+    "text": "A very grim one, @jean-michel.<br/>"
+  },
+  {
+    "dtime": 3039000,
+    "ptime": 3039000,
+    "author": "Jeffrey Haas",
+    "text": "If your security model needs to not deal with spoofing, you lock things down.<br/>"
+  },
+  {
+    "dtime": 3065000,
+    "ptime": 3065000,
+    "author": "Jeffrey Haas",
+    "text": "if your security model isn't strict (usual general Internet case), you decide what you do about incomplete filtering<br/>"
+  },
+  {
+    "dtime": 3137000,
+    "ptime": 3137000,
+    "author": "Jeffrey Haas",
+    "text": "remember this methodology is not strictly about general ISP case for end users - it applies to stricter security scenarios as well.<br/>"
+  },
+  {
+    "dtime": 3165000,
+    "ptime": 3165000,
+    "author": "Jean-Michel Combes",
+    "text": "@Jeffrey: \"be conservative in what you send, be liberal in what you accept\" ... something you forgot? :)<br/>"
+  },
+  {
+    "dtime": 3188000,
+    "ptime": 3188000,
+    "author": "Jeffrey Haas",
+    "text": "@jean-michel: \"My network, my rules\".<br/>"
+  },
+  {
+    "dtime": 3226000,
+    "ptime": 3226000,
+    "author": "Jean-Michel Combes",
+    "text": "@Jeffrey: '\"my network, my business\" I would say*<br/>"
+  },
+  {
+    "dtime": 3227000,
+    "ptime": 3227000,
+    "author": "Tony Przygienda",
+    "text": "@Jean: this works well if you deal with a system where most actors are benign, arguably what Internet is being populated with/is used for shifted very dramatically in last 10+ years. Otherwise we wouldn't have this kind of workgroups ;-)<br/>"
+  },
+  {
+    "dtime": 3241000,
+    "ptime": 3241000,
+    "author": "Jeffrey Haas",
+    "text": "^<br/>"
+  },
+  {
+    "dtime": 3277000,
+    "ptime": 3277000,
+    "author": "Tony Li",
+    "text": "&lt;Insert Tony's regular chant&gt;<br/>"
+  },
+  {
+    "dtime": 3292000,
+    "ptime": 3292000,
+    "author": "Tony Li",
+    "text": "Insert Tony's regular chant.<br/>"
+  },
+  {
+    "dtime": 3316000,
+    "ptime": 3316000,
+    "author": "Jean-Michel Combes",
+    "text": "The main issue regarding uRPF is that network operators are afraid to drop legitimate traffic<br/>"
+  },
+  {
+    "dtime": 3329000,
+    "ptime": 3329000,
+    "author": "Jean-Michel Combes",
+    "text": "and uRPF is a black box<br/>"
+  },
+  {
+    "dtime": 3337000,
+    "ptime": 3337000,
+    "author": "Jeffrey Haas",
+    "text": "A valid concern for general purpose cases.<br/>"
+  },
+  {
+    "dtime": 3338000,
+    "ptime": 3338000,
+    "author": "Tony Przygienda",
+    "text": "and the original quote was arguably about control plane where generally I don't talk to folks far away and I tend to trust them otherwise I would't set up a peering to them (and in IGP it's 99.999% my own router on my own link and I assume I'm not schizophrenic so I trust myself). Data plane transiting stuff is a different ball game ;-)<br/>"
+  },
+  {
+    "dtime": 3347000,
+    "ptime": 3347000,
+    "author": "Jari Arkko",
+    "text": "Avoiding dropping legitimate packets is goodness<br/>"
+  },
+  {
+    "dtime": 3348000,
+    "ptime": 3348000,
+    "author": "Éric Vyncke",
+    "text": "Or some operators are lazy / do not care or even are hostile ?<br/>"
+  },
+  {
+    "dtime": 3432000,
+    "ptime": 3432000,
+    "author": "Tony Li",
+    "text": "There are several cases of that.<br/>"
+  },
+  {
+    "dtime": 3437000,
+    "ptime": 3437000,
+    "author": "Jeffrey Haas",
+    "text": "to earlier comments, Eric, bcp 38 implemented pervasively at the edges solves most of the real things people are concerned about for spoofing.&nbsp;&nbsp;In the absence of it, you're passing the tax to try to do something almost as good further into the network.<br/>"
+  },
+  {
+    "dtime": 3451000,
+    "ptime": 3451000,
+    "author": "Jeffrey Haas",
+    "text": "and transitively, the closer you get to the internet core the harder it is to do it right<br/>"
+  },
+  {
+    "dtime": 3466000,
+    "ptime": 3466000,
+    "author": "Tony Li",
+    "text": "So why not fix the problem at the leaves?<br/>"
+  },
+  {
+    "dtime": 3486000,
+    "ptime": 3486000,
+    "author": "Jean-Michel Combes",
+    "text": "@Tony: that was the goal with SAVI<br/>"
+  },
+  {
+    "dtime": 3497000,
+    "ptime": 3497000,
+    "author": "Jeffrey Haas",
+    "text": "as you said tony, it hasn't gotten deployed.&nbsp;&nbsp;so, people are trying to push the solution outward.&nbsp;&nbsp;hence this bof<br/>"
+  },
+  {
+    "dtime": 3515000,
+    "ptime": 3515000,
+    "author": "Tony Li",
+    "text": "So we've given up? Sad.<br/>"
+  },
+  {
+    "dtime": 3531000,
+    "ptime": 3531000,
+    "author": "Jean-Michel Combes",
+    "text": "@Tony: but we could meet the same \"fear\" (i.e., drop of legitimate) traffic<br/>"
+  },
+  {
+    "dtime": 3550000,
+    "ptime": 3550000,
+    "author": "Mingqing Huang",
+    "text": "@tony, we need all leaves behaving well, but this is impossible :(<br/>"
+  },
+  {
+    "dtime": 3558000,
+    "ptime": 3558000,
+    "author": "Tony Li",
+    "text": "Why not?<br/>"
+  },
+  {
+    "dtime": 3647000,
+    "ptime": 3647000,
+    "author": "Aijun Wang",
+    "text": "numbers of the leaves are huge<br/>"
+  },
+  {
+    "dtime": 3664000,
+    "ptime": 3664000,
+    "author": "Tony Przygienda",
+    "text": "+1&nbsp;&nbsp;we really have no choice, state in the core is just very, very expensive and aggregated. only way internet works really. and if we avoid the state and do some \"validation by proxy\" at the speeds data plane is going in the core it's a fool's errand<br/>"
+  },
+  {
+    "dtime": 3667000,
+    "ptime": 3667000,
+    "author": "Tony Li",
+    "text": "So? If everyone filters their own network, it's easy.<br/>"
+  },
+  {
+    "dtime": 3675000,
+    "ptime": 3675000,
+    "author": "Éric Vyncke",
+    "text": "and would you blindly trust all leaves ?<br/>"
+  },
+  {
+    "dtime": 3680000,
+    "ptime": 3680000,
+    "author": "Tony Li",
+    "text": "No<br/>"
+  },
+  {
+    "dtime": 3704000,
+    "ptime": 3704000,
+    "author": "Tony Li",
+    "text": "Trust, but verify. And when that fails, what can we do?<br/>"
+  },
+  {
+    "dtime": 3718000,
+    "ptime": 3718000,
+    "author": "Éric Vyncke",
+    "text": "Better than nothing.... I agree<br/>"
+  },
+  {
+    "dtime": 3736000,
+    "ptime": 3736000,
+    "author": "Tony Li",
+    "text": "Tony P. is correct. Once you're in the core, the possible source paths become extremely large.<br/>"
+  },
+  {
+    "dtime": 3772000,
+    "ptime": 3772000,
+    "author": "Jeffrey Haas",
+    "text": "Filtering at traditional tier 1 ISPs is impractical.&nbsp;&nbsp;At tier 2, probably impractical.&nbsp;&nbsp;tier 3... possible.<br/>"
+  },
+  {
+    "dtime": 3787000,
+    "ptime": 3787000,
+    "author": "Tony Przygienda",
+    "text": "observe that we already do a \"reverse BCP\" today. your home router has oodles of filters and automatic blocking if some \"friend\" tries too many times and fails on port 22 ;-)<br/>"
+  },
+  {
+    "dtime": 3811000,
+    "ptime": 3811000,
+    "author": "Tony Li",
+    "text": "Yes, but that filter is on the wrong side of my downlink.<br/>"
+  },
+  {
+    "dtime": 3826000,
+    "ptime": 3826000,
+    "author": "Tony Przygienda",
+    "text": "which I agree with ;-) But desperate times breed desperate measures ;-)<br/>"
+  },
+  {
+    "dtime": 3850000,
+    "ptime": 3850000,
+    "author": "Tony Przygienda",
+    "text": "I can live in a country with low crime rate or I can invest in crating my windows up ;-)<br/>"
+  },
+  {
+    "dtime": 3978000,
+    "ptime": 3978000,
+    "author": "Tony Li",
+    "text": "Please don't talk over the speaker.<br/>"
+  },
+  {
+    "dtime": 3983000,
+    "ptime": 3983000,
+    "author": "Jeffrey Haas",
+    "text": "joel, you have open mic<br/>"
+  },
+  {
+    "dtime": 3985000,
+    "ptime": 3985000,
+    "author": "Tony Przygienda",
+    "text": "the fact that there are significantly less countries with low crime rates than ones with windows secured is an interesting etymological observation here. We started with Inernet as Utopia which it was for a bit but Utopias tend to becomes Lord of the Flies mostly if not put under governance and then making sure that participants have a strong stake in low crime rate. Or we could go to ML and build \"Minority Report\". The last thing is a joke of course ;-)<br/>"
+  },
+  {
+    "dtime": 3986000,
+    "ptime": 3986000,
+    "author": "Éric Vyncke",
+    "text": "Joel we hear you...<br/>"
+  },
+  {
+    "dtime": 3993000,
+    "ptime": 3993000,
+    "author": "Job Snijders",
+    "text": "Joel I muted you<br/>"
+  },
+  {
+    "dtime": 3998000,
+    "ptime": 3998000,
+    "author": "Joel Halpern",
+    "text": "Oops.&nbsp;&nbsp;Sorry.&nbsp;&nbsp;Thanks Job.<br/>"
+  },
+  {
+    "dtime": 4113000,
+    "ptime": 4113000,
+    "author": "Mingqing Huang",
+    "text": "@Jeffrey, cone-based partial deployment might be pratical for first step<br/>"
+  },
+  {
+    "dtime": 4167000,
+    "ptime": 4167000,
+    "author": "Jeffrey Haas",
+    "text": "@mingqing incremental deployment makes the network incrementally better for those participating.<br/>"
+  },
+  {
+    "dtime": 4195000,
+    "ptime": 4195000,
+    "author": "Jeffrey Haas",
+    "text": "My grim observations and tony P's observations is what happens when you have a network with both those who try to behave well and those who don't behave well.<br/>"
+  },
+  {
+    "dtime": 4206000,
+    "ptime": 4206000,
+    "author": "Pete Resnick",
+    "text": "Really novice question / sanity check: The project here is to figure out how to do this filtering without crushing the core of the network with compute or state? I ask because this doesn't seem like the simplest way to do this.<br/>"
+  },
+  {
+    "dtime": 4229000,
+    "ptime": 4229000,
+    "author": "Jeffrey Haas",
+    "text": "@pete - dsav or this problem space in general?<br/>"
+  },
+  {
+    "dtime": 4239000,
+    "ptime": 4239000,
+    "author": "Pete Resnick",
+    "text": "General.<br/>"
+  },
+  {
+    "dtime": 4242000,
+    "ptime": 4242000,
+    "author": "Tony Przygienda",
+    "text": "randomly musing: why does this look like PIM uRPF ;-)<br/>"
+  },
+  {
+    "dtime": 4247000,
+    "ptime": 4247000,
+    "author": "Éric Vyncke",
+    "text": "It seems simple but the amount of states and messages is huge<br/>"
+  },
+  {
+    "dtime": 4251000,
+    "ptime": 4251000,
+    "author": "Jeffrey Haas",
+    "text": "because it doesn tony.<br/>"
+  },
+  {
+    "dtime": 4260000,
+    "ptime": 4260000,
+    "author": "Jari Arkko",
+    "text": "Re: leaves discussion. One of the challenges is of course that you can improve your own address validation, and you can even get your friends to improve theirs, e.g., by adding some of the tools suggested in this BOF. But, you and your friends were the ones who were already doing end-customer address validation on all links anyway, so we improved ... not much. And as long as you still need to peer with the sloppy guy you are still susceptible to address spoofing from them. That being said, if we had a better-than-EFP-uRPF at a reasonable cost, it would be a reasonable RFC to make.<br/>"
+  },
+  {
+    "dtime": 4261000,
+    "ptime": 4261000,
+    "author": "Jeffrey Haas",
+    "text": "u-rpf is 'easy'.&nbsp;&nbsp;it was a hack.<br/>"
+  },
+  {
+    "dtime": 4280000,
+    "ptime": 4280000,
+    "author": "Jeffrey Haas",
+    "text": "@jari \"tragedy of the commons\"<br/>"
+  },
+  {
+    "dtime": 4426000,
+    "ptime": 4426000,
+    "author": "Nan Geng",
+    "text": "dsav looks like multicast but there are some differences. Multipath maybe one of them.<br/>"
+  },
+  {
+    "dtime": 4435000,
+    "ptime": 4435000,
+    "author": "Pete Resnick",
+    "text": "@Éric: I was wondering about the number of states in DSAV. I guess I didn't understand that the number of messages counts as \"huge\" in this space. Interesting.<br/>"
+  },
+  {
+    "dtime": 4451000,
+    "ptime": 4451000,
+    "author": "Jean-Michel Combes",
+    "text": "@Jari: this is the goal of the MANRS initiative (i.e., to build a community of ISPs willing to improve Internet security)<br/>"
+  },
+  {
+    "dtime": 4473000,
+    "ptime": 4473000,
+    "author": "Jeffrey Haas",
+    "text": "The presentation isn't really accounting for routing churn as an input at this point.<br/>"
+  },
+  {
+    "dtime": 4544000,
+    "ptime": 4544000,
+    "author": "Jeffrey Haas",
+    "text": "Tony P. would probably consider this to be the same as pim tree churn.<br/>"
+  },
+  {
+    "dtime": 4591000,
+    "ptime": 4591000,
+    "author": "Nan Geng",
+    "text": "@Jari Agree d. Improving accuracy with bearable cost.<br/>"
+  },
+  {
+    "dtime": 4602000,
+    "ptime": 4602000,
+    "author": "Tony Przygienda",
+    "text": "to give the discussion another angle that most are probably not familair with. The very underlying cause of this malaise is that Internet has no \"cost function\" as other network technologies had (mostly). i.e. when I charge you seriously for the stuff I have to carry for you you may think twice about giving me useless crap. So in a&nbsp;&nbsp;sense peering pricing based on usefullness of traffic helps but you'd need to charge the source/destination reliably based on the value of stuff the network decides to carry. I oversimplify drastically but thinking through Hayek's \"invisible hand\" often fixes problems that are intractable otherwise (it's going toward's Nash's PoA BTW). We are techies, we often build technology to try to prop up a system with fundamantelly bad policies in place.<br/>"
+  },
+  {
+    "dtime": 4638000,
+    "ptime": 4638000,
+    "author": "Jeffrey Haas",
+    "text": "It's one step worse, Tony P.&nbsp;&nbsp;If you charge by the bit, attack traffic is profit. :-)<br/>"
+  },
+  {
+    "dtime": 4651000,
+    "ptime": 4651000,
+    "author": "Tony Przygienda",
+    "text": "yeah, this is 100% PIM churn before learning first scaling lessons (periodic RIP readvert are fun but only for very short time ;-)<br/>"
+  },
+  {
+    "dtime": 4665000,
+    "ptime": 4665000,
+    "author": "Tony Przygienda",
+    "text": "@Jeff: yes, that's where we are today<br/>"
+  },
+  {
+    "dtime": 4676000,
+    "ptime": 4676000,
+    "author": "Joel Halpern",
+    "text": "The volume and dynamics were I believe on their open quesitons list.<br/>"
+  },
+  {
+    "dtime": 4695000,
+    "ptime": 4695000,
+    "author": "Wes Hardaker",
+    "text": "@Jeffrey: that's always been my problem with otherwise good security technologies like BGPSEC -- the middle layers really don't have incentive to deploy technologies that reduce their profits by dropping traffic.<br/>"
+  },
+  {
+    "dtime": 4762000,
+    "ptime": 4762000,
+    "author": "Tony Przygienda",
+    "text": "@Joel: thanks. yeah, I'm sorry, I'm not up to date on this BoF, I'm only here because other sessions were cut short but in fact, this a very interesting BoF here ;-)<br/>"
+  },
+  {
+    "dtime": 4772000,
+    "ptime": 4772000,
+    "author": "Éric Vyncke",
+    "text": "It is not the IPv6 extension header hop-by-hop<br/>"
+  },
+  {
+    "dtime": 4831000,
+    "ptime": 4831000,
+    "author": "Éric Vyncke",
+    "text": "BoF are always the most interesting sessions IMHO (at least for me)<br/>"
+  },
+  {
+    "dtime": 4875000,
+    "ptime": 4875000,
+    "author": "Joel Halpern",
+    "text": "@Tony P. thanks for joining, and raising perspectives. <br/>"
+  },
+  {
+    "dtime": 4936000,
+    "ptime": 4936000,
+    "author": "Jean-Michel Combes",
+    "text": "Question 6: I am a \"leazy ISP\" (c)Erik ;) not willing to filter spoofed IP addresses and I send a DSAV message allowing all IP packets ... how to solve this problem?<br/>"
+  },
+  {
+    "dtime": 4987000,
+    "ptime": 4987000,
+    "author": "Mingqing Huang",
+    "text": "about incentive for one isp, i guess is that one will be able block spoofing traffic coming in self zone<br/>"
+  },
+  {
+    "dtime": 5013000,
+    "ptime": 5013000,
+    "author": "Joel Halpern",
+    "text": "@Jean-Michel I think that is a question for the next presentation.&nbsp;&nbsp;This one is intra-domain.<br/>"
+  },
+  {
+    "dtime": 5041000,
+    "ptime": 5041000,
+    "author": "Mingqing Huang",
+    "text": "not only just for outgoing traffic<br/>"
+  },
+  {
+    "dtime": 5097000,
+    "ptime": 5097000,
+    "author": "Jean-Michel Combes",
+    "text": "@Joel: good point - I missed this was related to intra-domain, sorry<br/>"
+  },
+  {
+    "dtime": 5124000,
+    "ptime": 5124000,
+    "author": "Éric Vyncke",
+    "text": "@Alexandre, the 'propagation scope' (naming is confusing) appears to me required as packets src prefix can have different path based on their dst. So, the paths are really bound to src/dst prefixes<br/>"
+  },
+  {
+    "dtime": 5231000,
+    "ptime": 5231000,
+    "author": "Mingqing Huang",
+    "text": "the mechnism of DSAV, i think, works for intra- and inter-domain<br/>"
+  },
+  {
+    "dtime": 5234000,
+    "ptime": 5234000,
+    "author": "Joel Halpern",
+    "text": "@Jean-Michel The question is valid.&nbsp;&nbsp;And apparently they are now also including inter-domain.&nbsp;&nbsp;&nbsp;&nbsp;COnfuses this co-chair.&nbsp;&nbsp;Sorry.<br/>"
+  },
+  {
+    "dtime": 5291000,
+    "ptime": 5291000,
+    "author": "Tony Przygienda",
+    "text": "you could build something that back-pressures&nbsp;&nbsp;saying \"yuo're giving me crap I'm being pushed back on and not paid\". Whichever way you cut it, you need a credentials system you can build a pricing model on and conduct economic transactions cheaply and reliably. and of course juristicion to arbitrate. So, in a sense a society rather than \"wild west\" that we have today. You could have interesting ideas like .e.g MX has white/gray/blacklists you can vote on. And BTW, look @ MX, it's almost fully secure now after the reputation system started to kill peple's resolution of mail servers. E'body has a cert and behaves pretty decently. Spam email is way way down which is probably to a good extent due to that. Yeah, servers are still broken into, there are shady players like junk mail replicators (but their ISPs charge them juicily for that AFAIU). So that's one way of thinking about making ISPs behave and see what they take on ...<br/>"
+  },
+  {
+    "dtime": 5342000,
+    "ptime": 5342000,
+    "author": "Jeffrey Haas",
+    "text": "as someone who operates a mailserver still, tony, I think you're a bit off. :-)<br/>"
+  },
+  {
+    "dtime": 5370000,
+    "ptime": 5370000,
+    "author": "Tony Przygienda",
+    "text": "so do I and good luck trying to send/receive stuff if you don't have a good cert ...<br/>"
+  },
+  {
+    "dtime": 5387000,
+    "ptime": 5387000,
+    "author": "Éric Vyncke",
+    "text": "esp to gmail.com indeed<br/>"
+  },
+  {
+    "dtime": 5400000,
+    "ptime": 5400000,
+    "author": "Tony Przygienda",
+    "text": "yeah, gmail.com is its own story ;-)<br/>"
+  },
+  {
+    "dtime": 5413000,
+    "ptime": 5413000,
+    "author": "Benjamin Schwartz",
+    "text": "I don't get the trust model.&nbsp;&nbsp;If I trust these notifications, why don't I trust these networks to just do their own filtering?<br/>"
+  },
+  {
+    "dtime": 5423000,
+    "ptime": 5423000,
+    "author": "Éric Vyncke",
+    "text": ";-)<br/>"
+  },
+  {
+    "dtime": 5448000,
+    "ptime": 5448000,
+    "author": "Benjamin Schwartz",
+    "text": "or s/networks/routers/ for intra-domain<br/>"
+  },
+  {
+    "dtime": 5453000,
+    "ptime": 5453000,
+    "author": "Tony Przygienda",
+    "text": "the cost of getting an anon account on leggit cert server is way too low. That's economics question one layer up ... Those puppies do not sell services, they give you free lunch to get your data as free lunch ...<br/>"
+  },
+  {
+    "dtime": 5464000,
+    "ptime": 5464000,
+    "author": "Éric Vyncke",
+    "text": "I guess it is more to be sure that packet drop at the edge can be done<br/>"
+  },
+  {
+    "dtime": 5488000,
+    "ptime": 5488000,
+    "author": "Joel Halpern",
+    "text": "@Ben I think that is one of the key questions that needs to be explored.<br/>"
+  },
+  {
+    "dtime": 5520000,
+    "ptime": 5520000,
+    "author": "Joel Halpern",
+    "text": "Unfortunately, we are out of discussion time.&nbsp;&nbsp;I hope we have a little more at the end.<br/>"
+  },
+  {
+    "dtime": 5646000,
+    "ptime": 5646000,
+    "author": "Job Snijders",
+    "text": "i cannot hear the presenter<br/>"
+  },
+  {
+    "dtime": 5690000,
+    "ptime": 5690000,
+    "author": "Meetecho",
+    "text": "Checking<br/>"
+  },
+  {
+    "dtime": 5690000,
+    "ptime": 5690000,
+    "author": "Dan Li",
+    "text": "We will switch to a new presenter<br/>"
+  },
+  {
+    "dtime": 5703000,
+    "ptime": 5703000,
+    "author": "Job Snijders",
+    "text": "ok<br/>"
+  },
+  {
+    "dtime": 5712000,
+    "ptime": 5712000,
+    "author": "Luigi Iannone",
+    "text": "@Ben: I think that as soon as you trust a router you are open to attacks. Messages need to be authenticated and validated.<br/>"
+  },
+  {
+    "dtime": 5712000,
+    "ptime": 5712000,
+    "author": "Dan Li",
+    "text": "the third presenter has some network problem<br/>"
+  },
+  {
+    "dtime": 5738000,
+    "ptime": 5738000,
+    "author": "Benjamin Schwartz",
+    "text": "Luigi: Agreed, hence why I am more interested in end-to-end validation<br/>"
+  },
+  {
+    "dtime": 5762000,
+    "ptime": 5762000,
+    "author": "Job Snijders",
+    "text": "audio is good! thanks<br/>"
+  },
+  {
+    "dtime": 5765000,
+    "ptime": 5765000,
+    "author": "Job Snijders",
+    "text": "&lt;3 meetecho<br/>"
+  },
+  {
+    "dtime": 5866000,
+    "ptime": 5866000,
+    "author": "Luigi Iannone",
+    "text": "@Ben: meaning BCP 38 like approach?<br/>"
+  },
+  {
+    "dtime": 5897000,
+    "ptime": 5897000,
+    "author": "Benjamin Schwartz",
+    "text": "Luigi: I'm hoping for something like ESAV!<br/>"
+  },
+  {
+    "dtime": 5907000,
+    "ptime": 5907000,
+    "author": "Yingzhen Qu",
+    "text": "think what if an attacker can break into the relay of messages? so I guess the assumption is the between router communication is safe<br/>"
+  },
+  {
+    "dtime": 6049000,
+    "ptime": 6049000,
+    "author": "Luigi Iannone",
+    "text": "@Ben: the advantage I see for DSAV is that it may be more effective against DDoS. ESAV may be a victim of DDoS.<br/>"
+  },
+  {
+    "dtime": 6080000,
+    "ptime": 6080000,
+    "author": "Jeffrey Haas",
+    "text": "Yingzhen, the security model is effectively the same as that of BGP itself, and definitely the security of any central controller driven network.<br/>"
+  },
+  {
+    "dtime": 6084000,
+    "ptime": 6084000,
+    "author": "Benjamin Schwartz",
+    "text": "I think the dynamic setup for ESAV seems like a major weakness.&nbsp;&nbsp;I would prefer static config.<br/>"
+  },
+  {
+    "dtime": 6097000,
+    "ptime": 6097000,
+    "author": "Benjamin Schwartz",
+    "text": "(^Luigi)<br/>"
+  },
+  {
+    "dtime": 6132000,
+    "ptime": 6132000,
+    "author": "Yingzhen Qu",
+    "text": "@Jeff, agreed. same BGPsec story<br/>"
+  },
+  {
+    "dtime": 6140000,
+    "ptime": 6140000,
+    "author": "Job Snijders",
+    "text": "I think looking at RPKI as a foundational framework for distribution of crypto thingies is a good approach<br/>"
+  },
+  {
+    "dtime": 6171000,
+    "ptime": 6171000,
+    "author": "Jeffrey Haas",
+    "text": "Not quite bgpsec.&nbsp;&nbsp;a bit like aspa<br/>"
+  },
+  {
+    "dtime": 6185000,
+    "ptime": 6185000,
+    "author": "Job Snijders",
+    "text": "jared called it \"ASPA for packets\"<br/>"
+  },
+  {
+    "dtime": 6219000,
+    "ptime": 6219000,
+    "author": "Yingzhen Qu",
+    "text": ":)<br/>"
+  },
+  {
+    "dtime": 6240000,
+    "ptime": 6240000,
+    "author": "Tony Li",
+    "text": "Crypto in the data plane seems like a non-starter.<br/>"
+  },
+  {
+    "dtime": 6261000,
+    "ptime": 6261000,
+    "author": "Jeffrey Haas",
+    "text": "Effectively, one way to state where rpf filtering can be helpful is whether or not is \"can I build a simple path graph to a given origin\"<br/>"
+  },
+  {
+    "dtime": 6292000,
+    "ptime": 6292000,
+    "author": "Benjamin Schwartz",
+    "text": "Tony: Why?&nbsp;&nbsp;It can easily run at line rate.<br/>"
+  },
+  {
+    "dtime": 6299000,
+    "ptime": 6299000,
+    "author": "Jeffrey Haas",
+    "text": "presuming you can build the graph, there's enough data between the routing system and things like RPKI that you can build the filter graph in a mostly dynamic and partially augmented graph<br/>"
+  },
+  {
+    "dtime": 6299000,
+    "ptime": 6299000,
+    "author": "Tony Przygienda",
+    "text": "if it can do that it has to kill aggregation AFAIS which for core is a non starter<br/>"
+  },
+  {
+    "dtime": 6335000,
+    "ptime": 6335000,
+    "author": "Eduard V",
+    "text": "The current presentation looks like a 4th label data plane (in addition to MPLS, SRv6, and LISP)<br/>"
+  },
+  {
+    "dtime": 6343000,
+    "ptime": 6343000,
+    "author": "Antoine Fressancourt",
+    "text": "I am with Benjamin on this<br/>"
+  },
+  {
+    "dtime": 6352000,
+    "ptime": 6352000,
+    "author": "Tony Li",
+    "text": "@Ben: Pointers to routers with line rate at 800Gbps on all ports, please.<br/>"
+  },
+  {
+    "dtime": 6388000,
+    "ptime": 6388000,
+    "author": "Tony Przygienda",
+    "text": "you can do anything at line rate depending a) what your line rate is b) how much power you can push into a chassis and more importantly cool it again and c) how much money you have ... I doubt you'll be willing to pay 5x your internet access rate or run at 1/5 the speed at current price<br/>"
+  },
+  {
+    "dtime": 6393000,
+    "ptime": 6393000,
+    "author": "Jeffrey Haas",
+    "text": "rpf on all router architectures I'm familiar with take a line rate hit due to additional lookup for the rpf.<br/>"
+  },
+  {
+    "dtime": 6396000,
+    "ptime": 6396000,
+    "author": "Joel Halpern",
+    "text": "@Eduard V - not sure I follow you.&nbsp;&nbsp;This information is not directing forwarding.&nbsp;&nbsp;It is confirming source information validity.<br/>"
+  },
+  {
+    "dtime": 6429000,
+    "ptime": 6429000,
+    "author": "Eduard V",
+    "text": "the name of the presentation \"data plane approach\" then \"tag\"<br/>"
+  },
+  {
+    "dtime": 6430000,
+    "ptime": 6430000,
+    "author": "Jeffrey Haas",
+    "text": "all techs we're discussing to augment the lookups for a \"sav table\" will consume fib resources, which are usually considered precious and have scale impact.<br/>"
+  },
+  {
+    "dtime": 6434000,
+    "ptime": 6434000,
+    "author": "Tony Li",
+    "text": "And crypto will be more expensive than RPF.<br/>"
+  },
+  {
+    "dtime": 6438000,
+    "ptime": 6438000,
+    "author": "Tony Przygienda",
+    "text": "rpf hit is relatively bearable but yeah, those pesky photons and electrons insisting on laws of physics ;-)<br/>"
+  },
+  {
+    "dtime": 6473000,
+    "ptime": 6473000,
+    "author": "Jean-Michel Combes",
+    "text": "@Eduard: looks like RFC3514+crypto<br/>"
+  },
+  {
+    "dtime": 6473000,
+    "ptime": 6473000,
+    "author": "Jeffrey Haas",
+    "text": "I suspect clever asic implementors can give us the double lookup (fwd + rpf) as a feature... but that's not how it's built right now.<br/>"
+  },
+  {
+    "dtime": 6505000,
+    "ptime": 6505000,
+    "author": "Tony Li",
+    "text": "Parallelism should work.<br/>"
+  },
+  {
+    "dtime": 6506000,
+    "ptime": 6506000,
+    "author": "Tony Przygienda",
+    "text": ";-) yes, but you pay for speed with gates then ...<br/>"
+  },
+  {
+    "dtime": 6515000,
+    "ptime": 6515000,
+    "author": "Jeffrey Haas",
+    "text": "TANSTAAFL<br/>"
+  },
+  {
+    "dtime": 6539000,
+    "ptime": 6539000,
+    "author": "Tony Li",
+    "text": "Always<br/>"
+  },
+  {
+    "dtime": 6552000,
+    "ptime": 6552000,
+    "author": "Job Snijders",
+    "text": "that comment only applies in capitalist systems! ;-)<br/>"
+  },
+  {
+    "dtime": 6574000,
+    "ptime": 6574000,
+    "author": "Eduard V",
+    "text": "@Jean-Michel Combes: RFC 3514 is 1st of April<br/>"
+  },
+  {
+    "dtime": 6576000,
+    "ptime": 6576000,
+    "author": "Tony Li",
+    "text": "In non-capitalist systems, there is no lunch. :)<br/>"
+  },
+  {
+    "dtime": 6582000,
+    "ptime": 6582000,
+    "author": "Jeffrey Haas",
+    "text": "Anarcho-collective forwarding engines have a longer consensus model<br/>"
+  },
+  {
+    "dtime": 6591000,
+    "ptime": 6591000,
+    "author": "Jean-Michel Combes",
+    "text": "@Eduard: I know :)<br/>"
+  },
+  {
+    "dtime": 6602000,
+    "ptime": 6602000,
+    "author": "Tony Przygienda",
+    "text": "the immortal quip of Churchill \"capitalism is the worst system, except all the other ones we tried\"<br/>"
+  },
+  {
+    "dtime": 6617000,
+    "ptime": 6617000,
+    "author": "Jean-Michel Combes",
+    "text": "@Edouard: but the idea is more or less the same I would say<br/>"
+  },
+  {
+    "dtime": 6623000,
+    "ptime": 6623000,
+    "author": "Jean-Michel Combes",
+    "text": "*Eduard<br/>"
+  },
+  {
+    "dtime": 6707000,
+    "ptime": 6707000,
+    "author": "Eduard V",
+    "text": "@Jean-Michel Combes: thanks. I need to read<br/>"
+  },
+  {
+    "dtime": 6767000,
+    "ptime": 6767000,
+    "author": "Jeffrey Haas",
+    "text": "By analogy, esav appears to be SFC carried out among cooperating ASes where the service function is validation<br/>"
+  },
+  {
+    "dtime": 6784000,
+    "ptime": 6784000,
+    "author": "Éric Vyncke",
+    "text": "Good summary<br/>"
+  },
+  {
+    "dtime": 6830000,
+    "ptime": 6830000,
+    "author": "Jeffrey Haas",
+    "text": "Deep crypto isn't super helpful in many respects.&nbsp;&nbsp;You need enough sprinkled in there to not worry about external spoofing of it through routers that aren't protected.<br/>"
+  },
+  {
+    "dtime": 6832000,
+    "ptime": 6832000,
+    "author": "Tony Przygienda",
+    "text": "agreed. good analogy ...<br/>"
+  },
+  {
+    "dtime": 6838000,
+    "ptime": 6838000,
+    "author": "Luigi Iannone",
+    "text": "An this may scale better than a H-by-H approach<br/>"
+  },
+  {
+    "dtime": 6883000,
+    "ptime": 6883000,
+    "author": "Jeffrey Haas",
+    "text": "Tagging is not a bad idea; it can help.&nbsp;&nbsp;But it still means solve the prior problem better: you need a correct rpf graph.<br/>"
+  },
+  {
+    "dtime": 6906000,
+    "ptime": 6906000,
+    "author": "Éric Vyncke",
+    "text": "@Luigi it seems so, also easier for incremental deployment but tagging all packets...<br/>"
+  },
+  {
+    "dtime": 6917000,
+    "ptime": 6917000,
+    "author": "Tony Przygienda",
+    "text": "agreed. on rpf, yes and no. what if you tag stuff up based on credential of the ISP passing you stuff if it's not tag'ed already<br/>"
+  },
+  {
+    "dtime": 6926000,
+    "ptime": 6926000,
+    "author": "Jeffrey Haas",
+    "text": "This is also the \"throw stuff away\" bit that I had mentioned to @jean-michel earlier.<br/>"
+  },
+  {
+    "dtime": 6939000,
+    "ptime": 6939000,
+    "author": "Tony Przygienda",
+    "text": "tags could scale and you could re-tag as well. It's basically MPLS in another flavor and that is fast enough we know<br/>"
+  },
+  {
+    "dtime": 6953000,
+    "ptime": 6953000,
+    "author": "Éric Vyncke",
+    "text": "inserting header is a NO GO<br/>"
+  },
+  {
+    "dtime": 6982000,
+    "ptime": 6982000,
+    "author": "Jeffrey Haas",
+    "text": "if the trust model is cooperative then you don't need to stack tags, just replace with a \"trusted by union of parties\" tag<br/>"
+  },
+  {
+    "dtime": 6985000,
+    "ptime": 6985000,
+    "author": "Luigi Iannone",
+    "text": "@Eric: agreed. Incremental deployability is key.<br/>"
+  },
+  {
+    "dtime": 6996000,
+    "ptime": 6996000,
+    "author": "Tony Przygienda",
+    "text": "yeeah, throwing in a header as we know, except few people who think it's best place to do routing ;-) is a very expensive proposition<br/>"
+  },
+  {
+    "dtime": 6998000,
+    "ptime": 6998000,
+    "author": "Éric Vyncke",
+    "text": "draft-vyncke-v6ops-james (sorry for the ads) to hceck whether ext header travels the global Internet<br/>"
+  },
+  {
+    "dtime": 7039000,
+    "ptime": 7039000,
+    "author": "Jeffrey Haas",
+    "text": "I'll also refer people to the IEPG presentation this week where it was shown that certain types of ipv6 headers just guarantee your traffic is dropped.<br/>"
+  },
+  {
+    "dtime": 7049000,
+    "ptime": 7049000,
+    "author": "Tony Przygienda",
+    "text": ";-)<br/>"
+  },
+  {
+    "dtime": 7061000,
+    "ptime": 7061000,
+    "author": "Tony Przygienda",
+    "text": "dropped for your own good BTW ;-)<br/>"
+  },
+  {
+    "dtime": 7069000,
+    "ptime": 7069000,
+    "author": "Jeffrey Haas",
+    "text": "I blame Ron Bonica.<br/>"
+  },
+  {
+    "dtime": 7069000,
+    "ptime": 7069000,
+    "author": "Tony Li",
+    "text": "If we're going to do that, let's just put the full path in the header. We can call it 6vRS.<br/>"
+  },
+  {
+    "dtime": 7093000,
+    "ptime": 7093000,
+    "author": "Éric Vyncke",
+    "text": "What about IPv10 ?<br/>"
+  },
+  {
+    "dtime": 7102000,
+    "ptime": 7102000,
+    "author": "Antoine Fressancourt",
+    "text": "@jeffrey, which presentation are you referring to ?<br/>"
+  },
+  {
+    "dtime": 7131000,
+    "ptime": 7131000,
+    "author": "Elmar Bins",
+    "text": "Eric: Has that come up yet this IETF?<br/>"
+  },
+  {
+    "dtime": 7147000,
+    "ptime": 7147000,
+    "author": "Tony Li",
+    "text": "IEPG: <a href=\"https://www.youtube.com/watch?v=u2wVZnJ3fo0\" rel=\"nofollow\">https://www.youtube.com/watch?v=u2wVZnJ3fo0</a><br/>"
+  },
+  {
+    "dtime": 7154000,
+    "ptime": 7154000,
+    "author": "Elmar Bins",
+    "text": "Ha<br/>"
+  },
+  {
+    "dtime": 7161000,
+    "ptime": 7161000,
+    "author": "Tony Li",
+    "text": "Sorry, slides don't look like they're available.<br/>"
+  },
+  {
+    "dtime": 7163000,
+    "ptime": 7163000,
+    "author": "Éric Vyncke",
+    "text": "BTW, please join savnet@ietf.org<br/>"
+  },
+  {
+    "dtime": 7164000,
+    "ptime": 7164000,
+    "author": "Jeffrey Haas",
+    "text": "@antoine - as usual, chairs haven't gotten their materials posted, so I don't have the easy referral. :-)<br/>"
+  },
+  {
+    "dtime": 7181000,
+    "ptime": 7181000,
+    "author": "Jeffrey Haas",
+    "text": "They usually catch up in 2 weeks to 6 months.<br/>"
+  },
+  {
+    "dtime": 7187000,
+    "ptime": 7187000,
+    "author": "Jeffrey Haas",
+    "text": "best to unicast them.<br/>"
+  },
+  {
+    "dtime": 7202000,
+    "ptime": 7202000,
+    "author": "Antoine Fressancourt",
+    "text": "Thanks for the pointers !<br/>"
+  },
+  {
+    "dtime": 7209000,
+    "ptime": 7209000,
+    "author": "Luigi Iannone",
+    "text": ":-) IEPG is delay tolerant<br/>"
+  },
+  {
+    "dtime": 7216000,
+    "ptime": 7216000,
+    "author": "Antoine Fressancourt",
+    "text": "Will do :-)<br/>"
+  },
+  {
+    "dtime": 7254000,
+    "ptime": 7254000,
+    "author": "Jean-Michel Combes",
+    "text": "IEPG meeting: <a href=\"https://www.potaroo.net/iepg/2022-03-20-ietf113/index.html\" rel=\"nofollow\">https://www.potaroo.net/iepg/2022-03-20-ietf113/index.html</a><br/>"
+  },
+  {
+    "dtime": 7372000,
+    "ptime": 7372000,
+    "author": "Luigi Iannone",
+    "text": "thanks Jean<br/>"
+  },
+  {
+    "dtime": 7412000,
+    "ptime": 7412000,
+    "author": "Antoine Fressancourt",
+    "text": "Thanks<br/>"
+  },
+  {
+    "dtime": 7414000,
+    "ptime": 7414000,
+    "author": "Yingzhen Qu",
+    "text": "I think this is interesting topic, worth exploring<br/>"
+  },
+  {
+    "dtime": 7442000,
+    "ptime": 7442000,
+    "author": "Jari Arkko",
+    "text": "It is difficult to decide what to do here, for me at least. There are a number of options. I for one would be interested in some improvements, but maybe more on the \"minimal\" side (e.g., what Igor suggested) rather than creating large complex new infrastructure, which I fear would not be deployed widely enough in the end.<br/>"
+  },
+  {
+    "dtime": 7465000,
+    "ptime": 7465000,
+    "author": "Éric Vyncke",
+    "text": "Correct, shared opinion Jari<br/>"
+  },
+  {
+    "dtime": 7481000,
+    "ptime": 7481000,
+    "author": "Benjamin Schwartz",
+    "text": "I think we should aim for something that carries significan benefit at low deployment<br/>"
+  },
+  {
+    "dtime": 7503000,
+    "ptime": 7503000,
+    "author": "Tony Li",
+    "text": "IMHO, this seems like a waste of time.<br/>"
+  },
+  {
+    "dtime": 7507000,
+    "ptime": 7507000,
+    "author": "Benjamin Schwartz",
+    "text": "End-to-end systems often have this property, since they do not rely on any intermediary routers to do anything<br/>"
+  },
+  {
+    "dtime": 7516000,
+    "ptime": 7516000,
+    "author": "Éric Vyncke",
+    "text": "Thank you all<br/>"
+  },
+  {
+    "dtime": 7518000,
+    "ptime": 7518000,
+    "author": "Dan Li",
+    "text": "Thank you everyone<br/>"
+  },
+  {
+    "dtime": 7538000,
+    "ptime": 7538000,
+    "author": "Nan Geng",
+    "text": "Thanks<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-SAVNET-20220324-0900"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/savnet"
+		}
+	]
+}

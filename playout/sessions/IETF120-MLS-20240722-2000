@@ -1,0 +1,532 @@
+
+{
+	"title": "IETF120-MLS-20240722-2000",
+	"filename": "IETF120-MLS-20240722-2000",
+	"start": 0,
+	"end": 6823000,
+	"start_datetime": "2024-07-22T19:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "TpiXOfDU9lQ",
+    "start": 0,
+    "end": "6823000"
+  }
+],
+	"messages": [
+  {
+    "author": "Ryo Kajiwara",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 126000,
+    "ptime": 126000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>(It's meant to be Resync Risks, not Rsync Risks ;-))</p>",
+    "topic": "ietf-120",
+    "dtime": 151000,
+    "ptime": 151000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>can speaker speak up / closer to mic</p>",
+    "topic": "ietf-120",
+    "dtime": 247000,
+    "ptime": 247000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p>Second that, presenter is very hard to hear.</p>",
+    "topic": "ietf-120",
+    "dtime": 260000,
+    "ptime": 260000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Same from remote</p>",
+    "topic": "ietf-120",
+    "dtime": 326000,
+    "ptime": 326000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>So it's low in the room too? It may be turned off or batteries may be gone</p>",
+    "topic": "ietf-120",
+    "dtime": 427000,
+    "ptime": 427000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>I'll notify the AV team</p>",
+    "topic": "ietf-120",
+    "dtime": 435000,
+    "ptime": 435000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>It's fine in the room, is it possible to hear the questions?</p>",
+    "topic": "ietf-120",
+    "dtime": 811000,
+    "ptime": 811000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>yes</p>",
+    "topic": "ietf-120",
+    "dtime": 824000,
+    "ptime": 824000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>Let me know if Brendan can be heard when Brendan answers.</p>",
+    "topic": "ietf-120",
+    "dtime": 868000,
+    "ptime": 868000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Is it better now?</p>",
+    "topic": "ietf-120",
+    "dtime": 872000,
+    "ptime": 872000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>definitely better for me, thanks</p>",
+    "topic": "ietf-120",
+    "dtime": 887000,
+    "ptime": 887000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Yes, better now, thanks! At least on my end.</p>",
+    "topic": "ietf-120",
+    "dtime": 890000,
+    "ptime": 890000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>requires a signature forgery</p>",
+    "topic": "ietf-120",
+    "dtime": 1531000,
+    "ptime": 1531000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@Raphael, under what circumstances would a client accept an (in-group) commit that doesn't have a valid signature?</p>",
+    "topic": "ietf-120",
+    "dtime": 1611000,
+    "ptime": 1611000
+  },
+  {
+    "author": "Britta Hale",
+    "text": "<p>It will require a forgery for loss of PCS, but not for the junk commit / original prompt to reconnect.</p>",
+    "topic": "ietf-120",
+    "dtime": 1614000,
+    "ptime": 1614000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>@roham: It doesn't need to accept it, all that's needed is triggering a Resync. In a naive implementation, receiving too many \"unable to decrypt\" might just trigger that.</p>",
+    "topic": "ietf-120",
+    "dtime": 1693000,
+    "ptime": 1693000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>s/roham/rohan</p>",
+    "topic": "ietf-120",
+    "dtime": 1709000,
+    "ptime": 1709000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>a Commit without a valid signature should never trigger a Resync</p>",
+    "topic": "ietf-120",
+    "dtime": 1733000,
+    "ptime": 1733000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>if you use private messages, that's not an option unfortunately because you don't even get to the wrong signature</p>",
+    "topic": "ietf-120",
+    "dtime": 1842000,
+    "ptime": 1842000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>you could however make the point that private messages are not being used in this specific scenario</p>",
+    "topic": "ietf-120",
+    "dtime": 1862000,
+    "ptime": 1862000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>but we are talkign about publicmessage so the DS can have a GroupInfo</p>",
+    "topic": "ietf-120",
+    "dtime": 1879000,
+    "ptime": 1879000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>why would the client use PrivateMessage then provide the GroupInfo and ratchet tree to the DS?  that doesn't make sense</p>",
+    "topic": "ietf-120",
+    "dtime": 1911000,
+    "ptime": 1911000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>well, it really comes down to when an app does a Resync, which is currently not specified</p>",
+    "topic": "ietf-120",
+    "dtime": 1928000,
+    "ptime": 1928000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>I agree with Brendan, though, that it's not a high bar for an attacker that controls the DS to get another group member to create a commit that is validly signed, but that is \"broken\" w.r.t. Bob's group state.</p>",
+    "topic": "ietf-120",
+    "dtime": 1985000,
+    "ptime": 1985000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>Brendan's attack requires implementations doing this, which at least 2 implementations do NOT</p>",
+    "topic": "ietf-120",
+    "dtime": 2014000,
+    "ptime": 2014000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>sounds good!</p>",
+    "topic": "ietf-120",
+    "dtime": 2044000,
+    "ptime": 2044000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>sound is good here</p>",
+    "topic": "ietf-120",
+    "dtime": 2062000,
+    "ptime": 2062000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>10/10 great sound</p>",
+    "topic": "ietf-120",
+    "dtime": 2082000,
+    "ptime": 2082000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>@konrad, why would another client create a commit that is broken unless in is malicious (again a different threat model)</p>",
+    "topic": "ietf-120",
+    "dtime": 2084000,
+    "ptime": 2084000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>@rohan: The DS can always get members isolated and have them think all is peachy and they'll happily sign their own commits, which is then a commit with a valid signature but a wrong confirmation tag</p>",
+    "topic": "ietf-120",
+    "dtime": 2183000,
+    "ptime": 2183000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>you mean they do this on a fork?  those clients have a consistent progression of epochs, right?</p>",
+    "topic": "ietf-120",
+    "dtime": 3118000,
+    "ptime": 3118000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>In this way, the DS could procure a commit with a newer epoch, but not with an older one.</p>",
+    "topic": "ietf-120",
+    "dtime": 3209000,
+    "ptime": 3209000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>@rohan: I think we are not aligned with some of the assumptions</p>",
+    "topic": "ietf-120",
+    "dtime": 3281000,
+    "ptime": 3281000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Not sure where the problem should go, but I'd be happy to sketch a document with the solutions.</p>",
+    "topic": "ietf-120",
+    "dtime": 3477000,
+    "ptime": 3477000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Point of procedure: I propose that the Chairs nominate a small design team to go away and resolve this (in reference to invalid commits and external rejoins).</p>",
+    "topic": "ietf-120",
+    "dtime": 3834000,
+    "ptime": 3834000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>We're getting there</p>",
+    "topic": "ietf-120",
+    "dtime": 3940000,
+    "ptime": 3940000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>The objection here is that, while the technical issues raised are non-controversial, the controversial issue is whether that discussion belongs in an architecture doc?</p>",
+    "topic": "ietf-120",
+    "dtime": 4128000,
+    "ptime": 4128000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> i think so</p>",
+    "topic": "ietf-120",
+    "dtime": 4240000,
+    "ptime": 4240000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>What kind of issue did you experience with the show of hands?</p>",
+    "topic": "ietf-120",
+    "dtime": 4366000,
+    "ptime": 4366000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>You are on Raphael?</p>",
+    "topic": "ietf-120",
+    "dtime": 4378000,
+    "ptime": 4378000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>you must have an R in your name to participate in this working group, ideally starting with R</p>",
+    "topic": "ietf-120",
+    "dtime": 4410000,
+    "ptime": 4410000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Richard Raphael Rohan bRendan konRad bRitta</p>",
+    "topic": "ietf-120",
+    "dtime": 4424000,
+    "ptime": 4424000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Looks like I had a technical issue</p>",
+    "topic": "ietf-120",
+    "dtime": 4482000,
+    "ptime": 4482000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>Rescorla beuRdouche omaRa</p>",
+    "topic": "ietf-120",
+    "dtime": 4491000,
+    "ptime": 4491000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>not sure how Millican slipped through</p>",
+    "topic": "ietf-120",
+    "dtime": 4505000,
+    "ptime": 4505000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>@Mike - yes, that's the core of the issue.  on the one hand, technically an issue.  on the other hand, pretty cornery case.</p>",
+    "topic": "ietf-120",
+    "dtime": 4566000,
+    "ptime": 4566000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>test</p>",
+    "topic": "ietf-120",
+    "dtime": 4823000,
+    "ptime": 4823000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>received</p>",
+    "topic": "ietf-120",
+    "dtime": 4830000,
+    "ptime": 4830000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>I have not contributed text to any MLS stuff but look: deiRdRe <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+    "topic": "ietf-120",
+    "dtime": 4968000,
+    "ptime": 4968000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>The chairs’ interpretation is that there was an objection to the fact that the PR contained a high-level discussion of how to approach solutions to the problems raised and the PR should only describe the problem. Brendan clarified earlier that the PR does not include technical details about solutions and that those should be left to protocol documents.</p>",
+    "topic": "ietf-120",
+    "dtime": 5035000,
+    "ptime": 5035000
+  },
+  {
+    "author": "Nick Sullivan",
+    "text": "<p>Please correct us if this is wrong. We'll do the poll soon.</p>",
+    "topic": "ietf-120",
+    "dtime": 5092000,
+    "ptime": 5092000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>@chairs: There seems to be a bug in meetecho where remote participants don't see new slides without rejoining, that's why I wasn't able to present earlier</p>",
+    "topic": "ietf-120",
+    "dtime": 6048000,
+    "ptime": 6048000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>I'm seeing the same thing ^</p>",
+    "topic": "ietf-120",
+    "dtime": 6076000,
+    "ptime": 6076000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Raphael: do you mean that as a newly joined participant you see the current slides, but then when a new deck is loaded you don't see those?</p>",
+    "topic": "ietf-120",
+    "dtime": 6187000,
+    "ptime": 6187000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>correct</p>",
+    "topic": "ietf-120",
+    "dtime": 6199000,
+    "ptime": 6199000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>Lorenzo: that's exactly what I'm seeing</p>",
+    "topic": "ietf-120",
+    "dtime": 6203000,
+    "ptime": 6203000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, I'll see if I can replicate</p>",
+    "topic": "ietf-120",
+    "dtime": 6213000,
+    "ptime": 6213000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>ah - I had problems too and had to rejoin</p>",
+    "topic": "ietf-120",
+    "dtime": 6218000,
+    "ptime": 6218000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>In addition to that the unmute buttons for mic/cam also didn't work, but I could still receive the video/audio stream</p>",
+    "topic": "ietf-120",
+    "dtime": 6247000,
+    "ptime": 6247000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Instead of an epoch, why not just bind the update to the public key material that's meant to be updated? Maybe include the hash of the LeafNode in the proposal?</p>",
+    "topic": "ietf-120",
+    "dtime": 6320000,
+    "ptime": 6320000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>After Brendan's attack I'm not a big fan of using epochs to prevent rollbacks.</p>",
+    "topic": "ietf-120",
+    "dtime": 6348000,
+    "ptime": 6348000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>interestingly, this time the slide switch worked</p>",
+    "topic": "ietf-120",
+    "dtime": 6352000,
+    "ptime": 6352000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>same here</p>",
+    "topic": "ietf-120",
+    "dtime": 6358000,
+    "ptime": 6358000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Mh as a new participant, I waited for a new deck and it worked</p>",
+    "topic": "ietf-120",
+    "dtime": 6365000,
+    "ptime": 6365000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We'll try and replicate this to see if there's indeed a bug lurking somewhere, thanks for the heads up!</p>",
+    "topic": "ietf-120",
+    "dtime": 6415000,
+    "ptime": 6415000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>I had nothing in my chat and no slides since 14:24, then reloaded and got new messages but not the two messages I sent</p>",
+    "topic": "ietf-120",
+    "dtime": 6498000,
+    "ptime": 6498000
+  },
+  {
+    "author": "Rohan Mahy",
+    "text": "<p>(using lite)</p>",
+    "topic": "ietf-120",
+    "dtime": 6522000,
+    "ptime": 6522000
+  },
+  {
+    "author": "Thom Wiggers",
+    "text": "<p>new slides worked again; maybe because it was a two-slide deck again?</p>",
+    "topic": "ietf-120",
+    "dtime": 6601000,
+    "ptime": 6601000
+  },
+  {
+    "author": "Raphael Robert",
+    "text": "<p>Thanks everyone!</p>",
+    "topic": "ietf-120",
+    "dtime": 6806000,
+    "ptime": 6806000
+  },
+  {
+    "author": "Konrad Kohbrok",
+    "text": "<p>Thanks!</p>",
+    "topic": "ietf-120",
+    "dtime": 6812000,
+    "ptime": 6812000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-MLS-20240722-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/mls"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-MLS-20240722-2000"
+		}		
+	]
+}

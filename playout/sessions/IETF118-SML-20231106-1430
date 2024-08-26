@@ -1,0 +1,217 @@
+
+{
+	"title": "IETF118-SML-20231106-1430",
+	"filename": "IETF118-SML-20231106-1430",
+	"start": 0,
+	"end": 5640000,
+	"start_datetime": "2023-11-06T14:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "LL-r41m_n7I",
+    "start": 0,
+    "end": "5640000"
+  }
+],
+	"messages": [
+  {
+    "author": "Darrel Miller",
+    "text": "<p>My only concern with this scenario is it starts to heavily overlap with the idea of a shared calendar.  Is email the right protocol to do shared calendar sync?</p>",
+    "topic": "ietf-118",
+    "dtime": 936000,
+    "ptime": 936000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Darrel: maybe :-). Let's have this discussion on the mailing list</p>",
+    "topic": "ietf-118",
+    "dtime": 1021000,
+    "ptime": 1021000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>Another automatable thing is for the MUA of the person sending to the vacationer so that it knows when to warn the user composing a new email ot the vacationer..</p>",
+    "topic": "ietf-118",
+    "dtime": 1106000,
+    "ptime": 1106000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>Questions/comments at the end for the use cases document</p>",
+    "topic": "ietf-118",
+    "dtime": 1448000,
+    "ptime": 1448000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I like Email. All of them.</p>",
+    "topic": "ietf-118",
+    "dtime": 1489000,
+    "ptime": 1489000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>Thanks for the pointer to RFC9078.  Excuse me while I go send that link to a few people.</p>",
+    "topic": "ietf-118",
+    "dtime": 1554000,
+    "ptime": 1554000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I really appreciate hotel/travel confirmation emails.  Some services scrape them from emails, which very mixed results, and no actual standard to refer to.   My favourite London hotel's confirmations are completely un-scrapable, it seems,  and I wish I had more concrete thing to point them at.</p>",
+    "topic": "ietf-118",
+    "dtime": 1671000,
+    "ptime": 1671000
+  },
+  {
+    "author": "Murray Kucherawy",
+    "text": "<p>I get all of those at once sometimes.</p>",
+    "topic": "ietf-118",
+    "dtime": 1697000,
+    "ptime": 1697000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>. o O ( here is a video from your Ring of your package being stolen from your doorstep.  Would you like to order another? )</p>",
+    "topic": "ietf-118",
+    "dtime": 1748000,
+    "ptime": 1748000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>I think the idea of a use-case document is really helpful.  It will help make the concept of \"structured email\" real to product people who will influence adoption in MUAs.</p>",
+    "topic": "ietf-118",
+    "dtime": 1768000,
+    "ptime": 1768000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2475\">Darrel Miller</span> <a href=\"#narrow/stream/361-sml/topic/ietf-118/near/94922\">said</a>:</p>\n<blockquote>\n<p>I think the idea of a use-case document is really helpful.  It will help make the concept of \"structured email\" real to product people who will influence adoption in MUAs.</p>\n</blockquote>\n<p>It doesn't have to be MUAs.  It can be third-party services and/or applications, and since it will have a Media Type, it can be passed off to another local program.</p>",
+    "topic": "ietf-118",
+    "dtime": 1817000,
+    "ptime": 1817000
+  },
+  {
+    "author": "Darrel Miller",
+    "text": "<p>@Michael  Agreed. It wasn't my intent to exclude other potential users of the doc.</p>",
+    "topic": "ietf-118",
+    "dtime": 1929000,
+    "ptime": 1929000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>As a participant: I prefer just 1 serialization for now</p>",
+    "topic": "ietf-118",
+    "dtime": 2200000,
+    "ptime": 2200000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2475\">Darrel Miller</span> <a href=\"#narrow/stream/361-sml/topic/ietf-118/near/94936\">said</a>:</p>\n<blockquote>\n<p>@Michael  Agreed. It wasn't my intent to exclude other potential users of the doc.</p>\n</blockquote>\n<p>I\"m saying that we don't have to wait for MUA product people to be convinced.  We can have stand-alone systems sooner.</p>",
+    "topic": "ietf-118",
+    "dtime": 2387000,
+    "ptime": 2387000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"370\">Alexey Melnikov</span> <a href=\"#narrow/stream/361-sml/topic/ietf-118/near/94956\">said</a>:</p>\n<blockquote>\n<p>As a participant: I prefer just 1 serialization for now</p>\n</blockquote>\n<p>Once we pick XML, we will have to support it forever.  If that 1% is really relevant, then meh.</p>",
+    "topic": "ietf-118",
+    "dtime": 2416000,
+    "ptime": 2416000
+  },
+  {
+    "author": "Phillip Tao",
+    "text": "<p>I agree with Alexey that we should keep things as limited and focused as possible, especially to start with. We don't want this to end up like S/MIME, where there are so many algorithms that are allowed for everything that client compatibility ends up being all over the place.</p>",
+    "topic": "ietf-118",
+    "dtime": 2758000,
+    "ptime": 2758000
+  },
+  {
+    "author": "Phillip Tao",
+    "text": "<p>I'm wary of non-representation as a vector of abuse. I guess that's probably covered later in the security section?</p>",
+    "topic": "ietf-118",
+    "dtime": 2904000,
+    "ptime": 2904000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>@Phillip - if not, please bring this up on the mailing list!</p>",
+    "topic": "ietf-118",
+    "dtime": 2935000,
+    "ptime": 2935000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Sorry, email address change emails, if they violate GDPR, then they violate it in text form now, so providers should allow that to be turned off now.</p>",
+    "topic": "ietf-118",
+    "dtime": 3304000,
+    "ptime": 3304000
+  },
+  {
+    "author": "Phillip Tao",
+    "text": "<p>I pretty much agree with Bron, but to play devil's advocate a bit, including PII in structured data means lower cost to attackers to extract this data, which may incentivize some spammers/attacks to do things/do more things than they're doing today.</p>",
+    "topic": "ietf-118",
+    "dtime": 3503000,
+    "ptime": 3503000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"2890\">Phillip Tao</span> <a href=\"#narrow/stream/361-sml/topic/ietf-118/near/95050\">said</a>:</p>\n<blockquote>\n<p>I pretty much agree with Bron, but to play devil's advocate a bit, including PII in structured data means lower cost to attackers to extract this data, which may incentivize some spammers/attacks to do things/do more things than they're doing today.</p>\n</blockquote>\n<p>so, the spammers and attackers are doing just fine today, and the lack of a good way to communicate this information means that my legitimate updates are getting lost.</p>",
+    "topic": "ietf-118",
+    "dtime": 3675000,
+    "ptime": 3675000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>is this reason for this Message-Context, because the MIME Ttype would otherwise have a multipart, with HTML for legacy receivers?<br>\n(otherwise, we could say, application/structured or something like that)</p>",
+    "topic": "ietf-118",
+    "dtime": 3801000,
+    "ptime": 3801000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>When parameters are added to Content-Disposition, this shows up for free in IMAP BODYSTRUCTURE. So there are counter arguments to what John Levine just said.</p>",
+    "topic": "ietf-118",
+    "dtime": 4037000,
+    "ptime": 4037000
+  },
+  {
+    "author": "Phillip Tao",
+    "text": "<p>@Michael - Sure, that's why I said I said I was playing devil's advocate. I think the cost-benefit still tilts heavily in favor of allowing PII in the structured data.</p>",
+    "topic": "ietf-118",
+    "dtime": 4094000,
+    "ptime": 4094000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>If there is a clear benefit that MUAs can provide to senders that sign their emails, that would be a major boon to making email signing more common.    Certainly, if encrypted, then more information/details could be included, and that would incentivise the user to set that up.</p>",
+    "topic": "ietf-118",
+    "dtime": 4680000,
+    "ptime": 4680000
+  },
+  {
+    "author": "Jim Fenton",
+    "text": "<p>There's a related thing, \"Expect Signed Mail\" from dkg that is being discussed in secdispatch right now.</p>",
+    "topic": "ietf-118",
+    "dtime": 5120000,
+    "ptime": 5120000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-SML-20231106-1430"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/sml"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-SML-20231106-1430"
+		}		
+	]
+}

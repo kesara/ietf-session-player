@@ -1,0 +1,329 @@
+
+{
+	"title": "IETF116-CFRG-20230331-0030",
+	"filename": "IETF116-CFRG-20230331-0030",
+	"start": 0,
+	"end": 6873000,
+	"start_datetime": "2023-03-31T00:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "GZRb-w-xxtY",
+    "start": 0,
+    "end": "6873000"
+  }
+],
+	"messages": [
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>just wanted to say that this \"Guidelines for writing cryptography specifications\" draft is really great guidance.  even when it seems obvious it's really helpful to set these things down clearly and explicitly.</p>",
+    "topic": "jabber",
+    "dtime": 536000,
+    "ptime": 536000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 644000,
+    "ptime": 644000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>+1 to Nick's \"how to write crypto specifications\" draft</p>",
+    "topic": "jabber",
+    "dtime": 738000,
+    "ptime": 738000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 1221000,
+    "ptime": 1221000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>I would definitely keep negative test vectors, but they might misleading making an implementer that they covered all edge cases</p>",
+    "topic": "ietf-116",
+    "dtime": 3050000,
+    "ptime": 3050000
+  },
+  {
+    "author": "Jeremie Miller",
+    "text": "<p>IANA test vector registry? :)</p>",
+    "topic": "ietf-116",
+    "dtime": 3096000,
+    "ptime": 3096000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Move test vectors to an (IETF-owned) github repo?</p>",
+    "topic": "ietf-116",
+    "dtime": 3125000,
+    "ptime": 3125000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>I just want to make sure the test vectors are available as reliably as the draft itself.</p>\n<p>Github could go away, or lock out the IETF from their repos, etc</p>",
+    "topic": "ietf-116",
+    "dtime": 3159000,
+    "ptime": 3159000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>(maybe not!  if we're ok being all-in on github anyway, then i guess it's not much different)</p>",
+    "topic": "ietf-116",
+    "dtime": 3266000,
+    "ptime": 3266000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Implementers don't look at IANA's website.  That's why RFCs say \"IANA has assigned the id 17 to the BLABLA payload\" rather than \"check out IANA's registry for the id of BLABLA\".  Similarly, we don't want to require them to go to github.</p>\n<p>The test vectors should be in the draft itself, perhaps in an appendix.</p>",
+    "topic": "ietf-116",
+    "dtime": 3299000,
+    "ptime": 3299000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>+1</p>",
+    "topic": "ietf-116",
+    "dtime": 3338000,
+    "ptime": 3338000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i wonder whether the datatracker could have \"auto-collapsed\" sections to avoid scaring people, and \"page count\" stats could show the length without the collapsed sections.  I'd love it if the test vectors in draft-ietf-lamps-header-protection didn't make the draft so scarily long.</p>",
+    "topic": "ietf-116",
+    "dtime": 3394000,
+    "ptime": 3394000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Right. I'm having the same issues with the LAMPS composites draft where the sample PEM public keys will end up being well over 50% of the page length. Is that really helpful or just noise?</p>\n<p>In particular, SPHINCS+ signature samples are multiple pages each (and a pain in the butt to copy out of the draft cause you've got to remove newlines, page footers, etc)</p>",
+    "topic": "ietf-116",
+    "dtime": 3609000,
+    "ptime": 3609000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Collapsing appendices seems to be a tractable thing</p>",
+    "topic": "ietf-116",
+    "dtime": 3627000,
+    "ptime": 3627000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>I prefer the additional RFC approach for test vectors, personally</p>",
+    "topic": "ietf-116",
+    "dtime": 3644000,
+    "ptime": 3644000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1666\">@David Waite</span> for all test vectors, or just for negative test vectors?</p>",
+    "topic": "ietf-116",
+    "dtime": 3668000,
+    "ptime": 3668000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>examples in the main RFC also exposed as positive test vectors in the second.</p>",
+    "topic": "ietf-116",
+    "dtime": 3764000,
+    "ptime": 3764000
+  },
+  {
+    "author": "David Waite",
+    "text": "<p>so the test vectors doc is a superset, with values in the main document there to serve an illustrative purpose</p>",
+    "topic": "ietf-116",
+    "dtime": 3844000,
+    "ptime": 3844000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1666\">David Waite</span> <a href=\"#narrow/stream/267-cfrg/topic/ietf-116/near/72474\">said</a>:</p>\n<blockquote>\n<p>so the test vectors doc is a superset, with values in the main document there to serve an illustrative purpose</p>\n</blockquote>\n<p>I like that.</p>",
+    "topic": "ietf-116",
+    "dtime": 3860000,
+    "ptime": 3860000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>I don't really see the negative side of having a long RFC, with test vectors in an appendix.I would see an advantage in having the vectors draft published later for additional scrutiny (or gather additional feedback on the vectors themselves), but once the RFC is set, it makes sense to have all material in a single place</p>",
+    "topic": "ietf-116",
+    "dtime": 4040000,
+    "ptime": 4040000
+  },
+  {
+    "author": "Alexey Melnikov",
+    "text": "<p>FYI, in real time transcription Alexey Melnikov should be replaced with Stanislav Smyshlyaev.</p>",
+    "topic": "ietf-116",
+    "dtime": 4132000,
+    "ptime": 4132000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>I do think that positive test vectors should be cleanly and clearly separated from negative test vectors.  and each negative test vector should be clearly annotated with what specifically has gone wrong, and a reasonable way for how the failure should present in the abstract API</p>",
+    "topic": "ietf-116",
+    "dtime": 4399000,
+    "ptime": 4399000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Wycheproof is a good example of what negative test vectors can look like, including the additional context that DKG mentions.</p>",
+    "topic": "ietf-116",
+    "dtime": 4456000,
+    "ptime": 4456000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>seems like a pattern we should hash out in Nick's guidelines draft</p>",
+    "topic": "ietf-116",
+    "dtime": 4467000,
+    "ptime": 4467000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Indeed!</p>",
+    "topic": "ietf-116",
+    "dtime": 4584000,
+    "ptime": 4584000
+  },
+  {
+    "author": "Christopher Wood",
+    "text": "<p>Citing Wycheproof as a positive example for others to follow.</p>",
+    "topic": "ietf-116",
+    "dtime": 4602000,
+    "ptime": 4602000
+  },
+  {
+    "author": "Armando Faz-Hernández",
+    "text": "<p>negative test vectors allow to spot common errors often made by implementers.</p>",
+    "topic": "ietf-116",
+    "dtime": 4757000,
+    "ptime": 4757000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>[appsec testing hat]<br>\nIt's staggering the number of times that I find unit or functional tests with robust positive tests and absolutely no negative test cases. I often frame this as \"quality tests\" vs \"security tests\". If you don't have any tests for \"This had better not work\", then you haven't done any security testing.</p>",
+    "topic": "ietf-116",
+    "dtime": 4911000,
+    "ptime": 4911000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>love when the happy path is the fast path</p>",
+    "topic": "ietf-116",
+    "dtime": 5184000,
+    "ptime": 5184000
+  },
+  {
+    "author": "Tim Geoghegan",
+    "text": "<p>+1 to Chris, it's totally fine for VDAF to allow for more aggregators than DAP does</p>",
+    "topic": "ietf-116",
+    "dtime": 5631000,
+    "ptime": 5631000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>\"2 servers should be enough for everybody!\"</p>",
+    "topic": "ietf-116",
+    "dtime": 5634000,
+    "ptime": 5634000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>was there a memo that every cfrg slide deck MUST include art from randall munroe?</p>",
+    "topic": "ietf-116",
+    "dtime": 5899000,
+    "ptime": 5899000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>it is a good question</p>",
+    "topic": "ietf-116",
+    "dtime": 5918000,
+    "ptime": 5918000
+  },
+  {
+    "author": "Aron Wussler",
+    "text": "<p>That should go in the guidance as well</p>",
+    "topic": "ietf-116",
+    "dtime": 5956000,
+    "ptime": 5956000
+  },
+  {
+    "author": "Stavros Kousidis",
+    "text": "<p>Yes, there is a reason: We are heavily relying on the random oracle properties of Keccak.</p>",
+    "topic": "ietf-116",
+    "dtime": 6066000,
+    "ptime": 6066000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>sorry, errant click</p>",
+    "topic": "ietf-116",
+    "dtime": 6103000,
+    "ptime": 6103000
+  },
+  {
+    "author": "Phillipp Schoppmann",
+    "text": "<p>Regarding SHA3 vs SHA2: We also went for SHA3 in some parts of VDAF, because it defines an extendable output function that we use to instantiate a random oracle (with variable-length output), and it was faster than HKDF+SHA2. But we'd also be very interested if there is an efficient SHA2 based construction.</p>",
+    "topic": "ietf-116",
+    "dtime": 6285000,
+    "ptime": 6285000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/267-cfrg/topic/ietf-116/near/72635\">said</a>:</p>\n<blockquote>\n<p>was there a memo that every cfrg slide deck MUST include art from randall munroe?</p>\n</blockquote>\n<p>I wonder if Randall Munroe knows that his art appears all over crypto conference slides? I imagine he would not be displeased.</p>",
+    "topic": "ietf-116",
+    "dtime": 6729000,
+    "ptime": 6729000
+  },
+  {
+    "author": "Richard Barnes",
+    "text": "<p>i would note that the HPKE IANA registries are Specification Required, so there's no need for CFRG to take any action in order to register the code points</p>",
+    "topic": "ietf-116",
+    "dtime": 6738000,
+    "ptime": 6738000
+  },
+  {
+    "author": "Massimiliano Pala",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-116",
+    "dtime": 6849000,
+    "ptime": 6849000
+  },
+  {
+    "author": "Kazue Sako",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-116",
+    "dtime": 6858000,
+    "ptime": 6858000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>I've just posted this about test vectors: <a href=\"https://github.com/ietf-tools/datatracker/issues/5457\">https://github.com/ietf-tools/datatracker/issues/5457</a></p>",
+    "topic": "ietf-116",
+    "dtime": 6867000,
+    "ptime": 6867000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-CFRG-20230331-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/cfrg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-CFRG-20230331-0030"
+		}		
+	]
+}

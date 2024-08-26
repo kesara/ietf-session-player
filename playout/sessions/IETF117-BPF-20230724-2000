@@ -1,0 +1,294 @@
+
+{
+	"title": "IETF117-BPF-20230724-2000",
+	"filename": "IETF117-BPF-20230724-2000",
+	"start": 0,
+	"end": 7427000,
+	"start_datetime": "2023-07-24T20:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "jTtPbJqfYwI",
+    "start": 0,
+    "end": "7427000"
+  }
+],
+	"messages": [
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span>🏼👍🏼</p>",
+    "topic": "ietf-117",
+    "dtime": 654000,
+    "ptime": 654000
+  },
+  {
+    "author": "Max Hawkins",
+    "text": "<p>Where should I put the notes I am taking?</p>",
+    "topic": "ietf-117",
+    "dtime": 864000,
+    "ptime": 864000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>the note taking hedgemd.</p>",
+    "topic": "ietf-117",
+    "dtime": 877000,
+    "ptime": 877000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>Fourth button from the left.</p>",
+    "topic": "ietf-117",
+    "dtime": 886000,
+    "ptime": 886000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-117-bpf\">https://notes.ietf.org/notes-ietf-117-bpf</a></p>",
+    "topic": "ietf-117",
+    "dtime": 898000,
+    "ptime": 898000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>Does IETF/IESG want to host a public github/gitlab instance that is connected via our datatracker accounts?</p>",
+    "topic": "ietf-117",
+    "dtime": 1584000,
+    "ptime": 1584000
+  },
+  {
+    "author": "Adam Wiethuechter",
+    "text": "<p>I feel that using Github is a meta issue in general, where would that be raised?</p>",
+    "topic": "ietf-117",
+    "dtime": 1629000,
+    "ptime": 1629000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>I think a bug tracker and hosting tied to datatracker would be very useful.  No idea where it would be raised, though.</p>",
+    "topic": "ietf-117",
+    "dtime": 2425000,
+    "ptime": 2425000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>I'm told that the IETF LLC already has a commercial gitlab license. I'd like to see that used more.</p>",
+    "topic": "ietf-117",
+    "dtime": 2436000,
+    "ptime": 2436000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>if we referencing anything in the kernel repo - i think its important we reference specific commits/tags rather than the file alone</p>",
+    "topic": "ietf-117",
+    "dtime": 2438000,
+    "ptime": 2438000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>I don't think we should ever reference the kernel repository from ietf documents</p>",
+    "topic": "ietf-117",
+    "dtime": 2463000,
+    "ptime": 2463000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p>IANA's registry is not an IETF \"document\", so we could easily point there initially, and later on, to an RFC.</p>",
+    "topic": "ietf-117",
+    "dtime": 2528000,
+    "ptime": 2528000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"994\">Christoph Hellwig</span> <a href=\"#narrow/stream/365-bpf/topic/ietf-117/near/79219\">said</a>:</p>\n<blockquote>\n<p>I think a bug tracker and hosting tied to datatracker would be very useful.  No idea where it would be raised, though.</p>\n</blockquote>\n<p>something as simple as Redmine or equivalent would be great for plain issue tracking</p>\n<p>but i would concur with a GitLab instance to allow for code hosting options - also makes for easier governance to manage things like WG's etc - i mean side note - can any random person create an ietf-wg org on github?</p>",
+    "topic": "ietf-117",
+    "dtime": 2548000,
+    "ptime": 2548000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>@MCR Maybe that's how Github makes money</p>",
+    "topic": "ietf-117",
+    "dtime": 2680000,
+    "ptime": 2680000
+  },
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"219\">@Anthony Somerset</span> , sure, any random person can register an organization named ietf-wg-foobar.  It would be a discourteous thing to do, when you (the WG chairs) ask the secretariat to create one, then they set themselves as admins, and arrange to do backups of the organization.</p>",
+    "topic": "ietf-117",
+    "dtime": 2858000,
+    "ptime": 2858000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>yes thats the potential governance meta issue that exists with github :) that could in theory be \"fixed\" when using gitlab</p>",
+    "topic": "ietf-117",
+    "dtime": 2905000,
+    "ptime": 2905000
+  },
+  {
+    "author": "Amanda Baber",
+    "text": "<p>A note about early allocation (ignore if irrelevant!) - <a href=\"https://datatracker.ietf.org/doc/html/rfc7120\">https://datatracker.ietf.org/doc/html/rfc7120</a> sets out a procedure for getting \"early allocation\" codepoints (which will be marked \"TEMPORARY,\" but can be renewed until document approval). This policy is available only when the registry requires RFC publication (RFC Required, IETF Review, or Standards Action; can be Specification Required). FCFS and Expert Review registrations can be made early (subject to expert approval in the latter case), but are permanent. (Exception: isis wg's RFC 7370 specifically allows RFC 7120-style temporary/renewable early assignment in their Expert Review registries.)</p>",
+    "topic": "ietf-117",
+    "dtime": 3068000,
+    "ptime": 3068000
+  },
+  {
+    "author": "Anthony Somerset",
+    "text": "<p>agree option 2 looks cleaner</p>",
+    "topic": "ietf-117",
+    "dtime": 4157000,
+    "ptime": 4157000
+  },
+  {
+    "author": "Daniam Henriques",
+    "text": "<p>Agreed</p>",
+    "topic": "ietf-117",
+    "dtime": 4222000,
+    "ptime": 4222000
+  },
+  {
+    "author": "Amanda Baber",
+    "text": "<p>Speaking for IANA, we're OK with Option 1 (looks OK on Github, if I understand correctly) or Option 2. With 1, if you want some kind of sorting beyond the first column, that should be specified in the document. For Option 2, the registry/many subregistries model, the document would need to be clear about what the registration procedure(s) would be for any subregistries created in the future. (If it takes an RFC to make a registration in the main registry, the subregistry registration procedure can be left up to that RFC if you want. If a subregistry can be created for an Expert Review codepoint, we need to know the registration procedure in advance.)</p>",
+    "topic": "ietf-117",
+    "dtime": 4842000,
+    "ptime": 4842000
+  },
+  {
+    "author": "Max Hawkins",
+    "text": "<p>Can someone else take over writing notes? I have to step out.</p>",
+    "topic": "ietf-117",
+    "dtime": 5232000,
+    "ptime": 5232000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@meetecho</p>",
+    "topic": "ietf-117",
+    "dtime": 5900000,
+    "ptime": 5900000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>Cannot see a slideset</p>",
+    "topic": "ietf-117",
+    "dtime": 5907000,
+    "ptime": 5907000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p>David Vernet: Focus is on ISA for now, but no reason not to start this, what is ISA?</p>",
+    "topic": "ietf-117",
+    "dtime": 5928000,
+    "ptime": 5928000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Was it uploaded after the session started?</p>",
+    "topic": "ietf-117",
+    "dtime": 5929000,
+    "ptime": 5929000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>We just imported a 5th deck, can you let us know if it's the one you were looking for?</p>",
+    "topic": "ietf-117",
+    "dtime": 5977000,
+    "ptime": 5977000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>Yes. That was it Lorenzo</p>",
+    "topic": "ietf-117",
+    "dtime": 5995000,
+    "ptime": 5995000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-117",
+    "dtime": 5998000,
+    "ptime": 5998000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>We found an alternate path to share from chair computer</p>",
+    "topic": "ietf-117",
+    "dtime": 6008000,
+    "ptime": 6008000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack!</p>",
+    "topic": "ietf-117",
+    "dtime": 6016000,
+    "ptime": 6016000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>ISA stands for Instruction Set Architecture</p>",
+    "topic": "ietf-117",
+    "dtime": 6071000,
+    "ptime": 6071000
+  },
+  {
+    "author": "Suresh Krishnan",
+    "text": "<p>@behcet: this is the document we were talking about <a href=\"https://datatracker.ietf.org/doc/draft-thaler-bpf-isa/\">https://datatracker.ietf.org/doc/draft-thaler-bpf-isa/</a></p>",
+    "topic": "ietf-117",
+    "dtime": 6126000,
+    "ptime": 6126000
+  },
+  {
+    "author": "Behcet Sarikaya",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"395\">@Suresh Krishnan</span> Thx</p>",
+    "topic": "ietf-117",
+    "dtime": 6172000,
+    "ptime": 6172000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Sounds like there's confidence that there's no \"running code\" use of ELF \"machine\" value 247 for anything other than BPF \"out there\", is that correct?</p>",
+    "topic": "ietf-117",
+    "dtime": 6392000,
+    "ptime": 6392000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>I think it was formally registered, with the caveat of the ELF psABI registration beeing pretty information for a formal registry.  I need to look at my noted because we did some research on that for the BOF.</p>",
+    "topic": "ietf-117",
+    "dtime": 6778000,
+    "ptime": 6778000
+  },
+  {
+    "author": "Christoph Hellwig",
+    "text": "<p>The odd information way of the ELF psABI machine magic number registrations is a really good argument for why we should go with an IANA registry BTW - life would have been much simpler if the ELF psABI code points were managed by IANA..</p>",
+    "topic": "ietf-117",
+    "dtime": 6829000,
+    "ptime": 6829000
+  },
+  {
+    "author": "Benson Muite",
+    "text": "<p>Thanks</p>",
+    "topic": "ietf-117",
+    "dtime": 7399000,
+    "ptime": 7399000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-BPF-20230724-2000"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/bpf"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-BPF-20230724-2000"
+		}		
+	]
+}

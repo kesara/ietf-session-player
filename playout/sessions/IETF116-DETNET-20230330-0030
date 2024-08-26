@@ -1,0 +1,112 @@
+
+{
+	"title": "IETF116-DETNET-20230330-0030",
+	"filename": "IETF116-DETNET-20230330-0030",
+	"start": 0,
+	"end": 7359000,
+	"start_datetime": "2023-03-30T00:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "mF2CE9utDZU",
+    "start": 0,
+    "end": "7359000"
+  }
+],
+	"messages": [
+  {
+    "author": "Toerless Eckert",
+    "text": "<p>+1 on thanks to david</p>",
+    "topic": "ietf-116",
+    "dtime": 1360000,
+    "ptime": 1360000
+  },
+  {
+    "author": "János Farkas",
+    "text": "<p>Thank you very much David!</p>",
+    "topic": "ietf-116",
+    "dtime": 1365000,
+    "ptime": 1365000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>As the saying goes \"You cannot control, what you cannot measure\" :slightly_smiling_face:</p>",
+    "topic": "ietf-116",
+    "dtime": 1848000,
+    "ptime": 1848000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>There's at least one proposed solution that does that piecewise rather than end-to-end.</p>",
+    "topic": "ietf-116",
+    "dtime": 1902000,
+    "ptime": 1902000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>Sure, let's discuss it. The problem is that not all metrics are composable, i.e., the e2e metric can be composed of spatial metrics.</p>",
+    "topic": "ietf-116",
+    "dtime": 2666000,
+    "ptime": 2666000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>This (ADN) is a proposed solution that does it piecewise (notice the large sigma in the center of the slide).</p>",
+    "topic": "ietf-116",
+    "dtime": 2910000,
+    "ptime": 2910000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>If anything allows for a delay variation, simple summarization of latencies may lead to incorrect conclusions</p>",
+    "topic": "ietf-116",
+    "dtime": 3203000,
+    "ptime": 3203000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>What is BW utilization of the proposed method?</p>",
+    "topic": "ietf-116",
+    "dtime": 3310000,
+    "ptime": 3310000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>Sum is of upper bounds.</p>",
+    "topic": "ietf-116",
+    "dtime": 3317000,
+    "ptime": 3317000
+  },
+  {
+    "author": "David Black",
+    "text": "<p>On BW utilization, suggest asking Jinoo directly.</p>",
+    "topic": "ietf-116",
+    "dtime": 3385000,
+    "ptime": 3385000
+  },
+  {
+    "author": "Greg Mirsky",
+    "text": "<p>That might be acceptable estimate if delay variation is significantly smaller compared to the delay. Otherwise, we may end with overestimating the delay and, as a result, using too much of the resources.</p>",
+    "topic": "ietf-116",
+    "dtime": 3466000,
+    "ptime": 3466000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF116-DETNET-20230330-0030"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/116/session/detnet"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF116-DETNET-20230330-0030"
+		}		
+	]
+}

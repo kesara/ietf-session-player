@@ -1,0 +1,287 @@
+
+{
+	"title": "IETF-SCITT-20230703-1500",
+	"filename": "IETF-SCITT-20230703-1500",
+	"start": 0,
+	"end": 3788000,
+	"start_datetime": "2023-07-03T15:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "WWMHzhHZctw",
+    "start": 0,
+    "end": "3788000"
+  }
+],
+	"messages": [
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p><a href=\"https://notes.ietf.org/notes-ietf-interim-2023-scitt-23-scitt\">https://notes.ietf.org/notes-ietf-interim-2023-scitt-23-scitt</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 607000,
+    "ptime": 607000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p><a href=\"https://www.ietf.org/archive/id/draft-ietf-scitt-architecture-01.html\">https://www.ietf.org/archive/id/draft-ietf-scitt-architecture-01.html</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 721000,
+    "ptime": 721000
+  },
+  {
+    "author": "Dick Brooks",
+    "text": "<p>I agree with Roy - trust in the TS is sufficient to trust the data provided</p>",
+    "topic": "ietf-interim",
+    "dtime": 1624000,
+    "ptime": 1624000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>\"registration policy\" remains confusing, when compared to \"issuer enrollment\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 1666000,
+    "ptime": 1666000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>registration policy applies to adding signed statements</p>",
+    "topic": "ietf-interim",
+    "dtime": 1681000,
+    "ptime": 1681000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>knowing who you trust to sign statements applies to \"issuer enrollment\".</p>",
+    "topic": "ietf-interim",
+    "dtime": 1699000,
+    "ptime": 1699000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p>If you have a better term, Orie, happy to take it</p>",
+    "topic": "ietf-interim",
+    "dtime": 1981000,
+    "ptime": 1981000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>there is also this PR, which I welcome any feedback on: <a href=\"https://github.com/ietf-scitt/draft-steele-cose-merkle-tree-proofs/pull/18\">https://github.com/ietf-scitt/draft-steele-cose-merkle-tree-proofs/pull/18</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2214000,
+    "ptime": 2214000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p><a href=\"https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture\">https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2239000,
+    "ptime": 2239000
+  },
+  {
+    "author": "Mitja Goroshevsky",
+    "text": "<p><a href=\"https://ietf-wg-scitt.github.io/draft-ietf-scitt-architecture/draft-ietf-scitt-architecture.html\">https://ietf-wg-scitt.github.io/draft-ietf-scitt-architecture/draft-ietf-scitt-architecture.html</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 2365000,
+    "ptime": 2365000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>might be better to describe feed as being the \"transparency services accepted name\"... issuer proposes it, but transparency service registration policy determins if it will be accepted.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2592000,
+    "ptime": 2592000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>feed is an \"identifier\" for a \"topic\"... could be about anything, since identifier can refer to anything.</p>",
+    "topic": "ietf-interim",
+    "dtime": 2664000,
+    "ptime": 2664000
+  },
+  {
+    "author": "Henk Birkholz",
+    "text": "<p>a \"registration policy\" feed?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3072000,
+    "ptime": 3072000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>you might consider asking the TS for transparency regarding its issuers</p>",
+    "topic": "ietf-interim",
+    "dtime": 3144000,
+    "ptime": 3144000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>but that is different than asking for transparency regarding artifacts</p>",
+    "topic": "ietf-interim",
+    "dtime": 3164000,
+    "ptime": 3164000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>sounds like this question is actually about key transparency</p>",
+    "topic": "ietf-interim",
+    "dtime": 3183000,
+    "ptime": 3183000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>the consumer is trusting the TS... thats the whole point.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3221000,
+    "ptime": 3221000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>the consumer does not trust \"author signatures\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3235000,
+    "ptime": 3235000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>the consumer trusts \"package management signatures\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3246000,
+    "ptime": 3246000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>Let's discuss it as a separate issue. (We considered a few solutions, but none of them may fully solve this issue.)</p>",
+    "topic": "ietf-interim",
+    "dtime": 3247000,
+    "ptime": 3247000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>I think it will help if we have some specific usage examples of the service in gory detail.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3279000,
+    "ptime": 3279000
+  },
+  {
+    "author": "Cedric Fournet",
+    "text": "<p>And yes, a registration policy feed + a way to refer to the last registered statement on that feed is one of these solutions.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3293000,
+    "ptime": 3293000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>You used to trust Apple app store, but then they started letting anyone publish apps... how did you learn they lowered there standards? What can you do as a consumer of apps?</p>",
+    "topic": "ietf-interim",
+    "dtime": 3351000,
+    "ptime": 3351000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>etc...</p>",
+    "topic": "ietf-interim",
+    "dtime": 3354000,
+    "ptime": 3354000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>im, you are really asking for an endorsement on a TS</p>",
+    "topic": "ietf-interim",
+    "dtime": 3374000,
+    "ptime": 3374000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>an answer to \"which TS should I trust for statements about xyz artifacts\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3400000,
+    "ptime": 3400000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>first part TS (where the issuer and the TS are the same) is less trustworthy, because incentives are not aligned</p>",
+    "topic": "ietf-interim",
+    "dtime": 3433000,
+    "ptime": 3433000
+  },
+  {
+    "author": "Mitja Goroshevsky",
+    "text": "<p>You should trust no one actually.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3449000,
+    "ptime": 3449000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>^ true story : )</p>",
+    "topic": "ietf-interim",
+    "dtime": 3473000,
+    "ptime": 3473000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>+1 Hannes! VRFs def interesting</p>",
+    "topic": "ietf-interim",
+    "dtime": 3511000,
+    "ptime": 3511000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>It seems that the TS mainly provides a way to assess blame if something goes wrong. If users know they can be blamed, then they start to be more honest. We hope.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3514000,
+    "ptime": 3514000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>yes, consensus call is for the charter.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3628000,
+    "ptime": 3628000
+  },
+  {
+    "author": "Hannes Tschofenig",
+    "text": "<p><a href=\"https://bren2010.github.io/draft-key-transparency/draft-mcmillion-key-transparency.html\">https://bren2010.github.io/draft-key-transparency/draft-mcmillion-key-transparency.html</a></p>",
+    "topic": "ietf-interim",
+    "dtime": 3636000,
+    "ptime": 3636000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>Not sure if we can avoid sometimes parallel structures even if we try to avoid them. I see no reason to duplicate KT structures.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3672000,
+    "ptime": 3672000
+  },
+  {
+    "author": "Orie Steele",
+    "text": "<p>they need \"search proofs\" and \"proofs of non inclusion\"</p>",
+    "topic": "ietf-interim",
+    "dtime": 3708000,
+    "ptime": 3708000
+  },
+  {
+    "author": "Raymond Lutz",
+    "text": "<p>registries might have different structures btween SCITT and KT.</p>",
+    "topic": "ietf-interim",
+    "dtime": 3756000,
+    "ptime": 3756000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-SCITT-20230703-1500"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2023-scitt-23/session/scitt"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF-SCITT-20230703-1500"
+		}
+	]
+}

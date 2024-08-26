@@ -1,0 +1,649 @@
+{
+  "title": "IETF100-V6OPS-20171116-0930",
+  "filename": "IETF100-V6OPS-20171116-0930",
+  "start": 0,
+  "end": 7109000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "OebzZGuBr88",
+      "start": 0.0,
+      "end": 7109000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "Mark Andrews: not sure as we never tried, we\u0027ll look into this when we get back, thanks for the heads up!",
+      "ptime": 40000.0,
+      "dtime": 1132000.0,
+      "author": "meetecho"
+    },
+    {
+      "text": "***Tomohiro Fujisaki just joined the room",
+      "ptime": 42000.0,
+      "dtime": 1134000.0
+    },
+    {
+      "text": "Erik Kline at mic",
+      "ptime": 96000.0,
+      "dtime": 1188000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Jen Linkova at mic",
+      "ptime": 195000.0,
+      "dtime": 1287000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 535000.0,
+      "dtime": 1627000.0
+    },
+    {
+      "text": "For remote participants, in case you haven\u0027t already figured it out:",
+      "ptime": 581000.0,
+      "dtime": 1673000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Agenda is at https://datatracker.ietf.org/meeting/100/materials/agenda-100-v6ops/  and includes links to the drafts.",
+      "ptime": 600000.0,
+      "dtime": 1692000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "***Ole Jacobsen just joined the room",
+      "ptime": 605000.0,
+      "dtime": 1697000.0
+    },
+    {
+      "text": "lee: nowadays I just take for granted that people use the meetecho web page. I kept asking IETF94-98 or something if people wanted draft links and pages typed out, and nobody wanted that. Ever. So I just stopped.",
+      "ptime": 652000.0,
+      "dtime": 1744000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "lee: nowadays I just take for granted that people use the meetecho web page. I kept asking IETF94-98 or something if people wanted draft links and pages typed out, and nobody wanted that. Ever. So I just stopped.",
+      "ptime": 652000.0,
+      "dtime": 1744000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "It really depends on your link quality.",
+      "ptime": 730000.0,
+      "dtime": 1822000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "It really depends on your link quality.",
+      "ptime": 730000.0,
+      "dtime": 1822000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "I also like to provide too much information, in case we have new participants.",
+      "ptime": 765000.0,
+      "dtime": 1857000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Bpb Hinden at mic",
+      "ptime": 776000.0,
+      "dtime": 1868000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "also the meetecho video is much smaller",
+      "ptime": 776000.0,
+      "dtime": 1868000.0,
+      "author": "Mark Andrews"
+    },
+    {
+      "text": "Bob Hinden",
+      "ptime": 787000.0,
+      "dtime": 1879000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "So, just in case: you can also get slides from https://datatracker.ietf.org/meeting/100/session/v6ops",
+      "ptime": 822000.0,
+      "dtime": 1914000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Paul Marks at mic",
+      "ptime": 856000.0,
+      "dtime": 1948000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ole Troan at mic",
+      "ptime": 880000.0,
+      "dtime": 1972000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ole Troan at mic",
+      "ptime": 880000.0,
+      "dtime": 1972000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Erik Kline at mic",
+      "ptime": 940000.0,
+      "dtime": 2032000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 981000.0,
+      "dtime": 2073000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "oh sorry",
+      "ptime": 985000.0,
+      "dtime": 2077000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Erik Kline at mic",
+      "ptime": 987000.0,
+      "dtime": 2079000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 1002000.0,
+      "dtime": 2094000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Alexandru Petrescu at mic",
+      "ptime": 1115000.0,
+      "dtime": 2207000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Dave Thaler at mic",
+      "ptime": 1238000.0,
+      "dtime": 2330000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mikael Abrahamsson at mic",
+      "ptime": 1256000.0,
+      "dtime": 2348000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Dave Thaler at mic",
+      "ptime": 1262000.0,
+      "dtime": 2354000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mikael Abrahamsson at mic",
+      "ptime": 1369000.0,
+      "dtime": 2461000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 1463000.0,
+      "dtime": 2555000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Funny how we as chairs assume that everyone just recognizes our voices. Fred Baker speaking.",
+      "ptime": 1544000.0,
+      "dtime": 2636000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 1560000.0,
+      "dtime": 2652000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ole Troan was at mic",
+      "ptime": 1612000.0,
+      "dtime": 2704000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Timothy Winters at mic",
+      "ptime": 1618000.0,
+      "dtime": 2710000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 1652000.0,
+      "dtime": 2744000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ole Troan was at mic",
+      "ptime": 1670000.0,
+      "dtime": 2762000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Fred Baker speaking agani",
+      "ptime": 1712000.0,
+      "dtime": 2804000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 1744000.0,
+      "dtime": 2836000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ole Troan was at mic",
+      "ptime": 1795000.0,
+      "dtime": 2887000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 1836000.0,
+      "dtime": 2928000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mikael, if you need to get in line, I\u0027ll cover for you here",
+      "ptime": 1866000.0,
+      "dtime": 2958000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Alex Petrescu at mic",
+      "ptime": 1955000.0,
+      "dtime": 3047000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Ole Troan responding",
+      "ptime": 1992000.0,
+      "dtime": 3084000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Mikael Abrahamsson at mic",
+      "ptime": 2091000.0,
+      "dtime": 3183000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Erik Kline at mic",
+      "ptime": 2176000.0,
+      "dtime": 3268000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Erik Kline at mic",
+      "ptime": 2177000.0,
+      "dtime": 3269000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Paul Marks at mic",
+      "ptime": 2253000.0,
+      "dtime": 3345000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 2272000.0,
+      "dtime": 3364000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Alexandre Petrescu at mic",
+      "ptime": 2372000.0,
+      "dtime": 3464000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Mikael Abrahamsson just left the room",
+      "ptime": 2655000.0,
+      "dtime": 3747000.0
+    },
+    {
+      "text": "***Mikael Abrahamsson just joined the room",
+      "ptime": 2655000.0,
+      "dtime": 3747000.0
+    },
+    {
+      "text": "Fred Baker speaking",
+      "ptime": 2902000.0,
+      "dtime": 3994000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Fred Baker speaking",
+      "ptime": 2902000.0,
+      "dtime": 3994000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 2986000.0,
+      "dtime": 4078000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Ole Troan at mic",
+      "ptime": 3046000.0,
+      "dtime": 4138000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Tr?an",
+      "ptime": 3054000.0,
+      "dtime": 4146000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Mikael Abrahamasson at mic",
+      "ptime": 3083000.0,
+      "dtime": 4175000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 3201000.0,
+      "dtime": 4293000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ron Bonica at mic",
+      "ptime": 3377000.0,
+      "dtime": 4469000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lee Howard at mic",
+      "ptime": 3395000.0,
+      "dtime": 4487000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***William Jensen just joined the room",
+      "ptime": 3397000.0,
+      "dtime": 4489000.0
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 3455000.0,
+      "dtime": 4547000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 3455000.0,
+      "dtime": 4547000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mikael Abrahamsson was before Lorenzo",
+      "ptime": 3462000.0,
+      "dtime": 4554000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "***Ole Jacobsen just left the room",
+      "ptime": 3544000.0,
+      "dtime": 4636000.0
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 3827000.0,
+      "dtime": 4919000.0
+    },
+    {
+      "text": "Mikael Abrahamsson at mic",
+      "ptime": 3981000.0,
+      "dtime": 5073000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Barbara Stark at mic",
+      "ptime": 4087000.0,
+      "dtime": 5179000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Hans Liu",
+      "ptime": 4232000.0,
+      "dtime": 5324000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 4249000.0,
+      "dtime": 5341000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Hans Liu at mic",
+      "ptime": 4444000.0,
+      "dtime": 5536000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Alexandre PETRESCU just joined the room",
+      "ptime": 4516000.0,
+      "dtime": 5608000.0
+    },
+    {
+      "text": "Alan Durand at mic",
+      "ptime": 4564000.0,
+      "dtime": 5656000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "test ignore",
+      "ptime": 4702000.0,
+      "dtime": 5794000.0,
+      "author": "Alexandre PETRESCU"
+    },
+    {
+      "text": "test ignore",
+      "ptime": 4702000.0,
+      "dtime": 5794000.0,
+      "author": "Alexandre PETRESCU"
+    },
+    {
+      "text": "***Douglas Stamper just left the room",
+      "ptime": 4724000.0,
+      "dtime": 5816000.0
+    },
+    {
+      "text": "Lee Howard at mic",
+      "ptime": 4741000.0,
+      "dtime": 5833000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "test ignore, on \"ietf-v6ONLY\" ESSID at IETF 100",
+      "ptime": 4759000.0,
+      "dtime": 5851000.0,
+      "author": "Alexandre PETRESCU"
+    },
+    {
+      "text": "Stephen Nc at mic",
+      "ptime": 4960000.0,
+      "dtime": 6052000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mark Andrews a Meet mic",
+      "ptime": 5085000.0,
+      "dtime": 6177000.0,
+      "author": "Lee"
+    },
+    {
+      "text": "Alain Durand at mic",
+      "ptime": 5156000.0,
+      "dtime": 6248000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***Alexandre PETRESCU just left the room",
+      "ptime": 5199000.0,
+      "dtime": 6291000.0
+    },
+    {
+      "text": "Ian Farrer at mic",
+      "ptime": 5199000.0,
+      "dtime": 6291000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Alain Durand at mic",
+      "ptime": 5381000.0,
+      "dtime": 6473000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 5473000.0,
+      "dtime": 6565000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lee Howard at mic",
+      "ptime": 5583000.0,
+      "dtime": 6675000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Fred Baker speaking",
+      "ptime": 5706000.0,
+      "dtime": 6798000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 6026000.0,
+      "dtime": 7118000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ole Troan at mic",
+      "ptime": 6244000.0,
+      "dtime": 7336000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 6372000.0,
+      "dtime": 7464000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mark Andrews at mic",
+      "ptime": 6378000.0,
+      "dtime": 7470000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Lorenzo Colitti at mic",
+      "ptime": 6456000.0,
+      "dtime": 7548000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Ole Troan at mic",
+      "ptime": 6549000.0,
+      "dtime": 7641000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "oh",
+      "ptime": 6552000.0,
+      "dtime": 7644000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Jen Linkova at mic",
+      "ptime": 6554000.0,
+      "dtime": 7646000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "chongfeng xie at mic",
+      "ptime": 6630000.0,
+      "dtime": 7722000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "Mark Andrews at mic",
+      "ptime": 6635000.0,
+      "dtime": 7727000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "chongfeng xie at mic",
+      "ptime": 6717000.0,
+      "dtime": 7809000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "end of meeting.",
+      "ptime": 7029000.0,
+      "dtime": 8121000.0,
+      "author": "Mikael Abrahamsson"
+    },
+    {
+      "text": "***William Jensen just left the room",
+      "ptime": 7087000.0,
+      "dtime": 8179000.0
+    },
+    {
+      "text": "***Mark Andrews just left the room",
+      "ptime": 7094000.0,
+      "dtime": 8186000.0
+    },
+    {
+      "text": "***Mikael Abrahamsson just left the room",
+      "ptime": 7094000.0,
+      "dtime": 8186000.0
+    },
+    {
+      "text": "***John Border just left the room",
+      "ptime": 7108000.0,
+      "dtime": 8200000.0
+    },
+    {
+      "text": "***Mikio Hara just left the room",
+      "ptime": 7108000.0,
+      "dtime": 8200000.0
+    },
+    {
+      "text": "***Alexander Ibarra just left the room",
+      "ptime": 7108000.0,
+      "dtime": 8200000.0
+    },
+    {
+      "text": "***Tomohiro Fujisaki just left the room",
+      "ptime": 7108000.0,
+      "dtime": 8200000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF100-V6OPS-20171116-0930"
+    }
+  ]
+}

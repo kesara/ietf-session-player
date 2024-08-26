@@ -1,0 +1,388 @@
+{
+  "title": "IETF98-DTN-20170329-0900",
+  "filename": "IETF98-DTN-20170329-0900.json",
+  "start": 0,
+  "end": 9035000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2,
+      "src": "UXWxQkipxio",
+      "start": 0,
+      "end": 9035000
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Brenda Lyons just joined the room",
+      "ptime": 59000,
+      "dtime": 829000
+    },
+    {
+      "text": "***Keith Scott just joined the room",
+      "ptime": 140000,
+      "dtime": 910000
+    },
+    {
+      "text": "anyone remote?",
+      "ptime": 239000,
+      "dtime": 1009000,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Brian Sipos just joined the room",
+      "ptime": 255000,
+      "dtime": 1025000
+    },
+    {
+      "text": "if you want anything relayed at the mic, please preface your comment with \"mic:\" and then i'll go to the mic for ya",
+      "ptime": 280000,
+      "dtime": 1050000,
+      "author": "sftcd"
+    },
+    {
+      "text": "yes, I've just arrived a bit late",
+      "ptime": 289000,
+      "dtime": 1059000,
+      "author": "Brian Sipos"
+    },
+    {
+      "text": "just starting now really",
+      "ptime": 310000,
+      "dtime": 1080000,
+      "author": "sftcd"
+    },
+    {
+      "text": "thanks. stephen",
+      "ptime": 382000,
+      "dtime": 1152000,
+      "author": "Ronald in 't Velt"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-dtn-bundle-protocol-status-00.pdf slide 4 now",
+      "ptime": 432000,
+      "dtime": 1202000,
+      "author": "sftcd"
+    },
+    {
+      "text": "chairs mumble between themselves:-)",
+      "ptime": 526000,
+      "dtime": 1296000,
+      "author": "sftcd"
+    },
+    {
+      "text": "I'm strongly opposed to removing custody transfer to another document.",
+      "ptime": 596000,
+      "dtime": 1366000,
+      "author": "Keith Scott"
+    },
+    {
+      "text": "If we decouple custody transfer then it may allow nodes to just not ever implement reliability.",
+      "ptime": 695000,
+      "dtime": 1465000,
+      "author": "Keith Scott"
+    },
+    {
+      "text": "They'll implement the 'base' RFC5050bis and just not implement the custody transfer extension.",
+      "ptime": 727000,
+      "dtime": 1497000,
+      "author": "Keith Scott"
+    },
+    {
+      "text": "And all it takes is one node in the path to NOT implement custody transfer to require (in order to provide reliability) source-based retransmit.",
+      "ptime": 879000,
+      "dtime": 1649000,
+      "author": "Keith Scott"
+    },
+    {
+      "text": "***Keith Scott just joined the room",
+      "ptime": 955000,
+      "dtime": 1725000
+    },
+    {
+      "text": "***Keith Scott_1927 just joined the room",
+      "ptime": 959000,
+      "dtime": 1729000
+    },
+    {
+      "text": "Is the intent of the doc split to submit/approve them in a separate sequence? Or would they follow separate paths (base approved fully while the 'custody doc' follows its own path)?",
+      "ptime": 961000,
+      "dtime": 1731000,
+      "author": "Brian Sipos"
+    },
+    {
+      "text": "it enables just to get them done async, so we can ship bpbis now and in parallel continue working to define custody",
+      "ptime": 1000000,
+      "dtime": 1770000,
+      "author": "marc.blanchet.qc"
+    },
+    {
+      "text": "OK, so my last isn't really true.",
+      "ptime": 1007000,
+      "dtime": 1777000,
+      "author": "Keith Scott_1927"
+    },
+    {
+      "text": "***Keith Scott just left the room",
+      "ptime": 1011000,
+      "dtime": 1781000
+    },
+    {
+      "text": "Sorry, I meant to ask approval together vs. separate.",
+      "ptime": 1038000,
+      "dtime": 1808000,
+      "author": "Brian Sipos"
+    },
+    {
+      "text": "Since the non-custody-implementing nodes will just 'pass' custody.",
+      "ptime": 1053000,
+      "dtime": 1823000,
+      "author": "Keith Scott_1927"
+    },
+    {
+      "text": "I'm not against the split in any way, just trying to understand. Thanks for the clarification.",
+      "ptime": 1096000,
+      "dtime": 1866000,
+      "author": "Brian Sipos"
+    },
+    {
+      "text": "***patrick hu just joined the room",
+      "ptime": 1102000,
+      "dtime": 1872000
+    },
+    {
+      "text": "[thanks for relaying]",
+      "ptime": 1120000,
+      "dtime": 1890000,
+      "author": "Keith Scott_1927"
+    },
+    {
+      "text": "Pulling out Custody Transfer into a separate document is fine with me. Up to now, I have failed to understand how CT could ever be usefully combined with any multi-copy DTN routing strategy (but that may be just due to my ignorance)",
+      "ptime": 1151000,
+      "dtime": 1921000,
+      "author": "Ronald in 't Velt"
+    },
+    {
+      "text": "I see that Keith and Brian are also on meet echo. You can use meet echo to hear you in the room.",
+      "ptime": 1169000,
+      "dtime": 1939000,
+      "author": "marc.blanchet.qc"
+    },
+    {
+      "text": "@keith: any more you'd like me to say on this topic? I think you're the one \"opposing\" the change",
+      "ptime": 1324000,
+      "dtime": 2094000,
+      "author": "sftcd"
+    },
+    {
+      "text": "keith, would be willing to be the editor of the custody doc?",
+      "ptime": 1371000,
+      "dtime": 2141000,
+      "author": "marc.blanchet.qc"
+    },
+    {
+      "text": "I'm fine for now -- I'll follow up on the list.",
+      "ptime": 1372000,
+      "dtime": 2142000,
+      "author": "Keith Scott_1927"
+    },
+    {
+      "text": "Yes, will be editor of CT doc.",
+      "ptime": 1380000,
+      "dtime": 2150000,
+      "author": "Keith Scott_1927"
+    },
+    {
+      "text": "Thanks, Marc, I might ....:)",
+      "ptime": 1409000,
+      "dtime": 2179000,
+      "author": "Ronald in 't Velt"
+    },
+    {
+      "text": "ok, lets have Scott and you take care of this handover offline",
+      "ptime": 1429000,
+      "dtime": 2199000,
+      "author": "marc.blanchet.qc"
+    },
+    {
+      "text": "marc has a big red button he wants to hit to allow remote folks speak:-)",
+      "ptime": 1438000,
+      "dtime": 2208000,
+      "author": "sftcd"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-dtn-implementation-of-bpv7-bis-in-pcn-00.pdf",
+      "ptime": 1440000,
+      "dtime": 2210000,
+      "author": "sftcd"
+    },
+    {
+      "text": "I'm juggling while trying to pay attention, but was it obvious whether custody transfer was going to be MUST, SHOULD, or MAY in the BPbis document?",
+      "ptime": 1467000,
+      "dtime": 2237000,
+      "author": "spencerdawkins"
+    },
+    {
+      "text": "@spencer: I think the definition of the custody requested flag is in the base doc, but the code for whether or not you react to that will be optional, as was always the case, not 100% about senders, but I think it was also always optional there",
+      "ptime": 1547000,
+      "dtime": 2317000,
+      "author": "sftcd"
+    },
+    {
+      "text": "Stephen, thanks. That's what I was understanding, but I didn't remember anyone spelling that out, and wanted to ask before authors spent time splitting the documents.",
+      "ptime": 1639000,
+      "dtime": 2409000,
+      "author": "spencerdawkins"
+    },
+    {
+      "text": "***patrick hu just left the room",
+      "ptime": 1802000,
+      "dtime": 2572000
+    },
+    {
+      "text": "***Ronald in 't Velt just left the room",
+      "ptime": 1842000,
+      "dtime": 2612000
+    },
+    {
+      "text": "***Ronald in 't Velt just joined the room",
+      "ptime": 1933000,
+      "dtime": 2703000
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-dtn-bpsec-updates-00.pdf",
+      "ptime": 2141000,
+      "dtime": 2911000,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Ronald in 't Velt just left the room",
+      "ptime": 2222000,
+      "dtime": 2992000
+    },
+    {
+      "text": "Have read a prior rev of BPSEC, not latest",
+      "ptime": 2292000,
+      "dtime": 3062000,
+      "author": "Brian Sipos"
+    },
+    {
+      "text": "***Ronald in 't Velt just joined the room",
+      "ptime": 2490000,
+      "dtime": 3260000
+    },
+    {
+      "text": "***Ronald in 't Velt just left the room",
+      "ptime": 2992000,
+      "dtime": 3762000
+    },
+    {
+      "text": "***Ronald in 't Velt just joined the room",
+      "ptime": 3008000,
+      "dtime": 3778000
+    },
+    {
+      "text": "***Brenda Lyons just left the room",
+      "ptime": 3524000,
+      "dtime": 4294000
+    },
+    {
+      "text": "***Brenda Lyons just joined the room",
+      "ptime": 3542000,
+      "dtime": 4312000
+    },
+    {
+      "text": "***Ronald in 't Velt just left the room",
+      "ptime": 3612000,
+      "dtime": 4382000
+    },
+    {
+      "text": "https://datatracker.ietf.org/doc/draft-ietf-cose-msg/",
+      "ptime": 3815000,
+      "dtime": 4585000,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Ronald in 't Velt just joined the room",
+      "ptime": 3820000,
+      "dtime": 4590000
+    },
+    {
+      "text": "***Ronald in 't Velt just left the room",
+      "ptime": 4067000,
+      "dtime": 4837000
+    },
+    {
+      "text": "***Ronald in 't Velt just joined the room",
+      "ptime": 4221000,
+      "dtime": 4991000
+    },
+    {
+      "text": "But with BIB and BCB you get the ability to protect individual BLOCKS, so yes, I think Stephen's notion is to protect all or none of a BLOCK, but you don't have to authenticate whole bundles.",
+      "ptime": 4403000,
+      "dtime": 5173000,
+      "author": "Keith Scott_1927"
+    },
+    {
+      "text": "***Ronald in 't Velt just left the room",
+      "ptime": 4623000,
+      "dtime": 5393000
+    },
+    {
+      "text": "***Ronald in 't Velt just joined the room",
+      "ptime": 4637000,
+      "dtime": 5407000
+    },
+    {
+      "text": "That's what Ed just said",
+      "ptime": 4679000,
+      "dtime": 5449000,
+      "author": "Keith Scott_1927"
+    },
+    {
+      "text": "***Brenda Lyons just left the room",
+      "ptime": 5153000,
+      "dtime": 5923000
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-dtn-tcpcl-00.pdf",
+      "ptime": 5188000,
+      "dtime": 5958000,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 5221000,
+      "dtime": 5991000
+    },
+    {
+      "text": "***Brenda Lyons just joined the room",
+      "ptime": 5265000,
+      "dtime": 6035000
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 5328000,
+      "dtime": 6098000
+    },
+    {
+      "text": "Ran has been around longer than I have, but I believe that for most protocols, the use cases requiring extensions don't become obvious until five minutes after the RFC is announced :D",
+      "ptime": 7289000,
+      "dtime": 8059000,
+      "author": "spencerdawkins"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-dtn-ama-slides-00.pdf",
+      "ptime": 7577000,
+      "dtime": 8347000,
+      "author": "sftcd"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 7725000,
+      "dtime": 8495000
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

@@ -1,0 +1,179 @@
+
+{
+	"title": "IETF114-TEEP-20220728-1400",
+	"filename": "IETF114-TEEP-20220728-1400",
+	"start": 0,
+	"end": 7453000,
+	"start_datetime": "2022-07-28T13:59:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "L3wbcPM6C-Q",
+    "start": 0,
+    "end": "7453000"
+  }
+],
+	"messages": [
+  {
+    "author": "Brendan Moran",
+    "text": "<p>And less unfriendly to users, which is an IETF property</p>",
+    "dtime": 842000,
+    "ptime": 842000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>I very much like the new threat actor wording</p>",
+    "dtime": 861000,
+    "ptime": 861000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I'll try to leave some code for how to do this with COSE in the SUIT repo</p>",
+    "dtime": 1704000,
+    "ptime": 1704000
+  },
+  {
+    "author": "Penglin Yang",
+    "text": "<p>thanks very much</p>",
+    "dtime": 1777000,
+    "ptime": 1777000
+  },
+  {
+    "author": "Kohei Isobe",
+    "text": "<p>Now TEEP protocol provides some schemes for conveying attestation result/evidenece, but we'd better to make a hint which to use for readers in drafts.</p>",
+    "dtime": 3601000,
+    "ptime": 3601000
+  },
+  {
+    "author": "Ken Takayama",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"1165\">@Brendan Moran</span> <br>\nsuit-directive-unlink would be there in suit-uninstall</p>",
+    "dtime": 5473000,
+    "ptime": 5473000
+  },
+  {
+    "author": "Sorin Faibish",
+    "text": "<p>nothing is shared</p>",
+    "dtime": 5796000,
+    "ptime": 5796000
+  },
+  {
+    "author": "Jon Geater",
+    "text": "<p>slides showing here</p>",
+    "dtime": 5828000,
+    "ptime": 5828000
+  },
+  {
+    "author": "Sorin Faibish",
+    "text": "<p>yes</p>",
+    "dtime": 5830000,
+    "ptime": 5830000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"369\">Ken Takayama</span> <a href=\"#narrow/stream/163-teep/topic/jabber/near/29785\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1165\">Brendan Moran</span> <br>\nsuit-directive-unlink would be there in suit-uninstall</p>\n</blockquote>\n<p>That's what I expected. Would it be anything at all other than a list of components to unlink?</p>",
+    "dtime": 6143000,
+    "ptime": 6143000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"576\">@Brendan Moran</span> probably not, as long as the install doesn't do anything besides something that unlinking the last reference won't undo</p>",
+    "dtime": 6339000,
+    "ptime": 6339000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I would expect 4 commands:</p>\n<div class=\"codehilite\"><pre><span></span><code>set-component-index = [a, b, c ,d]\nunlink\nset-dependency-index = true\nprocess-dependency\n</code></pre></div>",
+    "dtime": 6349000,
+    "ptime": 6349000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>agree</p>",
+    "dtime": 6361000,
+    "ptime": 6361000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>Is it possible that there would ever be a required ordering between dependency unlinks and component unlinks?</p>",
+    "dtime": 6399000,
+    "ptime": 6399000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>and/or, conditional unlinks?</p>",
+    "dtime": 6418000,
+    "ptime": 6418000
+  },
+  {
+    "author": "Ken Takayama",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"576\">@Brendan Moran</span> <br>\nThat sequence is what I thought.</p>",
+    "dtime": 6438000,
+    "ptime": 6438000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>my opinion: no... because if refcounted, it would only go to 0 when it's ok.  i.e.internal  refcounts cover any ordering issue.</p>",
+    "dtime": 6443000,
+    "ptime": 6443000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>If there's any ordering requirement or conditional behaviour, then we might need a command sequence</p>",
+    "dtime": 6464000,
+    "ptime": 6464000
+  },
+  {
+    "author": "Brendan Moran",
+    "text": "<p>I have mixed feelings. On the one-hand, it strikes me that we only need a list of components to unlink.</p>\n<p>On the other hand, if there might be conditional unlinking or there might be an ordering requirement for unlinking between components specified in the current manifest and those specified in a dependency, then we need a command sequence.</p>\n<p>Similarly, the spirit of SUIT is to not imply too much, which pushes towards an uninstall command sequence.</p>",
+    "dtime": 6725000,
+    "ptime": 6725000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>I'm not worried about the security aspects any more than I was before, btw.   anything that it can do in an uninstall command sequence it could have done in install directives with a new manifest sequence number, so no change in security considerations that I can think of.   Any security issue was already there in the install directives.</p>",
+    "dtime": 7057000,
+    "ptime": 7057000
+  },
+  {
+    "author": "Ken Takayama",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"576\">Brendan Moran</span> <a href=\"#narrow/stream/163-teep/topic/jabber/near/29969\">said</a>:</p>\n<blockquote>\n<p>Is it possible that there would ever be a required ordering between dependency unlinks and component unlinks?</p>\n</blockquote>\n<p>It should be reverse sequence of suit-install. In case dependee first depending second in suit-install, it should be depending first dependee second in suit-uninstall.</p>",
+    "dtime": 7059000,
+    "ptime": 7059000
+  },
+  {
+    "author": "Dave Thaler",
+    "text": "<p>(I voted don't wait,do after)</p>",
+    "dtime": 7207000,
+    "ptime": 7207000
+  },
+  {
+    "author": "Sorin Faibish",
+    "text": "<p>We can discuss off line the container usecase</p>",
+    "dtime": 7256000,
+    "ptime": 7256000
+  },
+  {
+    "author": "Penglin Yang",
+    "text": "<p>sure</p>",
+    "dtime": 7391000,
+    "ptime": 7391000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF114-TEEP-20220728-1400"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/114/session/teep"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF114-TEEP-20220728-1400"
+		}		
+	]
+}

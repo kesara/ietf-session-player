@@ -1,0 +1,1715 @@
+{
+  "title": "IETF98-QUIC-20170330-0900",
+  "filename": "IETF98-QUIC-20170330-0900.json",
+  "start": 0,
+  "end": 9155000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2,
+      "src": "RslygIBng64",
+      "start": 0,
+      "end": 9155000
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Ken Murchison just joined the room",
+      "ptime": 13000,
+      "dtime": 1067000
+    },
+    {
+      "text": "***Francis Teague just joined the room",
+      "ptime": 14000,
+      "dtime": 1068000
+    },
+    {
+      "text": "***Charles Krasic just joined the room",
+      "ptime": 48000,
+      "dtime": 1102000
+    },
+    {
+      "text": "***p m just joined the room",
+      "ptime": 70000,
+      "dtime": 1124000
+    },
+    {
+      "text": "***Jim Welch just joined the room",
+      "ptime": 73000,
+      "dtime": 1127000
+    },
+    {
+      "text": "***Julian Reschke just joined the room",
+      "ptime": 81000,
+      "dtime": 1135000
+    },
+    {
+      "text": "***Spencer Dawkins just joined the room",
+      "ptime": 92000,
+      "dtime": 1146000
+    },
+    {
+      "text": "***Yang Song just joined the room",
+      "ptime": 104000,
+      "dtime": 1158000
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 130000,
+      "dtime": 1184000
+    },
+    {
+      "text": "***Chi-Jiun Su just joined the room",
+      "ptime": 131000,
+      "dtime": 1185000
+    },
+    {
+      "text": "We are starting - Mark Nottingham is reviewing the agenda",
+      "ptime": 137000,
+      "dtime": 1191000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 160000,
+      "dtime": 1214000
+    },
+    {
+      "text": "***Alain Durand just joined the room",
+      "ptime": 187000,
+      "dtime": 1241000
+    },
+    {
+      "text": "***Alain Durand_3681 just joined the room",
+      "ptime": 192000,
+      "dtime": 1246000
+    },
+    {
+      "text": "***Martin Duke just joined the room",
+      "ptime": 207000,
+      "dtime": 1261000
+    },
+    {
+      "text": "***Chi-Jiun Su just joined the room",
+      "ptime": 231000,
+      "dtime": 1285000
+    },
+    {
+      "text": "***Chi-Jiun Su_4101 just joined the room",
+      "ptime": 235000,
+      "dtime": 1289000
+    },
+    {
+      "text": "***dkg just joined the room",
+      "ptime": 237000,
+      "dtime": 1291000
+    },
+    {
+      "text": "***Daniel Stenberg just joined the room",
+      "ptime": 257000,
+      "dtime": 1311000
+    },
+    {
+      "text": "Lars Eggert introduces the meeting room setup experiment",
+      "ptime": 257000,
+      "dtime": 1311000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***Chi-Jiun Su just left the room",
+      "ptime": 259000,
+      "dtime": 1313000
+    },
+    {
+      "text": "***Richard Bradbury just joined the room",
+      "ptime": 267000,
+      "dtime": 1321000
+    },
+    {
+      "text": "Mark presents a status report of the WG",
+      "ptime": 286000,
+      "dtime": 1340000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***ted.h just joined the room",
+      "ptime": 308000,
+      "dtime": 1362000
+    },
+    {
+      "text": "***Dapeng Liu just joined the room",
+      "ptime": 326000,
+      "dtime": 1380000
+    },
+    {
+      "text": "***Ronald van der Pol just joined the room",
+      "ptime": 339000,
+      "dtime": 1393000
+    },
+    {
+      "text": "***Okke Timm just joined the room",
+      "ptime": 341000,
+      "dtime": 1395000
+    },
+    {
+      "text": "Now that we've started, I'll say this again",
+      "ptime": 342000,
+      "dtime": 1396000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "I'm scribing - if you would like a comment or question relayed at the mic, please prefix your comment with MIC:",
+      "ptime": 343000,
+      "dtime": 1397000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***Valery Smyslov just joined the room",
+      "ptime": 361000,
+      "dtime": 1415000
+    },
+    {
+      "text": "***Safa Almalki just joined the room",
+      "ptime": 383000,
+      "dtime": 1437000
+    },
+    {
+      "text": "***Fan Yang just joined the room",
+      "ptime": 384000,
+      "dtime": 1438000
+    },
+    {
+      "text": "***Padma Bhooma just joined the room",
+      "ptime": 436000,
+      "dtime": 1490000
+    },
+    {
+      "text": "***julien maisonneuve just joined the room",
+      "ptime": 438000,
+      "dtime": 1492000
+    },
+    {
+      "text": "***Bob Briscoe just joined the room",
+      "ptime": 441000,
+      "dtime": 1495000
+    },
+    {
+      "text": "***cameron byrne just joined the room",
+      "ptime": 485000,
+      "dtime": 1539000
+    },
+    {
+      "text": "***Wendy Seltzer just joined the room",
+      "ptime": 507000,
+      "dtime": 1561000
+    },
+    {
+      "text": "***Vicky Risk just joined the room",
+      "ptime": 577000,
+      "dtime": 1631000
+    },
+    {
+      "text": "who's at the mic?",
+      "ptime": 583000,
+      "dtime": 1637000,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "***Alain Durand just joined the room",
+      "ptime": 585000,
+      "dtime": 1639000
+    },
+    {
+      "text": "***Alain Durand_7025 just joined the room",
+      "ptime": 587000,
+      "dtime": 1641000
+    },
+    {
+      "text": "***Safa Almalki just joined the room",
+      "ptime": 642000,
+      "dtime": 1696000
+    },
+    {
+      "text": "***Safa Almalki_3482 just joined the room",
+      "ptime": 649000,
+      "dtime": 1703000
+    },
+    {
+      "text": "kaduk, I'm sure that Mark is aware, we are OK with only editors being able to apply tags",
+      "ptime": 679000,
+      "dtime": 1733000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "in fact, that's a good state in my opinion",
+      "ptime": 688000,
+      "dtime": 1742000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "if you feel inclined to say anything again, there is a seat next to DKG",
+      "ptime": 790000,
+      "dtime": 1844000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Arash Molavi Kakhki just joined the room",
+      "ptime": 838000,
+      "dtime": 1892000
+    },
+    {
+      "text": "Jana is very hard to understand on the remote audio",
+      "ptime": 919000,
+      "dtime": 1973000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "+1",
+      "ptime": 923000,
+      "dtime": 1977000,
+      "author": "Buck"
+    },
+    {
+      "text": "+1",
+      "ptime": 932000,
+      "dtime": 1986000,
+      "author": "Yang Song"
+    },
+    {
+      "text": "Yeah. It sounds to me like we don't have that mic remotely",
+      "ptime": 933000,
+      "dtime": 1987000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "Meetecho: did you see the above?",
+      "ptime": 963000,
+      "dtime": 2017000,
+      "author": "craigt"
+    },
+    {
+      "text": "***Safa Almalki_3482 just left the room",
+      "ptime": 970000,
+      "dtime": 2024000
+    },
+    {
+      "text": "***Safa Almalki just left the room",
+      "ptime": 971000,
+      "dtime": 2025000
+    },
+    {
+      "text": "Is he talking into the mic?",
+      "ptime": 978000,
+      "dtime": 2032000,
+      "author": "Simon Pietro Romano"
+    },
+    {
+      "text": "in the room, Jana is quite loud",
+      "ptime": 999000,
+      "dtime": 2053000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Yes, he's mic'd in the room",
+      "ptime": 1002000,
+      "dtime": 2056000,
+      "author": "craigt"
+    },
+    {
+      "text": "***safa almalky just joined the room",
+      "ptime": 1004000,
+      "dtime": 2058000
+    },
+    {
+      "text": "OK. looking into that.",
+      "ptime": 1028000,
+      "dtime": 2082000,
+      "author": "Simon Pietro Romano"
+    },
+    {
+      "text": "I think that having it in a different document would be useful, because it may adjust as we add using protocols.",
+      "ptime": 1033000,
+      "dtime": 2087000,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 1052000,
+      "dtime": 2106000
+    },
+    {
+      "text": "can Jana change seats?",
+      "ptime": 1053000,
+      "dtime": 2107000,
+      "author": "Buck"
+    },
+    {
+      "text": "Our sense of the API may be very different once we have partial reliability",
+      "ptime": 1064000,
+      "dtime": 2118000,
+      "author": "ted.h"
+    },
+    {
+      "text": "mic",
+      "ptime": 1068000,
+      "dtime": 2122000,
+      "author": "Natasha Rooney"
+    },
+    {
+      "text": "***safa almalky just left the room",
+      "ptime": 1078000,
+      "dtime": 2132000
+    },
+    {
+      "text": "***Martin Duke just joined the room",
+      "ptime": 1130000,
+      "dtime": 2184000
+    },
+    {
+      "text": "***Stanislav Slusny just joined the room",
+      "ptime": 1137000,
+      "dtime": 2191000
+    },
+    {
+      "text": "Not remotely",
+      "ptime": 1149000,
+      "dtime": 2203000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "i can not hear Jana still",
+      "ptime": 1150000,
+      "dtime": 2204000,
+      "author": "Buck"
+    },
+    {
+      "text": "That mic is not piped into the remote feed",
+      "ptime": 1158000,
+      "dtime": 2212000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "Can't hear Jana",
+      "ptime": 1159000,
+      "dtime": 2213000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "***Randell Jesup just joined the room",
+      "ptime": 1162000,
+      "dtime": 2216000
+    },
+    {
+      "text": "We can't hear it well remotely !",
+      "ptime": 1165000,
+      "dtime": 2219000,
+      "author": "Arash Molavi Kakhki"
+    },
+    {
+      "text": "We hear him echoing in other mics in the room",
+      "ptime": 1170000,
+      "dtime": 2224000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "Somebody from Meetecho is coming there",
+      "ptime": 1185000,
+      "dtime": 2239000,
+      "author": "Simon Pietro Romano"
+    },
+    {
+      "text": "in the background",
+      "ptime": 1206000,
+      "dtime": 2260000,
+      "author": "Buck"
+    },
+    {
+      "text": "***SAfe malki just joined the room",
+      "ptime": 1209000,
+      "dtime": 2263000
+    },
+    {
+      "text": "Was very quiet",
+      "ptime": 1210000,
+      "dtime": 2264000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "Same problem. His mic isn't piped into the remote feed",
+      "ptime": 1213000,
+      "dtime": 2267000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "no",
+      "ptime": 1215000,
+      "dtime": 2269000,
+      "author": "Jim Welch"
+    },
+    {
+      "text": "Meetecho thank you.",
+      "ptime": 1218000,
+      "dtime": 2272000,
+      "author": "Spencer Dawkins"
+    },
+    {
+      "text": "Yep, working on that",
+      "ptime": 1220000,
+      "dtime": 2274000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "so maybe all the table mics have this problem?",
+      "ptime": 1222000,
+      "dtime": 2276000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "Just 40 floors :-)",
+      "ptime": 1226000,
+      "dtime": 2280000,
+      "author": "Simon Pietro Romano"
+    },
+    {
+      "text": "do you hear lars and mark clearly?",
+      "ptime": 1229000,
+      "dtime": 2283000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "Could you hear dkg earlier?",
+      "ptime": 1230000,
+      "dtime": 2284000,
+      "author": "ted.h"
+    },
+    {
+      "text": "Possibly? Yes, chairs were clear",
+      "ptime": 1238000,
+      "dtime": 2292000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "I hear Lars, Mark, DKJ, Mirja, and Gorry well",
+      "ptime": 1247000,
+      "dtime": 2301000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "It should only be one or a few mics, as we tested them before",
+      "ptime": 1249000,
+      "dtime": 2303000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "sorry, new configuration for this room today",
+      "ptime": 1255000,
+      "dtime": 2309000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "mirja and gorry where using floor mics",
+      "ptime": 1259000,
+      "dtime": 2313000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***Julian Reschke just left the room",
+      "ptime": 1375000,
+      "dtime": 2429000
+    },
+    {
+      "text": "***Julian Reschke just joined the room",
+      "ptime": 1384000,
+      "dtime": 2438000
+    },
+    {
+      "text": "Let us know if audio has improved",
+      "ptime": 1481000,
+      "dtime": 2535000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Jana is now using floor mic, so should be audible",
+      "ptime": 1516000,
+      "dtime": 2570000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "yes",
+      "ptime": 1521000,
+      "dtime": 2575000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "yes",
+      "ptime": 1521000,
+      "dtime": 2575000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "At least the list isn't in pink",
+      "ptime": 1546000,
+      "dtime": 2600000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "are WINDOW_UPDATE frames really fatter than the other packets?",
+      "ptime": 1558000,
+      "dtime": 2612000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "there were 2 mics muted on the mixer, which should have been fixed now",
+      "ptime": 1597000,
+      "dtime": 2651000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "let us know if that's not the case",
+      "ptime": 1602000,
+      "dtime": 2656000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "sure, didn't mean to disrupt :) just wanted to update on the status",
+      "ptime": 1689000,
+      "dtime": 2743000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***SAfe malki just left the room",
+      "ptime": 1749000,
+      "dtime": 2803000
+    },
+    {
+      "text": "***sam noman just joined the room",
+      "ptime": 1792000,
+      "dtime": 2846000
+    },
+    {
+      "text": "***Martin Duke just left the room",
+      "ptime": 1974000,
+      "dtime": 3028000
+    },
+    {
+      "text": "***Martin Duke just left the room",
+      "ptime": 1979000,
+      "dtime": 3033000
+    },
+    {
+      "text": "***Martin Duke just joined the room",
+      "ptime": 1980000,
+      "dtime": 3034000
+    },
+    {
+      "text": "will do",
+      "ptime": 2067000,
+      "dtime": 3121000,
+      "author": "nygren"
+    },
+    {
+      "text": "***Martin Duke2 just joined the room",
+      "ptime": 2082000,
+      "dtime": 3136000
+    },
+    {
+      "text": "***yuki goto just left the room",
+      "ptime": 2164000,
+      "dtime": 3218000
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 2168000,
+      "dtime": 3222000
+    },
+    {
+      "text": "***Bob Briscoe just left the room",
+      "ptime": 2183000,
+      "dtime": 3237000
+    },
+    {
+      "text": "***Bob Briscoe just joined the room",
+      "ptime": 2191000,
+      "dtime": 3245000
+    },
+    {
+      "text": "Yeah, I'm never very happy with the \"everything is already ruined\" argument, but I grant that in this case there are lots of other binding possibilities.  Brian has a list of dozens.",
+      "ptime": 2196000,
+      "dtime": 3250000,
+      "author": "ted.h"
+    },
+    {
+      "text": "working",
+      "ptime": 2222000,
+      "dtime": 3276000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "working",
+      "ptime": 2222000,
+      "dtime": 3276000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "yay!",
+      "ptime": 2226000,
+      "dtime": 3280000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "Sounding good!",
+      "ptime": 2226000,
+      "dtime": 3280000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "I'm mostly worried about people doing it for simplicitly",
+      "ptime": 2227000,
+      "dtime": 3281000,
+      "author": "ted.h"
+    },
+    {
+      "text": "good",
+      "ptime": 2228000,
+      "dtime": 3282000,
+      "author": "Vicky Risk"
+    },
+    {
+      "text": "did that work?",
+      "ptime": 2228000,
+      "dtime": 3282000,
+      "author": "nygren"
+    },
+    {
+      "text": "nice",
+      "ptime": 2228000,
+      "dtime": 3282000,
+      "author": "Buck"
+    },
+    {
+      "text": "ack",
+      "ptime": 2237000,
+      "dtime": 3291000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Mike Czech, who's he?",
+      "ptime": 2244000,
+      "dtime": 3298000,
+      "author": "lucas_pardue"
+    },
+    {
+      "text": "https://github.com/quicwg/base-drafts/issues/232 seems like a relevant place to put comments where we can remember them",
+      "ptime": 2248000,
+      "dtime": 3302000,
+      "author": "mcmanus"
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 2256000,
+      "dtime": 3310000
+    },
+    {
+      "text": "***Simon Pietro Romano just joined the room",
+      "ptime": 2274000,
+      "dtime": 3328000
+    },
+    {
+      "text": "***yuki goto just left the room",
+      "ptime": 2310000,
+      "dtime": 3364000
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 2321000,
+      "dtime": 3375000
+    },
+    {
+      "text": "Using a few bits of the connection-id to indicate its length might be worth exploring.",
+      "ptime": 2671000,
+      "dtime": 3725000,
+      "author": "nygren"
+    },
+    {
+      "text": "***yuki goto just left the room",
+      "ptime": 2672000,
+      "dtime": 3726000
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 2685000,
+      "dtime": 3739000
+    },
+    {
+      "text": "(as much of a pain as that will be for hardware)",
+      "ptime": 2747000,
+      "dtime": 3801000,
+      "author": "nygren"
+    },
+    {
+      "text": "praveen is correct; the cost of this design is that you will need to know the version",
+      "ptime": 2808000,
+      "dtime": 3862000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "I think this design is in danger of being limited to 8 types forever, as older hardware will not transit any newer packet types",
+      "ptime": 2838000,
+      "dtime": 3892000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "Kyle: that is a risk we're willing to take",
+      "ptime": 2857000,
+      "dtime": 3911000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "Really?  Everything we???ve ever learned with other basic things like that tells use that such a built-in no-upgrade-path hurts later",
+      "ptime": 2895000,
+      "dtime": 3949000,
+      "author": "ajs"
+    },
+    {
+      "text": "we're going to talk later about grease for these fields so that middleboxes see almost entirely random packets",
+      "ptime": 2902000,
+      "dtime": 3956000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Julian Reschke just joined the room",
+      "ptime": 2904000,
+      "dtime": 3958000
+    },
+    {
+      "text": "ajs: agreed",
+      "ptime": 2904000,
+      "dtime": 3958000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "***Julian Reschke_3563 just joined the room",
+      "ptime": 2908000,
+      "dtime": 3962000
+    },
+    {
+      "text": "We???re still living with DNS???s stupid 1980s limitations because of that kind of decision",
+      "ptime": 2914000,
+      "dtime": 3968000,
+      "author": "ajs"
+    },
+    {
+      "text": "mt: ok, that's good. I was afraid we'd abandoned the principle of hiding as much info from middleboxes as possible (or, at least, making it so the middleboxes will need to pass most packets through unmolested for basic interop to work)",
+      "ptime": 2954000,
+      "dtime": 4008000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "who is speaking?",
+      "ptime": 2959000,
+      "dtime": 4013000,
+      "author": "Buck"
+    },
+    {
+      "text": "Andrew, we'd be happy to take that input.  Keep in mind that the sorts of things you are talking about here apply only to the short packet, which is only produced and consumed when you have state",
+      "ptime": 2964000,
+      "dtime": 4018000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "that sounds better, yes",
+      "ptime": 2965000,
+      "dtime": 4019000,
+      "author": "ajs"
+    },
+    {
+      "text": "well, as long as the grease is applied it might be ok",
+      "ptime": 2980000,
+      "dtime": 4034000,
+      "author": "ajs"
+    },
+    {
+      "text": "Having a version in the short packets will be needed for load balancers being able to know how to route them if we ever want to change the format.  Unlike the version in TLS TCP frames, the UDP packets here otherwise lack context.",
+      "ptime": 2988000,
+      "dtime": 4042000,
+      "author": "nygren"
+    },
+    {
+      "text": "emphasis on *might* :)",
+      "ptime": 2990000,
+      "dtime": 4044000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "it???s the Internet. The emphasis is always on ???might???",
+      "ptime": 3062000,
+      "dtime": 4116000,
+      "author": "ajs"
+    },
+    {
+      "text": "the packet number size is way too large (640k should be enough for anyone)",
+      "ptime": 3111000,
+      "dtime": 4165000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "General (and long) comment on version -02 of the protocol. I do believe it is a real pity that the group decided to stop the engines on multipath. I know you will answer it is (perhaps) going to be implemented as a QUIC extension. Though, I had much appreciated the fact that multipath had been considered as a first class citizen in the protocol. BTW, the code base was already there (with some tweaking we have been able to implement a bare-bones multipath functionality into the Chromium stack). I'd be interested in knowing the reasons behind that, given the assumption that multipath is a well-recognized desired feature. I'd be interested in knowing other people's ideas on that. P.S. Disregard this if you think it is disruptive for the ongoing conversation.",
+      "ptime": 3130000,
+      "dtime": 4184000,
+      "author": "Simon Pietro Romano"
+    },
+    {
+      "text": "Grease is so far unproven as a mechanism for defeating ossification, but we're about to find out with both QUIC and TLS 1.3",
+      "ptime": 3130000,
+      "dtime": 4184000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "@Martin  Some of the people in the room may not be old enough to know why that is snark.",
+      "ptime": 3142000,
+      "dtime": 4196000,
+      "author": "ted.h"
+    },
+    {
+      "text": "Transport Parameter Negotiation slide",
+      "ptime": 3235000,
+      "dtime": 4289000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "I guess as long as the server can always negotiate that the client \"always send long format with the version\" then the server can do that if it is behind a load balancer that needs to know the version.",
+      "ptime": 3246000,
+      "dtime": 4300000,
+      "author": "nygren"
+    },
+    {
+      "text": "I guess as long as the server can always negotiate that the client \"always send long format with the version\" then the server can do that if it is behind a load balancer that needs to know the version.",
+      "ptime": 3246000,
+      "dtime": 4300000,
+      "author": "nygren"
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 3246000,
+      "dtime": 4300000
+    },
+    {
+      "text": "***Yoshiro Yoneya_5680 just joined the room",
+      "ptime": 3250000,
+      "dtime": 4304000
+    },
+    {
+      "text": "MTU slide",
+      "ptime": 3286000,
+      "dtime": 4340000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "emacs maybe, but no way vi....",
+      "ptime": 3290000,
+      "dtime": 4344000,
+      "author": "Buck"
+    },
+    {
+      "text": "Am I correct in interpreting the earlier conversation as \"everything prior to the final cleartext packet requires no load balancer state\"?",
+      "ptime": 3310000,
+      "dtime": 4364000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "Packet Loss &c slide",
+      "ptime": 3388000,
+      "dtime": 4442000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***nagesh javali just joined the room",
+      "ptime": 3424000,
+      "dtime": 4478000
+    },
+    {
+      "text": "***Stefan Eissing just joined the room",
+      "ptime": 3472000,
+      "dtime": 4526000
+    },
+    {
+      "text": "***Maire Reavy just joined the room",
+      "ptime": 3490000,
+      "dtime": 4544000
+    },
+    {
+      "text": "That's not going to work. That works only for consistent-hash-based load balancing, not for other mechanisms that depend on persistent state.",
+      "ptime": 3518000,
+      "dtime": 4572000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 3593000,
+      "dtime": 4647000
+    },
+    {
+      "text": "***Cedrick Mbeyet just joined the room",
+      "ptime": 3597000,
+      "dtime": 4651000
+    },
+    {
+      "text": "***sam noman just left the room",
+      "ptime": 3614000,
+      "dtime": 4668000
+    },
+    {
+      "text": "Requiring potentially global state sharing defeats the purpose of having a server-chosen connection ID, which is to allow for arbitrary stateless load balancing schemes. Is the existing design driven by the need to support multiple packets on the first flight? Not sure there's a solution to that problem in the stateless space.",
+      "ptime": 3625000,
+      "dtime": 4679000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "***sa na just joined the room",
+      "ptime": 3628000,
+      "dtime": 4682000
+    },
+    {
+      "text": "***Chi-Jiun Su_4101 just left the room",
+      "ptime": 3640000,
+      "dtime": 4694000
+    },
+    {
+      "text": "***Chi-Jiun Su just left the room",
+      "ptime": 3641000,
+      "dtime": 4695000
+    },
+    {
+      "text": "***Cedrick Mbeyet just left the room",
+      "ptime": 3653000,
+      "dtime": 4707000
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 3671000,
+      "dtime": 4725000
+    },
+    {
+      "text": "I believe the property needed is that the server-proposed connection ID needs to be switched to before any server state is needed.",
+      "ptime": 3676000,
+      "dtime": 4730000,
+      "author": "nygren"
+    },
+    {
+      "text": "Other side",
+      "ptime": 3702000,
+      "dtime": 4756000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "'Other' slide",
+      "ptime": 3708000,
+      "dtime": 4762000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "Sean Turner presenting",
+      "ptime": 3742000,
+      "dtime": 4796000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "Yeah, I'll wait before responding further",
+      "ptime": 3758000,
+      "dtime": 4812000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "***sa na just left the room",
+      "ptime": 3763000,
+      "dtime": 4817000
+    },
+    {
+      "text": "***sa no just joined the room",
+      "ptime": 3775000,
+      "dtime": 4829000
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 3797000,
+      "dtime": 4851000
+    },
+    {
+      "text": "Simon Pietro Romano: please take that to the list: jabber is not a good venue for this sort of discussion",
+      "ptime": 3801000,
+      "dtime": 4855000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Yoshiro Yoneya_5666 just joined the room",
+      "ptime": 3806000,
+      "dtime": 4860000
+    },
+    {
+      "text": "***Dale Worley just left the room",
+      "ptime": 3811000,
+      "dtime": 4865000
+    },
+    {
+      "text": "***Dale Worley just joined the room",
+      "ptime": 3820000,
+      "dtime": 4874000
+    },
+    {
+      "text": "***Tony Hansen just joined the room",
+      "ptime": 3876000,
+      "dtime": 4930000
+    },
+    {
+      "text": "Simon Pietro Romano: it's also against our charter, so it might be disruptive: we agreed to do multipath, just not now",
+      "ptime": 3886000,
+      "dtime": 4940000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "@Martin: already done. Doesn't matter.",
+      "ptime": 3887000,
+      "dtime": 4941000,
+      "author": "Simon Pietro Romano"
+    },
+    {
+      "text": "***Arash Molavi Kakhki just left the room",
+      "ptime": 3959000,
+      "dtime": 5013000
+    },
+    {
+      "text": "Ian Swett presenting QUIC-RECOVERY",
+      "ptime": 3987000,
+      "dtime": 5041000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "Slide 2",
+      "ptime": 4037000,
+      "dtime": 5091000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "Slide 2",
+      "ptime": 4038000,
+      "dtime": 5092000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-quic-recovery-00.pdf",
+      "ptime": 4041000,
+      "dtime": 5095000,
+      "author": "craigt"
+    },
+    {
+      "text": "anybody know where the http slides are?",
+      "ptime": 4099000,
+      "dtime": 5153000,
+      "author": "Buck"
+    },
+    {
+      "text": "hrm, I'm getting not found.",
+      "ptime": 4153000,
+      "dtime": 5207000,
+      "author": "Buck"
+    },
+    {
+      "text": "***Tony Hansen just joined the room",
+      "ptime": 4161000,
+      "dtime": 5215000
+    },
+    {
+      "text": "***Tony Hansen_8856 just joined the room",
+      "ptime": 4166000,
+      "dtime": 5220000
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/98/slides/slides-98-quic-http-00.PDF",
+      "ptime": 4174000,
+      "dtime": 5228000,
+      "author": "craigt"
+    },
+    {
+      "text": "craigt: worked, thx!",
+      "ptime": 4190000,
+      "dtime": 5244000,
+      "author": "Buck"
+    },
+    {
+      "text": "at the tail of the main agenda; refresh if you haven't recently",
+      "ptime": 4206000,
+      "dtime": 5260000,
+      "author": "craigt"
+    },
+    {
+      "text": "https://github.com/quicwg/wg-materials/tree/master/ietf98",
+      "ptime": 4303000,
+      "dtime": 5357000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "MIC: quic-go currently has a wip-PR for it, will probably be merged next week",
+      "ptime": 4431000,
+      "dtime": 5485000,
+      "author": "Lucas Clemente"
+    },
+    {
+      "text": "https://datatracker.ietf.org/meeting/98/session/quic <- also has discussed docs at the base",
+      "ptime": 4457000,
+      "dtime": 5511000,
+      "author": "craigt"
+    },
+    {
+      "text": "thx :)",
+      "ptime": 4534000,
+      "dtime": 5588000,
+      "author": "Lucas Clemente"
+    },
+    {
+      "text": "I'm switched names to QCRAM for disambiguation",
+      "ptime": 4610000,
+      "dtime": 5664000,
+      "author": "Buck"
+    },
+    {
+      "text": "Ben: I'm just going to post to the list, because this turned from a clarification question into a discussion",
+      "ptime": 4735000,
+      "dtime": 5789000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "***Safiqul Islam just joined the room",
+      "ptime": 4757000,
+      "dtime": 5811000
+    },
+    {
+      "text": "***Spencer Dawkins just left the room",
+      "ptime": 4842000,
+      "dtime": 5896000
+    },
+    {
+      "text": "***Spencer Dawkins just joined the room",
+      "ptime": 4858000,
+      "dtime": 5912000
+    },
+    {
+      "text": "Handshake protocol selection #45",
+      "ptime": 4868000,
+      "dtime": 5922000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***Okke Timm just left the room",
+      "ptime": 5126000,
+      "dtime": 6180000
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 5227000,
+      "dtime": 6281000
+    },
+    {
+      "text": "***Okke Timm just joined the room",
+      "ptime": 5232000,
+      "dtime": 6286000
+    },
+    {
+      "text": "***Ivaylo Petrov just joined the room",
+      "ptime": 5254000,
+      "dtime": 6308000
+    },
+    {
+      "text": "***Safiqul Islam just left the room",
+      "ptime": 5287000,
+      "dtime": 6341000
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 5307000,
+      "dtime": 6361000
+    },
+    {
+      "text": "***Aaron Zauner just joined the room",
+      "ptime": 5433000,
+      "dtime": 6487000
+    },
+    {
+      "text": "***Ivaylo Petrov just left the room",
+      "ptime": 5458000,
+      "dtime": 6512000
+    },
+    {
+      "text": "***Ivaylo Petrov just joined the room",
+      "ptime": 5474000,
+      "dtime": 6528000
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 5611000,
+      "dtime": 6665000
+    },
+    {
+      "text": "Or MTFC, as we call it informally",
+      "ptime": 5639000,
+      "dtime": 6693000,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Ben Niven-Jenkins just joined the room",
+      "ptime": 5641000,
+      "dtime": 6695000
+    },
+    {
+      "text": "***Daniel Stenberg just joined the room",
+      "ptime": 5747000,
+      "dtime": 6801000
+    },
+    {
+      "text": "***yuki goto just left the room",
+      "ptime": 5749000,
+      "dtime": 6803000
+    },
+    {
+      "text": "***Daniel Stenberg_1565 just joined the room",
+      "ptime": 5751000,
+      "dtime": 6805000
+    },
+    {
+      "text": "***Bob Briscoe just left the room",
+      "ptime": 5758000,
+      "dtime": 6812000
+    },
+    {
+      "text": "***yuki goto just joined the room",
+      "ptime": 5771000,
+      "dtime": 6825000
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 5789000,
+      "dtime": 6843000
+    },
+    {
+      "text": "***Ben Niven-Jenkins just joined the room",
+      "ptime": 5804000,
+      "dtime": 6858000
+    },
+    {
+      "text": "***Ben Niven-Jenkins_2091 just joined the room",
+      "ptime": 5810000,
+      "dtime": 6864000
+    },
+    {
+      "text": "i feel like we are rat-holeing",
+      "ptime": 5823000,
+      "dtime": 6877000,
+      "author": "Lucas Clemente"
+    },
+    {
+      "text": "***Peter Thatcher just joined the room",
+      "ptime": 5914000,
+      "dtime": 6968000
+    },
+    {
+      "text": "***Yoshiro Yoneya_5666 just left the room",
+      "ptime": 6003000,
+      "dtime": 7057000
+    },
+    {
+      "text": "***Yoshiro Yoneya just left the room",
+      "ptime": 6003000,
+      "dtime": 7057000
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 6011000,
+      "dtime": 7065000
+    },
+    {
+      "text": "***Yoshiro Yoneya_4887 just joined the room",
+      "ptime": 6014000,
+      "dtime": 7068000
+    },
+    {
+      "text": "Issue 61 Slient close",
+      "ptime": 6057000,
+      "dtime": 7111000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***Ben Jenkins just joined the room",
+      "ptime": 6179000,
+      "dtime": 7233000
+    },
+    {
+      "text": "***Spencer Dawkins just left the room",
+      "ptime": 6224000,
+      "dtime": 7278000
+    },
+    {
+      "text": "***Spencer Dawkins just joined the room",
+      "ptime": 6229000,
+      "dtime": 7283000
+    },
+    {
+      "text": "***Stefan Eissing just joined the room",
+      "ptime": 6264000,
+      "dtime": 7318000
+    },
+    {
+      "text": "***Stefan Eissing_4660 just joined the room",
+      "ptime": 6271000,
+      "dtime": 7325000
+    },
+    {
+      "text": "note to chairs: Martin Duke in virtual queue",
+      "ptime": 6499000,
+      "dtime": 7553000,
+      "author": "Meetecho"
+    },
+    {
+      "text": "***Aaron Falk just left the room",
+      "ptime": 6568000,
+      "dtime": 7622000
+    },
+    {
+      "text": "***Aaron Falk just joined the room",
+      "ptime": 6569000,
+      "dtime": 7623000
+    },
+    {
+      "text": "I disagree with Jana, having a close packet is important for all intermediate devices.",
+      "ptime": 6655000,
+      "dtime": 7709000,
+      "author": "Olivier Bonaventure"
+    },
+    {
+      "text": "I disagree with Jana, having a close packet is important for all intermediate devices.",
+      "ptime": 6655000,
+      "dtime": 7709000,
+      "author": "Olivier Bonaventure"
+    },
+    {
+      "text": "ian is right about the two separable issues",
+      "ptime": 6684000,
+      "dtime": 7738000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "mobility and NAT rebinding means that missing end-of-connection signals are going to happen less and less",
+      "ptime": 6763000,
+      "dtime": 7817000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "The trade-off is that one packet can be a lot of radio resources/battery power over time.",
+      "ptime": 6770000,
+      "dtime": 7824000,
+      "author": "ted.h"
+    },
+    {
+      "text": "Can one fake end-of-connection?",
+      "ptime": 6817000,
+      "dtime": 7871000,
+      "author": "Stefan Eissing_4660"
+    },
+    {
+      "text": "Can one fake end-of-connection?",
+      "ptime": 6817000,
+      "dtime": 7871000,
+      "author": "Stefan Eissing_4660"
+    },
+    {
+      "text": "***John Border just joined the room",
+      "ptime": 6868000,
+      "dtime": 7922000
+    },
+    {
+      "text": "Compare a long-lived connection on smartphone. With TCP, SYN at the beginning, data exchange at any time and then FIN at the end. With QUIC, we should not need to send keep alive messages to ensure that state remains in NATs and other middleboxes. Otherwise, we???ll drain battery on many mobile devices.",
+      "ptime": 6885000,
+      "dtime": 7939000,
+      "author": "Olivier Bonaventure"
+    },
+    {
+      "text": "Compare a long-lived connection on smartphone. With TCP, SYN at the beginning, data exchange at any time and then FIN at the end. With QUIC, we should not need to send keep alive messages to ensure that state remains in NATs and other middleboxes. Otherwise, we???ll drain battery on many mobile devices.",
+      "ptime": 6885000,
+      "dtime": 7939000,
+      "author": "Olivier Bonaventure"
+    },
+    {
+      "text": "Totally agree with Stuart. If base case is explicitly signalled terminations, then middleboxes can be optimised for that as with TCP today.",
+      "ptime": 7063000,
+      "dtime": 8117000,
+      "author": "Olivier Bonaventure"
+    },
+    {
+      "text": "***Fan Yang just left the room",
+      "ptime": 7094000,
+      "dtime": 8148000
+    },
+    {
+      "text": "+1 to Gorry ??? explicit close is very important",
+      "ptime": 7100000,
+      "dtime": 8154000,
+      "author": "Colin Perkins"
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 7139000,
+      "dtime": 8193000
+    },
+    {
+      "text": "***Buck just joined the room",
+      "ptime": 7161000,
+      "dtime": 8215000
+    },
+    {
+      "text": "this issue got seriously derailed",
+      "ptime": 7192000,
+      "dtime": 8246000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "@Olivier  If the state is such that the client will initiate the next request, you don't need keep alives, as the connection id survives the nat rebinding.",
+      "ptime": 7196000,
+      "dtime": 8250000,
+      "author": "ted.h"
+    },
+    {
+      "text": "but it's good that we're discussing this issue",
+      "ptime": 7223000,
+      "dtime": 8277000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "QUIC Unprotected packets",
+      "ptime": 7333000,
+      "dtime": 8387000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "[now that my network is back]  It seems like we were conflating at least four independent but related topics in the last discussion:",
+      "ptime": 7424000,
+      "dtime": 8478000,
+      "author": "nygren"
+    },
+    {
+      "text": "1) whether silent close is available as an option for optimizing mobile end-device power",
+      "ptime": 7427000,
+      "dtime": 8481000,
+      "author": "nygren"
+    },
+    {
+      "text": "safari",
+      "ptime": 7436000,
+      "dtime": 8490000,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Yoshiro Yoneya_4887 just left the room",
+      "ptime": 7596000,
+      "dtime": 8650000
+    },
+    {
+      "text": "***Yoshiro Yoneya just left the room",
+      "ptime": 7596000,
+      "dtime": 8650000
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 7609000,
+      "dtime": 8663000
+    },
+    {
+      "text": "***Yoshiro Yoneya_5697 just joined the room",
+      "ptime": 7612000,
+      "dtime": 8666000
+    },
+    {
+      "text": "with option 3 a client cannot choose to only support chacha, but always has to implement aes.",
+      "ptime": 7842000,
+      "dtime": 8896000,
+      "author": "Lucas Clemente"
+    },
+    {
+      "text": "with option 3 a client cannot choose to only support chacha, but always has to implement aes.",
+      "ptime": 7842000,
+      "dtime": 8896000,
+      "author": "Lucas Clemente"
+    },
+    {
+      "text": "@Lucas Do you want that reflected to the room?",
+      "ptime": 7865000,
+      "dtime": 8919000,
+      "author": "ted.h"
+    },
+    {
+      "text": "if there's time ;)",
+      "ptime": 7885000,
+      "dtime": 8939000,
+      "author": "Lucas Clemente"
+    },
+    {
+      "text": "Can we take a hum?",
+      "ptime": 7922000,
+      "dtime": 8976000,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "Can we take a hum?",
+      "ptime": 7922000,
+      "dtime": 8976000,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "***dkg just joined the room",
+      "ptime": 7922000,
+      "dtime": 8976000
+    },
+    {
+      "text": "hums for B",
+      "ptime": 7989000,
+      "dtime": 9043000,
+      "author": "Lucas Clemente"
+    },
+    {
+      "text": "Hum for FNV-1a",
+      "ptime": 8001000,
+      "dtime": 9055000,
+      "author": "Martin Duke"
+    },
+    {
+      "text": "hums for B",
+      "ptime": 8002000,
+      "dtime": 9056000,
+      "author": "Buck"
+    },
+    {
+      "text": "hums for B",
+      "ptime": 8003000,
+      "dtime": 9057000,
+      "author": "Samuel Jero_"
+    },
+    {
+      "text": "mnot didn't even need to flip a coin!",
+      "ptime": 8060000,
+      "dtime": 9114000,
+      "author": "nygren"
+    },
+    {
+      "text": "Moving to issue 391",
+      "ptime": 8129000,
+      "dtime": 9183000,
+      "author": "Matthew Ford"
+    },
+    {
+      "text": "***Boo Radley just joined the room",
+      "ptime": 8164000,
+      "dtime": 9218000
+    },
+    {
+      "text": "CDN vs carrieres is very different, because CDNs have certs and transparent middleboxes don't, no?",
+      "ptime": 8511000,
+      "dtime": 9565000,
+      "author": "Buck"
+    },
+    {
+      "text": "Actually that suggests letting the server initiate this and then the client echo might be useful, if you are not using the packet number",
+      "ptime": 8530000,
+      "dtime": 9584000,
+      "author": "ted.h"
+    },
+    {
+      "text": "So, the server sends \"token\" and then the client decides whether to echo \"token\".",
+      "ptime": 8568000,
+      "dtime": 9622000,
+      "author": "ted.h"
+    },
+    {
+      "text": "If the server does this once per RTT, the network can see something that indicates the server's view of RTT even if the token isn't echoed",
+      "ptime": 8613000,
+      "dtime": 9667000,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Aaron Falk just left the room",
+      "ptime": 8613000,
+      "dtime": 9667000
+    },
+    {
+      "text": "not clear why e2e RTT vs bottlneck segment is materially different.   it should be possible to normalize e2e RTT.",
+      "ptime": 8727000,
+      "dtime": 9781000,
+      "author": "Buck"
+    },
+    {
+      "text": "I wonder if Jim's proposal is a better approach for something PLUS-like?",
+      "ptime": 8845000,
+      "dtime": 9899000,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "I like ted.h's proposal",
+      "ptime": 8866000,
+      "dtime": 9920000,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "I like ted.h's proposal",
+      "ptime": 8866000,
+      "dtime": 9920000,
+      "author": "Marten Seemann"
+    },
+    {
+      "text": "It's a style of AQM, i.e. where there is a separation between measurment and enforcement.   If you go classic AQM, where the estimation and the markign are in the same box, there's not as much of an issue.",
+      "ptime": 8944000,
+      "dtime": 9998000,
+      "author": "Buck"
+    },
+    {
+      "text": "Ian points out that what I suggested is basically active probing, and that you could do that without tying it to QUIC (Ben's point as well).  I agree, but there is a chance that a particular protocol has a different path or character, so I don't think it is that bad to do it within QUIC.",
+      "ptime": 9018000,
+      "dtime": 10072000,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Valery Smyslov just left the room",
+      "ptime": 9029000,
+      "dtime": 10083000
+    },
+    {
+      "text": "If clients and servers need to mutually agree to send this, and this is explicitly not always sent, then it seems like there can be net value.",
+      "ptime": 9054000,
+      "dtime": 10108000,
+      "author": "nygren"
+    },
+    {
+      "text": "***Simon Pietro Romano just left the room",
+      "ptime": 9069000,
+      "dtime": 10123000
+    },
+    {
+      "text": "@nygren, I think it is at most once per RTT.",
+      "ptime": 9077000,
+      "dtime": 10131000,
+      "author": "ted.h"
+    },
+    {
+      "text": "***Kaoru Maeda just left the room",
+      "ptime": 9081000,
+      "dtime": 10135000
+    },
+    {
+      "text": "***Francis Teague just left the room",
+      "ptime": 9094000,
+      "dtime": 10148000
+    },
+    {
+      "text": "***sa no just left the room",
+      "ptime": 9108000,
+      "dtime": 10162000
+    }
+  ],
+  "tabs": [],
+  "panels": []
+}

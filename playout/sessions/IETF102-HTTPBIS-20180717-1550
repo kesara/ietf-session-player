@@ -1,0 +1,688 @@
+{
+  "title": "IETF102-HTTPBIS-20180717-1550",
+  "filename": "IETF102-HTTPBIS-20180717-1550",
+  "start": 0,
+  "end": 9436000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "Um5HHZkXGg4",
+      "start": 0.0,
+      "end": 9436000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "***Katharine Daly just joined the room",
+      "ptime": 36000.0,
+      "dtime": 367000.0
+    },
+    {
+      "text": "***Aman Sharma just joined the room",
+      "ptime": 66000.0,
+      "dtime": 397000.0
+    },
+    {
+      "text": "***PENG QIAN just left the room",
+      "ptime": 101000.0,
+      "dtime": 432000.0
+    },
+    {
+      "text": "ok by me",
+      "ptime": 167000.0,
+      "dtime": 498000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "***Maxim Georgiev just joined the room",
+      "ptime": 188000.0,
+      "dtime": 519000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 236000.0,
+      "dtime": 567000.0
+    },
+    {
+      "text": "***Rolf E. Sonneveld just joined the room",
+      "ptime": 255000.0,
+      "dtime": 586000.0
+    },
+    {
+      "text": "***99rst just joined the room",
+      "ptime": 343000.0,
+      "dtime": 674000.0
+    },
+    {
+      "text": "***Roy Fielding just joined the room",
+      "ptime": 535000.0,
+      "dtime": 866000.0
+    },
+    {
+      "text": "***Peter DeVries just joined the room",
+      "ptime": 708000.0,
+      "dtime": 1039000.0
+    },
+    {
+      "text": "mic: we have a few core issues where we still discuss whether it should go into core or bcp56bis",
+      "ptime": 784000.0,
+      "dtime": 1115000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "mic: so agree with martin",
+      "ptime": 792000.0,
+      "dtime": 1123000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "***Peter DeVries just left the room",
+      "ptime": 827000.0,
+      "dtime": 1158000.0
+    },
+    {
+      "text": "***Peter DeVries just joined the room",
+      "ptime": 829000.0,
+      "dtime": 1160000.0
+    },
+    {
+      "text": "***Peter DeVries just left the room",
+      "ptime": 1046000.0,
+      "dtime": 1377000.0
+    },
+    {
+      "text": "***Louis Steinberg just joined the room",
+      "ptime": 1116000.0,
+      "dtime": 1447000.0
+    },
+    {
+      "text": "***Luca Niccolini just joined the room",
+      "ptime": 1355000.0,
+      "dtime": 1686000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 1483000.0,
+      "dtime": 1814000.0
+    },
+    {
+      "text": "***Dapeng Liu just joined the room",
+      "ptime": 1924000.0,
+      "dtime": 2255000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 1965000.0,
+      "dtime": 2296000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 1985000.0,
+      "dtime": 2316000.0
+    },
+    {
+      "text": "***Jeffrey Yasskin just joined the room",
+      "ptime": 2033000.0,
+      "dtime": 2364000.0
+    },
+    {
+      "text": "***daniel mccarney just joined the room",
+      "ptime": 2192000.0,
+      "dtime": 2523000.0
+    },
+    {
+      "text": "...could they be required to come from the same trust path? e.g. same root/inter...",
+      "ptime": 2464000.0,
+      "dtime": 2795000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "that would contain misuse to the sameissuer/policy?",
+      "ptime": 2513000.0,
+      "dtime": 2844000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "@craigt: The biggest risk is from a stolen private key, which the trust path doesn\u0027t help with.",
+      "ptime": 2576000.0,
+      "dtime": 2907000.0,
+      "author": "Jeffrey Yasskin"
+    },
+    {
+      "text": "(I tend to think that CT defends decently against misissued certs, although others could disagree.)",
+      "ptime": 2617000.0,
+      "dtime": 2948000.0,
+      "author": "Jeffrey Yasskin"
+    },
+    {
+      "text": "so then everything just said surrounding hashing against private key is also not useful?",
+      "ptime": 2640000.0,
+      "dtime": 2971000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "***Louis Steinberg just left the room",
+      "ptime": 2652000.0,
+      "dtime": 2983000.0
+    },
+    {
+      "text": "my proposal: scope by issuer and let the CA manage the set of tags",
+      "ptime": 2732000.0,
+      "dtime": 3063000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "I think that RIchard\u0027s proposal is even better",
+      "ptime": 2775000.0,
+      "dtime": 3106000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "What is Richard?s proposal?",
+      "ptime": 2784000.0,
+      "dtime": 3115000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "to include a domain name as the tag and require that the CA verify that the person requesting the certificate be authorized for that name in addition to the names in the cert",
+      "ptime": 2837000.0,
+      "dtime": 3168000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "cdn.example might be what a cdn uses across all the certificates it gets, for instance",
+      "ptime": 2874000.0,
+      "dtime": 3205000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "In which case, compromise of the tag\u0027s private key is a bigger deal, but maybe we trust CDNs to protect their keys better than random sites.",
+      "ptime": 2888000.0,
+      "dtime": 3219000.0,
+      "author": "Jeffrey Yasskin"
+    },
+    {
+      "text": "it makes compromise of the authorization harder- the attack requires that the attacker convince the CA that they own cdn.example",
+      "ptime": 3101000.0,
+      "dtime": 3432000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***daniel mccarney just left the room",
+      "ptime": 3132000.0,
+      "dtime": 3463000.0
+    },
+    {
+      "text": "mic: also depends on what characters would be allowed in identifiers",
+      "ptime": 3156000.0,
+      "dtime": 3487000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "(comma)",
+      "ptime": 3179000.0,
+      "dtime": 3510000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "***Aman Sharma just left the room",
+      "ptime": 3317000.0,
+      "dtime": 3648000.0
+    },
+    {
+      "text": "***Maxim Georgiev just left the room",
+      "ptime": 3382000.0,
+      "dtime": 3713000.0
+    },
+    {
+      "text": "Working on it.",
+      "ptime": 3475000.0,
+      "dtime": 3806000.0,
+      "author": "Mike West"
+    },
+    {
+      "text": "***Mike West just left the room",
+      "ptime": 3772000.0,
+      "dtime": 4103000.0
+    },
+    {
+      "text": ":(",
+      "ptime": 3800000.0,
+      "dtime": 4131000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 3818000.0,
+      "dtime": 4149000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 4051000.0,
+      "dtime": 4382000.0
+    },
+    {
+      "text": "***Louis Steinberg just joined the room",
+      "ptime": 4278000.0,
+      "dtime": 4609000.0
+    },
+    {
+      "text": "***ilari.liusvaara just joined the room",
+      "ptime": 4453000.0,
+      "dtime": 4784000.0
+    },
+    {
+      "text": "***craigt just joined the room",
+      "ptime": 4541000.0,
+      "dtime": 4872000.0
+    },
+    {
+      "text": "aren\u0027t address literals still painful; is that an example case we should be using?",
+      "ptime": 4890000.0,
+      "dtime": 5221000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "I had to remove my literals in alt-svc for nat64 nets",
+      "ptime": 4942000.0,
+      "dtime": 5273000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "***Jeffrey Yasskin just left the room",
+      "ptime": 5011000.0,
+      "dtime": 5342000.0
+    },
+    {
+      "text": "***Yoshiro Yoneya just joined the room",
+      "ptime": 5104000.0,
+      "dtime": 5435000.0
+    },
+    {
+      "text": "hot off the presses: US Senators Wyden and Rubio send a letter to Google and Amazon about domain fronting:",
+      "ptime": 5140000.0,
+      "dtime": 5471000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "https://www.wyden.senate.gov/imo/media/doc/Wyden%20Rubio%20Letter%20to%20Amazon%20+%20Alphabet%20re%20Domain%20Fronting%20Ban.pdf",
+      "ptime": 5140000.0,
+      "dtime": 5471000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "***Jeffrey Yasskin just joined the room",
+      "ptime": 5178000.0,
+      "dtime": 5509000.0
+    },
+    {
+      "text": "***Louis Steinberg just left the room",
+      "ptime": 5272000.0,
+      "dtime": 5603000.0
+    },
+    {
+      "text": "I\u0027m not convinced address literals is a good practice for ALTSVC dns records vs just using a name in the same bailiwick and sending the A/AAAA records as additionals.",
+      "ptime": 5485000.0,
+      "dtime": 5816000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "***Marcus Dansarie just joined the room",
+      "ptime": 5512000.0,
+      "dtime": 5843000.0
+    },
+    {
+      "text": "***Ned Freed just joined the room",
+      "ptime": 5566000.0,
+      "dtime": 5897000.0
+    },
+    {
+      "text": "nygren : I reviewd the drafts and they\u0027re not used as examples...It\u0027s just the presentations...",
+      "ptime": 5568000.0,
+      "dtime": 5899000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "can one hum remotely? :)",
+      "ptime": 5662000.0,
+      "dtime": 5993000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "yes",
+      "ptime": 5668000.0,
+      "dtime": 5999000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "hum for altsvc dns",
+      "ptime": 5679000.0,
+      "dtime": 6010000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "first hum: if you are interested in continuing discussion hum",
+      "ptime": 5680000.0,
+      "dtime": 6011000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "yes, just put \"hum\" here.",
+      "ptime": 5684000.0,
+      "dtime": 6015000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "hum",
+      "ptime": 5688000.0,
+      "dtime": 6019000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "sni hum now",
+      "ptime": 5688000.0,
+      "dtime": 6019000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "hum",
+      "ptime": 5689000.0,
+      "dtime": 6020000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "I don?t think that what Ben suggested about IPs works because there is going to be a lot of traffic to that IP which contains the server name in the clear, either in the clear SNI or TLS 1.2 certs",
+      "ptime": 5777000.0,
+      "dtime": 6108000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "hum for alt svc sni",
+      "ptime": 5785000.0,
+      "dtime": 6116000.0,
+      "author": "Lutz Jacob"
+    },
+    {
+      "text": "So any passive inspector gets a fairly clear binding between the IP and the domain name",
+      "ptime": 5809000.0,
+      "dtime": 6140000.0,
+      "author": "ekr"
+    },
+    {
+      "text": "***Lutz Jacob just left the room",
+      "ptime": 5848000.0,
+      "dtime": 6179000.0
+    },
+    {
+      "text": "***Dmitri Tikhonov just left the room",
+      "ptime": 5913000.0,
+      "dtime": 6244000.0
+    },
+    {
+      "text": "Broken configs is not a justification for new header fields that do the exact same thing, because they will eventually be configured brokenly as well.",
+      "ptime": 6041000.0,
+      "dtime": 6372000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "+1",
+      "ptime": 6051000.0,
+      "dtime": 6382000.0,
+      "author": "99rst"
+    },
+    {
+      "text": "which list is \u0027was posted on the list\u0027?",
+      "ptime": 6062000.0,
+      "dtime": 6393000.0,
+      "author": "Peter van Dijk"
+    },
+    {
+      "text": "+1",
+      "ptime": 6137000.0,
+      "dtime": 6468000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "Via uses pseudonyms to address the privacy concern, already, and introducing another field that does the same thing in a less general way is lunacy.",
+      "ptime": 6224000.0,
+      "dtime": 6555000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "So, don\u0027t allow your customers to strip the Via header field inside the CDN",
+      "ptime": 6359000.0,
+      "dtime": 6690000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "mic: I don\u0027t get why it\u0027s less likely that somebody strips the new header field (as opposed to Via)",
+      "ptime": 6505000.0,
+      "dtime": 6836000.0,
+      "author": "Julian Reschke"
+    },
+    {
+      "text": "[mic] Via already works. All you need to do is define a cdn-specific pseudonym and don\u0027t allow those to be removed by CDNs",
+      "ptime": 6515000.0,
+      "dtime": 6846000.0,
+      "author": "Roy Fielding"
+    },
+    {
+      "text": "***Marcus Dansarie just left the room",
+      "ptime": 6635000.0,
+      "dtime": 6966000.0
+    },
+    {
+      "text": "***Ned Freed just left the room",
+      "ptime": 6848000.0,
+      "dtime": 7179000.0
+    },
+    {
+      "text": "***Peter van Dijk just left the room",
+      "ptime": 7053000.0,
+      "dtime": 7384000.0
+    },
+    {
+      "text": "man does not like cates",
+      "ptime": 7551000.0,
+      "dtime": 7882000.0,
+      "author": "JoeHallCDT"
+    },
+    {
+      "text": "***John Leddy just joined the room",
+      "ptime": 7999000.0,
+      "dtime": 8330000.0
+    },
+    {
+      "text": "seems like this might belong more in QUIC than HTTPBIS if anything, especially due to the challenges around coupling quic-in-quic",
+      "ptime": 8004000.0,
+      "dtime": 8335000.0,
+      "author": "nygren"
+    },
+    {
+      "text": "that\u0027s useful feedback, It would be useful to figure out opinion on trying to make things backwards compatible to HTTP/1.1 or if this can ride the wave of protocol evolution",
+      "ptime": 8086000.0,
+      "dtime": 8417000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "/me shakes head",
+      "ptime": 8114000.0,
+      "dtime": 8445000.0,
+      "author": "mnot"
+    },
+    {
+      "text": "***Julian Reschke just left the room",
+      "ptime": 8133000.0,
+      "dtime": 8464000.0
+    },
+    {
+      "text": "***Julian Reschke just joined the room",
+      "ptime": 8136000.0,
+      "dtime": 8467000.0
+    },
+    {
+      "text": "rfc 750 section 6.5.2 says An endpoint MUST NOT send a       PUSH_PROMISE frame if it receives this parameter set to a value of 0. Did the slides say that teh experiment still processed pushes even when disabled?",
+      "ptime": 8780000.0,
+      "dtime": 9111000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "nothing in the room: ask when it gets to mic line",
+      "ptime": 8812000.0,
+      "dtime": 9143000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "Lucas Pardue: Yeah, that\u0027s what he said",
+      "ptime": 8814000.0,
+      "dtime": 9145000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "I imagine that what happened was that they wrote a patch to send the setting without adding code to reject PUSH_PROMISE",
+      "ptime": 8836000.0,
+      "dtime": 9167000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "martin is (as usual) correct",
+      "ptime": 8878000.0,
+      "dtime": 9209000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "slide 4",
+      "ptime": 8892000.0,
+      "dtime": 9223000.0,
+      "author": "craigt"
+    },
+    {
+      "text": "but its a PROTOCOL_ERROR to do that, what implementations are ignoring the setting?",
+      "ptime": 8900000.0,
+      "dtime": 9231000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "Brad claimed that implementations were correctly respecting the setting",
+      "ptime": 8931000.0,
+      "dtime": 9262000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "they saw no PUSH_PROMISE frames if push was disabled",
+      "ptime": 8939000.0,
+      "dtime": 9270000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Rolf E. Sonneveld just left the room",
+      "ptime": 8963000.0,
+      "dtime": 9294000.0
+    },
+    {
+      "text": "ack",
+      "ptime": 8979000.0,
+      "dtime": 9310000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "it sounds like the methods that akamai were using were better than the push usage in the general population",
+      "ptime": 9065000.0,
+      "dtime": 9396000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "though still a long way from ideal",
+      "ptime": 9074000.0,
+      "dtime": 9405000.0,
+      "author": "Martin Thomson"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 9182000.0,
+      "dtime": 9513000.0
+    },
+    {
+      "text": "one point which may result in the difference in data is that Akamai\u0027s data is first-view-only and Chrome\u0027s data includes repeat views",
+      "ptime": 9285000.0,
+      "dtime": 9616000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "and we *know* that repeat views need cache digests to be effective",
+      "ptime": 9318000.0,
+      "dtime": 9649000.0,
+      "author": "Yoav Weiss"
+    },
+    {
+      "text": "***Katharine Daly just left the room",
+      "ptime": 9374000.0,
+      "dtime": 9705000.0
+    },
+    {
+      "text": "thanks for the data on push",
+      "ptime": 9376000.0,
+      "dtime": 9707000.0,
+      "author": "Lucas Pardue"
+    },
+    {
+      "text": "***Yoav Weiss just left the room",
+      "ptime": 9383000.0,
+      "dtime": 9714000.0
+    },
+    {
+      "text": "***Julian Reschke just left the room",
+      "ptime": 9434000.0,
+      "dtime": 9765000.0
+    },
+    {
+      "text": "***Dapeng Liu just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    },
+    {
+      "text": "***Roy Fielding just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    },
+    {
+      "text": "***Klaus Hartke just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    },
+    {
+      "text": "***Jeffrey Yasskin just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    },
+    {
+      "text": "***John Leddy just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    },
+    {
+      "text": "***Richard Bradbury just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    },
+    {
+      "text": "***Lucas Pardue just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    },
+    {
+      "text": "***Luca Niccolini just left the room",
+      "ptime": 9435000.0,
+      "dtime": 9766000.0
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF102-HTTPBIS-20180717-1550"
+    }
+  ]
+}

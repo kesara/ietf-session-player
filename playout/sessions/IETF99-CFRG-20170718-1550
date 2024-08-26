@@ -1,0 +1,941 @@
+{
+  "title": "IETF99-CFRG-20170718-1550",
+  "filename": "IETF99-CFRG-20170718-1550",
+  "start": 0,
+  "end": 7233000,
+  "slides": [],
+  "videos": [
+    {
+      "type": 2.0,
+      "src": "U1eQIEG6YLU",
+      "start": 0.0,
+      "end": 7233000.0
+    }
+  ],
+  "messages": [
+    {
+      "text": "hooray",
+      "ptime": 130000.0,
+      "dtime": 732000.0,
+      "author": "Jon Hudson"
+    },
+    {
+      "text": "hooray",
+      "ptime": 130000.0,
+      "dtime": 732000.0,
+      "author": "Jon Hudson"
+    },
+    {
+      "text": "***Phillip Hallam-Baker just joined the room",
+      "ptime": 207000.0,
+      "dtime": 809000.0
+    },
+    {
+      "text": "***Sean Leonard just joined the room",
+      "ptime": 209000.0,
+      "dtime": 811000.0
+    },
+    {
+      "text": "I\u0027m your jabber scribe.  Please put \"mic:\" in the front or ping me if you want anything relayed",
+      "ptime": 314000.0,
+      "dtime": 916000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Agenda bash",
+      "ptime": 354000.0,
+      "dtime": 956000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Note well",
+      "ptime": 385000.0,
+      "dtime": 987000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Document status",
+      "ptime": 415000.0,
+      "dtime": 1017000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Geoff Beier just joined the room",
+      "ptime": 419000.0,
+      "dtime": 1021000.0
+    },
+    {
+      "text": "Crypto review panel",
+      "ptime": 500000.0,
+      "dtime": 1102000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "AOB",
+      "ptime": 538000.0,
+      "dtime": 1140000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Presentations",
+      "ptime": 549000.0,
+      "dtime": 1151000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Stanisley Smyshlyaev, https://datatracker.ietf.org/doc/slides-99-cfrg-re-keying-mechanisms-for-symmetric-keys-draft-irtf-cfrg-re-keying/01/",
+      "ptime": 615000.0,
+      "dtime": 1217000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p2, Authors",
+      "ptime": 623000.0,
+      "dtime": 1225000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p3, Motivation",
+      "ptime": 627000.0,
+      "dtime": 1229000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p4, Main objective",
+      "ptime": 708000.0,
+      "dtime": 1310000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p5, Document History",
+      "ptime": 769000.0,
+      "dtime": 1371000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p6, Main decision about the I-D",
+      "ptime": 803000.0,
+      "dtime": 1405000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p7, Considerations on the recommendations and guidelines",
+      "ptime": 927000.0,
+      "dtime": 1529000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p8, Considerations on the mechanisms themselves",
+      "ptime": 1003000.0,
+      "dtime": 1605000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Panos Kampanakis just joined the room",
+      "ptime": 1038000.0,
+      "dtime": 1640000.0
+    },
+    {
+      "text": "p9, draft-irtf-cfrg-re-keying",
+      "ptime": 1039000.0,
+      "dtime": 1641000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 1053000.0,
+      "dtime": 1655000.0
+    },
+    {
+      "text": "p10, Current state and plans",
+      "ptime": 1067000.0,
+      "dtime": 1669000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p11, questions",
+      "ptime": 1195000.0,
+      "dtime": 1797000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Yoav at mic",
+      "ptime": 1214000.0,
+      "dtime": 1816000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Daniel Franke",
+      "ptime": 1334000.0,
+      "dtime": 1936000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Sharon Goldberg, Verifiable Random Functions https://www.ietf.org/proceedings/99/slides/slides-99-cfrg-verifiable-random-functions-00.pdf",
+      "ptime": 1467000.0,
+      "dtime": 2069000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "was there a 2nd person who said they\u0027d review? thought I saw someone but not sure",
+      "ptime": 1473000.0,
+      "dtime": 2075000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "in addition to Russ",
+      "ptime": 1485000.0,
+      "dtime": 2087000.0,
+      "author": "sftcd"
+    },
+    {
+      "text": "p3, hash function zoo",
+      "ptime": 1513000.0,
+      "dtime": 2115000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "(sorry that was p2)",
+      "ptime": 1528000.0,
+      "dtime": 2130000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p2, hash function zoo (yes page numbers repeated  and so did the page title)",
+      "ptime": 1555000.0,
+      "dtime": 2157000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p3 VRF: verifiable random function",
+      "ptime": 1566000.0,
+      "dtime": 2168000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p3 \u0027",
+      "ptime": 1574000.0,
+      "dtime": 2176000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pr \u0027\u0027",
+      "ptime": 1581000.0,
+      "dtime": 2183000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p4 VRFs are useful for ...",
+      "ptime": 1623000.0,
+      "dtime": 2225000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Dimitrios Papadopoulos just joined the room",
+      "ptime": 1664000.0,
+      "dtime": 2266000.0
+    },
+    {
+      "text": "p5 VRF security: uniqueness",
+      "ptime": 1698000.0,
+      "dtime": 2300000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p7 VRF security: pseudorandomness",
+      "ptime": 1776000.0,
+      "dtime": 2378000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Matthew Chiang just joined the room",
+      "ptime": 1816000.0,
+      "dtime": 2418000.0
+    },
+    {
+      "text": "p9 hash-based data structures (sorry p8)",
+      "ptime": 1847000.0,
+      "dtime": 2449000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p11 using vrfs for hash-based datastructures",
+      "ptime": 1891000.0,
+      "dtime": 2493000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p12 vrfs stop offline dictionary attacks",
+      "ptime": 1926000.0,
+      "dtime": 2528000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p13 draft-goldbe-vrf-01 includes",
+      "ptime": 1941000.0,
+      "dtime": 2543000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p14 ec-vrf (elliptic curve vrf)",
+      "ptime": 2061000.0,
+      "dtime": 2663000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "did not catch the name",
+      "ptime": 2154000.0,
+      "dtime": 2756000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Satoru Kanno just left the room",
+      "ptime": 2183000.0,
+      "dtime": 2785000.0
+    },
+    {
+      "text": "Bryan Ford",
+      "ptime": 2198000.0,
+      "dtime": 2800000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Jeffrey Eskin",
+      "ptime": 2335000.0,
+      "dtime": 2937000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Yes.",
+      "ptime": 2405000.0,
+      "dtime": 3007000.0,
+      "author": "Philip Lafrance"
+    },
+    {
+      "text": ":yes:",
+      "ptime": 2428000.0,
+      "dtime": 3030000.0,
+      "author": "Sean Leonard"
+    },
+    {
+      "text": "Bryan Ford, Collective Edwards-Curve Digital Sig Algorithm",
+      "ptime": 2490000.0,
+      "dtime": 3092000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-cfrg-verifiable-random-functions-00.pdf",
+      "ptime": 2491000.0,
+      "dtime": 3093000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Dimitrios Papadopoulos just left the room",
+      "ptime": 2538000.0,
+      "dtime": 3140000.0
+    },
+    {
+      "text": "***Satoru Kanno just joined the room",
+      "ptime": 2540000.0,
+      "dtime": 3142000.0
+    },
+    {
+      "text": "p2 Basic Schnorr Signature",
+      "ptime": 2671000.0,
+      "dtime": 3273000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "(oops no page numbers)",
+      "ptime": 2676000.0,
+      "dtime": 3278000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Yaakov Stein just joined the room",
+      "ptime": 2742000.0,
+      "dtime": 3344000.0
+    },
+    {
+      "text": "schnorr multisignature",
+      "ptime": 2754000.0,
+      "dtime": 3356000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "use-case scalable collective signing",
+      "ptime": 2836000.0,
+      "dtime": 3438000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "results: collective signature size",
+      "ptime": 2926000.0,
+      "dtime": 3528000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "optional: high scalability via trees",
+      "ptime": 3012000.0,
+      "dtime": 3614000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "use-case; bitcoin transacdtions",
+      "ptime": 3019000.0,
+      "dtime": 3621000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "use-case: offline-verifiable histories",
+      "ptime": 3076000.0,
+      "dtime": 3678000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "draft-ford-cfrg-cosi-00",
+      "ptime": 3103000.0,
+      "dtime": 3705000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "s/Jeffrey Eskin/Jeffrey Yasskin/",
+      "ptime": 3148000.0,
+      "dtime": 3750000.0,
+      "author": "Jeffrey Yasskin"
+    },
+    {
+      "text": "***Arne Wall just left the room",
+      "ptime": 3183000.0,
+      "dtime": 3785000.0
+    },
+    {
+      "text": "sorry Jeffrey",
+      "ptime": 3184000.0,
+      "dtime": 3786000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg Issues to be Discussed",
+      "ptime": 3190000.0,
+      "dtime": 3792000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Stephen Farrell",
+      "ptime": 3373000.0,
+      "dtime": 3975000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "PHB",
+      "ptime": 3414000.0,
+      "dtime": 4016000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Richard Barnes",
+      "ptime": 3569000.0,
+      "dtime": 4171000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Andreas H?lsing just joined the room",
+      "ptime": 3574000.0,
+      "dtime": 4176000.0
+    },
+    {
+      "text": "***Yaakov Stein just left the room",
+      "ptime": 3638000.0,
+      "dtime": 4240000.0
+    },
+    {
+      "text": "Russ Housley",
+      "ptime": 3687000.0,
+      "dtime": 4289000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Matthew Chiang just left the room",
+      "ptime": 3943000.0,
+      "dtime": 4545000.0
+    },
+    {
+      "text": "Vasiley (didn\u0027t catch last name) from cryptopro, russia",
+      "ptime": 4042000.0,
+      "dtime": 4644000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Transition from Classical to post-quanrum crypto",
+      "ptime": 4182000.0,
+      "dtime": 4784000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Kenny channeling for Paul Hoffman",
+      "ptime": 4191000.0,
+      "dtime": 4793000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-cfrg-the-transition-from-classical-to-post-quantum-cryptography-draft-hoffman-c2pq-00.pdf",
+      "ptime": 4204000.0,
+      "dtime": 4806000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p2 why the cfrg might care",
+      "ptime": 4209000.0,
+      "dtime": 4811000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p3 draft-hoffman-c2pq",
+      "ptime": 4246000.0,
+      "dtime": 4848000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "I\u0027m writing to Paul right now offering to help with the draft",
+      "ptime": 4250000.0,
+      "dtime": 4852000.0,
+      "author": "Jon Hudson"
+    },
+    {
+      "text": "***Yaakov Stein just joined the room",
+      "ptime": 4309000.0,
+      "dtime": 4911000.0
+    },
+    {
+      "text": "***Matthew Chiang just joined the room",
+      "ptime": 4320000.0,
+      "dtime": 4922000.0
+    },
+    {
+      "text": "p5 proposed way forward",
+      "ptime": 4335000.0,
+      "dtime": 4937000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "PHB",
+      "ptime": 4363000.0,
+      "dtime": 4965000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "PQ algorithms can be made practical; many of them are already practical and they are only getting better.",
+      "ptime": 4435000.0,
+      "dtime": 5037000.0,
+      "author": "Philip Lafrance"
+    },
+    {
+      "text": "Dave McGrew",
+      "ptime": 4447000.0,
+      "dtime": 5049000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Reminder if you want me to say something put mic: in front",
+      "ptime": 4461000.0,
+      "dtime": 5063000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "stephen farrel",
+      "ptime": 4503000.0,
+      "dtime": 5105000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Darrel (?)Feiffer",
+      "ptime": 4598000.0,
+      "dtime": 5200000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Renzo Navas just left the room",
+      "ptime": 4634000.0,
+      "dtime": 5236000.0
+    },
+    {
+      "text": "***Geoff Beier just left the room",
+      "ptime": 4644000.0,
+      "dtime": 5246000.0
+    },
+    {
+      "text": "Virtual Hand",
+      "ptime": 4651000.0,
+      "dtime": 5253000.0,
+      "author": "Jon Hudson"
+    },
+    {
+      "text": "mic: I want to show my hand :-)",
+      "ptime": 4656000.0,
+      "dtime": 5258000.0,
+      "author": "Andreas H?lsing"
+    },
+    {
+      "text": "mic: I want to show my hand :-)",
+      "ptime": 4656000.0,
+      "dtime": 5258000.0,
+      "author": "Andreas H?lsing"
+    },
+    {
+      "text": "Me too",
+      "ptime": 4662000.0,
+      "dtime": 5264000.0,
+      "author": "Scott Fluhrer"
+    },
+    {
+      "text": "***Robert Annessi just joined the room",
+      "ptime": 4671000.0,
+      "dtime": 5273000.0
+    },
+    {
+      "text": "I\u0027m still unclear on the quality of (read: level of analysis performed against) PQ key agreement schemes.",
+      "ptime": 4726000.0,
+      "dtime": 5328000.0,
+      "author": "Kyle Rose"
+    },
+    {
+      "text": "David McGrew, Hash-based signatures",
+      "ptime": 4726000.0,
+      "dtime": 5328000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-cfrg-the-transition-from-classical-to-post-quantum-cryptography-draft-hoffman-c2pq-00.pdf",
+      "ptime": 4757000.0,
+      "dtime": 5359000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Matthew Chiang just left the room",
+      "ptime": 4759000.0,
+      "dtime": 5361000.0
+    },
+    {
+      "text": "pg \"What\u0027s new\"",
+      "ptime": 4766000.0,
+      "dtime": 5368000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg MD HAsh Security Assumptions",
+      "ptime": 4850000.0,
+      "dtime": 5452000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Robert Annessi just left the room",
+      "ptime": 4929000.0,
+      "dtime": 5531000.0
+    },
+    {
+      "text": "pg, Post Quantum Security (paper abstract image)",
+      "ptime": 4986000.0,
+      "dtime": 5588000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "I\u0027m from ISARA.",
+      "ptime": 4986000.0,
+      "dtime": 5588000.0,
+      "author": "Philip Lafrance"
+    },
+    {
+      "text": "pg, Performance",
+      "ptime": 5009000.0,
+      "dtime": 5611000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg, Next Steps",
+      "ptime": 5065000.0,
+      "dtime": 5667000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Jon Hudson just left the room",
+      "ptime": 5167000.0,
+      "dtime": 5769000.0
+    },
+    {
+      "text": "Jeffrey Yasskin",
+      "ptime": 5227000.0,
+      "dtime": 5829000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Stephen Farrell",
+      "ptime": 5295000.0,
+      "dtime": 5897000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Kangaroo Twelve",
+      "ptime": 5385000.0,
+      "dtime": 5987000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Quan for Benoit",
+      "ptime": 5390000.0,
+      "dtime": 5992000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Geoff Beier just joined the room",
+      "ptime": 5406000.0,
+      "dtime": 6008000.0
+    },
+    {
+      "text": "https://www.ietf.org/proceedings/99/slides/slides-99-cfrg-kangarootwelve-draft-viguier-kangarootwelve-00-00.pdf",
+      "ptime": 5406000.0,
+      "dtime": 6008000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p2, What is Kangaroo Twelve",
+      "ptime": 5471000.0,
+      "dtime": 6073000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Yaakov Stein just left the room",
+      "ptime": 5527000.0,
+      "dtime": 6129000.0
+    },
+    {
+      "text": "p3, How Secure is K12",
+      "ptime": 5527000.0,
+      "dtime": 6129000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p4, Status of Keccak",
+      "ptime": 5607000.0,
+      "dtime": 6209000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p5, how fast is K12",
+      "ptime": 5702000.0,
+      "dtime": 6304000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "p6, why is it interesting for the ietf",
+      "ptime": 5748000.0,
+      "dtime": 6350000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "kyle rose",
+      "ptime": 5816000.0,
+      "dtime": 6418000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Dan Brown https://www.ietf.org/proceedings/99/slides/slides-99-cfrg-ecc-mod-8915-00.pdf",
+      "ptime": 6084000.0,
+      "dtime": 6686000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "We hear you and see you",
+      "ptime": 6124000.0,
+      "dtime": 6726000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg math formula",
+      "ptime": 6191000.0,
+      "dtime": 6793000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg, Benefits of Galois Field size",
+      "ptime": 6225000.0,
+      "dtime": 6827000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg simple and fast fermat inversion",
+      "ptime": 6268000.0,
+      "dtime": 6870000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg compareing 8^91+5 to otehr fields",
+      "ptime": 6309000.0,
+      "dtime": 6911000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg decimal exponential complexity as an efficiency heuristic",
+      "ptime": 6358000.0,
+      "dtime": 6960000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "(It is ironic that in a WG that is all about numbers, most presenters omit a hugely important number in their slides -- the *page* number :)",
+      "ptime": 6399000.0,
+      "dtime": 7001000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg benefits of curbe equation",
+      "ptime": 6433000.0,
+      "dtime": 7035000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg aside: re-deriving differntial addition",
+      "ptime": 6481000.0,
+      "dtime": 7083000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg curve criteria ceded by 2y**2\u003dx**3_x",
+      "ptime": 6517000.0,
+      "dtime": 7119000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg counterarguments: Fudd and Bugs :)",
+      "ptime": 6606000.0,
+      "dtime": 7208000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg Miller, 1985",
+      "ptime": 6617000.0,
+      "dtime": 7219000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Tried contacting Dan in a private message via Jabber to instruct him on how to reconnect the audio stream (as he\u0027s very delayed) but not sure he\u0027s read it",
+      "ptime": 6621000.0,
+      "dtime": 7223000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "Not sure if the chairs want to tell him via voice, or if it\u0027s fine if he goes on like that",
+      "ptime": 6641000.0,
+      "dtime": 7243000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "(don\u0027t want to disrupt the meeting)",
+      "ptime": 6648000.0,
+      "dtime": 7250000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "pg Happy 32nd birthday ECC",
+      "ptime": 6696000.0,
+      "dtime": 7298000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "What\u0027s the cofactor?",
+      "ptime": 6715000.0,
+      "dtime": 7317000.0,
+      "author": "Scott Fluhrer"
+    },
+    {
+      "text": "mic?",
+      "ptime": 6727000.0,
+      "dtime": 7329000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "sorry, missed it",
+      "ptime": 6738000.0,
+      "dtime": 7340000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "Scott is in the virtual queue",
+      "ptime": 6752000.0,
+      "dtime": 7354000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "new topic https://www.ietf.org/proceedings/99/slides/slides-99-cfrg-diffie-hellman-mod-63042711-00.pdf",
+      "ptime": 6796000.0,
+      "dtime": 7398000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "@Meetecho thanks.  Guess we\u0027ll muddle along",
+      "ptime": 6821000.0,
+      "dtime": 7423000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg, Gordon\u0027s attack and current countermeasures",
+      "ptime": 6832000.0,
+      "dtime": 7434000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "rsalz: ack",
+      "ptime": 6838000.0,
+      "dtime": 7440000.0,
+      "author": "Meetecho"
+    },
+    {
+      "text": "pg Benefits of p\u003d630...",
+      "ptime": 6881000.0,
+      "dtime": 7483000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg, heuristics about 630...",
+      "ptime": 6967000.0,
+      "dtime": 7569000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "pg extra slides",
+      "ptime": 6998000.0,
+      "dtime": 7600000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "topic AOB",
+      "ptime": 7163000.0,
+      "dtime": 7765000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "open mic",
+      "ptime": 7185000.0,
+      "dtime": 7787000.0,
+      "author": "rsalz"
+    },
+    {
+      "text": "***Lorenzo Miniero just left the room",
+      "ptime": 7201000.0,
+      "dtime": 7803000.0
+    },
+    {
+      "text": "we\u0027re done.",
+      "ptime": 7203000.0,
+      "dtime": 7805000.0,
+      "author": "rsalz"
+    }
+  ],
+  "tabs": [],
+  "panels": [
+    {
+      "type": 0.0,
+      "title": "Transcript",
+      "link": "resources/IETF99-CFRG-20170718-1550"
+    }
+  ]
+}

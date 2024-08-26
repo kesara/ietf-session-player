@@ -1,0 +1,456 @@
+
+{
+	"title": "IETF-AVTCORE-20220519-1700",
+	"filename": "IETF-AVTCORE-20220519-1700",
+	"start": 0,
+	"end": 7333000,
+	"start_datetime": "2022-05-19T16:57:02Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "i8uvUETwBek",
+    "start": 0,
+    "end": "7333000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 304000,
+    "ptime": 304000,
+    "author": "Jonathan Lennox",
+    "text": "I plan to be at IETF in person<br/>"
+  },
+  {
+    "dtime": 330000,
+    "ptime": 330000,
+    "author": "Mathis Engelbart",
+    "text": "I plan to be there in person<br/>"
+  },
+  {
+    "dtime": 341000,
+    "ptime": 341000,
+    "author": "spencerdawkins",
+    "text": "I'm likely to be in person at IETF 114<br/>"
+  },
+  {
+    "dtime": 349000,
+    "ptime": 349000,
+    "author": "Mo Zanaty",
+    "text": "+1 in person<br/>"
+  },
+  {
+    "dtime": 387000,
+    "ptime": 387000,
+    "author": "spencerdawkins",
+    "text": "Oh, no. Still CoViD-19 ...<br/>"
+  },
+  {
+    "dtime": 389000,
+    "ptime": 389000,
+    "author": "Stephan Wenger",
+    "text": "likely there in person<br/>"
+  },
+  {
+    "dtime": 585000,
+    "ptime": 585000,
+    "author": "Jonathan Lennox",
+    "text": "I am getting the phenomenon where I can't hear unless my audio is enabled, it seems.&nbsp;&nbsp;So I'm leaving my mic on.<br/>"
+  },
+  {
+    "dtime": 699000,
+    "ptime": 699000,
+    "author": "Roman Shpount",
+    "text": "I'm likely will be there in person<br/>"
+  },
+  {
+    "dtime": 2204000,
+    "ptime": 2204000,
+    "author": "Joerg Ott",
+    "text": "Likely in person<br/>"
+  },
+  {
+    "dtime": 3760000,
+    "ptime": 3760000,
+    "author": "Joerg Ott",
+    "text": "Mathis first<br/>"
+  },
+  {
+    "dtime": 3968000,
+    "ptime": 3968000,
+    "author": "Stefan Holmer",
+    "text": "+1 to what Sergio says. Also random (non-congestion induced) loss<br/>"
+  },
+  {
+    "dtime": 4114000,
+    "ptime": 4114000,
+    "author": "Joerg Ott",
+    "text": "Guess what we have done ;we re-ran all experiments<br/>"
+  },
+  {
+    "dtime": 4274000,
+    "ptime": 4274000,
+    "author": "Joerg Ott",
+    "text": "Yes to Jonathan<br/>"
+  },
+  {
+    "dtime": 4306000,
+    "ptime": 4306000,
+    "author": "Joerg Ott",
+    "text": "Well, whatever you would decide to be your sensible ADU (you could split a frame voluntarily)<br/>"
+  },
+  {
+    "dtime": 4335000,
+    "ptime": 4335000,
+    "author": "Sergio Garcia Murillo",
+    "text": "what is the benefit of using a quic stream vs a quic datagram?<br/>"
+  },
+  {
+    "dtime": 4380000,
+    "ptime": 4380000,
+    "author": "Jonathan Lennox",
+    "text": "Transport-level reliability, and avoiding having to do reassembly at the RTP layer, I'd guess?<br/>"
+  },
+  {
+    "dtime": 4382000,
+    "ptime": 4382000,
+    "author": "Joerg Ott",
+    "text": "QUIC stream doesn't require the datagram extension<br/>"
+  },
+  {
+    "dtime": 4396000,
+    "ptime": 4396000,
+    "author": "Joerg Ott",
+    "text": "Transport layer reliability (+ many folks did exactly this in the past)<br/>"
+  },
+  {
+    "dtime": 4424000,
+    "ptime": 4424000,
+    "author": "Joerg Ott",
+    "text": "And this was brought up during the last meeting as something to document<br/>"
+  },
+  {
+    "dtime": 4429000,
+    "ptime": 4429000,
+    "author": "Sergio Garcia Murillo",
+    "text": "but basically you are preventing any RTP over QUIC stream interorability with DTLS/SRTP (i am thinking in a mixed SFU model)<br/>"
+  },
+  {
+    "dtime": 4455000,
+    "ptime": 4455000,
+    "author": "Joerg Ott",
+    "text": "There are many different use cases; not all protocols combinations will fit all purposes<br/>"
+  },
+  {
+    "dtime": 4479000,
+    "ptime": 4479000,
+    "author": "Joerg Ott",
+    "text": "This is negotiable in the end<br/>"
+  },
+  {
+    "dtime": 4517000,
+    "ptime": 4517000,
+    "author": "Joerg Ott",
+    "text": "(e.g., in SDP)<br/>"
+  },
+  {
+    "dtime": 4599000,
+    "ptime": 4599000,
+    "author": "Joerg Ott",
+    "text": "@Sergio: Understand the mixed MCU model (RTP topologies will likely raise even more fundamental issues)<br/>"
+  },
+  {
+    "dtime": 4887000,
+    "ptime": 4887000,
+    "author": "Joerg Ott",
+    "text": "We haven't looked into ICE signalling yet<br/>"
+  },
+  {
+    "dtime": 4987000,
+    "ptime": 4987000,
+    "author": "Jonathan Lennox",
+    "text": "I don't think ICE *inside* QUIC makes very much sense...ICE outside QUIC is the scope of 7983bis discussed earlier but would also need additional signaling of some sort to get peer-to-peer QUIC working.<br/>"
+  },
+  {
+    "dtime": 5027000,
+    "ptime": 5027000,
+    "author": "Sergio Garcia Murillo",
+    "text": "yes, my question is how setting up ICE outside QUIC interacts with the flow identifier<br/>"
+  },
+  {
+    "dtime": 5030000,
+    "ptime": 5030000,
+    "author": "Joerg Ott",
+    "text": "right<br/>"
+  },
+  {
+    "dtime": 5047000,
+    "ptime": 5047000,
+    "author": "Joerg Ott",
+    "text": "This is an open question at this point<br/>"
+  },
+  {
+    "dtime": 5170000,
+    "ptime": 5170000,
+    "author": "Sergio Garcia Murillo",
+    "text": "i think that at the end my question is what does each of the different flows defined by the flow-id means in terms of rtp terminology<br/>"
+  },
+  {
+    "dtime": 5276000,
+    "ptime": 5276000,
+    "author": "Joerg Ott",
+    "text": "It's different RTP sessions (if they contain RTP)<br/>"
+  },
+  {
+    "dtime": 5318000,
+    "ptime": 5318000,
+    "author": "Joerg Ott",
+    "text": "effectively a replacement for port-based multiplexing<br/>"
+  },
+  {
+    "dtime": 5335000,
+    "ptime": 5335000,
+    "author": "Sergio Garcia Murillo",
+    "text": "rtp session as defined in&nbsp;&nbsp;<a href=\"https://datatracker.ietf.org/doc/html/rfc7656#page-14\" rel=\"nofollow\">https://datatracker.ietf.org/doc/html/rfc7656#page-14</a><br/>"
+  },
+  {
+    "dtime": 5336000,
+    "ptime": 5336000,
+    "author": "Sergio Garcia Murillo",
+    "text": "?<br/>"
+  },
+  {
+    "dtime": 5339000,
+    "ptime": 5339000,
+    "author": "Joerg Ott",
+    "text": "(how to fold this into ICE may be a bit more tricky)<br/>"
+  },
+  {
+    "dtime": 5422000,
+    "ptime": 5422000,
+    "author": "Joerg Ott",
+    "text": "According to section 3 of RFC3550<br/>"
+  },
+  {
+    "dtime": 5646000,
+    "ptime": 5646000,
+    "author": "Roman Shpount",
+    "text": "yes, you can do bandwidth control in the browser<br/>"
+  },
+  {
+    "dtime": 6139000,
+    "ptime": 6139000,
+    "author": "spencerdawkins",
+    "text": "So, W3C Web Transport is looking at two levels of congestion controllers, (browser and not-browser), and the \"not-browser\" ALSO has two levels of congestion controllers itself? EXCELLENT ... <br/>"
+  },
+  {
+    "dtime": 6368000,
+    "ptime": 6368000,
+    "author": "Jonathan Lennox",
+    "text": "I think having browser-based measurements of packet departure and arrival times are the important think for getting this to work in JS - you don't want to be measuring these timestamps in the browser, that'll be very vulnerable to application delays.<br/>"
+  },
+  {
+    "dtime": 6514000,
+    "ptime": 6514000,
+    "author": "Stefan Holmer",
+    "text": "agree, jonathan<br/>"
+  },
+  {
+    "dtime": 6589000,
+    "ptime": 6589000,
+    "author": "Jonathan Lennox",
+    "text": "There's a tradeoff between how much data the browser provides vs. the assumptions it makes about what the bwe algorithm needs.&nbsp;&nbsp;Raw packet departure and arrival times are the fewest assumptions but the most data.&nbsp;&nbsp;<br/>"
+  },
+  {
+    "dtime": 6594000,
+    "ptime": 6594000,
+    "author": "Stefan Holmer",
+    "text": "and making sure there's a possibility of picking a browser-based cc algorithm that is unlikely to be limiting the cc in the app<br/>"
+  },
+  {
+    "dtime": 6598000,
+    "ptime": 6598000,
+    "author": "Sergio Garcia Murillo",
+    "text": "i kind of agree, but I also think that taking account application delay is interesting in order to reduce the end to end delay<br/>"
+  },
+  {
+    "dtime": 6614000,
+    "ptime": 6614000,
+    "author": "Shuai Zhao",
+    "text": "@Jonathan, for note purpose, the agreement for item 7: RTP over QUIC, is that WG will discuss the possibility of early WG adoption without new revision?<br/>"
+  },
+  {
+    "dtime": 6631000,
+    "ptime": 6631000,
+    "author": "Roman Shpount",
+    "text": "It should be UDP/QUIC/RTP/AVPF<br/>"
+  },
+  {
+    "dtime": 6659000,
+    "ptime": 6659000,
+    "author": "Sergio Garcia Murillo",
+    "text": "+1 to UDP/QUIC/RTP/AVPF<br/>"
+  },
+  {
+    "dtime": 6661000,
+    "ptime": 6661000,
+    "author": "Jonathan Lennox",
+    "text": "Shuai: That was the consensus as I understood it, yes.<br/>"
+  },
+  {
+    "dtime": 6663000,
+    "ptime": 6663000,
+    "author": "Stefan Holmer",
+    "text": "@sergio, yes, but i wouldn't necessarily want the cc algorithm to deal with that.<br/>"
+  },
+  {
+    "dtime": 6722000,
+    "ptime": 6722000,
+    "author": "Stefan Holmer",
+    "text": "what i do want to avoid is having to send the same timestamps twice, once in the quic protocol and once in the app layer<br/>"
+  },
+  {
+    "dtime": 6760000,
+    "ptime": 6760000,
+    "author": "Sergio Garcia Murillo",
+    "text": "@stefan not really sure, would love to experiment the behaviour of browser vs js app feedback, maybe we are complicating the browser implementation unnecesarily<br/>"
+  },
+  {
+    "dtime": 6790000,
+    "ptime": 6790000,
+    "author": "Sergio Garcia Murillo",
+    "text": "but yes, if the timestamps are available in quic feedback, let's reuse them<br/>"
+  },
+  {
+    "dtime": 6809000,
+    "ptime": 6809000,
+    "author": "Joerg Ott",
+    "text": "thanks much, Spencer<br/>"
+  },
+  {
+    "dtime": 6867000,
+    "ptime": 6867000,
+    "author": "Jonathan Lennox",
+    "text": "Another question for Spencer: if we're looking at different QUIC flow-ids are different RTP sessions, they'd presumably need to have separate media groups (m= lines) in SDP?<br/>"
+  },
+  {
+    "dtime": 6900000,
+    "ptime": 6900000,
+    "author": "Sergio Garcia Murillo",
+    "text": "but then what is the difference of a flow id and a mid?<br/>"
+  },
+  {
+    "dtime": 6909000,
+    "ptime": 6909000,
+    "author": "Sergio Garcia Murillo",
+    "text": "seems redundant<br/>"
+  },
+  {
+    "dtime": 6913000,
+    "ptime": 6913000,
+    "author": "Jonathan Lennox",
+    "text": "This is basically another grouping layer at a level above BUNDLE.<br/>"
+  },
+  {
+    "dtime": 6930000,
+    "ptime": 6930000,
+    "author": "Roman Shpount",
+    "text": "Why would it be needed?<br/>"
+  },
+  {
+    "dtime": 6932000,
+    "ptime": 6932000,
+    "author": "Jonathan Lennox",
+    "text": "For BUNDLE (Unified) mid is an RTP stream, this is an RTP session.<br/>"
+  },
+  {
+    "dtime": 6964000,
+    "ptime": 6964000,
+    "author": "Jonathan Lennox",
+    "text": "Well, if it's a think that the protocol supports, presumably it should be signalable.&nbsp;&nbsp;If it's not needed, there's no need to put it in the protocl?<br/>"
+  },
+  {
+    "dtime": 7003000,
+    "ptime": 7003000,
+    "author": "Jonathan Lennox",
+    "text": "(Correction, mid isn't an RTP stream, it's more complicated than that, but it's smaller than a session.)<br/>"
+  },
+  {
+    "dtime": 7018000,
+    "ptime": 7018000,
+    "author": "Roman Shpount",
+    "text": "The question is if we need multiple RTP sessions over the same QUIC connection<br/>"
+  },
+  {
+    "dtime": 7048000,
+    "ptime": 7048000,
+    "author": "Joerg Ott",
+    "text": "You should nevertheless be able to provide a mapping from RTP sessions/streams to flow-ids so a receiver knows what to expect where for demuxing<br/>"
+  },
+  {
+    "dtime": 7061000,
+    "ptime": 7061000,
+    "author": "Jonathan Lennox",
+    "text": "I don't know if we need it; Jörg mentioned it as a possibility.<br/>"
+  },
+  {
+    "dtime": 7077000,
+    "ptime": 7077000,
+    "author": "Joerg Ott",
+    "text": "One point of many discussions was saving port numbers. We do all kinds of multiplexing<br/>"
+  },
+  {
+    "dtime": 7097000,
+    "ptime": 7097000,
+    "author": "Joerg Ott",
+    "text": "QUIC gives us an opportunity to do this (what we did before over UDP). So why lose this property?<br/>"
+  },
+  {
+    "dtime": 7124000,
+    "ptime": 7124000,
+    "author": "Jonathan Lennox",
+    "text": "It seems kind of redundant with BUNDLE, though there are cases where BUNDLE isn't applicable or desirable.<br/>"
+  },
+  {
+    "dtime": 7161000,
+    "ptime": 7161000,
+    "author": "Jonathan Lennox",
+    "text": "But if we do do it, we need to figure out what it looks like in SDP.<br/>"
+  },
+  {
+    "dtime": 7173000,
+    "ptime": 7173000,
+    "author": "Roman Shpount",
+    "text": "I see. I think WebRTC without bundle does not get a lot of use<br/>"
+  },
+  {
+    "dtime": 7176000,
+    "ptime": 7176000,
+    "author": "Joerg Ott",
+    "text": "The main problem we thought of that you may not just have RTP sessions. But this needs careful considerations<br/>"
+  },
+  {
+    "dtime": 7184000,
+    "ptime": 7184000,
+    "author": "Mathis Engelbart",
+    "text": "@Roman I think the question also includes if we need RTP and non-RTP on the same connection. I think it might be useful to share the connection e.g. for shared congestion control, which would otherwise compete against each other.<br/>"
+  },
+  {
+    "dtime": 7223000,
+    "ptime": 7223000,
+    "author": "Roman Shpount",
+    "text": "We definitely need RTP and non-RTP at least as data channel replacement<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF-AVTCORE-20220519-1700"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/interim-2022-avtcore-02/session/avtcore"
+		}
+	]
+}

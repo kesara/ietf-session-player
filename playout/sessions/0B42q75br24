@@ -1,0 +1,119 @@
+
+{
+	"title": "IETF113-PCE-20220321-1200",
+	"filename": "IETF113-PCE-20220321-1200",
+	"start": 0,
+	"end": 2961000,
+	"videos": [
+  {
+    "type": 2,
+    "src": "0B42q75br24",
+    "start": 0,
+    "end": "2961000"
+  }
+],
+	"messages": [
+  {
+    "dtime": 287000,
+    "ptime": 287000,
+    "author": "~~dhruv~~dhody~~",
+    "text": "<a href=\"https://notes.ietf.org/notes-ietf-113-pce?both\" rel=\"nofollow\">https://notes.ietf.org/notes-ietf-113-pce?both</a><br/>"
+  },
+  {
+    "dtime": 579000,
+    "ptime": 579000,
+    "author": "Ahmed Bashandy",
+    "text": "Is it possible to have the presenter mention the slide number. This way if someone cannot join the meetecho can follow up on the downloaded slides<br/>"
+  },
+  {
+    "dtime": 605000,
+    "ptime": 605000,
+    "author": "Julien Meuric",
+    "text": "Currently slide 13<br/>"
+  },
+  {
+    "dtime": 703000,
+    "ptime": 703000,
+    "author": "Julien Meuric",
+    "text": "slide 14<br/>"
+  },
+  {
+    "dtime": 1400000,
+    "ptime": 1400000,
+    "author": "John Scudder",
+    "text": "I can also mention that the discuss has been cleared from draft-ietf-pce-binding-label-sid-15 so that will be moving to 'approved' before Wednesday.<br/>"
+  },
+  {
+    "dtime": 1419000,
+    "ptime": 1419000,
+    "author": "Julien Meuric",
+    "text": "Thanks John!<br/>"
+  },
+  {
+    "dtime": 1439000,
+    "ptime": 1439000,
+    "author": "Cheng Li",
+    "text": "thanks John!<br/>"
+  },
+  {
+    "dtime": 1969000,
+    "ptime": 1969000,
+    "author": "Joel Halpern",
+    "text": "I admit to not having followed this document.&nbsp;&nbsp;What does it mean to say that protection MUST be enforced?&nbsp;&nbsp;If there is no protection route, what is supposed to be done?<br/>"
+  },
+  {
+    "dtime": 2041000,
+    "ptime": 2041000,
+    "author": "Julien Meuric",
+    "text": "Usually, in case of MUST vs reality, reality wins. ;-)<br/>"
+  },
+  {
+    "dtime": 2070000,
+    "ptime": 2070000,
+    "author": "Andrew Stone",
+    "text": "@Joel - local protection. A given adjacency may contain one or many sids, with backup bit flag set to indicate LFA capable or not. A given path may want to enforce only using ADJ-SIDs that are protected, vs want to enforce finding a path that does not want LFA (i.e rather fail fast via BFD and switch to path protection rather than local) <br/>"
+  },
+  {
+    "dtime": 2113000,
+    "ptime": 2113000,
+    "author": "Julien Meuric",
+    "text": "@Joel: Feel free to check the exact wording in the I-D and comment accordingly on the list.<br/>"
+  },
+  {
+    "dtime": 2807000,
+    "ptime": 2807000,
+    "author": "Italo Busi",
+    "text": "bye bye<br/>"
+  },
+  {
+    "dtime": 2815000,
+    "ptime": 2815000,
+    "author": "Daniele Ceccarelli",
+    "text": "bye thanks<br/>"
+  },
+  {
+    "dtime": 2853000,
+    "ptime": 2853000,
+    "author": "Boris Khasanov",
+    "text": "bye!<br/>"
+  },
+  {
+    "dtime": 2862000,
+    "ptime": 2862000,
+    "author": "Joel Halpern",
+    "text": "@Andrew, @Julien Thanks.&nbsp;&nbsp;I was trying to get enough context to decide if I needed to read the draft.&nbsp;&nbsp;Replies very much aprpeciated.<br/>"
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF113-PCE-20220321-1200"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/113/session/pce"
+		}
+	]
+}

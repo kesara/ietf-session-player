@@ -1,0 +1,931 @@
+
+{
+	"title": "IETF117-RSWG-20230727-1630",
+	"filename": "IETF117-RSWG-20230727-1630",
+	"start": 0,
+	"end": 6498000,
+	"start_datetime": "2023-07-27T16:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "88Lzci4-uIo",
+    "start": 0,
+    "end": "6498000"
+  }
+],
+	"messages": [
+  {
+    "author": "Kesara Rathnayake",
+    "text": "<p>Draft PR for allowing unicode everywhere: <a href=\"https://github.com/ietf-tools/xml2rfc/pull/1017\">https://github.com/ietf-tools/xml2rfc/pull/1017</a></p>",
+    "topic": "ietf-117",
+    "dtime": 428000,
+    "ptime": 428000
+  },
+  {
+    "author": "Jean Mahoney",
+    "text": "<p>(deleted)</p>",
+    "topic": "ietf-116",
+    "dtime": 434000,
+    "ptime": 434000
+  },
+  {
+    "author": "Jean Mahoney",
+    "text": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 614000,
+    "ptime": 614000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>It is a great question</p>",
+    "topic": "ietf-117",
+    "dtime": 956000,
+    "ptime": 956000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Do we collect information that the processes we know of don't need</p>",
+    "topic": "ietf-117",
+    "dtime": 970000,
+    "ptime": 970000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>docname already is a duplicate</p>",
+    "topic": "ietf-117",
+    "dtime": 1032000,
+    "ptime": 1032000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>While we are on document names, would anyone care to explain the intended relationship for the I-D or RFC name in &lt;rfc&gt; and the one in &lt;front&gt;&lt;seriesInfo&gt; ?</p>",
+    "topic": "ietf-117",
+    "dtime": 1069000,
+    "ptime": 1069000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>April 1 RFCs don't have draft links</p>",
+    "topic": "ietf-117",
+    "dtime": 1070000,
+    "ptime": 1070000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(of the seriesinfo)</p>",
+    "topic": "ietf-117",
+    "dtime": 1076000,
+    "ptime": 1076000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>JCK: duplicate</p>",
+    "topic": "ietf-117",
+    "dtime": 1091000,
+    "ptime": 1091000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>Thanks, Martin</p>",
+    "topic": "ietf-117",
+    "dtime": 1114000,
+    "ptime": 1114000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>This should point to a long-term address</p>",
+    "topic": "ietf-117",
+    "dtime": 1114000,
+    "ptime": 1114000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p><a href=\"http://doc.ietf.org\">doc.ietf.org</a>...</p>",
+    "topic": "ietf-117",
+    "dtime": 1119000,
+    "ptime": 1119000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Proposal: get rid of docName</p>",
+    "topic": "ietf-117",
+    "dtime": 1156000,
+    "ptime": 1156000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>it's hiden metadata that doesn' help at all</p>",
+    "topic": "ietf-117",
+    "dtime": 1164000,
+    "ptime": 1164000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Carsten: yes, but not guaranteed to be consistent and only one shows up in rendering</p>",
+    "topic": "ietf-117",
+    "dtime": 1179000,
+    "ptime": 1179000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Exactly.  And I have seen several drafts where the duplicates don't agreed/</p>",
+    "topic": "ietf-117",
+    "dtime": 1187000,
+    "ptime": 1187000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Is that an elevated 2 character or a superscript?</p>",
+    "topic": "ietf-117",
+    "dtime": 1222000,
+    "ptime": 1222000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(Proposal: add an Index of non-ASCII characters.)</p>",
+    "topic": "ietf-117",
+    "dtime": 1242000,
+    "ptime": 1242000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>So I can find out whether the snowman has snow</p>",
+    "topic": "ietf-117",
+    "dtime": 1262000,
+    "ptime": 1262000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>re &lt;u&gt;: <a href=\"https://github.com/rfc-format/draft-iab-xml2rfc-v3-bis/issues/217\">https://github.com/rfc-format/draft-iab-xml2rfc-v3-bis/issues/217</a></p>",
+    "topic": "ietf-117",
+    "dtime": 1264000,
+    "ptime": 1264000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Carsten: I think that having a tool that indexes that way is fine, but I would not include it in any publication format</p>",
+    "topic": "ietf-117",
+    "dtime": 1288000,
+    "ptime": 1288000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Martin.  There is a Unicode code point for that (small, elevated) character so no need for &lt;superscript&gt; markup.</p>",
+    "topic": "ietf-117",
+    "dtime": 1296000,
+    "ptime": 1296000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>MT: Fine with me, the tool is called echars</p>",
+    "topic": "ietf-117",
+    "dtime": 1311000,
+    "ptime": 1311000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"355\">@John Klensin</span> I am aware of that, hence the question.</p>",
+    "topic": "ietf-117",
+    "dtime": 1321000,
+    "ptime": 1321000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>²</p>",
+    "topic": "ietf-117",
+    "dtime": 1381000,
+    "ptime": 1381000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>&lt;u&gt; simply solves another problem, described well in 7997 (and solved, as opposed to 7997)</p>",
+    "topic": "ietf-117",
+    "dtime": 1384000,
+    "ptime": 1384000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>but it has that open issue I mentioned above that we should fix</p>",
+    "topic": "ietf-117",
+    "dtime": 1417000,
+    "ptime": 1417000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Right, the hackery in the &lt;u&gt; implementation does have a problem.  Unrelated to non-ASCII</p>",
+    "topic": "ietf-117",
+    "dtime": 1488000,
+    "ptime": 1488000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>that was not helpful</p>",
+    "topic": "ietf-117",
+    "dtime": 1511000,
+    "ptime": 1511000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>MathML, actually</p>",
+    "topic": "ietf-117",
+    "dtime": 1529000,
+    "ptime": 1529000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>We should have MathML in the artset</p>",
+    "topic": "ietf-117",
+    "dtime": 1555000,
+    "ptime": 1555000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>oh wow, I disagree wit most of that slide; but we realy shoulddo this in the issue tracker</p>",
+    "topic": "ietf-117",
+    "dtime": 1576000,
+    "ptime": 1576000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>But since that changes the grammar, it will take a couple years</p>",
+    "topic": "ietf-117",
+    "dtime": 1578000,
+    "ptime": 1578000
+  },
+  {
+    "author": "Pete Resnick",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"354\">@Julian Reschke</span> Yes, thanks.</p>",
+    "topic": "ietf-117",
+    "dtime": 1597000,
+    "ptime": 1597000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I was enqueued to say this, but I'll put it here: We should not be specifying the prep tool.</p>",
+    "topic": "ietf-117",
+    "dtime": 1709000,
+    "ptime": 1709000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>The prep tool is implementation, not policy.</p>",
+    "topic": "ietf-117",
+    "dtime": 1719000,
+    "ptime": 1719000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>right; it's an impl details</p>",
+    "topic": "ietf-117",
+    "dtime": 1739000,
+    "ptime": 1739000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>@Martin +1</p>",
+    "topic": "ietf-117",
+    "dtime": 1740000,
+    "ptime": 1740000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>detail</p>",
+    "topic": "ietf-117",
+    "dtime": 1743000,
+    "ptime": 1743000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>absolutely, but can't misinformation let spread</p>",
+    "topic": "ietf-117",
+    "dtime": 1759000,
+    "ptime": 1759000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>MT: It would be nice to include incoming links in the \"API\" of RFCXML</p>",
+    "topic": "ietf-117",
+    "dtime": 1796000,
+    "ptime": 1796000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>color!</p>",
+    "topic": "ietf-117",
+    "dtime": 1821000,
+    "ptime": 1821000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>this is the policy for the publishing language</p>",
+    "topic": "ietf-117",
+    "dtime": 1879000,
+    "ptime": 1879000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>there will not be includes in the published language</p>",
+    "topic": "ietf-117",
+    "dtime": 1887000,
+    "ptime": 1887000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>we will make sure that includes work for authoring, and that includes can be rebuilt when looking at the published grammar</p>",
+    "topic": "ietf-117",
+    "dtime": 1915000,
+    "ptime": 1915000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>It also would be nice to have a dcument for the authoring language, that <em>all IETF work</em> happens in</p>",
+    "topic": "ietf-117",
+    "dtime": 1921000,
+    "ptime": 1921000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>there's a line here between documenting a tool (xml2rfc) and documenting a format (RFC XML) that is badly smeared</p>",
+    "topic": "ietf-117",
+    "dtime": 1933000,
+    "ptime": 1933000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p>but that is implementation, not policy, and rswg shouldn't waste time on it</p>",
+    "topic": "ietf-117",
+    "dtime": 1934000,
+    "ptime": 1934000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Robert: Some of it.</p>",
+    "topic": "ietf-117",
+    "dtime": 1955000,
+    "ptime": 1955000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>I don't want to waste queue time on this, but... If we look back at where we came from, and where we are right now, we can be happy about the progress we made by introducing v3 and HTML renditions. Seriously. there are flaws, and we need to fix them, and wer too slow with that. But still!</p>",
+    "topic": "ietf-117",
+    "dtime": 2236000,
+    "ptime": 2236000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Julian: +1</p>",
+    "topic": "ietf-117",
+    "dtime": 2269000,
+    "ptime": 2269000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>We are in a great position, the infuriating part is that it could be even better easily</p>",
+    "topic": "ietf-117",
+    "dtime": 2289000,
+    "ptime": 2289000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>si</p>",
+    "topic": "ietf-117",
+    "dtime": 2310000,
+    "ptime": 2310000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(and, FWIW, a big part of this is based on MTR's work)</p>",
+    "topic": "ietf-117",
+    "dtime": 2375000,
+    "ptime": 2375000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>which had incredible foresight in 1999</p>",
+    "topic": "ietf-117",
+    "dtime": 2439000,
+    "ptime": 2439000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>postal =<br>\n     element postal {<br>\n       attribute xml:base { text }?,<br>\n       attribute xml:lang { text }?,<br>\n       (( city | cityarea | code | country | extaddr | pobox | region<br>\n          | sortingcode | street)* <br>\n        | postalLine+)<br>\n     }</p>",
+    "topic": "ietf-117",
+    "dtime": 2587000,
+    "ptime": 2587000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>So we can have postalLine, but not country.</p>",
+    "topic": "ietf-117",
+    "dtime": 2602000,
+    "ptime": 2602000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>➔ semantic refinement</p>",
+    "topic": "ietf-117",
+    "dtime": 2620000,
+    "ptime": 2620000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>we can, if we extend the grammar (we actually did that already)</p>",
+    "topic": "ietf-117",
+    "dtime": 2654000,
+    "ptime": 2654000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(the snippet is from xml2rfc, 2023-04-17 I think(</p>",
+    "topic": "ietf-117",
+    "dtime": 2692000,
+    "ptime": 2692000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I didn't notice that JL's example doesn't actually work today.</p>",
+    "topic": "ietf-117",
+    "dtime": 2729000,
+    "ptime": 2729000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>I believe we used that in the HTTP RFCs lasr year already</p>",
+    "topic": "ietf-117",
+    "dtime": 2758000,
+    "ptime": 2758000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(We don't know the original intent, because the consensus was about the artifacy)</p>",
+    "topic": "ietf-117",
+    "dtime": 2769000,
+    "ptime": 2769000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>(but my recollection is incorrect)</p>",
+    "topic": "ietf-117",
+    "dtime": 2804000,
+    "ptime": 2804000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>The source doesn't lie :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 2816000,
+    "ptime": 2816000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>Sadly, \"original intent\" is a matter of interpretation and we will probably never get consensus about the official interpreter</p>",
+    "topic": "ietf-117",
+    "dtime": 2820000,
+    "ptime": 2820000
+  },
+  {
+    "author": "Jay Daley",
+    "text": "<p>The errata process is a well used process for establishing if  a change (fix) meets the original intent</p>",
+    "topic": "ietf-117",
+    "dtime": 3070000,
+    "ptime": 3070000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>And, of course, if errata can be interpreted as changing semantics, they ought to have the same level of review and approval as the documents themselves (i.e., not be author and/or IESG decisions)</p>",
+    "topic": "ietf-117",
+    "dtime": 3114000,
+    "ptime": 3114000
+  },
+  {
+    "author": "Abdussalam Baryun",
+    "text": "<p>good point</p>",
+    "topic": "ietf-117",
+    "dtime": 3143000,
+    "ptime": 3143000
+  },
+  {
+    "author": "Hector Santos",
+    "text": "<p>Side Question: For new authors, what GUI tools are available?</p>",
+    "topic": "ietf-117",
+    "dtime": 3215000,
+    "ptime": 3215000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>hector: kdwatch + a browser is as close as we get</p>",
+    "topic": "ietf-117",
+    "dtime": 3256000,
+    "ptime": 3256000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>you can edit the XML and display it directly in the browser (with rfcxml.xslt)</p>",
+    "topic": "ietf-117",
+    "dtime": 3295000,
+    "ptime": 3295000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>MT: true.  Happens to me, too...</p>",
+    "topic": "ietf-117",
+    "dtime": 3319000,
+    "ptime": 3319000
+  },
+  {
+    "author": "Hector Santos",
+    "text": "<p>Yes. More of a WYSIWYG tool.  More attractive for new authors.</p>",
+    "topic": "ietf-117",
+    "dtime": 3339000,
+    "ptime": 3339000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>WYSIAYG</p>",
+    "topic": "ietf-117",
+    "dtime": 3409000,
+    "ptime": 3409000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>I largely agree with Carsten.  I'll believe we are reacting consensus about XML or even markdown when I see IETF Last Calls pointing to those forms and indicating that all comments should be stated in terms of them, not what appears in presentation.    (I think that would be a horrible idea, but...)</p>",
+    "topic": "ietf-117",
+    "dtime": 3413000,
+    "ptime": 3413000
+  },
+  {
+    "author": "Robert Sparks",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"350\">@Eliot Lear</span> if you can send a little louder audio it would be useful (you are currently quieter than other remote participants).</p>",
+    "topic": "ietf-117",
+    "dtime": 3498000,
+    "ptime": 3498000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(we should not forget about document usability.  That <em>is</em> an objective, but second-rate behind preserving the result of the consensus processes.)</p>",
+    "topic": "ietf-117",
+    "dtime": 3565000,
+    "ptime": 3565000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"350\">@Eliot Lear</span> I didn't say \"most\" people build consensus around markdown, only that <em>some</em> do.</p>",
+    "topic": "ietf-117",
+    "dtime": 3573000,
+    "ptime": 3573000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>i.e., the future is already there, it's just unevenly distributed</p>",
+    "topic": "ietf-117",
+    "dtime": 3622000,
+    "ptime": 3622000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>also, I want to point out how disappointed I am that my choice of font was not retained</p>",
+    "topic": "ietf-117",
+    "dtime": 3641000,
+    "ptime": 3641000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 3691000,
+    "ptime": 3691000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I think we should have a policy about fonts.  Item one: Serif for text body</p>",
+    "topic": "ietf-117",
+    "dtime": 3702000,
+    "ptime": 3702000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>@robert sparks, I have <em>never</em> been accused of being too quiet.</p>",
+    "topic": "ietf-117",
+    "dtime": 3732000,
+    "ptime": 3732000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I am opposed to having a font policy</p>",
+    "topic": "ietf-117",
+    "dtime": 3735000,
+    "ptime": 3735000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>That, too.</p>",
+    "topic": "ietf-117",
+    "dtime": 3747000,
+    "ptime": 3747000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>A default font policy, I meant</p>",
+    "topic": "ietf-117",
+    "dtime": 3755000,
+    "ptime": 3755000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>And dark mode</p>",
+    "topic": "ietf-117",
+    "dtime": 3762000,
+    "ptime": 3762000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>what would that achieve?</p>",
+    "topic": "ietf-117",
+    "dtime": 3764000,
+    "ptime": 3764000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>A little energy to spend on document usability.</p>",
+    "topic": "ietf-117",
+    "dtime": 3791000,
+    "ptime": 3791000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>*dark mode\" is a feature I support in the stylesheets that I maintain and it works great</p>",
+    "topic": "ietf-117",
+    "dtime": 3792000,
+    "ptime": 3792000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Yes, and fonts go there, too</p>",
+    "topic": "ietf-117",
+    "dtime": 3807000,
+    "ptime": 3807000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>use rfcxml.xslt, dark mode has been supported for ages :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 3814000,
+    "ptime": 3814000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>We need to provide good defaults for the 80 %</p>",
+    "topic": "ietf-117",
+    "dtime": 3838000,
+    "ptime": 3838000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>+1 s/canonical/source</p>",
+    "topic": "ietf-117",
+    "dtime": 3891000,
+    "ptime": 3891000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>supporting dark mode is really challenging if you allow colours; see just about any GitHub README</p>",
+    "topic": "ietf-117",
+    "dtime": 3897000,
+    "ptime": 3897000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>just put it in the artset</p>",
+    "topic": "ietf-117",
+    "dtime": 3912000,
+    "ptime": 3912000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span aria-label=\"nauseated\" class=\"emoji emoji-1f922\" role=\"img\" title=\"nauseated\">:nauseated:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 3927000,
+    "ptime": 3927000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>@mthomp that didn't render :-(</p>",
+    "topic": "ietf-117",
+    "dtime": 3952000,
+    "ptime": 3952000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I'm not a fan of that idea, because it creates work</p>",
+    "topic": "ietf-117",
+    "dtime": 3955000,
+    "ptime": 3955000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>s/p//</p>",
+    "topic": "ietf-117",
+    "dtime": 3967000,
+    "ptime": 3967000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"350\">@Eliot Lear</span> that was an emoji of a nauseated face</p>",
+    "topic": "ietf-117",
+    "dtime": 3987000,
+    "ptime": 3987000
+  },
+  {
+    "author": "Eliot Lear",
+    "text": "<p>Yeah, i was aiming for a rendering joke.  #fail</p>",
+    "topic": "ietf-117",
+    "dtime": 4013000,
+    "ptime": 4013000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>Interesting that the meetecho client does not render emoji.  I wonder why</p>",
+    "topic": "ietf-117",
+    "dtime": 4046000,
+    "ptime": 4046000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>MT: <span aria-label=\"ocean\" class=\"emoji emoji-1f30a\" role=\"img\" title=\"ocean\">:ocean:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 4069000,
+    "ptime": 4069000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>huh, strange</p>",
+    "topic": "ietf-117",
+    "dtime": 4088000,
+    "ptime": 4088000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>I just put in the character</p>",
+    "topic": "ietf-117",
+    "dtime": 4096000,
+    "ptime": 4096000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p><span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>",
+    "topic": "ietf-117",
+    "dtime": 4097000,
+    "ptime": 4097000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>not working for me...</p>",
+    "topic": "ietf-117",
+    "dtime": 4108000,
+    "ptime": 4108000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>(I'm using the OS emoji keyboard)</p>",
+    "topic": "ietf-117",
+    "dtime": 4121000,
+    "ptime": 4121000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p><span aria-label=\"ocean\" class=\"emoji emoji-1f30a\" role=\"img\" title=\"ocean\">:ocean:</span><br>\ntest</p>",
+    "topic": "ietf-117",
+    "dtime": 4150000,
+    "ptime": 4150000
+  },
+  {
+    "author": "Kesara Rathnayake",
+    "text": "<p>emojis on meetecho client are different to what's on zulip.</p>",
+    "topic": "ietf-117",
+    "dtime": 4244000,
+    "ptime": 4244000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I get the same outcome from both clients.</p>",
+    "topic": "ietf-117",
+    "dtime": 4281000,
+    "ptime": 4281000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>use utftex for integrals</p>",
+    "topic": "ietf-117",
+    "dtime": 4410000,
+    "ptime": 4410000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>it's ugly in plain text, but still mostly functional</p>",
+    "topic": "ietf-117",
+    "dtime": 4508000,
+    "ptime": 4508000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>You can't have finer details without terminology.  That's why I wrote <a href=\"https://www.ietf.org/archive/id/draft-bormann-rswg-terminology-00.html\">https://www.ietf.org/archive/id/draft-bormann-rswg-terminology-00.html</a></p>",
+    "topic": "ietf-117",
+    "dtime": 4782000,
+    "ptime": 4782000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>Martin's draft is fine for me (after a few changes) at the 30000' level</p>",
+    "topic": "ietf-117",
+    "dtime": 4800000,
+    "ptime": 4800000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>So an online interim is now f2f? :-)</p>",
+    "topic": "ietf-117",
+    "dtime": 4856000,
+    "ptime": 4856000
+  },
+  {
+    "author": "Paul Hoffman",
+    "text": "<p>Pete fixed that: online</p>",
+    "topic": "ietf-117",
+    "dtime": 5006000,
+    "ptime": 5006000
+  },
+  {
+    "author": "Martin Thomson",
+    "text": "<p>I see no problem with asking RSWG for new ideas, though asking RSAB is a fine way to get a quick first call.</p>",
+    "topic": "ietf-117",
+    "dtime": 5402000,
+    "ptime": 5402000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>&lt;tt!</p>",
+    "topic": "ietf-117",
+    "dtime": 5611000,
+    "ptime": 5611000
+  },
+  {
+    "author": "John Klensin",
+    "text": "<p>The elephant in the Unicode usage room is that a list of code points is not sufficient to get desired and predicable rendering in a large collection of cases (mostly with non-European scripts)</p>",
+    "topic": "ietf-117",
+    "dtime": 5970000,
+    "ptime": 5970000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>The style guide allows British vs. US</p>",
+    "topic": "ietf-117",
+    "dtime": 6111000,
+    "ptime": 6111000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>(I'm working in a WG that has a British-spelled WG name, which trips the spelling checker each time I work on the document there.)</p>",
+    "topic": "ietf-117",
+    "dtime": 6152000,
+    "ptime": 6152000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>It can't.</p>",
+    "topic": "ietf-117",
+    "dtime": 6237000,
+    "ptime": 6237000
+  },
+  {
+    "author": "Julian Reschke",
+    "text": "<p>+1</p>",
+    "topic": "ietf-117",
+    "dtime": 6419000,
+    "ptime": 6419000
+  },
+  {
+    "author": "Carsten Bormann",
+    "text": "<p>JCK: very true!  But we first need to jump the hurdle of a fixed allow-list</p>",
+    "topic": "ietf-117",
+    "dtime": 6458000,
+    "ptime": 6458000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF117-RSWG-20230727-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/117/session/rswg"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF117-RSWG-20230727-1630"
+		}		
+	]
+}

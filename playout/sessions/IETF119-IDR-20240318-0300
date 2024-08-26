@@ -1,0 +1,469 @@
+
+{
+	"title": "IETF119-IDR-20240318-0300",
+	"filename": "IETF119-IDR-20240318-0300",
+	"start": 0,
+	"end": 7074000,
+	"start_datetime": "2024-03-18T03:00:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "3PgYbU8uL3w",
+    "start": 0,
+    "end": "7074000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jie Dong",
+    "text": "<p>Hello everyone</p>",
+    "topic": "ietf-119",
+    "dtime": 271000,
+    "ptime": 271000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Welcome to contribute to the notes at: <a href=\"https://notes.ietf.org/notes-ietf-119-idr\">https://notes.ietf.org/notes-ietf-119-idr</a></p>",
+    "topic": "ietf-119",
+    "dtime": 283000,
+    "ptime": 283000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@meetecho can we get video camera on presenter rather than watching the chairs? :-)</p>",
+    "topic": "ietf-119",
+    "dtime": 1025000,
+    "ptime": 1025000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Ack, sorry for missing this!</p>",
+    "topic": "ietf-119",
+    "dtime": 1049000,
+    "ptime": 1049000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>tyvm. lunch sleepiness for all.</p>",
+    "topic": "ietf-119",
+    "dtime": 1059000,
+    "ptime": 1059000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>:)</p>",
+    "topic": "ietf-119",
+    "dtime": 1066000,
+    "ptime": 1066000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Lunch? I still need breakfast - but 6am was a little early to eat ;p</p>",
+    "topic": "ietf-119",
+    "dtime": 1091000,
+    "ptime": 1091000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>lunch? more like 4AM sleplessness here ;-)</p>",
+    "topic": "ietf-119",
+    "dtime": 1096000,
+    "ptime": 1096000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>\"time is an illusion. lunch time doubly so.\"</p>",
+    "topic": "ietf-119",
+    "dtime": 1121000,
+    "ptime": 1121000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>My understanding of this draft is that it seems to be overlay related - and hence I'd question if this doesn't maybe belong in BESS?</p>",
+    "topic": "ietf-119",
+    "dtime": 1206000,
+    "ptime": 1206000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>This is about IPv4 reachability so it is base Internet service IMO</p>",
+    "topic": "ietf-119",
+    "dtime": 1261000,
+    "ptime": 1261000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 1284000,
+    "ptime": 1284000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 1297000,
+    "ptime": 1297000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 1309000,
+    "ptime": 1309000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>This is about exchanging the mapping in bgp, so this piece is either idr or bess.</p>",
+    "topic": "ietf-119",
+    "dtime": 1316000,
+    "ptime": 1316000
+  },
+  {
+    "author": "Christopher Hawker",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 1324000,
+    "ptime": 1324000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The NAT behaviors done are definitely INT area.</p>",
+    "topic": "ietf-119",
+    "dtime": 1326000,
+    "ptime": 1326000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@authors of 4map6, there were some questions and discussion over the IDR mailer. Would appreciate response to clarify the use-case as well as aspects related to the translation mechanism itself.</p>",
+    "topic": "ietf-119",
+    "dtime": 1433000,
+    "ptime": 1433000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>as to Andrew, if it's basic connectitity then ::FFFF is your friend AFAIS and if you stick whole packet into v6 then it's basically a tunnel and overlay. if the reasoning is address obfuscation then I don't see how sticking v4 into v6 packets helps much.</p>",
+    "topic": "ietf-119",
+    "dtime": 1649000,
+    "ptime": 1649000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The scenario isn't necessarily about obfuscation, I believe, but a form of CGNAT.</p>",
+    "topic": "ietf-119",
+    "dtime": 1726000,
+    "ptime": 1726000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>ok, possible use case but it's still v4 tunneled over v6 so AFAIS overlay. and smashing NAT+overlay tunnels into a single flat architecture does not seem to me particularly elegant either.  good 'nuff. thanks</p>",
+    "topic": "ietf-119",
+    "dtime": 2106000,
+    "ptime": 2106000
+  },
+  {
+    "author": "Chongfeng Xie",
+    "text": "<p>@Ketan OK, we will give feedbacks to your questions. Thank you.</p>",
+    "topic": "ietf-119",
+    "dtime": 2134000,
+    "ptime": 2134000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@TonyP, the proposal is for translation and not encapsulation. But you are not the only person having this perception. This is what was raised on the mail thread over the wknd.</p>",
+    "topic": "ietf-119",
+    "dtime": 2177000,
+    "ptime": 2177000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>@Mengxiao  Just double check the specs, currently PeerAdj SID is not included in the L2 bundle member TLV, while Adj SID can, do you think that is not good enough?</p>",
+    "topic": "ietf-119",
+    "dtime": 2263000,
+    "ptime": 2263000
+  },
+  {
+    "author": "Chongfeng Xie",
+    "text": "<p>@Ketan, the proposal works for both transaltion and encapsulation.</p>",
+    "topic": "ietf-119",
+    "dtime": 2271000,
+    "ptime": 2271000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Ketan, well, then explain how that works without putting v4 into v6 packet which is architecturally a tunnel whether you call it a vogon spaceship or a tunnel</p>",
+    "topic": "ietf-119",
+    "dtime": 2274000,
+    "ptime": 2274000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@TonyP, I am not the author but that was my question as well</p>",
+    "topic": "ietf-119",
+    "dtime": 2314000,
+    "ptime": 2314000
+  },
+  {
+    "author": "Changwang Lin",
+    "text": "<p>@jie dong: peer adj sid can not be the sub tlv of l2 buundle member tlv</p>",
+    "topic": "ietf-119",
+    "dtime": 2331000,
+    "ptime": 2331000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>By \"explain\" I mean it would be helpful to have that somehow described in the draft AFAIS</p>",
+    "topic": "ietf-119",
+    "dtime": 2339000,
+    "ptime": 2339000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>@Ketan: oh, ok, understood. thanks</p>",
+    "topic": "ietf-119",
+    "dtime": 2348000,
+    "ptime": 2348000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@TonyP ... +1</p>",
+    "topic": "ietf-119",
+    "dtime": 2352000,
+    "ptime": 2352000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>it's covered somewhat in the referred draft for the architecture.</p>",
+    "topic": "ietf-119",
+    "dtime": 2365000,
+    "ptime": 2365000
+  },
+  {
+    "author": "Changwang Lin",
+    "text": "<p>this draft reuses the peer adj sid tlv as sub tlv of l2 bundle member tlv</p>",
+    "topic": "ietf-119",
+    "dtime": 2371000,
+    "ptime": 2371000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>@Changwang what I mean is can adj-SID be used instead of peer-adj?</p>",
+    "topic": "ietf-119",
+    "dtime": 2393000,
+    "ptime": 2393000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jeff ... true but that \"somehow\" was not very clear and may be it is not just me getting mixed up between translation and encapsulation.</p>",
+    "topic": "ietf-119",
+    "dtime": 2411000,
+    "ptime": 2411000
+  },
+  {
+    "author": "Changwang Lin",
+    "text": "<p>adj-sid is igp not bpg</p>",
+    "topic": "ietf-119",
+    "dtime": 2430000,
+    "ptime": 2430000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>More clarity in bgp document would be helpful, I agree.</p>",
+    "topic": "ietf-119",
+    "dtime": 2435000,
+    "ptime": 2435000
+  },
+  {
+    "author": "Changwang Lin",
+    "text": "<p>adj-sid is used for igp, not for bgp peer adj sid</p>",
+    "topic": "ietf-119",
+    "dtime": 2448000,
+    "ptime": 2448000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jie, AdjSID is for IGPs and we are talking about a BGP EPE PeerAdj SID ... semantics are slightly different. You will note we are not adding new TLVs - just updating procedures to cover BGP EPE for L2 bundle members</p>",
+    "topic": "ietf-119",
+    "dtime": 2487000,
+    "ptime": 2487000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>the idr chairs need to put out a statement regarding using bgp-ls as glue for work standardized elsewhere in ietf.</p>",
+    "topic": "ietf-119",
+    "dtime": 2826000,
+    "ptime": 2826000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>it's important to not let the bgp glue get ahead of the base work.</p>",
+    "topic": "ietf-119",
+    "dtime": 2852000,
+    "ptime": 2852000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>@Jeff +1</p>",
+    "topic": "ietf-119",
+    "dtime": 2928000,
+    "ptime": 2928000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>@Ketan I see the difference between adj-SID and peer-adj SID, then what about SRv6, do we need a different SID type for BGP links?</p>",
+    "topic": "ietf-119",
+    "dtime": 3678000,
+    "ptime": 3678000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>So - I'm a little confused here.  APN failed multiple BOF's - and is not fully defined - so I'm trying to understand what this draft is actually building on - and if we are not jumping the gun here. If and when APN is actually defined and interest is shown - should we not address this then?</p>",
+    "topic": "ietf-119",
+    "dtime": 3683000,
+    "ptime": 3683000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>andrew, please take that one to the mic. the room should hear it</p>",
+    "topic": "ietf-119",
+    "dtime": 3708000,
+    "ptime": 3708000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Sure</p>",
+    "topic": "ietf-119",
+    "dtime": 3718000,
+    "ptime": 3718000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>+1</p>",
+    "topic": "ietf-119",
+    "dtime": 3729000,
+    "ptime": 3729000
+  },
+  {
+    "author": "Mengxiao Chen",
+    "text": "<p>@Jie Section 4.2 of RFC8986 specified that End.X can be allocated to L2 bundle members.</p>",
+    "topic": "ietf-119",
+    "dtime": 3783000,
+    "ptime": 3783000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>@Mengxiao End.X was for IGP, my question is do we need a new type for l2bundle in BGP EPE? Better make is consistent between SR-MPLS and SRv6</p>",
+    "topic": "ietf-119",
+    "dtime": 3873000,
+    "ptime": 3873000
+  },
+  {
+    "author": "Mengxiao Chen",
+    "text": "<p>@Jie End.X can be used for BGP EPE, also specified by RFC8986. For MPLS-SR, we reuse the existing PeerAdj SID TLV. In SRv6, we use End.X SID TLV. I think it is consistent. :)</p>",
+    "topic": "ietf-119",
+    "dtime": 4054000,
+    "ptime": 4054000
+  },
+  {
+    "author": "Tom Strickx",
+    "text": "<p>Can we turn down the audio a bit, this is quite loud?</p>",
+    "topic": "ietf-119",
+    "dtime": 4558000,
+    "ptime": 4558000
+  },
+  {
+    "author": "Tom Strickx",
+    "text": "<p>Thank you!</p>",
+    "topic": "ietf-119",
+    "dtime": 4583000,
+    "ptime": 4583000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>@mengxiao chen, I see the text in RFC 8986, thanks.</p>",
+    "topic": "ietf-119",
+    "dtime": 4898000,
+    "ptime": 4898000
+  },
+  {
+    "author": "Tony Li",
+    "text": "<p>It would be good to see a comparison of FC-BGP and SCION. Also, some discussion of traffic engineering seems to be in order.</p>",
+    "topic": "ietf-119",
+    "dtime": 5841000,
+    "ptime": 5841000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>one big difference is scion is effectively \"forward between the ASes\"</p>",
+    "topic": "ietf-119",
+    "dtime": 6260000,
+    "ptime": 6260000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>apropos nothing: I'm impressed with the new meetecho. works a charm so far, sleeker interface, cameras well integrqated <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span> emojis in the chat, lookie ...</p>",
+    "topic": "ietf-119",
+    "dtime": 6480000,
+    "ptime": 6480000
+  },
+  {
+    "author": "Tony Przygienda",
+    "text": "<p>hmm, npoe, emojis broken it seems <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>",
+    "topic": "ietf-119",
+    "dtime": 6529000,
+    "ptime": 6529000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>but yes, much improved!</p>",
+    "topic": "ietf-119",
+    "dtime": 6544000,
+    "ptime": 6544000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>working very well here - and considering we've got like 8 outta 10 submarine cables serving africa down right now - so routing is real funky - Im impressed</p>",
+    "topic": "ietf-119",
+    "dtime": 6560000,
+    "ptime": 6560000
+  },
+  {
+    "author": "Andrew Alston",
+    "text": "<p>Btw - before I forget and we end - just wanted to say my thanks to the working group for all the work done during my tenure as AD - The working group was always a pleasure to work with. A special thanks to the chairs as well for the solid work they always put in.</p>",
+    "topic": "ietf-119",
+    "dtime": 6770000,
+    "ptime": 6770000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>Thank you Andew! :)</p>",
+    "topic": "ietf-119",
+    "dtime": 6985000,
+    "ptime": 6985000
+  },
+  {
+    "author": "Jie Dong",
+    "text": "<p>Thanks you Andrew, welcome back home John</p>",
+    "topic": "ietf-119",
+    "dtime": 7035000,
+    "ptime": 7035000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF119-IDR-20240318-0300"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/119/session/idr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF119-IDR-20240318-0300"
+		}		
+	]
+}

@@ -1,0 +1,392 @@
+
+{
+	"title": "IETF118-IDR-20231110-0830",
+	"filename": "IETF118-IDR-20231110-0830",
+	"start": 0,
+	"end": 7497000,
+	"start_datetime": "2023-11-10T08:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "zdc74vy7Hgo",
+    "start": 0,
+    "end": "7497000"
+  }
+],
+	"messages": [
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Sue, did you want to queue yourself at the end to talk about the adoption request for MNHA?</p>",
+    "topic": "ietf-118",
+    "dtime": 273000,
+    "ptime": 273000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>I have queued myself to announce the upcoming adoption call.</p>",
+    "topic": "ietf-118",
+    "dtime": 735000,
+    "ptime": 735000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>Pet peeve, RFC 5492 is Capabilities ADVERTISEMENT, not “negotiation”. BGP does not and has never “negotiated” capabilities.</p>",
+    "topic": "ietf-118",
+    "dtime": 1060000,
+    "ptime": 1060000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>At some point we should do some archive archæology.  I certainly remember it being negotiation at one point, but it's certainly not how it's ended up.</p>",
+    "topic": "ietf-118",
+    "dtime": 1145000,
+    "ptime": 1145000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@ketan did you still want the queue?</p>",
+    "topic": "ietf-118",
+    "dtime": 1160000,
+    "ptime": 1160000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"422\">Jeffrey Haas</span> <a href=\"#narrow/stream/229-idr/topic/ietf-118/near/100951\">said</a>:</p>\n<blockquote>\n<p>At some point we should do some archive archæology.  I certainly remember it being negotiation at one point, but it's certainly not how it's ended up.</p>\n</blockquote>\n<p>I did that investigation recently. It was totally sloppy wording on the part of the original authors, and nothing more. Mea maxima culpa. :-(</p>",
+    "topic": "ietf-118",
+    "dtime": 1506000,
+    "ptime": 1506000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Linda sounds a bit faint in the room. Is she audible remotely?</p>",
+    "topic": "ietf-118",
+    "dtime": 2160000,
+    "ptime": 2160000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>yes</p>",
+    "topic": "ietf-118",
+    "dtime": 2180000,
+    "ptime": 2180000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>minor need to up the vol knob</p>",
+    "topic": "ietf-118",
+    "dtime": 2183000,
+    "ptime": 2183000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>she is faint</p>",
+    "topic": "ietf-118",
+    "dtime": 2191000,
+    "ptime": 2191000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>should be better.</p>",
+    "topic": "ietf-118",
+    "dtime": 2203000,
+    "ptime": 2203000
+  },
+  {
+    "author": "Loa Andersson",
+    "text": "<p>isn't an upcominf wglc a counter indication for early allocation</p>",
+    "topic": "ietf-118",
+    "dtime": 2604000,
+    "ptime": 2604000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Ketan and Jeff -  please continue to comment to linda's text on list.</p>",
+    "topic": "ietf-118",
+    "dtime": 2689000,
+    "ptime": 2689000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@loa for chat as well minutes, the draft has received enough changes that early allocation and wglc are probably premature.  we'll continue iterating.</p>",
+    "topic": "ietf-118",
+    "dtime": 2824000,
+    "ptime": 2824000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p><a href=\"https://datatracker.ietf.org/meeting/97/materials/slides-97-idr-code-point-management-02\">https://datatracker.ietf.org/meeting/97/materials/slides-97-idr-code-point-management-02</a></p>",
+    "topic": "ietf-118",
+    "dtime": 2938000,
+    "ptime": 2938000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@linda</p>",
+    "topic": "ietf-118",
+    "dtime": 2943000,
+    "ptime": 2943000
+  },
+  {
+    "author": "John Scudder",
+    "text": "<p>I seem to have blundered into the CATS WG.</p>",
+    "topic": "ietf-118",
+    "dtime": 3173000,
+    "ptime": 3173000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>We are trying our best to fix that :)</p>",
+    "topic": "ietf-118",
+    "dtime": 3194000,
+    "ptime": 3194000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>The prior two presentations are a bit better focused on solving a targeted problem with shipping code.  I agree that they are cats-domain issues.</p>\n<p>The current presentation is a bit more abstract and covers more the problem statements of what you do about cats-stuff in bgp(-like) protocols.</p>",
+    "topic": "ietf-118",
+    "dtime": 3449000,
+    "ptime": 3449000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Is  BGP-LS information + communities sufficient for this draft?</p>",
+    "topic": "ietf-118",
+    "dtime": 3489000,
+    "ptime": 3489000
+  },
+  {
+    "author": "Ketan Talaulikar",
+    "text": "<p>definition of \"domain\" is important here :-)</p>",
+    "topic": "ietf-118",
+    "dtime": 3564000,
+    "ptime": 3564000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>bgp-ls might be helpful, but dynamicity will still be a point of discussion.</p>",
+    "topic": "ietf-118",
+    "dtime": 3844000,
+    "ptime": 3844000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>remote sound is coming and going..</p>",
+    "topic": "ietf-118",
+    "dtime": 4328000,
+    "ptime": 4328000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>room mic is fine.  @meetecho ?</p>",
+    "topic": "ietf-118",
+    "dtime": 4343000,
+    "ptime": 4343000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>Anyone else with remote sound issues?</p>",
+    "topic": "ietf-118",
+    "dtime": 4370000,
+    "ptime": 4370000
+  },
+  {
+    "author": "Randy Bush",
+    "text": "<p>level here in portland</p>",
+    "topic": "ietf-118",
+    "dtime": 4381000,
+    "ptime": 4381000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Sounds fine to us</p>",
+    "topic": "ietf-118",
+    "dtime": 4390000,
+    "ptime": 4390000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>ok - so it is the ietf wifi in hotel.</p>",
+    "topic": "ietf-118",
+    "dtime": 4407000,
+    "ptime": 4407000
+  },
+  {
+    "author": "Loa Andersson",
+    "text": "<p>I had expected that the authors for both draft declared that they will work together</p>",
+    "topic": "ietf-118",
+    "dtime": 4890000,
+    "ptime": 4890000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>Jie's document is the adopted work.  We'd require collaboration anyway.</p>",
+    "topic": "ietf-118",
+    "dtime": 5060000,
+    "ptime": 5060000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p><a href=\"https://datatracker.ietf.org/doc/html/draft-idr-bgp-rt-oscillation-01\">https://datatracker.ietf.org/doc/html/draft-idr-bgp-rt-oscillation-01</a></p>",
+    "topic": "ietf-118",
+    "dtime": 5074000,
+    "ptime": 5074000
+  },
+  {
+    "author": "Loa Andersson",
+    "text": "<p>@jeff, sure but it is a bit odd that they don't say so</p>",
+    "topic": "ietf-118",
+    "dtime": 5221000,
+    "ptime": 5221000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>@ketan - concerned about non-Walled garden case?</p>",
+    "topic": "ietf-118",
+    "dtime": 5612000,
+    "ptime": 5612000
+  },
+  {
+    "author": "Louis Chan",
+    "text": "<p>for v4/v6 mapping, I agree with Ketan 1st comment. There is no need for extra work for mapping.</p>",
+    "topic": "ietf-118",
+    "dtime": 6014000,
+    "ptime": 6014000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>This is a flavor of interdomain provisioning for cgnat.  I agree with ketan that the ability to carry the v4 piece is covered by rfc 5549. The encapsulation and translation is the piece that seems to need further discussion.</p>",
+    "topic": "ietf-118",
+    "dtime": 6066000,
+    "ptime": 6066000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>a further option might include a new tunnel encapsulation attribute feature.</p>",
+    "topic": "ietf-118",
+    "dtime": 6093000,
+    "ptime": 6093000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>I believe the authors are primarily interested in solving the problem rather than what the pdus look like.</p>",
+    "topic": "ietf-118",
+    "dtime": 6131000,
+    "ptime": 6131000
+  },
+  {
+    "author": "Robert Raszuk",
+    "text": "<p>Indeed extension to tunnel encap attr was something I suggested on the list in respect to this proposal</p>",
+    "topic": "ietf-118",
+    "dtime": 6158000,
+    "ptime": 6158000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>rfc5549 --&gt; rfc8950 (5549 is obsoleted)</p>",
+    "topic": "ietf-118",
+    "dtime": 6181000,
+    "ptime": 6181000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>another rfc that makes us feel old.  at least most people have stopped saying \"2547\" when they talk about l3vpn.</p>",
+    "topic": "ietf-118",
+    "dtime": 6213000,
+    "ptime": 6213000
+  },
+  {
+    "author": "Keyur Patel",
+    "text": "<p>@srihari - consider reducing/limiting authorlist to 5 please</p>",
+    "topic": "ietf-118",
+    "dtime": 6362000,
+    "ptime": 6362000
+  },
+  {
+    "author": "Susan Hares",
+    "text": "<p>#srihari - 5 authors is requirement for adoption.</p>",
+    "topic": "ietf-118",
+    "dtime": 6423000,
+    "ptime": 6423000
+  },
+  {
+    "author": "Boris Khasanov",
+    "text": "<p>how to distinguish existing and 'updated/extended' tunnel encap attribute?</p>",
+    "topic": "ietf-118",
+    "dtime": 6548000,
+    "ptime": 6548000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>TEA is TLV based.  Implementations are required to be able to handle unknown contents.</p>",
+    "topic": "ietf-118",
+    "dtime": 6582000,
+    "ptime": 6582000
+  },
+  {
+    "author": "Loa Andersson",
+    "text": "<p>I think AIGP need to be expanded at first use</p>",
+    "topic": "ietf-118",
+    "dtime": 6795000,
+    "ptime": 6795000
+  },
+  {
+    "author": "Louis Chan",
+    "text": "<p>@Srihari, instead of Accumulated, operations, like min/max, could be included.</p>",
+    "topic": "ietf-118",
+    "dtime": 6830000,
+    "ptime": 6830000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>@Sue - I understand about the author limit. Will update author list for adoption</p>",
+    "topic": "ietf-118",
+    "dtime": 6861000,
+    "ptime": 6861000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>@Loa - I</p>",
+    "topic": "ietf-118",
+    "dtime": 6943000,
+    "ptime": 6943000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>@Loa - I'm interpreting your comment as the \"first\" router to convert AIGP tlv to Generic-metric tlv, so to avoid all routers to be upgraded. Is it ? I have an issue with that</p>",
+    "topic": "ietf-118",
+    "dtime": 6985000,
+    "ptime": 6985000
+  },
+  {
+    "author": "Srihari Sangli",
+    "text": "<p>@Louis - the normalization procedure allows different operations that operator can do. At the end, the ingress router needs to compare paths for end-to-end cost and accumulation will help there.</p>",
+    "topic": "ietf-118",
+    "dtime": 7079000,
+    "ptime": 7079000
+  },
+  {
+    "author": "Jeffrey Haas",
+    "text": "<p>@prz I'll unlock queue once presentation as over. There's a bug that stops the presentation when that setting is touched.</p>",
+    "topic": "ietf-118",
+    "dtime": 7116000,
+    "ptime": 7116000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-IDR-20231110-0830"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/idr"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-IDR-20231110-0830"
+		}		
+	]
+}

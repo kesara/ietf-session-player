@@ -1,0 +1,1190 @@
+
+{
+	"title": "IETF118-LAMPS-20231108-1330",
+	"filename": "IETF118-LAMPS-20231108-1330",
+	"start": 0,
+	"end": 7257000,
+	"start_datetime": "2023-11-08T13:29:59Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "Iwq3FlqIbtE",
+    "start": 0,
+    "end": "7257000"
+  }
+],
+	"messages": [
+  {
+    "author": "Michael Richardson",
+    "text": "<p><span aria-label=\"mouse trap\" class=\"emoji emoji-1faa4\" role=\"img\" title=\"mouse trap\">:mouse_trap:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 22000,
+    "ptime": 22000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>thanks Rich!</p>",
+    "topic": "ietf-118",
+    "dtime": 108000,
+    "ptime": 108000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"169\">Michael Richardson</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98175\">said</a>:</p>\n<blockquote>\n<p><span aria-label=\"mouse trap\" class=\"emoji emoji-1faa4\" role=\"img\" title=\"mouse trap\">:mouse_trap:</span></p>\n</blockquote>\n<p>Mouse trap? Was that meant for the RATS channel?</p>",
+    "topic": "ietf-118",
+    "dtime": 294000,
+    "ptime": 294000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p><span aria-label=\"cheese\" class=\"emoji emoji-1f9c0\" role=\"img\" title=\"cheese\">:cheese:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 355000,
+    "ptime": 355000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"476\">@Sean Turner</span> which drafts are you most interested in, I'll let you know when we're one or two before them.</p>",
+    "topic": "ietf-118",
+    "dtime": 367000,
+    "ptime": 367000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>I'm doing part of the CMCbis drafts presentationn.</p>",
+    "topic": "ietf-118",
+    "dtime": 404000,
+    "ptime": 404000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>so the rfc5990bis topic?</p>",
+    "topic": "ietf-118",
+    "dtime": 467000,
+    "ptime": 467000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>item 7b on the agenda :)</p>",
+    "topic": "ietf-118",
+    "dtime": 509000,
+    "ptime": 509000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>oh dunh.  okay, i'll let you know when we're at 6e or so</p>",
+    "topic": "ietf-118",
+    "dtime": 547000,
+    "ptime": 547000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>thanks</p>",
+    "topic": "ietf-118",
+    "dtime": 604000,
+    "ptime": 604000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>There isn’t any reason you can’t do that, but where you put the certs (of just the certs for a given evidence statement) starts to permit a complex set of choice with the increase in the number of evidence statements.  I’d like the encoding to have two properties:  1) SHOULD NOT result in duplication of certificates ; 2) any given encoder when presented with identical data SHOULD produce identical encodings.  Hide and seek on the part of the receiver will not make anyone happy.</p>",
+    "topic": "ietf-118",
+    "dtime": 1333000,
+    "ptime": 1333000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>In regards to Falko's presentation.<br>\nAre we discussing the case where an email comes in, fails to decrypt properly, displays all garbled, so I hit Reply-All and say \"Hey, something wrong with your email, please send again\", and my MUA helpfully attaches the failed-to-decrypt content in the forwarded blob ?</p>",
+    "topic": "ietf-118",
+    "dtime": 1344000,
+    "ptime": 1344000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>Sorry this was a reply to the message above.  Zulip on an iPad is not obvious</p>",
+    "topic": "ietf-118",
+    "dtime": 1397000,
+    "ptime": 1397000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98229\">said</a>:</p>\n<blockquote>\n<p>Are we discussing the case where an email comes in, fails to decrypt properly, displays all garbled, so I hit Reply-All and say \"Hey, something wrong with your email, please send again\", and my MUA helpfully attaches the failed-to-decrypt content in the forwarded blob ?</p>\n</blockquote>\n<p>Yep, that's one form of the oracle, mike.  probably the most obvious form.  But the attack applies to anywhere there's an oracle.</p>",
+    "topic": "ietf-118",
+    "dtime": 1577000,
+    "ptime": 1577000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>a sensible MUA won't do that, of course.  but the overlap between \"sensible\" and \"MUA\" is … let's say a proper subset of each set.</p>",
+    "topic": "ietf-118",
+    "dtime": 1620000,
+    "ptime": 1620000
+  },
+  {
+    "author": "Dan Harkins",
+    "text": "<p>using AES-SIV would address this attack as well</p>",
+    "topic": "ietf-118",
+    "dtime": 1769000,
+    "ptime": 1769000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>please no please no please no middlebox transformations between CMS and COSE</p>",
+    "topic": "ietf-118",
+    "dtime": 1809000,
+    "ptime": 1809000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98249\">said</a>:</p>\n<blockquote>\n<p>please no please no please no middlebox transformations between CMS and COSE</p>\n</blockquote>\n<p>Agree.  More specifically, no transformation without explicitly sharing the key material</p>",
+    "topic": "ietf-118",
+    "dtime": 1925000,
+    "ptime": 1925000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>+1; the key should be as strictly linked to the context as possible</p>",
+    "topic": "ietf-118",
+    "dtime": 1991000,
+    "ptime": 1991000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I would hope that even if you're doing a CMS-to-COSE middlebox, that you have separate encryption keys / certs for S/MIME and COSE, which should thwart the attack, right? I live in hope.</p>",
+    "topic": "ietf-118",
+    "dtime": 2131000,
+    "ptime": 2131000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> There are examples for oracles from MUAs in efail if you're curious. Mostly section 6 and 7.</p>",
+    "topic": "ietf-118",
+    "dtime": 2214000,
+    "ptime": 2214000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>I mean, if you don't see \"30\" and think \"sequence-of\", what are you really doing?</p>",
+    "topic": "ietf-118",
+    "dtime": 2244000,
+    "ptime": 2244000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"637\">@Daniel Gillmor</span> To get back to your earlier point, I don't have enough background here but, is there any other date that should be included?</p>",
+    "topic": "ietf-118",
+    "dtime": 2267000,
+    "ptime": 2267000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@Yoav - +1</p>",
+    "topic": "ietf-118",
+    "dtime": 2269000,
+    "ptime": 2269000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>(deleted)</p>",
+    "topic": "ietf-118",
+    "dtime": 2366000,
+    "ptime": 2366000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>&lt;stark&gt; AES-SIV would be nice</p>",
+    "topic": "ietf-118",
+    "dtime": 2400000,
+    "ptime": 2400000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Shameless plug for <a href=\"https://github.com/google/der-ascii\">https://github.com/google/der-ascii</a> if you, like me, spend too much of your life having to encode and decode DER on sight. :-)</p>",
+    "topic": "ietf-118",
+    "dtime": 2443000,
+    "ptime": 2443000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 2524000,
+    "ptime": 2524000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p>BTW, I think Russ died just write the bytes down in his head.  Maybe he went back and calculated the lengths, but still...</p>",
+    "topic": "ietf-118",
+    "dtime": 2571000,
+    "ptime": 2571000
+  },
+  {
+    "author": "Michael StJohns",
+    "text": "<p>How does a receiver tell the difference between a message whose sender doesn’t implement this, and a message where the attacker removed the tag?  This is a transition question between now and when it’s expected</p>",
+    "topic": "ietf-118",
+    "dtime": 2572000,
+    "ptime": 2572000
+  },
+  {
+    "author": "John Gray",
+    "text": "<p>If there are usecases for context separation between COSE, JOSE and S/MIME then define a cross validation salt value, along with ones for everyone else.</p>",
+    "topic": "ietf-118",
+    "dtime": 2584000,
+    "ptime": 2584000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98281\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> To get back to your earlier point, I don't have enough background here but, is there any other date that should be included?</p>\n</blockquote>\n<p>I don't understand S/MIME, CMS, or X.509 well enough to know what additional data should be included in the KDF.  In TLS we just stopped trying to figure that out and included the full transcript in the KDF.</p>",
+    "topic": "ietf-118",
+    "dtime": 2652000,
+    "ptime": 2652000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>MIC: Bob Beck is unmuted</p>",
+    "topic": "ietf-118",
+    "dtime": 2743000,
+    "ptime": 2743000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>and back to the regular sequence of events ;)</p>",
+    "topic": "ietf-118",
+    "dtime": 2783000,
+    "ptime": 2783000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>\"include the full transcript in the KDF\" is pretty nice if you can do that</p>",
+    "topic": "ietf-118",
+    "dtime": 2801000,
+    "ptime": 2801000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98308\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98281\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> To get back to your earlier point, I don't have enough background here but, is there any other date that should be included?</p>\n</blockquote>\n<p>I don't understand S/MIME, CMS, or X.509 well enough to know what additional data should be included in the KDF.  In TLS we just stopped trying to figure that out and included the full transcript in the KDF.</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"100\">@Russ Housley</span> What's your opinion?</p>",
+    "topic": "ietf-118",
+    "dtime": 2819000,
+    "ptime": 2819000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"476\">@Sean Turner</span> 6A started.</p>",
+    "topic": "ietf-118",
+    "dtime": 2893000,
+    "ptime": 2893000
+  },
+  {
+    "author": "Sean Turner",
+    "text": "<p>ack</p>",
+    "topic": "ietf-118",
+    "dtime": 2915000,
+    "ptime": 2915000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"476\">@Sean Turner</span> they're skipping a bunch because already done, so section 6 is just about done.</p>",
+    "topic": "ietf-118",
+    "dtime": 3101000,
+    "ptime": 3101000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>sneak!</p>",
+    "topic": "ietf-118",
+    "dtime": 3147000,
+    "ptime": 3147000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"290\">John Gray</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98305\">said</a>:</p>\n<blockquote>\n<p>If there are usecases for context separation between COSE, JOSE and S/MIME then define a cross validation salt value, along with ones for everyone else.</p>\n</blockquote>\n<p>There should definitely be some form of context separation between encrypted objects in COSE, JOSE, and CMS. if there's a way to take a CMS message and mutate it into a COSE or JOSE object that can be decrypted with the same symmetric key, that is a really sketchy cross-protocol attack that makes it harder to analyze any of these overall systems.</p>",
+    "topic": "ietf-118",
+    "dtime": 3342000,
+    "ptime": 3342000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Arrrrgh.  He used the O-word</p>",
+    "topic": "ietf-118",
+    "dtime": 3394000,
+    "ptime": 3394000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Has anyone in the history of X.509 ever actually used those BIT STRINGs as BIT STRINGs? I have never seen an algorithm that doesn't actually want an OCTET STRING in BIT STRING's clothing.</p>",
+    "topic": "ietf-118",
+    "dtime": 3425000,
+    "ptime": 3425000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>are we really held hostage by OpenSSL's API here?</p>",
+    "topic": "ietf-118",
+    "dtime": 3427000,
+    "ptime": 3427000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Do these KEM definitions duplicate work elsewhere, like in CFRG?</p>",
+    "topic": "ietf-118",
+    "dtime": 3437000,
+    "ptime": 3437000
+  },
+  {
+    "author": "Daniel Van Geest",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98322\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98308\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98281\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> To get back to your earlier point, I don't have enough background here but, is there any other date that should be included?</p>\n</blockquote>\n<p>I don't understand S/MIME, CMS, or X.509 well enough to know what additional data should be included in the KDF.  In TLS we just stopped trying to figure that out and included the full transcript in the KDF.</p>\n</blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"100\">Russ Housley</span> What's your opinion?</p>\n</blockquote>\n<p>I also don't understand it all well enough, and in ACME <span class=\"user-mention\" data-user-id=\"3484\">@Deirdre Connolly</span>  pointed out that ML-KEM no longer commits to public key and ciphertext, while Kyber did.  I don't know if this becomes a problem for kemri, but if it does, I believe including the full transcript addresses this.</p>",
+    "topic": "ietf-118",
+    "dtime": 3460000,
+    "ptime": 3460000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>*ML-KEM no longer commits to ciphertext, not sure about public key</p>",
+    "topic": "ietf-118",
+    "dtime": 3482000,
+    "ptime": 3482000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Yes including the full transcript should keep you safe no matter what</p>",
+    "topic": "ietf-118",
+    "dtime": 3502000,
+    "ptime": 3502000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"3484\">@Deirdre Connolly</span> I think somebody mentioned earlier today that pquip has slides on different MLKEM usages because there is so much overlap in WGs.</p>",
+    "topic": "ietf-118",
+    "dtime": 3504000,
+    "ptime": 3504000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>What is the use case for Kyber + RSA? Don't we generally want Kyber + some EC?</p>",
+    "topic": "ietf-118",
+    "dtime": 3504000,
+    "ptime": 3504000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>More importantly, because these schemes know what algorithms they're doing, we know exactly what we're concatenating.</p>",
+    "topic": "ietf-118",
+    "dtime": 3512000,
+    "ptime": 3512000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>@Simon cheers, good</p>",
+    "topic": "ietf-118",
+    "dtime": 3523000,
+    "ptime": 3523000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i guess there's a question about what the \"full transcript\" is for CMS -- for TLS it's more obvious, because there is an explicit wire image, while CMS is relying on external certificates somehow.</p>",
+    "topic": "ietf-118",
+    "dtime": 3531000,
+    "ptime": 3531000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>(s/Kyber/ML-KEM)</p>",
+    "topic": "ietf-118",
+    "dtime": 3573000,
+    "ptime": 3573000
+  },
+  {
+    "author": "Aritra Banerjee",
+    "text": "<p>@Simon Friedberger: These slides will presented in PQUIP <a href=\"https://datatracker.ietf.org/meeting/118/materials/slides-118-pquip-pquip-hybridkem-comparisons-00\">https://datatracker.ietf.org/meeting/118/materials/slides-118-pquip-pquip-hybridkem-comparisons-00</a></p>",
+    "topic": "ietf-118",
+    "dtime": 3605000,
+    "ptime": 3605000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Careful, Kyber != ML-KEM, but</p>",
+    "topic": "ietf-118",
+    "dtime": 3650000,
+    "ptime": 3650000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>yeah sorry I haven't learned the difference yet</p>",
+    "topic": "ietf-118",
+    "dtime": 3667000,
+    "ptime": 3667000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Oh no not you Chris, to Mike, just in case</p>",
+    "topic": "ietf-118",
+    "dtime": 3683000,
+    "ptime": 3683000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>@Arita good to have the hybrid kem tracking, I'm also noticing the generic KEM (Keygen/Encaps/Decaps) proliferation of definitions across WGs</p>",
+    "topic": "ietf-118",
+    "dtime": 3765000,
+    "ptime": 3765000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"452\">Christopher Patton</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98377\">said</a>:</p>\n<blockquote>\n<p>(s/Kyber/ML-KEM)</p>\n</blockquote>\n<p>Rijndael forever.</p>",
+    "topic": "ietf-118",
+    "dtime": 3844000,
+    "ptime": 3844000
+  },
+  {
+    "author": "Aritra Banerjee",
+    "text": "<p>@Dierdre +1 to that.</p>",
+    "topic": "ietf-118",
+    "dtime": 3850000,
+    "ptime": 3850000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>This long list of ciphersuites scares me</p>",
+    "topic": "ietf-118",
+    "dtime": 3899000,
+    "ptime": 3899000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3905000,
+    "ptime": 3905000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3912000,
+    "ptime": 3912000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>... <span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3923000,
+    "ptime": 3923000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>...why is this chat turning my <code>100</code> into clocks</p>",
+    "topic": "ietf-118",
+    "dtime": 3951000,
+    "ptime": 3951000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 3959000,
+    "ptime": 3959000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>hwat</p>",
+    "topic": "ietf-118",
+    "dtime": 3966000,
+    "ptime": 3966000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>These are full pie charts</p>",
+    "topic": "ietf-118",
+    "dtime": 3969000,
+    "ptime": 3969000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>I see <code>100</code>s</p>",
+    "topic": "ietf-118",
+    "dtime": 3989000,
+    "ptime": 3989000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p>They're 100s on my end, web, FF.</p>",
+    "topic": "ietf-118",
+    "dtime": 3992000,
+    "ptime": 3992000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>wild</p>",
+    "topic": "ietf-118",
+    "dtime": 4003000,
+    "ptime": 4003000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>They're 100s on Zulip</p>",
+    "topic": "ietf-118",
+    "dtime": 4008000,
+    "ptime": 4008000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>I see clocks, with web Firefox client</p>",
+    "topic": "ietf-118",
+    "dtime": 4011000,
+    "ptime": 4011000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>They're full pie charts in MeetEcho</p>",
+    "topic": "ietf-118",
+    "dtime": 4039000,
+    "ptime": 4039000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><a href=\"/user_uploads/2/20/bFu9GCpH9jA8dHdQbTdquT3x/2023-11-08_15-36-51_window_810x568.png\">2023-11-08_15-36-51_window_810x568.png</a> (chromium 119.0.6045.105-1)</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/20/bFu9GCpH9jA8dHdQbTdquT3x/2023-11-08_15-36-51_window_810x568.png\" title=\"2023-11-08_15-36-51_window_810x568.png\"><img src=\"/user_uploads/2/20/bFu9GCpH9jA8dHdQbTdquT3x/2023-11-08_15-36-51_window_810x568.png\"></a></div>",
+    "topic": "ietf-118",
+    "dtime": 4061000,
+    "ptime": 4061000
+  },
+  {
+    "author": "Simon Friedberger",
+    "text": "<p>Oh, it's Meetecho vs Zulip...?</p>",
+    "topic": "ietf-118",
+    "dtime": 4081000,
+    "ptime": 4081000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>in <code>zulip.ietf.org</code>, they are the proper <span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span>'s; in <a href=\"https://meetecho.ietf.org/\">https://meetecho.ietf.org/</a> they are <span aria-label=\"clock\" class=\"emoji emoji-1f557\" role=\"img\" title=\"clock\">:clock:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4086000,
+    "ptime": 4086000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>hilarious</p>",
+    "topic": "ietf-118",
+    "dtime": 4097000,
+    "ptime": 4097000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"123\">@Meetecho Robot</span> we have an emoji emergency upthread here</p>",
+    "topic": "ietf-118",
+    "dtime": 4116000,
+    "ptime": 4116000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>I see 🕐 in meetecho :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4127000,
+    "ptime": 4127000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>Yeah, 100% or full pie chart.  Except the full pie chart looks like a weird clock</p>",
+    "topic": "ietf-118",
+    "dtime": 4159000,
+    "ptime": 4159000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>HA i send a 🕐 it turns into ⌛ in meetecho</p>",
+    "topic": "ietf-118",
+    "dtime": 4168000,
+    "ptime": 4168000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Yeah, unfortunately the emoji desync between zulip and Meetecho is a known problem, it's on the todo list, sorry for the confusion :D</p>",
+    "topic": "ietf-118",
+    "dtime": 4169000,
+    "ptime": 4169000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"sob\" class=\"emoji emoji-1f62d\" role=\"img\" title=\"sob\">:sob:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4178000,
+    "ptime": 4178000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>It's why I write colon-D to smile like it's still 1998!</p>",
+    "topic": "ietf-118",
+    "dtime": 4217000,
+    "ptime": 4217000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>you're missing out on innovations like 🫠</p>",
+    "topic": "ietf-118",
+    "dtime": 4264000,
+    "ptime": 4264000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>People write here \"/me thinks this is strange\" like this is IRC</p>",
+    "topic": "ietf-118",
+    "dtime": 4289000,
+    "ptime": 4289000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>heh</p>",
+    "topic": "ietf-118",
+    "dtime": 4297000,
+    "ptime": 4297000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span> U+1F4AF HUNDRED POINTS SYMBOL → 🕐 U+1F550 CLOCK FACE ONE OCLOCK<br>\n🕐 U+1F550 CLOCK FACE ONE OCLOCK → ⌛U+231B HOURGLASS ??</p>",
+    "topic": "ietf-118",
+    "dtime": 4342000,
+    "ptime": 4342000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4438000,
+    "ptime": 4438000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4508000,
+    "ptime": 4508000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Thank you on ciphersuite alignment for KEMs</p>",
+    "topic": "ietf-118",
+    "dtime": 4521000,
+    "ptime": 4521000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>The \"choice\" on the TLS side is a red herring. Keep in mind that TLS negotiated \"named groups\" and \"cipher suites\" completely orthogonally.</p>",
+    "topic": "ietf-118",
+    "dtime": 4596000,
+    "ptime": 4596000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4611000,
+    "ptime": 4611000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Thanks all for clarifying :)</p>",
+    "topic": "ietf-118",
+    "dtime": 4620000,
+    "ptime": 4620000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>In practice, yes, TLS implementations tends to use AES-128-GCM. One could do a switch to AES-256 with ML-KEM but... yeah that's not going to happen. :-)</p>",
+    "topic": "ietf-118",
+    "dtime": 4682000,
+    "ptime": 4682000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4720000,
+    "ptime": 4720000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"829\">@David Benjamin</span> you don't think there could be a switch to AES-256 independently of ML-KEM?</p>",
+    "topic": "ietf-118",
+    "dtime": 4738000,
+    "ptime": 4738000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>nah</p>",
+    "topic": "ietf-118",
+    "dtime": 4756000,
+    "ptime": 4756000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>i mean, maybe, but, they will happen on different schedules</p>",
+    "topic": "ietf-118",
+    "dtime": 4779000,
+    "ptime": 4779000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>IIRC, ANSSI or BSI said that Grover against AES-128 is theoretical, so there's no need for migration to AES-256 with PQC kex</p>",
+    "topic": "ietf-118",
+    "dtime": 4806000,
+    "ptime": 4806000
+  },
+  {
+    "author": "Christopher Patton",
+    "text": "<p>Trying to massage the symmetric and public-key crypto into the same security level is probably not that important. Shor's algorithm is much closer to being implemented than Grover's for key search.</p>",
+    "topic": "ietf-118",
+    "dtime": 4816000,
+    "ptime": 4816000
+  },
+  {
+    "author": "Hubert Kario",
+    "text": "<p>so there is no guarantee that everybody will move to AES-256</p>",
+    "topic": "ietf-118",
+    "dtime": 4828000,
+    "ptime": 4828000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 4828000,
+    "ptime": 4828000
+  },
+  {
+    "author": "Aritra Banerjee",
+    "text": "<p>+1 to that.</p>",
+    "topic": "ietf-118",
+    "dtime": 4886000,
+    "ptime": 4886000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>I mean, I wouldn't say there <em>can't</em> be a transition. Just seems an unnecessary amount of fuss to tie it to the KEM selection logic. (Of course a server <em>could</em> tie the two together in the selection logic.) But yeah the consensus also seems to be that it's unnecessary.</p>",
+    "topic": "ietf-118",
+    "dtime": 4927000,
+    "ptime": 4927000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"plus\" class=\"emoji emoji-2795\" role=\"img\" title=\"plus\">:plus:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 5048000,
+    "ptime": 5048000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>+1 to Tim: OCSP should return valid on a cert like this.</p>",
+    "topic": "ietf-118",
+    "dtime": 5097000,
+    "ptime": 5097000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>how do you know it has been issued?</p>",
+    "topic": "ietf-118",
+    "dtime": 5122000,
+    "ptime": 5122000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>If issued, then valid is the proper response</p>",
+    "topic": "ietf-118",
+    "dtime": 5133000,
+    "ptime": 5133000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>it it hasn't been issued, then it should return 'not issued'.</p>",
+    "topic": "ietf-118",
+    "dtime": 5154000,
+    "ptime": 5154000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>And what if you don't know if it has been issued or not, because you're responding based on looking in the CRL?</p>",
+    "topic": "ietf-118",
+    "dtime": 5291000,
+    "ptime": 5291000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Virtual queue seems not to have worked but, uh, what is the relying party intended to do with this noRevAvail bit? You can observe that there is no rev info available by the lack of crldp and OCSP extension. ISTM noRevAvail is just telling you \"yup, those are indeed not there...\"</p>",
+    "topic": "ietf-118",
+    "dtime": 5297000,
+    "ptime": 5297000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>\"We really mean it. We're not just bad at encoding certificates\"</p>",
+    "topic": "ietf-118",
+    "dtime": 5336000,
+    "ptime": 5336000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>not there, by design</p>",
+    "topic": "ietf-118",
+    "dtime": 5340000,
+    "ptime": 5340000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"1140\">Simon Friedberger</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98366\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"3484\">Deirdre Connolly</span> I think somebody mentioned earlier today that pquip has slides on different MLKEM usages because there is so much overlap in WGs.</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"3484\">@Deirdre Connolly</span>  It's sorta all me. I'm the lead author of the CFRG KEM combiners draft. I am the lead author of the LAMPS CompositeKEMs draft (which is a direct application of the CFRG one).  I am also giving the PQUIP Hybrid KEMs Alignment talk :)</p>",
+    "topic": "ietf-118",
+    "dtime": 5372000,
+    "ptime": 5372000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>And what behavior change would the relying party trigger based on this \"we really mean it\" bit?</p>",
+    "topic": "ietf-118",
+    "dtime": 5380000,
+    "ptime": 5380000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@David:  to stop looking for the CRL?</p>",
+    "topic": "ietf-118",
+    "dtime": 5407000,
+    "ptime": 5407000
+  },
+  {
+    "author": "Yoav Nir",
+    "text": "<p>If you don't have a CRLDP, where are you going to look?</p>",
+    "topic": "ietf-118",
+    "dtime": 5425000,
+    "ptime": 5425000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>But it knows there's no CRL to look for by way of lack of crldp.</p>",
+    "topic": "ietf-118",
+    "dtime": 5432000,
+    "ptime": 5432000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>@mike <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 5465000,
+    "ptime": 5465000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>not always.</p>",
+    "topic": "ietf-118",
+    "dtime": 5469000,
+    "ptime": 5469000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"829\">@David Benjamin</span> maybe it's not for the relying party -- but rather for the auditor looking at what was issued by the CA?</p>",
+    "topic": "ietf-118",
+    "dtime": 5481000,
+    "ptime": 5481000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>i agree that it seems to have the exact same semantics for the relying party.</p>",
+    "topic": "ietf-118",
+    "dtime": 5519000,
+    "ptime": 5519000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"3484\">Deirdre Connolly</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98389\">said</a>:</p>\n<blockquote>\n<p>Oh no not you Chris, to Mike, just in case</p>\n</blockquote>\n<p>I know I know I know :P</p>",
+    "topic": "ietf-118",
+    "dtime": 5570000,
+    "ptime": 5570000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>I believe, revocation information not available for RP is different from CA not providing revocation mechanism.<br>\nIs that mean no revocation mechanism provided by CA?</p>",
+    "topic": "ietf-118",
+    "dtime": 5622000,
+    "ptime": 5622000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"637\">Daniel Gillmor</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98558\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"829\">David Benjamin</span> maybe it's not for the relying party -- but rather for the auditor looking at what was issued by the CA?</p>\n</blockquote>\n<p>The draft doesn't seem to say anything about this. But, even then, presumably the auditor is checking some property like \"the CA said it will include CRLDP unless the cert lasts less than N days\", so the redundant bit is also not useful here. An auditor that lets any noRevAvail slide is unlikely to be doing anything useful.</p>",
+    "topic": "ietf-118",
+    "dtime": 5630000,
+    "ptime": 5630000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"331\">Deb Cooley</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98555\">said</a>:</p>\n<blockquote>\n<p>not always.</p>\n</blockquote>\n<p>Hmm, so, is this is some external revocation service that your RP has a priori knowledge about, but that it doesn't have a priori knowledge about which certificates are out of scope for it?</p>",
+    "topic": "ietf-118",
+    "dtime": 5747000,
+    "ptime": 5747000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>yes, like that.</p>",
+    "topic": "ietf-118",
+    "dtime": 5881000,
+    "ptime": 5881000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>sometimes certs are issued on networks where the CRL can't be reached.</p>",
+    "topic": "ietf-118",
+    "dtime": 5897000,
+    "ptime": 5897000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>so we pre-populate it to an accessible location.</p>",
+    "topic": "ietf-118",
+    "dtime": 5917000,
+    "ptime": 5917000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>CRLDP is just awkward in that case.</p>",
+    "topic": "ietf-118",
+    "dtime": 5936000,
+    "ptime": 5936000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>some browsers require to publish CLR in around cabforum. some CA do not put CRLD on the Certificate, but publish CRL by someCRLDP</p>",
+    "topic": "ietf-118",
+    "dtime": 6016000,
+    "ptime": 6016000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Mmm. I do find it strange that to use a signal, inside the thing you don't yet believe, to decide whether to skip one of the checks you'd otherwise have considered a requirement to decide whether you believe the thing. :-) I would have expected it to be based on validity or whatever other criteria you decide revocation is unnecessary. But it's hard for me to reason about that abstractly... if that's the target use case, perhaps the draft could expand on it?</p>",
+    "topic": "ietf-118",
+    "dtime": 6017000,
+    "ptime": 6017000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>for CRLite I believe.</p>",
+    "topic": "ietf-118",
+    "dtime": 6048000,
+    "ptime": 6048000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>But schemes like CRLite or CRLSets are pre-pushed blobs that you go do a lookup into. Doing an extra query in them is basically free.</p>",
+    "topic": "ietf-118",
+    "dtime": 6116000,
+    "ptime": 6116000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>The draft just needs to address OCSP and what the plan is.</p>",
+    "topic": "ietf-118",
+    "dtime": 6138000,
+    "ptime": 6138000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>In addition, CRLite can cause false positive (I believe), but we may not help those people.</p>",
+    "topic": "ietf-118",
+    "dtime": 6201000,
+    "ptime": 6201000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Ah, that's true. CRLite's false positive avoidance depends both sides agreeing on the universe of certificates.</p>",
+    "topic": "ietf-118",
+    "dtime": 6216000,
+    "ptime": 6216000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>Non-Separability</p>",
+    "topic": "ietf-118",
+    "dtime": 6230000,
+    "ptime": 6230000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>(weak vs strong)</p>",
+    "topic": "ietf-118",
+    "dtime": 6249000,
+    "ptime": 6249000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Non-Separability:<br>\nWe have been working closely with Britta Hale (as recently as this week's hackathon) to roll stronger NS into this composite-sigs draft.</p>",
+    "topic": "ietf-118",
+    "dtime": 6286000,
+    "ptime": 6286000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"dancer\" class=\"emoji emoji-1f483\" role=\"img\" title=\"dancer\">:dancer:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 6299000,
+    "ptime": 6299000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>But, imagining what I'd do as an RP, if I just see a random cert with noRevAvail, I think it'd still be important to apply a validity check on it. At which point, that may as well be the criteria. Also in the context of CRLite, what the CA believes should be excluded from the universe may not be what the CRLite assembler believes.</p>",
+    "topic": "ietf-118",
+    "dtime": 6372000,
+    "ptime": 6372000
+  },
+  {
+    "author": "Peter Campbell",
+    "text": "<p>@Mike This only provides weak non-separability.  The OID is an artefact indicating the existince of the hybrid, but I think you still have something that verifies for a component algorithm.</p>",
+    "topic": "ietf-118",
+    "dtime": 6431000,
+    "ptime": 6431000
+  },
+  {
+    "author": "David Benjamin",
+    "text": "<p>Anyway, my broader point is I do not think the draft sufficiently justifies why we need this bit. Whatever use case it has in mind should be written down.</p>",
+    "topic": "ietf-118",
+    "dtime": 6434000,
+    "ptime": 6434000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>It may not matter if, for instance validity period is 7 days, but not quite sure about 90days</p>",
+    "topic": "ietf-118",
+    "dtime": 6444000,
+    "ptime": 6444000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>ummm</p>",
+    "topic": "ietf-118",
+    "dtime": 6479000,
+    "ptime": 6479000
+  },
+  {
+    "author": "Peter Campbell",
+    "text": "<p>It's valid for a different message M' = OID || M.</p>",
+    "topic": "ietf-118",
+    "dtime": 6525000,
+    "ptime": 6525000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"check\" class=\"emoji emoji-2705\" role=\"img\" title=\"check\">:check:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 6553000,
+    "ptime": 6553000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>that's scary</p>",
+    "topic": "ietf-118",
+    "dtime": 6558000,
+    "ptime": 6558000
+  },
+  {
+    "author": "Tadahiko Ito",
+    "text": "<p>if life time of the certs were shorter than publishing cycle + distribution lag, not providing revocation mechanism at all should be reasonable</p>",
+    "topic": "ietf-118",
+    "dtime": 6646000,
+    "ptime": 6646000
+  },
+  {
+    "author": "Daniel Gillmor",
+    "text": "<p>you'd like to know that <em>non-composite</em> signatures are also over <code>OID || M</code> -- that should make a collision impossible.</p>",
+    "topic": "ietf-118",
+    "dtime": 6658000,
+    "ptime": 6658000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>re: relying on the thing you don't trust to know whether or not rev should be checked for noRevAvail, maybe the extension belongs in the CA cert as a value that indicates validity periods below which no rev is available. one may already trust the CA cert. that would avoid cases where it appears in \"long\" lived certs as well.</p>",
+    "topic": "ietf-118",
+    "dtime": 6836000,
+    "ptime": 6836000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>hm</p>",
+    "topic": "ietf-118",
+    "dtime": 6917000,
+    "ptime": 6917000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>@ Carl:  perfect</p>",
+    "topic": "ietf-118",
+    "dtime": 6997000,
+    "ptime": 6997000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>hmmmm</p>",
+    "topic": "ietf-118",
+    "dtime": 7065000,
+    "ptime": 7065000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>list of public keys = otherwise known as a directory?</p>",
+    "topic": "ietf-118",
+    "dtime": 7094000,
+    "ptime": 7094000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>DIDs!</p>",
+    "topic": "ietf-118",
+    "dtime": 7135000,
+    "ptime": 7135000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>As seen on BlueSky!</p>",
+    "topic": "ietf-118",
+    "dtime": 7145000,
+    "ptime": 7145000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p>:nod nod:</p>",
+    "topic": "ietf-118",
+    "dtime": 7164000,
+    "ptime": 7164000
+  },
+  {
+    "author": "Rich Salz",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"331\">Deb Cooley</span> <a href=\"#narrow/stream/68-lamps/topic/ietf-118/near/98693\">said</a>:</p>\n<blockquote>\n<p>list of public keys = otherwise known as a directory?</p>\n</blockquote>\n<p>That's not funny, Deb</p>",
+    "topic": "ietf-118",
+    "dtime": 7205000,
+    "ptime": 7205000
+  },
+  {
+    "author": "Deb Cooley",
+    "text": "<p>yes it is</p>",
+    "topic": "ietf-118",
+    "dtime": 7218000,
+    "ptime": 7218000
+  },
+  {
+    "author": "Deirdre Connolly",
+    "text": "<p><span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+    "topic": "ietf-118",
+    "dtime": 7228000,
+    "ptime": 7228000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF118-LAMPS-20231108-1330"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/118/session/lamps"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF118-LAMPS-20231108-1330"
+		}		
+	]
+}

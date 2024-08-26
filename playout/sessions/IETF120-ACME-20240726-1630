@@ -1,0 +1,259 @@
+
+{
+	"title": "IETF120-ACME-20240726-1630",
+	"filename": "IETF120-ACME-20240726-1630",
+	"start": 0,
+	"end": 3716000,
+	"start_datetime": "2024-07-26T16:30:00Z",
+	"videos": [
+  {
+    "type": 2,
+    "src": "NiijAtyagoI",
+    "start": 0,
+    "end": "3716000"
+  }
+],
+	"messages": [
+  {
+    "author": "Carl Wallace",
+    "text": "<p>For anyone listening to audio stream, the audio stream for ACME is actually Georgia A (not Georgia B like the agenda says).</p>",
+    "topic": "ietf-120",
+    "dtime": 246000,
+    "ptime": 246000
+  },
+  {
+    "author": "Lorenzo Miniero",
+    "text": "<p>Cart: looking into this</p>",
+    "topic": "ietf-120",
+    "dtime": 278000,
+    "ptime": 278000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"500\">@Mike Ounsworth</span> I'm here, fwiw</p>",
+    "topic": "ietf-120",
+    "dtime": 371000,
+    "ptime": 371000
+  },
+  {
+    "author": "Akira Tsukamoto",
+    "text": "<p>Hi</p>",
+    "topic": "ietf-120",
+    "dtime": 421000,
+    "ptime": 421000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<p>I'm had to be in NYC for a team thing, so I'm remote on the Meetecho as well as the chat</p>",
+    "topic": "ietf-120",
+    "dtime": 465000,
+    "ptime": 465000
+  },
+  {
+    "author": "A.J. Stein",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/57-acme/topic/ietf-120/near/130868\">said</a>:</p>\n<blockquote>\n<p>I may be a couple mins late (going for a bike ride),<br>\n<strong>But I have an agenda bash</strong>: during AOB I'd like to talk about a discussion from list, which is starting a ConceptualMessageWrapper-over-ACME draft which would be parallel to Brandon Weeks' device-attest-01 draft. On-list we discussed that attestation data in the CMW format could grab <code>device-attest-02</code>.</p>\n</blockquote>\n<p>I am glad this was brought up and the kind of addition I look forward to, glad I attended.</p>",
+    "topic": "ietf-120",
+    "dtime": 628000,
+    "ptime": 628000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention\" data-user-id=\"79\">@Thomas Fossati</span> Are you here in ACME?</p>",
+    "topic": "ietf-120",
+    "dtime": 1098000,
+    "ptime": 1098000
+  },
+  {
+    "author": "Anna Dubovitskaya",
+    "text": "<p>I'm a little bit new to this field, so sorry if this question is obvious - is this about the allowance of profiles in general (and implementers make their own and advertise them) or the defining of a few standardized profiles in a draft that can then be used in a 'profile' field?</p>",
+    "topic": "ietf-120",
+    "dtime": 1733000,
+    "ptime": 1733000
+  },
+  {
+    "author": "Anna Dubovitskaya",
+    "text": "<p>thank you!</p>",
+    "topic": "ietf-120",
+    "dtime": 1858000,
+    "ptime": 1858000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Analogy: Some guy comes to your CA website and CTRL+V's a CSR into it. We \"trust the transport (HTTPS)\", but that doesn't say anything about whether the content should be trusted. I agree fully with Aaron that CSRs are untrusted input data -- as with any field in ACME -- but that CSR is a much more complicated schema with a complicated history, and therefore more open to implementation bugs (Aaron's referencing blindly copying attributes, but other bugs are possible).</p>",
+    "topic": "ietf-120",
+    "dtime": 2054000,
+    "ptime": 2054000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>I'm a strong vote for \"don't have the necessary expertise on the intersection of TOR and ACME.\"</p>",
+    "topic": "ietf-120",
+    "dtime": 2312000,
+    "ptime": 2312000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Since I don't have slides for the CMW-over-ACME agenda bash, I'll type out a summary of the situation.</p>\n<p>Brandon's draft-acme-device-attest does an excellent job of carrying WebAuthn over ACME. It is targeted (I think) at iOS and Android, and this draft does a great, targeted, job at solving this problem.</p>\n<p>More generally, there are lots of non-WebAuthn attestation types emerging through the RATS WG. The more general wrapper format that is preferred by RATS is ConceptualMessageWrapper (CMW).</p>\n<p>We should support CMW in ACME (there seems to debate on this). A couple of design options:<br>\n1) Carl proposed that we register CMW as a sub-format of WebAuthn, then carry it inside Brandon's device-attest-01. This is messy to put a wrapper format (CMW) inside another wrapper format (WebAuthn).  </p>\n<p>The other option is to start a new draft for carrying CMW directly in ACME. Maybe we call it \"device-attest-02\", or some other challenge type. This seems more natural, not the least because WebAuthn is not an IETF spec, but CMW is (draft-ietf-rats-msg-wrap), so why would we force the IETF format to be carried inside someone else's format?</p>\n<p>I would like to use AOB time to discuss this.</p>",
+    "topic": "ietf-120",
+    "dtime": 2398000,
+    "ptime": 2398000
+  },
+  {
+    "author": "Corey Bonnell",
+    "text": "<p>I can’t find the reference/write-up now, but a researcher found a XSS vuln in a web-based CSR viewer a few years ago by smuggling JavaScript in the CN attribute value</p>",
+    "topic": "ietf-120",
+    "dtime": 2461000,
+    "ptime": 2461000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>Minor edit: Carl proposed we not have multiple competing top level wrappers.</p>",
+    "topic": "ietf-120",
+    "dtime": 2468000,
+    "ptime": 2468000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<blockquote>\n<p>Brandon's draft-acme-device-attest does an excellent job of carrying WebAuthn over ACME. It is targeted (I think) at iOS and Android, and this draft does a great, targeted, job at solving this problem.</p>\n</blockquote>\n<p>It is targeted at 'client devices': Android, Chrome OS, iOS, macOS, and Windows.</p>",
+    "topic": "ietf-120",
+    "dtime": 2526000,
+    "ptime": 2526000
+  },
+  {
+    "author": "Carl Wallace",
+    "text": "<p>With CMW as second top level wrapper, is our top level wrapper collection complete? The mailing list suggested and third format (or presumably more). This all feels like the cert req protocol array in PKIX.</p>",
+    "topic": "ietf-120",
+    "dtime": 2872000,
+    "ptime": 2872000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Brandon just railed at the complexity of CSRs leading to bugs. WebAuthn and CMW are threatening to be similarly complex. Nesting them N^2 that complexity.</p>",
+    "topic": "ietf-120",
+    "dtime": 2956000,
+    "ptime": 2956000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>*Aaron</p>",
+    "topic": "ietf-120",
+    "dtime": 2964000,
+    "ptime": 2964000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<p>In the RATS future perfect state, will EAT always be encapsulated in CMW?</p>",
+    "topic": "ietf-120",
+    "dtime": 3075000,
+    "ptime": 3075000
+  },
+  {
+    "author": "Bob Beck",
+    "text": "<p>I mean it means you could take CSR's behind the barn...</p>",
+    "topic": "ietf-120",
+    "dtime": 3186000,
+    "ptime": 3186000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>... and serve them tea?</p>",
+    "topic": "ietf-120",
+    "dtime": 3206000,
+    "ptime": 3206000
+  },
+  {
+    "author": "Bob Beck",
+    "text": "<p>where they can play with all the other bad ideas in a field..</p>",
+    "topic": "ietf-120",
+    "dtime": 3227000,
+    "ptime": 3227000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/57-acme/topic/ietf-120/near/131071\">said</a>:</p>\n<blockquote>\n<p>Brandon just railed at the complexity of CSRs leading to bugs. WebAuthn and CMW are threatening to be similarly complex. Nesting them N^2 that complexity.</p>\n</blockquote>\n<p>The complexity I'm most worried about is ACME implementation needing to have a verifier for every vendor scheme it wants to validate.</p>",
+    "topic": "ietf-120",
+    "dtime": 3263000,
+    "ptime": 3263000
+  },
+  {
+    "author": "Bob Beck",
+    "text": "<p>proof of posession would be very very nice</p>",
+    "topic": "ietf-120",
+    "dtime": 3266000,
+    "ptime": 3266000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p><span class=\"user-mention silent\" data-user-id=\"225\">Brandon Weeks</span> <a href=\"#narrow/stream/57-acme/topic/ietf-120/near/131091\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"500\">Mike Ounsworth</span> <a href=\"#narrow/stream/57-acme/topic/ietf-120/near/131071\">said</a>:</p>\n<blockquote>\n<p>Brandon just railed at the complexity of CSRs leading to bugs. WebAuthn and CMW are threatening to be similarly complex. Nesting them N^2 that complexity.</p>\n</blockquote>\n<p>The complexity I'm most worried about is ACME implementation needing to have a verifier for every vendor scheme it wants to validate.</p>\n</blockquote>\n<p>Agreed, and RATS is working on that as fast as we can: both CBOR EAT (draft-ietf-rats-eat) and ASN.1 EAT (draft-ounsworth-rats-pkix-evidence) are being worked on.</p>",
+    "topic": "ietf-120",
+    "dtime": 3351000,
+    "ptime": 3351000
+  },
+  {
+    "author": "Mike Ounsworth",
+    "text": "<p>Also, word of wisdom: don't just google \"rats eat\". It gives image results that I wasn't prepared for.</p>",
+    "topic": "ietf-120",
+    "dtime": 3398000,
+    "ptime": 3398000
+  },
+  {
+    "author": "Aaron Gable",
+    "text": "<p>Proof of possession is absolutely my goal. It also makes revocation for reason keyCompromise so much better.</p>",
+    "topic": "ietf-120",
+    "dtime": 3468000,
+    "ptime": 3468000
+  },
+  {
+    "author": "Brandon Weeks",
+    "text": "<p>Now that I'm part of Android, I suppose it would be prudent for me to be more involved in RATS.</p>",
+    "topic": "ietf-120",
+    "dtime": 3492000,
+    "ptime": 3492000
+  },
+  {
+    "author": "Andrew Chen",
+    "text": "<p>Certain cdns only let you load certs into it by giving you a csr. You can’t load your own private key into the cdn</p>",
+    "topic": "ietf-120",
+    "dtime": 3497000,
+    "ptime": 3497000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>yeah +1 for standardized POP mechanism for key-compromise</p>",
+    "topic": "ietf-120",
+    "dtime": 3587000,
+    "ptime": 3587000
+  },
+  {
+    "author": "Tim Hollebeek",
+    "text": "<p>I've wanted that for a decade</p>",
+    "topic": "ietf-120",
+    "dtime": 3592000,
+    "ptime": 3592000
+  },
+  {
+    "author": "Aaron Gable",
+    "text": "<p>Thanks everyone!</p>",
+    "topic": "ietf-120",
+    "dtime": 3643000,
+    "ptime": 3643000
+  }
+],
+	"panels": [
+		{
+			"type": 0,
+			"title": "Transcript",
+			"link": "resources/IETF120-ACME-20240726-1630"
+		},
+		{
+			"type": 1,
+			"title": "Datatracker",
+			"link": "https://datatracker.ietf.org/meeting/120/session/acme"
+		},
+		{
+			"type": 3,
+			"title": "Show of hands",
+			"link": "polls/IETF120-ACME-20240726-1630"
+		}		
+	]
+}
