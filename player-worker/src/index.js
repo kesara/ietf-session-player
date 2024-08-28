@@ -4,6 +4,10 @@ export default {
     const normalizedPath = url.pathname.slice(1).toLowerCase();
     var objectName = url.pathname.slice(1);
 
+    if (url.pathname === '/') {
+      return Response.redirect('https://datatracker.ietf.org/meeting/past', 302);
+    }
+
     if (normalizedPath === 'playout' || normalizedPath === 'playout/') {
       objectName = 'playout/index.html';
     }
